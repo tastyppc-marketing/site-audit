@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude_ai_Ahrefs__site-explorer-metrics",
+      "mcp__claude_ai_Ahrefs__site-explorer-domain-rating",
+      "mcp__claude_ai_Ahrefs__subscription-info-limits-and-usage",
+      "mcp__claude_ai_Ahrefs__keywords-explorer-overview",
+      "mcp__claude_ai_Ahrefs__serp-overview",
+      "WebSearch",
+      "mcp__claude_ai_Ahrefs__batch-analysis",
+      "Skill(smart-team)"
+    ]
+  }
+}
