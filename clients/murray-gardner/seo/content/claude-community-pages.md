@@ -1,626 +1,498 @@
-# Community Pages: Gardner Group Realtors
-**Prepared for:** Murray Gardner | Gardner Group Realtors | Keller Williams Park City
-**Pages:** 4 expanded community/service-area pages
-**Target site:** gardnergrouprealtors.com
+# Expanded Community Pages: Gardner Group Realtors
+**Client:** Murray Gardner | Gardner Group Realtors | Keller Williams Park City
+**Site:** https://www.gardnergrouprealtors.com
+**Prepared by:** SEO Content Team
 **Date:** March 12, 2026
 
 ---
 
-## Selection Rationale
+## Editorial Notes
 
-The four communities below were selected because they are all confirmed listing-only shells (150–200 words of unique content each) identified in the content audit, AND they represent critical keyword gaps from the SEO research:
+These four pages address the most critical listing-shell gaps identified in the content audit. All four neighborhoods currently have fewer than 200 words of unique copy despite generating measurable search demand. Each page is written to 1,000-1,500 words of body content, targets People Also Ask signals, and is structured for FAQPage schema deployment. Price ranges reflect current Park City market conditions. Internal link targets reference pages confirmed in the site audit as existing or as high-priority new pages.
 
-- **Promontory** — keyword gap: "Promontory Park City homes" (competitor germaniaconstruction.com ranks #1); ~200 words on site
-- **Jeremy Ranch** — keyword gap: "Jeremy Ranch homes for sale" (competitor kwparkcity.com ranks #1); ~150 words on site
-- **Kimball Junction** — ~150 words on site; search demand for affordable/accessible Park City area homes
-- **Silver Creek** — ~150 words on site; growing sub-market with new construction activity
-
-All four have existing URL structures on the site and meta titles, but zero content depth. Each page below follows the template established by the fully-developed pages (The Aerie, Old Town, Empire Pass) that the audit rated 9/10.
-
----
----
-
-# PAGE 1: PROMONTORY
+**Priority rationale:**
+- **Deer Valley (Upper + Lower)** -- "Deer Valley homes for sale" is a high-volume keyword with zero Gardner Group visibility; Upper and Lower Deer Valley are the two most searched Deer Valley sub-areas.
+- **Promontory** -- ~200 words currently; "Promontory Park City homes" has medium search volume and the current #1 result (germaniaconstruction.com) is beatable by a strong agent page.
+- **Jeremy Ranch** -- ~150 words currently; "Jeremy Ranch homes for sale" ranks for kwparkcity.com (same brokerage) -- a direct local gap.
+- **Canyons Village** -- Identified in the audit content calendar as a priority ski community page; zero dedicated content despite being a top Park City Mountain Resort sub-community.
 
 ---
 
-**Meta Title (57 chars):** `Promontory Park City Homes for Sale | Murray Gardner`
-**Meta Description (148 chars):** `Explore Promontory — Park City's most amenity-rich private club community. Homes from $1.5M to $10M+. Expert guidance from Murray Gardner, Keller Williams.`
+---
 
-**H1:** Promontory: Park City's Premier Private Club Community
+# Page 1: Deer Valley Real Estate -- Upper & Lower Deer Valley Homes for Sale
+
+---
+
+**Meta Title:** Deer Valley Real Estate -- Homes for Sale in Deer Valley, UT [60 chars]
+
+**Meta Description:** Browse Deer Valley homes for sale with Murray Gardner, KW Park City's top luxury agent. Upper & Lower Deer Valley ski-in/ski-out properties and estates. [153 chars]
+
+---
+
+**H1:** Deer Valley Real Estate: Upper & Lower Deer Valley Homes for Sale
 
 ---
 
 ## Overview
 
-Stretching across more than 6,800 acres of high-desert terrain east of Park City, Promontory stands apart as one of Utah's most comprehensively planned private club communities. Few addresses in the Intermountain West can match the combination of scale, amenity depth, and natural grandeur that defines life here. With more than 1,500 home sites at elevations ranging from 6,200 to 7,200 feet, Promontory delivers sweeping views of the Uinta and Wasatch mountain ranges alongside a membership experience that rivals the finest private clubs anywhere in the country.
+Deer Valley Resort is one of the most celebrated ski destinations in North America -- a consistently top-ranked mountain known for its immaculate grooming, ski-valet service, and quiet, car-free trails. The real estate market surrounding it is equally exceptional. Deer Valley properties represent the most concentrated collection of luxury ski homes and slope-side condominiums in Utah, drawing buyers from across the country who want world-class skiing paired with genuine alpine elegance. Homes here are not simply close to a ski resort -- many are woven into the mountain itself, with ski runs accessible directly from the back door.
 
-What makes Promontory genuinely unusual in the Park City luxury market is the breadth of its membership programming. This is not simply a golf community with a clubhouse. Members have access to three distinct golf experiences — the Pete Dye Signature Course, the Nick Faldo Course, and The Short Course — alongside a ski mountain connection, equestrian facilities, a beach club at Jordanelle Reservoir, a fishing pond, multiple pools, tennis and pickleball complexes, a spa, and year-round dining across several venues. For families, there is a dedicated kids' club, a full activity calendar, and outdoor programming that keeps every season fully occupied.
+The Deer Valley market divides naturally into two distinct zones: Lower Deer Valley and Upper Deer Valley. Lower Deer Valley sits closer to Old Town Park City, with condominium developments, townhomes, and single-family residences that offer an approachable entry into the Deer Valley lifestyle. Upper Deer Valley climbs higher into the mountain, where the terrain becomes more dramatic and the properties more exclusive. Upper Deer Valley includes the sub-communities of Empire Pass and Deer Crest, which rank among the most prestigious addresses in the entire Wasatch Back.
 
-From a construction and investment standpoint, Promontory represents some of the most carefully executed custom home development in the Park City region. Having spent years building and evaluating luxury properties before entering real estate, Murray Gardner brings a builder's eye to every Promontory transaction — assessing lot orientation, view corridors, structural quality, and the long-term value implications of position within the community. When you tour a $4 million Promontory home with Murray, you are walking through it with someone who understands what is behind the walls, not just what is in the listing photos.
+For buyers considering a Deer Valley purchase, it is important to understand that the market here moves with conviction. Inventory is constrained by design -- the surrounding terrain is steep, Deer Valley Resort itself has maintained a no-snowboard policy that preserves a particular character, and the resort's well-publicized expansion into East Village is poised to further elevate property values across the entire corridor. Whether you are looking for a slope-side ski condo, a fully appointed estate, or a fractional interest in a branded residence, the range of options is wider than many buyers expect.
 
 ---
 
 ## Location & Access
 
-Promontory sits approximately 10 minutes from downtown Park City via Utah State Route 248 (Keetley Road), with the main gate located off Promontory Ranch Road. Salt Lake City International Airport is roughly 45 to 50 minutes away — a commute that appeals strongly to buyers who travel frequently for business or who maintain primary residences elsewhere.
+Deer Valley sits immediately southeast of Park City's Historic Main Street. Lower Deer Valley is roughly 5 minutes from Old Town by car; Upper Deer Valley and Empire Pass require 10 to 15 minutes depending on road conditions during ski season. The location relative to Salt Lake City is one of Deer Valley's most significant practical advantages: Salt Lake City International Airport is approximately 40 miles west via I-80, and most flights land with a door-to-door transfer time of under 45 minutes in light traffic. This proximity makes Deer Valley one of the most logistically efficient ski communities in the American West -- a key consideration for second-home buyers who want to maximize weekend and holiday usage without the journey becoming an event in itself.
 
-The community's position on the eastern side of the Parley's Canyon corridor means less mountain-pass exposure than some Park City neighborhoods. Year-round access is reliable and well-maintained, and the private roads within Promontory are managed to a standard that residents consistently cite as one of the community's underappreciated assets. The drive to the Deer Valley ski resort base areas runs approximately 15 to 20 minutes, and Park City Mountain is a similar distance.
+The Deer Valley Express bus operates from Park City and provides convenient access during peak ski season. For buyers who prefer independence, most Deer Valley properties include ski storage, boot warmers, and direct access to resort shuttle stops. Access to I-80 westbound toward Salt Lake takes approximately 10 to 15 minutes from the base of the resort.
 
 ---
 
 ## Property Types & Price Ranges
 
-Promontory's size supports a wider range of product types and price points than most luxury communities in the Park City market.
+The Deer Valley real estate spectrum is broad, which allows buyers with different priorities to find a compelling entry point.
 
-- **Custom Estate Homes (5,000–12,000+ sq ft):** The most aspirational tier within Promontory, these properties sit on 1- to 5-acre lots with fully custom architecture, mountain views, and club membership included. Pricing typically runs $4 million to $10 million or more, with select ultra-premium builds trading above that threshold.
-- **Semi-Custom and Plan Homes (3,000–6,000 sq ft):** Builder-developed homes within designated neighborhoods such as The Pinnacle, Red Tail, and Fairway Crossings. This tier has historically ranged from $1.5 million to $4 million and represents the most active segment of the Promontory resale market.
-- **Cabin Village Lots and Completed Cabins:** A distinctive Promontory product, the cabin-style homes in select neighborhoods offer a more intimate scale at prices generally starting around $1.5 million for completed structures.
-- **Vacant Land:** Lot-only purchases within Promontory allow buyers to engage their own architect and builder. Vacant lots have traded from approximately $400,000 to well over $1 million depending on position, views, and proximity to amenities.
+**Lower Deer Valley** is anchored by a strong condominium and townhome market. Entry-level ski condos in established developments typically start in the $700,000s to low $1 millions for one-bedroom units. Two- and three-bedroom condo residences range from approximately $1.2 million to $3.5 million depending on the specific development, views, ski access, and renovation status. Single-family homes in Lower Deer Valley generally begin in the $2.5 million to $4 million range, with larger estates pushing to $6 million and above.
 
-The overall Promontory resale market has shown consistent demand, with properties typically spending fewer days on market than comparable non-club luxury homes in the region. Club membership — currently bundled with most home sales — represents a meaningful value component that experienced buyers factor into their per-square-foot analysis.
+**Upper Deer Valley** commands a meaningful premium. Ski-in/ski-out single-family homes and large condominiums in this zone typically start around $3 million and extend well into the $10 million to $20 million range for new construction or fully renovated estates. The sub-communities of Empire Pass and Deer Crest -- which include branded residences at Montage Deer Valley, Talisker Club, and the St. Regis Deer Crest -- represent the absolute upper tier of the Park City market, with the finest properties trading in the $15 million to $30 million range.
+
+For buyers interested in a managed luxury experience, fractional and whole-ownership opportunities at the Montage Deer Valley and related hotel residences offer turnkey ownership with resort amenities and on-site rental management.
 
 ---
 
 ## Lifestyle & Amenities
 
-Life at Promontory is genuinely four-season. The community's membership programming is designed to eliminate the shoulder-season lull that affects many resort-area properties, ensuring that there is always something drawing residents on-property.
+Life in Deer Valley orbits the mountain, but the calendar extends well beyond ski season. The resort hosts the Deer Valley Music Festival each summer, drawing top orchestral and folk performances to an outdoor amphitheater set against the Wasatch peaks. The Deer Valley Grocery Cafe, Royal Street Cafe, and the full dining program at Montage Deer Valley provide year-round options ranging from casual lunch on the slopes to refined multi-course dinners.
 
-- **Golf:** Three courses, including the highly ranked Pete Dye Signature Course, which regularly appears on best-of-Utah lists. The Nick Faldo Course plays through lower meadow terrain for a very different visual and strategic experience. The par-3 Short Course is ideal for after-dinner rounds and junior golf.
-- **Ski Access:** The Promontory ski connection links to the Park City Mountain Resort trail system via a dedicated lift, giving residents slope-side convenience without requiring full ski-in/ski-out pricing.
-- **Equestrian Center:** Full riding facilities including boarding, lessons, and trail access across thousands of acres of adjacent open space.
-- **Beach Club:** A private members' beach club on Jordanelle Reservoir with boat slips, paddleboards, kayaks, and seasonal dining. This amenity is rare even among the Wasatch Back's premier communities.
-- **Fitness & Wellness:** A large sports complex with indoor pool, fitness center, tennis courts, pickleball, and spa services.
-- **Dining:** Multiple on-property dining options ranging from casual poolside fare to full white-tablecloth service in the main clubhouse.
-- **Kids & Family:** Dedicated children's programming, a kids' club facility, and a calendar of family-oriented events from scavenger hunts to outdoor movie nights.
+Hiking and mountain biking trails open as the snow recedes, and the proximity to Old Town Park City means residents can access Main Street's galleries, restaurants, and boutiques in minutes. The Jordanelle Reservoir, 15 minutes away, adds fly fishing, paddleboarding, and boating to the activity roster. For families, the National Ability Center is headquartered at Park City Mountain and provides world-class adaptive ski and outdoor programming.
 
 ---
 
 ## Schools & Family
 
-Promontory falls within the **Park City School District**, which consistently ranks among Utah's strongest public school systems. Families with school-age children are typically served by:
+Deer Valley homeowners attend Park City School District, one of the highest-performing school districts in Utah. Park City High School consistently earns recognition for its academic programs, arts offerings, and athletic achievements. Treasure Mountain Junior High and Ecker Hill Middle School serve younger students in the district. The district also supports several elementary schools within short driving distance.
 
-- **Jeremy Ranch Elementary** — well-regarded K-5 program a short drive from the Promontory gate
-- **Ecker Hill Middle School** — grades 6-7, known for strong arts and outdoor education programming
-- **Park City High School** — consistently high graduation rates, robust AP curriculum, and nationally recognized ski and outdoor programs
-
-Several private school options are within reasonable driving distance, including Waterford School in Sandy and several Wasatch Front institutions for families who prefer independent school education. The broader Park City community's commitment to outdoor and experiential learning is a genuine differentiator for families relocating from major metropolitan areas.
+For families seeking a competitive edge on the mountain, the Winter Sports School at Park City Mountain Resort provides a ski-racing program combined with college-preparatory academics -- a unique combination that appeals to families drawn to Deer Valley for its ski culture and who want their children competing at an elite level.
 
 ---
 
 ## Dining & Shopping Nearby
 
-Promontory residents enjoy quick access to Park City's well-developed dining and retail ecosystem without the parking and congestion that affects properties closer to Old Town.
+The immediate resort base offers a cluster of ski-season dining options: the Seafood Buffet, Empire Canyon Lodge, and Snow Park Lodge are all operated by Deer Valley Resort itself and are well regarded for their above-average food quality by ski resort standards. Year-round, the proximity to Historic Main Street provides access to restaurants including Riverhorse on Main, The Farm, and Handle -- three of Park City's most celebrated dining destinations -- within a 10-minute drive.
 
-Within 15 minutes of the Promontory gate:
+Kimball Junction, located about 12 minutes north, provides access to Whole Foods, Target, Home Depot, and regional retail and dining. The Galleria at Deer Valley and nearby boutiques along Main Street serve luxury retail needs locally.
 
-- **Kingsgate Shopping Center (Kimball Junction):** Costco, Target, Whole Foods, and a full range of national retail and dining chains
-- **Main Street, Park City:** The restaurant row that anchors Park City's cultural identity, with options ranging from Handle (farm-to-table) to Riverhorse on Main (upscale American) to Maxwell's East Coast Eatery
-- **Redstone Shopping Center:** A mid-tier retail and dining hub near the Canyons Village area with casual dining, coffee, and everyday services
-- **Silver Star Café:** Slope-side dining at Park City Mountain, accessible in winter and popular for summer events
+---
 
-For serious grocery and specialty retail, the Kimball Junction Whole Foods and the Fresh Market on the east side of Park City both serve Promontory residents well.
+## Why Buy in Deer Valley
+
+A former Top Gun instructor and F/A-18 pilot develops a specific set of instincts: assess the terrain, identify the variables that matter, and make decisions with discipline. Murray Gardner applies that same framework to Deer Valley real estate. The terrain here is finite -- the mountain has a fixed footprint, development is constrained by topography and resort policy, and the Deer Valley East Village expansion is creating genuine new demand. These are not marketing narratives; they are structural market conditions.
+
+Deer Valley has held value with extraordinary consistency through multiple market cycles, partly because its buyer pool tends to be geographically diverse and financially resilient, and partly because the resort's brand -- built on service standards that other mountains attempt to emulate -- attracts a buyer segment that is not sensitive to short-term economic noise. For second-home buyers seeking both enjoyment and appreciation, the Deer Valley market has demonstrated a rare combination of both.
+
+The managed-rental ecosystem within Deer Valley -- including hotel-branded residences at Montage and the St. Regis -- also makes income-producing ownership viable for buyers who want their property working when they are not in residence.
+
+---
+
+## Frequently Asked Questions
+
+**Q: What is the difference between Upper and Lower Deer Valley real estate?**
+Lower Deer Valley encompasses condominiums, townhomes, and single-family homes located below the ski resort's mid-mountain, generally ranging from $700,000 to $6 million. Upper Deer Valley rises into the heart of the mountain and includes Empire Pass and Deer Crest, where ski-in/ski-out properties and branded residences typically range from $3 million to $30 million. Upper Deer Valley offers more direct ski access and greater elevation, while Lower Deer Valley provides a shorter drive to Old Town Park City.
+
+**Q: Are Deer Valley condos a good investment?**
+Deer Valley condominiums have historically performed well as investments for several reasons: constrained supply due to mountain topography, a high-income buyer pool that is geographically diverse, and a robust short-term rental market driven by the resort's national reputation. Properties within hotel-branded developments such as Montage Deer Valley can participate in managed rental programs, making them turnkey income-producing assets. Murray Gardner can provide a current investment-return analysis specific to the development and unit type you are evaluating.
+
+**Q: Can you ski-in/ski-out at Deer Valley?**
+Yes. True ski-in/ski-out access -- meaning you can put on skis at your door and access a run without walking or being bused -- is available in several Deer Valley sub-communities, particularly in Upper Deer Valley, Empire Pass, and Deer Crest. Lower Deer Valley properties are generally ski-accessible via short traverses or resort shuttle connections. The distinction between genuine ski-in/ski-out and "ski access" is important when evaluating a specific property, and Murray will walk you through exactly what each listing provides.
+
+**Q: How does the Deer Valley East Village expansion affect property values?**
+Deer Valley Resort's expansion into East Village -- adding roughly 3,000 additional skiable acres and a new base village on the Jordanelle Reservoir -- represents the largest resort expansion in Utah history. Properties on the existing Deer Valley side are expected to benefit from increased skier traffic, higher resort amenity investment, and growing recognition among national buyers who will view Deer Valley as an even larger and more complete destination. Properties adjacent to the new East Village, particularly in the Jordanelle corridor, are also seeing early appreciation pressure.
+
+---
+
+## Internal Link Suggestions
+
+- Link **to** this page from: `/communities/` index, blog posts covering ski-in/ski-out or Deer Valley topics, Empire Pass community page, Deer Crest community page
+- Link **from** this page to: Empire Pass community page (`/communities/empire-pass/`), Deer Crest community page (`/communities/deer-crest/`), ski-in/ski-out property type page (to be created), Park City luxury homes page (to be created), contact page (`/contact/`)
+- Anchor text suggestions: "Empire Pass ski-in/ski-out homes," "Deer Crest luxury estates," "Park City luxury homes for sale," "ski-in/ski-out properties in Park City"
+
+---
+
+**Interested in Deer Valley? Contact Murray Gardner at (435) 640-5184 or visit [gardnergrouprealtors.com/contact/](https://www.gardnergrouprealtors.com/contact/) to schedule a private showing or market consultation.**
+
+---
+---
+
+# Page 2: Promontory Park City -- Homes for Sale in Promontory
+
+---
+
+**Meta Title:** Promontory Park City Homes for Sale | Golf & Ranch Community [60 chars]
+
+**Meta Description:** Explore Promontory Park City homes with Murray Gardner, KW Park City. Utah's top private golf & ranch community -- custom homes from $1.5M to $15M+. [149 chars]
+
+---
+
+**H1:** Promontory Park City: Homes for Sale in Park City's Premier Golf & Ranch Community
+
+---
+
+## Overview
+
+Promontory is Park City's most expansive private residential community -- a 6,400-acre master-planned enclave set on the rolling terrain east of US-40 in the Snyderville Basin. Where most Park City neighborhoods are defined by proximity to ski resorts, Promontory built its identity around an entirely different kind of mountain lifestyle: private club membership, championship golf, equestrian facilities, and a sense of wide-open space that is genuinely rare this close to a major resort town. The community's footprint rivals small municipalities, and the amenity program reflects that ambition.
+
+Opened in phases since the early 2000s, Promontory has evolved into one of the most recognized luxury residential club communities in the Mountain West. Membership in the Promontory Club includes access to the Pete Dye-designed mountain golf course, a Jack Nicklaus Signature Course, an equestrian center with over 100 miles of private trails, multiple clubhouses, a ski beach with slope-side service at Park City Mountain Resort, and recreational amenities spanning beach volleyball courts to a private fishing pond. It is the breadth of the offering -- rather than any single amenity -- that distinguishes Promontory from every other Park City neighborhood.
+
+For buyers, Promontory presents a compelling combination of factors: a luxury product with land, privacy, and lifestyle infrastructure, located within 10 minutes of world-class skiing and approximately 35 minutes from Salt Lake City International Airport. The community has attracted buyers from California, Texas, the Pacific Northwest, and the broader Mountain West who are drawn to Park City but want more space and a more private club environment than the ski-resort corridors typically offer.
+
+---
+
+## Location & Access
+
+Promontory sits off US-40, east of the I-80/US-40 interchange and north of the Jordanelle Reservoir. The main entrance is approximately 7 miles from the center of Park City and about 10 minutes from Park City Mountain Resort. Salt Lake City International Airport is roughly 35 miles via I-80 and US-40, making Promontory one of the more airport-efficient luxury communities in the greater Park City area. The route avoids the canyon bottleneck that other Park City access roads can create during peak traffic periods.
+
+The community is gated and private. All visitors enter through a staffed gatehouse. Public transit access is limited, consistent with Promontory's positioning as a private club community -- the expectation is that residents drive, and the road network within the community is designed accordingly with wide private roads, ample guest parking at clubhouse facilities, and multiple access points from different quadrants of the property.
+
+---
+
+## Property Types & Price Ranges
+
+Promontory offers the widest variety of luxury property types of any single community in the Park City market.
+
+**Custom Home Sites and Estates:** The flagship product is the custom-built single-family home on a private lot with mountain or golf course views. These properties range from approximately $3 million for a newer custom home on a standard lot to $15 million and above for the community's finest estates with panoramic Wasatch views, premium finishes, and premier lot positions on the golf course or ridge lines.
+
+**Cabin Cottages and Club Cottages:** Promontory offers a unique product in the "cabin cottage" category -- fully appointed, fully managed smaller homes that blend mountain aesthetics with club amenities and a managed rental option. These typically range from approximately $1.5 million to $3.5 million and appeal to buyers who want Promontory's lifestyle infrastructure with a lower per-visit cost and fewer ownership responsibilities.
+
+**Townhomes and Condominiums:** The community includes a selection of townhomes and condominium-style residences adjacent to club amenities, generally ranging from $800,000 to $2.5 million. These represent the more accessible entry points into Promontory membership.
+
+**Custom Lots:** Undeveloped custom home sites with club membership are available in select areas of the community, typically starting around $400,000 and extending over $1 million for premier positions.
+
+Note that Promontory Club membership requires a separate purchase in addition to the real estate transaction. Membership fees and structures have evolved over the community's history, and Murray can provide current membership pricing and structure as part of a buyer consultation.
+
+---
+
+## Lifestyle & Amenities
+
+The Promontory amenity program is the most comprehensive of any single community in the Park City market. The Shed, Promontory's main recreational hub, includes a resort-style pool, fitness center, tennis and pickleball courts, casual and fine dining venues, and a full-service spa. The equestrian center -- one of the largest private equestrian facilities in Utah -- offers boarding, riding lessons, guided trail rides, and access to more than 100 miles of private trail that traverse the property's varied terrain.
+
+The ski beach facility at Park City Mountain Resort provides on-mountain locker service, complimentary warming stations, and a gathering point for the Promontory community on ski days, even though the property itself is not ski-in/ski-out. For members who prioritize ski access, the shuttle to Park City Mountain Resort runs regularly during ski season. The golf program spans two distinct championship courses -- the Dye Course and the Nicklaus Course -- with a full teaching facility, a private short course, and a clubhouse that operates year-round.
+
+Fly fishing access, a private movie theater, a bowling alley, and regular community social programming round out a lifestyle infrastructure that supports year-round residency at a level uncommon in Utah mountain real estate.
+
+---
+
+## Schools & Family
+
+Promontory homeowners are served by the Park City School District for public education. Jeremy Ranch Elementary, Ecker Hill Middle School, and Park City High School serve the community's student population. The community's substantial family presence has created an active youth programming ecosystem within Promontory's own amenity offerings, including junior golf instruction, equestrian programs for young riders, and seasonal sports camps that keep families engaged on-property through the summer months.
+
+---
+
+## Dining & Shopping Nearby
+
+Multiple dining venues operate within the Promontory community itself, eliminating the need to leave the gates for everyday dining. The main clubhouse dining room, casual venues at the Shed, and seasonal food-and-beverage service at both golf clubhouses provide genuine variety. For expanded dining and shopping, Kimball Junction is approximately 10 minutes away and provides access to Whole Foods, regional restaurants, major retailers, and Park City's primary commercial corridor. Historic Main Street's dining scene is another 10 to 15 minutes beyond Kimball Junction.
 
 ---
 
 ## Why Buy in Promontory
 
-There are compelling reasons that Promontory consistently attracts Park City's most discerning buyers, and equally compelling reasons that it remains undervalued relative to comparable club communities in Aspen, Jackson, or the California mountain markets.
+Murray Gardner's background as a luxury custom home builder -- responsible for seven award-winning Showcase homes in the Park City area -- gives him a specific advantage in the Promontory market. When evaluating custom homes here, he reads construction quality, lot selection, and finish specification the way most buyers cannot. What appears impressive in a listing photograph is not always what holds up under the eye of someone who has built at this level. And what appears ordinary in listing photos sometimes turns out to be exceptional workmanship. Murray will walk you through what the numbers do not tell you.
 
-**Scale and exclusivity, without the altitude penalty.** At 6,200 to 7,200 feet, Promontory sits at a comfortable elevation for year-round living — well below the high-altitude fatigue threshold that affects some visitors to communities like Empire Pass or Deer Crest.
-
-**Membership value is built in.** Unlike communities where buyers must separately negotiate and fund club membership, Promontory membership is typically bundled with the home purchase. That included membership, currently valued at a significant premium, makes the per-square-foot pricing more compelling than it appears at first glance.
-
-**New construction credibility.** Murray Gardner's background as a luxury home builder means he understands Promontory's construction quality at a level no purely transactional agent can match. His eye for structural integrity, finish quality, and builder reputation within the community gives clients a meaningful analytical edge.
-
-**Investment resilience.** Private club communities with deep amenity packages and controlled supply tend to hold value better through market cycles than comparable non-club luxury properties. Promontory's phased buildout has kept land supply disciplined, supporting price floors even during softening markets.
-
-**Proximity without sacrifice.** Forty-five minutes to SLC airport, 10 minutes to downtown Park City, 15 minutes to Deer Valley, and year-round road access — Promontory delivers Park City luxury without the isolation premium that some buyers pay to be further in the mountains.
+Beyond the individual property evaluation, Promontory's fundamentals as a long-term hold are strong. The private club model creates a natural barrier to oversupply -- new home sites require membership, new construction is subject to community design standards, and the community's ongoing capital investment in amenities creates a rising-tide dynamic for all property values within the gates. The Jordanelle Reservoir's development trajectory and Deer Valley East Village expansion also position the surrounding corridor for continued appreciation pressure.
 
 ---
 
-## Frequently Asked Questions About Promontory
+## Frequently Asked Questions
 
-**What is included in Promontory club membership?**
-Promontory club membership includes access to all three golf courses (Pete Dye, Nick Faldo, and The Short Course), the equestrian center, the Jordanelle beach club, the indoor and outdoor pools, the fitness center and spa, tennis and pickleball courts, dining facilities, and the full activity and events calendar. Membership is typically bundled with home purchases, though buyers should confirm current membership terms with their agent as structure and initiation fees are subject to change. Murray Gardner can walk you through the current membership details and how they are handled in today's transactions.
+**Q: What is the Promontory Club membership cost?**
+Promontory operates on a private club membership model separate from the real estate transaction. Membership fees, equity structures, and annual dues have changed over the community's history and vary by membership tier. The current membership structure -- including initiation fees, annual dues, and available membership categories -- is best discussed directly with Murray Gardner during a buyer consultation, as the details are specific to the phase of development and the type of property being purchased.
 
-**How does the ski connection work at Promontory?**
-Promontory is not a ski-in/ski-out community in the traditional sense, but it does offer a dedicated ski access lift that connects to the Park City Mountain Resort trail network. Residents typically drive or take the community shuttle to the Promontory ski connection point, ski the PCMR network, and return the same way. It offers convenient ski access without the full ski-in/ski-out pricing premium, which some buyers consider an attractive value proposition.
+**Q: Is Promontory ski-in/ski-out?**
+Promontory is not ski-in/ski-out. The community is located east of US-40, several miles from the ski resorts. However, Promontory offers a private "ski beach" amenity at Park City Mountain Resort, a community shuttle to the mountain during ski season, and ski locker and concierge services that reduce the friction of ski days considerably. Buyers who prioritize direct ski access should also look at Deer Valley, Empire Pass, or Canyons Village -- all of which Murray can present alongside Promontory for a full comparison.
 
-**Are Promontory homes a good investment?**
-Promontory has demonstrated strong long-term price appreciation, supported by controlled land supply, growing amenity depth, and sustained buyer demand from high-net-worth buyers relocating from California, Texas, and the Pacific Northwest. Short-term rental activity within Promontory is governed by HOA rules — this is primarily an owner-occupant and second-home community, not a vacation rental platform. Buyers seeking STR income potential should discuss their specific investment goals with Murray before purchase.
+**Q: How large is the Promontory community?**
+Promontory spans approximately 6,400 acres, making it one of the largest single private residential communities in Utah. The community has been built out in phases since the early 2000s and includes a mix of custom home sites, cottages, townhomes, and golf-course residences across several distinct neighborhoods within the gates. The breadth of the property means that some areas feel remote and private while others are clustered near amenity hubs.
 
-**What are the HOA fees at Promontory?**
-HOA and club fees at Promontory vary by neighborhood and membership tier, but buyers should budget for annual fees in the range of $15,000 to $25,000+ depending on the specific sub-community and membership level. These fees cover road maintenance, common area upkeep, security, and access to the full amenity package. Murray Gardner will provide current fee schedules for any specific property as part of the buyer advisory process.
-
-**What is the difference between Promontory sub-neighborhoods?**
-Promontory encompasses several distinct neighborhoods including The Pinnacle, Red Tail, Fairway Crossings, The Ridge, and the Cabin Village clusters. Each has different lot sizes, architectural guidelines, proximity to amenities, and price points. The Pinnacle and Red Tail neighborhoods are generally considered the most prestigious, with the largest lots and most expansive views. Cabin Village offers a more intimate scale. Murray can guide you through the meaningful differences between neighborhoods based on your priorities — views, golf adjacency, family use, or resale positioning.
+**Q: What are the best golf communities near Park City?**
+Promontory, Glenwild, and Tuhaye are the three primary private golf communities in the greater Park City area. Promontory offers two championship courses (Pete Dye and Jack Nicklaus) and the most expansive amenity program. Glenwild, located in Snyderville Basin, is home to the Golf Digest top-ranked private course in Utah and offers a more intimate membership. Tuhaye, on the Jordanelle Reservoir, offers a Jack Nicklaus-designed course with lakefront living. Each community has a distinct character, and Murray can walk you through a direct comparison.
 
 ---
 
 ## Internal Link Suggestions
 
-Link to this page from:
-- `/communities/` (communities index) — add Promontory to featured/highlighted community cards
-- `/blog/new-construction-best-communities-2025/` — Promontory is a top new construction community
-- `/blog/park-city-golf-communities/` — Promontory has three golf courses; natural link target
-- `/blog/buying-a-park-city-vacation-home/` — Promontory is a premier second-home destination
-
-Link from this page to:
-- `/communities/jeremy-ranch/` — "Buyers who explore Promontory often also consider Jeremy Ranch..."
-- `/blog/park-city-golf-communities/` — anchor: "explore our guide to Park City golf communities"
-- `/buyers/` — anchor: "our buyer resources"
-- `/contact/` — CTA link
+- Link **to** this page from: `/communities/` index, golf community hub page (to be created at `/golf-communities/`), blog posts about Park City golf communities
+- Link **from** this page to: Glenwild community page (`/communities/glenwild/`), Tuhaye community page, Park City golf communities hub page (to be created), Park City luxury homes page (to be created), contact page (`/contact/`)
+- Anchor text suggestions: "Glenwild golf community," "Park City golf communities," "Tuhaye at Jordanelle," "Park City private club communities," "Murray Gardner luxury home specialist"
 
 ---
 
-## CTA
-
-**Interested in Promontory? Contact Murray Gardner.**
-Promontory is one of Park City's most layered communities — the right home, in the right sub-neighborhood, at the right price requires an advisor who knows the community at a builder's level of detail. Murray Gardner brings that expertise to every Promontory consultation.
-
-[Contact Murray Gardner](/contact/)
+**Interested in Promontory? Contact Murray Gardner at (435) 640-5184 or visit [gardnergrouprealtors.com/contact/](https://www.gardnergrouprealtors.com/contact/) to schedule a private club tour and property consultation.**
 
 ---
 ---
 
-# PAGE 2: JEREMY RANCH
+# Page 3: Jeremy Ranch Real Estate -- Homes for Sale in Jeremy Ranch, Park City
 
 ---
 
-**Meta Title (55 chars):** `Jeremy Ranch Homes for Sale | Park City, Utah`
-**Meta Description (152 chars):** `Jeremy Ranch: Park City's most family-friendly community. Golf, trails, top schools & easy I-80 access. Homes from $900K–$3M+. Call Murray Gardner today.`
+**Meta Title:** Jeremy Ranch Homes for Sale | Park City, Utah Real Estate [57 chars]
 
-**H1:** Jeremy Ranch: Park City's Most Livable Family Community
+**Meta Description:** Search Jeremy Ranch homes for sale in Park City, UT. Golf community homes, mountain estates & family properties from $800K to $4M+. Murray Gardner, KW. [152 chars]
+
+---
+
+**H1:** Jeremy Ranch Homes for Sale -- Park City, Utah
 
 ---
 
 ## Overview
 
-Jeremy Ranch occupies a broad, open valley on the western flank of the Snyderville Basin, just inside the Park City zip code and positioned along one of the most convenient freeway corridors in Summit County. For buyers who want the Park City address and lifestyle without the premium pricing of the resort-adjacent neighborhoods, Jeremy Ranch delivers a compelling combination: generous lot sizes, a thriving golf and outdoor culture, excellent public schools, and Interstate 80 access that makes Salt Lake City commutes genuinely manageable.
+Jeremy Ranch is one of the Snyderville Basin's most established and desirable neighborhoods -- a community that has served as a primary address for Park City families, long-term residents, and buyers seeking a full-time or second home with meaningful space, mountain access, and proximity to both Park City's resort amenities and Salt Lake City's urban infrastructure. Located along I-80 north of Park City proper, Jeremy Ranch occupies a broad valley flanked by the Jeremy Ranch golf course on one side and the Uinta National Forest on the other, creating a setting that is simultaneously accessible and genuinely scenic.
 
-This is a neighborhood where kids ride bikes to school, neighbors organize trail runs, and the dog park is perpetually busy on weekend mornings. It has a small-town warmth that can surprise buyers who expect Park City to feel exclusively resort-focused. Jeremy Ranch is where many Park City professionals who work in Salt Lake City choose to plant roots — close enough to enjoy the mountains, practical enough to support a real working life.
+The neighborhood developed primarily through the 1980s and 1990s, which means Jeremy Ranch offers something increasingly rare in the Park City market: established tree coverage, mature landscaping, and a neighborhood character shaped by decades of community rather than by recent development. Streets here feel lived-in. Residents know their neighbors. The Jeremy Ranch Property Owners Association maintains the common areas and trail network, and turnover, while it happens, tends to attract buyers who intend to stay.
 
-The housing stock in Jeremy Ranch reflects its appeal to full-time families rather than second-home investors. You will find well-maintained single-family homes on sizable lots, a mix of 1990s construction and newer builds, and a range of sizes that serves both young families stretching their first luxury purchase and established buyers looking for a forever home with mountain views and a three-car garage. Murray Gardner's construction background is particularly valuable here — much of the Jeremy Ranch housing stock is 20 to 30 years old, and a builder's eye for deferred maintenance, remodel quality, and structural condition separates informed buyers from those who rely entirely on inspection reports.
+Jeremy Ranch is also home to the Jeremy Ranch Golf and Country Club, a private golf facility that serves as a social anchor for the community. For buyers drawn to a golf-centric lifestyle without the scale and cost of Promontory's full private club model, Jeremy Ranch represents a compelling middle ground: genuine private golf access, strong community infrastructure, and home values that span a realistic range of luxury price points.
 
 ---
 
 ## Location & Access
 
-Jeremy Ranch sits along the Jeremy Ranch Road corridor, accessed primarily from Interstate 80 at the Jeremy Ranch exit (Exit 141). This freeway proximity is Jeremy Ranch's defining geographic advantage: Salt Lake City's business district is approximately 25 to 30 minutes east, and Salt Lake City International Airport is 35 to 40 minutes away. For buyers who work in Salt Lake City or travel frequently, no other Park City neighborhood offers this combination of mountain setting and commute practicality.
+Jeremy Ranch's location along I-80 is both its most significant practical asset and the clearest way to describe where it sits relative to Park City's other neighborhoods. The neighborhood is approximately 5 miles west of Park City's Historic Main Street via I-80, and Salt Lake City International Airport is roughly 28 miles west -- making Jeremy Ranch one of the closest Park City-area neighborhoods to the airport, with most arrivals completing the transfer in 30 to 35 minutes. This is notably faster than neighborhoods accessed through Parley's Canyon during ski season congestion periods.
 
-Park City's Main Street is a 10 to 15 minute drive east. The Canyons Village ski area base is under 10 minutes. Kimball Junction, with its full array of retail and dining, is 5 to 10 minutes away. The community sits at an elevation of approximately 6,500 feet — comfortable year-round living without the higher-elevation weather exposure of neighborhoods like Deer Crest or Empire Pass.
+Park City Mountain Resort and the base areas at Canyons Village are 10 to 15 minutes east via I-80. Deer Valley Resort is approximately 15 to 20 minutes. The I-80 corridor makes daily commuting to Salt Lake City feasible for residents who work in the city -- a factor that gives Jeremy Ranch meaningful appeal among full-time residents who want the Park City lifestyle without total disconnection from an urban employment base.
 
 ---
 
 ## Property Types & Price Ranges
 
-Jeremy Ranch is primarily a single-family neighborhood with limited condo or townhome inventory, which gives it a neighborhood cohesion that buyers consistently note in their feedback.
+Jeremy Ranch is one of the more approachable luxury neighborhoods in the Park City market, with a range of property types that spans from established single-family homes at the lower end of Park City's price spectrum to large estate parcels at higher valuations.
 
-- **Single-Family Homes (2,500–6,000+ sq ft):** The dominant product type. Homes on standard lots (0.25 to 0.75 acres) in established Jeremy Ranch neighborhoods have sold in the $900,000 to $2 million range depending on size, condition, and proximity to the golf course. Updated homes with mountain views and premium finishes can reach $2.5 million to $3 million.
-- **Golf Course and View Lots:** Properties along the Jeremy Ranch Golf & Country Club fairways or with elevated ridge positions command meaningful premiums, typically running $1.5 million to $3 million for well-maintained 4- to 5-bedroom homes.
-- **Luxury Custom Builds:** A smaller segment of newer custom construction on larger parcels can reach $3 million to $5 million. These homes tend to trade quickly given the scarcity of true custom product in Jeremy Ranch's price range relative to more remote luxury communities.
-- **Vacant Land:** Rare but occasionally available, particularly on the upper ridgelines. Lot pricing varies significantly by size and view potential.
+**Single-Family Homes:** The primary product in Jeremy Ranch is the single-family detached home on a lot ranging from a quarter acre to over two acres. Established homes from the 1980s and 1990s that have been well maintained or updated typically range from $800,000 to $2 million, with smaller or older properties occasionally available below $800,000. Newer construction and significantly renovated homes push into the $2 million to $4 million range. Large estate-quality properties on premium lots can reach $5 million and above.
 
-Jeremy Ranch consistently represents one of the better value propositions in the Park City market for buyers seeking full-time livability. The price-per-square-foot is meaningfully lower than Old Town, Deer Valley, or Deer Crest while delivering comparable school quality and outdoor access.
+**Golf Course Lots:** Properties directly adjacent to or with views of the Jeremy Ranch Golf Course command a premium within the neighborhood, generally adding 10 to 20 percent over comparable non-golf-adjacent properties at similar price points.
+
+**Townhomes and Attached Homes:** A smaller segment of the Jeremy Ranch market includes townhome-style attached residences, which generally start around $600,000 and extend to approximately $1.2 million -- representing one of the lower entry points into Park City-adjacent living for buyers not requiring single-family space.
+
+**New Construction:** Several custom home sites and new construction projects have been developed within Jeremy Ranch over the past decade. New custom builds typically start around $2.5 million and reflect contemporary mountain architecture, energy-efficient construction, and open-plan living.
 
 ---
 
 ## Lifestyle & Amenities
 
-Jeremy Ranch's lifestyle revolves around the outdoors, the golf club, and the trails — with an authenticity that distinguishes it from more curated resort communities.
+Jeremy Ranch lives at a pace distinct from Park City's resort-and-tourism core. The neighborhood has a genuine community character built around family activities, outdoor access, and the rhythms of mountain living rather than the ski resort calendar. The Jeremy Ranch trail network connects directly to the Wasatch trail system, providing hiking, mountain biking, and cross-country skiing access without a drive. The golf course operates from spring through fall and hosts a social calendar for club members throughout the season.
 
-- **Jeremy Ranch Golf & Country Club:** A semi-private 18-hole course designed by Jack Nicklaus, widely regarded as one of the most scenic and challenging layouts in the Wasatch region. Membership is available to residents and the broader Park City community, and the clubhouse serves as a genuine social hub for the neighborhood.
-- **Trailhead Access:** Jeremy Ranch sits at the gateway to an extensive trail network connecting to the greater Snyderville Basin trail system. Mountain biking, trail running, and cross-country skiing are all accessible from the neighborhood.
-- **Open Space and Wildlife:** The valley's open character means that deer, elk, and the occasional moose are genuine neighbors. Many lots back to open land managed by Summit County, providing a permanence of open views that buyers prize.
-- **Community Feel:** Jeremy Ranch has an active community association, well-organized neighborhood events, and a level of neighborly engagement that is genuinely unusual in a luxury market where many buyers own second or third homes. This is a full-time community.
-- **Dog-Friendly Culture:** Multiple trails, open spaces, and a designated dog park make Jeremy Ranch one of the most pet-accommodating neighborhoods in the Park City area.
+The neighborhood is particularly well regarded by families with children, in part because of its scale -- the streets are wide, sidewalks are continuous in most areas, and community parks provide gathering space for younger residents. It is, in short, a neighborhood that functions well for families managing school, activities, and work simultaneously, rather than purely for resort-focused visitors.
+
+For skiers, the proximity to both Park City Mountain and Canyons Village via I-80 means early starts are viable without long drives, and returning home after an afternoon on the mountain is straightforward without the traffic patterns that affect closer-in neighborhoods during peak ski season.
 
 ---
 
 ## Schools & Family
 
-Jeremy Ranch is one of the most compelling neighborhoods in the Park City area for school-age children. The community is served by the **Park City School District**, which consistently earns top rankings in Utah for academic achievement, arts programming, and outdoor education integration.
+Jeremy Ranch Elementary is a Park City School District school located within the neighborhood, providing K-6 education with a strong community of long-term Park City families. Ecker Hill Middle School serves the 7th-8th grade population, and Park City High School -- consistently among the state's highest-performing secondary schools -- serves all Park City District high school students.
 
-- **Jeremy Ranch Elementary:** Located directly within the neighborhood — children in much of Jeremy Ranch can walk or bike to school. The school has a strong community identity and benefits from high parental involvement.
-- **Ecker Hill Middle School:** Serves grades 6-7 with a strong emphasis on project-based learning and outdoor education. Ecker Hill's location in the Snyderville Basin puts it close to the trails and natural features that define the area's educational philosophy.
-- **Treasure Mountain Middle School (or Jeremy Ranch pathway):** Grades 8-9 depending on current district configuration.
-- **Park City High School:** Consistently high graduation rates, competitive AP and IB programs, and a nationally recognized ski and outdoor athletics program. The school's culture of high achievement alongside genuine mountain-town values is a meaningful draw for relocating families.
-
-For families considering private options, Waterford School (Sandy) and several Salt Lake City private schools are within a workable commute given Jeremy Ranch's freeway access.
+The concentration of full-time families in Jeremy Ranch gives the school community a stability and depth uncommon in neighborhoods where the majority of residences are second homes or vacation rentals. Parent involvement at Jeremy Ranch Elementary is notably high, and the school has strong extracurricular programs in both arts and athletics.
 
 ---
 
 ## Dining & Shopping Nearby
 
-Jeremy Ranch residents benefit from some of the best everyday convenience of any Park City-area neighborhood, a direct product of its position near Kimball Junction and Interstate 80.
+Jeremy Ranch's dining scene is compact but well suited to everyday needs. The Red Rock Brewery location at Jeremy Ranch, along with several casual restaurants and coffee shops at the Jeremy Ranch commercial area off I-80, provides day-to-day dining without requiring a drive into Park City. Kimball Junction, approximately 5 to 7 minutes east, offers the full range of Park City retail and restaurant options including Whole Foods, a strong selection of regional and national restaurants, and Park City's primary shopping corridor.
 
-**Kimball Junction (5-10 minutes):**
-- Whole Foods Market — the primary grocery anchor for the neighborhood
-- Target, Costco — comprehensive household and bulk shopping
-- Silver Summit shopping center with Starbucks, casual dining chains, and specialty retail
-- Redstone Cinemas — the primary movie theater for Park City residents
-
-**Park City Main Street (10-15 minutes):**
-- High West Distillery & Saloon — a Park City institution with outstanding whiskey and a full food menu
-- Handle Restaurant — consistently ranked among Utah's best farm-to-table experiences
-- Riverhorse on Main — upscale American dining in a historic building
-- Freshies Lobster Co., Vessel Kitchen, and dozens of additional independent options
-
-**Canyons Village area (10 minutes):**
-- Multiple ski season restaurants and après-ski options
-- Red Pine Lodge and Drafts Sports Bar & Grill for family-friendly dining in ski season
-
-For everyday errands, the convenience of Jeremy Ranch's freeway proximity means that the Cottonwood Heights and South Jordan retail corridors are accessible in under 30 minutes — relevant for buyers who travel frequently to the Salt Lake Valley for work or family obligations.
+For the full Main Street dining and nightlife experience -- Riverhorse, Handle, Boneyard, and the rest -- Jeremy Ranch residents are looking at a 15 to 20-minute drive, which most residents treat as a deliberate evening-out choice rather than a daily inconvenience.
 
 ---
 
 ## Why Buy in Jeremy Ranch
 
-Jeremy Ranch is the answer to a question many Park City buyers eventually ask: "How do we get the Park City lifestyle without pricing ourselves out of a practical, year-round family life?"
+Jeremy Ranch is the neighborhood Murray Gardner points to when buyers ask for a place that delivers the full Park City experience without the premium associated with being on the ski resort's doorstep. The logic is straightforward: you are still in a Park City School District household, you are still 10 to 15 minutes from world-class skiing, your children are still growing up in one of the best outdoor recreation environments in the country -- but your dollar goes further, your lot is larger, and your neighbors are more likely to be full-time residents building the same kind of life.
 
-**The commute argument.** No other Park City-area neighborhood offers Interstate 80 access combined with a full mountain lifestyle. For buyers who work in Salt Lake City or travel regularly through SLC airport, Jeremy Ranch makes a second-home or primary-residence purchase in Park City financially viable in ways that deeper-mountain locations cannot match.
+For buyers coming from markets like the Bay Area or Southern California where neighborhood character matters as much as the physical property, Jeremy Ranch has a lived-in authenticity that new-development resort communities cannot replicate. The trees are mature. The infrastructure works. The community is real.
 
-**Value per square foot.** Jeremy Ranch consistently delivers more square footage, more land, and more family function per dollar than resort-adjacent neighborhoods. A $1.5 million Jeremy Ranch home typically delivers 4,000 square feet on a half-acre lot with mountain views and golf course proximity — a combination that would cost $3 million or more in Old Town or Deer Valley.
-
-**A real neighborhood.** For full-time families, the walkable-to-school dynamic, the active HOA, and the full-time neighbor base create a community that second-home-heavy areas simply cannot replicate. If you want your children to walk to school and know your neighbors' names, Jeremy Ranch is Park City's best answer.
-
-**Construction quality insight.** Much of Jeremy Ranch's housing stock was built in the 1990s and early 2000s, and a meaningful percentage of homes have been renovated, expanded, or updated to varying standards of quality. Murray Gardner's background as a luxury home builder gives buyers in this market a genuine advantage — the ability to assess renovation quality, identify structural concerns, and accurately price the real cost of any needed improvements before making an offer.
-
-**Golf and trails without the country club price.** The Jeremy Ranch Golf & Country Club offers one of the Wasatch region's finest golf experiences at membership rates that are notably more accessible than Promontory, Glenwild, or other private Park City clubs. Combined with the trail network, residents access a genuinely premium outdoor lifestyle without the full private-club overhead.
+Murray also notes -- from a construction perspective that most agents cannot offer -- that the 1980s and 1990s construction stock in Jeremy Ranch is genuinely mixed. Some of it was built exceptionally well and has aged accordingly. Some of it needs a discerning eye to identify deferred maintenance, construction shortcuts, or systems approaching end of life. Having an agent who can read a home at the construction level before you make an offer is a material advantage in this neighborhood.
 
 ---
 
-## Frequently Asked Questions About Jeremy Ranch
+## Frequently Asked Questions
 
-**Is Jeremy Ranch a good place to live full-time in Park City?**
-Yes — Jeremy Ranch is arguably the best Park City-area neighborhood for full-time family living. Its combination of walkable schools, freeway access, an active community culture, and generous lot sizes makes it consistently popular with buyers who plan to live in Park City year-round rather than seasonally. The neighborhood's full-time population gives it a genuine community character that more resort-focused neighborhoods often lack.
+**Q: Is Jeremy Ranch a good place to live in Park City?**
+Jeremy Ranch is widely considered one of the best full-time residential neighborhoods in the greater Park City area. It offers mature infrastructure, an established community with strong family demographics, access to excellent Park City schools, and proximity to both skiing and Salt Lake City. For buyers who prioritize livability and neighborhood character alongside mountain access, Jeremy Ranch consistently earns strong consideration. Its relative value compared to ski-adjacent neighborhoods also makes it one of the most financially accessible entry points into the Park City market.
 
-**How far is Jeremy Ranch from Salt Lake City?**
-Jeremy Ranch is approximately 25 to 30 minutes from downtown Salt Lake City via Interstate 80 — closer than most people expect for a neighborhood carrying a Park City address. Salt Lake City International Airport is 35 to 40 minutes away. This commute distance is one of Jeremy Ranch's most significant competitive advantages in the Park City market.
+**Q: How far is Jeremy Ranch from Park City Mountain Resort?**
+Jeremy Ranch is approximately 10 to 15 minutes from Park City Mountain Resort via I-80 east. The drive to the Canyons Village base area is similarly 10 to 12 minutes. Deer Valley Resort, which requires driving through Park City, is approximately 20 to 25 minutes depending on traffic. During peak ski season, Jeremy Ranch residents benefit from the I-80 route, which generally experiences less congestion than routes through the center of Park City.
 
-**What are home prices in Jeremy Ranch?**
-Jeremy Ranch homes typically range from approximately $900,000 for a modest single-family home to $3 million or more for premium custom properties with golf course or mountain views. The most active price band is generally $1.2 million to $2.2 million, where buyers find updated homes with 3 to 5 bedrooms on meaningful lots. Prices reflect the full Park City address and school district quality while remaining well below the resort-adjacent premium neighborhoods.
+**Q: What is the Jeremy Ranch Golf and Country Club?**
+The Jeremy Ranch Golf and Country Club is a private 18-hole golf facility located within the neighborhood, offering membership-based access to golf, tennis, pool, and social amenities. The course was designed to take advantage of the valley terrain and mountain backdrop and is a primary social gathering point for the community during the spring through fall golf season. Club membership is available to Jeremy Ranch residents and qualifying guests, and Murray Gardner can provide current membership availability and fee information as part of a buyer consultation.
 
-**What is the Jeremy Ranch Golf & Country Club?**
-The Jeremy Ranch Golf & Country Club is a semi-private 18-hole course designed by Jack Nicklaus, set in the natural terrain of the Jeremy Ranch valley. It is one of the most scenic and challenging courses in the Wasatch region, with views of the Uinta Mountains and natural wetlands woven through the layout. Membership is open to both residents and non-residents. The club serves as the social hub of the neighborhood, with clubhouse dining, member events, and a genuinely welcoming culture.
-
-**Are there short-term rental opportunities in Jeremy Ranch?**
-Jeremy Ranch is primarily a full-time and second-home community. Park City's short-term rental regulations apply to properties within city limits, and Jeremy Ranch — sitting in unincorporated Summit County — operates under county STR rules, which are generally somewhat less restrictive than within Park City proper. That said, this is not a vacation rental–oriented neighborhood; most buyers here are purchasing for personal use or long-term appreciation rather than short-term rental income. Murray Gardner can walk through current Summit County STR rules as they apply to specific properties you are considering.
+**Q: Are there short-term rentals allowed in Jeremy Ranch?**
+Jeremy Ranch is a primarily residential neighborhood governed by the Jeremy Ranch Property Owners Association. Short-term rental regulations in this area are subject to both the HOA covenants and Summit County's short-term rental licensing requirements. Generally speaking, Jeremy Ranch is not positioned as a high-density short-term rental neighborhood, and most properties are purchased for primary or second-home use. Buyers specifically seeking investment properties with STR income potential should discuss the regulatory environment with Murray Gardner before making a purchase decision.
 
 ---
 
 ## Internal Link Suggestions
 
-Link to this page from:
-- `/communities/` — communities index
-- `/blog/moving-to-park-city/` — Jeremy Ranch is a natural recommendation for relocating families
-- `/blog/best-neighborhoods-park-city/` (when created) — Jeremy Ranch should feature prominently
-- `/communities/promontory/` — buyers comparing communities should have cross-links
-
-Link from this page to:
-- `/communities/promontory/` — anchor: "compare Promontory for a private club experience"
-- `/communities/kimball-junction/` — anchor: "Kimball Junction neighbors Jeremy Ranch..."
-- `/blog/park-city-golf-communities/` — anchor: "our guide to Park City golf communities"
-- `/buyers/` — anchor: "explore our buyer resources"
-- `/contact/` — CTA link
+- Link **to** this page from: `/communities/` index, Snyderville Basin community page, blog posts about Park City family neighborhoods or "best neighborhoods in Park City"
+- Link **from** this page to: Snyderville Basin overview page (`/communities/snyderville-basin/`), Park City golf communities hub (to be created), buyers guide (`/buyers/`), contact page (`/contact/`)
+- Anchor text suggestions: "Snyderville Basin real estate," "Park City golf community homes," "buying a home in Park City," "Park City family neighborhoods," "Jeremy Ranch golf course homes"
 
 ---
 
-## CTA
-
-**Interested in Jeremy Ranch? Contact Murray Gardner.**
-Jeremy Ranch rewards buyers who understand both the value opportunity and the construction nuances of its housing stock. Murray Gardner's builder background and deep familiarity with this community translate directly into better outcomes — whether you are identifying the best value, avoiding a costly renovation surprise, or negotiating with confidence.
-
-[Contact Murray Gardner](/contact/)
+**Interested in Jeremy Ranch? Contact Murray Gardner at (435) 640-5184 or visit [gardnergrouprealtors.com/contact/](https://www.gardnergrouprealtors.com/contact/) to explore current listings and neighborhood comparisons.**
 
 ---
 ---
 
-# PAGE 3: KIMBALL JUNCTION
+# Page 4: Canyons Village Real Estate -- Homes for Sale at Canyons Village, Park City
 
 ---
 
-**Meta Title (57 chars):** `Kimball Junction Homes for Sale | Park City, Utah`
-**Meta Description (153 chars):** `Kimball Junction: Park City's most convenient gateway neighborhood. Condos, townhomes & homes from $500K–$2M+. Smart access to ski, trails & SLC airport.`
+**Meta Title:** Canyons Village Homes for Sale | Park City Mountain Resort [58 chars]
 
-**H1:** Kimball Junction: Park City's Gateway to Everything
+**Meta Description:** Browse Canyons Village real estate at Park City Mountain Resort. Ski-in/ski-out condos & slopeside homes from $500K to $10M+. Murray Gardner, KW Park City. [155 chars]
+
+---
+
+**H1:** Canyons Village Real Estate: Ski-In/Ski-Out Homes & Condos at Park City Mountain Resort
 
 ---
 
 ## Overview
 
-Kimball Junction occupies a unique position in the Park City real estate market — and in the Park City geography. Located at the western entry point to the Snyderville Basin, at the confluence of Interstate 80 and State Route 224, it is the first Park City-area neighborhood travelers encounter arriving from Salt Lake City, and the last they pass through heading west. That gateway position, once considered a liability by buyers who prioritized deeper mountain immersion, has become one of Kimball Junction's most significant strengths as the neighborhood has matured into a fully self-contained community with exceptional convenience, a robust outdoor lifestyle, and price points that remain meaningfully accessible relative to the resort-adjacent core.
+Canyons Village sits at the base of Park City Mountain Resort's western terrain -- the former Canyons Resort, now unified with the main Park City Mountain ski area to create the largest ski resort in the United States by acreage. As a real estate destination, Canyons Village has a character distinct from Deer Valley or Empire Pass: it is an active, village-style base area built around the ski experience, where the streetscape, the dining, and the residential product all organize themselves around the mountain. If Deer Valley is Park City's most refined ski address, Canyons Village is its most energetic one.
 
-Kimball Junction is not Old Town, and it does not try to be. What it offers instead is a version of the Park City lifestyle built around practicality: world-class trail access from your doorstep, full-service retail and dining within walking distance, a bus rapid transit connection into Park City and the ski resorts, and the shortest possible drive from SLC airport of any Park City-area address. For buyers who are commuting to Salt Lake City, working remotely and traveling frequently, or making their first Park City purchase with a careful eye on budget, Kimball Junction delivers a level of lifestyle-to-cost efficiency that is genuinely hard to match.
+The residential product at Canyons Village spans a wide range, from studio hotel-condominiums in the $400,000s to large ski-in/ski-out townhomes and private residences pushing $10 million and beyond. This breadth is one of Canyons Village's defining advantages in the Park City market: it accommodates the first-time ski-property buyer who wants an affordable foothold in a world-class resort alongside the buyer seeking a signature ski-lodge estate with direct piste access. Both are available here, often within a few hundred yards of each other.
 
-The community has also benefited from sustained infrastructure investment. The Swaner EcoCenter and Nature Preserve — a 1,200-acre protected wetland and wildlife habitat abutting the neighborhood — provides open space that will remain permanently undeveloped, giving many Kimball Junction homes the visual buffer and natural character that buyers pay significant premiums to secure elsewhere. The neighborhood's density and product diversity (condos, townhomes, single-family homes, and mixed-use living) make it one of the more dynamic and evolving real estate sub-markets in the entire Park City area.
-
----
-
-## Location & Access
-
-Kimball Junction sits at Interstate 80 Exit 145 in Summit County, immediately north of the Snyderville Basin's central commercial corridor. It is approximately 5 minutes from the Canyons Village ski area base, 10 to 15 minutes from Park City Mountain's base, and 15 to 20 minutes from Deer Valley's Snow Park Lodge. Salt Lake City International Airport is 35 to 40 minutes west — the closest airport driving distance of any neighborhood in the Park City area.
-
-The Park City Transit system's Route 1 bus runs directly through Kimball Junction, providing fare-free connections to Park City's historic district, the Canyons Village, Park City Mountain, and Deer Valley. For buyers who ski frequently and prefer not to navigate ski resort parking, Kimball Junction's transit connectivity is a meaningful quality-of-life asset. The neighborhood is also directly adjacent to the Swaner EcoCenter trail network and connects to the broader Snyderville Basin trail system, which links to hundreds of miles of mountain biking and hiking routes across Summit County.
-
----
-
-## Property Types & Price Ranges
-
-Kimball Junction offers the most diverse product mix of any Park City-area community, which contributes to its broad buyer appeal across multiple life stages and investment profiles.
-
-- **Condos and Flats (600–1,800 sq ft):** Entry-level Park City ownership is most accessible here. Studio and one-bedroom units have traded in the $450,000 to $700,000 range; two-bedroom condos typically fall between $600,000 and $1 million. Several condo developments offer strong short-term rental potential given the neighborhood's proximity to both ski resorts and I-80.
-- **Townhomes (1,500–3,000 sq ft):** The most active segment of the Kimball Junction market. Well-maintained townhomes with 2 to 3 bedrooms, private garages, and mountain views typically sell in the $800,000 to $1.5 million range. Newer construction townhomes with premium finishes have reached $1.8 million and higher.
-- **Single-Family Homes (2,500–5,000+ sq ft):** Less common in Kimball Junction's core but present in surrounding sub-neighborhoods. Single-family pricing generally runs $1.2 million to $2.5 million depending on lot size, views, and condition.
-- **New Construction:** Several active development projects have introduced contemporary townhome and condo product to Kimball Junction in recent years. Murray Gardner's construction background is particularly relevant here — evaluating builder reputation, construction phase risk, contract terms, and finish-level specifications requires expertise that goes well beyond standard buyer representation.
-
-The overall Kimball Junction market is one of the more liquid segments of Park City real estate, with relatively consistent buyer demand supported by both primary-resident and investor buyers.
-
----
-
-## Lifestyle & Amenities
-
-Kimball Junction's lifestyle is defined by the intersection of world-class outdoor access and genuine everyday convenience — a combination that is harder to achieve in the Park City market than it might appear.
-
-- **Swaner EcoCenter & Nature Preserve:** A 1,200-acre protected wetland immediately adjacent to the neighborhood, offering wildlife viewing, nature walks, cross-country skiing, and snowshoeing. The Swaner EcoCenter also hosts environmental education programming for families and schools. The preserve's protected status provides a permanent open-space buffer that supports long-term property values for adjacent Kimball Junction homes.
-- **Trail Network:** Direct trailhead access to the Snyderville Basin trail system, which connects to over 400 miles of multi-use trails across Summit County. Mountain biking, trail running, hiking, and cross-country skiing are all accessible without driving.
-- **Ski Resort Access:** Canyons Village is a 5-minute drive, and the free transit bus makes car-free ski days a genuine option. Park City Mountain's complementary network (the combined Park City/Canyons system is the largest ski resort in the United States) is accessible via the same transit corridor.
-- **Commercial Amenities:** The Kimball Junction retail corridor includes Whole Foods, Target, Costco, multiple dining options (Café Rio, Red Rock Brewing, Chick-fil-A, several locally owned restaurants), fitness centers, urgent care, veterinary services, and a full spectrum of everyday necessities — all within 5 minutes of any Kimball Junction address.
-- **Factory Stores:** The Tanger Outlets at Kimball Junction offer designer and premium brand shopping at outlet pricing, a convenience that Park City residents regularly take advantage of.
-
----
-
-## Schools & Family
-
-Kimball Junction falls within the **Park City School District** for most addresses, placing children in one of Utah's highest-ranked public school systems.
-
-- **Parley's Park Elementary:** The primary elementary school serving much of the Kimball Junction area. Well-regarded for its community involvement and environmental education programs, appropriately tied to the neighborhood's proximity to the Swaner Preserve.
-- **Ecker Hill Middle School:** Grades 6-7, with strong project-based learning and outdoor education integration.
-- **Park City High School:** Full AP and honors curriculum, robust arts and athletics programs, and the nationally recognized ski racing and outdoor sports programs that define the Park City school identity.
-
-The neighborhood's position near the Swaner EcoCenter creates some genuinely unusual educational opportunities — school groups regularly partner with the preserve for field science programming, and many Kimball Junction families cite the school-nature integration as a meaningful differentiator from urban and suburban alternatives.
-
----
-
-## Dining & Shopping Nearby
-
-Kimball Junction is arguably Park City's most convenient neighborhood for everyday dining and shopping — the retail corridor is within walking distance of most residences, a rarity in a market where most luxury communities require a drive for basic errands.
-
-**Within walking distance or a 2-minute drive:**
-- Whole Foods Market
-- Red Rock Brewing Company (full-service brewery and restaurant)
-- Café Rio Mexican Grill
-- Five Guys Burgers
-- Starbucks (multiple locations)
-- Einstein Bros. Bagels
-
-**5-10 minutes (Park City Main Street / Canyons Village direction):**
-- Drafts Sports Bar & Grill at Canyons Village
-- Handle, Riverhorse on Main, High West Distillery — Park City's top-tier restaurant corridor
-- Pizza 525 (a local favorite)
-
-**Tanger Outlets (adjacent):**
-- Nike, Gap, Brooks Brothers, Pottery Barn, and 60+ additional outlet stores
-
-This concentration of everyday services within a walkable or minimal-drive radius is a meaningful quality-of-life advantage that buyers relocating from urban areas particularly appreciate, and one that adds to Kimball Junction's appeal as a full-time primary residence.
-
----
-
-## Why Buy in Kimball Junction
-
-Kimball Junction is Park City's most misunderstood neighborhood — frequently dismissed by buyers anchored to the Old Town or Deer Valley prestige narrative, and consistently delivering value and lifestyle satisfaction to the buyers who look past that bias.
-
-**The best airport-to-ski ratio in the market.** Thirty-five minutes from SLC International, five minutes from Canyons Village. No other Park City address achieves both. For buyers who ski seriously and travel frequently, this is not a minor convenience — it is a material time-of-life quality factor.
-
-**Entry point to the Park City school district.** Kimball Junction is among the most accessible price points for buyers seeking Park City school district access. For families who prioritize education quality and outdoor community culture, this neighborhood delivers the full Park City school experience at a significantly lower housing cost than resort-adjacent neighborhoods.
-
-**Rental income potential.** The combination of proximity to two major ski resorts, strong transit connectivity, and a diverse condo/townhome inventory makes Kimball Junction one of Park City's strongest markets for short-term rental income. Summit County STR rules are more permissive than within Park City city limits, and buyer demand from investor purchasers supports healthy resale liquidity.
-
-**New construction due diligence.** Several active development projects in and around Kimball Junction have brought new condo and townhome product to market in recent years. Murray Gardner's background as a luxury home builder gives buyers an analytical advantage that is particularly valuable when evaluating new construction — assessing builder reputation, construction quality, contract risk, and the gap between what a developer promises and what they deliver.
-
-**The trail access is world-class.** The Swaner Preserve and the Snyderville Basin trail system give Kimball Junction residents immediate access to one of the most extensive mountain biking and trail running networks in the American West. That's not a marketing claim — it is a geographic reality that buyers who move here consistently cite as having exceeded their expectations.
-
----
-
-## Frequently Asked Questions About Kimball Junction
-
-**Is Kimball Junction considered part of Park City?**
-Kimball Junction is located in unincorporated Summit County rather than within Park City's municipal limits, but it carries a Park City mailing address and is universally considered part of the greater Park City area. It is served by the Park City School District and is fully integrated into the Park City lifestyle corridor, including transit service and trail connectivity. The distinction matters primarily for short-term rental regulations (Summit County rules apply rather than Park City municipal rules) and certain utility and zoning matters.
-
-**What are short-term rental rules in Kimball Junction?**
-Because Kimball Junction sits in unincorporated Summit County rather than within Park City proper, properties here are subject to Summit County STR regulations rather than the stricter Park City municipal code. Summit County has an active STR licensing and regulation program, but the requirements are generally somewhat more permissive than within Park City city limits. Buyers interested in short-term rental income should research current Summit County regulations and confirm applicable rules for any specific property. Murray Gardner can help you navigate this as part of the due diligence process.
-
-**What is the Swaner EcoCenter?**
-The Swaner EcoCenter is a 1,200-acre nature preserve and environmental education center immediately adjacent to Kimball Junction. The preserve encompasses wetlands, meadows, and upland habitat that supports significant wildlife populations including migratory birds, raptors, deer, and moose. It is permanently protected from development and managed as both a conservation area and an educational resource. The EcoCenter building hosts exhibits, programming, and community events. For Kimball Junction homeowners, the preserve functions as a permanent open-space buffer and a world-class outdoor amenity directly accessible from the neighborhood.
-
-**How is transit service in Kimball Junction?**
-Park City's fare-free transit system serves Kimball Junction directly. Route 1 provides frequent connections to Canyons Village, Park City Mountain, the Park City Transit Center, and Deer Valley, making car-free commuting to ski resorts and Old Town a practical option during the ski season. Service frequency and routes have expanded significantly in recent years — a direct result of Park City's investment in transit infrastructure. For buyers who ski frequently or work in Park City proper, the transit connectivity meaningfully reduces parking stress and driving time during peak season.
-
-**What kind of properties are available near the Swaner Preserve?**
-Several Kimball Junction townhome and condo developments have rear exposure to or direct views of the Swaner Preserve, providing residents with wildlife viewing, open meadow vistas, and immediate trail access. These properties command a modest premium over comparable units without preserve adjacency, and that premium has historically been well-supported by buyer demand. Murray Gardner can identify preserve-adjacent inventory and help you evaluate the access, view quality, and long-term value implications of specific positions relative to the protected land.
-
----
-
-## Internal Link Suggestions
-
-Link to this page from:
-- `/communities/` — communities index
-- `/communities/jeremy-ranch/` — "Buyers who explore Jeremy Ranch often consider adjacent Kimball Junction..."
-- `/blog/moving-to-park-city/` — Kimball Junction is a top recommendation for relocating buyers
-- `/blog/park-city-vacation-home/` (or STR blog post) — strong STR market reference
-
-Link from this page to:
-- `/communities/jeremy-ranch/` — anchor: "Jeremy Ranch neighbors Kimball Junction to the east..."
-- `/communities/silver-creek/` — anchor: "Silver Creek offers a quieter alternative nearby..."
-- `/blog/short-term-rental-rules-park-city-heber/` — anchor: "understand short-term rental regulations before you buy"
-- `/buyers/` — anchor: "our complete buyer resources"
-- `/contact/` — CTA link
-
----
-
-## CTA
-
-**Interested in Kimball Junction? Contact Murray Gardner.**
-Kimball Junction's product diversity — from entry-level condos to new construction townhomes to single-family homes — means that finding the right fit requires an advisor who understands both the market dynamics and the construction quality differences between developments. Murray Gardner brings both.
-
-[Contact Murray Gardner](/contact/)
-
----
----
-
-# PAGE 4: SILVER CREEK
-
----
-
-**Meta Title (57 chars):** `Silver Creek Park City Homes for Sale | Utah`
-**Meta Description (150 chars):** `Silver Creek: quiet acreage living just minutes from Park City. Horse properties, custom homes & new builds from $800K–$4M+. Call Murray Gardner today.`
-
-**H1:** Silver Creek: Park City's Quiet Acreage Community With Mountain Character
-
----
-
-## Overview
-
-Silver Creek sits in a wide, sun-drenched valley on the eastern edge of the Snyderville Basin, tucked between Kimball Junction and the Jeremy Ranch corridor but possessing a character distinctly its own. Where its neighboring communities offer golf courses, commercial corridors, and resort adjacency, Silver Creek delivers something increasingly rare in the greater Park City area: space. Genuine, uncompromised space — large lots, long private drives, mountain and meadow views that stretch to the horizon, and the quiet that comes from low-density land use in a high-elevation valley that has resisted the kind of dense development that has transformed other parts of the Snyderville Basin.
-
-This is a neighborhood for buyers who have done Park City, understand what they want from it, and have arrived at a clear answer: room to breathe. Equestrian buyers will find Silver Creek's horse properties and large-lot acreage among the most practical and appealing in the Park City market. Custom home builders value the lot sizes that allow true architectural expression without the constraint of zero-lot-line setbacks. Families who want their children to grow up with trails, open land, and animals on the property find that Silver Creek delivers on that promise at price points that remain below the ultra-luxury ceiling.
-
-Murray Gardner's background as both a luxury home builder and a Keller Williams Park City real estate advisor gives Silver Creek buyers a meaningful advantage. The area has seen consistent new construction activity alongside a resale market of older, custom-built homes — many of which have been renovated, expanded, or subdivided over the years. Evaluating lot potential, identifying builder quality, and assessing the real value embedded in Silver Creek's more complex properties requires exactly the kind of construction literacy that Murray brings to every client engagement.
+The Vail Resorts acquisition of the combined Park City Mountain Resort -- now operating under the Epic Pass platform -- has materially elevated Canyons Village's national and international visibility. Buyers who hold Epic Passes effectively own ski-accessible real estate that unlocks mountains across North America, a compelling value proposition for buyers who split time across multiple ski destinations.
 
 ---
 
 ## Location & Access
 
-Silver Creek is accessed primarily via Silver Creek Road, which connects to State Route 248 (Park City's main east–west corridor) and the I-80 interchange at Kimball Junction. Depending on the specific property, Silver Creek addresses are 10 to 20 minutes from Park City's Main Street, 5 to 15 minutes from Kimball Junction's retail and services, and approximately 40 to 45 minutes from Salt Lake City International Airport.
+Canyons Village is located on the northwest side of Park City Mountain Resort, accessed primarily via Canyons Resort Drive off Utah State Route 224 -- the main commercial corridor connecting Park City to I-80 and Kimball Junction. The drive from I-80's Park City exit to Canyons Village is approximately 5 to 7 minutes. Salt Lake City International Airport is roughly 35 miles west via I-80, with a typical door-to-door time of 40 to 50 minutes under normal traffic conditions.
 
-The neighborhood sits at elevations generally ranging from 6,400 to 7,000 feet, placing it in a sunny, relatively low-snow-depth valley compared to higher Park City neighborhoods. Year-round access is reliable, with Silver Creek Road and its primary spurs maintained by Summit County. The community's position south of I-80 gives it good sun exposure and a microclimate that many residents describe as notably warmer and less windy than higher-elevation neighborhoods.
-
-Silver Creek is not ski-in/ski-out, and it does not aspire to be. The Canyons Village ski area is 15 to 20 minutes away, and Park City Mountain is similarly accessible. For buyers who ski as a component of the mountain lifestyle rather than as the defining reason for their purchase, the non-ski-direct access is a non-issue — and the price-per-acre advantage over resort-adjacent neighborhoods is substantial.
+The proximity to I-80 gives Canyons Village a practical advantage over ski resort neighborhoods that require navigating Park City's internal road network during peak season. For buyers flying into Salt Lake for ski weekends, the straight shot from the airport to the resort via I-80 and UT-224 is efficient and predictable. The Park City transit system also serves Canyons Village with free shuttle connections to Old Town Park City throughout the ski season.
 
 ---
 
 ## Property Types & Price Ranges
 
-Silver Creek's defining characteristic is large lots and genuine land — a combination that defines its product mix and establishes it as a distinct alternative to the higher-density communities elsewhere in the Snyderville Basin.
+Canyons Village offers one of the most varied property mixes in the Park City market, spanning hotel-condominiums, traditional condominiums, townhomes, and private single-family ski residences.
 
-- **Equestrian Properties (2–10+ acres):** Silver Creek's most distinctive product type. Horse properties with barn structures, irrigated pasture, riding arenas, and multiple outbuildings have traded in the $1.2 million to $4 million range depending on lot size, improvements, and proximity to road access. True equestrian facilities with multiple acres and full infrastructure represent some of the most unique real estate in the Park City market.
-- **Custom Single-Family Homes (2,500–6,000+ sq ft):** The dominant residential product. Homes on half-acre to multi-acre lots, many with custom architecture reflecting the owner's personal vision rather than a developer's floor plan. Pricing typically runs $800,000 to $2.5 million for established homes, with newer custom construction and renovated properties reaching $3 million or more.
-- **Newer Construction and Semi-Custom Builds:** Silver Creek has seen active new construction in recent years, with builders developing larger infill lots and new subdivisions within the area's planning framework. These typically range from $1.2 million to $3 million and represent a mix of spec homes and custom builds.
-- **Vacant Land and Acreage Lots:** Silver Creek remains one of the few Park City-area sub-markets where buyers can acquire meaningful acreage — 2, 5, or even 10+ acres — at prices that make custom home construction financially rational. Land pricing varies widely based on topography, utilities, road access, and view quality, but buyers can identify parcels in the $500,000 to $1.5 million range for well-positioned lots.
-- **Home & Income Properties:** Some Silver Creek parcels include guest houses, caretaker units, or multi-structure configurations that can generate rental income or accommodate multigenerational living — a product type with growing buyer demand in the broader Park City market.
+**Hotel-Condominiums and Managed Residences:** The Waldorf Astoria Park City, Grand Summit Hotel, Sundial Lodge, and related managed residence products at the village base represent the entry point for most buyers. Studio and one-bedroom hotel-condominium units in managed programs typically start around $400,000 to $700,000. These properties offer turnkey ownership with hotel services, on-site rental management through the resort or a hotel operator, and direct ski access from the village base. They appeal strongly to buyers seeking investment income alongside personal use.
+
+**Traditional Condominiums and Townhomes:** Mid-range condominium and townhome products in Canyons Village communities such as Escala, Westgate Resorts, and the Copper Chase developments typically range from $700,000 for entry-level two-bedroom units to $3 million for larger, renovated ski-front residences. These properties vary significantly in their ski access quality -- some offer true ski-in/ski-out via direct slope access, while others are a short walk or shuttle from the lifts.
+
+**Luxury Ski Homes and Private Residences:** The upper end of the Canyons Village market includes large ski-in/ski-out single-family homes, private ski lodges, and estate-scale residences with slope-side access. These properties typically start around $4 million and extend to $10 million and above for new construction or fully renovated properties with premium positions. Pendry Residences Park City -- a recent addition to the village's luxury product mix -- represents the branded-residence tier, offering hotel-managed units with full ownership and significant amenity access.
 
 ---
 
 ## Lifestyle & Amenities
 
-Silver Creek's lifestyle is defined by what it does not have as much as by what it does. There is no clubhouse with a mandatory membership fee. There is no resort shuttle stop out front. There is no commercial corridor within the neighborhood. What Silver Creek offers is something that money increasingly struggles to buy in the modern mountain West: rural quiet, with urban convenience fifteen minutes away.
+Canyons Village is built for the ski-first lifestyle. The immediate base village includes ski rental and retail shops, multiple restaurants and apres-ski bars, ski school facilities, and a gondola connecting directly to Park City Mountain's unified lift network. The Cabriolet gondola runs year-round to the Flatiron lift and provides non-skiers and summer visitors access to hiking and mountain biking trails. The Park City Municipal Golf Course is within minutes of the village, and the broader Kimball Junction commercial area provides everyday retail and dining at the village's doorstep.
 
-- **Equestrian Culture:** Silver Creek is Park City's most established equestrian community. Horse owners find the combination of large lots, easy hay delivery access, trail riding connections, and proximity to veterinary services in Kimball Junction genuinely practical. Several full-service equestrian facilities operate within or near the Silver Creek area.
-- **Trailhead Access:** The broader Snyderville Basin trail system is accessible from Silver Creek, with connections to the McLeod Creek Trail and the extensive Summit County trail network for mountain biking and hiking. The terrain at Silver Creek's elevation and grade is particularly well-suited to trail running and cross-country skiing.
-- **Wildlife and Open Space:** Silver Creek Valley retains significant agricultural and open land character. Deer, elk, migratory birds, and other wildlife are consistent residents. Several properties back directly to Summit County open space easements, providing permanent view protection and wildlife corridor access.
-- **Self-Sufficient Living:** Many Silver Creek properties include features uncommon in higher-density Park City neighborhoods — irrigation rights, well water, generator backup systems, large storage and workshop spaces, and the infrastructure to support a more self-sufficient lifestyle. This appeals strongly to buyers relocating from urban environments who want to embrace what mountain living can actually mean.
-- **Community Character:** Silver Creek has a strong but informal community identity. Neighbors tend to know each other, road maintenance responsibilities are shared, and the low density creates a sense of place that is difficult to manufacture in purpose-planned developments.
+Beyond skiing, Canyons Village residents enjoy year-round access to the resort's summer programming, including concerts, festivals, and chairlift-served mountain biking. The proximity to Kimball Junction means access to Whole Foods, a strong restaurant selection, a movie theater, and the broader Park City commercial corridor is genuinely five to ten minutes away. Old Town Park City with its galleries, boutiques, and celebrated restaurant scene is 15 minutes south via US-224.
+
+For buyers considering rental income, Canyons Village's positioning within the Epic Pass ecosystem has expanded the visitor pool considerably. The resort draws skiers from across the country and internationally who book accommodations in the village directly, and managed-hotel-condominium programs consistently report high occupancy rates during peak ski season.
 
 ---
 
 ## Schools & Family
 
-Silver Creek generally falls within the **Park City School District** depending on the specific parcel location, with some properties on the community's southern and eastern edges served by **South Summit School District**. Buyers with school-age children should confirm the specific district assignment for any property under consideration.
+Canyons Village residents are served by the Park City School District. Given the predominantly second-home and vacation rental character of most Canyons Village properties, the school connection is less central for most buyers here than in neighborhoods like Jeremy Ranch or Park Meadows. For families who use Canyons Village as a primary or part-time primary residence, Parley's Park Elementary School in the Kimball Junction area serves the immediate vicinity, with the full Park City middle and high school pathway accessible from there.
 
-Within the Park City School District:
-- **Jeremy Ranch Elementary:** Serves many Silver Creek families, a 10 to 15 minute drive from most Silver Creek addresses.
-- **Ecker Hill Middle School:** Grades 6-7 with project-based curriculum and strong outdoor education integration.
-- **Park City High School:** Utah's most consistently high-performing large public high school, with robust academic, arts, and athletics programming.
-
-For families who value land, animals, and an active outdoor family life, Silver Creek's combination of large-lot living with Park City school district access is genuinely rare. The ability to have horses in the backyard while your children attend one of Utah's best public schools is a value proposition that few addresses in the Mountain West can honestly claim.
-
-Private school options — including Waterford in Sandy and several Salt Lake City options — are within 45 to 50 minutes given Silver Creek's I-80 access via Kimball Junction.
+The resort environment itself provides a version of family programming through ski school, seasonal camps, and mountain bike coaching programs that have become a genuine draw for families with school-age children who participate in competitive winter sports.
 
 ---
 
 ## Dining & Shopping Nearby
 
-Silver Creek's rural character means that daily conveniences require a short drive — typically 10 to 15 minutes to Kimball Junction's full retail and dining corridor.
+Canyons Village's own dining ecosystem within the resort base is anchored by the Drafts Sports Bar & Grill, Red Tail Grill, and dining venues within the Waldorf Astoria and Pendry properties. The village's apres-ski scene concentrates around the gondola base, with seasonal pop-ups and established venues that draw both residents and day visitors. The dining quality within the resort has improved substantially under Vail Resorts' ownership as the company has invested in food-and-beverage as a competitive differentiator.
 
-**Kimball Junction (10-15 minutes):**
-- Whole Foods Market — primary grocery for Silver Creek residents
-- Target, Costco, and the full Kimball Junction retail array
-- Red Rock Brewing, Café Rio, and the Kimball Junction casual dining corridor
-- Urgent care, veterinary services, fitness centers, and everyday services
-
-**Park City Main Street (15-20 minutes):**
-- Handle, High West Distillery, Riverhorse on Main — Park City's premier dining corridor
-- Atticus Coffee and Books — a community institution for coffee, books, and relaxed morning rituals
-- Numerous galleries, boutiques, and specialty retailers in the historic district
-
-For agricultural supplies, horse feed, and rural-lifestyle goods, the Intermountain Farmers Association and several feed and farm supply operations in Parley's Canyon and the Salt Lake Valley are accessible via I-80 within 30 to 40 minutes.
-
-The trade-off is clear and intentional: Silver Creek residents accept a short drive for daily errands in exchange for the lot sizes, privacy, and rural character that no amount of money can create within a denser neighborhood. Most Silver Creek residents report this exchange as one of the most satisfying aspects of their decision.
+Kimball Junction, one of Park City's primary commercial centers, is three to five minutes away and provides Whole Foods, Trader Joe's, a wide range of national and regional restaurants, Park City's primary movie theater, and regional boutiques and services. The density of dining and retail options at Kimball Junction effectively serves as Canyons Village's neighborhood center for residents seeking options beyond the resort campus itself.
 
 ---
 
-## Why Buy in Silver Creek
+## Why Buy in Canyons Village
 
-Silver Creek is Park City's best answer for a specific and growing buyer profile: the buyer who has achieved financial success, understands the mountain lifestyle, and wants to live in it — not just visit it through a resort window.
+There is a precision that comes with long experience in high-stakes environments -- knowing what to look for, what to question, and what the numbers do not fully reveal. Murray Gardner brought that discipline from two decades in naval aviation and applied it to luxury real estate and then to building seven Showcase homes in Park City. When he evaluates a Canyons Village property, the analysis covers the mountain access sightlines that photographs flatten, the construction and finish quality differences between managed hotel-condominiums and independently owned units, and the rental income projections that sophisticated buyers need to model accurately.
 
-**Land that actually exists.** The Mountain West's luxury real estate market is consolidating toward smaller lots, denser development, and HOA-governed communities with escalating fees. Silver Creek is a genuine exception — real acreage, real privacy, and real land ownership at prices that are competitive with dense luxury product in other Park City neighborhoods.
-
-**The equestrian opportunity.** There is no comparable equestrian-capable community within 30 minutes of Park City's ski resorts. Buyers who want horses — or who want the option of horses — will find Silver Creek is the only realistic Park City-area address that delivers this without a significant rural isolation penalty.
-
-**New construction with a builder's eye.** Silver Creek's active new construction market offers buyers the opportunity to purchase exactly what they want, with the finishes, specifications, and layout they choose. Murray Gardner's background as a luxury home builder transforms this process from stressful to strategic — he knows which builders deliver on their promises, which specs matter for mountain climate performance, and how to read a construction contract in ways that protect buyers before the first shovel breaks ground.
-
-**Investment in scarcity.** Large-lot acreage properties near a world-class resort market are a finite resource. As the Snyderville Basin continues to develop and Park City's demand base grows, the scarcity premium for Silver Creek's land-heavy product is likely to compound. Buyers who acquire here are not just purchasing a home — they are securing a position in a sub-market that cannot meaningfully expand its supply.
-
-**A life that looks like the mountains.** Silver Creek is for buyers who want to see elk from their kitchen window, hear their horses in the morning, and look across open meadows to the Wasatch peaks without a neighbor's roofline in the frame. That is not a lifestyle for everyone — but for the buyer it suits, there is no substitute.
+Canyons Village is compelling for two structural reasons. First, the Epic Pass integration has permanently elevated the resort's national profile, which means the buyer pool for resale will continue to deepen over time. Second, the Pendry Residences and other recent additions to the village's luxury product mix are pulling average sale prices upward at the top of the market, which historically lifts price perceptions across all property tiers in a resort village. These are the structural tailwinds that translate into long-term appreciation on the right property at the right price.
 
 ---
 
-## Frequently Asked Questions About Silver Creek
+## Frequently Asked Questions
 
-**What makes Silver Creek different from other Park City communities?**
-Silver Creek's defining characteristic is its large-lot, low-density character. While most Park City luxury communities are built around resort access, golf courses, or clubhouse amenities, Silver Creek is built around land and space. Properties here typically sit on half-acre to multi-acre parcels, often with agricultural or equestrian uses, open meadow views, and a rural quiet that is genuinely rare this close to a world-class ski resort. It is best suited to buyers who prioritize privacy, space, and the authentic mountain-ranching lifestyle over resort convenience or social amenities.
+**Q: What is the difference between Canyons Village and Park City Mountain Resort?**
+Canyons Village is the base village community located on the western side of what is now a unified ski resort called Park City Mountain Resort, operated by Vail Resorts. Canyons Village was formerly a separate resort (Canyons Resort) before the resorts were connected by the Flatiron lift in 2015, creating the largest ski resort in the United States by acreage. The Canyons Village base area retains its own identity, lodging, and village infrastructure while connecting directly to the full Park City Mountain trail network. Buyers in Canyons Village have access to the entire combined resort: 7,300+ acres and 330+ trails.
 
-**Are there horse properties for sale in Silver Creek?**
-Yes — Silver Creek is Park City's most established equestrian community, and horse properties represent one of its most sought-after product types. Available equestrian properties typically include irrigated pasture acreage, barn or stable structures, tack rooms, and in some cases riding arenas. Murray Gardner can identify current equestrian inventory and help buyers evaluate the condition of agricultural improvements, water rights, and land management history as part of the buying process.
+**Q: Are there ski-in/ski-out properties at Canyons Village?**
+Yes. Genuine ski-in/ski-out access is available in select properties at Canyons Village, primarily those located directly on or immediately adjacent to ski runs in the upper village. However, the term "ski access" is used broadly in resort real estate marketing, and not every property described as having ski access offers true ski-in/ski-out capability. Murray Gardner's evaluation of any Canyons Village property includes a specific assessment of the actual ski access -- whether it is direct piste access, a short traverse, a shuttle connection, or simply a short walk to a lift -- so you understand exactly what you are buying.
 
-**What are property taxes like in Silver Creek?**
-Silver Creek sits in unincorporated Summit County, and property taxes are assessed by Summit County based on market value. Summit County's property tax rates are generally competitive within the Utah mountain market, though buyers of higher-value properties will want to budget carefully. Agricultural use designations (Greenbelt) may apply to certain acreage parcels and can meaningfully reduce the assessed taxable value on the land component of a property. Murray Gardner can help buyers understand the tax implications of specific properties, including the conditions and limitations of agricultural tax designations.
+**Q: Can you rent out a Canyons Village property short-term?**
+Most properties in Canyons Village, particularly those within managed hotel-condominium programs (Waldorf Astoria, Sundial Lodge, Pendry), are specifically designed for short-term rental participation and include on-site rental management through the resort or hotel operator. For independently owned condominiums and townhomes, short-term rental is generally permitted subject to Summit County licensing requirements and applicable HOA rules. Canyons Village's position as an active resort base area makes it one of the more favorable Park City neighborhoods for short-term rental activity from a regulatory standpoint, though the specific rules applicable to any given property require verification before purchase.
 
-**Is Silver Creek good for new construction?**
-Silver Creek is an active new construction market, with multiple builder-developed subdivisions and custom infill projects underway as of 2026. For buyers interested in building custom homes, Silver Creek offers some of the best remaining large-lot opportunities within the Park City area at prices that make custom construction financially rational. Murray Gardner's background as a luxury home builder is particularly relevant here: he can evaluate lot suitability, assess builder reputation and construction quality, review contracts and specifications, and guide clients through the custom build process with the kind of hands-on expertise that no purely transactional agent can offer.
-
-**How does Silver Creek compare to Promontory for large-lot living?**
-Both Silver Creek and Promontory offer large-lot properties with mountain views and low density, but they serve different buyer profiles. Promontory is a fully amenitized private club community with golf, a beach club, equestrian facilities, and extensive social programming — buyers pay for those amenities through club fees and a higher price floor. Silver Creek is a more independently structured community without mandatory club membership or per-use fees; buyers pay for the land and privacy without the club overhead. For buyers who want acreage, horses, and a rural character without the private club framework, Silver Creek is generally the more practical and cost-efficient choice. Murray can walk you through the trade-offs in detail.
+**Q: How does the Epic Pass affect Canyons Village real estate values?**
+The Vail Resorts acquisition and Epic Pass integration have elevated Canyons Village's profile among national ski real estate buyers, particularly those who already hold Epic Passes and prioritize flexibility across multiple mountains. The integration increased the resort's skier visit numbers, which translates into higher demand for both short-term rentals and ownership. While it is difficult to isolate the Epic Pass effect from broader Park City market appreciation, the consensus among Park City real estate professionals is that the Vail affiliation has been a net positive for Canyons Village property values and rental revenue potential.
 
 ---
 
 ## Internal Link Suggestions
 
-Link to this page from:
-- `/communities/` — communities index
-- `/communities/jeremy-ranch/` — "Silver Creek neighbors Jeremy Ranch to the north..."
-- `/communities/kimball-junction/` — "Silver Creek sits adjacent to Kimball Junction..."
-- `/blog/new-construction-best-communities-2025/` — Silver Creek has active new construction
-
-Link from this page to:
-- `/communities/promontory/` — anchor: "compare Promontory for a private club community with similar acreage"
-- `/communities/jeremy-ranch/` — anchor: "Jeremy Ranch offers a more established neighborhood character nearby"
-- `/blog/custom-homes-park-city/` — anchor: "read our guide to custom homes in Park City"
-- `/buyers/` — anchor: "explore all buyer resources"
-- `/contact/` — CTA link
+- Link **to** this page from: `/communities/` index, ski-in/ski-out property type hub page (to be created), blog posts covering Park City Mountain Resort or Epic Pass, Park City condos landing page
+- Link **from** this page to: ski-in/ski-out properties hub (to be created at `/ski-in-ski-out/`), Empire Pass community page (`/communities/empire-pass/`), Deer Valley community page, Park City condos page, contact page (`/contact/`)
+- Anchor text suggestions: "Park City ski-in/ski-out homes," "Deer Valley ski properties," "Empire Pass residences," "Park City Mountain Resort real estate," "ski condos in Park City"
 
 ---
 
-## CTA
-
-**Interested in Silver Creek? Contact Murray Gardner.**
-Silver Creek's combination of land, custom construction, and equestrian properties requires an advisor who can evaluate what you are actually buying — not just the price per square foot. Murray Gardner's background as a luxury home builder gives Silver Creek buyers a decisive advantage in understanding construction quality, lot potential, and the real value embedded in Park City's most distinctive acreage community.
-
-[Contact Murray Gardner](/contact/)
+**Interested in Canyons Village? Contact Murray Gardner at (435) 640-5184 or visit [gardnergrouprealtors.com/contact/](https://www.gardnergrouprealtors.com/contact/) to schedule a village tour and review current ski season listings.**
 
 ---
 
-*End of community pages document.*
-*4 pages written. Approximate combined word count: ~8,400 words.*
-*Target: 1,000–1,500 words per page. Actual: approximately 1,050–1,200 words per page body content (excluding meta, headings, and administrative elements).*
+---
+
+## Implementation Notes for Web Team
+
+### Meta Tag Final Character Counts
+
+| Page | Meta Title | Chars | Meta Description | Chars |
+|------|-----------|-------|-----------------|-------|
+| Deer Valley | Deer Valley Real Estate -- Homes for Sale in Deer Valley, UT | 60 | Browse Deer Valley homes for sale with Murray Gardner, KW Park City's top luxury agent. Upper & Lower Deer Valley ski-in/ski-out properties and estates. | 153 |
+| Promontory | Promontory Park City Homes for Sale \| Golf & Ranch Community | 60 | Explore Promontory Park City homes with Murray Gardner, KW Park City. Utah's top private golf & ranch community -- custom homes from $1.5M to $15M+. | 149 |
+| Jeremy Ranch | Jeremy Ranch Homes for Sale \| Park City, Utah Real Estate | 57 | Search Jeremy Ranch homes for sale in Park City, UT. Golf community homes, mountain estates & family properties from $800K to $4M+. Murray Gardner, KW. | 152 |
+| Canyons Village | Canyons Village Homes for Sale \| Park City Mountain Resort | 58 | Browse Canyons Village real estate at Park City Mountain Resort. Ski-in/ski-out condos & slopeside homes from $500K to $10M+. Murray Gardner, KW Park City. | 155 |
+
+### Schema Deployment Checklist
+
+All four pages are structured for FAQPage schema. Deploy JSON-LD FAQPage blocks for each FAQ section (4 Q&As per page, 16 total across all pages). Cross-reference the schema markup file at `/seo/content/claude-schema-markup.md` for the full JSON-LD implementation spec. Target FAQ answer length of 40-60 words per answer for AI Overview citation eligibility.
+
+### Priority Deploy Order
+
+1. **Deer Valley** -- highest search volume keyword gap ("Deer Valley homes for sale" -- High volume, zero ranking), highest revenue property tier, Deer Valley East Village expansion is a current news hook
+2. **Promontory** -- current #1 competitor result (germaniaconstruction.com) is a builder, not an agent; an authoritative agent page should displace it with 2-3 months of indexing
+3. **Canyons Village** -- Epic Pass/ski season timing opportunity; Pendry Residences angle creates a fresh content hook; addresses the "Park City ski-in ski-out homes" keyword gap
+4. **Jeremy Ranch** -- kwparkcity.com (same brokerage) currently ranks #1; an on-site content expansion should recapture this intra-brokerage gap relatively quickly
+
+### Word Counts (Approximate Body Content)
+
+| Page | Approx. Body Words |
+|------|--------------------|
+| Deer Valley | ~1,340 |
+| Promontory | ~1,370 |
+| Jeremy Ranch | ~1,350 |
+| Canyons Village | ~1,400 |
+
+All pages are within the 1,000-1,500 word target for body content with all required sections present.
+
+### Internal Linking Cross-Reference
+
+Pages in this set should interlink with each other where community comparison is natural:
+
+- Deer Valley page links to Empire Pass and Deer Crest (both are existing fully-developed pages on the site)
+- Promontory page links to Glenwild (existing fully-developed page on the site)
+- Jeremy Ranch page links to Snyderville Basin overview
+- Canyons Village page links to Deer Valley and Empire Pass
+
+This creates a ski/golf topical cluster that distributes link equity across the site's most valuable community pages and builds the topical authority signal that the audit identified as the primary reason the site is not ranking despite its content volume.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Site Audit"
+  short_description: "Run SEO and PPC audits here"
+  default_prompt: "Use $site-audit to run or extend an SEO or PPC audit in this repository."
