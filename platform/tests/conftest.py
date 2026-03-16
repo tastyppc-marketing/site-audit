@@ -1,0 +1,103 @@
+"""Shared pytest fixtures for the audit-platform test suite."""
+
+from __future__ import annotations
+
+from pathlib import Path
+from typing import Generator
+from unittest.mock import MagicMock, patch
+
+import pytest
+
+from audit_platform.config import Settings
+
+
+# ---------------------------------------------------------------------------
+# Settings
+# ---------------------------------------------------------------------------
+
+@pytest.fixture()
+def settings() -> Settings:
+    """Return a Settings instance populated with safe test defaults.
+
+    No .env file is loaded (env_file is overridden to a non-existent path).
+    Every value is either a harmless placeholder or the field default.
+    """
+    return Settings(
+        _env_file=None,  # type: ignore[call-arg]
+        GOOGLE_CLIENT_ID="test-client-id.apps.googleusercontent.com",
+        GOOGLE_CLIENT_SECRET="test-client-secret",
+        GOOGLE_REFRESH_TOKEN="test-refresh-token",
+        GOOGLE_ADS_DEVELOPER_TOKEN="test-dev-token",
+        GOOGLE_ADS_LOGIN_CUSTOMER_ID="1234567890",
+        GOOGLE_ADS_CUSTOMER_ID="9876543210",
+        GA4_PROPERTY_ID="123456789",
+        SEARCH_CONSOLE_SITE_URL="https://example.com/",
+        PAGESPEED_API_KEY="test-pagespeed-key",
+        CRUX_API_KEY="test-crux-key",
+        GBP_ACCOUNT_ID="111111",
+        GBP_LOCATION_ID="222222",
+        DATAFORSEO_LOGIN="test@example.com",
+        DATAFORSEO_PASSWORD="test-password",
+        LOG_LEVEL="DEBUG",
+        HTTP_TIMEOUT=5,
+    )
+
+
+# ---------------------------------------------------------------------------
+# Mock credentials
+# ---------------------------------------------------------------------------
+
+@pytest.fixture()
+def mock_oauth_credentials() -> MagicMock:
+    """Return a MagicMock that stands in for google.oauth2.credentials.Credentials."""
+    creds = MagicMock()
+    creds.token = "fake-access-token"
+    creds.refresh_token = "fake-refresh-token"
+    creds.client_id = "test-client-id.apps.googleusercontent.com"
+    creds.client_secret = "test-client-secret"
+    creds.valid = True
+    creds.expired = False
+    return creds
+
+
+@pytest.fixture()
+def mock_service_account_credentials() -> MagicMock:
+    """Return a MagicMock that stands in for google.oauth2.service_account.Credentials."""
+    creds = MagicMock()
+    creds.service_account_email = "test@project.iam.gserviceaccount.com"
+    creds.token = "fake-sa-access-token"
+    creds.valid = True
+    creds.expired = False
+    return creds
+
+
+# ---------------------------------------------------------------------------
+# HTTP mocking
+# ---------------------------------------------------------------------------
+
+@pytest.fixture()
+def httpx_mock() -> Generator[MagicMock, None, None]:
+    """Patch httpx.Client so no real HTTP requests are made.
+
+    The fixture yields a MagicMock whose `.get`, `.post`, etc. methods can
+    be configured per-test.  Example::
+
+        def test_something(httpx_mock):
+            httpx_mock.get.return_value = httpx.Response(200, json={"ok": True})
+    """
+    mock_client = MagicMock()
+
+    # Provide a sensible default response for any un-configured call.
+    default_response = MagicMock()
+    default_response.status_code = 200
+    default_response.json.return_value = {}
+    default_response.text = ""
+    default_response.raise_for_status = MagicMock()
+
+    for method in ("get", "post", "put", "patch", "delete", "head", "options"):
+        getattr(mock_client, method).return_value = default_response
+
+    mock_client.is_closed = False
+
+    with patch("httpx.Client", return_value=mock_client):
+        yield mock_client
