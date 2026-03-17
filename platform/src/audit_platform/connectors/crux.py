@@ -84,16 +84,16 @@ class CrUXConnector(BaseConnector):
         has insufficient data (HTTP 404).
         """
         url = self._endpoint_url()
-        self.logger.debug("crux_request", body=body)
+        self.log.debug("crux_request", body=body)
 
-        response = self.http_client.post(
+        response = self.sync_client.post(
             url,
             json=body,
             headers={"Content-Type": "application/json"},
         )
 
         if response.status_code == 404:
-            self.logger.info("crux_no_data", body=body)
+            self.log.info("crux_no_data", body=body)
             return None
 
         response.raise_for_status()
@@ -123,7 +123,7 @@ class CrUXConnector(BaseConnector):
         if form_factor:
             body["formFactor"] = form_factor.upper()
 
-        self.logger.info("crux_query_url", url=url, form_factor=form_factor)
+        self.log.info("crux_query_url", url=url, form_factor=form_factor)
         data = self._post(body)
         if data is None:
             return None
@@ -148,7 +148,7 @@ class CrUXConnector(BaseConnector):
         if form_factor:
             body["formFactor"] = form_factor.upper()
 
-        self.logger.info("crux_query_origin", origin=origin, form_factor=form_factor)
+        self.log.info("crux_query_origin", origin=origin, form_factor=form_factor)
         data = self._post(body)
         if data is None:
             return None
@@ -174,7 +174,7 @@ class CrUXConnector(BaseConnector):
         is_origin = url_or_origin.rstrip("/").count("/") <= 2
         query_fn = self.query_origin if is_origin else self.query_url
 
-        self.logger.info(
+        self.log.info(
             "crux_full_vitals_start",
             target=url_or_origin,
             mode="origin" if is_origin else "url",
@@ -187,7 +187,7 @@ class CrUXConnector(BaseConnector):
         }
 
         available = sum(1 for v in results.values() if v is not None)
-        self.logger.info(
+        self.log.info(
             "crux_full_vitals_complete",
             target=url_or_origin,
             segments_with_data=available,

@@ -85,7 +85,7 @@ class SearchConsoleConnector(BaseConnector):
             refresh_token=s.GOOGLE_REFRESH_TOKEN,
         )
         self._service = build("searchconsole", "v1", credentials=creds, cache_discovery=False)
-        self.logger.info("search_console_service_initialized")
+        self.log.info("search_console_service_initialized")
         return self._service
 
     def _resolve_site_url(self, site_url: str | None) -> str:
@@ -126,7 +126,7 @@ class SearchConsoleConnector(BaseConnector):
             "type": search_type,
         }
 
-        self.logger.debug(
+        self.log.debug(
             "search_console_query",
             site_url=resolved_url,
             dimensions=dimensions,
@@ -142,11 +142,11 @@ class SearchConsoleConnector(BaseConnector):
                 .execute()
             )
         except HttpError as exc:
-            self.logger.error("search_console_query_error", status=exc.resp.status, detail=str(exc))
+            self.log.error("search_console_query_error", status=exc.resp.status, detail=str(exc))
             raise
 
         rows = response.get("rows", [])
-        self.logger.info(
+        self.log.info(
             "search_console_query_complete",
             dimensions=dimensions,
             rows_returned=len(rows),
@@ -297,12 +297,12 @@ class SearchConsoleConnector(BaseConnector):
                     })
                 result["sitemaps"].append(sitemap_info)
 
-            self.logger.info(
+            self.log.info(
                 "search_console_indexing_status",
                 sitemaps_count=len(result["sitemaps"]),
             )
         except HttpError as exc:
-            self.logger.warning(
+            self.log.warning(
                 "search_console_sitemaps_error",
                 status=exc.resp.status,
                 detail=str(exc),

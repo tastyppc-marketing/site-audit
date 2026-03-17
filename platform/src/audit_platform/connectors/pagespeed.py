@@ -181,14 +181,14 @@ class PageSpeedConnector(BaseConnector):
         cats = list(categories or ["performance"])
         params = self._build_params(url, strategy, cats)
 
-        self.logger.info("pagespeed_analyze_start", url=url, strategy=strategy, categories=cats)
+        self.log.info("pagespeed_analyze_start", url=url, strategy=strategy, categories=cats)
 
-        response = self.http_client.get(_PSI_ENDPOINT, params=params)
+        response = self.sync_client.get(_PSI_ENDPOINT, params=params)
         response.raise_for_status()
         data: dict[str, Any] = response.json()
 
         record = self._parse_response(data, url, strategy)
-        self.logger.info(
+        self.log.info(
             "pagespeed_analyze_complete",
             url=url,
             strategy=strategy,
@@ -216,7 +216,7 @@ class PageSpeedConnector(BaseConnector):
         results: list[PageSpeedRecord] = []
         delay = self._request_delay()
 
-        self.logger.info(
+        self.log.info(
             "pagespeed_batch_start",
             count=len(urls),
             strategy=strategy,
@@ -230,20 +230,20 @@ class PageSpeedConnector(BaseConnector):
                 record = self.analyze(url, strategy=strategy, categories=categories)
                 results.append(record)
             except httpx.HTTPStatusError as exc:
-                self.logger.warning(
+                self.log.warning(
                     "pagespeed_batch_item_error",
                     url=url,
                     status=exc.response.status_code,
                     detail=exc.response.text[:500],
                 )
             except Exception as exc:
-                self.logger.warning(
+                self.log.warning(
                     "pagespeed_batch_item_error",
                     url=url,
                     error=str(exc),
                 )
 
-        self.logger.info("pagespeed_batch_complete", succeeded=len(results), total=len(urls))
+        self.log.info("pagespeed_batch_complete", succeeded=len(results), total=len(urls))
         return results
 
     def get_core_web_vitals(self, url: str) -> CoreWebVitals:
@@ -255,7 +255,7 @@ class PageSpeedConnector(BaseConnector):
         Returns:
             A :class:`CoreWebVitals` instance with both Lighthouse results.
         """
-        self.logger.info("pagespeed_cwv_start", url=url)
+        self.log.info("pagespeed_cwv_start", url=url)
 
         mobile_record: PageSpeedRecord | None = None
         desktop_record: PageSpeedRecord | None = None
@@ -263,14 +263,14 @@ class PageSpeedConnector(BaseConnector):
         try:
             mobile_record = self.analyze(url, strategy="mobile")
         except Exception as exc:
-            self.logger.warning("pagespeed_cwv_mobile_error", url=url, error=str(exc))
+            self.log.warning("pagespeed_cwv_mobile_error", url=url, error=str(exc))
 
         time.sleep(self._request_delay())
 
         try:
             desktop_record = self.analyze(url, strategy="desktop")
         except Exception as exc:
-            self.logger.warning("pagespeed_cwv_desktop_error", url=url, error=str(exc))
+            self.log.warning("pagespeed_cwv_desktop_error", url=url, error=str(exc))
 
         cwv = CoreWebVitals(
             url=url,
@@ -278,7 +278,7 @@ class PageSpeedConnector(BaseConnector):
             lighthouse_desktop=desktop_record,
         )
 
-        self.logger.info(
+        self.log.info(
             "pagespeed_cwv_complete",
             url=url,
             mobile_score=mobile_record.performance_score if mobile_record else None,

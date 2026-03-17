@@ -90,7 +90,7 @@ class GoogleAdsConnector(BaseConnector):
             config["login_customer_id"] = s.GOOGLE_ADS_LOGIN_CUSTOMER_ID
 
         self._ads_client = GoogleAdsClient.load_from_dict(config)
-        self.logger.info(
+        self.log.info(
             "google_ads_client_initialized",
             login_customer_id=s.GOOGLE_ADS_LOGIN_CUSTOMER_ID or "(default)",
         )
@@ -120,13 +120,13 @@ class GoogleAdsConnector(BaseConnector):
         client = self._get_client()
         service = client.get_service("GoogleAdsService")
 
-        self.logger.debug("gaql_search", customer_id=customer_id, query=query)
+        self.log.debug("gaql_search", customer_id=customer_id, query=query)
 
         try:
             response = service.search(customer_id=customer_id, query=query)
             return list(response)
         except GoogleAdsException as exc:
-            self.logger.error(
+            self.log.error(
                 "google_ads_api_error",
                 customer_id=customer_id,
                 query=query[:200],
@@ -214,7 +214,7 @@ class GoogleAdsConnector(BaseConnector):
                 )
             )
 
-        self.logger.info("campaigns_fetched", count=len(records), date_range=date_range)
+        self.log.info("campaigns_fetched", count=len(records), date_range=date_range)
         return records
 
     def get_ad_groups(
@@ -280,7 +280,7 @@ class GoogleAdsConnector(BaseConnector):
                 )
             )
 
-        self.logger.info(
+        self.log.info(
             "ad_groups_fetched",
             count=len(records),
             campaign_id=campaign_id,
@@ -359,7 +359,7 @@ class GoogleAdsConnector(BaseConnector):
                 )
             )
 
-        self.logger.info(
+        self.log.info(
             "keywords_fetched",
             count=len(records),
             campaign_id=campaign_id,
@@ -426,7 +426,7 @@ class GoogleAdsConnector(BaseConnector):
                 )
             )
 
-        self.logger.info(
+        self.log.info(
             "search_terms_fetched",
             count=len(records),
             campaign_id=campaign_id,
@@ -497,7 +497,7 @@ class GoogleAdsConnector(BaseConnector):
                 }
             )
 
-        self.logger.info(
+        self.log.info(
             "campaign_performance_fetched",
             campaign_id=campaign_id,
             days=len(daily),
@@ -561,5 +561,5 @@ class GoogleAdsConnector(BaseConnector):
 
             results.append(entry)
 
-        self.logger.info("recommendations_fetched", count=len(results))
+        self.log.info("recommendations_fetched", count=len(results))
         return results

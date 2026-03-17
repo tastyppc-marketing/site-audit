@@ -3,6 +3,10 @@ Livinginparkcity/
 archive/root-node_modules-old/
 ~$*
 
+# Secrets
+service-account.json
+client_secret*.json
+
 # Python
 __pycache__/
 *.pyc

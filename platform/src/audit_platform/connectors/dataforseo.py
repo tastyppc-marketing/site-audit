@@ -61,7 +61,7 @@ class DataForSEOConnector(BaseConnector):
         self._login = self.settings.DATAFORSEO_LOGIN
         self._password = self.settings.DATAFORSEO_PASSWORD
         if not self._login or not self._password:
-            self.logger.warning(
+            self.log.warning(
                 "dataforseo_credentials_missing",
                 hint=(
                     "Set DATAFORSEO_LOGIN and DATAFORSEO_PASSWORD in .env. "
@@ -87,8 +87,8 @@ class DataForSEOConnector(BaseConnector):
         Raises ``httpx.HTTPStatusError`` on HTTP-level failures.
         """
         url = f"{_BASE_URL}{path}"
-        self.logger.debug("dataforseo_request", url=url, tasks=len(payload))
-        resp = self.http_client.post(url, json=payload, auth=self._auth)
+        self.log.debug("dataforseo_request", url=url, tasks=len(payload))
+        resp = self.sync_client.post(url, json=payload, auth=self._auth)
         resp.raise_for_status()
         return resp.json()
 
@@ -141,18 +141,18 @@ class DataForSEOConnector(BaseConnector):
 
         tasks = raw.get("tasks", [])
         if not tasks:
-            self.logger.warning("dataforseo_empty_tasks", response=raw)
+            self.log.warning("dataforseo_empty_tasks", response=raw)
             return []
 
         if expect_single_task and len(tasks) > 1:
-            self.logger.debug("dataforseo_multiple_tasks", count=len(tasks))
+            self.log.debug("dataforseo_multiple_tasks", count=len(tasks))
 
         results: list[dict[str, Any]] = []
         for task in tasks:
             task_code = task.get("status_code", 0)
             task_msg = task.get("status_message", "")
             if task_code != 20000:
-                self.logger.error(
+                self.log.error(
                     "dataforseo_task_error",
                     status_code=task_code,
                     status_message=task_msg,
@@ -198,7 +198,7 @@ class DataForSEOConnector(BaseConnector):
             ``rank_absolute``, ``domain``, ``url``, ``title``,
             ``description``, ``breadcrumb``.
         """
-        self.logger.info(
+        self.log.info(
             "dataforseo_serp_request",
             keyword=keyword,
             location=location_code,
@@ -230,7 +230,7 @@ class DataForSEOConnector(BaseConnector):
                     "description": item.get("description", ""),
                     "breadcrumb": item.get("breadcrumb", ""),
                 })
-        self.logger.info("dataforseo_serp_items", keyword=keyword, count=len(items))
+        self.log.info("dataforseo_serp_items", keyword=keyword, count=len(items))
         return items
 
     def get_serp_batch(
@@ -253,7 +253,7 @@ class DataForSEOConnector(BaseConnector):
         dict[str, list[dict]]
             Results keyed by keyword.
         """
-        self.logger.info(
+        self.log.info(
             "dataforseo_serp_batch",
             keywords_count=len(keywords),
             location=location_code,
@@ -280,7 +280,7 @@ class DataForSEOConnector(BaseConnector):
         for task in raw.get("tasks", []):
             task_code = task.get("status_code", 0)
             if task_code != 20000:
-                self.logger.warning(
+                self.log.warning(
                     "dataforseo_batch_task_error",
                     status_code=task_code,
                     status_message=task.get("status_message", ""),
@@ -301,7 +301,7 @@ class DataForSEOConnector(BaseConnector):
                         "breadcrumb": item.get("breadcrumb", ""),
                     })
 
-        self.logger.info(
+        self.log.info(
             "dataforseo_serp_batch_complete",
             keywords_returned=sum(1 for v in by_keyword.values() if v),
         )
@@ -323,7 +323,7 @@ class DataForSEOConnector(BaseConnector):
         list[dict]
             Local pack items only.
         """
-        self.logger.info("dataforseo_local_pack_request", keyword=keyword)
+        self.log.info("dataforseo_local_pack_request", keyword=keyword)
         raw = self._post(
             "/serp/google/organic/live/advanced",
             [
@@ -342,7 +342,7 @@ class DataForSEOConnector(BaseConnector):
             for item in result.get("items", []):
                 if item.get("type") == "local_pack":
                     items.append(item)
-        self.logger.info("dataforseo_local_pack_items", keyword=keyword, count=len(items))
+        self.log.info("dataforseo_local_pack_items", keyword=keyword, count=len(items))
         return items
 
     # ==================================================================
@@ -369,7 +369,7 @@ class DataForSEOConnector(BaseConnector):
         list[KeywordRecord]
             Normalised keyword records.
         """
-        self.logger.info(
+        self.log.info(
             "dataforseo_keyword_data",
             keywords_count=len(keywords),
             location=location_code,
@@ -403,7 +403,7 @@ class DataForSEOConnector(BaseConnector):
                         source="dataforseo",
                     )
                 )
-        self.logger.info("dataforseo_keyword_data_fetched", count=len(records))
+        self.log.info("dataforseo_keyword_data_fetched", count=len(records))
         return records
 
     def get_keyword_suggestions(
@@ -429,7 +429,7 @@ class DataForSEOConnector(BaseConnector):
         list[KeywordRecord]
             Normalised keyword records for the suggestions.
         """
-        self.logger.info(
+        self.log.info(
             "dataforseo_keyword_suggestions",
             seed=seed_keyword,
             limit=limit,
@@ -465,7 +465,7 @@ class DataForSEOConnector(BaseConnector):
                         source="dataforseo",
                     )
                 )
-        self.logger.info("dataforseo_keyword_suggestions_fetched", count=len(records))
+        self.log.info("dataforseo_keyword_suggestions_fetched", count=len(records))
         return records[:limit]
 
     # ==================================================================
@@ -488,7 +488,7 @@ class DataForSEOConnector(BaseConnector):
         DomainMetrics
             Normalised domain-level metrics.
         """
-        self.logger.info("dataforseo_backlinks_summary", target=target)
+        self.log.info("dataforseo_backlinks_summary", target=target)
         raw = self._post(
             "/backlinks/summary/live",
             [
@@ -501,7 +501,7 @@ class DataForSEOConnector(BaseConnector):
         )
         results = self._unwrap(raw)
         if not results:
-            self.logger.warning("dataforseo_backlinks_summary_empty", target=target)
+            self.log.warning("dataforseo_backlinks_summary_empty", target=target)
             return DomainMetrics(domain=target, source="dataforseo")
 
         data = results[0]
@@ -540,7 +540,7 @@ class DataForSEOConnector(BaseConnector):
         if order_by is None:
             order_by = ["rank,desc"]
 
-        self.logger.info("dataforseo_backlinks_fetch", target=target, limit=limit)
+        self.log.info("dataforseo_backlinks_fetch", target=target, limit=limit)
         raw = self._post(
             "/backlinks/backlinks/live",
             [
@@ -576,7 +576,7 @@ class DataForSEOConnector(BaseConnector):
                         source="dataforseo",
                     )
                 )
-        self.logger.info("dataforseo_backlinks_fetched", count=len(records))
+        self.log.info("dataforseo_backlinks_fetched", count=len(records))
         return records
 
     def get_referring_domains(
@@ -599,7 +599,7 @@ class DataForSEOConnector(BaseConnector):
             Raw referring domain records including ``domain``,
             ``rank``, ``backlinks``, ``first_seen``, etc.
         """
-        self.logger.info("dataforseo_referring_domains", target=target, limit=limit)
+        self.log.info("dataforseo_referring_domains", target=target, limit=limit)
         raw = self._post(
             "/backlinks/referring_domains/live",
             [
@@ -625,7 +625,7 @@ class DataForSEOConnector(BaseConnector):
                     "broken_backlinks": item.get("broken_backlinks", 0),
                     "referring_pages": item.get("referring_pages", 0),
                 })
-        self.logger.info("dataforseo_referring_domains_fetched", count=len(domains))
+        self.log.info("dataforseo_referring_domains_fetched", count=len(domains))
         return domains
 
     def get_competitors(
@@ -643,7 +643,7 @@ class DataForSEOConnector(BaseConnector):
         list[DomainMetrics]
             Competitor domains with domain-level metrics.
         """
-        self.logger.info("dataforseo_competitors", target=target, limit=limit)
+        self.log.info("dataforseo_competitors", target=target, limit=limit)
         raw = self._post(
             "/backlinks/competitors/live",
             [
@@ -666,7 +666,7 @@ class DataForSEOConnector(BaseConnector):
                         source="dataforseo",
                     )
                 )
-        self.logger.info("dataforseo_competitors_fetched", count=len(competitors))
+        self.log.info("dataforseo_competitors_fetched", count=len(competitors))
         return competitors
 
     def get_backlink_intersection(
@@ -694,7 +694,7 @@ class DataForSEOConnector(BaseConnector):
         if len(targets) > 20:
             raise ValueError("backlink_intersection supports a maximum of 20 targets")
 
-        self.logger.info("dataforseo_backlink_intersection", targets=targets)
+        self.log.info("dataforseo_backlink_intersection", targets=targets)
 
         # Build the targets dict expected by the API: {1: "a.com", 2: "b.com", …}
         targets_dict: dict[str, str] = {str(i + 1): t for i, t in enumerate(targets)}
@@ -714,7 +714,7 @@ class DataForSEOConnector(BaseConnector):
         for result in results:
             for item in result.get("items", []):
                 items.append(item)
-        self.logger.info("dataforseo_intersection_fetched", count=len(items))
+        self.log.info("dataforseo_intersection_fetched", count=len(items))
         return items
 
     # ==================================================================
@@ -733,7 +733,7 @@ class DataForSEOConnector(BaseConnector):
         DomainMetrics
             Combined domain metrics.
         """
-        self.logger.info("dataforseo_domain_metrics", domain=domain)
+        self.log.info("dataforseo_domain_metrics", domain=domain)
         metrics = self.get_backlinks_summary(domain)
         metrics.domain = domain
         return metrics

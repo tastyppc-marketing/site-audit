@@ -51,7 +51,7 @@ class GA4Connector(BaseConnector):
 
         # Prefer service account when available
         if s.GOOGLE_SERVICE_ACCOUNT_JSON:
-            self.logger.info(
+            self.log.info(
                 "ga4_using_service_account",
                 path=str(s.GOOGLE_SERVICE_ACCOUNT_JSON),
             )
@@ -74,7 +74,7 @@ class GA4Connector(BaseConnector):
                     "Set it in your .env file or environment variables."
                 )
 
-            self.logger.info("ga4_using_oauth")
+            self.log.info("ga4_using_oauth")
             credentials = get_oauth_credentials(
                 client_id=s.GOOGLE_CLIENT_ID,
                 client_secret=s.GOOGLE_CLIENT_SECRET,
@@ -174,7 +174,7 @@ class GA4Connector(BaseConnector):
             metrics=[Metric(name=m) for m in metrics],
         )
 
-        self.logger.debug(
+        self.log.debug(
             "ga4_run_report",
             property_id=pid,
             dimensions=dimensions,
@@ -186,7 +186,7 @@ class GA4Connector(BaseConnector):
         try:
             response = client.run_report(request)
         except GoogleAPIError as exc:
-            self.logger.error(
+            self.log.error(
                 "ga4_api_error",
                 property_id=pid,
                 error=str(exc),
@@ -194,7 +194,7 @@ class GA4Connector(BaseConnector):
             raise
 
         rows = self._parse_response(response)
-        self.logger.info(
+        self.log.info(
             "ga4_report_complete",
             property_id=pid,
             row_count=len(rows),

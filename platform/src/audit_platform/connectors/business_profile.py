@@ -104,7 +104,7 @@ class BusinessProfileConnector(BaseConnector):
             try:
                 self._credentials.refresh(Request())
             except Exception as exc:
-                self.logger.error(
+                self.log.error(
                     "oauth_token_refresh_failed",
                     error=str(exc),
                     hint=(
@@ -122,13 +122,13 @@ class BusinessProfileConnector(BaseConnector):
 
     def _get(self, url: str, params: dict[str, Any] | None = None) -> dict[str, Any]:
         """Issue an authenticated GET and return the JSON body."""
-        resp = self.http_client.get(url, headers=self._get_auth_headers(), params=params)
+        resp = self.sync_client.get(url, headers=self._get_auth_headers(), params=params)
         resp.raise_for_status()
         return resp.json()
 
     def _post(self, url: str, json_body: dict[str, Any] | None = None) -> dict[str, Any]:
         """Issue an authenticated POST and return the JSON body."""
-        resp = self.http_client.post(url, headers=self._get_auth_headers(), json=json_body)
+        resp = self.sync_client.post(url, headers=self._get_auth_headers(), json=json_body)
         resp.raise_for_status()
         return resp.json()
 
@@ -148,7 +148,7 @@ class BusinessProfileConnector(BaseConnector):
             )
 
         # Fall back: list accounts and pick the first one.
-        self.logger.info("gbp_listing_accounts", reason="no account_id provided")
+        self.log.info("gbp_listing_accounts", reason="no account_id provided")
         data = self._get("https://mybusinessaccountmanagement.googleapis.com/v1/accounts")
         accounts = data.get("accounts", [])
         if not accounts:
@@ -157,7 +157,7 @@ class BusinessProfileConnector(BaseConnector):
                 "Verify that the OAuth credentials belong to a GBP owner/manager."
             )
         chosen = accounts[0]["name"]
-        self.logger.info("gbp_auto_selected_account", account=chosen)
+        self.log.info("gbp_auto_selected_account", account=chosen)
         return chosen
 
     # ------------------------------------------------------------------
@@ -208,7 +208,7 @@ class BusinessProfileConnector(BaseConnector):
             One record per location, normalised into the platform model.
         """
         account = self._resolve_account_id(account_id)
-        self.logger.info("gbp_listing_locations", account=account)
+        self.log.info("gbp_listing_locations", account=account)
 
         url = f"{_BIZ_INFO_BASE}/{account}/locations"
         params: dict[str, Any] = {
@@ -229,7 +229,7 @@ class BusinessProfileConnector(BaseConnector):
                 break
             params["pageToken"] = next_page
 
-        self.logger.info("gbp_locations_fetched", count=len(records))
+        self.log.info("gbp_locations_fetched", count=len(records))
         return records
 
     def _parse_location(
@@ -313,7 +313,7 @@ class BusinessProfileConnector(BaseConnector):
         if not location_name.startswith("locations/"):
             location_name = f"locations/{location_name}"
 
-        self.logger.info(
+        self.log.info(
             "gbp_fetching_performance",
             location=location_name,
             start=str(start),
@@ -377,7 +377,7 @@ class BusinessProfileConnector(BaseConnector):
                 )
             )
 
-        self.logger.info("gbp_performance_fetched", days=len(records))
+        self.log.info("gbp_performance_fetched", days=len(records))
         return records
 
     # ------------------------------------------------------------------
@@ -414,7 +414,7 @@ class BusinessProfileConnector(BaseConnector):
         if not location_name.startswith("locations/"):
             location_name = f"locations/{location_name}"
 
-        self.logger.info(
+        self.log.info(
             "gbp_fetching_search_keywords",
             location=location_name,
             start=str(start),
@@ -448,7 +448,7 @@ class BusinessProfileConnector(BaseConnector):
                 params["pageToken"] = next_page
         except httpx.HTTPStatusError as exc:
             if exc.response.status_code == 404:
-                self.logger.warning(
+                self.log.warning(
                     "gbp_search_keywords_not_available",
                     location=location_name,
                     hint="The searchkeywords endpoint may not be enabled for this location.",
@@ -456,7 +456,7 @@ class BusinessProfileConnector(BaseConnector):
                 return []
             raise
 
-        self.logger.info("gbp_search_keywords_fetched", count=len(keywords))
+        self.log.info("gbp_search_keywords_fetched", count=len(keywords))
         return keywords
 
     # ------------------------------------------------------------------
@@ -491,7 +491,7 @@ class BusinessProfileConnector(BaseConnector):
             account = self._resolve_account_id()
             location_name = f"{account}/{location_name}"
 
-        self.logger.info("gbp_fetching_reviews", location=location_name)
+        self.log.info("gbp_fetching_reviews", location=location_name)
 
         url = (
             f"https://mybusiness.googleapis.com/v4/{location_name}/reviews"
@@ -519,7 +519,7 @@ class BusinessProfileConnector(BaseConnector):
                 params["pageToken"] = next_page
         except httpx.HTTPStatusError as exc:
             if exc.response.status_code in (403, 404):
-                self.logger.warning(
+                self.log.warning(
                     "gbp_reviews_not_available",
                     location=location_name,
                     status=exc.response.status_code,
@@ -531,5 +531,5 @@ class BusinessProfileConnector(BaseConnector):
                 return []
             raise
 
-        self.logger.info("gbp_reviews_fetched", count=len(reviews))
+        self.log.info("gbp_reviews_fetched", count=len(reviews))
         return reviews
