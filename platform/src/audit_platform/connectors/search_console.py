@@ -84,7 +84,7 @@ class SearchConsoleConnector(BaseConnector):
             client_secret=s.GOOGLE_CLIENT_SECRET,
             refresh_token=s.GOOGLE_REFRESH_TOKEN,
         )
-        self._service = build("searchconsole", "v1", credentials=creds, cache_discovery=False)
+        self._service = build("webmasters", "v3", credentials=creds, cache_discovery=False)
         self.log.info("search_console_service_initialized")
         return self._service
 
@@ -137,7 +137,7 @@ class SearchConsoleConnector(BaseConnector):
 
         try:
             response: dict[str, Any] = (
-                service.searchAnalytics()
+                service.searchanalytics()
                 .query(siteUrl=resolved_url, body=body)
                 .execute()
             )
