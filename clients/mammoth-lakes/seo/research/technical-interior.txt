@@ -1,0 +1,905 @@
+=== CHECKING: https://www.mammothlakesproperties.com/about ===
+=== SCHEMA/STRUCTURED DATA ===
+[
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "About Jamie Kelly and Cynthia Fleming Realtors in Mammoth Lakes, CA ",
+    "url": "https://www.mammothlakesproperties.com/about/",
+    "author": "",
+    "articleSection": "Real Estate",
+    "articleBody": "",
+    "datePublished": "03/19/2026 22:22:18",
+    "image": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-20240528022138.png",
+    "copyrightHolder": {
+      "@type": "CreativeWork",
+      "name": "",
+      "image": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-20240528022138.png"
+    },
+    "isFamilyFriendly": "true",
+    "inLanguage": "English",
+    "publisher": {
+      "@type": "Organization",
+      "name": "",
+      "logo": {
+        "@type": "ImageObject",
+        "name": " Logo",
+        "width": "43",
+        "height": "200",
+        "url": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-20240528022138.png"
+      }
+    },
+    "contentLocation": "",
+    "dateModified": "03/19/2026 22:22:18",
+    "mainEntityofPage": {
+      "@type": "Website",
+      "@id": "https://www.mammothlakesproperties.com"
+    }
+  }
+]
+
+=== IMAGE ALT TEXT ANALYSIS ===
+{
+  "total": 16,
+  "missingAlt": 1,
+  "sampleMissing": [
+    "https://cdn.userway.org/widgetapp/images/wheel_right_wh.svg"
+  ],
+  "sampleWithAlt": [
+    {
+      "src": "https://cdn.userway.org/widgetapp/images/spin_wh.svg",
+      "alt": "Spinner: White decorative"
+    },
+    {
+      "src": "https://cdn.userway.org/widgetapp/images/spin_wh.svg",
+      "alt": "Spinner: White decorative"
+    },
+    {
+      "src": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-202405",
+      "alt": "Jamie Kelly and Cynthia Fleming"
+    },
+    {
+      "src": "https://assets.site-static.com/userFiles/362/image/IMG_7843_2.JPG",
+      "alt": "Jamie and Cynthia "
+    },
+    {
+      "src": "https://assets.site-static.com/agentphotos/362/agent_2771.jpg",
+      "alt": "Cynthia Fleming"
+    }
+  ]
+}
+
+=== SOCIAL META TAGS ===
+{
+  "og:title": "About Jamie Kelly and Cynthia Fleming Realtors in Mammoth Lakes, CA ",
+  "og:url": "https://www.mammothlakesproperties.com/about/",
+  "og:image": "https://sierra-public.azureedge.net/5e915e93-9fa6-4a0d-b958-6fcb303457a9.jpeg",
+  "og:description": "About us: Real estate expertise in Mammoth Lakes with Jamie Kelly and Cynthia Fleming. Experience top-tier service, leveraging cutting-edge technologies for unrivaled property representation"
+}
+
+=== PAGE TECHNICAL DATA ===
+{
+  "totalDomElements": 803,
+  "totalScripts": 49,
+  "totalStylesheets": 8,
+  "totalIframes": 5,
+  "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+  "charset": "utf-8",
+  "lang": "en",
+  "favicons": [
+    "https://www.mammothlakesproperties.com/favicon.ico"
+  ]
+}
+
+=== HREFLANG TAGS ===
+[]
+
+=== CANONICAL TAG ===
+https://www.mammothlakesproperties.com/about/
+
+=== HEADING STRUCTURE ===
+{
+  "h1": {
+    "count": 2,
+    "text": [
+      "About Jamie Kelly & Cynthia Fleming",
+      ""
+    ]
+  },
+  "h2": {
+    "count": 5,
+    "text": [
+      "Ready to Chat?Click Here to Schedule a Call",
+      "I'm Here to Help",
+      "Have a Question or Want a Free Market Report?",
+      "I'm Here to Help",
+      "Have a Question or Want a Free Market Report?"
+    ]
+  },
+  "h3": {
+    "count": 2,
+    "text": [
+      "Connect",
+      "Connect"
+    ]
+  },
+  "h4": {
+    "count": 0,
+    "text": []
+  },
+  "h5": {
+    "count": 0,
+    "text": []
+  },
+  "h6": {
+    "count": 0,
+    "text": []
+  }
+}
+
+=== CHECKING: https://www.mammothlakesproperties.com/contact ===
+=== SCHEMA/STRUCTURED DATA ===
+[]
+
+=== IMAGE ALT TEXT ANALYSIS ===
+{
+  "total": 13,
+  "missingAlt": 1,
+  "sampleMissing": [
+    "https://cdn.userway.org/widgetapp/images/wheel_right_wh.svg"
+  ],
+  "sampleWithAlt": [
+    {
+      "src": "https://cdn.userway.org/widgetapp/images/spin_wh.svg",
+      "alt": "Spinner: White decorative"
+    },
+    {
+      "src": "https://cdn.userway.org/widgetapp/images/spin_wh.svg",
+      "alt": "Spinner: White decorative"
+    },
+    {
+      "src": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-202405",
+      "alt": "Jamie Kelly and Cynthia Fleming"
+    },
+    {
+      "src": "https://assets.site-static.com/blogphotos/thumb/362/25155-winterset-20-34.jpg",
+      "alt": "Maximize Your Mammoth Lakes Airbnb Income with Cynthia & Jamie – Local Experts with a 15% Management Fee"
+    },
+    {
+      "src": "https://assets.site-static.com/blogphotos/thumb/362/23609-resized-2.jpg",
+      "alt": "Mammoth Lakes, CA Real Estate Market: A Comprehensive Overview"
+    }
+  ]
+}
+
+=== SOCIAL META TAGS ===
+{
+  "og:image": "https://cdn.sitephotos.sierrastatic.com/362_hero_top-banner-20240603042352.webp",
+  "og:image:width": "1900",
+  "og:image:height": "1200"
+}
+
+=== PAGE TECHNICAL DATA ===
+{
+  "totalDomElements": 2029,
+  "totalScripts": 47,
+  "totalStylesheets": 7,
+  "totalIframes": 5,
+  "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+  "charset": "utf-8",
+  "lang": "en",
+  "favicons": [
+    "https://www.mammothlakesproperties.com/favicon.ico"
+  ]
+}
+
+=== HREFLANG TAGS ===
+[]
+
+=== CANONICAL TAG ===
+https://www.mammothlakesproperties.com/contact/
+
+=== HEADING STRUCTURE ===
+{
+  "h1": {
+    "count": 1,
+    "text": [
+      "Contact Jamie Kelly and Cynthia Fleming"
+    ]
+  },
+  "h2": {
+    "count": 6,
+    "text": [
+      "Have a Question or Want a Free Market Report?",
+      "Ready to Chat?Click Here to Schedule a Call",
+      "I'm Here to Help",
+      "Have a Question or Want a Free Market Report?",
+      "I'm Here to Help"
+    ]
+  },
+  "h3": {
+    "count": 2,
+    "text": [
+      "Connect",
+      "Connect"
+    ]
+  },
+  "h4": {
+    "count": 0,
+    "text": []
+  },
+  "h5": {
+    "count": 0,
+    "text": []
+  },
+  "h6": {
+    "count": 0,
+    "text": []
+  }
+}
+
+=== CHECKING: https://www.mammothlakesproperties.com/listings ===
+=== SCHEMA/STRUCTURED DATA ===
+[]
+
+=== IMAGE ALT TEXT ANALYSIS ===
+{
+  "total": 0,
+  "missingAlt": 0,
+  "sampleMissing": [],
+  "sampleWithAlt": []
+}
+
+=== SOCIAL META TAGS ===
+{}
+
+=== PAGE TECHNICAL DATA ===
+{
+  "totalDomElements": 66,
+  "totalScripts": 2,
+  "totalStylesheets": 0,
+  "totalIframes": 1,
+  "viewport": null,
+  "charset": null,
+  "lang": "",
+  "favicons": []
+}
+
+=== HREFLANG TAGS ===
+[]
+
+=== CANONICAL TAG ===
+MISSING
+
+=== HEADING STRUCTURE ===
+{
+  "h1": {
+    "count": 0,
+    "text": []
+  },
+  "h2": {
+    "count": 0,
+    "text": []
+  },
+  "h3": {
+    "count": 1,
+    "text": [
+      "HTTP Error 404.0 - Not Found"
+    ]
+  },
+  "h4": {
+    "count": 5,
+    "text": [
+      "The resource you are looking for has been removed, had its name changed, or is temporarily unavailab",
+      "Most likely causes:",
+      "Things you can try:",
+      "Detailed Error Information:",
+      "More Information:"
+    ]
+  },
+  "h5": {
+    "count": 0,
+    "text": []
+  },
+  "h6": {
+    "count": 0,
+    "text": []
+  }
+}
+
+=== CHECKING: https://www.mammothlakesproperties.com/blog ===
+=== SCHEMA/STRUCTURED DATA ===
+[
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "The MammothLakesHomesForSale.com Mammoth Lakes Real Estate Blog | Mammoth Lakes Real Estate News, Tips and Info",
+    "url": "https://www.mammothlakesproperties.com/blog/",
+    "author": "",
+    "articleSection": "Real Estate",
+    "articleBody": "Maximize Your Mammoth Lakes Airbnb Income with Cynthia & Jamie – Local Experts with a 15% Management Fee\nPosted by Jamie Kelly on Tuesday, May 13, 2025 at 9:35:05 AM  Comment\n\nAre you thinking about investing in a Mammoth Lakes vacation rental? Or maybe you already own a condo and want to start earning passive income through Airbnb? Either way, Cynthia and Jamie are the local experts you need on your side. With years of experience, a deep understanding of the short-term rental market, and a streamlined 15% management fee, we make it easy—and profitable—to own and operate an Airbnb in Mammoth Lakes.\n\nWhy Mammoth Lakes Is a Top Airbnb Market\n\nMammoth Lakes isn’t just a scenic mountain town—it’s a year-round destination for skiers, hikers, mountain bikers, anglers, and outdoor lovers of all kinds. That means demand for vacation rentals is strong all four seasons. Whether it’s powder days in January or hiking adventures in August, tourists are always on the lookout for well-located, stylish, and well-managed rentals.\n\nLearn more about what makes our mountain town special at the Town of Mammoth Lakes official site.\n\nAirbnb Income Potential: It’s All About the Right Property\n\nNot every Mammoth Lakes condo is created equal when it comes to short-term rental income. ...\n\nView Full Post",
+    "datePublished": "03/19/2026 22:23:13",
+    "image": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-20240528022138.png",
+    "copyrightHolder": {
+      "@type": "CreativeWork",
+      "name": "",
+      "image": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-20240528022138.png"
+    },
+    "isFamilyFriendly": "true",
+    "inLanguage": "English",
+    "publisher": {
+      "@type": "Organization",
+      "name": "",
+      "logo": {
+        "@type": "ImageObject",
+        "name": " Logo",
+        "width": "43",
+        "height": "200",
+        "url": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-20240528022138.png"
+      }
+    },
+    "contentLocation": "",
+    "dateModified": "03/19/2026 22:23:13",
+    "mainEntityofPage": {
+      "@type": "Website",
+      "@id": "https://www.mammothlakesproperties.com"
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Blog",
+    "url": "https://www.mammothlakesproperties.com/blog/",
+    "author": "",
+    "image": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-20240528022138.png",
+    "copyrightYear": 2026,
+    "copyrightHolder": {
+      "@type": "CreativeWork",
+      "name": "",
+      "image": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-20240528022138.png"
+    },
+    "isFamilyFriendly": "true",
+    "inLanguage": "English",
+    "publisher": {
+      "@type": "Organization",
+      "name": "",
+      "logo": {
+        "@type": "ImageObject",
+        "name": " Logo",
+        "width": "43",
+        "height": "200",
+        "url": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-20240528022138.png"
+      }
+    },
+    "contentLocation": "",
+    "about": "The MammothLakesHomesForSale.com Mammoth Lakes Real Estate Blog | Mammoth Lakes Real Estate News, Tips and Info",
+    "dateModified": "03/19/2026 22:23:13",
+    "mainEntityofPage": "Home Blog\nThe Mammoth Real Estate Blog\nMaximize Your Mammoth Lakes Airbnb Income with Cynthia & Jamie – Local Experts with a 15% Management Fee\nPosted by Jamie Kelly on Tuesday, May 13, 2025 at 9:35:05 AM  Comment\n\nAre you thinking about investing in a Mammoth Lakes vacation rental? Or maybe you already own a condo and want to start earning passive income through Airbnb? Either way, Cynthia and Jamie are the local experts you need on your side. With years of experience, a deep understanding of the short-term rental market, and a streamlined 15% management fee, we make it easy—and profitable—to own and operate an Airbnb in Mammoth Lakes.\n\nWhy Mammoth Lakes Is a Top Airbnb Market\n\nMammoth Lakes isn’t just a scenic mountain town—it’s a year-round destination for skiers, hikers, mountain bikers, anglers, and outdoor lovers of all kinds. That means demand for vacation rentals is strong all four seasons. Whether it’s powder days in January or hiking adventures in August, tourists are always on the lookout for well-located, stylish, and well-managed rentals.\n\nLearn more about what makes our mountain town special at the Town of Mammoth Lakes official site.\n\nAirbnb Income Potential: It’s All About the Right Property\n\nNot every Mammoth Lakes condo is created equal when it comes to short-term rental income. ...\n\nView Full Post\nMammoth Lakes, CA Real Estate Market: A Comprehensive Overview\nPosted by Jamie Kelly on Tuesday, October 22, 2024 at 8:16:22 AM  Comment\n\nNestled in the Eastern Sierra region of California, Mammoth Lakes offers a unique blend of alpine beauty, outdoor recreation, and a distinctive small-town feel. Known for its proximity to Mammoth Mountain Ski Resort, scenic lakes, and year-round outdoor activities, it’s no wonder that Mammoth Lakes has become a coveted destination for those seeking second homes, vacation properties, and investment opportunities. The Mammoth Lakes real estate market, however, presents a complex landscape influenced by various factors, including seasonal demand, regional growth, and broader economic trends. Here’s a deep dive into the current state of the Mammoth Lakes real estate market.\n\n1. Market Overview: High Demand, Limited Inventory\n\nThe Mammoth Lakes real estate market has experienced steady demand over the past several years, particularly from buyers looking for second homes or investment properties. As a resort town, Mammoth Lakes attracts a diverse group of buyers, ranging from ski enthusiasts to retirees looking for a quiet yet vibrant place to settle. With tourism playing a major role in the local economy, properties close to the ski resort and in highly desirable locations often see increased competition.\n\nHowever, like many resort markets, Mammoth Lakes suffers from limited housing inventory. The small geographic footprint of the town, coupled with restrictions on development in certain areas to protect natural landscapes, has contributed to the shortage of available properties. The limited supply, combined with consistent demand, has driven up property values in recent years.\n\n2. Types of Properties Available\n\nBuyers in Mammoth Lakes can expect to find a variety of property types, catering to different needs and price points. Common types of real estate include:\n\nSingle-Family Homes: These homes are ideal...\n\nView Full Post\nMammoth Lakes Listing Update-4/3/24\nPosted by Jamie Kelly on Wednesday, April 3, 2024 at 8:39:14 AM  Comment\n\nMammoth Lakes New Listing Update 04/03/2024\n\nIT'S CONFIRMED! RENTAL MORATORIUM ENDS APRIL 22ND!\n\n...\nView Full Post\nNightly Rental Opportunities in Mammoth Lakes: What You Need to Know\nPosted by Jamie Kelly on Wednesday, December 20, 2023 at 12:44:43 PM  Comment\n\nIn the ever-popular Mammoth Lakes, where the allure of both winter and summer activities beckons, the recent rental moratorium by Mammoth has introduced a pause on nightly rentals. However, amidst the restrictions, there are still exceptions and strategic ways to continue capitalizing on the thriving rental market.\n\nExceptional Opportunities: While Mammoth's rental moratorium has impacted many properties, there are specific exceptions that savvy investors should take note of. Condos in the picturesque Snowcreek development, properties nestled in the Village, and those lining the golf course can still be rented nightly. The silver lining? These properties are eligible for obtaining a new nightly permit, allowing property owners the flexibility to choose any rental company or even manage the property themselves.\n\nMaintaining Momentum: For those with condos that already possess a rental license with a specific rental company, there's good news. You can continue renting, as long as you stay loyal to that particular rental company. This exception provides a seamless transition for property owners, ensuring the continuity of rental income without unnecessary disruptions.\n\nOvercoming New Restrictions: While the rental moratorium may initially seem restrictive, it's crucial to recognize that there are ways to navigate around these challenges. If you're considering purchasing a condo for nightly rental purposes in Mammoth Lakes, these exceptions offer a glimmer of hope. It's an opportune time to explore the real estate market and find a property that aligns with your investment goals.\n\nThriving Rental Market: Despite the current lack of snowfall this season, the Mammoth Lakes rental market remains robust. The area's popularity extends beyond winter, with summers proving to be even busier. This versatility positions Mammoth Lakes as an ideal year-round investment destination, offering both consistent rental income potential and the opportunity for personal...\n\nView Full Post\nNavigating the Peaks and Valleys: A Deep Dive into Mammoth Lakes, CA Real Estate Market\nPosted by Jamie Kelly on Tuesday, December 19, 2023 at 12:53:34 PM  Comment\n\nNestled within the Eastern Sierra region of California, Mammoth Lakes is a picturesque town that has long been a haven for outdoor enthusiasts and nature lovers. Renowned for its stunning mountain landscapes, world-class skiing, and vibrant community, Mammoth Lakes is not only a destination for vacationers but also a captivating real estate market for those seeking to make this charming town their permanent home. In this blog post, we'll take a closer look at the current state of the real estate market in Mammoth Lakes, exploring the trends, challenges, and opportunities that define the area.\n\nThe Appeal of Mammoth Lakes:\n\nMammoth Lakes has evolved from a seasonal resort town into a year-round destination, attracting residents who appreciate its unique blend of natural beauty and recreational opportunities. The town's real estate market has seen increased demand, fueled by its thriving tourism industry and a growing desire for mountain living.\n\nSeasonal Influence: Mammoth Lakes experiences distinct seasons, with winter drawing skiers and snowboarders, and summer bringing hikers, mountain bikers, and fishing enthusiasts. This seasonal ebb and flow contribute to the real estate market's dynamics, with fluctuations in demand and property values.\n\nOutdoor Lifestyle: The town's appeal lies in its proximity to Mammoth Mountain, a world-class ski resort, as well as the surrounding wilderness. Homebuyers are often drawn to Mammoth Lakes for the promise of an active outdoor lifestyle, offering activities like hiking, mountain biking, and water sports.\n\nCurrent Market Trends:\n\nAs of [current date], Mammoth Lakes' real estate market is characterized by several noteworthy trends:\n\nRising Property Values: Over the past few years, Mammoth Lakes has experienced a steady increase in property values. This rise can be attributed to the area's growing popularity,...\n\nView Full Post\nNavigating the Maze: Virtual Luncheon Explores Mammoth Lakes' Short-Term Rental Moratorium\nPosted by Jamie Kelly on Tuesday, December 19, 2023 at 8:39:11 AM  Comment\n\nIntroduction: In a virtual gathering that brought together more than 70 concerned participants, Mammoth Lakes residents delved into the implications of the recently passed short-term rental (STR) moratorium. Facilitated by Realtor Mickey Brown, the discussion provided a snapshot of the historical context of STRs in town, shedding light on the intricacies that shape this contentious issue.\n\nHistorical Overview: Brown outlined the zoning regulations in Mammoth Lakes, emphasizing that significant changes had not occurred since the town's 2014 update to the 2007 general plan. These regulations, influenced by extensive community input, have given rise to current zoning codes that dictate the legal operation of STRs in the community.\n\nThe Moratorium: On October 18, Mammoth's Town Council adopted an urgency ordinance, imposing a 45-day moratorium on the issuance of new short-term rental registration certificates. Notably, the moratorium exempts housing units in specific areas, raising questions among community members about the perceived preferential treatment of \"Resort Zoning.\"\n\nResort Zoning Complexities: Attorney Jeremy Ibrahim clarified that Resort Zoning, covering properties exceeding 20 acres, might be exempt due to pre-existing agreements that supersede general zoning rules. The discussion unveiled the challenges of rezoning properties like Canyon Lodge, originally designed as short-term stays for tourists.\n\nCommunity Input and Proposed Solutions: As the conversation unfolded, community members voiced their concerns and proposed solutions. Suggestions ranged from limiting the number of permits per owner to requiring residency for operation. Council Member Bill Sauser highlighted the formation of a committee to address these concerns, underscoring the town's commitment to a comprehensive approach.\n\nFinancial Considerations: Transient rental owner Greg Newbry proposed taxing rental properties an additional 2%, potentially generating an extra $4 million...\n\nView Full Post\nOur Mammoth market may be changing\nPosted by Jamie Kelly on Saturday, January 22, 2022 at 9:04 AM  Comment\n\nOur market in Mammoth may be changing. \n\nOver the last year we have seen prices skyrocket and inventory dramatically decline in Mammoth Lakes. Seller's have been getting very high prices with buyer's buying condos and houses with no appraisal contingency and competing with several other offers. It's been taxing to say the least on buyer's and agents alike. But will this continue? \n\nAccording to Fannie Mae/Freddie Mac, come April 1st, there will be an increased loan level pricing adjustment for second homes. Which is the same type of hit you would take for a low credit score, investment properties, or anything else that would affect the rate. This could affect buyer's buying power or just their comfort level with the rate increase. We could see an influx of seller's lowering their prices to compensate for these new higher rates and less buyers demand. \n\nAlso with buyer's paying the high prices we are seeing now, they see less return on their investment. The properties are for the most part at least covering the cost to own or coming close to it, where we used to see a 5-10% ROI. \n\nIt's hard to predict the future but with these new rates and prices we may start to see properties turning around. If you have been considering selling, I would say now is the time to do it. \n\n...\nView Full Post\nWhat is allowed to be rented nightly in Mammoth?\nPosted by Jamie Kelly on Thursday, September 30, 2021 at 1:10 PM  Comment\n\nI decided to write a post about what can be rented out nightly in Mammoth Lakes because it's one of my number one questions I get asked all the time. A lot of buyer's want to come up and buy that nostalgic cabin in the woods but unfortunately in Mammoth, almost all of our houses are not allowed to be rented out nightly. If you want to buy a property to rent out on a nightly basis in Mammoth, you are more than likely going to have to buy a condo. The good news is our town does not put a limit on how many condos can be rented out nightly and they never will. 75% of the town's income for the year comes from nightly rentals. They charge a 14% transient occupancy tax on all bookings and this accounts for most of their income for the year and they do not want to give that up. They did try and allow some short term rentals on some residential neighborhoods  in Mammoth several years ago and it went to vote but it was voted no by the majority of the town. Homeowner's wanted to know who their neighbors were and did not want the hassle of having nightly renters partying it up next door all the time. We do have a very small sliver of homes around the Sierra Star Golf Course called Gray Bear that can be rented nightly as well as a few up by Little Eagle Ski area. These tend to sell for upwards of $2 million when they do come on the market. So if you are looking for a property you can do short term rentals on, we suggest you begin looking for your dream condo and we are here to help you find it! \n\n...\nView Full Post\nWhat's the Mammoth Lakes market like after Coronavirus?\nPosted by Jamie Kelly on Friday, August 7, 2020 at 9:24 AM  Comment\n\nReal Estate Prices: August 7, 2020\n\nREAL ESTATE MARKET IN MAMMOTH LAKES AS OF AUGUST 7, 2020\n\n \n\nAll we can say is wow!! Our market is so hot right now it's almost too much to handle! The Mammoth Lakes marketis proving to be exceptionally strong since opening in June. Why you ask?  Much of it is attributed to the fact that many have become frustrated, and even fearful, of the urban lifestyle during this pandemic. Many are simply looking for a slower and safer way of live. Another factor is people are now able to work from anywhere so coming to the Sierra's for work sounds ideal right? \n\nIf you read this article about the “Rural Boom”, a phenomenon being written about in many credible publications, you will see that Mammoth is not the only mountain town experiencing this. There is similar activity in lots of competing mountain resorts across the country.  Activity in competing mountain resorts.\n\nOther reasons the real estate market is hot may be attributed to the volatility and perceived instability in the stock market.  Some investors believe the stock market, and other markets, are overvalued or just unstable.  Simply put, people are looking for a secure place to put the investment dollars.  With interest rates at, or near, all time lows real estate may be the ideal place to put dollars for the long-term investors coupled with the fact that our Airbnb/VRBO market is one of the best places to invest for excellent year round rental income. Many of our condos are seeing a 10-15% CAP rate.  \n\nSINGLE FAMILY HOMES\n\nThe single-family home market in Mammoth Lakes has produced 48 sales so far this year. Median home prices are $765,000, which is...\n\nView Full Post\nFinding a rental property in Mammoth Lakes\nPosted by Jamie Kelly on Monday, March 18, 2019 at 10:35 AM  Comment\n\nHave you been considering purchasing a condo in Mammoth Lakes that you can rent out nightly when you are not using it? Based on the last three years of owning our nightly rental company, owners are seeing a 5-10% return on their investment per year. What this equates to is a $500,000 condo seeing a $50,000 net rental income per year. We started Ready 4 Rentals because we noticed a lot of local rental companies were charging 30-50% rental management fees and not renting out the condos much resulting in low year end totals. With our mangement company you only pay a 15% management fee and will see your property rented out consistently all year long! \n\nBased on managing 70 unit in Mammoth Lakes, Cynthia and I know what listings on the market are going to generate the most income per year. When we view properties, we can point out all the positives and negatives of each place so that when you make an informed decision on a property. You know full well that what it will typically make in rental income per year and ways you can improve that if needed. We are here to carry you through the entire buying process as well as your rental investment after the sale! No other agents in Mammoth are offering a service like this. Contact us today to see how we can help you make the most money on your Mammoth investment today! \n\n...\nView Full Post\nIs Getting a Home Mortgage Still Too Difficult?\nPosted by Jamie Kelly on Tuesday, May 16, 2017 at 5:45 PM  Comment\n\nThere is no doubt that mortgage credit availability is expanding, meaning it is easier to finance a home today than it was last year. However, the mortgage market is still much tighter than it was prior to the housing boom and bust experienced between 2003 - 2006.\n\nThe Housing Financing Policy Center at the Urban Institute just released data revealing two reasons for the current exceptionally high credit standards:\n\nAdditional restrictions lenders put on borrowing because of concerns that they will be forced to repurchase failed loans from the government-sponsored enterprises or Federal Housing Administration (FHA).\nThe concern about potential litigation for imperfect loans.\nWhat has been the result of these concerns?\n6.3 Million Less Mortgages\n\nThe Policy Center report went on to say:\n\n“It was so hard to get a mortgage in 2015 that lenders failed to make about 1.1 million mortgages that they would have made if reasonable lending standards had been in place. From 2009 to 2014, lenders failed to make about 5.2 million mortgages thanks to overly tight credit. In total, lenders would have issued 6.3 million additional mortgages between 2009 and 2015 if lending standards had been more reasonable.”\n\nIn an interview with DSNews, Laurie Goodman and Alanna McCargo of the Policy Center further explained:\n\n“Our Housing Credit Availability Index (HCAI)* measures the probability that mortgage borrowers will become...\n\nView Full Post\nSelling in the Winter Attracts Serious Buyers\nPosted by Jamie Kelly on Tuesday, May 16, 2017 at 5:43 PM  Comment\n\nA recent study of more than 7 million home sales over the past four years revealed that the season in which a home is listed may be able to shed some light on the likelihood that the home will sell for more than asking price, as well as how quickly the sale will close.\n\nIt’s no surprise that listing a home for sale during the spring saw the largest return, as the spring is traditionally the busiest month for real estate. What is surprising, though, is that listing during the winter came in second!\n\n“Among spring listings, 18.7 percent of homes fetched above asking, with winter listings not far behind at 17.5 percent. While 48.0 percent of homes listed in spring sold within 30 days, 46.2 percent of homes in winter did the same.”\n\nThe study goes on to say that:\n\n“Buyers [in the winter] often need to move, so they’re much less likely to make a lowball offer and they’ll often want to close quickly — two things that can make the sale much smoother.”\n\nBottom Line\n\nIf you are debating listing your home for sale within the next 6 months, keep in mind that the spring is when most other homeowners will decide to list their homes as well. Listing your home this winter will ensure that you have the best exposure to the serious buyers who are out looking now!\n\nThe study used the astronomical seasons to determine which season the listing date fell into (Winter: Dec. 21 – Mar. 20; Spring: Mar. 21 – June 20; Summer: June 21 – Sept 21; Autumn:...\n\nView Full Post\n3 Questions to Ask Before Buying Your Dream Home\nPosted by Jamie Kelly on Tuesday, May 16, 2017 at 5:42 PM  1 Comment\n\nIf you are debating purchasing a home right now, you are probably getting a lot of advice. Though your friends and family will have your best interest at heart, they may not be fully aware of your needs and what is currently happening in the real estate market.\n\nAsk yourself the following 3 questions to help determine if now is actually a good time for you to buy in today’s market.\n\n1. Why am I buying a home in the first place?\n\nThis truly is the most important question to answer. Forget the finances for a minute. Why did you even begin to consider purchasing a home? For most, the reason has nothing to do with money.\n\nFor example, a recent survey by Braun showed that over 75% of parents say “their child’s education is an important part of the search for a new home.”\n\nThis survey supports a study by the Joint Center for Housing Studies at Harvard University which revealed that the four major reasons people buy a home have nothing to do with money. They are:\n\nA good place to raise children and for them to get a good education\nA place where you and your family feel safe\nMore space for you and your family\nControl of that space\n\nWhat does owning a home mean to you? What non-financial benefits will you and your family gain from owning a home? The answer to that question should be the biggest reason you decide to purchase or not.\n\n2. Where are home values headed?\n\nAccording to the latest Home Price Index from CoreLogic, home values are projected to increase by 5.3% over the next 12 months.\n\nWhat does that mean to you?\n...\nView Full Post\nHave You Saved Enough for Closing Costs\nPosted by Jamie Kelly on Tuesday, May 16, 2017 at 5:39 PM  Comment\n\nThere are many potential homebuyers, and even sellers, who believe that they need at least a 20% down payment in order to buy a home or move on to their next home. Time after time, we have dispelled this myth by showing that many loan programs allow you to put down as little as 3% (or 0% with a VA loan).\n\nIf you have saved up your down payment and are ready to start your home search, one other piece of the puzzle is to make sure that you have saved enough for your closing costs.\n\nFreddie Mac defines closing costs as:\n\n“Closing costs, also called settlement fees, will need to be paid when you obtain a mortgage. These are fees charged by people representing your purchase, including your lender, real estate agent, and other third parties involved in the transaction. Closing costs are typically between 2 and 5% of your purchase price.”\n\nWe’ve recently heard from many first-time homebuyers that they wished that someone had let them know that closing costs could be so high. If you think about it, with a low down payment program, your closing costs could equal the amount that you saved for your down payment.\n\nHere is a list of just some of the fees/costs that may be included in your closing costs, depending on where the home you wish to purchase is located:\n\nGovernment recording costs\nAppraisal fees\nCredit report fees\nLender origination fees\nTitle services (insurance, search fees)\nTax service fees\nSurvey fees\nAttorney fees\nUnderwriting fees\nIs there any way to avoid paying closing costs?...\nView Full Post\nComing soon! New house for sale next to the Village of Mammoth!\nPosted by Jamie Kelly on Saturday, April 30, 2016 at 9:26 PM  Comment\n\nNEW LISTING COMING SOON!\n\nWALK TO THE VILLAGE OF MAMMOTH-LOCATED ONLY 3 HOUSES UP FROM THE VILLAGE! HOP ON THE GONDOLA, HIT THE HAPPY HOURS OR GO SHOPPING ALL WITHIN MINUTES OF AN EASY WALK!\n\nASKING $589,000\n\n2 BEDS+LOFT/ 2 BATH/ FIXER/ WRAP AROUND DRIVEWAY\n\nCONTACT ME TODAY FOR MORE INFORMATION AND PHOTOS! WILL BE HITTING THE OPEN MARKET WITHIN DAYS!\n\n760-914-0625/JNASHREALTOR@GMAIL.COM\n\n...\nView Full Post\nComing Soon! Timberline #18 condo in Mammoth Lakes!\nPosted by Jamie Kelly on Friday, March 18, 2016 at 3:34 PM  Comment\n\nRemodled townhouse located on the shuttle route and walkable to town to enjoy happy hours, restaurants and shopping. The townhome sits in the back of the complex with a lot of privacy and more quiet. The kitchen offers new cabinets, granite counters and newer appliances. The dining area can seat 8. Large open living room with a warm woodstove to keep you warm on cold winter nights. The complex has a pool and spa.  A great place to come up and enjoy Mammoth!\n\nAsking $295,000\n\n...\nView Full Post\nComing soon!! 35 Vacation Place, Mammoth Lakes\nPosted by Jamie Kelly on Tuesday, March 8, 2016 at 3:25 PM  Comment\nComing soon!!\n35 Vacation Place, Mammoth Lakes, CA\nNewly remodeled home located walking distance to the Village of Mammoth. Updated kitchen, wood floors, carpet, etc.... 3 Bedrooms+large bonus room, 2 Baths, 1 Car Garage and an added on storage area with jacuzzi. The home sits south facing on a quiet cul de sac-yet easy access to everything the Village has to offer. Jump on this one before it's gone! Asking $875,000\n\n...\nView Full Post\nComing Soon! 49 Holiday Way 2 Bed+Loft/2 Bath in Mammoth Lakes\nPosted by Jamie Kelly on Monday, January 18, 2016 at 10:19 AM  Comment\n\nFor Sale! Coming Soon!! \n\n49 Holiday Way, Mammoth Lakes, CA \n\n2 Beds+Loft/2 Baths/2 Car Garage\n\nThis is the perfect Mammoth Cabin to come up and enjoy Mammoth Lakes in! It’s plenty big for a large group with a huge oversized garage to hold all of your outdoor toys. Fully remodeled kitchen, baths, floors, etc… The owners resurfaced the deck over the summer and added new garage doors. Once you see this you will fall in love with the cabin charm as well as the large south facing windows and large deck for entertaining. Schedule a showing today! \n\nAsking $589,000\n\nCall Jamie Nash-Kelly today\n\n760-914-0625\n\n...\nView Full Post\nNational Real Estate Market Primed for Expansion in 2016\nPosted by Jamie Kelly on Tuesday, January 12, 2016 at 9:16 AM  Comment\n\nStrengthening Economy\n\nDespite existing-home sales dropping last November, the National Real Estate Market is primed for expansion in 2016. Here's why. Better weather in many parts of the country resulted in an increase in single-family and multifamily home construction. Here in Mammoth Lakes we have seen more home construction in the last year including the new Gray Bear home development that allows for nightly rentals due to it's resort zoning. If interested, contact me today to get more info on upcoming homes available in the subdivision. Also, the population of millennial homebuyers is expected to grow in 2016. This means increased demand to help the housing market see positive gains. With unemployment steadily decreasing, orders for new durable goods increasing 3 percent, inflation staying level, and income beginning to grow, the Fed decided to raise interest rates. The rate increase signals that our economy is getting stronger. So, don't let the drop in existing-home sales in November fool you, with a stronger economy home sellers can expect eager home buyers in 2016.   \n\nMillennial Home Buyers\n\nThe low demand in November meant that first-time home buyers had only a 30 percent share in demand, which is slightly down from 31 percent in October and last year. However, in 2016 home sellers saw an increase of first-time home buyers enter the housing market  because of the growing segment of millennials between 25 and 34 years of age. The Census Bureau projects that the population of millennials aged 25 to 34 will increase by an average of nearly 500,000 per year in the second part of the decade. Also, NAR's inaugural quarterly Housing Opportunities and Market Experience survey reported that a large majority of millennials...\n\nView Full Post\nTips to Save Energy and Add Value\nPosted by Benjamin Peskoe on Friday, June 29, 2012 at 10:34 AM  Comment\n\nWhen it comes to energy efficiency, look for smart features and expertise to help you save energy and money and add value to your home.\n\n1. Begin with a Right-Sized Home.\n\nIf the home you buy is simply too large for you or your family’s needs or plans, you stand a good chance of wasting energy through excessive heating and cooling costs. If it’s too small, you’ll feel cramped and uncomfortable. It’s a big investment, so seek balance and buy it “right” from the outset. \n\n2. Purchase Energy Star Appliances Such as Your TV, Dishwasher, Washer and Dryer, and Microwave.\n\nAnd especially the refrigerator, as it alone contributes about 10 percent of the energy use in a home. Also, unplug electronics not in use or turn off power strips to avoid phantom charges. \n\n3. Install Efficient Lighting Such as Compact Flourescent (CLF) or LED Bulbs in Every Fixture.\n\nLighting accounts for about 6 percent of an energy bill each year.\n\n4. Get an Energy Audit and Have Tests Performed to Identify Ways of Improving Your Efficiency.\n\nYou can always upgrade your heating, ventilation, and air conditioning (HVAC) system as well as your  thermal envelope, which includes insulation, windows, and doors  and the seals or weather stripping around them. Visit energy.gov/energytips for more tips.\n\n...\nView Full Post"
+  }
+]
+
+=== IMAGE ALT TEXT ANALYSIS ===
+{
+  "total": 18,
+  "missingAlt": 3,
+  "sampleMissing": [
+    "https://cdn.userway.org/widgetapp/images/wheel_right_wh.svg",
+    "https://files.constantcontact.com/d97f06f3801/5941e388-815b-48b9-8588-f3d3217dcc53.png",
+    "https://assets.site-static.com/userFiles/362/image/holiday.jpg"
+  ],
+  "sampleWithAlt": [
+    {
+      "src": "https://cdn.userway.org/widgetapp/images/spin_wh.svg",
+      "alt": "Spinner: White decorative"
+    },
+    {
+      "src": "https://cdn.userway.org/widgetapp/images/spin_wh.svg",
+      "alt": "Spinner: White decorative"
+    },
+    {
+      "src": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-202405",
+      "alt": "Jamie Kelly and Cynthia Fleming"
+    },
+    {
+      "src": "https://assets.site-static.com/userFiles/362/image/getting-a-home-mortgage.jpg",
+      "alt": "Getting a Home Mortgage"
+    },
+    {
+      "src": "https://assets.site-static.com/userFiles/362/image/selling-in-the-winter-attract",
+      "alt": "Selling in the Winter Attracts Serious Buyers"
+    }
+  ]
+}
+
+=== SOCIAL META TAGS ===
+{
+  "og:image": "https://cdn.sitephotos.sierrastatic.com/362_hero_top-banner-20240603042352.webp",
+  "og:image:width": "1900",
+  "og:image:height": "1200"
+}
+
+=== PAGE TECHNICAL DATA ===
+{
+  "totalDomElements": 1318,
+  "totalScripts": 50,
+  "totalStylesheets": 7,
+  "totalIframes": 7,
+  "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+  "charset": "utf-8",
+  "lang": "en",
+  "favicons": [
+    "https://www.mammothlakesproperties.com/favicon.ico"
+  ]
+}
+
+=== HREFLANG TAGS ===
+[]
+
+=== CANONICAL TAG ===
+https://www.mammothlakesproperties.com/blog/
+
+=== HEADING STRUCTURE ===
+{
+  "h1": {
+    "count": 5,
+    "text": [
+      "The Mammoth Real Estate Blog",
+      "Real Estate Prices: August 7, 2020",
+      "Coming soon!!",
+      "35 Vacation Place, Mammoth Lakes, CA",
+      "Newly remodeled home located walking distance to the Village of Mammoth. Updated kitchen, wood floor"
+    ]
+  },
+  "h2": {
+    "count": 26,
+    "text": [
+      "Maximize Your Mammoth Lakes Airbnb Income with Cynthia & Jamie – Local Experts with a 15% Management",
+      "Mammoth Lakes, CA Real Estate Market: A Comprehensive Overview",
+      "1. Market Overview: High Demand, Limited Inventory",
+      "2. Types of Properties Available",
+      "Mammoth Lakes Listing Update-4/3/24"
+    ]
+  },
+  "h3": {
+    "count": 11,
+    "text": [
+      "Why Mammoth Lakes Is a Top Airbnb Market",
+      "Airbnb Income Potential: It’s All About the Right Property",
+      "Bottom Line",
+      "1. Why am I buying a home in the first place?",
+      "2. Where are home values headed?"
+    ]
+  },
+  "h4": {
+    "count": 6,
+    "text": [
+      "What has been the result of these concerns?",
+      "6.3 Million Less Mortgages",
+      "What does that mean to you?",
+      "Is there any way to avoid paying closing costs?...",
+      "Posts By Category"
+    ]
+  },
+  "h5": {
+    "count": 1,
+    "text": [
+      "REAL ESTATE MARKET IN MAMMOTH LAKES AS OF AUGUST 7, 2020"
+    ]
+  },
+  "h6": {
+    "count": 1,
+    "text": [
+      "SINGLE FAMILY HOMES"
+    ]
+  }
+}
+
+=== CHECKING ALTERNATE URLS ===
+=== CHECKING: https://www.mammothlakesproperties.com/property-search/results/ ===
+=== SCHEMA/STRUCTURED DATA ===
+[
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Property Search - Search Mammoth Lakes Real Estate MLS",
+    "url": "https://www.mammothlakesproperties.com/property-search/results/",
+    "author": "",
+    "articleSection": "Real Estate",
+    "articleBody": "",
+    "datePublished": "03/19/2026 22:24:21",
+    "image": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-20240528022138.png",
+    "copyrightHolder": {
+      "@type": "CreativeWork",
+      "name": "",
+      "image": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-20240528022138.png"
+    },
+    "isFamilyFriendly": "true",
+    "inLanguage": "English",
+    "publisher": {
+      "@type": "Organization",
+      "name": "",
+      "logo": {
+        "@type": "ImageObject",
+        "name": " Logo",
+        "width": "43",
+        "height": "200",
+        "url": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-20240528022138.png"
+      }
+    },
+    "contentLocation": "",
+    "dateModified": "03/19/2026 22:24:21",
+    "mainEntityofPage": {
+      "@type": "Website",
+      "@id": "https://www.mammothlakesproperties.com"
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "",
+    "url": "https://www.mammothlakesproperties.com",
+    "logo": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-20240528022138.png",
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "(760) 914-0625",
+        "contactType": "Customer Service"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://www.mammothlakesproperties.com/property-search/results/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.mammothlakesproperties.com/property-search/results/listing/?keywords-detailDescribe={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "lastReviewed": "03/19/2026 22:24:21",
+    "url": "https://www.mammothlakesproperties.com/property-search/results/",
+    "name": "Property Search - Search Mammoth Lakes Real Estate MLS",
+    "author": "",
+    "mainContentOfPage": "",
+    "primaryImageOfPage": "https://cdn.sitephotos.sierrastatic.com/362_hero_top-banner-20240603042352.webp",
+    "reviewedBy": {
+      "@type": "Organization",
+      "name": ""
+    },
+    "specialty": "Real Estate",
+    "copyrightHolder": {
+      "@type": "CreativeWork",
+      "name": "",
+      "image": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-20240528022138.png"
+    },
+    "isFamilyFriendly": "true",
+    "inLanguage": "English",
+    "Publisher": {
+      "@type": "Organization",
+      "name": "",
+      "logo": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-20240528022138.png"
+    },
+    "audience": {
+      "@type": "Audience",
+      "name": "home buyers. home sellers, real estate agents, realtors"
+    },
+    "dateModified": "03/19/2026 22:24:21",
+    "mainEntityofPage": {
+      "@type": "Website",
+      "@id": "https://www.mammothlakesproperties.com"
+    }
+  }
+]
+
+=== IMAGE ALT TEXT ANALYSIS ===
+{
+  "total": 479,
+  "missingAlt": 448,
+  "sampleMissing": [
+    "https://cdn.userway.org/widgetapp/images/wheel_right_wh.svg",
+    "no src",
+    "no src",
+    "no src",
+    "no src",
+    "no src",
+    "no src",
+    "no src",
+    "no src",
+    "no src"
+  ],
+  "sampleWithAlt": [
+    {
+      "src": "https://cdn.userway.org/widgetapp/images/spin_wh.svg",
+      "alt": "Spinner: White decorative"
+    },
+    {
+      "src": "https://cdn.userway.org/widgetapp/images/spin_wh.svg",
+      "alt": "Spinner: White decorative"
+    },
+    {
+      "src": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-202405",
+      "alt": "Jamie Kelly and Cynthia Fleming"
+    },
+    {
+      "src": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1773967845/1/1_260126_01.jpg",
+      "alt": "Preview"
+    },
+    {
+      "src": "https://assets.site-static.com/idxlogos/1-20221117081621.jpg",
+      "alt": "Board of Realty Logo"
+    }
+  ]
+}
+
+=== SOCIAL META TAGS ===
+{
+  "og:image": "https://cdn.sitephotos.sierrastatic.com/362_hero_top-banner-20240603042352.webp",
+  "og:image:width": "1900",
+  "og:image:height": "1200"
+}
+
+=== PAGE TECHNICAL DATA ===
+{
+  "totalDomElements": 3711,
+  "totalScripts": 52,
+  "totalStylesheets": 8,
+  "totalIframes": 5,
+  "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+  "charset": "utf-8",
+  "lang": "en",
+  "favicons": [
+    "https://www.mammothlakesproperties.com/favicon.ico"
+  ]
+}
+
+=== HREFLANG TAGS ===
+[]
+
+=== CANONICAL TAG ===
+MISSING
+
+=== HEADING STRUCTURE ===
+{
+  "h1": {
+    "count": 0,
+    "text": []
+  },
+  "h2": {
+    "count": 4,
+    "text": [
+      "I'm Here to Help",
+      "Have a Question or Want a Free Market Report?",
+      "I'm Here to Help",
+      "Have a Question or Want a Free Market Report?"
+    ]
+  },
+  "h3": {
+    "count": 3,
+    "text": [
+      "Connect",
+      "Connect",
+      "More Filters (2)"
+    ]
+  },
+  "h4": {
+    "count": 0,
+    "text": []
+  },
+  "h5": {
+    "count": 0,
+    "text": []
+  },
+  "h6": {
+    "count": 1,
+    "text": [
+      "Property Search"
+    ]
+  }
+}
+
+=== CHECKING: https://www.mammothlakesproperties.com/community-info/ ===
+=== SCHEMA/STRUCTURED DATA ===
+[]
+
+=== IMAGE ALT TEXT ANALYSIS ===
+{
+  "total": 6,
+  "missingAlt": 0,
+  "sampleMissing": [],
+  "sampleWithAlt": [
+    {
+      "src": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-202405",
+      "alt": "Jamie Kelly and Cynthia Fleming"
+    },
+    {
+      "src": "https://assets.site-static.com/blogphotos/thumb/362/25155-winterset-20-34.jpg",
+      "alt": "Maximize Your Mammoth Lakes Airbnb Income with Cynthia & Jamie – Local Experts with a 15% Management Fee"
+    },
+    {
+      "src": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-202405",
+      "alt": "Jamie Kelly and Cynthia Fleming Footer Logo"
+    },
+    {
+      "src": "https://cy-sierra-assets.s3.us-west-1.amazonaws.com/sites/mammothlakesproperties",
+      "alt": "Mammoth Lakes Resort Realty Logo"
+    },
+    {
+      "src": "",
+      "alt": "Maximize Your Mammoth Lakes Airbnb Income with Cynthia & Jamie – Local Experts with a 15% Management Fee Photo"
+    }
+  ]
+}
+
+=== SOCIAL META TAGS ===
+{
+  "og:image": "https://cdn.sitephotos.sierrastatic.com/362_hero_top-banner-20240603042352.webp",
+  "og:image:width": "1900",
+  "og:image:height": "1200"
+}
+
+=== PAGE TECHNICAL DATA ===
+{
+  "totalDomElements": 797,
+  "totalScripts": 45,
+  "totalStylesheets": 6,
+  "totalIframes": 4,
+  "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+  "charset": "utf-8",
+  "lang": "en",
+  "favicons": [
+    "https://www.mammothlakesproperties.com/favicon.ico"
+  ]
+}
+
+=== HREFLANG TAGS ===
+[]
+
+=== CANONICAL TAG ===
+https://www.mammothlakesproperties.com/community-info/
+
+=== HEADING STRUCTURE ===
+{
+  "h1": {
+    "count": 1,
+    "text": [
+      "Mammoth Lakes Community"
+    ]
+  },
+  "h2": {
+    "count": 4,
+    "text": [
+      "I'm Here to Help",
+      "Have a Question or Want a Free Market Report?",
+      "I'm Here to Help",
+      "Have a Question or Want a Free Market Report?"
+    ]
+  },
+  "h3": {
+    "count": 3,
+    "text": [
+      "Escape to the Eastern Sierra",
+      "Connect",
+      "Connect"
+    ]
+  },
+  "h4": {
+    "count": 3,
+    "text": [
+      "Embracing the Outdoors",
+      "Mammoth Lakes: A Paradise for Outdoor Enthusiasts",
+      "Creating Lasting Memories"
+    ]
+  },
+  "h5": {
+    "count": 0,
+    "text": []
+  },
+  "h6": {
+    "count": 0,
+    "text": []
+  }
+}
+
+=== CHECKING: https://www.mammothlakesproperties.com/mammoth-lakes/ ===
+=== SCHEMA/STRUCTURED DATA ===
+[]
+
+=== IMAGE ALT TEXT ANALYSIS ===
+{
+  "total": 33,
+  "missingAlt": 1,
+  "sampleMissing": [
+    "https://cdn.userway.org/widgetapp/images/wheel_right_wh.svg"
+  ],
+  "sampleWithAlt": [
+    {
+      "src": "https://cdn.userway.org/widgetapp/images/spin_wh.svg",
+      "alt": "Spinner: White decorative"
+    },
+    {
+      "src": "https://cdn.userway.org/widgetapp/images/spin_wh.svg",
+      "alt": "Spinner: White decorative"
+    },
+    {
+      "src": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-202405",
+      "alt": "Jamie Kelly and Cynthia Fleming"
+    },
+    {
+      "src": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1772399462/1/1_240407_01.jpg",
+      "alt": "18 Alexander Ln Mammoth Lakes, CA 93546"
+    },
+    {
+      "src": "https://assets.site-static.com/idxlogos/1-20221117081621.jpg",
+      "alt": "Board of Realty Logo"
+    }
+  ]
+}
+
+=== SOCIAL META TAGS ===
+{
+  "og:image": "https://cdn.sitephotos.sierrastatic.com/362_hero_top-banner-20240603042352.webp",
+  "og:image:width": "1900",
+  "og:image:height": "1200"
+}
+
+=== PAGE TECHNICAL DATA ===
+{
+  "totalDomElements": 1583,
+  "totalScripts": 51,
+  "totalStylesheets": 7,
+  "totalIframes": 5,
+  "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+  "charset": "utf-8",
+  "lang": "en",
+  "favicons": [
+    "https://www.mammothlakesproperties.com/favicon.ico"
+  ]
+}
+
+=== HREFLANG TAGS ===
+[]
+
+=== CANONICAL TAG ===
+https://www.mammothlakesproperties.com/mammoth-lakes/
+
+=== HEADING STRUCTURE ===
+{
+  "h1": {
+    "count": 1,
+    "text": [
+      "Mammoth Lakes Properties"
+    ]
+  },
+  "h2": {
+    "count": 4,
+    "text": [
+      "I'm Here to Help",
+      "Have a Question or Want a Free Market Report?",
+      "I'm Here to Help",
+      "Have a Question or Want a Free Market Report?"
+    ]
+  },
+  "h3": {
+    "count": 2,
+    "text": [
+      "Connect",
+      "Connect"
+    ]
+  },
+  "h4": {
+    "count": 0,
+    "text": []
+  },
+  "h5": {
+    "count": 0,
+    "text": []
+  },
+  "h6": {
+    "count": 0,
+    "text": []
+  }
+}
+

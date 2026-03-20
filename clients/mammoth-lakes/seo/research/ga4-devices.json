@@ -1,0 +1,30 @@
+[
+  {
+    "deviceCategory": "desktop",
+    "sessions": 9437,
+    "totalUsers": 8462,
+    "conversions": 0,
+    "bounceRate": 0.689519974568189
+  },
+  {
+    "deviceCategory": "mobile",
+    "sessions": 5152,
+    "totalUsers": 2775,
+    "conversions": 12,
+    "bounceRate": 0.5295031055900621
+  },
+  {
+    "deviceCategory": "tablet",
+    "sessions": 108,
+    "totalUsers": 71,
+    "conversions": 0,
+    "bounceRate": 0.4444444444444444
+  },
+  {
+    "deviceCategory": "smart tv",
+    "sessions": 1,
+    "totalUsers": 1,
+    "conversions": 0,
+    "bounceRate": 0
+  }
+]

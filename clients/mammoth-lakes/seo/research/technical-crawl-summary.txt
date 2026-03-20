@@ -1,0 +1,239 @@
+TECHNICAL SEO CRAWL SUMMARY - mammothlakesproperties.com
+Date: 2026-03-19
+================================================================
+
+1. SITEMAP & URL STRUCTURE
+================================================================
+
+Total URLs in sitemap: 2,984
+
+URL Categories and Counts:
+  - mammoth-lakes-homes-for-sale: 201 pages
+  - bishop-homes-for-sale: 90 pages
+  - june-lake-homes-for-sale: 84 pages
+  - crowley-lake-homes-for-sale: 83 pages
+  - bridgeport-homes-for-sale: 80 pages
+  - swall-meadows-homes-for-sale: 77 pages
+  - lee-vining-homes-for-sale: 75 pages
+  - bigwood-85-homes-for-sale: 75 pages
+  - coleville-homes-for-sale: 74 pages
+  - sunny-slopes-homes-for-sale: 74 pages
+  - bodie-hills-homes-for-sale: 73 pages
+  - topaz-homes-for-sale: 73 pages
+  - twin-lakes-homes-for-sale: 73 pages
+  - walker-homes-for-sale: 73 pages
+  - aberdeen-homes-for-sale: 73 pages
+  - clv-homes-for-sale: 73 pages
+  - toms-place-homes-for-sale: 73 pages
+  - chalfant-homes-for-sale: 73 pages
+  - (plus 20+ more community/area pages with 71 each)
+  - blog: 20 pages
+  - buyers: 8 pages
+  - sellers: 6 pages
+  - property-search: 4 pages
+  - agents: 2 pages
+  - Single community landing pages: ~25 pages (benton, big-pine, bishop, bridgeport, coleville, etc.)
+  - homepage: 1 page
+
+KEY OBSERVATION: The sitemap is massively bloated with IDX/MLS filter pages.
+The vast majority of the 2,984 URLs are auto-generated search filter pages
+(e.g., /mammoth-lakes-homes-for-sale/1-bathroom/, /bishop-homes-for-sale/2-bedroom/).
+These are thin content pages with very similar templates. Only ~70 pages represent
+unique content (homepage, about, contact, blog posts, buyer/seller resources, community pages).
+
+
+2. ROBOTS.TXT OBSERVATIONS
+================================================================
+
+- Blocks Amazonbot and PetalBot completely (Disallow: /)
+- Sets 85-second crawl delays for AhrefsBot and SemrushBot
+- 5-second crawl delay for all other bots
+- Blocks /res/includes/, /sist/, market-update URLs
+- Sitemap declared correctly
+
+
+3. PAGE-LEVEL TECHNICAL ISSUES (From 20 Analyzed Pages)
+================================================================
+
+MISSING H1 TAGS:
+  - /property-search/results/ (NO H1)
+  - /property-search/results/?searchtype=3 (NO H1)
+
+MULTIPLE H1 TAGS (should be exactly 1):
+  - Homepage: 4 H1s ("Find Your Mammoth Lakes Home", "IMAGINE", "LIVING HERE", "Welcome")
+  - /about: 2 H1s (one is empty)
+  - /blog: 5 H1s (blog post titles incorrectly marked as H1)
+
+MISSING CANONICAL TAGS:
+  - /property-search/site-map/
+  - /property-search/results/
+  - /property-search/results/?searchtype=3
+  - /property-search/property-tracker/
+
+MISSING SCHEMA MARKUP:
+  - /property-search/site-map/ (NO schema)
+  - /property-search/property-tracker/ (NO schema)
+  - All community filter pages (e.g., /virginia-lakes-homes-for-sale/1-bathroom/) - NO schema
+  - /contact (NO schema)
+  - /community-info/ (NO schema)
+  - /mammoth-lakes/ (NO schema)
+
+SCHEMA ISSUES (where present):
+  - Organization schema on homepage has empty "name" field
+  - Article schema on /about and /blog has empty "author", "publisher.name", "contentLocation"
+  - Article schema uses incorrect type for /about page (should be AboutPage, not Article)
+  - Blog page schema dumps entire blog text into mainEntityofPage (bloated)
+
+MASSIVE ALT TEXT PROBLEMS:
+  - /property-search/results/: 476 images, 447 MISSING alt text (94% missing)
+  - /property-search/results/?searchtype=3: 1,425 images, 1,339 MISSING alt text (94% missing)
+  - Homepage: 48 images, 10 missing alt text (21% missing)
+  - Multiple listing photos across the site lack alt text entirely
+
+INCORRECT TITLE TAG:
+  - /property-search/site-map/: Title is "Louisville Area MLS Listings" (WRONG CITY - likely platform default)
+
+MISSING/INCOMPLETE OPEN GRAPH TAGS:
+  - Homepage: Missing og:title, og:url, og:description (only has og:image)
+  - /contact: Missing og:title, og:url, og:description
+  - /property-search/results/: Same - only og:image
+  - Twitter Card tags: MISSING across all pages
+
+NO HREFLANG TAGS on any page (English-only site, so this is acceptable)
+
+BROKEN URL:
+  - /listings returns HTTP 404 error (not a valid page)
+
+LOW INTERNAL LINKING:
+  - Most IDX filter pages show 0 internal links
+  - Homepage has only 18 internal links
+  - Property search results: 0 internal links
+
+
+4. HOMEPAGE TECHNICAL PROFILE
+================================================================
+
+  Title: Properties for sale in Mammoth Lakes, California | mammothlakesproperties
+  Meta Description: Present and adequate
+  H1s: 4 (should be 1) - "Find Your Mammoth Lakes Home", "IMAGINE", "LIVING HERE", "Welcome"
+  H2s: 12 | H3s: 3
+  Word Count: 4,138
+  Images: 48 (10 missing alt = 21%)
+  Internal Links: 18 | External: 7
+  Canonical: Set correctly
+  Schema: Organization + WebSite (SearchAction)
+  DOM Elements: 2,607
+  Scripts: 52 (high number - potential performance concern)
+  Stylesheets: 10
+  Iframes: 5
+  Viewport: Set correctly
+  Charset: UTF-8
+  Lang: "en"
+
+
+5. INTERIOR PAGE PROFILES
+================================================================
+
+/about:
+  - Schema: Article type (should be AboutPage)
+  - H1: 2 (one is empty string)
+  - OG tags: Complete (og:title, og:url, og:image, og:description)
+  - Images: 16 (1 missing alt)
+
+/contact:
+  - Schema: NONE
+  - H1: 1 (correct)
+  - OG tags: Incomplete (only og:image)
+  - Images: 13 (1 missing alt)
+
+/blog:
+  - Schema: Article + Blog (over-structured)
+  - H1: 5 (severely over-tagged - blog post titles coded as H1)
+  - OG tags: Incomplete
+  - Images: 18 (3 missing alt)
+  - Iframes: 7 (high)
+
+/property-search/results/:
+  - Schema: Present (Article + Organization + WebSite + WebPage)
+  - H1: MISSING
+  - Canonical: MISSING
+  - Images: 479 (448 missing alt = 93.5%)
+
+/community-info/:
+  - Schema: NONE
+  - H1: 1 (correct)
+  - Good heading hierarchy (H1 > H3 > H4)
+
+/mammoth-lakes/:
+  - Schema: NONE
+  - H1: 1 (correct)
+  - Images: 33 (1 missing alt)
+
+
+6. COMPETITOR COMPARISON
+================================================================
+
+                        | MammothLakesProperties | MammothLakesResortRealty | RE/MAX Mammoth
+------------------------|------------------------|-------------------------|---------------
+Schema Type             | Organization (generic) | RealEstateAgent (ideal) | NONE
+Schema Completeness     | Empty name/author      | Full (address, geo,     | No schema
+                        |                        | areaServed, sameAs)     |
+H1 Count (homepage)     | 4 (too many)           | 1 (correct)             | 1 (correct)
+H1 Quality              | Generic/fragmented     | Keyword-optimized       | Generic
+Missing Alt Text        | 10/48 (21%)            | 48/56 (86%)             | 5/129 (4%)
+OG Tags                 | Partial (image only)   | NONE                    | Partial (image)
+DOM Elements            | 2,607                  | 1,246                   | 2,110
+Scripts                 | 52                      | 23                      | 26
+Canonical               | Present                | Present                 | Present
+Lang Attribute          | en                     | en                      | en
+
+KEY COMPETITIVE FINDINGS:
+  - Mammoth Lakes Resort Realty has SUPERIOR schema markup (RealEstateAgent with full
+    business data, geo coords, areaServed, sameAs links to social/directory profiles)
+  - RE/MAX Mammoth has the best alt text coverage (96% have alt text)
+  - Client site has the most bloated DOM and highest script count (potential speed issue)
+  - Resort Realty has a much leaner page (1,246 DOM elements vs client's 2,607)
+  - Neither competitor has complete OG tags either
+
+
+7. CRITICAL ISSUES PRIORITIZED
+================================================================
+
+HIGH PRIORITY:
+  1. Fix multiple H1 tags on homepage (currently 4, should be 1)
+  2. Add H1 to property search results page
+  3. Add canonical tags to all /property-search/ pages
+  4. Fix "Louisville Area MLS Listings" title on /property-search/site-map/ (wrong city)
+  5. Upgrade schema from generic Organization to RealEstateAgent with full business data
+  6. Fix empty fields in existing schema (name, author, publisher.name)
+  7. Add missing alt text to listing images (1,800+ images affected across search pages)
+
+MEDIUM PRIORITY:
+  8. Complete OG tags on all pages (add og:title, og:url, og:description)
+  9. Add Twitter Card meta tags site-wide
+  10. Add schema to community pages, contact page, and community-info page
+  11. Fix blog heading hierarchy (blog post titles should be H2, not H1)
+  12. Reduce sitemap bloat - consider removing thin IDX filter pages or adding noindex
+  13. Add LocalBusiness/RealEstateAgent schema with address, geo, sameAs
+
+LOW PRIORITY:
+  14. Reduce script count (52 scripts on homepage) for performance
+  15. Improve internal linking from IDX pages (currently 0 on most)
+  16. Add hreflang if targeting any non-English audiences
+  17. Remove /test/ page from sitemap
+  18. Fix about page schema type (Article -> AboutPage)
+
+
+8. ERRORS ENCOUNTERED
+================================================================
+
+  - /listings: HTTP 404 (page does not exist)
+  - No other HTTP errors detected on tested pages
+
+================================================================
+Files saved:
+  - seo/research/sitemap-crawl.txt (full sitemap crawl + page analysis)
+  - seo/research/technical-homepage.txt (homepage technical check)
+  - seo/research/technical-interior.txt (interior + alternate pages)
+  - seo/research/competitor-technical.txt (competitor comparison data)
+  - seo/research/technical-crawl-summary.txt (this summary)

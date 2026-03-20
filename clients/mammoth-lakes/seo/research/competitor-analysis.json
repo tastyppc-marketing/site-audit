@@ -1,0 +1,212 @@
+{
+  "analysis_date": "2026-03-19",
+  "client": "mammothlakesproperties.com",
+  "top_competitors": [
+    {
+      "domain": "remax-mammoth.com",
+      "name": "RE/MAX Mammoth",
+      "why_top_competitor": "Strongest SERP visibility: ranks for 8/10 tracked keywords with avg position 9.2 and 7 top-10 rankings. Dominant in local real estate SERPs."
+    },
+    {
+      "domain": "mammothlakesresortrealty.com",
+      "name": "Mammoth Lakes Resort Realty",
+      "why_top_competitor": "Broadest keyword coverage: ranks for 9/10 tracked keywords. Appeared in 6/6 additional SERP queries. Strong presence but lower avg positions."
+    },
+    {
+      "domain": "snowcreekproperty.com",
+      "name": "Snowcreek Property",
+      "why_top_competitor": "Emerging competitor: ranks for 7/10 tracked keywords despite being a niche/subdivision-focused site."
+    }
+  ],
+  "client_visibility": {
+    "tracked_keywords": 10,
+    "keywords_ranked": 5,
+    "keywords_not_found": 5,
+    "avg_position_when_ranked": 11.2,
+    "top_10_rankings": 1,
+    "branded_keyword_rank": "#1 for \"mammoth lakes properties\"",
+    "rankings": [
+      {
+        "keyword": "mammoth lakes homes for sale",
+        "position": null,
+        "url": null
+      },
+      {
+        "keyword": "mammoth mountain homes for sale",
+        "position": null,
+        "url": null
+      },
+      {
+        "keyword": "mammoth lakes ca homes for sale",
+        "position": 11,
+        "url": "https://www.mammothlakesproperties.com/"
+      },
+      {
+        "keyword": "mammoth lakes vacation homes",
+        "position": null,
+        "url": null
+      },
+      {
+        "keyword": "mammoth lakes real estate",
+        "position": 16,
+        "url": "https://www.mammothlakesproperties.com/"
+      },
+      {
+        "keyword": "mammoth lakes properties",
+        "position": 1,
+        "url": "https://www.mammothlakesproperties.com/"
+      },
+      {
+        "keyword": "mammoth lakes condos for sale",
+        "position": null,
+        "url": null
+      },
+      {
+        "keyword": "mammoth mountain real estate",
+        "position": 17,
+        "url": "https://www.mammothlakesproperties.com/"
+      },
+      {
+        "keyword": "june lake homes for sale",
+        "position": null,
+        "url": null
+      },
+      {
+        "keyword": "crowley lake homes for sale",
+        "position": 11,
+        "url": "https://www.mammothlakesproperties.com/crowley-lake-homes-for-sale/open-houses/"
+      }
+    ],
+    "additional_keyword_rankings": {
+      "mammoth lakes real estate agent": "#15",
+      "mammoth mountain real estate": "Not found",
+      "mammoth lakes condos for sale": "#21"
+    }
+  },
+  "pagespeed_comparison": {
+    "mammothlakesproperties.com": {
+      "mobile_score": 0.3,
+      "lcp_ms": 15812.4,
+      "cls": 0.8032,
+      "fcp_ms": 2852.0,
+      "inp_ms": 355.5,
+      "ttfb_ms": 110.0
+    },
+    "mammothlakesresortrealty.com": {
+      "mobile_score": 0.56,
+      "lcp_ms": 6267.7,
+      "cls": 0.3445,
+      "fcp_ms": 2253.0,
+      "inp_ms": 55.0,
+      "ttfb_ms": 54.0
+    },
+    "remax-mammoth.com": {
+      "mobile_score": 0.79,
+      "lcp_ms": 4052.5,
+      "cls": 0.0004,
+      "fcp_ms": 3524.1,
+      "inp_ms": 0.0,
+      "ttfb_ms": 25.0
+    }
+  },
+  "serp_visibility_summary": {
+    "mammothlakesproperties.com": {
+      "keywords_ranked": 5,
+      "total_keywords": 10,
+      "avg_position": 11.2,
+      "top_10_count": 1
+    },
+    "mammothlakesresortrealty.com": {
+      "keywords_ranked": 9,
+      "total_keywords": 10,
+      "avg_position": 13.9,
+      "top_10_count": 1
+    },
+    "remax-mammoth.com": {
+      "keywords_ranked": 8,
+      "total_keywords": 10,
+      "avg_position": 9.2,
+      "top_10_count": 7
+    },
+    "mammothvillageproperties.com": {
+      "keywords_ranked": 3,
+      "total_keywords": 10,
+      "avg_position": 11.7,
+      "top_10_count": 1
+    },
+    "mammoth1.com": {
+      "keywords_ranked": 2,
+      "total_keywords": 10,
+      "avg_position": 11.5,
+      "top_10_count": 0
+    },
+    "snowcreekproperty.com": {
+      "keywords_ranked": 7,
+      "total_keywords": 10,
+      "avg_position": 13.1,
+      "top_10_count": 0
+    }
+  },
+  "all_competitor_domains_from_serps": [
+    [
+      "www.mammothlakesresortrealty.com",
+      6
+    ],
+    [
+      "mammothvillageproperties.com",
+      3
+    ],
+    [
+      "www.remax-mammoth.com",
+      3
+    ],
+    [
+      "www.mammoth1.com",
+      3
+    ],
+    [
+      "www.snowcreekproperty.com",
+      3
+    ],
+    [
+      "destinationmammoth.com",
+      2
+    ],
+    [
+      "mammothrealtygroup.com",
+      2
+    ],
+    [
+      "www.mlbor.com",
+      2
+    ],
+    [
+      "trademarkmammoth.com",
+      2
+    ],
+    [
+      "www.mammothmountainrealestate.com",
+      2
+    ],
+    [
+      "mammothmtnproperties.com",
+      2
+    ],
+    [
+      "www.mammothvillageproperties.com",
+      1
+    ],
+    [
+      "www.mammothrealtygroup.com",
+      1
+    ],
+    [
+      "www.yelp.com",
+      1
+    ],
+    [
+      "www.facebook.com",
+      1
+    ]
+  ]
+}

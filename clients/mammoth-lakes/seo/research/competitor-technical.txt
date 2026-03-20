@@ -1,0 +1,262 @@
+=== COMPETITOR: https://www.mammothlakesresortrealty.com ===
+=== SCHEMA/STRUCTURED DATA ===
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "@id": "https://www.mammothlakesresortrealty.com/#realestateagent",
+    "name": "Mammoth Lakes Resort Realty",
+    "url": "https://www.mammothlakesresortrealty.com/",
+    "logo": "https://www.mammothlakesresortrealty.com/res/images/logo-small.png",
+    "image": "https://www.mammothlakesresortrealty.com/res/images/logo-small.png",
+    "description": "Local expert real estate brokerage in Mammoth Lakes, CA specializing in homes, condos and resort properties.",
+    "telephone": "+17609248521",
+    "priceRange": "$$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "272 Sierra Manor Rd, Suite D",
+      "addressLocality": "Mammoth Lakes",
+      "addressRegion": "CA",
+      "postalCode": "93546",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 37.6489,
+      "longitude": -118.9722
+    },
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Mammoth Lakes",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Eastern Sierra",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      }
+    ],
+    "hasMap": "https://maps.app.goo.gl/3wt49Gihd2hQa4bj6",
+    "sameAs": [
+      "https://www.google.com/maps/place/Mammoth+Lakes+Resort+Realty/",
+      "https://www.facebook.com/mammothlakesresortrealty",
+      "https://www.zillow.com/profile/MammothLakesResortRealty",
+      "https://www.realty.com/office/505823/mammoth_lakes_resort_realty"
+    ]
+  }
+]
+
+=== IMAGE ALT TEXT ANALYSIS ===
+{
+  "total": 56,
+  "missingAlt": 48,
+  "sampleMissing": [
+    "https://www.mammothlakesresortrealty.com/res/images/insta18.png",
+    "https://assets.site-static.com/userfiles/453/image/x_icon.png",
+    "https://www.mammothlakesresortrealty.com/res/images/fb_icon.png",
+    "https://www.mammothlakesresortrealty.com/res/images/linkedin_icon.png",
+    "https://www.mammothlakesresortrealty.com/res/images/video-placeholder.jpg",
+    "no src",
+    "no src",
+    "no src",
+    "no src",
+    "https://cdn.listingphotos.sierrastatic.com/pics/v1773795536/1/1_260162_01.jpg"
+  ],
+  "sampleWithAlt": [
+    {
+      "src": "https://www.mammothlakesresortrealty.com/res/images/logo-small.png",
+      "alt": "Mammoth Lakes Resort Realty"
+    },
+    {
+      "src": "https://www.mammothlakesresortrealty.com/res/images/home/slide1.jpg?v=0",
+      "alt": "The Village at Mammoth Condos"
+    },
+    {
+      "src": "https://www.mammothlakesresortrealty.com/res/images/home/slide2.jpg?v=0",
+      "alt": "Eagle Lodge Condos"
+    },
+    {
+      "src": "https://www.mammothlakesresortrealty.com/res/images/home/slide3.jpg?v=0",
+      "alt": "Ski In, Ski Out Condos"
+    },
+    {
+      "src": "",
+      "alt": "Luxury Homes"
+    }
+  ]
+}
+
+=== SOCIAL META TAGS ===
+{}
+
+=== PAGE TECHNICAL DATA ===
+{
+  "totalDomElements": 1246,
+  "totalScripts": 23,
+  "totalStylesheets": 5,
+  "totalIframes": 2,
+  "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+  "charset": "utf-8",
+  "lang": "en",
+  "favicons": [
+    "https://www.mammothlakesresortrealty.com/favicon.ico"
+  ]
+}
+
+=== HREFLANG TAGS ===
+[]
+
+=== CANONICAL TAG ===
+https://www.mammothlakesresortrealty.com/
+
+=== HEADING STRUCTURE ===
+{
+  "h1": {
+    "count": 1,
+    "text": [
+      "Mammoth Real Estate & Mammoth Lakes Experts"
+    ]
+  },
+  "h2": {
+    "count": 2,
+    "text": [
+      "Mammoth Real Estate: Homes, Condos & Resort Properties for Sale in Mammoth Lakes, California",
+      "Local knowledge. Mountain lifestyle expertise. Trusted guidance for buying and selling real estate i"
+    ]
+  },
+  "h3": {
+    "count": 5,
+    "text": [
+      "Search 123 Mammoth Lakes Real Estate Listings",
+      "Popular Searches",
+      "Featured Mammoth Lakes Communities View All Mammoth Lakes Communities",
+      "Luxury Properties View All Luxury Properties",
+      "Featured Listings View All Featured Listings"
+    ]
+  },
+  "h4": {
+    "count": 3,
+    "text": [
+      "Latest Blog Posts",
+      "Market Snapshot",
+      "Condo Buying Guide"
+    ]
+  },
+  "h5": {
+    "count": 0,
+    "text": []
+  },
+  "h6": {
+    "count": 0,
+    "text": []
+  }
+}
+
+=== COMPETITOR: https://www.remax-mammoth.com ===
+=== SCHEMA/STRUCTURED DATA ===
+[]
+
+=== IMAGE ALT TEXT ANALYSIS ===
+{
+  "total": 129,
+  "missingAlt": 5,
+  "sampleMissing": [
+    "https://cdn.userway.org/widgetapp/images/wheel_right_wh.svg",
+    "no src",
+    "https://cy-sierra-assets.s3.us-west-1.amazonaws.com/sites/remax-mammoth.com/images/location-icon.png",
+    "https://cy-sierra-assets.s3.us-west-1.amazonaws.com/sites/remax-mammoth.com/images/buying.jpg",
+    "https://cy-sierra-assets.s3.us-west-1.amazonaws.com/sites/remax-mammoth.com/images/selling.jpg"
+  ],
+  "sampleWithAlt": [
+    {
+      "src": "https://cdn.userway.org/widgetapp/images/spin_wh.svg",
+      "alt": "Spinner: White decorative"
+    },
+    {
+      "src": "https://cdn.userway.org/widgetapp/images/spin_wh.svg",
+      "alt": "Spinner: White decorative"
+    },
+    {
+      "src": "https://cdn.sitephotos.sierrastatic.com/270_logo_header-logo-20210625053626.png",
+      "alt": "RE/MAX of Mammoth"
+    },
+    {
+      "src": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1773980064/1/1_260170_01.jpg",
+      "alt": "1162 Pyramid Peak Dr Mammoth Lakes, CA 93546-1114"
+    },
+    {
+      "src": "https://assets.site-static.com/idxlogos/1-20221117081621.jpg",
+      "alt": "Board of Realty Logo"
+    }
+  ]
+}
+
+=== SOCIAL META TAGS ===
+{
+  "og:image": "https://cdn.sitephotos.sierrastatic.com/270_hero_hero-20210628062704.jpg",
+  "og:image:width": "1900",
+  "og:image:height": "600"
+}
+
+=== PAGE TECHNICAL DATA ===
+{
+  "totalDomElements": 2110,
+  "totalScripts": 26,
+  "totalStylesheets": 5,
+  "totalIframes": 4,
+  "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+  "charset": "utf-8",
+  "lang": "en",
+  "favicons": [
+    "https://assets.site-static.com/sitelogos/favicon/270-20210622011411/favicon-32x32.png",
+    "https://assets.site-static.com/sitelogos/favicon/270-20210622011411/favicon-16x16.png",
+    "https://assets.site-static.com/sitelogos/favicon/270-20210622011411/favicon.ico",
+    "https://www.remax-mammoth.com/favicon.ico"
+  ]
+}
+
+=== HREFLANG TAGS ===
+[]
+
+=== CANONICAL TAG ===
+https://www.remax-mammoth.com/
+
+=== HEADING STRUCTURE ===
+{
+  "h1": {
+    "count": 1,
+    "text": [
+      "Find Your Home"
+    ]
+  },
+  "h2": {
+    "count": 11,
+    "text": [
+      "Explore Listings",
+      "New Listings",
+      "Mammoth Condos",
+      "Mammoth Area Homes",
+      "What Are You Looking For?"
+    ]
+  },
+  "h3": {
+    "count": 0,
+    "text": []
+  },
+  "h4": {
+    "count": 0,
+    "text": []
+  },
+  "h5": {
+    "count": 0,
+    "text": []
+  },
+  "h6": {
+    "count": 0,
+    "text": []
+  }
+}
+

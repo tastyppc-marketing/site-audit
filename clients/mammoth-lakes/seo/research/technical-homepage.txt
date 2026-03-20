@@ -1,0 +1,137 @@
+=== SCHEMA/STRUCTURED DATA ===
+[
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "",
+    "url": "https://www.mammothlakesproperties.com",
+    "logo": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-20240528022138.png",
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "(760) 914-0625",
+        "contactType": "Customer Service"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://www.mammothlakesproperties.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.mammothlakesproperties.com/listing/?keywords-detailDescribe={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+]
+
+=== IMAGE ALT TEXT ANALYSIS ===
+{
+  "total": 48,
+  "missingAlt": 10,
+  "sampleMissing": [
+    "https://cdn.userway.org/widgetapp/images/wheel_right_wh.svg",
+    "no src",
+    "https://cdn.sitephotos.sierrastatic.com/362_community_communities-20180317034902.jpg",
+    "https://cdn.sitephotos.sierrastatic.com/362_contentbackground_about-bg-20180317035037.jpg",
+    "no src",
+    "https://cy-sierra-assets.s3.us-west-1.amazonaws.com/sites/mammothlakesproperties.com/images/Mammoth+",
+    "https://cy-sierra-assets.s3.us-west-1.amazonaws.com/sites/mammothlakesproperties.com/images/Mammoth+",
+    "https://cy-sierra-assets.s3.us-west-1.amazonaws.com/sites/mammothlakesproperties.com/images/Mammoth+",
+    "https://cy-sierra-assets.s3.us-west-1.amazonaws.com/sites/mammothlakesproperties.com/images/Mammoth+",
+    "https://css.site-static.com/assets/dist/v202602161200/images/listings/home-light-version.svg"
+  ],
+  "sampleWithAlt": [
+    {
+      "src": "https://cdn.userway.org/widgetapp/images/spin_wh.svg",
+      "alt": "Spinner: White decorative"
+    },
+    {
+      "src": "https://cdn.userway.org/widgetapp/images/spin_wh.svg",
+      "alt": "Spinner: White decorative"
+    },
+    {
+      "src": "https://cdn.sitephotos.sierrastatic.com/362_logo_mammoth-lakes-properties-202405",
+      "alt": "Jamie Kelly and Cynthia Fleming"
+    },
+    {
+      "src": "https://css.site-static.com/assets/dist/v202602161200/images/listings/loadingpho",
+      "alt": "50 Canyon Blvd B9-8 Mammoth Lakes, CA 93546"
+    },
+    {
+      "src": "https://assets.site-static.com/idxlogos/1-20221117081621.jpg",
+      "alt": "Board of Realty Logo"
+    }
+  ]
+}
+
+=== SOCIAL META TAGS ===
+{
+  "og:image": "https://cdn.sitephotos.sierrastatic.com/362_hero_top-banner-20240603042352.webp",
+  "og:image:width": "1900",
+  "og:image:height": "1200"
+}
+
+=== PAGE TECHNICAL DATA ===
+{
+  "totalDomElements": 2607,
+  "totalScripts": 52,
+  "totalStylesheets": 10,
+  "totalIframes": 5,
+  "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+  "charset": "utf-8",
+  "lang": "en",
+  "favicons": [
+    "https://www.mammothlakesproperties.com/favicon.ico"
+  ]
+}
+
+=== HREFLANG TAGS ===
+[]
+
+=== CANONICAL TAG ===
+https://www.mammothlakesproperties.com/
+
+=== HEADING STRUCTURE ===
+{
+  "h1": {
+    "count": 4,
+    "text": [
+      "Find Your Mammoth Lakes Home",
+      "IMAGINE",
+      "LIVING HERE",
+      "Welcome"
+    ]
+  },
+  "h2": {
+    "count": 12,
+    "text": [
+      "Explore Mammoth Lakes",
+      "Search Mammoth Lakes Communities",
+      "The Mammoth Lakes Market at a Glance",
+      "Recently from Our Blog",
+      "Featured Listings Outbound Mammoth Lakes"
+    ]
+  },
+  "h3": {
+    "count": 3,
+    "text": [
+      "Search Mammoth LakesProperties",
+      "Connect",
+      "Connect"
+    ]
+  },
+  "h4": {
+    "count": 0,
+    "text": []
+  },
+  "h5": {
+    "count": 0,
+    "text": []
+  },
+  "h6": {
+    "count": 0,
+    "text": []
+  }
+}

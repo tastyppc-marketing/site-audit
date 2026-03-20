@@ -1,0 +1,254 @@
+[
+  {
+    "sessionDefaultChannelGroup": "Direct",
+    "sessionSource": "(direct)",
+    "sessionMedium": "(none)",
+    "sessions": 11620,
+    "totalUsers": 8432,
+    "engagedSessions": 4029,
+    "conversions": 4
+  },
+  {
+    "sessionDefaultChannelGroup": "Paid Search",
+    "sessionSource": "google",
+    "sessionMedium": "cpc",
+    "sessions": 1746,
+    "totalUsers": 1658,
+    "engagedSessions": 863,
+    "conversions": 7
+  },
+  {
+    "sessionDefaultChannelGroup": "Organic Search",
+    "sessionSource": "google",
+    "sessionMedium": "organic",
+    "sessions": 665,
+    "totalUsers": 450,
+    "engagedSessions": 410,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Unassigned",
+    "sessionSource": "(not set)",
+    "sessionMedium": "(not set)",
+    "sessions": 616,
+    "totalUsers": 616,
+    "engagedSessions": 0,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Organic Search",
+    "sessionSource": "bing",
+    "sessionMedium": "organic",
+    "sessions": 42,
+    "totalUsers": 31,
+    "engagedSessions": 21,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Organic Search",
+    "sessionSource": "yahoo",
+    "sessionMedium": "organic",
+    "sessions": 32,
+    "totalUsers": 23,
+    "engagedSessions": 25,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Organic Search",
+    "sessionSource": "duckduckgo",
+    "sessionMedium": "organic",
+    "sessions": 16,
+    "totalUsers": 16,
+    "engagedSessions": 13,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Organic Social",
+    "sessionSource": "facebook.com",
+    "sessionMedium": "referral",
+    "sessions": 13,
+    "totalUsers": 13,
+    "engagedSessions": 13,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Referral",
+    "sessionSource": "cherieyoung.com",
+    "sessionMedium": "referral",
+    "sessions": 11,
+    "totalUsers": 9,
+    "engagedSessions": 9,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Cross-network",
+    "sessionSource": "(data not available)",
+    "sessionMedium": "(data not available)",
+    "sessions": 10,
+    "totalUsers": 10,
+    "engagedSessions": 9,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Organic Social",
+    "sessionSource": "m.facebook.com",
+    "sessionMedium": "referral",
+    "sessions": 10,
+    "totalUsers": 10,
+    "engagedSessions": 10,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Organic Social",
+    "sessionSource": "ig",
+    "sessionMedium": "social",
+    "sessions": 8,
+    "totalUsers": 8,
+    "engagedSessions": 3,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Referral",
+    "sessionSource": "business.mammothlakeschamber.org",
+    "sessionMedium": "referral",
+    "sessions": 5,
+    "totalUsers": 3,
+    "engagedSessions": 2,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Referral",
+    "sessionSource": "mail.google.com",
+    "sessionMedium": "referral",
+    "sessions": 5,
+    "totalUsers": 4,
+    "engagedSessions": 4,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Referral",
+    "sessionSource": "webmail1.earthlink.net",
+    "sessionMedium": "referral",
+    "sessions": 5,
+    "totalUsers": 1,
+    "engagedSessions": 4,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Unassigned",
+    "sessionSource": "chatgpt.com",
+    "sessionMedium": "(not set)",
+    "sessions": 4,
+    "totalUsers": 4,
+    "engagedSessions": 2,
+    "conversions": 1
+  },
+  {
+    "sessionDefaultChannelGroup": "Organic Search",
+    "sessionSource": "ecosia.org",
+    "sessionMedium": "organic",
+    "sessions": 3,
+    "totalUsers": 1,
+    "engagedSessions": 1,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Referral",
+    "sessionSource": "cdn.userway.org",
+    "sessionMedium": "referral",
+    "sessions": 3,
+    "totalUsers": 1,
+    "engagedSessions": 2,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Referral",
+    "sessionSource": "csd.followupboss.com",
+    "sessionMedium": "referral",
+    "sessions": 3,
+    "totalUsers": 2,
+    "engagedSessions": 3,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Referral",
+    "sessionSource": "ylopo.lightning.force.com",
+    "sessionMedium": "referral",
+    "sessions": 3,
+    "totalUsers": 3,
+    "engagedSessions": 2,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Organic Search",
+    "sessionSource": "ntp.msn.com",
+    "sessionMedium": "referral",
+    "sessions": 2,
+    "totalUsers": 2,
+    "engagedSessions": 2,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Organic Social",
+    "sessionSource": "l.facebook.com",
+    "sessionMedium": "referral",
+    "sessions": 2,
+    "totalUsers": 1,
+    "engagedSessions": 0,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Referral",
+    "sessionSource": "email.premieragent.com",
+    "sessionMedium": "referral",
+    "sessions": 2,
+    "totalUsers": 1,
+    "engagedSessions": 2,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Referral",
+    "sessionSource": "yelp-sales.lightning.force.com",
+    "sessionMedium": "referral",
+    "sessions": 2,
+    "totalUsers": 2,
+    "engagedSessions": 2,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Organic Social",
+    "sessionSource": "lm.facebook.com",
+    "sessionMedium": "referral",
+    "sessions": 1,
+    "totalUsers": 1,
+    "engagedSessions": 1,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Referral",
+    "sessionSource": "ready4rentals.com",
+    "sessionMedium": "referral",
+    "sessions": 1,
+    "totalUsers": 1,
+    "engagedSessions": 1,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Referral",
+    "sessionSource": "url.emailprotection.link",
+    "sessionMedium": "referral",
+    "sessions": 1,
+    "totalUsers": 1,
+    "engagedSessions": 1,
+    "conversions": 0
+  },
+  {
+    "sessionDefaultChannelGroup": "Referral",
+    "sessionSource": "ylopo-branded-site-b14i.squarespace.com",
+    "sessionMedium": "referral",
+    "sessions": 1,
+    "totalUsers": 1,
+    "engagedSessions": 0,
+    "conversions": 0
+  }
+]
