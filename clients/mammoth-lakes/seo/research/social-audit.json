@@ -1,0 +1,116 @@
+{
+  "profiles": {
+    "Facebook": {
+      "url": null,
+      "found": false,
+      "source": null,
+      "followers": null,
+      "last_post_date": null
+    },
+    "Instagram": {
+      "url": "https://www.instagram.com/mammothlakesproperties",
+      "found": true,
+      "source": "url_check",
+      "followers": null,
+      "last_post_date": null
+    },
+    "YouTube": {
+      "url": null,
+      "found": false,
+      "source": null,
+      "followers": null,
+      "last_post_date": null
+    },
+    "LinkedIn": {
+      "url": "https://www.linkedin.com/in/jamienashinmammoth",
+      "found": true,
+      "source": "website_scrape",
+      "followers": null,
+      "last_post_date": null
+    },
+    "X (Twitter)": {
+      "url": null,
+      "found": false,
+      "source": null,
+      "followers": null,
+      "last_post_date": null
+    },
+    "TikTok": {
+      "url": null,
+      "found": false,
+      "source": null,
+      "followers": null,
+      "last_post_date": null
+    },
+    "Pinterest": {
+      "url": "https://www.pinterest.com/mammothlakesproperties",
+      "found": true,
+      "source": "url_check",
+      "followers": null,
+      "last_post_date": null
+    }
+  },
+  "analysis": {
+    "overall_score": 35,
+    "platforms_found": [
+      "Instagram",
+      "LinkedIn",
+      "Pinterest"
+    ],
+    "platforms_missing": [
+      "Facebook",
+      "YouTube",
+      "X (Twitter)",
+      "TikTok"
+    ],
+    "recommendations": [
+      "Create profiles on: Facebook, YouTube. These are high-impact platforms for business visibility.",
+      "Consider also creating profiles on: X (Twitter), TikTok.",
+      "Add social media links to your website for: Instagram, Pinterest. This helps search engines associate your social profiles with your brand."
+    ],
+    "details": {
+      "Facebook": {
+        "found": false,
+        "url": null,
+        "weight": 20,
+        "source": null
+      },
+      "Instagram": {
+        "found": true,
+        "url": "https://www.instagram.com/mammothlakesproperties",
+        "weight": 15,
+        "source": "url_check"
+      },
+      "YouTube": {
+        "found": false,
+        "url": null,
+        "weight": 15,
+        "source": null
+      },
+      "LinkedIn": {
+        "found": true,
+        "url": "https://www.linkedin.com/in/jamienashinmammoth",
+        "weight": 15,
+        "source": "website_scrape"
+      },
+      "X (Twitter)": {
+        "found": false,
+        "url": null,
+        "weight": 10,
+        "source": null
+      },
+      "TikTok": {
+        "found": false,
+        "url": null,
+        "weight": 10,
+        "source": null
+      },
+      "Pinterest": {
+        "found": true,
+        "url": "https://www.pinterest.com/mammothlakesproperties",
+        "weight": 5,
+        "source": "url_check"
+      }
+    }
+  }
+}

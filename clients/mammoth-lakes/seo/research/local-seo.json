@@ -1,0 +1,184 @@
+{
+  "citation_opportunities": [
+    {
+      "directory": "Google Business Profile",
+      "url": "https://business.google.com",
+      "priority": "high",
+      "has_listing": null,
+      "notes": ""
+    },
+    {
+      "directory": "Bing Places",
+      "url": "https://www.bingplaces.com",
+      "priority": "high",
+      "has_listing": null,
+      "notes": ""
+    },
+    {
+      "directory": "Apple Maps Connect",
+      "url": "https://mapsconnect.apple.com",
+      "priority": "high",
+      "has_listing": null,
+      "notes": ""
+    },
+    {
+      "directory": "Yelp",
+      "url": "https://biz.yelp.com",
+      "priority": "high",
+      "has_listing": null,
+      "notes": ""
+    },
+    {
+      "directory": "BBB",
+      "url": "https://www.bbb.org",
+      "priority": "medium",
+      "has_listing": null,
+      "notes": ""
+    },
+    {
+      "directory": "Facebook Business",
+      "url": "https://www.facebook.com/business",
+      "priority": "high",
+      "has_listing": null,
+      "notes": ""
+    },
+    {
+      "directory": "Yellow Pages",
+      "url": "https://www.yellowpages.com",
+      "priority": "medium",
+      "has_listing": null,
+      "notes": ""
+    },
+    {
+      "directory": "Foursquare",
+      "url": "https://foursquare.com",
+      "priority": "low",
+      "has_listing": null,
+      "notes": ""
+    },
+    {
+      "directory": "Manta",
+      "url": "https://www.manta.com",
+      "priority": "low",
+      "has_listing": null,
+      "notes": ""
+    },
+    {
+      "directory": "Hotfrog",
+      "url": "https://www.hotfrog.com",
+      "priority": "low",
+      "has_listing": null,
+      "notes": ""
+    },
+    {
+      "directory": "Realtor.com",
+      "url": "https://www.realtor.com",
+      "priority": "high",
+      "has_listing": null,
+      "notes": "Industry-specific (real estate)"
+    },
+    {
+      "directory": "Zillow",
+      "url": "https://www.zillow.com",
+      "priority": "high",
+      "has_listing": null,
+      "notes": "Industry-specific (real estate)"
+    },
+    {
+      "directory": "Trulia",
+      "url": "https://www.trulia.com",
+      "priority": "high",
+      "has_listing": null,
+      "notes": "Industry-specific (real estate)"
+    },
+    {
+      "directory": "Homes.com",
+      "url": "https://www.homes.com",
+      "priority": "medium",
+      "has_listing": null,
+      "notes": "Industry-specific (real estate)"
+    },
+    {
+      "directory": "RealtyTrac",
+      "url": "https://www.realtytrac.com",
+      "priority": "medium",
+      "has_listing": null,
+      "notes": "Industry-specific (real estate)"
+    },
+    {
+      "directory": "Redfin",
+      "url": "https://www.redfin.com",
+      "priority": "medium",
+      "has_listing": null,
+      "notes": "Industry-specific (real estate)"
+    },
+    {
+      "directory": "RE/MAX (if applicable)",
+      "url": "https://www.remax.com",
+      "priority": "low",
+      "has_listing": null,
+      "notes": "Industry-specific (real estate)"
+    },
+    {
+      "directory": "Local MLS",
+      "url": "",
+      "priority": "high",
+      "has_listing": null,
+      "notes": "Industry-specific (real estate)"
+    },
+    {
+      "directory": "State RE Association",
+      "url": "",
+      "priority": "medium",
+      "has_listing": null,
+      "notes": "Industry-specific (real estate)"
+    },
+    {
+      "directory": "Chamber of Commerce",
+      "url": "",
+      "priority": "medium",
+      "has_listing": null,
+      "notes": "Industry-specific (real estate)"
+    },
+    {
+      "directory": "Nextdoor",
+      "url": "https://nextdoor.com",
+      "priority": "medium",
+      "has_listing": null,
+      "notes": "Industry-specific (real estate)"
+    },
+    {
+      "directory": "Local Chamber of Commerce (Mammoth Lakes, CA)",
+      "url": "",
+      "priority": "medium",
+      "has_listing": null,
+      "notes": "Search for the chamber of commerce in Mammoth Lakes, CA."
+    }
+  ],
+  "local_pack": [
+    {
+      "keyword": "mammoth lakes real estate",
+      "location": "Mammoth Lakes, CA",
+      "in_local_pack": true,
+      "position": null,
+      "competitors_in_pack": [],
+      "data_source": "dataforseo"
+    },
+    {
+      "keyword": "mammoth lakes homes for sale",
+      "location": "Mammoth Lakes, CA",
+      "in_local_pack": false,
+      "position": null,
+      "competitors_in_pack": [],
+      "data_source": "dataforseo"
+    },
+    {
+      "keyword": "mammoth lakes real estate agent",
+      "location": "Mammoth Lakes, CA",
+      "in_local_pack": true,
+      "position": null,
+      "competitors_in_pack": [],
+      "data_source": "dataforseo"
+    }
+  ]
+}

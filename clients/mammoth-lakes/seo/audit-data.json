@@ -32,7 +32,8 @@
     { "issue": "Broken/empty schema markup", "detail": "Organization schema has empty 'name' field. Article schema on blog/about has empty author, publisher.name, and contentLocation. About page uses Article type instead of AboutPage. Community and contact pages have NO schema at all.", "impact": "High", "effort": "Low" },
     { "issue": "93-94% of listing images missing alt text", "detail": "Property search results page: 476 images with 447 missing alt (94%). Full listing page: 1,425 images with 1,339 missing alt (94%). This is a massive accessibility and SEO failure.", "impact": "High", "effort": "Medium" },
     { "issue": "Wrong-city title tag on property search sitemap", "detail": "The /property-search/site-map/ page displays 'Louisville Area MLS Listings' as its title -- a platform default from the wrong city entirely.", "impact": "High", "effort": "Low" },
-    { "issue": "Missing from highest-value keywords", "detail": "Not ranking at all for 'mammoth lakes homes for sale' (1,600 mo/search), 'mammoth mountain homes for sale' (1,600), 'mammoth lakes condos for sale' (590), 'mammoth lakes vacation homes' (1,300), or 'june lake homes for sale' (590). Only 5 of 10 tracked keywords show any ranking.", "impact": "Critical", "effort": "High" }
+    { "issue": "Missing from highest-value keywords", "detail": "Not ranking at all for 'mammoth lakes homes for sale' (1,600 mo/search), 'mammoth mountain homes for sale' (1,600), 'mammoth lakes condos for sale' (590), 'mammoth lakes vacation homes' (1,300), or 'june lake homes for sale' (590). Only 5 of 10 tracked keywords show any ranking.", "impact": "Critical", "effort": "High" },
+    { "issue": "Near-zero brand presence outside own website", "detail": "Zero third-party mentions for Jamie Kelly. YouTube dominated by competitor Joseph Bogorad. Social score 35/100. Missing Facebook, YouTube, Yelp profiles. Only found on BBB and Zillow directories.", "impact": "High", "effort": "Medium" }
   ],
 
   "siteComparison": [
@@ -44,7 +45,7 @@
     { "metric": "Avg Position (when ranked)", "client": "11.2", "competitor": "9.2 (RE/MAX)", "gap": "Page 2 vs Page 1" },
     { "metric": "Schema Markup Quality", "client": "Empty name/author fields", "competitor": "Full RealEstateAgent (Resort Realty)", "gap": "Broken vs. complete" },
     { "metric": "H1 Tags (Homepage)", "client": "4 (broken)", "competitor": "1 (correct)", "gap": "Non-standard heading structure" },
-    { "metric": "Sitemap URLs", "client": "2,984 (mostly thin)", "competitor": "~200-400 (focused content)", "gap": "Bloated with thin pages" },
+    { "metric": "Sitemap URLs", "client": "2,984 (only 79 unique content — 2,523 auto-generated)", "competitor": "~200-400 (focused content)", "gap": "Bloated with thin pages; 97% are auto-generated filter pages" },
     { "metric": "Homepage Scripts", "client": "52", "competitor": "23 (Resort Realty)", "gap": "2.3x more scripts" }
   ],
 
@@ -53,8 +54,11 @@
     { "value": "30 / 100", "label": "mobile PageSpeed score (RE/MAX: 79)", "severity": "red" },
     { "value": "15.8s", "label": "mobile LCP (should be under 2.5s)", "severity": "red" },
     { "value": "0.80", "label": "CLS score (should be under 0.1)", "severity": "red" },
-    { "value": "2,984", "label": "sitemap URLs (only ~70 unique content pages)", "severity": "orange" },
-    { "value": "94%", "label": "of listing images missing alt text", "severity": "red" },
+    { "value": "2,984", "label": "sitemap URLs — only 79 have unique content (2,523 auto-generated)", "severity": "orange" },
+    { "value": "99%", "label": "of pages (2,580) missing Open Graph tags — social sharing broken site-wide", "severity": "red" },
+    { "value": "82%", "label": "of pages (2,135) have images missing alt text", "severity": "red" },
+    { "value": "59%", "label": "of pages (1,525) have titles too long — Google will truncate", "severity": "orange" },
+    { "value": "58%", "label": "of pages (1,518) have no schema markup at all", "severity": "red" },
     { "value": "4 H1s", "label": "on homepage (should be exactly 1)", "severity": "orange" },
     { "value": "665", "label": "organic Google sessions (vs. 11,620 direct)", "severity": "orange" },
     { "value": "1 click", "label": "total from Google Search Console in tracking period", "severity": "red" },
@@ -395,5 +399,117 @@
     { "title": "Video & Media", "items": ["Monthly video market updates", "Virtual property tours", "Neighborhood walkthrough videos", "Agent introduction/expertise video", "YouTube channel for Mammoth Lakes real estate"] },
     { "title": "Lead Generation", "items": ["Email newsletter with market updates", "Gated market report PDFs", "Property alert sign-ups on every page", "Chat widget for instant engagement", "Retargeting pixel for paid campaigns"] },
     { "title": "Local & AI SEO", "items": ["Google Business Profile optimization", "Local directory citations (Chamber of Commerce, Yelp)", "Structured data for AI/LLM citations", "ChatGPT/Perplexity optimization", "Review generation strategy"] }
-  ]
+  ],
+
+  "brandPresence": {
+    "overallScore": 35,
+    "socialProfiles": [
+      { "platform": "Instagram", "found": true, "url": "https://www.instagram.com/mammothlakesproperties" },
+      { "platform": "LinkedIn", "found": true, "url": "https://www.linkedin.com/in/jamienashinmammoth" },
+      { "platform": "Pinterest", "found": true, "url": "https://www.pinterest.com/mammothlakesproperties" },
+      { "platform": "Facebook", "found": false, "url": null },
+      { "platform": "YouTube", "found": false, "url": null },
+      { "platform": "X (Twitter)", "found": false, "url": null },
+      { "platform": "TikTok", "found": false, "url": null }
+    ],
+    "recommendations": [
+      "Create profiles on: Facebook, YouTube. These are high-impact platforms for business visibility.",
+      "Consider also creating profiles on: X (Twitter), TikTok.",
+      "Add social media links to your website for: Instagram, Pinterest. This helps search engines associate your social profiles with your brand."
+    ],
+    "webMentions": 13,
+    "redditMentions": 32,
+    "youtubeMentions": 10,
+    "directoryListings": [
+      { "directory": "BBB", "found": true, "url": "https://www.bbb.org/search?find_text=Mammoth+Lakes+Properties&find_loc=Mammoth+Lakes%2C+CA" },
+      { "directory": "Zillow", "found": true, "url": "https://www.zillow.com/professionals/real-estate-agent-reviews/?name=Mammoth+Lakes+Properties&location=Mammoth+Lakes%2C+CA" },
+      { "directory": "Yelp", "found": false, "url": null },
+      { "directory": "Realtor.com", "found": false, "url": null },
+      { "directory": "Facebook", "found": false, "url": null }
+    ],
+    "jamieKellyMentions": 0,
+    "keyFindings": [
+      "Zero third-party web mentions for Jamie Kelly personally",
+      "YouTube dominated by competitor Joseph Bogorad (6 of 10 top results) -- no client videos exist",
+      "Social presence score: 35/100 -- missing Facebook, YouTube, X (Twitter), and TikTok",
+      "Found on BBB and Zillow but missing from Yelp, Realtor.com, and Facebook",
+      "Only 3 of 7 major social platforms have profiles (Instagram, LinkedIn, Pinterest)",
+      "No Reddit mentions of Jamie Kelly or Mammoth Lakes Properties specifically -- only general Mammoth Lakes real estate discussion",
+      "Web mentions are mostly ads and competitor references; only experience.com and sur.ly reference the brand directly",
+      "Competitor Gillian Parrish and Joseph Bogorad have active YouTube presence; client has none"
+    ]
+  },
+
+  "technicalAudit": {
+    "totalSitemapUrls": 2984,
+    "pagesAnalyzed": 2602,
+    "idxFilterPages": 382,
+    "estimatedUniqueContentPages": 79,
+    "autoGeneratedPages": 2523,
+    "issuesSummary": {
+      "NO_OG_TAGS": 2580,
+      "MISSING_ALT_TEXT": 2135,
+      "TITLE_TOO_LONG": 1525,
+      "NO_SCHEMA": 1518,
+      "NO_CANONICAL": 180,
+      "MISSING_META_DESCRIPTION": 178,
+      "THIN_CONTENT": 178,
+      "NO_CONTEXTUAL_INTERNAL_LINKS": 178,
+      "MISSING_H1": 128,
+      "META_DESCRIPTION_TOO_LONG": 15,
+      "TITLE_TOO_SHORT": 10,
+      "MULTIPLE_H1": 6,
+      "CRAWL_ERROR": 1
+    },
+    "contentBreakdown": [
+      { "category": "Area search pages (auto-generated)", "count": 2523, "note": "Thin IDX pages like /mammoth-lakes-homes-for-sale/ with bedroom/price filter variants" },
+      { "category": "Blog posts", "count": 20, "note": "Mix of market updates and generic RE content" },
+      { "category": "Community/area info", "count": 35, "note": "Individual area pages like /mammoth-lakes/, /june-lake/, /crowley-lake/" },
+      { "category": "Buyer resources", "count": 8, "note": "/buyers/ section with guides" },
+      { "category": "Seller resources", "count": 6, "note": "/sellers/ section with guides" },
+      { "category": "Core pages", "count": 10, "note": "Homepage, about, contact, agents, etc." }
+    ],
+    "criticalFindings": [
+      "99% of pages (2,580) have no Open Graph tags — social sharing is broken site-wide",
+      "82% of pages (2,135) have images missing alt text — massive accessibility and SEO failure",
+      "59% of pages (1,525) have titles exceeding 60 characters — Google will truncate them",
+      "58% of pages (1,518) have no schema markup at all",
+      "2,523 auto-generated area search pages are diluting crawl budget — only ~79 pages have real unique content",
+      "178 pages have zero contextual internal links — content islands invisible to crawlers",
+      "128 pages have no H1 tag at all"
+    ]
+  },
+
+  "localSEO": {
+    "citationOpportunities": 22,
+    "citationsByPriority": {
+      "high": 9,
+      "medium": 9,
+      "low": 4
+    },
+    "topCitations": [
+      { "name": "Google Business Profile", "url": "https://business.google.com", "priority": "high" },
+      { "name": "Bing Places", "url": "https://www.bingplaces.com", "priority": "high" },
+      { "name": "Apple Maps Connect", "url": "https://mapsconnect.apple.com", "priority": "high" },
+      { "name": "Yelp", "url": "https://biz.yelp.com", "priority": "high" },
+      { "name": "Facebook Business", "url": "https://www.facebook.com/business", "priority": "high" },
+      { "name": "Realtor.com", "url": "https://www.realtor.com", "priority": "high" },
+      { "name": "Zillow", "url": "https://www.zillow.com", "priority": "high" },
+      { "name": "Trulia", "url": "https://www.trulia.com", "priority": "high" },
+      { "name": "Local MLS", "url": "", "priority": "high" }
+    ],
+    "localPackResults": [
+      { "keyword": "mammoth lakes real estate", "location": "Mammoth Lakes, CA", "inLocalPack": true, "position": null, "competitors": [], "dataSource": "dataforseo" },
+      { "keyword": "mammoth lakes homes for sale", "location": "Mammoth Lakes, CA", "inLocalPack": false, "position": null, "competitors": [], "dataSource": "dataforseo" },
+      { "keyword": "mammoth lakes real estate agent", "location": "Mammoth Lakes, CA", "inLocalPack": true, "position": null, "competitors": [], "dataSource": "dataforseo" }
+    ],
+    "keyFindings": [
+      "22 citation opportunities identified, 9 high-priority",
+      "Local pack exists for 'mammoth lakes real estate' and 'mammoth lakes real estate agent' but client presence unconfirmed",
+      "No local pack triggered for 'mammoth lakes homes for sale' (1,600/mo) -- organic-only SERP dominated by Zillow",
+      "9 industry-specific real estate directories identified (Realtor.com, Zillow, Trulia, Homes.com, RealtyTrac, Redfin, RE/MAX, Local MLS, State RE Association)",
+      "Local Chamber of Commerce listing is a medium-priority citation opportunity that also drives referral traffic (5 sessions already recorded)",
+      "Google Business Profile is the single most important citation to claim/optimize for local pack visibility"
+    ]
+  }
 }
