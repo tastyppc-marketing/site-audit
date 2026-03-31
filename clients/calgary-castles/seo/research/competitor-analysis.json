@@ -1,0 +1,229 @@
+{
+  "competitors": [
+    {
+      "domain": "justinhavre.com",
+      "name": "Justin Havre & Associates",
+      "brokerage": "eXp Realty",
+      "pageEstimate": 2500,
+      "contentStrategy": "High-authority content targeting relocation (Toronto to Calgary), lifestyle (Luxury, Golf), and detailed guides (New Construction, First-Time Buyer). Extremely active blog with 2026-specific updates.",
+      "strengths": [
+        "Dominant organic rankings for primary keywords",
+        "2,600+ Google reviews with 4.9 rating",
+        "Massive domain authority and backlink profile"
+      ],
+      "weaknesses": [
+        "High lead volume may result in less personalized service",
+        "Site complexity can be overwhelming for some users"
+      ],
+      "schemaTypes": [
+        "LocalBusiness",
+        "FAQ",
+        "AggregateRating",
+        "RealEstateListing",
+        "Person",
+        "BreadcrumbList"
+      ],
+      "metaQuality": "Excellent - Keyword-rich and includes strong social proof (e.g., '11,000+ Families Served')",
+      "blogPresence": true,
+      "leadCapture": "Social Login (FB/Google), Guaranteed Sold Program, 'Get a Cash Offer' multi-step form, and Havre Concierge service.",
+      "techStack": "Real Estate Webmasters (REW) - Renaissance Framework",
+      "uniqueAdvantages": [
+        "Endorsed by Barbara Corcoran (Shark Tank)",
+        "Proprietary 'Guaranteed Sold' and 'Cash Offer' programs"
+      ],
+      "reviewInfo": "2,600+ Google Reviews displayed via interactive widgets and schema.",
+      "socialMedia": "Facebook (20k+ followers), Instagram (active), YouTube (video tours)",
+      "betterThanClient": [
+        "Leverages 2,600+ reviews vs client's limited social proof",
+        "Advanced 'Cash Offer' lead magnet",
+        "Highly optimized neighborhood 'silos' for every quadrant."
+      ]
+    },
+    {
+      "domain": "karenfawcett.ca",
+      "name": "Karen Fawcett",
+      "brokerage": "RE/MAX Realty Professionals",
+      "pageEstimate": 450,
+      "contentStrategy": "Focuses on high-end luxury market and seniors' transitions. Uses neighborhood landing pages to capture localized search traffic.",
+      "strengths": [
+        "Top 1% national ranking authority",
+        "Strong focus on luxury and high-net-worth niches",
+        "Clean, professional branding"
+      ],
+      "weaknesses": [
+        "Surprisingly low Google review visibility (0 visible)",
+        "Less frequent blog updates compared to Havre"
+      ],
+      "schemaTypes": [
+        "Person",
+        "LocalBusiness",
+        "BreadcrumbList"
+      ],
+      "metaQuality": "Good - Targets 'Calgary Real Estate' and 'Luxury Homes' effectively.",
+      "blogPresence": true,
+      "leadCapture": "Free Home Evaluation form, Search Save registration.",
+      "techStack": "Real Estate Webmasters (REW)",
+      "uniqueAdvantages": [
+        "30+ years experience positioned as 'Top 1% in Canada'",
+        "Expertise in Seniors Real Estate (SRES)"
+      ],
+      "reviewInfo": "Verified client testimonials on site, but missing Google review snippets.",
+      "socialMedia": "Facebook, LinkedIn",
+      "betterThanClient": [
+        "Superior luxury market positioning",
+        "Better integration of professional credentials into site copy."
+      ]
+    },
+    {
+      "domain": "reevesrealty.ca",
+      "name": "Erin Reeves & Associates",
+      "brokerage": "eXp Realty",
+      "pageEstimate": 600,
+      "contentStrategy": "Data-driven approach using monthly market updates (e.g., 'Calgary Market Update - February 2026') and neighborhood-specific 'Coming Soon' posts.",
+      "strengths": [
+        "180+ 5-star Google reviews",
+        "Consistent monthly market video content",
+        "Strong focus on SE Calgary and Mahogany communities"
+      ],
+      "weaknesses": [
+        "Heavy reliance on standard REW templates",
+        "Blog is largely automated market reports"
+      ],
+      "schemaTypes": [
+        "LocalBusiness",
+        "RealEstateListing",
+        "AggregateRating",
+        "VideoObject"
+      ],
+      "metaQuality": "Very Good - High focus on 'Homes for Sale' in specific high-growth areas like Mahogany.",
+      "blogPresence": true,
+      "leadCapture": "Home Valuation Tool, 'Coming Soon' waitlists, and RealScout integration for property alerts.",
+      "techStack": "Real Estate Webmasters (REW) + RealScout + Follow-Up Boss",
+      "uniqueAdvantages": [
+        "'Proven Home Selling Process' framework",
+        "High video engagement for neighborhood tours"
+      ],
+      "reviewInfo": "180+ 5-star Google reviews highlighted in footer and sidebar.",
+      "socialMedia": "Instagram (Active Reels), Facebook, YouTube",
+      "betterThanClient": [
+        "Aggressive use of 'Coming Soon' content to capture early buyer leads",
+        "More robust review aggregation schema."
+      ]
+    },
+    {
+      "domain": "calgaryhousefinder.ca",
+      "name": "Greg Kennedy & Associates",
+      "brokerage": "eXp Realty",
+      "pageEstimate": 1200,
+      "contentStrategy": "Property-first blog strategy (e.g., 'Welcome to 137 Sage Meadows Gardens NW!') providing fresh content for every new listing to aid indexing.",
+      "strengths": [
+        "Keyword-rich domain name",
+        "Extensive neighborhood silos (NW Calgary focus)",
+        "High organic visibility for 'Calgary MLS' terms"
+      ],
+      "weaknesses": [
+        "Blog is very repetitive (Address-based titles)",
+        "Less emphasis on 'Agent Brand' vs 'Search Brand'"
+      ],
+      "schemaTypes": [
+        "LocalBusiness",
+        "RealEstateListing",
+        "BreadcrumbList"
+      ],
+      "metaQuality": "Good - Uses location-first titles like 'Calgary Real Estate & Homes for Sale | CalgaryHouseFinder.ca'",
+      "blogPresence": true,
+      "leadCapture": "Forced IDX registration, 'What's My Home Worth' valuation magnet.",
+      "techStack": "Real Estate Webmasters (REW) - Sierra Interactive style layout",
+      "uniqueAdvantages": [
+        "Dominant organic presence for NW Calgary communities",
+        "Multi-language support (Chinese, French, Korean)"
+      ],
+      "reviewInfo": "22+ Google reviews with 5.0 rating.",
+      "socialMedia": "Facebook, Instagram",
+      "betterThanClient": [
+        "Superior URL structure for community pages (e.g., /calgary-nw/tuscany/)",
+        "Better keyword optimization for long-tail community terms."
+      ]
+    },
+    {
+      "domain": "kirbycox.com",
+      "name": "Kirby Cox & Associates",
+      "brokerage": "Royal LePage Benchmark",
+      "pageEstimate": 800,
+      "contentStrategy": "Team-centric branding emphasizing 35+ years of experience and NW Calgary market dominance.",
+      "strengths": [
+        "#1 Royal LePage Team in Calgary recognition",
+        "High authority backlink from Royal LePage corporate",
+        "Strong local NW community presence"
+      ],
+      "weaknesses": [
+        "Blog content is less frequent than top competitors",
+        "Technical SEO (Schema) is standard and not 'advanced'"
+      ],
+      "schemaTypes": [
+        "Person",
+        "LocalBusiness",
+        "Organization"
+      ],
+      "metaQuality": "Solid - Focuses on 'NW Calgary Homes' and 'Kirby Cox' brand authority.",
+      "blogPresence": true,
+      "leadCapture": "Contact forms, Free Evaluation, and direct 'Call Kirby' CTAs.",
+      "techStack": "Real Estate Webmasters (REW)",
+      "uniqueAdvantages": [
+        "Deep NW Calgary expertise (Varsity, Evanston, Edgemont)",
+        "Legacy branding with 35+ years experience"
+      ],
+      "reviewInfo": "Strong testimonials; listed as #1 Team for multiple years.",
+      "socialMedia": "Facebook, LinkedIn",
+      "betterThanClient": [
+        "Successfully leverages long-term experience into a 'Team Authority' brand better than Neil's solo profile."
+      ]
+    },
+    {
+      "domain": "jdrealestatecalgary.ca",
+      "name": "Jordan Lotoski",
+      "brokerage": "Real Broker / Independent",
+      "pageEstimate": 550,
+      "contentStrategy": "Advanced long-tail SEO blog strategy. Targets 'Investment Property Calgary 2026', 'Best Schools in Calgary', and 'Cost of Living 2026'.",
+      "strengths": [
+        "High-quality, long-form educational content",
+        "Targets high-intent investment and relocation keywords",
+        "Modern, high-conversion design"
+      ],
+      "weaknesses": [
+        "Lower total page count than massive sites like justinhavre.com"
+      ],
+      "schemaTypes": [
+        "LocalBusiness",
+        "FAQ",
+        "Article"
+      ],
+      "metaQuality": "Excellent - Descriptions are customized for each blog post to maximize CTR.",
+      "blogPresence": true,
+      "leadCapture": "Investment ROI analysis requests, School Guide downloads, and Contact forms.",
+      "techStack": "Real Estate Webmasters (REW)",
+      "uniqueAdvantages": [
+        "Positioned as an 'Investment Expert' rather than just an agent",
+        "Deep dive content on pre-construction and development"
+      ],
+      "reviewInfo": "Strong client testimonials and high industry respect.",
+      "socialMedia": "Instagram (Very active), Facebook",
+      "betterThanClient": [
+        "Neil's banking background could be used to mirror this 'Investment/Finance Expert' strategy, which JD executes perfectly."
+      ]
+    }
+  ],
+  "crossCompetitorInsights": [
+    "Platform Dominance: 100% of top competitors analyzed use Real Estate Webmasters (REW), indicating that professional IDX performance and 'Community Silo' architecture are non-negotiable for Calgary SEO.",
+    "Content Shift: Competitors are moving away from general market updates toward high-intent 'Relocation Guides' (Toronto/Ontario to Calgary) and 'Cost of Living 2026' topics to capture out-of-province buyers.",
+    "Lead Magnet Evolution: Beyond standard 'Home Evaluations,' leaders like Justin Havre are offering 'Guaranteed Cash Offers' and 'Concierge' services to secure listings in a competitive inventory market.",
+    "Local Siloing: Every competitor uses a hierarchical URL structure for quadrants (NW, SW, etc.) and communities, which is missing or under-optimized on the client's current SIS platform."
+  ],
+  "recommendationsForClient": [
+    "Leverage Banking Background: Neil should create an 'Investment ROI' blog series similar to jdrealestatecalgary.ca to utilize his 10-year banking experience\u2014a unique USP none of the other agents fully exploit.",
+    "Implement Community Silos: Move beyond the limited Mirror/SIS structure to create dedicated, SEO-optimized landing pages for Calgary NW and specific target communities with custom copy and localized market stats.",
+    "Schema Markup Overhaul: Implement LocalBusiness, FAQ (for 'Selling your home'), and Person schema (to highlight 20+ years experience) to improve SERP real estate and CTR.",
+    "Aggressive Review Acquisition: Neil needs a systematic campaign to increase Google Reviews to compete with Havre (2600+) and Reeves (180+); even 50-75 reviews would place him ahead of Karen Fawcett digitally.",
+    "Relocation Content: Target the 'Ontario/BC to Calgary' migration trend with a 'Moving to Calgary Guide 2026' to capture top-of-funnel leads before they reach the MLS search stage."
+  ]
+}

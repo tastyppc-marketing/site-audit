@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Content Quality &amp; Readability | TastyPPC SEO Audit</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+
+  <link rel="stylesheet" href="shared/report-styles.css">
+  <link rel="stylesheet" href="shared/multipage-nav.css">
+
+  <script id="audit-data-inject">
+    window.AUDIT_DATA = /* __AUDIT_DATA_PLACEHOLDER__ */null;
+    window.SEARCH_INDEX = /* __SEARCH_INDEX_PLACEHOLDER__ */[];
+  </script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: {
+              900: '#0b1629',
+              800: '#111d35',
+              700: '#172644',
+              600: '#1e3a5f'
+            }
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="multipage font-sans antialiased text-slate-800">
+  <nav id="top-nav" aria-label="Primary"></nav>
+  <div id="mobile-drawer" aria-hidden="true"></div>
+
+  <div class="flex pt-16">
+    <aside id="side-nav" aria-label="On-page"></aside>
+
+    <main id="page-content" class="flex-1 min-h-screen">
+      <section id="section-overview" class="report-section">
+        <h2 class="section-heading">
+          <span class="section-number">01</span>
+          <span>Content Overview</span>
+        </h2>
+        <p class="section-sub">High-level content quality metrics pulled from the new sitewide content analysis.</p>
+        <div id="section-overview-content"></div>
+      </section>
+
+      <section id="section-readability" class="report-section">
+        <h2 class="section-heading">
+          <span class="section-number">02</span>
+          <span>Readability Analysis</span>
+        </h2>
+        <p class="section-sub">Per-page readability scores, Flesch Reading Ease, and word-count coverage.</p>
+        <div id="section-readability-content"></div>
+      </section>
+
+      <section id="section-thin" class="report-section">
+        <h2 class="section-heading">
+          <span class="section-number">03</span>
+          <span>Thin Content</span>
+        </h2>
+        <p class="section-sub">Pages flagged as too short to compete effectively or support strong topical coverage.</p>
+        <div id="section-thin-content"></div>
+      </section>
+
+      <section id="section-duplicates" class="report-section">
+        <h2 class="section-heading">
+          <span class="section-number">04</span>
+          <span>Duplicate Content</span>
+        </h2>
+        <p class="section-sub">Near-duplicate page groups that may dilute ranking signals or require consolidation.</p>
+        <div id="section-duplicates-content"></div>
+      </section>
+
+      <section id="section-cannibalization" class="report-section">
+        <h2 class="section-heading">
+          <span class="section-number">05</span>
+          <span>Keyword Cannibalization</span>
+        </h2>
+        <p class="section-sub">Keywords with multiple site pages competing for the same search demand.</p>
+        <div id="section-cannibalization-content"></div>
+      </section>
+
+      <section id="section-structure" class="report-section">
+        <h2 class="section-heading">
+          <span class="section-number">06</span>
+          <span>Content Structure Audit</span>
+        </h2>
+        <p class="section-sub">Heading usage, image coverage, alt-text adoption, and internal-link distribution by page.</p>
+        <div id="section-structure-content"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="shared/utils.js"></script>
+  <script src="shared/data-loader.js"></script>
+  <script src="shared/charts.js"></script>
+  <script src="shared/nav.js"></script>
+  <script src="shared/search.js"></script>
+  <script src="shared/print.js"></script>
+  <script src="pages/content.js"></script>
+</body>
+</html>

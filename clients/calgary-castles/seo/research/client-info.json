@@ -1,0 +1,51 @@
+{
+  "client": {
+    "name": "Neil Rowlandson",
+    "company": "Calgary Castles Team",
+    "brokerage": "CIR Realty",
+    "website": "sellingcalgarycastles.com",
+    "websiteUrl": "https://sellingcalgarycastles.com",
+    "phone": "403-271-0600",
+    "email": "calgarycastles@live.com",
+    "address": "#130, 703 - 64th Avenue SE, Calgary, AB T2H 2C3",
+    "location": "Calgary, Alberta, Canada",
+    "serviceType": "Full Service (Buy/Sell/Residential)",
+    "experience": "20+ years real estate, 10 years banking",
+    "platform": "Mirror Real Estate / SIS (Bootstrap-based)"
+  },
+  "competitors": [
+    {"name": "Justin Havre Real Estate Team", "domain": "justinhavre.com", "brokerage": "eXp Realty", "notes": "Owns calgaryhomes.ca + calgary.com. Dominant online presence."},
+    {"name": "Karen Fawcett", "domain": "karenfawcett.ca", "brokerage": "RE/MAX", "notes": "Top 1% RE/MAX nationally. Top 100 Western Canada."},
+    {"name": "Reeves & Associates", "domain": "reevesrealty.ca", "brokerage": "eXp Realty", "notes": "180+ 5-star Google reviews. $500M+ sales. 19 years."},
+    {"name": "Calgary House Finder", "domain": "calgaryhousefinder.ca", "brokerage": "Various", "notes": "Keyword-rich domain. Strong organic rankings."},
+    {"name": "Kirby Cox", "domain": "kirbycox.com", "brokerage": "RE/MAX", "notes": "First page for Calgary homes for sale."},
+    {"name": "JD Real Estate Calgary", "domain": "jdrealestatecalgary.ca", "brokerage": "Unknown", "notes": "Content-rich blog targeting top agents queries."}
+  ],
+  "targetKeywords": [
+    "Calgary homes for sale",
+    "Calgary real estate",
+    "Calgary real estate agent",
+    "homes for sale Calgary AB",
+    "Calgary condos for sale",
+    "Calgary houses for sale",
+    "luxury homes Calgary",
+    "Calgary real estate market",
+    "buy home Calgary",
+    "sell home Calgary",
+    "Calgary MLS listings",
+    "Calgary property for sale",
+    "Calgary townhouses for sale",
+    "new homes Calgary",
+    "Calgary real estate market report",
+    "best neighborhoods Calgary",
+    "Calgary investment property",
+    "Cochrane homes for sale",
+    "Chestermere real estate",
+    "Lakeview Calgary homes",
+    "Calgary luxury real estate agent",
+    "Calgary first time home buyer",
+    "Calgary home prices 2026",
+    "Calgary real estate forecast",
+    "sell my house Calgary fast"
+  ]
+}

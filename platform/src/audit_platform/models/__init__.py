@@ -1,3 +1,18 @@
+from audit_platform.models.content import (
+    CannibalizationRecord,
+    ContentQualityRecord,
+    ContentStructure,
+    DuplicateGroup,
+    KeywordUsage,
+    ReadabilityMetrics,
+)
+from audit_platform.models.linking import (
+    HubSpokeCluster,
+    LinkDepthResult,
+    LinkGraphNode,
+    LinkGraphResult,
+    OrphanPage,
+)
 from audit_platform.models.local import BusinessProfileRecord, LocalPerformanceRecord
 from audit_platform.models.performance import (
     CoreWebVitals,
@@ -23,14 +38,25 @@ __all__ = [
     "BacklinkRecord",
     "BusinessProfileRecord",
     "CampaignRecord",
+    "CannibalizationRecord",
+    "ContentQualityRecord",
+    "ContentStructure",
     "CoreWebVitals",
     "CrUXRecord",
     "DomainMetrics",
+    "DuplicateGroup",
+    "HubSpokeCluster",
     "KeywordPPCRecord",
     "KeywordRecord",
+    "KeywordUsage",
+    "LinkDepthResult",
+    "LinkGraphNode",
+    "LinkGraphResult",
     "LocalPerformanceRecord",
+    "OrphanPage",
     "OrganicKeywordRecord",
     "PageAuditRecord",
     "PageSpeedRecord",
+    "ReadabilityMetrics",
     "SearchTermRecord",
 ]

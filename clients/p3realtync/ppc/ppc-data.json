@@ -1,0 +1,196 @@
+{
+  "client": {
+    "name": "Lisa Johnson",
+    "company": "P3RealtyNC",
+    "website": "p3realtync.com",
+    "websiteUrl": "https://www.p3realtync.com",
+    "accountId": "244-847-6843",
+    "campaignName": "DS Cities #2 + DS Property Features #2 (DSA)",
+    "monthlyBudget": "$1,000 (stated)",
+    "dailyBudget": "$33 stated / $119 actual",
+    "biddingStrategy": "Maximize Clicks",
+    "geoTargeting": "Presence & Interest",
+    "conversionType": "IDX Forced Registration + Phone Calls",
+    "targetCpl": "$30-$75 (NC benchmark)",
+    "dateRange": "March 12-25, 2026 (14 days)",
+    "totalSpend": "$1,665.54",
+    "auditDate": "March 26, 2026",
+    "location": "Southeastern NC (Wilmington coastal area)",
+    "overallGrade": "D+",
+    "gradeSummary": "Severe over-segmentation, duplicate campaigns, 42% out-of-state spend, and only 9% of budget reaching actual service area"
+  },
+
+  "campaignHealth": [
+    { "metric": "Total Spend (14 days)", "value": "$1,665.54", "benchmark": "$500 (at $1K/mo)", "status": "red" },
+    { "metric": "Monthly Pace", "value": "$3,570/mo", "benchmark": "$1,000/mo budget", "status": "red" },
+    { "metric": "Total Clicks", "value": "2,024", "benchmark": "N/A", "status": "neutral" },
+    { "metric": "Average CTR", "value": "9.70%", "benchmark": "3-5% (RE avg)", "status": "orange" },
+    { "metric": "Average CPC", "value": "$0.82", "benchmark": "$1.50-$3.00", "status": "orange" },
+    { "metric": "Conversions (Registrations)", "value": "30", "benchmark": "N/A", "status": "neutral" },
+    { "metric": "Cost per Registration", "value": "$55.52", "benchmark": "$30-$75", "status": "orange" },
+    { "metric": "In-Service-Area Spend", "value": "9.1%", "benchmark": ">80%", "status": "red" }
+  ],
+
+  "topIssues": [
+    { "issue": "Budget 3.6x over target", "detail": "Spending $119/day vs $33/day stated — $3,570/mo pace against $1,000/mo target", "impact": "Critical", "effort": "Low" },
+    { "issue": "Only 9.1% of spend reaches service area", "detail": "42.2% goes out-of-state, 90.9% is outside SE NC coastal territory. Presence & Interest geo leaks budget nationwide", "impact": "Critical", "effort": "Low" },
+    { "issue": "221 ad groups on $1K/mo budget", "detail": "Severe over-segmentation: 55% of ad groups (121) are dead. Should be 20-30 max. Duplicate campaigns bid against themselves", "impact": "Critical", "effort": "Medium" },
+    { "issue": "33.9% of search spend on irrelevant terms", "detail": "770 irrelevant search terms consumed $93.76 with 0 conversions — out-of-area cities, rentals, wrong states", "impact": "High", "effort": "Low" },
+    { "issue": "Maximize Clicks attracts low-quality traffic", "detail": "High CTR (9.70%) + low CPC ($0.82) = Google finding cheapest clicks, not best leads. 0 closed deals confirms this", "impact": "High", "effort": "Low" }
+  ],
+
+  "theProblem": {
+    "totalSpend": "$1,665",
+    "registrations": 30,
+    "closedDeals": 0,
+    "costPerDeal": "N/A (0 deals)",
+    "registrationToCloseRate": "0%",
+    "industryAvgRate": "2-5%",
+    "explanation": "The campaign is 2 weeks old with DSA + Maximize Clicks + Presence & Interest geo — a combination that optimizes for cheap clicks from anywhere. 42% of spend goes out-of-state, 91% goes outside the service area. The 30 'conversions' are IDX forced registrations, not qualified leads. Budget is pacing at 3.6x the stated target."
+  },
+
+  "budgetBreakdown": [
+    { "adGroup": "DS Cities", "spend": 88.88, "pctOfBudget": "15.0%", "conversions": 1, "costPerConv": 88.88, "status": "Underperforming" },
+    { "adGroup": "DS Cities #2 (duplicate)", "spend": 70.73, "pctOfBudget": "11.9%", "conversions": 1, "costPerConv": 70.73, "status": "Duplicate — Pause" },
+    { "adGroup": "DS Property Features", "spend": 61.95, "pctOfBudget": "10.4%", "conversions": 3, "costPerConv": 20.65, "status": "Top Performer" },
+    { "adGroup": "DS Property Features #2", "spend": 55.10, "pctOfBudget": "9.3%", "conversions": 0, "costPerConv": 0.00, "status": "Duplicate — Pause" },
+    { "adGroup": "Unattributed/Other", "spend": 1388.88, "pctOfBudget": "53.4%", "conversions": 25, "costPerConv": 55.56, "status": "Needs Investigation" }
+  ],
+
+  "budgetWaste": {
+    "totalWasted": "$665-$815/mo",
+    "percentWasted": "52-64%",
+    "topWastedQueries": [
+      { "query": "homes with land for sale in north carolina", "cost": 4.22, "clicks": 2, "conversions": 0, "reason": "Too broad — no specific area" },
+      { "query": "homes for sale in smithfield nc", "cost": 2.46, "clicks": 2, "conversions": 0, "reason": "Johnston County — verify if in service area" },
+      { "query": "equine properties for sale near me", "cost": 2.24, "clicks": 2, "conversions": 0, "reason": "No location qualifier" },
+      { "query": "land for sale four oaks nc", "cost": 2.19, "clicks": 2, "conversions": 0, "reason": "Four Oaks area" },
+      { "query": "for sale by owner whispering pines nc", "cost": 2.12, "clicks": 1, "conversions": 0, "reason": "FSBO — may not want agent" },
+      { "query": "55 plus homes for sale cary nc", "cost": 2.09, "clicks": 1, "conversions": 0, "reason": "Cary NC — out of service area" },
+      { "query": "house for sale arapahoe nc", "cost": 1.74, "clicks": 1, "conversions": 0, "reason": "Arapahoe — out of area" },
+      { "query": "gated communities near hendersonville nc", "cost": 1.29, "clicks": 1, "conversions": 0, "reason": "Hendersonville — 300+ miles away" }
+    ]
+  },
+
+  "topPerformers": [
+    { "rank": 1, "adGroup": "benson;luxury-homes", "impressions": 2, "clicks": 1, "ctr": "50.0%", "cost": 0.78, "conversions": 1, "costPerConv": 0.78, "recommendation": "Low volume — monitor for sustainability" },
+    { "rank": 2, "adGroup": "moore-county;homes-with-pool", "impressions": 9, "clicks": 1, "ctr": "11.1%", "cost": 0.85, "conversions": 1, "costPerConv": 0.85, "recommendation": "Niche winner — expand pool homes targeting" },
+    { "rank": 3, "adGroup": "pinehurst;homes-for-sale", "impressions": 44, "clicks": 4, "ctr": "9.1%", "cost": 4.25, "conversions": 1, "costPerConv": 4.25, "recommendation": "Pinehurst is a strong market — scale this" },
+    { "rank": 4, "adGroup": "burgaw;homes-with-acreage", "impressions": 20, "clicks": 8, "ctr": "40.0%", "cost": 8.07, "conversions": 1, "costPerConv": 8.07, "recommendation": "Acreage/land is converting — scale this theme" },
+    { "rank": 5, "adGroup": "DS Property Features (campaign)", "impressions": 0, "clicks": 91, "ctr": "N/A", "cost": 61.95, "conversions": 3, "costPerConv": 20.65, "recommendation": "Best campaign — consolidate budget here" }
+  ],
+
+  "bottomPerformers": [
+    { "rank": 1, "adGroup": "topsail-beach;homes-for-sale", "impressions": 277, "clicks": 22, "ctr": "7.9%", "cost": 19.15, "conversions": 0, "costPerConv": 0.00, "recommendation": "Highest spend with 0 conversions — pause or restructure" },
+    { "rank": 2, "adGroup": "johnston-county;homes-for-sale", "impressions": 168, "clicks": 17, "ctr": "10.1%", "cost": 16.22, "conversions": 0, "costPerConv": 0.00, "recommendation": "Verify if Johnston Co. is in service area" },
+    { "rank": 3, "adGroup": "rocky-point;homes-for-sale", "impressions": 77, "clicks": 13, "ctr": "16.9%", "cost": 12.66, "conversions": 0, "costPerConv": 0.00, "recommendation": "Good CTR but no conversions — check landing page" },
+    { "rank": 4, "adGroup": "surf-city;waterfront", "impressions": 59, "clicks": 10, "ctr": "17.0%", "cost": 12.28, "conversions": 0, "costPerConv": 0.00, "recommendation": "Attracting browsers, not buyers — tighten targeting" },
+    { "rank": 5, "adGroup": "carthage;homes-for-sale", "impressions": 41, "clicks": 9, "ctr": "22.0%", "cost": 10.44, "conversions": 0, "costPerConv": 0.00, "recommendation": "High CTR but 0 conv — small market, low volume" }
+  ],
+
+  "keywordIssues": {
+    "broadMatchProblem": "DSA campaigns with 221 ad groups across a 19-city x 22-feature matrix create massive overlap. Google bids against itself with duplicate campaigns (DS Cities + DS Cities #2 share 100% of ad groups). 286 search terms appeared in both campaign pairs simultaneously.",
+    "deadKeywords": [
+      { "keyword": "56 ad groups with 0 impressions", "adGroup": "Various city;feature combos", "impressions": 0 },
+      { "keyword": "65 near-dead ad groups (1-5 impr)", "adGroup": "Various city;feature combos", "impressions": 0 },
+      { "keyword": "luxury-homes feature group", "adGroup": "16 ad groups, 90.4% irrelevant match rate", "impressions": 0 }
+    ],
+    "missingExtensions": ["Sitelink extensions", "Callout extensions", "Structured snippet extensions", "Call extensions", "Location extensions"]
+  },
+
+  "adCopyImprovements": [
+    { "adGroup": "All campaigns", "issue": "DSA auto-generates ads from site content", "current": "Ads pulled from IDX search result pages (83% of landing URLs)", "recommended": "Exclude /property-search/results/ from DSA targeting. Direct DSA to 34 content pages instead" },
+    { "adGroup": "DS Property Features", "issue": "Niche features outperform generic", "current": "homes-for-sale ad groups get most spend but lowest conv rate", "recommended": "Scale horse-property, acreage, pool, multi-generational niches that actually convert" },
+    { "adGroup": "All campaigns", "issue": "No ad extensions configured", "current": "No sitelinks, callouts, structured snippets, or call extensions", "recommended": "Add all extension types: Communities, About Lisa, Contact, Featured Listings, Call extension with tracking" }
+  ],
+
+  "negativeKeywords": {
+    "geographic": ["asheville", "boone", "charlotte", "raleigh", "durham", "chapel hill", "cary", "fayetteville", "greensboro", "winston salem", "hickory", "lake lure", "murphy", "hendersonville", "lake norman", "jacksonville", "greenville", "rocky mount", "goldsboro", "wilson", "carolina beach", "ocean isle", "southport", "wrightsville", "calabash", "gastonia", "concord", "mooresville", "mountain homes", "western nc"],
+    "price": ["foreclosure", "foreclosed", "bank owned", "reo", "short sale", "tax lien", "sheriff sale", "cheapest", "most expensive", "mansions", "mansion"],
+    "competitor": ["zillow", "realtor.com", "redfin", "trulia", "coldwell banker", "keller williams", "remax", "century 21", "berkshire hathaway"],
+    "brand": [],
+    "unrelated": ["rent", "rental", "apartment", "lease", "mobile home", "manufactured home", "trailer", "double wide", "modular home", "section 8", "commercial property", "golf condos for sale", "luxury home", "compound for sale", "beach house for sale"]
+  },
+
+  "quickWins": [
+    { "action": "Fix budget — reduce daily budgets to $16-17/campaign ($33/day total)", "impact": "High" },
+    { "action": "Switch geo-targeting to 'Presence Only' on all campaigns", "impact": "High" },
+    { "action": "Pause duplicate campaigns (DS Cities, DS Property Features — keep #2 versions)", "impact": "High" },
+    { "action": "Add 100+ negative keywords (geographic, rental, foreclosure, out-of-state)", "impact": "High" },
+    { "action": "Pause 121 dead/near-dead ad groups (0 impressions or 1-5 impressions)", "impact": "High" },
+    { "action": "Pause luxury-homes ad groups (90.4% irrelevant match rate)", "impact": "Medium" },
+    { "action": "Set -75% bid adjustment for 1am-5am hours", "impact": "Medium" },
+    { "action": "Set -30% bid adjustment for desktop devices", "impact": "Medium" },
+    { "action": "Set -50% bid adjustment for Saturdays", "impact": "Medium" },
+    { "action": "Exclude /property-search/results/ pages from DSA targeting", "impact": "High" }
+  ],
+
+  "actionPlan": {
+    "immediate": [
+      { "action": "Fix budget — reduce daily budgets to match $1K/mo ($33/day total across campaigns)", "why": "Currently pacing at $3,570/mo — 3.6x over stated budget", "effort": "Low", "impact": "High" },
+      { "action": "Switch geo-targeting from Presence & Interest to Presence Only", "why": "42% of spend goes out-of-state, only 9.1% reaches service area", "effort": "Low", "impact": "High" },
+      { "action": "Pause duplicate campaigns (DS Cities + DS Property Features — keep #2 versions only)", "why": "Duplicate campaigns bid against themselves in every auction, wasting budget", "effort": "Low", "impact": "High" },
+      { "action": "Add 100+ negative keywords across all lists (geographic, rental, states, foreclosure)", "why": "770 irrelevant terms consumed $93.76 (33.9% of visible spend) with 0 conversions", "effort": "Low", "impact": "High" },
+      { "action": "Pause 121 dead/near-dead ad groups (0 impressions or <5 impressions, 0 clicks)", "why": "55% of ad groups are functionally inactive — cleanup reduces noise", "effort": "Low", "impact": "Medium" },
+      { "action": "Pause luxury-homes ad groups (90.4% irrelevant match rate)", "why": "9 out of 10 searches matching this feature are irrelevant queries", "effort": "Low", "impact": "Medium" },
+      { "action": "Set -75% bid adjustment for 1am-5am hours", "why": "$88.12 spent late-night with only 1 conversion — saves ~$79/mo", "effort": "Low", "impact": "Medium" },
+      { "action": "Set -30% bid adjustment for desktop devices", "why": "0 conversions from desktop ($38.19 spent) — saves ~$82/mo", "effort": "Low", "impact": "Medium" },
+      { "action": "Set -50% bid adjustment for Saturdays", "why": "0 conversions on Saturdays ($74.64 spent) — saves ~$80/mo", "effort": "Low", "impact": "Medium" },
+      { "action": "Exclude /property-search/results/ from DSA page feed", "why": "83% of landing page URLs are IDX results consuming 63% of budget with 0 conversions", "effort": "Low", "impact": "High" }
+    ],
+    "week2to3": [
+      { "action": "Switch bidding from Maximize Clicks to Maximize Conversions", "why": "Account has 30+ conversions — enough data for smart bidding. Max Clicks optimizes for cheap clicks, not leads", "effort": "Low", "impact": "High" },
+      { "action": "Consolidate 221 ad groups down to 20-30 focused groups", "why": "Too fragmented for $1K budget — each group gets too little data to optimize", "effort": "Medium", "impact": "High" },
+      { "action": "Scale horse-property, acreage, multi-generational, no-hoa niches", "why": "These features have high CTR and low irrelevant match rates — they attract real buyers", "effort": "Medium", "impact": "High" },
+      { "action": "Add sitelinks, callouts, structured snippets, and call extensions", "why": "No extensions configured — missing free ad improvements and Quality Score boost", "effort": "Medium", "impact": "High" },
+      { "action": "Set up proper conversion tracking (separate IDX registrations from phone calls)", "why": "Currently can't distinguish low-quality form fills from high-intent phone calls", "effort": "Medium", "impact": "High" },
+      { "action": "Add converting search terms as explicit page feed entries", "why": "Terms like 'horse farm southern pines' and 'land burgaw nc' convert — lock them in", "effort": "Low", "impact": "Medium" },
+      { "action": "Increase bids +10% for peak hours (8am-1pm) and Thu/Fri", "why": "6 of 11 conversions come Thu/Fri, peak hours 8am-1pm have highest conv rates", "effort": "Low", "impact": "Medium" },
+      { "action": "Clarify service area: Does Lisa serve Johnston County and Moore County?", "why": "These counties drive significant spend ($88.66 + $75.97) — need to confirm if they're legitimate targets", "effort": "Low", "impact": "High" }
+    ],
+    "month1to2": [
+      { "action": "Build dedicated landing pages for top niches (horse property, acreage, waterfront)", "why": "DSA sends traffic to generic IDX pages — niche landing pages convert better", "effort": "High", "impact": "High" },
+      { "action": "Set up offline conversion imports to track registration → closed deal", "why": "Google needs real outcome data to optimize bidding — IDX registrations aren't real leads", "effort": "High", "impact": "High" },
+      { "action": "Consider Spanish-language landing pages if Lisa wants to serve Hispanic buyers", "why": "One Spanish query converted — there may be a viable audience if supported", "effort": "High", "impact": "Medium" },
+      { "action": "Create separate campaigns for coastal (Wilmington area) vs inland (Sandhills/Johnston)", "why": "Current campaigns mix two markets 150 miles apart with different buyer demographics", "effort": "Medium", "impact": "High" },
+      { "action": "Test Target CPA bidding once enough conversion history exists", "why": "After 2-3 months of Maximize Conversions data, Target CPA gives more control", "effort": "Low", "impact": "Medium" },
+      { "action": "Add location-specific ad customizers for each service area city", "why": "Dynamic ad text that mentions the searcher's city improves relevance and CTR", "effort": "Medium", "impact": "Medium" }
+    ],
+    "month2to3": [
+      { "action": "Evaluate Performance Max once fundamentals are fixed", "why": "PMax accesses YouTube, Display, Maps — broader reach but requires clean conversion data first", "effort": "High", "impact": "Medium" },
+      { "action": "Launch call-only campaigns for high-intent keywords", "why": "Phone calls close at 10x the rate of web registrations in real estate", "effort": "Medium", "impact": "High" },
+      { "action": "Implement speed-to-lead automation (respond within 5 minutes)", "why": "78% of buyers work with the first agent who responds — 5 min response = 21x close rate", "effort": "Medium", "impact": "High" },
+      { "action": "Build remarketing audiences from site visitors and converters", "why": "Re-engage people who browsed listings but didn't convert on first visit", "effort": "Medium", "impact": "Medium" },
+      { "action": "A/B test landing pages: IDX forced-registration vs soft CTA", "why": "Forced registration creates volume but may hurt lead quality — test alternatives", "effort": "High", "impact": "High" },
+      { "action": "Expand to new niche ad groups based on what's converting", "why": "Data from months 1-2 will reveal which niches to scale and which to cut", "effort": "Medium", "impact": "Medium" }
+    ]
+  },
+
+  "budgetReallocation": [
+    { "adGroup": "DS Property Features (property niches)", "currentSpend": 117.05, "recommendedPct": "50%", "change": "+30%", "reason": "Best conversion rate (3.3%) and lowest CPA — consolidate budget here" },
+    { "adGroup": "Horse property ad groups", "currentSpend": 11.21, "recommendedPct": "15%", "change": "+13%", "reason": "0% irrelevant match rate, conversions, high CTR — scale aggressively" },
+    { "adGroup": "Acreage/land ad groups", "currentSpend": 21.88, "recommendedPct": "15%", "change": "+11%", "reason": "2 of 5 visible conversions came from land/acreage searches" },
+    { "adGroup": "Pinehurst/Southern Pines", "currentSpend": 13.60, "recommendedPct": "10%", "change": "+7%", "reason": "Strong market with confirmed conversion — scale this area" },
+    { "adGroup": "DS Cities (generic city targeting)", "currentSpend": 159.61, "recommendedPct": "10%", "change": "-17%", "reason": "1.0% CVR, $88.88 CPA, high irrelevant match rate — reduce significantly" },
+    { "adGroup": "luxury-homes ad groups", "currentSpend": 8.20, "recommendedPct": "0%", "change": "-1.4%", "reason": "PAUSE — 90.4% irrelevant match rate, waste of budget" },
+    { "adGroup": "121 dead ad groups", "currentSpend": 0.00, "recommendedPct": "0%", "change": "0%", "reason": "PAUSE — 0 impressions, no data, no value" },
+    { "adGroup": "Duplicate campaigns", "currentSpend": 125.83, "recommendedPct": "0%", "change": "-21%", "reason": "PAUSE — DS Cities + DS Property Features duplicate the #2 versions" }
+  ],
+
+  "projectedImpact": {
+    "currentCostPerLead": "$55.52",
+    "projectedCostPerLead": "$25-$40",
+    "currentLeadQuality": "0% close rate (2 weeks)",
+    "projectedLeadQuality": "2-5% close rate target",
+    "estimatedMonthlySavings": "$665-$815/mo",
+    "explanation": "By fixing geo-targeting (saves $400-460/mo), adding dayparting (-$79/mo), desktop adjustments (-$82/mo), Saturday reduction (-$80/mo), and eliminating irrelevant search terms, we can recover 52-64% of the current budget. At a corrected $1K/mo with proper targeting, the campaign should generate 15-25 quality registrations from actual local buyers."
+  },
+
+  "nextSteps": [
+    { "text": "Fix the budget immediately — reduce daily spend to $33/day", "sub": "Currently pacing at $3,570/month against a $1,000/month target" },
+    { "text": "Switch geo-targeting to Presence Only + add 100+ negative keywords", "sub": "Stops 42% out-of-state waste and 33.9% irrelevant search term waste in one session" },
+    { "text": "Pause duplicate campaigns and 121 dead ad groups", "sub": "Eliminates internal competition and cleans up the account structure" },
+    { "text": "Switch to Maximize Conversions and add ad extensions", "sub": "Optimize for leads, not cheap clicks — add sitelinks, callouts, call extensions" },
+    { "text": "Schedule 30-day check-in to measure impact of all changes", "sub": "Track: geographic distribution, CPL trend, conversion quality, search term relevance" }
+  ]
+}

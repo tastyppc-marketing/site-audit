@@ -1,0 +1,75 @@
+{
+  "client": {
+    "name": "Lisa Johnson",
+    "company": "Performance Property Partners (P3RealtyNC)",
+    "website": "p3realtync.com",
+    "websiteUrl": "https://www.p3realtync.com",
+    "location": "North Carolina (Johnston County, Clayton, Smithfield, Pinehurst, Hampstead, Surf City)",
+    "serviceType": "Full Service (Buy/Sell/Residential)",
+    "platform": "Sierra Interactive (SIS)",
+    "coreProblem": "Listing addresses she represents don't rank #1 on Google — competitor portals (Zillow, Redfin, Realtor.com) outrank her for her own listings"
+  },
+  "accounts": {
+    "googleAds": "244-847-6843",
+    "ga4Property": "415621585",
+    "ga4Account": "292743398",
+    "searchConsole": "https://www.p3realtync.com/"
+  },
+  "competitors": [
+    {"name": "Intracoastal Realty", "domain": "intracoastalrealty.com", "area": "Hampstead/Coastal NC", "notes": "Voted Best RE Company. Strong local brand."},
+    {"name": "RiverWILD Real Estate", "domain": "riverwildrealestate.com", "area": "Johnston County/Clayton", "notes": "Serves Clayton, Smithfield, Wake County."},
+    {"name": "Tina Barletta / Address Your Dreams", "domain": "addressyourdreams.com", "area": "Clayton/Johnston County", "notes": "Flowers Plantation, Garner, Smithfield."},
+    {"name": "HomeTowne Realty", "domain": "myhtr.com", "area": "Johnston County/Eastern NC", "notes": "Multiple offices: Clayton, Selma, Raleigh, Garner, Atlantic Beach."},
+    {"name": "Carolina Real Estate Central", "domain": "carolinarealestatecentral.com", "area": "Hampstead/Coastal", "notes": "Anchor Real Estate. (910) 548-7806."},
+    {"name": "Homesforsalehampsteadnc.com", "domain": "homesforsalehampsteadnc.com", "area": "Hampstead", "notes": "Coastal Realty Associates. Keyword-rich domain."}
+  ],
+  "targetKeywords": [
+    "homes for sale Hampstead NC",
+    "Johnston County NC real estate",
+    "Clayton NC homes for sale",
+    "Pinehurst NC real estate",
+    "Smithfield NC homes for sale",
+    "Surf City NC homes for sale",
+    "NC real estate agent",
+    "Lisa Johnson realtor NC",
+    "P3 Realty NC",
+    "performance property partners NC",
+    "new construction homes NC",
+    "no HOA homes Johnston County",
+    "Hampstead NC real estate agent",
+    "homes for sale near Camp Lejeune",
+    "Garner NC homes for sale",
+    "waterfront homes Hampstead NC",
+    "luxury homes Pinehurst NC",
+    "first time home buyer NC",
+    "sell my house fast NC",
+    "NC home prices 2026",
+    "best neighborhoods Clayton NC",
+    "Pender County homes for sale",
+    "Onslow County real estate",
+    "Southern Pines NC homes",
+    "Topsail Island real estate"
+  ],
+  "searchConsoleInsights": {
+    "totalQueries": 835,
+    "totalPages": 500,
+    "addressQueries": 360,
+    "addressQueryClickRate": "near zero — 1 click out of hundreds of impressions",
+    "topBrandQuery": "performance property partners (19 clicks, position 1.06)",
+    "topContentPage": "/blog/why-people-love-pinehurst-nc/ (476 impressions, 9 clicks)",
+    "keyProblem": "360 listing address queries show impressions but position 10-40 with 0 clicks — Zillow/Redfin rank above"
+  },
+  "ga4Insights": {
+    "totalLandingPages": 404,
+    "topPage": "/property-search/results (417 sessions)",
+    "trafficChannels": 28,
+    "deviceCategories": 3
+  },
+  "pageSpeed": {
+    "mobileScore": 66,
+    "desktopScore": 88,
+    "mobileLCP": "7.2s (poor — threshold 2.5s)",
+    "mobileCLS": "0.05 (good)",
+    "mobileFCP": "3.5s (poor — threshold 1.8s)"
+  }
+}

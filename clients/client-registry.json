@@ -1,0 +1,49 @@
+{
+  "description": "Client account registry — stores Google Ads, GA4, Search Console, and other account IDs for each client. Used by the audit orchestrator to connect to client accounts.",
+  "serviceAccountEmail": "audit-platform@tastyppc-audit-platform.iam.gserviceaccount.com",
+  "projectId": "tastyppc-audit-platform",
+  "clients": {
+    "p3realtync": {
+      "clientName": "Lisa Johnson",
+      "company": "P3RealtyNC",
+      "website": "p3realtync.com",
+      "directory": "clients/p3realtync",
+      "googleAds": {
+        "customerId": "244-847-6843",
+        "notes": ""
+      },
+      "ga4": {
+        "accountName": "P3RealtyNC.com - ga4",
+        "accountId": "292743398",
+        "propertyId": "415621585",
+        "propertyName": "P3RealtyNC.com - ga4"
+      },
+      "searchConsole": {
+        "siteUrl": "https://www.p3realtync.com/",
+        "notes": "Needs service account access"
+      }
+    },
+    "calgary-castles": {
+      "clientName": "Neil Rowlandson",
+      "company": "Calgary Castles Team",
+      "brokerage": "CIR Realty",
+      "website": "sellingcalgarycastles.com",
+      "directory": "clients/calgary-castles",
+      "phone": "403-271-0600",
+      "email": "calgarycastles@live.com",
+      "googleAds": {
+        "customerId": "",
+        "notes": "Not yet connected"
+      },
+      "ga4": {
+        "accountId": "",
+        "propertyId": "",
+        "notes": "Not yet connected"
+      },
+      "searchConsole": {
+        "siteUrl": "",
+        "notes": "Not yet connected"
+      }
+    }
+  }
+}

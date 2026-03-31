@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Terms | PPC Audit Report</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+
+  <link rel="stylesheet" href="shared/report-styles.css">
+  <link rel="stylesheet" href="shared/multipage-nav.css">
+
+  <script id="audit-data-inject">
+    window.AUDIT_DATA = /* __AUDIT_DATA_PLACEHOLDER__ */null;
+    window.SEARCH_INDEX = /* __SEARCH_INDEX_PLACEHOLDER__ */[];
+  </script>
+
+  <script>
+    window.TPPC = window.TPPC || {};
+    window.TPPC.currentPage = 'search-terms';
+
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: {
+              900: '#0b1629',
+              800: '#111d35',
+              700: '#172644',
+              600: '#1e3a5f'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="multipage font-sans antialiased">
+  <nav id="top-nav" class="fixed top-0 left-0 right-0 z-50 bg-navy-900"></nav>
+
+  <div id="mobile-drawer" class="fixed inset-0 z-40 lg:hidden"></div>
+
+  <div class="flex pt-16">
+    <aside id="side-nav" class="hidden lg:block w-56 fixed top-16 left-0 bottom-0"></aside>
+
+    <main id="page-content" class="flex-1 lg:ml-56 min-h-screen">
+      <header class="hero-section">
+        <div class="max-w-6xl mx-auto px-6 py-16 md:py-20 relative z-10">
+          <div class="max-w-4xl">
+            <div class="text-blue-300 text-sm font-semibold tracking-widest uppercase mb-3">Search Terms</div>
+            <h1 class="text-3xl md:text-5xl font-extrabold leading-tight">Query Mining and Negative Keyword Opportunities</h1>
+            <p class="mt-4 text-blue-100 text-base md:text-lg leading-relaxed">
+              N-gram analysis surfaces recurring spend patterns and candidate negatives that should be filtered out.
+            </p>
+            <div class="mt-6 flex flex-wrap gap-4 text-sm text-slate-300">
+              <span id="hero-client" class="font-semibold text-white"></span>
+              <span id="hero-website"></span>
+              <span id="hero-date"></span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="report-section page-break" id="section-ngrams">
+        <div class="section-heading">
+          <span class="section-number">1</span>
+          N-gram Analysis
+        </div>
+        <p class="section-sub">Recurring words and phrases across search terms, sortable by total cost.</p>
+        <div class="flex items-center justify-end mb-4 no-print">
+          <button id="sort-cost-btn" type="button" class="tab-btn active">Sort Cost: High to Low</button>
+        </div>
+        <div class="report-table-wrap">
+          <table class="report-table" id="ngrams-table">
+            <thead>
+              <tr>
+                <th>N-gram</th>
+                <th>Words</th>
+                <th>Impressions</th>
+                <th>Clicks</th>
+                <th>Cost</th>
+                <th>Conversions</th>
+                <th>CPA</th>
+              </tr>
+            </thead>
+            <tbody id="ngrams-table-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="report-section page-break" id="section-negatives">
+        <div class="section-heading">
+          <span class="section-number">2</span>
+          Negative Keyword Candidates
+        </div>
+        <p class="section-sub">Terms with non-trivial spend and zero conversions, plus the recommended negative match type.</p>
+        <div class="report-table-wrap">
+          <table class="report-table" id="negative-candidates-table">
+            <thead>
+              <tr>
+                <th>Candidate</th>
+                <th>Cost</th>
+                <th>Clicks</th>
+                <th>Recommended Match</th>
+                <th>Reason</th>
+              </tr>
+            </thead>
+            <tbody id="negative-candidates-table-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="report-section page-break" id="section-top-terms">
+        <div class="section-heading">
+          <span class="section-number">3</span>
+          Top Search Terms
+        </div>
+        <p class="section-sub">The highest-cost search terms available in the underlying data set.</p>
+        <div class="report-table-wrap">
+          <table class="report-table" id="top-terms-table">
+            <thead>
+              <tr>
+                <th>Search Term</th>
+                <th>Campaign</th>
+                <th>Clicks</th>
+                <th>Cost</th>
+                <th>Conversions</th>
+                <th>CPA</th>
+              </tr>
+            </thead>
+            <tbody id="top-terms-table-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <footer class="bg-navy-900 text-slate-400 text-center py-8 text-sm">
+        <p>Confidential PPC Audit Report &mdash; Prepared <span id="footer-date"></span></p>
+        <p class="mt-1 text-slate-500">Generated with Site Audit Toolkit</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="shared/utils.js"></script>
+  <script src="shared/data-loader.js"></script>
+  <script src="shared/charts.js"></script>
+  <script src="shared/nav.js"></script>
+  <script src="shared/search.js"></script>
+  <script src="shared/print.js"></script>
+  <script src="pages/search-terms.js"></script>
+</body>
+</html>

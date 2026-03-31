@@ -718,6 +718,185 @@ class DataForSEOConnector(BaseConnector):
         return items
 
     # ==================================================================
+    # LABS — COMPETITOR ANALYSIS (P5)
+    # ==================================================================
+
+    def get_organic_keywords(
+        self,
+        target: str,
+        location_code: int = 2840,
+        language_code: str = "en",
+        limit: int = 1000,
+        filters: list[Any] | None = None,
+    ) -> list[dict[str, Any]]:
+        """Get keywords a domain ranks for organically.
+
+        Uses ``/v3/dataforseo_labs/google/ranked_keywords/live``.
+
+        Returns
+        -------
+        list[dict]
+            Per-keyword records with position, volume, traffic,
+            SERP features, and URL.
+        """
+        self.log.info(
+            "dataforseo_organic_keywords",
+            target=target,
+            limit=limit,
+        )
+        payload: dict[str, Any] = {
+            "target": target,
+            "location_code": location_code,
+            "language_code": language_code,
+            "limit": limit,
+        }
+        if filters:
+            payload["filters"] = filters
+
+        raw = self._post(
+            "/dataforseo_labs/google/ranked_keywords/live",
+            [payload],
+        )
+        results = self._unwrap(raw)
+        items: list[dict[str, Any]] = []
+        for result in results:
+            for item in result.get("items", []):
+                kw_data = item.get("keyword_data", {})
+                ranked_data = item.get("ranked_serp_element", {})
+                serp_item = ranked_data.get("serp_item", {})
+
+                items.append({
+                    "keyword": kw_data.get("keyword", ""),
+                    "volume": kw_data.get("keyword_info", {}).get("search_volume"),
+                    "cpc": kw_data.get("keyword_info", {}).get("cpc"),
+                    "difficulty": kw_data.get("keyword_info", {}).get("competition_index"),
+                    "position": serp_item.get("rank_group"),
+                    "url": serp_item.get("url", ""),
+                    "traffic": ranked_data.get("etv"),  # estimated traffic value
+                    "serpFeatures": [
+                        ft for ft in (kw_data.get("serp_info", {}).get("serp_item_types") or [])
+                    ],
+                    "type": serp_item.get("type", "organic"),
+                })
+        self.log.info(
+            "dataforseo_organic_keywords_fetched",
+            target=target,
+            count=len(items),
+        )
+        return items
+
+    def get_organic_competitors(
+        self,
+        target: str,
+        location_code: int = 2840,
+        language_code: str = "en",
+        limit: int = 20,
+    ) -> list[dict[str, Any]]:
+        """Discover competitors by organic keyword overlap.
+
+        Uses ``/v3/dataforseo_labs/google/competitors_domain/live``.
+
+        Returns
+        -------
+        list[dict]
+            Competitor domains with overlap metrics.
+        """
+        self.log.info("dataforseo_organic_competitors", target=target)
+        raw = self._post(
+            "/dataforseo_labs/google/competitors_domain/live",
+            [
+                {
+                    "target": target,
+                    "location_code": location_code,
+                    "language_code": language_code,
+                    "limit": limit,
+                }
+            ],
+        )
+        results = self._unwrap(raw)
+        items: list[dict[str, Any]] = []
+        for result in results:
+            for item in result.get("items", []):
+                metrics = item.get("metrics", {}).get("organic", {})
+                items.append({
+                    "domain": item.get("domain", ""),
+                    "intersections": item.get("avg_position"),  # keyword overlap count
+                    "organicKeywords": metrics.get("count"),
+                    "organicTraffic": metrics.get("etv"),
+                    "avgPosition": metrics.get("pos"),
+                    "isIntersecting": metrics.get("is_intersecting", False),
+                })
+        self.log.info(
+            "dataforseo_organic_competitors_fetched",
+            count=len(items),
+        )
+        return items
+
+    def get_keyword_overlap(
+        self,
+        target1: str,
+        target2: str,
+        location_code: int = 2840,
+        language_code: str = "en",
+        limit: int = 1000,
+    ) -> list[dict[str, Any]]:
+        """Get keywords where both domains rank in the same SERP.
+
+        Uses ``/v3/dataforseo_labs/google/domain_intersection/live``.
+
+        Returns
+        -------
+        list[dict]
+            Per-keyword overlap data with both domains' positions.
+        """
+        self.log.info(
+            "dataforseo_keyword_overlap",
+            target1=target1,
+            target2=target2,
+        )
+        raw = self._post(
+            "/dataforseo_labs/google/domain_intersection/live",
+            [
+                {
+                    "target1": target1,
+                    "target2": target2,
+                    "location_code": location_code,
+                    "language_code": language_code,
+                    "limit": limit,
+                    "item_types": ["organic", "featured_snippet", "local_pack"],
+                }
+            ],
+        )
+        results = self._unwrap(raw)
+        items: list[dict[str, Any]] = []
+        for result in results:
+            for item in result.get("items", []):
+                kw_data = item.get("keyword_data", {})
+                kw_info = kw_data.get("keyword_info", {})
+
+                first = item.get("first_domain_serp_element", {})
+                second = item.get("second_domain_serp_element", {})
+                first_serp = first.get("serp_item", {})
+                second_serp = second.get("serp_item", {})
+
+                items.append({
+                    "keyword": kw_data.get("keyword", ""),
+                    "volume": kw_info.get("search_volume"),
+                    "cpc": kw_info.get("cpc"),
+                    "target1Position": first_serp.get("rank_group"),
+                    "target1Url": first_serp.get("url", ""),
+                    "target1Type": first_serp.get("type", "organic"),
+                    "target2Position": second_serp.get("rank_group"),
+                    "target2Url": second_serp.get("url", ""),
+                    "target2Type": second_serp.get("type", "organic"),
+                })
+        self.log.info(
+            "dataforseo_keyword_overlap_fetched",
+            count=len(items),
+        )
+        return items
+
+    # ==================================================================
     # DOMAIN ANALYTICS
     # ==================================================================
 

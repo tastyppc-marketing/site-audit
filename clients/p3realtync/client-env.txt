@@ -1,0 +1,5 @@
+# P3RealtyNC - Lisa Johnson — copy these values into platform/.env when running her audit
+GOOGLE_ADS_CUSTOMER_ID=2448476843
+GOOGLE_ADS_LOGIN_CUSTOMER_ID=2448476843
+GA4_PROPERTY_ID=415621585
+SEARCH_CONSOLE_SITE_URL=https://www.p3realtync.com/

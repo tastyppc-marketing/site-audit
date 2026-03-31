@@ -1,0 +1,718 @@
+{
+  "metadata": {
+    "dateGenerated": "2026-03-23",
+    "clientDomain": "sellingcalgarycastles.com",
+    "competitorDomains": [
+      "justinhavre.com",
+      "karenfawcett.ca",
+      "reevesrealty.ca",
+      "calgaryhousefinder.ca",
+      "kirbycox.com",
+      "jdrealestatecalgary.ca"
+    ],
+    "totalKeywordsSearched": 25,
+    "searchEngine": "Google (WebSearch)",
+    "notes": "Volume estimates are based on keyword commercial intent, specificity, and competitive density in SERPs. 'High' = broad head terms with major portal dominance, 'Medium' = moderate competition with niche opportunity, 'Low' = long-tail or geo-specific with less competition."
+  },
+  "keywords": [
+    {
+      "keyword": "Calgary homes for sale",
+      "clientFound": false,
+      "competitorDomains": ["calgaryhousefinder.ca", "justinhavre.com"],
+      "topResult": "zillow.com",
+      "topResults": [
+        "zillow.com",
+        "redfin.ca",
+        "calgaryhousefinder.ca",
+        "realtor.ca",
+        "calgarylistings.com",
+        "remax.ca"
+      ],
+      "volumeEstimate": "High",
+      "peopleAlsoAsk": [
+        "What is the average home price in Calgary?",
+        "Is it a good time to buy a home in Calgary?",
+        "How many homes are for sale in Calgary?"
+      ],
+      "competitorNotes": "calgaryhousefinder.ca ranked #3, justinhavre.com (via calgaryhomes.ca) ranked #9"
+    },
+    {
+      "keyword": "Calgary real estate",
+      "clientFound": false,
+      "competitorDomains": ["justinhavre.com"],
+      "topResult": "realtor.ca",
+      "topResults": [
+        "realtor.ca",
+        "zillow.com",
+        "creb.com",
+        "redfin.ca",
+        "calgaryhomes.ca",
+        "remax.ca"
+      ],
+      "volumeEstimate": "High",
+      "peopleAlsoAsk": [
+        "Is Calgary real estate going up?",
+        "What is the average house price in Calgary?",
+        "Is Calgary a buyers or sellers market?"
+      ],
+      "competitorNotes": "justinhavre.com (via calgaryhomes.ca) ranked #5"
+    },
+    {
+      "keyword": "Calgary real estate agent",
+      "clientFound": false,
+      "competitorDomains": ["justinhavre.com", "reevesrealty.ca"],
+      "topResult": "zillow.com",
+      "topResults": [
+        "zillow.com",
+        "realtor.ca",
+        "justinhavre.com",
+        "rate-my-agent.com",
+        "popowichrealestate.com",
+        "zolo.ca",
+        "reevesrealty.ca"
+      ],
+      "volumeEstimate": "High",
+      "peopleAlsoAsk": [
+        "Who is the best real estate agent in Calgary?",
+        "How much commission do Calgary real estate agents charge?",
+        "How to find a good real estate agent in Calgary?"
+      ],
+      "competitorNotes": "justinhavre.com ranked #3, reevesrealty.ca ranked #7"
+    },
+    {
+      "keyword": "homes for sale Calgary AB",
+      "clientFound": false,
+      "competitorDomains": ["justinhavre.com"],
+      "topResult": "zillow.com",
+      "topResults": [
+        "zillow.com",
+        "royallepage.ca",
+        "realtor.ca",
+        "redfin.ca",
+        "remax.ca",
+        "rew.ca",
+        "calgary.com",
+        "zolo.ca",
+        "justinhavre.com"
+      ],
+      "volumeEstimate": "High",
+      "peopleAlsoAsk": [
+        "How much does a house cost in Calgary Alberta?",
+        "Is Calgary AB a good place to live?",
+        "What is the average home price in Calgary AB?"
+      ],
+      "competitorNotes": "justinhavre.com ranked #10"
+    },
+    {
+      "keyword": "Calgary condos for sale",
+      "clientFound": false,
+      "competitorDomains": ["justinhavre.com", "kirbycox.com"],
+      "topResult": "zillow.com",
+      "topResults": [
+        "zillow.com",
+        "realtor.ca",
+        "justinhavre.com",
+        "calgaryhomes.ca",
+        "kirbycox.com",
+        "zolo.ca",
+        "remax.ca"
+      ],
+      "volumeEstimate": "High",
+      "peopleAlsoAsk": [
+        "How much is a condo in Calgary?",
+        "Is it worth buying a condo in Calgary?",
+        "What is the average condo price in Calgary?"
+      ],
+      "competitorNotes": "justinhavre.com ranked #3, kirbycox.com ranked #5"
+    },
+    {
+      "keyword": "Calgary houses for sale",
+      "clientFound": false,
+      "competitorDomains": ["justinhavre.com"],
+      "topResult": "zillow.com",
+      "topResults": [
+        "zillow.com",
+        "realtor.ca",
+        "justinhavre.com",
+        "remax.ca",
+        "bestcalgaryhomes.com",
+        "royallepage.ca",
+        "zolo.ca"
+      ],
+      "volumeEstimate": "High",
+      "peopleAlsoAsk": [
+        "How much does a house cost in Calgary?",
+        "Is Calgary housing market going down?",
+        "What is the cheapest area to buy a house in Calgary?"
+      ],
+      "competitorNotes": "justinhavre.com ranked #3 and #6 (two separate pages)"
+    },
+    {
+      "keyword": "luxury homes Calgary",
+      "clientFound": false,
+      "competitorDomains": ["justinhavre.com"],
+      "topResult": "zillow.com",
+      "topResults": [
+        "zillow.com",
+        "calgaryhomes.ca",
+        "calgary.com",
+        "remax.ca",
+        "luxuryhomescalgary.ca",
+        "calgaryluxuryrealestate.com",
+        "sothebysrealty.com",
+        "justinhavre.com"
+      ],
+      "volumeEstimate": "Medium",
+      "peopleAlsoAsk": [
+        "Where are the luxury homes in Calgary?",
+        "What is considered luxury in Calgary real estate?",
+        "What are the most expensive neighborhoods in Calgary?"
+      ],
+      "competitorNotes": "justinhavre.com ranked #9"
+    },
+    {
+      "keyword": "Calgary real estate market",
+      "clientFound": false,
+      "competitorDomains": ["justinhavre.com"],
+      "topResult": "wowa.ca",
+      "topResults": [
+        "wowa.ca",
+        "calgary.ca",
+        "creb.com",
+        "zolo.ca",
+        "mortgagesandbox.com",
+        "nesto.ca",
+        "justinhavre.com",
+        "calgarylistings.com"
+      ],
+      "volumeEstimate": "High",
+      "peopleAlsoAsk": [
+        "Is the Calgary real estate market cooling?",
+        "Will Calgary home prices drop in 2026?",
+        "Is it a good time to buy in Calgary?"
+      ],
+      "competitorNotes": "justinhavre.com ranked #7 (blog post)"
+    },
+    {
+      "keyword": "buy home Calgary",
+      "clientFound": false,
+      "competitorDomains": ["calgaryhousefinder.ca", "justinhavre.com"],
+      "topResult": "zillow.com",
+      "topResults": [
+        "zillow.com",
+        "calgaryhomes.ca",
+        "realtor.ca",
+        "calgaryhousefinder.ca",
+        "rew.ca",
+        "zolo.ca",
+        "remax.ca",
+        "redfin.ca",
+        "royallepage.ca"
+      ],
+      "volumeEstimate": "Medium",
+      "peopleAlsoAsk": [
+        "How much money do you need to buy a home in Calgary?",
+        "Is Calgary affordable to buy a home?",
+        "What is the average down payment in Calgary?"
+      ],
+      "competitorNotes": "calgaryhousefinder.ca ranked #4, justinhavre.com (via calgaryhomes.ca) ranked #2"
+    },
+    {
+      "keyword": "sell home Calgary",
+      "clientFound": false,
+      "competitorDomains": ["justinhavre.com", "calgaryhousefinder.ca"],
+      "topResult": "bridgedalehomebuyers.ca",
+      "topResults": [
+        "bridgedalehomebuyers.ca",
+        "calgaryhomesale.com",
+        "justinhavre.com",
+        "calgaryhousefinder.ca",
+        "justinhavre.com",
+        "home.bode.ca",
+        "albertabuyers.com",
+        "zillow.com"
+      ],
+      "volumeEstimate": "Medium",
+      "peopleAlsoAsk": [
+        "How do I sell my home in Calgary?",
+        "How much does it cost to sell a house in Calgary?",
+        "Can I sell my house without a realtor in Calgary?"
+      ],
+      "competitorNotes": "justinhavre.com ranked #3 and #5 (two pages), calgaryhousefinder.ca ranked #4"
+    },
+    {
+      "keyword": "Calgary MLS listings",
+      "clientFound": false,
+      "competitorDomains": ["justinhavre.com", "kirbycox.com"],
+      "topResult": "realtor.ca",
+      "topResults": [
+        "realtor.ca",
+        "calgarylistings.com",
+        "real-estate.ca",
+        "zillow.com",
+        "rew.ca",
+        "zolo.ca",
+        "calgaryhomes.ca",
+        "kirbycox.com"
+      ],
+      "volumeEstimate": "High",
+      "peopleAlsoAsk": [
+        "How do I search MLS listings in Calgary?",
+        "What is the MLS system in Calgary?",
+        "How many MLS listings are in Calgary?"
+      ],
+      "competitorNotes": "justinhavre.com (via calgaryhomes.ca) ranked #7, kirbycox.com ranked #10"
+    },
+    {
+      "keyword": "Calgary property for sale",
+      "clientFound": false,
+      "competitorDomains": [],
+      "topResult": "calgary.ca",
+      "topResults": [
+        "calgary.ca",
+        "exprealty.ca",
+        "houseful.ca",
+        "rew.ca",
+        "real-estate.ca",
+        "bestcalgaryhomes.com",
+        "c21.ca",
+        "livrealestate.ca",
+        "zoocasa.com"
+      ],
+      "volumeEstimate": "Medium",
+      "peopleAlsoAsk": [
+        "What property is for sale in Calgary?",
+        "Is Calgary property a good investment?",
+        "What is the average property price in Calgary?"
+      ],
+      "competitorNotes": "No tracked competitors found in top results"
+    },
+    {
+      "keyword": "Calgary townhouses for sale",
+      "clientFound": false,
+      "competitorDomains": ["justinhavre.com"],
+      "topResult": "zillow.com",
+      "topResults": [
+        "zillow.com",
+        "realtor.ca",
+        "calgaryhomes.ca",
+        "justinhavre.com",
+        "rew.ca",
+        "calgary.com",
+        "royallepage.ca"
+      ],
+      "volumeEstimate": "Medium",
+      "peopleAlsoAsk": [
+        "How much is a townhouse in Calgary?",
+        "Are townhouses a good investment in Calgary?",
+        "What is the average price of a townhouse in Calgary?"
+      ],
+      "competitorNotes": "justinhavre.com ranked #4"
+    },
+    {
+      "keyword": "new homes Calgary",
+      "clientFound": false,
+      "competitorDomains": ["justinhavre.com"],
+      "topResult": "calgaryhomes.ca",
+      "topResults": [
+        "calgaryhomes.ca",
+        "zillow.com",
+        "livabl.com",
+        "mattamyhomes.com",
+        "morrisonhomes.ca",
+        "calgary.com",
+        "shanehomes.com",
+        "tricohomes.com",
+        "cardelhomes.com"
+      ],
+      "volumeEstimate": "Medium",
+      "peopleAlsoAsk": [
+        "Who are the best new home builders in Calgary?",
+        "How much are new homes in Calgary?",
+        "What new communities are being built in Calgary?"
+      ],
+      "competitorNotes": "justinhavre.com (via calgaryhomes.ca) ranked #1"
+    },
+    {
+      "keyword": "Calgary real estate market report",
+      "clientFound": false,
+      "competitorDomains": ["justinhavre.com"],
+      "topResult": "wowa.ca",
+      "topResults": [
+        "wowa.ca",
+        "calgary.ca",
+        "honestdoor.com",
+        "mortgagesandbox.com",
+        "justinhavre.com",
+        "zolo.ca",
+        "creb.com",
+        "cbre.ca"
+      ],
+      "volumeEstimate": "Medium",
+      "peopleAlsoAsk": [
+        "What is the Calgary real estate market doing in 2026?",
+        "Is Calgary housing market going up or down?",
+        "Where can I find Calgary real estate statistics?"
+      ],
+      "competitorNotes": "justinhavre.com ranked #5 (blog post about market update and forecast)"
+    },
+    {
+      "keyword": "best neighborhoods Calgary",
+      "clientFound": false,
+      "competitorDomains": ["justinhavre.com"],
+      "topResult": "avenuecalgary.com",
+      "topResults": [
+        "avenuecalgary.com",
+        "calgaryhomes.ca",
+        "justinhavre.com",
+        "moving2canada.com",
+        "visitcalgary.com",
+        "ucalgary.ca",
+        "brookfieldresidential.com",
+        "bestcalgaryhomes.com"
+      ],
+      "volumeEstimate": "Medium",
+      "peopleAlsoAsk": [
+        "What is the best area to live in Calgary?",
+        "What are the safest neighborhoods in Calgary?",
+        "Where should I buy a house in Calgary?"
+      ],
+      "competitorNotes": "justinhavre.com ranked #3 (blog post)"
+    },
+    {
+      "keyword": "Calgary investment property",
+      "clientFound": false,
+      "competitorDomains": [],
+      "topResult": "rew.ca",
+      "topResults": [
+        "rew.ca",
+        "altamortgage.ca",
+        "estaviocalgaryhomes.com",
+        "thinkcalgaryhomes.com",
+        "bestcalgaryhomes.com",
+        "royallepage.ca",
+        "collierscanada.com",
+        "avisonyoung.ca",
+        "canadianrealestatemagazine.ca"
+      ],
+      "volumeEstimate": "Medium",
+      "peopleAlsoAsk": [
+        "Is Calgary a good place to invest in real estate?",
+        "What is the ROI on Calgary rental properties?",
+        "What are the best areas for investment property in Calgary?"
+      ],
+      "competitorNotes": "No tracked competitors found in top results"
+    },
+    {
+      "keyword": "Cochrane homes for sale",
+      "clientFound": false,
+      "competitorDomains": ["justinhavre.com"],
+      "topResult": "royallepagebenchmark.ca",
+      "topResults": [
+        "royallepagebenchmark.ca",
+        "realtor.ca",
+        "justinhavre.com",
+        "calgaryhomes.ca",
+        "zillow.com",
+        "diane-richardson.com",
+        "remax.ca"
+      ],
+      "volumeEstimate": "Low",
+      "peopleAlsoAsk": [
+        "How much are homes in Cochrane Alberta?",
+        "Is Cochrane a good place to buy a home?",
+        "How far is Cochrane from Calgary?"
+      ],
+      "competitorNotes": "justinhavre.com ranked #3 (Heritage Hills Cochrane page)"
+    },
+    {
+      "keyword": "Chestermere real estate",
+      "clientFound": false,
+      "competitorDomains": ["justinhavre.com"],
+      "topResult": "chestermererealestate.com",
+      "topResults": [
+        "chestermererealestate.com",
+        "justinhavre.com",
+        "chestermererealestate.com",
+        "real-estate-homes.ca",
+        "chestermere.com",
+        "zillow.com",
+        "diane-richardson.com",
+        "calgaryhomes.ca"
+      ],
+      "volumeEstimate": "Low",
+      "peopleAlsoAsk": [
+        "How much are homes in Chestermere?",
+        "Is Chestermere a good place to buy?",
+        "What is the average home price in Chestermere?"
+      ],
+      "competitorNotes": "justinhavre.com ranked #2"
+    },
+    {
+      "keyword": "Lakeview Calgary homes",
+      "clientFound": false,
+      "competitorDomains": ["justinhavre.com", "kirbycox.com"],
+      "topResult": "calgaryhomes.ca",
+      "topResults": [
+        "calgaryhomes.ca",
+        "zolo.ca",
+        "realtor.ca",
+        "justinhavre.com",
+        "rew.ca",
+        "diane-richardson.com",
+        "royallepage.ca",
+        "remax.ca",
+        "kirbycox.com"
+      ],
+      "volumeEstimate": "Low",
+      "peopleAlsoAsk": [
+        "How much are homes in Lakeview Calgary?",
+        "Is Lakeview a good neighborhood in Calgary?",
+        "What is the average home price in Lakeview Calgary?"
+      ],
+      "competitorNotes": "justinhavre.com ranked #4, kirbycox.com ranked #9"
+    },
+    {
+      "keyword": "Calgary luxury real estate agent",
+      "clientFound": false,
+      "competitorDomains": ["justinhavre.com", "kirbycox.com", "calgaryhousefinder.ca"],
+      "topResult": "calgaryluxuryrealestate.com",
+      "topResults": [
+        "calgaryluxuryrealestate.com",
+        "kirbycox.com",
+        "justinhavre.com",
+        "thestarnesgroup.com",
+        "zillow.com",
+        "sothebysrealty.com",
+        "remax.ca",
+        "luxuryhomescalgary.ca",
+        "calgaryhousefinder.ca",
+        "calgaryhomes.ca"
+      ],
+      "volumeEstimate": "Low",
+      "peopleAlsoAsk": [
+        "Who is the best luxury real estate agent in Calgary?",
+        "How do I find a luxury realtor in Calgary?",
+        "What commission do luxury agents charge?"
+      ],
+      "competitorNotes": "kirbycox.com ranked #2, justinhavre.com ranked #3, calgaryhousefinder.ca ranked #9"
+    },
+    {
+      "keyword": "Calgary first time home buyer",
+      "clientFound": false,
+      "competitorDomains": ["justinhavre.com"],
+      "topResult": "calgaryhomes.ca",
+      "topResults": [
+        "calgaryhomes.ca",
+        "calgarylistings.com",
+        "firsttimehomebuyercalgary.com",
+        "marniecampbell.ca",
+        "hellomortgage.ca",
+        "tricohomes.com",
+        "cmhc-schl.gc.ca",
+        "shanehomes.com",
+        "ratehub.ca"
+      ],
+      "volumeEstimate": "Medium",
+      "peopleAlsoAsk": [
+        "What programs are available for first-time buyers in Calgary?",
+        "How much do I need for a down payment in Calgary?",
+        "What is the Attainable Homes Calgary program?"
+      ],
+      "competitorNotes": "justinhavre.com (via calgaryhomes.ca) ranked #1"
+    },
+    {
+      "keyword": "Calgary home prices 2026",
+      "clientFound": false,
+      "competitorDomains": [],
+      "topResult": "nesto.ca",
+      "topResults": [
+        "nesto.ca",
+        "wowa.ca",
+        "cbc.ca",
+        "eminozkan.com",
+        "mortgagesandbox.com",
+        "dailyhive.com",
+        "ctvnews.ca"
+      ],
+      "volumeEstimate": "Medium",
+      "peopleAlsoAsk": [
+        "Will Calgary home prices drop in 2026?",
+        "What is the average home price in Calgary 2026?",
+        "Is Calgary housing market going up or down?"
+      ],
+      "competitorNotes": "No tracked competitors found in top results. Dominated by news/media and market analytics sites."
+    },
+    {
+      "keyword": "Calgary real estate forecast",
+      "clientFound": false,
+      "competitorDomains": ["justinhavre.com"],
+      "topResult": "mortgagesandbox.com",
+      "topResults": [
+        "mortgagesandbox.com",
+        "blog.remax.ca",
+        "calgary.ca",
+        "wowa.ca",
+        "justinhavre.com",
+        "nesto.ca",
+        "honestdoor.com",
+        "creb.com"
+      ],
+      "volumeEstimate": "Medium",
+      "peopleAlsoAsk": [
+        "Will Calgary real estate go up in 2026?",
+        "Is Calgary a good place to invest in real estate?",
+        "What is the CREB forecast for 2026?"
+      ],
+      "competitorNotes": "justinhavre.com ranked #5 (blog post)"
+    },
+    {
+      "keyword": "sell my house Calgary fast",
+      "clientFound": false,
+      "competitorDomains": ["justinhavre.com"],
+      "topResult": "sellmyhousefast.com",
+      "topResults": [
+        "sellmyhousefast.com",
+        "justinhavre.com",
+        "cashynhomes.com",
+        "albertacashforhomes.ca",
+        "legerhomebuyers.ca",
+        "5dayssold.com",
+        "calgaryhomepricecheck.com",
+        "northgatehousebuyers.com",
+        "sellhousecalgary.com"
+      ],
+      "volumeEstimate": "Low",
+      "peopleAlsoAsk": [
+        "How do I sell my house fast in Calgary?",
+        "Who buys houses for cash in Calgary?",
+        "Can I sell my house in 7 days in Calgary?"
+      ],
+      "competitorNotes": "justinhavre.com ranked #2 (cash offer page)"
+    }
+  ],
+  "summary": {
+    "clientVisibility": "0 of 25 keywords",
+    "clientDomain": "sellingcalgarycastles.com",
+    "clientAssessment": "sellingcalgarycastles.com was NOT found in organic search results for any of the 25 target keywords. The site has zero organic visibility for these high-value real estate search terms.",
+    "topCompetitorDomains": [
+      {
+        "domain": "justinhavre.com",
+        "appearances": 21,
+        "notes": "Dominant competitor. Appears via justinhavre.com directly AND via calgaryhomes.ca (owned property). Ranks in top 5 for most keywords. Has extensive blog content driving informational keyword rankings (market reports, neighborhood guides, first-time buyer content). Also ranks for transactional terms (condos, townhouses, luxury, selling)."
+      },
+      {
+        "domain": "calgaryhousefinder.ca",
+        "appearances": 4,
+        "notes": "Appears for broad terms: 'Calgary homes for sale' (#3), 'buy home Calgary' (#4), 'sell home Calgary' (#4), 'Calgary luxury real estate agent' (#9). Strong local SEO for buying/selling intent."
+      },
+      {
+        "domain": "kirbycox.com",
+        "appearances": 4,
+        "notes": "Appears for 'Calgary condos for sale' (#5), 'Calgary MLS listings' (#10), 'Lakeview Calgary homes' (#9), 'Calgary luxury real estate agent' (#2). Strong in luxury and condo niches."
+      },
+      {
+        "domain": "reevesrealty.ca",
+        "appearances": 1,
+        "notes": "Only appeared for 'Calgary real estate agent' (#7). Limited organic visibility despite 19+ years experience and 180+ Google reviews."
+      },
+      {
+        "domain": "karenfawcett.ca",
+        "appearances": 0,
+        "notes": "Not found in any search results across all 25 keywords."
+      },
+      {
+        "domain": "jdrealestatecalgary.ca",
+        "appearances": 0,
+        "notes": "Not found in any search results across all 25 keywords."
+      }
+    ],
+    "keywordGaps": [
+      "Calgary homes for sale",
+      "Calgary real estate",
+      "Calgary real estate agent",
+      "homes for sale Calgary AB",
+      "Calgary condos for sale",
+      "Calgary houses for sale",
+      "luxury homes Calgary",
+      "Calgary real estate market",
+      "buy home Calgary",
+      "sell home Calgary",
+      "Calgary MLS listings",
+      "Calgary property for sale",
+      "Calgary townhouses for sale",
+      "new homes Calgary",
+      "Calgary real estate market report",
+      "best neighborhoods Calgary",
+      "Calgary investment property",
+      "Cochrane homes for sale",
+      "Chestermere real estate",
+      "Lakeview Calgary homes",
+      "Calgary luxury real estate agent",
+      "Calgary first time home buyer",
+      "Calgary home prices 2026",
+      "Calgary real estate forecast",
+      "sell my house Calgary fast"
+    ],
+    "serpDominators": [
+      {
+        "domain": "zillow.com",
+        "role": "Top result for 6 of 25 keywords. Dominates broad transactional terms.",
+        "keywordsWon": ["Calgary homes for sale", "Calgary condos for sale", "Calgary houses for sale", "homes for sale Calgary AB", "Calgary real estate agent", "buy home Calgary"]
+      },
+      {
+        "domain": "realtor.ca",
+        "role": "Top result for 2 keywords. Strong presence across almost all listing-based searches.",
+        "keywordsWon": ["Calgary real estate", "Calgary MLS listings"]
+      },
+      {
+        "domain": "calgaryhomes.ca",
+        "role": "Top result for 3 keywords. Owned by Justin Havre / eXp Realty team.",
+        "keywordsWon": ["new homes Calgary", "Lakeview Calgary homes", "Calgary first time home buyer"]
+      },
+      {
+        "domain": "wowa.ca",
+        "role": "Top result for 2 keywords. Dominates market data/report searches.",
+        "keywordsWon": ["Calgary real estate market", "Calgary real estate market report"]
+      }
+    ],
+    "strategicRecommendations": {
+      "immediateOpportunities": [
+        {
+          "category": "Long-tail / Low Competition Keywords",
+          "keywords": ["Lakeview Calgary homes", "Cochrane homes for sale", "Chestermere real estate", "sell my house Calgary fast", "Calgary luxury real estate agent"],
+          "rationale": "These have lower competition and fewer portal dominators. Neighbourhood-specific and intent-specific pages can rank with good on-page SEO and local signals."
+        },
+        {
+          "category": "Informational Content Gap",
+          "keywords": ["best neighborhoods Calgary", "Calgary first time home buyer", "Calgary investment property", "Calgary home prices 2026", "Calgary real estate forecast"],
+          "rationale": "Blog/guide content targeting these informational queries can build topical authority. justinhavre.com ranks well for these via blog posts, proving individual agent sites can compete."
+        }
+      ],
+      "mediumTermTargets": [
+        {
+          "category": "Transactional Property Type Pages",
+          "keywords": ["Calgary condos for sale", "Calgary townhouses for sale", "luxury homes Calgary", "new homes Calgary"],
+          "rationale": "Dedicated property type pages with IDX/MLS integration, unique content, and schema markup can compete against portals over time."
+        },
+        {
+          "category": "Seller-Focused Keywords",
+          "keywords": ["sell home Calgary", "sell my house Calgary fast", "Calgary real estate market report"],
+          "rationale": "Seller keywords have less portal domination. Content like home valuation tools, seller guides, and market reports can drive qualified leads."
+        }
+      ],
+      "longTermTargets": [
+        {
+          "category": "Head Terms",
+          "keywords": ["Calgary homes for sale", "Calgary real estate", "Calgary houses for sale", "homes for sale Calgary AB", "Calgary MLS listings"],
+          "rationale": "These are dominated by major portals (Zillow, Realtor.ca, Redfin, REMAX). Require significant domain authority, backlink profile, and content volume to compete. Focus on building authority through long-tail wins first."
+        }
+      ],
+      "competitiveInsights": {
+        "justinHavreStrategy": "Justin Havre dominates local agent rankings by operating TWO domains (justinhavre.com + calgaryhomes.ca), creating dedicated pages for every property type, neighbourhood, and surrounding community. Extensive blog content covers market reports, neighbourhood guides, and buyer/seller resources. This content-heavy approach is the model to emulate.",
+        "weakCompetitors": "karenfawcett.ca and jdrealestatecalgary.ca have zero organic visibility across all 25 keywords - they are not current SEO threats. reevesrealty.ca only appeared once. These competitors rely on other channels (referrals, paid ads, social).",
+        "portalDomination": "Major portals (zillow.com, realtor.ca, redfin.ca, remax.ca, rew.ca, zolo.ca) dominate the top positions for high-volume transactional keywords. Individual agent sites need to differentiate with local expertise content, community pages, and long-tail targeting."
+      }
+    }
+  }
+}

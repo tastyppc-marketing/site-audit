@@ -1,0 +1,39 @@
+Priority,Action_Type,Entity_Type,Entity_Name,Current_State,Recommended_Change,Expected_Impact,Notes
+1-IMMEDIATE,MODIFY_SETTING,Campaign,All campaigns,Daily budget ~$119/day,Reduce to $33/day total ($16-17/campaign),Saves ~$2570/mo overspend,Single most urgent fix — 3.6x over budget
+1-IMMEDIATE,MODIFY_SETTING,Campaign,All campaigns,Presence & Interest geo-targeting,Switch to Presence Only,Saves $400-460/mo (42% out-of-state waste),Only 9.1% of spend reaches service area
+1-IMMEDIATE,PAUSE,Campaign,DS Cities,Active — duplicate of DS Cities #2,Pause entire campaign,Stops Google bidding against itself,100% overlap with DS Cities #2 (18 identical ad groups)
+1-IMMEDIATE,PAUSE,Campaign,DS Property Features,Active — near-duplicate of #2,Pause entire campaign,Stops internal auction competition,89 overlapping ad groups with #2 version
+1-IMMEDIATE,ADD_NEGATIVE,Campaign,All campaigns,"No negative keywords",Add 65+ out-of-area NC city negatives,Stops $39.43/2wk waste on wrong-city clicks,"asheville, charlotte, raleigh, cary, durham, fayetteville, etc."
+1-IMMEDIATE,ADD_NEGATIVE,Campaign,All campaigns,"No negative keywords",Add 40+ other-state negatives,Stops $236.51/2wk out-of-state spend,"florida, georgia, virginia, california, texas, etc."
+1-IMMEDIATE,ADD_NEGATIVE,Campaign,All campaigns,"No negative keywords",Add rental/lease negatives,Blocks rental queries matching DSA,"rent, rental, apartment, lease, tenant, section 8"
+1-IMMEDIATE,ADD_NEGATIVE,Campaign,All campaigns,"No negative keywords",Add mobile/manufactured home negatives,Blocks irrelevant housing type queries,"mobile home, manufactured, trailer, double wide, modular"
+1-IMMEDIATE,ADD_NEGATIVE,Campaign,All campaigns,"No negative keywords",Add foreclosure/distressed negatives,Blocks low-intent bargain queries,"foreclosure, bank owned, reo, short sale, tax lien"
+1-IMMEDIATE,ADD_NEGATIVE,Campaign,All campaigns,"No negative keywords",Add low-intent/aspirational negatives,Blocks browsing-only queries,"most expensive, mansions, cheapest, celebrity homes"
+1-IMMEDIATE,PAUSE,Ad Group,121 dead/near-dead ad groups,0 impressions or <5 impressions,Pause all 121 ad groups,Reduces noise — 55% of ad groups are inactive,"56 have 0 impressions, 65 have 1-5"
+1-IMMEDIATE,PAUSE,Ad Group,All luxury-homes ad groups (16),90.4% irrelevant match rate,Pause all 16 luxury-homes feature groups,Stops waste — 9/10 matches are irrelevant,Worst-performing feature type by match quality
+1-IMMEDIATE,MODIFY_SETTING,Campaign,All campaigns,No ad schedule adjustments,Set -75% bid for 1am-5am,Saves ~$79/mo,$88.12 spent late-night with only 1 conversion
+1-IMMEDIATE,MODIFY_SETTING,Campaign,All campaigns,No device adjustments,Set -30% bid for desktop,Saves ~$82/mo,0 conversions from desktop ($38.19 spent)
+1-IMMEDIATE,MODIFY_SETTING,Campaign,All campaigns,No day-of-week adjustments,Set -50% bid for Saturdays,Saves ~$80/mo,0 conversions on Saturdays ($74.64 spent)
+1-IMMEDIATE,MODIFY_SETTING,Campaign,All campaigns,DSA targets all site pages,Exclude /property-search/results/ from DSA,Redirects budget to content pages,83% of landing URLs are IDX results with 0 conversions
+2-THIS_WEEK,MODIFY_SETTING,Campaign,Remaining campaigns,Maximize Clicks bidding,Switch to Maximize Conversions,Optimizes for leads instead of cheap clicks,30+ conversions = enough data for smart bidding
+2-THIS_WEEK,MODIFY_KEYWORD,Ad Group,horse-property groups,Current DSA targeting,Scale — increase budget allocation to 15%,Horse property has 0% irrelevant rate + conversions,Best-performing niche by match quality
+2-THIS_WEEK,MODIFY_KEYWORD,Ad Group,homes-with-acreage groups,Current DSA targeting,Scale — increase budget allocation to 15%,2 of 5 conversions came from acreage searches,Strong converting theme
+2-THIS_WEEK,ADD_KEYWORD,Campaign,DS Property Features #2,No explicit page feed for converting terms,"Add page feed: horse farm southern pines, land burgaw nc",Locks in converting queries as explicit targets,Based on the 5 converting search terms
+2-THIS_WEEK,ADD_EXTENSION,Campaign,All campaigns,No sitelinks,Add 4+ sitelinks: Communities / About Lisa / Contact / Featured Listings,Improves CTR and Quality Score,Free ad enhancement — should always be present
+2-THIS_WEEK,ADD_EXTENSION,Campaign,All campaigns,No callouts,Add callouts: Local Expert / Free Home Valuation / Licensed NC Agent,Improves ad real estate,Free enhancement
+2-THIS_WEEK,ADD_EXTENSION,Campaign,All campaigns,No call extension,Add call extension with tracking number,Captures phone leads directly from ad,Phone calls are highest-intent leads
+2-THIS_WEEK,ADD_EXTENSION,Campaign,All campaigns,No structured snippets,"Add: Neighborhoods, Property Types, Amenities",Additional ad real estate,Free enhancement
+3-NEXT_2_WEEKS,MODIFY_SETTING,Campaign,All campaigns,No bid adjustments for peak times,Set +10% bid for 8am-1pm and Thu/Fri,Concentrates budget on highest-converting periods,6/11 conversions come Thu/Fri — peak 8am-1pm
+3-NEXT_2_WEEKS,MODIFY_KEYWORD,Ad Group,All ad groups,221 ad groups — severe over-segmentation,Consolidate down to 20-30 focused ad groups,Better data per group for optimization,$1K/mo budget can't support 221 ad groups
+3-NEXT_2_WEEKS,MODIFY_SETTING,Campaign,All campaigns,IDX reg and phone calls tracked same,Set up separate conversion actions for IDX reg vs phone calls,Enables bid strategy to value phone calls higher,Phone calls close at 10x the rate of web registrations
+3-NEXT_2_WEEKS,MODIFY_SETTING,Campaign,All campaigns,No information,Clarify: Does Lisa serve Johnston County and Moore County?,Determines $165/mo in spend allocation,These inland counties are 150 miles from Wilmington
+4-MONTH_1,ADD_AD_GROUP,Campaign,New campaign,No separate geographic campaigns,Create separate campaigns for Coastal vs Inland markets,Better budget control per market,Currently mixing 2 markets 150 miles apart
+4-MONTH_1,MODIFY_SETTING,Campaign,All campaigns,No landing page optimization,Build niche landing pages for horse property / acreage / waterfront,Higher conversion rate on targeted pages,DSA currently sends traffic to generic IDX pages
+4-MONTH_1,MODIFY_SETTING,Account,Conversion tracking,No offline conversion imports,Set up offline conversion imports (registration → closed deal),Google can optimize for actual business outcomes,Critical for long-term bidding optimization
+4-MONTH_1,MODIFY_SETTING,Campaign,All campaigns,Maximize Conversions,Test Target CPA once 60+ conversions accumulated,More precise cost control,Requires sufficient conversion history
+4-MONTH_1,ADD_AD_GROUP,Campaign,New consideration,No Spanish language support,Decision: Add Spanish landing pages OR add Spanish negative keywords,Either capture or block Spanish-speaking audience,1 conversion came from Spanish query
+5-MONTH_2_3,ADD_AD_GROUP,Campaign,New campaign,No call-only campaigns,Launch call-only campaigns for high-intent keywords,Phone leads close at 10x web registration rate,Best ROI channel for real estate
+5-MONTH_2_3,MODIFY_SETTING,Campaign,New campaign,No Performance Max,Evaluate PMax once fundamentals are fixed and conversion data is clean,Broader reach across YouTube/Display/Maps,Do NOT launch until geo/budget/conversion fixes are solid
+5-MONTH_2_3,ADD_AD_GROUP,Campaign,Remarketing,No remarketing audiences,Build remarketing from site visitors and converters,Re-engage listing browsers who didn't convert,Requires audience buildup over months 1-2
+5-MONTH_2_3,MODIFY_SETTING,Account,Lead response,Unknown response time,Implement speed-to-lead automation (respond in <5 minutes),78% of buyers work with first responder,21x close rate improvement with 5-min response
+5-MONTH_2_3,MODIFY_SETTING,Campaign,Landing pages,IDX forced registration only,A/B test forced registration vs soft CTA landing pages,Determine if forced reg hurts lead quality,Current 0% close rate suggests quality issue
