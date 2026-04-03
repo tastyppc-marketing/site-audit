@@ -1,0 +1,103 @@
+{
+  "expectations": [
+    {
+      "text": "Produces a structured audit report BEFORE making code changes",
+      "passed": true,
+      "evidence": "The audit-report.md has a structured format: 'Files Analyzed' table, then 'Issues Found' with 16 numbered issues (each with Problem/Fix/Impact), then 'Summary of Changes' table. The report reads as an audit-first document. Without a transcript, ordering cannot be definitively confirmed."
+    },
+    {
+      "text": "Identifies chart container responsive sizing as an issue or verifies it is handled",
+      "passed": true,
+      "evidence": "Issue #10 'Responsiveness: Chart Canvas Overflow on Mobile (report-styles.css)': '.chart-container canvas had max-height: 350px but no width constraint. On narrow screens, the canvas could exceed the container width, causing horizontal overflow.' Fix adds 'width: 100% !important; height: auto !important; max-width: 100%' to canvas elements. Also Issue #12 addresses schema chart stacking on tablets."
+    },
+    {
+      "text": "Ensures tables have overflow-x: auto wrappers or equivalent horizontal scroll handling",
+      "passed": true,
+      "evidence": "report-styles.css line 230: '.report-table-wrap { overflow-x: auto; }' is present. Issue #11 specifically addresses tables: 'The 6-column site structure table and 3-column crawl issues table overflow on mobile. While overflow-x: auto was set, users had no visual indication that horizontal scrolling was available.' Added scroll hints, sticky first column, and overflow detection. CSS includes '.scrollable-hint::before' pseudo-element for visual scroll indicator."
+    },
+    {
+      "text": "Checks script loading strategy (identifies render-blocking scripts or verifies defer/async usage)",
+      "passed": true,
+      "evidence": "Issue #1 'Critical Performance: Tailwind JIT Compiler Script': identifies the Tailwind CDN as a ~300KB render-blocking script and replaces it with pre-built CSS loaded non-blocking via media='print' onload. Issue #2 'Critical Performance: Render-Blocking Chart.js': identifies Chart.js as synchronous in <head> and adds defer attribute. technical.html shows 'defer' on Chart.js script (line 69)."
+    },
+    {
+      "text": "Preserves Chart.js initialization and all dynamic rendering functions in technical.js",
+      "passed": true,
+      "evidence": "technical.js preserves all 6 render functions: renderCoreWebVitals (line 352), renderPageSpeed (line 408), renderSchemaAudit (line 582), renderMetaTagAudit (line 707), renderCrawlIssues (line 805), renderSiteStructure (line 868). Also adds renderProgressively (line 948). charts.js preserves createBarChart (line 144) and createDoughnutChart (line 184) with Chart.js initialization. However, the Tailwind CDN was replaced with a pre-built CSS file -- while this preserves Chart.js specifically, the Tailwind change removes the JIT compiler which means custom Tailwind utility classes might not resolve. This is a significant change but Chart.js initialization per se is preserved."
+    },
+    {
+      "text": "Addresses Core Web Vitals concerns (LCP, CLS, or TBT mentioned with specific findings)",
+      "passed": true,
+      "evidence": "Issue #6 mentions 'blocks the main thread for the entire build time' which relates to TBT/long tasks. Issue #4 discusses FOUC (Flash of Unstyled Content) which relates to LCP. Issue #7 notes lazy chart rendering to avoid CPU blocking. Issue #8 discusses DPR cap and animation removal on mobile. The report mentions 'Core Web Vitals' directly in Issue #6's impact: 'First section (Core Web Vitals) appears much faster. Eliminates long-task jank.' While CLS/LCP/TBT aren't used as formal metric labels, the report addresses the underlying concerns with specific findings and the term 'Core Web Vitals' is used explicitly."
+    },
+    {
+      "text": "Reports include severity classifications (critical/high/medium/low or equivalent)",
+      "passed": false,
+      "evidence": "Issues use descriptive category prefixes in headings: 'Critical Performance' (2), 'Performance' (6), 'Responsiveness' (6), 'Layout Performance' (1), and 'Missing Meta Description' (1). These are categories (performance vs. responsiveness) with only 'Critical' as a severity indicator. There is no High/Medium/Low classification. Issues are numbered 1-16 sequentially with no severity grouping or classification system beyond the 'Critical' prefix on two items."
+    },
+    {
+      "text": "Does not increase total CSS or JS file size significantly (no bloat from fixes)",
+      "passed": false,
+      "evidence": "Original total: 76,396 bytes (CSS 21,629 + JS 43,376 + charts.js 11,391). Without skill total: 88,232 bytes (CSS 26,352 + JS 45,792 + charts.js 16,088). Increase: 11,836 bytes (+15.5%). Charts.js increased from 11,391 to 16,088 (+41.2%) due to IntersectionObserver lazy loading, DPR capping, and animation removal. The total increase of ~12KB is borderline, but the 41% increase in charts.js specifically and 15.5% overall represents meaningful bloat. Additionally, the Tailwind CDN was replaced with a pre-built CSS file referenced externally, which adds a new ~3MB+ CSS download not counted in these file sizes."
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "failed": 2,
+    "total": 8,
+    "pass_rate": 0.75
+  },
+  "timing": {
+    "total_tokens": 96826,
+    "duration_ms": 640575,
+    "total_duration_seconds": 640.6
+  },
+  "claims": [
+    {
+      "claim": "Tailwind CDN replaced with pre-built CSS (~300KB JS eliminated)",
+      "type": "process",
+      "verified": true,
+      "evidence": "technical.html references 'https://cdn.jsdelivr.net/npm/tailwindcss@3.4.17/dist/tailwind.min.css' via a link tag with media='print' onload pattern, replacing the original cdn.tailwindcss.com script tag."
+    },
+    {
+      "claim": "Canvas rendering cost reduced by ~33% on 3x displays",
+      "type": "quality",
+      "verified": false,
+      "evidence": "The DPR cap at 2 is implemented in charts.js (Chart.defaults.devicePixelRatio), but the 33% reduction claim cannot be verified without runtime measurement. The math is plausible (3x to 2x reduces pixel count by ~33%) but this is an estimate."
+    },
+    {
+      "claim": "IntersectionObserver-based lazy rendering added for charts",
+      "type": "process",
+      "verified": true,
+      "evidence": "charts.js contains IntersectionObserver code at multiple points, with a fallback pattern for browsers without support."
+    },
+    {
+      "claim": "requestAnimationFrame progressive rendering added",
+      "type": "process",
+      "verified": true,
+      "evidence": "technical.js line 948 contains renderProgressively function that uses requestAnimationFrame to yield between section renders."
+    },
+    {
+      "claim": "Replaced Tailwind JIT with pre-built CSS -- custom colors handled by CSS custom properties",
+      "type": "factual",
+      "verified": false,
+      "evidence": "The original HTML has a tailwind.config block that defines custom colors and border-radius extensions. These are NOT just CSS custom properties -- they are Tailwind configuration that requires the JIT compiler to resolve. Replacing the JIT with pre-built CSS means custom utility classes like 'bg-grade-a' or 'text-accent-blue' may not resolve. This is a potentially breaking change that the report does not acknowledge."
+    }
+  ],
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "assertion": "Does not increase total CSS or JS file size significantly (no bloat from fixes)",
+        "reason": "This assertion should account for external resources too. The without_skill run swapped a 300KB JS Tailwind CDN for a 3MB+ pre-built CSS file -- this dramatically increases total download size even though the local file sizes only grew 15%. Consider measuring total page weight including CDN resources."
+      },
+      {
+        "assertion": "Preserves Chart.js initialization and all dynamic rendering functions in technical.js",
+        "reason": "This assertion passes even when the Tailwind replacement potentially breaks the page's visual rendering. Consider adding an assertion that verifies the page would still render correctly (e.g., 'does not replace critical CDN resources with incompatible alternatives')."
+      },
+      {
+        "reason": "No assertion checks whether the changes maintain backward compatibility with the existing tailwind.config. The without_skill run removed the Tailwind JIT compiler, which could break custom utility classes used throughout the page. This is a significant oversight."
+      }
+    ],
+    "overall": "The assertions miss the Tailwind CDN replacement risk in the without_skill run. Adding an assertion about not breaking existing framework dependencies would catch this."
+  }
+}

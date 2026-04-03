@@ -710,6 +710,7 @@
         ? '<div class="grid gap-6 xl:grid-cols-2">' +
             '<div>' +
               '<h3 class="text-base font-bold text-slate-800 mb-4">Pages Missing Key Meta Tags</h3>' +
+              '<div data-filterable data-filters=\'[{"col":1,"label":"Missing","type":"unique"}]\'>' +
               '<div class="report-table-wrap">' +
                 '<table class="report-table">' +
                   '<thead><tr><th>Page</th><th>Missing</th><th>Details</th></tr></thead>' +
@@ -735,6 +736,7 @@
                       : '<tr><td colspan="3" class="text-slate-500">No missing title, description, or canonical tags were flagged.</td></tr>') +
                   '</tbody>' +
                 '</table>' +
+              '</div>' +
               '</div>' +
             '</div>' +
             '<div>' +
@@ -812,6 +814,7 @@
         statCard(String(redirectCount), '3xx redirect issues', redirectCount ? 'orange' : 'green') +
         statCard(String(uniqueCount(sortedIssues.map(function (issue) { return issue && issue.statusCode; }))), 'Unique status codes', 'orange') +
       '</div>' +
+      '<div data-filterable data-filters=\'[{"col":1,"label":"Status","type":"badge"}]\'>' +
       '<div class="report-table-wrap">' +
         '<table class="report-table">' +
           '<thead><tr><th>URL</th><th>Status</th><th>Issue</th></tr></thead>' +
@@ -825,6 +828,7 @@
             }).join('') +
           '</tbody>' +
         '</table>' +
+      '</div>' +
       '</div>';
   }
 
@@ -867,6 +871,7 @@
         statCard(avgExternalLinks != null ? formatNumber(Math.round(avgExternalLinks)) : 'N/A', 'Average external links', 'orange') +
         statCard(String(pagesWithIssues), 'Pages with issues', pagesWithIssues ? 'red' : 'green', pagesWithSchema + ' pages show schema coverage') +
       '</div>' +
+      '<div data-filterable data-filters=\'[{"col":4,"label":"Schema","type":"badge"},{"col":5,"label":"Issues","options":["None","Has issues"]}]\'>' +
       '<div class="report-table-wrap">' +
         '<table class="report-table">' +
           '<thead><tr><th>Page</th><th>Words</th><th>H1 / H2</th><th>Links</th><th>Schema</th><th>Issues</th></tr></thead>' +
@@ -899,6 +904,7 @@
             }).join('') +
           '</tbody>' +
         '</table>' +
+      '</div>' +
       '</div>';
   }
 
@@ -910,6 +916,7 @@
       this.renderMetaTagAudit(data);
       this.renderCrawlIssues(data);
       this.renderSiteStructure(data);
+      if (window.TPPC.filters) window.TPPC.filters.init();
     },
 
     renderCoreWebVitals: renderCoreWebVitals,

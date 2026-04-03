@@ -1,411 +1,396 @@
 # Site Structure Analysis: sellingcalgarycastles.com
 
-**Crawl Date:** March 23, 2026
-**Agent:** Neil Rowlandson, Calgary Real Estate
-**Platform:** RealtyPress / IDX Broker on Cloudflare
+**Crawl Date:** March 31, 2026 (v2 Fresh Crawl)
+**Agent:** Neil Rowlandson / Calgary Castles Team / CIR Realty
+**Platform:** Sierra Interactive IDX on Cloudflare
+**Domain:** https://www.sellingcalgarycastles.com
 
 ---
 
-## 1. Sitemap Analysis
+## 1. Sitemap Overview
 
-### Overview
-- **Sitemap location:** `https://sellingcalgarycastles.com/sitemap.xml` (standard XML urlset)
-- **Total URLs in sitemap:** 38
-- **Content pages analyzed:** 36
-- **IDX/filter pages skipped:** 2 (property-search/results)
+**Sitemap URL:** https://www.sellingcalgarycastles.com/sitemap.xml
+**Total URLs in sitemap:** 38
+**Content pages analyzed:** 36
+**IDX/filter pages skipped:** 2
 
 ### URL Categories
 
-| Category | Total | Content | IDX/Filter | Notes |
-|----------|-------|---------|------------|-------|
-| Buyers (guides) | 8 | 8 | 0 | Financial glossary, first-time buyers, mortgage calculator, etc. |
-| Sellers (guides) | 6 | 6 | 0 | Pricing, marketing, showing, adding value, etc. |
-| Blog posts | 4 | 4 | 0 | All mortgage/buying themed; outdated content |
-| Property Search | 4 | 2 | 2 | Site map, property tracker; 2 results pages skipped |
-| Community pages | 10 | 10 | 0 | Auburn Bay, Bridlewood, Chaparral, Cranston, Evergreen, Legacy, Mahogany, McKenzie Towne, New Brighton, Walden |
-| Communities hub | 1 | 1 | 0 | Index page linking to community pages |
-| Contact | 2 | 2 | 0 | Contact form + thank-you page (thank-you returns 403) |
-| About | 1 | 1 | 0 | Agent bio page |
-| Featured Listings | 1 | 1 | 0 | MLS-powered listings display |
-| Homepage | 1 | 1 | 0 | Main landing page |
+| Category | Total | Content | IDX/Filter |
+|----------|-------|---------|------------|
+| buyers | 8 | 8 | 0 |
+| sellers | 6 | 6 | 0 |
+| blog | 4 | 4 | 0 |
+| property-search | 4 | 2 | 2 |
+| contact | 2 | 2 | 0 |
+| homepage | 1 | 1 | 0 |
+| communities | 1 | 1 | 0 |
+| about | 1 | 1 | 0 |
+| featured-listings | 1 | 1 | 0 |
+| Community pages (10) | 10 | 10 | 0 |
 
-### Key Observations
-- **Very small site** with only 38 URLs total -- limited content footprint
-- **Only 4 blog posts** -- severely underutilized content marketing
-- **10 community pages** -- good local SEO foundation but needs expansion
-- **No dedicated service pages** (e.g., "Calgary REALTOR," "Luxury Homes," "Condos for Sale")
-- **Missing pages:** No privacy policy, terms of service, or accessibility page in sitemap
+**Community pages:** Auburn Bay, Bridlewood, Chaparral, Cranston, Evergreen, Legacy, Mahogany, Mckenzie Towne, New Brighton, Walden
+
+**Notable:** The sitemap is very small (38 URLs). No blog index page is in the sitemap. The /blog/ page exists but is not listed in sitemap.xml. Only 4 blog posts exist on the entire site.
 
 ---
 
-## 2. Navigation and Internal Linking
+## 2. Robots.txt Review
 
-### Navigation Structure
-All analyzed pages share a consistent header/footer navigation. The navigation includes links to:
-- Property Search, Communities, Buyers, Sellers, Contact, About
-- Footer includes social links, contact info, and additional navigation
+The robots.txt is Cloudflare-managed with additional custom rules:
 
-### Internal Linking Statistics
-
-| Metric | Average | Min | Max |
-|--------|---------|-----|-----|
-| Total internal links per page | 110 | 0 | 180 |
-| Contextual internal links per page | 64 | 0 | 133 |
-| External links per page | 16 | 0 | 18 |
-
-### Link Graph Analysis (Contextual Links Only)
-
-**Most linked-to pages (from contextual links across all crawled pages):**
-
-| Page | Inbound Contextual Links |
-|------|-------------------------|
-| /contact/ | 107 |
-| /blog/ (index -- not in sitemap) | 78 |
-| /blog/will-increasing-mortgage-rates-impact-home-prices/ | 69 |
-| / (homepage) | 69 |
-| /communities/ | 48 |
-| /property-search/property-tracker/ | 48 |
-| /buyers/ | 43 |
-| /sellers/ | 41 |
-| /sellers/free-market-analysis/ | 36 |
-| /featured-listings/ | 36 |
-
-**Orphaned pages** (no contextual inbound links from other crawled pages):
-1. `/property-search/site-map/` -- MLS listing directory, no internal links pointing to it
-2. `/contact/thank-you/` -- Returns 403 error; completely broken
-
-### Internal Linking Issues
-- **Blog index page (`/blog/`) is NOT in the sitemap** but receives 78 contextual links -- should be added
-- **Community pages get zero cross-links** between each other; only linked from the hub page
-- **Buyer/seller guide pages** share a flat link structure -- no progressive "next step" linking
-- **No contextual CTAs** linking to contact or market analysis from buyer/seller content
+- **User-agent: * -> Allow: /** (all pages crawlable)
+- **Content-Signal: search=yes, ai-train=no** (modern content signal compliance)
+- **Blocked bots:** Amazonbot, Applebot-Extended, Bytespider, CCBot, ClaudeBot, Google-Extended, GPTBot, meta-externalagent, PetalBot, Barkrowler
+- **No Sitemap directive in robots.txt** -- ISSUE: should include `Sitemap: https://www.sellingcalgarycastles.com/sitemap.xml`
+- **No disallow rules for standard crawlers** -- all pages are crawlable
+- Googlebot and Bingbot are NOT blocked (correct)
 
 ---
 
-## 3. Meta Tag Audit
+## 3. Navigation and Internal Linking Assessment
+
+### Primary Navigation Structure
+The site uses a consistent mega-menu across all pages:
+- **Search** (Advanced Search, Search by Map, Property Tracker)
+- **Featured Listings**
+- **Communities** (dropdown with 10 community pages)
+- **Buyers** (7 sub-pages: Mortgage Calculator, Mortgage Pre-Approval, First Time Buyers, Making an Offer, What Are Closing Costs, Financial Terms Glossary, Personalized Home Search)
+- **Sellers** (5 sub-pages: Pricing Your Home, Marketing Your Home, Showing Your Home, Adding Value, Free Market Analysis)
+- **About**
+- **Contact**
+- **Blog** (in secondary nav only)
+
+### Internal Link Counts (per page)
+- Most pages: ~99-101 total internal links (~52-54 contextual)
+- Homepage: 115 total (68 contextual) -- highest contextual linking
+- Community pages with listings: ~127-131 total (80-84 contextual)
+- Featured listings: 130 total (83 contextual)
+- Financial terms glossary: 139 total (92 contextual) -- most contextual links
+
+### Footer Links
+Present on all pages: Search, Communities, Buyers, Sellers, About, Contact, Featured Listings, Newest Listings, Single Family Homes, Condos & Townhomes, New Construction, Accessibility, Terms of Service, Privacy Policy, DMCA Notice, Property Listings, Sitemap
+
+### Issues
+- **Duplicate sidebar/footer:** The "We're Here to Help" contact section appears 2-3 times on each page (duplicated in sidebar and slide-out panel)
+- **Orphaned pages (2):** /property-search/site-map/ and /contact/thank-you/ receive zero contextual internal links from other analyzed pages
+- **No cross-linking between buyer and seller content** (e.g., "Making an Offer" doesn't link to related seller pages)
+- **Blog posts only link to other blog posts,** not to service pages
+- **Community pages don't cross-link** to each other in body content
+- **Social media links go through url.avanan.click redirects** for Instagram, YouTube, and LinkedIn (email security proxy -- bad for SEO link equity and user trust)
+
+---
+
+## 4. Page-by-Page Meta Tag Audit
 
 ### Title Tags
 
-**Issues found:**
-- **6 titles under 20 characters (too short):**
-  - "Selling a Home" (14 chars) -- `/sellers/`
-  - "Making an Offer" (15 chars) -- `/buyers/making-an-offer/`
-  - "Featured Listings" (17 chars) -- `/featured-listings/`
-  - "Pricing Your Home" (17 chars) -- `/sellers/pricing-your-home/`
-  - "Showing Your Home" (17 chars) -- `/sellers/showing-your-home/`
-  - "Marketing Your Home" (19 chars) -- `/sellers/marketing-your-home/`
+| Page | Title | Chars | Issues |
+|------|-------|-------|--------|
+| / | Calgary Real Estate - Homes for Sale in Calgary | 47 | MULTIPLE_H1 |
+| /about/ | About Neil Rowlandson | 21 | OK |
+| /buyers/ | Information on Buying a Home | 28 | Generic, no location |
+| /buyers/first-time-buyers/ | First Time Buyers - Buying Your First Home | 42 | OK |
+| /buyers/financial-terms-glossary/ | Financial Terms Glossary | 24 | Generic |
+| /buyers/making-an-offer/ | Making an Offer | 15 | TOO SHORT |
+| /buyers/mortgage-calculator/ | Mortgage Calculator - Estimate Mortgage Payments | 48 | OK |
+| /buyers/mortgage-pre-approval/ | Get Pre-Approved for a Home Mortgage - Financing | 48 | OK |
+| /buyers/personalized-home-search/ | Personalized Home Search | 24 | Generic |
+| /buyers/what-are-closing-costs/ | What Are Closing Costs? | 23 | Generic |
+| /sellers/ | Selling a Home | 14 | TOO SHORT, no location |
+| /sellers/adding-value/ | Adding Value to Your Home | 25 | Generic |
+| /sellers/free-market-analysis/ | What's Your Property Worth? - Find Out the Estimated Value | 58 | OK |
+| /sellers/marketing-your-home/ | Marketing Your Home | 19 | TOO SHORT |
+| /sellers/pricing-your-home/ | Pricing Your Home | 17 | TOO SHORT |
+| /sellers/showing-your-home/ | Showing Your Home | 17 | TOO SHORT |
+| /communities/ | Community Guide - Local Real Estate by Community | 48 | No location keyword |
+| /auburn-bay/ | Auburn Bay Homes for Sale - Auburn Bay Real Estate | 50 | OK (template) |
+| /bridlewood/ | Bridlewood Homes for Sale - Bridlewood Real Estate | 50 | OK (template) |
+| /chaparral/ | Chaparral Homes for Sale - Chaparral Real Estate | 48 | OK (template) |
+| /cranston/ | Cranston Homes for Sale - Cranston Real Estate | 46 | OK (template) |
+| /evergreen/ | Evergreen Homes for Sale - Evergreen Real Estate | 48 | OK (template) |
+| /legacy/ | Legacy Homes for Sale - Legacy Real Estate | 42 | OK (template) |
+| /mahogany/ | Mahogany Homes for Sale - Mahogany Real Estate | 46 | OK (template) |
+| /mckenzie-towne/ | Mckenzie Towne Homes for Sale - Mckenzie Towne Real Estate | 58 | OK (template) |
+| /new-brighton/ | New Brighton Homes for Sale - New Brighton Real Estate | 54 | OK (template) |
+| /walden/ | Walden Homes for Sale - Walden Real Estate | 42 | OK (template) |
+| /featured-listings/ | Featured Listings | 17 | TOO SHORT |
+| /contact/ | Contact Neil Rowlandson | 23 | OK |
+| /contact/thank-you/ | 403 - Forbidden: Access is denied. | 34 | BROKEN PAGE (403 error) |
+| /blog/will-increasing-mortgage-rates.../ | Will Increasing Mortgage Rates Impact Home Prices? | 50 | OK |
+| /blog/common-things-to-look-out.../ | Common Things to Look Out for Before Buying Your Dream Home | 59 | OK |
+| /blog/why-you-should-consider-selling.../ | Why You Should Consider Selling in the Winter | 45 | OK |
+| /blog/is-getting-a-home-mortgage.../ | Is Getting a Home Mortgage Still Too Difficult? | 47 | OK |
+| /property-search/site-map/ | Calgary MLS Listings | 20 | OK |
+| /property-search/property-tracker/ | Account Home - Calgary AB Homes for Sale and Real Estate | 56 | OK |
 
-- **0 titles over 60 characters** -- no truncation issues
-
-**Pattern issues:**
-- Titles lack geographic targeting (no "Calgary" in most buyer/seller page titles)
-- Titles are generic and miss keyword opportunities (e.g., "Making an Offer" vs "Making an Offer on a Calgary Home | Neil Rowlandson")
-- No brand name (agent name or site name) appended to any titles
-- Community page titles follow a good pattern: "[Community] Homes for Sale - [Community] Real Estate"
+**Summary:** 6 pages with titles under 20 chars (too short). Most titles lack "Calgary" location keyword. Community page titles are well-optimized with the "[Community] Homes for Sale - [Community] Real Estate" template.
 
 ### Meta Descriptions
 
+| Page | Description | Chars | Issues |
+|------|-------------|-------|--------|
+| / | Search homes for sale in Calgary... | 134 | OK |
+| /about/ | Neil Rowlandson represents the region's finest... | 140 | OK |
+| /buyers/ | Your guide to buying a home. | 28 | TOO SHORT, too generic |
+| /buyers/first-time-buyers/ | A guide to buying your first home... | 100 | OK |
+| /buyers/financial-terms-glossary/ | An explanation of commonly used terms... | 79 | OK |
+| /buyers/making-an-offer/ | Tips on making an offer when buying a home. | 43 | Short |
+| /sellers/ | Guide to selling a home. | 24 | TOO SHORT, too generic |
+| /sellers/marketing-your-home/ | Tips on marketing your home. | 28 | TOO SHORT |
+| /sellers/free-market-analysis/ | Find out the estimated value of your property. | 46 | Short |
+| /communities/ | A guide to homes for sale in our featured communities. | 54 | Short, no location |
+| /featured-listings/ | Browse our featured listings, updated from the MLS. | 52 | Short |
+| /contact/ | Contact Neil Rowlandson using the following information. | 56 | OK |
+| /contact/thank-you/ | MISSING | 0 | MISSING (403 error page) |
+| /blog/will-increasing-mortgage-rates.../ | There has been some discussion recently... | 305 | FAR TOO LONG |
+| /blog/common-things-to-look-out.../ | It is easy to become overwhelmed... | 316 | FAR TOO LONG |
+| /blog/why-you-should-consider-selling.../ | The season you sell your home... | 524 | FAR TOO LONG |
+| /blog/is-getting-a-home-mortgage.../ | Potential homebuyers are always cautioned... | 426 | FAR TOO LONG |
+| Community pages (10) | Template: "Search homes & real estate for sale in [Community]..." | 131-139 | OK |
+
+**Summary:** All 4 blog posts have meta descriptions exceeding 160 chars (up to 524 chars). Several buyer/seller pages have very short, generic descriptions under 50 chars. No descriptions include calls to action.
+
+---
+
+## 5. H1 Tag Audit
+
+| Page | H1 Tag | Issues |
+|------|--------|--------|
+| / | "Find Your Calgary Area Home" + "Calgary Real Estate" | MULTIPLE H1 (2) |
+| /property-search/property-tracker/ | MISSING | NO H1 |
+| /about/ | Neil Rowlandson | OK |
+| /buyers/ | Buying a Home in Calgary | OK |
+| /sellers/ | Selling a Home in Calgary | OK |
+| /communities/ | Community Guide | Generic, no location |
+| /contact/ | Contact Neil Rowlandson | OK |
+| /contact/thank-you/ | Server Error | BROKEN PAGE |
+| /featured-listings/ | Featured Listings | Generic |
+| /blog/* | Matches title tag text | OK |
+| Community pages | "[Community] Homes & Real Estate" | OK (template) |
+| Buyer sub-pages | Matches page topic | OK |
+| Seller sub-pages | Matches page topic | OK |
+
 **Issues found:**
-- **1 missing entirely:** `/contact/thank-you/` (broken 403 page)
-- **11 descriptions under 70 characters (too short/thin):**
-  - "Guide to selling a home." (24 chars) -- `/sellers/`
-  - "Your guide to buying a home." (28 chars) -- `/buyers/`
-  - "Tips on marketing your home." (28 chars) -- `/sellers/marketing-your-home/`
-  - And 8 more under 70 characters
-- **4 descriptions over 160 characters (too long/will be truncated):**
-  - `/blog/why-you-should-consider-selling-in-the-winter/` -- 524 chars (over by 364)
-  - `/blog/is-getting-a-home-mortgage-still-too-difficult/` -- 426 chars (over by 266)
-  - `/blog/common-things-to-look-out-for-before-buying-your-dream-home/` -- 316 chars (over by 156)
-  - `/blog/will-increasing-mortgage-rates-impact-home-prices/` -- 305 chars (over by 145)
-
-**Pattern issues:**
-- Blog meta descriptions appear to be auto-generated from the first paragraph of post content
-- Buyer/seller guide descriptions are generic and lack persuasive calls-to-action
-- No descriptions mention Neil Rowlandson or Calgary specifically
-
-### Open Graph Tags
-
-- **Only 4 of 36 pages have OG tags** (11%) -- all 4 are blog posts
-- **32 pages completely missing OG tags** -- sharing on social media will show generic/unpredictable previews
-- No Twitter Card meta tags on any page except blogs
+- Homepage has 2 H1 tags (should be 1)
+- Property Tracker page missing H1 entirely
+- /contact/thank-you/ returns a 403 error with "Server Error" as H1
 
 ---
 
-## 4. H1 Tag Audit
+## 6. Heading Structure Analysis
 
-### Overview
-- **35 of 36 pages have exactly 1 H1** (good)
-- **1 page has multiple H1 tags:** Homepage has 2 H1s ("Find Your Calgary Area Home" and "Calgary Real Estate")
-- **1 page has a generic/error H1:** `/contact/thank-you/` shows "Server Error" (403 page)
+Most pages follow a very flat heading structure:
+- **H1:** 1 per page (mostly correct)
+- **H2:** 4-6 per page -- mostly generated by the sidebar/footer template ("We're Here to Help", "Have a Question or Want a Free Market Report?"), not by unique page content
+- **H3:** 2 per page -- both are "Connect" (from the sidebar)
+- **H4-H6:** Not used on most pages
 
-### H1 Quality Assessment
+**Blog posts are the exception** -- they use H2/H3 tags for content structure (e.g., "Bottom Line", "Post a Comment", "Related Posts")
 
-| Page Type | H1 Pattern | Quality |
-|-----------|-----------|---------|
-| Homepage | "Find Your Calgary Area Home" + "Calgary Real Estate" | Fix: merge to single, keyword-rich H1 |
-| Community pages | "[Community] Homes & Real Estate" | Good pattern; consistent |
-| Buyer guides | Varies ("Buying a Home in Calgary", "Mortgage Calculator", etc.) | Acceptable but could be more keyword-targeted |
-| Seller guides | Varies ("Selling a Home in Calgary", "Pricing Your Home", etc.) | Generic; should include "Calgary" |
-| Blog posts | Full article title | Good practice |
-| About | "Neil Rowlandson" | Should include "Calgary REALTOR" or similar |
-| Contact | "Contact Neil Rowlandson" | Acceptable |
+**Community pages** have no content H2/H3 -- the body is just listing cards with no heading hierarchy for the community description.
+
+**Key Issue:** The heading structure is template-driven, not content-driven. Most H2/H3 tags come from the sidebar/footer CTA sections, not from meaningful content headings.
 
 ---
 
-## 5. Image Alt Text Analysis
+## 7. Image Alt Text Analysis
 
-### Overview
-- **Total images across all pages:** ~280
-- **Images missing alt text:** 23 total (on 2 pages)
+**Total images across all 36 pages:** 339
+**Images missing alt text:** 23 (6.8%)
 
-### Pages with Missing Alt Text
+| Page | Total Images | Missing Alt | Notes |
+|------|-------------|-------------|-------|
+| / (homepage) | 14 (tech check) / 11 (crawl) | 3-4 | Missing on: UserWay widget image, community background image, content background image |
+| /buyers/financial-terms-glossary/ | 25 | 20 | Most missing -- likely ad/widget images |
+| All other pages | 5-17 | 0 | Clean |
 
-| Page | Total Images | Missing Alt | Severity |
-|------|-------------|-------------|----------|
-| `/` (homepage) | 11 | 3 | Medium -- hero/showcase images lack alt |
-| `/buyers/financial-terms-glossary/` | 25 | 20 | Critical -- 80% of images have no alt text |
+**Images with alt text examples:**
+- Logo: "Neil Rowlandson" (acceptable, could be "Neil Rowlandson - Calgary Real Estate Agent")
+- Blog images: Descriptive alt text matching post titles (good)
+- UserWay accessibility widget: "Spinner: White decorative" (not critical)
 
-### Notes
-- Community pages all have 17 images each with proper alt text (good)
-- Blog posts (7 images each) all have proper alt text
-- Standard buyer/seller guide pages (5 images each) all have proper alt text
-- The glossary page appears to use icon/badge images without alt attributes
-
----
-
-## 6. Schema Markup Presence
-
-### Current State
-- **Only 5 of 36 pages have any schema markup** (14%)
-- **All 5 use "Event" schema only** (for Open House listings)
-- **Pages with Event schema:** Cranston, Featured Listings, Legacy, McKenzie Towne, New Brighton
-
-### Missing Schema Types
-The following schema types should be implemented:
-
-| Schema Type | Where | Priority |
-|-------------|-------|----------|
-| `RealEstateAgent` | Homepage, About page | Critical |
-| `LocalBusiness` | All pages (in site-wide JSON-LD) | Critical |
-| `WebSite` + `SearchAction` | Homepage | High |
-| `BreadcrumbList` | All pages | High |
-| `FAQPage` | Buyer/seller guides, community pages | Medium |
-| `Article` / `BlogPosting` | Blog posts | Medium |
-| `RealEstateListing` | Featured listings, community pages | Medium |
-| `WebPage` | All content pages | Low |
+**Key issue:** /buyers/financial-terms-glossary/ has 20 images without alt text -- these appear to be ad/widget images but still should have empty alt="" attributes explicitly rather than missing entirely.
 
 ---
 
-## 7. Canonical Tag Analysis
+## 8. Schema Markup Inventory
 
-### Overview
-- **33 of 36 pages have self-referencing canonical tags** (good)
-- **3 pages missing canonical tags:**
-  1. `/property-search/site-map/` -- MLS listing directory
-  2. `/property-search/property-tracker/` -- Account/login page
-  3. `/contact/thank-you/` -- Broken 403 page
+**Pages with schema:** 3 out of 36 (8.3%)
+**Pages without schema:** 33 (91.7%)
 
-### Canonical Observations
-- All canonical URLs correctly use `https://www.sellingcalgarycastles.com/` (www subdomain with trailing slash)
-- No HTTP-header canonicals detected (Link header)
-- No canonical conflicts or mismatches found
-- The sitemap uses `https://www.sellingcalgarycastles.com/` consistently (good)
+| Page | Schema Type | Details |
+|------|-------------|---------|
+| /chaparral/ | Event | Open House for 58 Chapala Crescent SE (Apr 3, 2026, 2-4 PM) |
+| /legacy/ | Event | Open House for 24 Legacy Landing (Apr 4, 2026, 1-3 PM) |
+| /mckenzie-towne/ | Event | Open House for 6 Elgin Meadows Gardens SE (Apr 5, 2026, 2-4 PM) |
 
----
+**Missing schema types that should be present:**
+- **RealEstateAgent** on /about/ page -- Neil Rowlandson, CIR Realty
+- **Organization** on homepage -- Calgary Castles Team
+- **LocalBusiness** -- address, phone, hours
+- **BreadcrumbList** on all pages -- breadcrumb navigation exists visually
+- **WebSite** with SearchAction -- site has a search box
+- **BlogPosting** on blog posts -- currently none present
+- **FAQPage** on buyer/seller informational pages
+- **RealEstateListing** on community pages with active listings
 
-## 8. Technical Issues Found
-
-### Critical Issues
-
-1. **Broken page: `/contact/thank-you/`** -- Returns 403 Forbidden with IIS error page. Title is "403 - Forbidden: Access is denied." No meta tags, no viewport, no content. This page is in the sitemap and should be fixed or removed.
-
-2. **Missing HSTS header** -- All 36 pages lack `Strict-Transport-Security` header. Site runs through Cloudflare but HSTS is not enabled.
-
-3. **No structured data (schema)** for core business identity -- No `RealEstateAgent`, `LocalBusiness`, or `WebSite` schema on any page.
-
-### High-Priority Issues
-
-4. **OG tags missing on 89% of pages** -- Only blog posts have Open Graph meta. Social sharing of community pages, buyer/seller guides, and homepage will show poor previews.
-
-5. **6 title tags too short** -- Generic titles like "Selling a Home" waste keyword opportunities and look thin in SERPs.
-
-6. **4 blog meta descriptions exceeding 500+ characters** -- Auto-generated from content; will be heavily truncated in search results.
-
-7. **11 meta descriptions under 70 characters** -- Thin descriptions that fail to differentiate pages in SERPs.
-
-### Medium-Priority Issues
-
-8. **Homepage has 2 H1 tags** -- Confuses heading hierarchy and dilutes primary keyword signal.
-
-9. **Missing viewport meta on `/contact/thank-you/`** -- This is the broken 403 page, but if fixed it needs viewport meta for mobile usability.
-
-10. **20 images missing alt text on Financial Terms Glossary** -- Accessibility and image SEO issue.
-
-11. **3 images missing alt text on homepage** -- Homepage images should have descriptive alt text.
-
-12. **Blog index (`/blog/`) not in sitemap** -- Receives 78 contextual inbound links but is not submitted to search engines via sitemap.
-
-### Low-Priority Issues
-
-13. **No `Content-Security-Policy` header** -- Security best practice.
-14. **No `Permissions-Policy` header** -- Security best practice.
-15. **`Referrer-Policy` set to `no-referrer-when-downgrade`** -- Consider switching to `strict-origin-when-cross-origin` for better privacy.
-16. **Server identifies as Cloudflare** -- Not an issue, but server header could be minimized.
-
-### Security Headers Present (Positive)
-
-| Header | Value | Status |
-|--------|-------|--------|
-| X-Content-Type-Options | nosniff | Good |
-| X-Frame-Options | SAMEORIGIN | Good |
-| Referrer-Policy | no-referrer-when-downgrade | Acceptable |
-| Cache-Control | public, max-age=2678400 (~31 days) | Good |
+The only schema present is auto-generated Event markup from the Sierra Interactive platform for open houses on some community pages.
 
 ---
 
-## 9. Content Quality Assessment
+## 9. Canonical Tag Analysis
 
-### Word Count Distribution
+| Status | Count | Pages |
+|--------|-------|-------|
+| Self-referencing canonical (correct) | 33 | Most pages |
+| Missing canonical | 3 | /property-search/site-map/, /property-search/property-tracker/, /contact/thank-you/ |
+| HTTP canonical (Link header) | 0 | None detected |
+| Multiple canonicals | 0 | None |
 
-| Page Type | Avg Word Count | Range | Assessment |
-|-----------|---------------|-------|------------|
-| Community pages (10) | ~2,975 | 2,943 - 3,018 | Good depth |
-| Blog posts (4) | ~2,484 | 2,355 - 2,638 | Adequate |
-| Buyer guides (8) | ~2,822 | 2,147 - 6,711 | Variable; glossary is strong |
-| Seller guides (6) | ~2,439 | 2,180 - 2,993 | Adequate |
-| Homepage | 2,379 | -- | Good |
-
-### Content Gaps
-- **Only 4 blog posts** -- All focus on mortgages/buying; none about Calgary neighborhoods, market trends, or selling tips specific to Calgary
-- **No service-specific landing pages** -- Missing pages for "Calgary luxury homes," "Calgary condos," "Calgary investment properties," etc.
-- **No market report or statistics pages** -- Major missed opportunity for local SEO
-- **Community pages are templated** -- Similar structure and word count suggests boilerplate content with minimal unique local detail
+**Issues:**
+- 3 pages missing canonical tags entirely
+- /contact/thank-you/ is a 403 error page and should be removed from sitemap
+- No HTTP-header-level canonical detected on any page
 
 ---
 
-## 10. Robots.txt Analysis
+## 10. Open Graph / Social Meta Analysis
 
-### Key Findings
-- **Cloudflare Managed robots.txt** with Content-Signal directives
-- `User-agent: * / Allow: /` -- All pages accessible to standard crawlers
-- **AI bots explicitly blocked:** ClaudeBot, GPTBot, Bytespider, CCBot, Google-Extended, meta-externalagent, Applebot-Extended, Amazonbot
-- **No Disallow rules for standard search bots** -- Good
-- **No sitemap directive** in robots.txt -- Should include `Sitemap: https://www.sellingcalgarycastles.com/sitemap.xml`
+| Status | Count | Details |
+|--------|-------|---------|
+| Full OG tags (title + description + image) | 4 | Blog posts only |
+| Partial OG (image only, no title/description) | 31 | All non-blog pages |
+| No OG at all | 1 | /contact/thank-you/ (403 error) |
 
----
+**Blog posts have proper OG:**
+- og:title matching page title
+- og:description matching meta description
+- og:image with blog-specific images
 
-## 11. Prioritized Recommendations (Top 20)
+**All other pages have only og:image** -- the same hero image across the entire site:
+`https://cdn.sitephotos.sierrastatic.com/6546_hero_scc-hero2-20260227022224.jpg`
 
-### Critical Priority (Immediate)
-
-1. **Fix broken `/contact/thank-you/` page** -- Currently returns 403 error. Either fix the page or remove it from the sitemap and implement a proper redirect.
-
-2. **Add `RealEstateAgent` + `LocalBusiness` schema markup** to all pages -- This is essential for Google's real estate knowledge panels and local search visibility.
-
-3. **Enable HSTS header via Cloudflare** -- Simple toggle in Cloudflare dashboard; protects all users and is a minor ranking signal.
-
-4. **Add Open Graph tags to all 32 non-blog pages** -- Include `og:title`, `og:description`, `og:image`, `og:url`, and `og:type` on every page.
-
-5. **Rewrite all 6 too-short title tags** -- Include Calgary geographic targeting and agent branding. Example: "Selling a Home" should become "Sell Your Calgary Home | Neil Rowlandson, REALTOR".
-
-### High Priority (Within 2 Weeks)
-
-6. **Rewrite 11 thin meta descriptions** -- Every meta description should be 120-155 characters, include a CTA and geographic/brand keywords.
-
-7. **Truncate 4 blog meta descriptions** to under 160 characters -- Write compelling, concise descriptions that entice clicks.
-
-8. **Add `BreadcrumbList` schema** to all pages -- Improves SERP display with breadcrumb rich results.
-
-9. **Fix homepage dual H1** -- Consolidate to a single H1 like "Calgary Homes for Sale | Your Local Real Estate Expert".
-
-10. **Add `Sitemap:` directive to robots.txt** -- Ensures all crawlers can discover the sitemap.
-
-### Medium Priority (Within 1 Month)
-
-11. **Add alt text to 23 images** missing it (3 on homepage, 20 on financial glossary page).
-
-12. **Add `/blog/` index page to sitemap** -- It receives 78 inbound links but is not in the XML sitemap.
-
-13. **Add canonical tags** to the 2 property-search pages missing them.
-
-14. **Implement `FAQPage` schema** on buyer/seller guide pages -- These pages answer common questions and can generate FAQ rich results.
-
-15. **Add `BlogPosting` schema** to all 4 blog posts with author, datePublished, and image metadata.
-
-### Growth Priority (Ongoing Content Strategy)
-
-16. **Create 4+ new blog posts per month** focusing on Calgary-specific topics -- Market updates, neighborhood spotlights, seasonal selling tips, investment guidance.
-
-17. **Build service landing pages** for key search intents -- "Calgary Luxury Homes for Sale," "Calgary Condos," "Calgary New Construction," "SE Calgary Real Estate."
-
-18. **Add cross-links between community pages** -- Each community page should link to 2-3 nearby communities. Currently they are isolated from each other.
-
-19. **Add progressive internal links in buyer/seller guides** -- Create a logical flow: "First-Time Buyers" links to "Mortgage Pre-Approval" links to "Making an Offer" links to "Closing Costs."
-
-20. **Create a quarterly Calgary market report page** -- Evergreen URL updated monthly with market statistics; excellent for earning backlinks and establishing authority.
+**Missing on all non-blog pages:**
+- og:title
+- og:description
+- og:url
+- og:type
+- twitter:card
+- twitter:title
+- twitter:description
 
 ---
 
-## Appendix: Full Page Inventory
+## 11. Technical Details (Homepage)
 
-| # | URL | Title | Title Len | Desc Len | H1 Count | Schema | Canonical | OG Tags | Issues |
-|---|-----|-------|-----------|----------|----------|--------|-----------|---------|--------|
-| 1 | / | Calgary Real Estate - Homes for Sale in Calgary | 47 | 134 | 2 | No | Yes | No | MULTIPLE_H1, NO_SCHEMA, NO_OG_TAGS, MISSING_ALT_TEXT, MISSING_HSTS |
-| 2 | /about/ | About Neil Rowlandson | 21 | 140 | 1 | No | Yes | No | NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 3 | /auburn-bay/ | Auburn Bay Homes for Sale | 50 | 135 | 1 | No | Yes | No | NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 4 | /bridlewood/ | Bridlewood Homes for Sale | 50 | 135 | 1 | No | Yes | No | NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 5 | /buyers/ | Information on Buying a Home | 28 | 28 | 1 | No | Yes | No | NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 6 | /buyers/financial-terms-glossary/ | Financial Terms Glossary | 24 | 79 | 1 | No | Yes | No | NO_SCHEMA, NO_OG_TAGS, MISSING_ALT_TEXT, MISSING_HSTS |
-| 7 | /buyers/first-time-buyers/ | First Time Buyers | 42 | 100 | 1 | No | Yes | No | NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 8 | /buyers/making-an-offer/ | Making an Offer | 15 | 43 | 1 | No | Yes | No | TITLE_TOO_SHORT, NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 9 | /buyers/mortgage-calculator/ | Mortgage Calculator | 48 | 127 | 1 | No | Yes | No | NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 10 | /buyers/mortgage-pre-approval/ | Get Pre-Approved | 48 | 37 | 1 | No | Yes | No | NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 11 | /buyers/personalized-home-search/ | Personalized Home Search | 24 | 75 | 1 | No | Yes | No | NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 12 | /buyers/what-are-closing-costs/ | What Are Closing Costs? | 23 | 95 | 1 | No | Yes | No | NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 13 | /chaparral/ | Chaparral Homes for Sale | 48 | 134 | 1 | No | Yes | No | NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 14 | /communities/ | Community Guide | 48 | 54 | 1 | No | Yes | No | NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 15 | /contact/ | Contact Neil Rowlandson | 23 | 56 | 1 | No | Yes | No | NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 16 | /contact/thank-you/ | 403 - Forbidden | 34 | 0 | 1 | No | No | No | MISSING_META_DESCRIPTION, THIN_CONTENT, NO_SCHEMA, NO_CANONICAL, NO_OG_TAGS, NO_CONTEXTUAL_INTERNAL_LINKS, MISSING_VIEWPORT, MISSING_HSTS |
-| 17 | /cranston/ | Cranston Homes for Sale | 46 | 133 | 1 | Event | Yes | No | NO_OG_TAGS, MISSING_HSTS |
-| 18 | /evergreen/ | Evergreen Homes for Sale | 48 | 134 | 1 | No | Yes | No | NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 19 | /featured-listings/ | Featured Listings | 17 | 52 | 1 | Event | Yes | No | TITLE_TOO_SHORT, NO_OG_TAGS, MISSING_HSTS |
-| 20 | /legacy/ | Legacy Homes for Sale | 42 | 131 | 1 | Event | Yes | No | NO_OG_TAGS, MISSING_HSTS |
-| 21 | /mahogany/ | Mahogany Homes for Sale | 46 | 133 | 1 | No | Yes | No | NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 22 | /mckenzie-towne/ | Mckenzie Towne Homes for Sale | 58 | 139 | 1 | Event | Yes | No | NO_OG_TAGS, MISSING_HSTS |
-| 23 | /new-brighton/ | New Brighton Homes for Sale | 54 | 137 | 1 | Event | Yes | No | NO_OG_TAGS, MISSING_HSTS |
-| 24 | /property-search/property-tracker/ | Account Home | 56 | 105 | 1 | No | No | No | NO_SCHEMA, NO_CANONICAL, NO_OG_TAGS, MISSING_HSTS |
-| 25 | /property-search/site-map/ | Calgary MLS Listings | 20 | 99 | 1 | No | No | No | NO_SCHEMA, NO_CANONICAL, NO_OG_TAGS, MISSING_HSTS |
-| 26 | /sellers/ | Selling a Home | 14 | 24 | 1 | No | Yes | No | TITLE_TOO_SHORT, NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 27 | /sellers/adding-value/ | Adding Value to Your Home | 25 | 88 | 1 | No | Yes | No | NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 28 | /sellers/free-market-analysis/ | What's Your Property Worth? | 58 | 46 | 1 | No | Yes | No | NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 29 | /sellers/marketing-your-home/ | Marketing Your Home | 19 | 28 | 1 | No | Yes | No | TITLE_TOO_SHORT, NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 30 | /sellers/pricing-your-home/ | Pricing Your Home | 17 | 58 | 1 | No | Yes | No | TITLE_TOO_SHORT, NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 31 | /sellers/showing-your-home/ | Showing Your Home | 17 | 49 | 1 | No | Yes | No | TITLE_TOO_SHORT, NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 32 | /walden/ | Walden Homes for Sale | 42 | 131 | 1 | No | Yes | No | NO_SCHEMA, NO_OG_TAGS, MISSING_HSTS |
-| 33 | /blog/will-increasing-mortgage-rates-impact-home-prices/ | Will Increasing Mortgage Rates Impact Home Prices? | 50 | 305 | 1 | No | Yes | Yes | META_DESCRIPTION_TOO_LONG, NO_SCHEMA, MISSING_HSTS |
-| 34 | /blog/common-things-to-look-out-for-before-buying-your-dream-home/ | Common Things to Look Out for Before Buying Your Dream Home | 59 | 316 | 1 | No | Yes | Yes | META_DESCRIPTION_TOO_LONG, NO_SCHEMA, MISSING_HSTS |
-| 35 | /blog/why-you-should-consider-selling-in-the-winter/ | Why You Should Consider Selling in the Winter | 45 | 524 | 1 | No | Yes | Yes | META_DESCRIPTION_TOO_LONG, NO_SCHEMA, MISSING_HSTS |
-| 36 | /blog/is-getting-a-home-mortgage-still-too-difficult/ | Is Getting a Home Mortgage Still Too Difficult? | 47 | 426 | 1 | No | Yes | Yes | META_DESCRIPTION_TOO_LONG, NO_SCHEMA, MISSING_HSTS |
+| Signal | Value |
+|--------|-------|
+| DOM Elements | 790 |
+| Scripts | 21 |
+| Stylesheets | 4 |
+| Iframes | 3 |
+| Viewport | width=device-width, initial-scale=1.0, minimum-scale=1.0 |
+| Charset | utf-8 |
+| Language | en |
+| Favicons | 4 (32x32, 16x16, favicon.ico, root favicon.ico) |
+| Hreflang | None (despite having 11 language options in nav) |
+| HSTS Header | Missing on ALL 36 pages |
+| Server | Cloudflare |
+
+**Key issues:**
+- **No hreflang tags** despite the site offering 11 language translations (ENGLISH, Chinese, French, Korean, Italian, Japanese, German, Portuguese, Russian, Spanish, Vietnamese)
+- **HSTS header missing** on all pages (security concern)
+- **3 iframes** on homepage (potential performance impact)
 
 ---
 
-## Issue Summary Counts
+## 12. Social Media Link Issues
 
-| Issue | Pages Affected | Severity |
-|-------|---------------|----------|
-| MISSING_HSTS | 36 (100%) | High |
-| NO_OG_TAGS | 32 (89%) | High |
-| NO_SCHEMA | 31 (86%) | Critical |
-| TITLE_TOO_SHORT | 6 (17%) | High |
-| META_DESCRIPTION_TOO_LONG | 4 (11%) | Medium |
-| NO_CANONICAL | 3 (8%) | Medium |
-| MISSING_ALT_TEXT | 2 (6%) | Medium |
-| MULTIPLE_H1 | 1 (3%) | Medium |
-| MISSING_META_DESCRIPTION | 1 (3%) | High (broken page) |
-| THIN_CONTENT | 1 (3%) | High (broken page) |
-| NO_CONTEXTUAL_INTERNAL_LINKS | 1 (3%) | Medium |
-| MISSING_VIEWPORT | 1 (3%) | Medium (broken page) |
+External links from the site route through **url.avanan.click** (Avanan email security proxy) for:
+- Instagram: `url.avanan.click/v2/r01/___https://www.instagram.com/calgary_castles_real_estate/...`
+- YouTube: `url.avanan.click/v2/r01/___https://www.youtube.com/@CalgaryCastlesTV/videos...`
+- LinkedIn: `url.avanan.click/v2/r01/___https://ca.linkedin.com/in/calgarycastles...`
+
+Only Facebook and X (Twitter) link directly.
+
+This is likely caused by the social links being added via email (Avanan proxied them) and then pasted into the CMS. These redirect URLs look unprofessional and could break if the Avanan service changes.
 
 ---
 
-*Generated by automated crawl + analysis pipeline. Data sourced from crawl-data.json and link-graph.json.*
+## 13. Content Assessment
+
+### Word Count Summary
+- **Lowest:** /contact/thank-you/ (25 words -- broken 403 error page)
+- **Highest:** /buyers/financial-terms-glossary/ (6,711 words)
+- **Most pages:** 2,000-3,000 words (includes nav/footer boilerplate)
+- **Estimated unique body content per page:** ~200-800 words (after subtracting ~1,900 words of navigation/sidebar/footer boilerplate)
+
+### Blog
+- Only 4 blog posts exist, all posted on February 2, 2026 by "Sierra System" (auto-generated)
+- All posts are in the "Buying a Home" category
+- Only 1 post in "Selling Your Home" category
+- No blog index page in sitemap
+- Blog content appears to be generic/syndicated, not original
+
+---
+
+## 14. Broken Page Alert
+
+**https://www.sellingcalgarycastles.com/contact/thank-you/** returns:
+- HTTP 403 Forbidden (title: "403 - Forbidden: Access is denied.")
+- H1: "Server Error"
+- 25 words total, no navigation, no styling
+- Missing: meta description, canonical, OG tags, viewport, schema
+- This page IS in the sitemap.xml -- it should be removed
+
+---
+
+## 15. 20 Prioritized Technical SEO Recommendations
+
+| # | Recommendation | Effort | Impact | Priority |
+|---|---------------|--------|--------|----------|
+| 1 | **Add RealEstateAgent + LocalBusiness schema** to homepage and about page with NAP data, service areas, and agent info | Medium | High | P1 |
+| 2 | **Fix all 4 blog meta descriptions** -- currently 305-524 chars, truncate to 150-160 chars with compelling CTAs | Low | High | P1 |
+| 3 | **Add OG tags (title, description, url, type)** to all 32 non-blog pages. Currently only og:image exists | Medium | High | P1 |
+| 4 | **Remove /contact/thank-you/ from sitemap** -- returns 403 error. Fix or redirect the URL | Low | High | P1 |
+| 5 | **Fix social media links** -- replace Avanan proxy URLs (url.avanan.click) for Instagram, YouTube, LinkedIn with direct URLs | Low | Medium | P1 |
+| 6 | **Add "Calgary" to all title tags** on buyer/seller pages. "Selling a Home" -> "Selling a Home in Calgary - Neil Rowlandson" | Low | High | P1 |
+| 7 | **Fix homepage dual H1** -- consolidate to single H1 like "Calgary Homes for Sale - Find Your Dream Home" | Low | Medium | P2 |
+| 8 | **Add H1 to /property-search/property-tracker/** -- currently missing | Low | Medium | P2 |
+| 9 | **Lengthen 6 too-short title tags** (under 20 chars) to include location + branding: e.g., "Pricing Your Home" -> "Pricing Your Home for Sale in Calgary - Expert Tips" | Low | High | P2 |
+| 10 | **Add BreadcrumbList schema** to all pages -- breadcrumb navigation exists visually (Home > Buyers > First Time Buyers) | Medium | Medium | P2 |
+| 11 | **Add BlogPosting schema** to all 4 blog posts with author, datePublished, image, publisher | Medium | Medium | P2 |
+| 12 | **Add Sitemap directive to robots.txt** -- currently missing `Sitemap: https://www.sellingcalgarycastles.com/sitemap.xml` | Low | Medium | P2 |
+| 13 | **Fix missing canonical tags** on /property-search/site-map/ and /property-search/property-tracker/ | Low | Medium | P2 |
+| 14 | **Add hreflang tags** if multi-language pages exist (nav shows 11 languages) -- or remove non-functional language switcher | Medium | Medium | P2 |
+| 15 | **Improve meta descriptions** on thin pages (/buyers/ = 28 chars, /sellers/ = 24 chars) to 120-160 chars with value props and CTAs | Low | Medium | P2 |
+| 16 | **Fix alt text** on homepage images (3-4 missing) and financial-terms-glossary (20 missing) | Low | Medium | P3 |
+| 17 | **Add cross-links** between related content: buyer pages <-> seller pages, community pages <-> each other, blog posts <-> service pages | Medium | Medium | P3 |
+| 18 | **Enable HSTS header** via Cloudflare -- missing on all 36 pages (security + minor ranking signal) | Low | Low | P3 |
+| 19 | **Expand blog content** -- only 4 syndicated posts exist. Need original Calgary-specific content targeting local keywords (community guides, market updates, etc.) | High | High | P3 |
+| 20 | **Add unique content H2/H3 headings** to service pages -- currently all H2s come from the sidebar template, not meaningful content structure | Medium | Medium | P3 |
+
+---
+
+## Summary of Key Findings
+
+| Metric | Value |
+|--------|-------|
+| Total pages in sitemap | 38 |
+| Pages analyzed | 36 |
+| Pages with schema markup | 3 (8.3%) -- all auto-generated Event |
+| Pages with full OG tags | 4 (11.1%) -- blog posts only |
+| Pages missing canonical | 3 |
+| Pages with title too short | 6 |
+| Pages with meta desc too long | 4 |
+| Broken pages (403/error) | 1 (/contact/thank-you/) |
+| Images missing alt text | 23 of 339 (6.8%) |
+| Missing H1 | 1 page |
+| Multiple H1 | 1 page (homepage) |
+| HSTS missing | All 36 pages |
+| Hreflang present | None (despite 11 languages offered) |
+| Orphaned pages | 2 |
+| Social links through proxy | 3 of 5 platforms |
+
+**Platform:** Sierra Interactive (IDX provider). Many SEO issues are template-level and would need to be fixed in the Sierra Interactive CMS or via custom code injection. Schema, OG tags, and meta tags may be limited by the platform's capabilities.

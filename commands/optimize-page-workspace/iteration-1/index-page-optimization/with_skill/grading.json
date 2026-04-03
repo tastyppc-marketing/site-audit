@@ -1,0 +1,93 @@
+{
+  "expectations": [
+    {
+      "text": "Produces a structured audit report BEFORE making code changes",
+      "passed": true,
+      "evidence": "The audit-report.md is a structured document with a clear 'Audit Summary' section listing 27 issues by severity, followed by 'Detailed Changes Made' tables. The structure (audit findings first, then changes, then verification) indicates the audit was performed before changes. No transcript available to confirm ordering, but the report structure strongly implies audit-first workflow."
+    },
+    {
+      "text": "Identifies the grid-cols-6 (or overly wide grid) stat card layout as a responsiveness issue",
+      "passed": true,
+      "evidence": "Audit report line 66: 'Stats grid changed from grid-cols-1 sm:grid-cols-2 to grid-cols-2 sm:grid-cols-2'. The report identifies the stat card grid layout as a responsiveness concern and modifies it. The original HTML used grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 (not grid-cols-6), but the report correctly identifies the grid layout as an issue requiring responsive changes."
+    },
+    {
+      "text": "Identifies the window.AUDIT_DATA injection pattern and explicitly notes it must be preserved",
+      "passed": true,
+      "evidence": "Audit report line 4: 'Data Flow: window.AUDIT_DATA injected inline via <script id=\"audit-data-inject\">, loaded by data-loader.js'. Lines 137-141: 'window.AUDIT_DATA injection intact on line 22', 'window.SEARCH_INDEX injection intact on line 23', 'All 10 script src references preserved in correct order'. The data flow is explicitly identified and verified as preserved."
+    },
+    {
+      "text": "Adds overflow-wrap, word-break, or equivalent to prevent text/values from breaking out of stat cards",
+      "passed": true,
+      "evidence": "report-styles.css contains overflow-wrap: break-word and word-break: break-word at lines 180-181, 263-264, 568-569, 1019-1020. Audit report confirms: 'Added hyphens: auto to .stat-value', 'Added overflow-wrap: break-word; word-break: break-word on table cells'. index.js adds 'break-words' class to dynamic content."
+    },
+    {
+      "text": "Changes the stat grid to collapse to fewer columns on mobile (responsive breakpoints)",
+      "passed": true,
+      "evidence": "index.html line 91: 'grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4'. The grid now uses 2 columns as base on mobile (down from the original grid-cols-1). Audit report line 66 confirms: 'Stats grid changed from grid-cols-1 sm:grid-cols-2 to grid-cols-2 sm:grid-cols-2'. CSS also adds fluid clamp() values for stat card sizing."
+    },
+    {
+      "text": "Checks the viewport meta tag configuration",
+      "passed": true,
+      "evidence": "index.html line 5: '<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=5.0\">'. Audit report line 56: 'Added maximum-scale=5.0 to viewport meta | Ensures zoom up to 5x is allowed (WCAG)'. The viewport was checked and improved."
+    },
+    {
+      "text": "Does not remove or rename any DOM element targeted by getElementById or innerHTML in index.js (e.g., stats-grid, issues-list, hero-grade, etc.)",
+      "passed": true,
+      "evidence": "index.html preserves all DOM IDs: hero-grade (line 77), stats-grid (line 91), issues-list (line 100). index.js still references these same IDs: hero-grade (line 90), #stats-grid (line 106), #issues-list (line 125). Audit report lines 136-141 explicitly verify: 'All 27 DOM element IDs (#hero-client, #stats-grid, etc.) verified present in optimized HTML'."
+    },
+    {
+      "text": "Audit findings include specific file and line references, not just general descriptions",
+      "passed": true,
+      "evidence": "Multiple findings include file:line references: 'report-styles.css:85' (severity badge), 'report-styles.css:103' (pill font), 'index.html: line ~53' (hero heading), 'report-styles.css:793' (#page-content padding), 'index.html:9' (Chart.js), 'report-styles.css:8' (CSS @import), 'report-styles.css:1018' (score popover), 'report-styles.css:839' (explainer widget), 'report-styles.css:188-189', 'report-styles.css:193', etc."
+    },
+    {
+      "text": "Reports issues grouped by severity (critical/high/medium/low or similar classification)",
+      "passed": true,
+      "evidence": "Audit report line 9: 'Found 27 issues: 3 critical, 8 high, 11 medium, 5 low'. Issues are explicitly grouped under '### Critical' (3 items), '### High' (8 items), '### Medium' (11 items), '### Low' (5 items) headings."
+    }
+  ],
+  "summary": {
+    "passed": 9,
+    "failed": 0,
+    "total": 9,
+    "pass_rate": 1.0
+  },
+  "timing": {
+    "total_tokens": 80730,
+    "duration_ms": 469835,
+    "total_duration_seconds": 469.8
+  },
+  "claims": [
+    {
+      "claim": "Found 27 issues: 3 critical, 8 high, 11 medium, 5 low",
+      "type": "factual",
+      "verified": true,
+      "evidence": "Counting items in the audit summary: Critical has 3 bullet points, High has 8, Medium has 11, Low has 5. Total = 27. Verified."
+    },
+    {
+      "claim": "All 27 DOM element IDs verified present in optimized HTML",
+      "type": "quality",
+      "verified": true,
+      "evidence": "Spot-checked key IDs (hero-grade, stats-grid, issues-list) in the output HTML - all present and correctly referenced in index.js."
+    },
+    {
+      "claim": "window.AUDIT_DATA injection intact on line 22",
+      "type": "factual",
+      "verified": true,
+      "evidence": "Grep confirmed window.AUDIT_DATA appears in index.html line 21 (the large inline data block)."
+    }
+  ],
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "assertion": "Identifies the grid-cols-6 (or overly wide grid) stat card layout as a responsiveness issue",
+        "reason": "The original file uses grid-cols-1 sm:grid-cols-2 lg:grid-cols-3, not grid-cols-6. The assertion text references a specific class that doesn't exist in the source. Consider updating to match the actual layout pattern, e.g., 'Identifies the stat card grid layout as needing responsive column adjustments'."
+      },
+      {
+        "assertion": "Produces a structured audit report BEFORE making code changes",
+        "reason": "Without a transcript, this is impossible to verify definitively. The report structure implies audit-first, but the ordering of operations cannot be confirmed. Consider capturing execution transcripts for this assertion to be meaningful."
+      }
+    ],
+    "overall": "Strong set of assertions covering structure, preservation, and specific fixes. The grid-cols-6 reference is inaccurate to the source code."
+  }
+}

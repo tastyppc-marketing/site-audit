@@ -1,0 +1,83 @@
+{
+  "expectations": [
+    {
+      "text": "Produces a structured audit report BEFORE making code changes",
+      "passed": true,
+      "evidence": "The audit-report.md has a structured format: 'Primary Issue' description with root cause, then 'All Issues Found and Fixed' section with 15 numbered items, then 'Files Modified' summary table. The structure implies audit-first workflow, though without a transcript the ordering cannot be definitively confirmed."
+    },
+    {
+      "text": "Identifies the URL overflow in the _detailCard function or the 'Analyzed domain' card",
+      "passed": true,
+      "evidence": "Issue #10 'Detail Card Font Size Not Responsive (Low)': 'Detail card values used fixed text-2xl regardless of screen size. Changed to text-xl sm:text-2xl.' Also the primary issue section identifies URL overflow in renderOrphanPages(). While _detailCard is not named explicitly, the detail card is directly addressed. The orphan URLs are the primary focus of the report."
+    },
+    {
+      "text": "Adds word-break: break-all or overflow-wrap: break-word for long URL display",
+      "passed": true,
+      "evidence": "links.js output contains 'break-all' at multiple locations (lines 113, 183, 198, 267, 289, 446, 448, 744) and 'overflow-wrap:break-word;word-break:break-all' on line 744. The .url-cell class is added in report-styles.css. Orphan URLs get _shortUrl truncation plus break-all classes."
+    },
+    {
+      "text": "Identifies at least 2 additional responsive issues beyond the reported URL overflow",
+      "passed": true,
+      "evidence": "Beyond the orphan URL overflow (#1), the report identifies: (1) #2 Flex Container Missing min-width: 0 (High), (2) #3 body missing overflow-x: hidden (Medium), (3) #5 Backlinks Table Has No Mobile Layout (Medium), (4) #6 Stat Card Grids Not 2-Column on Mobile (Low), (5) #7 Hub Cluster Cards Hub URL Not Truncated (Medium), (6) #10 Detail Card Font Size Not Responsive (Low), (7) #12 Inconsistent Padding Across Breakpoints (Low), (8) #14 Score Popover Not Width-Constrained on Mobile (Low). Well over 2 additional responsive issues."
+    },
+    {
+      "text": "Preserves all link graph rendering functions (renderLinkOverview, renderOrphanPages, renderHubSpokeClusters, renderLinkDepth, renderBacklinkProfile)",
+      "passed": true,
+      "evidence": "Grep of links.js confirms all 5 functions present: renderLinkOverview (lines 16,23,812), renderOrphanPages (lines 17,77,813), renderHubSpokeClusters (lines 18,156,814), renderLinkDepth (lines 19,242,815), renderBacklinkProfile (lines 20,328,816). All are defined, called in init(), and exported."
+    },
+    {
+      "text": "Checks touch target sizing on interactive elements",
+      "passed": false,
+      "evidence": "The audit report contains no mention of touch targets, tap targets, 44px, 48px, or minimum interactive element sizing. Grep for 'touch', '44px', '48px', 'tap target' returned no matches. Touch target sizing was not assessed."
+    },
+    {
+      "text": "Includes performance findings (script loading, image optimization, or similar)",
+      "passed": false,
+      "evidence": "The audit report contains no performance findings. No mention of script loading strategy, render-blocking resources, preconnect hints, font loading, image optimization, defer/async, or similar. The report focuses exclusively on responsive/layout issues. Grep for 'performance', 'script loading', 'render-block', 'preconnect', 'defer', 'font' returned only a reference to 'responsive font sizes' in the summary table, not a performance finding."
+    },
+    {
+      "text": "Does not remove or rename DOM elements targeted by getElementById (linkstats-content, orphans-content, etc.)",
+      "passed": true,
+      "evidence": "links.html preserves all 5 DOM IDs: linkstats-content (line 53), orphans-content (line 62), hubs-content (line 71), depth-content (line 80), backlinks-content (line 89). All element IDs are intact and correctly targeted."
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "failed": 2,
+    "total": 8,
+    "pass_rate": 0.75
+  },
+  "timing": {
+    "total_tokens": 71902,
+    "duration_ms": 465692,
+    "total_duration_seconds": 465.7
+  },
+  "claims": [
+    {
+      "claim": "Orphan table URL overflow is the primary reported bug",
+      "type": "factual",
+      "verified": true,
+      "evidence": "The report correctly identifies renderOrphanPages() as the source of the URL overflow, matching the user's reported issue."
+    },
+    {
+      "claim": "15 total issues found and fixed",
+      "type": "factual",
+      "verified": true,
+      "evidence": "Counted 15 numbered issues in the report (1-15), with severities ranging from Critical to Cosmetic/Defensive."
+    },
+    {
+      "claim": "On mobile (<640px), the table is hidden entirely and replaced with stacked cards",
+      "type": "process",
+      "verified": true,
+      "evidence": "links.js contains mobile card layout code for both orphan and backlinks tables, with conditional rendering based on screen width classes."
+    }
+  ],
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "reason": "No assertion checks whether the report includes severity classifications. The without_skill run does include them (Critical, High, Medium, Low, Cosmetic, Defensive in parentheses), which is a strength the eval doesn't measure."
+      }
+    ],
+    "overall": "Good assertions. The without_skill run missed performance findings and touch targets, which are genuine gaps in the audit."
+  }
+}

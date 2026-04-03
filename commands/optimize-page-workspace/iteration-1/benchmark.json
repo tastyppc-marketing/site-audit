@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "skill_name": "optimize-page",
+    "skill_path": "/mnt/c/dev/Site audit/commands/optimize-page",
+    "executor_model": "claude-opus-4-6",
+    "analyzer_model": "claude-opus-4-6",
+    "timestamp": "2026-04-02T00:50:00Z",
+    "evals_run": [1, 2, 3],
+    "runs_per_configuration": 1
+  },
+  "runs": [
+    {
+      "eval_id": 1,
+      "eval_name": "Index Page Optimization",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 9,
+        "failed": 0,
+        "total": 9,
+        "time_seconds": 469.8,
+        "tokens": 80730,
+        "tool_calls": 35,
+        "errors": 0
+      },
+      "expectations": [
+        {"text": "Produces a structured audit report BEFORE making code changes", "passed": true, "evidence": "Structured report with 27 issues by severity, then changes, then verification"},
+        {"text": "Identifies the grid layout as a responsiveness issue", "passed": true, "evidence": "Stats grid layout identified and changed to responsive grid-cols-2 base"},
+        {"text": "Identifies window.AUDIT_DATA injection and notes it must be preserved", "passed": true, "evidence": "Data flow explicitly documented: 'window.AUDIT_DATA injected inline via script id=audit-data-inject'"},
+        {"text": "Adds overflow-wrap/word-break to prevent text overflow", "passed": true, "evidence": "overflow-wrap: break-word added at multiple CSS locations"},
+        {"text": "Changes stat grid to collapse on mobile", "passed": true, "evidence": "Grid changed to grid-cols-2 sm:grid-cols-2 lg:grid-cols-3"},
+        {"text": "Checks viewport meta tag configuration", "passed": true, "evidence": "Added maximum-scale=5.0 for WCAG zoom compliance"},
+        {"text": "Does not remove/rename DOM targets", "passed": true, "evidence": "All 27 DOM IDs verified present"},
+        {"text": "Audit includes file:line references", "passed": true, "evidence": "Multiple file:line refs throughout findings"},
+        {"text": "Issues grouped by severity", "passed": true, "evidence": "3 critical, 8 high, 11 medium, 5 low"}
+      ]
+    },
+    {
+      "eval_id": 1,
+      "eval_name": "Index Page Optimization",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.67,
+        "passed": 6,
+        "failed": 3,
+        "total": 9,
+        "time_seconds": 353.9,
+        "tokens": 81375,
+        "tool_calls": 47,
+        "errors": 0
+      },
+      "expectations": [
+        {"text": "Produces a structured audit report BEFORE making code changes", "passed": true, "evidence": "Structured report present"},
+        {"text": "Identifies the grid layout as a responsiveness issue", "passed": true, "evidence": "Stat card grid identified and fixed"},
+        {"text": "Identifies window.AUDIT_DATA injection and notes it must be preserved", "passed": false, "evidence": "No mention of AUDIT_DATA anywhere in report"},
+        {"text": "Adds overflow-wrap/word-break to prevent text overflow", "passed": true, "evidence": "overflow-wrap added at multiple CSS locations"},
+        {"text": "Changes stat grid to collapse on mobile", "passed": true, "evidence": "Grid changed to grid-cols-2 base"},
+        {"text": "Checks viewport meta tag configuration", "passed": false, "evidence": "Viewport not mentioned, no changes made"},
+        {"text": "Does not remove/rename DOM targets", "passed": true, "evidence": "All key DOM IDs intact"},
+        {"text": "Audit includes file:line references", "passed": false, "evidence": "File names but no line numbers"},
+        {"text": "Issues grouped by severity", "passed": true, "evidence": "Severity labels in issue headings"}
+      ]
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "Links Page Overflow",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 8,
+        "failed": 0,
+        "total": 8,
+        "time_seconds": 457.6,
+        "tokens": 96425,
+        "tool_calls": 81,
+        "errors": 0
+      },
+      "expectations": [
+        {"text": "Produces a structured audit report BEFORE making code changes", "passed": true, "evidence": "Audit summary with severity groups first, then changes"},
+        {"text": "Identifies URL overflow in _detailCard or Analyzed domain card", "passed": true, "evidence": "Detail card values addressed with overflow-wrap: anywhere"},
+        {"text": "Adds word-break/overflow-wrap for long URLs", "passed": true, "evidence": "overflow-wrap:anywhere;word-break:break-all at multiple locations"},
+        {"text": "Identifies 2+ additional responsive issues beyond reported URL overflow", "passed": true, "evidence": "5+ additional issues: font loading, script blocking, preconnect, spoke URLs, viewport"},
+        {"text": "Preserves all link graph rendering functions", "passed": true, "evidence": "All 5 functions verified present and called"},
+        {"text": "Checks touch target sizing", "passed": true, "evidence": "Severity badge min-height/min-width added"},
+        {"text": "Includes performance findings", "passed": true, "evidence": "CSS @import, sync scripts, no preconnect — all identified"},
+        {"text": "Does not remove/rename DOM targets", "passed": true, "evidence": "All 5 DOM IDs verified intact"}
+      ]
+    },
+    {
+      "eval_id": 2,
+      "eval_name": "Links Page Overflow",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.75,
+        "passed": 6,
+        "failed": 2,
+        "total": 8,
+        "time_seconds": 465.7,
+        "tokens": 71902,
+        "tool_calls": 31,
+        "errors": 0
+      },
+      "expectations": [
+        {"text": "Produces a structured audit report BEFORE making code changes", "passed": true, "evidence": "Structured report present"},
+        {"text": "Identifies URL overflow in _detailCard or Analyzed domain card", "passed": true, "evidence": "Detail card font size addressed"},
+        {"text": "Adds word-break/overflow-wrap for long URLs", "passed": true, "evidence": "break-all at multiple locations"},
+        {"text": "Identifies 2+ additional responsive issues beyond reported URL overflow", "passed": true, "evidence": "8+ additional issues found"},
+        {"text": "Preserves all link graph rendering functions", "passed": true, "evidence": "All 5 functions present"},
+        {"text": "Checks touch target sizing", "passed": false, "evidence": "No mention of touch targets"},
+        {"text": "Includes performance findings", "passed": false, "evidence": "No performance findings — responsive only"},
+        {"text": "Does not remove/rename DOM targets", "passed": true, "evidence": "All 5 DOM IDs intact"}
+      ]
+    },
+    {
+      "eval_id": 3,
+      "eval_name": "Technical Page Charts",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.875,
+        "passed": 7,
+        "failed": 1,
+        "total": 8,
+        "time_seconds": 470.9,
+        "tokens": 103889,
+        "tool_calls": 63,
+        "errors": 0
+      },
+      "expectations": [
+        {"text": "Produces a structured audit report BEFORE making code changes", "passed": true, "evidence": "17 issues by severity, then changes, then verification"},
+        {"text": "Identifies chart container responsive sizing", "passed": true, "evidence": "Progressive chart scaling 350px->280px->240px->200px"},
+        {"text": "Tables have overflow-x: auto or equivalent", "passed": true, "evidence": "Scroll hints added, tabindex, role=region"},
+        {"text": "Checks script loading strategy", "passed": true, "evidence": "CSS @import and sync scripts identified as Critical"},
+        {"text": "Preserves Chart.js and rendering functions", "passed": true, "evidence": "All 6 render functions + 2 chart functions verified"},
+        {"text": "Addresses Core Web Vitals concerns", "passed": false, "evidence": "Addressed underlying CWV issues but didn't use formal CWV terminology"},
+        {"text": "Reports include severity classifications", "passed": true, "evidence": "2 critical, 5 high, 7 medium, 3 low"},
+        {"text": "Does not increase file size significantly", "passed": true, "evidence": "+6.9% total — reasonable for responsive+accessibility additions"}
+      ]
+    },
+    {
+      "eval_id": 3,
+      "eval_name": "Technical Page Charts",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.75,
+        "passed": 6,
+        "failed": 2,
+        "total": 8,
+        "time_seconds": 640.6,
+        "tokens": 96826,
+        "tool_calls": 38,
+        "errors": 0
+      },
+      "expectations": [
+        {"text": "Produces a structured audit report BEFORE making code changes", "passed": true, "evidence": "16 issues listed, then summary of changes"},
+        {"text": "Identifies chart container responsive sizing", "passed": true, "evidence": "Canvas overflow on mobile identified and fixed"},
+        {"text": "Tables have overflow-x: auto or equivalent", "passed": true, "evidence": "Scroll hints and sticky first column added"},
+        {"text": "Checks script loading strategy", "passed": true, "evidence": "Tailwind JIT and Chart.js identified as render-blocking"},
+        {"text": "Preserves Chart.js and rendering functions", "passed": true, "evidence": "All functions preserved, but Tailwind CDN replacement may break custom utilities"},
+        {"text": "Addresses Core Web Vitals concerns", "passed": true, "evidence": "Core Web Vitals mentioned explicitly, FCP/long-task references"},
+        {"text": "Reports include severity classifications", "passed": false, "evidence": "Only 'Critical' prefix used, no high/medium/low system"},
+        {"text": "Does not increase file size significantly", "passed": false, "evidence": "+15.5% total, charts.js +41%, plus potentially 3MB+ Tailwind CSS replacement"}
+      ]
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {"mean": 0.958, "stddev": 0.059, "min": 0.875, "max": 1.0},
+      "time_seconds": {"mean": 466.1, "stddev": 5.9, "min": 457.6, "max": 470.9},
+      "tokens": {"mean": 93681, "stddev": 9546, "min": 80730, "max": 103889}
+    },
+    "without_skill": {
+      "pass_rate": {"mean": 0.723, "stddev": 0.038, "min": 0.67, "max": 0.75},
+      "time_seconds": {"mean": 486.7, "stddev": 117.7, "min": 353.9, "max": 640.6},
+      "tokens": {"mean": 83368, "stddev": 10246, "min": 71902, "max": 96826}
+    },
+    "delta": {
+      "pass_rate": "+0.235",
+      "time_seconds": "-20.6",
+      "tokens": "+10313"
+    }
+  },
+  "notes": [
+    "With-skill runs consistently produce audit-first reports with severity classifications — baselines are more ad-hoc",
+    "With-skill runs explicitly identify and verify data injection patterns (AUDIT_DATA) — baselines do not",
+    "With-skill runs cover performance+responsiveness+accessibility — baselines focus primarily on responsiveness only",
+    "With-skill runs include file:line references in findings — baselines reference files but rarely lines",
+    "The one with-skill failure (CWV terminology) is a skill wording issue — it addresses CWV concerns without using formal metric names",
+    "Without-skill technical run replaced Tailwind CDN JIT with pre-built CSS — potentially breaking change the skill version correctly avoided",
+    "Without-skill runs are slightly faster on average but show higher variance (354-641s vs 458-471s)"
+  ]
+}

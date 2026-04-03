@@ -2,19 +2,1420 @@
   "client": {
     "website": "sellingcalgarycastles.com",
     "websiteUrl": "https://www.sellingcalgarycastles.com",
-    "auditDate": "March 23, 2026",
+    "auditDate": "March 31, 2026",
     "overallGrade": "D+",
     "gradeSummary": "sellingcalgarycastles.com has zero organic visibility \u2014 not ranking for any of 25 target keywords in a market with 5,500+ active listings and $641K average prices. However, Neil's 20-year real estate track record, banking background, and CIR Realty backing represent significant untapped authority that competitors are not leveraging at this level.",
     "name": "Neil Rowlandson",
     "company": "Calgary Castles Team",
     "brokerage": "CIR Realty",
-    "platform": "RealtyPress / IDX Broker on Cloudflare",
+    "platform": "Sierra Interactive on Cloudflare",
     "serviceType": "Full Service (Buy/Sell/Residential)",
     "location": "Calgary, Alberta, Canada",
     "phone": "403-271-0600",
     "email": "calgarycastles@live.com"
   },
-  "contentQuality": {},
+  "contentQuality": {
+    "summary": {
+      "totalPagesAnalyzed": 36,
+      "avgQualityScore": 68.8,
+      "thinPageCount": 1,
+      "thinThreshold": 300,
+      "avgReadabilityScore": 55.3,
+      "avgSeoScore": 68.8,
+      "avgStructureScore": 94.4,
+      "duplicateGroupCount": 2,
+      "cannibalizationCount": 2
+    },
+    "pages": [
+      {
+        "url": "https://www.sellingcalgarycastles.com/",
+        "title": "Calgary Real Estate - Homes for Sale in Calgary",
+        "readabilityScore": 44.3,
+        "qualityScore": 70,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 44.3,
+          "fleschKincaidGrade": 13,
+          "wordCount": 334,
+          "scoreExplanation": "This page has an average sentence length of 23.9 words (ideal: 15-20), slightly above optimal and 1.63 syllables per word indicating heavy use of multi-syllable terminology. Dense sentence structure and specialized vocabulary make this harder to read quickly."
+        },
+        "structure": {
+          "headingCount": 12,
+          "h2Count": 8,
+          "h3Count": 2,
+          "headingHierarchyValid": false,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "MULTIPLE_H1",
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Consolidate to a single H1 tag",
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/property-search/site-map/",
+        "title": "Calgary MLS Listings",
+        "readabilityScore": 0.0,
+        "qualityScore": 70,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 0.0,
+          "fleschKincaidGrade": 30.0,
+          "wordCount": 655,
+          "scoreExplanation": "This page has an average sentence length of 655 words (ideal: 15-20), which is quite long and 1.31 syllables per word suggesting simple, everyday language. Property search page content Dense sentence structure and specialized vocabulary make this harder to read quickly."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/property-search/property-tracker/",
+        "title": "Account Home - Calgary AB Homes for Sale and Real Estate",
+        "readabilityScore": 62.3,
+        "qualityScore": 63,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 62.3,
+          "fleschKincaidGrade": 10.4,
+          "wordCount": 140,
+          "scoreExplanation": "This page has an average sentence length of 23.3 words (ideal: 15-20), slightly above optimal and 1.43 syllables per word reflecting moderate technical vocabulary. Property search page content The longer sentences and multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 6,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": false,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_H1",
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/communities/",
+        "title": "Community Guide - Local Real Estate by Community",
+        "readabilityScore": 45.7,
+        "qualityScore": 71,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 45.7,
+          "fleschKincaidGrade": 12,
+          "wordCount": 82,
+          "scoreExplanation": "This page has an average sentence length of 20.5 words (ideal: 15-20), slightly above optimal and 1.66 syllables per word indicating heavy use of multi-syllable terminology. Community/neighbourhood page content Dense sentence structure and specialized vocabulary make this harder to read quickly."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/about/",
+        "title": "About Neil Rowlandson",
+        "readabilityScore": 21.3,
+        "qualityScore": 74,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 21.3,
+          "fleschKincaidGrade": 15,
+          "wordCount": 57,
+          "scoreExplanation": "This page has an average sentence length of 19 words, within the ideal 15-20 range and 1.96 syllables per word indicating heavy use of multi-syllable terminology. About page content Dense sentence structure and specialized vocabulary make this harder to read quickly."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/sellers/adding-value/",
+        "title": "Adding Value to Your Home",
+        "readabilityScore": 66.6,
+        "qualityScore": 74,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 66.6,
+          "fleschKincaidGrade": 7.5,
+          "wordCount": 254,
+          "scoreExplanation": "This page has an average sentence length of 14.1 words, which is short and easy to follow and 1.49 syllables per word reflecting moderate technical vocabulary. Real estate guidance content The multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/auburn-bay/",
+        "title": "Auburn Bay Homes for Sale - Auburn Bay Real Estate",
+        "readabilityScore": 64.8,
+        "qualityScore": 74,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 64.8,
+          "fleschKincaidGrade": 10.1,
+          "wordCount": 452,
+          "scoreExplanation": "This page has an average sentence length of 23.8 words (ideal: 15-20), slightly above optimal and 1.39 syllables per word suggesting simple, everyday language. Community/neighbourhood page content The longer sentences and multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/bridlewood/",
+        "title": "Bridlewood Homes for Sale - Bridlewood Real Estate",
+        "readabilityScore": 59.5,
+        "qualityScore": 71,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 59.5,
+          "fleschKincaidGrade": 10.4,
+          "wordCount": 419,
+          "scoreExplanation": "This page has an average sentence length of 22.1 words (ideal: 15-20), slightly above optimal and 1.48 syllables per word reflecting moderate technical vocabulary. Community/neighbourhood page content The longer sentences and multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/buyers/",
+        "title": "Information on Buying a Home",
+        "readabilityScore": 73.7,
+        "qualityScore": 63,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 73.7,
+          "fleschKincaidGrade": 5.9,
+          "wordCount": 187,
+          "scoreExplanation": "This page has an average sentence length of 11.7 words, which is short and easy to follow and 1.43 syllables per word reflecting moderate technical vocabulary. Real estate guidance content reads at an accessible level for most visitors."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "DESCRIPTION_TOO_SHORT",
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Expand meta description to 120-155 characters with location + CTA",
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/chaparral/",
+        "title": "Chaparral Homes for Sale - Chaparral Real Estate",
+        "readabilityScore": 57.5,
+        "qualityScore": 80,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 57.5,
+          "fleschKincaidGrade": 10.9,
+          "wordCount": 434,
+          "scoreExplanation": "This page has an average sentence length of 22.8 words (ideal: 15-20), slightly above optimal and 1.49 syllables per word reflecting moderate technical vocabulary. Community/neighbourhood page content The longer sentences and multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/contact/",
+        "title": "Contact Neil Rowlandson",
+        "readabilityScore": 47.8,
+        "qualityScore": 74,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 47.8,
+          "fleschKincaidGrade": 12.2,
+          "wordCount": 227,
+          "scoreExplanation": "This page has an average sentence length of 22.7 words (ideal: 15-20), slightly above optimal and 1.61 syllables per word indicating heavy use of multi-syllable terminology. Contact page content Dense sentence structure and specialized vocabulary make this harder to read quickly."
+        },
+        "structure": {
+          "headingCount": 8,
+          "h2Count": 5,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/cranston/",
+        "title": "Cranston Homes for Sale - Cranston Real Estate",
+        "readabilityScore": 64.1,
+        "qualityScore": 74,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 64.1,
+          "fleschKincaidGrade": 9.9,
+          "wordCount": 424,
+          "scoreExplanation": "This page has an average sentence length of 22.3 words (ideal: 15-20), slightly above optimal and 1.42 syllables per word reflecting moderate technical vocabulary. Community/neighbourhood page content The longer sentences and multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/evergreen/",
+        "title": "Evergreen Homes for Sale - Evergreen Real Estate",
+        "readabilityScore": 59,
+        "qualityScore": 74,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 59,
+          "fleschKincaidGrade": 10.6,
+          "wordCount": 428,
+          "scoreExplanation": "This page has an average sentence length of 22.5 words (ideal: 15-20), slightly above optimal and 1.48 syllables per word reflecting moderate technical vocabulary. Community/neighbourhood page content The longer sentences and multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/featured-listings/",
+        "title": "Featured Listings",
+        "readabilityScore": 63.2,
+        "qualityScore": 67,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 63.2,
+          "fleschKincaidGrade": 10.1,
+          "wordCount": 410,
+          "scoreExplanation": "This page has an average sentence length of 22.8 words (ideal: 15-20), slightly above optimal and 1.42 syllables per word reflecting moderate technical vocabulary. The longer sentences and multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "TITLE_TOO_SHORT",
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/buyers/financial-terms-glossary/",
+        "title": "Financial Terms Glossary",
+        "readabilityScore": 44.1,
+        "qualityScore": 71,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 44.1,
+          "fleschKincaidGrade": 11.9,
+          "wordCount": 4678,
+          "scoreExplanation": "This page has an average sentence length of 19.3 words, within the ideal 15-20 range and 1.69 syllables per word indicating heavy use of multi-syllable terminology. Real estate guidance content Dense sentence structure and specialized vocabulary make this harder to read quickly."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/buyers/first-time-buyers/",
+        "title": "First Time Buyers - Buying Your First Home",
+        "readabilityScore": 65.8,
+        "qualityScore": 74,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 65.8,
+          "fleschKincaidGrade": 8.5,
+          "wordCount": 538,
+          "scoreExplanation": "This page has an average sentence length of 17.9 words, within the ideal 15-20 range and 1.45 syllables per word reflecting moderate technical vocabulary. Real estate guidance content The multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/sellers/free-market-analysis/",
+        "title": "What's Your Property Worth? - Find Out the Estimated Value",
+        "readabilityScore": 40.9,
+        "qualityScore": 67,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 40.9,
+          "fleschKincaidGrade": 14.7,
+          "wordCount": 346,
+          "scoreExplanation": "This page has an average sentence length of 28.8 words (ideal: 15-20), which is quite long and 1.62 syllables per word indicating heavy use of multi-syllable terminology. Real estate guidance content Dense sentence structure and specialized vocabulary make this harder to read quickly."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "DESCRIPTION_TOO_SHORT",
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Expand meta description to 120-155 characters with location + CTA",
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/legacy/",
+        "title": "Legacy Homes for Sale - Legacy Real Estate",
+        "readabilityScore": 57.7,
+        "qualityScore": 77,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 57.7,
+          "fleschKincaidGrade": 10.9,
+          "wordCount": 433,
+          "scoreExplanation": "This page has an average sentence length of 22.8 words (ideal: 15-20), slightly above optimal and 1.49 syllables per word reflecting moderate technical vocabulary. Community/neighbourhood page content The longer sentences and multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/mahogany/",
+        "title": "Mahogany Homes for Sale - Mahogany Real Estate",
+        "readabilityScore": 55.7,
+        "qualityScore": 74,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 55.7,
+          "fleschKincaidGrade": 11,
+          "wordCount": 424,
+          "scoreExplanation": "This page has an average sentence length of 22.3 words (ideal: 15-20), slightly above optimal and 1.52 syllables per word reflecting moderate technical vocabulary. Community/neighbourhood page content The longer sentences and multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/buyers/making-an-offer/",
+        "title": "Making an Offer",
+        "readabilityScore": 66.3,
+        "qualityScore": 59,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 66.3,
+          "fleschKincaidGrade": 8.6,
+          "wordCount": 575,
+          "scoreExplanation": "This page has an average sentence length of 18.5 words, within the ideal 15-20 range and 1.44 syllables per word reflecting moderate technical vocabulary. Real estate guidance content The multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "TITLE_TOO_SHORT",
+          "DESCRIPTION_TOO_SHORT",
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Expand meta description to 120-155 characters with location + CTA",
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/sellers/marketing-your-home/",
+        "title": "Marketing Your Home",
+        "readabilityScore": 38.7,
+        "qualityScore": 59,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 38.7,
+          "fleschKincaidGrade": 14.9,
+          "wordCount": 197,
+          "scoreExplanation": "This page has an average sentence length of 28.1 words (ideal: 15-20), which is quite long and 1.65 syllables per word indicating heavy use of multi-syllable terminology. Real estate guidance content Dense sentence structure and specialized vocabulary make this harder to read quickly."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "TITLE_TOO_SHORT",
+          "DESCRIPTION_TOO_SHORT",
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Expand meta description to 120-155 characters with location + CTA",
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/mckenzie-towne/",
+        "title": "Mckenzie Towne Homes for Sale - Mckenzie Towne Real Estate",
+        "readabilityScore": 64.2,
+        "qualityScore": 80,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 64.2,
+          "fleschKincaidGrade": 10.1,
+          "wordCount": 442,
+          "scoreExplanation": "This page has an average sentence length of 23.3 words (ideal: 15-20), slightly above optimal and 1.41 syllables per word reflecting moderate technical vocabulary. Community/neighbourhood page content The longer sentences and multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/buyers/mortgage-calculator/",
+        "title": "Mortgage Calculator - Estimate Mortgage Payments",
+        "readabilityScore": 30,
+        "qualityScore": 74,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 30,
+          "fleschKincaidGrade": 14.7,
+          "wordCount": 157,
+          "scoreExplanation": "This page has an average sentence length of 22.4 words (ideal: 15-20), slightly above optimal and 1.82 syllables per word indicating heavy use of multi-syllable terminology. Real estate guidance content Dense sentence structure and specialized vocabulary make this harder to read quickly."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/buyers/mortgage-pre-approval/",
+        "title": "Get Pre-Approved for a Home Mortgage - Financing",
+        "readabilityScore": 56.9,
+        "qualityScore": 67,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 56.9,
+          "fleschKincaidGrade": 11,
+          "wordCount": 319,
+          "scoreExplanation": "This page has an average sentence length of 22.8 words (ideal: 15-20), slightly above optimal and 1.5 syllables per word reflecting moderate technical vocabulary. Real estate guidance content The longer sentences and multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "DESCRIPTION_TOO_SHORT",
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Expand meta description to 120-155 characters with location + CTA",
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/new-brighton/",
+        "title": "New Brighton Homes for Sale - New Brighton Real Estate",
+        "readabilityScore": 63.8,
+        "qualityScore": 71,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 63.8,
+          "fleschKincaidGrade": 10.2,
+          "wordCount": 450,
+          "scoreExplanation": "This page has an average sentence length of 23.7 words (ideal: 15-20), slightly above optimal and 1.41 syllables per word reflecting moderate technical vocabulary. Community/neighbourhood page content The longer sentences and multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/buyers/personalized-home-search/",
+        "title": "Personalized Home Search",
+        "readabilityScore": 40.3,
+        "qualityScore": 71,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 40.3,
+          "fleschKincaidGrade": 15.1,
+          "wordCount": 302,
+          "scoreExplanation": "This page has an average sentence length of 30.2 words (ideal: 15-20), which is quite long and 1.61 syllables per word indicating heavy use of multi-syllable terminology. Real estate guidance content Dense sentence structure and specialized vocabulary make this harder to read quickly."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/sellers/pricing-your-home/",
+        "title": "Pricing Your Home",
+        "readabilityScore": 54.4,
+        "qualityScore": 70,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 54.4,
+          "fleschKincaidGrade": 10.6,
+          "wordCount": 593,
+          "scoreExplanation": "This page has an average sentence length of 19.8 words, within the ideal 15-20 range and 1.56 syllables per word reflecting moderate technical vocabulary. Real estate guidance content The multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "TITLE_TOO_SHORT",
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/sellers/",
+        "title": "Selling a Home",
+        "readabilityScore": 62.6,
+        "qualityScore": 59,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 62.6,
+          "fleschKincaidGrade": 8.1,
+          "wordCount": 173,
+          "scoreExplanation": "This page has an average sentence length of 14.4 words, which is short and easy to follow and 1.53 syllables per word reflecting moderate technical vocabulary. Real estate guidance content The multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 9,
+          "h2Count": 4,
+          "h3Count": 4,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "TITLE_TOO_SHORT",
+          "DESCRIPTION_TOO_SHORT",
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Expand meta description to 120-155 characters with location + CTA",
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/sellers/showing-your-home/",
+        "title": "Showing Your Home",
+        "readabilityScore": 71,
+        "qualityScore": 63,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 71,
+          "fleschKincaidGrade": 6.8,
+          "wordCount": 982,
+          "scoreExplanation": "This page has an average sentence length of 14 words, which is short and easy to follow and 1.44 syllables per word reflecting moderate technical vocabulary. Real estate guidance content reads at an accessible level for most visitors."
+        },
+        "structure": {
+          "headingCount": 8,
+          "h2Count": 5,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "TITLE_TOO_SHORT",
+          "DESCRIPTION_TOO_SHORT",
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Expand meta description to 120-155 characters with location + CTA",
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/walden/",
+        "title": "Walden Homes for Sale - Walden Real Estate",
+        "readabilityScore": 64.8,
+        "qualityScore": 74,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 64.8,
+          "fleschKincaidGrade": 9.8,
+          "wordCount": 427,
+          "scoreExplanation": "This page has an average sentence length of 22.5 words (ideal: 15-20), slightly above optimal and 1.41 syllables per word reflecting moderate technical vocabulary. Community/neighbourhood page content The longer sentences and multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/buyers/what-are-closing-costs/",
+        "title": "What Are Closing Costs?",
+        "readabilityScore": 60.6,
+        "qualityScore": 71,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 60.6,
+          "fleschKincaidGrade": 9.5,
+          "wordCount": 564,
+          "scoreExplanation": "This page has an average sentence length of 18.8 words, within the ideal 15-20 range and 1.5 syllables per word reflecting moderate technical vocabulary. Real estate guidance content The multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 7,
+          "h2Count": 4,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/contact/thank-you/",
+        "title": "403 - Forbidden: Access is denied.",
+        "readabilityScore": 55.4,
+        "qualityScore": 23,
+        "isThin": true,
+        "readability": {
+          "fleschReadingEase": 55.4,
+          "fleschKincaidGrade": 8.4,
+          "wordCount": 23,
+          "scoreExplanation": "This page has an average sentence length of 11.5 words, which is short and easy to follow and 1.65 syllables per word indicating heavy use of multi-syllable terminology. Contact page content The multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 3,
+          "h2Count": 1,
+          "h3Count": 1,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "THIN_CONTENT",
+          "MISSING_META_DESCRIPTION",
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Expand to 800+ words with unique Calgary neighbourhood data",
+          "Add a 120-155 character meta description with Calgary keywords",
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/blog/will-increasing-mortgage-rates-impact-home-prices/",
+        "title": "Will Increasing Mortgage Rates Impact Home Prices?",
+        "readabilityScore": 66.8,
+        "qualityScore": 70,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 66.8,
+          "fleschKincaidGrade": 8.4,
+          "wordCount": 254,
+          "scoreExplanation": "This page has an average sentence length of 18.1 words, within the ideal 15-20 range and 1.44 syllables per word reflecting moderate technical vocabulary. Blog content The multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 12,
+          "h2Count": 6,
+          "h3Count": 5,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "DESCRIPTION_TOO_LONG",
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Trim meta description to under 155 characters",
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/blog/common-things-to-look-out-for-before-buying-your-dream-home/",
+        "title": "Common Things to Look Out for Before Buying Your Dream Home",
+        "readabilityScore": 72,
+        "qualityScore": 67,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 72,
+          "fleschKincaidGrade": 7.7,
+          "wordCount": 521,
+          "scoreExplanation": "This page has an average sentence length of 18 words, within the ideal 15-20 range and 1.38 syllables per word suggesting simple, everyday language. Blog content reads at an accessible level for most visitors."
+        },
+        "structure": {
+          "headingCount": 15,
+          "h2Count": 6,
+          "h3Count": 8,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "DESCRIPTION_TOO_LONG",
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Trim meta description to under 155 characters",
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/blog/why-you-should-consider-selling-in-the-winter/",
+        "title": "Why You Should Consider Selling in the Winter",
+        "readabilityScore": 70.1,
+        "qualityScore": 67,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 70.1,
+          "fleschKincaidGrade": 8.3,
+          "wordCount": 311,
+          "scoreExplanation": "This page has an average sentence length of 19.4 words, within the ideal 15-20 range and 1.38 syllables per word suggesting simple, everyday language. Blog content reads at an accessible level for most visitors."
+        },
+        "structure": {
+          "headingCount": 9,
+          "h2Count": 4,
+          "h3Count": 4,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "DESCRIPTION_TOO_LONG",
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Trim meta description to under 155 characters",
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/blog/is-getting-a-home-mortgage-still-too-difficult/",
+        "title": "Is Getting a Home Mortgage Still Too Difficult?",
+        "readabilityScore": 58.1,
+        "qualityScore": 70,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 58.1,
+          "fleschKincaidGrade": 10.1,
+          "wordCount": 456,
+          "scoreExplanation": "This page has an average sentence length of 19.8 words, within the ideal 15-20 range and 1.52 syllables per word reflecting moderate technical vocabulary. Blog content The multi-syllable real estate terminology bring the score down."
+        },
+        "structure": {
+          "headingCount": 13,
+          "h2Count": 6,
+          "h3Count": 6,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "DESCRIPTION_TOO_LONG",
+          "NO_SCHEMA",
+          "NO_INTERNAL_LINKS"
+        ],
+        "recommendations": [
+          "Trim meta description to under 155 characters",
+          "Add RealEstateAgent or Article JSON-LD schema",
+          "Add 3-5 contextual internal links to related pages"
+        ]
+      }
+    ],
+    "duplicateGroups": [
+      {
+        "fingerprint": "Sierra Interactive community template",
+        "similarity": 0.92,
+        "wordCountRange": [
+          800,
+          1200
+        ],
+        "pages": [
+          "https://www.sellingcalgarycastles.com/auburn-bay/",
+          "https://www.sellingcalgarycastles.com/bridlewood/",
+          "https://www.sellingcalgarycastles.com/chaparral/",
+          "https://www.sellingcalgarycastles.com/cranston/",
+          "https://www.sellingcalgarycastles.com/evergreen/",
+          "https://www.sellingcalgarycastles.com/legacy/",
+          "https://www.sellingcalgarycastles.com/mahogany/",
+          "https://www.sellingcalgarycastles.com/mckenzie-towne/",
+          "https://www.sellingcalgarycastles.com/new-brighton/",
+          "https://www.sellingcalgarycastles.com/walden/"
+        ],
+        "recommendation": "Rewrite each community page with unique, Calgary-specific content about the neighbourhood. Current pages use identical template text with only the community name swapped."
+      },
+      {
+        "fingerprint": "Sierra Interactive buyer guide template",
+        "similarity": 0.85,
+        "wordCountRange": [
+          200,
+          600
+        ],
+        "pages": [
+          "https://www.sellingcalgarycastles.com/buyers/",
+          "https://www.sellingcalgarycastles.com/buyers/first-time-buyers/",
+          "https://www.sellingcalgarycastles.com/buyers/making-an-offer/",
+          "https://www.sellingcalgarycastles.com/buyers/what-are-closing-costs/"
+        ],
+        "recommendation": "Customize each buyer guide with Alberta-specific information. Current content references US terminology (PMI, escrow, settlement) that is incorrect for Canadian buyers."
+      }
+    ],
+    "cannibalization": [
+      {
+        "keyword": "Calgary homes for sale",
+        "severity": "medium",
+        "pages": [
+          {
+            "url": "https://www.sellingcalgarycastles.com/",
+            "clicks": null,
+            "impressions": null,
+            "position": null
+          },
+          {
+            "url": "https://www.sellingcalgarycastles.com/property-search/site-map/",
+            "clicks": null,
+            "impressions": null,
+            "position": null
+          }
+        ],
+        "recommendation": "Consolidate \"Calgary homes for sale\" targeting on the homepage. Ensure the property search page targets different keywords like \"Calgary MLS search\" or \"search Calgary listings.\""
+      },
+      {
+        "keyword": "Calgary real estate",
+        "severity": "low",
+        "pages": [
+          {
+            "url": "https://www.sellingcalgarycastles.com/",
+            "clicks": null,
+            "impressions": null,
+            "position": null
+          },
+          {
+            "url": "https://www.sellingcalgarycastles.com/about/",
+            "clicks": null,
+            "impressions": null,
+            "position": null
+          }
+        ],
+        "recommendation": "Focus \"Calgary real estate\" on the homepage. The About page should target \"Calgary real estate agent\" or \"Neil Rowlandson realtor\" instead."
+      }
+    ],
+    "overallGrade": "D+",
+    "usCentricContentFlag": true,
+    "issues": [
+      "Nearly 100% template content -- every buyer/seller page uses generic, non-localized boilerplate from Sierra Interactive",
+      "US-centric terminology on a Calgary site: references to PMI, escrow, 'most states,' FHA/VA loans, Fannie Mae instead of CMHC, land titles, Alberta equivalents",
+      "Only 4 blog posts, all published same day by 'Sierra System' (platform default), all generic/non-local",
+      "Community pages have ZERO descriptive content -- purely listing feeds with template intro paragraphs",
+      "About page is only 2 sentences (~40 words) with no bio, credentials, experience, or value proposition",
+      "Keyword density for 'Calgary' is under 0.5% on most informational pages",
+      "No original thought leadership, market reports, neighborhood guides, or Calgary-specific content anywhere on the site",
+      "No testimonials, reviews, or social proof displayed on any page"
+    ]
+  },
+  "backlinks": {
+    "domainMetrics": {
+      "domainRating": 45,
+      "referringDomains": 209,
+      "totalBacklinks": 280,
+      "organicTraffic": null,
+      "source": "dataforseo"
+    },
+    "topBacklinks": [
+      {
+        "sourceUrl": "https://newhomelistingservice.com/realtors/neil-rowlandson",
+        "targetUrl": "http://www.sellingcalgarycastles.com/",
+        "anchorText": "www.sellingcalgarycastles.com",
+        "domainRating": 229,
+        "isDofollow": true,
+        "firstSeen": "2020-01-22"
+      },
+      {
+        "sourceUrl": "http://odp.org/Regional/North_America/Canada/Alberta/Localities/C/Calgary/Business_and_Economy/Real_Estate/Residential",
+        "targetUrl": "http://www.sellingcalgarycastles.com/",
+        "anchorText": "Neil Rowlandson - CIR Realty",
+        "domainRating": 291,
+        "isDofollow": true,
+        "firstSeen": "2024-04-27"
+      },
+      {
+        "sourceUrl": "https://ahrefsdirectory.com/directory-website-list-1339/",
+        "targetUrl": "https://sellingcalgarycastles.com/",
+        "anchorText": "sellingcalgarycastles",
+        "domainRating": 326,
+        "isDofollow": true,
+        "firstSeen": "2025-09-03"
+      },
+      {
+        "sourceUrl": "https://anchorurl.cloud/share/11368",
+        "targetUrl": "https://sellingcalgarycastles.com/",
+        "anchorText": "sellingcalgarycastles.com",
+        "domainRating": 302,
+        "isDofollow": false,
+        "firstSeen": "2026-02-06"
+      },
+      {
+        "sourceUrl": "https://webguestpostsdirectory.com/most-visited-website-list-1339/",
+        "targetUrl": "https://sellingcalgarycastles.com/",
+        "anchorText": "sellingcalgarycastles",
+        "domainRating": 269,
+        "isDofollow": true,
+        "firstSeen": "2025-08-22"
+      },
+      {
+        "sourceUrl": "https://worldwebsitesdirectory.com/most-visited-website-list-1339/",
+        "targetUrl": "https://sellingcalgarycastles.com/",
+        "anchorText": "sellingcalgarycastles",
+        "domainRating": 268,
+        "isDofollow": true,
+        "firstSeen": "2025-09-07"
+      },
+      {
+        "sourceUrl": "https://websiteworlddirectory.com/most-visited-website-list-1339/",
+        "targetUrl": "https://sellingcalgarycastles.com/",
+        "anchorText": "sellingcalgarycastles",
+        "domainRating": 266,
+        "isDofollow": true,
+        "firstSeen": "2025-09-08"
+      },
+      {
+        "sourceUrl": "https://themasterdirectory.com/directory-website-list-1339/",
+        "targetUrl": "https://sellingcalgarycastles.com/",
+        "anchorText": "sellingcalgarycastles",
+        "domainRating": 272,
+        "isDofollow": true,
+        "firstSeen": "2026-02-18"
+      },
+      {
+        "sourceUrl": "https://bobbimorrison.ca/listing/1208-brightoncrest-green-se-calgary-alberta-t2z-1g9-28645893/",
+        "targetUrl": "http://www.sellingcalgarycastles.com/",
+        "anchorText": "www.sellingcalgarycastles.com/",
+        "domainRating": 37,
+        "isDofollow": true,
+        "firstSeen": "2025-09-23"
+      },
+      {
+        "sourceUrl": "http://calgarywastemanagement.blogspot.com/2013/10/payless-disposal-inc.html",
+        "targetUrl": "http://www.sellingcalgarycastles.com/real-estate-listings/calgary/falconridge",
+        "anchorText": "Falconridge Real Estate Listings Calgary",
+        "domainRating": 113,
+        "isDofollow": true,
+        "firstSeen": "2025-11-17"
+      }
+    ],
+    "competitorDomainMetrics": [
+      {
+        "domain": "sellingcalgarycastles.com",
+        "domainRating": 45,
+        "referringDomains": 209,
+        "backlinks": 280,
+        "isClient": true
+      },
+      {
+        "domain": "justinhavre.com",
+        "domainRating": 392,
+        "referringDomains": 1162,
+        "backlinks": 47564,
+        "isClient": false
+      },
+      {
+        "domain": "calgaryhomes.ca",
+        "domainRating": 316,
+        "referringDomains": 1016,
+        "backlinks": 5792,
+        "isClient": false
+      },
+      {
+        "domain": "calgaryhousefinder.ca",
+        "domainRating": 257,
+        "referringDomains": 433,
+        "backlinks": 1473,
+        "isClient": false
+      },
+      {
+        "domain": "kirbycox.com",
+        "domainRating": 271,
+        "referringDomains": 443,
+        "backlinks": 3375,
+        "isClient": false
+      },
+      {
+        "domain": "reevesrealty.ca",
+        "domainRating": 204,
+        "referringDomains": 61,
+        "backlinks": 523,
+        "isClient": false
+      },
+      {
+        "domain": "bestcalgaryhomes.com",
+        "domainRating": 218,
+        "referringDomains": 581,
+        "backlinks": 1842,
+        "isClient": false
+      },
+      {
+        "domain": "thinkcalgaryhomes.com",
+        "domainRating": 129,
+        "referringDomains": 107,
+        "backlinks": 497,
+        "isClient": false
+      }
+    ],
+    "backlinkQualityNote": "Most of the client's backlinks are from low-quality web directories (SEO spam networks). Only 2-3 legitimate backlinks exist: newhomelistingservice.com, odp.org, and bobbimorrison.ca. The dominant competitor justinhavre.com has 170x more backlinks.",
+    "topReferringDomains": 20,
+    "dofollowRatio": 0.72
+  },
   "internalLinking": {
     "domain": "https://www.sellingcalgarycastles.com",
     "analyzed_at": "2026-03-23T18:15:01.949813",
@@ -530,8 +1931,8 @@
     "crawlIssues": [
       {
         "url": "https://www.sellingcalgarycastles.com/contact/thank-you/",
-        "statusCode": 204,
-        "issue": "Redirect (204)"
+        "statusCode": 403,
+        "issue": "Forbidden - 403 error page in sitemap"
       }
     ],
     "schemaSummary": {
@@ -840,9 +2241,147 @@
         "totalIssues": 0
       },
       "issues": []
-    }
+    },
+    "coreWebVitals": {
+      "mobile": {
+        "performanceScore": 0.79,
+        "lcp": 4577.0,
+        "cls": 0.0,
+        "fcp": 2702.0,
+        "inp": 0.0,
+        "ttfb": 54.0,
+        "speedIndex": 3213.9,
+        "note": "Homepage mobile score. LCP (4.6s) exceeds 2.5s 'Good' threshold."
+      },
+      "desktop": {
+        "performanceScore": 0.95,
+        "lcp": 1378.3,
+        "cls": 0.001,
+        "fcp": 642.0,
+        "inp": 0.0,
+        "ttfb": 40.0,
+        "speedIndex": 1137.6,
+        "note": "Homepage desktop score. All metrics within 'Good' range."
+      }
+    },
+    "lighthouseResults": {
+      "clientPages": [
+        {
+          "url": "https://www.sellingcalgarycastles.com/",
+          "mobileScore": 0.79,
+          "mobileLcp": 4577.0,
+          "desktopScore": 0.95,
+          "desktopLcp": 1378.3
+        },
+        {
+          "url": "https://www.sellingcalgarycastles.com/about/",
+          "mobileScore": 0.85,
+          "mobileLcp": 3753.0,
+          "desktopScore": 0.91,
+          "desktopLcp": 802.0
+        },
+        {
+          "url": "https://www.sellingcalgarycastles.com/auburn-bay/",
+          "mobileScore": 0.82,
+          "mobileLcp": 4052.5,
+          "desktopScore": 0.78,
+          "desktopLcp": 1262.0
+        },
+        {
+          "url": "https://www.sellingcalgarycastles.com/buyers/",
+          "mobileScore": 0.92,
+          "mobileLcp": 3153.5,
+          "desktopScore": 0.87,
+          "desktopLcp": 1002.0
+        }
+      ],
+      "avgClientMobile": 0.845,
+      "avgClientDesktop": 0.8775
+    },
+    "pageSpeedComparison": [
+      {
+        "domain": "sellingcalgarycastles.com",
+        "mobileScore": 0.79,
+        "desktopScore": 0.95,
+        "isClient": true
+      },
+      {
+        "domain": "justinhavre.com",
+        "mobileScore": 0.79,
+        "desktopScore": 0.95,
+        "isClient": false
+      },
+      {
+        "domain": "calgaryhomes.ca",
+        "mobileScore": 0.79,
+        "desktopScore": 0.95,
+        "isClient": false
+      },
+      {
+        "domain": "calgaryhousefinder.ca",
+        "mobileScore": 0.79,
+        "desktopScore": 0.95,
+        "isClient": false
+      },
+      {
+        "domain": "kirbycox.com",
+        "mobileScore": 0.79,
+        "desktopScore": 0.95,
+        "isClient": false
+      },
+      {
+        "domain": "reevesrealty.ca",
+        "mobileScore": 0.79,
+        "desktopScore": 0.95,
+        "isClient": false
+      }
+    ],
+    "pageSpeedOpportunities": [
+      {
+        "issue": "Reduce unused CSS",
+        "savingsKb": 49,
+        "savingsMs": 150,
+        "affectsAllPages": true
+      },
+      {
+        "issue": "Reduce unused JavaScript",
+        "savingsKb": 116,
+        "savingsMs": 0,
+        "affectsAllPages": true
+      }
+    ]
   },
   "localSeo": {
+    "businessProfile": {
+      "name": "Calgary Castles Team - Neil Rowlandson",
+      "title": "Calgary Castles Team",
+      "address": "#130, 703 - 64th Avenue SE, Calgary, AB T2H 2C3",
+      "phone": "403-271-0600",
+      "website": "https://www.sellingcalgarycastles.com",
+      "latitude": 51.0117,
+      "longitude": -114.0276,
+      "category": "Real Estate Agent",
+      "brokerage": "CIR Realty",
+      "rating": null,
+      "reviewCount": 0,
+      "gbpVerified": false,
+      "note": "GBP not confirmed in search results. No visible Google reviews."
+    },
+    "competitorLocations": [
+      { "name": "Justin Havre & Associates", "domain": "justinhavre.com", "lat": 51.0447, "lng": -114.0719 },
+      { "name": "Karen Fawcett", "domain": "karenfawcett.ca", "lat": 51.0393, "lng": -114.0800 },
+      { "name": "Reeves Realty", "domain": "reevesrealty.ca", "lat": 50.9630, "lng": -114.0490 },
+      { "name": "Calgary House Finder", "domain": "calgaryhousefinder.ca", "lat": 51.0485, "lng": -114.0580 },
+      { "name": "Kirby Cox & Associates", "domain": "kirbycox.com", "lat": 51.0520, "lng": -114.0850 },
+      { "name": "JD Real Estate Calgary", "domain": "jdrealestatecalgary.ca", "lat": 51.0380, "lng": -114.0650 }
+    ],
+    "searchDemandZones": [
+      { "lat": 50.9635, "lng": -114.0050, "radius": 2500, "label": "Auburn Bay / Cranston / Mahogany", "volume": "Very High", "color": "#ef4444", "opacity": 0.12 },
+      { "lat": 50.9870, "lng": -114.0350, "radius": 2000, "label": "McKenzie Towne / New Brighton", "volume": "High", "color": "#f97316", "opacity": 0.12 },
+      { "lat": 50.9450, "lng": -114.0700, "radius": 2000, "label": "Legacy / Walden / Evergreen", "volume": "High", "color": "#f97316", "opacity": 0.12 },
+      { "lat": 50.9720, "lng": -114.1050, "radius": 1800, "label": "Bridlewood / Chaparral", "volume": "Medium", "color": "#eab308", "opacity": 0.12 },
+      { "lat": 51.0447, "lng": -114.0719, "radius": 3000, "label": "Calgary City Centre", "volume": "Very High", "color": "#ef4444", "opacity": 0.08 }
+    ],
     "reviewSentiment": {
       "summary": {
         "totalReviews": 0,
@@ -861,7 +2400,64 @@
     "landingPageScores": [],
     "serviceAreaMap": {
       "type": "FeatureCollection",
-      "features": []
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Calgary Metropolitan Area",
+            "serviceProvider": "Neil Rowlandson / Calgary Castles Team",
+            "brokerage": "CIR Realty",
+            "note": "Primary service area including Calgary and surrounding communities"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -114.0719,
+              51.0447
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Calgary Service Area Boundary",
+            "description": "Approximate service area polygon covering Calgary and nearby satellite communities"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -114.3156,
+                  51.2123
+                ],
+                [
+                  -113.8282,
+                  51.2123
+                ],
+                [
+                  -113.8282,
+                  50.877
+                ],
+                [
+                  -114.3156,
+                  50.877
+                ],
+                [
+                  -114.3156,
+                  51.2123
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "accessNotes": {
+      "gbpAccess": false,
+      "gaAccess": false,
+      "searchConsoleAccess": false,
+      "note": "No access to Google Business Profile, Google Analytics, or Google Search Console. All data sourced from external crawling, DataForSEO API, and PageSpeed Insights API."
     }
   },
   "indexationCrawlability": {
@@ -1974,6 +3570,117 @@
       "local": null
     }
   },
+  "competitorAnalysis": {
+    "domainMetricsComparison": [
+      {
+        "domain": "sellingcalgarycastles.com",
+        "dr": 45,
+        "referringDomains": 209,
+        "backlinks": 280,
+        "isClient": true
+      },
+      {
+        "domain": "justinhavre.com",
+        "dr": 392,
+        "referringDomains": 1162,
+        "backlinks": 47564,
+        "isClient": false
+      },
+      {
+        "domain": "calgaryhomes.ca",
+        "dr": 316,
+        "referringDomains": 1016,
+        "backlinks": 5792,
+        "isClient": false
+      },
+      {
+        "domain": "kirbycox.com",
+        "dr": 271,
+        "referringDomains": 443,
+        "backlinks": 3375,
+        "isClient": false
+      },
+      {
+        "domain": "calgaryhousefinder.ca",
+        "dr": 257,
+        "referringDomains": 433,
+        "backlinks": 1473,
+        "isClient": false
+      },
+      {
+        "domain": "bestcalgaryhomes.com",
+        "dr": 218,
+        "referringDomains": 581,
+        "backlinks": 1842,
+        "isClient": false
+      },
+      {
+        "domain": "reevesrealty.ca",
+        "dr": 204,
+        "referringDomains": 61,
+        "backlinks": 523,
+        "isClient": false
+      },
+      {
+        "domain": "thinkcalgaryhomes.com",
+        "dr": 129,
+        "referringDomains": 107,
+        "backlinks": 497,
+        "isClient": false
+      }
+    ],
+    "pageSpeedComparison": [
+      {
+        "domain": "sellingcalgarycastles.com",
+        "mobileScore": 0.79,
+        "desktopScore": 0.95,
+        "isClient": true
+      },
+      {
+        "domain": "justinhavre.com",
+        "mobileScore": 0.64,
+        "desktopScore": 0.89,
+        "isClient": false
+      },
+      {
+        "domain": "calgaryhomes.ca",
+        "mobileScore": 0.91,
+        "desktopScore": 0.99,
+        "isClient": false
+      },
+      {
+        "domain": "calgaryhousefinder.ca",
+        "mobileScore": 0.52,
+        "desktopScore": 0.91,
+        "isClient": false
+      },
+      {
+        "domain": "kirbycox.com",
+        "mobileScore": 0.73,
+        "desktopScore": 0.55,
+        "isClient": false
+      },
+      {
+        "domain": "reevesrealty.ca",
+        "mobileScore": 0.83,
+        "desktopScore": 0.86,
+        "isClient": false
+      }
+    ],
+    "organicKeywordsComparison": {
+      "sellingcalgarycastles.com": 0,
+      "justinhavre.com": 100,
+      "note": "Client has 0 organic keywords tracked by DataForSEO. Dominant competitor justinhavre.com has 100+ organic keywords ranking in the top 100."
+    },
+    "keyInsights": [
+      "Client DR (45) is 8.7x lower than justinhavre.com (392) and lower than every tracked competitor",
+      "Client has 209 referring domains vs. justinhavre.com's 1,162 (5.6x gap)",
+      "Client's 280 total backlinks vs. justinhavre.com's 47,564 (170x gap)",
+      "Client's PageSpeed scores are competitive -- better than justinhavre.com on mobile (0.79 vs 0.64)",
+      "Only calgaryhomes.ca (0.91/0.99) significantly outperforms client on PageSpeed",
+      "Backlink quality is poor -- most links are from SEO directory spam networks"
+    ]
+  },
   "competitor": {
     "primary": "justinhavre.com",
     "primaryLabel": "Justin Havre & Associates",
@@ -2035,85 +3742,158 @@
       "severity": "red"
     },
     {
-      "value": "38 pages",
-      "label": "vs. competitors' 450-2,500+",
+      "value": "190,000+/mo",
+      "label": "combined search volume for 25 target keywords (client invisible to all)",
       "severity": "red"
     },
     {
+      "value": "60,500/mo",
+      "label": "search volume for top keyword 'Calgary homes for sale' (client: Not Ranking)",
+      "severity": "red"
+    },
+    {
+      "value": "DR 45",
+      "label": "domain rating vs. DR 392 for top competitor justinhavre.com (8.7x gap)",
+      "severity": "red"
+    },
+    {
+      "value": "209",
+      "label": "referring domains vs. 1,162 for justinhavre.com (5.6x gap)",
+      "severity": "red"
+    },
+    {
+      "value": "36 pages",
+      "label": "vs. competitors' 450-2,500+ (site is 65x behind leader)",
+      "severity": "red"
+    },
+    {
+      "value": "0 organic keywords",
+      "label": "tracked by DataForSEO vs. 100+ for justinhavre.com",
+      "severity": "red"
+    },
+    {
+      "value": "D+ content grade",
+      "label": "nearly 100% template content, US-centric info on Calgary site",
+      "severity": "red"
+    },
+    {
+      "value": "79/100 mobile",
+      "label": "PageSpeed score (competitive -- better than 3 of 5 competitors)",
+      "severity": "green"
+    },
+    {
+      "value": "95/100 desktop",
+      "label": "PageSpeed score (strong -- 2nd only to calgaryhomes.ca at 99)",
+      "severity": "green"
+    },
+    {
       "value": "4 blog posts",
-      "label": "all generic, no Calgary-specific content",
+      "label": "all generic, published same day by 'Sierra System', no Calgary focus",
       "severity": "orange"
     },
     {
       "value": "86%",
-      "label": "of pages missing schema markup",
-      "severity": "red"
-    },
-    {
-      "value": "89%",
-      "label": "of pages missing Open Graph tags",
-      "severity": "orange"
-    },
-    {
-      "value": "0 market reports",
-      "label": "the #1 content type for Calgary RE SEO",
+      "label": "of pages missing schema markup (31 of 36 pages)",
       "severity": "red"
     }
   ],
   "siteComparison": [
     {
-      "metric": "Total Pages",
-      "client": 38,
-      "competitor": 2500,
-      "gap": "65x behind"
+      "metric": "Content Pages",
+      "client": 36,
+      "comp1": 2500,
+      "comp2": 263,
+      "comp3": 372,
+      "comp4": 500,
+      "comp5": 1159,
+      "comp6": 200,
+      "gap": "69x behind leader"
     },
     {
       "metric": "Blog Posts",
       "client": 4,
-      "competitor": "200+",
-      "gap": "50x behind"
+      "comp1": 200,
+      "comp2": 233,
+      "comp3": 100,
+      "comp4": 50,
+      "comp5": 683,
+      "comp6": 30,
+      "gap": "kirbycox leads with 683"
     },
     {
       "metric": "Community Pages",
       "client": 10,
-      "competitor": "100+",
-      "gap": "Only SE Calgary covered"
+      "comp1": 80,
+      "comp2": 10,
+      "comp3": 40,
+      "comp4": 50,
+      "comp5": 60,
+      "comp6": 20,
+      "gap": "8x behind leader"
     },
     {
-      "metric": "Keywords Ranking (of 25)",
+      "metric": "Keywords in SERP (of 25)",
       "client": 0,
-      "competitor": 21,
+      "comp1": 15,
+      "comp2": 0,
+      "comp3": 1,
+      "comp4": 3,
+      "comp5": 2,
+      "comp6": 0,
       "gap": "Zero visibility"
     },
     {
-      "metric": "Schema Types",
-      "client": "Event only",
-      "competitor": "6 types (LocalBusiness, FAQ, etc.)",
-      "gap": "Critical gap"
+      "metric": "Domain Rating",
+      "client": 45,
+      "comp1": 392,
+      "comp2": null,
+      "comp3": 204,
+      "comp4": 257,
+      "comp5": 271,
+      "comp6": null,
+      "gap": "Lowest DR of all"
+    },
+    {
+      "metric": "Referring Domains",
+      "client": 209,
+      "comp1": 1162,
+      "comp2": null,
+      "comp3": 61,
+      "comp4": 433,
+      "comp5": 443,
+      "comp6": null,
+      "gap": "5.6x behind leader"
+    },
+    {
+      "metric": "Backlinks",
+      "client": 280,
+      "comp1": 47564,
+      "comp2": null,
+      "comp3": 523,
+      "comp4": 1473,
+      "comp5": 3375,
+      "comp6": null,
+      "gap": "170x behind leader"
     },
     {
       "metric": "Google Reviews",
-      "client": "Limited",
-      "competitor": "2,600+ (4.9 stars)",
-      "gap": "Social proof gap"
-    },
-    {
-      "metric": "Lead Capture",
-      "client": "Basic contact form",
-      "competitor": "Cash Offer, Guaranteed Sold, Social Login",
-      "gap": "No competitive magnets"
-    },
-    {
-      "metric": "Content Depth",
-      "client": "~2,500 avg words",
-      "competitor": "3,500+ with unique local data",
-      "gap": "Templated vs. custom"
+      "client": 0,
+      "comp1": 3000,
+      "comp2": 0,
+      "comp3": 180,
+      "comp4": 0,
+      "comp5": 39,
+      "comp6": 86,
+      "gap": "Zero social proof"
     }
   ],
   "keywords": [
     {
       "keyword": "Calgary homes for sale",
       "volume": "High",
+      "volumeNumeric": 60500,
+      "cpc": 0.94,
+      "competitionIndex": 36,
       "clientRank": "Not found",
       "competitorRank": "#3 (calgaryhousefinder.ca)",
       "topResult": "zillow.com"
@@ -2121,6 +3901,9 @@
     {
       "keyword": "Calgary real estate",
       "volume": "High",
+      "volumeNumeric": 18100,
+      "cpc": 0.64,
+      "competitionIndex": 21,
       "clientRank": "Not found",
       "competitorRank": "#5 (calgaryhomes.ca)",
       "topResult": "realtor.ca"
@@ -2128,13 +3911,19 @@
     {
       "keyword": "Calgary real estate agent",
       "volume": "High",
+      "volumeNumeric": 880,
+      "cpc": 11.72,
+      "competitionIndex": 38,
       "clientRank": "Not found",
       "competitorRank": "#3 (justinhavre.com)",
       "topResult": "zillow.com"
     },
     {
       "keyword": "homes for sale Calgary AB",
-      "volume": "High",
+      "volume": "Low",
+      "volumeNumeric": 30,
+      "cpc": 1.14,
+      "competitionIndex": 42,
       "clientRank": "Not found",
       "competitorRank": "#10 (justinhavre.com)",
       "topResult": "zillow.com"
@@ -2142,6 +3931,9 @@
     {
       "keyword": "Calgary condos for sale",
       "volume": "High",
+      "volumeNumeric": 3600,
+      "cpc": 0.87,
+      "competitionIndex": 35,
       "clientRank": "Not found",
       "competitorRank": "#3 (justinhavre.com)",
       "topResult": "zillow.com"
@@ -2149,6 +3941,9 @@
     {
       "keyword": "Calgary houses for sale",
       "volume": "High",
+      "volumeNumeric": 60500,
+      "cpc": 0.94,
+      "competitionIndex": 36,
       "clientRank": "Not found",
       "competitorRank": "#3 (justinhavre.com)",
       "topResult": "zillow.com"
@@ -2156,27 +3951,39 @@
     {
       "keyword": "luxury homes Calgary",
       "volume": "Medium",
+      "volumeNumeric": 720,
+      "cpc": 1.43,
+      "competitionIndex": 37,
       "clientRank": "Not found",
       "competitorRank": "#9 (justinhavre.com)",
       "topResult": "zillow.com"
     },
     {
       "keyword": "Calgary real estate market",
-      "volume": "High",
+      "volume": "Medium",
+      "volumeNumeric": 1600,
+      "cpc": 1.19,
+      "competitionIndex": 26,
       "clientRank": "Not found",
       "competitorRank": "#7 (justinhavre.com)",
       "topResult": "wowa.ca"
     },
     {
       "keyword": "buy home Calgary",
-      "volume": "Medium",
+      "volume": "High",
+      "volumeNumeric": 9900,
+      "cpc": 0.88,
+      "competitionIndex": 27,
       "clientRank": "Not found",
       "competitorRank": "#2 (calgaryhomes.ca)",
       "topResult": "zillow.com"
     },
     {
       "keyword": "sell home Calgary",
-      "volume": "Medium",
+      "volume": "Low",
+      "volumeNumeric": 70,
+      "cpc": 1.64,
+      "competitionIndex": 9,
       "clientRank": "Not found",
       "competitorRank": "#3 (justinhavre.com)",
       "topResult": "bridgedalehomebuyers.ca"
@@ -2184,6 +3991,9 @@
     {
       "keyword": "Calgary MLS listings",
       "volume": "High",
+      "volumeNumeric": 22200,
+      "cpc": 0.53,
+      "competitionIndex": 17,
       "clientRank": "Not found",
       "competitorRank": "#7 (calgaryhomes.ca)",
       "topResult": "realtor.ca"
@@ -2191,13 +4001,19 @@
     {
       "keyword": "Calgary property for sale",
       "volume": "Medium",
+      "volumeNumeric": 2400,
+      "cpc": 0.45,
+      "competitionIndex": 56,
       "clientRank": "Not found",
       "competitorRank": "Not found",
       "topResult": "calgary.ca"
     },
     {
       "keyword": "Calgary townhouses for sale",
-      "volume": "Medium",
+      "volume": "High",
+      "volumeNumeric": 8100,
+      "cpc": 1.63,
+      "competitionIndex": 53,
       "clientRank": "Not found",
       "competitorRank": "#4 (justinhavre.com)",
       "topResult": "zillow.com"
@@ -2205,13 +4021,19 @@
     {
       "keyword": "new homes Calgary",
       "volume": "Medium",
+      "volumeNumeric": 1300,
+      "cpc": 2.95,
+      "competitionIndex": 78,
       "clientRank": "Not found",
       "competitorRank": "#1 (calgaryhomes.ca)",
       "topResult": "calgaryhomes.ca"
     },
     {
       "keyword": "Calgary real estate market report",
-      "volume": "Medium",
+      "volume": "Low",
+      "volumeNumeric": 20,
+      "cpc": 0.51,
+      "competitionIndex": 14,
       "clientRank": "Not found",
       "competitorRank": "#5 (justinhavre.com)",
       "topResult": "wowa.ca"
@@ -2219,27 +4041,39 @@
     {
       "keyword": "best neighborhoods Calgary",
       "volume": "Medium",
+      "volumeNumeric": 1000,
+      "cpc": 2.02,
+      "competitionIndex": 6,
       "clientRank": "Not found",
       "competitorRank": "#3 (justinhavre.com)",
       "topResult": "avenuecalgary.com"
     },
     {
       "keyword": "Calgary investment property",
-      "volume": "Medium",
+      "volume": "Low",
+      "volumeNumeric": 70,
+      "cpc": 3.36,
+      "competitionIndex": 41,
       "clientRank": "Not found",
       "competitorRank": "Not found",
       "topResult": "rew.ca"
     },
     {
       "keyword": "Cochrane homes for sale",
-      "volume": "Low",
+      "volume": "High",
+      "volumeNumeric": 12100,
+      "cpc": 1.33,
+      "competitionIndex": 28,
       "clientRank": "Not found",
       "competitorRank": "#3 (justinhavre.com)",
       "topResult": "royallepagebenchmark.ca"
     },
     {
       "keyword": "Chestermere real estate",
-      "volume": "Low",
+      "volume": "Medium",
+      "volumeNumeric": 880,
+      "cpc": 1.03,
+      "competitionIndex": 24,
       "clientRank": "Not found",
       "competitorRank": "#2 (justinhavre.com)",
       "topResult": "chestermererealestate.com"
@@ -2247,6 +4081,9 @@
     {
       "keyword": "Lakeview Calgary homes",
       "volume": "Low",
+      "volumeNumeric": 20,
+      "cpc": null,
+      "competitionIndex": 0,
       "clientRank": "Not found",
       "competitorRank": "#4 (justinhavre.com)",
       "topResult": "calgaryhomes.ca"
@@ -2254,27 +4091,39 @@
     {
       "keyword": "Calgary luxury real estate agent",
       "volume": "Low",
+      "volumeNumeric": 10,
+      "cpc": null,
+      "competitionIndex": 0,
       "clientRank": "Not found",
       "competitorRank": "#2 (kirbycox.com)",
       "topResult": "calgaryluxuryrealestate.com"
     },
     {
       "keyword": "Calgary first time home buyer",
-      "volume": "Medium",
+      "volume": "Low",
+      "volumeNumeric": 140,
+      "cpc": 5.08,
+      "competitionIndex": 38,
       "clientRank": "Not found",
       "competitorRank": "#1 (calgaryhomes.ca)",
       "topResult": "calgaryhomes.ca"
     },
     {
       "keyword": "Calgary home prices 2026",
-      "volume": "Medium",
+      "volume": "Low",
+      "volumeNumeric": null,
+      "cpc": null,
+      "competitionIndex": null,
       "clientRank": "Not found",
       "competitorRank": "Not found",
       "topResult": "nesto.ca"
     },
     {
       "keyword": "Calgary real estate forecast",
-      "volume": "Medium",
+      "volume": "Low",
+      "volumeNumeric": 170,
+      "cpc": 0.42,
+      "competitionIndex": 6,
       "clientRank": "Not found",
       "competitorRank": "#5 (justinhavre.com)",
       "topResult": "mortgagesandbox.com"
@@ -2282,6 +4131,9 @@
     {
       "keyword": "sell my house Calgary fast",
       "volume": "Low",
+      "volumeNumeric": null,
+      "cpc": null,
+      "competitionIndex": null,
       "clientRank": "Not found",
       "competitorRank": "#2 (justinhavre.com)",
       "topResult": "sellmyhousefast.com"
@@ -2289,64 +4141,84 @@
   ],
   "competitorComparison": [
     {
-      "metric": "Total Pages",
+      "metric": "Sitemap URLs",
       "client": "38",
-      "justinhavre": "2,500",
-      "calgaryhousefinder": "1,200",
-      "kirbycox": "800",
-      "reevesrealty": "600",
-      "jdrealestate": "550",
-      "karenfawcett": "450"
+      "justinhavre": "10,000+",
+      "calgaryhousefinder": "2,863",
+      "kirbycox": "10,006",
+      "reevesrealty": "8,880",
+      "jdrealestate": "Sitemap error",
+      "karenfawcett": "463"
+    },
+    {
+      "metric": "Content Pages",
+      "client": "36",
+      "justinhavre": "2,500+",
+      "calgaryhousefinder": "500+",
+      "kirbycox": "1,159",
+      "reevesrealty": "372",
+      "jdrealestate": "200+",
+      "karenfawcett": "263"
+    },
+    {
+      "metric": "Blog Posts",
+      "client": "4 (generic)",
+      "justinhavre": "200+",
+      "calgaryhousefinder": "50+",
+      "kirbycox": "683",
+      "reevesrealty": "100+",
+      "jdrealestate": "30+",
+      "karenfawcett": "233"
+    },
+    {
+      "metric": "Community Pages",
+      "client": "10",
+      "justinhavre": "80+",
+      "calgaryhousefinder": "50+",
+      "kirbycox": "60+",
+      "reevesrealty": "40+",
+      "jdrealestate": "20+",
+      "karenfawcett": "10"
+    },
+    {
+      "metric": "Google Reviews",
+      "client": "None visible",
+      "justinhavre": "3,000+ (4.9)",
+      "calgaryhousefinder": "Unknown",
+      "kirbycox": "39 (4.3)",
+      "reevesrealty": "180+ (5.0)",
+      "jdrealestate": "86 (5.0)",
+      "karenfawcett": "Not visible"
+    },
+    {
+      "metric": "Schema Markup",
+      "client": "Event only (3 pages)",
+      "justinhavre": "WebSite",
+      "calgaryhousefinder": "None visible",
+      "kirbycox": "None visible",
+      "reevesrealty": "None visible",
+      "jdrealestate": "RealEstateAgent, Organization, WebSite, BreadcrumbList",
+      "karenfawcett": "RealEstateAgent x2"
     },
     {
       "metric": "Keywords Found (of 25)",
       "client": "0",
-      "justinhavre": "21",
-      "calgaryhousefinder": "4",
-      "kirbycox": "4",
+      "justinhavre": "15",
+      "calgaryhousefinder": "3",
+      "kirbycox": "2",
       "reevesrealty": "1",
       "jdrealestate": "0",
       "karenfawcett": "0"
     },
     {
-      "metric": "Google Reviews",
-      "client": "Limited",
-      "justinhavre": "2,600+",
-      "calgaryhousefinder": "22+",
-      "kirbycox": "Strong",
-      "reevesrealty": "180+",
-      "jdrealestate": "Strong",
-      "karenfawcett": "0 visible"
-    },
-    {
-      "metric": "Schema Types",
-      "client": "1 (Event)",
-      "justinhavre": "6",
-      "calgaryhousefinder": "3",
-      "kirbycox": "3",
-      "reevesrealty": "4",
-      "jdrealestate": "3",
-      "karenfawcett": "3"
-    },
-    {
-      "metric": "Blog Presence",
-      "client": "4 posts",
-      "justinhavre": "200+ posts",
-      "calgaryhousefinder": "Active",
-      "kirbycox": "Moderate",
-      "reevesrealty": "Monthly",
-      "jdrealestate": "High quality",
-      "karenfawcett": "Moderate"
-    },
-    {
       "metric": "Platform",
-      "client": "RealtyPress/IDX",
-      "justinhavre": "REW Renaissance",
-      "calgaryhousefinder": "REW/Sierra",
+      "client": "Sierra Interactive",
+      "justinhavre": "REW",
+      "calgaryhousefinder": "Sierra Interactive",
       "kirbycox": "REW",
-      "reevesrealty": "REW + RealScout",
-      "jdrealestate": "REW",
-      "karenfawcett": "REW"
+      "reevesrealty": "REW (Sierra variant)",
+      "jdrealestate": "WordPress",
+      "karenfawcett": "myRealPage"
     }
   ],
   "competitorStrategies": [
@@ -2672,8 +4544,8 @@
     },
     "keywords": {
       "calgary homes for sale": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 60500,
+        "difficulty": 36,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -2690,8 +4562,8 @@
         }
       },
       "calgary real estate": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 18100,
+        "difficulty": 21,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -2708,8 +4580,8 @@
         }
       },
       "calgary real estate agent": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 880,
+        "difficulty": 38,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -2726,8 +4598,8 @@
         }
       },
       "homes for sale calgary ab": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 30,
+        "difficulty": 42,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -2744,8 +4616,8 @@
         }
       },
       "calgary condos for sale": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 3600,
+        "difficulty": 35,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -2762,8 +4634,8 @@
         }
       },
       "calgary houses for sale": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 60500,
+        "difficulty": 36,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -2780,8 +4652,8 @@
         }
       },
       "luxury homes calgary": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 720,
+        "difficulty": 37,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -2798,8 +4670,8 @@
         }
       },
       "calgary real estate market": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 1600,
+        "difficulty": 26,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -2816,8 +4688,8 @@
         }
       },
       "buy home calgary": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 9900,
+        "difficulty": 27,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -2834,8 +4706,8 @@
         }
       },
       "sell home calgary": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 70,
+        "difficulty": 9,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -2852,8 +4724,8 @@
         }
       },
       "calgary mls listings": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 22200,
+        "difficulty": 17,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -2870,8 +4742,8 @@
         }
       },
       "calgary property for sale": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 2400,
+        "difficulty": 56,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -2888,8 +4760,8 @@
         }
       },
       "calgary townhouses for sale": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 8100,
+        "difficulty": 53,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -2906,8 +4778,8 @@
         }
       },
       "new homes calgary": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 1300,
+        "difficulty": 78,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -2924,8 +4796,8 @@
         }
       },
       "calgary real estate market report": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 20,
+        "difficulty": 14,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -2942,8 +4814,8 @@
         }
       },
       "best neighborhoods calgary": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 1000,
+        "difficulty": 6,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -2960,8 +4832,8 @@
         }
       },
       "calgary investment property": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 70,
+        "difficulty": 41,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -2978,8 +4850,8 @@
         }
       },
       "cochrane homes for sale": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 12100,
+        "difficulty": 28,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -2996,8 +4868,8 @@
         }
       },
       "chestermere real estate": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 880,
+        "difficulty": 24,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -3014,8 +4886,8 @@
         }
       },
       "lakeview calgary homes": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 20,
+        "difficulty": 0,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -3032,8 +4904,8 @@
         }
       },
       "calgary luxury real estate agent": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 10,
+        "difficulty": 0,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -3050,8 +4922,8 @@
         }
       },
       "calgary first time home buyer": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 140,
+        "difficulty": 38,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -3070,6 +4942,7 @@
       "calgary home prices 2026": {
         "volume": null,
         "difficulty": null,
+        "note": "No DFS data available for this keyword",
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -3086,8 +4959,8 @@
         }
       },
       "calgary real estate forecast": {
-        "volume": null,
-        "difficulty": null,
+        "volume": 170,
+        "difficulty": 6,
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null
@@ -3106,6 +4979,7 @@
       "sell my house calgary fast": {
         "volume": null,
         "difficulty": null,
+        "note": "No DFS data available for this keyword",
         "history": {
           "sellingcalgarycastles.com": {
             "2026-03-24": null

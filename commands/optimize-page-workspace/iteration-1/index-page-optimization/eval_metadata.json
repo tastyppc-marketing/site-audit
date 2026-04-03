@@ -1,0 +1,16 @@
+{
+  "eval_id": 1,
+  "eval_name": "index-page-optimization",
+  "prompt": "Optimize the Calgary Castles SEO audit report index page for all screen sizes. The files are at /mnt/c/dev/Site audit/clients/calgary-castles/seo/reports/multipage/index.html with CSS at shared/report-styles.css and JS at pages/index.js. This page has stat cards that overflow on mobile and text that breaks out of containers. Make it work well on phones, tablets, and desktops.",
+  "assertions": [
+    "Produces a structured audit report BEFORE making code changes",
+    "Identifies the grid-cols-6 (or overly wide grid) stat card layout as a responsiveness issue",
+    "Identifies the window.AUDIT_DATA injection pattern and explicitly notes it must be preserved",
+    "Adds overflow-wrap, word-break, or equivalent to prevent text/values from breaking out of stat cards",
+    "Changes the stat grid to collapse to fewer columns on mobile (responsive breakpoints)",
+    "Checks the viewport meta tag configuration",
+    "Does not remove or rename any DOM element targeted by getElementById or innerHTML in index.js (e.g., stats-grid, issues-list, hero-grade, etc.)",
+    "Audit findings include specific file and line references, not just general descriptions",
+    "Reports issues grouped by severity (critical/high/medium/low or similar classification)"
+  ]
+}

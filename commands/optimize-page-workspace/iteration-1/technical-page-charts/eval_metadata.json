@@ -1,0 +1,15 @@
+{
+  "eval_id": 3,
+  "eval_name": "technical-page-charts",
+  "prompt": "Make sure the technical analysis page of this SEO report loads fast and looks good on all devices. It has charts and tables that I'm worried about on smaller screens. Files at /mnt/c/dev/Site audit/clients/calgary-castles/seo/reports/multipage/technical.html with pages/technical.js, shared/report-styles.css, and shared/charts.js",
+  "assertions": [
+    "Produces a structured audit report BEFORE making code changes",
+    "Identifies chart container responsive sizing as an issue or verifies it is handled",
+    "Ensures tables have overflow-x: auto wrappers or equivalent horizontal scroll handling",
+    "Checks script loading strategy (identifies render-blocking scripts or verifies defer/async usage)",
+    "Preserves Chart.js initialization and all dynamic rendering functions in technical.js",
+    "Addresses Core Web Vitals concerns (LCP, CLS, or TBT mentioned with specific findings)",
+    "Reports include severity classifications (critical/high/medium/low or equivalent)",
+    "Does not increase total CSS or JS file size significantly (no bloat from fixes)"
+  ]
+}

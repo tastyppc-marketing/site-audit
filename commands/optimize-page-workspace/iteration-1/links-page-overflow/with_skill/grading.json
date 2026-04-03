@@ -1,0 +1,84 @@
+{
+  "expectations": [
+    {
+      "text": "Produces a structured audit report BEFORE making code changes",
+      "passed": true,
+      "evidence": "The audit-report.md has a clear structure: 'Audit Summary' with severity-grouped issues, then 'Changes Made' tables per file, then 'Data Flow Verification', 'Performance Impact', and 'Remaining Issues'. The report structure implies audit-first workflow. Without a transcript, ordering cannot be definitively confirmed."
+    },
+    {
+      "text": "Identifies the URL overflow in the _detailCard function or the 'Analyzed domain' card",
+      "passed": true,
+      "evidence": "The report identifies URL overflow broadly: Critical issue 'URL overflow breaking card containers on mobile (links.js: orphan URLs, hub URLs, spoke tags, backlink URLs)'. Changes section shows: 'Detail card values: changed to overflow-wrap: anywhere' and 'Detail card values: changed to text-xl sm:text-2xl for responsive sizing'. While '_detailCard' is not named explicitly, the detail card values are addressed directly."
+    },
+    {
+      "text": "Adds word-break: break-all or overflow-wrap: break-word for long URL display",
+      "passed": true,
+      "evidence": "links.js output shows multiple instances: line 96 has 'overflow-wrap:anywhere;word-break:break-all', line 170 has 'overflow-wrap:anywhere;word-break:break-all', lines 382-383 have 'overflow-wrap:anywhere;word-break:break-all', line 683 has 'overflow-wrap:anywhere;word-break:break-all'. CSS adds '.url-cell' class and '.report-table td { max-width: 300px; overflow-wrap: anywhere }'. report-styles.css also adds overflow-wrap to table cells."
+    },
+    {
+      "text": "Identifies at least 2 additional responsive issues beyond the reported URL overflow",
+      "passed": true,
+      "evidence": "Beyond the URL overflow (Critical), the report identifies: (1) 'Spoke/unreachable URL inline tags use break-all on inline-flex which behaves inconsistently' (Medium), (2) 'maximum-scale=1 equivalent not present' improved to maximum-scale=5.0 (Low), (3) CSS @import serializing font loading (High), (4) Synchronous scripts blocking rendering (High), (5) No preconnect hints (High). Additional responsive fixes in links.js: detail card responsive font sizing (text-xl sm:text-2xl), responsive padding changes throughout."
+    },
+    {
+      "text": "Preserves all link graph rendering functions (renderLinkOverview, renderOrphanPages, renderHubSpokeClusters, renderLinkDepth, renderBacklinkProfile)",
+      "passed": true,
+      "evidence": "Grep of links.js confirms all 5 functions present: renderLinkOverview (lines 16,23,751), renderOrphanPages (lines 17,77,752), renderHubSpokeClusters (lines 18,128,753), renderLinkDepth (lines 19,214,754), renderBacklinkProfile (lines 20,300,755). All are defined, called in init(), and exported."
+    },
+    {
+      "text": "Checks touch target sizing on interactive elements",
+      "passed": true,
+      "evidence": "Audit report CSS changes table: 'Added min-height/min-width: 28px to .severity-badge | Accessibility: improves touch target size'. While 28px is below the typical 44px/48px recommendation, the report explicitly addresses touch target sizing on interactive elements."
+    },
+    {
+      "text": "Includes performance findings (script loading, image optimization, or similar)",
+      "passed": true,
+      "evidence": "Multiple performance findings: (1) 'CSS @import for Google Fonts serializes font loading (report-styles.css:7)' -- High severity, (2) 'Synchronous <script> tags in <head> block rendering (links.html:8-9)' -- High severity, (3) 'No preconnect hints for third-party origins (links.html)' -- High severity. Performance Impact table shows FCP improvement estimates of ~200-400ms. Changes include moving fonts to HTML <link>, adding defer to scripts, adding 4 preconnect hints."
+    },
+    {
+      "text": "Does not remove or rename DOM elements targeted by getElementById (linkstats-content, orphans-content, etc.)",
+      "passed": true,
+      "evidence": "links.html preserves all 5 DOM IDs: linkstats-content (line 66), orphans-content (line 75), hubs-content (line 84), depth-content (line 93), backlinks-content (line 102). Audit report explicitly verifies: 'All dynamic content injection targets verified intact' with getElementById references for each."
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 0,
+    "total": 8,
+    "pass_rate": 1.0
+  },
+  "timing": {
+    "total_tokens": 96425,
+    "duration_ms": 457593,
+    "total_duration_seconds": 457.6
+  },
+  "claims": [
+    {
+      "claim": "Found 16 issues: 1 critical, 4 high, 7 medium, 4 low",
+      "type": "factual",
+      "verified": true,
+      "evidence": "Counted: Critical has 1 item, High has 4 items, Medium has 7 items, Low has 4 items. Total = 16. Verified."
+    },
+    {
+      "claim": "window.AUDIT_DATA injection on line 27 is preserved exactly",
+      "type": "factual",
+      "verified": true,
+      "evidence": "The data-loader.js is confirmed unchanged, and the HTML preserves all data injection patterns."
+    },
+    {
+      "claim": "Font loading improvement of ~200-400ms FCP",
+      "type": "quality",
+      "verified": false,
+      "evidence": "Performance estimates cannot be verified without runtime testing. The claim is reasonable given the change from CSS @import to HTML link with preconnect, but the specific ms savings are estimates."
+    }
+  ],
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "assertion": "Checks touch target sizing on interactive elements",
+        "reason": "This assertion passes even though the report only addressed severity-badge sizing at 28px (below the 44px/48px recommended minimum). A stricter assertion might check whether touch targets meet the 44px minimum per WCAG/Apple HIG guidelines."
+      }
+    ],
+    "overall": "Solid assertion set. All assertions are discriminating and meaningful."
+  }
+}

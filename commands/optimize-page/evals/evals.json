@@ -1,0 +1,54 @@
+{
+  "skill_name": "optimize-page",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Optimize the Calgary Castles SEO audit report index page for all screen sizes. The files are at /mnt/c/dev/Site audit/clients/calgary-castles/seo/reports/multipage/index.html with CSS at shared/report-styles.css and JS at pages/index.js. This page has stat cards that overflow on mobile and text that breaks out of containers. Make it work well on phones, tablets, and desktops.",
+      "expected_output": "Audit report identifying overflow issues, grid column issues, missing responsive patterns, then fixes applied with verification. Should not break the window.AUDIT_DATA injection pattern.",
+      "files": [],
+      "expectations": [
+        "Produces a structured audit report BEFORE making code changes",
+        "Identifies the grid-cols-6 (or overly wide grid) stat card layout as a responsiveness issue",
+        "Identifies the window.AUDIT_DATA injection pattern and explicitly notes it must be preserved",
+        "Adds overflow-wrap, word-break, or equivalent to prevent text/values from breaking out of stat cards",
+        "Changes the stat grid to collapse to fewer columns on mobile (responsive breakpoints)",
+        "Checks the viewport meta tag configuration",
+        "Does not remove or rename any DOM element targeted by getElementById or innerHTML in index.js",
+        "Audit findings include specific file and line references",
+        "Reports issues grouped by severity"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "This links page has a URL that's breaking out of its card container on mobile. Can you check it for other issues too and make the whole page mobile friendly? Files: /mnt/c/dev/Site audit/clients/calgary-castles/seo/reports/multipage/links.html, shared/report-styles.css, pages/links.js, shared/data-loader.js",
+      "expected_output": "Should find the URL overflow in _detailCard, identify other responsive issues across the links page, fix them while preserving all link graph data rendering. Should audit performance too.",
+      "files": [],
+      "expectations": [
+        "Produces a structured audit report BEFORE making code changes",
+        "Identifies the URL overflow in the _detailCard function or 'Analyzed domain' card",
+        "Adds word-break: break-all or overflow-wrap: break-word for long URL display",
+        "Identifies at least 2 additional responsive issues beyond the reported URL overflow",
+        "Preserves all link graph rendering functions",
+        "Checks touch target sizing on interactive elements",
+        "Includes performance findings",
+        "Does not remove or rename DOM elements targeted by getElementById"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Make sure the technical analysis page of this SEO report loads fast and looks good on all devices. It has charts and tables that I'm worried about on smaller screens. Files at /mnt/c/dev/Site audit/clients/calgary-castles/seo/reports/multipage/technical.html with pages/technical.js, shared/report-styles.css, and shared/charts.js",
+      "expected_output": "Should audit chart containers for responsive sizing, table overflow handling, script loading strategy, Core Web Vitals concerns. Fix issues while preserving Chart.js rendering and dynamic data population.",
+      "files": [],
+      "expectations": [
+        "Produces a structured audit report BEFORE making code changes",
+        "Identifies chart container responsive sizing as an issue or verifies it is handled",
+        "Ensures tables have overflow-x: auto wrappers or equivalent",
+        "Checks script loading strategy",
+        "Preserves Chart.js initialization and dynamic rendering functions",
+        "Addresses Core Web Vitals concerns with specific findings",
+        "Reports include severity classifications",
+        "Does not increase total CSS or JS file size significantly"
+      ]
+    }
+  ]
+}

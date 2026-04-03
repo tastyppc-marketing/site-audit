@@ -280,23 +280,52 @@
     }
     if (!pageConfig) return;
 
+    // Track which sections are currently visible, pick topmost
+    var visibleSections = {};
+
+    function activateTopmost() {
+      var best = null;
+      var bestTop = Infinity;
+      for (var id in visibleSections) {
+        if (!visibleSections[id]) continue;
+        var el = document.getElementById(id);
+        if (!el) continue;
+        var rect = el.getBoundingClientRect();
+        var dist = Math.abs(rect.top - 80);
+        if (rect.top < window.innerHeight && rect.bottom > 0 && dist < bestTop) {
+          bestTop = dist;
+          best = id;
+        }
+      }
+      if (best) {
+        var allLinks = document.querySelectorAll('.side-nav__link');
+        allLinks.forEach(function (l) { l.classList.remove('active'); });
+        var matching = document.querySelector('.side-nav__link[data-section="' + best + '"]');
+        if (matching) matching.classList.add('active');
+      }
+    }
+
     var observer = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
-        if (entry.isIntersecting) {
-          // Deactivate all
-          var allLinks = document.querySelectorAll('.side-nav__link');
-          allLinks.forEach(function (l) { l.classList.remove('active'); });
-          // Activate matching link
-          var matching = document.querySelector('.side-nav__link[data-section="' + entry.target.id + '"]');
-          if (matching) matching.classList.add('active');
-        }
+        visibleSections[entry.target.id] = entry.isIntersecting;
       });
-    }, { rootMargin: '-80px 0px -60% 0px', threshold: 0 });
+      activateTopmost();
+    }, { rootMargin: '-60px 0px -35% 0px', threshold: [0, 0.1] });
 
     pageConfig.sections.forEach(function (s) {
       var el = document.getElementById(s.id);
       if (el) observer.observe(el);
     });
+
+    // Throttled scroll listener for smooth tracking during fast scrolling
+    var scrollTimer = null;
+    window.addEventListener('scroll', function () {
+      if (scrollTimer) return;
+      scrollTimer = setTimeout(function () {
+        scrollTimer = null;
+        activateTopmost();
+      }, 80);
+    }, { passive: true });
   }
 
   window.TPPC.nav = {

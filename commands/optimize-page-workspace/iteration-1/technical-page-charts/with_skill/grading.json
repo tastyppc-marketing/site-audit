@@ -1,0 +1,94 @@
+{
+  "expectations": [
+    {
+      "text": "Produces a structured audit report BEFORE making code changes",
+      "passed": true,
+      "evidence": "The audit-report.md has a clear structure: 'Audit Summary' with 17 issues grouped by severity, then 'Changes Applied' per file with table format, then 'Estimated Performance Impact', 'Remaining Issues', and 'Files Modified'. The audit-first structure is evident. Without a transcript, ordering cannot be definitively confirmed."
+    },
+    {
+      "text": "Identifies chart container responsive sizing as an issue or verifies it is handled",
+      "passed": true,
+      "evidence": "Multiple chart container findings: CSS changes include 'Enhanced chart container with min-width: 0 and overflow: hidden | Prevents flex/grid children from overflowing containers', 'Added canvas { width: 100% !important } in chart containers | Overrides Chart.js inline width to respect container boundaries', 'Enhanced canvas max-height per breakpoint (350px -> 280px -> 240px -> 200px)'. Also 'CWV_GAUGE_PADDING_MOBILE (charts.js:183,197)' identified as an issue."
+    },
+    {
+      "text": "Ensures tables have overflow-x: auto wrappers or equivalent horizontal scroll handling",
+      "passed": true,
+      "evidence": "report-styles.css line 256: '.report-table-wrap { overflow-x: auto; }' is present. Audit report notes 'TABLE_NO_SCROLL_HINT (report-styles.css) -- Tables have overflow-x: auto but no visual indicator that content scrolls' as a Medium issue. Added '.report-table-wrap.is-scrollable::after' for visual scroll hint. Also added 'detectScrollableTables() function' and 'tabindex=0, role=region, aria-label to scrollable tables'."
+    },
+    {
+      "text": "Checks script loading strategy (identifies render-blocking scripts or verifies defer/async usage)",
+      "passed": true,
+      "evidence": "Two Critical issues identified: 'CSS_IMPORT_FONT (report-styles.css:7) -- Font loaded via @import url() inside stylesheet, serializing the request chain' and 'SYNC_SCRIPTS_HEAD (technical.html:8-9) -- Tailwind CDN and Chart.js loaded synchronously in <head> without defer/async'. High issue: 'NO_FONT_PRELOAD'. Changes: 'Added defer to all 8 bottom <script> tags', 'Added <link rel=\"preload\"> for Google Fonts', 'Replaced @import url() with comment'. Note in report: 'Tailwind CDN (<script>) and Chart.js cannot be deferred -- Tailwind generates styles at runtime'."
+    },
+    {
+      "text": "Preserves Chart.js initialization and all dynamic rendering functions in technical.js",
+      "passed": true,
+      "evidence": "technical.js preserves all 6 render functions: renderCoreWebVitals (line 324), renderPageSpeed (line 380), renderSchemaAudit (line 551), renderMetaTagAudit (line 674), renderCrawlIssues (line 770), renderSiteStructure (line 831). charts.js preserves createBarChart (line 47) and createDoughnutChart (line 79). Audit report confirms: 'All data flow and dynamic rendering pipelines verified intact. All getElementById targets match. Boot chain preserved.'"
+    },
+    {
+      "text": "Addresses Core Web Vitals concerns (LCP, CLS, or TBT mentioned with specific findings)",
+      "passed": false,
+      "evidence": "The report does not use the terms LCP, CLS, TBT, FID, INP, Largest Contentful Paint, Cumulative Layout Shift, or Total Blocking Time as specific findings about the page itself. It mentions CWV in the context of the page's CWV gauge widgets (e.g., 'CWV gauge bars lack role=meter') and 'FCP' once in the recommendations section. The report addresses performance and responsiveness issues that relate to Core Web Vitals indirectly, but does not frame findings using CWV terminology or metrics. The assertion requires CWV concerns 'mentioned with specific findings'."
+    },
+    {
+      "text": "Reports include severity classifications (critical/high/medium/low or equivalent)",
+      "passed": true,
+      "evidence": "Audit report line 10: 'Found 17 issues: 2 critical, 5 high, 7 medium, 3 low'. Issues grouped under '### Critical' (2 items), '### High' (5 items), '### Medium' (7 items), '### Low' (3 items) headings with issue codes (e.g., CSS_IMPORT_FONT, SYNC_SCRIPTS_HEAD)."
+    },
+    {
+      "text": "Does not increase total CSS or JS file size significantly (no bloat from fixes)",
+      "passed": true,
+      "evidence": "Original total: 76,396 bytes (CSS 21,629 + JS 43,376 + charts.js 11,391). With skill total: 81,689 bytes (CSS 25,301 + JS 44,528 + charts.js 11,860). Increase: 5,293 bytes (+6.9%). The audit report itself estimates: '+5.3KB of CSS/JS in exchange for significantly better mobile responsiveness, WCAG accessibility compliance, and faster font/resource loading'. A ~7% increase for responsive fixes, accessibility, and performance improvements is not significant bloat."
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 1,
+    "total": 8,
+    "pass_rate": 0.875
+  },
+  "timing": {
+    "total_tokens": 103889,
+    "duration_ms": 470947,
+    "total_duration_seconds": 470.9
+  },
+  "claims": [
+    {
+      "claim": "Found 17 issues: 2 critical, 5 high, 7 medium, 3 low",
+      "type": "factual",
+      "verified": true,
+      "evidence": "Counted: Critical has 2 items, High has 5, Medium has 7, Low has 3. Total = 17. Verified."
+    },
+    {
+      "claim": "CSS weight increased from 21.6KB to 25.3KB (+3.7KB)",
+      "type": "factual",
+      "verified": true,
+      "evidence": "Original CSS: 21,629 bytes. Output CSS: 25,301 bytes. Difference: 3,672 bytes. Closely matches claimed +3.7KB."
+    },
+    {
+      "claim": "All getElementById targets match",
+      "type": "quality",
+      "verified": true,
+      "evidence": "Render functions reference section content divs via getElementById, and the HTML preserves all section container IDs."
+    },
+    {
+      "claim": "Tailwind CDN and Chart.js cannot be deferred",
+      "type": "factual",
+      "verified": false,
+      "evidence": "The report claims these cannot be deferred, yet the output HTML shows 'defer' on all 8 bottom scripts (utils.js through technical.js). Chart.js is not shown with defer in the with_skill output head section. Tailwind CDN is kept synchronous. The claim is partially correct -- Tailwind CDN must be synchronous, but Chart.js CAN be deferred (the without_skill version does defer it). The with_skill version chose not to defer Chart.js, which is a reasonable but not technically required choice."
+    }
+  ],
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "assertion": "Addresses Core Web Vitals concerns (LCP, CLS, or TBT mentioned with specific findings)",
+        "reason": "This assertion requires specific CWV metric names. Both runs address the underlying concerns (render-blocking resources affect LCP, layout shifts relate to CLS, script execution relates to TBT) but don't always use the formal CWV terminology. Consider whether the assertion should test for the underlying findings or the specific terminology."
+      },
+      {
+        "assertion": "Does not increase total CSS or JS file size significantly (no bloat from fixes)",
+        "reason": "The definition of 'significantly' is subjective. A 7% increase passed here, but what threshold would fail? Consider specifying a concrete limit (e.g., '<15% increase' or '<10KB total')."
+      }
+    ],
+    "overall": "Good assertion coverage. The CWV terminology assertion is the most subjective -- the with_skill run does solid performance work without explicitly framing it as CWV."
+  }
+}

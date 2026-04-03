@@ -1,11 +1,11 @@
 {
-  "domain": "https://sellingcalgarycastles.com",
-  "crawlDate": "2026-03-23T18:03:40.035Z",
+  "domain": "https://www.sellingcalgarycastles.com",
+  "crawlDate": "2026-04-01T07:56:31.370Z",
   "totalSitemapUrls": 38,
   "contentPages": 36,
   "idxFilterPages": 2,
   "analyzedCount": 36,
-  "elapsedSeconds": 39,
+  "elapsedSeconds": 36.5,
   "categories": {
     "buyers": {
       "total": 8,
@@ -126,11 +126,11 @@
       ],
       "h2Count": 8,
       "h3Count": 2,
-      "wordCount": 2379,
+      "wordCount": 2372,
       "imgCount": 11,
       "imgWithoutAlt": 3,
-      "totalInternalLinks": 116,
-      "contextualInternalLinks": 69,
+      "totalInternalLinks": 115,
+      "contextualInternalLinks": 68,
       "externalLinks": 16,
       "canonical": "https://www.sellingcalgarycastles.com/",
       "canonicalResolved": "https://www.sellingcalgarycastles.com/",
@@ -161,7 +161,7 @@
         "xFrameOptions": "SAMEORIGIN",
         "referrerPolicy": "no-referrer-when-downgrade",
         "permissionsPolicy": null,
-        "cacheControl": "public, max-age=2678400",
+        "cacheControl": "max-age=2678400",
         "server": "cloudflare",
         "statusCode": 200
       },
@@ -187,7 +187,7 @@
       ],
       "h2Count": 4,
       "h3Count": 2,
-      "wordCount": 2973,
+      "wordCount": 2975,
       "imgCount": 5,
       "imgWithoutAlt": 0,
       "totalInternalLinks": 180,
@@ -217,12 +217,12 @@
         "linkHeader": null,
         "strictTransportSecurity": null,
         "contentSecurityPolicy": null,
-        "xContentTypeOptions": null,
-        "xFrameOptions": null,
-        "referrerPolicy": null,
+        "xContentTypeOptions": "nosniff",
+        "xFrameOptions": "SAMEORIGIN",
+        "referrerPolicy": "no-referrer-when-downgrade",
         "permissionsPolicy": null,
-        "cacheControl": "public, max-age=2592000",
-        "server": null,
+        "cacheControl": "max-age=2678400",
+        "server": "cloudflare",
         "statusCode": 200
       },
       "redirectChain": [],
@@ -236,9 +236,7 @@
       "titleLength": 56,
       "description": "Search homes for sale in Calgary, AB. Listings include large photos, school info, detailed maps and more.",
       "descriptionLength": 105,
-      "h1": [
-        "Welcome to Account Home"
-      ],
+      "h1": [],
       "h2": [
         "We're Here to Help",
         "Have a Question or Want a Free Market Report?",
@@ -247,7 +245,7 @@
       ],
       "h2Count": 4,
       "h3Count": 2,
-      "wordCount": 2147,
+      "wordCount": 2013,
       "imgCount": 5,
       "imgWithoutAlt": 0,
       "totalInternalLinks": 99,
@@ -267,6 +265,7 @@
       "ogImage": "https://cdn.sitephotos.sierrastatic.com/6546_hero_scc-hero2-20260227022224.jpg",
       "twitterCard": null,
       "issues": [
+        "MISSING_H1",
         "NO_SCHEMA",
         "NO_CANONICAL",
         "NO_OG_TAGS",
@@ -277,12 +276,12 @@
         "linkHeader": null,
         "strictTransportSecurity": null,
         "contentSecurityPolicy": null,
-        "xContentTypeOptions": null,
-        "xFrameOptions": null,
-        "referrerPolicy": null,
+        "xContentTypeOptions": "nosniff",
+        "xFrameOptions": "SAMEORIGIN",
+        "referrerPolicy": "no-referrer-when-downgrade",
         "permissionsPolicy": null,
-        "cacheControl": "public, max-age=2592000",
-        "server": null,
+        "cacheControl": "max-age=2678400",
+        "server": "cloudflare",
         "statusCode": 200
       },
       "redirectChain": [],
@@ -484,7 +483,7 @@
       ],
       "h2Count": 4,
       "h3Count": 2,
-      "wordCount": 2980,
+      "wordCount": 2975,
       "imgCount": 17,
       "imgWithoutAlt": 0,
       "totalInternalLinks": 131,
@@ -543,11 +542,11 @@
       ],
       "h2Count": 4,
       "h3Count": 2,
-      "wordCount": 2958,
+      "wordCount": 2948,
       "imgCount": 17,
       "imgWithoutAlt": 0,
-      "totalInternalLinks": 127,
-      "contextualInternalLinks": 80,
+      "totalInternalLinks": 128,
+      "contextualInternalLinks": 81,
       "externalLinks": 16,
       "canonical": "https://www.sellingcalgarycastles.com/bridlewood/",
       "canonicalResolved": "https://www.sellingcalgarycastles.com/bridlewood/",
@@ -661,11 +660,11 @@
       ],
       "h2Count": 4,
       "h3Count": 2,
-      "wordCount": 2953,
+      "wordCount": 3004,
       "imgCount": 17,
       "imgWithoutAlt": 0,
-      "totalInternalLinks": 128,
-      "contextualInternalLinks": 81,
+      "totalInternalLinks": 127,
+      "contextualInternalLinks": 80,
       "externalLinks": 16,
       "canonical": "https://www.sellingcalgarycastles.com/chaparral/",
       "canonicalResolved": "https://www.sellingcalgarycastles.com/chaparral/",
@@ -673,15 +672,46 @@
       "robotsMeta": null,
       "googlebotMeta": null,
       "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
-      "hasSchema": false,
-      "schemaTypes": [],
-      "schemaData": [],
+      "hasSchema": true,
+      "schemaTypes": [
+        "Event"
+      ],
+      "schemaData": [
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 2:00 PM - 4:00 PM",
+          "description": "Open House for 58 Chapala Crescent SE",
+          "url": "https://www.sellingcalgarycastles.com/property-search/detail/46/A2280393/58-chapala-crescent-se-calgary-ab-t2x-3p8/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1774889573/46/46_A2280393_01.jpg",
+          "startDate": "2026-04-03T14:00:00-5:00",
+          "endDate": "2026-04-03T16:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "58 Chapala Crescent SE",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "58 Chapala Crescent SE",
+              "postalCode": "T2X 3P8",
+              "addressLocality": "Calgary",
+              "addressRegion": "AB",
+              "addressCountry": "CA"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 50.88459612,
+              "longitude": -114.03278776
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        }
+      ],
       "ogTitle": null,
       "ogDescription": null,
       "ogImage": "https://cdn.sitephotos.sierrastatic.com/6546_hero_scc-hero2-20260227022224.jpg",
       "twitterCard": null,
       "issues": [
-        "NO_SCHEMA",
         "NO_OG_TAGS",
         "MISSING_HSTS"
       ],
@@ -780,7 +810,7 @@
       ],
       "h2Count": 4,
       "h3Count": 2,
-      "wordCount": 2991,
+      "wordCount": 2943,
       "imgCount": 17,
       "imgWithoutAlt": 0,
       "totalInternalLinks": 131,
@@ -792,46 +822,15 @@
       "robotsMeta": null,
       "googlebotMeta": null,
       "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
-      "hasSchema": true,
-      "schemaTypes": [
-        "Event"
-      ],
-      "schemaData": [
-        {
-          "@context": "https://schema.org/",
-          "@type": "Event",
-          "name": "Open House - 1:00 PM - 3:00 PM",
-          "description": "Open House for 19 Cranbrook Crescent SE",
-          "url": "https://www.sellingcalgarycastles.com/property-search/detail/46/A2292103/19-cranbrook-crescent-se-calgary-ab-t3m-2c3/",
-          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1774279523/46/46_A2292103_01.jpg",
-          "startDate": "2026-03-28T13:00:00-5:00",
-          "endDate": "2026-03-28T15:00:00-5:00",
-          "location": {
-            "@type": "Place",
-            "name": "19 Cranbrook Crescent SE",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "19 Cranbrook Crescent SE",
-              "postalCode": "T3M 2C3",
-              "addressLocality": "Calgary",
-              "addressRegion": "AB",
-              "addressCountry": "CA"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 50.86930744,
-              "longitude": -113.98035729
-            }
-          },
-          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
-          "eventStatus": "http://schema.org/EventScheduled"
-        }
-      ],
+      "hasSchema": false,
+      "schemaTypes": [],
+      "schemaData": [],
       "ogTitle": null,
       "ogDescription": null,
       "ogImage": "https://cdn.sitephotos.sierrastatic.com/6546_hero_scc-hero2-20260227022224.jpg",
       "twitterCard": null,
       "issues": [
+        "NO_SCHEMA",
         "NO_OG_TAGS",
         "MISSING_HSTS"
       ],
@@ -870,11 +869,11 @@
       ],
       "h2Count": 4,
       "h3Count": 2,
-      "wordCount": 2945,
+      "wordCount": 2947,
       "imgCount": 17,
       "imgWithoutAlt": 0,
-      "totalInternalLinks": 130,
-      "contextualInternalLinks": 83,
+      "totalInternalLinks": 131,
+      "contextualInternalLinks": 84,
       "externalLinks": 16,
       "canonical": "https://www.sellingcalgarycastles.com/evergreen/",
       "canonicalResolved": "https://www.sellingcalgarycastles.com/evergreen/",
@@ -929,7 +928,7 @@
       ],
       "h2Count": 4,
       "h3Count": 2,
-      "wordCount": 3000,
+      "wordCount": 2943,
       "imgCount": 17,
       "imgWithoutAlt": 0,
       "totalInternalLinks": 130,
@@ -941,47 +940,16 @@
       "robotsMeta": null,
       "googlebotMeta": null,
       "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
-      "hasSchema": true,
-      "schemaTypes": [
-        "Event"
-      ],
-      "schemaData": [
-        {
-          "@context": "https://schema.org/",
-          "@type": "Event",
-          "name": "Open House - 11:00 AM - 2:00 PM",
-          "description": "Open House for 2703 Erlton St SW #2",
-          "url": "https://www.sellingcalgarycastles.com/property-search/detail/46/A2281084/2703-erlton-st-sw-calgary-ab-t2s-2w4/",
-          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1774283071/46/46_A2281084_01.jpg",
-          "startDate": "2026-03-28T11:00:00-5:00",
-          "endDate": "2026-03-28T14:00:00-5:00",
-          "location": {
-            "@type": "Place",
-            "name": "2703 Erlton St SW #2",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "2703 Erlton St SW #2",
-              "postalCode": "T2S 2W4",
-              "addressLocality": "Calgary",
-              "addressRegion": "AB",
-              "addressCountry": "CA"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 51.0285408,
-              "longitude": -114.0625693
-            }
-          },
-          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
-          "eventStatus": "http://schema.org/EventScheduled"
-        }
-      ],
+      "hasSchema": false,
+      "schemaTypes": [],
+      "schemaData": [],
       "ogTitle": null,
       "ogDescription": null,
       "ogImage": "https://cdn.sitephotos.sierrastatic.com/6546_hero_scc-hero2-20260227022224.jpg",
       "twitterCard": null,
       "issues": [
         "TITLE_TOO_SHORT",
+        "NO_SCHEMA",
         "NO_OG_TAGS",
         "MISSING_HSTS"
       ],
@@ -1198,7 +1166,7 @@
       ],
       "h2Count": 4,
       "h3Count": 2,
-      "wordCount": 3007,
+      "wordCount": 2990,
       "imgCount": 17,
       "imgWithoutAlt": 0,
       "totalInternalLinks": 131,
@@ -1219,26 +1187,26 @@
           "@context": "https://schema.org/",
           "@type": "Event",
           "name": "Open House - 1:00 PM - 3:00 PM",
-          "description": "Open House for 80 Legacy Reach Crescent SE",
-          "url": "https://www.sellingcalgarycastles.com/property-search/detail/46/A2294380/80-legacy-reach-crescent-se-calgary-ab-t2x-0w6/",
-          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1773951297/46/46_A2294380_01.jpg",
-          "startDate": "2026-03-28T13:00:00-5:00",
-          "endDate": "2026-03-28T15:00:00-5:00",
+          "description": "Open House for 24 Legacy Landing",
+          "url": "https://www.sellingcalgarycastles.com/property-search/detail/46/A2294931/24-legacy-landing-calgary-ab-t2x-2e5/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1774536230/46/46_A2294931_01.jpg",
+          "startDate": "2026-04-04T13:00:00-5:00",
+          "endDate": "2026-04-04T15:00:00-5:00",
           "location": {
             "@type": "Place",
-            "name": "80 Legacy Reach Crescent SE",
+            "name": "24 Legacy Landing",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "80 Legacy Reach Crescent SE",
-              "postalCode": "T2X 0W6",
+              "streetAddress": "24 Legacy Landing",
+              "postalCode": "T2X 2E5",
               "addressLocality": "Calgary",
               "addressRegion": "AB",
               "addressCountry": "CA"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": 50.8561923,
-              "longitude": -113.995333
+              "latitude": 50.8600566,
+              "longitude": -114.0116417
             }
           },
           "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
@@ -1288,7 +1256,7 @@
       ],
       "h2Count": 4,
       "h3Count": 2,
-      "wordCount": 2950,
+      "wordCount": 2943,
       "imgCount": 17,
       "imgWithoutAlt": 0,
       "totalInternalLinks": 131,
@@ -1467,11 +1435,11 @@
       ],
       "h2Count": 4,
       "h3Count": 2,
-      "wordCount": 3015,
+      "wordCount": 3016,
       "imgCount": 17,
       "imgWithoutAlt": 0,
-      "totalInternalLinks": 131,
-      "contextualInternalLinks": 84,
+      "totalInternalLinks": 130,
+      "contextualInternalLinks": 83,
       "externalLinks": 16,
       "canonical": "https://www.sellingcalgarycastles.com/mckenzie-towne/",
       "canonicalResolved": "https://www.sellingcalgarycastles.com/mckenzie-towne/",
@@ -1487,27 +1455,27 @@
         {
           "@context": "https://schema.org/",
           "@type": "Event",
-          "name": "Open House - 12:00 PM - 2:30 PM",
-          "description": "Open House for 947 Mckenzie Towne Manor SE",
-          "url": "https://www.sellingcalgarycastles.com/property-search/detail/46/A2294726/947-mckenzie-towne-manor-se-calgary-ab-t2z-1e1/",
-          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1774131408/46/46_A2294726_01.jpg",
-          "startDate": "2026-03-29T12:00:00-5:00",
-          "endDate": "2026-03-29T14:30:00-5:00",
+          "name": "Open House - 2:00 PM - 4:00 PM",
+          "description": "Open House for 6 Elgin Meadows Gardens SE",
+          "url": "https://www.sellingcalgarycastles.com/property-search/detail/46/A2295844/6-elgin-meadows-gardens-se-calgary-ab-t2z-0m4/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1774966119/46/46_A2295844_09.jpg",
+          "startDate": "2026-04-05T14:00:00-5:00",
+          "endDate": "2026-04-05T16:00:00-5:00",
           "location": {
             "@type": "Place",
-            "name": "947 Mckenzie Towne Manor SE",
+            "name": "6 Elgin Meadows Gardens SE",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "947 Mckenzie Towne Manor SE",
-              "postalCode": "T2Z 1E1",
+              "streetAddress": "6 Elgin Meadows Gardens SE",
+              "postalCode": "T2Z 0M4",
               "addressLocality": "Calgary",
               "addressRegion": "AB",
               "addressCountry": "CA"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": 50.9119377,
-              "longitude": -113.9558612
+              "latitude": 50.91011141,
+              "longitude": -113.95161525
             }
           },
           "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
@@ -1586,12 +1554,12 @@
         "linkHeader": null,
         "strictTransportSecurity": null,
         "contentSecurityPolicy": null,
-        "xContentTypeOptions": null,
-        "xFrameOptions": null,
-        "referrerPolicy": null,
+        "xContentTypeOptions": "nosniff",
+        "xFrameOptions": "SAMEORIGIN",
+        "referrerPolicy": "no-referrer-when-downgrade",
         "permissionsPolicy": null,
-        "cacheControl": "public, max-age=2592000",
-        "server": null,
+        "cacheControl": "max-age=2678400",
+        "server": "cloudflare",
         "statusCode": 200
       },
       "redirectChain": [],
@@ -1675,11 +1643,11 @@
       ],
       "h2Count": 4,
       "h3Count": 2,
-      "wordCount": 3018,
+      "wordCount": 2969,
       "imgCount": 17,
       "imgWithoutAlt": 0,
-      "totalInternalLinks": 129,
-      "contextualInternalLinks": 82,
+      "totalInternalLinks": 128,
+      "contextualInternalLinks": 81,
       "externalLinks": 16,
       "canonical": "https://www.sellingcalgarycastles.com/new-brighton/",
       "canonicalResolved": "https://www.sellingcalgarycastles.com/new-brighton/",
@@ -1687,46 +1655,15 @@
       "robotsMeta": null,
       "googlebotMeta": null,
       "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
-      "hasSchema": true,
-      "schemaTypes": [
-        "Event"
-      ],
-      "schemaData": [
-        {
-          "@context": "https://schema.org/",
-          "@type": "Event",
-          "name": "Open House - 1:00 PM - 3:00 PM",
-          "description": "Open House for 185 Brightonstone Landing SE",
-          "url": "https://www.sellingcalgarycastles.com/property-search/detail/46/A2288148/185-brightonstone-landing-se-calgary-ab-t2z-4w2/",
-          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1774271332/46/46_A2288148_01.jpg",
-          "startDate": "2026-03-28T13:00:00-5:00",
-          "endDate": "2026-03-28T15:00:00-5:00",
-          "location": {
-            "@type": "Place",
-            "name": "185 Brightonstone Landing SE",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "185 Brightonstone Landing SE",
-              "postalCode": "T2Z 4W2",
-              "addressLocality": "Calgary",
-              "addressRegion": "AB",
-              "addressCountry": "CA"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 50.92042601,
-              "longitude": -113.94862001
-            }
-          },
-          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
-          "eventStatus": "http://schema.org/EventScheduled"
-        }
-      ],
+      "hasSchema": false,
+      "schemaTypes": [],
+      "schemaData": [],
       "ogTitle": null,
       "ogDescription": null,
       "ogImage": "https://cdn.sitephotos.sierrastatic.com/6546_hero_scc-hero2-20260227022224.jpg",
       "twitterCard": null,
       "issues": [
+        "NO_SCHEMA",
         "NO_OG_TAGS",
         "MISSING_HSTS"
       ],
@@ -2005,7 +1942,7 @@
       ],
       "h2Count": 4,
       "h3Count": 2,
-      "wordCount": 2943,
+      "wordCount": 2947,
       "imgCount": 17,
       "imgWithoutAlt": 0,
       "totalInternalLinks": 129,
@@ -2412,11 +2349,12 @@
   ],
   "issuesSummary": {
     "MULTIPLE_H1": 1,
-    "NO_SCHEMA": 31,
+    "NO_SCHEMA": 33,
     "NO_OG_TAGS": 32,
     "MISSING_ALT_TEXT": 2,
     "MISSING_HSTS": 36,
     "NO_CANONICAL": 3,
+    "MISSING_H1": 1,
     "TITLE_TOO_SHORT": 6,
     "MISSING_META_DESCRIPTION": 1,
     "THIN_CONTENT": 1,

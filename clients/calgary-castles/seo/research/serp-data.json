@@ -1,0 +1,1040 @@
+{
+  "meta": {
+    "script": "serp_top_5",
+    "location_code": 2124,
+    "language_code": "en",
+    "device": "desktop",
+    "depth": 10,
+    "keywords_requested": 25,
+    "keywords_with_results": 25,
+    "api_calls": 25,
+    "errors": []
+  },
+  "data": {
+    "Calgary homes for sale": {
+      "keyword": "Calgary homes for sale",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.realtor.ca",
+          "url": "https://www.realtor.ca/ab/calgary/real-estate",
+          "title": "Calgary Real Estate Listings",
+          "description": "Find 5590 houses for sale in Calgary, AB. Visit REALTOR.ca to see all the Calgary, AB real estate listings on the MLS\u00ae Systems today!"
+        },
+        {
+          "rank": 2,
+          "domain": "calgaryhomes.ca",
+          "url": "https://calgaryhomes.ca/",
+          "title": "Calgary Homes & Real Estate for Sale - Justin Havre Real ...",
+          "description": "Justin Havre Real Estate Team - Browse all of the homes listed for sale in Calgary, AB. Let us utilize our years of real estate knowledge to your advantage\u00a0..."
+        },
+        {
+          "rank": 3,
+          "domain": "www.calgaryhousefinder.ca",
+          "url": "https://www.calgaryhousefinder.ca/",
+          "title": "Houses for Sale in Calgary | Calgary Real Estate",
+          "description": "Find homes for sale with Calgary House Finder. Explore a wide range of Calgary real estate properties for sale and discover the best of the city's housing\u00a0..."
+        },
+        {
+          "rank": 4,
+          "domain": "www.zillow.com",
+          "url": "https://www.zillow.com/calgary-ab/",
+          "title": "Calgary AB Real Estate & Homes For Sale",
+          "description": "Zillow has 5645 homes for sale in Calgary AB. View listing photos, review sales history, and use our detailed real estate filters to find the perfect place."
+        },
+        {
+          "rank": 5,
+          "domain": "www.rew.ca",
+          "url": "https://www.rew.ca/properties/areas/calgary-ab",
+          "title": "5748 Calgary Real Estate Listings & Houses for Sale",
+          "description": "There are currently 5599 homes for sale in Calgary. This month, Calgary has seen 660 new listings added on REW. Our latest data shows median list prices of $548\u00a0... Read more"
+        }
+      ],
+      "total_organic_in_top_10": 10
+    },
+    "Calgary real estate": {
+      "keyword": "Calgary real estate",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.realtor.ca",
+          "url": "https://www.realtor.ca/ab/calgary/real-estate",
+          "title": "Calgary Real Estate Listings",
+          "description": "Find 5590 houses for sale in Calgary, AB. Visit REALTOR.ca to see all the Calgary, AB real estate listings on the MLS\u00ae Systems today!"
+        },
+        {
+          "rank": 2,
+          "domain": "www.calgaryhousefinder.ca",
+          "url": "https://www.calgaryhousefinder.ca/",
+          "title": "Houses for Sale in Calgary | Calgary Real Estate",
+          "description": "Find homes for sale with Calgary House Finder. Explore a wide range of Calgary real estate properties for sale and discover the best of the city's housing\u00a0..."
+        },
+        {
+          "rank": 3,
+          "domain": "calgaryhomes.ca",
+          "url": "https://calgaryhomes.ca/",
+          "title": "Calgary Homes & Real Estate for Sale - Justin Havre Real ...",
+          "description": "Justin Havre and his team are the most respected agents for buying and selling in Calgary. We deliver the very best in Calgary real estate, because you deserve\u00a0... Read more"
+        },
+        {
+          "rank": 4,
+          "domain": "www.calgary-real-estate.com",
+          "url": "https://www.calgary-real-estate.com/",
+          "title": "Calgary Real Estate | Calgary Homes for Sale ...",
+          "description": "Search for Calgary homes now ! Staying up to date with the current listings and having the most important real estate news at your fingertips is of the utmost\u00a0... Read more"
+        },
+        {
+          "rank": 5,
+          "domain": "www.creb.com",
+          "url": "https://www.creb.com/",
+          "title": "CREB\u00ae | Real Estate Resources For Calgary",
+          "description": "CREB\u00ae is the primary resource for buyers and sellers in the Calgary, Alberta real estate market. Find MLS\u00ae resources, REALTOR\u00ae information, and more."
+        }
+      ],
+      "total_organic_in_top_10": 9
+    },
+    "Calgary real estate agent": {
+      "keyword": "Calgary real estate agent",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.realtor.ca",
+          "url": "https://www.realtor.ca/realtors/ab/calgary",
+          "title": "REALTORS\u00ae in Calgary, AB - Real Estate Agents",
+          "description": "View search results for REALTORS\u00ae near you in Calgary, Alberta. Find a Real Estate Agent that suits your real estate needs today!"
+        },
+        {
+          "rank": 2,
+          "domain": "www.zillow.com",
+          "url": "https://www.zillow.com/professionals/real-estate-agent-reviews/calgary-ab/",
+          "title": "Real estate agents in Calgary, AB",
+          "description": "We found 461 real estate agents in Calgary, AB. Read reviews, rate and compare real estate agents & realtors in Calgary, AB."
+        },
+        {
+          "rank": 3,
+          "domain": "www.justinhavre.com",
+          "url": "https://www.justinhavre.com/",
+          "title": "Calgary Real Estate, Homes, Condos for Sale - Justin Havre ...",
+          "description": "The Justin Havre Real Estate Team has years of experience buying and selling real estate in Calgary, Alberta. Contact us at 403.217.0003 today!"
+        },
+        {
+          "rank": 4,
+          "domain": "www.rate-my-agent.com",
+          "url": "https://www.rate-my-agent.com/Calgary-AB-Agent-Ratings",
+          "title": "Best CALGARY AGENTS. Top Rated Reviews, Mar 2026",
+          "description": "Reviews and ratings of over 270 agents who serve Calgary, Alberta and area. Use the ratings and reviews here to choose the best Realtor, mortgage broker, or\u00a0... Read more"
+        },
+        {
+          "rank": 5,
+          "domain": "www.reevesrealty.ca",
+          "url": "https://www.reevesrealty.ca/",
+          "title": "Calgary Real Estate Agents - eXp Realty Calgary: Reeves ...",
+          "description": "Reeves & Associates with eXp Realty Calgary is a Calgary real estate agency with 19+ years of experience, $500M+ in home sales, and a full-service approach."
+        }
+      ],
+      "total_organic_in_top_10": 9
+    },
+    "homes for sale Calgary AB": {
+      "keyword": "homes for sale Calgary AB",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.realtor.ca",
+          "url": "https://www.realtor.ca/ab/calgary/real-estate",
+          "title": "Calgary Real Estate Listings",
+          "description": "Find 5590 houses for sale in Calgary, AB. Visit REALTOR.ca to see all the Calgary, AB real estate listings on the MLS\u00ae Systems today! Prices starting at $34900."
+        },
+        {
+          "rank": 2,
+          "domain": "www.zillow.com",
+          "url": "https://www.zillow.com/calgary-ab/",
+          "title": "Calgary AB Real Estate & Homes For Sale",
+          "description": "Zillow has 5645 homes for sale in Calgary AB. View listing photos, review sales history, and use our detailed real estate filters to find the perfect place."
+        },
+        {
+          "rank": 3,
+          "domain": "calgaryhomes.ca",
+          "url": "https://calgaryhomes.ca/",
+          "title": "Calgary Homes & Real Estate for Sale - Justin Havre Real ...",
+          "description": "Justin Havre Real Estate Team - Browse all of the homes listed for sale in Calgary, AB. Let us utilize our years of real estate knowledge to your advantage"
+        },
+        {
+          "rank": 4,
+          "domain": "www.rew.ca",
+          "url": "https://www.rew.ca/properties/areas/calgary-ab",
+          "title": "5748 Calgary Real Estate Listings & Houses for Sale",
+          "description": "There are currently 5599 homes for sale in Calgary. This month, Calgary has seen 660 new listings added on REW. Our latest data shows median list prices of $548\u00a0... Read more"
+        },
+        {
+          "rank": 5,
+          "domain": "www.remax.ca",
+          "url": "https://www.remax.ca/ab/calgary-real-estate",
+          "title": "Calgary, AB Real Estate & Houses for Sale",
+          "description": "Explore all Calgary real estate with REMAX, Canada's #1 Real Estate Brand. View homes for sale in Calgary, property images, MLS\u00ae house details and more!"
+        }
+      ],
+      "total_organic_in_top_10": 10
+    },
+    "Calgary condos for sale": {
+      "keyword": "Calgary condos for sale",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.realtor.ca",
+          "url": "https://www.realtor.ca/ab/calgary/condos-for-sale",
+          "title": "Condos For Sale in Calgary",
+          "description": "Find 2757 results for Condos For Sale in Calgary, AB. Visit REALTOR.ca to see photos, prices & neighbourhood info. Prices starting at $139900."
+        },
+        {
+          "rank": 2,
+          "domain": "calgaryhomes.ca",
+          "url": "https://calgaryhomes.ca/calgary-condos-for-sale.php",
+          "title": "Calgary Condos For Sale",
+          "description": "Search condos for sale in Calgary, AB like a real estate agent! Access today's newest condominium real estate listings now."
+        },
+        {
+          "rank": 3,
+          "domain": "www.justinhavre.com",
+          "url": "https://www.justinhavre.com/calgary-condos.php",
+          "title": "Calgary Condos for Sale - Justin Havre at eXp Realty",
+          "description": "Browse today's Calgary condos & Calgary real estate below! Afford a great lifestyle and make a solid investment in Calgary's competitive real estate market. Read more"
+        },
+        {
+          "rank": 4,
+          "domain": "www.rew.ca",
+          "url": "https://www.rew.ca/properties/areas/calgary-ab/type/apartment-condo",
+          "title": "Calgary Condos & Apartments for Sale & MLS\u00ae Listings",
+          "description": "Calgary's condo market offers a diverse range of options to suit various lifestyles and budgets. Currently, there are 1840 condos for sale in the city, with 164\u00a0... Read more"
+        },
+        {
+          "rank": 5,
+          "domain": "www.kirbycox.com",
+          "url": "https://www.kirbycox.com/condos.php",
+          "title": "Calgary Condos For Sale",
+          "description": "Condos typically start around $200,000 and extend upwards of a million dollars depending on the level of luxury, the location, and the date of construction. Read more"
+        }
+      ],
+      "total_organic_in_top_10": 10
+    },
+    "Calgary houses for sale": {
+      "keyword": "Calgary houses for sale",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.realtor.ca",
+          "url": "https://www.realtor.ca/ab/calgary/real-estate",
+          "title": "Calgary Real Estate Listings",
+          "description": "Find 5590 houses for sale in Calgary, AB. Visit REALTOR.ca to see all the Calgary, AB real estate listings on the MLS\u00ae Systems today!"
+        },
+        {
+          "rank": 2,
+          "domain": "calgaryhomes.ca",
+          "url": "https://calgaryhomes.ca/",
+          "title": "Calgary Homes & Real Estate for Sale - Justin Havre Real ...",
+          "description": "Justin Havre Real Estate Team - Browse all of the homes listed for sale in Calgary, AB. Let us utilize our years of real estate knowledge to your advantage\u00a0..."
+        },
+        {
+          "rank": 3,
+          "domain": "www.zillow.com",
+          "url": "https://www.zillow.com/calgary-ab/",
+          "title": "Calgary AB Real Estate & Homes For Sale",
+          "description": "Zillow has 5645 homes for sale in Calgary AB. View listing photos, review sales history, and use our detailed real estate filters to find the perfect place."
+        },
+        {
+          "rank": 4,
+          "domain": "www.calgaryhousefinder.ca",
+          "url": "https://www.calgaryhousefinder.ca/",
+          "title": "Houses for Sale in Calgary | Calgary Real Estate",
+          "description": "Find homes for sale with Calgary House Finder. Explore a wide range of Calgary real estate properties for sale and discover the best of the city's housing\u00a0..."
+        },
+        {
+          "rank": 5,
+          "domain": "www.rew.ca",
+          "url": "https://www.rew.ca/properties/areas/calgary-ab",
+          "title": "5748 Calgary Real Estate Listings & Houses for Sale",
+          "description": "Browse 5748 Real Estate Listings in Calgary including stunning Calgary houses for sale, condos, vacant lots for sale & more. View new listings today."
+        }
+      ],
+      "total_organic_in_top_10": 10
+    },
+    "luxury homes Calgary": {
+      "keyword": "luxury homes Calgary",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.kirbycox.com",
+          "url": "https://www.kirbycox.com/calgary-luxury.php",
+          "title": "Luxury Homes in Calgary",
+          "description": "Whether you're looking to buy a home or condo for around $1 million or you'd prefer a multimillion dollar estate, we can help you navigate the luxury\u00a0... Read more"
+        },
+        {
+          "rank": 2,
+          "domain": "calgaryhomes.ca",
+          "url": "https://calgaryhomes.ca/calgary-luxury-homes-for-sale.php",
+          "title": "Calgary Luxury Homes & Real Estate",
+          "description": "Search luxury properties for sale in Calgary, AB like a real estate agent! Access today's newest luxury real estate listings now."
+        },
+        {
+          "rank": 3,
+          "domain": "www.justinhavre.com",
+          "url": "https://www.justinhavre.com/calgary-luxury-real-estate.php",
+          "title": "Calgary Luxury Homes for Sale",
+          "description": "Search luxury homes for sale in Calgary, AB like a real estate agent! Instant access to today's luxury real estate and MLS listings in Calgary, Alberta."
+        },
+        {
+          "rank": 4,
+          "domain": "www.zillow.com",
+          "url": "https://www.zillow.com/calgary-ab/luxury-homes/",
+          "title": "Calgary AB Luxury Homes For Sale - 5697 Homes",
+          "description": "Check out the nicest homes currently on the market in Calgary AB. View pictures, check Zestimates, and get scheduled for a tour of some luxury listings."
+        },
+        {
+          "rank": 5,
+          "domain": "luxuryhomescalgary.ca",
+          "url": "https://luxuryhomescalgary.ca/",
+          "title": "Luxury Homes Calgary | Top Real Estate Agent, Calgary",
+          "description": "Explore luxury homes Calgary with Spencer Rivers, REALTOR \u00ae. Exclusive listings, neighbourhood guides & expert advice for discerning buyers and sellers."
+        }
+      ],
+      "total_organic_in_top_10": 10
+    },
+    "Calgary real estate market": {
+      "keyword": "Calgary real estate market",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.creb.com",
+          "url": "https://www.creb.com/housing_statistics/daily_housing_summary/",
+          "title": "Daily Housing Summary",
+          "description": "Calgary Total ; Median Price, 560,000, 575,000 ; Average Price, 607,040, 628,365 ; Benchmark Price, 580,000, 586,300 ; Days on Market, 26, 37\u00a0... Read more"
+        },
+        {
+          "rank": 2,
+          "domain": "globalnews.ca",
+          "url": "https://globalnews.ca/news/11749632/calgary-real-estate-market-first-time-buyers/",
+          "title": "Realtors say Calgary's real estate market is now attracting ...",
+          "description": "4 days ago \u2014 Calgary realtors say the recent softening of the city's real estate market is enticing a lot more potential first-time buyers to enter the\u00a0..."
+        },
+        {
+          "rank": 3,
+          "domain": "wowa.ca",
+          "url": "https://wowa.ca/calgary-housing-market",
+          "title": "Calgary Housing Market Report: Mar. 3rd, 2026 Update",
+          "description": "In February 2026, the average and median Calgary home prices were $627776 and $565000, respectively. Year over year, average prices are up 2.4%,\u00a0..."
+        },
+        {
+          "rank": 4,
+          "domain": "www.mortgagesandbox.com",
+          "url": "https://www.mortgagesandbox.com/calgary-real-estate-forecast",
+          "title": "Metro Calgary Real Estate Trends and Price Forecast",
+          "description": "Current Calgary property market insights and a two-year prediction for the prices of Calgary houses, townhouses, and apartments for sale."
+        },
+        {
+          "rank": 5,
+          "domain": "www.realtor.ca",
+          "url": "https://www.realtor.ca/ab/calgary/real-estate",
+          "title": "Calgary Real Estate Listings",
+          "description": "Find 5590 houses for sale in Calgary, AB. Visit REALTOR.ca to see all the Calgary, AB real estate listings on the MLS\u00ae Systems today!"
+        }
+      ],
+      "total_organic_in_top_10": 9
+    },
+    "buy home Calgary": {
+      "keyword": "buy home Calgary",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.realtor.ca",
+          "url": "https://www.realtor.ca/ab/calgary/real-estate",
+          "title": "Calgary Real Estate Listings",
+          "description": "Find 5590 houses for sale in Calgary, AB. Visit REALTOR.ca to see all the Calgary, AB real estate listings on the MLS\u00ae Systems today!"
+        },
+        {
+          "rank": 2,
+          "domain": "calgaryhomes.ca",
+          "url": "https://calgaryhomes.ca/",
+          "title": "Calgary Homes & Real Estate for Sale - Justin Havre Real ...",
+          "description": "Justin Havre and his team are the most respected agents for buying and selling in Calgary. We deliver the very best in Calgary real estate, because you deserve\u00a0... Read more"
+        },
+        {
+          "rank": 3,
+          "domain": "www.zillow.com",
+          "url": "https://www.zillow.com/calgary-ab/",
+          "title": "Calgary AB Real Estate & Homes For Sale",
+          "description": "Zillow has 5645 homes for sale in Calgary AB. View listing photos, review sales history, and use our detailed real estate filters to find the perfect place."
+        },
+        {
+          "rank": 4,
+          "domain": "www.rew.ca",
+          "url": "https://www.rew.ca/properties/areas/calgary-ab",
+          "title": "5748 Calgary Real Estate Listings & Houses for Sale",
+          "description": "There are currently 5599 homes for sale in Calgary. This month, Calgary has seen 660 new listings added on REW. Our latest data shows median list prices of $548 ... Read more"
+        },
+        {
+          "rank": 5,
+          "domain": "www.calgaryhousefinder.ca",
+          "url": "https://www.calgaryhousefinder.ca/",
+          "title": "Houses for Sale in Calgary | Calgary Real Estate",
+          "description": "Start your search online or with a real estate agent. Visit properties, make an offer, and negotiate with the seller. Complete inspections and paperwork. Close\u00a0... Read more"
+        }
+      ],
+      "total_organic_in_top_10": 10
+    },
+    "sell home Calgary": {
+      "keyword": "sell home Calgary",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.justinhavre.com",
+          "url": "https://www.justinhavre.com/selling.php",
+          "title": "Our Guide for Calgary Home Sellers",
+          "description": "A Calgary real estate agent can assist you through the entire process of selling your home. Some of the items we'll help you with include setting the sale price\u00a0... Read more"
+        },
+        {
+          "rank": 2,
+          "domain": "calgaryhomes.ca",
+          "url": "https://calgaryhomes.ca/blog/tips-for-first-time-home-sellers.html",
+          "title": "How to Sell a Home in Alberta: Guide For First-Time Sellers",
+          "description": "Aug 6, 2025 \u2014 Find a real estate agent who knows your neighbourhood inside out \u00b7 Get a proper market analysis before setting your price \u00b7 Clean and declutter\u00a0... Read more"
+        },
+        {
+          "rank": 3,
+          "domain": "www.realtor.ca",
+          "url": "https://www.realtor.ca/ab/calgary/real-estate",
+          "title": "Calgary Real Estate Listings",
+          "description": "Find 5590 houses for sale in Calgary, AB. Visit REALTOR.ca to see all the Calgary, AB real estate listings on the MLS\u00ae Systems today!"
+        },
+        {
+          "rank": 4,
+          "domain": "www.honestdoor.com",
+          "url": "https://www.honestdoor.com/",
+          "title": "HonestDoor \u2013 Your Real Estate Starting Point",
+          "description": "Free real estate data on residential and commercial properties - sold prices, estimated value of homes, bed and bath. Exclusive houses for sale."
+        },
+        {
+          "rank": 5,
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/Calgary/comments/1fwg45d/how_can_i_do_private_sale_of_real_estate_in/",
+          "title": "How can I do private sale of real estate in Calgary?",
+          "description": "Selling a house privately is not hard. You should consult a lawyer beforehand. get the required forms and do not leave anything blank. Read more"
+        }
+      ],
+      "total_organic_in_top_10": 10
+    },
+    "Calgary MLS listings": {
+      "keyword": "Calgary MLS listings",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.realtor.ca",
+          "url": "https://www.realtor.ca/ab/calgary/real-estate",
+          "title": "Calgary Real Estate Listings",
+          "description": "Find 5590 houses for sale in Calgary, AB. Visit REALTOR.ca to see all the Calgary, AB real estate listings on the MLS\u00ae Systems today! Prices starting at $34900."
+        },
+        {
+          "rank": 2,
+          "domain": "www.calgarylistings.com",
+          "url": "https://www.calgarylistings.com/calgary-real-estate-listings/",
+          "title": "Calgary Houses for Sale from MLS\u00ae ...",
+          "description": "MLS\u00ae Calgary home and condo search is a complete listing source of all Calgary houses for sale that are currently listed regardless of listing agent or real\u00a0... Read more"
+        },
+        {
+          "rank": 3,
+          "domain": "www.zolo.ca",
+          "url": "https://www.zolo.ca/calgary-real-estate",
+          "title": "Calgary MLS\u00ae Listings & Real Estate for Sale",
+          "description": "5731 homes for sale in Calgary AB \u2013 See photos of new Calgary Real Estate & MLS Listings \u2022 Open Houses \u2022 Live Market Stats & Prices \u2013 Faster than MLS.ca\u00a0..."
+        },
+        {
+          "rank": 4,
+          "domain": "www.realtor.ca",
+          "url": "https://www.realtor.ca/ab/greater-calgary/new-listings",
+          "title": "835 New Listings in Greater Calgary",
+          "description": "Find 835 results for New Listings in Greater Calgary, AB. Visit REALTOR.ca to see photos, prices & neighbourhood info. Prices starting at $89000."
+        },
+        {
+          "rank": 5,
+          "domain": "www.real-estate.ca",
+          "url": "https://www.real-estate.ca/calgary-listings/",
+          "title": "Browse 5730 Calgary Real Estate MLS\u00ae Listings",
+          "description": "There are 5730 MLS\u00ae listed homes for sale in Calgary, with 77 new listings added today. These Calgary real estate listings, include 2305 houses, and 2838 condos\u00a0... Read more"
+        }
+      ],
+      "total_organic_in_top_10": 10
+    },
+    "Calgary property for sale": {
+      "keyword": "Calgary property for sale",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.realtor.ca",
+          "url": "https://www.realtor.ca/ab/calgary/real-estate",
+          "title": "Calgary Real Estate Listings",
+          "description": "Find 5590 houses for sale in Calgary, AB. Visit REALTOR.ca to see all the Calgary, AB real estate listings on the MLS\u00ae Systems today!"
+        },
+        {
+          "rank": 2,
+          "domain": "www.zillow.com",
+          "url": "https://www.zillow.com/calgary-ab/",
+          "title": "Calgary AB Real Estate & Homes For Sale",
+          "description": "Zillow has 5645 homes for sale in Calgary AB. View listing photos, review sales history, and use our detailed real estate filters to find the perfect place."
+        },
+        {
+          "rank": 3,
+          "domain": "calgaryhomes.ca",
+          "url": "https://calgaryhomes.ca/",
+          "title": "Calgary Homes & Real Estate for Sale - Justin Havre Real ...",
+          "description": "Justin Havre and his team are the most respected agents for buying and selling in Calgary. We deliver the very best in Calgary real estate, because you deserve\u00a0... Read more"
+        },
+        {
+          "rank": 4,
+          "domain": "www.remax.ca",
+          "url": "https://www.remax.ca/ab/calgary-real-estate",
+          "title": "Calgary, AB Real Estate & Houses for Sale",
+          "description": "Explore all Calgary real estate with REMAX, Canada's #1 Real Estate Brand. View homes for sale in Calgary, property images, MLS\u00ae house details and more!"
+        },
+        {
+          "rank": 5,
+          "domain": "www.calgaryhousefinder.ca",
+          "url": "https://www.calgaryhousefinder.ca/",
+          "title": "Houses for Sale in Calgary | Calgary Real Estate",
+          "description": "Find homes for sale with Calgary House Finder. Explore a wide range of Calgary real estate properties for sale and discover the best of the city's housing\u00a0..."
+        }
+      ],
+      "total_organic_in_top_10": 10
+    },
+    "Calgary townhouses for sale": {
+      "keyword": "Calgary townhouses for sale",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.realtor.ca",
+          "url": "https://www.realtor.ca/ab/calgary/townhomes-for-sale",
+          "title": "971 Townhomes For Sale in Calgary",
+          "description": "Find 971 results for Townhomes For Sale in Calgary, AB. Visit REALTOR.ca to see photos, prices & neighbourhood info. Prices starting at $199000."
+        },
+        {
+          "rank": 2,
+          "domain": "calgaryhomes.ca",
+          "url": "https://calgaryhomes.ca/calgary-townhomes.php",
+          "title": "Calgary Townhomes For Sale",
+          "description": "Search Calgary townhomes for sale below. Townhomes in Calgary are ideal for a variety of home owners. Because they can be less expensive than a single-family\u00a0... Read more"
+        },
+        {
+          "rank": 3,
+          "domain": "www.justinhavre.com",
+          "url": "https://www.justinhavre.com/calgary-townhouses.php",
+          "title": "Calgary Townhouses for Sale - Justin Havre at eXp Realty",
+          "description": "Buyers can find townhomes for sale in every section of the city, with many located on quiet streets close to shopping, schools, and parks. A number of units\u00a0... Read more"
+        },
+        {
+          "rank": 4,
+          "domain": "www.realtor.ca",
+          "url": "https://www.realtor.ca/ab/greater-calgary/townhomes-for-sale",
+          "title": "Townhomes For Sale in Greater Calgary",
+          "description": "Find 1179 results for Townhomes For Sale in Greater Calgary, AB. Visit REALTOR.ca to see photos, prices & neighbourhood info. Prices starting at $199000."
+        },
+        {
+          "rank": 5,
+          "domain": "www.kirbycox.com",
+          "url": "https://www.kirbycox.com/townhouses.php",
+          "title": "Calgary Townhomes for Sale",
+          "description": "Many townhouses in Calgary offer two or more bedrooms with great locations close to playgrounds, parks and schools that make it a great starter home for\u00a0... Read more"
+        }
+      ],
+      "total_organic_in_top_10": 10
+    },
+    "new homes Calgary": {
+      "keyword": "new homes Calgary",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "calgaryhomes.ca",
+          "url": "https://calgaryhomes.ca/calgary-new-homes.php",
+          "title": "Calgary New Construction Homes For Sale",
+          "description": "Explore Calgary's new home communities. You will find homes which have recently been constructed, quick possession homes or you can design the home of your\u00a0... Read more"
+        },
+        {
+          "rank": 2,
+          "domain": "www.zillow.com",
+          "url": "https://www.zillow.com/calgary-ab/new-homes/",
+          "title": "New Construction Homes in Calgary AB",
+          "description": "Discover new construction homes or master planned communities in Calgary AB. Check out floor plans, pictures and videos for these new homes, and then get in\u00a0..."
+        },
+        {
+          "rank": 3,
+          "domain": "tricohomes.com",
+          "url": "https://tricohomes.com/",
+          "title": "Trico Homes | New Single & Multi-Family Homes in Calgary",
+          "description": "Trico Homes is an award winning builder of estate, semi-estate, front-garage, laned, duplex homes & townhomes in Calgary & area's most desirable\u00a0..."
+        },
+        {
+          "rank": 4,
+          "domain": "www.morrisonhomes.ca",
+          "url": "https://www.morrisonhomes.ca/",
+          "title": "Morrison Homes: Calgary Home Builders",
+          "description": "One of the most trusted home builders in Calgary, Morrison Homes has been building award-winning houses and communities since 1961."
+        },
+        {
+          "rank": 5,
+          "domain": "sterlingcalgary.com",
+          "url": "https://sterlingcalgary.com/",
+          "title": "Sterling Homes | Award-Winning Home Builder Calgary",
+          "description": "Discover the perfect home model to suit your needs with our extensive range, including laned homes, bungalows, front-attached garages, duplexes, and row homes. Read more"
+        }
+      ],
+      "total_organic_in_top_10": 10
+    },
+    "Calgary real estate market report": {
+      "keyword": "Calgary real estate market report",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.creb.com",
+          "url": "https://www.creb.com/housing_statistics/daily_housing_summary/",
+          "title": "Daily Housing Summary",
+          "description": "Overall summary of housing statistics for the Calgary Real Estate Board broken down Monthly/Annually/Daily."
+        },
+        {
+          "rank": 2,
+          "domain": "wowa.ca",
+          "url": "https://wowa.ca/calgary-housing-market",
+          "title": "Calgary Housing Market Report: Mar. 3rd, 2026 Update",
+          "description": "The housing inventory of 4,872 was 16% higher than last February. At 1,526, Calgary's monthly home sales saw an 11.3% year-over-year decline. Read more"
+        },
+        {
+          "rank": 3,
+          "domain": "www.calgary.ca",
+          "url": "https://www.calgary.ca/communities/housing-in-calgary/housing-research/housing-trends.html",
+          "title": "Housing trends",
+          "description": "Mar 10, 2026 \u2014 Total rental market vacancy rate increased from 1.4% in 2023 to 4.6% in 2024. The increase was driven by a large influx of purpose-built rental\u00a0... Read more"
+        },
+        {
+          "rank": 4,
+          "domain": "globalnews.ca",
+          "url": "https://globalnews.ca/news/11749632/calgary-real-estate-market-first-time-buyers/",
+          "title": "Realtors say Calgary's real estate market is now attracting ...",
+          "description": "4 days ago \u2014 Calgary realtors say the recent softening of the city's real estate market is enticing a lot more potential first-time buyers to enter the\u00a0..."
+        },
+        {
+          "rank": 5,
+          "domain": "www.zolo.ca",
+          "url": "https://www.zolo.ca/calgary-real-estate/trends",
+          "title": "Calgary Housing Market Report | March 2026 Real Estate ...",
+          "description": "Current Calgary MLS\u00ae stats indicate an average house price of $642,284 and 6,624 new listings in the last 28 days. As of today, Calgary housing data shows\u00a0... Read more"
+        }
+      ],
+      "total_organic_in_top_10": 10
+    },
+    "best neighborhoods Calgary": {
+      "keyword": "best neighborhoods Calgary",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/Calgary/comments/mku3db/what_is_your_favourite_or_dream_neighbourhood_to/",
+          "title": "What is your favourite (or dream) neighbourhood to live in ...",
+          "description": "The communities surrounding the DT core (Beltline, East Village/Victoria Park, Mission/Cliff-Bungalow, Hillhurst/Sunnyside, Inglewood/Ramsey)\u00a0... Read more"
+        },
+        {
+          "rank": 2,
+          "domain": "calgaryhomes.ca",
+          "url": "https://calgaryhomes.ca/blog/best-neighbourhoods-calgary.html",
+          "title": "10 Best Neighbourhoods in Calgary AB: Housing & ...",
+          "description": "Oct 14, 2025 \u2014 10 Best Neighbourhoods in Calgary AB: Housing & Lifestyle Guide \u00b7 1. Altadore \u00b7 2. Brentwood \u00b7 3. Varsity \u00b7 4. Crescent Heights \u00b7 5. Hillhurst. Read more"
+        },
+        {
+          "rank": 3,
+          "domain": "www.avenuecalgary.com",
+          "url": "https://www.avenuecalgary.com/calgarys-best-neighbourhoods-2025/",
+          "title": "Calgary's Best Neighbourhoods 2025",
+          "description": "Calgary's Best Neighbourhoods 2025 \u00b7 Elbow Park \u00b7 Kensington \u00b7 Mahogany \u00b7 Beltline \u00b7 University District \u00b7 West Springs \u00b7 Inglewood \u00b7 Midnapore \u00b7 A cyclist\u00a0... Read more"
+        },
+        {
+          "rank": 4,
+          "domain": "www.visitcalgary.com",
+          "url": "https://www.visitcalgary.com/plan-and-stay/neighbourhoods",
+          "title": "Calgary Neighbourhood Guides",
+          "description": "Plan your visit with insights into Calgary's neighbourhoods, featuring must-see spots, local events, and hidden gems."
+        },
+        {
+          "rank": 5,
+          "domain": "www.reevesrealty.ca",
+          "url": "https://www.reevesrealty.ca/blog/best-neighbourhoods-calgary-first-time-buyers.html",
+          "title": "12 Best Neighbourhoods for Calgary First-Time Buyers in ...",
+          "description": "May 8, 2025 \u2014 Top Calgary Neighborhoods for First-Time Buyers \u00b7 1. Glacier Ridge (NW Calgary) \u00b7 2. Livingston (North Calgary) \u00b7 3. Nolan Hill \u00b7 4. Evanston. Read more"
+        }
+      ],
+      "total_organic_in_top_10": 8
+    },
+    "Calgary investment property": {
+      "keyword": "Calgary investment property",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.bestcalgaryhomes.com",
+          "url": "https://www.bestcalgaryhomes.com/investment-property-in-calgary/",
+          "title": "Investment Property for Sale in Calgary",
+          "description": "Begin your search of investment property listings in Calgary with a price range of up to $600,000 below. Whether it be a condo, townhome, or single-family\u00a0... Read more"
+        },
+        {
+          "rank": 2,
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/PersonalFinanceCanada/comments/1io0xs7/calgary_investment_property_yay_or_nay/",
+          "title": "Calgary Investment Property: Yay or nay?",
+          "description": "We are looking at buying a condo in Calgary cash to rent out. The condo is in the \"Bankview/South Calgary\" area, built in mid 2000s, 2 bed/2 bath. Read more"
+        },
+        {
+          "rank": 3,
+          "domain": "www.realtor.ca",
+          "url": "https://www.realtor.ca/ab/calgary/multi-family-homes-for-sale",
+          "title": "74 Multi Family Homes For Sale in Calgary",
+          "description": "Find 74 results for Multi Family Homes For Sale in Calgary, AB. Visit REALTOR.ca to see photos, prices & neighbourhood info. Prices starting at $719000."
+        },
+        {
+          "rank": 4,
+          "domain": "www.royallepage.ca",
+          "url": "https://www.royallepage.ca/en/investorsedge/ab/calgary/investment/properties/",
+          "title": "Investment Properties for Sale in Calgary",
+          "description": "Investment properties for sale in Calgary. View New-Builds, Income Properties and Pre-Construction Homes for Sale with cashflow calculations, floor plans,\u00a0..."
+        },
+        {
+          "rank": 5,
+          "domain": "www.youtube.com",
+          "url": "https://www.youtube.com/playlist?list=PL0Wjp8t1Z7edeHEcP5s6SunUU0JAb2YIO",
+          "title": "Calgary Investment Properties",
+          "description": "Brad McCallum - Calgary Realtor \u00b7 2:40. Under $200k Studio Apartment in the LONDON building! Calgary Investment Property 2022. Brad McCallum - Calgary Realtor. Read more"
+        }
+      ],
+      "total_organic_in_top_10": 9
+    },
+    "Cochrane homes for sale": {
+      "keyword": "Cochrane homes for sale",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.realtor.ca",
+          "url": "https://www.realtor.ca/ab/cochrane/real-estate",
+          "title": "319 Cochrane Real Estate MLS\u00ae Listings & Houses for Sale",
+          "description": "Find 319 houses for sale in Cochrane, AB. Visit REALTOR.ca to see all the Cochrane, AB real estate listings on the MLS\u00ae Systems today!"
+        },
+        {
+          "rank": 2,
+          "domain": "www.royallepage.ca",
+          "url": "https://www.royallepage.ca/en/ab/cochrane/properties/",
+          "title": "Cochrane, AB Real Estate - Homes For Sale in ...",
+          "description": "Explore the latest Cochrane, AB real estate listings at Royal LePage \u00ae. Browse houses for sale in Cochrane by price, beds & baths or neighbourhood to find\u00a0..."
+        },
+        {
+          "rank": 3,
+          "domain": "www.justinhavre.com",
+          "url": "https://www.justinhavre.com/cochrane-real-estate.php",
+          "title": "Cochrane Real Estate, Homes, Condos for Sale",
+          "description": "Search all real estate for sale in Cochrane. See TODAY's New Listings, search by beds/baths, home & lot size, listing status, days on market & more! Read more"
+        },
+        {
+          "rank": 4,
+          "domain": "www.rew.ca",
+          "url": "https://www.rew.ca/properties/areas/cochrane-ab",
+          "title": "322 Cochrane Real Estate Listings & Houses for Sale",
+          "description": "Browse 322 Real Estate Listings in Cochrane including stunning Cochrane houses for sale, condos, vacant lots for sale & more. View new listings today."
+        },
+        {
+          "rank": 5,
+          "domain": "calgaryhomes.ca",
+          "url": "https://calgaryhomes.ca/cochrane-homes-for-sale.php",
+          "title": "Cochrane Homes For Sale Calgary - Cochrane Real Estate",
+          "description": "View today's newest Cochrane homes for sale below. For those wishing to buy a home in Alberta, Canada, the community of Cochrane could be the ideal option. Read more"
+        }
+      ],
+      "total_organic_in_top_10": 10
+    },
+    "Chestermere real estate": {
+      "keyword": "Chestermere real estate",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.realtor.ca",
+          "url": "https://www.realtor.ca/ab/chestermere/real-estate",
+          "title": "Chestermere Real Estate Listings - REALTOR.ca",
+          "description": "Chestermere Market. Use our home price trends to better gauge local market conditions and plan your next move. The graphs below show benchmark or average prices\u00a0... Read more"
+        },
+        {
+          "rank": 2,
+          "domain": "www.rew.ca",
+          "url": "https://www.rew.ca/properties/areas/chestermere-ab",
+          "title": "247 Chestermere Real Estate Listings & Houses for Sale",
+          "description": "Browse 247 Real Estate Listings in Chestermere including stunning Chestermere houses for sale, condos, vacant lots for sale & more. View new listings today."
+        },
+        {
+          "rank": 3,
+          "domain": "www.justinhavre.com",
+          "url": "https://www.justinhavre.com/chestermere-real-estate.php",
+          "title": "Chestermere Real Estate, Homes, Condos for Sale",
+          "description": "Looking to buy or sell a Chestermere home? Call Justin Havre Real Estate Team with eXp Realty at 403.217.0003. Your neighbourhood real estate agents are here to\u00a0... Read more"
+        },
+        {
+          "rank": 4,
+          "domain": "calgaryhomes.ca",
+          "url": "https://calgaryhomes.ca/chestermere-homes-for-sale.php",
+          "title": "Chestermere Homes & Real Estate",
+          "description": "Search all real estate for sale in Chestermere. See TODAY's New Listings, search by beds/baths, home & lot size, listing status, days on market & more! Read more"
+        },
+        {
+          "rank": 5,
+          "domain": "www.zolo.ca",
+          "url": "https://www.zolo.ca/chestermere-real-estate",
+          "title": "Chestermere MLS\u00ae Listings & Real Estate for Sale",
+          "description": "Zolo has the most comprehensive, up-to-date set of Chestermere real estate listings. At the moment, Chestermere has 251 homes for sale, including 151 houses, 15\u00a0... Read more"
+        }
+      ],
+      "total_organic_in_top_10": 10
+    },
+    "Lakeview Calgary homes": {
+      "keyword": "Lakeview Calgary homes",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "calgaryhomes.ca",
+          "url": "https://calgaryhomes.ca/lakeview-real-estate-for-sale.php",
+          "title": "Lakeview Calgary Real Estate & Homes",
+          "description": "Find the newest Lakeview homes for sale & West Calgary real estate below! Renowned for its stunning homes, beautiful location and laid-back approach. Read more"
+        },
+        {
+          "rank": 2,
+          "domain": "www.realtor.ca",
+          "url": "https://www.realtor.ca/ab/calgary/lakeview/real-estate",
+          "title": "16 Lakeview Real Estate MLS\u00ae Listings & Houses for Sale",
+          "description": "Find 16 houses for sale in Lakeview, Calgary, AB. Visit REALTOR.ca to see all the Lakeview, Calgary, AB real estate listings on the MLS\u00ae Systems today!"
+        },
+        {
+          "rank": 3,
+          "domain": "www.justinhavre.com",
+          "url": "https://www.justinhavre.com/lakeview-calgary-real-estate.php",
+          "title": "Lakeview Homes For Sale - Calgary",
+          "description": "Search Lakeview homes for sale & real estate in West Calgary. The Lakeview real estate area is tucked between Glenmore Trail, Crowchild Trail and the T'suu T'\u00a0... Read more"
+        },
+        {
+          "rank": 4,
+          "domain": "www.kirbycox.com",
+          "url": "https://www.kirbycox.com/lakeview.php",
+          "title": "Lakeview Real Estate for Sale in Calgary AB",
+          "description": "There were 76 single family homes sold in Lakeview in 2025 for an average price of $1,258,922. Average Days on Market (DOM) for houses in Lakeview was 27 days. Read more"
+        },
+        {
+          "rank": 5,
+          "domain": "www.calgarylistings.com",
+          "url": "https://www.calgarylistings.com/property-search/results/?searchid=9856&sortby=m.Price%2520DESC",
+          "title": "Lakeview Village",
+          "description": "Lakeview Village ; 6 Days On Site \u00b7 $2,999,900 \u00b7 2,612 Sq. Ft.0.39 Acres. Built in 1966 ; 18 Days On Site \u00b7 $2,750,000 \u00b7 3,356 Sq. Ft.0.13 Acres. Built in 2025 ; 13\u00a0... Read more"
+        }
+      ],
+      "total_organic_in_top_10": 10
+    },
+    "Calgary luxury real estate agent": {
+      "keyword": "Calgary luxury real estate agent",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "luxuryhomescalgary.ca",
+          "url": "https://luxuryhomescalgary.ca/",
+          "title": "Luxury Homes Calgary | Top Real Estate Agent, Calgary",
+          "description": "Explore luxury homes Calgary with Spencer Rivers, REALTOR \u00ae. Exclusive listings, neighbourhood guides & expert advice for discerning buyers and sellers."
+        },
+        {
+          "rank": 2,
+          "domain": "calgaryluxuryrealestateagent.com",
+          "url": "https://calgaryluxuryrealestateagent.com/",
+          "title": "Calgary Luxury Real Estate Agent",
+          "description": "Dusko Sremac is the visionary force behind CalgaryLuxuryRealEstate.com, one of Calgary's most prominent luxury real estate destinations. Read more"
+        },
+        {
+          "rank": 3,
+          "domain": "www.thestarnesgroup.com",
+          "url": "https://www.thestarnesgroup.com/",
+          "title": "Homepage - The Starnes Group | Luxury Real Estate Calgary",
+          "description": "At The Starnes Group, we are specialists for the brokerage of high-end properties in the world's most beautiful locations. Read more"
+        },
+        {
+          "rank": 4,
+          "domain": "dexterandco.ca",
+          "url": "https://dexterandco.ca/",
+          "title": "Calgary Real Estate | Luxury Homes with Kyle Dexter",
+          "description": "Searching for Calgary real estate with luxury expertise? Explore high-end homes and personalized guidance from Kyle Dexter\u2014start your search today."
+        },
+        {
+          "rank": 5,
+          "domain": "www.gsbluxuryhomes.com",
+          "url": "https://www.gsbluxuryhomes.com/",
+          "title": "GSB Luxury Homes",
+          "description": "From first-time home buyers to experienced real-estate investors, GSB Luxury Homes will handle all of your real estate needs. Read more"
+        }
+      ],
+      "total_organic_in_top_10": 10
+    },
+    "Calgary first time home buyer": {
+      "keyword": "Calgary first time home buyer",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "calgaryhomes.ca",
+          "url": "https://calgaryhomes.ca/blog/first-time-home-buyer-incentives-alberta.html",
+          "title": "Alberta First-Time Homebuyer Incentives: 7 Programs to ...",
+          "description": "Jan 8, 2026 \u2014 The two biggest homebuying incentives in Alberta are The First Place Program in Edmonton and The Attainable Homes Calgary (AHC) program. Read more"
+        },
+        {
+          "rank": 2,
+          "domain": "attainyourhome.com",
+          "url": "https://attainyourhome.com/",
+          "title": "Attainable Homes Calgary : Homeownership & Rentals in ...",
+          "description": "Earn under $131,500 annually (household income ) \u00b7 Are a first-time homebuyer or don't currently own property \u00b7 Have at least $2,000 saved for a down payment. Read more"
+        },
+        {
+          "rank": 3,
+          "domain": "www.cmhc-schl.gc.ca",
+          "url": "https://www.cmhc-schl.gc.ca/consumers/home-buying/first-time-home-buyer-incentive",
+          "title": "First-Time Home Buyer Incentive",
+          "description": "Nov 19, 2024 \u2014 The First-Time Home Buyer Incentive is no longer accepting applications. The deadline for new submissions for the First-Time Home Buyer\u00a0... Read more"
+        },
+        {
+          "rank": 4,
+          "domain": "newhomesalberta.ca",
+          "url": "https://newhomesalberta.ca/first-time-homebuyer-programs-alberta-benefits-help/",
+          "title": "First-Time Homebuyer Programs Alberta - Benefits & Help",
+          "description": "The First-Time Home Buyers' Tax Credit (HBTC) helps by reducing the cost of buying a home. It offers down payment aid and supports affordable housing. The HBTC\u00a0... Read more"
+        },
+        {
+          "rank": 5,
+          "domain": "firsttimehomebuyercalgary.com",
+          "url": "https://firsttimehomebuyercalgary.com/",
+          "title": "Calgary Real Estate First Time Home Buyer | Search Listings",
+          "description": "This site will provide you all the tools needed to find your new First Dream Home in Calgary AB. Search the listings and read the media articles. Read more"
+        }
+      ],
+      "total_organic_in_top_10": 9
+    },
+    "Calgary home prices 2026": {
+      "keyword": "Calgary home prices 2026",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.creb.com",
+          "url": "https://www.creb.com/Housing_Statistics/documents/01_2026_Calgary_Monthly_Stats_Package.pdf",
+          "title": "January 2026",
+          "description": "Feb 2, 2026 \u2014 Prices have been falling across every district, with year-over-year declines ranging from 13 per cent in the North East to six per cent in the\u00a0... Read more"
+        },
+        {
+          "rank": 2,
+          "domain": "www.cmhc-schl.gc.ca",
+          "url": "https://www.cmhc-schl.gc.ca/professionals/housing-markets-data-and-research/market-reports/housing-market/housing-market-outlook",
+          "title": "Housing Market Outlook 2026",
+          "description": "Total housing starts in Calgary will remain high in 2026 but will ease from the recent surge. Ground-oriented starts are projected to decline modestly\u00a0... Read more"
+        },
+        {
+          "rank": 3,
+          "domain": "wowa.ca",
+          "url": "https://wowa.ca/calgary-housing-market",
+          "title": "Calgary Housing Market Report: Mar. 3rd, 2026 Update",
+          "description": "In February 2026, the average and median Calgary home prices were $627776 and $565000, respectively. Year over year, average prices are up 2.4%,\u00a0..."
+        },
+        {
+          "rank": 4,
+          "domain": "www.canadianmortgagetrends.com",
+          "url": "https://www.canadianmortgagetrends.com/2026/03/calgary-home-sales-fall-11-in-february-as-condo-oversupply-weighs-on-prices/",
+          "title": "Calgary home sales fall 11% in February as condo ...",
+          "description": "Mar 3, 2026 \u2014 The city's residential benchmark price fell 4.4% year over year to $560,500. Inventory continued to rise despite a modest decline in new\u00a0... Read more"
+        },
+        {
+          "rank": 5,
+          "domain": "www.nesto.ca",
+          "url": "https://www.nesto.ca/real-estate/calgary-housing-market-outlook/",
+          "title": "Calgary Housing Market Outlook 2026 - Real Estate",
+          "description": "Mar 18, 2026 \u2014 Calgary Housing Market Highlights. The average selling price of a home in Calgary decreased by 2.7% year-over-year to $562,000 in February. Read more"
+        }
+      ],
+      "total_organic_in_top_10": 10
+    },
+    "Calgary real estate forecast": {
+      "keyword": "Calgary real estate forecast",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.mortgagesandbox.com",
+          "url": "https://www.mortgagesandbox.com/calgary-real-estate-forecast",
+          "title": "Metro Calgary Real Estate Trends and Price Forecast",
+          "description": "Current Calgary property market insights and a two-year prediction for the prices of Calgary houses, townhouses, and apartments for sale."
+        },
+        {
+          "rank": 2,
+          "domain": "wowa.ca",
+          "url": "https://wowa.ca/calgary-housing-market",
+          "title": "Calgary Housing Market Report: Mar. 3rd, 2026 Update",
+          "description": "In February 2026, the average and median Calgary home prices were $627776 and $565000, respectively. Year over year, average prices are up 2.4%,\u00a0..."
+        },
+        {
+          "rank": 3,
+          "domain": "www.creb.com",
+          "url": "https://www.creb.com/News/Media_Releases/2026/January/forecast_2026/",
+          "title": "CREB\u00ae Unveils 2026 Forecast Calgary and Region Yearly ...",
+          "description": "Jan 20, 2026 \u2014 Lower migration levels, stable employment and interest rates are expected to prevent any substantial change in demand in 2026. However, supply\u00a0... Read more"
+        },
+        {
+          "rank": 4,
+          "domain": "www.reddit.com",
+          "url": "https://www.reddit.com/r/RealEstateCanada/comments/1mihwea/calgary_market_outlook_present2027/",
+          "title": "Calgary Market Outlook (Present-2027) : r/RealEstateCanada",
+          "description": "As an investment right now real estate is not a good bet. My business sees trends a little sooner than most and the consensus seems to be lay\u00a0... Read more"
+        },
+        {
+          "rank": 5,
+          "domain": "blog.remax.ca",
+          "url": "https://blog.remax.ca/calgary-housing-market-outlook/",
+          "title": "Calgary Housing Market Outlook (2026)",
+          "description": "Nov 26, 2025 \u2014 The average residential sale price in Calgary has increased by 3.5 per cent across all property types between 2024 and 2025 from $621,015 to\u00a0... Read more"
+        }
+      ],
+      "total_organic_in_top_10": 9
+    },
+    "sell my house Calgary fast": {
+      "keyword": "sell my house Calgary fast",
+      "top_5": [
+        {
+          "rank": 1,
+          "domain": "www.justinhavre.com",
+          "url": "https://www.justinhavre.com/cash-offer.php",
+          "title": "Sell Your Calgary House Fast for Cash",
+          "description": "Our team of experts can help guide you through the process of selling your home for a fair price cash offer, bypassing the traditional selling process. Read more"
+        },
+        {
+          "rank": 2,
+          "domain": "www.calgary.com",
+          "url": "https://www.calgary.com/sellers/cash-offer/",
+          "title": "Cash For Your Calgary Home: Sell Fast For a Fair Price",
+          "description": "Skip the stress of selling your home and get cash offer. Choose your closing date and collect cash on the fairest price for your house."
+        },
+        {
+          "rank": 3,
+          "domain": "www.cashynhomes.com",
+          "url": "https://www.cashynhomes.com/",
+          "title": "Cashyn Homes: Cash Home Buyers in Calgary | Sell House Fast",
+          "description": "Whether you need to sell your house fast within 30 days or more than six months, we can arrange the purchase to suit your personal requests. You'll never feel\u00a0... Read more"
+        },
+        {
+          "rank": 4,
+          "domain": "www.sellmyhousefast.com",
+          "url": "https://www.sellmyhousefast.com/we-buy-houses-calgary-alberta/",
+          "title": "We Buy Houses Calgary | Sell My House For Cash ...",
+          "description": "At Sell My House Fast, we buy houses for cash in Calgary Alberta to make your home sale simple. As a company that buys homes, we understand the importance\u00a0... Read more"
+        },
+        {
+          "rank": 5,
+          "domain": "www.legerhomebuyers.ca",
+          "url": "https://www.legerhomebuyers.ca/",
+          "title": "Sell Your House Fast to Leger Home Buyers in Calgary: We ...",
+          "description": "We buy houses in any condition and at any price point across Calgary and throughout Alberta. As one of Calgary's most trusted cash home buyers, we make the\u00a0... Read more"
+        }
+      ],
+      "total_organic_in_top_10": 8
+    }
+  }
+}

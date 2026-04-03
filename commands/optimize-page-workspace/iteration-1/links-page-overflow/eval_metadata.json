@@ -1,0 +1,15 @@
+{
+  "eval_id": 2,
+  "eval_name": "links-page-overflow",
+  "prompt": "This links page has a URL that's breaking out of its card container on mobile. Can you check it for other issues too and make the whole page mobile friendly? Files: /mnt/c/dev/Site audit/clients/calgary-castles/seo/reports/multipage/links.html, shared/report-styles.css, pages/links.js, shared/data-loader.js",
+  "assertions": [
+    "Produces a structured audit report BEFORE making code changes",
+    "Identifies the URL overflow in the _detailCard function or the 'Analyzed domain' card",
+    "Adds word-break: break-all or overflow-wrap: break-word for long URL display",
+    "Identifies at least 2 additional responsive issues beyond the reported URL overflow",
+    "Preserves all link graph rendering functions (renderLinkOverview, renderOrphanPages, renderHubSpokeClusters, renderLinkDepth, renderBacklinkProfile)",
+    "Checks touch target sizing on interactive elements",
+    "Includes performance findings (script loading, image optimization, or similar)",
+    "Does not remove or rename DOM elements targeted by getElementById (linkstats-content, orphans-content, etc.)"
+  ]
+}

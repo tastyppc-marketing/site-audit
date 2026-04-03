@@ -1,0 +1,642 @@
+{
+  "meta": {
+    "client_domain": "sellingcalgarycastles.com",
+    "last_updated": "2026-03-24",
+    "total_keywords": 25,
+    "total_snapshots": 1
+  },
+  "milestones": [
+    {
+      "id": "audit-baseline-march-2026",
+      "label": "Audit Baseline March 2026",
+      "date": "2026-03-24"
+    }
+  ],
+  "keywords": {
+    "calgary homes for sale": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": 8
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": 5
+        },
+        "kirbycox.com": {
+          "2026-03-24": 9
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "calgary real estate": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": 11
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": 6
+        },
+        "kirbycox.com": {
+          "2026-03-24": 37
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "calgary real estate agent": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": 1
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": 18
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": 6
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": null
+        },
+        "kirbycox.com": {
+          "2026-03-24": 4
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": 30
+        }
+      }
+    },
+    "homes for sale calgary ab": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": 9
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": 8
+        },
+        "kirbycox.com": {
+          "2026-03-24": 12
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "calgary condos for sale": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": 3
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": 32
+        },
+        "kirbycox.com": {
+          "2026-03-24": 5
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "calgary houses for sale": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": 10
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": 6
+        },
+        "kirbycox.com": {
+          "2026-03-24": 12
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "luxury homes calgary": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": 4
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": 37
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": 45
+        },
+        "kirbycox.com": {
+          "2026-03-24": 1
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "calgary real estate market": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": 20
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": 60
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": 14
+        },
+        "kirbycox.com": {
+          "2026-03-24": null
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "buy home calgary": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": 8
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": 6
+        },
+        "kirbycox.com": {
+          "2026-03-24": 16
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "sell home calgary": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": null
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": null
+        },
+        "kirbycox.com": {
+          "2026-03-24": null
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "calgary mls listings": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": null
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": null
+        },
+        "kirbycox.com": {
+          "2026-03-24": null
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "calgary property for sale": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": null
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": null
+        },
+        "kirbycox.com": {
+          "2026-03-24": null
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "calgary townhouses for sale": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": null
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": null
+        },
+        "kirbycox.com": {
+          "2026-03-24": null
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "new homes calgary": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": null
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": null
+        },
+        "kirbycox.com": {
+          "2026-03-24": null
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "calgary real estate market report": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": null
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": null
+        },
+        "kirbycox.com": {
+          "2026-03-24": null
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "best neighborhoods calgary": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": null
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": null
+        },
+        "kirbycox.com": {
+          "2026-03-24": null
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "calgary investment property": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": null
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": null
+        },
+        "kirbycox.com": {
+          "2026-03-24": null
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "cochrane homes for sale": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": null
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": null
+        },
+        "kirbycox.com": {
+          "2026-03-24": null
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "chestermere real estate": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": null
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": null
+        },
+        "kirbycox.com": {
+          "2026-03-24": null
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "lakeview calgary homes": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": null
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": null
+        },
+        "kirbycox.com": {
+          "2026-03-24": null
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "calgary luxury real estate agent": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": null
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": null
+        },
+        "kirbycox.com": {
+          "2026-03-24": null
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "calgary first time home buyer": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": null
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": null
+        },
+        "kirbycox.com": {
+          "2026-03-24": null
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "calgary home prices 2026": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": null
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": null
+        },
+        "kirbycox.com": {
+          "2026-03-24": null
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "calgary real estate forecast": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": null
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": null
+        },
+        "kirbycox.com": {
+          "2026-03-24": null
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    },
+    "sell my house calgary fast": {
+      "positions": {
+        "sellingcalgarycastles.com": {
+          "2026-03-24": null
+        },
+        "justinhavre.com": {
+          "2026-03-24": null
+        },
+        "karenfawcett.ca": {
+          "2026-03-24": null
+        },
+        "reevesrealty.ca": {
+          "2026-03-24": null
+        },
+        "calgaryhousefinder.ca": {
+          "2026-03-24": null
+        },
+        "kirbycox.com": {
+          "2026-03-24": null
+        },
+        "jdrealestatecalgary.ca": {
+          "2026-03-24": null
+        }
+      }
+    }
+  }
+}

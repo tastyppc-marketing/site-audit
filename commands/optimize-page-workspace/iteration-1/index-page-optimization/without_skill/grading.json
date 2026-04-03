@@ -1,0 +1,83 @@
+{
+  "expectations": [
+    {
+      "text": "Produces a structured audit report BEFORE making code changes",
+      "passed": true,
+      "evidence": "The audit-report.md has a clear structure: summary, then 8 numbered issues with root cause and fix descriptions, then 'Files Modified' section listing all changes. The report reads as an audit-first document. However, without a transcript, ordering cannot be definitively confirmed."
+    },
+    {
+      "text": "Identifies the grid-cols-6 (or overly wide grid) stat card layout as a responsiveness issue",
+      "passed": true,
+      "evidence": "Issue #2 'Stat cards overflowing on small screens (High)': 'The stats grid used grid-cols-1 on mobile (single column), wasting space. The .stat-value text at 1.75rem was too large for 2-column layouts on phones.' The stat card grid layout is identified as a responsiveness issue and fixed to grid-cols-2 base."
+    },
+    {
+      "text": "Identifies the window.AUDIT_DATA injection pattern and explicitly notes it must be preserved",
+      "passed": false,
+      "evidence": "The audit report does not mention window.AUDIT_DATA anywhere. Grep for 'AUDIT_DATA' in the audit report returned no matches. The data injection pattern is neither identified nor noted as requiring preservation."
+    },
+    {
+      "text": "Adds overflow-wrap, word-break, or equivalent to prevent text/values from breaking out of stat cards",
+      "passed": true,
+      "evidence": "report-styles.css contains overflow-wrap: break-word and word-break: break-word at lines 176-177, 187-188, 426-427, 570-571. Audit report confirms: 'Added max-width: 100%, hyphens: auto, and overflow-wrap: break-word to stat labels'. Issue #2 fix description explicitly addresses overflow."
+    },
+    {
+      "text": "Changes the stat grid to collapse to fewer columns on mobile (responsive breakpoints)",
+      "passed": true,
+      "evidence": "index.html line 85: 'grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4'. Audit report: 'Changed grid to grid-cols-2 as the base (2 columns even on phones)'. Also added 360px breakpoint with further reduced sizes."
+    },
+    {
+      "text": "Checks the viewport meta tag configuration",
+      "passed": false,
+      "evidence": "index.html line 5 shows: '<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">' -- unchanged from original. The audit report does not mention viewport meta tag. No maximum-scale or other viewport improvements were made."
+    },
+    {
+      "text": "Does not remove or rename any DOM element targeted by getElementById or innerHTML in index.js (e.g., stats-grid, issues-list, hero-grade, etc.)",
+      "passed": true,
+      "evidence": "index.html preserves all key DOM IDs: hero-grade (line 71), stats-grid (line 85), issues-list (line 94). index.js still references hero-grade, #stats-grid, #issues-list. All element targets are intact."
+    },
+    {
+      "text": "Audit findings include specific file and line references, not just general descriptions",
+      "passed": false,
+      "evidence": "The audit report references file names (index.html, report-styles.css, index.js) but never includes line numbers or specific code line references. Issues reference CSS selectors and class names but no 'line X' or 'file:line' format. For example: 'The h1 used text-3xl (1.875rem)' -- no line reference. 'The stats grid used grid-cols-1 on mobile' -- no line reference."
+    },
+    {
+      "text": "Reports issues grouped by severity (critical/high/medium/low or similar classification)",
+      "passed": true,
+      "evidence": "Issues use severity labels in headings: '#1. Horizontal overflow on mobile (Critical)', '#2. Stat cards overflowing on small screens (High)', '#4. Issue and next-step card text overflow (Medium)', '#7. Comparison table headers not wrapping (Low)'. While not grouped by severity (issues are numbered sequentially), each issue has a severity classification."
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "failed": 3,
+    "total": 9,
+    "pass_rate": 0.67
+  },
+  "timing": {
+    "total_tokens": 81375,
+    "duration_ms": 353880,
+    "total_duration_seconds": 353.9
+  },
+  "claims": [
+    {
+      "claim": "8 issues found covering all responsive categories",
+      "type": "factual",
+      "verified": true,
+      "evidence": "Counted 8 numbered issues in the report, spanning Critical (1), High (2), Medium (3), Low (2)."
+    },
+    {
+      "claim": "Print layout still works (print styles are preserved unchanged)",
+      "type": "quality",
+      "verified": false,
+      "evidence": "Cannot verify without rendering the page. The claim is unverifiable from the outputs alone."
+    }
+  ],
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "assertion": "Reports issues grouped by severity (critical/high/medium/low or similar classification)",
+        "reason": "This assertion passes even when severity labels are embedded in issue headings rather than used as grouping categories. Consider clarifying whether you want issues *grouped* under severity headings (like the with_skill version does) vs. just labeled with severity."
+      }
+    ],
+    "overall": "Assertions are reasonable. The without_skill run missed AUDIT_DATA preservation awareness, viewport meta, and file/line references -- all meaningful gaps."
+  }
+}

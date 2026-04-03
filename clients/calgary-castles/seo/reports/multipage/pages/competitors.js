@@ -145,8 +145,9 @@
     headers.push('Gap');
 
     container.innerHTML =
+      '<div data-filterable>' +
       '<div class="report-table-wrap no-break">' +
-        '<table class="report-table">' +
+        '<table class="report-table report-table-sticky">' +
           '<thead><tr>' + headers.map(function (header, index) {
             return '<th' + (index === 1 ? ' class="highlight-col"' : '') + '>' + esc(header) + '</th>';
           }).join('') + '</tr></thead>' +
@@ -164,69 +165,231 @@
             return '<tr class="no-break">' + cells.join('') + '</tr>';
           }).join('') + '</tbody>' +
         '</table>' +
+      '</div>' +
       '</div>';
   }
 
   function renderRadarChart(data) {
     var container = document.getElementById('radar-content');
     var rows = Array.isArray(data.siteComparison) ? data.siteComparison : [];
-    var metrics = [];
     var charts = window.TPPC.charts || {};
     var colors = charts.COLORS || {};
+    var colorSet = (colors.set || ['#3b82f6','#22c55e','#f97316','#8b5cf6','#ec4899','#06b6d4','#eab308','#64748b']);
 
     if (!container) return;
 
+    // Detect competitor columns: either named keys (comp1, comp2, or domain
+    // names) beyond metric/client/gap, or a single "competitor" key.
+    var reservedKeys = { metric: 1, client: 1, gap: 1 };
+    var compKeys = [];
+    if (rows.length) {
+      var first = rows[0];
+      // Check for comp1..compN pattern first
+      var numbered = Object.keys(first).filter(function (k) { return /^comp\d+$/.test(k); }).sort();
+      if (numbered.length) {
+        compKeys = numbered;
+      } else {
+        // Fall back to any non-reserved key (domain names or "competitor")
+        compKeys = Object.keys(first).filter(function (k) { return !reservedKeys[k]; });
+      }
+    }
+
+    // Resolve competitor display labels
+    var compLabels = compKeys.map(function (key, i) {
+      if (key === 'competitor') {
+        return (data.competitor && (data.competitor.primaryLabel || data.competitor.primary)) || getCompetitorLabel(data, 0);
+      }
+      if (/^comp\d+$/.test(key)) {
+        return getCompetitorLabel(data, parseInt(key.slice(4), 10) - 1);
+      }
+      return key; // domain name used as key
+    });
+
+    // Parse metrics — client + all competitors
+    var metrics = [];
     rows.forEach(function (row) {
       var clientValue = parseNumericValue(row.client);
-      var competitorValue = parseNumericValue(row.competitor);
-      if (clientValue == null || competitorValue == null) return;
+      if (clientValue == null) return;
+
+      var compValues = [];
+      var hasAny = false;
+      compKeys.forEach(function (key) {
+        var val = parseNumericValue(row[key]);
+        compValues.push(val);
+        if (val != null) hasAny = true;
+      });
+      if (!hasAny) return;
 
       metrics.push({
         label: row.metric,
         clientValue: clientValue,
-        competitorValue: competitorValue
+        compValues: compValues,
+        gap: row.gap || ''
       });
     });
 
-    if (metrics.length < 3 || typeof charts.createRadarChart !== 'function') {
+    if (metrics.length < 2) {
       destroyChart(radarChart);
       radarChart = null;
-      container.innerHTML = emptyState('Need at least three comparable numeric site metrics to render the radar chart.');
+      container.innerHTML = emptyState('Need at least two comparable numeric site metrics to render the comparison.');
       return;
     }
 
-    var normalized = normalizeToPercent(metrics);
+    var clientLabel = getClientLabel(data);
+
+    // Find the best (max) competitor value per metric for the gap % column
+    function bestCompValue(m) {
+      var vals = m.compValues.filter(function (v) { return v != null; });
+      return vals.length ? Math.max.apply(null, vals) : 0;
+    }
+
+    // Build gap summary table
+    var compHeaders = compLabels.map(function (label) {
+      return '<th class="text-right">' + esc(label) + '</th>';
+    }).join('');
+
+    var tableRows = metrics.map(function (m) {
+      var best = bestCompValue(m);
+      var pct = best > 0 ? Math.round((m.clientValue / best) * 100) : null;
+      var barWidth = pct != null ? Math.max(pct, 2) : 0;
+      var barColor = pct != null && pct >= 50 ? '#22c55e' : pct != null && pct >= 20 ? '#f59e0b' : '#ef4444';
+
+      var compCells = m.compValues.map(function (val) {
+        return '<td class="text-right">' + (val != null ? esc(formatNumber(val)) : '&mdash;') + '</td>';
+      }).join('');
+
+      return '<tr class="no-break">' +
+        '<td class="font-medium text-slate-700">' + esc(m.label) + '</td>' +
+        '<td class="text-right highlight-col">' + esc(formatNumber(m.clientValue)) + '</td>' +
+        compCells +
+        '<td style="min-width:130px">' +
+          '<div style="display:flex;align-items:center;gap:8px">' +
+            '<div style="flex:1;height:8px;border-radius:4px;background:#f1f5f9;overflow:hidden">' +
+              '<div style="height:100%;border-radius:4px;background:' + barColor + ';width:' + barWidth + '%"></div>' +
+            '</div>' +
+            '<span class="text-xs font-semibold text-slate-500" style="min-width:36px;text-align:right">' + (pct != null ? pct + '%' : '') + '</span>' +
+          '</div>' +
+        '</td>' +
+        (m.gap ? '<td><span class="text-sm text-slate-500 italic">' + esc(m.gap) + '</span></td>' : '<td></td>') +
+      '</tr>';
+    }).join('');
+
+    // Build log-scale datasets — one per competitor + client
+    var allLogValues = [];
+    var logClient = metrics.map(function (m) {
+      var v = m.clientValue > 0 ? Math.log10(m.clientValue) : 0;
+      allLogValues.push(v);
+      return v;
+    });
+
+    var compDatasets = compKeys.map(function (key, ci) {
+      var logVals = metrics.map(function (m) {
+        var v = m.compValues[ci];
+        var lv = (v != null && v > 0) ? Math.log10(v) : 0;
+        allLogValues.push(lv);
+        return lv;
+      });
+      return {
+        label: compLabels[ci],
+        data: logVals,
+        realValues: metrics.map(function (m) { return m.compValues[ci]; }),
+        backgroundColor: colorSet[(ci + 1) % colorSet.length] + '99',
+        borderRadius: 6,
+        borderSkipped: false
+      };
+    });
+
+    var maxLog = Math.ceil(Math.max.apply(null, allLogValues.concat([1])));
+    var barSlots = (1 + compKeys.length); // client + N competitors
+    var chartHeight = Math.max(400, metrics.length * barSlots * 22 + 100);
+
     container.innerHTML =
-      '<div class="chart-container no-break">' +
-        '<h3 class="text-base font-bold text-slate-700 mb-4">Normalized Site Health Comparison</h3>' +
-        '<canvas id="competitor-radar-chart"></canvas>' +
+      '<div class="chart-container chart-tall no-break mb-8">' +
+        '<div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-4">' +
+          '<div>' +
+            '<h3 class="text-base font-bold text-slate-700">Competitive Gap Analysis</h3>' +
+            '<p class="text-sm text-slate-500">Logarithmic scale — each gridline is 10x the previous. Hover for exact values.</p>' +
+          '</div>' +
+        '</div>' +
+        '<div style="height:' + chartHeight + 'px"><canvas id="competitor-gap-chart"></canvas></div>' +
+      '</div>' +
+      '<div class="report-table-wrap">' +
+        '<table class="report-table report-table-sticky">' +
+          '<thead><tr>' +
+            '<th>Metric</th>' +
+            '<th class="text-right highlight-col">' + esc(clientLabel) + '</th>' +
+            compHeaders +
+            '<th>Client vs Best</th>' +
+            '<th>Gap</th>' +
+          '</tr></thead>' +
+          '<tbody>' + tableRows + '</tbody>' +
+        '</table>' +
       '</div>';
 
-    destroyChart(radarChart);
-    radarChart = charts.createRadarChart('competitor-radar-chart', {
-      labels: normalized.map(function (metric) { return metric.label; }),
-      max: 100,
-      datasets: [
-        {
-          label: getClientLabel(data),
-          data: normalized.map(function (metric) { return metric.client; }),
-          backgroundColor: 'rgba(59,130,246,0.15)',
-          borderColor: colors.primary || '#3b82f6',
-          pointBackgroundColor: colors.primary || '#3b82f6',
-          pointHoverBackgroundColor: colors.primary || '#3b82f6',
-          borderWidth: 2
-        },
-        {
-          label: (data.competitor && (data.competitor.primaryLabel || data.competitor.primary)) || getCompetitorLabel(data, 0),
-          data: normalized.map(function (metric) { return metric.competitor; }),
-          backgroundColor: 'rgba(239,68,68,0.10)',
-          borderColor: colors.danger || '#ef4444',
-          pointBackgroundColor: colors.danger || '#ef4444',
-          pointHoverBackgroundColor: colors.danger || '#ef4444',
-          borderWidth: 2
+    if (typeof charts.createBarChart === 'function') {
+      var datasets = [{
+        label: clientLabel,
+        data: logClient,
+        realValues: metrics.map(function (m) { return m.clientValue; }),
+        backgroundColor: (colors.primary || '#3b82f6') + 'cc',
+        borderRadius: 4,
+        borderSkipped: false,
+        categoryPercentage: 0.85,
+        barPercentage: 0.92
+      }].concat(compDatasets.map(function (ds) {
+        ds.borderRadius = 4;
+        ds.categoryPercentage = 0.85;
+        ds.barPercentage = 0.92;
+        return ds;
+      }));
+
+      destroyChart(radarChart);
+      radarChart = charts.createBarChart('competitor-gap-chart', {
+        horizontal: true,
+        showLegend: true,
+        labels: metrics.map(function (m) { return m.label; }),
+        datasets: datasets,
+        options: {
+          maintainAspectRatio: false,
+          scales: {
+            x: {
+              min: 0,
+              max: maxLog,
+              grid: { color: '#f1f5f9' },
+              ticks: {
+                font: { size: 12 },
+                callback: function (value) {
+                  if (value === 0) return '0';
+                  var num = Math.pow(10, value);
+                  if (num >= 1000000) return (num / 1000000) + 'M';
+                  if (num >= 1000) return (num / 1000) + 'k';
+                  return String(Math.round(num));
+                }
+              }
+            },
+            y: {
+              grid: { display: false },
+              ticks: { font: { size: 13, weight: '600' } }
+            }
+          },
+          plugins: {
+            tooltip: {
+              callbacks: {
+                label: function (ctx) {
+                  var ds = ctx.dataset;
+                  var real = ds.realValues ? ds.realValues[ctx.dataIndex] : null;
+                  return ds.label + ': ' + (real != null ? formatNumber(real) : 'N/A');
+                }
+              }
+            },
+            legend: {
+              position: 'bottom',
+              labels: { usePointStyle: true, padding: 16, font: { size: 12 } }
+            }
+          }
         }
-      ]
-    });
+      });
+    }
   }
 
   function renderStrategies(data) {
@@ -289,8 +452,9 @@
     });
 
     container.innerHTML =
+      '<div data-filterable>' +
       '<div class="report-table-wrap no-break">' +
-        '<table class="report-table">' +
+        '<table class="report-table report-table-sticky">' +
           '<thead><tr>' +
             '<th>Metric</th>' +
             columns.map(function (column) {
@@ -314,6 +478,7 @@
             }).join('') +
           '</tbody>' +
         '</table>' +
+      '</div>' +
       '</div>';
   }
 
@@ -387,6 +552,7 @@
       renderStrategies(data);
       renderDomainMetrics(data);
       renderPageSpeedComparison(data);
+      if (window.TPPC.filters) window.TPPC.filters.init();
     }
   };
 
