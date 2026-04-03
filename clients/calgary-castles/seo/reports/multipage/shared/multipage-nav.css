@@ -121,8 +121,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2.25rem;
-  height: 2.25rem;
+  width: 2.75rem;
+  height: 2.75rem;
   background: transparent;
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: 0.375rem;
@@ -244,7 +244,8 @@
   display: flex;
   align-items: center;
   gap: 0.625rem;
-  padding: 0.625rem 1.25rem;
+  padding: 0.75rem 1.25rem;
+  min-height: 48px;
   font-size: 0.875rem;
   font-weight: 500;
   color: #94a3b8;

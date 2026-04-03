@@ -31,6 +31,7 @@
     return Object.assign({
       responsive: true,
       maintainAspectRatio: false,
+      devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2),
       plugins: {
         legend: {
           labels: { font: DEFAULT_FONT, usePointStyle: true, padding: 16 }

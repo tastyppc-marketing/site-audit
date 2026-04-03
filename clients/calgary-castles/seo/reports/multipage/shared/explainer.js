@@ -277,6 +277,12 @@
   }
 
   function _createWidget() {
+    // Guard against duplicate creation (boot can fire twice)
+    if (document.getElementById('explainer-widget')) {
+      _widgetEl = document.getElementById('explainer-widget');
+      return;
+    }
+
     // Create the floating explainer card
     var widget = document.createElement('div');
     widget.id = 'explainer-widget';
@@ -298,19 +304,24 @@
     document.body.appendChild(widget);
     _widgetEl = widget;
 
-    // Toggle minimize/expand
+    // Toggle minimize/expand — entire header is clickable
+    var header = widget.querySelector('.explainer-widget__header');
     var toggleBtn = document.getElementById('explainer-toggle');
+    function _toggle() {
+      widget.classList.toggle('minimized');
+      var svg = toggleBtn ? toggleBtn.querySelector('svg') : null;
+      if (widget.classList.contains('minimized')) {
+        if (toggleBtn) toggleBtn.title = 'Expand';
+        if (svg) svg.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />';
+      } else {
+        if (toggleBtn) toggleBtn.title = 'Minimize';
+        if (svg) svg.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />';
+      }
+    }
+    if (header) header.addEventListener('click', _toggle);
     if (toggleBtn) {
-      toggleBtn.addEventListener('click', function () {
-        widget.classList.toggle('minimized');
-        var svg = toggleBtn.querySelector('svg');
-        if (widget.classList.contains('minimized')) {
-          toggleBtn.title = 'Expand';
-          svg.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />';
-        } else {
-          toggleBtn.title = 'Minimize';
-          svg.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />';
-        }
+      toggleBtn.addEventListener('click', function (e) {
+        e.stopPropagation(); // prevent double-fire from header click
       });
     }
   }

@@ -5,8 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SEO Audit Report - Action Plan</title>
 
+  <link rel="preconnect" href="https://cdn.tailwindcss.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+
   <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 
   <style data-inline-source="shared/report-styles.css">
 /* ==========================================================================
@@ -15,7 +21,7 @@
    ========================================================================== */
 
 /* ---------- Fonts ---------- */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+/* Font loaded via <link> in <head> — see OPTIMIZATION-LOG.md #2 */
 
 :root {
   /* Brand palette */
@@ -197,6 +203,7 @@ body {
 
 /* ---------- Section container ---------- */
 .report-section {
+  overflow-x: hidden;
   max-width: 1200px;
   margin: 0 auto;
   padding: 3rem 2rem;
@@ -596,6 +603,7 @@ body {
 /* ---------- Responsive ---------- */
 @media (max-width: 768px) {
   .report-section {
+  overflow-x: hidden;
     padding: 1.5rem 0.75rem;
   }
 
@@ -665,6 +673,7 @@ body {
 
 @media (max-width: 480px) {
   .report-section {
+  overflow-x: hidden;
     padding: 1.25rem 0.5rem;
   }
 
@@ -1532,6 +1541,8 @@ body.multipage {
       }
     };
   </script>
+  <link rel="stylesheet" href="shared/report-styles.css">
+  <link rel="stylesheet" href="shared/multipage-nav.css">
 </head>
 <body class="multipage font-sans antialiased">
   <nav id="top-nav"></nav>
@@ -1541,6 +1552,7 @@ body.multipage {
     <aside id="side-nav"></aside>
 
     <main id="page-content" class="flex-1 min-h-screen">
+      <h1 class="sr-only">Action Plan — SEO Audit Report</h1>
       <section class="report-section" id="section-plan">
         <div class="section-heading">
           <span class="section-number">1</span>
@@ -1627,14 +1639,14 @@ body.multipage {
     </main>
   </div>
 
-  <script src="shared/utils.js"></script>
-  <script src="shared/data-loader.js"></script>
-  <script src="shared/charts.js"></script>
-  <script src="shared/nav.js"></script>
-  <script src="shared/search.js"></script>
-  <script src="shared/table-filters.js"></script>
-  <script src="shared/print.js"></script>
-  <script src="shared/explainer.js"></script>
-  <script src="pages/action-plan.js"></script>
+  <script defer src="shared/utils.js?v=1775210383"></script>
+  <script defer src="shared/data-loader.js?v=1775210383"></script>
+  <script defer src="shared/charts.js?v=1775210383"></script>
+  <script defer src="shared/nav.js?v=1775210383"></script>
+  <script defer src="shared/search.js?v=1775210383"></script>
+  <script defer src="shared/table-filters.js?v=1775210383"></script>
+  <script defer src="shared/print.js?v=1775210383"></script>
+  <script defer src="shared/explainer.js?v=1775210383"></script>
+  <script defer src="pages/action-plan.js?v=1775210383"></script>
 </body>
 </html>

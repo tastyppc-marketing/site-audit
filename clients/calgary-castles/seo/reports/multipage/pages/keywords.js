@@ -133,7 +133,7 @@
     }
 
     container.innerHTML =
-      '<div class="chart-container no-break" style="height: ' + Math.max(360, chartData.length * 38) + 'px;">' +
+      '<div class="chart-container chart-tall no-break" style="height: ' + Math.max(360, chartData.length * 38) + 'px;">' +
         '<canvas id="keywordVolumeChart"></canvas>' +
       '</div>';
 

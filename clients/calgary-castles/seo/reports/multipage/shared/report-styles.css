@@ -4,7 +4,7 @@
    ========================================================================== */
 
 /* ---------- Fonts ---------- */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+/* Google Fonts Inter loaded via <link> in HTML <head> with preconnect — see OPTIMIZATION-LOG.md #2 */
 
 :root {
   /* Brand palette */
@@ -189,6 +189,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 3rem 2rem;
+  overflow-x: hidden;
 }
 
 .section-heading {
@@ -582,6 +583,24 @@ body {
   word-break: break-word;
 }
 
+/* ---------- Scroll-margin for fixed header ---------- */
+[id^="section-"] {
+  scroll-margin-top: 5rem; /* 80px = 64px nav + 16px breathing room */
+}
+
+/* ---------- Table scroll hint ---------- */
+.report-table-wrap {
+  background:
+    linear-gradient(to right, #fff 30%, transparent),
+    linear-gradient(to left, #fff 30%, transparent),
+    linear-gradient(to right, rgba(0,0,0,0.08), transparent 15px),
+    linear-gradient(to left, rgba(0,0,0,0.08), transparent 15px);
+  background-position: left center, right center, left center, right center;
+  background-repeat: no-repeat;
+  background-size: 20px 100%, 20px 100%, 15px 100%, 15px 100%;
+  background-attachment: local, local, scroll, scroll;
+}
+
 /* ---------- Responsive ---------- */
 @media (max-width: 768px) {
   .report-section {
@@ -641,6 +660,11 @@ body {
     font-size: 0.8rem;
   }
 
+  .tab-btn {
+    padding: 0.625rem 1.25rem;
+    min-height: 44px;
+  }
+
   .data-access-callout {
     flex-direction: column;
     gap: 8px;
@@ -649,6 +673,22 @@ body {
 
   #page-content {
     padding: 1rem 0.5rem;
+  }
+
+  #local-map {
+    height: 320px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .report-table-sticky th:first-child,
+  .report-table-sticky td:first-child {
+    position: static;
+    border-right: none;
+  }
+
+  .report-table-sticky thead th:first-child {
+    position: static;
   }
 }
 
@@ -676,6 +716,28 @@ body {
     width: 72px;
     height: 72px;
     font-size: 1.8rem;
+  }
+
+  .report-table {
+    font-size: 0.75rem;
+  }
+
+  .report-table thead th,
+  .report-table tbody td {
+    padding: 0.4rem 0.5rem;
+  }
+
+  #local-map {
+    height: 260px !important;
+  }
+}
+
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
 }
 
@@ -829,11 +891,15 @@ body {
 /* Page layout: account for fixed top nav + side nav */
 body.multipage {
   padding-top: 4rem; /* 64px top nav */
+  width: 100%;
+  overflow-x: hidden;
 }
 
 #page-content {
   padding: 2rem;
   max-width: 1280px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 @media (min-width: 1024px) {
