@@ -455,6 +455,533 @@ function copyDirectory(sourceDir, destinationDir) {
   });
 }
 
+/**
+ * normalizeAuditData — reshape audit-data.json so every renderer in
+ * technical.js (and other page JS) finds data where it expects it.
+ *
+ * This runs once at generate time so individual audit pipelines don't
+ * need to know the exact shape the HTML renderers expect.
+ *
+ * Mutations are applied in-place on `data`.  The function also accepts
+ * `dataDir` (directory containing audit-data.json) so it can auto-discover
+ * sibling research files (e.g. crawl-data.json, pagespeed-data.json).
+ */
+function normalizeAuditData(data, dataDir) {
+  const tech = data.technicalSeo || (data.technicalSeo = {});
+  let fixes = 0;
+
+  // ── 1. Core Web Vitals ──────────────────────────────────────────────
+  // Renderer reads data.coreWebVitals (top-level), with .mobile.score
+  // and .desktop.score.  Data pipelines often put it under technicalSeo
+  // and use "performanceScore" instead of "score".
+  if (!data.coreWebVitals && tech.coreWebVitals) {
+    data.coreWebVitals = tech.coreWebVitals;
+    fixes++;
+  }
+  if (data.coreWebVitals) {
+    ['mobile', 'desktop'].forEach(function (device) {
+      const d = data.coreWebVitals[device];
+      if (d && d.performanceScore != null && d.score == null) {
+        d.score = d.performanceScore;
+        fixes++;
+      }
+    });
+  }
+
+  // ── 2. Lighthouse results ───────────────────────────────────────────
+  // Renderer reads data.technicalSeo.lighthouseResults as an ARRAY of
+  // { url, strategy, performanceScore, lcp, cls, fcp, inp, ttfb,
+  //   speedIndex, opportunities[], diagnostics[] }.
+  // Data pipelines may produce a dict: { clientPages: [...], avgClientMobile, avgClientDesktop }
+  // with per-page objects keyed mobileScore/desktopScore, or may use
+  // snake_case from the PSI API.
+  const lr = tech.lighthouseResults;
+  if (lr && !Array.isArray(lr) && typeof lr === 'object' && Array.isArray(lr.clientPages)) {
+    const expanded = [];
+    lr.clientPages.forEach(function (page) {
+      const url = page.url || '';
+      ['mobile', 'desktop'].forEach(function (strategy) {
+        // Strategy data may be nested (page.mobile) or flat (page.mobileScore)
+        const nested = page[strategy];
+        const hasNested = nested && typeof nested === 'object';
+        const scoreKey = strategy + 'Score';
+        const score = hasNested
+          ? (nested.performance_score != null ? nested.performance_score : nested.performanceScore)
+          : page[scoreKey];
+        if (score == null) return;
+
+        const src = hasNested ? nested : {};
+        expanded.push({
+          url: src.url || url,
+          strategy: strategy,
+          performanceScore: score,
+          lcp:        src.lcp        != null ? src.lcp        : page[strategy + 'Lcp'],
+          cls:        src.cls        != null ? src.cls        : page[strategy + 'Cls'],
+          fcp:        src.fcp        != null ? src.fcp        : page[strategy + 'Fcp'],
+          inp:        src.inp        != null ? src.inp        : page[strategy + 'Inp'],
+          ttfb:       src.ttfb       != null ? src.ttfb       : page[strategy + 'Ttfb'],
+          speedIndex: src.speed_index != null ? src.speed_index : (src.speedIndex != null ? src.speedIndex : page[strategy + 'SpeedIndex']),
+          opportunities: Array.isArray(src.opportunities)
+            ? src.opportunities.map(function (o) {
+                return { title: o.title || o.id || '', savings: o.savings_ms || o.savings || 0 };
+              }).filter(function (o) { return o.savings > 0; })
+            : [],
+          diagnostics: [],
+        });
+      });
+    });
+    tech.lighthouseResults = expanded;
+    fixes++;
+  }
+
+  // If lighthouseResults is still missing, try to build from pagespeed-data.json
+  if (!Array.isArray(tech.lighthouseResults) || !tech.lighthouseResults.length) {
+    const psiPath = path.join(dataDir, 'research', 'pagespeed-data.json');
+    if (fs.existsSync(psiPath)) {
+      try {
+        const psi = JSON.parse(fs.readFileSync(psiPath, 'utf-8'));
+        const clientPages = (psi.data && Array.isArray(psi.data.client)) ? psi.data.client : [];
+        const expanded = [];
+        clientPages.forEach(function (entry) {
+          ['mobile', 'desktop'].forEach(function (strategy) {
+            const s = entry[strategy];
+            if (!s) return;
+            expanded.push({
+              url: s.url || entry.url || '',
+              strategy: strategy,
+              performanceScore: s.performance_score != null ? s.performance_score : s.performanceScore,
+              lcp: s.lcp, cls: s.cls, fcp: s.fcp, inp: s.inp, ttfb: s.ttfb,
+              speedIndex: s.speed_index != null ? s.speed_index : s.speedIndex,
+              opportunities: Array.isArray(s.opportunities)
+                ? s.opportunities.map(function (o) {
+                    return { title: o.title || o.id || '', savings: o.savings_ms || o.savings || 0 };
+                  }).filter(function (o) { return o.savings > 0; })
+                : [],
+              diagnostics: [],
+            });
+          });
+        });
+        if (expanded.length) {
+          tech.lighthouseResults = expanded;
+          logInfo('Auto-populated lighthouseResults', `${expanded.length} entries from pagespeed-data.json`);
+          fixes++;
+        }
+      } catch (_) { /* ignore parse errors */ }
+    }
+  }
+
+  // ── 3. PageSpeed comparison ─────────────────────────────────────────
+  // Renderer reads data.pageSpeedComparison (top-level) as [{ name, score }].
+  // Data pipelines may put it under technicalSeo or competitorAnalysis,
+  // using { domain, mobileScore, desktopScore }.
+  // Prefer competitorAnalysis version (has per-domain scores) over
+  // technicalSeo version (may have stale/duplicated client-only scores).
+  if (!data.pageSpeedComparison) {
+    const caPsc = data.competitorAnalysis && Array.isArray(data.competitorAnalysis.pageSpeedComparison)
+      ? data.competitorAnalysis.pageSpeedComparison : null;
+    const techPsc = tech.pageSpeedComparison;
+
+    // Detect stale technicalSeo data: if all non-client entries have identical
+    // mobileScore/desktopScore as the client, the data was copy-pasted wrong
+    let useCompAnalysis = false;
+    if (caPsc && caPsc.length && Array.isArray(techPsc) && techPsc.length) {
+      const clientEntry = techPsc.find(function (e) { return e.isClient; });
+      if (clientEntry) {
+        const allSame = techPsc.every(function (e) {
+          return e.mobileScore === clientEntry.mobileScore && e.desktopScore === clientEntry.desktopScore;
+        });
+        if (allSame && techPsc.length > 1) useCompAnalysis = true;
+      }
+    }
+
+    if (useCompAnalysis || (!techPsc && caPsc)) {
+      data.pageSpeedComparison = caPsc;
+      if (useCompAnalysis) logWarning('technicalSeo.pageSpeedComparison had identical scores for all domains — using competitorAnalysis version instead');
+    } else if (techPsc) {
+      data.pageSpeedComparison = techPsc;
+    }
+    if (data.pageSpeedComparison) fixes++;
+  }
+  if (Array.isArray(data.pageSpeedComparison) && data.pageSpeedComparison.length) {
+    const first = data.pageSpeedComparison[0];
+    if (first.domain && first.name == null) {
+      data.pageSpeedComparison = data.pageSpeedComparison.map(function (entry) {
+        if (entry.name != null) return entry; // already in correct format
+        const mob = entry.mobileScore != null ? Number(entry.mobileScore) : null;
+        const desk = entry.desktopScore != null ? Number(entry.desktopScore) : null;
+        const scores = [mob, desk].filter(function (s) { return s != null; });
+        let avg = scores.length ? scores.reduce(function (a, b) { return a + b; }, 0) / scores.length : null;
+        if (avg != null && avg <= 1) avg = Math.round(avg * 100);
+        let name = entry.domain || '';
+        if (entry.isClient) name += ' (Client)';
+        return { name: name, score: avg };
+      });
+      fixes++;
+    }
+  }
+
+  // ── 4. Page audits (site structure) ─────────────────────────────────
+  // Renderer reads data.technicalSeo.pageAudits as [{ url, title,
+  // metaDescription, canonicalUrl, wordCount, h1Tags[], h2Tags[],
+  // internalLinks, externalLinks, hasSchema, schemaTypes[], issues[] }].
+  // If missing, try to populate from crawl-data.json.
+  if (!Array.isArray(tech.pageAudits) || !tech.pageAudits.length) {
+    const crawlPath = path.join(dataDir, 'research', 'crawl-data.json');
+    if (fs.existsSync(crawlPath)) {
+      try {
+        const crawl = JSON.parse(fs.readFileSync(crawlPath, 'utf-8'));
+        const pages = Array.isArray(crawl.pages) ? crawl.pages : (Array.isArray(crawl) ? crawl : []);
+        if (pages.length) {
+          tech.pageAudits = pages.map(function (p) {
+            return {
+              url:             p.url || '',
+              title:           p.title || '',
+              metaDescription: p.description || p.metaDescription || '',
+              canonicalUrl:    p.canonical || p.canonicalUrl || '',
+              wordCount:       p.wordCount != null ? p.wordCount : null,
+              h1Tags:          Array.isArray(p.h1) ? p.h1 : (Array.isArray(p.h1Tags) ? p.h1Tags : []),
+              h2Tags:          Array.isArray(p.h2) ? p.h2 : (Array.isArray(p.h2Tags) ? p.h2Tags : []),
+              internalLinks:   p.totalInternalLinks != null ? p.totalInternalLinks : (p.internalLinks != null ? p.internalLinks : null),
+              externalLinks:   p.externalLinks != null ? p.externalLinks : null,
+              hasSchema:       !!p.hasSchema,
+              schemaTypes:     Array.isArray(p.schemaTypes) ? p.schemaTypes : [],
+              issues:          Array.isArray(p.issues) ? p.issues : [],
+              statusCode:      p.statusCode != null ? p.statusCode : 200,
+            };
+          });
+          logInfo('Auto-populated pageAudits', `${tech.pageAudits.length} pages from crawl-data.json`);
+          fixes++;
+        }
+      } catch (_) { /* ignore parse errors */ }
+    }
+  }
+
+  // ── 5. Internal linking: overview stats + hub & spoke clusters ──────
+  // Renderer reads internalLinking summary fields (total_pages,
+  // total_internal_links, avg_inbound_links, avg_outbound_links,
+  // orphan_count, orphan_rate) and internalLinking.hubClusters.
+  // Both can be derived from link-graph.json + crawl-data.json.
+  const linking = data.internalLinking || (data.internalLinking = {});
+  const hubClusters = Array.isArray(linking.hubClusters) ? linking.hubClusters
+    : (Array.isArray(linking.hub_clusters) ? linking.hub_clusters : []);
+
+  // Parse link-graph.json once — used for both summary stats and hub clusters
+  const lgPath = path.join(dataDir, 'research', 'link-graph.json');
+  let linkEdges = null; // { sourceUrl: [targetUrl, ...] }
+  if (fs.existsSync(lgPath)) {
+    try {
+      const lg = JSON.parse(fs.readFileSync(lgPath, 'utf-8'));
+      const edges = lg.edges || {};
+      if (typeof edges === 'object' && !Array.isArray(edges) && Object.keys(edges).length) {
+        linkEdges = edges;
+      }
+    } catch (_) { /* ignore parse errors */ }
+  }
+
+  if (linkEdges) {
+    // Build inbound/outbound maps
+    const inbound = {};
+    const outbound = {};
+    const allPages = new Set();
+    let totalLinks = 0;
+
+    Object.keys(linkEdges).forEach(function (source) {
+      const targets = Array.isArray(linkEdges[source]) ? linkEdges[source] : [];
+      allPages.add(source);
+      outbound[source] = targets.length;
+      totalLinks += targets.length;
+      targets.forEach(function (target) {
+        allPages.add(target);
+        inbound[target] = (inbound[target] || 0) + 1;
+      });
+    });
+
+    const sitemapPages = new Set(Object.keys(linkEdges));
+    const pageCount = sitemapPages.size;
+
+    // ── 5a. Recompute overview stats if stale (total_pages is 0 or missing) ──
+    const currentTotal = Number(linking.total_pages || linking.totalPages) || 0;
+    if (currentTotal === 0 && pageCount > 0) {
+      // Compute averages across sitemap pages
+      const inboundValues = [];
+      const outboundValues = [];
+      sitemapPages.forEach(function (url) {
+        inboundValues.push(inbound[url] || 0);
+        outboundValues.push(outbound[url] || 0);
+      });
+      const sum = function (arr) { return arr.reduce(function (a, b) { return a + b; }, 0); };
+      const avgIn = pageCount ? sum(inboundValues) / pageCount : 0;
+      const avgOut = pageCount ? sum(outboundValues) / pageCount : 0;
+
+      // Identify orphans: pages in sitemap with 0 inbound links (except homepage)
+      const orphans = [];
+      sitemapPages.forEach(function (url) {
+        if ((inbound[url] || 0) === 0) {
+          // Don't count homepage as orphan
+          const pathname = url.replace(/^https?:\/\/[^/]+/, '').replace(/\/$/, '');
+          if (pathname && pathname !== '') {
+            orphans.push({
+              url: url,
+              outbound_links: outbound[url] || 0,
+              is_in_sitemap: true,
+              recommendation: 'No contextual links point to this page. Add it to at least 2-3 hub or category pages.',
+            });
+          }
+        }
+      });
+
+      linking.total_pages = pageCount;
+      linking.total_internal_links = totalLinks;
+      linking.avg_inbound_links = Math.round(avgIn * 10) / 10;
+      linking.avg_outbound_links = Math.round(avgOut * 10) / 10;
+      linking.orphan_count = orphans.length;
+      linking.orphan_rate = pageCount ? Math.round((orphans.length / pageCount) * 1000) / 10 : 0;
+
+      // Only replace orphans list if current one looks stale too
+      const currentOrphans = Array.isArray(linking.orphans) ? linking.orphans : [];
+      if (!currentOrphans.length || currentOrphans.length === Number(linking.orphan_count)) {
+        linking.orphans = orphans;
+      }
+
+      // Recompute issues based on real data
+      const issues = [];
+      if (orphans.length > 0) issues.push('HAS_ORPHANS');
+      if (avgIn < 2) issues.push('WEAK_INTERNAL_LINKING');
+      if (!hubClusters.length) issues.push('NO_HUB_STRUCTURE');
+      linking.issues = issues;
+
+      linking.recommendations = [];
+      if (avgIn < 2) {
+        linking.recommendations.push(
+          'Average inbound contextual links per page is ' + linking.avg_inbound_links +
+          ' (below 2.0). Increase internal linking density across the site.'
+        );
+      }
+      if (orphans.length > 0) {
+        linking.recommendations.push(
+          orphans.length + ' orphan page' + (orphans.length === 1 ? '' : 's') +
+          ' found with zero inbound links. Add contextual links from hub or category pages.'
+        );
+      }
+
+      logInfo('Auto-populated link overview', pageCount + ' pages, ' + totalLinks + ' links, ' + orphans.length + ' orphans');
+      fixes++;
+    }
+
+    // ── 5b. Build hub clusters if missing ──
+    if (!hubClusters.length) {
+      const hubCandidates = Object.keys(linkEdges)
+        .map(function (url) {
+          const targets = (Array.isArray(linkEdges[url]) ? linkEdges[url] : [])
+            .filter(function (t) { return sitemapPages.has(t) && t !== url; });
+          return {
+            hubUrl: url,
+            hubInbound: inbound[url] || 0,
+            hubOutbound: outbound[url] || 0,
+            spokes: targets,
+            spokeCount: targets.length,
+          };
+        })
+        .filter(function (h) { return h.spokeCount >= 3; })
+        .sort(function (a, b) { return b.spokeCount - a.spokeCount; })
+        .slice(0, 12);
+
+      if (hubCandidates.length) {
+        linking.hubClusters = hubCandidates;
+        logInfo('Auto-populated hubClusters', hubCandidates.length + ' hubs from link-graph.json');
+        fixes++;
+      }
+    }
+  }
+
+  // ── 5c. Content readability — enrich with syllables/word from page-text-analysis.json ──
+  const ptaPath = path.join(dataDir, 'research', 'page-text-analysis.json');
+  if (fs.existsSync(ptaPath)) {
+    try {
+      const ptaRaw = JSON.parse(fs.readFileSync(ptaPath, 'utf-8'));
+      const ptaPages = Array.isArray(ptaRaw) ? ptaRaw : (ptaRaw.pages || []);
+      if (ptaPages.length) {
+        const ptaByUrl = {};
+        ptaPages.forEach(function (p) { if (p.url) ptaByUrl[p.url] = p; });
+
+        const cq = data.contentQuality || {};
+        const cqPages = Array.isArray(cq.pages) ? cq.pages : [];
+        let enriched = 0;
+        cqPages.forEach(function (page) {
+          if (!page || !page.readability) return;
+          const pta = ptaByUrl[page.url];
+          if (!pta) return;
+          if (pta.avgSyllablesPerWord != null && page.readability.syllablesPerWord == null) {
+            page.readability.syllablesPerWord = pta.avgSyllablesPerWord;
+            enriched++;
+          }
+          if (pta.avgSentenceLength != null && page.readability.avgSentenceLength == null) {
+            page.readability.avgSentenceLength = pta.avgSentenceLength;
+          }
+          if (pta.sentenceCount != null && page.readability.sentenceCount == null) {
+            page.readability.sentenceCount = pta.sentenceCount;
+          }
+        });
+        if (enriched) {
+          logInfo('Enriched readability data', enriched + ' pages with syllables/word from page-text-analysis.json');
+          fixes++;
+        }
+      }
+    } catch (_) { /* ignore */ }
+  }
+
+  // ── 5d. Backlinks — auto-populate full list from client-backlinks.json ──
+  const backlinks = data.backlinks || (data.backlinks = {});
+  const currentBacklinks = Array.isArray(backlinks.topBacklinks) ? backlinks.topBacklinks : [];
+  const cbPath = path.join(dataDir, 'research', 'client-backlinks.json');
+  if (fs.existsSync(cbPath)) {
+    try {
+      const cb = JSON.parse(fs.readFileSync(cbPath, 'utf-8'));
+      const rawLinks = Array.isArray(cb.backlinks) ? cb.backlinks
+        : (cb.data && Array.isArray(cb.data.backlinks)) ? cb.data.backlinks : [];
+      const rawDomains = Array.isArray(cb.referring_domains) ? cb.referring_domains
+        : (cb.data && Array.isArray(cb.data.referring_domains)) ? cb.data.referring_domains : [];
+
+      if (rawLinks.length > currentBacklinks.length) {
+        backlinks.topBacklinks = rawLinks.map(function (l) {
+          return {
+            sourceUrl:    l.source_url || l.sourceUrl || '',
+            targetUrl:    l.target_url || l.targetUrl || '',
+            anchorText:   l.anchor_text || l.anchorText || '',
+            domainRating: l.domain_rating != null ? l.domain_rating : (l.domainRating != null ? l.domainRating : null),
+            isDofollow:   l.is_dofollow != null ? l.is_dofollow : (l.isDofollow != null ? l.isDofollow : null),
+            firstSeen:    l.first_seen || l.firstSeen || '',
+          };
+        });
+        logInfo('Auto-populated topBacklinks', rawLinks.length + ' backlinks from client-backlinks.json (was ' + currentBacklinks.length + ')');
+        fixes++;
+      }
+
+      if (rawDomains.length && !backlinks.topReferringDomains) {
+        backlinks.topReferringDomains = rawDomains.map(function (d) {
+          return {
+            domain:         d.domain || '',
+            rank:           d.rank != null ? d.rank : null,
+            backlinks:      d.backlinks != null ? d.backlinks : null,
+            firstSeen:      d.first_seen || d.firstSeen || '',
+            dofollow:       d.dofollow != null ? d.dofollow : null,
+            referringPages: d.referring_pages != null ? d.referring_pages : null,
+          };
+        });
+        logInfo('Auto-populated topReferringDomains', rawDomains.length + ' domains from client-backlinks.json');
+        fixes++;
+      }
+    } catch (_) { /* ignore */ }
+  }
+
+  // ── 6. Domain metrics comparison (competitors page) ──────────────────
+  // Renderer reads data.domainMetrics = { client: { domain, domainRating,
+  // organicTraffic, organicKeywords, referringDomains, backlinks, trafficValue },
+  // competitors: [same shape] }.
+  // Data pipelines put this in backlinks.competitorDomainMetrics or
+  // competitorAnalysis.domainMetricsComparison, or research/domain-metrics.json.
+  if (!data.domainMetrics || (!data.domainMetrics.client && !data.domainMetrics.competitors)) {
+    // Try backlinks.competitorDomainMetrics first (most common)
+    let sourceEntries = null;
+    const bl = data.backlinks || {};
+    const ca = data.competitorAnalysis || {};
+
+    if (Array.isArray(bl.competitorDomainMetrics) && bl.competitorDomainMetrics.length) {
+      sourceEntries = bl.competitorDomainMetrics;
+    } else if (Array.isArray(ca.domainMetricsComparison) && ca.domainMetricsComparison.length) {
+      sourceEntries = ca.domainMetricsComparison;
+    }
+
+    // Fallback: read from research/domain-metrics.json
+    if (!sourceEntries) {
+      const dmPath = path.join(dataDir, 'research', 'domain-metrics.json');
+      if (fs.existsSync(dmPath)) {
+        try {
+          const dmFile = JSON.parse(fs.readFileSync(dmPath, 'utf-8'));
+          const entries = Array.isArray(dmFile.data) ? dmFile.data : (Array.isArray(dmFile) ? dmFile : []);
+          if (entries.length) sourceEntries = entries;
+        } catch (_) { /* ignore */ }
+      }
+    }
+
+    if (sourceEntries && sourceEntries.length) {
+      const clientEntry = sourceEntries.find(function (e) { return e.isClient; })
+        || sourceEntries.find(function (e) {
+          const d = (data.client && data.client.website) || '';
+          return d && (e.domain || '').indexOf(d.replace(/^www\./, '')) !== -1;
+        })
+        || sourceEntries[0];
+
+      const competitorEntries = sourceEntries.filter(function (e) { return e !== clientEntry; });
+
+      function normalizeDMEntry(e) {
+        return {
+          domain:           e.domain || '',
+          domainRating:     e.domainRating != null ? e.domainRating : (e.domain_rating != null ? e.domain_rating : (e.dr != null ? e.dr : null)),
+          organicTraffic:   e.organicTraffic != null ? e.organicTraffic : (e.organic_traffic != null ? e.organic_traffic : null),
+          organicKeywords:  e.organicKeywords != null ? e.organicKeywords : (e.organic_keywords != null ? e.organic_keywords : null),
+          referringDomains: e.referringDomains != null ? e.referringDomains : (e.referring_domains != null ? e.referring_domains : null),
+          backlinks:        e.backlinks != null ? e.backlinks : (e.totalBacklinks != null ? e.totalBacklinks : (e.total_backlinks != null ? e.total_backlinks : null)),
+          trafficValue:     e.trafficValue != null ? e.trafficValue : (e.traffic_value != null ? e.traffic_value : null),
+        };
+      }
+
+      data.domainMetrics = {
+        client: normalizeDMEntry(clientEntry),
+        competitors: competitorEntries.map(normalizeDMEntry),
+      };
+      logInfo('Auto-populated domainMetrics', '1 client + ' + competitorEntries.length + ' competitors');
+      fixes++;
+    }
+  }
+
+  // ── 7. Competitor comparison table column normalization ─────────────
+  // Renderer expects competitor columns named comp1, comp2, etc.
+  // Data pipelines may use actual domain names as keys.
+  if (Array.isArray(data.competitorComparison) && data.competitorComparison.length) {
+    const firstRow = data.competitorComparison[0];
+    const hasCompKeys = Object.keys(firstRow).some(function (k) { return /^comp\d+$/.test(k); });
+
+    if (!hasCompKeys) {
+      // Identify non-standard competitor columns (everything except 'metric', 'client', 'gap')
+      const reservedKeys = { metric: 1, client: 1, gap: 1 };
+      const compKeys = Object.keys(firstRow).filter(function (k) { return !reservedKeys[k]; });
+
+      if (compKeys.length) {
+        // Build mapping and also populate competitor.all if not already set
+        const compMapping = {};
+        compKeys.forEach(function (key, index) {
+          compMapping[key] = 'comp' + (index + 1);
+        });
+
+        data.competitorComparison = data.competitorComparison.map(function (row) {
+          const newRow = { metric: row.metric, client: row.client };
+          compKeys.forEach(function (key) {
+            newRow[compMapping[key]] = row[key];
+          });
+          if (row.gap != null) newRow.gap = row.gap;
+          return newRow;
+        });
+
+        // Ensure competitor.all has entries for label resolution
+        const comp = data.competitor || (data.competitor = {});
+        if (!Array.isArray(comp.all) || !comp.all.length) {
+          comp.all = compKeys.map(function (key) {
+            return { domain: key, name: key };
+          });
+        }
+
+        logInfo('Normalized competitorComparison', compKeys.length + ' competitor columns mapped to comp1..comp' + compKeys.length);
+        fixes++;
+      }
+    }
+  }
+
+  if (fixes) {
+    logInfo('Data normalization', `${fixes} fix${fixes === 1 ? '' : 'es'} applied`);
+  }
+}
+
 function main() {
   if (hasFlag('--help') || hasFlag('-h')) {
     printUsage();
@@ -468,6 +995,12 @@ function main() {
 
   logInfo('Reading data', dataPath);
   const auditData = readJsonFile(dataPath);
+
+  // Normalize data shape before injection — handles field aliasing,
+  // format conversion, and auto-population from sibling research files.
+  const dataDir = path.dirname(dataPath);
+  normalizeAuditData(auditData, dataDir);
+
   const outputDir = inferOutputDir(dataPath, auditData);
 
   const templates = PAGE_FILES.map(function(fileName) {

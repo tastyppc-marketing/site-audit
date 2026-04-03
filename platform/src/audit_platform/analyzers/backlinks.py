@@ -23,8 +23,8 @@ class BacklinkAnalyzer:
     competitors.html in the multi-page report.
     """
 
-    DEFAULT_BACKLINK_LIMIT: int = 100
-    DEFAULT_REFERRING_DOMAIN_LIMIT: int = 50
+    DEFAULT_BACKLINK_LIMIT: int = 500
+    DEFAULT_REFERRING_DOMAIN_LIMIT: int = 200
 
     def __init__(self, connector: DataForSEOConnector) -> None:
         self.connector = connector

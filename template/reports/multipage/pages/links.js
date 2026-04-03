@@ -18,6 +18,7 @@
     renderHubSpokeClusters(data);
     renderLinkDepth(data);
     renderBacklinkProfile(data);
+    if (window.TPPC.filters) window.TPPC.filters.init();
   }
 
   function renderLinkOverview(data) {
@@ -110,6 +111,7 @@
           '<div class="text-sm text-slate-500">Total orphan pages: <span class="font-bold text-slate-800">' + _formatNumber(orphans.length) + '</span></div>' +
         '</div>' +
       '</div>' +
+      '<div data-filterable data-filters=\'[{"col":2,"label":"Sitemap","type":"unique"}]\'>' +
       '<div class="report-table-wrap">' +
         '<table class="report-table">' +
           '<thead>' +
@@ -122,6 +124,7 @@
           '</thead>' +
           '<tbody>' + rows + '</tbody>' +
         '</table>' +
+      '</div>' +
       '</div>';
   }
 
@@ -364,36 +367,138 @@
     }
 
     if (topBacklinks.length) {
-      html += '<div class="report-table-wrap mt-8">' +
-        '<table class="report-table">' +
-          '<thead>' +
-            '<tr>' +
-              '<th>Source URL</th>' +
-              '<th>Target URL</th>' +
-              '<th>Anchor Text</th>' +
-              '<th>Domain Rating</th>' +
-              '<th>Follow</th>' +
-              '<th>First Seen</th>' +
-            '</tr>' +
-          '</thead>' +
-          '<tbody>' +
-            topBacklinks.map(function (link) {
-              return '<tr class="no-break">' +
-                '<td><div class="font-medium text-slate-800 break-all" title="' + _esc(link.sourceUrl) + '">' + _esc(_shortUrl(link.sourceUrl, 54)) + '</div></td>' +
-                '<td><div class="text-slate-600 break-all" title="' + _esc(link.targetUrl) + '">' + _esc(_shortUrl(link.targetUrl, 54)) + '</div></td>' +
-                '<td><div class="text-slate-600 leading-relaxed">' + _esc(link.anchorText || 'No anchor text provided') + '</div></td>' +
-                '<td>' + _displayText(link.domainRating) + '</td>' +
-                '<td>' + (link.isDofollow == null
-                  ? '<span class="severity-badge info">Unknown</span>'
-                  : link.isDofollow
-                    ? '<span class="severity-badge low">Dofollow</span>'
-                    : '<span class="severity-badge medium">Nofollow</span>') + '</td>' +
-                '<td>' + _esc(_formatDate(link.firstSeen)) + '</td>' +
+      // Group backlinks by referring domain
+      var domainGroups = {};
+      var domainOrder = [];
+      topBacklinks.forEach(function (link) {
+        var src = link.sourceUrl || '';
+        var domain;
+        try { domain = new URL(src).hostname.replace(/^www\./, ''); } catch (_) { domain = src.split('/')[2] || src; }
+        if (!domainGroups[domain]) {
+          domainGroups[domain] = { domain: domain, links: [], bestDR: null };
+          domainOrder.push(domain);
+        }
+        domainGroups[domain].links.push(link);
+        var dr = link.domainRating != null ? Number(link.domainRating) : null;
+        if (dr != null && (domainGroups[domain].bestDR == null || dr > domainGroups[domain].bestDR)) {
+          domainGroups[domain].bestDR = dr;
+        }
+      });
+
+      // Sort by best DR descending
+      domainOrder.sort(function (a, b) {
+        return (domainGroups[b].bestDR || 0) - (domainGroups[a].bestDR || 0);
+      });
+
+      var PAGE_SIZE = 25;
+      var totalGroups = domainOrder.length;
+      var totalPages = Math.ceil(totalGroups / PAGE_SIZE);
+
+      function renderBacklinkPage(page) {
+        var start = page * PAGE_SIZE;
+        var end = Math.min(start + PAGE_SIZE, totalGroups);
+        var pageGroups = domainOrder.slice(start, end);
+
+        var rows = '';
+        pageGroups.forEach(function (domain) {
+          var group = domainGroups[domain];
+          var firstLink = group.links[0];
+          var hasMultiple = group.links.length > 1;
+          var groupId = 'bl-group-' + domain.replace(/[^a-z0-9]/g, '-');
+
+          // Parent row — the referring domain
+          var followBadge = firstLink.isDofollow == null
+            ? '<span class="severity-badge info">Unknown</span>'
+            : firstLink.isDofollow
+              ? '<span class="severity-badge low">Dofollow</span>'
+              : '<span class="severity-badge medium">Nofollow</span>';
+
+          rows += '<tr class="no-break">' +
+            '<td>' +
+              '<div class="font-medium text-slate-800">' + _esc(domain) + '</div>' +
+              (hasMultiple
+                ? '<button class="text-xs text-blue-600 mt-1 cursor-pointer bg-transparent border-none p-0" style="cursor:pointer" onclick="(function(){ var el=document.getElementById(\'' + groupId + '\'); el.style.display = el.style.display===\'none\'?\'table-row-group\':\'none\'; this.textContent = el.style.display===\'none\'? \'Show ' + group.links.length + ' backlinks\' : \'Hide backlinks\'; }).call(this)">' +
+                  'Show ' + group.links.length + ' backlinks' +
+                '</button>'
+                : '<div class="text-xs text-slate-500 mt-1 break-all" title="' + _esc(firstLink.sourceUrl) + '">' + _esc(_shortUrl(firstLink.sourceUrl, 60)) + '</div>') +
+            '</td>' +
+            '<td><div class="text-slate-600 leading-relaxed">' + _esc(firstLink.anchorText || 'No anchor') + '</div></td>' +
+            '<td>' + _displayText(group.bestDR) + '</td>' +
+            '<td>' + followBadge + '</td>' +
+            '<td>' + _esc(String(group.links.length)) + '</td>' +
+            '<td>' + _esc(_formatDate(firstLink.firstSeen)) + '</td>' +
+          '</tr>';
+
+          // Child rows (hidden by default)
+          if (hasMultiple) {
+            rows += '<tbody id="' + groupId + '" style="display:none">';
+            group.links.forEach(function (link) {
+              var childFollow = link.isDofollow == null
+                ? '<span class="severity-badge info">Unknown</span>'
+                : link.isDofollow
+                  ? '<span class="severity-badge low">Dofollow</span>'
+                  : '<span class="severity-badge medium">Nofollow</span>';
+
+              rows += '<tr class="no-break" style="background:#f8fafc">' +
+                '<td style="padding-left:2rem"><div class="text-xs text-slate-600 break-all" title="' + _esc(link.sourceUrl) + '">' + _esc(_shortUrl(link.sourceUrl, 60)) + '</div></td>' +
+                '<td><div class="text-xs text-slate-500">' + _esc(link.anchorText || 'No anchor') + '</div></td>' +
+                '<td class="text-xs">' + _displayText(link.domainRating) + '</td>' +
+                '<td>' + childFollow + '</td>' +
+                '<td></td>' +
+                '<td class="text-xs">' + _esc(_formatDate(link.firstSeen)) + '</td>' +
               '</tr>';
-            }).join('') +
-          '</tbody>' +
-        '</table>' +
+            });
+            rows += '</tbody>';
+          }
+        });
+
+        // Pagination controls
+        var paginationHtml = '';
+        if (totalPages > 1) {
+          paginationHtml = '<div class="flex items-center justify-between mt-4 px-2">' +
+            '<span class="text-sm text-slate-500">Showing ' + (start + 1) + '–' + end + ' of ' + totalGroups + ' referring domains (' + topBacklinks.length + ' total backlinks)</span>' +
+            '<div class="flex gap-2">';
+          for (var p = 0; p < totalPages; p++) {
+            var activeClass = p === page ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200';
+            paginationHtml += '<button class="px-3 py-1 rounded-lg text-sm font-medium ' + activeClass + '" style="cursor:pointer;border:none" onclick="window._blPage(' + p + ')">' + (p + 1) + '</button>';
+          }
+          paginationHtml += '</div></div>';
+        } else {
+          paginationHtml = '<div class="mt-3 px-2 text-sm text-slate-500">' + totalGroups + ' referring domains, ' + topBacklinks.length + ' total backlinks</div>';
+        }
+
+        return '<div data-filterable data-filters=\'[{"col":2,"label":"Domain Rating","type":"range","ranges":[{"label":"High (200+)","min":200},{"label":"Medium (50-199)","min":50,"max":199},{"label":"Low (0-49)","min":0,"max":49}]},{"col":3,"label":"Follow","type":"badge"}]\'>' +
+        '<div class="report-table-wrap">' +
+          '<table class="report-table report-table-sticky">' +
+            '<thead>' +
+              '<tr>' +
+                '<th>Referring Domain</th>' +
+                '<th>Anchor Text</th>' +
+                '<th>DR</th>' +
+                '<th>Follow</th>' +
+                '<th>Links</th>' +
+                '<th>First Seen</th>' +
+              '</tr>' +
+            '</thead>' +
+            '<tbody>' + rows + '</tbody>' +
+          '</table>' +
+        '</div>' +
+        '</div>' + paginationHtml;
+      }
+
+      html += '<div class="mt-8">' +
+        '<h3 class="text-base font-bold text-slate-800 mb-1">Backlink Inventory</h3>' +
+        '<p class="text-sm text-slate-500 mb-4">Every external page linking to your site, grouped by referring domain and sorted by authority (Domain Rating). Click <strong>Show backlinks</strong> to expand domains with multiple links. Higher DR sources pass more ranking equity.</p>' +
+        '<div id="backlink-table-container">' + renderBacklinkPage(0) + '</div>' +
       '</div>';
+
+      // Store render function for pagination
+      window._blPage = function (page) {
+        var el = document.getElementById('backlink-table-container');
+        if (el) el.innerHTML = renderBacklinkPage(page);
+        if (window.TPPC.filters) window.TPPC.filters.init();
+      };
+
     } else if (hasMetrics || competitors.length) {
       html += '<div class="mt-8">' +
         _emptyState(
@@ -678,9 +783,9 @@
   }
 
   function _detailCard(label, value, detail) {
-    return '<div class="bg-white border border-slate-200 rounded-xl p-5 no-break">' +
+    return '<div class="bg-white border border-slate-200 rounded-xl p-5 no-break" style="min-width:0;overflow:hidden">' +
       '<div class="text-xs uppercase tracking-[0.16em] text-slate-400">' + _esc(label) + '</div>' +
-      '<div class="mt-2 text-2xl font-bold text-slate-800">' + _esc(value) + '</div>' +
+      '<div class="mt-2 text-2xl font-bold text-slate-800" style="overflow-wrap:break-word;word-break:break-all">' + _esc(value) + '</div>' +
       '<p class="mt-2 text-sm text-slate-500 leading-relaxed">' + _esc(detail) + '</p>' +
     '</div>';
   }

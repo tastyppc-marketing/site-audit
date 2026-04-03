@@ -216,17 +216,21 @@
         '<div class="mb-6 no-break">' +
           '<div class="cal-month-header">' + esc(label) + '</div>' +
           '<div class="bg-white border border-slate-200 rounded-xl overflow-hidden">' +
-            '<div class="cal-week font-semibold text-xs text-slate-500 bg-slate-50 border-b border-slate-200">' +
-              '<span>Week</span><span>Topic</span><span>Target Keyword</span><span>Type</span>' +
-            '</div>' +
-            weeks.map(function (week) {
-              return '<div class="cal-week">' +
-                '<span class="font-semibold text-slate-600">' + esc(week.week) + '</span>' +
-                '<span class="text-slate-700">' + esc(week.topic || '') + '</span>' +
-                '<span class="text-blue-600 text-xs">' + esc(week.keyword || '') + '</span>' +
-                '<span class="severity-badge info text-xs">' + esc(week.type || '') + '</span>' +
-              '</div>';
-            }).join('') +
+            '<table class="cal-table">' +
+              '<thead><tr>' +
+                '<th>Wk</th><th>Topic</th><th>Target Keyword</th><th>Type</th>' +
+              '</tr></thead>' +
+              '<tbody>' +
+              weeks.map(function (week) {
+                return '<tr>' +
+                  '<td class="font-semibold text-slate-600">' + esc(week.week) + '</td>' +
+                  '<td class="text-slate-700">' + esc(week.topic || '') + '</td>' +
+                  '<td class="text-blue-600 text-sm">' + esc(week.keyword || '') + '</td>' +
+                  '<td><span class="severity-badge info">' + esc(week.type || '') + '</span></td>' +
+                '</tr>';
+              }).join('') +
+              '</tbody>' +
+            '</table>' +
           '</div>' +
         '</div>'
       );
@@ -361,7 +365,8 @@
     }
 
     if (hasItems(deliverables)) {
-      html += '<div class="report-table-wrap">' +
+      html += '<div data-filterable data-filters=\'[{"col":2,"label":"Impact","type":"badge"},{"col":3,"label":"Effort","type":"badge"}]\'>' +
+        '<div class="report-table-wrap">' +
         '<table class="report-table">' +
           '<thead>' +
             '<tr>' +
@@ -382,6 +387,7 @@
             }).join('') +
           '</tbody>' +
         '</table>' +
+      '</div>' +
       '</div>';
     }
 
@@ -434,6 +440,7 @@
       this.renderAdvantages(data || {});
       this.renderDeliverables(data || {});
       renumberSections();
+      if (window.TPPC.filters) window.TPPC.filters.init();
     },
     renderActionPlanTabs: renderActionPlanTabs,
     renderContentCalendar: renderContentCalendar,

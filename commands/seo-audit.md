@@ -372,6 +372,26 @@ prompt: |
     - Schema markup presence (JSON-LD)
     - OG tags presence
 
+  Step 5 — Build the internal link graph:
+    For every page analyzed, record which internal pages it links to (contextual links only, 
+    not nav/footer boilerplate). Write seo/research/link-graph.json with:
+    {
+      "domain": "{CLIENT_SITE}",
+      "crawlDate": "YYYY-MM-DD",
+      "edges": {
+        "https://example.com/page-a/": ["https://example.com/page-b/", "https://example.com/page-c/"],
+        ...
+      }
+    }
+
+  Write seo/research/crawl-data.json with per-page data:
+    { "domain": "...", "crawlDate": "...", "totalSitemapUrls": N, "contentPages": N,
+      "pages": [{ "url", "title", "titleLength", "description", "descriptionLength",
+        "h1": [], "h2": [], "h2Count", "h3Count", "wordCount", "imgCount", "imgWithoutAlt",
+        "totalInternalLinks", "contextualInternalLinks", "externalLinks",
+        "canonical", "hasSchema", "schemaTypes": [], "ogTitle", "ogDescription",
+        "issues": [], "statusCode" }, ...] }
+
   Write seo/research/client-site-structure.md with:
   - Sitemap overview (total pages, URL categories, structure analysis)
   - Navigation and internal linking assessment
@@ -541,36 +561,49 @@ prompt: |
   COMPETITORS: {COMPETITOR_DOMAINS_COMMA_SEPARATED}
   LOCATION: {LOCATION}
 
-  TASK: Research backlink profiles for client and competitors using free tools and web searches.
-  (No Ahrefs access — use WebSearch + WebFetch for all data.)
+  TASK: Research backlink profiles for client and competitors.
 
-  Research methods:
-  1. WebSearch for backlink data:
-     - "{CLIENT_DOMAIN} backlinks"
-     - "site:{CLIENT_DOMAIN}" (indexed pages)
-     - "{CLIENT_NAME}" "{LOCATION}" real estate (brand mentions)
-     - "{CLIENT_COMPANY_NAME}" mentions/citations
+  Step 1 — Fetch DataForSEO backlink data (if DFS scripts exist):
+    Check if DFS backlink scripts exist in the client scripts/ folder or in
+    platform/scripts/run_backlink_analysis.py. If available, run them to fetch:
+    - Up to 500 individual backlinks sorted by domain rating
+    - Up to 200 referring domains
+    - Domain metrics for client + all competitors
+    Output: seo/research/client-backlinks.json with this structure:
+    {
+      "meta": { "script": "client_backlinks", "target": "domain.com", "backlinks_count": N, "referring_domains_count": N },
+      "backlinks": [{ "source_url", "target_url", "anchor_text", "domain_rating", "is_dofollow", "first_seen" }, ...],
+      "referring_domains": [{ "domain", "rank", "backlinks", "first_seen", "dofollow", "referring_pages" }, ...]
+    }
+    The HTML report generator auto-populates the full backlink inventory table
+    from this file (grouped by referring domain, with expand/collapse and pagination).
 
-  2. WebSearch for competitor backlink profiles:
-     - "{COMPETITOR_DOMAIN} backlinks" (for each competitor)
+  Step 2 — Supplement with WebSearch research:
+    - "{CLIENT_DOMAIN} backlinks"
+    - "site:{CLIENT_DOMAIN}" (indexed pages)
+    - "{CLIENT_NAME}" "{LOCATION}" real estate (brand mentions)
+    - "{CLIENT_COMPANY_NAME}" mentions/citations
 
-  3. Check local citations and directories:
-     - "{CLIENT_NAME}" realtor profile
-     - {CLIENT_DOMAIN} zillow OR realtor.com OR homes.com
-     - "{LOCATION} real estate agents directory"
-     - "{LOCATION} Chamber of Commerce real estate"
-     - Local Board of Realtors
+  Step 3 — WebSearch for competitor backlink profiles:
+    - "{COMPETITOR_DOMAIN} backlinks" (for each competitor)
 
-  4. Check referring domain quality:
-     - .edu or .gov backlinks?
-     - Local news mentions (local papers, radio)?
-     - Industry publication mentions (Inman, RealTrends)?
-     - Social media profiles linking back?
+  Step 4 — Check local citations and directories:
+    - "{CLIENT_NAME}" realtor profile
+    - {CLIENT_DOMAIN} zillow OR realtor.com OR homes.com
+    - "{LOCATION} real estate agents directory"
+    - "{LOCATION} Chamber of Commerce real estate"
+    - Local Board of Realtors
 
-  5. Analyze competitor link-building strategies:
-     - Directories/citations competitors have that client doesn't
-     - Press coverage or news mentions
-     - Guest post opportunities
+  Step 5 — Check referring domain quality:
+    - .edu or .gov backlinks?
+    - Local news mentions (local papers, radio)?
+    - Industry publication mentions (Inman, RealTrends)?
+    - Social media profiles linking back?
+
+  Step 6 — Analyze competitor link-building strategies:
+    - Directories/citations competitors have that client doesn't
+    - Press coverage or news mentions
+    - Guest post opportunities
 
   Write seo/research/backlink-analysis.md with:
   - Executive summary (client's estimated link authority vs competitors)
@@ -914,10 +947,10 @@ Read ALL research files and fill in `seo/audit-data.json` (the template is alrea
 - `seo/content/REVIEW.md` → deliverable quality scores and status
 
 **Fields to populate in audit-data.json:**
-- `client.*` — website, name, company, platform, date, grade, location
+- `client.*` — website, name, company, platform, date, grade, location, address (physical address for map pin)
 - `competitor.*` — primary competitor, all competitors array
 - `topIssues[]` — top 5 from the final report
-- `siteComparison[]` — from competitor benchmarking section
+- `siteComparison[]` — multi-competitor gap analysis (use comp1..compN keys matching competitor.all order, not a single "competitor" key)
 - `keyStats[]` — 6 headline stats with severity (red/orange/green)
 - `keywords[]` — all 25 keywords with volume, client rank, competitor rank, top result
 - `competitorComparison[]` — side-by-side metrics
@@ -933,14 +966,42 @@ Read ALL research files and fill in `seo/audit-data.json` (the template is alrea
 - `pillars[]` — 4-pillar strategy summary
 - `mediumTermRoadmap[]` — month 2-4 items
 - `longTermColumns[]` — 4 columns for long-term slide
+- `localSeo.businessProfile` — **REQUIRED for the local page map.** Must include `latitude`, `longitude`, `name`, `address`, `phone`. Get lat/lng from the client's physical address. If GBP access exists, also include `rating`, `reviewCount`, `gbpVerified: true`
+- `localSeo.competitorLocations[]` — array of `{ name, domain, lat, lng }` for map pins. Use approximate city-center coordinates for each competitor based on their listed office address
+- `localSeo.searchDemandZones[]` — array of `{ lat, lng, radius, label, volume, color, opacity }` for heat circles on the map. Place over key service-area neighbourhoods/communities. Use red (#ef4444) for Very High, orange (#f97316) for High, yellow (#eab308) for Medium, green (#22c55e) for Low
+- `localSeo.serviceAreaMap` — GeoJSON FeatureCollection with a Point (business location) and a Polygon (service area boundary). The map renderer reads center coordinates from the Point feature
+- `localSeo.accessNotes` — `{ gbpAccess, gaAccess, searchConsoleAccess, note }` documenting what data sources are/aren't available
 
-### Step 8b: Generate Excel + PowerPoint
+**Fields auto-populated by the HTML report generator (do NOT populate manually):**
+The multipage report generator (`generate-multipage-report.js`) auto-derives these from sibling research files during Step 8b. Just make sure the research files exist:
+- `technicalSeo.pageAudits[]` — auto-populated from `seo/research/crawl-data.json`
+- `technicalSeo.lighthouseResults[]` — auto-populated from `seo/research/pagespeed-data.json`
+- `coreWebVitals` — hoisted and normalized from `technicalSeo.coreWebVitals`
+- `pageSpeedComparison[]` — prefers `competitorAnalysis.pageSpeedComparison` (per-domain scores); detects and skips stale `technicalSeo.pageSpeedComparison` if all entries have identical scores. Converts `{domain, mobileScore, desktopScore}` → `{name, score}`
+- `internalLinking` summary stats (total_pages, total_internal_links, avg_inbound_links, avg_outbound_links, orphan_count, orphan_rate, orphans[]) — auto-derived from `seo/research/link-graph.json`
+- `internalLinking.hubClusters[]` — auto-derived from `seo/research/link-graph.json`
+- `domainMetrics` — auto-populated from `backlinks.competitorDomainMetrics`, `competitorAnalysis.domainMetricsComparison`, or `seo/research/domain-metrics.json`. Normalizes field names (domain_rating → domainRating, etc.)
+- `competitorComparison[]` column normalization — if rows use domain names as keys (e.g. "justinhavre", "kirbycox") instead of comp1..compN, the generator auto-maps them and populates `competitor.all` for label resolution
+- `backlinks.topBacklinks[]` — auto-populated with ALL backlinks from `seo/research/client-backlinks.json` (replaces the limited subset in audit-data.json). Grouped by referring domain in the HTML report with expand/collapse and 25-per-page pagination
+- `backlinks.topReferringDomains[]` — auto-populated from `seo/research/client-backlinks.json` referring_domains array
+- `contentQuality.pages[].readability.syllablesPerWord` — enriched from `seo/research/page-text-analysis.json` (avgSyllablesPerWord). Also backfills avgSentenceLength and sentenceCount if missing. Displayed in the Readability Analysis table alongside the readability score and word count
 
-The generator scripts are already in the template. Just run them:
+**Data quality rules enforced by the generator:**
+- Stale PageSpeed data (all competitors showing identical scores) is detected and replaced with `competitorAnalysis` version
+- `client.platform` must match the actual site platform from crawl research (e.g. "Sierra Interactive", not "RealtyPress")
+- `siteComparison` values should be numeric for chart rendering — avoid qualitative values like "Limited" or "Strong"
+- All competitor data should be cross-referenced against `seo/research/competitor-analysis.md` before populating
+- `localSeo.businessProfile` MUST have `latitude` and `longitude` — without these the service area map shows an error instead of rendering. Get coordinates from the client's physical address
+- `localSeo.competitorLocations` and `searchDemandZones` are optional but strongly recommended for a complete local page
+
+### Step 8b: Generate Client Deliverables (Excel + PowerPoint + HTML Report)
+
+The generator scripts are already in the template. Run all three:
 
 ```bash
 node scripts/generate-spreadsheet.js
 node scripts/generate-presentation.js
+node ../../template/reports/multipage/generate-multipage-report.js --data seo/audit-data.json --output seo/reports/multipage --inline
 ```
 
 Or: `npm run generate`
@@ -948,8 +1009,22 @@ Or: `npm run generate`
 **Output:**
 - `seo/reports/SEO-Audit-GamePlan.xlsx` — 6-sheet Excel workbook
 - `seo/reports/SEO-Audit-Presentation.pptx` — 15-slide PowerPoint
+- `seo/reports/multipage/` — 8-page interactive HTML report (index, keywords, content, technical, links, competitors, local, action-plan)
 
-The generators read from `seo/audit-data.json` — no hardcoded data, no manual editing needed.
+The generators read from `seo/audit-data.json` — no hardcoded data, no manual editing needed. The multipage report generator auto-normalizes the data shape (CWV, PageSpeed, page audits, internal linking, domain metrics, competitor columns) and auto-populates missing sections from sibling research files (`research/crawl-data.json`, `research/pagespeed-data.json`, `research/link-graph.json`, `research/domain-metrics.json`).
+
+**HTML report features:**
+- Competitive Gap Analysis: multi-competitor log-scale grouped bar chart + gap breakdown table (replaces old radar chart that collapsed when client was far behind)
+- Sticky metric columns on all wide competitor tables for horizontal scroll readability
+- Hub & spoke cluster visualization derived from link graph
+- Core Web Vitals gauges, PageSpeed comparison, and site structure overview on technical page
+- Data-driven service area map: reads business location, competitor pins, and search demand hotspots from `localSeo` — no hardcoded coordinates. GeoJSON service area polygon rendered as overlay. Sections 1-3 and 5 (GBP, performance, citations, map pack) auto-populate when GBP/GA/GSC access is available
+- Table filters on all data tables: text search, dropdown filters (badge, unique-value, and numeric range types), row counts, and "Clear all" reset. Filters are hidden during print. Key filters: readability score ranges, word count ranges, DR ranges, dofollow/nofollow, schema presence, crawl status codes, impact/effort badges
+- Readability Analysis table shows Readability Score, Syllables/Word (enriched from page-text-analysis.json), and Word Count — hover any row for the full readability explanation
+- Backlink Inventory: grouped by referring domain, sorted by DR, expand/collapse for multi-link domains, 25-per-page pagination with DR range and dofollow/nofollow filters
+- Content Calendar: table layout with Week, Topic, Target Keyword, and Type columns
+- "What does this mean?" floating explainer widget: tracks the current section via scrollspy and shows plain-English explanations with actionable tips. Updates reliably during fast scrolling and nav clicks (uses topmost-visible-section algorithm, not naive last-intersecting)
+- Side navigation scrollspy: highlights the current section in the left nav, synced with the explainer. Both use the same topmost-visible-section tracking for consistent behavior
 
 ---
 
@@ -960,7 +1035,8 @@ Present to user:
 - Summarize key findings (grade, keyword visibility, top gaps)
 - Highlight ready-to-deploy deliverables and their quality scores
 - Note any items needing client verification before publishing
-- Confirm spreadsheet and presentation are ready for client Zoom
+- Confirm spreadsheet, presentation, and interactive HTML report are ready for client Zoom
+- Provide the local path to `seo/reports/multipage/index.html` for browser preview
 
 ---
 

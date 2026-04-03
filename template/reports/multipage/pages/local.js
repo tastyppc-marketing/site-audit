@@ -244,7 +244,6 @@
       var legendEl = document.getElementById('map-legend');
       if (!mapEl) return;
 
-      // Check if Leaflet is loaded
       if (typeof L === 'undefined') {
         mapEl.innerHTML = '<div class="empty-state"><p>Map library could not be loaded. An internet connection is required for map tiles.</p></div>';
         return;
@@ -252,12 +251,36 @@
 
       var esc = getEsc();
       var profile = localSeo && (localSeo.businessProfile || localSeo.business_profile);
-      var competitors = (data && data.competitor && data.competitor.all) || [];
+      var competitors = toArray(localSeo && (localSeo.competitorLocations || localSeo.competitor_locations));
       var mapPackKws = toArray(localSeo && (localSeo.mapPackKeywords || localSeo.map_pack_keywords));
+      var heatZones = toArray(localSeo && (localSeo.searchDemandZones || localSeo.search_demand_zones));
+      var serviceAreaMap = localSeo && localSeo.serviceAreaMap;
 
-      // Default center: use business profile lat/lng or fallback
-      var centerLat = (profile && profile.latitude) ? profile.latitude : 37.6485;
-      var centerLng = (profile && profile.longitude) ? profile.longitude : -118.9721;
+      // Derive center from: (1) business profile, (2) serviceAreaMap GeoJSON Point, (3) client location geocode
+      var centerLat = null;
+      var centerLng = null;
+
+      if (profile && profile.latitude && profile.longitude) {
+        centerLat = profile.latitude;
+        centerLng = profile.longitude;
+      }
+
+      // Try serviceAreaMap GeoJSON for center coordinates
+      if (centerLat == null && serviceAreaMap && serviceAreaMap.features) {
+        for (var f = 0; f < serviceAreaMap.features.length; f++) {
+          var feat = serviceAreaMap.features[f];
+          if (feat.geometry && feat.geometry.type === 'Point' && feat.geometry.coordinates) {
+            centerLng = feat.geometry.coordinates[0];
+            centerLat = feat.geometry.coordinates[1];
+            break;
+          }
+        }
+      }
+
+      if (centerLat == null || centerLng == null) {
+        mapEl.innerHTML = '<div class="empty-state"><p>No location coordinates found. Populate localSeo.businessProfile with latitude/longitude, or include a GeoJSON Point in localSeo.serviceAreaMap.</p></div>';
+        return;
+      }
 
       // Create map
       if (this.leafletMap) { this.leafletMap.remove(); }
@@ -268,7 +291,6 @@
         maxZoom: 18
       }).addTo(this.leafletMap);
 
-      // Custom icon factories
       function makeIcon(color, size) {
         return L.divIcon({
           className: 'custom-map-marker',
@@ -279,58 +301,64 @@
         });
       }
 
-      // Business location marker (large blue)
-      if (profile && profile.latitude && profile.longitude) {
-        var title = pick(profile, ['title', 'name'], 'Your Business');
-        var address = pick(profile, ['address'], '');
-        var rating = profile.rating ? ('<br><strong>' + profile.rating + '/5</strong> (' + (profile.reviewCount || 0) + ' reviews)') : '';
-        L.marker([profile.latitude, profile.longitude], { icon: makeIcon('#3b82f6', 24), zIndexOffset: 1000 })
-          .addTo(this.leafletMap)
-          .bindPopup('<strong>' + esc(title) + '</strong><br>' + esc(address) + rating);
+      // Render serviceAreaMap GeoJSON (polygons, etc.)
+      if (serviceAreaMap && serviceAreaMap.features) {
+        try {
+          L.geoJSON(serviceAreaMap, {
+            style: function () {
+              return { color: '#3b82f6', weight: 2, fillColor: '#3b82f6', fillOpacity: 0.06 };
+            },
+            pointToLayer: function () { return L.marker([0, 0], { opacity: 0 }); }, // skip GeoJSON points — we handle them below
+            onEachFeature: function (feature, layer) {
+              if (feature.properties && feature.properties.name && feature.geometry.type !== 'Point') {
+                layer.bindPopup('<strong>' + esc(feature.properties.name) + '</strong>' +
+                  (feature.properties.description ? '<br>' + esc(feature.properties.description) : ''));
+              }
+            }
+          }).addTo(this.leafletMap);
+        } catch (e) { /* ignore GeoJSON parse errors */ }
       }
 
-      // Competitor markers (red, slightly smaller) — use known coordinates for Mammoth Lakes area competitors
-      var competitorCoords = {
-        'mammothlakesresortrealty.com': { lat: 37.6490, lng: -118.9735, name: 'Mammoth Lakes Resort Realty' },
-        'remax-mammoth.com': { lat: 37.6478, lng: -118.9695, name: 'RE/MAX Mammoth' },
-        'snowcreekproperty.com': { lat: 37.6320, lng: -118.9580, name: 'Snowcreek Property' },
-        'mammothvillageproperties.com': { lat: 37.6505, lng: -118.9680, name: 'Mammoth Village Properties' },
-        'mammoth1.com': { lat: 37.6460, lng: -118.9750, name: 'Mammoth 1 Real Estate' },
-        'mammothmtnproperties.com': { lat: 37.6440, lng: -118.9710, name: 'Mammoth Mtn Properties' }
-      };
+      // Business location marker (large blue)
+      var bizTitle = (profile && pick(profile, ['title', 'name'], '')) ||
+        (data && data.client && (data.client.company || data.client.name)) || 'Your Business';
+      var bizAddress = (profile && pick(profile, ['address'], '')) ||
+        (data && data.client && data.client.address) || '';
+      var rating = (profile && profile.rating) ? ('<br><strong>' + profile.rating + '/5</strong> (' + (profile.reviewCount || 0) + ' reviews)') : '';
 
+      L.marker([centerLat, centerLng], { icon: makeIcon('#3b82f6', 24), zIndexOffset: 1000 })
+        .addTo(this.leafletMap)
+        .bindPopup('<strong>' + esc(bizTitle) + '</strong><br>' + esc(bizAddress) + rating);
+
+      // Competitor markers from localSeo.competitorLocations[]
+      // Each: { name, domain, lat, lng }
       competitors.forEach(function (comp) {
-        var coords = competitorCoords[comp.domain];
-        if (coords) {
-          L.marker([coords.lat, coords.lng], { icon: makeIcon('#ef4444', 18) })
+        if (comp.lat && comp.lng) {
+          L.marker([comp.lat, comp.lng], { icon: makeIcon('#ef4444', 18) })
             .addTo(this.leafletMap)
-            .bindPopup('<strong>' + esc(coords.name) + '</strong><br><span class="text-xs">' + esc(comp.domain) + '</span>');
+            .bindPopup('<strong>' + esc(comp.name || comp.domain || 'Competitor') + '</strong>' +
+              (comp.domain ? '<br><span class="text-xs">' + esc(comp.domain) + '</span>' : ''));
         }
       }.bind(this));
 
-      // Search demand heat zones — circles showing keyword volume concentration
-      var heatZones = [
-        { lat: 37.6485, lng: -118.9721, radius: 800, label: 'Mammoth Lakes Core', volume: 'Very High', color: '#ef4444', opacity: 0.15 },
-        { lat: 37.7810, lng: -119.0580, label: 'June Lake', volume: 'Medium', radius: 600, color: '#f97316', opacity: 0.15 },
-        { lat: 37.5070, lng: -118.7290, label: 'Crowley Lake', volume: 'Low-Medium', radius: 500, color: '#eab308', opacity: 0.15 },
-        { lat: 37.3620, lng: -118.3950, label: 'Bishop', volume: 'Low', radius: 500, color: '#22c55e', opacity: 0.12 }
-      ];
-
+      // Search demand heat zones from localSeo.searchDemandZones[]
+      // Each: { lat, lng, radius, label, volume, color, opacity }
       heatZones.forEach(function (zone) {
-        L.circle([zone.lat, zone.lng], {
-          radius: zone.radius,
-          color: zone.color,
-          fillColor: zone.color,
-          fillOpacity: zone.opacity,
-          weight: 2,
-          opacity: 0.5
-        }).addTo(this.leafletMap)
-          .bindPopup('<strong>' + esc(zone.label) + '</strong><br>Search Demand: ' + esc(zone.volume));
+        if (zone.lat && zone.lng) {
+          L.circle([zone.lat, zone.lng], {
+            radius: zone.radius || 500,
+            color: zone.color || '#ef4444',
+            fillColor: zone.color || '#ef4444',
+            fillOpacity: zone.opacity || 0.15,
+            weight: 2,
+            opacity: 0.5
+          }).addTo(this.leafletMap)
+            .bindPopup('<strong>' + esc(zone.label || 'Hotspot') + '</strong><br>Search Demand: ' + esc(zone.volume || 'Unknown'));
+        }
       }.bind(this));
 
       // Map pack keyword pins (green for ranking, gray for not found)
       if (mapPackKws.length) {
-        // Spread pins in a small arc around business location
         var angleStep = (2 * Math.PI) / Math.max(mapPackKws.length, 1);
         var pinRadius = 0.003;
         mapPackKws.forEach(function (kw, i) {
@@ -350,15 +378,22 @@
 
       // Render legend
       if (legendEl) {
-        legendEl.innerHTML = '' +
-          '<span class="flex items-center gap-1.5"><span class="inline-block w-3 h-3 rounded-full" style="background:#3b82f6;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,0.2)"></span> Your Business</span>' +
-          '<span class="flex items-center gap-1.5"><span class="inline-block w-3 h-3 rounded-full" style="background:#ef4444;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,0.2)"></span> Competitors</span>' +
-          '<span class="flex items-center gap-1.5"><span class="inline-block w-3 h-3 rounded-full" style="background:#22c55e;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,0.2)"></span> Ranking in Map Pack</span>' +
-          '<span class="flex items-center gap-1.5"><span class="inline-block w-3 h-3 rounded-full" style="background:#94a3b8;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,0.2)"></span> Not in Map Pack</span>' +
-          '<span class="flex items-center gap-1.5"><span class="inline-block w-3 h-3 rounded-full" style="background:#ef4444;opacity:0.3"></span> Search Demand Hotspot</span>';
+        var legendItems = [
+          '<span class="flex items-center gap-1.5"><span class="inline-block w-3 h-3 rounded-full" style="background:#3b82f6;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,0.2)"></span> Your Business</span>'
+        ];
+        if (competitors.length) {
+          legendItems.push('<span class="flex items-center gap-1.5"><span class="inline-block w-3 h-3 rounded-full" style="background:#ef4444;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,0.2)"></span> Competitors</span>');
+        }
+        if (mapPackKws.length) {
+          legendItems.push('<span class="flex items-center gap-1.5"><span class="inline-block w-3 h-3 rounded-full" style="background:#22c55e;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,0.2)"></span> Ranking in Map Pack</span>');
+          legendItems.push('<span class="flex items-center gap-1.5"><span class="inline-block w-3 h-3 rounded-full" style="background:#94a3b8;border:2px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,0.2)"></span> Not in Map Pack</span>');
+        }
+        if (heatZones.length) {
+          legendItems.push('<span class="flex items-center gap-1.5"><span class="inline-block w-3 h-3 rounded-full" style="background:#ef4444;opacity:0.3"></span> Search Demand Hotspot</span>');
+        }
+        legendEl.innerHTML = legendItems.join('');
       }
 
-      // Fix Leaflet rendering after layout settles
       var map = this.leafletMap;
       setTimeout(function () { map.invalidateSize(); }, 200);
     },

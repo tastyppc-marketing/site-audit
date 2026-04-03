@@ -48,6 +48,9 @@
       if (window.TPPC.print && typeof window.TPPC.print.init === 'function') {
         window.TPPC.print.init();
       }
+      if (window.TPPC.explainer && typeof window.TPPC.explainer.init === 'function') {
+        window.TPPC.explainer.init();
+      }
 
       // Init page renderer
       if (pageName && window.TPPC.pages[pageName] && typeof window.TPPC.pages[pageName].init === 'function') {

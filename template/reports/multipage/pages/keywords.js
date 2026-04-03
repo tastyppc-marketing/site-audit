@@ -24,6 +24,7 @@
     renderSearchConsole(data);
     renderTrafficOverview(data);
     renderRankHistory(data);
+    if (window.TPPC.filters) window.TPPC.filters.init();
   }
 
   function renderKeywordTable(data) {
@@ -64,6 +65,7 @@
         buildStatCard(formatInteger(top30), 'Top 30 rankings', top30 > 0 ? 'orange' : 'red') +
         buildStatCard(formatInteger(missed), 'Not ranking', missed > 0 ? 'red' : 'green') +
       '</div>' +
+      '<div data-filterable data-filters=\'[{"col":2,"label":"Your Rank","options":["Not found","Top 3","Top 10","11-20","21+"]},{"col":4,"label":"Intent","type":"badge"}]\'>' +
       '<div class="report-table-wrap">' +
         '<table class="report-table">' +
           '<thead>' +
@@ -94,6 +96,7 @@
               '</tr>';
           }).join('') + '</tbody>' +
         '</table>' +
+      '</div>' +
       '</div>';
   }
 

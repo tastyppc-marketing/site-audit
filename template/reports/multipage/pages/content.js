@@ -244,13 +244,14 @@
     });
 
     var html = '' +
+      '<div data-filterable data-filters=\'[{"col":1,"label":"Readability","type":"range","ranges":[{"label":"Good (60+)","min":60},{"label":"Needs Work (30-59)","min":30,"max":59.9},{"label":"Poor (0-29)","min":0,"max":29.9}]},{"col":3,"label":"Word Count","type":"range","ranges":[{"label":"Thin (<300)","min":0,"max":299},{"label":"Light (300-799)","min":300,"max":799},{"label":"Standard (800+)","min":800}]}]\'>' +
       '<div class="report-table-wrap">' +
         '<table class="report-table">' +
           '<thead>' +
             '<tr>' +
               '<th>URL</th>' +
               '<th>Readability Score</th>' +
-              '<th>Flesch Reading Ease</th>' +
+              '<th>Syllables / Word</th>' +
               '<th>Word Count</th>' +
             '</tr>' +
           '</thead>' +
@@ -258,15 +259,49 @@
 
     pages.forEach(function (page) {
       var readability = page && page.readability ? page.readability : {};
+      var explanation = readability.scoreExplanation || '';
+      var fkGrade = readability.fleschKincaidGrade;
+      var avgSentLen = readability.avgSentenceLength;
+
+      // Build tooltip text from real metrics if available
+      var tooltipParts = [];
+      if (explanation) {
+        tooltipParts.push(explanation);
+      } else {
+        // Fallback: build explanation from available data
+        if (hasNumber(readability.fleschReadingEase)) {
+          var fre = Number(readability.fleschReadingEase);
+          var level = fre >= 90 ? 'Very Easy (5th grade)' :
+                      fre >= 80 ? 'Easy (6th grade)' :
+                      fre >= 70 ? 'Fairly Easy (7th grade)' :
+                      fre >= 60 ? 'Standard (8th-9th grade)' :
+                      fre >= 50 ? 'Fairly Difficult (10th-12th grade)' :
+                      fre >= 30 ? 'Difficult (College level)' : 'Very Difficult (Graduate level)';
+          tooltipParts.push('Reading level: ' + level);
+        }
+        if (hasNumber(fkGrade)) {
+          tooltipParts.push('Grade level: ' + formatNumber(fkGrade, 1));
+        }
+        if (hasNumber(avgSentLen)) {
+          tooltipParts.push('Avg sentence: ' + formatNumber(avgSentLen, 1) + ' words (ideal: 15-20)');
+        }
+        if (hasNumber(readability.wordCount)) {
+          var wc = Number(readability.wordCount);
+          if (wc < 300) tooltipParts.push('Very thin content \u2014 aim for 800+ words');
+          else if (wc < 600) tooltipParts.push('Light content \u2014 consider expanding to 800+');
+        }
+      }
+      var tooltip = tooltipParts.join(' \u00b7 ');
+
       html += '' +
-        '<tr>' +
+        '<tr class="has-popover" data-popover="' + esc(tooltip) + '">' +
           '<td>' + renderUrlCell(page && page.url, page && page.title) + '</td>' +
           '<td>' +
-            '<span class="severity-badge ' + readabilitySeverity(page && page.readabilityScore) + '">' +
+            '<span class="severity-badge ' + readabilitySeverity(page && page.readabilityScore) + '" title="' + esc(tooltip) + '">' +
               formatNumber(page && page.readabilityScore, 1) +
             '</span>' +
           '</td>' +
-          '<td>' + formatNumber(readability.fleschReadingEase, 1) + '</td>' +
+          '<td>' + (hasNumber(readability.syllablesPerWord) ? formatNumber(readability.syllablesPerWord, 2) : hasNumber(readability.avgSyllablesPerWord) ? formatNumber(readability.avgSyllablesPerWord, 2) : '&mdash;') + '</td>' +
           '<td>' + formatNumber(readability.wordCount, 0) + '</td>' +
         '</tr>';
     });
@@ -274,6 +309,7 @@
     html += '' +
           '</tbody>' +
         '</table>' +
+      '</div>' +
       '</div>';
 
     setContent('section-readability-content', html);
@@ -573,6 +609,47 @@
     setContent('section-structure-content', html);
   }
 
+  // -----------------------------------------------------------------------
+  // Score popover — shows explanation on hover for rows with data-popover
+  // -----------------------------------------------------------------------
+  function initPopovers() {
+    var popover = document.createElement('div');
+    popover.className = 'score-popover';
+    popover.id = 'score-popover';
+    document.body.appendChild(popover);
+
+    var rows = document.querySelectorAll('.has-popover[data-popover]');
+    rows.forEach(function (row) {
+      var text = row.getAttribute('data-popover');
+      if (!text) return;
+
+      row.addEventListener('mouseenter', function (e) {
+        popover.textContent = text;
+        popover.classList.add('visible');
+        positionPopover(e, popover);
+      });
+
+      row.addEventListener('mousemove', function (e) {
+        positionPopover(e, popover);
+      });
+
+      row.addEventListener('mouseleave', function () {
+        popover.classList.remove('visible');
+      });
+    });
+  }
+
+  function positionPopover(event, popover) {
+    var x = event.clientX + 12;
+    var y = event.clientY + 16;
+    // Keep within viewport
+    var rect = popover.getBoundingClientRect();
+    if (x + 360 > window.innerWidth) x = window.innerWidth - 370;
+    if (y + rect.height > window.innerHeight) y = event.clientY - rect.height - 10;
+    popover.style.left = x + 'px';
+    popover.style.top = y + 'px';
+  }
+
   window.TPPC.pages.content = {
     init: function (data) {
       renderContentOverview(data);
@@ -581,6 +658,8 @@
       renderDuplicateGroups(data);
       renderCannibalization(data);
       renderStructureAudit(data);
+      initPopovers();
+      if (window.TPPC.filters) window.TPPC.filters.init();
     }
   };
 
