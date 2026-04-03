@@ -64,6 +64,11 @@
       if (window.TPPC.utils && typeof window.TPPC.utils.initCollapsibles === 'function') {
         window.TPPC.utils.initCollapsibles();
       }
+
+      // Make tables responsive on mobile (adds data-label attrs)
+      if (window.TPPC.utils && typeof window.TPPC.utils.makeTablesResponsive === 'function') {
+        window.TPPC.utils.makeTablesResponsive();
+      }
     };
 
     // If setup was called late (async debug-data.js fallback), auto-boot now

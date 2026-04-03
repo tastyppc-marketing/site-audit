@@ -116,6 +116,36 @@
     });
   }
 
+  /**
+   * Make report tables responsive on mobile.
+   * Reads column headers, adds data-label attrs to cells, marks table responsive.
+   * Called after all page rendering is complete (from data-loader boot).
+   */
+  function makeTablesResponsive() {
+    var tables = document.querySelectorAll('.report-table');
+    for (var t = 0; t < tables.length; t++) {
+      var table = tables[t];
+      var headers = [];
+      var ths = table.querySelectorAll('thead th');
+      for (var h = 0; h < ths.length; h++) {
+        headers.push(ths[h].textContent.trim());
+      }
+      if (!headers.length) continue;
+
+      table.classList.add('report-table--responsive');
+
+      var rows = table.querySelectorAll('tbody tr');
+      for (var r = 0; r < rows.length; r++) {
+        var cells = rows[r].querySelectorAll('td');
+        for (var c = 0; c < cells.length; c++) {
+          if (headers[c]) {
+            cells[c].setAttribute('data-label', headers[c]);
+          }
+        }
+      }
+    }
+  }
+
   window.TPPC.utils = {
     esc: esc,
     gradeClass: gradeClass,
@@ -127,7 +157,8 @@
     buildCollapsible: buildCollapsible,
     formatNumber: formatNumber,
     formatPercent: formatPercent,
-    initCollapsibles: initCollapsibles
+    initCollapsibles: initCollapsibles,
+    makeTablesResponsive: makeTablesResponsive
   };
 
   // Also expose esc globally as a convenience used throughout page renderers
