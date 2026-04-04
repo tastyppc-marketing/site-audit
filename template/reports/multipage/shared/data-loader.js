@@ -35,7 +35,10 @@
     window.TPPC.searchIndex = window.SEARCH_INDEX || [];
 
     // 4. Boot orchestrator — called by page-specific JS after DOMContentLoaded
+    var _booted = false;
     window.TPPC.boot = function () {
+      if (_booted) return;
+      _booted = true;
       var pageName = window.TPPC.currentPage;
 
       // Init shared components
@@ -60,6 +63,11 @@
       // Init collapsibles after all rendering is done
       if (window.TPPC.utils && typeof window.TPPC.utils.initCollapsibles === 'function') {
         window.TPPC.utils.initCollapsibles();
+      }
+
+      // Make tables responsive on mobile (adds data-label attrs)
+      if (window.TPPC.utils && typeof window.TPPC.utils.makeTablesResponsive === 'function') {
+        window.TPPC.utils.makeTablesResponsive();
       }
     };
 

@@ -493,7 +493,7 @@
       totalCalls = rows.reduce(function (sum, row) { return sum + row.callClicks; }, 0);
 
       container.innerHTML = '' +
-        '<div class="grid gap-4 md:grid-cols-4 mb-6">' +
+        '<div class="grid gap-4 grid-cols-2 md:grid-cols-4 mb-6">' +
           statCardHTML(formatNumber(totalSearch), 'Search impressions') +
           statCardHTML(formatNumber(totalMaps), 'Maps impressions') +
           statCardHTML(formatNumber(totalCalls), 'Call clicks') +
@@ -625,7 +625,7 @@
       missingCount = normalized.missing.length;
 
       container.innerHTML = '' +
-        '<div class="grid gap-4 md:grid-cols-4 mb-6">' +
+        '<div class="grid gap-4 grid-cols-2 md:grid-cols-4 mb-6">' +
           statCardHTML(formatNumber(normalized.totalFound), 'Listings found') +
           statCardHTML(formatNumber(normalized.consistent), 'Consistent listings') +
           statCardHTML(formatNumber(normalized.inconsistent), 'Inconsistent listings') +
@@ -691,7 +691,7 @@
       topThreeCount = rows.filter(function (row) { return row.position != null && row.position <= 3; }).length;
 
       container.innerHTML = '' +
-        '<div class="grid gap-4 md:grid-cols-3 mb-6">' +
+        '<div class="grid gap-4 grid-cols-2 md:grid-cols-3 mb-6">' +
           statCardHTML(formatNumber(rows.length), 'Keywords tracked') +
           statCardHTML(formatNumber(foundCount), 'Keywords found in pack') +
           statCardHTML(formatNumber(topThreeCount), 'Top 3 placements') +

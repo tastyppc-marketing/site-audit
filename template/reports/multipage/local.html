@@ -3,15 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://cdn.tailwindcss.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://unpkg.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
   <title>SEO Audit Report | Local SEO & GBP</title>
 
   <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 
   <link rel="stylesheet" href="shared/report-styles.css">
   <link rel="stylesheet" href="shared/multipage-nav.css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
 
   <script id="audit-data-inject">
     window.AUDIT_DATA = /* __AUDIT_DATA_PLACEHOLDER__ */null;
@@ -109,18 +116,18 @@
     </main>
   </div>
 
-  <script src="shared/utils.js"></script>
-  <script src="shared/data-loader.js"></script>
-  <script src="shared/charts.js"></script>
-  <script src="shared/nav.js"></script>
-  <script src="shared/search.js"></script>
-  <script src="shared/table-filters.js"></script>
-  <script src="shared/print.js"></script>
-  <script src="shared/explainer.js"></script>
+  <script defer src="shared/utils.js"></script>
+  <script defer src="shared/data-loader.js"></script>
+  <script defer src="shared/charts.js"></script>
+  <script defer src="shared/nav.js"></script>
+  <script defer src="shared/search.js"></script>
+  <script defer src="shared/table-filters.js"></script>
+  <script defer src="shared/print.js"></script>
+  <script defer src="shared/explainer.js"></script>
   <script>
     window.TPPC = window.TPPC || {};
     window.TPPC.currentPage = 'local';
   </script>
-  <script src="pages/local.js"></script>
+  <script defer src="pages/local.js"></script>
 </body>
 </html>

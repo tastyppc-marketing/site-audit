@@ -36,7 +36,7 @@
       '}' +
       '.tppc-filter-bar .tppc-filter-search{' +
         'border:1px solid #e2e8f0;border-radius:8px;' +
-        'padding:0.35rem 0.75rem;font-size:0.8rem;min-width:200px;' +
+        'padding:0.35rem 0.75rem;font-size:0.8rem;min-width:min(200px,100%);' +
         'outline:none;font-family:inherit;' +
       '}' +
       '.tppc-filter-bar .tppc-filter-search:focus{' +

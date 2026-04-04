@@ -311,7 +311,7 @@
             '<p class="text-sm text-slate-500">Logarithmic scale — each gridline is 10x the previous. Hover for exact values.</p>' +
           '</div>' +
         '</div>' +
-        '<div style="height:' + chartHeight + 'px"><canvas id="competitor-gap-chart"></canvas></div>' +
+        '<div class="chart-tall" style="height:' + chartHeight + 'px"><canvas id="competitor-gap-chart"></canvas></div>' +
       '</div>' +
       '<div class="report-table-wrap">' +
         '<table class="report-table report-table-sticky">' +
