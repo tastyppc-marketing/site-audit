@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "script": "keyword_search_volumes",
+    "location_code": 2124,
+    "language_code": "en",
+    "keywords_requested": 25,
+    "keywords_returned": 25,
+    "api_calls": 1
+  },
+  "data": [
+    {
+      "keyword": "Calgary homes for sale",
+      "volume": 60500,
+      "cpc": 0.94,
+      "competition_index": 36,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728197"
+    },
+    {
+      "keyword": "Calgary real estate",
+      "volume": 18100,
+      "cpc": 0.64,
+      "competition_index": 21,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728221"
+    },
+    {
+      "keyword": "Calgary real estate agent",
+      "volume": 880,
+      "cpc": 11.72,
+      "competition_index": 38,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728226"
+    },
+    {
+      "keyword": "homes for sale Calgary AB",
+      "volume": 30,
+      "cpc": 1.14,
+      "competition_index": 42,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728241"
+    },
+    {
+      "keyword": "Calgary condos for sale",
+      "volume": 3600,
+      "cpc": 0.87,
+      "competition_index": 35,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728244"
+    },
+    {
+      "keyword": "Calgary houses for sale",
+      "volume": 60500,
+      "cpc": 0.94,
+      "competition_index": 36,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728248"
+    },
+    {
+      "keyword": "luxury homes Calgary",
+      "volume": 720,
+      "cpc": 1.43,
+      "competition_index": 37,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728250"
+    },
+    {
+      "keyword": "Calgary real estate market",
+      "volume": 1600,
+      "cpc": 1.19,
+      "competition_index": 26,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728253"
+    },
+    {
+      "keyword": "buy home Calgary",
+      "volume": 9900,
+      "cpc": 0.88,
+      "competition_index": 27,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728258"
+    },
+    {
+      "keyword": "sell home Calgary",
+      "volume": 70,
+      "cpc": 1.64,
+      "competition_index": 9,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728261"
+    },
+    {
+      "keyword": "Calgary MLS listings",
+      "volume": 22200,
+      "cpc": 0.53,
+      "competition_index": 17,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728267"
+    },
+    {
+      "keyword": "Calgary property for sale",
+      "volume": 2400,
+      "cpc": 0.45,
+      "competition_index": 56,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728270"
+    },
+    {
+      "keyword": "Calgary townhouses for sale",
+      "volume": 8100,
+      "cpc": 1.63,
+      "competition_index": 53,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728275"
+    },
+    {
+      "keyword": "new homes Calgary",
+      "volume": 1300,
+      "cpc": 2.95,
+      "competition_index": 78,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728278"
+    },
+    {
+      "keyword": "Calgary real estate market report",
+      "volume": 20,
+      "cpc": 0.51,
+      "competition_index": 14,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728280"
+    },
+    {
+      "keyword": "best neighborhoods Calgary",
+      "volume": 1000,
+      "cpc": 2.02,
+      "competition_index": 6,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728283"
+    },
+    {
+      "keyword": "Calgary investment property",
+      "volume": 70,
+      "cpc": 3.36,
+      "competition_index": 41,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728285"
+    },
+    {
+      "keyword": "Cochrane homes for sale",
+      "volume": 12100,
+      "cpc": 1.33,
+      "competition_index": 28,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728288"
+    },
+    {
+      "keyword": "Chestermere real estate",
+      "volume": 880,
+      "cpc": 1.03,
+      "competition_index": 24,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728295"
+    },
+    {
+      "keyword": "Lakeview Calgary homes",
+      "volume": 20,
+      "cpc": null,
+      "competition_index": 0,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728298"
+    },
+    {
+      "keyword": "Calgary luxury real estate agent",
+      "volume": 10,
+      "cpc": null,
+      "competition_index": 0,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728300"
+    },
+    {
+      "keyword": "Calgary first time home buyer",
+      "volume": 140,
+      "cpc": 5.08,
+      "competition_index": 38,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728303"
+    },
+    {
+      "keyword": "Calgary home prices 2026",
+      "volume": null,
+      "cpc": null,
+      "competition_index": null,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728305"
+    },
+    {
+      "keyword": "Calgary real estate forecast",
+      "volume": 170,
+      "cpc": 0.42,
+      "competition_index": 6,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728307"
+    },
+    {
+      "keyword": "sell my house Calgary fast",
+      "volume": null,
+      "cpc": null,
+      "competition_index": null,
+      "source": "dataforseo",
+      "fetched_at": "2026-04-01T07:57:28.728309"
+    }
+  ]
+}

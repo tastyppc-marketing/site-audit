@@ -1,0 +1,1603 @@
+{
+  "meta": {
+    "script": "organic_keywords",
+    "location_code": 2124,
+    "language_code": "en",
+    "domains_queried": 2,
+    "api_calls": 3,
+    "errors": []
+  },
+  "data": {
+    "sellingcalgarycastles.com": {
+      "domain": "sellingcalgarycastles.com",
+      "keywords_count": 0,
+      "total_in_database": null,
+      "keywords": []
+    },
+    "justinhavre.com": {
+      "domain": "justinhavre.com",
+      "keywords_count": 100,
+      "keywords": [
+        {
+          "keyword": "300 000 house for sale",
+          "volume": 90,
+          "cpc": 1.6399999856948853,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/calgary-homes-for-sale/200000-300000/",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "300k houses for sale",
+          "volume": 140,
+          "cpc": 1.4500000476837158,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/calgary-homes-for-sale/200000-300000/",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_search",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "400 000 houses for sale",
+          "volume": 90,
+          "cpc": 0.800000011920929,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/calgary-homes-for-sale/300000-400000/",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "400k houses for sale",
+          "volume": 140,
+          "cpc": 1.159999966621399,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/calgary-homes-for-sale/300000-400000/",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "500 000 house for sale",
+          "volume": 90,
+          "cpc": 1.5499999523162842,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/under-500k-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "500 000 houses for sale",
+          "volume": 90,
+          "cpc": 1.5499999523162842,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/calgary-homes-for-sale/500000-600000/",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "910 5th ave sw calgary",
+          "volume": 110,
+          "cpc": null,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/five-west-phase-ii-calgary-condos.php",
+          "traffic": null,
+          "serpFeatures": [
+            "map",
+            "google_reviews",
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "abbeydale calgary homes for sale",
+          "volume": 140,
+          "cpc": 1.4500000476837158,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/abbeydale-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "acreage in calgary",
+          "volume": 480,
+          "cpc": 0.4099999964237213,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/calgary-acreages.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "alberta canada cost of living",
+          "volume": 590,
+          "cpc": 2.4600000381469727,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/alberta-cost-of-living-guide.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "people_also_search",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "alberta cost of living",
+          "volume": 590,
+          "cpc": 2.4600000381469727,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/alberta-cost-of-living-guide.html",
+          "traffic": null,
+          "serpFeatures": [
+            "featured_snippet",
+            "people_also_ask",
+            "organic",
+            "people_also_search",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "alberta living cost",
+          "volume": 590,
+          "cpc": 2.4600000381469727,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/alberta-cost-of-living-guide.html",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_ask",
+            "people_also_search",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "alberta living costs",
+          "volume": 590,
+          "cpc": 2.4600000381469727,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/alberta-cost-of-living-guide.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "video",
+            "people_also_search",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "bankview calgary homes for sale",
+          "volume": 110,
+          "cpc": 0.5299999713897705,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/bankview-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "bearspaw acreages for sale",
+          "volume": 140,
+          "cpc": 0.38999998569488525,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/bearspaw-acreage-homes-for-sale.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "best areas of calgary",
+          "volume": 1000,
+          "cpc": 2.0199999809265137,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/where-are-the-best-neighbourhoods-in-calgary.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "video",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "best custom home builders calgary",
+          "volume": 90,
+          "cpc": 1.190000057220459,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/most-popular-home-builders-calgary-ab.html",
+          "traffic": null,
+          "serpFeatures": [
+            "local_pack",
+            "organic",
+            "discussions_and_forums",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "best home builders calgary",
+          "volume": 210,
+          "cpc": 3.180000066757202,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/most-popular-home-builders-calgary-ab.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "local_pack",
+            "people_also_ask",
+            "discussions_and_forums",
+            "related_searches",
+            "people_also_search"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "best home builders in calgary",
+          "volume": 210,
+          "cpc": 3.180000066757202,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/most-popular-home-builders-calgary-ab.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "local_pack",
+            "people_also_ask",
+            "people_also_search",
+            "discussions_and_forums",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "best housing",
+          "volume": 140,
+          "cpc": null,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/cheapest-places-to-buy-home-in-canada.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "video",
+            "discussions_and_forums",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "calgary homes for sale fairview",
+          "volume": 390,
+          "cpc": 0.9399999976158142,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/calgary-fairview-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "calgary loft for sale",
+          "volume": 70,
+          "cpc": 0.8999999761581421,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/calgary-lofts.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "calgary new apartments for sale",
+          "volume": 50,
+          "cpc": 2.069999933242798,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/calgary-new-construction-condos.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_ask",
+            "people_also_search",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "calgary new condo developments",
+          "volume": 480,
+          "cpc": 2.4600000381469727,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/calgary-new-construction-condos.php",
+          "traffic": null,
+          "serpFeatures": [
+            "local_pack",
+            "organic",
+            "people_also_search",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "calgary real estate auburn bay",
+          "volume": 260,
+          "cpc": 0.9700000286102295,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/auburn-bay-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "local_pack",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "calgary west real estate",
+          "volume": 70,
+          "cpc": 1.2899999618530273,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/west-communities.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "local_pack",
+            "related_searches",
+            "people_also_search"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "cash buyer for homes",
+          "volume": 70,
+          "cpc": 32.689998626708984,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/pros-cons-selling-house-for-cash.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "local_pack",
+            "people_also_ask",
+            "organic",
+            "video",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "cash buyer home",
+          "volume": 70,
+          "cpc": 32.689998626708984,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/what-is-cash-offer-on-house.html",
+          "traffic": null,
+          "serpFeatures": [
+            "local_pack",
+            "people_also_ask",
+            "organic",
+            "discussions_and_forums",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "cash buyers homes",
+          "volume": 70,
+          "cpc": 32.689998626708984,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/pros-cons-selling-house-for-cash.html",
+          "traffic": null,
+          "serpFeatures": [
+            "local_pack",
+            "people_also_ask",
+            "discussions_and_forums",
+            "organic",
+            "video",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "cash for home buyers",
+          "volume": 70,
+          "cpc": 32.689998626708984,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/cash-offer.php",
+          "traffic": null,
+          "serpFeatures": [
+            "local_pack",
+            "people_also_ask",
+            "discussions_and_forums",
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "cheapest house prices in canada",
+          "volume": 90,
+          "cpc": 4.199999809265137,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/cheapest-places-to-buy-home-in-canada.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "discussions_and_forums",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "cheapest housing in alberta",
+          "volume": 320,
+          "cpc": 1.7799999713897705,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/cheapest-cities-in-alberta.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "people_also_search",
+            "video",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "cheapest place to buy house",
+          "volume": 70,
+          "cpc": 2.880000114440918,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/cheapest-places-to-buy-home-in-canada.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "discussions_and_forums",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "cheapest places to live in alberta",
+          "volume": 480,
+          "cpc": 1.559999942779541,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/cheapest-cities-in-alberta.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "discussions_and_forums",
+            "people_also_search",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "cochrane homes",
+          "volume": 480,
+          "cpc": 1.4800000190734863,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/cochrane-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_search",
+            "people_also_ask",
+            "video",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "cochrane real estate for sale",
+          "volume": 90,
+          "cpc": 1.3300000429153442,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/cochrane-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "commercial land for sale calgary",
+          "volume": 1000,
+          "cpc": 1.3899999856948853,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/calgary-commercial-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_search",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "condo townhouse vs freehold",
+          "volume": 70,
+          "cpc": null,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/freehold-vs-condo-townhouse.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "short_videos",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "condo vs freehold",
+          "volume": 90,
+          "cpc": null,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/freehold-vs-condo-townhouse.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "discussions_and_forums",
+            "short_videos",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "condos for sale in copperfield calgary",
+          "volume": 170,
+          "cpc": 1.0800000429153442,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/copperfield-condos-dl.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "condos for sale in cranston",
+          "volume": 260,
+          "cpc": 1.3700000047683716,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/cranston-condos-dl.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "condos for sale sw calgary",
+          "volume": 140,
+          "cpc": 0.9800000190734863,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/southwest-calgary-condos-townhomes.php?p=42",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_search",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "condos west",
+          "volume": 720,
+          "cpc": 0.800000011920929,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/west-calgary-condos-townhomes.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "contingencies meaning real estate",
+          "volume": 70,
+          "cpc": null,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/home-buying-contingencies-explained.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "coral springs houses for sale",
+          "volume": 140,
+          "cpc": 0.5299999713897705,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/coral-springs-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "cost of building a house in alberta",
+          "volume": 170,
+          "cpc": 1.4600000381469727,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/home-building-costs-in-alberta.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "cost of living alberta",
+          "volume": 590,
+          "cpc": 2.4600000381469727,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/alberta-cost-of-living-guide.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "people_also_search",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "cost of living alberta canada",
+          "volume": 590,
+          "cpc": 2.4600000381469727,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/alberta-cost-of-living-guide.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "cost of living in alberta",
+          "volume": 590,
+          "cpc": 2.4600000381469727,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/alberta-cost-of-living-guide.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "people_also_search",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "cost of living in alberta canada",
+          "volume": 590,
+          "cpc": 2.4600000381469727,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/alberta-cost-of-living-guide.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "people_also_search",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "cost to build a house in alberta",
+          "volume": 170,
+          "cpc": 1.4600000381469727,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/home-building-costs-in-alberta.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "cranston-riverstone homes for sale",
+          "volume": 140,
+          "cpc": 1.7999999523162842,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/cranston-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "crescent heights homes for sale",
+          "volume": 880,
+          "cpc": 1.2300000190734863,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/crescent-heights-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_search",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "deer run real estate",
+          "volume": 110,
+          "cpc": 1.7899999618530273,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/deer-run-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_ask",
+            "people_also_search",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "doral manor",
+          "volume": 70,
+          "cpc": null,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/doral-manor-calgary-condos.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "images",
+            "people_also_ask",
+            "related_searches",
+            "knowledge_graph",
+            "google_reviews"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "douglasdale estates",
+          "volume": 110,
+          "cpc": null,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/douglasdale-estates-calgary-real-estate.php?p=2",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "related_searches",
+            "knowledge_graph",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "douglasdale estates calgary",
+          "volume": 110,
+          "cpc": null,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/douglasdale-estates-calgary-real-estate.php?p=2",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_ask",
+            "related_searches",
+            "knowledge_graph",
+            "people_also_search"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "elbow park calgary homes for sale",
+          "volume": 880,
+          "cpc": 1.1200000047683716,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/elbow-park-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "five west phase ii",
+          "volume": 320,
+          "cpc": 0.550000011920929,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/five-west-phase-ii-calgary-condos.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_ask",
+            "related_searches",
+            "knowledge_graph",
+            "google_reviews",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "fixer uppers homes",
+          "volume": 140,
+          "cpc": 3.880000114440918,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/blog/should-i-buy-a-fixer-upper.html",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "video",
+            "images",
+            "discussions_and_forums",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "for sale silverado",
+          "volume": 320,
+          "cpc": 1.350000023841858,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/silverado-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "home for sale calgary sw",
+          "volume": 2900,
+          "cpc": 1.4300000667572021,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/southwest-communities.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "home for sale cochrane alberta",
+          "volume": 12100,
+          "cpc": 1.3300000429153442,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/cochrane-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "home for sale in lakeview",
+          "volume": 1600,
+          "cpc": 1.0399999618530273,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/lakeview-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_search",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "home for sale in temple calgary",
+          "volume": 170,
+          "cpc": 0.7099999785423279,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/temple-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "homes for sale downtown calgary",
+          "volume": 260,
+          "cpc": 1.0800000429153442,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/downtown-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "homes for sale golf course",
+          "volume": 70,
+          "cpc": 0.5,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/calgary-golf-course-homes.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "homes for sale in abbeydale calgary",
+          "volume": 140,
+          "cpc": 1.4500000476837158,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/abbeydale-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "homes for sale in auburn bay calgary",
+          "volume": 3600,
+          "cpc": 1.0199999809265137,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/auburn-bay-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "homes for sale in bridgeland",
+          "volume": 590,
+          "cpc": 0.9800000190734863,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/bridgeland-riverside-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_search",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "homes for sale in chinook park",
+          "volume": 390,
+          "cpc": 1.399999976158142,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/chinook-park-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "homes for sale in elbow park calgary",
+          "volume": 880,
+          "cpc": 1.1200000047683716,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/elbow-park-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "images",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "homes for sale in inglewood calgary",
+          "volume": 720,
+          "cpc": 0.8199999928474426,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/inglewood-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "homes for sale in millrise",
+          "volume": 1000,
+          "cpc": 0.6700000166893005,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/millrise-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "homes for sale in temple calgary",
+          "volume": 170,
+          "cpc": 0.7099999785423279,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/temple-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "homes for sale in varsity estates calgary",
+          "volume": 210,
+          "cpc": 0.5,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/varsity-estates-calgary-real-estate.php?p=2",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_search",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "homes for sale in willow park calgary",
+          "volume": 70,
+          "cpc": null,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/willow-park-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "homes for sale in woodbine",
+          "volume": 720,
+          "cpc": 0.699999988079071,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/woodbine-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_ask",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "homes for sale mahogany",
+          "volume": 4400,
+          "cpc": 1.309999942779541,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/mahogany-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_ask",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "homes for sale on the golf course",
+          "volume": 70,
+          "cpc": 0.5,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/calgary-golf-course-homes.php",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "homes for sale silverado",
+          "volume": 480,
+          "cpc": 1.2200000286102295,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/silverado-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "homes for sale walden",
+          "volume": 1000,
+          "cpc": 1.309999942779541,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/walden-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches",
+            "people_also_search"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "homes for sale west calgary",
+          "volume": 170,
+          "cpc": 1.1200000047683716,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/west-communities.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_search",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "homes for sale woodbine",
+          "volume": 720,
+          "cpc": 0.699999988079071,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/woodbine-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches",
+            "people_also_search"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "homes under 400k near me",
+          "volume": 170,
+          "cpc": 1.2300000190734863,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/calgary-homes-for-sale/400000-500000/",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "house for sale in erin woods calgary",
+          "volume": 320,
+          "cpc": 1.0099999904632568,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/erin-woods-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches",
+            "people_also_search"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "house for sale in glacier ridge calgary",
+          "volume": 140,
+          "cpc": 1.1200000047683716,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/glacier-ridge-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "house for sale in mckenzie towne",
+          "volume": 1900,
+          "cpc": 1.100000023841858,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/mckenzie-towne-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches",
+            "people_also_search"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "house for sale in midnapore calgary",
+          "volume": 1900,
+          "cpc": 1.0199999809265137,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/midnapore-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "house for sale in millrise",
+          "volume": 1000,
+          "cpc": 0.6700000166893005,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/millrise-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches",
+            "images"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "house for sale in pineridge",
+          "volume": 140,
+          "cpc": 1.0700000524520874,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/pineridge-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "house for sale in south west calgary",
+          "volume": 2900,
+          "cpc": 1.4300000667572021,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/southwest-calgary-real-estate.php?p=69",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "house for sale langdon",
+          "volume": 2900,
+          "cpc": 1,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/langdon-communities.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "house on golf course for sale",
+          "volume": 70,
+          "cpc": 0.5,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/calgary-golf-course-homes.php",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "house with loft for sale",
+          "volume": 70,
+          "cpc": 1.0399999618530273,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/calgary-lofts.php",
+          "traffic": null,
+          "serpFeatures": [
+            "images",
+            "organic",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "houses for cash",
+          "volume": 170,
+          "cpc": 47.20000076293945,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/cash-offer.php",
+          "traffic": null,
+          "serpFeatures": [
+            "ai_overview",
+            "local_pack",
+            "people_also_ask",
+            "organic",
+            "people_also_search",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "houses for sale edgemont calgary",
+          "volume": 260,
+          "cpc": 0.6399999856948853,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/edgemont-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "houses for sale in discovery ridge calgary",
+          "volume": 70,
+          "cpc": 1.0399999618530273,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/discovery-ridge-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "people_also_search",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "houses for sale in downtown calgary",
+          "volume": 260,
+          "cpc": 1.0800000429153442,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/downtown-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        },
+        {
+          "keyword": "houses for sale in glacier ridge calgary",
+          "volume": 140,
+          "cpc": 1.1200000047683716,
+          "difficulty": null,
+          "position": 1,
+          "url": "https://www.justinhavre.com/glacier-ridge-calgary-real-estate.php",
+          "traffic": null,
+          "serpFeatures": [
+            "organic",
+            "related_searches"
+          ],
+          "type": "organic"
+        }
+      ]
+    }
+  }
+}

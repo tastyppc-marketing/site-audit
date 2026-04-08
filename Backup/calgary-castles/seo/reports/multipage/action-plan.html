@@ -3,16 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Backlink Opportunities | TastyPPC SEO Audit</title>
-
-  <link rel="preconnect" href="https://cdn.tailwindcss.com">
-  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+  <title>SEO Audit Report - Action Plan</title>
 
   <script src="https://cdn.tailwindcss.com"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 
   <style data-inline-source="shared/report-styles.css">
 /* ==========================================================================
@@ -21,7 +15,7 @@
    ========================================================================== */
 
 /* ---------- Fonts ---------- */
-/* Font loaded via <link> in <head> — see OPTIMIZATION-LOG.md #2 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
   /* Brand palette */
@@ -203,7 +197,6 @@ body {
 
 /* ---------- Section container ---------- */
 .report-section {
-  overflow-x: hidden;
   max-width: 1200px;
   margin: 0 auto;
   padding: 3rem 2rem;
@@ -603,7 +596,6 @@ body {
 /* ---------- Responsive ---------- */
 @media (max-width: 768px) {
   .report-section {
-  overflow-x: hidden;
     padding: 1.5rem 0.75rem;
   }
 
@@ -673,7 +665,6 @@ body {
 
 @media (max-width: 480px) {
   .report-section {
-  overflow-x: hidden;
     padding: 1.25rem 0.5rem;
   }
 
@@ -1535,14 +1526,12 @@ body.multipage {
             }
           },
           fontFamily: {
-            sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif']
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif']
           }
         }
       }
     };
   </script>
-  <link rel="stylesheet" href="shared/report-styles.css?v=1775216820">
-  <link rel="stylesheet" href="shared/multipage-nav.css?v=1775216820">
 </head>
 <body class="multipage font-sans antialiased">
   <nav id="top-nav"></nav>
@@ -1552,86 +1541,100 @@ body.multipage {
     <aside id="side-nav"></aside>
 
     <main id="page-content" class="flex-1 min-h-screen">
-      <h1 class="sr-only">Backlink Opportunities — SEO Audit Report</h1>
-
-      <!-- Download PDF button -->
-      <div class="no-print" style="display:flex;justify-content:flex-end;padding:1rem 2rem 0">
-        <button id="download-pdf-btn" style="display:inline-flex;align-items:center;gap:6px;padding:8px 18px;border-radius:8px;font-size:0.82rem;font-weight:600;background:var(--navy-800);color:white;border:none;cursor:pointer;font-family:inherit;transition:background 0.15s" onmouseover="this.style.background='var(--accent-blue)'" onmouseout="this.style.background='var(--navy-800)'">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width:16px;height:16px"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" /></svg>
-          Download as PDF
-        </button>
-      </div>
-
-      <!-- Section 1: Key Insights -->
-      <section class="report-section" id="section-insights">
+      <section class="report-section" id="section-plan">
         <div class="section-heading">
           <span class="section-number">1</span>
-          Key Insights &amp; Next Steps
+          Priority Action Plan
         </div>
-        <p class="section-sub">Where you stand, what to do first, and the key numbers driving your backlink strategy.</p>
-        <div id="insights-content"></div>
+        <p class="section-sub">Your full roadmap organized by timeline and priority.</p>
+
+        <div class="flex flex-wrap gap-4 mb-6 text-xs font-semibold" aria-label="Legend">
+          <span class="flex items-center gap-1.5"><span class="inline-block w-2.5 h-2.5 rounded-full" style="background:#b91c1c"></span> Impact: High</span>
+          <span class="flex items-center gap-1.5"><span class="inline-block w-2.5 h-2.5 rounded-full" style="background:#92400e"></span> Impact: Medium</span>
+          <span class="flex items-center gap-1.5"><span class="inline-block w-2.5 h-2.5 rounded-full" style="background:#065f46"></span> Impact: Low</span>
+          <span class="text-slate-300">|</span>
+          <span class="flex items-center gap-1.5"><span class="inline-block w-2.5 h-2.5 rounded" style="background:#d1fae5;border:1px solid #065f46"></span> Effort: Low</span>
+          <span class="flex items-center gap-1.5"><span class="inline-block w-2.5 h-2.5 rounded" style="background:#fef3c7;border:1px solid #92400e"></span> Effort: Medium</span>
+          <span class="flex items-center gap-1.5"><span class="inline-block w-2.5 h-2.5 rounded" style="background:#fee2e2;border:1px solid #b91c1c"></span> Effort: High</span>
+        </div>
+
+        <div class="tab-btn-group flex flex-wrap gap-2 mb-6 no-print" role="tablist" aria-label="Action plan timeline">
+          <button id="tab-btn-qw" class="tab-btn active" type="button" data-tab="qw" role="tab" aria-selected="true" aria-controls="tab-qw">Quick Wins</button>
+          <button id="tab-btn-st" class="tab-btn" type="button" data-tab="st" role="tab" aria-selected="false" aria-controls="tab-st" tabindex="-1">Short Term</button>
+          <button id="tab-btn-mt" class="tab-btn" type="button" data-tab="mt" role="tab" aria-selected="false" aria-controls="tab-mt" tabindex="-1">Medium Term</button>
+          <button id="tab-btn-lt" class="tab-btn" type="button" data-tab="lt" role="tab" aria-selected="false" aria-controls="tab-lt" tabindex="-1">Long Term</button>
+        </div>
+
+        <div id="tab-qw" class="tab-panel active" role="tabpanel" aria-labelledby="tab-btn-qw" data-tab-label="Quick Wins"></div>
+        <div id="tab-st" class="tab-panel" role="tabpanel" aria-labelledby="tab-btn-st" data-tab-label="Short Term (Month 1-2)" hidden></div>
+        <div id="tab-mt" class="tab-panel" role="tabpanel" aria-labelledby="tab-btn-mt" data-tab-label="Medium Term (Month 2-4)" hidden></div>
+        <div id="tab-lt" class="tab-panel" role="tabpanel" aria-labelledby="tab-btn-lt" data-tab-label="Long Term (Month 4+)" hidden></div>
       </section>
 
-      <!-- Section 2: Your Backlink Profile -->
-      <section class="report-section" id="section-backlinks">
+      <section class="report-section page-break" id="section-calendar">
         <div class="section-heading">
           <span class="section-number">2</span>
-          Your Backlink Profile
+          Content Calendar
         </div>
-        <p class="section-sub">Domain authority, referring domains, and top external links show how much off-site trust your domain has earned.</p>
-        <div id="backlinks-content"></div>
+        <p class="section-sub">A month-by-month publishing plan to build search visibility.</p>
+        <div id="calendar-container"></div>
       </section>
 
-      <!-- Section 3: Opportunity Summary -->
-      <section class="report-section" id="section-summary">
+      <section class="report-section" id="section-pillars">
         <div class="section-heading">
           <span class="section-number">3</span>
-          Backlink Opportunity Summary
+          Strategy Pillars
         </div>
-        <p class="section-sub">A high-level view of your backlink landscape compared to competitors.</p>
-        <div id="summary-content"></div>
+        <p class="section-sub">The four workstreams that convert fixes into sustainable search growth.</p>
+        <div id="pillars-grid" class="grid gap-4 md:grid-cols-2 xl:grid-cols-4"></div>
       </section>
 
-      <!-- Section 4: Top Opportunities -->
-      <section class="report-section" id="section-top-opportunities">
+      <section class="report-section page-break" id="section-roadmap">
         <div class="section-heading">
           <span class="section-number">4</span>
-          Top Opportunities
+          Medium-Term Roadmap
         </div>
-        <p class="section-sub">Referring domains most likely to link to you, ranked by a combined score of domain authority and competitor overlap.</p>
-        <div id="top-opportunities-content"></div>
+        <p class="section-sub">The initiatives that deepen topical coverage and expand what the site can rank for.</p>
+        <div id="roadmap-list" class="grid gap-4 xl:grid-cols-2"></div>
       </section>
 
-      <!-- Section 5: Backlink Intelligence -->
-      <section class="report-section" id="section-intelligence">
+      <section class="report-section" id="section-longterm">
         <div class="section-heading">
           <span class="section-number">5</span>
-          Backlink Intelligence
+          Long-Term Strategy
         </div>
-        <p class="section-sub">Deep analysis of competitor link-building strategies, link quality, and local relevance.</p>
-        <div id="intelligence-content"></div>
+        <p class="section-sub">The authority-building systems that compound traffic, trust, and lead generation over time.</p>
+        <div id="longterm-grid" class="grid gap-4 md:grid-cols-2 xl:grid-cols-4"></div>
       </section>
 
-      <!-- Section 6: Detailed Analysis (tabbed views) -->
-      <section class="report-section" id="section-details">
+      <section class="report-section" id="section-advantages">
         <div class="section-heading">
           <span class="section-number">6</span>
-          Detailed Analysis
+          Your Advantages
         </div>
-        <p class="section-sub">Explore referring domain data across all competitors. Switch views to find what's most useful.</p>
-        <div id="details-content"></div>
+        <p class="section-sub">Strengths you can leverage immediately while the SEO program scales up.</p>
+        <div id="advantages-grid" class="grid gap-4 md:grid-cols-2 lg:grid-cols-3"></div>
+      </section>
+
+      <section class="report-section page-break" id="section-deliverables">
+        <div class="section-heading">
+          <span class="section-number">7</span>
+          Deliverables
+        </div>
+        <p class="section-sub">What is already prepared for launch, implementation, and content deployment.</p>
+        <div id="deliverables-container"></div>
       </section>
     </main>
   </div>
 
-  <script defer src="shared/utils.js?v=1775644840"></script>
-  <script defer src="shared/data-loader.js?v=1775644840"></script>
-  <script defer src="shared/charts.js?v=1775644840"></script>
-  <script defer src="shared/nav.js?v=1775644840"></script>
-  <script defer src="shared/search.js?v=1775644840"></script>
-  <script defer src="shared/table-filters.js?v=1775644840"></script>
-  <script defer src="shared/print.js?v=1775644840"></script>
-  <script defer src="shared/explainer.js?v=1775644840"></script>
-  <script defer src="pages/backlink-opportunities.js?v=1775644840"></script>
+  <script src="shared/utils.js"></script>
+  <script src="shared/data-loader.js"></script>
+  <script src="shared/charts.js"></script>
+  <script src="shared/nav.js"></script>
+  <script src="shared/search.js"></script>
+  <script src="shared/table-filters.js"></script>
+  <script src="shared/print.js"></script>
+  <script src="shared/explainer.js"></script>
+  <script src="pages/action-plan.js"></script>
 </body>
 </html>

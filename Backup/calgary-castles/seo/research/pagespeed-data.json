@@ -1,0 +1,624 @@
+{
+  "meta": {
+    "script": "pagespeed_insights",
+    "client_urls": 4,
+    "competitor_urls": 5,
+    "total_tests": 18,
+    "api_calls": 18,
+    "errors": []
+  },
+  "data": {
+    "client": [
+      {
+        "url": "https://www.sellingcalgarycastles.com/",
+        "mobile": {
+          "url": "https://www.sellingcalgarycastles.com/",
+          "strategy": "mobile",
+          "performance_score": 0.79,
+          "lcp": 4577.0,
+          "cls": 0.0,
+          "fcp": 2702.0,
+          "inp": 0.0,
+          "ttfb": 54.0,
+          "speed_index": 3213.9,
+          "opportunities": [
+            {
+              "id": "unused-css-rules",
+              "title": "Reduce unused CSS",
+              "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "score": 0,
+              "display_value": "Est savings of 49\u00a0KiB",
+              "savings_ms": 150,
+              "savings_bytes": 50036
+            },
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+              "score": 0.5,
+              "display_value": "Est savings of 116\u00a0KiB",
+              "savings_ms": 0,
+              "savings_bytes": 118401
+            }
+          ],
+          "diagnostics_count": 8
+        },
+        "desktop": {
+          "url": "https://www.sellingcalgarycastles.com/",
+          "strategy": "desktop",
+          "performance_score": 0.95,
+          "lcp": 1378.3,
+          "cls": 0.001,
+          "fcp": 642.0,
+          "inp": 0.0,
+          "ttfb": 40.0,
+          "speed_index": 1137.6,
+          "opportunities": [
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+              "score": 0,
+              "display_value": "Est savings of 424\u00a0KiB",
+              "savings_ms": 120,
+              "savings_bytes": 434611
+            },
+            {
+              "id": "unused-css-rules",
+              "title": "Reduce unused CSS",
+              "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "score": 0.5,
+              "display_value": "Est savings of 49\u00a0KiB",
+              "savings_ms": 0,
+              "savings_bytes": 49932
+            }
+          ],
+          "diagnostics_count": 9
+        }
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/about/",
+        "mobile": {
+          "url": "https://www.sellingcalgarycastles.com/about/",
+          "strategy": "mobile",
+          "performance_score": 0.85,
+          "lcp": 3753.0,
+          "cls": 0.0069,
+          "fcp": 2703.0,
+          "inp": 0.0,
+          "ttfb": 96.0,
+          "speed_index": 2703.0,
+          "opportunities": [
+            {
+              "id": "unused-css-rules",
+              "title": "Reduce unused CSS",
+              "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "score": 0,
+              "display_value": "Est savings of 50\u00a0KiB",
+              "savings_ms": 150,
+              "savings_bytes": 51300
+            },
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+              "score": 0.5,
+              "display_value": "Est savings of 106\u00a0KiB",
+              "savings_ms": 0,
+              "savings_bytes": 108522
+            }
+          ],
+          "diagnostics_count": 8
+        },
+        "desktop": {
+          "url": "https://www.sellingcalgarycastles.com/about/",
+          "strategy": "desktop",
+          "performance_score": 0.91,
+          "lcp": 802.0,
+          "cls": 0.0011,
+          "fcp": 642.0,
+          "inp": 233.0,
+          "ttfb": 30.0,
+          "speed_index": 1087.0,
+          "opportunities": [
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+              "score": 0.5,
+              "display_value": "Est savings of 492\u00a0KiB",
+              "savings_ms": 0,
+              "savings_bytes": 503594
+            },
+            {
+              "id": "unused-css-rules",
+              "title": "Reduce unused CSS",
+              "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "score": 0.5,
+              "display_value": "Est savings of 74\u00a0KiB",
+              "savings_ms": 0,
+              "savings_bytes": 75271
+            }
+          ],
+          "diagnostics_count": 12
+        }
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/auburn-bay/",
+        "mobile": {
+          "url": "https://www.sellingcalgarycastles.com/auburn-bay/",
+          "strategy": "mobile",
+          "performance_score": 0.82,
+          "lcp": 4052.5,
+          "cls": 0.0013,
+          "fcp": 2852.5,
+          "inp": 0.0,
+          "ttfb": 31.0,
+          "speed_index": 2924.4,
+          "opportunities": [
+            {
+              "id": "unused-css-rules",
+              "title": "Reduce unused CSS",
+              "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "score": 0,
+              "display_value": "Est savings of 45\u00a0KiB",
+              "savings_ms": 150,
+              "savings_bytes": 46028
+            },
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+              "score": 0.5,
+              "display_value": "Est savings of 105\u00a0KiB",
+              "savings_ms": 0,
+              "savings_bytes": 107056
+            }
+          ],
+          "diagnostics_count": 8
+        },
+        "desktop": {
+          "url": "https://www.sellingcalgarycastles.com/auburn-bay/",
+          "strategy": "desktop",
+          "performance_score": 0.78,
+          "lcp": 1262.0,
+          "cls": 0.0148,
+          "fcp": 642.0,
+          "inp": 396.5,
+          "ttfb": 37.0,
+          "speed_index": 1305.5,
+          "opportunities": [
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+              "score": 0,
+              "display_value": "Est savings of 492\u00a0KiB",
+              "savings_ms": 80,
+              "savings_bytes": 504259
+            },
+            {
+              "id": "unused-css-rules",
+              "title": "Reduce unused CSS",
+              "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "score": 0.5,
+              "display_value": "Est savings of 68\u00a0KiB",
+              "savings_ms": 0,
+              "savings_bytes": 69823
+            }
+          ],
+          "diagnostics_count": 15
+        }
+      },
+      {
+        "url": "https://www.sellingcalgarycastles.com/buyers/",
+        "mobile": {
+          "url": "https://www.sellingcalgarycastles.com/buyers/",
+          "strategy": "mobile",
+          "performance_score": 0.92,
+          "lcp": 3153.5,
+          "cls": 0.0001,
+          "fcp": 2103.5,
+          "inp": 0.0,
+          "ttfb": 30.0,
+          "speed_index": 2173.0,
+          "opportunities": [
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+              "score": 0.5,
+              "display_value": "Est savings of 106\u00a0KiB",
+              "savings_ms": 0,
+              "savings_bytes": 108522
+            },
+            {
+              "id": "unused-css-rules",
+              "title": "Reduce unused CSS",
+              "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "score": 0.5,
+              "display_value": "Est savings of 50\u00a0KiB",
+              "savings_ms": 0,
+              "savings_bytes": 50767
+            }
+          ],
+          "diagnostics_count": 8
+        },
+        "desktop": {
+          "url": "https://www.sellingcalgarycastles.com/buyers/",
+          "strategy": "desktop",
+          "performance_score": 0.87,
+          "lcp": 1002.0,
+          "cls": 0.0,
+          "fcp": 682.0,
+          "inp": 278.5,
+          "ttfb": 94.0,
+          "speed_index": 1036.1,
+          "opportunities": [
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+              "score": 0,
+              "display_value": "Est savings of 490\u00a0KiB",
+              "savings_ms": 120,
+              "savings_bytes": 501776
+            },
+            {
+              "id": "unused-css-rules",
+              "title": "Reduce unused CSS",
+              "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "score": 0.5,
+              "display_value": "Est savings of 74\u00a0KiB",
+              "savings_ms": 0,
+              "savings_bytes": 75360
+            }
+          ],
+          "diagnostics_count": 12
+        }
+      }
+    ],
+    "competitors": [
+      {
+        "url": "https://www.justinhavre.com/",
+        "domain": "justinhavre.com",
+        "mobile": {
+          "url": "https://www.justinhavre.com/",
+          "strategy": "mobile",
+          "performance_score": 0.64,
+          "lcp": 4338.7,
+          "cls": 0.0087,
+          "fcp": 2403.1,
+          "inp": 743.5,
+          "ttfb": 7.0,
+          "speed_index": 2936.6,
+          "opportunities": [
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+              "score": 0,
+              "display_value": "Est savings of 609\u00a0KiB",
+              "savings_ms": 750,
+              "savings_bytes": 623525
+            },
+            {
+              "id": "unused-css-rules",
+              "title": "Reduce unused CSS",
+              "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "score": 0,
+              "display_value": "Est savings of 73\u00a0KiB",
+              "savings_ms": 450,
+              "savings_bytes": 74783
+            }
+          ],
+          "diagnostics_count": 14
+        },
+        "desktop": {
+          "url": "https://www.justinhavre.com/",
+          "strategy": "desktop",
+          "performance_score": 0.89,
+          "lcp": 1801.2,
+          "cls": 0.0,
+          "fcp": 948.5,
+          "inp": 107.5,
+          "ttfb": 7.0,
+          "speed_index": 1344.2,
+          "opportunities": [
+            {
+              "id": "unused-css-rules",
+              "title": "Reduce unused CSS",
+              "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "score": 0,
+              "display_value": "Est savings of 79\u00a0KiB",
+              "savings_ms": 120,
+              "savings_bytes": 80483
+            },
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+              "score": 0,
+              "display_value": "Est savings of 432\u00a0KiB",
+              "savings_ms": 120,
+              "savings_bytes": 442306
+            }
+          ],
+          "diagnostics_count": 13
+        }
+      },
+      {
+        "url": "https://calgaryhomes.ca/",
+        "domain": "calgaryhomes.ca",
+        "mobile": {
+          "url": "https://calgaryhomes.ca/",
+          "strategy": "mobile",
+          "performance_score": 0.91,
+          "lcp": 3460.0,
+          "cls": 0.0105,
+          "fcp": 1353.0,
+          "inp": 0.0,
+          "ttfb": 25.0,
+          "speed_index": 1471.0,
+          "opportunities": [
+            {
+              "id": "unused-css-rules",
+              "title": "Reduce unused CSS",
+              "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "score": 0.5,
+              "display_value": "Est savings of 38\u00a0KiB",
+              "savings_ms": 0,
+              "savings_bytes": 39139
+            }
+          ],
+          "diagnostics_count": 7
+        },
+        "desktop": {
+          "url": "https://calgaryhomes.ca/",
+          "strategy": "desktop",
+          "performance_score": 0.99,
+          "lcp": 793.7,
+          "cls": 0.0101,
+          "fcp": 361.0,
+          "inp": 0.0,
+          "ttfb": 12.0,
+          "speed_index": 1155.5,
+          "opportunities": [
+            {
+              "id": "unused-css-rules",
+              "title": "Reduce unused CSS",
+              "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "score": 0.5,
+              "display_value": "Est savings of 39\u00a0KiB",
+              "savings_ms": 0,
+              "savings_bytes": 40211
+            }
+          ],
+          "diagnostics_count": 6
+        }
+      },
+      {
+        "url": "https://www.calgaryhousefinder.ca/",
+        "domain": "calgaryhousefinder.ca",
+        "mobile": {
+          "url": "https://www.calgaryhousefinder.ca/",
+          "strategy": "mobile",
+          "performance_score": 0.52,
+          "lcp": 13798.6,
+          "cls": 0.0013,
+          "fcp": 2552.0,
+          "inp": 433.0,
+          "ttfb": 43.0,
+          "speed_index": 10081.4,
+          "opportunities": [
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+              "score": 0,
+              "display_value": "Est savings of 773\u00a0KiB",
+              "savings_ms": 1800,
+              "savings_bytes": 791178
+            },
+            {
+              "id": "unminified-css",
+              "title": "Minify CSS",
+              "description": "Minifying CSS files can reduce network payload sizes. [Learn how to minify CSS](https://developer.chrome.com/docs/lighthouse/performance/unminified-css/).",
+              "score": 0,
+              "display_value": "Est savings of 5\u00a0KiB",
+              "savings_ms": 150,
+              "savings_bytes": 5294
+            },
+            {
+              "id": "unused-css-rules",
+              "title": "Reduce unused CSS",
+              "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "score": 0.5,
+              "display_value": "Est savings of 69\u00a0KiB",
+              "savings_ms": 0,
+              "savings_bytes": 71114
+            }
+          ],
+          "diagnostics_count": 17
+        },
+        "desktop": {
+          "url": "https://www.calgaryhousefinder.ca/",
+          "strategy": "desktop",
+          "performance_score": 0.91,
+          "lcp": 1508.3,
+          "cls": 0.0028,
+          "fcp": 682.0,
+          "inp": 102.0,
+          "ttfb": 75.0,
+          "speed_index": 1726.9,
+          "opportunities": [
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+              "score": 0,
+              "display_value": "Est savings of 700\u00a0KiB",
+              "savings_ms": 40,
+              "savings_bytes": 716791
+            },
+            {
+              "id": "unused-css-rules",
+              "title": "Reduce unused CSS",
+              "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "score": 0.5,
+              "display_value": "Est savings of 58\u00a0KiB",
+              "savings_ms": 0,
+              "savings_bytes": 58926
+            },
+            {
+              "id": "unminified-css",
+              "title": "Minify CSS",
+              "description": "Minifying CSS files can reduce network payload sizes. [Learn how to minify CSS](https://developer.chrome.com/docs/lighthouse/performance/unminified-css/).",
+              "score": 0.5,
+              "display_value": "Est savings of 5\u00a0KiB",
+              "savings_ms": 0,
+              "savings_bytes": 5294
+            }
+          ],
+          "diagnostics_count": 14
+        }
+      },
+      {
+        "url": "https://www.kirbycox.com/",
+        "domain": "kirbycox.com",
+        "mobile": {
+          "url": "https://www.kirbycox.com/",
+          "strategy": "mobile",
+          "performance_score": 0.73,
+          "lcp": 12729.5,
+          "cls": 0.009,
+          "fcp": 1801.0,
+          "inp": 37.0,
+          "ttfb": 12.0,
+          "speed_index": 3076.3,
+          "opportunities": [
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+              "score": 0,
+              "display_value": "Est savings of 379\u00a0KiB",
+              "savings_ms": 2300,
+              "savings_bytes": 388288
+            },
+            {
+              "id": "unused-css-rules",
+              "title": "Reduce unused CSS",
+              "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "score": 0.5,
+              "display_value": "Est savings of 19\u00a0KiB",
+              "savings_ms": 0,
+              "savings_bytes": 19790
+            }
+          ],
+          "diagnostics_count": 11
+        },
+        "desktop": {
+          "url": "https://www.kirbycox.com/",
+          "strategy": "desktop",
+          "performance_score": 0.55,
+          "lcp": 2527.0,
+          "cls": 0.0026,
+          "fcp": 401.0,
+          "inp": 984.0,
+          "ttfb": 11.0,
+          "speed_index": 1844.9,
+          "opportunities": [
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+              "score": 0,
+              "display_value": "Est savings of 367\u00a0KiB",
+              "savings_ms": 130,
+              "savings_bytes": 376280
+            },
+            {
+              "id": "unused-css-rules",
+              "title": "Reduce unused CSS",
+              "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "score": 0.5,
+              "display_value": "Est savings of 18\u00a0KiB",
+              "savings_ms": 0,
+              "savings_bytes": 17938
+            }
+          ],
+          "diagnostics_count": 15
+        }
+      },
+      {
+        "url": "https://www.reevesrealty.ca/",
+        "domain": "reevesrealty.ca",
+        "mobile": {
+          "url": "https://www.reevesrealty.ca/",
+          "strategy": "mobile",
+          "performance_score": 0.83,
+          "lcp": 4032.8,
+          "cls": 0.0109,
+          "fcp": 2431.0,
+          "inp": 131.5,
+          "ttfb": 13.0,
+          "speed_index": 2431.0,
+          "opportunities": [
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+              "score": 0,
+              "display_value": "Est savings of 590\u00a0KiB",
+              "savings_ms": 380,
+              "savings_bytes": 604373
+            },
+            {
+              "id": "unused-css-rules",
+              "title": "Reduce unused CSS",
+              "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "score": 0.5,
+              "display_value": "Est savings of 20\u00a0KiB",
+              "savings_ms": 0,
+              "savings_bytes": 20213
+            }
+          ],
+          "diagnostics_count": 13
+        },
+        "desktop": {
+          "url": "https://www.reevesrealty.ca/",
+          "strategy": "desktop",
+          "performance_score": 0.86,
+          "lcp": 909.8,
+          "cls": 0.0065,
+          "fcp": 607.4,
+          "inp": 305.5,
+          "ttfb": 13.0,
+          "speed_index": 662.3,
+          "opportunities": [
+            {
+              "id": "unused-javascript",
+              "title": "Reduce unused JavaScript",
+              "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+              "score": 0,
+              "display_value": "Est savings of 603\u00a0KiB",
+              "savings_ms": 120,
+              "savings_bytes": 617833
+            },
+            {
+              "id": "unused-css-rules",
+              "title": "Reduce unused CSS",
+              "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+              "score": 0.5,
+              "display_value": "Est savings of 18\u00a0KiB",
+              "savings_ms": 0,
+              "savings_bytes": 18707
+            }
+          ],
+          "diagnostics_count": 12
+        }
+      }
+    ]
+  }
+}

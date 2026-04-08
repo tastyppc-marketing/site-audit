@@ -1,0 +1,664 @@
+{
+  "meta": {
+    "script": "client_backlinks",
+    "target": "sellingcalgarycastles.com",
+    "backlinks_count": 50,
+    "referring_domains_count": 20,
+    "api_calls": 2,
+    "errors": []
+  },
+  "backlinks": [
+    {
+      "source_url": "https://newhomelistingservice.com/realtors/neil-rowlandson",
+      "target_url": "http://www.sellingcalgarycastles.com/",
+      "anchor_text": "www.sellingcalgarycastles.com",
+      "domain_rating": 229.0,
+      "is_dofollow": true,
+      "first_seen": "2020-01-22T19:23:20+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://bobbimorrison.ca/listing/1208-brightoncrest-green-se-calgary-alberta-t2z-1g9-28645893/",
+      "target_url": "http://www.sellingcalgarycastles.com/",
+      "anchor_text": "www.sellingcalgarycastles.com/",
+      "domain_rating": 37.0,
+      "is_dofollow": true,
+      "first_seen": "2025-09-23T12:07:31+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://kaylahagen.com/listing/1208-brightoncrest-green-se-calgary-alberta-t2z-1g9-28645893/",
+      "target_url": "http://www.sellingcalgarycastles.com/",
+      "anchor_text": "www.sellingcalgarycastles.com/",
+      "domain_rating": 0.0,
+      "is_dofollow": true,
+      "first_seen": "2025-08-22T07:11:00+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "http://odp.org/Regional/North_America/Canada/Alberta/Localities/C/Calgary/Business_and_Economy/Real_Estate/Residential",
+      "target_url": "http://www.sellingcalgarycastles.com/",
+      "anchor_text": "Neil Rowlandson - CIR Realty",
+      "domain_rating": 291.0,
+      "is_dofollow": true,
+      "first_seen": "2024-04-27T10:13:25+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "http://calgarywastemanagement.blogspot.com/2013/10/payless-disposal-inc.html",
+      "target_url": "http://www.sellingcalgarycastles.com/real-estate-listings/calgary/falconridge",
+      "anchor_text": "Falconridge Real Estate Listings Calgary, Falconridge Homes\u00a0...",
+      "domain_rating": 113.0,
+      "is_dofollow": true,
+      "first_seen": "2025-11-17T10:45:40+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://ycm.info/98c18c02856df1ff890c7d7c0f509301-l/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles.com",
+      "domain_rating": 0.0,
+      "is_dofollow": true,
+      "first_seen": "2026-03-22T17:46:59+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://webdirectoryzone.com/directory-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 144.0,
+      "is_dofollow": true,
+      "first_seen": "2026-03-22T15:37:21+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://backlinkboostdirectory.com/directory-website-list-1339-lead-magnet-504/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 192.0,
+      "is_dofollow": true,
+      "first_seen": "2025-10-19T02:08:32+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://anchorurl.cloud/share/11368",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles.com",
+      "domain_rating": 302.0,
+      "is_dofollow": false,
+      "first_seen": "2026-02-06T08:58:45+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://webguestpostsdirectory.com/most-visited-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 269.0,
+      "is_dofollow": true,
+      "first_seen": "2025-08-22T00:29:52+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://powerlinkdirectory.com/directory-website-list-1339-lead-magnet-504/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 196.0,
+      "is_dofollow": true,
+      "first_seen": "2025-10-08T22:53:59+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://primecompanydirectory.com/directory-website-list-1339-lead-magnet-504/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 86.0,
+      "is_dofollow": true,
+      "first_seen": "2025-10-21T02:36:46+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://ahrefs-links.com/directory-website-list-1339-lead-magnet-504/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 194.0,
+      "is_dofollow": true,
+      "first_seen": "2025-09-19T23:47:40+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://authorityprodirectory.com/directory-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 204.0,
+      "is_dofollow": true,
+      "first_seen": "2025-08-21T19:17:21+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://primesolodirectory.com/directory-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 82.0,
+      "is_dofollow": true,
+      "first_seen": "2026-01-09T22:04:01+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://ahrefsdirectory.com/directory-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 326.0,
+      "is_dofollow": true,
+      "first_seen": "2025-09-03T11:17:51+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://pagesearch.net/98c18c02856df1ff890c7d7c0f509301-l/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles.com",
+      "domain_rating": 132.0,
+      "is_dofollow": true,
+      "first_seen": "2026-03-16T12:02:51+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://skylinkseo.site/ken-kaneki-the-tragic-hero-of-tokyo-ghoul/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 214.0,
+      "is_dofollow": false,
+      "first_seen": "2025-11-05T11:00:54+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://seotechdirectory.com/directory-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 247.0,
+      "is_dofollow": true,
+      "first_seen": "2025-08-21T14:31:36+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://usaseodirectory.com/directory-website-list-1339-lead-magnet-504/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 197.0,
+      "is_dofollow": true,
+      "first_seen": "2025-09-04T04:12:19+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://allistingdirectory.com/directory-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 82.0,
+      "is_dofollow": true,
+      "first_seen": "2025-10-04T15:32:16+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://australianwebdirectory.shop/page-883a74579abc99b82dffde4fa07982ce.html",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles.com",
+      "domain_rating": 152.0,
+      "is_dofollow": true,
+      "first_seen": "2025-06-03T06:39:06+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://shortenurls.eu/share/11369",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles.com",
+      "domain_rating": 287.0,
+      "is_dofollow": false,
+      "first_seen": "2026-01-24T03:32:11+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://www.getwebsiteworth.com/98c18c02856df1ff890c7d7c0f509301-l/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles.com",
+      "domain_rating": 150.0,
+      "is_dofollow": true,
+      "first_seen": "2025-12-27T08:33:57+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://worldwebsitesdirectory.com/most-visited-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 268.0,
+      "is_dofollow": true,
+      "first_seen": "2025-09-07T23:25:49+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://alljobs.info/98c18c02856df1ff890c7d7c0f509301-l/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles.com",
+      "domain_rating": 53.0,
+      "is_dofollow": true,
+      "first_seen": "2026-03-03T02:49:55+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://usdirectorylist.com/directory-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 149.0,
+      "is_dofollow": true,
+      "first_seen": "2025-12-31T21:21:53+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://shortenurls.eu/share/11368",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles.com",
+      "domain_rating": 287.0,
+      "is_dofollow": false,
+      "first_seen": "2026-02-25T22:49:34+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://urls-shortener.eu/share/11368",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles.com",
+      "domain_rating": 305.0,
+      "is_dofollow": false,
+      "first_seen": "2026-02-25T01:52:53+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://bye.fyi/report/11368",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles.com",
+      "domain_rating": 321.0,
+      "is_dofollow": false,
+      "first_seen": "2026-02-22T18:44:24+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://pick4d.live/2025/11/03/ken-kaneki-the-tragic-hero-of-tokyo-ghoul/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 18.0,
+      "is_dofollow": false,
+      "first_seen": "2026-01-10T00:58:44+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://seodirectorypro.com/directory-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 33.0,
+      "is_dofollow": true,
+      "first_seen": "2025-10-04T15:31:46+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://quero.party/report/11368",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles.com",
+      "domain_rating": 307.0,
+      "is_dofollow": false,
+      "first_seen": "2026-02-21T17:40:37+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://rankeddirectory.com/directory-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 118.0,
+      "is_dofollow": true,
+      "first_seen": "2025-10-02T08:09:24+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://ailistingdirectory.com/directory-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 125.0,
+      "is_dofollow": true,
+      "first_seen": "2025-08-08T19:32:33+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://toptierdirectory.com/directory-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 128.0,
+      "is_dofollow": true,
+      "first_seen": "2025-11-05T10:35:57+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://globalrankdirectory.com/directory-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 164.0,
+      "is_dofollow": true,
+      "first_seen": "2025-08-21T19:14:39+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://eliterankdirectory.com/directory-website-list-1339-lead-magnet-504/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 0.0,
+      "is_dofollow": true,
+      "first_seen": "2026-02-20T12:45:38+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://yelpdirectory.com/directory-website-list-1339-lead-magnet-504/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 201.0,
+      "is_dofollow": true,
+      "first_seen": "2025-09-03T11:09:23+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://websiteworlddirectory.com/most-visited-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 266.0,
+      "is_dofollow": true,
+      "first_seen": "2025-09-08T00:47:40+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://solodirectoryzone.com/directory-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 158.0,
+      "is_dofollow": true,
+      "first_seen": "2025-09-15T07:52:25+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://themasterdirectory.com/directory-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 272.0,
+      "is_dofollow": true,
+      "first_seen": "2026-02-18T21:12:56+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://primedirectoryzone.com/directory-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 188.0,
+      "is_dofollow": true,
+      "first_seen": "2025-08-04T16:58:32+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://mediazonedirectory.com/most-visited-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 186.0,
+      "is_dofollow": true,
+      "first_seen": "2025-08-18T01:11:27+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://www.musweb.org/page-883a74579abc99b82dffde4fa07982ce.html",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles.com",
+      "domain_rating": 109.0,
+      "is_dofollow": true,
+      "first_seen": "2026-02-14T23:59:20+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://sites.jake.eu/share/11369",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles.com",
+      "domain_rating": 218.0,
+      "is_dofollow": false,
+      "first_seen": "2026-02-13T08:20:50+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://drjack.world/report/11369",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles.com",
+      "domain_rating": 394.0,
+      "is_dofollow": false,
+      "first_seen": "2025-12-31T06:47:49+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://websitedirectoy.com/most-visited-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 185.0,
+      "is_dofollow": true,
+      "first_seen": "2025-08-17T05:54:21+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://getwebsiteworth.com/98c18c02856df1ff890c7d7c0f509301-l/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles.com",
+      "domain_rating": 141.0,
+      "is_dofollow": true,
+      "first_seen": "2025-12-29T14:59:36+00:00",
+      "source": "dataforseo"
+    },
+    {
+      "source_url": "https://seotrafficdirectory.com/directory-website-list-1339/",
+      "target_url": "https://sellingcalgarycastles.com/",
+      "anchor_text": "sellingcalgarycastles",
+      "domain_rating": 167.0,
+      "is_dofollow": true,
+      "first_seen": "2025-08-21T19:16:28+00:00",
+      "source": "dataforseo"
+    }
+  ],
+  "referring_domains": [
+    {
+      "domain": "ycm.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-22 17:46:59 +00:00",
+      "lost_date": null,
+      "dofollow": true,
+      "broken_backlinks": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "pagesearch.net",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-16 12:02:51 +00:00",
+      "lost_date": null,
+      "dofollow": true,
+      "broken_backlinks": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "urls-shortener.eu",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-25 01:52:53 +00:00",
+      "lost_date": null,
+      "dofollow": true,
+      "broken_backlinks": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "bye.fyi",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-22 18:44:24 +00:00",
+      "lost_date": null,
+      "dofollow": true,
+      "broken_backlinks": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "eliterankdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-20 12:45:38 +00:00",
+      "lost_date": null,
+      "dofollow": true,
+      "broken_backlinks": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "musweb.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-14 23:59:20 +00:00",
+      "lost_date": null,
+      "dofollow": true,
+      "broken_backlinks": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "jake.eu",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-13 08:20:50 +00:00",
+      "lost_date": null,
+      "dofollow": true,
+      "broken_backlinks": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "anchorurl.cloud",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-06 08:58:45 +00:00",
+      "lost_date": null,
+      "dofollow": true,
+      "broken_backlinks": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "ready.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-01 06:52:43 +00:00",
+      "lost_date": null,
+      "dofollow": true,
+      "broken_backlinks": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "booksreadr.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-30 19:15:13 +00:00",
+      "lost_date": null,
+      "dofollow": true,
+      "broken_backlinks": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "runningwebsites.net",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-29 02:22:34 +00:00",
+      "lost_date": null,
+      "dofollow": true,
+      "broken_backlinks": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "alljobs.info",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-27 00:18:14 +00:00",
+      "lost_date": null,
+      "dofollow": true,
+      "broken_backlinks": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "way2check.cv",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-25 03:14:26 +00:00",
+      "lost_date": null,
+      "dofollow": true,
+      "broken_backlinks": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "shortenurls.eu",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-24 03:32:11 +00:00",
+      "lost_date": null,
+      "dofollow": true,
+      "broken_backlinks": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "globalecommerce.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-24 00:03:02 +00:00",
+      "lost_date": null,
+      "dofollow": true,
+      "broken_backlinks": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "simplewebdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-18 06:27:45 +00:00",
+      "lost_date": null,
+      "dofollow": true,
+      "broken_backlinks": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "pick4d.live",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-10 00:58:44 +00:00",
+      "lost_date": null,
+      "dofollow": true,
+      "broken_backlinks": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "websiterace.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-09 15:33:26 +00:00",
+      "lost_date": null,
+      "dofollow": true,
+      "broken_backlinks": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "drjack.world",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-31 06:47:49 +00:00",
+      "lost_date": null,
+      "dofollow": true,
+      "broken_backlinks": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "wheretobuybest.link",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-28 13:34:59 +00:00",
+      "lost_date": null,
+      "dofollow": true,
+      "broken_backlinks": 0,
+      "referring_pages": 1
+    }
+  ]
+}

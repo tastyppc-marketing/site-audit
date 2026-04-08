@@ -131,26 +131,90 @@
   var CLIENT = { domain: 'sellingcalgarycastles.com', backlinks: 280, referringDomains: 209, dofollowRatio: 0.65, typeCounts: { directory: 3, press: 0, social: 0, industry: 1, blog: 0, forum: 0, other: 205 } };
 
   var MOCK_OPPORTUNITIES = [
-    { domain: 'yellowpages.ca', dr: 72, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','calgaryhousefinder.ca','kirbycox.com','reevesrealty.ca','bestcalgaryhomes.com','thinkcalgaryhomes.com'], score: 96, type: 'directory', localRelevance: 'national', effort: 'easy' },
+    // --- High-priority: 7/7 or 6/7 competitors ---
     { domain: 'facebook.com', dr: 96, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','calgaryhousefinder.ca','kirbycox.com','reevesrealty.ca','bestcalgaryhomes.com','thinkcalgaryhomes.com'], score: 98, type: 'social', localRelevance: 'international', effort: 'easy' },
-    { domain: 'calgaryherald.com', dr: 82, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','calgaryhousefinder.ca','kirbycox.com','bestcalgaryhomes.com'], score: 94, type: 'press', localRelevance: 'local', effort: 'hard' },
-    { domain: 'realtor.ca', dr: 78, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','calgaryhousefinder.ca','kirbycox.com'], score: 88, type: 'industry', localRelevance: 'national', effort: 'medium' },
-    { domain: 'instagram.com', dr: 94, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','kirbycox.com','bestcalgaryhomes.com'], score: 91, type: 'social', localRelevance: 'international', effort: 'easy' },
-    { domain: 'linkedin.com', dr: 98, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','kirbycox.com'], score: 89, type: 'social', localRelevance: 'international', effort: 'easy' },
-    { domain: 'bbb.org', dr: 85, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','kirbycox.com','bestcalgaryhomes.com'], score: 87, type: 'directory', localRelevance: 'national', effort: 'easy' },
-    { domain: 'zillow.com', dr: 92, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca'], score: 80, type: 'industry', localRelevance: 'international', effort: 'medium' },
-    { domain: 'creb.com', dr: 65, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','calgaryhousefinder.ca','reevesrealty.ca'], score: 79, type: 'industry', localRelevance: 'local', effort: 'medium' },
-    { domain: 'betterdwelling.com', dr: 71, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','bestcalgaryhomes.com'], score: 75, type: 'press', localRelevance: 'national', effort: 'hard' },
-    { domain: 'yelp.ca', dr: 74, clientHas: false, competitors: ['justinhavre.com','kirbycox.com','bestcalgaryhomes.com'], score: 73, type: 'directory', localRelevance: 'national', effort: 'easy' },
-    { domain: 'globalnews.ca', dr: 88, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca'], score: 72, type: 'press', localRelevance: 'national', effort: 'hard' },
-    { domain: 'canada411.ca', dr: 58, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','kirbycox.com'], score: 68, type: 'directory', localRelevance: 'national', effort: 'easy' },
-    { domain: 'point2homes.com', dr: 61, clientHas: false, competitors: ['justinhavre.com','calgaryhousefinder.ca','bestcalgaryhomes.com'], score: 66, type: 'industry', localRelevance: 'national', effort: 'medium' },
+    { domain: 'yellowpages.ca', dr: 72, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','calgaryhousefinder.ca','kirbycox.com','reevesrealty.ca','bestcalgaryhomes.com','thinkcalgaryhomes.com'], score: 96, type: 'directory', localRelevance: 'national', effort: 'easy' },
+    { domain: 'calgaryherald.com', dr: 82, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','calgaryhousefinder.ca','kirbycox.com','bestcalgaryhomes.com','thinkcalgaryhomes.com'], score: 95, type: 'press', localRelevance: 'local', effort: 'hard' },
+    { domain: 'instagram.com', dr: 94, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','calgaryhousefinder.ca','kirbycox.com','bestcalgaryhomes.com','thinkcalgaryhomes.com'], score: 94, type: 'social', localRelevance: 'international', effort: 'easy' },
+    { domain: 'linkedin.com', dr: 98, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','kirbycox.com','bestcalgaryhomes.com','reevesrealty.ca','thinkcalgaryhomes.com'], score: 93, type: 'social', localRelevance: 'international', effort: 'easy' },
+    { domain: 'bbb.org', dr: 85, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','kirbycox.com','bestcalgaryhomes.com','calgaryhousefinder.ca','reevesrealty.ca'], score: 92, type: 'directory', localRelevance: 'national', effort: 'easy' },
+    // --- High-priority: 4-5 competitors ---
+    { domain: 'realtor.ca', dr: 78, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','calgaryhousefinder.ca','kirbycox.com','bestcalgaryhomes.com'], score: 88, type: 'industry', localRelevance: 'national', effort: 'medium' },
+    { domain: 'zillow.com', dr: 92, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','kirbycox.com','bestcalgaryhomes.com'], score: 85, type: 'industry', localRelevance: 'international', effort: 'medium' },
+    { domain: 'creb.com', dr: 65, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','calgaryhousefinder.ca','reevesrealty.ca','thinkcalgaryhomes.com'], score: 83, type: 'industry', localRelevance: 'local', effort: 'medium' },
+    { domain: 'yelp.ca', dr: 74, clientHas: false, competitors: ['justinhavre.com','kirbycox.com','bestcalgaryhomes.com','calgaryhomes.ca'], score: 81, type: 'directory', localRelevance: 'national', effort: 'easy' },
+    { domain: 'globalnews.ca', dr: 88, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','kirbycox.com','bestcalgaryhomes.com'], score: 80, type: 'press', localRelevance: 'national', effort: 'hard' },
+    { domain: 'twitter.com', dr: 93, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','kirbycox.com','bestcalgaryhomes.com'], score: 79, type: 'social', localRelevance: 'international', effort: 'easy' },
+    { domain: 'pinterest.com', dr: 91, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','bestcalgaryhomes.com','thinkcalgaryhomes.com'], score: 78, type: 'social', localRelevance: 'international', effort: 'easy' },
+    { domain: 'betterdwelling.com', dr: 71, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','bestcalgaryhomes.com','kirbycox.com'], score: 77, type: 'press', localRelevance: 'national', effort: 'hard' },
+    { domain: 'canada411.ca', dr: 58, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','kirbycox.com','calgaryhousefinder.ca'], score: 76, type: 'directory', localRelevance: 'national', effort: 'easy' },
+    // --- Medium-priority: 3 competitors ---
+    { domain: 'youtube.com', dr: 99, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','kirbycox.com'], score: 75, type: 'social', localRelevance: 'international', effort: 'easy' },
+    { domain: 'point2homes.com', dr: 61, clientHas: false, competitors: ['justinhavre.com','calgaryhousefinder.ca','bestcalgaryhomes.com'], score: 72, type: 'industry', localRelevance: 'national', effort: 'medium' },
+    { domain: 'ratehub.ca', dr: 68, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','bestcalgaryhomes.com'], score: 70, type: 'industry', localRelevance: 'national', effort: 'medium' },
+    { domain: 'wikidata.org', dr: 90, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','kirbycox.com'], score: 69, type: 'directory', localRelevance: 'international', effort: 'medium' },
+    { domain: 'calgarysun.com', dr: 76, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','calgaryhousefinder.ca'], score: 68, type: 'press', localRelevance: 'local', effort: 'hard' },
+    { domain: 'avenuecalgary.com', dr: 62, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','bestcalgaryhomes.com'], score: 67, type: 'press', localRelevance: 'local', effort: 'hard' },
+    { domain: 'greatcalgaryrealestate.com', dr: 38, clientHas: false, competitors: ['justinhavre.com','kirbycox.com','calgaryhousefinder.ca'], score: 65, type: 'industry', localRelevance: 'local', effort: 'medium' },
+    { domain: 'remax.ca', dr: 72, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','reevesrealty.ca'], score: 64, type: 'industry', localRelevance: 'national', effort: 'medium' },
+    { domain: 'royallepage.ca', dr: 70, clientHas: false, competitors: ['justinhavre.com','kirbycox.com','bestcalgaryhomes.com'], score: 63, type: 'industry', localRelevance: 'national', effort: 'medium' },
     { domain: 'newhomelistingservice.com', dr: 55, clientHas: true, competitors: ['justinhavre.com','calgaryhousefinder.ca','bestcalgaryhomes.com'], score: 62, type: 'industry', localRelevance: 'national', effort: 'easy' },
-    { domain: 'ratehub.ca', dr: 68, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca'], score: 58, type: 'industry', localRelevance: 'national', effort: 'medium' },
+    { domain: 'blogto.com', dr: 78, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca','kirbycox.com'], score: 61, type: 'blog', localRelevance: 'national', effort: 'hard' },
+    // --- Medium-priority: 2 competitors ---
+    { domain: 'aboutcalgary.ca', dr: 45, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca'], score: 58, type: 'directory', localRelevance: 'local', effort: 'easy' },
+    { domain: 'cmhc-schl.gc.ca', dr: 80, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca'], score: 57, type: 'government', localRelevance: 'national', effort: 'hard' },
+    { domain: 'zolo.ca', dr: 66, clientHas: false, competitors: ['justinhavre.com','calgaryhousefinder.ca'], score: 56, type: 'industry', localRelevance: 'national', effort: 'medium' },
+    { domain: 'lowestrates.ca', dr: 60, clientHas: false, competitors: ['calgaryhomes.ca','bestcalgaryhomes.com'], score: 55, type: 'industry', localRelevance: 'national', effort: 'medium' },
+    { domain: 'storeys.com', dr: 64, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca'], score: 54, type: 'press', localRelevance: 'national', effort: 'hard' },
+    { domain: 'calgaryjournal.ca', dr: 52, clientHas: false, competitors: ['justinhavre.com','calgaryhousefinder.ca'], score: 53, type: 'press', localRelevance: 'local', effort: 'hard' },
     { domain: 'odp.org', dr: 48, clientHas: true, competitors: ['justinhavre.com','calgaryhomes.ca'], score: 52, type: 'directory', localRelevance: 'international', effort: 'easy' },
-    { domain: 'homefinder.ca', dr: 44, clientHas: false, competitors: ['calgaryhousefinder.ca','thinkcalgaryhomes.com'], score: 39, type: 'industry', localRelevance: 'national', effort: 'medium' },
-    { domain: 'cirrealty.ca', dr: 52, clientHas: true, competitors: ['reevesrealty.ca'], score: 38, type: 'industry', localRelevance: 'local', effort: 'easy' },
-    { domain: 'weddingwire.ca', dr: 42, clientHas: false, competitors: ['kirbycox.com'], score: 28, type: 'other', localRelevance: 'national', effort: 'medium' }
+    { domain: 'buzzfeed.com', dr: 92, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca'], score: 51, type: 'blog', localRelevance: 'international', effort: 'hard' },
+    { domain: 'canadianrealestatemagazine.ca', dr: 54, clientHas: false, competitors: ['justinhavre.com','bestcalgaryhomes.com'], score: 50, type: 'press', localRelevance: 'national', effort: 'hard' },
+    { domain: 'truelocal.ca', dr: 40, clientHas: false, competitors: ['calgaryhomes.ca','kirbycox.com'], score: 49, type: 'directory', localRelevance: 'national', effort: 'easy' },
+    { domain: 'mls.ca', dr: 55, clientHas: false, competitors: ['calgaryhousefinder.ca','reevesrealty.ca'], score: 48, type: 'industry', localRelevance: 'national', effort: 'medium' },
+    { domain: 'cbc.ca', dr: 92, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca'], score: 47, type: 'press', localRelevance: 'national', effort: 'hard' },
+    { domain: 'canpages.ca', dr: 42, clientHas: false, competitors: ['kirbycox.com','bestcalgaryhomes.com'], score: 46, type: 'directory', localRelevance: 'national', effort: 'easy' },
+    { domain: 'calgaryrealestatejournal.com', dr: 35, clientHas: false, competitors: ['justinhavre.com','calgaryhousefinder.ca'], score: 45, type: 'blog', localRelevance: 'local', effort: 'medium' },
+    { domain: 'rentfaster.ca', dr: 58, clientHas: false, competitors: ['calgaryhomes.ca','thinkcalgaryhomes.com'], score: 44, type: 'industry', localRelevance: 'local', effort: 'medium' },
+    { domain: 'condos.ca', dr: 50, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca'], score: 43, type: 'industry', localRelevance: 'national', effort: 'medium' },
+    // --- Lower-priority: 1-2 competitors ---
+    { domain: 'homefinder.ca', dr: 44, clientHas: false, competitors: ['calgaryhousefinder.ca','thinkcalgaryhomes.com'], score: 42, type: 'industry', localRelevance: 'national', effort: 'medium' },
+    { domain: 'weddingwire.ca', dr: 42, clientHas: false, competitors: ['kirbycox.com'], score: 41, type: 'other', localRelevance: 'national', effort: 'medium' },
+    { domain: 'calgarychamber.com', dr: 55, clientHas: false, competitors: ['justinhavre.com','bestcalgaryhomes.com'], score: 40, type: 'directory', localRelevance: 'local', effort: 'easy' },
+    { domain: 'cirrealty.ca', dr: 52, clientHas: true, competitors: ['reevesrealty.ca'], score: 39, type: 'industry', localRelevance: 'local', effort: 'easy' },
+    { domain: 'propertyguys.com', dr: 48, clientHas: false, competitors: ['calgaryhousefinder.ca'], score: 38, type: 'industry', localRelevance: 'national', effort: 'medium' },
+    { domain: 'livabl.com', dr: 56, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca'], score: 37, type: 'press', localRelevance: 'national', effort: 'hard' },
+    { domain: 'albertarealtors.ca', dr: 48, clientHas: false, competitors: ['justinhavre.com','reevesrealty.ca'], score: 36, type: 'industry', localRelevance: 'local', effort: 'medium' },
+    { domain: 'calgarymovingcompany.ca', dr: 22, clientHas: false, competitors: ['kirbycox.com'], score: 35, type: 'other', localRelevance: 'local', effort: 'easy' },
+    { domain: 'calgaryhomesmagazine.com', dr: 30, clientHas: false, competitors: ['calgaryhomes.ca','bestcalgaryhomes.com'], score: 34, type: 'blog', localRelevance: 'local', effort: 'medium' },
+    { domain: 'narcity.com', dr: 75, clientHas: false, competitors: ['justinhavre.com'], score: 33, type: 'press', localRelevance: 'national', effort: 'hard' },
+    { domain: 'yellowpagesgoesgreen.org', dr: 32, clientHas: true, competitors: ['justinhavre.com','calgaryhomes.ca'], score: 32, type: 'directory', localRelevance: 'international', effort: 'easy' },
+    { domain: 'businessincalgary.com', dr: 44, clientHas: false, competitors: ['justinhavre.com','bestcalgaryhomes.com'], score: 31, type: 'press', localRelevance: 'local', effort: 'hard' },
+    { domain: 'hotpads.com', dr: 65, clientHas: false, competitors: ['justinhavre.com'], score: 30, type: 'industry', localRelevance: 'international', effort: 'medium' },
+    { domain: 'foursquare.com', dr: 88, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca'], score: 29, type: 'directory', localRelevance: 'international', effort: 'easy' },
+    { domain: 'mapquest.com', dr: 80, clientHas: false, competitors: ['justinhavre.com'], score: 28, type: 'directory', localRelevance: 'international', effort: 'easy' },
+    { domain: 'calgaryplaygroundreview.com', dr: 25, clientHas: false, competitors: ['kirbycox.com','thinkcalgaryhomes.com'], score: 27, type: 'blog', localRelevance: 'local', effort: 'medium' },
+    { domain: 'todo.ca', dr: 35, clientHas: false, competitors: ['calgaryhousefinder.ca'], score: 26, type: 'directory', localRelevance: 'national', effort: 'easy' },
+    { domain: 'realestateforums.ca', dr: 30, clientHas: false, competitors: ['justinhavre.com','calgaryhomes.ca'], score: 25, type: 'forum', localRelevance: 'national', effort: 'medium' },
+    { domain: 'calgarymoms.ca', dr: 28, clientHas: false, competitors: ['kirbycox.com'], score: 24, type: 'blog', localRelevance: 'local', effort: 'medium' },
+    { domain: 'shopperschoice.ca', dr: 33, clientHas: false, competitors: ['bestcalgaryhomes.com'], score: 23, type: 'directory', localRelevance: 'national', effort: 'easy' },
+    { domain: 'renovationfind.com', dr: 38, clientHas: false, competitors: ['kirbycox.com','calgaryhousefinder.ca'], score: 22, type: 'industry', localRelevance: 'national', effort: 'medium' },
+    { domain: 'yycdeals.com', dr: 20, clientHas: false, competitors: ['thinkcalgaryhomes.com'], score: 21, type: 'blog', localRelevance: 'local', effort: 'easy' },
+    { domain: 'calgarydoorsdirect.ca', dr: 15, clientHas: true, competitors: ['kirbycox.com'], score: 20, type: 'other', localRelevance: 'local', effort: 'easy' },
+    { domain: 'albertahomewarranty.ca', dr: 28, clientHas: false, competitors: ['reevesrealty.ca'], score: 19, type: 'industry', localRelevance: 'local', effort: 'medium' },
+    { domain: 'communitylinkyyc.ca', dr: 22, clientHas: false, competitors: ['thinkcalgaryhomes.com'], score: 18, type: 'directory', localRelevance: 'local', effort: 'easy' },
+    { domain: 'calgaryhomeshow.com', dr: 35, clientHas: false, competitors: ['justinhavre.com','bestcalgaryhomes.com'], score: 17, type: 'other', localRelevance: 'local', effort: 'medium' },
+    { domain: 'parkbench.com', dr: 40, clientHas: false, competitors: ['kirbycox.com'], score: 16, type: 'directory', localRelevance: 'national', effort: 'easy' },
+    { domain: 'moveup.ca', dr: 30, clientHas: false, competitors: ['calgaryhousefinder.ca'], score: 15, type: 'industry', localRelevance: 'national', effort: 'medium' },
+    { domain: 'calgarynortheasthomes.com', dr: 18, clientHas: false, competitors: ['thinkcalgaryhomes.com'], score: 14, type: 'industry', localRelevance: 'local', effort: 'easy' },
+    { domain: 'calgaryinfillguide.ca', dr: 20, clientHas: false, competitors: ['calgaryhomes.ca'], score: 13, type: 'blog', localRelevance: 'local', effort: 'medium' },
+    { domain: 'albertaflyer.ca', dr: 15, clientHas: false, competitors: ['bestcalgaryhomes.com'], score: 12, type: 'other', localRelevance: 'local', effort: 'easy' },
+    { domain: 'innercityliving.ca', dr: 25, clientHas: false, competitors: ['calgaryhomes.ca','justinhavre.com'], score: 11, type: 'blog', localRelevance: 'local', effort: 'medium' },
+    { domain: 'neighlife.ca', dr: 18, clientHas: true, competitors: ['thinkcalgaryhomes.com'], score: 10, type: 'directory', localRelevance: 'local', effort: 'easy' },
+    { domain: 'calgarywalkscores.com', dr: 22, clientHas: false, competitors: ['calgaryhomes.ca'], score: 9, type: 'other', localRelevance: 'local', effort: 'easy' },
+    { domain: 'nwcalgaryliving.ca', dr: 12, clientHas: false, competitors: ['thinkcalgaryhomes.com'], score: 8, type: 'blog', localRelevance: 'local', effort: 'easy' },
+    { domain: 'southcalgaryhomes.net', dr: 14, clientHas: false, competitors: ['bestcalgaryhomes.com'], score: 7, type: 'industry', localRelevance: 'local', effort: 'easy' },
+    { domain: 'calgarymortgagebroker.net', dr: 20, clientHas: false, competitors: ['reevesrealty.ca'], score: 6, type: 'industry', localRelevance: 'local', effort: 'medium' }
   ];
 
   // Computed stats
@@ -160,13 +224,389 @@
   var localOpps = MOCK_OPPORTUNITIES.filter(function(o) { return o.localRelevance === 'local'; });
 
   // ---------------------------------------------------------------------------
-  // Section 1: Summary + Chart + Insight
+  // Mockup backlink inventory (client's existing backlinks)
+  // ---------------------------------------------------------------------------
+  var MOCK_BACKLINKS = [
+    { sourceUrl: 'https://www.cirrealty.ca/agents/selling-calgary-castles', anchorText: 'Selling Calgary Castles', domainRating: 52, isDofollow: true, firstSeen: '2024-09-15' },
+    { sourceUrl: 'https://www.cirrealty.ca/calgary-real-estate', anchorText: 'Calgary real estate', domainRating: 52, isDofollow: true, firstSeen: '2024-09-15' },
+    { sourceUrl: 'https://newhomelistingservice.com/agents/alberta/calgary/selling-calgary-castles', anchorText: 'View listings', domainRating: 55, isDofollow: true, firstSeen: '2024-07-22' },
+    { sourceUrl: 'https://newhomelistingservice.com/calgary-homes-for-sale', anchorText: 'Calgary homes', domainRating: 55, isDofollow: true, firstSeen: '2024-08-01' },
+    { sourceUrl: 'https://newhomelistingservice.com/real-estate-agents/calgary', anchorText: 'sellingcalgarycastles.com', domainRating: 55, isDofollow: false, firstSeen: '2024-08-10' },
+    { sourceUrl: 'https://yellowpagesgoesgreen.org/listing/selling-calgary-castles', anchorText: 'Selling Calgary Castles', domainRating: 32, isDofollow: true, firstSeen: '2025-01-08' },
+    { sourceUrl: 'https://odp.org/Listing/selling-calgary-castles-ab', anchorText: 'sellingcalgarycastles.com', domainRating: 48, isDofollow: true, firstSeen: '2024-11-20' },
+    { sourceUrl: 'https://odp.org/Regional/North_America/Canada/Alberta/Calgary/Real_Estate', anchorText: 'Selling Calgary Castles - Calgary Real Estate', domainRating: 48, isDofollow: true, firstSeen: '2024-11-20' },
+    { sourceUrl: 'https://neighlife.ca/business/selling-calgary-castles', anchorText: 'Visit website', domainRating: 18, isDofollow: true, firstSeen: '2025-02-14' },
+    { sourceUrl: 'https://calgarydoorsdirect.ca/partners', anchorText: 'Selling Calgary Castles', domainRating: 15, isDofollow: true, firstSeen: '2025-03-01' },
+    { sourceUrl: 'https://www.google.com/maps/place/Selling+Calgary+Castles', anchorText: 'Website', domainRating: 98, isDofollow: false, firstSeen: '2024-06-10' },
+    { sourceUrl: 'https://www.bing.com/local/details/selling-calgary-castles', anchorText: 'sellingcalgarycastles.com', domainRating: 95, isDofollow: false, firstSeen: '2024-06-15' },
+    { sourceUrl: 'https://www.crea.ca/agents/selling-calgary-castles', anchorText: 'Agent website', domainRating: 72, isDofollow: false, firstSeen: '2024-10-05' },
+    { sourceUrl: 'https://www.homeguru.ca/agent-profile/selling-calgary-castles', anchorText: 'Selling Calgary Castles', domainRating: 28, isDofollow: true, firstSeen: '2025-01-20' },
+    { sourceUrl: 'https://www.findarealestate.ca/calgary/selling-calgary-castles', anchorText: 'View website', domainRating: 22, isDofollow: true, firstSeen: '2025-02-05' },
+    { sourceUrl: 'https://www.agentlocator.ca/agent/selling-calgary-castles', anchorText: 'sellingcalgarycastles.com', domainRating: 25, isDofollow: true, firstSeen: '2025-01-30' },
+    { sourceUrl: 'https://www.agentlocator.ca/calgary-real-estate-agents', anchorText: 'Selling Calgary Castles', domainRating: 25, isDofollow: false, firstSeen: '2025-01-30' },
+    { sourceUrl: 'https://www.calgaryhomesearch.org/agents', anchorText: 'Selling Calgary Castles', domainRating: 12, isDofollow: true, firstSeen: '2025-03-10' },
+    { sourceUrl: 'https://www.realestatecalgary.net/directory/selling-calgary-castles', anchorText: 'Visit site', domainRating: 18, isDofollow: true, firstSeen: '2025-02-28' },
+    { sourceUrl: 'https://www.abmls.ca/agents/selling-calgary-castles', anchorText: 'Website', domainRating: 30, isDofollow: false, firstSeen: '2024-12-12' }
+  ];
+
+  // ---------------------------------------------------------------------------
+  // Section 1: Your Backlink Profile
+  // ---------------------------------------------------------------------------
+  function renderBacklinkProfile() {
+    var container = document.getElementById('backlinks-content');
+    if (!container) return;
+
+    var dr = 14; // mockup DR for this new site
+    var drColor = dr >= 40 ? '#22c55e' : dr >= 20 ? '#eab308' : '#f97316';
+
+    // Stat cards
+    var html = '<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">';
+    html += '<div class="stat-card" style="border-left:4px solid ' + drColor + '">' +
+      '<div class="stat-label">Domain Rating</div>' +
+      '<div class="stat-value">' + dr + '</div>' +
+    '</div>';
+    html += '<div class="stat-card" style="border-left:4px solid #22c55e">' +
+      '<div class="stat-label">Referring Domains</div>' +
+      '<div class="stat-value">' + formatNumber(CLIENT.referringDomains) + '</div>' +
+    '</div>';
+    html += '<div class="stat-card" style="border-left:4px solid #3b82f6">' +
+      '<div class="stat-label">Total Backlinks</div>' +
+      '<div class="stat-value">' + formatNumber(CLIENT.backlinks) + '</div>' +
+    '</div>';
+    html += '<div class="stat-card" style="border-left:4px solid #8b5cf6">' +
+      '<div class="stat-label">Dofollow Ratio</div>' +
+      '<div class="stat-value">' + Math.round(CLIENT.dofollowRatio * 100) + '%</div>' +
+    '</div>';
+    html += '</div>';
+
+    // Group backlinks by referring domain
+    var domainGroups = {};
+    var domainOrder = [];
+    MOCK_BACKLINKS.forEach(function (link) {
+      var src = link.sourceUrl || '';
+      var domain;
+      try { domain = new URL(src).hostname.replace(/^www\./, ''); } catch (e) { domain = src; }
+      if (!domainGroups[domain]) {
+        domainGroups[domain] = { domain: domain, links: [], bestDR: null };
+        domainOrder.push(domain);
+      }
+      domainGroups[domain].links.push(link);
+      var linkDR = link.domainRating != null ? Number(link.domainRating) : null;
+      if (linkDR != null && (domainGroups[domain].bestDR == null || linkDR > domainGroups[domain].bestDR)) {
+        domainGroups[domain].bestDR = linkDR;
+      }
+    });
+
+    domainOrder.sort(function (a, b) {
+      return (domainGroups[b].bestDR || 0) - (domainGroups[a].bestDR || 0);
+    });
+
+    // Build inventory table rows
+    var rows = '';
+    domainOrder.forEach(function (domain) {
+      var group = domainGroups[domain];
+      var firstLink = group.links[0];
+      var hasMultiple = group.links.length > 1;
+      var groupId = 'bl-group-' + domain.replace(/[^a-z0-9]/g, '-');
+
+      var followBadge = firstLink.isDofollow == null
+        ? '<span class="severity-badge info">Unknown</span>'
+        : firstLink.isDofollow
+          ? '<span class="severity-badge low">Dofollow</span>'
+          : '<span class="severity-badge medium">Nofollow</span>';
+
+      rows += '<tr class="no-break">' +
+        '<td>' +
+          '<div class="font-medium text-slate-800">' + esc(domain) + '</div>' +
+          (hasMultiple
+            ? '<button class="text-xs text-blue-600 mt-1 cursor-pointer bg-transparent border-none p-0" style="cursor:pointer" onclick="(function(){ var el=document.getElementById(\'' + groupId + '\'); el.style.display = el.style.display===\'none\'?\'table-row-group\':\'none\'; this.textContent = el.style.display===\'none\'? \'Show ' + group.links.length + ' backlinks\' : \'Hide backlinks\'; }).call(this)">' +
+              'Show ' + group.links.length + ' backlinks' +
+            '</button>'
+            : '<div class="text-xs text-slate-500 mt-1 break-all">' + esc(firstLink.sourceUrl) + '</div>') +
+        '</td>' +
+        '<td><div class="text-slate-600 leading-relaxed">' + esc(firstLink.anchorText || 'No anchor') + '</div></td>' +
+        '<td>' + (group.bestDR != null ? group.bestDR : '—') + '</td>' +
+        '<td>' + followBadge + '</td>' +
+        '<td>' + group.links.length + '</td>' +
+        '<td>' + esc(firstLink.firstSeen || '') + '</td>' +
+      '</tr>';
+
+      if (hasMultiple) {
+        rows += '<tbody id="' + groupId + '" style="display:none">';
+        group.links.forEach(function (link) {
+          var childFollow = link.isDofollow == null
+            ? '<span class="severity-badge info">Unknown</span>'
+            : link.isDofollow
+              ? '<span class="severity-badge low">Dofollow</span>'
+              : '<span class="severity-badge medium">Nofollow</span>';
+
+          rows += '<tr class="no-break" style="background:#f8fafc">' +
+            '<td style="padding-left:2rem"><div class="text-xs text-slate-600 break-all">' + esc(link.sourceUrl) + '</div></td>' +
+            '<td><div class="text-xs text-slate-500">' + esc(link.anchorText || 'No anchor') + '</div></td>' +
+            '<td class="text-xs">' + (link.domainRating != null ? link.domainRating : '—') + '</td>' +
+            '<td>' + childFollow + '</td>' +
+            '<td></td>' +
+            '<td class="text-xs">' + esc(link.firstSeen || '') + '</td>' +
+          '</tr>';
+        });
+        rows += '</tbody>';
+      }
+    });
+
+    html += '<div class="mt-6">' +
+      '<h3 class="text-base font-bold text-slate-800 mb-1">Backlink Inventory</h3>' +
+      '<p class="text-sm text-slate-500 mb-4">Every external page linking to your site, grouped by referring domain and sorted by authority (Domain Rating). Click <strong>Show backlinks</strong> to expand domains with multiple links.</p>' +
+      '<div class="report-table-wrap">' +
+        '<table class="report-table report-table-sticky">' +
+          '<thead>' +
+            '<tr>' +
+              '<th>Referring Domain</th>' +
+              '<th>Anchor Text</th>' +
+              '<th>DR</th>' +
+              '<th>Follow</th>' +
+              '<th>Links</th>' +
+              '<th>First Seen</th>' +
+            '</tr>' +
+          '</thead>' +
+          '<tbody>' + rows + '</tbody>' +
+        '</table>' +
+      '</div>' +
+      '<div class="mt-3 px-2 text-sm text-slate-500">' + domainOrder.length + ' referring domains, ' + MOCK_BACKLINKS.length + ' total backlinks shown (of ' + formatNumber(CLIENT.backlinks) + ' total)</div>' +
+    '</div>';
+
+    container.innerHTML = html;
+  }
+
+  // ---------------------------------------------------------------------------
+  // Section 1: Key Insights & Next Steps
+  // ---------------------------------------------------------------------------
+  function renderInsights() {
+    var el = document.getElementById('insights-content');
+    if (!el) return;
+
+    var avgCompetitorRD = Math.round(COMPETITORS.reduce(function(s, c) { return s + c.referringDomains; }, 0) / COMPETITORS.length);
+    var easyHighPriority = highPriority.filter(function(o) { return o.effort === 'easy'; });
+    var mediumOpps = missingDomains.filter(function(o) { return o.effort === 'medium'; });
+    var hardOpps = missingDomains.filter(function(o) { return o.effort === 'hard'; });
+    var rdGap = avgCompetitorRD - CLIENT.referringDomains;
+
+    // --- Always visible: headline + stat cards + next steps ---
+    var html = '';
+
+    // One-line headline
+    html += '<div style="background:linear-gradient(135deg,#f0fdf4,#ecfdf5);border:1px solid #bbf7d0;border-radius:12px;padding:1rem 1.5rem;margin-bottom:1rem;display:flex;align-items:center;gap:10px">' +
+      '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#166534" style="width:22px;height:22px;flex-shrink:0"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" /></svg>' +
+      '<span style="font-size:0.95rem;color:#166534;line-height:1.5">' +
+        'You\'re <strong>' + formatNumber(rdGap) + ' referring domains behind</strong> the average competitor. ' +
+        'We found <strong>' + highPriority.length + ' high-priority gaps</strong> &mdash; ' + easyHighPriority.length + ' of which are easy wins you can start on today.' +
+      '</span>' +
+    '</div>';
+
+    // Stat cards
+    html += '<div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-4">' +
+      '<div class="stat-card severity-red">' +
+        '<div class="stat-value">' + highPriority.length + '</div>' +
+        '<div class="stat-label">High-Priority Gaps</div>' +
+        '<div style="font-size:0.7rem;color:#94a3b8;margin-top:2px">3+ competitors have it, you don\'t</div>' +
+      '</div>' +
+      '<div class="stat-card severity-green">' +
+        '<div class="stat-value">' + easyHighPriority.length + '</div>' +
+        '<div class="stat-label">Easy Wins</div>' +
+        '<div style="font-size:0.7rem;color:#94a3b8;margin-top:2px">Directories &amp; listings (~15 min each)</div>' +
+      '</div>' +
+      '<div class="stat-card severity-orange">' +
+        '<div class="stat-value">' + localOpps.length + '</div>' +
+        '<div class="stat-label">Local Opportunities</div>' +
+        '<div style="font-size:0.7rem;color:#94a3b8;margin-top:2px">Calgary/Alberta-specific links</div>' +
+      '</div>' +
+      '<div class="stat-card" style="border-left:3px solid var(--accent-blue)">' +
+        '<div class="stat-value" style="color:var(--accent-blue)">' + formatNumber(CLIENT.referringDomains) + '</div>' +
+        '<div class="stat-label">Your Referring Domains</div>' +
+        '<div style="font-size:0.7rem;color:#94a3b8;margin-top:2px">Competitor avg: ' + formatNumber(avgCompetitorRD) + '</div>' +
+      '</div>' +
+    '</div>';
+
+    // Next steps
+    html += '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px;margin-bottom:1.5rem">' +
+      '<div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:10px 14px">' +
+        '<div style="font-size:0.7rem;font-weight:700;color:#15803d;text-transform:uppercase;letter-spacing:0.05em">This week</div>' +
+        '<div style="font-size:0.85rem;color:#166534;margin-top:3px">Submit to <strong>' + easyHighPriority.length + ' easy</strong> directories &amp; listings</div>' +
+      '</div>' +
+      '<div style="background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:10px 14px">' +
+        '<div style="font-size:0.7rem;font-weight:700;color:#92400e;text-transform:uppercase;letter-spacing:0.05em">This month</div>' +
+        '<div style="font-size:0.85rem;color:#78350f;margin-top:3px">Outreach to <strong>' + mediumOpps.length + ' medium-effort</strong> industry sites</div>' +
+      '</div>' +
+      '<div style="background:#eff6ff;border:1px solid #bfdbfe;border-radius:8px;padding:10px 14px">' +
+        '<div style="font-size:0.7rem;font-weight:700;color:#1e40af;text-transform:uppercase;letter-spacing:0.05em">Ongoing</div>' +
+        '<div style="font-size:0.85rem;color:#1e3a8a;margin-top:3px">Earn <strong>' + hardOpps.length + ' press/blog</strong> links through content &amp; PR</div>' +
+      '</div>' +
+    '</div>';
+
+    // --- Collapsible "learn more" sections ---
+
+    // 1. Backlinks vs Referring Domains
+    html += '<div class="collapsible-header" style="margin-bottom:4px;padding:0.75rem 1.25rem;font-size:0.88rem">' +
+      '<span style="display:flex;align-items:center;gap:8px">' +
+        '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width:16px;height:16px;color:#64748b"><path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" /></svg>' +
+        'Backlinks vs Referring Domains &mdash; What\'s the Difference?' +
+      '</span>' +
+      '<span class="chevron" style="font-size:0.8rem;color:#94a3b8">&#9660;</span>' +
+    '</div>' +
+    '<div class="collapsible-body">' +
+      '<div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:8px">' +
+        '<div style="background:white;border:1px solid #e2e8f0;border-radius:10px;padding:1rem 1.25rem">' +
+          '<div style="font-weight:700;color:var(--navy-800);font-size:0.85rem;margin-bottom:6px;display:flex;align-items:center;gap:6px">' +
+            '<span style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:6px;background:#dbeafe;color:#2563eb;font-size:0.7rem;font-weight:800">RD</span>' +
+            'Referring Domains' +
+          '</div>' +
+          '<p style="font-size:0.82rem;color:#475569;line-height:1.5;margin:0 0 0.5rem 0">' +
+            'The number of <strong>unique websites</strong> linking to you. If cirrealty.ca links to you from 3 different pages, that still counts as <strong>1 referring domain</strong>.' +
+          '</p>' +
+          '<p style="font-size:0.82rem;color:#475569;line-height:1.5;margin:0">' +
+            'This is the metric search engines weigh most heavily &mdash; diversity of sources signals trustworthiness. <strong>Your count: ' + formatNumber(CLIENT.referringDomains) + '</strong>' +
+          '</p>' +
+        '</div>' +
+        '<div style="background:white;border:1px solid #e2e8f0;border-radius:10px;padding:1rem 1.25rem">' +
+          '<div style="font-weight:700;color:var(--navy-800);font-size:0.85rem;margin-bottom:6px;display:flex;align-items:center;gap:6px">' +
+            '<span style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:6px;background:#ede9fe;color:#7c3aed;font-size:0.7rem;font-weight:800">BL</span>' +
+            'Total Backlinks' +
+          '</div>' +
+          '<p style="font-size:0.82rem;color:#475569;line-height:1.5;margin:0 0 0.5rem 0">' +
+            'The <strong>total count of all links</strong> pointing to you, including multiple links from the same site. One domain with 5 pages linking to you = 5 backlinks, 1 referring domain.' +
+          '</p>' +
+          '<p style="font-size:0.82rem;color:#475569;line-height:1.5;margin:0">' +
+            'You have <strong>' + formatNumber(CLIENT.backlinks) + ' backlinks</strong> from ' + formatNumber(CLIENT.referringDomains) + ' domains &mdash; ' + (CLIENT.backlinks / CLIENT.referringDomains).toFixed(1) + ' links per domain on average.' +
+          '</p>' +
+        '</div>' +
+      '</div>' +
+    '</div>';
+
+    // 2. Understanding Your Gap
+    html += '<div class="collapsible-header" style="margin-bottom:4px;padding:0.75rem 1.25rem;font-size:0.88rem">' +
+      '<span style="display:flex;align-items:center;gap:8px">' +
+        '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width:16px;height:16px;color:#64748b"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5" /></svg>' +
+        'Understanding Your Gap' +
+      '</span>' +
+      '<span class="chevron" style="font-size:0.8rem;color:#94a3b8">&#9660;</span>' +
+    '</div>' +
+    '<div class="collapsible-body">' +
+      '<div style="background:white;border:1px solid #e2e8f0;border-radius:10px;padding:1rem 1.25rem;margin-top:8px">' +
+        '<p style="font-size:0.85rem;color:#475569;line-height:1.65;margin:0 0 0.75rem 0">' +
+          'You have <strong>' + formatNumber(CLIENT.referringDomains) + '</strong> referring domains linking to your site. The average competitor in your market has <strong>' + formatNumber(avgCompetitorRD) + '</strong> &mdash; that\'s a gap of <strong>' + formatNumber(rdGap) + '</strong> domains. ' +
+          'This gap matters because search engines use referring domains as one of their strongest ranking signals.' +
+        '</p>' +
+        '<p style="font-size:0.85rem;color:#475569;line-height:1.65;margin:0 0 0.75rem 0">' +
+          'We analyzed <strong>' + MOCK_OPPORTUNITIES.length + '</strong> referring domains across all ' + COMPETITORS.length + ' competitors and found <strong>' + highPriority.length + ' high-priority gaps</strong> &mdash; domains that 3 or more of your competitors have but you don\'t. ' +
+          'Of those, <strong>' + easyHighPriority.length + '</strong> are directories and listings where getting added is a simple self-submission process. ' +
+          'Another <strong>' + localOpps.length + '</strong> domains are Calgary or Alberta-specific, meaning they carry extra weight for local search rankings.' +
+        '</p>' +
+        '<p style="font-size:0.85rem;color:#475569;line-height:1.65;margin:0">' +
+          'You already share <strong>' + sharedDomains.length + '</strong> referring domains with at least one competitor &mdash; those are confirmed wins. The remaining <strong>' + missingDomains.length + '</strong> represent your total opportunity set.' +
+        '</p>' +
+      '</div>' +
+    '</div>';
+
+    // 3. How to Read This Report
+    var sectionStyle = 'display:flex;gap:12px;align-items:flex-start;padding:12px 0;border-bottom:1px solid #f1f5f9';
+    var numStyle = 'display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:8px;background:var(--navy-800);color:white;font-size:0.75rem;font-weight:700;flex-shrink:0;margin-top:2px';
+    var titleStyle = 'font-size:0.88rem;font-weight:700;color:var(--navy-800);margin-bottom:3px';
+    var descStyle = 'font-size:0.82rem;color:#475569;line-height:1.55;margin:0';
+    var tipStyle = 'font-size:0.78rem;color:#15803d;line-height:1.45;margin:6px 0 0 0;padding:6px 10px;background:#f0fdf4;border-radius:6px;border-left:3px solid #22c55e';
+
+    html += '<div class="collapsible-header" style="margin-bottom:4px;padding:0.75rem 1.25rem;font-size:0.88rem">' +
+      '<span style="display:flex;align-items:center;gap:8px">' +
+        '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width:16px;height:16px;color:#64748b"><path stroke-linecap="round" stroke-linejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498 4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 0 0-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0Z" /></svg>' +
+        'How to Read This Report' +
+      '</span>' +
+      '<span class="chevron" style="font-size:0.8rem;color:#94a3b8">&#9660;</span>' +
+    '</div>' +
+    '<div class="collapsible-body">' +
+      '<div style="background:white;border:1px solid #e2e8f0;border-radius:10px;padding:1.25rem 1.5rem;margin-top:8px">' +
+        '<p style="font-size:0.85rem;color:#64748b;line-height:1.55;margin:0 0 1rem 0">This report is organized so you can skim the highlights or dive deep into any area. Here\'s what each section covers and how to get the most from it.</p>' +
+
+        // Section 2 — Your Backlink Profile
+        '<div style="' + sectionStyle + '">' +
+          '<span style="' + numStyle + '">2</span>' +
+          '<div>' +
+            '<div style="' + titleStyle + '">Your Backlink Profile</div>' +
+            '<p style="' + descStyle + '">' +
+              'A snapshot of your current backlink authority: Domain Rating, referring domain count, total backlinks, and dofollow ratio. Below the stats is your <strong>Backlink Inventory</strong> &mdash; every known external link grouped by the referring domain, sorted by authority. Click "Show backlinks" on any domain to see each individual link URL and anchor text.' +
+            '</p>' +
+            '<p style="' + tipStyle + '">' +
+              '<strong>Why it matters:</strong> This is your baseline. Before chasing new links, understand what you already have. Look for low-DR or spammy domains that might need disavowed, and high-DR domains where you could pursue additional links from the same source.' +
+            '</p>' +
+          '</div>' +
+        '</div>' +
+
+        // Section 3 — Opportunity Summary
+        '<div style="' + sectionStyle + '">' +
+          '<span style="' + numStyle + '">3</span>' +
+          '<div>' +
+            '<div style="' + titleStyle + '">Opportunity Summary</div>' +
+            '<p style="' + descStyle + '">' +
+              'The big-picture gap analysis. Four stat cards show high-priority gaps (domains 3+ competitors share that you\'re missing), total domains analyzed, how many you already share, and your referring domain count vs the competitor average. The bar chart below plots your referring domains against every competitor side by side.' +
+            '</p>' +
+            '<p style="' + tipStyle + '">' +
+              '<strong>Why it matters:</strong> This section answers "how far behind am I?" in one glance. If your bar is dramatically shorter than competitors, link building should be a top priority. The "Already Shared" count shows you\'re not starting from zero &mdash; you have a foundation to build on.' +
+            '</p>' +
+          '</div>' +
+        '</div>' +
+
+        // Section 4 — Top Opportunities
+        '<div style="' + sectionStyle + '">' +
+          '<span style="' + numStyle + '">4</span>' +
+          '<div>' +
+            '<div style="' + titleStyle + '">Top Opportunities</div>' +
+            '<p style="' + descStyle + '">' +
+              'The 10 highest-value domains to target, ranked by a combined score of domain authority and competitor overlap. Each row shows the domain, its Domain Rating, difficulty level (easy/medium/hard), and how many competitors already have it. Click the expand button on any row to see exactly which competitors have the link and a suggested action for acquiring it.' +
+            '</p>' +
+            '<p style="' + tipStyle + '">' +
+              '<strong>How to use it:</strong> Work through this list top to bottom. "Easy" items (directories, listings, social profiles) can often be completed in 15&ndash;20 minutes each. "Medium" items require outreach emails. "Hard" items are earned media that take time but deliver the highest authority.' +
+            '</p>' +
+          '</div>' +
+        '</div>' +
+
+        // Section 5 — Backlink Intelligence
+        '<div style="' + sectionStyle + '">' +
+          '<span style="' + numStyle + '">5</span>' +
+          '<div>' +
+            '<div style="' + titleStyle + '">Backlink Intelligence</div>' +
+            '<p style="' + descStyle + '">' +
+              'A deep dive into the quality and character of every competitor\'s link profile. Includes: <strong>Type breakdown</strong> (what kinds of sites link to each competitor &mdash; directories, press, social, industry, blogs, etc.), <strong>local relevance</strong> (Calgary/Alberta-specific links carry extra local ranking weight), <strong>dofollow ratios</strong> (a healthy profile is 60&ndash;80% dofollow), <strong>Domain Rating distribution</strong> (the authority spread of linking sites), <strong>link velocity</strong> (who is actively building links right now), and a <strong>profile similarity heatmap</strong> that shows which competitors share the most linking domains. Click any cell in the heatmap to compare two profiles side by side.' +
+            '</p>' +
+            '<p style="' + tipStyle + '">' +
+              '<strong>How to use it:</strong> If a competitor has high link velocity (20+ new domains/month), they have an active campaign &mdash; study their profile to replicate their strategy. Use the type breakdown to identify categories where you have zero presence (e.g., no press links) and prioritize those gaps.' +
+            '</p>' +
+          '</div>' +
+        '</div>' +
+
+        // Section 6 — Detailed Analysis
+        '<div style="' + sectionStyle + ';border-bottom:none">' +
+          '<span style="' + numStyle + '">6</span>' +
+          '<div>' +
+            '<div style="' + titleStyle + '">Detailed Analysis</div>' +
+            '<p style="' + descStyle + '">' +
+              'The complete dataset with three switchable views: <strong>Opportunities</strong> is your working task list &mdash; every referring domain scored and filterable by type, difficulty, DR range, competitor overlap, local relevance, and more. <strong>By Competitor</strong> expands each competitor into a collapsible panel showing every referring domain they have and whether you have it too. <strong>Matrix</strong> is the bird\'s-eye view &mdash; toggle competitors on/off, switch between "all domains," "your gaps," and "unique to selected" to find patterns.' +
+            '</p>' +
+            '<p style="' + tipStyle + '">' +
+              '<strong>How to use it:</strong> Use the Opportunities view as your link-building checklist. Filter by "easy" + "local" for the fastest wins. Export the filtered list as your task list and work through it by score. Use the Matrix view when you want to study overlap patterns &mdash; domains that are unique to a single top-performing competitor often reveal their secret weapon.' +
+            '</p>' +
+          '</div>' +
+        '</div>' +
+
+      '</div>' +
+    '</div>';
+
+    el.innerHTML = html;
+  }
+
+  // ---------------------------------------------------------------------------
+  // Section 3: Opportunity Summary + Chart
   // ---------------------------------------------------------------------------
   function renderSummary() {
     var el = document.getElementById('summary-content');
     if (!el) return;
 
-    var avgCompetitorBacklinks = Math.round(COMPETITORS.reduce(function(s, c) { return s + c.backlinks; }, 0) / COMPETITORS.length);
     var avgCompetitorRD = Math.round(COMPETITORS.reduce(function(s, c) { return s + c.referringDomains; }, 0) / COMPETITORS.length);
 
     // Stat cards
@@ -190,39 +630,6 @@
         '<div class="stat-value">' + formatNumber(CLIENT.referringDomains) + '</div>' +
         '<div class="stat-label">Your Referring Domains</div>' +
         '<div style="font-size:0.7rem;color:#94a3b8;margin-top:2px">Competitor avg: ' + formatNumber(avgCompetitorRD) + '</div>' +
-      '</div>' +
-    '</div>';
-
-    // Insight card with actionable guidance
-    var easyHighPriority = highPriority.filter(function(o) { return o.effort === 'easy'; });
-    var mediumOpps = missingDomains.filter(function(o) { return o.effort === 'medium'; });
-    html += '<div style="background:linear-gradient(135deg,#f0fdf4,#ecfdf5);border:1px solid #bbf7d0;border-radius:12px;padding:1.25rem 1.5rem;margin-bottom:2rem">' +
-      '<div style="font-weight:700;color:#166534;margin-bottom:0.5rem;display:flex;align-items:center;gap:8px">' +
-        '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width:20px;height:20px"><path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" /></svg>' +
-        'Key Insight' +
-      '</div>' +
-      '<p style="font-size:0.9rem;color:#15803d;line-height:1.6;margin:0 0 0.75rem 0">' +
-        'You have <strong>' + CLIENT.referringDomains + '</strong> referring domains. The average competitor has <strong>' + avgCompetitorRD + '</strong>. ' +
-        'There are <strong>' + highPriority.length + ' high-priority domains</strong> that 3 or more competitors share but you don\'t have. ' +
-        'Of these, <strong>' + easyHighPriority.length + ' are directories or listings</strong> where getting listed is straightforward. ' +
-        'There are also <strong>' + localOpps.length + ' locally relevant</strong> referring domains specific to Calgary/Alberta.' +
-      '</p>' +
-      '<div style="border-top:1px solid #bbf7d0;padding-top:0.75rem">' +
-        '<div style="font-weight:700;color:#166534;font-size:0.82rem;margin-bottom:0.5rem">Recommended Next Steps</div>' +
-        '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px">' +
-          '<div style="background:rgba(255,255,255,0.7);border-radius:8px;padding:8px 12px">' +
-            '<div style="font-size:0.7rem;font-weight:700;color:#15803d;text-transform:uppercase;letter-spacing:0.05em">This week</div>' +
-            '<div style="font-size:0.82rem;color:#166534;margin-top:2px">Submit to <strong>' + easyHighPriority.length + ' easy</strong> directories &amp; listings (~15 min each)</div>' +
-          '</div>' +
-          '<div style="background:rgba(255,255,255,0.7);border-radius:8px;padding:8px 12px">' +
-            '<div style="font-size:0.7rem;font-weight:700;color:#15803d;text-transform:uppercase;letter-spacing:0.05em">This month</div>' +
-            '<div style="font-size:0.82rem;color:#166534;margin-top:2px">Outreach to <strong>' + mediumOpps.length + ' medium-effort</strong> industry sites &amp; associations</div>' +
-          '</div>' +
-          '<div style="background:rgba(255,255,255,0.7);border-radius:8px;padding:8px 12px">' +
-            '<div style="font-size:0.7rem;font-weight:700;color:#15803d;text-transform:uppercase;letter-spacing:0.05em">Ongoing</div>' +
-            '<div style="font-size:0.82rem;color:#166534;margin-top:2px">Target <strong>' + localOpps.length + ' local</strong> links for maximum local SEO impact</div>' +
-          '</div>' +
-        '</div>' +
       '</div>' +
     '</div>';
 
@@ -521,35 +928,52 @@
     // Three-column breakdown
     html += '<div style="display:grid;grid-template-columns:1fr auto 1fr;gap:12px;align-items:start">';
 
-    // Only A
-    html += '<div>' +
-      '<div style="font-size:0.75rem;font-weight:700;color:var(--accent-blue);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:8px">Only ' + esc(labelA) + ' (' + onlyA.length + ')</div>';
-    var showA = onlyA.slice(0, 5);
-    for (var a = 0; a < showA.length; a++) {
-      html += '<div style="font-size:0.78rem;color:#475569;padding:3px 0;border-bottom:1px solid #f1f5f9">' + esc(showA[a].domain) + ' <span style="color:#94a3b8">DR ' + showA[a].dr + '</span></div>';
+    // Helper to render an expandable domain list column
+    function renderDomainColumn(list, label, labelColor, colId) {
+      var col = '<div>' +
+        '<div style="font-size:0.75rem;font-weight:700;color:' + labelColor + ';text-transform:uppercase;letter-spacing:0.05em;margin-bottom:8px">' + esc(label) + ' (' + list.length + ')</div>';
+      var showCount = 5;
+      for (var i = 0; i < Math.min(list.length, showCount); i++) {
+        col += '<div style="font-size:0.78rem;color:#475569;padding:3px 0;border-bottom:1px solid #f1f5f9">' + esc(list[i].domain) + ' <span style="color:#94a3b8">DR ' + list[i].dr + '</span></div>';
+      }
+      if (list.length > showCount) {
+        var moreId = 'sim-more-' + colId;
+        var btnId = 'sim-btn-' + colId;
+        col += '<div id="' + moreId + '" style="display:none">';
+        for (var j = showCount; j < list.length; j++) {
+          col += '<div style="font-size:0.78rem;color:#475569;padding:3px 0;border-bottom:1px solid #f1f5f9">' + esc(list[j].domain) + ' <span style="color:#94a3b8">DR ' + list[j].dr + '</span></div>';
+        }
+        col += '<a href="javascript:void(0)" onclick="document.getElementById(\'' + moreId + '\').style.display=\'none\';document.getElementById(\'' + btnId + '\').style.display=\'block\'" style="font-size:0.72rem;color:var(--accent-blue);text-decoration:none;display:block;padding-top:4px">show less</a>';
+        col += '</div>';
+        col += '<a href="javascript:void(0)" id="' + btnId + '" onclick="document.getElementById(\'' + moreId + '\').style.display=\'block\';this.style.display=\'none\'" style="font-size:0.72rem;color:var(--accent-blue);text-decoration:none;display:block;padding-top:4px">+' + (list.length - showCount) + ' more</a>';
+      }
+      col += '</div>';
+      return col;
     }
-    if (onlyA.length > 5) html += '<div style="font-size:0.72rem;color:#94a3b8;padding-top:4px">+' + (onlyA.length - 5) + ' more</div>';
-    html += '</div>';
+
+    // Only A
+    html += renderDomainColumn(onlyA, 'Only ' + labelA, 'var(--accent-blue)', 'a');
 
     // Shared (center)
-    html += '<div style="text-align:center;padding:0 12px;border-left:1px solid #e2e8f0;border-right:1px solid #e2e8f0">' +
-      '<div style="font-size:0.75rem;font-weight:700;color:var(--sev-low);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:8px">Shared (' + shared.length + ')</div>';
+    html += '<div style="text-align:center;padding:0 12px;border-left:1px solid #e2e8f0;border-right:1px solid #e2e8f0">';
+    html += '<div style="font-size:0.75rem;font-weight:700;color:var(--sev-low);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:8px">Shared (' + shared.length + ')</div>';
     var showS = shared.slice(0, 5);
-    for (var s = 0; s < showS.length; s++) {
-      html += '<div style="font-size:0.78rem;color:#475569;padding:3px 0;border-bottom:1px solid #f1f5f9">' + esc(showS[s].domain) + ' <span style="color:#94a3b8">DR ' + showS[s].dr + '</span></div>';
+    for (var si = 0; si < showS.length; si++) {
+      html += '<div style="font-size:0.78rem;color:#475569;padding:3px 0;border-bottom:1px solid #f1f5f9">' + esc(showS[si].domain) + ' <span style="color:#94a3b8">DR ' + showS[si].dr + '</span></div>';
     }
-    if (shared.length > 5) html += '<div style="font-size:0.72rem;color:#94a3b8;padding-top:4px">+' + (shared.length - 5) + ' more</div>';
+    if (shared.length > 5) {
+      html += '<div id="sim-more-s" style="display:none">';
+      for (var sj = 5; sj < shared.length; sj++) {
+        html += '<div style="font-size:0.78rem;color:#475569;padding:3px 0;border-bottom:1px solid #f1f5f9">' + esc(shared[sj].domain) + ' <span style="color:#94a3b8">DR ' + shared[sj].dr + '</span></div>';
+      }
+      html += '<a href="javascript:void(0)" onclick="document.getElementById(\'sim-more-s\').style.display=\'none\';document.getElementById(\'sim-btn-s\').style.display=\'block\'" style="font-size:0.72rem;color:var(--accent-blue);text-decoration:none;display:block;padding-top:4px">show less</a>';
+      html += '</div>';
+      html += '<a href="javascript:void(0)" id="sim-btn-s" onclick="document.getElementById(\'sim-more-s\').style.display=\'block\';this.style.display=\'none\'" style="font-size:0.72rem;color:var(--accent-blue);text-decoration:none;display:block;padding-top:4px">+' + (shared.length - 5) + ' more</a>';
+    }
     html += '</div>';
 
     // Only B
-    html += '<div>' +
-      '<div style="font-size:0.75rem;font-weight:700;color:var(--accent-indigo);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:8px">Only ' + esc(labelB) + ' (' + onlyB.length + ')</div>';
-    var showB = onlyB.slice(0, 5);
-    for (var b = 0; b < showB.length; b++) {
-      html += '<div style="font-size:0.78rem;color:#475569;padding:3px 0;border-bottom:1px solid #f1f5f9">' + esc(showB[b].domain) + ' <span style="color:#94a3b8">DR ' + showB[b].dr + '</span></div>';
-    }
-    if (onlyB.length > 5) html += '<div style="font-size:0.72rem;color:#94a3b8;padding-top:4px">+' + (onlyB.length - 5) + ' more</div>';
-    html += '</div>';
+    html += renderDomainColumn(onlyB, 'Only ' + labelB, 'var(--accent-indigo)', 'b');
 
     html += '</div></div>';
     el.innerHTML = html;
@@ -605,20 +1029,7 @@
       '<p style="font-size:0.85rem;color:#64748b;margin-bottom:1rem">Links from Calgary and Alberta-specific sites carry extra weight for local SEO. These are your highest-value targets.</p>';
 
     if (localOpps.length > 0) {
-      html += '<div class="report-table-wrap"><table class="report-table"><thead><tr>' +
-        '<th>Domain</th><th class="text-center">DR</th><th>Type</th><th>Effort</th><th class="text-center">You Have?</th>' +
-        '</tr></thead><tbody>';
-      for (var l = 0; l < localOpps.length; l++) {
-        var lo = localOpps[l];
-        html += '<tr>' +
-          '<td style="font-weight:600">' + esc(lo.domain) + ' ' + localBadge('local') + '</td>' +
-          '<td class="text-center">' + lo.dr + '</td>' +
-          '<td>' + typeBadge(lo.type) + '</td>' +
-          '<td>' + effortBadge(lo.effort) + '</td>' +
-          '<td class="text-center" style="color:' + (lo.clientHas ? 'var(--sev-low)' : 'var(--sev-critical)') + ';font-weight:600">' + (lo.clientHas ? 'Yes' : 'No') + '</td>' +
-        '</tr>';
-      }
-      html += '</tbody></table></div>';
+      html += '<div id="local-opps-container"></div>';
     } else {
       html += '<p style="color:#94a3b8;font-style:italic">No locally relevant referring domains found.</p>';
     }
@@ -803,6 +1214,85 @@
         });
       }
     }, 150);
+
+    // Render paginated local opps table
+    if (localOpps.length > 0) renderLocalOppsPage();
+  }
+
+  // --- Local Relevance pagination ---
+  var localPageSize = 10;
+  var localCurrentPage = 1;
+
+  function renderLocalOppsPage() {
+    var container = document.getElementById('local-opps-container');
+    if (!container) return;
+
+    var totalPages = Math.max(1, Math.ceil(localOpps.length / localPageSize));
+    if (localCurrentPage > totalPages) localCurrentPage = totalPages;
+    var start = (localCurrentPage - 1) * localPageSize;
+    var pageItems = localOpps.slice(start, start + localPageSize);
+
+    // Page size selector
+    var html = '<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;flex-wrap:wrap;gap:8px">' +
+      '<span style="font-size:0.78rem;color:#64748b">' + localOpps.length + ' locally relevant domains</span>' +
+      '<div style="display:flex;align-items:center;gap:6px">' +
+        '<span style="font-size:0.75rem;color:#94a3b8">Show</span>';
+    var sizes = [10, 15, 25];
+    for (var si = 0; si < sizes.length; si++) {
+      var isActive = sizes[si] === localPageSize;
+      html += '<button class="local-size-btn" data-size="' + sizes[si] + '" style="padding:3px 10px;font-size:0.72rem;border-radius:6px;cursor:pointer;font-family:inherit;font-weight:' + (isActive ? '700' : '400') + ';' +
+        (isActive ? 'background:var(--accent-blue);color:white;border:1px solid var(--accent-blue)' : 'background:white;border:1px solid #e2e8f0;color:#64748b') + '">' + sizes[si] + '</button>';
+    }
+    html += '<span style="font-size:0.75rem;color:#94a3b8">per page</span>' +
+      '</div></div>';
+
+    // Table
+    html += '<div class="report-table-wrap"><table class="report-table"><thead><tr>' +
+      '<th>Domain</th><th class="text-center">DR</th><th>Type</th><th>Effort</th><th class="text-center">You Have?</th>' +
+      '</tr></thead><tbody>';
+    for (var i = 0; i < pageItems.length; i++) {
+      var lo = pageItems[i];
+      html += '<tr>' +
+        '<td style="font-weight:600">' + esc(lo.domain) + ' ' + localBadge('local') + '</td>' +
+        '<td class="text-center">' + lo.dr + '</td>' +
+        '<td>' + typeBadge(lo.type) + '</td>' +
+        '<td>' + effortBadge(lo.effort) + '</td>' +
+        '<td class="text-center" style="color:' + (lo.clientHas ? 'var(--sev-low)' : 'var(--sev-critical)') + ';font-weight:600">' + (lo.clientHas ? 'Yes' : 'No') + '</td>' +
+      '</tr>';
+    }
+    html += '</tbody></table></div>';
+
+    // Pagination controls
+    if (totalPages > 1) {
+      html += '<div style="display:flex;align-items:center;justify-content:space-between;padding:8px 2px;margin-top:6px;font-size:0.78rem;color:#64748b">' +
+        '<span>Showing ' + (start + 1) + '&ndash;' + Math.min(start + localPageSize, localOpps.length) + ' of ' + localOpps.length + '</span>' +
+        '<div style="display:flex;gap:4px">';
+      for (var p = 1; p <= totalPages; p++) {
+        var pActive = p === localCurrentPage;
+        html += '<button class="local-page-btn" data-page="' + p + '" style="padding:3px 10px;font-size:0.72rem;border-radius:6px;cursor:pointer;font-family:inherit;font-weight:' + (pActive ? '700' : '400') + ';' +
+          (pActive ? 'background:var(--accent-blue);color:white;border:1px solid var(--accent-blue)' : 'background:white;border:1px solid #e2e8f0;color:#64748b') + '">' + p + '</button>';
+      }
+      html += '</div></div>';
+    }
+
+    container.innerHTML = html;
+
+    // Wire up page size buttons
+    container.querySelectorAll('.local-size-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        localPageSize = parseInt(this.getAttribute('data-size'));
+        localCurrentPage = 1;
+        renderLocalOppsPage();
+      });
+    });
+
+    // Wire up page buttons
+    container.querySelectorAll('.local-page-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        localCurrentPage = parseInt(this.getAttribute('data-page'));
+        renderLocalOppsPage();
+      });
+    });
   }
 
   function renderDofollowCard(domain, ratio, isClient) {
@@ -969,6 +1459,17 @@
       setTimeout(bindFilterEvents, 50);
     }
 
+    if (activeView === 'competitor') {
+      el.querySelectorAll('.comp-page-btn').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var ci = parseInt(this.getAttribute('data-comp'));
+          var pg = parseInt(this.getAttribute('data-page'));
+          compPages[ci] = pg;
+          renderDetails();
+        });
+      });
+    }
+
     if (activeView === 'matrix') {
       el.querySelectorAll('.matrix-comp-chip').forEach(function(chip) {
         chip.addEventListener('click', function() {
@@ -976,12 +1477,20 @@
           var idx = matrixSelectedComps.indexOf(d);
           if (idx === -1) matrixSelectedComps.push(d);
           else matrixSelectedComps.splice(idx, 1);
+          matrixPage = 1;
           renderDetails();
         });
       });
       el.querySelectorAll('.matrix-mode-btn').forEach(function(btn) {
         btn.addEventListener('click', function() {
           matrixOverlapMode = this.getAttribute('data-mode');
+          matrixPage = 1;
+          renderDetails();
+        });
+      });
+      el.querySelectorAll('.matrix-page-btn').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          matrixPage = parseInt(this.getAttribute('data-page'));
           renderDetails();
         });
       });
@@ -1227,6 +1736,9 @@
     '</div>';
   }
 
+  var COMP_PAGE_SIZE = 15;
+  var compPages = {}; // keyed by competitor index
+
   function renderCompetitorView() {
     var html = '';
     for (var c = 0; c < COMPETITORS.length; c++) {
@@ -1235,18 +1747,24 @@
         return o.competitors.indexOf(comp.domain) !== -1;
       }).sort(function(a, b) { return b.dr - a.dr; });
       var isFirst = c === 0;
+      if (!compPages[c]) compPages[c] = 1;
+
+      var totalPages = Math.max(1, Math.ceil(compOpps.length / COMP_PAGE_SIZE));
+      if (compPages[c] > totalPages) compPages[c] = totalPages;
+      var start = (compPages[c] - 1) * COMP_PAGE_SIZE;
+      var pageOpps = compOpps.slice(start, start + COMP_PAGE_SIZE);
 
       html += '<div class="collapsible-header' + (isFirst ? ' open' : '') + '">' +
         '<span style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">' +
           '<strong>' + esc(comp.domain) + '</strong>' +
-          '<span style="font-weight:400;color:#64748b;font-size:0.85rem">' + formatNumber(comp.referringDomains) + ' referring domains &middot; ' + formatNumber(comp.backlinks) + ' backlinks</span>' +
+          '<span style="font-weight:400;color:#64748b;font-size:0.85rem">' + compOpps.length + ' shared domains &middot; ' + formatNumber(comp.referringDomains) + ' total referring domains</span>' +
         '</span>' +
         '<span class="chevron" style="transition:transform 0.2s;font-size:0.8rem;color:#94a3b8;' + (isFirst ? 'transform:rotate(180deg)' : '') + '">&#9660;</span>' +
       '</div>';
 
       var rows = '';
-      for (var r = 0; r < compOpps.length; r++) {
-        var opp = compOpps[r];
+      for (var r = 0; r < pageOpps.length; r++) {
+        var opp = pageOpps[r];
         rows += '<tr>' +
           '<td><div style="font-weight:600">' + esc(opp.domain) + '</div><div class="flex gap-1 mt-1">' + typeBadge(opp.type) + effortBadge(opp.effort) + '</div></td>' +
           '<td class="text-center">' + opp.dr + '</td>' +
@@ -1255,11 +1773,26 @@
         '</tr>';
       }
 
+      // Pagination controls
+      var pagHtml = '';
+      if (totalPages > 1) {
+        pagHtml = '<div style="display:flex;align-items:center;justify-content:space-between;padding:8px 12px;font-size:0.78rem;color:#64748b;border-top:1px solid #e2e8f0">' +
+          '<span>Showing ' + (start + 1) + '-' + Math.min(start + COMP_PAGE_SIZE, compOpps.length) + ' of ' + compOpps.length + '</span>' +
+          '<div style="display:flex;gap:4px">';
+        for (var p = 1; p <= totalPages; p++) {
+          var isActive = p === compPages[c];
+          pagHtml += '<button class="comp-page-btn" data-comp="' + c + '" data-page="' + p + '" style="padding:3px 10px;font-size:0.72rem;border-radius:6px;cursor:pointer;font-family:inherit;font-weight:' + (isActive ? '700' : '400') + ';' +
+            (isActive ? 'background:var(--accent-blue);color:white;border:1px solid var(--accent-blue)' : 'background:white;border:1px solid #e2e8f0;color:#64748b') + '">' + p + '</button>';
+        }
+        pagHtml += '</div></div>';
+      }
+
       html += '<div class="collapsible-body' + (isFirst ? ' open' : '') + '" style="' + (isFirst ? 'display:block' : 'display:none') + ';margin-bottom:12px">' +
         '<div class="report-table-wrap" style="margin-top:8px">' +
           '<table class="report-table"><thead><tr>' +
             '<th>Referring Domain</th><th class="text-center">DR</th><th class="text-center">You Have?</th><th class="text-center">Total Competitors</th>' +
           '</tr></thead><tbody>' + rows + '</tbody></table>' +
+          pagHtml +
         '</div></div>';
     }
     return html;
@@ -1270,6 +1803,8 @@
   // ---------------------------------------------------------------------------
   var matrixSelectedComps = null; // null = all selected (initialized on first render)
   var matrixOverlapMode = 'all'; // 'all' | 'shared-only' | 'gaps-only' | 'unique'
+  var MATRIX_PAGE_SIZE = 25;
+  var matrixPage = 1;
 
   function initMatrixSelection() {
     if (matrixSelectedComps !== null) return;
@@ -1354,9 +1889,15 @@
     }
     headerCols += '<th class="text-center" style="font-size:0.75rem">Overlap</th>';
 
+    // Paginate
+    var totalMatrixPages = Math.max(1, Math.ceil(filtered.length / MATRIX_PAGE_SIZE));
+    if (matrixPage > totalMatrixPages) matrixPage = totalMatrixPages;
+    var mStart = (matrixPage - 1) * MATRIX_PAGE_SIZE;
+    var pageFiltered = filtered.slice(mStart, mStart + MATRIX_PAGE_SIZE);
+
     var rows = '';
-    for (var i = 0; i < filtered.length; i++) {
-      var opp = filtered[i];
+    for (var i = 0; i < pageFiltered.length; i++) {
+      var opp = pageFiltered[i];
       var clientCell = opp.clientHas
         ? '<td class="text-center" style="background:#f0fdf4;color:var(--sev-low);font-weight:700">&#10003;</td>'
         : '<td class="text-center" style="background:#fef2f2;color:var(--sev-critical);font-weight:700">&#10007;</td>';
@@ -1386,15 +1927,30 @@
       emptyMsg = '<tr><td colspan="' + colSpan + '" style="text-align:center;padding:2rem;color:#94a3b8;font-style:italic">No domains match the current selection.</td></tr>';
     }
 
+    // Matrix pagination
+    var matPag = '';
+    if (totalMatrixPages > 1) {
+      matPag = '<div style="display:flex;align-items:center;justify-content:space-between;padding:8px 0;font-size:0.78rem;color:#64748b">' +
+        '<span>Showing ' + (mStart + 1) + '-' + Math.min(mStart + MATRIX_PAGE_SIZE, filtered.length) + ' of ' + filtered.length + ' domains</span>' +
+        '<div style="display:flex;gap:4px">';
+      for (var mp = 1; mp <= totalMatrixPages; mp++) {
+        var mActive = mp === matrixPage;
+        matPag += '<button class="matrix-page-btn" data-page="' + mp + '" style="padding:3px 10px;font-size:0.72rem;border-radius:6px;cursor:pointer;font-family:inherit;font-weight:' + (mActive ? '700' : '400') + ';' +
+          (mActive ? 'background:var(--accent-blue);color:white;border:1px solid var(--accent-blue)' : 'background:white;border:1px solid #e2e8f0;color:#64748b') + '">' + mp + '</button>';
+      }
+      matPag += '</div></div>';
+    }
+
     return chips +
       '<div class="report-table-wrap" style="overflow-x:auto">' +
         '<table class="report-table"><thead><tr>' + headerCols + '</tr></thead><tbody>' + (rows || emptyMsg) + '</tbody></table>' +
       '</div>' +
+      matPag +
       '<div class="flex flex-wrap gap-4 mt-3" style="font-size:0.75rem;color:#94a3b8">' +
         '<span><strong style="color:var(--sev-low)">&#10003;</strong> = has link</span>' +
         '<span><strong style="color:var(--sev-critical)">&#10007;</strong> = you\'re missing this</span>' +
         '<span><strong style="color:#cbd5e1">&#8212;</strong> = competitor doesn\'t have it either</span>' +
-        '<span style="margin-left:auto">' + filtered.length + ' domains shown</span>' +
+        '<span style="margin-left:auto">' + filtered.length + ' total domains</span>' +
       '</div>';
   }
 
@@ -1405,10 +1961,20 @@
     if (!window.TPPC.explainer || !window.TPPC.explainer.registerExplanations) return;
 
     window.TPPC.explainer.registerExplanations({
-      'section-summary': {
+      'section-insights': {
         title: 'How to Use This Page',
-        explanation: 'Referring domains are websites that link to yours. Search engines treat each linking domain as a "vote of confidence." This page compares your referring domains against competitors to find link-building opportunities — sites that link to them but not to you. Start with "easy" + "high priority" items (directories and listings you can submit to today), then tackle "medium" effort outreach, then long-term "hard" earned links.',
+        explanation: 'This page compares your referring domains against competitors to find link-building opportunities — sites that link to them but not to you. The key insight card shows where you stand relative to competitors and highlights the fastest wins. Start with "easy" + "high priority" items (directories and listings you can submit to today), then tackle "medium" effort outreach, then long-term "hard" earned links.',
         tip: 'Use the filters in the Detailed Analysis section to focus on one category at a time. Start with "easy" + "local" for the quickest local SEO wins.'
+      },
+      'section-backlinks': {
+        title: 'Your Backlink Profile',
+        explanation: 'This is your current backlink profile — the external sites already linking to you. Domain Rating (DR) measures your site\'s overall link authority on a 0-100 scale. Referring domains count unique websites linking to you (more important than total backlinks). The inventory table shows every known external link grouped by source domain.',
+        tip: 'A healthy profile has diverse referring domains with mostly dofollow links. Compare your DR and referring domain count against competitors in the next section to see where you stand.'
+      },
+      'section-summary': {
+        title: 'Opportunity Summary',
+        explanation: 'This section shows the gap between your backlink profile and your competitors at a glance. The stat cards highlight how many high-priority domains you\'re missing, how many you already share, and the total pool analyzed. The bar chart compares your referring domain count directly against each competitor — the bigger the gap, the more opportunity there is.',
+        tip: 'Focus on the "High-Priority Gaps" number first. These are domains where 3+ competitors have links but you don\'t — they\'re table-stakes links you should prioritize.'
       },
       'section-top-opportunities': {
         title: 'Top Opportunities',
@@ -1432,11 +1998,28 @@
   // Init
   // ---------------------------------------------------------------------------
   function init() {
+    renderInsights();
+    renderBacklinkProfile();
     renderSummary();
     renderTopOpportunities();
     renderIntelligence();
     renderDetails();
     registerExplainers();
+
+    // PDF download button
+    var pdfBtn = document.getElementById('download-pdf-btn');
+    if (pdfBtn) {
+      pdfBtn.addEventListener('click', function() {
+        // Prepare: show all data for complete PDF
+        if (window.TPPC.print && window.TPPC.print.preparePDF) {
+          window.TPPC.print.preparePDF();
+        }
+        // Small delay to let DOM update, then print
+        setTimeout(function() {
+          window.print();
+        }, 100);
+      });
+    }
   }
 
   window.TPPC.pages.backlinkOpportunities = {

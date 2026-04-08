@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "script": "domain_metrics",
+    "domains_requested": 8,
+    "domains_returned": 8,
+    "api_calls": 8,
+    "errors": []
+  },
+  "data": [
+    {
+      "domain": "sellingcalgarycastles.com",
+      "domain_rating": 45.0,
+      "referring_domains": 209,
+      "backlinks": 280,
+      "organic_traffic": null,
+      "source": "dataforseo"
+    },
+    {
+      "domain": "justinhavre.com",
+      "domain_rating": 392.0,
+      "referring_domains": 1162,
+      "backlinks": 47564,
+      "organic_traffic": null,
+      "source": "dataforseo"
+    },
+    {
+      "domain": "calgaryhomes.ca",
+      "domain_rating": 316.0,
+      "referring_domains": 1016,
+      "backlinks": 5792,
+      "organic_traffic": null,
+      "source": "dataforseo"
+    },
+    {
+      "domain": "calgaryhousefinder.ca",
+      "domain_rating": 257.0,
+      "referring_domains": 433,
+      "backlinks": 1473,
+      "organic_traffic": null,
+      "source": "dataforseo"
+    },
+    {
+      "domain": "kirbycox.com",
+      "domain_rating": 271.0,
+      "referring_domains": 443,
+      "backlinks": 3375,
+      "organic_traffic": null,
+      "source": "dataforseo"
+    },
+    {
+      "domain": "reevesrealty.ca",
+      "domain_rating": 204.0,
+      "referring_domains": 61,
+      "backlinks": 523,
+      "organic_traffic": null,
+      "source": "dataforseo"
+    },
+    {
+      "domain": "bestcalgaryhomes.com",
+      "domain_rating": 218.0,
+      "referring_domains": 581,
+      "backlinks": 1842,
+      "organic_traffic": null,
+      "source": "dataforseo"
+    },
+    {
+      "domain": "thinkcalgaryhomes.com",
+      "domain_rating": 129.0,
+      "referring_domains": 107,
+      "backlinks": 497,
+      "organic_traffic": null,
+      "source": "dataforseo"
+    }
+  ]
+}

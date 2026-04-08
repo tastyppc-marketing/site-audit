@@ -169,6 +169,12 @@
       explanation: 'Link depth measures how many clicks it takes to reach a page from your homepage. Pages buried 4+ clicks deep are harder for Google to find and rank. Important pages should be within 1-2 clicks.',
       tip: 'If your best content is buried deep in the site, add direct links from your homepage or main navigation.'
     },
+    'section-backlinks': {
+      title: 'Backlink Profile',
+      explanation: 'Backlinks are links from other websites pointing to yours. Google treats them like votes of confidence — the more quality sites that link to you, the more Google trusts your site. Domain Rating (DR) is a score from 0-100 measuring your overall backlink strength.',
+      tip: 'Quality beats quantity. One link from a trusted local news site is worth more than 100 links from random directories.'
+    },
+
     // ===== COMPETITORS =====
     'section-radar': {
       title: 'Competitor Health Radar',
@@ -271,12 +277,6 @@
   }
 
   function _createWidget() {
-    // Guard against duplicate creation (boot can fire twice)
-    if (document.getElementById('explainer-widget')) {
-      _widgetEl = document.getElementById('explainer-widget');
-      return;
-    }
-
     // Create the floating explainer card
     var widget = document.createElement('div');
     widget.id = 'explainer-widget';
@@ -298,24 +298,19 @@
     document.body.appendChild(widget);
     _widgetEl = widget;
 
-    // Toggle minimize/expand — entire header is clickable
-    var header = widget.querySelector('.explainer-widget__header');
+    // Toggle minimize/expand
     var toggleBtn = document.getElementById('explainer-toggle');
-    function _toggle() {
-      widget.classList.toggle('minimized');
-      var svg = toggleBtn ? toggleBtn.querySelector('svg') : null;
-      if (widget.classList.contains('minimized')) {
-        if (toggleBtn) toggleBtn.title = 'Expand';
-        if (svg) svg.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />';
-      } else {
-        if (toggleBtn) toggleBtn.title = 'Minimize';
-        if (svg) svg.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />';
-      }
-    }
-    if (header) header.addEventListener('click', _toggle);
     if (toggleBtn) {
-      toggleBtn.addEventListener('click', function (e) {
-        e.stopPropagation(); // prevent double-fire from header click
+      toggleBtn.addEventListener('click', function () {
+        widget.classList.toggle('minimized');
+        var svg = toggleBtn.querySelector('svg');
+        if (widget.classList.contains('minimized')) {
+          toggleBtn.title = 'Expand';
+          svg.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />';
+        } else {
+          toggleBtn.title = 'Minimize';
+          svg.innerHTML = '<path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />';
+        }
       });
     }
   }
