@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://cdn.tailwindcss.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+  <title>Technical SEO &amp; Performance | SEO Audit Report</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+
+  <link rel="stylesheet" href="shared/report-styles.css">
+  <link rel="stylesheet" href="shared/multipage-nav.css">
+
+  <script id="audit-data-inject">
+    window.AUDIT_DATA = /* __AUDIT_DATA_PLACEHOLDER__ */null;
+    window.SEARCH_INDEX = /* __SEARCH_INDEX_PLACEHOLDER__ */[];
+  </script>
+
+  <script>
+    window.TPPC = window.TPPC || {};
+    window.TPPC.currentPage = 'technical';
+
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: {
+              900: '#0b1629',
+              800: '#111d35',
+              700: '#172644',
+              600: '#1e3a5f'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="font-sans antialiased multipage">
+  <nav id="top-nav" class="fixed top-0 left-0 right-0 z-50 bg-navy-900"></nav>
+  <div id="mobile-drawer" class="fixed inset-0 z-40 lg:hidden"></div>
+
+  <div class="flex min-h-screen">
+    <aside id="side-nav" class="hidden lg:block w-56 fixed top-16 left-0 bottom-0"></aside>
+
+    <main id="page-content" class="flex-1 min-h-screen">
+      <header class="hero-section rounded-[28px] overflow-hidden shadow-sm mb-8">
+        <div class="max-w-6xl mx-auto px-6 py-12 md:py-14 relative z-10">
+          <div class="flex flex-col xl:flex-row xl:items-end xl:justify-between gap-8">
+            <div class="max-w-3xl">
+              <div class="text-blue-300 text-sm font-semibold tracking-[0.18em] uppercase mb-3">Page 4</div>
+              <h1 class="text-3xl md:text-5xl font-extrabold leading-tight">Technical SEO &amp; Performance</h1>
+              <p class="mt-4 text-blue-100 text-base md:text-lg leading-relaxed">
+                Core Web Vitals, PageSpeed benchmarking, schema coverage, metadata health,
+                crawl issues, and site-structure findings that affect indexability and rankings.
+              </p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 gap-3 min-w-0 xl:min-w-[360px]">
+              <div class="rounded-2xl border border-white/10 bg-white/10 backdrop-blur px-4 py-3">
+                <div class="text-[0.7rem] uppercase tracking-[0.14em] text-blue-200">Performance</div>
+                <div class="mt-1 text-sm font-semibold text-white">CWV gauges + Lighthouse snapshots</div>
+              </div>
+              <div class="rounded-2xl border border-white/10 bg-white/10 backdrop-blur px-4 py-3">
+                <div class="text-[0.7rem] uppercase tracking-[0.14em] text-blue-200">Markup</div>
+                <div class="mt-1 text-sm font-semibold text-white">Schema and meta-tag coverage</div>
+              </div>
+              <div class="rounded-2xl border border-white/10 bg-white/10 backdrop-blur px-4 py-3">
+                <div class="text-[0.7rem] uppercase tracking-[0.14em] text-blue-200">Crawl Health</div>
+                <div class="mt-1 text-sm font-semibold text-white">Status codes and redirect issues</div>
+              </div>
+              <div class="rounded-2xl border border-white/10 bg-white/10 backdrop-blur px-4 py-3">
+                <div class="text-[0.7rem] uppercase tracking-[0.14em] text-blue-200">Page Audits</div>
+                <div class="mt-1 text-sm font-semibold text-white">Structure, links, and content signals</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="report-section" id="section-cwv">
+        <div class="section-heading">
+          <span class="section-number">1</span>
+          Core Web Vitals
+        </div>
+        <p class="section-sub">Lab-based performance signals for mobile and desktop templates.</p>
+        <div id="section-cwv-content"></div>
+      </section>
+
+      <section class="report-section" id="section-pagespeed">
+        <div class="section-heading">
+          <span class="section-number">2</span>
+          PageSpeed Scores
+        </div>
+        <p class="section-sub">Existing comparison benchmarks plus page-level Lighthouse results when provided.</p>
+        <div id="section-pagespeed-content"></div>
+      </section>
+
+      <section class="report-section" id="section-schema">
+        <div class="section-heading">
+          <span class="section-number">3</span>
+          Schema Markup Audit
+        </div>
+        <p class="section-sub">Structured data coverage, detected entity types, and page-level schema gaps.</p>
+        <div id="section-schema-content"></div>
+      </section>
+
+      <section class="report-section" id="section-meta">
+        <div class="section-heading">
+          <span class="section-number">4</span>
+          Meta Tag Audit
+        </div>
+        <p class="section-sub">Title, description, and canonical coverage across the audited site.</p>
+        <div id="section-meta-content"></div>
+      </section>
+
+      <section class="report-section" id="section-crawl">
+        <div class="section-heading">
+          <span class="section-number">5</span>
+          Crawl Issues
+        </div>
+        <p class="section-sub">Broken URLs, redirects, and crawl blockers surfaced during the technical audit.</p>
+        <div id="section-crawl-content"></div>
+      </section>
+
+      <section class="report-section" id="section-sitestructure">
+        <div class="section-heading">
+          <span class="section-number">6</span>
+          Site Structure Overview
+        </div>
+        <p class="section-sub">Page-level audit inventory covering word count, links, schema, and issue density.</p>
+        <div id="section-sitestructure-content"></div>
+      </section>
+    </main>
+  </div>
+
+  <script defer src="shared/utils.js"></script>
+  <script defer src="shared/data-loader.js"></script>
+  <script defer src="shared/charts.js"></script>
+  <script defer src="shared/nav.js"></script>
+  <script defer src="shared/search.js"></script>
+  <script defer src="shared/table-filters.js"></script>
+  <script defer src="shared/print.js"></script>
+  <script defer src="shared/explainer.js"></script>
+  <script defer src="pages/technical.js"></script>
+</body>
+</html>

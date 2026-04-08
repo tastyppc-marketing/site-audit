@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://cdn.tailwindcss.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+  <title>SEO Audit Report</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+
+  <link rel="stylesheet" href="shared/report-styles.css">
+  <link rel="stylesheet" href="shared/multipage-nav.css">
+
+  <script id="audit-data-inject">
+    window.AUDIT_DATA = /* __AUDIT_DATA_PLACEHOLDER__ */null;
+    window.SEARCH_INDEX = /* __SEARCH_INDEX_PLACEHOLDER__ */[];
+  </script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: {
+              900: '#0b1629',
+              800: '#111d35',
+              700: '#172644',
+              600: '#1e3a5f'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="font-sans antialiased multipage">
+  <nav id="top-nav" class="fixed top-0 left-0 right-0 z-50 bg-navy-900"></nav>
+
+  <div id="mobile-drawer" class="fixed inset-0 z-40 hidden"></div>
+
+  <div class="flex pt-16">
+    <aside id="side-nav" class="hidden lg:block w-56 fixed top-16 left-0 bottom-0"></aside>
+
+    <main id="page-content" class="flex-1 lg:ml-56 min-h-screen">
+      <header class="hero-section" id="section-hero">
+        <div class="max-w-6xl mx-auto px-6 py-16 md:py-24 relative z-10">
+          <div class="flex flex-col md:flex-row items-center md:items-start justify-between gap-8">
+            <div class="flex-1 text-center md:text-left">
+              <div id="hero-service-type" class="text-blue-300 text-sm font-semibold tracking-widest uppercase mb-3">SEO Audit Report</div>
+              <h1 id="hero-client" class="text-3xl md:text-5xl font-extrabold mb-2 leading-tight"></h1>
+              <p id="hero-website" class="text-blue-200 text-lg mb-6"></p>
+              <div class="flex flex-wrap gap-4 text-sm text-slate-300 justify-center md:justify-start">
+                <span id="hero-date" class="flex items-center gap-2">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                  <span id="hero-date-text"></span>
+                </span>
+                <span id="hero-platform" class="flex items-center gap-2">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                  <span id="hero-platform-text"></span>
+                </span>
+                <span id="hero-location" class="flex items-center gap-2">
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                  <span id="hero-location-text"></span>
+                </span>
+              </div>
+            </div>
+            <div class="text-center flex-shrink-0">
+              <div id="hero-grade" class="grade-badge mx-auto mb-3">?</div>
+              <div class="text-sm text-slate-300 font-medium">Overall Grade</div>
+            </div>
+          </div>
+          <div id="hero-summary" class="mt-8 text-blue-100 text-base md:text-lg max-w-3xl leading-relaxed mx-auto md:mx-0"></div>
+        </div>
+      </header>
+
+      <section class="report-section page-break" id="section-stats">
+        <div class="section-heading">
+          <span class="section-number">1</span>
+          Key Stats at a Glance
+        </div>
+        <p class="section-sub">A quick snapshot of where things stand right now.</p>
+        <div id="stats-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+      </section>
+
+      <section class="report-section" id="section-issues">
+        <div class="section-heading">
+          <span class="section-number">2</span>
+          Top Issues Found
+        </div>
+        <p class="section-sub">The most impactful problems affecting your search visibility.</p>
+        <div id="issues-list" class="flex flex-col gap-4"></div>
+      </section>
+
+      <section class="report-section page-break" id="section-comparison">
+        <div class="section-heading">
+          <span class="section-number">3</span>
+          Site vs. Competitor Comparison
+        </div>
+        <p class="section-sub">How your site stacks up against the top competitor.</p>
+        <div class="report-table-wrap">
+          <table class="report-table" id="comparison-table">
+            <thead>
+              <tr></tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="report-section page-break" id="section-quickwins">
+        <div class="section-heading">
+          <span class="section-number">4</span>
+          Quick Wins
+        </div>
+        <p class="section-sub">Low-effort, high-impact changes you can make right now.</p>
+        <div id="quickwins-list" class="bg-white border border-slate-200 rounded-xl divide-y divide-slate-100"></div>
+      </section>
+
+      <section class="report-section page-break" id="section-nextsteps">
+        <div class="section-heading">
+          <span class="section-number">5</span>
+          Next Steps
+        </div>
+        <p class="section-sub">Your immediate action items, in order of priority.</p>
+        <div id="nextsteps-list" class="flex flex-col gap-4"></div>
+      </section>
+
+      <footer class="bg-navy-900 text-slate-400 text-center py-8 text-sm">
+        <p>Confidential SEO Audit Report &mdash; Prepared <span id="footer-date"></span></p>
+        <p class="mt-1 text-slate-500">Generated with Site Audit Toolkit</p>
+      </footer>
+    </main>
+  </div>
+
+  <script defer src="shared/utils.js"></script>
+  <script defer src="shared/data-loader.js"></script>
+  <script defer src="shared/charts.js"></script>
+  <script defer src="shared/nav.js"></script>
+  <script defer src="shared/search.js"></script>
+  <script defer src="shared/table-filters.js"></script>
+  <script defer src="shared/print.js"></script>
+  <script defer src="shared/explainer.js"></script>
+  <script defer src="pages/index.js"></script>
+</body>
+</html>

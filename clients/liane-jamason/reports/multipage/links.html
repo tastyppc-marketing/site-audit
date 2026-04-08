@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://cdn.tailwindcss.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+  <title>SEO Audit Report - Internal Linking &amp; Backlinks</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+
+  <link rel="stylesheet" href="shared/report-styles.css">
+  <link rel="stylesheet" href="shared/multipage-nav.css">
+
+  <script id="audit-data-inject">
+    window.AUDIT_DATA = /* __AUDIT_DATA_PLACEHOLDER__ */null;
+    window.SEARCH_INDEX = /* __SEARCH_INDEX_PLACEHOLDER__ */[];
+  </script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: {
+              900: '#0b1629',
+              800: '#111d35',
+              700: '#172644',
+              600: '#1e3a5f'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="font-sans antialiased multipage">
+  <nav id="top-nav"></nav>
+  <div id="mobile-drawer"></div>
+
+  <div class="flex pt-16">
+    <aside id="side-nav"></aside>
+
+    <main id="page-content" class="flex-1 min-h-screen">
+      <h1 class="sr-only">Internal Linking &amp; Backlinks — SEO Audit Report</h1>
+      <section class="report-section" id="section-linkstats">
+        <div class="section-heading">
+          <span class="section-number">1</span>
+          Link Overview
+        </div>
+        <p class="section-sub">A top-level snapshot of crawlable pages, internal link volume, and orphan-page risk.</p>
+        <div id="linkstats-content"></div>
+      </section>
+
+      <section class="report-section" id="section-orphans">
+        <div class="section-heading">
+          <span class="section-number">2</span>
+          Orphan Pages
+        </div>
+        <p class="section-sub">Pages with zero contextual inbound links are difficult for users and search engines to discover.</p>
+        <div id="orphans-content"></div>
+      </section>
+
+      <section class="report-section" id="section-hubs">
+        <div class="section-heading">
+          <span class="section-number">3</span>
+          Hub &amp; Spoke Clusters
+        </div>
+        <p class="section-sub">Strong hub pages help distribute authority into supporting pages and reinforce topical structure.</p>
+        <div id="hubs-content"></div>
+      </section>
+
+      <section class="report-section" id="section-depth">
+        <div class="section-heading">
+          <span class="section-number">4</span>
+          Link Depth Analysis
+        </div>
+        <p class="section-sub">Important landing pages should be reachable within a few clicks from the homepage.</p>
+        <div id="depth-content"></div>
+      </section>
+
+    </main>
+  </div>
+
+  <script defer src="shared/utils.js"></script>
+  <script defer src="shared/data-loader.js"></script>
+  <script defer src="shared/charts.js"></script>
+  <script defer src="shared/nav.js"></script>
+  <script defer src="shared/search.js"></script>
+  <script defer src="shared/table-filters.js"></script>
+  <script defer src="shared/print.js"></script>
+  <script defer src="shared/explainer.js"></script>
+  <script defer src="pages/links.js"></script>
+</body>
+</html>

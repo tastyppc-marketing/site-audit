@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://cdn.tailwindcss.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+  <title>Backlink Opportunities | TastyPPC SEO Audit</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+
+  <link rel="stylesheet" href="shared/report-styles.css">
+  <link rel="stylesheet" href="shared/multipage-nav.css">
+
+  <script id="audit-data-inject">
+    window.AUDIT_DATA = /* __AUDIT_DATA_PLACEHOLDER__ */null;
+    window.SEARCH_INDEX = /* __SEARCH_INDEX_PLACEHOLDER__ */[];
+  </script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: {
+              900: '#0b1629',
+              800: '#111d35',
+              700: '#172644',
+              600: '#1e3a5f'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="multipage font-sans antialiased">
+  <nav id="top-nav"></nav>
+  <div id="mobile-drawer"></div>
+
+  <div class="flex pt-16">
+    <aside id="side-nav"></aside>
+
+    <main id="page-content" class="flex-1 min-h-screen">
+      <h1 class="sr-only">Backlink Opportunities — SEO Audit Report</h1>
+
+      <!-- Download PDF button -->
+      <div class="no-print" style="display:flex;justify-content:flex-end;padding:1rem 2rem 0">
+        <button id="download-pdf-btn" style="display:inline-flex;align-items:center;gap:6px;padding:8px 18px;border-radius:8px;font-size:0.82rem;font-weight:600;background:var(--navy-800);color:white;border:none;cursor:pointer;font-family:inherit;transition:background 0.15s" onmouseover="this.style.background='var(--accent-blue)'" onmouseout="this.style.background='var(--navy-800)'">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width:16px;height:16px"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" /></svg>
+          Download as PDF
+        </button>
+      </div>
+
+      <!-- Section 1: Key Insights -->
+      <section class="report-section" id="section-insights">
+        <div class="section-heading">
+          <span class="section-number">1</span>
+          Key Insights &amp; Next Steps
+        </div>
+        <p class="section-sub">Where you stand, what to do first, and the key numbers driving your backlink strategy.</p>
+        <div id="insights-content"></div>
+      </section>
+
+      <!-- Section 2: Your Backlink Profile -->
+      <section class="report-section" id="section-backlinks">
+        <div class="section-heading">
+          <span class="section-number">2</span>
+          Your Backlink Profile
+        </div>
+        <p class="section-sub">Domain authority, referring domains, and top external links show how much off-site trust your domain has earned.</p>
+        <div id="backlinks-content"></div>
+      </section>
+
+      <!-- Section 3: Opportunity Summary -->
+      <section class="report-section" id="section-summary">
+        <div class="section-heading">
+          <span class="section-number">3</span>
+          Backlink Opportunity Summary
+        </div>
+        <p class="section-sub">A high-level view of your backlink landscape compared to competitors.</p>
+        <div id="summary-content"></div>
+      </section>
+
+      <!-- Section 4: Top Opportunities -->
+      <section class="report-section" id="section-top-opportunities">
+        <div class="section-heading">
+          <span class="section-number">4</span>
+          Top Opportunities
+        </div>
+        <p class="section-sub">Referring domains most likely to link to you, ranked by a combined score of domain authority and competitor overlap.</p>
+        <div id="top-opportunities-content"></div>
+      </section>
+
+      <!-- Section 5: Backlink Intelligence -->
+      <section class="report-section" id="section-intelligence">
+        <div class="section-heading">
+          <span class="section-number">5</span>
+          Backlink Intelligence
+        </div>
+        <p class="section-sub">Deep analysis of competitor link-building strategies, link quality, and local relevance.</p>
+        <div id="intelligence-content"></div>
+      </section>
+
+      <!-- Section 6: Detailed Analysis -->
+      <section class="report-section" id="section-details">
+        <div class="section-heading">
+          <span class="section-number">6</span>
+          Detailed Analysis
+        </div>
+        <p class="section-sub">Explore referring domain data across all competitors. Switch views to find what's most useful.</p>
+        <div id="details-content"></div>
+      </section>
+    </main>
+  </div>
+
+  <script defer src="shared/utils.js"></script>
+  <script defer src="shared/data-loader.js"></script>
+  <script defer src="shared/charts.js"></script>
+  <script defer src="shared/nav.js"></script>
+  <script defer src="shared/search.js"></script>
+  <script defer src="shared/table-filters.js"></script>
+  <script defer src="shared/print.js"></script>
+  <script defer src="shared/explainer.js"></script>
+  <script defer src="pages/backlink-opportunities.js"></script>
+</body>
+</html>

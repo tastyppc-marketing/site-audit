@@ -1,0 +1,739 @@
+/* ==========================================================================
+   SEO Audit Report — Custom Styles
+   Complements Tailwind CSS utility classes
+   ========================================================================== */
+
+/* ---------- Fonts ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  /* Brand palette */
+  --navy-900: #0b1629;
+  --navy-800: #111d35;
+  --navy-700: #172644;
+  --navy-600: #1e3a5f;
+  --accent-blue: #3b82f6;
+  --accent-indigo: #6366f1;
+
+  /* Severity */
+  --sev-critical: #ef4444;
+  --sev-high: #f97316;
+  --sev-medium: #eab308;
+  --sev-low: #22c55e;
+  --sev-info: #3b82f6;
+
+  /* Grade colors */
+  --grade-a: #22c55e;
+  --grade-b: #84cc16;
+  --grade-c: #eab308;
+  --grade-d: #f97316;
+  --grade-f: #ef4444;
+}
+
+/* ---------- Base ---------- */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ---------- Grade badge ---------- */
+.grade-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  color: #fff;
+  position: relative;
+  box-shadow:
+    0 0 0 6px rgba(255,255,255,0.15),
+    0 0 40px rgba(0,0,0,0.25);
+}
+
+.grade-badge::after {
+  content: '';
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  border: 2px dashed rgba(255,255,255,0.2);
+}
+
+.grade-badge.grade-a  { background: var(--grade-a); }
+.grade-badge.grade-b  { background: var(--grade-b); }
+.grade-badge.grade-c  { background: var(--grade-c); }
+.grade-badge.grade-d  { background: var(--grade-d); }
+.grade-badge.grade-f  { background: var(--grade-f); }
+
+/* ---------- Severity badges ---------- */
+.severity-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 10px;
+  border-radius: 9999px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.severity-badge.critical,
+.severity-badge.very-high { background: #fef2f2; color: #dc2626; border: 1px solid #fecaca; }
+.severity-badge.high      { background: #fff7ed; color: #ea580c; border: 1px solid #fed7aa; }
+.severity-badge.medium    { background: #fefce8; color: #ca8a04; border: 1px solid #fef08a; }
+.severity-badge.low       { background: #f0fdf4; color: #16a34a; border: 1px solid #bbf7d0; }
+.severity-badge.info      { background: #eff6ff; color: #2563eb; border: 1px solid #bfdbfe; }
+
+/* ---------- Impact / Effort pills ---------- */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 9999px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.pill-impact-high,
+.pill-impact-very-high { background: #fee2e2; color: #b91c1c; }
+.pill-impact-medium    { background: #fef3c7; color: #92400e; }
+.pill-impact-low       { background: #d1fae5; color: #065f46; }
+
+.pill-effort-low       { background: #d1fae5; color: #065f46; }
+.pill-effort-medium,
+.pill-effort-medium-high { background: #fef3c7; color: #92400e; }
+.pill-effort-high      { background: #fee2e2; color: #b91c1c; }
+
+/* ---------- Core Web Vitals gauge ---------- */
+.cwv-gauge {
+  position: relative;
+  width: 100%;
+  height: 12px;
+  border-radius: 6px;
+  background: #e2e8f0;
+  overflow: visible;
+}
+
+.cwv-gauge-fill {
+  height: 100%;
+  border-radius: 6px;
+  transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.cwv-gauge-fill.green  { background: linear-gradient(90deg, #22c55e, #4ade80); }
+.cwv-gauge-fill.orange { background: linear-gradient(90deg, #f97316, #fbbf24); }
+.cwv-gauge-fill.red    { background: linear-gradient(90deg, #ef4444, #f97316); }
+
+.cwv-gauge-marker {
+  position: absolute;
+  top: -4px;
+  width: 4px;
+  height: 20px;
+  border-radius: 2px;
+  background: #475569;
+  opacity: 0.4;
+}
+
+/* ---------- Stat cards ---------- */
+.stat-card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.stat-card:hover {
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+  transform: translateY(-1px);
+}
+
+.stat-card .stat-value {
+  font-size: 1.75rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.stat-card .stat-label {
+  font-size: 0.8rem;
+  color: #64748b;
+  margin-top: 0.35rem;
+  line-height: 1.4;
+}
+
+.stat-card.severity-red    .stat-value { color: var(--sev-critical); }
+.stat-card.severity-orange .stat-value { color: var(--sev-high); }
+.stat-card.severity-yellow .stat-value { color: var(--sev-medium); }
+.stat-card.severity-green  .stat-value { color: var(--sev-low); }
+
+/* ---------- Section container ---------- */
+.report-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.section-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--navy-800);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.section-heading .section-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: var(--navy-800);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.section-sub {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-bottom: 2rem;
+}
+
+/* ---------- Tables ---------- */
+.report-table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  background: #fff;
+}
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.report-table thead th {
+  background: #f8fafc;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #475569;
+  border-bottom: 2px solid #e2e8f0;
+  white-space: nowrap;
+}
+
+.report-table tbody td {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid #f1f5f9;
+  vertical-align: top;
+}
+
+.report-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.report-table tbody tr:hover {
+  background: #f8fafc;
+}
+
+.report-table .highlight-col {
+  background: #eff6ff;
+  font-weight: 600;
+}
+
+/* ---------- Issue cards ---------- */
+.issue-card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  transition: box-shadow 0.2s;
+}
+
+.issue-card:hover {
+  box-shadow: 0 4px 24px rgba(0,0,0,0.05);
+}
+
+.issue-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--navy-800);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+/* ---------- Advantage cards ---------- */
+.advantage-card {
+  background: linear-gradient(135deg, #f0fdf4, #ecfdf5);
+  border: 1px solid #bbf7d0;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+}
+
+.advantage-card .adv-title {
+  font-weight: 700;
+  color: #166534;
+  margin-bottom: 0.25rem;
+}
+
+.advantage-card .adv-detail {
+  font-size: 0.875rem;
+  color: #15803d;
+}
+
+/* ---------- Chart containers ---------- */
+.chart-container {
+  position: relative;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.chart-container canvas {
+  max-height: 350px;
+}
+
+/* ---------- Action plan tabs ---------- */
+.tab-btn {
+  padding: 0.5rem 1.25rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid transparent;
+  background: #f1f5f9;
+  color: #475569;
+  transition: all 0.15s;
+}
+
+.tab-btn:hover {
+  background: #e2e8f0;
+}
+
+.tab-btn.active {
+  background: var(--navy-800);
+  color: #fff;
+  border-color: var(--navy-800);
+}
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+/* ---------- Collapsible ---------- */
+.collapsible-header {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: background 0.15s;
+}
+
+.collapsible-header:hover {
+  background: #f1f5f9;
+}
+
+.collapsible-header .chevron {
+  transition: transform 0.2s;
+}
+
+.collapsible-header.open .chevron {
+  transform: rotate(180deg);
+}
+
+.collapsible-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.collapsible-body.open {
+  max-height: 5000px;
+}
+
+/* ---------- Hero section ---------- */
+.hero-section {
+  background: linear-gradient(135deg, var(--navy-900) 0%, var(--navy-700) 50%, var(--navy-600) 100%);
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 60%;
+  height: 200%;
+  background: radial-gradient(ellipse, rgba(99,102,241,0.08), transparent 70%);
+  pointer-events: none;
+}
+
+.hero-section::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+}
+
+/* ---------- Quick-win checklist ---------- */
+.quickwin-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  transition: background 0.15s;
+}
+
+.quickwin-item:hover {
+  background: #f8fafc;
+}
+
+.quickwin-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border: 2px solid #cbd5e1;
+  border-radius: 6px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+/* ---------- Next step card ---------- */
+.nextstep-card {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1.25rem 1.5rem;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+}
+
+.nextstep-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-indigo));
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+/* ---------- Fade-in animation ---------- */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-in {
+  animation: fadeInUp 0.5s ease forwards;
+  opacity: 0;
+}
+
+.animate-in:nth-child(1) { animation-delay: 0.05s; }
+.animate-in:nth-child(2) { animation-delay: 0.1s; }
+.animate-in:nth-child(3) { animation-delay: 0.15s; }
+.animate-in:nth-child(4) { animation-delay: 0.2s; }
+.animate-in:nth-child(5) { animation-delay: 0.25s; }
+.animate-in:nth-child(6) { animation-delay: 0.3s; }
+.animate-in:nth-child(7) { animation-delay: 0.35s; }
+.animate-in:nth-child(8) { animation-delay: 0.4s; }
+
+/* ---------- Content calendar ---------- */
+.cal-month-header {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--navy-800);
+  padding: 0.75rem 1rem;
+  background: #f1f5f9;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.cal-week {
+  display: grid;
+  grid-template-columns: 70px 1fr 1fr 120px;
+  gap: 0.5rem;
+  padding: 0.6rem 1rem;
+  font-size: 0.85rem;
+  border-bottom: 1px solid #f1f5f9;
+  align-items: center;
+}
+
+.cal-week:last-child {
+  border-bottom: none;
+}
+
+/* ---------- Rank color coding ---------- */
+.rank-green  { color: #16a34a; font-weight: 700; }
+.rank-orange { color: #ea580c; font-weight: 600; }
+.rank-red    { color: #dc2626; font-weight: 600; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .report-section {
+    padding: 2rem 1rem;
+  }
+
+  .grade-badge {
+    width: 90px;
+    height: 90px;
+    font-size: 2.25rem;
+  }
+
+  .stat-card .stat-value {
+    font-size: 1.35rem;
+  }
+
+  .cal-week {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+}
+
+/* ==========================================================================
+   Print / PDF Styles
+   ========================================================================== */
+@media print {
+  /* Hide interactive elements */
+  .no-print,
+  .tab-btn-group,
+  nav,
+  .collapsible-header .chevron {
+    display: none !important;
+  }
+
+  /* Reset backgrounds for clean printing */
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  /* Hero stays dark */
+  .hero-section {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  /* Force colour printing for badges */
+  .severity-badge,
+  .pill,
+  .grade-badge,
+  .stat-card,
+  .advantage-card,
+  .issue-number,
+  .nextstep-number,
+  .section-heading .section-number {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  /* Page break control */
+  .page-break {
+    page-break-before: always !important;
+    break-before: page !important;
+  }
+
+  .no-break {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .issue-card,
+  .stat-card,
+  .advantage-card,
+  .nextstep-card,
+  .quickwin-item,
+  .chart-container {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  /* Expand collapsibles for print */
+  .collapsible-body {
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  /* Show all tab panels */
+  .tab-panel {
+    display: block !important;
+    margin-bottom: 1.5rem;
+  }
+
+  .tab-panel::before {
+    content: attr(data-tab-label);
+    display: block;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 2px solid #e2e8f0;
+  }
+
+  /* Tables */
+  .report-table-wrap {
+    overflow: visible;
+    border: 1px solid #ccc;
+  }
+
+  .report-table thead th {
+    background: #f0f0f0 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Remove shadows and transforms */
+  * {
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* No animations */
+  .animate-in {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  /* Link decoration */
+  a[href]::after {
+    content: none !important;
+  }
+
+  /* Chart sizing */
+  .chart-container {
+    max-height: 300px;
+  }
+
+  /* Margins */
+  @page {
+    margin: 0.75in;
+    size: letter;
+  }
+
+  /* Remove hover styles */
+  .report-table tbody tr:hover,
+  .stat-card:hover,
+  .issue-card:hover {
+    background: transparent !important;
+    transform: none !important;
+  }
+}
+
+/* ---------- Multi-page layout (added for multi-page system) ---------- */
+
+:root {
+  /* Navigation — new vars */
+  --nav-bg: var(--navy-900);
+  --nav-text: #94a3b8;
+  --nav-active: #fff;
+  --nav-hover: #e2e8f0;
+  --sidenav-bg: #f8fafc;
+  --sidenav-border: #e2e8f0;
+  --sidenav-active: var(--accent-blue);
+}
+
+/* Page layout: account for fixed top nav + side nav */
+body.multipage {
+  padding-top: 4rem; /* 64px top nav */
+}
+
+#page-content {
+  padding: 2rem;
+  max-width: 1280px;
+}
+
+@media (min-width: 1024px) {
+  #page-content {
+    margin-left: 14rem; /* 224px = w-56 side nav */
+  }
+}
+
+/* Empty state placeholder */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2rem;
+  text-align: center;
+  color: #94a3b8;
+  background: #f8fafc;
+  border: 2px dashed #e2e8f0;
+  border-radius: 0.75rem;
+}
+
+.empty-state svg {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  color: #cbd5e1;
+}
+
+.empty-state p {
+  font-size: 0.875rem;
+  color: #64748b;
+}

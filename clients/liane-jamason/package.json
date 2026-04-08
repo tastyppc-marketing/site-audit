@@ -1,0 +1,29 @@
+{
+  "name": "site-audit",
+  "version": "1.1.0",
+  "description": "SEO & PPC audit toolkit — Playwright scripts, Google Ads CSV parser, and deliverable generators",
+  "scripts": {
+    "browse": "node scripts/browse.js",
+    "crawl": "node scripts/crawl-sitemap.js",
+    "search": "node scripts/ddg-search.js",
+    "check": "node scripts/check-technical.js",
+    "spreadsheet": "node scripts/generate-spreadsheet.js",
+    "presentation": "node scripts/generate-presentation.js",
+    "generate": "node scripts/generate-spreadsheet.js && node scripts/generate-presentation.js",
+    "parse-ppc": "node scripts/parse-google-ads.js",
+    "ppc-spreadsheet": "node scripts/generate-ppc-spreadsheet.js",
+    "ppc-presentation": "node scripts/generate-ppc-presentation.js",
+    "ppc-generate": "node scripts/generate-ppc-spreadsheet.js && node scripts/generate-ppc-presentation.js",
+    "report": "node reports/generate-report.js",
+    "report:pdf": "node reports/generate-report.js --pdf",
+    "setup": "npx playwright install chromium"
+  },
+  "keywords": ["seo", "ppc", "audit", "playwright", "google-ads"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.58.2",
+    "pptxgenjs": "^4.0.1",
+    "xlsx": "^0.18.5"
+  }
+}
