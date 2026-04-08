@@ -2,7 +2,7 @@
 /**
  * generate-multipage-report.js
  *
- * Reads audit-data.json plus the 8 multipage HTML templates, injects
+ * Reads audit-data.json plus the 9 multipage HTML templates, injects
  * window.AUDIT_DATA and window.SEARCH_INDEX into each page, optionally
  * inlines local CSS, then writes the report bundle to the output directory.
  *
@@ -21,6 +21,7 @@ const PAGE_FILES = [
   'content.html',
   'technical.html',
   'links.html',
+  'backlink-opportunities.html',
   'competitors.html',
   'local.html',
   'action-plan.html',
@@ -378,6 +379,60 @@ function buildSearchIndex(data) {
         ],
       });
     });
+  }
+
+  // Backlink opportunities
+  if (data.backlinkOpportunities) {
+    const boData = data.backlinkOpportunities;
+
+    if (Array.isArray(boData.opportunities)) {
+      boData.opportunities.forEach(function(opp) {
+        pushIndexEntry(index, {
+          page: 'backlink-opportunities.html',
+          section: 'section-opportunities',
+          title: opp.domain || opp.url || opp.source || '',
+          snippet: joinNonEmpty([
+            opp.type ? `Type: ${opp.type}` : '',
+            opp.domainRating ? `DR: ${opp.domainRating}` : '',
+            opp.traffic ? `Traffic: ${opp.traffic}` : '',
+            opp.reason || opp.description || '',
+          ]),
+          terms: [
+            opp.domain,
+            opp.url,
+            opp.source,
+            opp.type,
+            opp.reason,
+            opp.description,
+            'backlink',
+            'opportunity',
+            'link building',
+          ],
+        });
+      });
+    }
+
+    if (Array.isArray(boData.competitors)) {
+      boData.competitors.forEach(function(comp) {
+        pushIndexEntry(index, {
+          page: 'backlink-opportunities.html',
+          section: 'section-competitor-comparison',
+          title: comp.domain || '',
+          snippet: joinNonEmpty([
+            comp.backlinks ? `Backlinks: ${comp.backlinks}` : '',
+            comp.referringDomains ? `Referring domains: ${comp.referringDomains}` : '',
+            comp.domainRating ? `DR: ${comp.domainRating}` : '',
+          ]),
+          terms: [
+            comp.domain,
+            'competitor',
+            'backlink',
+            'domain rating',
+            'referring domains',
+          ],
+        });
+      });
+    }
   }
 
   return index;
@@ -934,6 +989,69 @@ function normalizeAuditData(data, dataDir) {
       fixes++;
     }
   }
+
+  // ── 6b. Backlink Opportunities — build from available data ──────────
+  const bo = data.backlinkOpportunities || (data.backlinkOpportunities = {});
+
+  // Client profile
+  if (!bo.client) {
+    const blMetrics = (data.backlinks || {}).domainMetrics || {};
+    bo.client = {
+      domain: blMetrics.domain || (data.client && (data.client.website || data.client.websiteUrl)) || '',
+      backlinks: blMetrics.totalBacklinks || 0,
+      referringDomains: blMetrics.referringDomains || 0,
+      domainRating: blMetrics.domainRating || 0,
+      dofollowRatio: (data.backlinks || {}).dofollowRatio || 0
+    };
+  }
+
+  // Competitor profiles (from competitorDomainMetrics)
+  if (!bo.competitors || !bo.competitors.length) {
+    const cdm = (data.backlinks || {}).competitorDomainMetrics || [];
+    bo.competitors = cdm.filter(function(c) { return !c.isClient; }).map(function(c) {
+      return {
+        domain: c.domain || '',
+        backlinks: c.backlinks || c.totalBacklinks || 0,
+        referringDomains: c.referringDomains || 0,
+        domainRating: c.domainRating || 0,
+        dofollowRatio: c.dofollowRatio || 0
+      };
+    });
+  }
+
+  // Opportunities array (from backlink-opportunities.json if it exists)
+  if (!bo.opportunities) {
+    const boPath = path.join(dataDir, 'research', 'backlink-opportunities.json');
+    if (fs.existsSync(boPath)) {
+      try {
+        const boRaw = JSON.parse(fs.readFileSync(boPath, 'utf-8'));
+        bo.opportunities = Array.isArray(boRaw.opportunities) ? boRaw.opportunities : (Array.isArray(boRaw) ? boRaw : []);
+        if (boRaw.similarityPairs) bo.similarityPairs = boRaw.similarityPairs;
+        logInfo('Loaded backlink opportunities', bo.opportunities.length + ' opportunities from backlink-opportunities.json');
+      } catch (e) {
+        logWarning('Could not parse backlink-opportunities.json: ' + e.message);
+        bo.opportunities = [];
+      }
+    } else {
+      bo.opportunities = [];
+    }
+  }
+
+  // Client backlinks inventory (reuse from existing topBacklinks)
+  if (!bo.clientBacklinks) {
+    bo.clientBacklinks = (data.backlinks || {}).topBacklinks || [];
+  }
+
+  // Similarity pairs default
+  if (!bo.similarityPairs) {
+    bo.similarityPairs = [];
+  }
+
+  logInfo('Backlink opportunities data',
+    'client=' + (bo.client.domain || 'unknown') +
+    ', competitors=' + bo.competitors.length +
+    ', opportunities=' + bo.opportunities.length +
+    ', clientBacklinks=' + bo.clientBacklinks.length);
 
   // ── 7. Competitor comparison table column normalization ─────────────
   // Renderer expects competitor columns named comp1, comp2, etc.

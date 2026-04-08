@@ -169,12 +169,6 @@
       explanation: 'Link depth measures how many clicks it takes to reach a page from your homepage. Pages buried 4+ clicks deep are harder for Google to find and rank. Important pages should be within 1-2 clicks.',
       tip: 'If your best content is buried deep in the site, add direct links from your homepage or main navigation.'
     },
-    'section-backlinks': {
-      title: 'Backlink Profile',
-      explanation: 'Backlinks are links from other websites pointing to yours. Google treats them like votes of confidence — the more quality sites that link to you, the more Google trusts your site. Domain Rating (DR) is a score from 0-100 measuring your overall backlink strength.',
-      tip: 'Quality beats quantity. One link from a trusted local news site is worth more than 100 links from random directories.'
-    },
-
     // ===== COMPETITORS =====
     'section-radar': {
       title: 'Competitor Health Radar',

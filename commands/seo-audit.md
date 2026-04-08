@@ -605,6 +605,51 @@ prompt: |
     - Press coverage or news mentions
     - Guest post opportunities
 
+  Step 7 — Build backlink-opportunities.json for the report:
+    Using data from Steps 1-6, create seo/research/backlink-opportunities.json:
+    {
+      "opportunities": [
+        {
+          "domain": "yellowpages.ca",
+          "dr": 72,
+          "clientHas": false,
+          "competitors": ["competitor1.com", "competitor2.com"],
+          "score": 96,
+          "type": "directory|social|press|industry|blog|forum|government|educational|other",
+          "localRelevance": "local|national|international",
+          "effort": "easy|medium|hard"
+        }
+      ],
+      "similarityPairs": [
+        { "a": "client.com", "b": "competitor1.com", "pct": 12 }
+      ]
+    }
+
+    Rules for building opportunities:
+    - Include every referring domain found across competitors that the client doesn't have
+    - Also include domains the client already has (set clientHas: true)
+    - score: 0-100 based on (DR weight * 0.4) + (competitor overlap count / total competitors * 0.6) * 100
+    - type classification: match domain against known patterns:
+      - "directory": yellowpages, yelp, bbb, 411, canpages, foursquare, mapquest, etc.
+      - "social": facebook, instagram, linkedin, twitter, pinterest, youtube, etc.
+      - "press": news sites, herald, sun, globalnews, cbc, etc.
+      - "industry": realtor.ca, zillow, remax, royallepage, crea, mls, etc.
+      - "blog": blogto, medium, wordpress blogs, etc.
+      - "forum": reddit, forums, community boards
+      - "government": .gc.ca, .gov domains
+      - "educational": .edu domains
+      - "other": anything that doesn't match above
+    - localRelevance: "local" if domain contains city/region name or is a known local site,
+      "national" if it's a Canadian-wide site, "international" otherwise
+    - effort: "easy" for directories/listings/social profiles (self-submit),
+      "medium" for industry sites requiring outreach/application,
+      "hard" for press/earned media requiring content or PR
+    - similarityPairs: for each pair of (client + competitors), estimate overlap %
+      based on shared referring domains found. If DFS intersection data is available,
+      use exact numbers. Otherwise estimate from research.
+    - Sort opportunities by score descending
+    - Cap at 200 opportunities max
+
   Write seo/research/backlink-analysis.md with:
   - Executive summary (client's estimated link authority vs competitors)
   - Client backlink profile assessment (referring domains, citations, social, mentions)
@@ -623,7 +668,7 @@ Check on agents periodically:
 - Read each seo/research/ file as it appears
 - If an agent is idle >5 minutes with no output file created, spawn a replacement agent with the same prompt
 - When all 6 results files exist and are complete, proceed to Step 6
-- Expected files: keyword-research.md, client-site-structure.md, content-audit.md, competitor-analysis.md, seo-best-practices-{YEAR}.md, backlink-analysis.md
+- Expected files: keyword-research.md, client-site-structure.md, content-audit.md, competitor-analysis.md, seo-best-practices-{YEAR}.md, backlink-analysis.md, backlink-opportunities.json
 
 ---
 

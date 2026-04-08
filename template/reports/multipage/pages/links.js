@@ -17,7 +17,6 @@
     renderOrphanPages(data);
     renderHubSpokeClusters(data);
     renderLinkDepth(data);
-    renderBacklinkProfile(data);
     if (window.TPPC.filters) window.TPPC.filters.init();
   }
 
@@ -300,225 +299,6 @@
     }
   }
 
-  function renderBacklinkProfile(data) {
-    var container = document.getElementById('backlinks-content');
-    if (!container) return;
-
-    var backlinkData = _getBacklinkData(data);
-    var metrics = backlinkData.domainMetrics;
-    var topBacklinks = backlinkData.topBacklinks;
-    var competitors = backlinkData.competitorDomainMetrics;
-    var hasMetrics = _hasAnyValue([
-      metrics.domain,
-      metrics.domainRating,
-      metrics.referringDomains,
-      metrics.totalBacklinks,
-      metrics.trafficValue
-    ]);
-
-    var html = '';
-    html += '<div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">';
-    html += _statCard('Domain rating', _displayText(metrics.domainRating), metrics.domainRating != null ? (metrics.domainRating >= 40 ? 'green' : metrics.domainRating >= 20 ? 'yellow' : 'orange') : 'yellow');
-    html += _statCard('Referring domains', _formatNumber(metrics.referringDomains), metrics.referringDomains != null ? 'green' : 'yellow');
-    html += _statCard('Total backlinks', _formatNumber(metrics.totalBacklinks), metrics.totalBacklinks != null ? 'green' : 'yellow');
-    html += _statCard('Traffic value', _formatCurrency(metrics.trafficValue), metrics.trafficValue != null ? 'green' : 'yellow');
-    html += '</div>';
-
-    if (metrics.domain || metrics.source) {
-      html += '<div class="grid md:grid-cols-2 gap-4 mt-8">';
-      html += _detailCard('Backlink source domain', _displayText(metrics.domain), 'Primary domain associated with the backlink metrics set.');
-      html += _detailCard('Data source', _displayText(metrics.source), 'Source platform used to collect the backlink profile.');
-      html += '</div>';
-    }
-
-    if (competitors.length) {
-      var compareSet = [];
-      if (metrics.domain || hasMetrics) {
-        compareSet.push({
-          domain: metrics.domain || ((data && data.client && (data.client.website || data.client.websiteUrl)) || 'Client domain'),
-          referringDomains: metrics.referringDomains,
-          domainRating: metrics.domainRating
-        });
-      }
-      compareSet = compareSet.concat(competitors);
-
-      html += '<div class="chart-container mt-8 no-break">' +
-        '<div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">' +
-          '<div>' +
-            '<h3 class="text-base font-bold text-slate-800">Referring domains comparison</h3>' +
-            '<p class="text-sm text-slate-500">External authority gaps are easiest to see when the site is compared against competitors in the same market.</p>' +
-          '</div>' +
-        '</div>' +
-        '<div style="height:320px"><canvas id="backlink-compare-chart"></canvas></div>' +
-      '</div>';
-
-      window.setTimeout(function () {
-        if ((window.TPPC.charts || {}).createBarChart) {
-          _trackChart(window.TPPC.charts.createBarChart('backlink-compare-chart', {
-            labels: compareSet.map(function (item) { return _shortUrl(item.domain, 28); }),
-            datasets: [{
-              label: 'Referring domains',
-              data: compareSet.map(function (item) { return item.referringDomains || 0; }),
-              backgroundColor: _chartColor('info')
-            }]
-          }));
-        }
-      }, 0);
-    }
-
-    if (topBacklinks.length) {
-      // Group backlinks by referring domain
-      var domainGroups = {};
-      var domainOrder = [];
-      topBacklinks.forEach(function (link) {
-        var src = link.sourceUrl || '';
-        var domain;
-        try { domain = new URL(src).hostname.replace(/^www\./, ''); } catch (_) { domain = src.split('/')[2] || src; }
-        if (!domainGroups[domain]) {
-          domainGroups[domain] = { domain: domain, links: [], bestDR: null };
-          domainOrder.push(domain);
-        }
-        domainGroups[domain].links.push(link);
-        var dr = link.domainRating != null ? Number(link.domainRating) : null;
-        if (dr != null && (domainGroups[domain].bestDR == null || dr > domainGroups[domain].bestDR)) {
-          domainGroups[domain].bestDR = dr;
-        }
-      });
-
-      // Sort by best DR descending
-      domainOrder.sort(function (a, b) {
-        return (domainGroups[b].bestDR || 0) - (domainGroups[a].bestDR || 0);
-      });
-
-      var PAGE_SIZE = 25;
-      var totalGroups = domainOrder.length;
-      var totalPages = Math.ceil(totalGroups / PAGE_SIZE);
-
-      function renderBacklinkPage(page) {
-        var start = page * PAGE_SIZE;
-        var end = Math.min(start + PAGE_SIZE, totalGroups);
-        var pageGroups = domainOrder.slice(start, end);
-
-        var rows = '';
-        pageGroups.forEach(function (domain) {
-          var group = domainGroups[domain];
-          var firstLink = group.links[0];
-          var hasMultiple = group.links.length > 1;
-          var groupId = 'bl-group-' + domain.replace(/[^a-z0-9]/g, '-');
-
-          // Parent row — the referring domain
-          var followBadge = firstLink.isDofollow == null
-            ? '<span class="severity-badge info">Unknown</span>'
-            : firstLink.isDofollow
-              ? '<span class="severity-badge low">Dofollow</span>'
-              : '<span class="severity-badge medium">Nofollow</span>';
-
-          rows += '<tr class="no-break">' +
-            '<td>' +
-              '<div class="font-medium text-slate-800">' + _esc(domain) + '</div>' +
-              (hasMultiple
-                ? '<button class="text-xs text-blue-600 mt-1 cursor-pointer bg-transparent border-none p-0" style="cursor:pointer" onclick="(function(){ var el=document.getElementById(\'' + groupId + '\'); el.style.display = el.style.display===\'none\'?\'table-row-group\':\'none\'; this.textContent = el.style.display===\'none\'? \'Show ' + group.links.length + ' backlinks\' : \'Hide backlinks\'; }).call(this)">' +
-                  'Show ' + group.links.length + ' backlinks' +
-                '</button>'
-                : '<div class="text-xs text-slate-500 mt-1 break-all" title="' + _esc(firstLink.sourceUrl) + '">' + _esc(_shortUrl(firstLink.sourceUrl, 60)) + '</div>') +
-            '</td>' +
-            '<td><div class="text-slate-600 leading-relaxed">' + _esc(firstLink.anchorText || 'No anchor') + '</div></td>' +
-            '<td>' + _displayText(group.bestDR) + '</td>' +
-            '<td>' + followBadge + '</td>' +
-            '<td>' + _esc(String(group.links.length)) + '</td>' +
-            '<td>' + _esc(_formatDate(firstLink.firstSeen)) + '</td>' +
-          '</tr>';
-
-          // Child rows (hidden by default)
-          if (hasMultiple) {
-            rows += '<tbody id="' + groupId + '" style="display:none">';
-            group.links.forEach(function (link) {
-              var childFollow = link.isDofollow == null
-                ? '<span class="severity-badge info">Unknown</span>'
-                : link.isDofollow
-                  ? '<span class="severity-badge low">Dofollow</span>'
-                  : '<span class="severity-badge medium">Nofollow</span>';
-
-              rows += '<tr class="no-break" style="background:#f8fafc">' +
-                '<td style="padding-left:2rem"><div class="text-xs text-slate-600 break-all" title="' + _esc(link.sourceUrl) + '">' + _esc(_shortUrl(link.sourceUrl, 60)) + '</div></td>' +
-                '<td><div class="text-xs text-slate-500">' + _esc(link.anchorText || 'No anchor') + '</div></td>' +
-                '<td class="text-xs">' + _displayText(link.domainRating) + '</td>' +
-                '<td>' + childFollow + '</td>' +
-                '<td></td>' +
-                '<td class="text-xs">' + _esc(_formatDate(link.firstSeen)) + '</td>' +
-              '</tr>';
-            });
-            rows += '</tbody>';
-          }
-        });
-
-        // Pagination controls
-        var paginationHtml = '';
-        if (totalPages > 1) {
-          paginationHtml = '<div class="flex items-center justify-between mt-4 px-2">' +
-            '<span class="text-sm text-slate-500">Showing ' + (start + 1) + '–' + end + ' of ' + totalGroups + ' referring domains (' + topBacklinks.length + ' total backlinks)</span>' +
-            '<div class="flex gap-2">';
-          for (var p = 0; p < totalPages; p++) {
-            var activeClass = p === page ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200';
-            paginationHtml += '<button class="px-3 py-1 rounded-lg text-sm font-medium ' + activeClass + '" style="cursor:pointer;border:none" onclick="window._blPage(' + p + ')">' + (p + 1) + '</button>';
-          }
-          paginationHtml += '</div></div>';
-        } else {
-          paginationHtml = '<div class="mt-3 px-2 text-sm text-slate-500">' + totalGroups + ' referring domains, ' + topBacklinks.length + ' total backlinks</div>';
-        }
-
-        return '<div data-filterable data-filters=\'[{"col":2,"label":"Domain Rating","type":"range","ranges":[{"label":"High (200+)","min":200},{"label":"Medium (50-199)","min":50,"max":199},{"label":"Low (0-49)","min":0,"max":49}]},{"col":3,"label":"Follow","type":"badge"}]\'>' +
-        '<div class="report-table-wrap">' +
-          '<table class="report-table report-table-sticky">' +
-            '<thead>' +
-              '<tr>' +
-                '<th>Referring Domain</th>' +
-                '<th>Anchor Text</th>' +
-                '<th>DR</th>' +
-                '<th>Follow</th>' +
-                '<th>Links</th>' +
-                '<th>First Seen</th>' +
-              '</tr>' +
-            '</thead>' +
-            '<tbody>' + rows + '</tbody>' +
-          '</table>' +
-        '</div>' +
-        '</div>' + paginationHtml;
-      }
-
-      html += '<div class="mt-8">' +
-        '<h3 class="text-base font-bold text-slate-800 mb-1">Backlink Inventory</h3>' +
-        '<p class="text-sm text-slate-500 mb-4">Every external page linking to your site, grouped by referring domain and sorted by authority (Domain Rating). Click <strong>Show backlinks</strong> to expand domains with multiple links. Higher DR sources pass more ranking equity.</p>' +
-        '<div id="backlink-table-container">' + renderBacklinkPage(0) + '</div>' +
-      '</div>';
-
-      // Store render function for pagination
-      window._blPage = function (page) {
-        var el = document.getElementById('backlink-table-container');
-        if (el) el.innerHTML = renderBacklinkPage(page);
-        if (window.TPPC.filters) window.TPPC.filters.init();
-      };
-
-    } else if (hasMetrics || competitors.length) {
-      html += '<div class="mt-8">' +
-        _emptyState(
-          'No top backlinks listed',
-          'Populate `backlinks.topBacklinks` to surface the strongest incoming links and anchor text opportunities.'
-        ) +
-      '</div>';
-    }
-
-    if (!hasMetrics && !topBacklinks.length && !competitors.length) {
-      html += '<div class="mt-8">' +
-        _emptyState(
-          'No backlink profile data yet',
-          'Populate `backlinks.domainMetrics`, `backlinks.topBacklinks`, or `backlinks.competitorDomainMetrics` to complete this section.'
-        ) +
-      '</div>';
-    }
-
-    container.innerHTML = html;
-  }
 
   function _getInternalLinking(data) {
     return (data && data.internalLinking) || {};
@@ -577,40 +357,6 @@
     };
   }
 
-  function _getBacklinkData(data) {
-    var backlinks = (data && data.backlinks) || {};
-    var domainMetrics = _pick(backlinks, ['domainMetrics', 'domain_metrics'], {}) || {};
-
-    return {
-      domainMetrics: {
-        domain: _pick(domainMetrics, ['domain'], ''),
-        domainRating: _toNumber(_pick(domainMetrics, ['domainRating', 'domain_rating'], null)),
-        referringDomains: _toNumber(_pick(domainMetrics, ['referringDomains', 'referring_domains'], null)),
-        totalBacklinks: _toNumber(_pick(domainMetrics, ['totalBacklinks', 'total_backlinks'], null)),
-        trafficValue: _toNumber(_pick(domainMetrics, ['trafficValue', 'traffic_value'], null)),
-        source: _pick(domainMetrics, ['source'], '')
-      },
-      topBacklinks: _toArray(_pick(backlinks, ['topBacklinks', 'top_backlinks'], [])).map(function (item) {
-        return {
-          sourceUrl: _pick(item, ['sourceUrl', 'source_url'], ''),
-          targetUrl: _pick(item, ['targetUrl', 'target_url'], ''),
-          anchorText: _pick(item, ['anchorText', 'anchor_text'], ''),
-          domainRating: _toNumber(_pick(item, ['domainRating', 'domain_rating'], null)),
-          isDofollow: _toBoolean(_pick(item, ['isDofollow', 'is_dofollow'], null)),
-          firstSeen: _pick(item, ['firstSeen', 'first_seen'], '')
-        };
-      }),
-      competitorDomainMetrics: _toArray(_pick(backlinks, ['competitorDomainMetrics', 'competitor_domain_metrics'], [])).map(function (item) {
-        return {
-          domain: _pick(item, ['domain'], ''),
-          domainRating: _toNumber(_pick(item, ['domainRating', 'domain_rating'], null)),
-          referringDomains: _toNumber(_pick(item, ['referringDomains', 'referring_domains'], null)),
-          totalBacklinks: _toNumber(_pick(item, ['totalBacklinks', 'total_backlinks', 'backlinks'], null)),
-          trafficValue: _toNumber(_pick(item, ['trafficValue', 'traffic_value'], null))
-        };
-      })
-    };
-  }
 
   function _depthDistribution(depths) {
     var counts = {};
@@ -856,8 +602,7 @@
     renderLinkOverview: renderLinkOverview,
     renderOrphanPages: renderOrphanPages,
     renderHubSpokeClusters: renderHubSpokeClusters,
-    renderLinkDepth: renderLinkDepth,
-    renderBacklinkProfile: renderBacklinkProfile
+    renderLinkDepth: renderLinkDepth
   };
 
   if (document.readyState === 'loading') {

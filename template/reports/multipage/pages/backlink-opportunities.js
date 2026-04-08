@@ -121,6 +121,14 @@
   var _bo = (window.AUDIT_DATA && window.AUDIT_DATA.backlinkOpportunities) || {};
   var _hasData = !!(_bo.client && _bo.competitors && _bo.competitors.length);
 
+  // Derive location labels from audit data for dynamic text
+  var _clientData = (window.AUDIT_DATA && window.AUDIT_DATA.client) || {};
+  var _locationFull = _clientData.location || 'your area';
+  var _locationParts = _locationFull.split(',').map(function(s) { return s.trim(); });
+  var _city = _locationParts[0] || 'your city';
+  var _region = _locationParts[1] || _locationParts[0] || 'your region';
+  var _localLabel = _city + '/' + _region;
+
   var COMPETITORS = (_bo.competitors || []).map(function(c) {
     return {
       domain: c.domain || '',
@@ -135,9 +143,10 @@
     domain: _bo.client.domain || '',
     backlinks: _bo.client.backlinks || 0,
     referringDomains: _bo.client.referringDomains || 0,
+    domainRating: _bo.client.domainRating || _bo.client.domain_rating || 0,
     dofollowRatio: _bo.client.dofollowRatio || 0,
     typeCounts: _bo.client.typeCounts || {}
-  } : { domain: '', backlinks: 0, referringDomains: 0, dofollowRatio: 0, typeCounts: {} };
+  } : { domain: '', backlinks: 0, referringDomains: 0, domainRating: 0, dofollowRatio: 0, typeCounts: {} };
 
   var MOCK_OPPORTUNITIES = (_bo.opportunities || []).map(function(o) {
     return {
@@ -178,7 +187,7 @@
     var container = document.getElementById('backlinks-content');
     if (!container) return;
 
-    var dr = 14; // mockup DR for this new site
+    var dr = CLIENT.domainRating || 0;
     var drColor = dr >= 40 ? '#22c55e' : dr >= 20 ? '#eab308' : '#f97316';
 
     // Stat cards
@@ -339,7 +348,7 @@
       '<div class="stat-card severity-orange">' +
         '<div class="stat-value">' + localOpps.length + '</div>' +
         '<div class="stat-label">Local Opportunities</div>' +
-        '<div style="font-size:0.7rem;color:#94a3b8;margin-top:2px">Calgary/Alberta-specific links</div>' +
+        '<div style="font-size:0.7rem;color:#94a3b8;margin-top:2px">' + esc(_localLabel) + '-specific links</div>' +
       '</div>' +
       '<div class="stat-card" style="border-left:3px solid var(--accent-blue)">' +
         '<div class="stat-value" style="color:var(--accent-blue)">' + formatNumber(CLIENT.referringDomains) + '</div>' +
@@ -382,7 +391,7 @@
             'Referring Domains' +
           '</div>' +
           '<p style="font-size:0.82rem;color:#475569;line-height:1.5;margin:0 0 0.5rem 0">' +
-            'The number of <strong>unique websites</strong> linking to you. If cirrealty.ca links to you from 3 different pages, that still counts as <strong>1 referring domain</strong>.' +
+            'The number of <strong>unique websites</strong> linking to you. If example-agency.com links to you from 3 different pages, that still counts as <strong>1 referring domain</strong>.' +
           '</p>' +
           '<p style="font-size:0.82rem;color:#475569;line-height:1.5;margin:0">' +
             'This is the metric search engines weigh most heavily &mdash; diversity of sources signals trustworthiness. <strong>Your count: ' + formatNumber(CLIENT.referringDomains) + '</strong>' +
@@ -420,7 +429,7 @@
         '<p style="font-size:0.85rem;color:#475569;line-height:1.65;margin:0 0 0.75rem 0">' +
           'We analyzed <strong>' + MOCK_OPPORTUNITIES.length + '</strong> referring domains across all ' + COMPETITORS.length + ' competitors and found <strong>' + highPriority.length + ' high-priority gaps</strong> &mdash; domains that 3 or more of your competitors have but you don\'t. ' +
           'Of those, <strong>' + easyHighPriority.length + '</strong> are directories and listings where getting added is a simple self-submission process. ' +
-          'Another <strong>' + localOpps.length + '</strong> domains are Calgary or Alberta-specific, meaning they carry extra weight for local search rankings.' +
+          'Another <strong>' + localOpps.length + '</strong> domains are ' + esc(_localLabel) + '-specific, meaning they carry extra weight for local search rankings.' +
         '</p>' +
         '<p style="font-size:0.85rem;color:#475569;line-height:1.65;margin:0">' +
           'You already share <strong>' + sharedDomains.length + '</strong> referring domains with at least one competitor &mdash; those are confirmed wins. The remaining <strong>' + missingDomains.length + '</strong> represent your total opportunity set.' +
@@ -494,7 +503,7 @@
           '<div>' +
             '<div style="' + titleStyle + '">Backlink Intelligence</div>' +
             '<p style="' + descStyle + '">' +
-              'A deep dive into the quality and character of every competitor\'s link profile. Includes: <strong>Type breakdown</strong> (what kinds of sites link to each competitor &mdash; directories, press, social, industry, blogs, etc.), <strong>local relevance</strong> (Calgary/Alberta-specific links carry extra local ranking weight), <strong>dofollow ratios</strong> (a healthy profile is 60&ndash;80% dofollow), <strong>Domain Rating distribution</strong> (the authority spread of linking sites), <strong>link velocity</strong> (who is actively building links right now), and a <strong>profile similarity heatmap</strong> that shows which competitors share the most linking domains. Click any cell in the heatmap to compare two profiles side by side.' +
+              'A deep dive into the quality and character of every competitor\'s link profile. Includes: <strong>Type breakdown</strong> (what kinds of sites link to each competitor &mdash; directories, press, social, industry, blogs, etc.), <strong>local relevance</strong> (' + esc(_localLabel) + '-specific links carry extra local ranking weight), <strong>dofollow ratios</strong> (a healthy profile is 60&ndash;80% dofollow), <strong>Domain Rating distribution</strong> (the authority spread of linking sites), <strong>link velocity</strong> (who is actively building links right now), and a <strong>profile similarity heatmap</strong> that shows which competitors share the most linking domains. Click any cell in the heatmap to compare two profiles side by side.' +
             '</p>' +
             '<p style="' + tipStyle + '">' +
               '<strong>How to use it:</strong> If a competitor has high link velocity (20+ new domains/month), they have an active campaign &mdash; study their profile to replicate their strategy. Use the type breakdown to identify categories where you have zero presence (e.g., no press links) and prioritize those gaps.' +
@@ -907,7 +916,7 @@
     // --- 3c: Local Relevance ---
     html += '<div style="margin-bottom:2.5rem">' +
       '<h3 style="font-size:1.1rem;font-weight:700;color:var(--navy-800);margin-bottom:0.5rem">Locally Relevant Opportunities</h3>' +
-      '<p style="font-size:0.85rem;color:#64748b;margin-bottom:1rem">Links from Calgary and Alberta-specific sites carry extra weight for local SEO. These are your highest-value targets.</p>';
+      '<p style="font-size:0.85rem;color:#64748b;margin-bottom:1rem">Links from ' + esc(_localLabel) + '-specific sites carry extra weight for local SEO. These are your highest-value targets.</p>';
 
     if (localOpps.length > 0) {
       html += '<div id="local-opps-container"></div>';
@@ -950,6 +959,13 @@
 
     // Build all pairwise overlaps sorted for quick-glance
     var sortedPairs = SIMILARITY_PAIRS.slice().sort(function(a, b) { return b.pct - a.pct; });
+
+    if (!sortedPairs.length) {
+      html += '<div style="text-align:center;padding:2rem;color:#94a3b8;font-style:italic;background:#fff;border:1px solid #e2e8f0;border-radius:12px;margin-bottom:1.5rem">' +
+        'Profile similarity data not yet available. Run the backlink researcher agent with competitor intersection analysis to populate this section.' +
+      '</div>';
+    } else {
+
     var top3 = sortedPairs.slice(0, 3);
     var lowest = sortedPairs[sortedPairs.length - 1];
 
@@ -1055,6 +1071,8 @@
     '</div>';
 
     html += '</div>';
+
+    } // end else (sortedPairs.length > 0)
 
     el.innerHTML = html;
 
@@ -1192,7 +1210,19 @@
     var ctx = document.getElementById('type-breakdown-chart');
     if (!ctx || typeof Chart === 'undefined') return;
 
+    // Check if any typeCounts data exists
+    var hasTypeData = false;
     var types = ['directory', 'press', 'social', 'industry', 'blog', 'other'];
+    for (var t = 0; t < types.length && !hasTypeData; t++) {
+      if (CLIENT.typeCounts[types[t]]) hasTypeData = true;
+      for (var ci = 0; ci < COMPETITORS.length && !hasTypeData; ci++) {
+        if (COMPETITORS[ci].typeCounts && COMPETITORS[ci].typeCounts[types[t]]) hasTypeData = true;
+      }
+    }
+    if (!hasTypeData) {
+      ctx.parentElement.innerHTML = '<div style="text-align:center;padding:2rem;color:#94a3b8;font-style:italic">Link type breakdown data not yet available. Run the backlink researcher agent to classify referring domains by type.</div>';
+      return;
+    }
     var typeColors = ['#3b82f6', '#f59e0b', '#ec4899', '#10b981', '#6366f1', '#94a3b8'];
 
     var datasets = [];
@@ -1280,15 +1310,26 @@
     var ctx = document.getElementById('velocity-chart');
     if (!ctx || typeof Chart === 'undefined') return;
 
-    var months = ['Oct 2025', 'Nov 2025', 'Dec 2025', 'Jan 2026', 'Feb 2026', 'Mar 2026'];
+    // Build velocity labels and datasets from data (or hide chart if no velocity data)
+    var velocityData = _bo.velocityData || {};
+    var months = velocityData.months || [];
+    if (!months.length) {
+      // No velocity data available — hide the chart
+      ctx.parentElement.innerHTML = '<div style="text-align:center;padding:2rem;color:#94a3b8;font-style:italic">Link velocity data not yet available. Run a follow-up backlink analysis to populate this chart.</div>';
+      return;
+    }
 
-    // Mockup velocity data (new referring domains per month)
+    var compColors = ['rgb(100,116,139)', 'rgb(139,92,246)', 'rgb(16,185,129)', 'rgb(245,158,11)', 'rgb(236,72,153)', 'rgb(20,184,166)', 'rgb(249,115,22)'];
     var datasets = [
-      { label: CLIENT.domain, data: [2, 1, 3, 1, 2, 0], borderColor: 'rgb(59,130,246)', backgroundColor: 'rgba(59,130,246,0.1)', fill: true, tension: 0.3 },
-      { label: 'justinhavre.com', data: [18, 22, 15, 25, 20, 28], borderColor: 'rgb(100,116,139)', backgroundColor: 'transparent', tension: 0.3 },
-      { label: 'calgaryhomes.ca', data: [12, 8, 14, 10, 16, 11], borderColor: 'rgb(139,92,246)', backgroundColor: 'transparent', tension: 0.3 },
-      { label: 'kirbycox.com', data: [5, 7, 4, 8, 6, 5], borderColor: 'rgb(16,185,129)', backgroundColor: 'transparent', tension: 0.3 }
+      { label: CLIENT.domain, data: velocityData.client || [], borderColor: 'rgb(59,130,246)', backgroundColor: 'rgba(59,130,246,0.1)', fill: true, tension: 0.3 }
     ];
+    var compVelocity = velocityData.competitors || {};
+    for (var vi = 0; vi < COMPETITORS.length && vi < compColors.length; vi++) {
+      var compDom = COMPETITORS[vi].domain;
+      if (compVelocity[compDom]) {
+        datasets.push({ label: compDom, data: compVelocity[compDom], borderColor: compColors[vi], backgroundColor: 'transparent', tension: 0.3 });
+      }
+    }
 
     new Chart(ctx, {
       type: 'line',
@@ -1864,7 +1905,7 @@
       },
       'section-intelligence': {
         title: 'Backlink Intelligence',
-        explanation: 'This section breaks down the quality and character of your backlink profile vs competitors. Type breakdown shows what kinds of sites link to each competitor — diversity signals a natural profile. Local relevance highlights Calgary/Alberta-specific links that carry extra local SEO weight. Dofollow ratio between 60-80% is natural. Link velocity shows who\'s actively building right now. The heatmap lets you click any cell to compare two profiles side by side.',
+        explanation: 'This section breaks down the quality and character of your backlink profile vs competitors. Type breakdown shows what kinds of sites link to each competitor — diversity signals a natural profile. Local relevance highlights ' + esc(_localLabel) + '-specific links that carry extra local SEO weight. Dofollow ratio between 60-80% is natural. Link velocity shows who\'s actively building right now. The heatmap lets you click any cell to compare two profiles side by side.',
         tip: 'If a competitor gains 20+ referring domains per month, they have an active link-building campaign. Study their profile similarity to replicate their strategy.'
       },
       'section-details': {
@@ -1880,12 +1921,32 @@
   // ---------------------------------------------------------------------------
   function init() {
     if (!_hasData) {
+      // Determine which connectors/data sources are missing
+      var missing = [];
+      var bl = (window.AUDIT_DATA && window.AUDIT_DATA.backlinks) || {};
+      if (!bl.domainMetrics || !bl.domainMetrics.domainRating) missing.push('DataForSEO Backlinks API');
+      if (!bl.competitorDomainMetrics || !bl.competitorDomainMetrics.length) missing.push('DataForSEO Domain Metrics');
+      if (!_bo.opportunities || !_bo.opportunities.length) missing.push('Backlink Opportunities Research (backlink-opportunities.json)');
+
+      var missingHtml = '';
+      if (missing.length) {
+        missingHtml = '<div style="text-align:left;display:inline-block;margin-top:1rem">';
+        for (var mi = 0; mi < missing.length; mi++) {
+          missingHtml += '<div style="font-size:0.82rem;color:#ef4444;padding:4px 0;display:flex;align-items:center;gap:6px">' +
+            '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:14px;height:14px;flex-shrink:0"><path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" /></svg>' +
+            'Missing connector: <strong>' + esc(missing[mi]) + '</strong>' +
+          '</div>';
+        }
+        missingHtml += '</div>';
+      }
+
       var noData = document.getElementById('insights-content') || document.getElementById('summary-content');
       if (noData) {
         noData.innerHTML = '<div style="text-align:center;padding:3rem 1rem;color:#94a3b8">' +
           '<div style="font-size:2.5rem;margin-bottom:0.75rem">&#128279;</div>' +
           '<h3 style="font-size:1.1rem;font-weight:700;color:#64748b;margin-bottom:0.5rem">No Backlink Opportunity Data</h3>' +
           '<p style="font-size:0.88rem;max-width:480px;margin:0 auto">Backlink opportunity analysis requires competitor referring domain data. Run the backlink researcher agent to populate this section.</p>' +
+          missingHtml +
         '</div>';
       }
       registerExplainers();
