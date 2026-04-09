@@ -525,7 +525,7 @@ function copyDirectory(sourceDir, destinationDir) {
 function normalizeAuditData(data, dataDir) {
   const tech = data.technicalSeo || (data.technicalSeo = {});
   let fixes = 0;
-  const apiErrors = Array.isArray(data.apiErrors) ? data.apiErrors : (data.apiErrors = []);
+  data.apiErrors = data.apiErrors || [];
 
   function propagateApiErrors(source, payload) {
     if (!payload || typeof payload !== 'object') return;
@@ -533,6 +533,7 @@ function normalizeAuditData(data, dataDir) {
     const status = typeof payload.status === 'string' ? payload.status : null;
     const hasErrorStatus = status === 'partial' || status === 'failed' || status === 'error';
     if (!errors.length && !hasErrorStatus) return;
+
     const entry = {
       source: source,
       status: status || (errors.length ? 'partial' : 'failed'),
@@ -541,27 +542,10 @@ function normalizeAuditData(data, dataDir) {
     if (typeof payload.gatheredAt === 'string' && payload.gatheredAt) {
       entry.gatheredAt = payload.gatheredAt;
     }
-    const existingIndex = apiErrors.findIndex(function (item) { return item && item.source === source; });
-    if (existingIndex >= 0) { apiErrors[existingIndex] = entry; } else { apiErrors.push(entry); }
-  }
 
-  function propagateApiErrors(source, payload) {
-    if (!payload || typeof payload !== 'object') return;
-
-    const errors = Array.isArray(payload.errors) ? payload.errors : [];
-    const status = typeof payload.status === 'string' ? payload.status : null;
-    const hasErrorStatus = status === 'partial' || status === 'failed' || status === 'error';
-
-    if (!errors.length && !hasErrorStatus) return;
-
-    data._dataSourceErrors[source] = {
-      errors: errors,
-      status: status || (errors.length ? 'partial' : 'failed'),
-    };
-
-    if (typeof payload.gatheredAt === 'string' && payload.gatheredAt) {
-      data._dataSourceErrors[source].gatheredAt = payload.gatheredAt;
-    }
+    // Store in array (for iteration) and remove any previous entry for same source
+    const idx = data.apiErrors.findIndex(function (e) { return e && e.source === source; });
+    if (idx >= 0) { data.apiErrors[idx] = entry; } else { data.apiErrors.push(entry); }
 
     if (errors.length) {
       logWarning(source + ' has API errors', errors.length + ' error(s): ' + (errors[0].reason || errors[0].message || JSON.stringify(errors[0])));
