@@ -224,6 +224,11 @@
     var pages = content && toArray(content.pages);
 
     if (!content || !pages) {
+      var apiErr = window.TPPC.utils && window.TPPC.utils.getApiErrors(data, 'page-text-analysis.json');
+      if (apiErr && window.TPPC.utils.renderApiErrorBanner) {
+        setContent('section-readability-content', window.TPPC.utils.renderApiErrorBanner(apiErr));
+        return;
+      }
       setContent('section-readability-content', renderEmptyState());
       return;
     }

@@ -328,6 +328,11 @@
     var raw = data && data.coreWebVitals;
     var normalized = normalizeCWVData(raw);
     if (!normalized) {
+      var apiErr = window.TPPC.utils && window.TPPC.utils.getApiErrors(data, 'pagespeed-data.json');
+      if (apiErr && window.TPPC.utils.renderApiErrorBanner) {
+        container.innerHTML = window.TPPC.utils.renderApiErrorBanner(apiErr);
+        return;
+      }
       container.innerHTML = emptyState(
         'No Core Web Vitals data',
         'This audit build did not include a coreWebVitals object for mobile or desktop rendering.'
@@ -386,6 +391,11 @@
     var comparison = normalizeComparisonScores(data && data.pageSpeedComparison);
 
     if (!lighthouseResults.length && !comparison.length) {
+      var apiErr = window.TPPC.utils && window.TPPC.utils.getApiErrors(data, 'pagespeed-data.json');
+      if (apiErr && window.TPPC.utils.renderApiErrorBanner) {
+        container.innerHTML = window.TPPC.utils.renderApiErrorBanner(apiErr);
+        return;
+      }
       container.innerHTML = emptyState(
         'No PageSpeed data',
         'technicalSeo.lighthouseResults and pageSpeedComparison were not included in this audit payload.'

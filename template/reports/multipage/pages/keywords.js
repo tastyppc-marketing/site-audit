@@ -164,6 +164,11 @@
     if (!container) return;
 
     if (!metrics || (!hasValue(metrics.organicKeywords) && !hasValue(metrics.organicTraffic))) {
+      var apiErr = window.TPPC.utils && window.TPPC.utils.getApiErrors(data, 'domain-metrics.json');
+      if (apiErr && window.TPPC.utils.renderApiErrorBanner) {
+        container.innerHTML = window.TPPC.utils.renderApiErrorBanner(apiErr);
+        return;
+      }
       container.innerHTML = buildEmptyState(
         'No organic visibility data was provided',
         'Add backlinks.domainMetrics.organicKeywords and organicTraffic to show current organic visibility on this page.',

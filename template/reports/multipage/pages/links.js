@@ -63,12 +63,17 @@
     }
 
     if (!hasSummary) {
-      html += '<div class="mt-8">' +
-        _emptyState(
-          'No internal link summary yet',
-          'Populate `internalLinking.summary` or provide root `LinkGraphResult` fields so the page can show site-wide link metrics.'
-        ) +
-      '</div>';
+      var apiErr = window.TPPC.utils && window.TPPC.utils.getApiErrors(data, 'link-graph.json');
+      if (apiErr && window.TPPC.utils.renderApiErrorBanner) {
+        html += '<div class="mt-8">' + window.TPPC.utils.renderApiErrorBanner(apiErr) + '</div>';
+      } else {
+        html += '<div class="mt-8">' +
+          _emptyState(
+            'No internal link summary yet',
+            'Populate `internalLinking.summary` or provide root `LinkGraphResult` fields so the page can show site-wide link metrics.'
+          ) +
+        '</div>';
+      }
     }
 
     container.innerHTML = html;

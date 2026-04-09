@@ -1933,6 +1933,20 @@
   // ---------------------------------------------------------------------------
   function init() {
     if (!_hasData) {
+      var _auditData = window.AUDIT_DATA || {};
+      var _apiErrBacklinks = window.TPPC.utils && window.TPPC.utils.getApiErrors(_auditData, 'client-backlinks.json');
+      var _apiErrDomainMetrics = window.TPPC.utils && window.TPPC.utils.getApiErrors(_auditData, 'domain-metrics.json');
+      var _apiErrFirst = _apiErrBacklinks || _apiErrDomainMetrics;
+
+      if (_apiErrFirst && window.TPPC.utils.renderApiErrorBanner) {
+        var noDataEl = document.getElementById('insights-content') || document.getElementById('summary-content');
+        if (noDataEl) {
+          noDataEl.innerHTML = window.TPPC.utils.renderApiErrorBanner(_apiErrFirst);
+        }
+        registerExplainers();
+        return;
+      }
+
       // Determine which connectors/data sources are missing
       var missing = [];
       var bl = (window.AUDIT_DATA && window.AUDIT_DATA.backlinks) || {};

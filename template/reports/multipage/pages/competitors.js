@@ -433,6 +433,11 @@
 
     if (!container) return;
     if (!client || !competitors.length) {
+      var apiErr = window.TPPC.utils && window.TPPC.utils.getApiErrors(data, 'domain-metrics.json');
+      if (apiErr && window.TPPC.utils.renderApiErrorBanner) {
+        container.innerHTML = window.TPPC.utils.renderApiErrorBanner(apiErr);
+        return;
+      }
       container.innerHTML = emptyState('Domain-level competitor metrics were not provided for this audit yet.');
       return;
     }
@@ -505,6 +510,11 @@
     if (!entries.length || typeof charts.createBarChart !== 'function') {
       destroyChart(pageSpeedChart);
       pageSpeedChart = null;
+      var apiErr = window.TPPC.utils && window.TPPC.utils.getApiErrors(data, 'pagespeed-data.json');
+      if (apiErr && window.TPPC.utils.renderApiErrorBanner) {
+        container.innerHTML = window.TPPC.utils.renderApiErrorBanner(apiErr);
+        return;
+      }
       container.innerHTML = emptyState('PageSpeed comparison data was not included for this audit.');
       return;
     }
