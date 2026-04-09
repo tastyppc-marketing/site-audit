@@ -672,6 +672,42 @@ Check on agents periodically:
 
 ---
 
+---
+
+## Step 5.5: Run Data-Gathering Scripts
+
+After all 6 research agents are complete, run these scripts to produce the JSON files
+the report generator needs. These do NOT require Google connectors.
+
+### PageSpeed data (public PSI API, no auth):
+```bash
+node scripts/gather-pagespeed.js {CLIENT_SITE_URL} {COMPETITOR_URLS_SPACE_SEPARATED}
+```
+Output: `seo/research/pagespeed-data.json`
+
+### Domain metrics (DataForSEO, API key only):
+```bash
+node scripts/gather-domain-metrics.js {CLIENT_DOMAIN} {COMPETITOR_DOMAINS_SPACE_SEPARATED}
+```
+Output: `seo/research/domain-metrics.json`
+
+### Backlink inventory (DataForSEO, API key only):
+```bash
+node scripts/gather-backlinks.js {CLIENT_DOMAIN}
+```
+Output: `seo/research/client-backlinks.json`
+
+### Page text analysis (Playwright, no auth):
+```bash
+node scripts/extract-text.js --limit 50
+```
+Output: `seo/research/page-text-analysis.json`
+
+**Verify all 4 files exist before proceeding:**
+```bash
+ls -lh seo/research/{pagespeed-data,domain-metrics,client-backlinks,page-text-analysis}.json
+```
+
 ## Step 6: Compile Final Report
 
 Spawn a report compilation agent:
@@ -1017,6 +1053,83 @@ Read ALL research files and fill in `seo/audit-data.json` (the template is alrea
 - `localSeo.serviceAreaMap` — GeoJSON FeatureCollection with a Point (business location) and a Polygon (service area boundary). The map renderer reads center coordinates from the Point feature
 - `localSeo.accessNotes` — `{ gbpAccess, gaAccess, searchConsoleAccess, note }` documenting what data sources are/aren't available
 
+### Sections that require manual population from research files:
+
+- `contentQuality` — from content-audit.md + page-text-analysis.json:
+  - `summary`: totalPagesAnalyzed, avgQualityScore, thinPageCount (threshold: 300 words), avgReadabilityScore, avgSeoScore, avgStructureScore, duplicateGroupCount, cannibalizationCount
+  - `pages[]`: url, title, readabilityScore, qualityScore, isThin, readability (sub-object with fleschReadingEase, fleschKincaidGrade, wordCount, scoreExplanation), structure (sub-object with headingCount, h2Count, h3Count, headingHierarchyValid, imageCount, imagesWithAlt, internalLinks, hasFaqSchema), issues[], recommendations[]
+  - `duplicateGroups[]`: fingerprint, similarity, wordCountRange, pages[], recommendation
+  - `cannibalization[]`: keyword, severity, pages[] (url, clicks, impressions, position), recommendation
+
+- `backlinks` — from backlink-analysis.md + domain-metrics.json + client-backlinks.json:
+  - `domainMetrics`: domainRating, referringDomains, totalBacklinks, organicTraffic, source ("DataForSEO")
+  - `topBacklinks[]`: sourceUrl, targetUrl, anchorText, domainRating, isDofollow, firstSeen
+  - `competitorDomainMetrics[]`: domain, domainRating, referringDomains, backlinks, isClient
+
+- `technicalSeo` — from client-site-structure.md + pagespeed-data.json:
+  - `metaTagSummary`: pagesWithTitle, pagesWithoutTitle, pagesWithDescription, pagesWithoutDescription, duplicateTitles, duplicateDescriptions, pagesWithCanonical, pagesWithoutCanonical
+  - `metaTagIssues[]`: url, issue, detail
+  - `imageAudit`: summary (totalImages, totalMissingAlt, overallAltCoverage), worstPages[]
+  - `schemaSummary`: pagesWithSchema, pagesWithoutSchema, schemaTypesFound[], recommendedSchemas[]
+  - `canonicalAudit`: summary, issues[]
+  - `redirectChains`: summary, chains[], issues[]
+  - `securityHeaders`: summary (headerCoverage per header), issues[]
+  - `coreWebVitals`: mobile + desktop (performanceScore, lcp, cls, fcp, inp, ttfb, speedIndex)
+  - `lighthouseResults`: clientPages[] (url + per-strategy scores)
+  - `pageSpeedComparison[]`: domain, mobileScore, desktopScore, isClient — **MUST use real per-competitor PSI measurements, never copy client scores**
+  - `pageSpeedOpportunities[]`: issue, savingsKb, savingsMs, affectsAllPages
+  - `crawlIssues[]`: url, statusCode, issue
+
+- `localSeo` — from geocoded client address + competitor research:
+  - `businessProfile`: name, address, phone, latitude (**required**), longitude (**required**), category, rating, reviewCount, gbpVerified
+  - `competitorLocations[]`: name, domain, lat, lng
+  - `searchDemandZones[]`: lat, lng, radius, label, volume, color, opacity
+  - `serviceAreaMap`: GeoJSON FeatureCollection with Point (center, **coordinates in [lng, lat] order**) + Polygon (service area boundary)
+  - `accessNotes`: gbpAccess, gaAccess, searchConsoleAccess, note
+
+- `eeatSignals` — from content-audit.md + best-practices:
+  - `summary`: eeatScore, eeatGrade, trustScore, expertiseScore, authorityScore, experienceScore, totalPages
+  - `siteTrust`: boolean flags (hasAboutPage, hasContactPage, hasPrivacyPolicy, etc.), trustSignalCount/Total/Pct
+  - `pageSignals[]`: url, isYmyl, hasAuthor, hasPublicationDate, hasExpertiseSchema, effortScore, expertiseScore
+  - `eeatScore`: score, grade — **must match summary values**
+  - `issues[]`: issue, detail, severity, reference
+
+- `indexationCrawlability` — from client-site-structure.md crawl data:
+  - `crawlBudgetHealth`: score, grade, factors (parameterizedUrls, orphanPages, redirectChains, soft404s, deepPages)
+  - `parameterAudit`, `paginationAudit`, `soft404s`, `indexOrphans` — each with summary + items
+
+- `competitorAnalysis` — from competitor-analysis.md + domain-metrics.json + pagespeed-data.json:
+  - `domainMetricsComparison[]`: domain, dr, referringDomains, backlinks, isClient
+  - `pageSpeedComparison[]`: domain, mobileScore, desktopScore, isClient
+  - `organicKeywordsComparison`: keyed by domain
+  - `keyInsights[]`: insight strings
+
+- `rankHistory` — from keyword-research.md (current snapshot):
+  - `snapshots[]`: date strings (ISO)
+  - `chartLabels[]`: display labels
+  - `domains`: { client: domain, competitors: [domain, ...] }
+  - `keywords`: object keyed by keyword string, each with volume, difficulty, history (object keyed by domain, each keyed by date → rank or null)
+
+- `reportingIntelligence` — **populate LAST, derived from all other sections**:
+  - `siteHealthGrade`: compositeScore, letterGrade
+  - `categoryScores`: technical, performance, content, backlinks, indexability, local
+  - `prioritizedFindings[]`: issue, detail, impact, effort, roiScore, affectedCount, category, sampleUrls
+  - `executiveSummary`: narrative string
+
+### Fields auto-populated by the generator (DO NOT manually populate):
+- `technicalSeo.pageAudits[]` — from research/crawl-data.json
+- `technicalSeo.lighthouseResults[]` — from research/pagespeed-data.json (reshaped)
+- `coreWebVitals` — hoisted from technicalSeo.coreWebVitals
+- `pageSpeedComparison[]` — derived from competitorAnalysis or technicalSeo version
+- `internalLinking` stats — from research/link-graph.json
+- `internalLinking.hubClusters[]` — from research/link-graph.json
+- `contentQuality.pages[].readability.syllablesPerWord` — enriched from research/page-text-analysis.json
+- `backlinks.topBacklinks[]` — enriched from research/client-backlinks.json
+- `backlinks.topReferringDomains[]` — from research/client-backlinks.json
+- `domainMetrics` — from backlinks.competitorDomainMetrics or research/domain-metrics.json
+- `backlinkOpportunities` — constructed from backlinks + research/backlink-opportunities.json
+- `competitorComparison[]` column normalization — domain-slug keys → comp1..compN
+
 **Fields auto-populated by the HTML report generator (do NOT populate manually):**
 The multipage report generator (`generate-multipage-report.js`) auto-derives these from sibling research files during Step 8b. Just make sure the research files exist:
 - `technicalSeo.pageAudits[]` — auto-populated from `seo/research/crawl-data.json`
@@ -1048,6 +1161,18 @@ node scripts/generate-spreadsheet.js
 node scripts/generate-presentation.js
 node ../../template/reports/multipage/generate-multipage-report.js --data seo/audit-data.json --output seo/reports/multipage --inline
 ```
+
+### Generate multipage HTML report (local client folder):
+```bash
+cd reports/multipage && node generate-multipage-report.js
+```
+Output: `seo/multipage-report-{CLIENT_SLUG}-{DATE}/` — 9 HTML pages + assets
+
+### Quick validation:
+```bash
+cd seo/multipage-report-*/ && python3 -m http.server 8080
+```
+Open http://localhost:8080 and verify all 9 pages render.
 
 Or: `npm run generate`
 
