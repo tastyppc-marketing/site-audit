@@ -241,6 +241,7 @@
       return;
     }
 
+    if (!container) return;
     container.innerHTML = blocks.join('');
   }
 
@@ -405,6 +406,7 @@
       html += '</div>';
     }
 
+    if (!container) return;
     container.innerHTML = html;
   }
 
