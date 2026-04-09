@@ -161,7 +161,7 @@
     },
     'section-hubs': {
       title: 'Hub & Spoke Structure',
-      explanation: 'A hub page is a main topic page (like "Calgary Communities") that links out to detailed sub-pages (like individual neighborhood pages). This structure tells Google you\'re an authority on the topic and helps all related pages rank better.',
+      explanation: 'A hub page is a main topic page (like "Communities") that links out to detailed sub-pages (like individual neighborhood pages). This structure tells Google you\'re an authority on the topic and helps all related pages rank better.',
       tip: 'Think of it like a wheel — the hub page is the center, and each spoke links to a detailed page. The more connected, the stronger they all become.'
     },
     'section-depth': {
@@ -199,7 +199,7 @@
     },
     'section-localperf': {
       title: 'Local Search Performance',
-      explanation: 'This shows how well you\'re performing in location-based searches — when someone in Calgary searches "real estate agent near me" or "homes for sale in [neighborhood]." Local performance depends on your GBP, reviews, and local content.',
+      explanation: 'This shows how well you\'re performing in location-based searches — when someone searches "real estate agent near me" or "homes for sale in [neighborhood]." Local performance depends on your GBP, reviews, and local content.',
       tip: 'Local SEO is where small businesses compete most effectively against big portals like Zillow and Realtor.ca.'
     },
     'section-citations': {
