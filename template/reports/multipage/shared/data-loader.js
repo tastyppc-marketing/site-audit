@@ -57,7 +57,11 @@
 
       // Init page renderer
       if (pageName && window.TPPC.pages[pageName] && typeof window.TPPC.pages[pageName].init === 'function') {
-        window.TPPC.pages[pageName].init(window.TPPC.data);
+        try {
+          window.TPPC.pages[pageName].init(window.TPPC.data);
+        } catch (err) {
+          console.error('[TPPC] Renderer init failed for page "' + pageName + '":', err);
+        }
       }
 
       // Init collapsibles after all rendering is done
