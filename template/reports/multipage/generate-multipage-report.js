@@ -621,7 +621,7 @@ function normalizeAuditData(data, dataDir) {
           logInfo('Auto-populated lighthouseResults', `${expanded.length} entries from pagespeed-data.json`);
           fixes++;
         }
-      } catch (_) { /* ignore parse errors */ }
+      } catch (err) { logWarning('Failed to parse pagespeed-data.json', err.message); }
     }
   }
 
@@ -707,7 +707,7 @@ function normalizeAuditData(data, dataDir) {
           logInfo('Auto-populated pageAudits', `${tech.pageAudits.length} pages from crawl-data.json`);
           fixes++;
         }
-      } catch (_) { /* ignore parse errors */ }
+      } catch (err) { logWarning('Failed to parse crawl-data.json', err.message); }
     }
   }
 
@@ -730,7 +730,7 @@ function normalizeAuditData(data, dataDir) {
       if (typeof edges === 'object' && !Array.isArray(edges) && Object.keys(edges).length) {
         linkEdges = edges;
       }
-    } catch (_) { /* ignore parse errors */ }
+    } catch (err) { logWarning('Failed to parse link-graph.json', err.message); }
   }
 
   if (linkEdges) {
@@ -882,7 +882,7 @@ function normalizeAuditData(data, dataDir) {
           fixes++;
         }
       }
-    } catch (_) { /* ignore */ }
+    } catch (err) { logWarning('Failed to parse page-text-analysis.json', err.message); }
   }
 
   // ── 5d. Backlinks — auto-populate full list from client-backlinks.json ──
@@ -926,7 +926,7 @@ function normalizeAuditData(data, dataDir) {
         logInfo('Auto-populated topReferringDomains', rawDomains.length + ' domains from client-backlinks.json');
         fixes++;
       }
-    } catch (_) { /* ignore */ }
+    } catch (err) { logWarning('Failed to parse client-backlinks.json', err.message); }
   }
 
   // ── 6. Domain metrics comparison (competitors page) ──────────────────
@@ -955,7 +955,7 @@ function normalizeAuditData(data, dataDir) {
           const dmFile = JSON.parse(fs.readFileSync(dmPath, 'utf-8'));
           const entries = Array.isArray(dmFile.data) ? dmFile.data : (Array.isArray(dmFile) ? dmFile : []);
           if (entries.length) sourceEntries = entries;
-        } catch (_) { /* ignore */ }
+        } catch (err) { logWarning('Failed to parse domain-metrics.json', err.message); }
       }
     }
 
