@@ -525,7 +525,7 @@ function copyDirectory(sourceDir, destinationDir) {
 function normalizeAuditData(data, dataDir) {
   const tech = data.technicalSeo || (data.technicalSeo = {});
   let fixes = 0;
-  const apiErrors = Array.isArray(data.apiErrors) ? data.apiErrors : (data.apiErrors = []);
+  data._dataSourceErrors = data._dataSourceErrors || {};
 
   function propagateApiErrors(source, payload) {
     if (!payload || typeof payload !== 'object') return;
@@ -536,24 +536,20 @@ function normalizeAuditData(data, dataDir) {
 
     if (!errors.length && !hasErrorStatus) return;
 
-    const entry = {
-      source: source,
-      status: status || (errors.length ? 'partial' : 'failed'),
+    data._dataSourceErrors[source] = {
       errors: errors,
+      status: status || (errors.length ? 'partial' : 'failed'),
     };
 
     if (typeof payload.gatheredAt === 'string' && payload.gatheredAt) {
-      entry.gatheredAt = payload.gatheredAt;
+      data._dataSourceErrors[source].gatheredAt = payload.gatheredAt;
     }
 
-    const existingIndex = apiErrors.findIndex(function (item) {
-      return item && item.source === source;
-    });
-
-    if (existingIndex >= 0) {
-      apiErrors[existingIndex] = entry;
-    } else {
-      apiErrors.push(entry);
+    if (errors.length) {
+      logWarning(source + ' has API errors', errors.length + ' error(s): ' + (errors[0].reason || errors[0].message || JSON.stringify(errors[0])));
+    }
+    if (status === 'failed') {
+      logWarning(source + ' FAILED', 'All API calls failed — section will show error details in report');
     }
   }
 
