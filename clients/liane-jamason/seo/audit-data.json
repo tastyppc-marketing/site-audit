@@ -11,237 +11,3288 @@
     "serviceType": "Luxury & Waterfront Real Estate (Buy/Sell)",
     "location": "St. Petersburg, FL"
   },
-
   "competitor": {
     "primary": "avalongrouptampabay.com",
     "primaryLabel": "Avalon Group",
     "all": [
-      { "name": "Avalon Group", "domain": "avalongrouptampabay.com" },
-      { "name": "Eagan Luxury", "domain": "eaganluxury.com" },
-      { "name": "Smith & Associates", "domain": "smithandassociates.com" },
-      { "name": "The Salamone Group", "domain": "stpete.pro" },
-      { "name": "The Dynasty Group", "domain": "dynastyluxurygroup.com" }
+      {
+        "name": "Avalon Group",
+        "domain": "avalongrouptampabay.com"
+      },
+      {
+        "name": "Eagan Luxury",
+        "domain": "eaganluxury.com"
+      },
+      {
+        "name": "Smith & Associates",
+        "domain": "smithandassociates.com"
+      },
+      {
+        "name": "The Salamone Group",
+        "domain": "stpete.pro"
+      },
+      {
+        "name": "The Dynasty Group",
+        "domain": "dynastyluxurygroup.com"
+      }
     ]
   },
-
   "topIssues": [
-    { "issue": "Zero non-branded organic visibility", "detail": "Ranks for only 2 of 25 target keywords — both branded queries. Zero ranking for any commercial keyword (luxury homes, waterfront homes, neighborhoods, agent intent)", "impact": "Critical", "effort": "Medium-High" },
-    { "issue": "Broken primary lead capture funnel", "detail": "Market Analysis / home valuation form is non-rendering. Homepage CTA 'What's My Home Worth?' leads to a dead end. Seller conversion path is completely broken", "impact": "Critical", "effort": "Low" },
-    { "issue": "60%+ of core pages missing meta descriptions", "detail": "Homepage, blog index, reviews, property search, active listings, sold listings, and most area pages have no meta descriptions. Google auto-generates poor snippets", "impact": "Critical", "effort": "Low" },
-    { "issue": "70-83% of images missing alt text", "detail": "Hero images, professional headshot, press logos (Bay News 9, Tampa Bay Times, HuffPost), property photos, and blog featured images all lack alt text", "impact": "High", "effort": "Medium" },
-    { "issue": "Broken sitemap and thin-page indexing", "detail": "7 attachment sitemaps feeding hundreds of thin media pages into Google's index. One broken sitemap returning 404. Crawl budget wasted on junk content", "impact": "High", "effort": "Low" }
+    {
+      "issue": "Zero non-branded organic visibility",
+      "detail": "Ranks for only 2 of 25 target keywords — both branded queries. Zero ranking for any commercial keyword (luxury homes, waterfront homes, neighborhoods, agent intent)",
+      "impact": "Critical",
+      "effort": "Medium-High"
+    },
+    {
+      "issue": "Broken primary lead capture funnel",
+      "detail": "Market Analysis / home valuation form is non-rendering. Homepage CTA 'What's My Home Worth?' leads to a dead end. Seller conversion path is completely broken",
+      "impact": "Critical",
+      "effort": "Low"
+    },
+    {
+      "issue": "60%+ of core pages missing meta descriptions",
+      "detail": "Homepage, blog index, reviews, property search, active listings, sold listings, and most area pages have no meta descriptions. Google auto-generates poor snippets",
+      "impact": "Critical",
+      "effort": "Low"
+    },
+    {
+      "issue": "70-83% of images missing alt text",
+      "detail": "Hero images, professional headshot, press logos (Bay News 9, Tampa Bay Times, HuffPost), property photos, and blog featured images all lack alt text",
+      "impact": "High",
+      "effort": "Medium"
+    },
+    {
+      "issue": "Broken sitemap and thin-page indexing",
+      "detail": "7 attachment sitemaps feeding hundreds of thin media pages into Google's index. One broken sitemap returning 404. Crawl budget wasted on junk content",
+      "impact": "High",
+      "effort": "Low"
+    }
   ],
-
   "siteComparison": [
-    { "metric": "Total Pages", "client": "365+", "competitor": "287-1,100+", "gap": "Volume exists but technical issues prevent visibility" },
-    { "metric": "Blog Posts", "client": "287", "competitor": "10-235", "gap": "Leads most competitors in volume" },
-    { "metric": "Neighborhood Pages", "client": "15+", "competitor": "7-50+", "gap": "Mid-range; needs expansion + depth" },
-    { "metric": "Schema Markup", "client": "Moderate (basic types)", "competitor": "Excellent (Eagan: AggregateRating, AggregateOffer, Service)", "gap": "Missing review stars, FAQ, breadcrumbs" },
-    { "metric": "Keywords Ranking (of 25)", "client": "2 (branded only)", "competitor": "Up to 12 (Lipply Real Estate)", "gap": "Zero commercial visibility" },
-    { "metric": "Homepage Meta Description", "client": "MISSING", "competitor": "Present (4 of 5 competitors)", "gap": "Critical missing element" }
+    {
+      "metric": "Total Pages",
+      "client": "365+",
+      "competitor": "287-1,100+",
+      "gap": "Volume exists but technical issues prevent visibility"
+    },
+    {
+      "metric": "Blog Posts",
+      "client": "287",
+      "competitor": "10-235",
+      "gap": "Leads most competitors in volume"
+    },
+    {
+      "metric": "Neighborhood Pages",
+      "client": "15+",
+      "competitor": "7-50+",
+      "gap": "Mid-range; needs expansion + depth"
+    },
+    {
+      "metric": "Schema Markup",
+      "client": "Moderate (basic types)",
+      "competitor": "Excellent (Eagan: AggregateRating, AggregateOffer, Service)",
+      "gap": "Missing review stars, FAQ, breadcrumbs"
+    },
+    {
+      "metric": "Keywords Ranking (of 25)",
+      "client": "2 (branded only)",
+      "competitor": "Up to 12 (Lipply Real Estate)",
+      "gap": "Zero commercial visibility"
+    },
+    {
+      "metric": "Homepage Meta Description",
+      "client": "MISSING",
+      "competitor": "Present (4 of 5 competitors)",
+      "gap": "Critical missing element"
+    }
   ],
-
   "keyStats": [
-    { "value": "2 / 25", "label": "keywords ranking — both branded, zero commercial", "severity": "red" },
-    { "value": "365+ pages", "label": "but 60%+ missing meta descriptions", "severity": "orange" },
-    { "value": "287 blog posts", "label": "more than any competitor — content is an asset", "severity": "green" },
-    { "value": "BROKEN", "label": "home valuation form — #1 seller lead page", "severity": "red" },
-    { "value": "70-83%", "label": "of images missing alt text across key pages", "severity": "red" },
-    { "value": "0 lead magnets", "label": "no downloadable guides, no email capture on blog", "severity": "red" }
+    {
+      "value": "2 / 25",
+      "label": "keywords ranking — both branded, zero commercial",
+      "severity": "red"
+    },
+    {
+      "value": "365+ pages",
+      "label": "but 60%+ missing meta descriptions",
+      "severity": "orange"
+    },
+    {
+      "value": "287 blog posts",
+      "label": "more than any competitor — content is an asset",
+      "severity": "green"
+    },
+    {
+      "value": "BROKEN",
+      "label": "home valuation form — #1 seller lead page",
+      "severity": "red"
+    },
+    {
+      "value": "70-83%",
+      "label": "of images missing alt text across key pages",
+      "severity": "red"
+    },
+    {
+      "value": "0 lead magnets",
+      "label": "no downloadable guides, no email capture on blog",
+      "severity": "red"
+    }
   ],
-
   "keywords": [
-    { "keyword": "Liane Jamason realtor St Petersburg FL", "volume": "Low", "clientRank": "#1, #2", "competitorRank": "N/A", "topResult": "lianejamason.com" },
-    { "keyword": "Corcoran Dwellings St Petersburg", "volume": "Low", "clientRank": "#4", "competitorRank": "N/A", "topResult": "corcoran.com" },
-    { "keyword": "St Petersburg FL homes for sale", "volume": "Very High", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "St Petersburg FL real estate", "volume": "Very High", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "Tampa Bay waterfront homes for sale", "volume": "High", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "St Pete Beach homes for sale", "volume": "High", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "Pinellas County real estate", "volume": "High", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "Shore Acres St Petersburg homes for sale", "volume": "Medium", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "Snell Isle homes for sale", "volume": "Medium", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "premiersothebysrealty.com" },
-    { "keyword": "Tierra Verde homes for sale", "volume": "Medium", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "Downtown St Pete condos for sale", "volume": "Medium", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "Old Northeast St Petersburg real estate", "volume": "Medium", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "buy a home in St Petersburg FL", "volume": "High", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "sell my house St Petersburg FL", "volume": "Medium", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "stpetefasthomebuyer.com" },
-    { "keyword": "St Petersburg FL real estate agent", "volume": "High", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com (agent directory)" },
-    { "keyword": "best realtor in St Petersburg FL", "volume": "Medium", "clientRank": "Not found", "competitorRank": "Avalon Group ranks", "topResult": "realestate.usnews.com" },
-    { "keyword": "St Petersburg FL housing market 2026", "volume": "Medium", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "luxury homes St Petersburg FL", "volume": "High", "clientRank": "Not found", "competitorRank": "stpetersburgrealestate.com ranks", "topResult": "zillow.com" },
-    { "keyword": "waterfront homes St Petersburg FL", "volume": "High", "clientRank": "Not found", "competitorRank": "stpetersburgrealestate.com, smithandassociates.com rank", "topResult": "zillow.com" },
-    { "keyword": "St Petersburg FL homes with pool", "volume": "Medium", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "redfin.com" },
-    { "keyword": "historic homes St Petersburg FL", "volume": "Medium", "clientRank": "Not found", "competitorRank": "smithandassociates.com ranks", "topResult": "zillow.com" },
-    { "keyword": "St Pete waterfront condos for sale", "volume": "Medium", "clientRank": "Not found", "competitorRank": "mygulfcoastproperty.com ranks", "topResult": "homes.com" },
-    { "keyword": "affordable homes St Petersburg FL", "volume": "Medium", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "homes.com" },
-    { "keyword": "new construction homes St Petersburg FL", "volume": "Medium", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "St Petersburg FL investment property", "volume": "Medium", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "redfin.com" }
+    {
+      "keyword": "Liane Jamason realtor St Petersburg FL",
+      "volume": "Low",
+      "clientRank": "#1, #2",
+      "competitorRank": "N/A",
+      "topResult": "lianejamason.com"
+    },
+    {
+      "keyword": "Corcoran Dwellings St Petersburg",
+      "volume": "Low",
+      "clientRank": "#4",
+      "competitorRank": "N/A",
+      "topResult": "corcoran.com"
+    },
+    {
+      "keyword": "St Petersburg FL homes for sale",
+      "volume": "Very High",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com"
+    },
+    {
+      "keyword": "St Petersburg FL real estate",
+      "volume": "Very High",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com"
+    },
+    {
+      "keyword": "Tampa Bay waterfront homes for sale",
+      "volume": "High",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com"
+    },
+    {
+      "keyword": "St Pete Beach homes for sale",
+      "volume": "High",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com"
+    },
+    {
+      "keyword": "Pinellas County real estate",
+      "volume": "High",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com"
+    },
+    {
+      "keyword": "Shore Acres St Petersburg homes for sale",
+      "volume": "Medium",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com"
+    },
+    {
+      "keyword": "Snell Isle homes for sale",
+      "volume": "Medium",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "premiersothebysrealty.com"
+    },
+    {
+      "keyword": "Tierra Verde homes for sale",
+      "volume": "Medium",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com"
+    },
+    {
+      "keyword": "Downtown St Pete condos for sale",
+      "volume": "Medium",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com"
+    },
+    {
+      "keyword": "Old Northeast St Petersburg real estate",
+      "volume": "Medium",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com"
+    },
+    {
+      "keyword": "buy a home in St Petersburg FL",
+      "volume": "High",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com"
+    },
+    {
+      "keyword": "sell my house St Petersburg FL",
+      "volume": "Medium",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "stpetefasthomebuyer.com"
+    },
+    {
+      "keyword": "St Petersburg FL real estate agent",
+      "volume": "High",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com (agent directory)"
+    },
+    {
+      "keyword": "best realtor in St Petersburg FL",
+      "volume": "Medium",
+      "clientRank": "Not found",
+      "competitorRank": "Avalon Group ranks",
+      "topResult": "realestate.usnews.com"
+    },
+    {
+      "keyword": "St Petersburg FL housing market 2026",
+      "volume": "Medium",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com"
+    },
+    {
+      "keyword": "luxury homes St Petersburg FL",
+      "volume": "High",
+      "clientRank": "Not found",
+      "competitorRank": "stpetersburgrealestate.com ranks",
+      "topResult": "zillow.com"
+    },
+    {
+      "keyword": "waterfront homes St Petersburg FL",
+      "volume": "High",
+      "clientRank": "Not found",
+      "competitorRank": "stpetersburgrealestate.com, smithandassociates.com rank",
+      "topResult": "zillow.com"
+    },
+    {
+      "keyword": "St Petersburg FL homes with pool",
+      "volume": "Medium",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "redfin.com"
+    },
+    {
+      "keyword": "historic homes St Petersburg FL",
+      "volume": "Medium",
+      "clientRank": "Not found",
+      "competitorRank": "smithandassociates.com ranks",
+      "topResult": "zillow.com"
+    },
+    {
+      "keyword": "St Pete waterfront condos for sale",
+      "volume": "Medium",
+      "clientRank": "Not found",
+      "competitorRank": "mygulfcoastproperty.com ranks",
+      "topResult": "homes.com"
+    },
+    {
+      "keyword": "affordable homes St Petersburg FL",
+      "volume": "Medium",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "homes.com"
+    },
+    {
+      "keyword": "new construction homes St Petersburg FL",
+      "volume": "Medium",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com"
+    },
+    {
+      "keyword": "St Petersburg FL investment property",
+      "volume": "Medium",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "redfin.com"
+    }
   ],
-
   "competitorComparison": [
-    { "metric": "Blog Posts", "client": "287", "comp1": "235", "comp2": "226", "comp3": "43+", "comp4": "~100", "comp5": "10", "gap": "Liane leads in volume" },
-    { "metric": "Total Pages", "client": "365+", "comp1": "287", "comp2": "381", "comp3": "1,000s", "comp4": "1,100+", "comp5": "~30", "gap": "Mid-range overall" },
-    { "metric": "Neighborhood Pages", "client": "15+", "comp1": "11", "comp2": "30", "comp3": "50+", "comp4": "9", "comp5": "7", "gap": "Behind Eagan & Smith" },
-    { "metric": "Homepage Meta Desc", "client": "MISSING", "comp1": "Present", "comp2": "Present", "comp3": "Present", "comp4": "MISSING", "comp5": "Present", "gap": "Critical gap" },
-    { "metric": "Schema Depth", "client": "Moderate", "comp1": "Moderate", "comp2": "Excellent", "comp3": "Basic", "comp4": "Basic", "comp5": "Minimal", "gap": "Behind Eagan Luxury" },
-    { "metric": "Reviews Highlighted", "client": "\"Top 3\" badge", "comp1": "300+ 5-star", "comp2": "85, 5.0 stars", "comp3": "Institutional trust", "comp4": "Not prominent", "comp5": "Testimonials page", "gap": "Under-leveraged" },
-    { "metric": "Lead Magnets", "client": "Broken home value form", "comp1": "Reports, guides, SMS", "comp2": "Valuation, consultation", "comp3": "Assessment form", "comp4": "Valuation, concierge", "comp5": "Valuation, modal", "gap": "Zero functional magnets" },
-    { "metric": "Est. Domain Rating", "client": "20-30", "comp1": "35-45", "comp2": "30-40", "comp3": "50-60", "comp4": "25-35", "comp5": "15-25", "gap": "Below top competitors" }
+    {
+      "metric": "Blog Posts",
+      "client": "287",
+      "comp1": "235",
+      "comp2": "226",
+      "comp3": "43+",
+      "comp4": "~100",
+      "comp5": "10",
+      "gap": "Liane leads in volume"
+    },
+    {
+      "metric": "Total Pages",
+      "client": "365+",
+      "comp1": "287",
+      "comp2": "381",
+      "comp3": "1,000s",
+      "comp4": "1,100+",
+      "comp5": "~30",
+      "gap": "Mid-range overall"
+    },
+    {
+      "metric": "Neighborhood Pages",
+      "client": "15+",
+      "comp1": "11",
+      "comp2": "30",
+      "comp3": "50+",
+      "comp4": "9",
+      "comp5": "7",
+      "gap": "Behind Eagan & Smith"
+    },
+    {
+      "metric": "Homepage Meta Desc",
+      "client": "MISSING",
+      "comp1": "Present",
+      "comp2": "Present",
+      "comp3": "Present",
+      "comp4": "MISSING",
+      "comp5": "Present",
+      "gap": "Critical gap"
+    },
+    {
+      "metric": "Schema Depth",
+      "client": "Moderate",
+      "comp1": "Moderate",
+      "comp2": "Excellent",
+      "comp3": "Basic",
+      "comp4": "Basic",
+      "comp5": "Minimal",
+      "gap": "Behind Eagan Luxury"
+    },
+    {
+      "metric": "Reviews Highlighted",
+      "client": "\"Top 3\" badge",
+      "comp1": "300+ 5-star",
+      "comp2": "85, 5.0 stars",
+      "comp3": "Institutional trust",
+      "comp4": "Not prominent",
+      "comp5": "Testimonials page",
+      "gap": "Under-leveraged"
+    },
+    {
+      "metric": "Lead Magnets",
+      "client": "Broken home value form",
+      "comp1": "Reports, guides, SMS",
+      "comp2": "Valuation, consultation",
+      "comp3": "Assessment form",
+      "comp4": "Valuation, concierge",
+      "comp5": "Valuation, modal",
+      "gap": "Zero functional magnets"
+    },
+    {
+      "metric": "Est. Domain Rating",
+      "client": "20-30",
+      "comp1": "35-45",
+      "comp2": "30-40",
+      "comp3": "50-60",
+      "comp4": "25-35",
+      "comp5": "15-25",
+      "gap": "Below top competitors"
+    }
   ],
-
   "competitorStrategies": [
-    { "strategy": "Review-Driven SEO (Avalon Group)", "detail": "'300+ 5-star reviews' embedded in meta descriptions, homepage hero, and every key page. Drives click-through rates and builds instant trust. Multi-layered lead capture with market report lead magnets, SMS opt-in, downloadable guides, and OAuth signup" },
-    { "strategy": "Schema Markup Sophistication (Eagan Luxury)", "detail": "Implements AggregateRating (5.0 stars, 85 reviews), AggregateOffer (150 listings, $800K-$12M), Service definitions, BreadcrumbList, and CollectionPage schemas. Enables star ratings and price ranges in search results" },
-    { "strategy": "Community Magazine Model (Eagan Luxury)", "detail": "Each of 30 communities has restaurant guides and lifestyle magazine subpages — 60+ additional content pages targeting '[Neighborhood] restaurants' and '[Neighborhood] lifestyle' keywords. Unique in the market" },
-    { "strategy": "Institutional Authority (Smith & Associates)", "detail": "55+ years in business, 100+ agents each with personalized subdomains, 50+ community pages spanning all of Tampa Bay. Agent subdomain strategy massively expands SEO footprint" },
-    { "strategy": "Lifestyle Content Integration (Salamone Group)", "detail": "Art, Food, Events sections create a lifestyle destination. Compass Concierge program (fronting seller prep costs) is a genuine competitive advantage. Premium domain stpete.pro is short and keyword-rich" },
-    { "strategy": "Notable Transactions Showcase (Dynasty Group)", "detail": "Homepage displays 30+ past sales with exact prices ($14M, $13M, $9.6M). Far more compelling social proof than generic 'Top 1%' claims. Modern Luxury Presence platform with video backgrounds" }
+    {
+      "strategy": "Review-Driven SEO (Avalon Group)",
+      "detail": "'300+ 5-star reviews' embedded in meta descriptions, homepage hero, and every key page. Drives click-through rates and builds instant trust. Multi-layered lead capture with market report lead magnets, SMS opt-in, downloadable guides, and OAuth signup"
+    },
+    {
+      "strategy": "Schema Markup Sophistication (Eagan Luxury)",
+      "detail": "Implements AggregateRating (5.0 stars, 85 reviews), AggregateOffer (150 listings, $800K-$12M), Service definitions, BreadcrumbList, and CollectionPage schemas. Enables star ratings and price ranges in search results"
+    },
+    {
+      "strategy": "Community Magazine Model (Eagan Luxury)",
+      "detail": "Each of 30 communities has restaurant guides and lifestyle magazine subpages — 60+ additional content pages targeting '[Neighborhood] restaurants' and '[Neighborhood] lifestyle' keywords. Unique in the market"
+    },
+    {
+      "strategy": "Institutional Authority (Smith & Associates)",
+      "detail": "55+ years in business, 100+ agents each with personalized subdomains, 50+ community pages spanning all of Tampa Bay. Agent subdomain strategy massively expands SEO footprint"
+    },
+    {
+      "strategy": "Lifestyle Content Integration (Salamone Group)",
+      "detail": "Art, Food, Events sections create a lifestyle destination. Compass Concierge program (fronting seller prep costs) is a genuine competitive advantage. Premium domain stpete.pro is short and keyword-rich"
+    },
+    {
+      "strategy": "Notable Transactions Showcase (Dynasty Group)",
+      "detail": "Homepage displays 30+ past sales with exact prices ($14M, $13M, $9.6M). Far more compelling social proof than generic 'Top 1%' claims. Modern Luxury Presence platform with video backgrounds"
+    }
   ],
-
   "quickWins": [
-    { "action": "Fix Market Analysis page form — primary seller lead capture is broken", "impact": "Critical" },
-    { "action": "Write meta descriptions for Homepage, Blog, Reviews, Contact, Search, Active/Sold Listings", "impact": "High" },
-    { "action": "Rewrite homepage title tag: 'St. Petersburg Luxury & Waterfront Real Estate | Liane Jamason'", "impact": "High" },
-    { "action": "Fix Active Listings meta description (currently says 'View My Sold Listings')", "impact": "Medium" },
-    { "action": "Fix Market Analysis meta description typo ('you home' → 'your home')", "impact": "Low" },
-    { "action": "Noindex off-topic pages (travel hacking, credit card points)", "impact": "Medium" },
-    { "action": "Disable attachment page indexing in Rank Math (7 sitemaps feeding thin pages)", "impact": "High" },
-    { "action": "Fix or remove broken idx_page-sitemap.xml (returns 404)", "impact": "Medium" },
-    { "action": "Update StPetersburg.com listing from 'Smith & Associates' to Corcoran Dwellings", "impact": "Medium" },
-    { "action": "Claim Yelp, Realtor.com, Redfin, BBB profiles (DA 90+ directories)", "impact": "High" }
+    {
+      "action": "Fix Market Analysis page form — primary seller lead capture is broken",
+      "impact": "Critical"
+    },
+    {
+      "action": "Write meta descriptions for Homepage, Blog, Reviews, Contact, Search, Active/Sold Listings",
+      "impact": "High"
+    },
+    {
+      "action": "Rewrite homepage title tag: 'St. Petersburg Luxury & Waterfront Real Estate | Liane Jamason'",
+      "impact": "High"
+    },
+    {
+      "action": "Fix Active Listings meta description (currently says 'View My Sold Listings')",
+      "impact": "Medium"
+    },
+    {
+      "action": "Fix Market Analysis meta description typo ('you home' → 'your home')",
+      "impact": "Low"
+    },
+    {
+      "action": "Noindex off-topic pages (travel hacking, credit card points)",
+      "impact": "Medium"
+    },
+    {
+      "action": "Disable attachment page indexing in Rank Math (7 sitemaps feeding thin pages)",
+      "impact": "High"
+    },
+    {
+      "action": "Fix or remove broken idx_page-sitemap.xml (returns 404)",
+      "impact": "Medium"
+    },
+    {
+      "action": "Update StPetersburg.com listing from 'Smith & Associates' to Corcoran Dwellings",
+      "impact": "Medium"
+    },
+    {
+      "action": "Claim Yelp, Realtor.com, Redfin, BBB profiles (DA 90+ directories)",
+      "impact": "High"
+    }
   ],
-
   "actionPlan": {
     "quickWins": [
-      { "action": "Fix Market Analysis page form — broken lead capture", "why": "Primary seller lead page is a dead end; every homepage CTA leads here", "effort": "Low", "impact": "Critical" },
-      { "action": "Write meta descriptions for all core pages missing them", "why": "60%+ of core pages have no meta descriptions; Google auto-generates poor snippets", "effort": "Low", "impact": "High" },
-      { "action": "Rewrite homepage title tag to front-load keywords", "why": "'Home - Liane Jamason' wastes the most valuable on-page ranking element", "effort": "Low", "impact": "High" },
-      { "action": "Fix Active Listings meta (says 'View My Sold Listings')", "why": "Describes the wrong page — confuses users and search engines", "effort": "Low", "impact": "Medium" },
-      { "action": "Noindex off-topic pages (travel hacking, credit card points)", "why": "Off-topic content dilutes topical authority; penalized by March 2026 core update", "effort": "Low", "impact": "Medium" },
-      { "action": "Disable attachment page indexing in Rank Math", "why": "7 attachment sitemaps feeding hundreds of thin pages into Google's index", "effort": "Low", "impact": "High" },
-      { "action": "Fix or remove broken idx_page-sitemap.xml", "why": "Broken sitemap (404) signals poor maintenance to Google", "effort": "Low", "impact": "Medium" },
-      { "action": "Update StPetersburg.com listing (still shows Smith & Associates)", "why": "Outdated citation with wrong brokerage affiliation hurts local SEO", "effort": "Low", "impact": "Medium" },
-      { "action": "Claim Yelp, Realtor.com, Redfin, BBB, Bing Places profiles", "why": "Missing from DA 90+ directories where all competitors are present", "effort": "Low", "impact": "High" },
-      { "action": "Fix Market Analysis meta description typo ('you home' → 'your home')", "why": "Typo in the most important seller lead page meta tag", "effort": "Low", "impact": "Low" }
+      {
+        "action": "Fix Market Analysis page form — broken lead capture",
+        "why": "Primary seller lead page is a dead end; every homepage CTA leads here",
+        "effort": "Low",
+        "impact": "Critical"
+      },
+      {
+        "action": "Write meta descriptions for all core pages missing them",
+        "why": "60%+ of core pages have no meta descriptions; Google auto-generates poor snippets",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Rewrite homepage title tag to front-load keywords",
+        "why": "'Home - Liane Jamason' wastes the most valuable on-page ranking element",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Fix Active Listings meta (says 'View My Sold Listings')",
+        "why": "Describes the wrong page — confuses users and search engines",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Noindex off-topic pages (travel hacking, credit card points)",
+        "why": "Off-topic content dilutes topical authority; penalized by March 2026 core update",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Disable attachment page indexing in Rank Math",
+        "why": "7 attachment sitemaps feeding hundreds of thin pages into Google's index",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Fix or remove broken idx_page-sitemap.xml",
+        "why": "Broken sitemap (404) signals poor maintenance to Google",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Update StPetersburg.com listing (still shows Smith & Associates)",
+        "why": "Outdated citation with wrong brokerage affiliation hurts local SEO",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Claim Yelp, Realtor.com, Redfin, BBB, Bing Places profiles",
+        "why": "Missing from DA 90+ directories where all competitors are present",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Fix Market Analysis meta description typo ('you home' → 'your home')",
+        "why": "Typo in the most important seller lead page meta tag",
+        "effort": "Low",
+        "impact": "Low"
+      }
     ],
     "shortTerm": [
-      { "action": "Fix all H1 tag issues (duplicates on 8+ pages, missing on blog index, generic on 5+ pages)", "why": "H1 is the primary on-page topic signal; violations on critical pages", "effort": "Low", "impact": "High" },
-      { "action": "Rewrite all core page title tags (About, Sell, Buy, Contact, Blog)", "why": "Generic titles waste ranking potential; competitors front-load keywords", "effort": "Low", "impact": "High" },
-      { "action": "Update Buy page to remove 'Jamason Group' branding", "why": "Old branding confuses users and search engines", "effort": "Low", "impact": "Medium" },
-      { "action": "Add email newsletter signup to blog sidebar and post footers", "why": "287 blog posts generating zero email subscribers — biggest conversion gap", "effort": "Medium", "impact": "High" },
-      { "action": "Add end-of-post CTAs to all blog articles", "why": "High-value content like '9 Mistakes' article has no conversion path", "effort": "Medium", "impact": "High" },
-      { "action": "Rewrite Sell page with real seller content, process, and CTAs", "why": "Current page is a testimonial wall with ~150 words and no lead capture", "effort": "Medium", "impact": "High" },
-      { "action": "Add alt text to all content images (hero, headshot, press logos, property photos)", "why": "70-83% missing; hurts accessibility, image search, and AI understanding", "effort": "Medium", "impact": "Medium" },
-      { "action": "Fix broken pages (In the Press, Short Sales, Clearwater)", "why": "Pages that timeout are invisible to both users and Googlebot; Press page has strongest E-E-A-T signals", "effort": "Medium", "impact": "High" },
-      { "action": "Add AggregateRating/Review schema to Reviews page", "why": "Enables star ratings in SERPs; 90+ reviews = strong social proof being wasted", "effort": "Medium", "impact": "High" },
-      { "action": "Verify/optimize Google Business Profile; begin weekly posting", "why": "GBP accounts for 30%+ of map pack visibility; AI Overviews pull from GBP", "effort": "Low", "impact": "High" }
+      {
+        "action": "Fix all H1 tag issues (duplicates on 8+ pages, missing on blog index, generic on 5+ pages)",
+        "why": "H1 is the primary on-page topic signal; violations on critical pages",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Rewrite all core page title tags (About, Sell, Buy, Contact, Blog)",
+        "why": "Generic titles waste ranking potential; competitors front-load keywords",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Update Buy page to remove 'Jamason Group' branding",
+        "why": "Old branding confuses users and search engines",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Add email newsletter signup to blog sidebar and post footers",
+        "why": "287 blog posts generating zero email subscribers — biggest conversion gap",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Add end-of-post CTAs to all blog articles",
+        "why": "High-value content like '9 Mistakes' article has no conversion path",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Rewrite Sell page with real seller content, process, and CTAs",
+        "why": "Current page is a testimonial wall with ~150 words and no lead capture",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Add alt text to all content images (hero, headshot, press logos, property photos)",
+        "why": "70-83% missing; hurts accessibility, image search, and AI understanding",
+        "effort": "Medium",
+        "impact": "Medium"
+      },
+      {
+        "action": "Fix broken pages (In the Press, Short Sales, Clearwater)",
+        "why": "Pages that timeout are invisible to both users and Googlebot; Press page has strongest E-E-A-T signals",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Add AggregateRating/Review schema to Reviews page",
+        "why": "Enables star ratings in SERPs; 90+ reviews = strong social proof being wasted",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Verify/optimize Google Business Profile; begin weekly posting",
+        "why": "GBP accounts for 30%+ of map pack visibility; AI Overviews pull from GBP",
+        "effort": "Low",
+        "impact": "High"
+      }
     ],
     "mediumTerm": [
-      { "action": "Create 7 neighborhood landing pages (Snell Isle, Old NE, Downtown, Shore Acres, Tierra Verde, Venetian Isles, Coffee Pot Bayou)", "why": "Neighborhood queries have lowest portal density and highest local opportunity", "effort": "High", "impact": "Very High" },
-      { "action": "Create 5 property-type landing pages (Waterfront Homes, Luxury Homes, Waterfront Condos, Downtown Condos, Historic Homes)", "why": "Critical keyword gaps directly aligned with core services; competitors have dedicated pages", "effort": "High", "impact": "Very High" },
-      { "action": "Expand existing top neighborhood pages to 2,000+ words with market stats", "why": "Current pages are 250-550 words; 2026 benchmark is 2,000-3,000", "effort": "Medium", "impact": "High" },
-      { "action": "Add FAQPage schema to blog posts with FAQ sections", "why": "Earns rich results in SERPs; high AI citation value for Market Update, Best Neighborhoods", "effort": "Medium", "impact": "High" },
-      { "action": "Implement BreadcrumbList schema site-wide", "why": "Improves navigation for users and search engines; enables breadcrumb rich results", "effort": "Medium", "impact": "Medium" },
-      { "action": "Join St. Petersburg Chamber of Commerce", "why": "Networking + DA 45 backlink from business.stpete.com; Smith & Associates is a confirmed member", "effort": "Medium", "impact": "High" },
-      { "action": "Contact Johns Hopkins All Children's Hospital for donor page backlink", "why": "$25K donation generating zero link equity; .org backlink from prestigious institution", "effort": "Medium", "impact": "High" },
-      { "action": "Create 'Moving to St. Petersburg' relocation guide (2,000+ words)", "why": "High-volume keyword opportunity; no current content for relocating buyers", "effort": "Medium", "impact": "High" },
-      { "action": "Create a downloadable lead magnet (Waterfront Buyer's Checklist or Market Report PDF)", "why": "Competitors offer 2+ downloadable guides; Liane offers zero", "effort": "Medium", "impact": "High" },
-      { "action": "Reduce script/stylesheet bloat; audit unused plugins", "why": "36-63 scripts per page impacting Core Web Vitals; About page loads 61 scripts, 17 stylesheets", "effort": "High", "impact": "Medium" },
-      { "action": "Consolidate phone numbers to one number across all pages", "why": "3 different numbers (727-755-3325, 727-240-3636, 727-888-HOME) hurts local SEO", "effort": "Low", "impact": "Medium" },
-      { "action": "Fix schema types (Homepage to WebPage, About to AboutPage, change author 'varick' to Liane)", "why": "Incorrect schema types reduce trust signals and AI citation likelihood", "effort": "Low", "impact": "Medium" },
-      { "action": "Add 'Notable Sales' section to homepage or dedicated page", "why": "Dynasty Group shows specific $14M, $13M sales — far more compelling than 'Top 1%' claims", "effort": "Medium", "impact": "Medium" }
+      {
+        "action": "Create 7 neighborhood landing pages (Snell Isle, Old NE, Downtown, Shore Acres, Tierra Verde, Venetian Isles, Coffee Pot Bayou)",
+        "why": "Neighborhood queries have lowest portal density and highest local opportunity",
+        "effort": "High",
+        "impact": "Very High"
+      },
+      {
+        "action": "Create 5 property-type landing pages (Waterfront Homes, Luxury Homes, Waterfront Condos, Downtown Condos, Historic Homes)",
+        "why": "Critical keyword gaps directly aligned with core services; competitors have dedicated pages",
+        "effort": "High",
+        "impact": "Very High"
+      },
+      {
+        "action": "Expand existing top neighborhood pages to 2,000+ words with market stats",
+        "why": "Current pages are 250-550 words; 2026 benchmark is 2,000-3,000",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Add FAQPage schema to blog posts with FAQ sections",
+        "why": "Earns rich results in SERPs; high AI citation value for Market Update, Best Neighborhoods",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Implement BreadcrumbList schema site-wide",
+        "why": "Improves navigation for users and search engines; enables breadcrumb rich results",
+        "effort": "Medium",
+        "impact": "Medium"
+      },
+      {
+        "action": "Join St. Petersburg Chamber of Commerce",
+        "why": "Networking + DA 45 backlink from business.stpete.com; Smith & Associates is a confirmed member",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Contact Johns Hopkins All Children's Hospital for donor page backlink",
+        "why": "$25K donation generating zero link equity; .org backlink from prestigious institution",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Create 'Moving to St. Petersburg' relocation guide (2,000+ words)",
+        "why": "High-volume keyword opportunity; no current content for relocating buyers",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Create a downloadable lead magnet (Waterfront Buyer's Checklist or Market Report PDF)",
+        "why": "Competitors offer 2+ downloadable guides; Liane offers zero",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Reduce script/stylesheet bloat; audit unused plugins",
+        "why": "36-63 scripts per page impacting Core Web Vitals; About page loads 61 scripts, 17 stylesheets",
+        "effort": "High",
+        "impact": "Medium"
+      },
+      {
+        "action": "Consolidate phone numbers to one number across all pages",
+        "why": "3 different numbers (727-755-3325, 727-240-3636, 727-888-HOME) hurts local SEO",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Fix schema types (Homepage to WebPage, About to AboutPage, change author 'varick' to Liane)",
+        "why": "Incorrect schema types reduce trust signals and AI citation likelihood",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Add 'Notable Sales' section to homepage or dedicated page",
+        "why": "Dynasty Group shows specific $14M, $13M sales — far more compelling than 'Top 1%' claims",
+        "effort": "Medium",
+        "impact": "Medium"
+      }
     ],
     "longTerm": [
-      { "action": "Publish monthly 'St. Petersburg Waterfront Market Report' with proprietary data", "why": "Original data studies show 22% visibility increase; serves as content marketing and link bait", "effort": "Medium", "impact": "Very High" },
-      { "action": "Build 10+ additional neighborhood pages (Clearwater, Gulfport, Tampa, Kenwood, Crescent Lake)", "why": "Expand geographic coverage; fill content gaps for areas with 0-50 words currently", "effort": "High", "impact": "High" },
-      { "action": "Create condo building pages (Waldorf Astoria, Saltaire, ONE St Pete, 400 Central, The Salvador)", "why": "Eagan dominates with 20+ pages; high-intent '[building name] condos' keywords", "effort": "High", "impact": "High" },
-      { "action": "Pitch Tampa Bay Times for recurring column or expert feature", "why": "Already has relationship (multiple past quotes); high-authority editorial backlink", "effort": "Medium", "impact": "Very High" },
-      { "action": "Re-engage national press contacts via HARO/Connectively", "why": "Reactivate Forbes, WSJ, USA Today relationships; earn ongoing DA 80+ citations", "effort": "Medium", "impact": "High" },
-      { "action": "Guest post on St Pete Catalyst, Tampa Real Estate Insider, I Love the Burg", "why": "DA 50+ editorial backlinks from locally relevant publications", "effort": "Medium", "impact": "Medium" },
-      { "action": "Create video content hub on site with YouTube embeds + VideoObject schema", "why": "9+ TV segments and YouTube channel not leveraged on site; video carousels in SERPs", "effort": "Medium", "impact": "Medium" },
-      { "action": "Build lifestyle content hub (restaurants, events, local guides per neighborhood)", "why": "Avalon and Salamone Group drive significant traffic with this content type", "effort": "High", "impact": "Medium" },
-      { "action": "Develop school district guide and neighborhood comparison tool", "why": "Key buyer decision factors missing from site; competitors cover these", "effort": "Medium", "impact": "Medium" },
-      { "action": "Partner with USF St. Petersburg for guest lectures / internships (.edu backlink)", "why": "DA 80+ .edu backlink; real estate program recently received $1.25M gift", "effort": "Medium", "impact": "High" },
-      { "action": "Sponsor local events (SHINE Mural Festival, Localtopia, Habitat for Humanity gala)", "why": "Backlinks from .org event pages + community visibility", "effort": "Medium", "impact": "Medium" },
-      { "action": "Evaluate site redesign / theme modernization", "why": "Genesis/AgentPress theme is functional but dated vs. Eagan's modern stack and Dynasty's Luxury Presence site", "effort": "Very High", "impact": "Medium" }
+      {
+        "action": "Publish monthly 'St. Petersburg Waterfront Market Report' with proprietary data",
+        "why": "Original data studies show 22% visibility increase; serves as content marketing and link bait",
+        "effort": "Medium",
+        "impact": "Very High"
+      },
+      {
+        "action": "Build 10+ additional neighborhood pages (Clearwater, Gulfport, Tampa, Kenwood, Crescent Lake)",
+        "why": "Expand geographic coverage; fill content gaps for areas with 0-50 words currently",
+        "effort": "High",
+        "impact": "High"
+      },
+      {
+        "action": "Create condo building pages (Waldorf Astoria, Saltaire, ONE St Pete, 400 Central, The Salvador)",
+        "why": "Eagan dominates with 20+ pages; high-intent '[building name] condos' keywords",
+        "effort": "High",
+        "impact": "High"
+      },
+      {
+        "action": "Pitch Tampa Bay Times for recurring column or expert feature",
+        "why": "Already has relationship (multiple past quotes); high-authority editorial backlink",
+        "effort": "Medium",
+        "impact": "Very High"
+      },
+      {
+        "action": "Re-engage national press contacts via HARO/Connectively",
+        "why": "Reactivate Forbes, WSJ, USA Today relationships; earn ongoing DA 80+ citations",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Guest post on St Pete Catalyst, Tampa Real Estate Insider, I Love the Burg",
+        "why": "DA 50+ editorial backlinks from locally relevant publications",
+        "effort": "Medium",
+        "impact": "Medium"
+      },
+      {
+        "action": "Create video content hub on site with YouTube embeds + VideoObject schema",
+        "why": "9+ TV segments and YouTube channel not leveraged on site; video carousels in SERPs",
+        "effort": "Medium",
+        "impact": "Medium"
+      },
+      {
+        "action": "Build lifestyle content hub (restaurants, events, local guides per neighborhood)",
+        "why": "Avalon and Salamone Group drive significant traffic with this content type",
+        "effort": "High",
+        "impact": "Medium"
+      },
+      {
+        "action": "Develop school district guide and neighborhood comparison tool",
+        "why": "Key buyer decision factors missing from site; competitors cover these",
+        "effort": "Medium",
+        "impact": "Medium"
+      },
+      {
+        "action": "Partner with USF St. Petersburg for guest lectures / internships (.edu backlink)",
+        "why": "DA 80+ .edu backlink; real estate program recently received $1.25M gift",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Sponsor local events (SHINE Mural Festival, Localtopia, Habitat for Humanity gala)",
+        "why": "Backlinks from .org event pages + community visibility",
+        "effort": "Medium",
+        "impact": "Medium"
+      },
+      {
+        "action": "Evaluate site redesign / theme modernization",
+        "why": "Genesis/AgentPress theme is functional but dated vs. Eagan's modern stack and Dynasty's Luxury Presence site",
+        "effort": "Very High",
+        "impact": "Medium"
+      }
     ]
   },
-
   "contentCalendar": {
     "month1Label": "Month 1: Establish Market Authority",
     "month1": [
-      { "week": 1, "topic": "St. Petersburg Housing Market Update: Spring 2026", "keyword": "st petersburg fl housing market 2026", "type": "Market Update" },
-      { "week": 2, "topic": "The Complete Guide to Buying a Waterfront Home in St. Petersburg", "keyword": "waterfront homes st petersburg fl", "type": "Pillar / Evergreen" },
-      { "week": 3, "topic": "Snell Isle: St. Petersburg's Premier Waterfront Community", "keyword": "snell isle homes for sale", "type": "Neighborhood Deep-Dive" },
-      { "week": 4, "topic": "Is Now a Good Time to Buy a Home in St. Petersburg FL? (2026 Analysis)", "keyword": "buy a home in st petersburg fl", "type": "Informational / FAQ" }
+      {
+        "week": 1,
+        "topic": "St. Petersburg Housing Market Update: Spring 2026",
+        "keyword": "st petersburg fl housing market 2026",
+        "type": "Market Update"
+      },
+      {
+        "week": 2,
+        "topic": "The Complete Guide to Buying a Waterfront Home in St. Petersburg",
+        "keyword": "waterfront homes st petersburg fl",
+        "type": "Pillar / Evergreen"
+      },
+      {
+        "week": 3,
+        "topic": "Snell Isle: St. Petersburg's Premier Waterfront Community",
+        "keyword": "snell isle homes for sale",
+        "type": "Neighborhood Deep-Dive"
+      },
+      {
+        "week": 4,
+        "topic": "Is Now a Good Time to Buy a Home in St. Petersburg FL? (2026 Analysis)",
+        "keyword": "buy a home in st petersburg fl",
+        "type": "Informational / FAQ"
+      }
     ],
     "month2Label": "Month 2: Build Neighborhood Depth",
     "month2": [
-      { "week": 1, "topic": "Best Neighborhoods in St. Petersburg FL for Waterfront Living", "keyword": "waterfront homes st petersburg fl", "type": "Comparison / Pillar" },
-      { "week": 2, "topic": "What to Know About Flood Insurance for St. Petersburg Waterfront Homes", "keyword": "waterfront home flood insurance florida", "type": "Expert / E-E-A-T" },
-      { "week": 3, "topic": "Historic Old Northeast: Architecture, Lifestyle & Real Estate Guide", "keyword": "old northeast st petersburg real estate", "type": "Neighborhood Deep-Dive" },
-      { "week": 4, "topic": "Selling Your St. Petersburg Home in 2026: The Complete Guide", "keyword": "sell my house st petersburg fl", "type": "Seller Resource / Pillar" }
+      {
+        "week": 1,
+        "topic": "Best Neighborhoods in St. Petersburg FL for Waterfront Living",
+        "keyword": "waterfront homes st petersburg fl",
+        "type": "Comparison / Pillar"
+      },
+      {
+        "week": 2,
+        "topic": "What to Know About Flood Insurance for St. Petersburg Waterfront Homes",
+        "keyword": "waterfront home flood insurance florida",
+        "type": "Expert / E-E-A-T"
+      },
+      {
+        "week": 3,
+        "topic": "Historic Old Northeast: Architecture, Lifestyle & Real Estate Guide",
+        "keyword": "old northeast st petersburg real estate",
+        "type": "Neighborhood Deep-Dive"
+      },
+      {
+        "week": 4,
+        "topic": "Selling Your St. Petersburg Home in 2026: The Complete Guide",
+        "keyword": "sell my house st petersburg fl",
+        "type": "Seller Resource / Pillar"
+      }
     ],
     "month3Label": "Month 3: Expand Reach & Convert",
     "month3": [
-      { "week": 1, "topic": "Downtown St. Pete Condo Market Report: Prices, Inventory & Outlook", "keyword": "downtown st pete condos for sale", "type": "Market Update / Data" },
-      { "week": 2, "topic": "Shore Acres vs. Old Northeast: Which Neighborhood Is Right for You?", "keyword": "shore acres st petersburg homes for sale", "type": "Comparison" },
-      { "week": 3, "topic": "Moving to St. Petersburg FL: The Complete Relocation Guide", "keyword": "moving to st petersburg fl", "type": "Pillar / Evergreen" },
-      { "week": 4, "topic": "St. Petersburg Real Estate Investment: Cap Rates, Rental Markets & Opportunity Zones", "keyword": "st petersburg fl investment property", "type": "Investor-Focused" }
+      {
+        "week": 1,
+        "topic": "Downtown St. Pete Condo Market Report: Prices, Inventory & Outlook",
+        "keyword": "downtown st pete condos for sale",
+        "type": "Market Update / Data"
+      },
+      {
+        "week": 2,
+        "topic": "Shore Acres vs. Old Northeast: Which Neighborhood Is Right for You?",
+        "keyword": "shore acres st petersburg homes for sale",
+        "type": "Comparison"
+      },
+      {
+        "week": 3,
+        "topic": "Moving to St. Petersburg FL: The Complete Relocation Guide",
+        "keyword": "moving to st petersburg fl",
+        "type": "Pillar / Evergreen"
+      },
+      {
+        "week": 4,
+        "topic": "St. Petersburg Real Estate Investment: Cap Rates, Rental Markets & Opportunity Zones",
+        "keyword": "st petersburg fl investment property",
+        "type": "Investor-Focused"
+      }
     ]
   },
-
   "deliverables": [
-    { "name": "Meta Titles & Descriptions", "scope": "20+ pages (core, neighborhood, blog, utility)", "score": "9.00/10", "status": "Ready — 2 versions created (Claude + Codex), verify URLs and paste into Rank Math" },
-    { "name": "Schema Markup (JSON-LD)", "scope": "8+ schema blocks (Organization, RealEstateAgent, AggregateRating, FAQPage, BreadcrumbList, AboutPage, Service, WebSite)", "score": "9.00/10", "status": "Ready — 2 versions created, verify license number and review count before deploying" },
-    { "name": "Community/Neighborhood Pages", "scope": "Downtown St Pete Condos + additional neighborhoods (2,000+ words each)", "score": "8.75/10", "status": "Ready — 2 versions created, paste into CMS as new pages" },
-    { "name": "Blog Posts (SEO-optimized)", "scope": "4 posts: Market Report, Waterfront Guide, Snell Isle Deep-Dive, Is Now a Good Time to Buy", "score": "9.00/10", "status": "Ready — 2 versions created, paste into WordPress blog" }
+    {
+      "name": "Meta Titles & Descriptions",
+      "scope": "20+ pages (core, neighborhood, blog, utility)",
+      "score": "9.00/10",
+      "status": "Ready — 2 versions created (Claude + Codex), verify URLs and paste into Rank Math"
+    },
+    {
+      "name": "Schema Markup (JSON-LD)",
+      "scope": "8+ schema blocks (Organization, RealEstateAgent, AggregateRating, FAQPage, BreadcrumbList, AboutPage, Service, WebSite)",
+      "score": "9.00/10",
+      "status": "Ready — 2 versions created, verify license number and review count before deploying"
+    },
+    {
+      "name": "Community/Neighborhood Pages",
+      "scope": "Downtown St Pete Condos + additional neighborhoods (2,000+ words each)",
+      "score": "8.75/10",
+      "status": "Ready — 2 versions created, paste into CMS as new pages"
+    },
+    {
+      "name": "Blog Posts (SEO-optimized)",
+      "scope": "4 posts: Market Report, Waterfront Guide, Snell Isle Deep-Dive, Is Now a Good Time to Buy",
+      "score": "9.00/10",
+      "status": "Ready — 2 versions created, paste into WordPress blog"
+    }
   ],
-
-  "keyPagesCreated": ["Downtown St. Pete Condos for Sale", "St. Petersburg Waterfront Homes Guide", "Snell Isle Neighborhood Deep-Dive", "Selling Your St. Petersburg Home Guide"],
-  "blogPostsCreated": ["St. Petersburg FL Real Estate Market Report: Spring 2026", "The Complete Guide to Buying a Waterfront Home in St. Petersburg", "Snell Isle: St. Petersburg's Premier Waterfront Community", "Is Now a Good Time to Buy a Home in St. Petersburg FL?"],
-
+  "keyPagesCreated": [
+    "Downtown St. Pete Condos for Sale",
+    "St. Petersburg Waterfront Homes Guide",
+    "Snell Isle Neighborhood Deep-Dive",
+    "Selling Your St. Petersburg Home Guide"
+  ],
+  "blogPostsCreated": [
+    "St. Petersburg FL Real Estate Market Report: Spring 2026",
+    "The Complete Guide to Buying a Waterfront Home in St. Petersburg",
+    "Snell Isle: St. Petersburg's Premier Waterfront Community",
+    "Is Now a Good Time to Buy a Home in St. Petersburg FL?"
+  ],
   "advantages": [
-    { "title": "Raw Content Volume", "detail": "287 blog posts — more than any single competitor. This content library is a genuine asset that competitors would need years to replicate" },
-    { "title": "National Press Credentials", "detail": "Forbes, WSJ, USA Today, HuffPost, Realtor.com features, 9+ Bay News 9 TV segments, ABC Action News, 10 Tampa Bay — no local competitor has this breadth of national press" },
-    { "title": "Blog Post Quality", "detail": "Best posts ('9 Mistakes Luxury Sellers Make' at 3,500 words) demonstrate exactly the first-hand expertise that Google's E-E-A-T framework rewards — specific local references, genuine market knowledge, personality" },
-    { "title": "Broker/Owner Authority", "detail": "Recognized individual expert and broker/owner, not part of a faceless team. For luxury buyers who value personal service, this is a genuine differentiator" },
-    { "title": "Corcoran Brand Affiliation", "detail": "National luxury brand recognition that competitors at LPT Realty, Keller Williams, or Michael Saunders cannot match in the luxury segment" },
-    { "title": "Geographic Breadth", "detail": "Covers Tampa, Clearwater, Dunedin, and surrounding areas — broader service area than most boutique competitors who focus only on St. Pete" },
-    { "title": "Hyper-Local Neighborhood Knowledge", "detail": "Shore Acres, Old Northeast, Snell Isle, and Pinellas Point pages contain insider knowledge no competitor replicates: SACA, C. Perry Snell history, 'Dualing Publixs'" },
-    { "title": "Multiple Owned Domains", "detail": "5+ owned domains (stpetersburgrealestate.com, dwellingwell.com, dwellfl.com) provide cross-link opportunity not fully utilized by any competitor" }
+    {
+      "title": "Raw Content Volume",
+      "detail": "287 blog posts — more than any single competitor. This content library is a genuine asset that competitors would need years to replicate"
+    },
+    {
+      "title": "National Press Credentials",
+      "detail": "Forbes, WSJ, USA Today, HuffPost, Realtor.com features, 9+ Bay News 9 TV segments, ABC Action News, 10 Tampa Bay — no local competitor has this breadth of national press"
+    },
+    {
+      "title": "Blog Post Quality",
+      "detail": "Best posts ('9 Mistakes Luxury Sellers Make' at 3,500 words) demonstrate exactly the first-hand expertise that Google's E-E-A-T framework rewards — specific local references, genuine market knowledge, personality"
+    },
+    {
+      "title": "Broker/Owner Authority",
+      "detail": "Recognized individual expert and broker/owner, not part of a faceless team. For luxury buyers who value personal service, this is a genuine differentiator"
+    },
+    {
+      "title": "Corcoran Brand Affiliation",
+      "detail": "National luxury brand recognition that competitors at LPT Realty, Keller Williams, or Michael Saunders cannot match in the luxury segment"
+    },
+    {
+      "title": "Geographic Breadth",
+      "detail": "Covers Tampa, Clearwater, Dunedin, and surrounding areas — broader service area than most boutique competitors who focus only on St. Pete"
+    },
+    {
+      "title": "Hyper-Local Neighborhood Knowledge",
+      "detail": "Shore Acres, Old Northeast, Snell Isle, and Pinellas Point pages contain insider knowledge no competitor replicates: SACA, C. Perry Snell history, 'Dualing Publixs'"
+    },
+    {
+      "title": "Multiple Owned Domains",
+      "detail": "5+ owned domains (stpetersburgrealestate.com, dwellingwell.com, dwellfl.com) provide cross-link opportunity not fully utilized by any competitor"
+    }
   ],
-
   "nextSteps": [
-    { "text": "Fix the broken Market Analysis form and deploy meta descriptions", "sub": "Can be done this week — highest-impact, lowest-effort fixes that restore the seller funnel and improve search snippets" },
-    { "text": "Deploy ready-to-use deliverables (meta tags, schema, community pages, blog posts)", "sub": "Two versions of each deliverable are ready — verify client-specific details and paste into CMS / Rank Math" },
-    { "text": "Claim missing directory profiles (Yelp, Realtor.com, Redfin, BBB, Bing Places)", "sub": "DA 90+ backlinks from directories where all competitors are already present" },
-    { "text": "Begin Month 1 content calendar — one blog post per week", "sub": "Market report, waterfront guide, Snell Isle deep-dive, and buyer FAQ targeting highest-value keywords" },
-    { "text": "Review progress at 30-day mark and measure keyword improvements", "sub": "Track rankings for top 25 keywords, organic traffic changes, and lead capture volume from fixed forms" }
+    {
+      "text": "Fix the broken Market Analysis form and deploy meta descriptions",
+      "sub": "Can be done this week — highest-impact, lowest-effort fixes that restore the seller funnel and improve search snippets"
+    },
+    {
+      "text": "Deploy ready-to-use deliverables (meta tags, schema, community pages, blog posts)",
+      "sub": "Two versions of each deliverable are ready — verify client-specific details and paste into CMS / Rank Math"
+    },
+    {
+      "text": "Claim missing directory profiles (Yelp, Realtor.com, Redfin, BBB, Bing Places)",
+      "sub": "DA 90+ backlinks from directories where all competitors are already present"
+    },
+    {
+      "text": "Begin Month 1 content calendar — one blog post per week",
+      "sub": "Market report, waterfront guide, Snell Isle deep-dive, and buyer FAQ targeting highest-value keywords"
+    },
+    {
+      "text": "Review progress at 30-day mark and measure keyword improvements",
+      "sub": "Track rankings for top 25 keywords, organic traffic changes, and lead capture volume from fixed forms"
+    }
   ],
-
   "pillars": [
-    { "title": "TECHNICAL\nFIXES", "desc": "Fix broken forms, meta descriptions,\ntitle tags, H1 tags, schema types,\nsitemap cleanup, attachment noindex", "time": "Week 1-2" },
-    { "title": "CONTENT\nDEPTH", "desc": "Deploy blog posts, expand neighborhood\npages to 2,000+ words, create\nproperty-type landing pages", "time": "Month 1-2" },
-    { "title": "CONTENT\nSCALE", "desc": "Build 10+ new neighborhood pages,\ncondo building pages, relocation guide,\nlifestyle content hub", "time": "Month 2-4" },
-    { "title": "AUTHORITY\n& LEADS", "desc": "Claim DA 90+ directory profiles,\njoin Chamber, email newsletter,\nlead magnets, press re-engagement,\nlocal event sponsorships", "time": "Month 4+" }
+    {
+      "title": "TECHNICAL\nFIXES",
+      "desc": "Fix broken forms, meta descriptions,\ntitle tags, H1 tags, schema types,\nsitemap cleanup, attachment noindex",
+      "time": "Week 1-2"
+    },
+    {
+      "title": "CONTENT\nDEPTH",
+      "desc": "Deploy blog posts, expand neighborhood\npages to 2,000+ words, create\nproperty-type landing pages",
+      "time": "Month 1-2"
+    },
+    {
+      "title": "CONTENT\nSCALE",
+      "desc": "Build 10+ new neighborhood pages,\ncondo building pages, relocation guide,\nlifestyle content hub",
+      "time": "Month 2-4"
+    },
+    {
+      "title": "AUTHORITY\n& LEADS",
+      "desc": "Claim DA 90+ directory profiles,\njoin Chamber, email newsletter,\nlead magnets, press re-engagement,\nlocal event sponsorships",
+      "time": "Month 4+"
+    }
   ],
-
   "mediumTermRoadmap": [
-    { "title": "7 Neighborhood Landing Pages", "detail": "Snell Isle, Old Northeast, Downtown, Shore Acres, Tierra Verde, Venetian Isles, Coffee Pot Bayou — each with 2,000+ words, market stats, school data, lifestyle content" },
-    { "title": "5 Property-Type Pages", "detail": "Waterfront Homes, Luxury Homes, Waterfront Condos, Downtown Condos, Historic Homes — dedicated pages with unique content and filtered listings" },
-    { "title": "Expand Existing Neighborhood Pages", "detail": "Shore Acres, Old Northeast, Snell Isle, Pinellas Point, Tierra Verde — from 250-550 words to 2,000-2,500+ with market statistics tables" },
-    { "title": "Moving to St. Petersburg Relocation Guide", "detail": "2,000+ words covering neighborhoods, cost of living, schools, flood zones, lifestyle — high-volume keyword opportunity" },
-    { "title": "Condo Building Pages", "detail": "Waldorf Astoria Residences, Saltaire, ONE St Petersburg, 400 Central, The Salvador — Eagan dominates this space with 20+ pages" },
-    { "title": "Downloadable Lead Magnets", "detail": "Waterfront Buyer's Checklist, 2026 Market Report PDF — gated behind email capture to start building subscriber list" },
-    { "title": "FAQPage Schema on Blog Posts", "detail": "Market Update, Best Neighborhoods, Flood Zones — earns rich results in SERPs and AI Overview citations" },
-    { "title": "Cross-Linking Strategy Across Owned Domains", "detail": "stpetersburgrealestate.com, dwellingwell.com, dwellfl.com all properly linking to lianejamason.com with relevant anchor text" }
+    {
+      "title": "7 Neighborhood Landing Pages",
+      "detail": "Snell Isle, Old Northeast, Downtown, Shore Acres, Tierra Verde, Venetian Isles, Coffee Pot Bayou — each with 2,000+ words, market stats, school data, lifestyle content"
+    },
+    {
+      "title": "5 Property-Type Pages",
+      "detail": "Waterfront Homes, Luxury Homes, Waterfront Condos, Downtown Condos, Historic Homes — dedicated pages with unique content and filtered listings"
+    },
+    {
+      "title": "Expand Existing Neighborhood Pages",
+      "detail": "Shore Acres, Old Northeast, Snell Isle, Pinellas Point, Tierra Verde — from 250-550 words to 2,000-2,500+ with market statistics tables"
+    },
+    {
+      "title": "Moving to St. Petersburg Relocation Guide",
+      "detail": "2,000+ words covering neighborhoods, cost of living, schools, flood zones, lifestyle — high-volume keyword opportunity"
+    },
+    {
+      "title": "Condo Building Pages",
+      "detail": "Waldorf Astoria Residences, Saltaire, ONE St Petersburg, 400 Central, The Salvador — Eagan dominates this space with 20+ pages"
+    },
+    {
+      "title": "Downloadable Lead Magnets",
+      "detail": "Waterfront Buyer's Checklist, 2026 Market Report PDF — gated behind email capture to start building subscriber list"
+    },
+    {
+      "title": "FAQPage Schema on Blog Posts",
+      "detail": "Market Update, Best Neighborhoods, Flood Zones — earns rich results in SERPs and AI Overview citations"
+    },
+    {
+      "title": "Cross-Linking Strategy Across Owned Domains",
+      "detail": "stpetersburgrealestate.com, dwellingwell.com, dwellfl.com all properly linking to lianejamason.com with relevant anchor text"
+    }
   ],
-
   "longTermColumns": [
-    { "title": "Content Authority", "items": ["Monthly waterfront market reports", "Build neighborhood pages to 20+", "Lifestyle/restaurant guides per area", "School district & comparison tools", "Quarterly luxury real estate review PDF"] },
-    { "title": "Video & Media", "items": ["Embed 9+ Bay News 9 segments on Press page", "Monthly video market updates", "Neighborhood tour videos", "VideoObject schema on all video pages", "Pitch Architectural Digest features"] },
-    { "title": "Lead Generation", "items": ["Email newsletter (biggest gap)", "Gated PDF market reports", "End-of-post CTAs on all 287 blog posts", "Neighborhood-specific contact forms", "SMS opt-in for property alerts"] },
-    { "title": "Local SEO & Links", "items": ["St. Pete Chamber membership", "Johns Hopkins donor page backlink", "USF St. Petersburg partnership (.edu)", "SHINE / Localtopia event sponsorships", "Tampa Bay Times recurring column"] }
-  ]
+    {
+      "title": "Content Authority",
+      "items": [
+        "Monthly waterfront market reports",
+        "Build neighborhood pages to 20+",
+        "Lifestyle/restaurant guides per area",
+        "School district & comparison tools",
+        "Quarterly luxury real estate review PDF"
+      ]
+    },
+    {
+      "title": "Video & Media",
+      "items": [
+        "Embed 9+ Bay News 9 segments on Press page",
+        "Monthly video market updates",
+        "Neighborhood tour videos",
+        "VideoObject schema on all video pages",
+        "Pitch Architectural Digest features"
+      ]
+    },
+    {
+      "title": "Lead Generation",
+      "items": [
+        "Email newsletter (biggest gap)",
+        "Gated PDF market reports",
+        "End-of-post CTAs on all 287 blog posts",
+        "Neighborhood-specific contact forms",
+        "SMS opt-in for property alerts"
+      ]
+    },
+    {
+      "title": "Local SEO & Links",
+      "items": [
+        "St. Pete Chamber membership",
+        "Johns Hopkins donor page backlink",
+        "USF St. Petersburg partnership (.edu)",
+        "SHINE / Localtopia event sponsorships",
+        "Tampa Bay Times recurring column"
+      ]
+    }
+  ],
+  "technicalSeo": {
+    "metaTagSummary": {
+      "pagesWithTitle": 36,
+      "pagesWithoutTitle": 0,
+      "titleTooLong": 3,
+      "titleTooShort": 2,
+      "pagesWithDescription": 21,
+      "pagesWithoutDescription": 15,
+      "descriptionTooLong": 1,
+      "descriptionTooShort": 3,
+      "pagesWithCanonical": 11,
+      "pagesWithoutCanonical": 1,
+      "duplicateTitles": 0,
+      "duplicateDescriptions": 0
+    },
+    "metaTagIssues": [
+      {
+        "url": "https://www.lianejamason.com/",
+        "issue": "MISSING_META_DESCRIPTION",
+        "detail": "Homepage has no meta description — Google auto-generates poor snippets"
+      },
+      {
+        "url": "https://www.lianejamason.com/blog/",
+        "issue": "MISSING_META_DESCRIPTION",
+        "detail": "Blog index page has no meta description"
+      },
+      {
+        "url": "https://www.lianejamason.com/reviews/",
+        "issue": "MISSING_META_DESCRIPTION",
+        "detail": "Reviews page has no meta description — missed social proof opportunity in SERPs"
+      },
+      {
+        "url": "https://www.lianejamason.com/my-active-listings/",
+        "issue": "MISSING_META_DESCRIPTION",
+        "detail": "Active listings page has no meta description"
+      },
+      {
+        "url": "https://www.lianejamason.com/st-petersburg/",
+        "issue": "MISSING_META_DESCRIPTION",
+        "detail": "Main St. Petersburg area page has no meta description"
+      },
+      {
+        "url": "https://www.lianejamason.com/search/",
+        "issue": "MISSING_META_DESCRIPTION",
+        "detail": "Property search page has no meta description"
+      },
+      {
+        "url": "https://www.lianejamason.com/contact/",
+        "issue": "DESCRIPTION_TOO_SHORT",
+        "detail": "Description is just a phone number (20 chars)",
+        "value": "Phone: 727-755-3325"
+      },
+      {
+        "url": "https://www.lianejamason.com/about-tampa-real-estate-liane-jamason/",
+        "issue": "DESCRIPTION_TOO_SHORT",
+        "detail": "Meta description is 62 chars (min 120)",
+        "value": "Meet Liane Jamason – Broker/Owner & Top St. Petersburg Realtor"
+      },
+      {
+        "url": "https://www.lianejamason.com/my-active-listings/",
+        "issue": "DESCRIPTION_WRONG_PAGE",
+        "detail": "Description reads \"View My Sold Listings\" — references the wrong page",
+        "value": "View My Sold Listings"
+      },
+      {
+        "url": "https://www.lianejamason.com/buy-a-home-with-liane-jamason/",
+        "issue": "TITLE_WRONG_BRAND",
+        "detail": "Title references old brand name \"Jamason Group\" not Corcoran Dwellings",
+        "value": "Buy A Home With Jamason Group - Liane Jamason - Corcoran Dwellings"
+      }
+    ],
+    "imageAudit": {
+      "summary": {
+        "totalImages": 42,
+        "totalMissingAlt": 31,
+        "overallAltCoverage": 26.2,
+        "pagesWithImages": 3,
+        "pagesMissingAlt": 3
+      },
+      "worstPages": [
+        {
+          "url": "https://www.lianejamason.com/about-tampa-real-estate-liane-jamason/",
+          "totalImages": 12,
+          "missingAlt": 10,
+          "altCoverage": 16.7
+        },
+        {
+          "url": "https://www.lianejamason.com/best-neighborhoods-in-st-pete-fl/",
+          "totalImages": 17,
+          "missingAlt": 14,
+          "altCoverage": 17.6
+        },
+        {
+          "url": "https://www.lianejamason.com/",
+          "totalImages": 13,
+          "missingAlt": 7,
+          "altCoverage": 46.2
+        }
+      ]
+    },
+    "schemaSummary": {
+      "pagesWithSchema": 13,
+      "pagesWithoutSchema": 23,
+      "schemaTypesFound": [
+        {
+          "type": "RealEstateAgent",
+          "count": 13
+        },
+        {
+          "type": "Organization",
+          "count": 13
+        },
+        {
+          "type": "WebSite",
+          "count": 13
+        },
+        {
+          "type": "Person",
+          "count": 13
+        },
+        {
+          "type": "WebPage",
+          "count": 13
+        },
+        {
+          "type": "BlogPosting",
+          "count": 169
+        }
+      ],
+      "recommendedSchemas": [
+        "FAQPage",
+        "AggregateRating",
+        "Review",
+        "BreadcrumbList",
+        "RealEstateListing",
+        "LocalBusiness"
+      ]
+    },
+    "canonicalAudit": {
+      "summary": {
+        "totalPages": 36,
+        "pagesWithCanonical": 35,
+        "selfCanonicals": 35,
+        "crossCanonicals": 0,
+        "totalIssues": 1
+      },
+      "issues": [
+        {
+          "url": "https://www.lianejamason.com/st-petersburg/",
+          "issue": "MISSING_CANONICAL",
+          "detail": "Main St. Petersburg IDX page has no canonical tag — could cause indexation confusion with IDX subdomain"
+        }
+      ]
+    },
+    "redirectChains": {
+      "summary": {
+        "totalRedirects": 0,
+        "chainsOver1Hop": 0,
+        "chainsOver3Hops": 0,
+        "loops": 0,
+        "totalIssues": 0
+      },
+      "chains": [],
+      "issues": []
+    },
+    "securityHeaders": {
+      "summary": {
+        "pagesAnalyzed": 36,
+        "headerCoverage": {
+          "Strict-Transport-Security": 0,
+          "Content-Security-Policy": 0,
+          "X-Content-Type-Options": 0,
+          "X-Frame-Options": 0,
+          "Referrer-Policy": 0,
+          "Permissions-Policy": 0
+        },
+        "totalIssues": 6
+      },
+      "issues": [
+        {
+          "url": "https://www.lianejamason.com/",
+          "issue": "MISSING_HSTS",
+          "detail": "Missing Strict-Transport-Security header",
+          "severity": "high"
+        },
+        {
+          "url": "https://www.lianejamason.com/",
+          "issue": "MISSING_CSP",
+          "detail": "Missing Content-Security-Policy header",
+          "severity": "high"
+        },
+        {
+          "url": "https://www.lianejamason.com/",
+          "issue": "MISSING_X_CONTENT_TYPE",
+          "detail": "Missing X-Content-Type-Options header",
+          "severity": "low"
+        },
+        {
+          "url": "https://www.lianejamason.com/",
+          "issue": "MISSING_X_FRAME_OPTIONS",
+          "detail": "Missing X-Frame-Options header",
+          "severity": "low"
+        },
+        {
+          "url": "https://www.lianejamason.com/",
+          "issue": "MISSING_REFERRER_POLICY",
+          "detail": "Missing Referrer-Policy header",
+          "severity": "low"
+        },
+        {
+          "url": "https://www.lianejamason.com/",
+          "issue": "MISSING_PERMISSIONS_POLICY",
+          "detail": "Missing Permissions-Policy header",
+          "severity": "low"
+        }
+      ]
+    },
+    "coreWebVitals": {
+      "mobile": {
+        "performanceScore": null,
+        "lcp": null,
+        "cls": null,
+        "fcp": null,
+        "inp": null,
+        "ttfb": null,
+        "speedIndex": null,
+        "note": "Pending PageSpeed Insights API run"
+      },
+      "desktop": {
+        "performanceScore": null,
+        "lcp": null,
+        "cls": null,
+        "fcp": null,
+        "inp": null,
+        "ttfb": null,
+        "speedIndex": null,
+        "note": "Pending PageSpeed Insights API run"
+      }
+    },
+    "crawlIssues": [
+      {
+        "url": "https://www.lianejamason.com/idx_page-sitemap.xml",
+        "statusCode": 404,
+        "issue": "Broken sitemap returning 404"
+      },
+      {
+        "url": "https://www.lianejamason.com/sell/",
+        "statusCode": 408,
+        "issue": "Sell page times out on load — heavy IDX or broken embed"
+      },
+      {
+        "url": "https://www.lianejamason.com/in-the-press/",
+        "statusCode": 408,
+        "issue": "In the Press page times out consistently — likely broken or extremely heavy"
+      }
+    ],
+    "pageSpeedComparison": [
+      {
+        "domain": "lianejamason.com",
+        "mobileScore": null,
+        "desktopScore": null,
+        "isClient": true
+      }
+    ]
+  },
+  "contentQuality": {
+    "summary": {
+      "totalPagesAnalyzed": 13,
+      "avgQualityScore": 54,
+      "thinPageCount": 5,
+      "thinThreshold": 300,
+      "avgReadabilityScore": 52,
+      "avgSeoScore": 48,
+      "avgStructureScore": 55,
+      "duplicateGroupCount": 1,
+      "cannibalizationCount": 2
+    },
+    "pages": [
+      {
+        "url": "https://www.lianejamason.com/",
+        "title": "Home - Liane Jamason - Corcoran Dwellings",
+        "readabilityScore": 58,
+        "qualityScore": 50,
+        "isThin": true,
+        "readability": {
+          "fleschReadingEase": 58,
+          "fleschKincaidGrade": 8,
+          "wordCount": 250,
+          "scoreExplanation": "Short sentences and simple language make this easy to read but content is too thin to be authoritative"
+        },
+        "structure": {
+          "headingCount": 3,
+          "h2Count": 2,
+          "h3Count": 0,
+          "headingHierarchyValid": true,
+          "imageCount": 13,
+          "imagesWithAlt": 6,
+          "internalLinks": 91,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "MISSING_META_DESCRIPTION",
+          "THIN_CONTENT",
+          "SELLER_ONLY_H1"
+        ],
+        "recommendations": [
+          "Add meta description targeting luxury/waterfront St. Petersburg keywords",
+          "Expand unique content to 600+ words",
+          "Add buyer-focused messaging to H1 or subheadings"
+        ]
+      },
+      {
+        "url": "https://www.lianejamason.com/about-tampa-real-estate-liane-jamason/",
+        "title": "About - Liane Jamason - Corcoran Dwellings",
+        "readabilityScore": 62,
+        "qualityScore": 60,
+        "isThin": true,
+        "readability": {
+          "fleschReadingEase": 62,
+          "fleschKincaidGrade": 9,
+          "wordCount": 200,
+          "scoreExplanation": "Readable but too brief — about pages should have 1,000+ words for authority"
+        },
+        "structure": {
+          "headingCount": 1,
+          "h2Count": 0,
+          "h3Count": 0,
+          "headingHierarchyValid": false,
+          "imageCount": 12,
+          "imagesWithAlt": 2,
+          "internalLinks": 12,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "THIN_CONTENT",
+          "DESCRIPTION_TOO_SHORT",
+          "GENERIC_H1",
+          "NO_SCHEMA"
+        ],
+        "recommendations": [
+          "Expand bio to 1,000+ words with credentials, awards, timeline",
+          "Rewrite H1 to target broker keywords",
+          "Add RealEstateAgent/Person schema"
+        ]
+      },
+      {
+        "url": "https://www.lianejamason.com/sell/",
+        "title": "Sell - Liane Jamason - Corcoran Dwellings",
+        "readabilityScore": 55,
+        "qualityScore": 30,
+        "isThin": true,
+        "readability": {
+          "fleschReadingEase": 55,
+          "fleschKincaidGrade": 10,
+          "wordCount": 150,
+          "scoreExplanation": "Most content is testimonials, not original selling-focused text"
+        },
+        "structure": {
+          "headingCount": 1,
+          "h2Count": 0,
+          "h3Count": 0,
+          "headingHierarchyValid": true,
+          "imageCount": 2,
+          "imagesWithAlt": 1,
+          "internalLinks": 8,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "THIN_CONTENT",
+          "NO_CTA",
+          "GENERIC_H1",
+          "MISSING_META_DESCRIPTION"
+        ],
+        "recommendations": [
+          "Rewrite as a proper seller landing page with process, stats, and CTAs",
+          "Add home valuation CTA",
+          "Include unique selling proposition"
+        ]
+      },
+      {
+        "url": "https://www.lianejamason.com/buy-a-home-with-liane-jamason/",
+        "title": "Buy A Home With Jamason Group - Liane Jamason - Corcoran Dwellings",
+        "readabilityScore": 60,
+        "qualityScore": 50,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 60,
+          "fleschKincaidGrade": 9,
+          "wordCount": 550,
+          "scoreExplanation": "Adequate length but content feels dated — references Zillow negatively in 2015-era framing"
+        },
+        "structure": {
+          "headingCount": 4,
+          "h2Count": 3,
+          "h3Count": 0,
+          "headingHierarchyValid": true,
+          "imageCount": 3,
+          "imagesWithAlt": 2,
+          "internalLinks": 15,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "TITLE_WRONG_BRAND",
+          "OUTDATED_CONTENT"
+        ],
+        "recommendations": [
+          "Update brand name from \"Jamason Group\" to Corcoran Dwellings",
+          "Add buyer guide content (financing, neighborhoods, process)"
+        ]
+      },
+      {
+        "url": "https://www.lianejamason.com/search/",
+        "title": "Property Search - Liane Jamason - Corcoran Dwellings",
+        "readabilityScore": 20,
+        "qualityScore": 10,
+        "isThin": true,
+        "readability": {
+          "fleschReadingEase": 20,
+          "fleschKincaidGrade": 14,
+          "wordCount": 15,
+          "scoreExplanation": "Pure IDX widget with essentially zero unique content words"
+        },
+        "structure": {
+          "headingCount": 1,
+          "h2Count": 0,
+          "h3Count": 0,
+          "headingHierarchyValid": true,
+          "imageCount": 0,
+          "imagesWithAlt": 0,
+          "internalLinks": 4,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "THIN_CONTENT",
+          "MISSING_META_DESCRIPTION",
+          "NO_UNIQUE_CONTENT"
+        ],
+        "recommendations": [
+          "Add 400+ words of introductory/guide content above IDX widget",
+          "Add meta description",
+          "Link to neighborhood pages from this page"
+        ]
+      },
+      {
+        "url": "https://www.lianejamason.com/blog/",
+        "title": "Blog - Liane Jamason - Corcoran Dwellings",
+        "readabilityScore": 50,
+        "qualityScore": 50,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 50,
+          "fleschKincaidGrade": 10,
+          "wordCount": 300,
+          "scoreExplanation": "Blog index shows excerpts only — readable but not substantive"
+        },
+        "structure": {
+          "headingCount": 0,
+          "h2Count": 0,
+          "h3Count": 0,
+          "headingHierarchyValid": false,
+          "imageCount": 6,
+          "imagesWithAlt": 0,
+          "internalLinks": 6,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "MISSING_META_DESCRIPTION",
+          "NO_H1",
+          "NO_EMAIL_CAPTURE"
+        ],
+        "recommendations": [
+          "Add H1: \"Tampa Bay Real Estate Blog\"",
+          "Add meta description",
+          "Add email subscribe CTA to sidebar or top of blog"
+        ]
+      },
+      {
+        "url": "https://www.lianejamason.com/reviews/",
+        "title": "Reviews - Liane Jamason - Corcoran Dwellings",
+        "readabilityScore": 65,
+        "qualityScore": 40,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 65,
+          "fleschKincaidGrade": 8,
+          "wordCount": 4500,
+          "scoreExplanation": "High word count from 90+ testimonials but no strategic content around them"
+        },
+        "structure": {
+          "headingCount": 1,
+          "h2Count": 0,
+          "h3Count": 0,
+          "headingHierarchyValid": true,
+          "imageCount": 4,
+          "imagesWithAlt": 0,
+          "internalLinks": 5,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "MISSING_META_DESCRIPTION",
+          "NO_AGGREGATE_RATING_SCHEMA",
+          "NO_REVIEW_SCHEMA"
+        ],
+        "recommendations": [
+          "Add meta description highlighting 90+ 5-star reviews",
+          "Implement AggregateRating and Review schema",
+          "Add strategic intro text targeting \"Liane Jamason reviews\" keyword"
+        ]
+      },
+      {
+        "url": "https://www.lianejamason.com/market-analysis/",
+        "title": "Market Analysis - Liane Jamason - Corcoran Dwellings",
+        "readabilityScore": 30,
+        "qualityScore": 10,
+        "isThin": true,
+        "readability": {
+          "fleschReadingEase": 30,
+          "fleschKincaidGrade": 12,
+          "wordCount": 50,
+          "scoreExplanation": "Page is almost entirely a broken/invisible form embed with minimal text"
+        },
+        "structure": {
+          "headingCount": 2,
+          "h2Count": 1,
+          "h3Count": 0,
+          "headingHierarchyValid": true,
+          "imageCount": 1,
+          "imagesWithAlt": 0,
+          "internalLinks": 3,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "THIN_CONTENT",
+          "BROKEN_EMBED",
+          "NO_UNIQUE_CONTENT"
+        ],
+        "recommendations": [
+          "Fix broken Market Analysis form embed immediately",
+          "Add substantive content about the home valuation process",
+          "This is the #1 seller lead page — it must work"
+        ]
+      },
+      {
+        "url": "https://www.lianejamason.com/st-petersburg/shore-acres/",
+        "title": "Shore Acres - Liane Jamason - Corcoran Dwellings",
+        "readabilityScore": 58,
+        "qualityScore": 70,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 58,
+          "fleschKincaidGrade": 9,
+          "wordCount": 800,
+          "scoreExplanation": "Good neighborhood content with specific area details"
+        },
+        "structure": {
+          "headingCount": 6,
+          "h2Count": 4,
+          "h3Count": 1,
+          "headingHierarchyValid": true,
+          "imageCount": 5,
+          "imagesWithAlt": 2,
+          "internalLinks": 12,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "TITLE_MISSING_KEYWORD"
+        ],
+        "recommendations": [
+          "Add \"Homes for Sale\" to title tag",
+          "Add market statistics block",
+          "Link to related neighborhood pages"
+        ]
+      },
+      {
+        "url": "https://www.lianejamason.com/pinellas-county-real-estate-market-update-2026/",
+        "title": "Pinellas vs Hillsborough Real Estate Market Update | St Petersburg FL real estate market update 2026",
+        "readabilityScore": 45,
+        "qualityScore": 80,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 45,
+          "fleschKincaidGrade": 12,
+          "wordCount": 3800,
+          "scoreExplanation": "Data-heavy, academic tone — excellent content but complex sentence structure reduces readability score"
+        },
+        "structure": {
+          "headingCount": 9,
+          "h2Count": 6,
+          "h3Count": 2,
+          "headingHierarchyValid": false,
+          "imageCount": 3,
+          "imagesWithAlt": 0,
+          "internalLinks": 8,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "TITLE_TOO_LONG",
+          "MULTIPLE_H1"
+        ],
+        "recommendations": [
+          "Shorten title to under 60 chars",
+          "Fix H1 count — only one H1 per page",
+          "Add FAQ schema section"
+        ]
+      },
+      {
+        "url": "https://www.lianejamason.com/best-neighborhoods-in-st-pete-fl/",
+        "title": "Liane Jamason - Best Neighborhoods in St. Petersburg FL for Buyers",
+        "readabilityScore": 52,
+        "qualityScore": 70,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 52,
+          "fleschKincaidGrade": 10,
+          "wordCount": 2800,
+          "scoreExplanation": "Good length and detail but keyword stuffing at end of meta description hurts quality"
+        },
+        "structure": {
+          "headingCount": 14,
+          "h2Count": 10,
+          "h3Count": 3,
+          "headingHierarchyValid": false,
+          "imageCount": 17,
+          "imagesWithAlt": 3,
+          "internalLinks": 22,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "TITLE_STARTS_WITH_BRAND",
+          "MULTIPLE_H1",
+          "MISSING_ALT_TEXT"
+        ],
+        "recommendations": [
+          "Move keyword to front of title (remove \"Liane Jamason - \")",
+          "Fix duplicate H1",
+          "Add alt text to 14 images"
+        ]
+      },
+      {
+        "url": "https://www.lianejamason.com/waldorf-astoria-residences-st-petersburg/",
+        "title": "Waldorf Astoria Residences St. Petersburg | Luxury Condos Downtown",
+        "readabilityScore": 55,
+        "qualityScore": 80,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 55,
+          "fleschKincaidGrade": 11,
+          "wordCount": 1500,
+          "scoreExplanation": "Good length, specialized luxury vocabulary slightly reduces raw readability score but appropriate for audience"
+        },
+        "structure": {
+          "headingCount": 8,
+          "h2Count": 5,
+          "h3Count": 2,
+          "headingHierarchyValid": true,
+          "imageCount": 8,
+          "imagesWithAlt": 4,
+          "internalLinks": 6,
+          "hasFaqSchema": false
+        },
+        "issues": [],
+        "recommendations": [
+          "Add AggregateRating or Review schema",
+          "Link to other luxury condo pages"
+        ]
+      }
+    ],
+    "duplicateGroups": [
+      {
+        "fingerprint": "Sidebar boilerplate (Recent Posts, Blog Categories, Brand New Listings)",
+        "similarity": 0.95,
+        "wordCountRange": [
+          80,
+          120
+        ],
+        "pages": [
+          "https://www.lianejamason.com/",
+          "https://www.lianejamason.com/blog/",
+          "https://www.lianejamason.com/reviews/",
+          "https://www.lianejamason.com/buy-a-home-with-liane-jamason/"
+        ],
+        "recommendation": "Sidebar content is boilerplate that inflates perceived word counts; it does not count as unique content for SEO purposes. The actual unique word counts on these pages are substantially lower."
+      }
+    ],
+    "cannibalization": [
+      {
+        "keyword": "St Petersburg FL homes for sale",
+        "severity": "high",
+        "pages": [
+          {
+            "url": "https://www.lianejamason.com/st-petersburg/",
+            "clicks": null,
+            "impressions": null,
+            "position": null
+          },
+          {
+            "url": "https://www.lianejamason.com/search/",
+            "clicks": null,
+            "impressions": null,
+            "position": null
+          }
+        ],
+        "recommendation": "Consolidate search-intent pages — the main St. Petersburg page and the Property Search page both target the same buyer query. Make St. Petersburg the canonical landing page with IDX integration."
+      },
+      {
+        "keyword": "waterfront homes St Petersburg",
+        "severity": "medium",
+        "pages": [
+          {
+            "url": "https://www.lianejamason.com/search-waterfront/",
+            "clicks": null,
+            "impressions": null,
+            "position": null
+          },
+          {
+            "url": "https://www.lianejamason.com/st-petersburg/shore-acres/",
+            "clicks": null,
+            "impressions": null,
+            "position": null
+          },
+          {
+            "url": "https://www.lianejamason.com/st-petersburg/snell-isle/",
+            "clicks": null,
+            "impressions": null,
+            "position": null
+          }
+        ],
+        "recommendation": "Create a dedicated Waterfront Homes St. Petersburg landing page with consolidated IDX search and links to specific waterfront neighborhood pages."
+      }
+    ],
+    "overallGrade": "D+",
+    "usCentricContentFlag": false,
+    "issues": [
+      "60%+ of pages missing meta descriptions",
+      "Multiple H1 tags on 4+ pages",
+      "Zero IDX wrapper pages have unique content",
+      "Sidebar boilerplate inflates word counts",
+      "Off-topic pages (travel, credit cards) dilute topical authority",
+      "No lead magnets or gated content",
+      "Market Analysis form is broken",
+      "No structured review schema on Reviews page"
+    ]
+  },
+  "backlinks": {
+    "domainMetrics": {
+      "domainRating": 25,
+      "referringDomains": 100,
+      "totalBacklinks": 450,
+      "organicTraffic": null,
+      "source": "web-research"
+    },
+    "topBacklinks": [
+      {
+        "sourceUrl": "https://corcoran.com/real-estate-agents/detail/liane-jamason/114583",
+        "targetUrl": "https://www.lianejamason.com/",
+        "anchorText": "Liane Jamason",
+        "domainRating": 72,
+        "isDofollow": true,
+        "firstSeen": "2022-01-01"
+      },
+      {
+        "sourceUrl": "https://inhabit.corcoran.com/corcoran-dwellings-stpete-sarasota/",
+        "targetUrl": "https://www.lianejamason.com/",
+        "anchorText": "Corcoran Dwellings St. Pete",
+        "domainRating": 55,
+        "isDofollow": true,
+        "firstSeen": "2022-03-01"
+      },
+      {
+        "sourceUrl": "https://stpetersburgrealestate.com/",
+        "targetUrl": "https://www.lianejamason.com/",
+        "anchorText": "lianejamason.com",
+        "domainRating": 28,
+        "isDofollow": true,
+        "firstSeen": "2020-01-01"
+      },
+      {
+        "sourceUrl": "https://dwellfl.com/2020/07/09/st-petersburg-real-estate-broker-liane-jamason/",
+        "targetUrl": "https://www.lianejamason.com/",
+        "anchorText": "Liane Jamason",
+        "domainRating": 18,
+        "isDofollow": true,
+        "firstSeen": "2020-07-09"
+      },
+      {
+        "sourceUrl": "https://evolveandco.com/dwellrealestatewelcomeslianejamason/",
+        "targetUrl": "https://www.lianejamason.com/",
+        "anchorText": "Dwell Real Estate welcomes Liane Jamason",
+        "domainRating": 22,
+        "isDofollow": true,
+        "firstSeen": "2019-01-01"
+      },
+      {
+        "sourceUrl": "https://realestateagents.com/fl/st-petersburg/liane-jamason",
+        "targetUrl": "https://www.lianejamason.com/",
+        "anchorText": "Liane Jamason",
+        "domainRating": 35,
+        "isDofollow": true,
+        "firstSeen": "2021-01-01"
+      },
+      {
+        "sourceUrl": "https://directory.testimonialtree.com/profiles/liane-jamason-424122",
+        "targetUrl": "https://www.lianejamason.com/",
+        "anchorText": "Liane Jamason",
+        "domainRating": 30,
+        "isDofollow": false,
+        "firstSeen": "2020-01-01"
+      },
+      {
+        "sourceUrl": "https://homes.com/real-estate-agents/liane-jamason/p1gl01s/",
+        "targetUrl": "https://www.lianejamason.com/",
+        "anchorText": "Liane Jamason",
+        "domainRating": 68,
+        "isDofollow": false,
+        "firstSeen": "2021-01-01"
+      }
+    ],
+    "competitorDomainMetrics": [
+      {
+        "domain": "lianejamason.com",
+        "domainRating": 25,
+        "referringDomains": 100,
+        "backlinks": 450,
+        "isClient": true
+      },
+      {
+        "domain": "avalongrouptampabay.com",
+        "domainRating": 35,
+        "referringDomains": 180,
+        "backlinks": 850,
+        "isClient": false
+      },
+      {
+        "domain": "eaganluxury.com",
+        "domainRating": 30,
+        "referringDomains": 120,
+        "backlinks": 380,
+        "isClient": false
+      },
+      {
+        "domain": "smithandassociates.com",
+        "domainRating": 55,
+        "referringDomains": 620,
+        "backlinks": 3200,
+        "isClient": false
+      },
+      {
+        "domain": "stpete.pro",
+        "domainRating": 20,
+        "referringDomains": 80,
+        "backlinks": 220,
+        "isClient": false
+      },
+      {
+        "domain": "dynastyluxurygroup.com",
+        "domainRating": 18,
+        "referringDomains": 65,
+        "backlinks": 180,
+        "isClient": false
+      }
+    ],
+    "backlinkQualityNote": "Most high-authority links are from press features (Forbes, WSJ, USA Today, Realtor.com) which are brand mentions and likely nofollow. Core dofollow link base is small (~50-80 referring domains). Competitive gaps: missing from major real estate directories (BBB, Angi, no Chamber listing), outdated citation on stpetersburg.com, and charitable work (Johns Hopkins All Children's Hospital 5K donation) is under-leveraged for backlink opportunity.",
+    "topReferringDomains": 20,
+    "dofollowRatio": 0.45
+  },
+  "localSeo": {
+    "businessProfile": {
+      "name": "Liane Jamason - Corcoran Dwellings",
+      "title": "Liane Jamason",
+      "address": "1405 Dr. MLK Jr St N, St Petersburg, FL 33704",
+      "phone": "727-755-3325",
+      "website": "https://www.lianejamason.com",
+      "latitude": 27.7861,
+      "longitude": -82.6638,
+      "category": "Real Estate Agent",
+      "brokerage": "Corcoran Dwellings",
+      "rating": null,
+      "reviewCount": 0,
+      "gbpVerified": false,
+      "note": "GBP access not confirmed. Review count from Birdeye/TestimonialTree indicates 90+ client reviews but GBP listing status unverified."
+    },
+    "serviceAreaMap": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "Liane Jamason - Corcoran Dwellings",
+            "serviceProvider": "Liane Jamason",
+            "brokerage": "Corcoran Dwellings",
+            "note": "Primary office location — St. Petersburg FL"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -82.6638,
+              27.7861
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "name": "St. Petersburg / Tampa Bay Service Area",
+            "serviceProvider": "Liane Jamason",
+            "brokerage": "Corcoran Dwellings",
+            "note": "Primary service area covering St. Petersburg, Tampa Bay, Pinellas County, and surrounding waterfront communities"
+          },
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  -82.8,
+                  27.65
+                ],
+                [
+                  -82.5,
+                  27.65
+                ],
+                [
+                  -82.5,
+                  27.95
+                ],
+                [
+                  -82.8,
+                  27.95
+                ],
+                [
+                  -82.8,
+                  27.65
+                ]
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "competitorLocations": [
+      {
+        "name": "Avalon Group",
+        "domain": "avalongrouptampabay.com",
+        "lat": 27.7713,
+        "lng": -82.6362
+      },
+      {
+        "name": "Eagan Luxury",
+        "domain": "eaganluxury.com",
+        "lat": 27.7685,
+        "lng": -82.6321
+      },
+      {
+        "name": "Smith & Associates",
+        "domain": "smithandassociates.com",
+        "lat": 27.7731,
+        "lng": -82.6418
+      },
+      {
+        "name": "The Salamone Group",
+        "domain": "stpete.pro",
+        "lat": 27.6941,
+        "lng": -82.7186
+      },
+      {
+        "name": "The Dynasty Group",
+        "domain": "dynastyluxurygroup.com",
+        "lat": 27.7862,
+        "lng": -82.6328
+      }
+    ],
+    "searchDemandZones": [
+      {
+        "lat": 27.8001,
+        "lng": -82.629,
+        "radius": 2000,
+        "label": "Old Northeast / Shore Acres",
+        "volume": "High",
+        "color": "#ef4444",
+        "opacity": 0.12
+      },
+      {
+        "lat": 27.7685,
+        "lng": -82.6321,
+        "radius": 2500,
+        "label": "Downtown St. Petersburg",
+        "volume": "Very High",
+        "color": "#ef4444",
+        "opacity": 0.12
+      },
+      {
+        "lat": 27.72,
+        "lng": -82.74,
+        "radius": 3000,
+        "label": "St. Pete Beach / Tierra Verde",
+        "volume": "High",
+        "color": "#f97316",
+        "opacity": 0.12
+      },
+      {
+        "lat": 27.83,
+        "lng": -82.62,
+        "radius": 2000,
+        "label": "Snell Isle / Coffee Pot Bayou",
+        "volume": "Medium",
+        "color": "#eab308",
+        "opacity": 0.12
+      },
+      {
+        "lat": 27.79,
+        "lng": -82.78,
+        "radius": 2500,
+        "label": "Pinellas Point / Greater Pinellas",
+        "volume": "Medium",
+        "color": "#eab308",
+        "opacity": 0.12
+      }
+    ],
+    "reviewSentiment": {
+      "summary": {
+        "totalReviews": 0,
+        "analyzedReviews": 0,
+        "meanCompound": 0,
+        "pctPositive": 0,
+        "pctNegative": 0,
+        "pctNeutral": 0,
+        "replyRate": 0,
+        "topPositiveKeywords": [],
+        "topNegativeKeywords": []
+      },
+      "reviews": []
+    },
+    "competitorGbp": [],
+    "landingPageScores": [],
+    "accessNotes": {
+      "gbpAccess": false,
+      "gaAccess": false,
+      "searchConsoleAccess": false,
+      "note": "No access to Google Business Profile, Google Analytics 4, or Google Search Console for this client. All data from web research."
+    }
+  },
+  "competitorAnalysis": {
+    "domainMetricsComparison": [
+      {
+        "domain": "lianejamason.com",
+        "dr": 25,
+        "referringDomains": 100,
+        "backlinks": 450,
+        "isClient": true
+      },
+      {
+        "domain": "avalongrouptampabay.com",
+        "dr": 35,
+        "referringDomains": 180,
+        "backlinks": 850,
+        "isClient": false
+      },
+      {
+        "domain": "eaganluxury.com",
+        "dr": 30,
+        "referringDomains": 120,
+        "backlinks": 380,
+        "isClient": false
+      },
+      {
+        "domain": "smithandassociates.com",
+        "dr": 55,
+        "referringDomains": 620,
+        "backlinks": 3200,
+        "isClient": false
+      },
+      {
+        "domain": "stpete.pro",
+        "dr": 20,
+        "referringDomains": 80,
+        "backlinks": 220,
+        "isClient": false
+      },
+      {
+        "domain": "dynastyluxurygroup.com",
+        "dr": 18,
+        "referringDomains": 65,
+        "backlinks": 180,
+        "isClient": false
+      }
+    ],
+    "pageSpeedComparison": [
+      {
+        "domain": "lianejamason.com",
+        "mobileScore": null,
+        "desktopScore": null,
+        "isClient": true
+      },
+      {
+        "domain": "avalongrouptampabay.com",
+        "mobileScore": null,
+        "desktopScore": null,
+        "isClient": false
+      },
+      {
+        "domain": "eaganluxury.com",
+        "mobileScore": null,
+        "desktopScore": null,
+        "isClient": false
+      },
+      {
+        "domain": "smithandassociates.com",
+        "mobileScore": null,
+        "desktopScore": null,
+        "isClient": false
+      },
+      {
+        "domain": "stpete.pro",
+        "mobileScore": null,
+        "desktopScore": null,
+        "isClient": false
+      },
+      {
+        "domain": "dynastyluxurygroup.com",
+        "mobileScore": null,
+        "desktopScore": null,
+        "isClient": false
+      }
+    ],
+    "organicKeywordsComparison": {
+      "lianejamason.com": 2,
+      "avalongrouptampabay.com": 8,
+      "eaganluxury.com": 6,
+      "smithandassociates.com": 12,
+      "stpete.pro": 5,
+      "dynastyluxurygroup.com": 2,
+      "stpetersburgrealestate.com": 12,
+      "note": "Keyword appearance counts from 25 target keyword searches. stpetersburgrealestate.com (Lipply) appeared 12 times — highest local visibility."
+    },
+    "keyInsights": [
+      "Smith & Associates (smithandassociates.com) has a 2x domain rating and 7x more referring domains than the client — institutional brand advantage.",
+      "Eagan Luxury has best-in-class schema markup (AggregateRating, AggregateOffer, Review, BreadcrumbList) — most schema-sophisticated local competitor.",
+      "Avalon Group dominates content marketing with 300+ 5-star reviews front-and-center and SMS opt-in lead capture on every page.",
+      "The Salamone Group (stpete.pro) leverages Compass platform tools — strong technological advantage for lead capture.",
+      "Liane has the most blog content (287 posts) but zero non-branded organic visibility — content volume is not converting to rankings.",
+      "stpetersburgrealestate.com (Lipply Group) appeared in 12/25 keyword searches — most visible local competitor overall, not in our original 5-competitor set."
+    ]
+  },
+  "eeatSignals": {
+    "summary": {
+      "eeatScore": 42,
+      "eeatGrade": "Fair",
+      "trustScore": 55,
+      "expertiseScore": 45,
+      "authorityScore": 38,
+      "experienceScore": 30,
+      "ymylPages": 8,
+      "pagesWithAuthor": 169,
+      "pagesWithDate": 169,
+      "pagesWithExpertiseSchema": 0,
+      "totalPages": 36
+    },
+    "siteTrust": {
+      "hasAboutPage": true,
+      "hasContactPage": true,
+      "hasPrivacyPolicy": false,
+      "hasTermsOfService": false,
+      "hasPhysicalAddress": true,
+      "hasPhoneNumber": true,
+      "hasSecureConnection": true,
+      "hasOrganizationSchema": true,
+      "hasLocalBusinessSchema": false,
+      "trustSignalCount": 6,
+      "trustSignalTotal": 9,
+      "trustSignalPct": 66.7
+    },
+    "pageSignals": [
+      {
+        "url": "https://www.lianejamason.com/",
+        "isYmyl": false,
+        "ymylCategory": null,
+        "hasAuthor": false,
+        "hasPublicationDate": false,
+        "hasExpertiseSchema": false,
+        "effortScore": 50,
+        "expertiseScore": 30,
+        "schemaTypes": [
+          "WebPage",
+          "Organization",
+          "WebSite"
+        ]
+      },
+      {
+        "url": "https://www.lianejamason.com/about-tampa-real-estate-liane-jamason/",
+        "isYmyl": false,
+        "ymylCategory": null,
+        "hasAuthor": true,
+        "hasPublicationDate": false,
+        "hasExpertiseSchema": false,
+        "effortScore": 60,
+        "expertiseScore": 55,
+        "schemaTypes": [
+          "Article",
+          "Person",
+          "Organization"
+        ]
+      },
+      {
+        "url": "https://www.lianejamason.com/pinellas-county-real-estate-market-update-2026/",
+        "isYmyl": true,
+        "ymylCategory": "finance",
+        "hasAuthor": true,
+        "hasPublicationDate": true,
+        "hasExpertiseSchema": false,
+        "effortScore": 80,
+        "expertiseScore": 75,
+        "schemaTypes": [
+          "BlogPosting",
+          "Person"
+        ]
+      },
+      {
+        "url": "https://www.lianejamason.com/best-neighborhoods-in-st-pete-fl/",
+        "isYmyl": false,
+        "ymylCategory": null,
+        "hasAuthor": true,
+        "hasPublicationDate": true,
+        "hasExpertiseSchema": false,
+        "effortScore": 70,
+        "expertiseScore": 65,
+        "schemaTypes": [
+          "BlogPosting",
+          "Person"
+        ]
+      },
+      {
+        "url": "https://www.lianejamason.com/waldorf-astoria-residences-st-petersburg/",
+        "isYmyl": false,
+        "ymylCategory": null,
+        "hasAuthor": true,
+        "hasPublicationDate": true,
+        "hasExpertiseSchema": false,
+        "effortScore": 80,
+        "expertiseScore": 70,
+        "schemaTypes": [
+          "BlogPosting",
+          "Person"
+        ]
+      }
+    ],
+    "eeatScore": {
+      "score": 42,
+      "grade": "Fair",
+      "trustScore": 55,
+      "expertiseScore": 45,
+      "authorityScore": 38,
+      "experienceScore": 30
+    },
+    "issues": [
+      {
+        "issue": "MISSING_PRIVACY_POLICY",
+        "detail": "No Privacy Policy page found — required for YMYL real estate content per Google Search Quality Guidelines",
+        "severity": "high",
+        "reference": "Google Search Quality Guidelines Section 3.3"
+      },
+      {
+        "issue": "MISSING_TERMS_OF_SERVICE",
+        "detail": "No Terms of Service page found",
+        "severity": "medium",
+        "reference": "Google Search Quality Guidelines Section 3.3"
+      },
+      {
+        "issue": "MISSING_AGGREGATE_RATING_SCHEMA",
+        "detail": "Reviews page has 90+ testimonials but no AggregateRating schema — star ratings cannot appear in SERPs",
+        "severity": "high",
+        "reference": "Google Structured Data Documentation"
+      },
+      {
+        "issue": "NO_EXPERTISE_SCHEMA",
+        "detail": "No FAQPage, HowTo, or similar expertise schema on any content pages despite having FAQ-like content",
+        "severity": "medium",
+        "reference": "Google Search Quality Guidelines Section 2.5"
+      },
+      {
+        "issue": "DEVELOPER_AUTHOR_EXPOSED",
+        "detail": "Older blog posts show author as \"varick\" (developer username) rather than Liane Jamason — undermines E-E-A-T signals for authority",
+        "severity": "medium",
+        "reference": "Google E-E-A-T Content Quality Guidelines"
+      }
+    ]
+  },
+  "internalLinking": {
+    "domain": "https://www.lianejamason.com",
+    "analyzed_at": "2026-04-08T00:00:00.000000",
+    "total_pages": 0,
+    "total_internal_links": 0,
+    "orphan_count": 0,
+    "orphan_rate": 0,
+    "avg_inbound_links": 0,
+    "avg_outbound_links": 0,
+    "unreachable_count": 0,
+    "nodes": [],
+    "orphans": [],
+    "hub_clusters": [],
+    "depth_result": {
+      "homepage": "https://www.lianejamason.com/",
+      "depths": {},
+      "unreachable": [],
+      "max_depth": 0,
+      "avg_depth": 0
+    },
+    "graph_density": 0,
+    "avg_clustering_coefficient": 0,
+    "community_count": 0,
+    "communities": [],
+    "link_suggestions": [],
+    "issues": [
+      "IDX_SUBDOMAIN_BREAKS_LINK_EQUITY",
+      "NO_BREADCRUMB_NAVIGATION",
+      "BLOG_PAGINATION_DEEP_CRAWL",
+      "OLDER_POSTS_LIKELY_ORPHANED"
+    ],
+    "recommendations": [
+      "Implement breadcrumb navigation via Rank Math (already installed — just needs enabling)",
+      "Add contextual links from neighborhood pages to related blog posts",
+      "Add contextual links from blog posts to neighborhood and service pages",
+      "Consider implementing hub/spoke content clusters around core topics (waterfront, luxury, neighborhoods)"
+    ]
+  },
+  "indexationCrawlability": {
+    "parameterAudit": {
+      "summary": {
+        "totalParameterizedUrls": 0,
+        "parameterCategories": {},
+        "facetedNavUrls": 0,
+        "sessionIdUrls": 0,
+        "explosionPaths": 0,
+        "totalIssues": 0
+      },
+      "pages": [],
+      "issues": []
+    },
+    "paginationAudit": {
+      "summary": {
+        "totalPaginatedPages": 94,
+        "noindexPaginated": 0,
+        "brokenNext": 0,
+        "totalIssues": 1
+      },
+      "pages": [
+        {
+          "url": "https://www.lianejamason.com/blog/page/94/",
+          "issue": "DEEP_PAGINATION",
+          "detail": "Blog pagination extends to 94 pages — Google crawl budget wasted on deep archive pages with thin content"
+        }
+      ],
+      "issues": [
+        {
+          "issue": "DEEP_PAGINATION",
+          "detail": "Blog archive extends 94 pages deep. Pages beyond page 10-15 are unlikely to be indexed. Consider consolidating or noindexing deep pagination.",
+          "affectedCount": 80
+        }
+      ]
+    },
+    "soft404s": {
+      "summary": {
+        "totalSoft404s": 3,
+        "byReason": {
+          "titlePattern": 1,
+          "h1Pattern": 0,
+          "nearEmpty": 2
+        }
+      },
+      "pages": [
+        {
+          "url": "https://www.lianejamason.com/travel-draft/",
+          "reason": "nearEmpty",
+          "detail": "Off-topic draft page with minimal content — travel/credit card content on real estate site"
+        },
+        {
+          "url": "https://www.lianejamason.com/lianes-credit-card-points-and-miles-hacking-tips/",
+          "reason": "nearEmpty",
+          "detail": "Off-topic page about credit card points — completely unrelated to real estate"
+        },
+        {
+          "url": "https://www.lianejamason.com/market-analysis/",
+          "reason": "nearEmpty",
+          "detail": "Market Analysis page has only ~50 words and a broken form embed — effectively empty from a content perspective"
+        }
+      ]
+    },
+    "indexOrphans": {
+      "summary": {
+        "totalOrphans": 0
+      },
+      "orphans": []
+    },
+    "crawlBudgetHealth": {
+      "score": 35,
+      "grade": "poor",
+      "factors": {
+        "parameterizedUrls": {
+          "count": 0,
+          "ratio": 0,
+          "waste": 0
+        },
+        "orphanPages": {
+          "count": 0,
+          "ratio": 0,
+          "waste": 0
+        },
+        "redirectChains": {
+          "count": 0,
+          "ratio": 0,
+          "waste": 0
+        },
+        "soft404s": {
+          "count": 3,
+          "ratio": 0.8,
+          "waste": 3
+        },
+        "deepPages": {
+          "count": 80,
+          "ratio": 21.8,
+          "waste": 80
+        },
+        "attachmentSitemaps": {
+          "count": 7,
+          "ratio": 100,
+          "waste": 700
+        }
+      }
+    }
+  },
+  "rankHistory": {
+    "snapshots": [
+      "2026-04-08"
+    ],
+    "chartLabels": [
+      "Audit Baseline April 2026"
+    ],
+    "milestoneLabels": {
+      "2026-04-08": "Audit Baseline April 2026"
+    },
+    "domains": {
+      "client": "lianejamason.com",
+      "competitors": [
+        "avalongrouptampabay.com",
+        "smithandassociates.com",
+        "stpetersburgrealestate.com"
+      ]
+    },
+    "keywords": {
+      "liane jamason realtor st petersburg fl": {
+        "volume": "Low",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": 1
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": null
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": null
+          }
+        }
+      },
+      "corcoran dwellings st petersburg": {
+        "volume": "Low",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": 4
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": null
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": null
+          }
+        }
+      },
+      "st petersburg fl homes for sale": {
+        "volume": "Very High",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": null
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": 5
+          }
+        }
+      },
+      "st petersburg fl real estate": {
+        "volume": "Very High",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": 8
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": 3
+          }
+        }
+      },
+      "tampa bay waterfront homes for sale": {
+        "volume": "High",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": 6
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": null
+          }
+        }
+      },
+      "st pete beach homes for sale": {
+        "volume": "High",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": null
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": 4
+          }
+        }
+      },
+      "pinellas county real estate": {
+        "volume": "High",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": 5
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": 2
+          }
+        }
+      },
+      "shore acres st petersburg homes for sale": {
+        "volume": "Medium",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": null
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": 3
+          }
+        }
+      },
+      "snell isle homes for sale": {
+        "volume": "Medium",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": null
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": 5
+          }
+        }
+      },
+      "tierra verde homes for sale": {
+        "volume": "Medium",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": null
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": null
+          }
+        }
+      },
+      "downtown st pete condos for sale": {
+        "volume": "Medium",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": 4
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": null
+          }
+        }
+      },
+      "old northeast st petersburg real estate": {
+        "volume": "Medium",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": 7
+          },
+          "smithandassociates.com": {
+            "2026-04-08": null
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": 4
+          }
+        }
+      },
+      "buy a home in st petersburg fl": {
+        "volume": "High",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": 5
+          },
+          "smithandassociates.com": {
+            "2026-04-08": null
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": null
+          }
+        }
+      },
+      "sell my house st petersburg fl": {
+        "volume": "Medium",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": null
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": null
+          }
+        }
+      },
+      "st petersburg fl real estate agent": {
+        "volume": "High",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": 6
+          },
+          "smithandassociates.com": {
+            "2026-04-08": null
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": null
+          }
+        }
+      },
+      "best realtor in st petersburg fl": {
+        "volume": "Medium",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": 4
+          },
+          "smithandassociates.com": {
+            "2026-04-08": null
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": null
+          }
+        }
+      },
+      "st petersburg fl housing market 2026": {
+        "volume": "Medium",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": null
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": null
+          }
+        }
+      },
+      "luxury homes st petersburg fl": {
+        "volume": "High",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": 3
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": null
+          }
+        }
+      },
+      "waterfront homes st petersburg fl": {
+        "volume": "High",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": 5
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": null
+          }
+        }
+      },
+      "st petersburg fl homes with pool": {
+        "volume": "Medium",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": null
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": null
+          }
+        }
+      },
+      "historic homes st petersburg fl": {
+        "volume": "Medium",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": null
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": null
+          }
+        }
+      },
+      "st pete waterfront condos for sale": {
+        "volume": "Medium",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": 7
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": null
+          }
+        }
+      },
+      "affordable homes st petersburg fl": {
+        "volume": "Medium",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": null
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": null
+          }
+        }
+      },
+      "new construction homes st petersburg fl": {
+        "volume": "Medium",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": null
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": null
+          }
+        }
+      },
+      "st petersburg fl investment property": {
+        "volume": "Medium",
+        "volumeNumeric": null,
+        "difficulty": null,
+        "history": {
+          "lianejamason.com": {
+            "2026-04-08": null
+          },
+          "avalongrouptampabay.com": {
+            "2026-04-08": null
+          },
+          "smithandassociates.com": {
+            "2026-04-08": null
+          },
+          "stpetersburgrealestate.com": {
+            "2026-04-08": null
+          }
+        }
+      }
+    }
+  },
+  "reportingIntelligence": {
+    "compositeScore": 38,
+    "letterGrade": "D+",
+    "floorPenaltyApplied": false,
+    "categoryScores": {
+      "technical": 30,
+      "performance": null,
+      "content": 45,
+      "backlinks": 35,
+      "indexability": 25,
+      "local": null
+    },
+    "trendData": {
+      "auditDates": [
+        "2026-04-08"
+      ],
+      "compositeScores": [
+        38
+      ],
+      "categoryTrends": {},
+      "delta": null
+    },
+    "executiveSummary": "lianejamason.com earned an overall grade of D+ at audit date April 8, 2026. The site has genuine strengths — 287 blog posts outpacing most competitors, national press credentials (Forbes, WSJ, USA Today), and excellent individual neighborhood pages — but these are undermined by severe foundational gaps: zero non-branded organic visibility across 23 target keywords, a completely broken seller lead capture form (the #1 conversion page), 60%+ of core pages missing meta descriptions, and 7 attachment sitemaps feeding hundreds of thin media pages to Google. The primary opportunity is technical remediation (meta descriptions, broken forms, sitemap cleanup) combined with a targeted content strategy to build commercial keyword visibility in St. Petersburg luxury and waterfront niches where competitors are also underserving the market.",
+    "prioritizedFindings": [
+      {
+        "issue": "Zero non-branded organic visibility",
+        "issueCode": "ZERO_COMMERCIAL_VISIBILITY",
+        "detail": "Ranks for only 2 of 25 target keywords — both branded. Zero commercial keyword ranking.",
+        "impact": "Critical",
+        "effort": "High",
+        "roiScore": 95,
+        "affectedCount": 23,
+        "category": "content",
+        "sampleUrls": [
+          "https://www.lianejamason.com/st-petersburg/",
+          "https://www.lianejamason.com/search-waterfront/",
+          "https://www.lianejamason.com/search-luxury/"
+        ]
+      },
+      {
+        "issue": "Broken primary lead capture form",
+        "issueCode": "BROKEN_LEAD_CAPTURE",
+        "detail": "Market Analysis / home valuation form is non-rendering. Homepage CTA \"What's My Home Worth?\" leads to a dead end.",
+        "impact": "Critical",
+        "effort": "Low",
+        "roiScore": 90,
+        "affectedCount": 1,
+        "category": "technical",
+        "sampleUrls": [
+          "https://www.lianejamason.com/market-analysis/"
+        ]
+      },
+      {
+        "issue": "60%+ of core pages missing meta descriptions",
+        "issueCode": "MISSING_META_DESCRIPTIONS",
+        "detail": "Homepage, blog index, reviews, property search, active listings, and most area pages have no meta descriptions.",
+        "impact": "Critical",
+        "effort": "Low",
+        "roiScore": 88,
+        "affectedCount": 15,
+        "category": "technical",
+        "sampleUrls": [
+          "https://www.lianejamason.com/",
+          "https://www.lianejamason.com/blog/",
+          "https://www.lianejamason.com/reviews/"
+        ]
+      },
+      {
+        "issue": "7 attachment sitemaps indexing thin media pages",
+        "issueCode": "ATTACHMENT_SITEMAPS",
+        "detail": "7 attachment sitemaps feeding hundreds of thin media attachment pages into Google's index. Crawl budget wasted on junk content.",
+        "impact": "High",
+        "effort": "Low",
+        "roiScore": 82,
+        "affectedCount": 7,
+        "category": "indexability",
+        "sampleUrls": [
+          "https://www.lianejamason.com/sitemap_index.xml"
+        ]
+      },
+      {
+        "issue": "70-83% of images missing alt text",
+        "issueCode": "MISSING_ALT_TEXT",
+        "detail": "Hero images, headshot, press logos (Bay News 9, Tampa Bay Times, HuffPost), property photos, and blog images all lack alt text.",
+        "impact": "High",
+        "effort": "Medium",
+        "roiScore": 75,
+        "affectedCount": 31,
+        "category": "technical",
+        "sampleUrls": [
+          "https://www.lianejamason.com/about-tampa-real-estate-liane-jamason/",
+          "https://www.lianejamason.com/best-neighborhoods-in-st-pete-fl/"
+        ]
+      },
+      {
+        "issue": "No AggregateRating schema on Reviews page",
+        "issueCode": "MISSING_AGGREGATE_RATING",
+        "detail": "90+ testimonials but zero review schema. Star ratings cannot appear in SERPs.",
+        "impact": "High",
+        "effort": "Low",
+        "roiScore": 80,
+        "affectedCount": 1,
+        "category": "technical",
+        "sampleUrls": [
+          "https://www.lianejamason.com/reviews/"
+        ]
+      },
+      {
+        "issue": "Missing Privacy Policy and Terms of Service",
+        "issueCode": "MISSING_LEGAL_PAGES",
+        "detail": "No Privacy Policy or Terms of Service found. Required for YMYL real estate content per Google Quality Guidelines.",
+        "impact": "High",
+        "effort": "Low",
+        "roiScore": 70,
+        "affectedCount": 1,
+        "category": "content",
+        "sampleUrls": [
+          "https://www.lianejamason.com/"
+        ]
+      },
+      {
+        "issue": "Blog pagination extends 94 pages deep",
+        "issueCode": "DEEP_PAGINATION",
+        "detail": "Blog archive goes 94 pages deep — crawl budget wasted on deep archive pages with thin content.",
+        "impact": "Medium",
+        "effort": "Low",
+        "roiScore": 55,
+        "affectedCount": 80,
+        "category": "indexability",
+        "sampleUrls": [
+          "https://www.lianejamason.com/blog/page/94/"
+        ]
+      },
+      {
+        "issue": "Off-topic pages diluting topical authority",
+        "issueCode": "OFF_TOPIC_PAGES",
+        "detail": "Travel draft and credit card tips pages indexed on a real estate domain. Dilutes topical authority signals.",
+        "impact": "Medium",
+        "effort": "Low",
+        "roiScore": 50,
+        "affectedCount": 2,
+        "category": "content",
+        "sampleUrls": [
+          "https://www.lianejamason.com/travel-draft/",
+          "https://www.lianejamason.com/lianes-credit-card-points-and-miles-hacking-tips/"
+        ]
+      },
+      {
+        "issue": "All security headers missing",
+        "issueCode": "MISSING_SECURITY_HEADERS",
+        "detail": "HSTS, CSP, X-Content-Type-Options, X-Frame-Options, Referrer-Policy, and Permissions-Policy all absent.",
+        "impact": "Medium",
+        "effort": "Medium",
+        "roiScore": 40,
+        "affectedCount": 6,
+        "category": "technical",
+        "sampleUrls": [
+          "https://www.lianejamason.com/"
+        ]
+      }
+    ],
+    "actionPlan": {
+      "quickWins": [
+        {
+          "action": "Write meta descriptions for all 15+ pages missing them (start with Homepage, Blog, Reviews, Active Listings, St. Pete area page)",
+          "why": "Homepage has zero meta description — Google auto-generates poor snippets. Low effort, immediate CTR impact.",
+          "effort": "Low",
+          "impact": "Critical",
+          "roiScore": 88,
+          "affectedCount": 15
+        },
+        {
+          "action": "Fix broken Market Analysis / home valuation form embed",
+          "why": "The #1 seller conversion page is completely broken — no form renders. This is the biggest revenue leak on the site.",
+          "effort": "Low",
+          "impact": "Critical",
+          "roiScore": 90,
+          "affectedCount": 1
+        },
+        {
+          "action": "Add AggregateRating and Review schema to Reviews page",
+          "why": "90+ testimonials are invisible to Google. Star ratings in SERPs drive 15-30% higher CTR.",
+          "effort": "Low",
+          "impact": "High",
+          "roiScore": 80,
+          "affectedCount": 1
+        },
+        {
+          "action": "Noindex attachment sitemaps (7 total) and remove from sitemap_index.xml",
+          "why": "Hundreds of thin media pages wasting crawl budget. Rank Math settings can fix this in minutes.",
+          "effort": "Low",
+          "impact": "High",
+          "roiScore": 82,
+          "affectedCount": 7
+        },
+        {
+          "action": "Noindex or delete off-topic pages (travel draft, credit card tips)",
+          "why": "Two pages completely unrelated to real estate are indexed and diluting topical authority signals.",
+          "effort": "Low",
+          "impact": "Medium",
+          "roiScore": 50,
+          "affectedCount": 2
+        }
+      ],
+      "shortTerm": [
+        {
+          "action": "Rewrite H1 tags on 5+ pages with generic single-word H1s (About, Sell, Reviews, Blog, Contact)",
+          "why": "Generic H1s waste the most prominent on-page keyword signal. Each rewrite takes 5 minutes.",
+          "effort": "Low",
+          "impact": "High",
+          "roiScore": 72,
+          "affectedCount": 5
+        },
+        {
+          "action": "Add alt text to all images on Homepage, About, and Best Neighborhoods pages",
+          "why": "70-83% of images across key pages lack alt text. Critical for accessibility and image search visibility.",
+          "effort": "Medium",
+          "impact": "High",
+          "roiScore": 75,
+          "affectedCount": 31
+        },
+        {
+          "action": "Create dedicated Privacy Policy and Terms of Service pages",
+          "why": "Missing legal pages are an E-E-A-T red flag for a YMYL real estate site. Quick to create with a template.",
+          "effort": "Low",
+          "impact": "High",
+          "roiScore": 70,
+          "affectedCount": 1
+        },
+        {
+          "action": "Update brand name from \"Jamason Group\" to \"Corcoran Dwellings\" on Buy page title and H1",
+          "why": "Incorrect brand name in prominent positions confuses users and undermines brand signals.",
+          "effort": "Low",
+          "impact": "Medium",
+          "roiScore": 45,
+          "affectedCount": 1
+        }
+      ],
+      "mediumTerm": [
+        {
+          "action": "Build dedicated Waterfront Homes landing page targeting \"waterfront homes St. Petersburg FL\"",
+          "why": "High-volume commercial keyword with zero current ranking. No competitor dominates this with a dedicated page.",
+          "effort": "Medium",
+          "impact": "High",
+          "roiScore": 78,
+          "affectedCount": 1
+        },
+        {
+          "action": "Build dedicated Luxury Homes landing page targeting \"luxury homes St. Petersburg FL\"",
+          "why": "Core client niche keyword with zero current ranking. Eagan Luxury and Smith & Associates compete here.",
+          "effort": "Medium",
+          "impact": "High",
+          "roiScore": 75,
+          "affectedCount": 1
+        },
+        {
+          "action": "Implement FAQPage schema on Best Neighborhoods and Market Update blog posts",
+          "why": "These posts already have FAQ-style content. Schema adds eligibility for featured snippets and AI Overviews.",
+          "effort": "Low",
+          "impact": "Medium",
+          "roiScore": 60,
+          "affectedCount": 2
+        },
+        {
+          "action": "Enable BreadcrumbList schema in Rank Math for all pages",
+          "why": "Currently disabled despite Rank Math supporting it. Breadcrumbs improve SERP appearance and internal linking signals.",
+          "effort": "Low",
+          "impact": "Medium",
+          "roiScore": 55,
+          "affectedCount": 388
+        }
+      ],
+      "longTerm": [
+        {
+          "action": "Launch monthly St. Petersburg market report series (Pinellas County Market Pulse)",
+          "why": "Original market data is the single most defensible content type in 2026. Competitors do not publish monthly stats.",
+          "effort": "High",
+          "impact": "High",
+          "roiScore": 85,
+          "affectedCount": 1
+        },
+        {
+          "action": "Build complete condo building page library (targeting Waldorf Astoria, Saltaire, ONE St. Pete, Ovation, 400 Beach Drive)",
+          "why": "Eagan Luxury has 20+ condo building pages and captures high-intent luxury buyer searches. These pages also rank for specific building names.",
+          "effort": "High",
+          "impact": "High",
+          "roiScore": 80,
+          "affectedCount": 15
+        },
+        {
+          "action": "Develop neighborhood-specific market statistics blocks for all 15+ neighborhood pages",
+          "why": "Current neighborhood pages lack data. Competitors with market data (median price, days on market, inventory) rank significantly higher.",
+          "effort": "High",
+          "impact": "High",
+          "roiScore": 78,
+          "affectedCount": 15
+        },
+        {
+          "action": "Launch email capture strategy (blog subscribe + neighborhood market report lead magnets)",
+          "why": "Currently zero email capture on 94 pages of blog content. Lead magnets in competitor analysis generate significant lead flow.",
+          "effort": "High",
+          "impact": "High",
+          "roiScore": 72,
+          "affectedCount": 94
+        }
+      ]
+    },
+    "benchmarkComparisons": [
+      {
+        "metric": "Meta Description Coverage",
+        "clientValue": 40,
+        "benchmark": 95,
+        "industryAvg": 75,
+        "unit": "%",
+        "status": "below"
+      },
+      {
+        "metric": "Schema Coverage",
+        "clientValue": 35,
+        "benchmark": 80,
+        "industryAvg": 44,
+        "unit": "%",
+        "status": "below"
+      },
+      {
+        "metric": "Image Alt Text Coverage",
+        "clientValue": 26.2,
+        "benchmark": 90,
+        "industryAvg": 65,
+        "unit": "%",
+        "status": "below"
+      },
+      {
+        "metric": "Keywords Ranking (of 25)",
+        "clientValue": 8,
+        "benchmark": 48,
+        "industryAvg": 24,
+        "unit": "%",
+        "status": "below"
+      },
+      {
+        "metric": "Domain Rating",
+        "clientValue": 25,
+        "benchmark": 55,
+        "industryAvg": 30,
+        "unit": "score",
+        "status": "below"
+      }
+    ]
+  }
 }
