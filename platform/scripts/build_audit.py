@@ -65,7 +65,7 @@ SEO_STEPS: list[AuditStep] = [
     AuditStep("content_quality", "Content Quality Analysis (P1)", "_run_content_quality", ["contentQuality"], audit_type="seo"),
     AuditStep("internal_linking", "Internal Link Graph (P2)", "_run_internal_linking", ["internalLinking"], audit_type="seo"),
     AuditStep("technical_seo", "Technical SEO Audit (P3+P7)", "_run_technical_seo", ["technicalSeo"], audit_type="seo"),
-    AuditStep("backlinks", "Backlink Analysis (P4)", "_run_backlinks", ["backlinks", "domainMetrics", "linkOpportunities"], requires_api=True, audit_type="seo"),
+    AuditStep("backlinks", "Backlink Analysis (P4)", "_run_backlinks", ["backlinks", "domainMetrics", "backlinkOpportunities"], requires_api=True, audit_type="seo"),
     AuditStep("competitor", "Competitor Analysis (P5)", "_run_competitor", ["competitorAnalysis"], requires_api=True, audit_type="seo"),
     AuditStep("local_seo", "Local SEO Deep Dive (P6)", "_run_local_seo", ["localSeo"], audit_type="seo"),
     AuditStep("indexation", "Indexation & Crawlability (P8)", "_run_indexation", ["indexationCrawlability"], audit_type="seo"),
@@ -233,7 +233,7 @@ class AuditOrchestrator:
                 opportunities = analyzer.find_link_opportunities(
                     self.args.domain, competitors
                 )
-                result["linkOpportunities"] = opportunities
+                result["backlinkOpportunities"] = opportunities
 
         return result
 

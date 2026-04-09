@@ -71,7 +71,7 @@ def main() -> None:
             opportunities = analyzer.find_link_opportunities(
                 args.domain, competitors, min_domain_rating=args.min_dr,
             )
-            result["linkOpportunities"] = opportunities
+            result["backlinkOpportunities"] = opportunities
             high = opportunities["summary"]["highPriority"]
             total = opportunities["summary"]["totalFound"]
             print(f"Found {total} opportunities ({high} high-priority)", file=sys.stderr)
@@ -88,8 +88,8 @@ def main() -> None:
         existing["domainMetrics"] = result["domainMetrics"]
         if "backlinkIntersection" in result:
             existing["backlinkIntersection"] = result["backlinkIntersection"]
-        if "linkOpportunities" in result:
-            existing["linkOpportunities"] = result["linkOpportunities"]
+        if "backlinkOpportunities" in result:
+            existing["backlinkOpportunities"] = result["backlinkOpportunities"]
 
         with open(output_path, "w") as f:
             json.dump(existing, f, indent=2, default=str)
