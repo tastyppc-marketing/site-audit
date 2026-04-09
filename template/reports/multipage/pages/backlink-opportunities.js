@@ -315,6 +315,12 @@
     var el = document.getElementById('insights-content');
     if (!el) return;
 
+    // Guard: no competitors means no meaningful comparison
+    if (!COMPETITORS.length) {
+      el.innerHTML = '<div class="empty-state"><p>Backlink competitor data not yet available. Run the data-gathering scripts to populate this section.</p></div>';
+      return;
+    }
+
     var avgCompetitorRD = Math.round(COMPETITORS.reduce(function(s, c) { return s + c.referringDomains; }, 0) / COMPETITORS.length);
     var easyHighPriority = highPriority.filter(function(o) { return o.effort === 'easy'; });
     var mediumOpps = missingDomains.filter(function(o) { return o.effort === 'medium'; });
@@ -537,6 +543,12 @@
   function renderSummary() {
     var el = document.getElementById('summary-content');
     if (!el) return;
+
+    // Guard: no competitors means no meaningful comparison
+    if (!COMPETITORS.length) {
+      el.innerHTML = '<div class="empty-state"><p>Competitor backlink data not yet available.</p></div>';
+      return;
+    }
 
     var avgCompetitorRD = Math.round(COMPETITORS.reduce(function(s, c) { return s + c.referringDomains; }, 0) / COMPETITORS.length);
 
