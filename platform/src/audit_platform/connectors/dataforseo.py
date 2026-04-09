@@ -86,6 +86,7 @@ class DataForSEOConnector(BaseConnector):
 
         Raises ``httpx.HTTPStatusError`` on HTTP-level failures.
         """
+        self._rate_limit_sync()
         url = f"{_BASE_URL}{path}"
         self.log.debug("dataforseo_request", url=url, tasks=len(payload))
         resp = self.sync_client.post(url, json=payload, auth=self._auth)
