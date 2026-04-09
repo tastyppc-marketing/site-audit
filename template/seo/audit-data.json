@@ -11,191 +11,873 @@
     "serviceType": "Full Service (Buy/Sell/Luxury)",
     "location": "City, State"
   },
-
   "competitor": {
     "primary": "competitor1.com",
     "primaryLabel": "Competitor 1",
     "all": [
-      { "name": "Competitor 1", "domain": "competitor1.com" },
-      { "name": "Competitor 2", "domain": "competitor2.com" },
-      { "name": "Competitor 3", "domain": "competitor3.com" },
-      { "name": "Competitor 4", "domain": "competitor4.com" }
+      {
+        "name": "Competitor 1",
+        "domain": "competitor1.com"
+      },
+      {
+        "name": "Competitor 2",
+        "domain": "competitor2.com"
+      },
+      {
+        "name": "Competitor 3",
+        "domain": "competitor3.com"
+      },
+      {
+        "name": "Competitor 4",
+        "domain": "competitor4.com"
+      }
     ]
   },
-
   "topIssues": [
-    { "issue": "Zero organic search visibility", "detail": "Not found for any of 25 target keywords — potential clients cannot find this site through Google", "impact": "Critical", "effort": "Medium-High" },
-    { "issue": "Critically thin content", "detail": "Far fewer pages than competitors; dead or nonexistent blog", "impact": "Critical", "effort": "High" },
-    { "issue": "No locally-focused content", "detail": "Missing the #1 content type for local SEO in this industry", "impact": "Critical", "effort": "Medium" },
-    { "issue": "Technical SEO errors", "detail": "Broken pages, corrupted meta tags, missing schema markup, images without alt text", "impact": "High", "effort": "Low" },
-    { "issue": "No lead capture on key pages", "detail": "Highest-traffic pages have no forms, CTAs, or lead magnets", "impact": "High", "effort": "Low-Medium" }
+    {
+      "issue": "Zero organic search visibility",
+      "detail": "Not found for any of 25 target keywords — potential clients cannot find this site through Google",
+      "impact": "Critical",
+      "effort": "Medium-High"
+    },
+    {
+      "issue": "Critically thin content",
+      "detail": "Far fewer pages than competitors; dead or nonexistent blog",
+      "impact": "Critical",
+      "effort": "High"
+    },
+    {
+      "issue": "No locally-focused content",
+      "detail": "Missing the #1 content type for local SEO in this industry",
+      "impact": "Critical",
+      "effort": "Medium"
+    },
+    {
+      "issue": "Technical SEO errors",
+      "detail": "Broken pages, corrupted meta tags, missing schema markup, images without alt text",
+      "impact": "High",
+      "effort": "Low"
+    },
+    {
+      "issue": "No lead capture on key pages",
+      "detail": "Highest-traffic pages have no forms, CTAs, or lead magnets",
+      "impact": "High",
+      "effort": "Low-Medium"
+    }
   ],
-
   "siteComparison": [
-    { "metric": "Total Pages", "client": 62, "competitor": 376, "gap": "6x behind" },
-    { "metric": "Blog Posts", "client": 5, "competitor": 33, "gap": "Blog is dead" },
-    { "metric": "Key Pages Depth", "client": "~200 words", "competitor": "3,500+ words", "gap": "~20x gap per page" },
-    { "metric": "Schema Markup", "client": "None", "competitor": "Yes (all pages)", "gap": "Critical missing feature" },
-    { "metric": "Keywords Ranking (of 25)", "client": 0, "competitor": 12, "gap": "Zero visibility" },
-    { "metric": "FAQ Sections", "client": "None", "competitor": "Yes", "gap": "Missing rich snippet opportunity" }
+    {
+      "metric": "Total Pages",
+      "client": 62,
+      "competitor": 376,
+      "gap": "6x behind"
+    },
+    {
+      "metric": "Blog Posts",
+      "client": 5,
+      "competitor": 33,
+      "gap": "Blog is dead"
+    },
+    {
+      "metric": "Key Pages Depth",
+      "client": "~200 words",
+      "competitor": "3,500+ words",
+      "gap": "~20x gap per page"
+    },
+    {
+      "metric": "Schema Markup",
+      "client": "None",
+      "competitor": "Yes (all pages)",
+      "gap": "Critical missing feature"
+    },
+    {
+      "metric": "Keywords Ranking (of 25)",
+      "client": 0,
+      "competitor": 12,
+      "gap": "Zero visibility"
+    },
+    {
+      "metric": "FAQ Sections",
+      "client": "None",
+      "competitor": "Yes",
+      "gap": "Missing rich snippet opportunity"
+    }
   ],
-
   "keyStats": [
-    { "value": "0 / 25", "label": "keywords ranking in Google", "severity": "red" },
-    { "value": "62 pages", "label": "vs. competitors' 200-400+", "severity": "orange" },
-    { "value": "5 blog posts", "label": "all generic, last updated months ago", "severity": "orange" },
-    { "value": "~200 words", "label": "avg. key page (competitors: 3,500+)", "severity": "red" },
-    { "value": "0 schema", "label": "markup on any page", "severity": "red" },
-    { "value": "0 market reports", "label": "the #1 content type for this industry", "severity": "red" }
+    {
+      "value": "0 / 25",
+      "label": "keywords ranking in Google",
+      "severity": "red"
+    },
+    {
+      "value": "62 pages",
+      "label": "vs. competitors' 200-400+",
+      "severity": "orange"
+    },
+    {
+      "value": "5 blog posts",
+      "label": "all generic, last updated months ago",
+      "severity": "orange"
+    },
+    {
+      "value": "~200 words",
+      "label": "avg. key page (competitors: 3,500+)",
+      "severity": "red"
+    },
+    {
+      "value": "0 schema",
+      "label": "markup on any page",
+      "severity": "red"
+    },
+    {
+      "value": "0 market reports",
+      "label": "the #1 content type for this industry",
+      "severity": "red"
+    }
   ],
-
   "keywords": [
-    { "keyword": "primary keyword 1", "volume": "Very High", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "primary keyword 2", "volume": "High", "clientRank": "Not found", "competitorRank": "#6", "topResult": "example.com" },
-    { "keyword": "primary keyword 3", "volume": "High", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "example.com" },
-    { "keyword": "primary keyword 4", "volume": "Medium", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "example.com" },
-    { "keyword": "primary keyword 5", "volume": "Medium", "clientRank": "Not found", "competitorRank": "#3", "topResult": "example.com" }
+    {
+      "keyword": "primary keyword 1",
+      "volume": "Very High",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com"
+    },
+    {
+      "keyword": "primary keyword 2",
+      "volume": "High",
+      "clientRank": "Not found",
+      "competitorRank": "#6",
+      "topResult": "example.com"
+    },
+    {
+      "keyword": "primary keyword 3",
+      "volume": "High",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "example.com"
+    },
+    {
+      "keyword": "primary keyword 4",
+      "volume": "Medium",
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "example.com"
+    },
+    {
+      "keyword": "primary keyword 5",
+      "volume": "Medium",
+      "clientRank": "Not found",
+      "competitorRank": "#3",
+      "topResult": "example.com"
+    }
   ],
-
   "competitorComparison": [
-    { "metric": "Total Pages", "client": "62", "comp1": "372", "comp2": "376", "gap": "6x behind" },
-    { "metric": "Blog Posts", "client": "5", "comp1": "96", "comp2": "33", "gap": "19x behind" },
-    { "metric": "Key Page Depth", "client": "~200 words", "comp1": "500-2,000", "comp2": "3,500-4,500", "gap": "20x behind" },
-    { "metric": "Schema Markup", "client": "None", "comp1": "None", "comp2": "Yes", "gap": "Missing" },
-    { "metric": "Keywords Ranking", "client": "0 / 25", "comp1": "5 / 25", "comp2": "12 / 25", "gap": "Zero visibility" }
+    {
+      "metric": "Total Pages",
+      "client": "62",
+      "comp1": "372",
+      "comp2": "376",
+      "gap": "6x behind"
+    },
+    {
+      "metric": "Blog Posts",
+      "client": "5",
+      "comp1": "96",
+      "comp2": "33",
+      "gap": "19x behind"
+    },
+    {
+      "metric": "Key Page Depth",
+      "client": "~200 words",
+      "comp1": "500-2,000",
+      "comp2": "3,500-4,500",
+      "gap": "20x behind"
+    },
+    {
+      "metric": "Schema Markup",
+      "client": "None",
+      "comp1": "None",
+      "comp2": "Yes",
+      "gap": "Missing"
+    },
+    {
+      "metric": "Keywords Ranking",
+      "client": "0 / 25",
+      "comp1": "5 / 25",
+      "comp2": "12 / 25",
+      "gap": "Zero visibility"
+    }
   ],
-
   "competitorStrategies": [
-    { "strategy": "Content Depth", "detail": "Top competitor has 300+ pages at 3,500-4,500 words each with dedicated sub-pages" },
-    { "strategy": "Market Reports", "detail": "Competitor publishes monthly reports with pricing data, inventory, and year-over-year trends" },
-    { "strategy": "Blog Volume", "detail": "Competitors have 33-207 blog posts vs. client's 5" },
-    { "strategy": "FAQ Sections", "detail": "Competitor uses FAQ schema targeting 'People Also Ask' and AI Overview citations" },
-    { "strategy": "Local Resources", "detail": "Competitor has 14+ local resource pages building topical authority" },
-    { "strategy": "Schema Markup", "detail": "Top competitors have structured data on every page enabling rich search results" }
+    {
+      "strategy": "Content Depth",
+      "detail": "Top competitor has 300+ pages at 3,500-4,500 words each with dedicated sub-pages"
+    },
+    {
+      "strategy": "Market Reports",
+      "detail": "Competitor publishes monthly reports with pricing data, inventory, and year-over-year trends"
+    },
+    {
+      "strategy": "Blog Volume",
+      "detail": "Competitors have 33-207 blog posts vs. client's 5"
+    },
+    {
+      "strategy": "FAQ Sections",
+      "detail": "Competitor uses FAQ schema targeting 'People Also Ask' and AI Overview citations"
+    },
+    {
+      "strategy": "Local Resources",
+      "detail": "Competitor has 14+ local resource pages building topical authority"
+    },
+    {
+      "strategy": "Schema Markup",
+      "detail": "Top competitors have structured data on every page enabling rich search results"
+    }
   ],
-
   "quickWins": [
-    { "action": "Fix broken/error pages — remove from sitemap", "impact": "High" },
-    { "action": "Fix corrupted or duplicate meta tags", "impact": "High" },
-    { "action": "Consolidate to single H1 per page", "impact": "High" },
-    { "action": "Add H1 tags to pages missing them", "impact": "Medium" },
-    { "action": "Rewrite meta descriptions with location keywords", "impact": "High" },
-    { "action": "Add Open Graph tags to homepage", "impact": "Medium" },
-    { "action": "Remove keyword stuffing from any pages", "impact": "Medium" },
-    { "action": "Add canonical tags to dynamic/search pages", "impact": "Medium" },
-    { "action": "Fix any unprofessional contact info", "impact": "Medium" },
-    { "action": "Add LocalBusiness + industry schema markup", "impact": "High" }
+    {
+      "action": "Fix broken/error pages — remove from sitemap",
+      "impact": "High"
+    },
+    {
+      "action": "Fix corrupted or duplicate meta tags",
+      "impact": "High"
+    },
+    {
+      "action": "Consolidate to single H1 per page",
+      "impact": "High"
+    },
+    {
+      "action": "Add H1 tags to pages missing them",
+      "impact": "Medium"
+    },
+    {
+      "action": "Rewrite meta descriptions with location keywords",
+      "impact": "High"
+    },
+    {
+      "action": "Add Open Graph tags to homepage",
+      "impact": "Medium"
+    },
+    {
+      "action": "Remove keyword stuffing from any pages",
+      "impact": "Medium"
+    },
+    {
+      "action": "Add canonical tags to dynamic/search pages",
+      "impact": "Medium"
+    },
+    {
+      "action": "Fix any unprofessional contact info",
+      "impact": "Medium"
+    },
+    {
+      "action": "Add LocalBusiness + industry schema markup",
+      "impact": "High"
+    }
   ],
-
   "actionPlan": {
     "quickWins": [
-      { "action": "Fix broken/error pages — remove from sitemap, add noindex", "why": "Broken pages waste crawl budget", "effort": "Low", "impact": "High" },
-      { "action": "Fix corrupted meta tags", "why": "Bad meta tags look spammy to Google", "effort": "Low", "impact": "High" },
-      { "action": "Consolidate to single H1 per page", "why": "Multiple H1s dilute topic signal", "effort": "Low", "impact": "High" },
-      { "action": "Rewrite meta descriptions with location keywords", "why": "Generic descriptions provide zero advantage", "effort": "Low", "impact": "High" },
-      { "action": "Add Open Graph tags", "why": "Social shares display poorly without OG tags", "effort": "Low", "impact": "Medium" },
-      { "action": "Add canonical tags to dynamic pages", "why": "Missing canonicals cause duplicate content issues", "effort": "Low", "impact": "Medium" },
-      { "action": "Add LocalBusiness + industry schema to key pages", "why": "Schema enables rich results in Google", "effort": "Low", "impact": "High" }
+      {
+        "action": "Fix broken/error pages — remove from sitemap, add noindex",
+        "why": "Broken pages waste crawl budget",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Fix corrupted meta tags",
+        "why": "Bad meta tags look spammy to Google",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Consolidate to single H1 per page",
+        "why": "Multiple H1s dilute topic signal",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Rewrite meta descriptions with location keywords",
+        "why": "Generic descriptions provide zero advantage",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Add Open Graph tags",
+        "why": "Social shares display poorly without OG tags",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Add canonical tags to dynamic pages",
+        "why": "Missing canonicals cause duplicate content issues",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Add LocalBusiness + industry schema to key pages",
+        "why": "Schema enables rich results in Google",
+        "effort": "Low",
+        "impact": "High"
+      }
     ],
     "shortTerm": [
-      { "action": "Write and publish market/industry report with current data", "why": "Top content type for this industry's SEO", "effort": "Medium", "impact": "High" },
-      { "action": "Expand top 10 key pages from thin to 1,000-1,500 words", "why": "Thin pages can't compete; competitors have 2,000+", "effort": "Medium", "impact": "High" },
-      { "action": "Write 4-6 new locally-focused blog posts", "why": "Fresh local content essential for rankings", "effort": "Medium", "impact": "High" },
-      { "action": "Add contact forms + CTAs to every key page", "why": "Best pages have no conversion mechanism", "effort": "Low", "impact": "High" },
-      { "action": "Create testimonials/reviews page", "why": "Builds trust; every competitor has one", "effort": "Medium", "impact": "Medium" },
-      { "action": "Rewrite About page with credentials and video", "why": "Current version doesn't sell expertise", "effort": "Medium", "impact": "Medium" }
+      {
+        "action": "Write and publish market/industry report with current data",
+        "why": "Top content type for this industry's SEO",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Expand top 10 key pages from thin to 1,000-1,500 words",
+        "why": "Thin pages can't compete; competitors have 2,000+",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Write 4-6 new locally-focused blog posts",
+        "why": "Fresh local content essential for rankings",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Add contact forms + CTAs to every key page",
+        "why": "Best pages have no conversion mechanism",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Create testimonials/reviews page",
+        "why": "Builds trust; every competitor has one",
+        "effort": "Medium",
+        "impact": "Medium"
+      },
+      {
+        "action": "Rewrite About page with credentials and video",
+        "why": "Current version doesn't sell expertise",
+        "effort": "Medium",
+        "impact": "Medium"
+      }
     ],
     "mediumTerm": [
-      { "action": "Create comprehensive hub page for top keyword cluster", "why": "Top competitor has hub + sub-pages for this topic", "effort": "High", "impact": "High" },
-      { "action": "Create topical section pages (e.g. /topic/)", "why": "Competitors have 20+ pages per topic vs. client's 1", "effort": "High", "impact": "High" },
-      { "action": "Create relocation/moving guide (2,000+ words)", "why": "High-value informational keyword", "effort": "High", "impact": "High" },
-      { "action": "Build sub-pages for top 20 listings/locations/products", "why": "Top competitor has 150+ individual pages", "effort": "High", "impact": "High" },
-      { "action": "Add FAQ sections with schema to all key pages", "why": "FAQ schema generates rich snippets + AI citations", "effort": "Medium", "impact": "High" },
-      { "action": "Implement cross-linking strategy across all content", "why": "Competitors link everything; client relies on nav only", "effort": "Medium", "impact": "Medium" }
+      {
+        "action": "Create comprehensive hub page for top keyword cluster",
+        "why": "Top competitor has hub + sub-pages for this topic",
+        "effort": "High",
+        "impact": "High"
+      },
+      {
+        "action": "Create topical section pages (e.g. /topic/)",
+        "why": "Competitors have 20+ pages per topic vs. client's 1",
+        "effort": "High",
+        "impact": "High"
+      },
+      {
+        "action": "Create relocation/moving guide (2,000+ words)",
+        "why": "High-value informational keyword",
+        "effort": "High",
+        "impact": "High"
+      },
+      {
+        "action": "Build sub-pages for top 20 listings/locations/products",
+        "why": "Top competitor has 150+ individual pages",
+        "effort": "High",
+        "impact": "High"
+      },
+      {
+        "action": "Add FAQ sections with schema to all key pages",
+        "why": "FAQ schema generates rich snippets + AI citations",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Implement cross-linking strategy across all content",
+        "why": "Competitors link everything; client relies on nav only",
+        "effort": "Medium",
+        "impact": "Medium"
+      }
     ],
     "longTerm": [
-      { "action": "Monthly report publishing cadence", "why": "Consistency builds authority", "effort": "Medium", "impact": "High" },
-      { "action": "Build content library toward 200+ pages", "why": "Minimum to compete for topical authority", "effort": "High", "impact": "High" },
-      { "action": "Create lifestyle/resource content", "why": "Attracts traffic that builds domain authority", "effort": "Medium", "impact": "Medium" },
-      { "action": "Create comparison content (vs. competitors/alternatives)", "why": "Attracts buyers comparing options", "effort": "Medium", "impact": "Medium" },
-      { "action": "Video content series", "why": "Video builds trust; embed on pages + YouTube", "effort": "High", "impact": "High" },
-      { "action": "Build local citations and profiles", "why": "Strengthens map-pack/local visibility", "effort": "Medium", "impact": "High" },
-      { "action": "Email newsletter with regular updates", "why": "Email converts higher than any other channel", "effort": "Medium", "impact": "High" }
+      {
+        "action": "Monthly report publishing cadence",
+        "why": "Consistency builds authority",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Build content library toward 200+ pages",
+        "why": "Minimum to compete for topical authority",
+        "effort": "High",
+        "impact": "High"
+      },
+      {
+        "action": "Create lifestyle/resource content",
+        "why": "Attracts traffic that builds domain authority",
+        "effort": "Medium",
+        "impact": "Medium"
+      },
+      {
+        "action": "Create comparison content (vs. competitors/alternatives)",
+        "why": "Attracts buyers comparing options",
+        "effort": "Medium",
+        "impact": "Medium"
+      },
+      {
+        "action": "Video content series",
+        "why": "Video builds trust; embed on pages + YouTube",
+        "effort": "High",
+        "impact": "High"
+      },
+      {
+        "action": "Build local citations and profiles",
+        "why": "Strengthens map-pack/local visibility",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Email newsletter with regular updates",
+        "why": "Email converts higher than any other channel",
+        "effort": "Medium",
+        "impact": "High"
+      }
     ]
   },
-
   "contentCalendar": {
     "month1Label": "Month 1: Establish Credibility",
     "month1": [
-      { "week": 1, "topic": "Industry/Market Report: Current Data", "keyword": "primary market keyword", "type": "Market Report" },
-      { "week": 2, "topic": "Best [Locations/Options] Guide (Current Year)", "keyword": "best locations keyword", "type": "Guide" },
-      { "week": 3, "topic": "Is [Industry] a Good Investment?", "keyword": "investment keyword", "type": "Informational" },
-      { "week": 4, "topic": "Major Development/Trend: What Buyers Need to Know", "keyword": "trend keyword", "type": "News/Analysis" }
+      {
+        "week": 1,
+        "topic": "Industry/Market Report: Current Data",
+        "keyword": "primary market keyword",
+        "type": "Market Report"
+      },
+      {
+        "week": 2,
+        "topic": "Best [Locations/Options] Guide (Current Year)",
+        "keyword": "best locations keyword",
+        "type": "Guide"
+      },
+      {
+        "week": 3,
+        "topic": "Is [Industry] a Good Investment?",
+        "keyword": "investment keyword",
+        "type": "Informational"
+      },
+      {
+        "week": 4,
+        "topic": "Major Development/Trend: What Buyers Need to Know",
+        "keyword": "trend keyword",
+        "type": "News/Analysis"
+      }
     ],
     "month2Label": "Month 2: Build Depth",
     "month2": [
-      { "week": 1, "topic": "Relocation/Getting Started Guide", "keyword": "relocation keyword", "type": "Guide" },
-      { "week": 2, "topic": "Premium/Specialty Offering Guide", "keyword": "specialty keyword", "type": "Property Guide" },
-      { "week": 3, "topic": "Comparison: Your Market vs. Alternative", "keyword": "comparison keyword", "type": "Comparison" },
-      { "week": 4, "topic": "Costs, Fees, and Practical FAQ", "keyword": "practical keyword", "type": "FAQ/Guide" }
+      {
+        "week": 1,
+        "topic": "Relocation/Getting Started Guide",
+        "keyword": "relocation keyword",
+        "type": "Guide"
+      },
+      {
+        "week": 2,
+        "topic": "Premium/Specialty Offering Guide",
+        "keyword": "specialty keyword",
+        "type": "Property Guide"
+      },
+      {
+        "week": 3,
+        "topic": "Comparison: Your Market vs. Alternative",
+        "keyword": "comparison keyword",
+        "type": "Comparison"
+      },
+      {
+        "week": 4,
+        "topic": "Costs, Fees, and Practical FAQ",
+        "keyword": "practical keyword",
+        "type": "FAQ/Guide"
+      }
     ],
     "month3Label": "Month 3: Expand Reach",
     "month3": [
-      { "week": 1, "topic": "Quarterly Market Update", "keyword": "market update keyword", "type": "Market Report" },
-      { "week": 2, "topic": "Adjacent Area/Hidden Gem Guide", "keyword": "adjacent area keyword", "type": "Area Guide" },
-      { "week": 3, "topic": "Regulations/Rules Investors Need to Know", "keyword": "regulations keyword", "type": "Investment Guide" },
-      { "week": 4, "topic": "Luxury/Premium Segment Deep Dive", "keyword": "luxury keyword", "type": "Luxury Guide" }
+      {
+        "week": 1,
+        "topic": "Quarterly Market Update",
+        "keyword": "market update keyword",
+        "type": "Market Report"
+      },
+      {
+        "week": 2,
+        "topic": "Adjacent Area/Hidden Gem Guide",
+        "keyword": "adjacent area keyword",
+        "type": "Area Guide"
+      },
+      {
+        "week": 3,
+        "topic": "Regulations/Rules Investors Need to Know",
+        "keyword": "regulations keyword",
+        "type": "Investment Guide"
+      },
+      {
+        "week": 4,
+        "topic": "Luxury/Premium Segment Deep Dive",
+        "keyword": "luxury keyword",
+        "type": "Luxury Guide"
+      }
     ]
   },
-
   "deliverables": [
-    { "name": "Meta Titles & Descriptions", "scope": "All pages", "score": "8.75/10", "status": "Ready — verify claims with client" },
-    { "name": "Schema Markup (JSON-LD)", "scope": "8 schema blocks", "score": "9.00/10", "status": "Ready — verify URLs" },
-    { "name": "Key Pages (expanded content)", "scope": "4 pages, 1,000+ words", "score": "8.75/10", "status": "Ready — paste into CMS" },
-    { "name": "Blog Posts (SEO-optimized)", "scope": "4 posts, 900-1,200 words", "score": "9.00/10", "status": "Ready — paste into CMS" }
+    {
+      "name": "Meta Titles & Descriptions",
+      "scope": "All pages",
+      "score": "8.75/10",
+      "status": "Ready — verify claims with client"
+    },
+    {
+      "name": "Schema Markup (JSON-LD)",
+      "scope": "8 schema blocks",
+      "score": "9.00/10",
+      "status": "Ready — verify URLs"
+    },
+    {
+      "name": "Key Pages (expanded content)",
+      "scope": "4 pages, 1,000+ words",
+      "score": "8.75/10",
+      "status": "Ready — paste into CMS"
+    },
+    {
+      "name": "Blog Posts (SEO-optimized)",
+      "scope": "4 posts, 900-1,200 words",
+      "score": "9.00/10",
+      "status": "Ready — paste into CMS"
+    }
   ],
-
-  "keyPagesCreated": ["Page 1", "Page 2", "Page 3", "Page 4"],
-  "blogPostsCreated": ["Blog Post 1", "Blog Post 2", "Blog Post 3", "Blog Post 4"],
-
+  "keyPagesCreated": [
+    "Page 1",
+    "Page 2",
+    "Page 3",
+    "Page 4"
+  ],
+  "blogPostsCreated": [
+    "Blog Post 1",
+    "Blog Post 2",
+    "Blog Post 3",
+    "Blog Post 4"
+  ],
   "advantages": [
-    { "title": "Strong Brand", "detail": "Recognized brand name provides luxury/authority cachet" },
-    { "title": "Same Platform as Competitors", "detail": "Everything they do, you can do too" },
-    { "title": "First Mover on Key Content", "detail": "No competitor publishes regular market data" },
-    { "title": "Solid Foundation", "detail": "Clean design, existing pages, IDX integration" },
-    { "title": "Strong Social Proof", "detail": "Sales volume, transaction count, success rate — just needs visibility" }
+    {
+      "title": "Strong Brand",
+      "detail": "Recognized brand name provides luxury/authority cachet"
+    },
+    {
+      "title": "Same Platform as Competitors",
+      "detail": "Everything they do, you can do too"
+    },
+    {
+      "title": "First Mover on Key Content",
+      "detail": "No competitor publishes regular market data"
+    },
+    {
+      "title": "Solid Foundation",
+      "detail": "Clean design, existing pages, IDX integration"
+    },
+    {
+      "title": "Strong Social Proof",
+      "detail": "Sales volume, transaction count, success rate — just needs visibility"
+    }
   ],
-
   "nextSteps": [
-    { "text": "Deploy ready-to-use deliverables (meta tags, schema, pages, blog posts)", "sub": "Can be done this week — just copy-paste into CMS" },
-    { "text": "Complete Week 1-2 quick wins (technical fixes)", "sub": "Developer can complete in 1-2 business days" },
-    { "text": "Begin Month 1 content calendar", "sub": "One blog post per week targeting high-value keywords" },
-    { "text": "Create first market/industry report (first mover advantage)", "sub": "No competitor currently publishes regular data" },
-    { "text": "Review progress at 30-day mark and adjust strategy", "sub": "Measure keyword improvements, traffic changes, lead capture" }
+    {
+      "text": "Deploy ready-to-use deliverables (meta tags, schema, pages, blog posts)",
+      "sub": "Can be done this week — just copy-paste into CMS"
+    },
+    {
+      "text": "Complete Week 1-2 quick wins (technical fixes)",
+      "sub": "Developer can complete in 1-2 business days"
+    },
+    {
+      "text": "Begin Month 1 content calendar",
+      "sub": "One blog post per week targeting high-value keywords"
+    },
+    {
+      "text": "Create first market/industry report (first mover advantage)",
+      "sub": "No competitor currently publishes regular data"
+    },
+    {
+      "text": "Review progress at 30-day mark and adjust strategy",
+      "sub": "Measure keyword improvements, traffic changes, lead capture"
+    }
   ],
-
   "pillars": [
-    { "title": "TECHNICAL\nFIXES", "desc": "Fix H1 tags, meta descriptions,\nschema markup, errors,\nOG tags", "time": "Week 1-2" },
-    { "title": "CONTENT\nDEPTH", "desc": "Expand key pages,\nlaunch reports,\nrevive the blog", "time": "Month 1-2" },
-    { "title": "CONTENT\nSCALE", "desc": "Build topic sections,\nsub-pages,\nlifestyle guides", "time": "Month 2-4" },
-    { "title": "AUTHORITY\n& LEADS", "desc": "Video content, press mentions,\nemail newsletter, local citations,\nconversion optimization", "time": "Month 4+" }
+    {
+      "title": "TECHNICAL\nFIXES",
+      "desc": "Fix H1 tags, meta descriptions,\nschema markup, errors,\nOG tags",
+      "time": "Week 1-2"
+    },
+    {
+      "title": "CONTENT\nDEPTH",
+      "desc": "Expand key pages,\nlaunch reports,\nrevive the blog",
+      "time": "Month 1-2"
+    },
+    {
+      "title": "CONTENT\nSCALE",
+      "desc": "Build topic sections,\nsub-pages,\nlifestyle guides",
+      "time": "Month 2-4"
+    },
+    {
+      "title": "AUTHORITY\n& LEADS",
+      "desc": "Video content, press mentions,\nemail newsletter, local citations,\nconversion optimization",
+      "time": "Month 4+"
+    }
   ],
-
   "mediumTermRoadmap": [
-    { "title": "Hub Page for Top Topic", "detail": "Comprehensive guide for highest-value keyword cluster" },
-    { "title": "Topic Section Pages", "detail": "Individual pages for each sub-topic within main clusters" },
-    { "title": "Relocation Guide", "detail": "2,000+ words on local info, costs, lifestyle, climate" },
-    { "title": "Investment Guide", "detail": "Regulations, ROI analysis, rates, management" },
-    { "title": "New Development/Product Pages", "detail": "Dedicated pages for newest offerings" },
-    { "title": "Individual Listing/Location Pages", "detail": "Top 20 individual sub-pages following competitor model" },
-    { "title": "FAQ Schema on All Key Pages", "detail": "Rich snippets + AI Overview citation opportunities" },
-    { "title": "Cross-Linking Strategy", "detail": "Blog > key pages > conversion pages across all content" }
+    {
+      "title": "Hub Page for Top Topic",
+      "detail": "Comprehensive guide for highest-value keyword cluster"
+    },
+    {
+      "title": "Topic Section Pages",
+      "detail": "Individual pages for each sub-topic within main clusters"
+    },
+    {
+      "title": "Relocation Guide",
+      "detail": "2,000+ words on local info, costs, lifestyle, climate"
+    },
+    {
+      "title": "Investment Guide",
+      "detail": "Regulations, ROI analysis, rates, management"
+    },
+    {
+      "title": "New Development/Product Pages",
+      "detail": "Dedicated pages for newest offerings"
+    },
+    {
+      "title": "Individual Listing/Location Pages",
+      "detail": "Top 20 individual sub-pages following competitor model"
+    },
+    {
+      "title": "FAQ Schema on All Key Pages",
+      "detail": "Rich snippets + AI Overview citation opportunities"
+    },
+    {
+      "title": "Cross-Linking Strategy",
+      "detail": "Blog > key pages > conversion pages across all content"
+    }
   ],
-
   "longTermColumns": [
-    { "title": "Content Authority", "items": ["Monthly reports", "Build to 200+ pages", "Lifestyle/resource guides", "Comparison content", "\"Best of\" resource pages"] },
-    { "title": "Video & Media", "items": ["Monthly video updates", "Tour/showcase videos", "Team introduction video", "Press/media coverage", "\"As Featured In\" section"] },
-    { "title": "Lead Generation", "items": ["Email newsletter", "Gated PDFs/downloads", "Chat widget", "Page-specific email signups", "Alert notifications"] },
-    { "title": "Local SEO", "items": ["Google Business Profile", "Directory profiles", "Citation consistency", "International tags if needed", "Performance audit"] }
-  ]
+    {
+      "title": "Content Authority",
+      "items": [
+        "Monthly reports",
+        "Build to 200+ pages",
+        "Lifestyle/resource guides",
+        "Comparison content",
+        "\"Best of\" resource pages"
+      ]
+    },
+    {
+      "title": "Video & Media",
+      "items": [
+        "Monthly video updates",
+        "Tour/showcase videos",
+        "Team introduction video",
+        "Press/media coverage",
+        "\"As Featured In\" section"
+      ]
+    },
+    {
+      "title": "Lead Generation",
+      "items": [
+        "Email newsletter",
+        "Gated PDFs/downloads",
+        "Chat widget",
+        "Page-specific email signups",
+        "Alert notifications"
+      ]
+    },
+    {
+      "title": "Local SEO",
+      "items": [
+        "Google Business Profile",
+        "Directory profiles",
+        "Citation consistency",
+        "International tags if needed",
+        "Performance audit"
+      ]
+    }
+  ],
+  "contentQuality": {
+    "summary": {
+      "totalPagesAnalyzed": 0,
+      "avgQualityScore": 0,
+      "thinPageCount": 0,
+      "thinThreshold": 300,
+      "avgReadabilityScore": 0,
+      "avgSeoScore": 0,
+      "avgStructureScore": 0,
+      "duplicateGroupCount": 0,
+      "cannibalizationCount": 0
+    },
+    "pages": [],
+    "duplicateGroups": [],
+    "cannibalization": [],
+    "issues": []
+  },
+  "backlinks": {
+    "domainMetrics": {
+      "domainRating": 0,
+      "referringDomains": 0,
+      "totalBacklinks": 0,
+      "organicTraffic": null,
+      "source": "DataForSEO"
+    },
+    "topBacklinks": [],
+    "competitorDomainMetrics": [],
+    "backlinkQualityNote": "",
+    "topReferringDomains": 0,
+    "dofollowRatio": 0
+  },
+  "internalLinking": {
+    "domain": "",
+    "total_pages": 0,
+    "total_internal_links": 0,
+    "orphan_count": 0,
+    "orphan_rate": 0,
+    "avg_inbound_links": 0,
+    "avg_outbound_links": 0,
+    "orphans": [],
+    "hubClusters": [],
+    "issues": [],
+    "recommendations": []
+  },
+  "technicalSeo": {
+    "metaTagSummary": {},
+    "metaTagIssues": [],
+    "imageAudit": {
+      "summary": {},
+      "worstPages": []
+    },
+    "schemaSummary": {},
+    "canonicalAudit": {
+      "summary": {},
+      "issues": []
+    },
+    "redirectChains": {
+      "summary": {},
+      "chains": [],
+      "issues": []
+    },
+    "securityHeaders": {
+      "summary": {},
+      "issues": []
+    },
+    "coreWebVitals": {
+      "mobile": {},
+      "desktop": {}
+    },
+    "lighthouseResults": {
+      "clientPages": []
+    },
+    "pageSpeedComparison": [],
+    "pageSpeedOpportunities": [],
+    "crawlIssues": [],
+    "pageAudits": []
+  },
+  "localSeo": {
+    "businessProfile": {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "latitude": 0,
+      "longitude": 0,
+      "category": "",
+      "rating": null,
+      "reviewCount": 0,
+      "gbpVerified": false
+    },
+    "competitorLocations": [],
+    "searchDemandZones": [],
+    "reviewSentiment": {
+      "summary": {}
+    },
+    "serviceAreaMap": {
+      "type": "FeatureCollection",
+      "features": []
+    },
+    "accessNotes": {
+      "gbpAccess": false,
+      "gaAccess": false,
+      "searchConsoleAccess": false,
+      "note": ""
+    }
+  },
+  "indexationCrawlability": {
+    "crawlBudgetHealth": {
+      "score": 0,
+      "grade": "",
+      "factors": {}
+    },
+    "parameterAudit": {
+      "summary": {},
+      "pages": [],
+      "issues": []
+    },
+    "paginationAudit": {
+      "summary": {},
+      "pages": [],
+      "issues": []
+    },
+    "soft404s": {
+      "summary": {},
+      "pages": []
+    },
+    "indexOrphans": {
+      "summary": {},
+      "orphans": []
+    }
+  },
+  "eeatSignals": {
+    "summary": {
+      "eeatScore": 0,
+      "eeatGrade": "",
+      "trustScore": 0,
+      "expertiseScore": 0,
+      "authorityScore": 0,
+      "experienceScore": 0,
+      "totalPages": 0
+    },
+    "siteTrust": {},
+    "pageSignals": [],
+    "eeatScore": {
+      "score": 0,
+      "grade": ""
+    },
+    "issues": []
+  },
+  "reportingIntelligence": {
+    "siteHealthGrade": {
+      "compositeScore": 0,
+      "letterGrade": ""
+    },
+    "categoryScores": {},
+    "prioritizedFindings": [],
+    "executiveSummary": "",
+    "benchmarkComparisons": []
+  },
+  "competitorAnalysis": {
+    "domainMetricsComparison": [],
+    "pageSpeedComparison": [],
+    "organicKeywordsComparison": {},
+    "keyInsights": []
+  },
+  "rankHistory": {
+    "snapshots": [],
+    "chartLabels": [],
+    "milestoneLabels": {},
+    "domains": {
+      "client": "",
+      "competitors": []
+    },
+    "keywords": {}
+  }
 }
