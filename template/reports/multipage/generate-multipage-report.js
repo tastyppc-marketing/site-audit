@@ -30,6 +30,7 @@ const PAGE_FILES = [
 const COPY_DIRS = ['shared', 'pages', 'assets'];
 
 const LOCAL_STYLESHEETS = [
+  'shared/tailwind.css',
   'shared/report-styles.css',
   'shared/multipage-nav.css',
 ];
