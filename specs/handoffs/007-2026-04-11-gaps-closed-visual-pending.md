@@ -52,13 +52,16 @@ Massive progress session. All 10 workflow gaps closed. Visual fixes implemented.
 ## Still Open
 
 ### HIGH — Pagination Not Rendering in User's Browser
-- Playwright confirms pagination IS working: 4 tables paginated, 50 visible rows per table
-- User sees all 762 schema rows in their browser
-- Likely causes:
-  1. User viewing stale `multipage-report-liane-jamason-2026-04-09/` (pre-pagination)
-  2. Browser cache serving old JS files
-  3. Hard refresh needed (Ctrl+Shift+R)
-- **Next step:** Confirm user is viewing `2026-04-11` folder, not `2026-04-09`
+- Playwright Chromium confirms pagination IS working: 4 bars rendered, 50 visible / 712 hidden for schema table
+- User confirmed viewing correct `2026-04-11` folder, incognito mode — still sees ALL 762 rows
+- NOT a stale file issue. NOT a cache issue.
+- Pagination bar exists at y=65930px (below the full table) — user may not see it because page is so long
+- Root cause likely: **JS execution timing differs between Playwright Chromium and user's Windows browser** (Edge/Chrome), OR a silent JS error kills the boot sequence before pagination.init() runs
+- **Next steps:**
+  1. User checks browser DevTools Console (F12) for red errors
+  2. If no errors: the rows ARE hidden but the page DOM is still 71K px — pagination hides via display:none but DOM elements remain. The scroll height stays massive.
+  3. Consider: pagination bar should be ABOVE the table (not after 762 rows), so user sees controls before scrolling past thousands of hidden-but-present DOM elements
+  4. Alternative fix: render only the visible page of rows into the DOM (true pagination) instead of hiding rows with display:none
 
 ### HIGH — Schema Table Data Quality
 - 762 "Missing schema" pages includes hundreds of WordPress attachment pages (media uploads like `/4q4a6184/`, `/dsc_0503/`)
