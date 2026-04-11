@@ -384,12 +384,11 @@ linkOpportunities{2}          — opportunities[], summary{}
 - **Impact:** 15 data fields (contentQuality, technicalSeo details, localSeo, eeat, indexation, reporting) are missing unless manually populated
 - **Status:** CLOSEABLE — script exists and works, just needs to be called in the workflow
 
-### Gap 9: DFS "rank" vs real Domain Rating
-- **Current:** `gather-domain-metrics.js` reads DFS `rank` field (0-1000 proprietary scale) and labels it `domainRating`
-- **Script:** Ahrefs MCP `site-explorer-domain-rating` EXISTS *Not Integrated
-- **Needed:** Use Ahrefs MCP for real DR (0-100 scale), or add a DFS-to-estimated-DR conversion
-- **Impact:** DR values like 174, 245, 320 look wrong in the report (real DR is 0-100)
-- **Status:** CLOSEABLE — Ahrefs MCP is connected, just needs integration
+### Gap 9: DFS "rank" mislabeled as "Domain Rating"
+- **Current:** DFS API returns `rank` (0-1000 proprietary scale). Python connector (`dataforseo.py:511`) maps it to `domain_rating`. Node.js script (`gather-domain-metrics.js:113`) maps it to `domainRating`. Renderers display as "DR: 173" — misleading because "DR" implies Ahrefs 0-100 scale.
+- **Fix:** Renderer-only change — relabel from "DR" / "Domain Rating" to "Authority Score" or "DFS Rank" in all display contexts. No data pipeline changes. No Ahrefs needed.
+- **Impact:** Labels become accurate; users see "Authority Score: 173/1000" instead of "DR: 173"
+- **Status:** CLOSEABLE — display label change only
 
 ### Gap 10: SEO Best Practices file duplication
 - **Current:** Each client gets its own copy of `seo-best-practices-{YEAR}.md` in their research folder. Also exists as a stale Calgary-specific copy in the template: `template/reports/multipage/seo-best-practices-2026-calgary-castles.md`

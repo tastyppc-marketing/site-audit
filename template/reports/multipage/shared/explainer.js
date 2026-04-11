@@ -183,7 +183,7 @@
     'section-domains': {
       title: 'Domain Metrics Comparison',
       explanation: 'This compares the technical strength of each website — domain authority, number of backlinks, estimated organic traffic, and keywords ranking. It shows the raw "power" behind each competitor\'s site.',
-      tip: 'A higher domain rating means a site has earned more trust from Google over time. Building this takes consistent effort but pays off enormously.'
+      tip: 'A higher authority score means a site has earned more trust from Google over time. Building this takes consistent effort but pays off enormously.'
     },
     'section-pagespeedcomp': {
       title: 'Speed Comparison',

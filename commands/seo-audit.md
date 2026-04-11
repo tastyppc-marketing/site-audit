@@ -543,9 +543,13 @@ prompt: |
   - What changed recently (vs prior year)
   - Actionable recommendations for a local {INDUSTRY} website
 
-  Write seo/research/seo-best-practices-{YEAR}.md with all 10 topics covered in detail.
-  This file serves as the baseline standard against which all audit findings and
-  deliverables will be measured.
+  IMPORTANT: First read the existing file at ../../docs/seo-best-practices-{YEAR}.md.
+  If it exists and was updated within the last 30 days, skip the research and just confirm it is current.
+  If it is stale or missing, do the full research and write/update the file.
+
+  Write ../../docs/seo-best-practices-{YEAR}.md with all 10 topics covered in detail.
+  This file is shared across all clients and serves as the baseline standard against which
+  all audit findings and deliverables will be measured.
 ```
 
 ### Agent 6: backlink-researcher
@@ -693,9 +697,15 @@ Output: `seo/research/domain-metrics.json`
 
 ### Backlink inventory (DataForSEO, API key only):
 ```bash
-node scripts/gather-backlinks.js {CLIENT_DOMAIN}
+node scripts/gather-backlinks.js {CLIENT_DOMAIN} {COMPETITOR_DOMAINS_SPACE_SEPARATED} --limit 200
 ```
-Output: `seo/research/client-backlinks.json`
+Output: `seo/research/client-backlinks.json` + `seo/research/backlinks-{competitor-domain}.json`
+
+### Keyword volumes (DataForSEO, API key only):
+```bash
+node scripts/gather-keyword-volumes.js --from-audit seo/audit-data.json
+```
+Output: `seo/research/keyword-volumes.json`
 
 ### Page text analysis (Playwright, no auth):
 ```bash
@@ -705,7 +715,49 @@ Output: `seo/research/page-text-analysis.json`
 
 **Verify all 4 files exist before proceeding:**
 ```bash
-ls -lh seo/research/{pagespeed-data,domain-metrics,client-backlinks,page-text-analysis}.json
+ls -lh seo/research/{pagespeed-data,domain-metrics,client-backlinks,keyword-volumes,page-text-analysis}.json seo/research/backlinks-*.json
+```
+
+## Step 5.7: Run Python Audit Pipeline
+
+After all data-gathering scripts complete, run the Python audit orchestrator to populate remaining data fields:
+
+```bash
+cd "{CLIENT_DIR}"
+python "../../platform/scripts/build_audit.py" \
+  --type seo \
+  --domain {CLIENT_DOMAIN} \
+  --competitors {COMPETITOR_DOMAINS_COMMA_SEPARATED} \
+  --research-dir seo/research \
+  --output seo/audit-data.json
+```
+
+This runs 10 Python analyzers that populate: `contentQuality`, `technicalSeo` (meta tags, schema, crawl issues), `internalLinking` (full graph analysis), `backlinks` (if DFS credentials available), `competitorAnalysis`, `localSeo`, `indexationCrawlability`, `eeatSignals`, `contentGap`, and `reportingIntelligence` (which auto-generates `topIssues`, `quickWins`, `actionPlan`, and the overall grade).
+
+If `--skip-api` is passed, only the non-API analyzers run (content_quality, internal_linking, technical_seo, local_seo, indexation, eeat, reporting).
+
+## Step 5.8: Rank Tracking Baseline (Optional, ~$0.05 DFS cost)
+
+Ask the user: "Would you like to establish a rank tracking baseline? This checks current SERP positions for all 25 target keywords (~$0.05 in DFS credits)."
+
+If yes:
+```bash
+cd "{CLIENT_DIR}"
+python "../../platform/scripts/run_rank_tracker.py" \
+  --domain {CLIENT_DOMAIN} \
+  --competitors {COMPETITOR_DOMAINS_COMMA_SEPARATED} \
+  --keywords seo/research/keyword-research.md \
+  --history seo/research/rank-history.json \
+  --label "Audit Baseline {DATE}" \
+  check
+```
+
+Then inject into audit-data.json:
+```bash
+python "../../platform/scripts/run_rank_tracker.py" \
+  --history seo/research/rank-history.json \
+  --output seo/audit-data.json \
+  inject
 ```
 
 ## Step 6: Compile Final Report
@@ -732,7 +784,7 @@ prompt: |
   - seo/research/content-audit.md
   - seo/research/competitor-analysis.md
   - seo/research/backlink-analysis.md
-  - seo/research/seo-best-practices-{YEAR}.md
+  - ../../docs/seo-best-practices-{YEAR}.md
 
   Write seo/reports/FINAL-AUDIT-REPORT.md with these sections:
 
@@ -840,7 +892,7 @@ run_in_background: true
 prompt: |
   Read these files:
   - seo/reports/FINAL-AUDIT-REPORT.md
-  - seo/research/seo-best-practices-{YEAR}.md
+  - ../../docs/seo-best-practices-{YEAR}.md
 
   Create production-ready JSON-LD schema markup for {CLIENT_SITE}.
 
@@ -954,7 +1006,7 @@ prompt: |
 
   Read these reference files:
   - seo/reports/FINAL-AUDIT-REPORT.md
-  - seo/research/seo-best-practices-{YEAR}.md
+  - ../../docs/seo-best-practices-{YEAR}.md
   - seo/research/keyword-research.md
 
   Then review each deliverable:

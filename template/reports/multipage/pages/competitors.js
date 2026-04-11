@@ -451,7 +451,7 @@
     var competitors = Array.isArray(domainMetrics.competitors) ? domainMetrics.competitors : [];
     var columns = [];
     var metricDefs = [
-      { key: 'domainRating', label: 'Domain Rating' },
+      { key: 'domainRating', label: 'Authority Score' },
       { key: 'organicTraffic', label: 'Organic Traffic' },
       { key: 'organicKeywords', label: 'Organic Keywords' },
       { key: 'referringDomains', label: 'Referring Domains' },
