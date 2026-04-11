@@ -101,12 +101,12 @@ Report QA fix work. Round 1 complete (31 issues, most fixed). Round 2 in progres
 - [x] Gap 5: Per-client GSC/GA4 credentials — CLOSED (76d01f7) — client-config.json + build_audit.py override
 - [x] Gap 4: Local SEO data gathering — CLOSED (de253c7) — gather-local-seo.js + normalizer + local.js empty states
 
-## Also Still Open (Round 2 Visual QA)
-- [ ] Pagination not firing at runtime
-- [ ] Hub/spoke +N more badges not clickable
-- [ ] Unreachable URLs +N more badge not expandable
-- [ ] Duplicate meta content display (comma mess, needs show more)
-- [ ] Report visual layout verification needed
+## Round 2 Visual QA — RESOLVED
+- [x] Pagination: was stale HTML (pre-pagination-script). Regeneration fixed it (1e6e2a3)
+- [x] Hub/spoke badges: now clickable expand buttons with data-expand delegation (1e6e2a3)
+- [x] Unreachable URLs badge: expandable, first 10 shown (1e6e2a3)
+- [x] Duplicate meta content: vertical URLs, first 3 visible, expand for rest (1e6e2a3)
+- [ ] Full visual verification pass — PENDING (user to review in browser)
 
 ## Key Documents
 - `docs/SEO-AUDIT-SYSTEM.md` — Definitive system reference (also at c:\dev\second-brain\)
