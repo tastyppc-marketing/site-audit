@@ -62,7 +62,7 @@ function printUsage() {
     'Flags:',
     '  --data     Path to audit-data.json',
     '  --output   Directory to write the generated report bundle',
-    '  --inline   Inline shared CSS into each HTML page',
+    '  --inline   Inline shared CSS and JS into each HTML page (recommended for file:// viewing)',
   ].join('\n'));
 }
 
@@ -482,6 +482,23 @@ function inlineCss(html, stylesByHref) {
   }
 
   return output;
+}
+
+function inlineJs(html, templateDir) {
+  // Replace local <script defer src="shared/..."> and <script defer src="pages/...">
+  // with inline <script> blocks.  Skip external CDN scripts.
+  return html.replace(
+    /<script\b([^>]*)\bsrc=["']((shared|pages)\/[^"']+)["']([^>]*)><\/script>\s*/gi,
+    function (match, pre, src) {
+      var scriptPath = path.join(templateDir, src);
+      if (!fs.existsSync(scriptPath)) {
+        logWarning('Inline JS: file not found', scriptPath);
+        return match;
+      }
+      var js = fs.readFileSync(scriptPath, 'utf-8');
+      return '<script data-inline-source="' + src + '">\n' + js + '\n</script>\n';
+    }
+  );
 }
 
 function copyDirectory(sourceDir, destinationDir) {
@@ -1642,6 +1659,9 @@ function main() {
     if (wantInline) {
       html = inlineCss(html, stylesByHref);
     }
+
+    // Always inline JS — required for file:// protocol (Chrome blocks cross-file script loading)
+    html = inlineJs(html, __dirname);
 
     const outputPath = path.join(outputDir, template.fileName);
     fs.writeFileSync(outputPath, html, 'utf-8');
