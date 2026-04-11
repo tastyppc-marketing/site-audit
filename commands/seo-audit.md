@@ -699,6 +699,14 @@ node scripts/gather-domain-metrics.js {CLIENT_DOMAIN} {COMPETITOR_DOMAINS_SPACE_
 ```
 Output: `seo/research/domain-metrics.json`
 
+### Organic metrics — DFS fallback for GSC (estimated organic keywords + traffic):
+```bash
+node scripts/gather-organic-metrics.js {CLIENT_DOMAIN} {COMPETITOR_DOMAINS_SPACE_SEPARATED}
+```
+Output: `seo/research/organic-metrics.json`
+
+Note: Only run when Google Search Console is not connected. This provides estimated organic keywords and traffic using DataForSEO Labs data.
+
 ### Backlink inventory (DataForSEO, API key only):
 ```bash
 node scripts/gather-backlinks.js {CLIENT_DOMAIN} {COMPETITOR_DOMAINS_SPACE_SEPARATED} --limit 200
@@ -725,9 +733,17 @@ Output: `seo/research/local-seo.json`
 
 Note: This gathers NAP from the client website and checks directory presence (Yelp, BBB, Facebook, etc.). If the client has GBP API access configured in `client-config.json`, `build_audit.py` will use `BusinessProfileConnector` for full GBP data (reviews, ratings, hours) instead.
 
+### Local Pack tracking (DataForSEO, ~$0.05 for 25 keywords):
+```bash
+node scripts/gather-local-pack.js --from-audit seo/audit-data.json --location 2840
+```
+Output: `seo/research/local-pack-data.json`
+
+Checks if the client business appears in Google's Local Pack (map pack) for each tracked keyword. Uses client.name from audit-data.json for fuzzy matching.
+
 **Verify all files exist before proceeding:**
 ```bash
-ls -lh seo/research/{pagespeed-data,domain-metrics,client-backlinks,keyword-volumes,page-text-analysis,local-seo}.json seo/research/backlinks-*.json
+ls -lh seo/research/{pagespeed-data,domain-metrics,organic-metrics,client-backlinks,keyword-volumes,page-text-analysis,local-seo,local-pack-data}.json seo/research/backlinks-*.json
 ```
 ## Step 5.6: Auto-Populate audit-data.json from Research
 

@@ -171,7 +171,7 @@
       }
       container.innerHTML = buildEmptyState(
         'Organic visibility data is not available',
-        'Organic keyword and traffic estimates require a DataForSEO API connection or Google Search Console access. This data was not available for this client.',
+        'Organic visibility data was not found. Run gather-organic-metrics.js to fetch estimated data from DataForSEO, or connect Google Search Console for precise data.',
         EMPTY_ICONS.organic
       );
       return;
