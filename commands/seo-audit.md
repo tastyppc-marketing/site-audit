@@ -34,6 +34,10 @@ Use AskUserQuestion with up to 4 questions to gather missing info efficiently.
 
 Store all collected values — they are substituted into every agent prompt below as `{VARIABLE_NAME}`.
 
+### client-config.json
+
+Create `client-config.json` in the client root from the shared template and fill in the client domain, name, competitor list, and Google access values. Set `googleAccess.searchConsole.siteUrl` to the exact property URL (example: `https://www.example.com/`), `googleAccess.analytics.propertyId` to the GA4 property ID (example: `123456789`), and keep any unavailable integrations blank with `hasAccess: false`.
+
 ---
 
 ## Step 1: Project Setup
@@ -717,6 +721,20 @@ Output: `seo/research/page-text-analysis.json`
 ```bash
 ls -lh seo/research/{pagespeed-data,domain-metrics,client-backlinks,keyword-volumes,page-text-analysis}.json seo/research/backlinks-*.json
 ```
+## Step 5.6: Auto-Populate audit-data.json from Research
+
+Extract structured data from research Markdown files into audit-data.json:
+
+```bash
+cd "{CLIENT_DIR}"
+node scripts/populate-audit-data.js
+```
+
+This parses keyword-research.md, competitor-analysis.md, and FINAL-AUDIT-REPORT.md to populate: `keywords[]`, `competitorComparison[]`, `competitorStrategies[]`, `siteComparison[]`, `contentCalendar`, and `advantages[]`.
+
+Only populates fields that are empty/missing — won't overwrite manually entered data. Run with `--force` to overwrite existing data.
+
+
 
 ## Step 5.7: Run Python Audit Pipeline
 
@@ -729,7 +747,8 @@ python "../../platform/scripts/build_audit.py" \
   --domain {CLIENT_DOMAIN} \
   --competitors {COMPETITOR_DOMAINS_COMMA_SEPARATED} \
   --research-dir seo/research \
-  --output seo/audit-data.json
+  --output seo/audit-data.json \
+  --client-config client-config.json
 ```
 
 This runs 10 Python analyzers that populate: `contentQuality`, `technicalSeo` (meta tags, schema, crawl issues), `internalLinking` (full graph analysis), `backlinks` (if DFS credentials available), `competitorAnalysis`, `localSeo`, `indexationCrawlability`, `eeatSignals`, `contentGap`, and `reportingIntelligence` (which auto-generates `topIssues`, `quickWins`, `actionPlan`, and the overall grade).

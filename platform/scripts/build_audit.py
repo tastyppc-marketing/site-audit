@@ -105,6 +105,25 @@ class AuditOrchestrator:
             "auditDate": time.strftime("%B %d, %Y"),
         }
 
+        client_config = getattr(self.args, "client_config", None)
+        if client_config:
+            with open(client_config) as f:
+                client_config_data = json.load(f)
+
+            google_access = client_config_data.get("googleAccess", {})
+            search_console = google_access.get("searchConsole", {})
+            analytics = google_access.get("analytics", {})
+            business_profile = google_access.get("businessProfile", {})
+
+            if search_console.get("hasAccess") and search_console.get("siteUrl"):
+                self.settings.SEARCH_CONSOLE_SITE_URL = search_console["siteUrl"]
+            if analytics.get("hasAccess") and analytics.get("propertyId"):
+                self.settings.GA4_PROPERTY_ID = analytics["propertyId"]
+            if business_profile.get("hasAccess") and business_profile.get("accountId"):
+                self.settings.GBP_ACCOUNT_ID = business_profile["accountId"]
+            if business_profile.get("hasAccess") and business_profile.get("locationId"):
+                self.settings.GBP_LOCATION_ID = business_profile["locationId"]
+
         # Select steps based on audit type
         steps = SEO_STEPS if audit_type == "seo" else PPC_STEPS
 
@@ -540,6 +559,7 @@ def main() -> None:
     parser.add_argument("--skip-api", action="store_true", help="Skip steps requiring API calls")
     parser.add_argument("--target-cpa", type=float, default=None, help="Target CPA for PPC audit")
     parser.add_argument("--verbose", action="store_true", help="Show full error tracebacks")
+    parser.add_argument("--client-config", default=None, help="Path to client-config.json")
     args = parser.parse_args()
 
     settings = Settings()

@@ -219,7 +219,7 @@
     if (!topQueries.length && !topPages.length) {
       container.innerHTML = buildEmptyState(
         'Search Console data is not available',
-        'Google Search Console is not linked for this client. Connect GSC access to see live search performance data.',
+        'Google Search Console is not linked for this client. Update client-config.json with googleAccess.searchConsole.siteUrl and set hasAccess to true to see live search performance data.',
         EMPTY_ICONS.gsc
       );
       return;
@@ -302,7 +302,7 @@
     if (!channels.length && !devices.length && !landingPages.length) {
       container.innerHTML = buildEmptyState(
         'Traffic data is not available',
-        'Traffic data requires Google Analytics or Search Console access. Connect GA4 or GSC to populate this section.',
+        'Traffic data requires Google Analytics or Search Console access. Update client-config.json with googleAccess.analytics.propertyId or googleAccess.searchConsole.siteUrl and set hasAccess to true to populate this section.',
         EMPTY_ICONS.traffic
       );
       return;
