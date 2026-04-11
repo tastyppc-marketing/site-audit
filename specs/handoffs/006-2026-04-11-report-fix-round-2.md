@@ -1,7 +1,7 @@
-# Session Handoff - 2026-04-11
+# Session Handoff - 2026-04-11 (Updated)
 
 ## Context
-Report QA fix work. Round 1 complete (31 issues, most fixed). Round 2 in progress — user did visual inspection and found additional issues. Save point at `f662fcc`.
+Report QA fix work. Round 1 complete (31 issues, most fixed). Round 2 in progress. Batch 1 of gap closures complete (6 of 10 gaps closed). Definitive system doc written. Save point at `307201b`.
 
 ## Completed (Round 1)
 
@@ -87,6 +87,34 @@ Report QA fix work. Round 1 complete (31 issues, most fixed). Round 2 in progres
 6. **Update /seo-audit workflow** — add 5 missing data collection steps
 7. **Visual verification** — use Claude/Codex vision to inspect each page
 
+## Gaps Closed (Batch 1, commit 307201b)
+- [x] Gap 8: build_audit.py wired into workflow (Step 5.7) — unlocks 15 data fields
+- [x] Gap 2: Competitor backlinks — gather-backlinks.js accepts multiple domains
+- [x] Gap 1: Keyword volumes — new gather-keyword-volumes.js ($0.075/25 keywords)
+- [x] Gap 3: Backlink intersection — auto-closes via build_audit.py + competitor data
+- [x] Gap 9: DFS rank relabeled "Authority Score" in all renderers
+- [x] Gap 10: Best practices → single shared file at docs/
+- [x] Gap 6: Rank tracking optional step added (Step 5.8)
+
+## Gaps Remaining
+- [ ] Gap 7: MD → JSON auto-populator (HIGH effort — needs AI agent)
+- [ ] Gap 5: Per-client GSC/GA4 credentials (MEDIUM effort — architecture)
+- [ ] Gap 4: Local SEO data gathering (HIGH effort — depends on Gap 5)
+
+## Also Still Open (Round 2 Visual QA)
+- [ ] Pagination not firing at runtime
+- [ ] Hub/spoke +N more badges not clickable
+- [ ] Unreachable URLs +N more badge not expandable
+- [ ] Duplicate meta content display (comma mess, needs show more)
+- [ ] Report visual layout verification needed
+
+## Key Documents
+- `docs/SEO-AUDIT-SYSTEM.md` — Definitive system reference (also at c:\dev\second-brain\)
+- `docs/ERRORS-TO-FIX.md` — All visual QA issues (Round 1 + Round 2)
+- `docs/plans/2026-04-09-report-fix-plan.md` — Original fix plan
+- `docs/plans/2026-04-09-user-input-visual-qa.md` — User's verbatim feedback
+
 ## Rollback Points
 - `06e04d5` — Pre-round-1 fixes (PSI data gathered, plans written)
-- `f662fcc` — Current: Round 1 complete, Round 2 issues documented
+- `f662fcc` — Round 1 complete, Round 2 issues documented
+- `307201b` — Current: 6 gaps closed, system docs written
