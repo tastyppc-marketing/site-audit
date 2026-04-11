@@ -154,6 +154,7 @@ body {
   border: 1px solid #e2e8f0;
   border-radius: 12px;
   padding: 1.25rem 1.5rem;
+  position: relative;
   transition: box-shadow 0.2s, transform 0.2s;
   overflow: hidden;
   min-width: 0;
@@ -294,6 +295,11 @@ body {
 
 .issue-card:hover {
   box-shadow: 0 4px 24px rgba(0,0,0,0.05);
+}
+
+.issue-card .severity-badge {
+  flex-shrink: 0;
+  margin-left: auto;
 }
 
 .issue-number {

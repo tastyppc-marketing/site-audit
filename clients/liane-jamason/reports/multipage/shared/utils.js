@@ -146,6 +146,27 @@
     }
   }
 
+  function getApiErrors(data, sourceFile) {
+    if (!data || !Array.isArray(data.apiErrors)) return null;
+    var entry = data.apiErrors.find(function(e) { return e.source === sourceFile; });
+    return (entry && entry.errors && entry.errors.length) ? entry : null;
+  }
+
+  function renderApiErrorBanner(entry) {
+    if (!entry) return '';
+    var html = '<div style="background:#fef3c7;border:1px solid #f59e0b;border-radius:8px;padding:16px;margin:12px 0">';
+    html += '<div style="font-weight:600;color:#92400e;margin-bottom:8px">&#9888; Data Source Issue</div>';
+    entry.errors.forEach(function(err) {
+      html += '<div style="color:#78350f;font-size:0.875rem;margin-bottom:4px">';
+      if (err.code) html += '<strong>HTTP ' + err.code + '</strong>: ';
+      html += (err.reason || err.message || 'Unknown error');
+      html += '</div>';
+    });
+    html += '<div style="color:#92400e;font-size:0.75rem;margin-top:8px">The data-gathering script ran but the API returned an error. Fix the issue above and re-run the script to populate this section.</div>';
+    html += '</div>';
+    return html;
+  }
+
   window.TPPC.utils = {
     esc: esc,
     gradeClass: gradeClass,
@@ -157,8 +178,10 @@
     buildCollapsible: buildCollapsible,
     formatNumber: formatNumber,
     formatPercent: formatPercent,
+    getApiErrors: getApiErrors,
     initCollapsibles: initCollapsibles,
-    makeTablesResponsive: makeTablesResponsive
+    makeTablesResponsive: makeTablesResponsive,
+    renderApiErrorBanner: renderApiErrorBanner
   };
 
   // Also expose esc globally as a convenience used throughout page renderers
