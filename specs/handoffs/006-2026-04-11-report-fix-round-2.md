@@ -99,7 +99,7 @@ Report QA fix work. Round 1 complete (31 issues, most fixed). Round 2 in progres
 ## Gaps Remaining
 - [x] Gap 7: MD → JSON auto-populator — CLOSED (76d01f7) — populate-audit-data.js
 - [x] Gap 5: Per-client GSC/GA4 credentials — CLOSED (76d01f7) — client-config.json + build_audit.py override
-- [ ] Gap 4: Local SEO data gathering (HIGH effort — now unblocked by Gap 5)
+- [x] Gap 4: Local SEO data gathering — CLOSED (de253c7) — gather-local-seo.js + normalizer + local.js empty states
 
 ## Also Still Open (Round 2 Visual QA)
 - [ ] Pagination not firing at runtime
@@ -117,4 +117,6 @@ Report QA fix work. Round 1 complete (31 issues, most fixed). Round 2 in progres
 ## Rollback Points
 - `06e04d5` — Pre-round-1 fixes (PSI data gathered, plans written)
 - `f662fcc` — Round 1 complete, Round 2 issues documented
-- `307201b` — Current: 6 gaps closed, system docs written
+- `307201b` — 6 gaps closed, system docs written
+- `76d01f7` — 9 gaps closed (added MD→JSON + per-client credentials)
+- `de253c7` — Current: ALL 10 gaps closed + local SEO gathering

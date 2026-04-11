@@ -428,4 +428,4 @@ Note: DFS Backlinks API requires $100/month minimum commitment (credits, not a f
 | 7 | Gap 10: Best practices single source | Low | $0 | Stops file duplication | CLOSED (307201b) |
 | 8 | Gap 6: Rank tracking in workflow | Low | $0.05 (25 SERP checks) | Adds rank history chart | CLOSED (307201b) |
 | 9 | Gap 5: Per-client GSC/GA4 | Medium | $0 | Unlocks SC + traffic sections | CLOSED (76d01f7) |
-| 10 | Gap 4: Local SEO data gathering | High | $0-varies | Fills local SEO page | OPEN |
+| 10 | Gap 4: Local SEO data gathering | High | $0-varies | Fills local SEO page | CLOSED (de253c7) |
