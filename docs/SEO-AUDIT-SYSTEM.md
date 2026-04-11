@@ -6,6 +6,64 @@ Last updated: 2026-04-11
 
 ---
 
+## What Uses AI vs What Uses APIs/Scripts
+
+### AI-Powered Steps (Claude/Codex agents generate content)
+
+| Step | What AI does | Output | Could be replaced by script? |
+|------|-------------|--------|------------------------------|
+| **keyword-researcher** | Uses WebSearch to find keywords, interprets SERP results, categorizes by intent | `keyword-research.md` | Partially — DFS keyword suggestions API exists, but intent classification needs AI |
+| **content-auditor** | Reads page content via browse.js, grades quality, identifies gaps | `content-audit.md` | No — content quality judgment requires AI |
+| **competitor-analyzer** | Reads competitor sites, compares strategies, identifies differentiators | `competitor-analysis.md` | No — strategic comparison requires AI |
+| **best-practices-researcher** | Uses WebSearch to find current SEO best practices | `seo-best-practices-{YEAR}.md` | No — synthesizing best practices from multiple sources needs AI |
+| **backlink-researcher** (research portion) | Uses WebSearch to find link opportunities, classifies backlink types | `backlink-analysis.md`, `backlink-opportunities.json` | Partially — DFS intersection API can find shared domains, but opportunity scoring needs AI |
+| **report-compiler** | Reads all 6 research files, synthesizes into graded audit report with 45 action items | `FINAL-AUDIT-REPORT.md` | No — this is the core AI value: synthesizing disparate research into a coherent, actionable report |
+| **meta-tags-writer** | Reads audit report + crawl data, writes optimized meta titles/descriptions for every page | `seo/content/meta-tags.md` | No — writing compelling, keyword-optimized copy is AI work |
+| **schema-writer** | Reads audit report + best practices, writes production-ready JSON-LD schema for all page types | `seo/content/schema-markup.md` | Partially — schema templates could be scripted, but customization per client needs AI |
+| **community-writer** | Reads audit + competitor analysis, writes 4 full community/area pages (1,000-1,500 words each) | `seo/content/community-pages.md` | No — long-form local content creation is AI work |
+| **blog-writer** | Reads audit + keyword research, writes 4 SEO-optimized blog posts (900-1,200 words each) | `seo/content/blog-posts.md` | No — blog content creation is AI work |
+| **reviewer** | Reviews all deliverables for quality, accuracy, consistency | `seo/content/REVIEW.md` | No — quality judgment requires AI |
+| **verifier** | Validates data integrity, checks for completeness | verification report | Partially — some checks could be scripted |
+
+### API/Script-Only Steps (No AI involved)
+
+| Step | What it does | Output |
+|------|-------------|--------|
+| `crawl-sitemap.js` | Fetches robots.txt + sitemap, categorizes URLs | `crawl-data.json` (page meta, headings, links, schema) |
+| `browse.js` | Playwright page browser — extracts DOM content | stdout (used by agents) |
+| `check-technical.js` | Checks JSON-LD, image alt, social meta | stdout (used by agents) |
+| `gather-pagespeed.js` | Calls Google PSI API | `pagespeed-data.json` |
+| `gather-domain-metrics.js` | Calls DFS backlinks/summary API | `domain-metrics.json` |
+| `gather-backlinks.js` | Calls DFS backlinks + referring_domains APIs | `client-backlinks.json` |
+| `extract-text.js` | Playwright text extraction + Flesch-Kincaid scoring | `page-text-analysis.json` |
+| `build_audit.py` | Runs 10 Python analyzers on research data | `audit-data.json` |
+| `generate-multipage-report.js` | Normalizes data + injects into 9 HTML templates | 9 HTML report pages |
+
+### Python Analyzers (No AI — algorithmic analysis)
+
+| Analyzer | What it computes | AI-free? |
+|----------|-----------------|----------|
+| `ContentQualityAnalyzer` | Word counts, readability scores, content grading | Yes — pure NLP/stats |
+| `InternalLinkAnalyzer` | Link graph metrics, orphan detection, hub clusters | Yes — graph algorithms |
+| `TechnicalSeoAnalyzer` | Meta tag audit, schema validation, crawl issues | Yes — rule-based checks |
+| `BacklinkAnalyzer` | Backlink metrics, competitor comparison, opportunity scoring | Yes — API data + scoring formulas |
+| `CompetitorAnalyzer` | Domain comparison, keyword overlap | Yes — API data + comparison logic |
+| `LocalSeoAnalyzer` | NAP consistency, GBP completeness, review sentiment | Yes — rule-based + sentiment scoring |
+| `IndexCrawlabilityAnalyzer` | Robots.txt, sitemap, indexability | Yes — rule-based checks |
+| `EEATSignalAnalyzer` | E-E-A-T signal detection from page content | Yes — heuristic pattern matching |
+| `ContentGapAnalyzer` | Keyword gaps, topical authority mapping | Yes — set operations on keyword data |
+| `ReportingIntelligenceAnalyzer` | Auto-generates topIssues, quickWins, actionPlan, overall grade | Yes — scoring formulas on all prior data |
+
+### Summary: Where AI Adds Value vs Where It Doesn't
+
+**AI is essential for:** Content creation (meta tags, schema, community pages, blog posts), strategic synthesis (report compilation, competitor strategy analysis), and quality judgment (content auditing, review).
+
+**AI is NOT needed for:** Data gathering (APIs/scripts), technical analysis (Python analyzers), report rendering (HTML generator), and data normalization (normalizer).
+
+**The workflow should never use AI to fabricate data.** All numbers must come from APIs or scripts. AI synthesizes, analyzes, and writes — it doesn't invent metrics.
+
+---
+
 ## What This Tool Does
 
 Produces a 9-page interactive HTML report analyzing a client's SEO against their competitors. The report covers: overview/grade, keyword rankings, content quality, technical SEO, internal links, backlink opportunities, competitor comparison, local SEO, and an action plan with deliverables.
