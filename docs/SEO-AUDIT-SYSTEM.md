@@ -57,42 +57,58 @@ Pipeline A produces rich Markdown files but does NOT automatically translate the
 | `extract-text.js` | Playwright (local) | None | `seo/research/page-text-analysis.json` |
 
 ### Phase 4: Data Population
-**This is the step that's often incomplete.** `audit-data.json` must contain 29 top-level keys. Some are auto-populated by the normalizer from research files. Others must come from the Python pipeline or manual population.
+**This is the step that's often incomplete.** `audit-data.json` must contain 29+ top-level keys. Some are auto-populated by the normalizer from research files. Others must come from the Python pipeline or manual population.
 
-| Data key | Auto-populated by normalizer? | Source if not auto |
-|----------|------------------------------|-------------------|
-| `client` | No | Manual — name, domain, grade, summary |
-| `competitor` | No | Manual — primary + all competitors list |
-| `topIssues` | No | Manual or Python `reporting` step |
-| `keyStats` | Partially (4 auto-derived) | Manual for first 6-8, normalizer adds 4 more |
-| `siteComparison` | No | Manual from competitor-analysis.md |
-| `keywords` | No | Manual from keyword-research.md |
-| `competitorComparison` | No | Manual from competitor-analysis.md |
-| `competitorStrategies` | No | Manual from competitor-analysis.md |
-| `contentQuality` | No | Python `content_quality` step, or manual |
-| `technicalSeo.coreWebVitals` | Yes | From `pagespeed-data.json` |
-| `technicalSeo.lighthouseResults` | Yes | From `pagespeed-data.json` |
-| `technicalSeo.pageAudits` | Yes | From `crawl-data.json` |
-| `technicalSeo.pageSpeedComparison` | Yes | From `pagespeed-data.json` |
-| `technicalSeo.metaTagSummary` | No | Manual or Python `technical_seo` step |
-| `technicalSeo.metaTagIssues` | No | Manual or Python `technical_seo` step |
-| `technicalSeo.schemaSummary` | No | Manual from site-structure.md |
-| `technicalSeo.crawlIssues` | No | Manual from crawl data |
-| `internalLinking` | Mostly yes | From `link-graph.json` (orphans, hubs, depth via BFS) |
-| `backlinks.topBacklinks` | Yes | From `client-backlinks.json` |
-| `backlinks.topReferringDomains` | Yes | From `client-backlinks.json` |
-| `backlinks.domainMetrics` | Yes (via compat bridge) | From `domain-metrics.json` |
-| `domainMetrics` | Yes | From `domain-metrics.json` |
-| `backlinkOpportunities` | Partially | From `backlink-opportunities.json` (if it exists) |
-| `localSeo` | No | Python `local_seo` step, or manual |
-| `actionPlan` | No | Manual from FINAL-AUDIT-REPORT.md |
-| `contentCalendar` | No | Manual from FINAL-AUDIT-REPORT.md |
-| `quickWins` | No | Manual or Python `reporting` step |
-| `advantages` | No | Manual |
-| `nextSteps` | No | Manual |
-| `searchConsoleData` | No | GSC API (requires access per client) |
-| `trafficData` | No | GA4 API (requires access per client) |
-| `rankHistory` | No | `run_rank_tracker.py` (optional) |
+**Legend:**
+- `EXISTS *Integrated` — Script/analyzer exists AND is called in the workflow
+- `EXISTS *Not Integrated` — Script/analyzer exists but is NOT called in the standard workflow
+- `NO SCRIPT *Needed` — No script exists; needs to be built or the data must be entered manually
+
+| Data key | Auto-pop? | Integration Status |
+|----------|-----------|-------------------|
+| `client` | No | `ReportingIntelligenceAnalyzer` EXISTS *Not Integrated — produces grade/summary; name/domain/location still manual |
+| `competitor` | No | NO SCRIPT *Needed — primary + all[] must be manual input at Step 0 |
+| `topIssues` | No | `ReportingIntelligenceAnalyzer` EXISTS *Not Integrated — auto-generates from all prior step data |
+| `keyStats` | Partial | Normalizer auto-derives 4; first 6-8 from `ReportingIntelligenceAnalyzer` EXISTS *Not Integrated |
+| `siteComparison` | No | NO SCRIPT *Needed — must be populated from competitor-analysis.md (manual or new auto-populator) |
+| `keywords` | No | NO SCRIPT *Needed [auto-populator from keyword-research.md] — currently manual JSON entry |
+| `competitorComparison` | No | NO SCRIPT *Needed [auto-populator from competitor-analysis.md] — currently manual JSON entry |
+| `competitorStrategies` | No | NO SCRIPT *Needed [auto-populator from competitor-analysis.md] — currently manual JSON entry |
+| `contentQuality` | No | `ContentQualityAnalyzer` EXISTS *Not Integrated — reads crawl-data.json pages |
+| `technicalSeo.coreWebVitals` | Yes | `gather-pagespeed.js` EXISTS *Integrated — normalizer auto-populates from pagespeed-data.json |
+| `technicalSeo.lighthouseResults` | Yes | `gather-pagespeed.js` EXISTS *Integrated — normalizer auto-populates from pagespeed-data.json |
+| `technicalSeo.pageAudits` | Yes | `crawl-sitemap.js` EXISTS *Integrated — normalizer auto-populates from crawl-data.json |
+| `technicalSeo.pageSpeedComparison` | Yes | `gather-pagespeed.js` EXISTS *Integrated — normalizer auto-populates from pagespeed-data.json |
+| `technicalSeo.metaTagSummary` | No | `TechnicalSeoAnalyzer` EXISTS *Not Integrated — produces full meta tag analysis from crawl-data.json |
+| `technicalSeo.metaTagIssues` | No | `TechnicalSeoAnalyzer` EXISTS *Not Integrated — same analyzer |
+| `technicalSeo.schemaSummary` | No | `TechnicalSeoAnalyzer` EXISTS *Not Integrated — same analyzer |
+| `technicalSeo.crawlIssues` | No | `TechnicalSeoAnalyzer` EXISTS *Not Integrated — same analyzer |
+| `internalLinking` | Mostly | `InternalLinkAnalyzer` EXISTS *Not Integrated (Python); Normalizer EXISTS *Integrated (link-graph.json BFS) |
+| `backlinks.topBacklinks` | Yes | `gather-backlinks.js` EXISTS *Integrated — normalizer auto-populates from client-backlinks.json |
+| `backlinks.topReferringDomains` | Yes | `gather-backlinks.js` EXISTS *Integrated — normalizer auto-populates from client-backlinks.json |
+| `backlinks.domainMetrics` | Yes | `gather-domain-metrics.js` EXISTS *Integrated — normalizer compat bridge |
+| `domainMetrics` | Yes | `gather-domain-metrics.js` EXISTS *Integrated — normalizer auto-populates from domain-metrics.json |
+| `backlinkOpportunities` | Partial | `BacklinkAnalyzer.find_link_opportunities()` EXISTS *Not Integrated (Python); normalizer builds skeleton from available data |
+| `localSeo` | No | `LocalSeoAnalyzer` EXISTS *Not Integrated — needs local-seo.json + reviews.json inputs that nothing produces |
+| `localSeo.businessProfile` | No | `BusinessProfileConnector` EXISTS *Not Integrated — needs GBP_ACCOUNT_ID/LOCATION_ID per client |
+| `localSeo.reviewSentiment` | No | `BusinessProfileConnector.get_reviews()` EXISTS *Not Integrated — same GBP access requirement |
+| `actionPlan` | No | `ReportingIntelligenceAnalyzer` EXISTS *Not Integrated — auto-generates quickWins/shortTerm/mediumTerm/longTerm |
+| `contentCalendar` | No | NO SCRIPT *Needed — must be populated from FINAL-AUDIT-REPORT.md (manual or new auto-populator) |
+| `quickWins` | No | `ReportingIntelligenceAnalyzer` EXISTS *Not Integrated — auto-generates from all prior data |
+| `advantages` | No | NO SCRIPT *Needed — manual competitive advantage analysis |
+| `nextSteps` | No | NO SCRIPT *Needed — manual recommended next steps |
+| `searchConsoleData` | No | `SearchConsoleConnector` EXISTS *Not Integrated — needs per-client SEARCH_CONSOLE_SITE_URL |
+| `trafficData` | No | `GA4Connector` EXISTS *Not Integrated — needs per-client GA4_PROPERTY_ID |
+| `rankHistory` | No | `run_rank_tracker.py` + `RankTracker` EXISTS *Not Integrated — standalone script, not in workflow |
+| `indexationCrawlability` | No | `IndexCrawlabilityAnalyzer` EXISTS *Not Integrated — reads crawl-data.json + optional SC data |
+| `eeatSignals` | No | `EEATSignalAnalyzer` EXISTS *Not Integrated — reads crawl-data.json pages |
+| `contentGap` | No | `ContentGapAnalyzer` EXISTS *Not Integrated — needs DFS organic keywords API |
+| `competitorAnalysis` | No | `CompetitorAnalyzer` EXISTS *Not Integrated — needs DFS + competitor domains |
+
+**Summary:**
+- **Integrated (auto-populate via normalizer):** 10 fields — CWV, lighthouse, pageAudits, pageSpeedComparison, internalLinking (partial), backlinks, referringDomains, domainMetrics, keyStats (partial), backlinkOpportunities (skeleton)
+- **EXISTS but Not Integrated:** 15 fields — all Python analyzers exist but `build_audit.py` is not called in the `/seo-audit` skill workflow
+- **No Script Needed:** 6 fields — siteComparison, keywords, competitorComparison, competitorStrategies, contentCalendar, advantages/nextSteps (these need auto-populators from research .md files)
 
 ### Phase 5: Report Compilation
 A `report-compiler` agent reads all 6 Markdown research files and writes `seo/reports/FINAL-AUDIT-REPORT.md` (8 sections, 45 action items, content calendar).
@@ -248,43 +264,92 @@ linkOpportunities{2}          — opportunities[], summary{}
 
 ## Known Gaps and Workflow Issues
 
-### 1. Numeric keyword volumes
+### Gap 1: Numeric keyword volumes
 - **Current:** keyword-researcher records "High/Medium/Low" from web search
-- **Needed:** DataForSEO keyword data API call for monthly search volume numbers
+- **Script:** `DataForSEOConnector.get_keyword_data()` EXISTS *Not Integrated
+- **Needed:** Add DFS keyword volume lookup step after keyword list is built (Step 3.5)
+- **Cost:** ~$0.01-0.02 per keyword × 25 keywords = ~$0.25-0.50 per audit
 - **Impact:** Keywords page Section 2 (volume chart) is always empty
+- **Status:** CLOSEABLE — connector method exists, just needs workflow step
 
-### 2. Competitor backlink scraping
+### Gap 2: Competitor backlink scraping
 - **Current:** `gather-backlinks.js` only runs for client domain
-- **Needed:** Run for each competitor too (costs ~$0.04/competitor)
+- **Script:** `gather-backlinks.js` EXISTS *Integrated (client only)
+- **Needed:** Run for each competitor too, capped at 200 backlinks per competitor
+- **Cost:** ~$0.02 per backlinks/live call + ~$0.02 per referring_domains/live call = ~$0.04/competitor × 5 competitors = ~$0.20 per audit
 - **Impact:** Backlink opportunity summary shows zeros, do-follow ratio is 0% for competitors
-- **Workflow:** Should prompt user "Scrape competitor backlinks? (costs API credits)"
+- **Workflow:** Should prompt user "Scrape competitor backlinks? (costs ~$0.20 in API credits)"
+- **Status:** CLOSEABLE — same script, just needs loop + user prompt
 
-### 3. backlink-opportunities.json
+### Gap 3: backlink-opportunities.json
 - **Current:** backlink-researcher agent is supposed to produce this, but often doesn't
-- **Needed:** Reliable generation from client + competitor backlink intersection
+- **Script:** `BacklinkAnalyzer.find_link_opportunities()` EXISTS *Not Integrated (Python)
+- **Also:** `DataForSEOConnector.get_backlink_intersection()` EXISTS *Not Integrated
+- **Needed:** After competitor backlinks are scraped (Gap 2), run intersection analysis
+- **Cost:** ~$0.02 per intersection call × 5 competitors = ~$0.10 per audit
 - **Impact:** Entire backlink opportunities page is nearly empty
+- **Status:** CLOSEABLE — Python method exists, needs workflow integration or Node.js equivalent
 
-### 4. Local SEO data
-- **Current:** No Node.js script gathers this. Python `local_seo` step exists but needs `local-seo.json` and `reviews.json` which nothing produces
-- **Needed:** Either a GBP API gathering script or web-research based local SEO data
+### Gap 4: Local SEO data
+- **Current:** No Node.js script gathers local SEO data. Python `LocalSeoAnalyzer` exists but needs `local-seo.json` and `reviews.json` inputs
+- **Script:** `LocalSeoAnalyzer` EXISTS *Not Integrated; `BusinessProfileConnector` EXISTS *Not Integrated; `LocalSEOConnector` EXISTS *Not Integrated
+- **Needed:** Either (a) GBP API gathering script (requires per-client GBP access) or (b) web-research based local SEO agent that produces local-seo.json
 - **Impact:** Local page shows "data not collected"
+- **Status:** PARTIALLY CLOSEABLE — Python analyzers exist but need GBP credentials per client; web-research fallback needs a new agent
 
-### 5. GSC/GA4 integration
+### Gap 5: GSC/GA4 integration
 - **Current:** Env vars point to one client (Murray Gardner). No per-client switching
-- **Needed:** Per-client GSC/GA4 credentials or service account with multi-property access
-- **Impact:** Keywords sections 4-5 (Search Console, Traffic) are empty for all clients except Murray
+- **Script:** `SearchConsoleConnector` EXISTS *Not Integrated; `GA4Connector` EXISTS *Not Integrated
+- **Needed:** Per-client credentials stored in client config, not global .env
+- **Impact:** Keywords sections 4-5 (Search Console, Traffic) are empty for all clients without access
+- **Status:** CLOSEABLE for clients who grant access — connectors work, need per-client credential management
 
-### 6. Rank tracking
-- **Current:** `run_rank_tracker.py` exists but isn't called in standard workflow
-- **Needed:** Optional step after keyword list is built
+### Gap 6: Rank tracking
+- **Current:** `run_rank_tracker.py` + `RankTracker` class EXISTS *Not Integrated
+- **Needed:** Optional step after keyword list is built; inject into audit-data.json
 - **Impact:** Keywords section 6 (Rank History) is always empty on first audit
+- **Status:** CLOSEABLE — script exists with check/compare/inject modes, needs workflow step
 
-### 7. audit-data.json manual population
-- **Current:** Many fields (client, topIssues, keyStats, actionPlan, contentCalendar, etc.) require manual population from Markdown research files
-- **Needed:** An automated step that reads research .md files and writes the JSON keys
+### Gap 7: audit-data.json manual population (THE BIG GAP)
+- **Current:** 6 fields have NO SCRIPT and require manual population from Markdown research files: `siteComparison`, `keywords[]`, `competitorComparison[]`, `competitorStrategies[]`, `contentCalendar`, `advantages/nextSteps`
+- **Script:** NO SCRIPT *Needed [md-to-json auto-populator]
+- **Needed:** A new script or normalizer step that reads the Markdown research files and extracts structured data into JSON keys
 - **Impact:** Report has empty sections unless someone manually fills in the JSON
+- **Status:** NEEDS NEW SCRIPT — this is the biggest integration gap
 
-### 8. DFS "rank" vs real Domain Rating
+### Gap 8: Python pipeline not called in /seo-audit workflow
+- **Current:** `build_audit.py` orchestrates 10 Python analyzers that produce 15 data fields. But the `/seo-audit` skill never calls it.
+- **Script:** `build_audit.py` EXISTS *Not Integrated
+- **Needed:** Add `python platform/scripts/build_audit.py --type seo --domain {CLIENT_DOMAIN} --research-dir seo/research --output seo/audit-data.json` as a step after data gathering
+- **Impact:** 15 data fields (contentQuality, technicalSeo details, localSeo, eeat, indexation, reporting) are missing unless manually populated
+- **Status:** CLOSEABLE — script exists and works, just needs to be called in the workflow
+
+### Gap 9: DFS "rank" vs real Domain Rating
 - **Current:** `gather-domain-metrics.js` reads DFS `rank` field (0-1000 proprietary scale) and labels it `domainRating`
-- **Needed:** Map to a 0-100 scale or use Ahrefs DR (via Ahrefs MCP)
+- **Script:** Ahrefs MCP `site-explorer-domain-rating` EXISTS *Not Integrated
+- **Needed:** Use Ahrefs MCP for real DR (0-100 scale), or add a DFS-to-estimated-DR conversion
 - **Impact:** DR values like 174, 245, 320 look wrong in the report (real DR is 0-100)
+- **Status:** CLOSEABLE — Ahrefs MCP is connected, just needs integration
+
+### Gap 10: SEO Best Practices file duplication
+- **Current:** Each client gets its own copy of `seo-best-practices-{YEAR}.md` in their research folder. Also exists as a stale Calgary-specific copy in the template: `template/reports/multipage/seo-best-practices-2026-calgary-castles.md`
+- **Needed:** Single source of truth at project root (e.g., `docs/seo-best-practices-2026.md`). Agents read and update this file. Clients don't get copies — they reference the shared one.
+- **Impact:** Best practices drift between clients; Calgary-specific content pollutes template
+- **Status:** CLOSEABLE — move file, update agent prompt to reference shared location
+
+---
+
+## Closing the Gaps — Priority Order
+
+| Priority | Gap | Effort | Cost/audit | Impact |
+|----------|-----|--------|-----------|--------|
+| 1 | Gap 8: Call build_audit.py in workflow | Low | $0 | Unlocks 15 data fields |
+| 2 | Gap 2: Competitor backlink scraping | Low | ~$0.20 | Unlocks backlink comparison |
+| 3 | Gap 1: DFS numeric keyword volumes | Low | ~$0.50 | Unlocks volume chart |
+| 4 | Gap 3: Backlink intersection/opportunities | Medium | ~$0.10 | Fills opportunities page |
+| 5 | Gap 7: Markdown → JSON auto-populator | High | $0 | Eliminates manual data entry |
+| 6 | Gap 9: Real Domain Rating | Low | $0 (Ahrefs MCP) | Fixes wrong DR values |
+| 7 | Gap 10: Best practices single source | Low | $0 | Stops file duplication |
+| 8 | Gap 6: Rank tracking in workflow | Low | ~$0.10 | Adds rank history chart |
+| 9 | Gap 5: Per-client GSC/GA4 | Medium | $0 | Unlocks SC + traffic sections |
+| 10 | Gap 4: Local SEO data gathering | High | $0-varies | Fills local SEO page |
