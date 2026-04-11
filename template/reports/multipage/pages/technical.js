@@ -642,7 +642,7 @@
         ? '<div class="grid gap-6 xl:grid-cols-2">' +
             '<div>' +
               '<h3 class="text-base font-bold text-slate-800 mb-4">Pages Missing Schema</h3>' +
-              '<div class="report-table-wrap">' +
+              '<div data-paginate class="report-table-wrap">' +
                 '<table class="report-table">' +
                   '<thead><tr><th>Page</th><th>Status</th></tr></thead>' +
                   '<tbody>' +
@@ -660,7 +660,7 @@
             '</div>' +
             '<div>' +
               '<h3 class="text-base font-bold text-slate-800 mb-4">Pages With Schema</h3>' +
-              '<div class="report-table-wrap">' +
+              '<div data-paginate class="report-table-wrap">' +
                 '<table class="report-table">' +
                   '<thead><tr><th>Page</th><th>Schema Types</th></tr></thead>' +
                   '<tbody>' +
