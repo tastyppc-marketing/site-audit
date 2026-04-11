@@ -1498,6 +1498,51 @@ function normalizeAuditData(data, dataDir) {
     fixes++;
   }
 
+  // ── 8. Local SEO — read local-seo.json if localSeo is empty/incomplete ──
+  const localSeoPath = path.join(dataDir, 'research', 'local-seo.json');
+  if (fs.existsSync(localSeoPath)) {
+    try {
+      const lsRaw = JSON.parse(fs.readFileSync(localSeoPath, 'utf-8'));
+      propagateApiErrors('local-seo.json', lsRaw);
+
+      const ls = data.localSeo || (data.localSeo = {});
+
+      // businessProfile: copy if not already set or if empty
+      const hasExistingProfile = ls.businessProfile && (
+        ls.businessProfile.name || ls.businessProfile.address || ls.businessProfile.phone
+      );
+      if (!hasExistingProfile && lsRaw.businessProfile) {
+        ls.businessProfile = lsRaw.businessProfile;
+        logInfo('Auto-populated localSeo.businessProfile', 'from local-seo.json (source: ' + (lsRaw.businessProfile.source || 'web-research') + ')');
+        fixes++;
+      }
+
+      // napConsistency: copy if not already set
+      if (!ls.napConsistency && lsRaw.napConsistency) {
+        ls.napConsistency = lsRaw.napConsistency;
+        logInfo('Auto-populated localSeo.napConsistency', 'from local-seo.json');
+        fixes++;
+      }
+
+      // citations: copy from napConsistency directoryListings if citations not set
+      if (!ls.citations && lsRaw.citations) {
+        ls.citations = lsRaw.citations;
+        logInfo('Auto-populated localSeo.citations', lsRaw.citations.totalFound + ' found, ' + (lsRaw.citations.missing || []).length + ' missing');
+        fixes++;
+      }
+
+      // accessNotes: set based on data source
+      if (!ls.accessNotes) {
+        ls.accessNotes = {
+          source: lsRaw.businessProfile && lsRaw.businessProfile.source || 'web-research',
+          note: lsRaw.businessProfile && lsRaw.businessProfile.note || 'Local SEO data gathered from public web research.',
+          gbpAccess: false,
+        };
+        fixes++;
+      }
+    } catch (err) { logWarning('Failed to parse local-seo.json', err.message); }
+  }
+
   // ── 1e. Sanitize AI tool references from client-facing data ──────────
   (function sanitizeAiReferences(obj, path2) {
     if (!obj || typeof obj !== 'object') return;

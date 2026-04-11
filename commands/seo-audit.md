@@ -717,9 +717,17 @@ node scripts/extract-text.js --limit 50
 ```
 Output: `seo/research/page-text-analysis.json`
 
-**Verify all 4 files exist before proceeding:**
+### Local SEO data (public web research, no auth needed):
 ```bash
-ls -lh seo/research/{pagespeed-data,domain-metrics,client-backlinks,keyword-volumes,page-text-analysis}.json seo/research/backlinks-*.json
+node scripts/gather-local-seo.js --domain {CLIENT_DOMAIN} --name "{CLIENT_NAME}" --location "{LOCATION}"
+```
+Output: `seo/research/local-seo.json`
+
+Note: This gathers NAP from the client website and checks directory presence (Yelp, BBB, Facebook, etc.). If the client has GBP API access configured in `client-config.json`, `build_audit.py` will use `BusinessProfileConnector` for full GBP data (reviews, ratings, hours) instead.
+
+**Verify all files exist before proceeding:**
+```bash
+ls -lh seo/research/{pagespeed-data,domain-metrics,client-backlinks,keyword-volumes,page-text-analysis,local-seo}.json seo/research/backlinks-*.json
 ```
 ## Step 5.6: Auto-Populate audit-data.json from Research
 

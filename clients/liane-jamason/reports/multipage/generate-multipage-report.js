@@ -394,7 +394,7 @@ function buildSearchIndex(data) {
           title: opp.domain || opp.url || opp.source || '',
           snippet: joinNonEmpty([
             opp.type ? `Type: ${opp.type}` : '',
-            opp.domainRating ? `DR: ${opp.domainRating}` : '',
+            opp.domainRating ? `Authority Score: ${opp.domainRating}` : '',
             opp.traffic ? `Traffic: ${opp.traffic}` : '',
             opp.reason || opp.description || '',
           ]),
@@ -422,13 +422,13 @@ function buildSearchIndex(data) {
           snippet: joinNonEmpty([
             comp.backlinks ? `Backlinks: ${comp.backlinks}` : '',
             comp.referringDomains ? `Referring domains: ${comp.referringDomains}` : '',
-            comp.domainRating ? `DR: ${comp.domainRating}` : '',
+            comp.domainRating ? `Authority Score: ${comp.domainRating}` : '',
           ]),
           terms: [
             comp.domain,
             'competitor',
             'backlink',
-            'domain rating',
+            'authority score',
             'referring domains',
           ],
         });
@@ -552,6 +552,51 @@ function normalizeAuditData(data, dataDir) {
     }
     if (status === 'failed') {
       logWarning(source + ' FAILED', 'All API calls failed — section will show error details in report');
+    }
+  }
+
+  // ── 0. Keywords — merge numeric volumes from keyword-volumes.json ──
+  if (Array.isArray(data.keywords) && data.keywords.length) {
+    const kvPath = path.join(dataDir, 'research', 'keyword-volumes.json');
+    if (fs.existsSync(kvPath)) {
+      try {
+        const kvRaw = JSON.parse(fs.readFileSync(kvPath, 'utf-8'));
+        propagateApiErrors('keyword-volumes.json', kvRaw);
+        const kvEntries = Array.isArray(kvRaw) ? kvRaw
+          : (Array.isArray(kvRaw.data) ? kvRaw.data : []);
+
+        if (kvEntries.length) {
+          const normalizeKeyword = function (value) {
+            return typeof value === 'string' ? value.trim().toLowerCase() : '';
+          };
+          const volumesByKeyword = new Map();
+
+          kvEntries.forEach(function (entry) {
+            const key = normalizeKeyword(entry && entry.keyword);
+            if (!key || volumesByKeyword.has(key)) return;
+            volumesByKeyword.set(key, entry);
+          });
+
+          let mergedKeywordVolumes = 0;
+          data.keywords.forEach(function (keyword) {
+            if (!keyword || typeof keyword !== 'object') return;
+            const match = volumesByKeyword.get(normalizeKeyword(keyword.keyword));
+            if (!match) return;
+
+            const nextVolume = match.volume != null ? match.volume
+              : (match.search_volume != null ? match.search_volume : null);
+            if (nextVolume == null || keyword.volume === nextVolume) return;
+
+            keyword.volume = nextVolume;
+            mergedKeywordVolumes++;
+          });
+
+          if (mergedKeywordVolumes) {
+            logInfo('Merged keyword volumes', mergedKeywordVolumes + ' keywords from keyword-volumes.json');
+            fixes++;
+          }
+        }
+      } catch (err) { logWarning('Failed to parse keyword-volumes.json', err.message); }
     }
   }
 
@@ -1093,6 +1138,87 @@ function normalizeAuditData(data, dataDir) {
     } catch (err) { logWarning('Failed to parse client-backlinks.json', err.message); }
   }
 
+  // ── 5e. Competitor backlinks — merge backlinks-*.json research files ──
+  const cdm = Array.isArray(backlinks.competitorDomainMetrics) ? backlinks.competitorDomainMetrics
+    : (backlinks.competitorDomainMetrics = []);
+  const boFromFiles = data.backlinkOpportunities || (data.backlinkOpportunities = {});
+  const boCompetitorsFromFiles = Array.isArray(boFromFiles.competitors) ? boFromFiles.competitors
+    : (boFromFiles.competitors = []);
+  const researchDir = path.join(dataDir, 'research');
+  if (fs.existsSync(researchDir)) {
+    const competitorBacklinkFiles = fs.readdirSync(researchDir).filter(function (name) {
+      return /^backlinks-.+\.json$/.test(name);
+    });
+
+    let mergedCompetitorBacklinkFiles = 0;
+    competitorBacklinkFiles.forEach(function (filename) {
+      const filePath = path.join(researchDir, filename);
+      try {
+        const cb = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+        propagateApiErrors(filename, cb);
+        const domain = cb.domain || filename.replace(/^backlinks-/, '').replace(/\.json$/, '');
+        if (!domain) return;
+
+        const rawLinks = Array.isArray(cb.backlinks) ? cb.backlinks
+          : (cb.data && Array.isArray(cb.data.backlinks)) ? cb.data.backlinks : [];
+        const rawDomains = Array.isArray(cb.referring_domains) ? cb.referring_domains
+          : (cb.data && Array.isArray(cb.data.referring_domains)) ? cb.data.referring_domains : [];
+
+        const backlinksCount = cb.totalBacklinks != null ? cb.totalBacklinks : rawLinks.length;
+        const referringDomainsCount = cb.referringDomains != null ? cb.referringDomains : rawDomains.length;
+
+        let dofollowRatio = null;
+        if (rawLinks.length) {
+          const dofollowLinks = rawLinks.filter(function (link) {
+            return link && (link.is_dofollow === true || link.isDofollow === true);
+          }).length;
+          dofollowRatio = dofollowLinks / rawLinks.length;
+        } else if (rawDomains.length) {
+          const totalDofollow = rawDomains.reduce(function (sum, entry) {
+            const value = entry && entry.dofollow != null ? Number(entry.dofollow) : 0;
+            return sum + (Number.isFinite(value) ? value : 0);
+          }, 0);
+          const totalDomainBacklinks = rawDomains.reduce(function (sum, entry) {
+            const value = entry && entry.backlinks != null ? Number(entry.backlinks) : 0;
+            return sum + (Number.isFinite(value) ? value : 0);
+          }, 0);
+          if (totalDomainBacklinks > 0) {
+            dofollowRatio = totalDofollow / totalDomainBacklinks;
+          }
+        }
+
+        let metricsEntry = cdm.find(function (entry) { return entry && entry.domain === domain; });
+        if (!metricsEntry) {
+          metricsEntry = { domain: domain };
+          cdm.push(metricsEntry);
+          mergedCompetitorBacklinkFiles++;
+        }
+        metricsEntry.backlinks = backlinksCount;
+        metricsEntry.totalBacklinks = backlinksCount;
+        metricsEntry.referringDomains = referringDomainsCount;
+        if (dofollowRatio != null) {
+          metricsEntry.dofollowRatio = dofollowRatio;
+        }
+
+        let competitorEntry = boCompetitorsFromFiles.find(function (entry) { return entry && entry.domain === domain; });
+        if (!competitorEntry) {
+          competitorEntry = { domain: domain };
+          boCompetitorsFromFiles.push(competitorEntry);
+        }
+        competitorEntry.backlinks = backlinksCount;
+        competitorEntry.referringDomains = referringDomainsCount;
+        if (dofollowRatio != null) {
+          competitorEntry.dofollowRatio = dofollowRatio;
+        }
+      } catch (err) { logWarning('Failed to parse ' + filename, err.message); }
+    });
+
+    if (mergedCompetitorBacklinkFiles) {
+      logInfo('Merged competitor backlink files', mergedCompetitorBacklinkFiles + ' domains from backlinks-*.json');
+      fixes++;
+    }
+  }
+
   // ── 6. Domain metrics comparison (competitors page) ──────────────────
   // Renderer reads data.domainMetrics = { client: { domain, domainRating,
   // organicTraffic, organicKeywords, referringDomains, backlinks, trafficValue },
@@ -1342,10 +1468,10 @@ function normalizeAuditData(data, dataDir) {
     fixes++;
   }
 
-  if (!hasKeyStat('Domain Rating') && data.domainMetrics && data.domainMetrics.client && data.domainMetrics.client.domainRating != null) {
+  if (!hasKeyStat('Authority Score') && data.domainMetrics && data.domainMetrics.client && data.domainMetrics.client.domainRating != null) {
     var dr = data.domainMetrics.client.domainRating;
     appendKeyStat({
-      label: 'Domain Rating',
+      label: 'Authority Score',
       value: String(dr),
       severity: dr >= 40 ? 'green' : (dr >= 20 ? 'yellow' : 'red'),
     });
@@ -1370,6 +1496,51 @@ function normalizeAuditData(data, dataDir) {
       severity: 'green',
     });
     fixes++;
+  }
+
+  // ── 8. Local SEO — read local-seo.json if localSeo is empty/incomplete ──
+  const localSeoPath = path.join(dataDir, 'research', 'local-seo.json');
+  if (fs.existsSync(localSeoPath)) {
+    try {
+      const lsRaw = JSON.parse(fs.readFileSync(localSeoPath, 'utf-8'));
+      propagateApiErrors('local-seo.json', lsRaw);
+
+      const ls = data.localSeo || (data.localSeo = {});
+
+      // businessProfile: copy if not already set or if empty
+      const hasExistingProfile = ls.businessProfile && (
+        ls.businessProfile.name || ls.businessProfile.address || ls.businessProfile.phone
+      );
+      if (!hasExistingProfile && lsRaw.businessProfile) {
+        ls.businessProfile = lsRaw.businessProfile;
+        logInfo('Auto-populated localSeo.businessProfile', 'from local-seo.json (source: ' + (lsRaw.businessProfile.source || 'web-research') + ')');
+        fixes++;
+      }
+
+      // napConsistency: copy if not already set
+      if (!ls.napConsistency && lsRaw.napConsistency) {
+        ls.napConsistency = lsRaw.napConsistency;
+        logInfo('Auto-populated localSeo.napConsistency', 'from local-seo.json');
+        fixes++;
+      }
+
+      // citations: copy from napConsistency directoryListings if citations not set
+      if (!ls.citations && lsRaw.citations) {
+        ls.citations = lsRaw.citations;
+        logInfo('Auto-populated localSeo.citations', lsRaw.citations.totalFound + ' found, ' + (lsRaw.citations.missing || []).length + ' missing');
+        fixes++;
+      }
+
+      // accessNotes: set based on data source
+      if (!ls.accessNotes) {
+        ls.accessNotes = {
+          source: lsRaw.businessProfile && lsRaw.businessProfile.source || 'web-research',
+          note: lsRaw.businessProfile && lsRaw.businessProfile.note || 'Local SEO data gathered from public web research.',
+          gbpAccess: false,
+        };
+        fixes++;
+      }
+    } catch (err) { logWarning('Failed to parse local-seo.json', err.message); }
   }
 
   // ── 1e. Sanitize AI tool references from client-facing data ──────────

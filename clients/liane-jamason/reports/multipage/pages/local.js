@@ -419,7 +419,11 @@
       if (!container) return;
 
       if (!hasMeaningfulBusinessProfile(profile)) {
-        container.innerHTML = emptyStateHTML('No Google Business Profile data was collected for this client. GBP access is required to populate this section.');
+        var hasWebResearch = profile && profile.source === 'web-research';
+        var bpMsg = hasWebResearch
+          ? 'Business profile data from public web research. For detailed analytics (reviews, ratings, hours), grant Google Business Profile API access in client-config.json.'
+          : 'No business profile data was collected. Run gather-local-seo.js to gather public data, or grant GBP API access in client-config.json.';
+        container.innerHTML = emptyStateHTML(bpMsg);
         return;
       }
 
@@ -489,7 +493,7 @@
       if (!container) return;
 
       if (!rows.length) {
-        container.innerHTML = emptyStateHTML();
+        container.innerHTML = emptyStateHTML('Local performance tracking requires Google Business Profile API access. Configure in client-config.json.');
         return;
       }
 
@@ -623,7 +627,12 @@
       if (!container) return;
 
       if (!hasCitationData(citations)) {
-        container.innerHTML = emptyStateHTML();
+        var localSeoSrc = getLocalSeo(window.AUDIT_DATA || {});
+        var napData = localSeoSrc && localSeoSrc.napConsistency;
+        var citMsg = napData
+          ? 'Directory listings gathered from public web research. Full citation audit requires GBP API access.'
+          : 'No citation data available. Run gather-local-seo.js to collect directory presence data.';
+        container.innerHTML = emptyStateHTML(citMsg);
         return;
       }
 
@@ -689,7 +698,7 @@
       if (!container) return;
 
       if (!rows.length) {
-        container.innerHTML = emptyStateHTML();
+        container.innerHTML = emptyStateHTML('Map pack tracking data has not been collected. This requires DataForSEO local pack API calls.');
         return;
       }
 
