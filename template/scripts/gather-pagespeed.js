@@ -19,7 +19,7 @@
  *   gatheredAt: ISO timestamp
  * }
  *
- * Rate limit: Google PSI allows ~25 requests per 100 seconds (public, no key).
+ * Rate limit: Google PSI allows ~25 requests per 100 seconds (public) or 25,000/day (with key).
  * We make 2 calls per URL (mobile + desktop). For 5 URLs = 10 calls — well within limit.
  * Add 3-second delay between URLs as a safety margin.
  */
@@ -29,6 +29,7 @@ const path = require('path');
 const https = require('https');
 
 const PSI_BASE = 'https://www.googleapis.com/pagespeedonline/v5/runPagespeed';
+const PSI_API_KEY = process.env.PAGESPEED_API_KEY || process.env.GOOGLE_API_KEY || '';
 
 const errors = [];
 
@@ -81,7 +82,8 @@ function domainFromUrl(url) {
 }
 
 async function fetchPSI(url, strategy, domain) {
-  const apiUrl = `${PSI_BASE}?url=${encodeURIComponent(url)}&strategy=${strategy}&category=performance`;
+  const keyParam = PSI_API_KEY ? `&key=${PSI_API_KEY}` : '';
+  const apiUrl = `${PSI_BASE}?url=${encodeURIComponent(url)}&strategy=${strategy}&category=performance${keyParam}`;
   console.error(`  Fetching PSI: ${url} [${strategy}]...`);
   try {
     const { statusCode, body } = await fetchJSON(apiUrl);

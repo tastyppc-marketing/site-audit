@@ -621,6 +621,60 @@ function normalizeAuditData(data, dataDir) {
           logInfo('Auto-populated lighthouseResults', `${expanded.length} entries from pagespeed-data.json`);
           fixes++;
         }
+        // Also populate coreWebVitals from PSI client data
+        if (!tech.coreWebVitals || (tech.coreWebVitals.mobile && tech.coreWebVitals.mobile.performanceScore == null)) {
+          const clientEntry = clientPages[0];
+          if (clientEntry && (clientEntry.mobile || clientEntry.desktop)) {
+            tech.coreWebVitals = {};
+            ['mobile', 'desktop'].forEach(function (device) {
+              const s = clientEntry[device];
+              if (!s) return;
+              tech.coreWebVitals[device] = {
+                performanceScore: s.performanceScore != null ? s.performanceScore : s.performance_score,
+                score: s.performanceScore != null ? s.performanceScore : s.performance_score,
+                lcp: s.lcp, fcp: s.fcp, cls: s.cls, inp: s.inp, ttfb: s.ttfb,
+                speedIndex: s.speedIndex != null ? s.speedIndex : s.speed_index,
+                opportunities: s.opportunities || [],
+              };
+            });
+            logInfo('Auto-populated coreWebVitals', 'from pagespeed-data.json client entry');
+            fixes++;
+          }
+        }
+
+        // Also populate pageSpeedComparison from all PSI domains
+        const allPsiDomains = [].concat(clientPages, (psi.data && Array.isArray(psi.data.competitors)) ? psi.data.competitors : []);
+        if (allPsiDomains.length > 1 && (!data.pageSpeedComparison || data.pageSpeedComparison.every(function (e) { return e.score == null; }))) {
+          data.pageSpeedComparison = allPsiDomains.map(function (entry) {
+            const mob = entry.mobile ? (entry.mobile.performanceScore != null ? entry.mobile.performanceScore : entry.mobile.performance_score) : null;
+            const desk = entry.desktop ? (entry.desktop.performanceScore != null ? entry.desktop.performanceScore : entry.desktop.performance_score) : null;
+            const scores = [mob, desk].filter(function (s) { return s != null; });
+            let avg = scores.length ? scores.reduce(function (a, b) { return a + b; }, 0) / scores.length : null;
+            if (avg != null && avg <= 1) avg = Math.round(avg * 100);
+            const isClient = clientPages.indexOf(entry) !== -1;
+            return { name: (entry.domain || '') + (isClient ? ' (Client)' : ''), score: avg };
+          });
+          logInfo('Auto-populated pageSpeedComparison', allPsiDomains.length + ' domains from pagespeed-data.json');
+          fixes++;
+        }
+
+        // Also populate competitorAnalysis.pageSpeedComparison
+        if (allPsiDomains.length > 1) {
+          const ca = data.competitorAnalysis || (data.competitorAnalysis = {});
+          if (!ca.pageSpeedComparison || ca.pageSpeedComparison.every(function (e) { return e.mobileScore == null; })) {
+            ca.pageSpeedComparison = allPsiDomains.map(function (entry) {
+              const isClient = clientPages.indexOf(entry) !== -1;
+              return {
+                domain: entry.domain || '',
+                mobileScore: entry.mobile ? (entry.mobile.performanceScore != null ? entry.mobile.performanceScore : entry.mobile.performance_score) : null,
+                desktopScore: entry.desktop ? (entry.desktop.performanceScore != null ? entry.desktop.performanceScore : entry.desktop.performance_score) : null,
+                isClient: isClient,
+              };
+            });
+            logInfo('Auto-populated competitorAnalysis.pageSpeedComparison', allPsiDomains.length + ' domains');
+            fixes++;
+          }
+        }
       } catch (_) { /* ignore parse errors */ }
     }
   }
@@ -936,18 +990,34 @@ function normalizeAuditData(data, dataDir) {
   // Data pipelines put this in backlinks.competitorDomainMetrics or
   // competitorAnalysis.domainMetricsComparison, or research/domain-metrics.json.
   if (!data.domainMetrics || (!data.domainMetrics.client && !data.domainMetrics.competitors)) {
-    // Try backlinks.competitorDomainMetrics first (most common)
     let sourceEntries = null;
     const bl = data.backlinks || {};
     const ca = data.competitorAnalysis || {};
 
-    if (Array.isArray(bl.competitorDomainMetrics) && bl.competitorDomainMetrics.length) {
+    // Prefer research/domain-metrics.json when it has API data (gatheredAt timestamp)
+    // over web-research estimates in backlinks.competitorDomainMetrics
+    const dmPath = path.join(dataDir, 'research', 'domain-metrics.json');
+    if (fs.existsSync(dmPath)) {
+      try {
+        const dmFile = JSON.parse(fs.readFileSync(dmPath, 'utf-8'));
+        if (dmFile.gatheredAt) {
+          const entries = Array.isArray(dmFile.data) ? dmFile.data : (Array.isArray(dmFile) ? dmFile : []);
+          if (entries.length) {
+            sourceEntries = entries;
+            logInfo('Using domain-metrics.json (API data)', entries.length + ' domains');
+          }
+        }
+      } catch (_) { /* ignore */ }
+    }
+
+    // Fall back to backlinks.competitorDomainMetrics or competitorAnalysis
+    if (!sourceEntries && Array.isArray(bl.competitorDomainMetrics) && bl.competitorDomainMetrics.length) {
       sourceEntries = bl.competitorDomainMetrics;
-    } else if (Array.isArray(ca.domainMetricsComparison) && ca.domainMetricsComparison.length) {
+    } else if (!sourceEntries && Array.isArray(ca.domainMetricsComparison) && ca.domainMetricsComparison.length) {
       sourceEntries = ca.domainMetricsComparison;
     }
 
-    // Fallback: read from research/domain-metrics.json
+    // Final fallback: read from research/domain-metrics.json even without gatheredAt
     if (!sourceEntries) {
       const dmPath = path.join(dataDir, 'research', 'domain-metrics.json');
       if (fs.existsSync(dmPath)) {

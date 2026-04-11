@@ -1,0 +1,62 @@
+{
+  "data": [
+    {
+      "domain": "lianejamason.com",
+      "domainRating": 174,
+      "referringDomains": 259,
+      "backlinks": 384,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": 7,
+      "isClient": true
+    },
+    {
+      "domain": "avalongrouptampabay.com",
+      "domainRating": 144,
+      "referringDomains": 159,
+      "backlinks": 306,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": 1,
+      "isClient": false
+    },
+    {
+      "domain": "eaganluxury.com",
+      "domainRating": 245,
+      "referringDomains": 121,
+      "backlinks": 261,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": 0,
+      "isClient": false
+    },
+    {
+      "domain": "smithandassociates.com",
+      "domainRating": 320,
+      "referringDomains": 1125,
+      "backlinks": 13327,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": 3137,
+      "isClient": false
+    },
+    {
+      "domain": "stpete.pro",
+      "domainRating": 80,
+      "referringDomains": 95,
+      "backlinks": 147,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": 24,
+      "isClient": false
+    }
+  ],
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-04-09T14:26:56.880Z"
+}

@@ -1,0 +1,312 @@
+{
+  "data": {
+    "client": [
+      {
+        "url": "https://www.lianejamason.com",
+        "domain": "lianejamason.com",
+        "mobile": {
+          "performanceScore": 0.64,
+          "lcp": 10914.936884444141,
+          "fcp": 3151.150056408274,
+          "cls": 0.001161,
+          "inp": null,
+          "ttfb": 4,
+          "speedIndex": 5497.203103893202,
+          "opportunities": [
+            {
+              "title": "Minify JavaScript",
+              "id": "unminified-javascript",
+              "savings": 150
+            },
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 300
+            },
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 1530
+            }
+          ]
+        },
+        "desktop": {
+          "performanceScore": 0.94,
+          "lcp": 1466.080345538603,
+          "fcp": 681.255810469421,
+          "cls": 0.004865,
+          "inp": null,
+          "ttfb": 3,
+          "speedIndex": 1141.4367596496536,
+          "opportunities": [
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 10
+            },
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 40
+            }
+          ]
+        }
+      }
+    ],
+    "competitors": [
+      {
+        "url": "https://avalongrouptampabay.com",
+        "domain": "avalongrouptampabay.com",
+        "mobile": {
+          "performanceScore": 0.45,
+          "lcp": 11637.182625256079,
+          "fcp": 4416.069277862481,
+          "cls": 0.000182,
+          "inp": null,
+          "ttfb": 4,
+          "speedIndex": 6992.117618170877,
+          "opportunities": [
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 1800
+            },
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 600
+            }
+          ]
+        },
+        "desktop": {
+          "performanceScore": 0.8,
+          "lcp": 1982.2288568594463,
+          "fcp": 589.014199237972,
+          "cls": 0,
+          "inp": null,
+          "ttfb": 5,
+          "speedIndex": 1561.6268297795891,
+          "opportunities": [
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 80
+            },
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 200
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://eaganluxury.com",
+        "domain": "eaganluxury.com",
+        "mobile": {
+          "performanceScore": 0.4,
+          "lcp": 11970.23251056144,
+          "fcp": 6094.512828168907,
+          "cls": 0.000418,
+          "inp": null,
+          "ttfb": 4,
+          "speedIndex": 7990.596808432701,
+          "opportunities": [
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 150
+            },
+            {
+              "title": "Avoid multiple page redirects",
+              "id": "redirects",
+              "savings": 780
+            },
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 2250
+            }
+          ]
+        },
+        "desktop": {
+          "performanceScore": 0.73,
+          "lcp": 722.0416625691171,
+          "fcp": 513.0166650276468,
+          "cls": 0.000054999999999999995,
+          "inp": null,
+          "ttfb": 4,
+          "speedIndex": 1276.1944802770358,
+          "opportunities": [
+            {
+              "title": "Avoid multiple page redirects",
+              "id": "redirects",
+              "savings": 230
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://smithandassociates.com",
+        "domain": "smithandassociates.com",
+        "mobile": {
+          "performanceScore": 0.61,
+          "lcp": 3485.0060905191613,
+          "fcp": 3032.3356049480703,
+          "cls": 0.000629,
+          "inp": null,
+          "ttfb": 11,
+          "speedIndex": 3032.3356049480703,
+          "opportunities": [
+            {
+              "title": "Avoid multiple page redirects",
+              "id": "redirects",
+              "savings": 780
+            }
+          ]
+        },
+        "desktop": {
+          "performanceScore": 0.69,
+          "lcp": 1141.5067697091517,
+          "fcp": 813.6680700348803,
+          "cls": 0.002691,
+          "inp": null,
+          "ttfb": 39,
+          "speedIndex": 1048.546973709047,
+          "opportunities": [
+            {
+              "title": "Avoid multiple page redirects",
+              "id": "redirects",
+              "savings": 230
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://stpete.pro",
+        "domain": "stpete.pro",
+        "mobile": {
+          "performanceScore": 0.68,
+          "lcp": 12265.041820774699,
+          "fcp": 3032.169352114329,
+          "cls": 0.000185,
+          "inp": null,
+          "ttfb": 22,
+          "speedIndex": 3352.0633668492874,
+          "opportunities": [
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 1050
+            },
+            {
+              "title": "Avoid multiple page redirects",
+              "id": "redirects",
+              "savings": 780
+            }
+          ]
+        },
+        "desktop": {
+          "performanceScore": 0.83,
+          "lcp": 1711.0114438925475,
+          "fcp": 821.0656057779319,
+          "cls": 0.055150000000000005,
+          "inp": null,
+          "ttfb": 22,
+          "speedIndex": 1188.7109937155712,
+          "opportunities": [
+            {
+              "title": "Avoid multiple page redirects",
+              "id": "redirects",
+              "savings": 230
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "pageSpeedComparison": [
+    {
+      "domain": "lianejamason.com",
+      "mobileScore": 0.64,
+      "desktopScore": 0.94,
+      "isClient": true
+    },
+    {
+      "domain": "avalongrouptampabay.com",
+      "mobileScore": 0.45,
+      "desktopScore": 0.8,
+      "isClient": false
+    },
+    {
+      "domain": "eaganluxury.com",
+      "mobileScore": 0.4,
+      "desktopScore": 0.73,
+      "isClient": false
+    },
+    {
+      "domain": "smithandassociates.com",
+      "mobileScore": 0.61,
+      "desktopScore": 0.69,
+      "isClient": false
+    },
+    {
+      "domain": "stpete.pro",
+      "mobileScore": 0.68,
+      "desktopScore": 0.83,
+      "isClient": false
+    }
+  ],
+  "coreWebVitals": {
+    "mobile": {
+      "performanceScore": 0.64,
+      "lcp": 10914.936884444141,
+      "fcp": 3151.150056408274,
+      "cls": 0.001161,
+      "inp": null,
+      "ttfb": 4,
+      "speedIndex": 5497.203103893202,
+      "opportunities": [
+        {
+          "title": "Minify JavaScript",
+          "id": "unminified-javascript",
+          "savings": 150
+        },
+        {
+          "title": "Reduce unused CSS",
+          "id": "unused-css-rules",
+          "savings": 300
+        },
+        {
+          "title": "Reduce unused JavaScript",
+          "id": "unused-javascript",
+          "savings": 1530
+        }
+      ]
+    },
+    "desktop": {
+      "performanceScore": 0.94,
+      "lcp": 1466.080345538603,
+      "fcp": 681.255810469421,
+      "cls": 0.004865,
+      "inp": null,
+      "ttfb": 3,
+      "speedIndex": 1141.4367596496536,
+      "opportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "id": "unused-javascript",
+          "savings": 10
+        },
+        {
+          "title": "Reduce unused CSS",
+          "id": "unused-css-rules",
+          "savings": 40
+        }
+      ]
+    }
+  },
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-04-09T14:26:41.197Z"
+}
