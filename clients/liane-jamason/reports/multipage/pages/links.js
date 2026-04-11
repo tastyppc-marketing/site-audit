@@ -153,7 +153,7 @@
     var cards = clusters.map(function (cluster) {
       var spokeCount = cluster.spokeCount != null ? cluster.spokeCount : cluster.spokes.length;
       var width = maxSpokeCount > 0 ? Math.max((spokeCount / maxSpokeCount) * 100, 10) : 0;
-      var visibleSpokes = cluster.spokes.slice(0, 10);
+      var visibleSpokes = cluster.spokes.slice(0, 5);
       var remaining = cluster.spokes.length - visibleSpokes.length;
       var spokeHtml = '';
 
@@ -164,7 +164,13 @@
           '</span>';
         }).join('');
         if (remaining > 0) {
-          spokeHtml += '<span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700">+' + _formatNumber(remaining) + ' more</span>';
+          var hiddenSpokes = cluster.spokes.slice(5).map(function (spoke) {
+            return '<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-700 break-all" title="' + _esc(spoke) + '">' +
+              _esc(_shortUrl(spoke, 48)) +
+            '</span>';
+          }).join('');
+          spokeHtml += '<button class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-xs font-medium text-blue-700 cursor-pointer border-0" data-expand data-count="' + remaining + '">+' + _formatNumber(remaining) + ' more</button>' +
+            '<div class="hidden-spokes flex flex-wrap gap-2 mt-2" style="display:none">' + hiddenSpokes + '</div>';
         }
       } else {
         spokeHtml = '<div class="text-sm text-slate-500">Spoke count supplied without individual spoke URLs.</div>';
@@ -263,16 +269,27 @@
           '</div>' +
           '<div class="text-sm text-slate-500">Total: <span class="font-bold text-slate-800">' + _formatNumber(depth.unreachable.length) + '</span></div>' +
         '</div>' +
-        '<div class="mt-4 flex flex-wrap gap-2">' +
-          depth.unreachable.slice(0, 16).map(function (url) {
-            return '<span class="inline-flex items-center rounded-full bg-amber-50 px-3 py-1 text-xs font-medium text-amber-800 break-all" title="' + _esc(url) + '">' +
-              _esc(_shortUrl(url, 48)) +
-            '</span>';
-          }).join('') +
-          (depth.unreachable.length > 16
-            ? '<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-700">+' + _formatNumber(depth.unreachable.length - 16) + ' more</span>'
-            : '') +
-        '</div>' +
+        (function() {
+          var _visUrls = depth.unreachable.slice(0, 10);
+          var _remUrls = depth.unreachable.slice(10);
+          var _uHtml = '<div class="mt-4 flex flex-wrap gap-2">' +
+            _visUrls.map(function (url) {
+              return '<span class="inline-flex items-center rounded-full bg-amber-50 px-3 py-1 text-xs font-medium text-amber-800 break-all" title="' + _esc(url) + '">' +
+                _esc(_shortUrl(url, 48)) +
+              '</span>';
+            }).join('');
+          if (_remUrls.length > 0) {
+            var _hiddenUrlBadges = _remUrls.map(function (url) {
+              return '<span class="inline-flex items-center rounded-full bg-amber-50 px-3 py-1 text-xs font-medium text-amber-800 break-all" title="' + _esc(url) + '">' +
+                _esc(_shortUrl(url, 48)) +
+              '</span>';
+            }).join('');
+            _uHtml += '<button class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-xs font-medium text-slate-700 cursor-pointer border-0" data-expand data-count="' + _remUrls.length + '">+' + _formatNumber(_remUrls.length) + ' more</button>' +
+              '<div class="hidden-urls flex flex-wrap gap-2 mt-2" style="display:none">' + _hiddenUrlBadges + '</div>';
+          }
+          _uHtml += '</div>';
+          return _uHtml;
+        })() +
       '</div>';
     } else if (hasDepthData) {
       html += '<div class="bg-white border border-slate-200 rounded-xl p-6 mt-6">' +

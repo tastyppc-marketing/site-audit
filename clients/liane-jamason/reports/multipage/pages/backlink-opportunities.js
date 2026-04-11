@@ -193,7 +193,7 @@
     // Stat cards
     var html = '<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">';
     html += '<div class="stat-card" style="border-left:4px solid ' + drColor + '">' +
-      '<div class="stat-label">Domain Rating</div>' +
+      '<div class="stat-label">Authority Score</div>' +
       '<div class="stat-value">' + dr + '</div>' +
     '</div>';
     html += '<div class="stat-card" style="border-left:4px solid #22c55e">' +
@@ -286,7 +286,7 @@
 
     html += '<div class="mt-6">' +
       '<h3 class="text-base font-bold text-slate-800 mb-1">Backlink Inventory</h3>' +
-      '<p class="text-sm text-slate-500 mb-4">Every external page linking to your site, grouped by referring domain and sorted by authority (Domain Rating). Click <strong>Show backlinks</strong> to expand domains with multiple links.</p>' +
+      '<p class="text-sm text-slate-500 mb-4">Every external page linking to your site, grouped by referring domain and sorted by authority (Authority Score). Click <strong>Show backlinks</strong> to expand domains with multiple links.</p>' +
       '<div data-paginate>' +
       '<div class="report-table-wrap">' +
         '<table class="report-table report-table-sticky">' +
@@ -469,10 +469,10 @@
           '<div>' +
             '<div style="' + titleStyle + '">Your Backlink Profile</div>' +
             '<p style="' + descStyle + '">' +
-              'A snapshot of your current backlink authority: Domain Rating, referring domain count, total backlinks, and dofollow ratio. Below the stats is your <strong>Backlink Inventory</strong> &mdash; every known external link grouped by the referring domain, sorted by authority. Click "Show backlinks" on any domain to see each individual link URL and anchor text.' +
+              'A snapshot of your current backlink authority: Authority Score, referring domain count, total backlinks, and dofollow ratio. Below the stats is your <strong>Backlink Inventory</strong> &mdash; every known external link grouped by the referring domain, sorted by authority. Click "Show backlinks" on any domain to see each individual link URL and anchor text.' +
             '</p>' +
             '<p style="' + tipStyle + '">' +
-              '<strong>Why it matters:</strong> This is your baseline. Before chasing new links, understand what you already have. Look for low-DR or spammy domains that might need disavowed, and high-DR domains where you could pursue additional links from the same source.' +
+              '<strong>Why it matters:</strong> This is your baseline. Before chasing new links, understand what you already have. Look for low-authority or spammy domains that might need disavowed, and high-authority domains where you could pursue additional links from the same source.' +
             '</p>' +
           '</div>' +
         '</div>' +
@@ -497,7 +497,7 @@
           '<div>' +
             '<div style="' + titleStyle + '">Top Opportunities</div>' +
             '<p style="' + descStyle + '">' +
-              'The 10 highest-value domains to target, ranked by a combined score of domain authority and competitor overlap. Each row shows the domain, its Domain Rating, difficulty level (easy/medium/hard), and how many competitors already have it. Click the expand button on any row to see exactly which competitors have the link and a suggested action for acquiring it.' +
+              'The 10 highest-value domains to target, ranked by a combined score of domain authority and competitor overlap. Each row shows the domain, its Authority Score, difficulty level (easy/medium/hard), and how many competitors already have it. Click the expand button on any row to see exactly which competitors have the link and a suggested action for acquiring it.' +
             '</p>' +
             '<p style="' + tipStyle + '">' +
               '<strong>How to use it:</strong> Work through this list top to bottom. "Easy" items (directories, listings, social profiles) can often be completed in 15&ndash;20 minutes each. "Medium" items require outreach emails. "Hard" items are earned media that take time but deliver the highest authority.' +
@@ -511,7 +511,7 @@
           '<div>' +
             '<div style="' + titleStyle + '">Backlink Intelligence</div>' +
             '<p style="' + descStyle + '">' +
-              'A deep dive into the quality and character of every competitor\'s link profile. Includes: <strong>Type breakdown</strong> (what kinds of sites link to each competitor &mdash; directories, press, social, industry, blogs, etc.), <strong>local relevance</strong> (' + esc(_localLabel) + '-specific links carry extra local ranking weight), <strong>dofollow ratios</strong> (a healthy profile is 60&ndash;80% dofollow), <strong>Domain Rating distribution</strong> (the authority spread of linking sites), <strong>link velocity</strong> (who is actively building links right now), and a <strong>profile similarity heatmap</strong> that shows which competitors share the most linking domains. Click any cell in the heatmap to compare two profiles side by side.' +
+              'A deep dive into the quality and character of every competitor\'s link profile. Includes: <strong>Type breakdown</strong> (what kinds of sites link to each competitor &mdash; directories, press, social, industry, blogs, etc.), <strong>local relevance</strong> (' + esc(_localLabel) + '-specific links carry extra local ranking weight), <strong>dofollow ratios</strong> (a healthy profile is 60&ndash;80% dofollow), <strong>Authority Score distribution</strong> (the authority spread of linking sites), <strong>link velocity</strong> (who is actively building links right now), and a <strong>profile similarity heatmap</strong> that shows which competitors share the most linking domains. Click any cell in the heatmap to compare two profiles side by side.' +
             '</p>' +
             '<p style="' + tipStyle + '">' +
               '<strong>How to use it:</strong> If a competitor has high link velocity (20+ new domains/month), they have an active campaign &mdash; study their profile to replicate their strategy. Use the type breakdown to identify categories where you have zero presence (e.g., no press links) and prioritize those gaps.' +
@@ -525,7 +525,7 @@
           '<div>' +
             '<div style="' + titleStyle + '">Detailed Analysis</div>' +
             '<p style="' + descStyle + '">' +
-              'The complete dataset with three switchable views: <strong>Opportunities</strong> is your working task list &mdash; every referring domain scored and filterable by type, difficulty, DR range, competitor overlap, local relevance, and more. <strong>By Competitor</strong> expands each competitor into a collapsible panel showing every referring domain they have and whether you have it too. <strong>Matrix</strong> is the bird\'s-eye view &mdash; toggle competitors on/off, switch between "all domains," "your gaps," and "unique to selected" to find patterns.' +
+              'The complete dataset with three switchable views: <strong>Opportunities</strong> is your working task list &mdash; every referring domain scored and filterable by type, difficulty, authority range, competitor overlap, local relevance, and more. <strong>By Competitor</strong> expands each competitor into a collapsible panel showing every referring domain they have and whether you have it too. <strong>Matrix</strong> is the bird\'s-eye view &mdash; toggle competitors on/off, switch between "all domains," "your gaps," and "unique to selected" to find patterns.' +
             '</p>' +
             '<p style="' + tipStyle + '">' +
               '<strong>How to use it:</strong> Use the Opportunities view as your link-building checklist. Filter by "easy" + "local" for the fastest wins. Export the filtered list as your task list and work through it by score. Use the Matrix view when you want to study overlap patterns &mdash; domains that are unique to a single top-performing competitor often reveal their secret weapon.' +
@@ -720,7 +720,7 @@
                 '<div style="font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:#64748b;margin-bottom:6px">Suggested Action</div>' +
                 '<div style="font-size:0.82rem;color:#475569;line-height:1.5">' + actionHint + '</div>' +
                 '<div style="margin-top:8px;font-size:0.78rem">' +
-                  '<span style="color:#64748b">Domain Rating:</span> <strong style="color:var(--navy-800)">' + opp.dr + '/100</strong>' +
+                  '<span style="color:#64748b">Authority Score:</span> <strong style="color:var(--navy-800)">' + opp.dr + '</strong>' +
                   '<span style="color:#64748b;margin-left:12px">Score:</span> <strong style="color:var(--navy-800)">' + opp.score + '/100</strong>' +
                 '</div>' +
               '</div>' +
@@ -838,14 +838,14 @@
         '<div style="font-size:0.75rem;font-weight:700;color:' + labelColor + ';text-transform:uppercase;letter-spacing:0.05em;margin-bottom:8px">' + esc(label) + ' (' + list.length + ')</div>';
       var showCount = 5;
       for (var i = 0; i < Math.min(list.length, showCount); i++) {
-        col += '<div style="font-size:0.78rem;color:#475569;padding:3px 0;border-bottom:1px solid #f1f5f9">' + esc(list[i].domain) + ' <span style="color:#94a3b8">DR ' + list[i].dr + '</span></div>';
+        col += '<div style="font-size:0.78rem;color:#475569;padding:3px 0;border-bottom:1px solid #f1f5f9">' + esc(list[i].domain) + ' <span style="color:#94a3b8">AS ' + list[i].dr + '</span></div>';
       }
       if (list.length > showCount) {
         var moreId = 'sim-more-' + colId;
         var btnId = 'sim-btn-' + colId;
         col += '<div id="' + moreId + '" style="display:none">';
         for (var j = showCount; j < list.length; j++) {
-          col += '<div style="font-size:0.78rem;color:#475569;padding:3px 0;border-bottom:1px solid #f1f5f9">' + esc(list[j].domain) + ' <span style="color:#94a3b8">DR ' + list[j].dr + '</span></div>';
+          col += '<div style="font-size:0.78rem;color:#475569;padding:3px 0;border-bottom:1px solid #f1f5f9">' + esc(list[j].domain) + ' <span style="color:#94a3b8">AS ' + list[j].dr + '</span></div>';
         }
         col += '<a href="javascript:void(0)" onclick="document.getElementById(\'' + moreId + '\').style.display=\'none\';document.getElementById(\'' + btnId + '\').style.display=\'block\'" style="font-size:0.72rem;color:var(--accent-blue);text-decoration:none;display:block;padding-top:4px">show less</a>';
         col += '</div>';
@@ -863,12 +863,12 @@
     html += '<div style="font-size:0.75rem;font-weight:700;color:var(--sev-low);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:8px">Shared (' + shared.length + ')</div>';
     var showS = shared.slice(0, 5);
     for (var si = 0; si < showS.length; si++) {
-      html += '<div style="font-size:0.78rem;color:#475569;padding:3px 0;border-bottom:1px solid #f1f5f9">' + esc(showS[si].domain) + ' <span style="color:#94a3b8">DR ' + showS[si].dr + '</span></div>';
+      html += '<div style="font-size:0.78rem;color:#475569;padding:3px 0;border-bottom:1px solid #f1f5f9">' + esc(showS[si].domain) + ' <span style="color:#94a3b8">AS ' + showS[si].dr + '</span></div>';
     }
     if (shared.length > 5) {
       html += '<div id="sim-more-s" style="display:none">';
       for (var sj = 5; sj < shared.length; sj++) {
-        html += '<div style="font-size:0.78rem;color:#475569;padding:3px 0;border-bottom:1px solid #f1f5f9">' + esc(shared[sj].domain) + ' <span style="color:#94a3b8">DR ' + shared[sj].dr + '</span></div>';
+        html += '<div style="font-size:0.78rem;color:#475569;padding:3px 0;border-bottom:1px solid #f1f5f9">' + esc(shared[sj].domain) + ' <span style="color:#94a3b8">AS ' + shared[sj].dr + '</span></div>';
       }
       html += '<a href="javascript:void(0)" onclick="document.getElementById(\'sim-more-s\').style.display=\'none\';document.getElementById(\'sim-btn-s\').style.display=\'block\'" style="font-size:0.72rem;color:var(--accent-blue);text-decoration:none;display:block;padding-top:4px">show less</a>';
       html += '</div>';
@@ -939,10 +939,10 @@
     }
     html += '</div>';
 
-    // --- 3d: DR Distribution ---
+    // --- 3d: Authority Score Distribution ---
     html += '<div style="margin-bottom:2.5rem">' +
-      '<h3 style="font-size:1.1rem;font-weight:700;color:var(--navy-800);margin-bottom:0.5rem">Domain Rating Distribution</h3>' +
-      '<p style="font-size:0.85rem;color:#64748b;margin-bottom:1rem">Quality spread of referring domains. A healthy profile has links from a range of DR levels, weighted toward mid-to-high authority.</p>' +
+      '<h3 style="font-size:1.1rem;font-weight:700;color:var(--navy-800);margin-bottom:0.5rem">Authority Score Distribution</h3>' +
+      '<p style="font-size:0.85rem;color:#64748b;margin-bottom:1rem">Quality spread of referring domains. A healthy profile has links from a range of authority levels, weighted toward mid-to-high authority.</p>' +
       '<div class="chart-container" style="position:relative;height:300px"><canvas id="dr-distribution-chart"></canvas></div>' +
     '</div>';
 
@@ -1305,7 +1305,7 @@
       data: {
         labels: buckets,
         datasets: [{
-          label: 'Referring Domains by DR Range',
+          label: 'Referring Domains by Authority Score Range',
           data: allCounts,
           backgroundColor: ['#ef4444', '#f97316', '#eab308', '#84cc16', '#22c55e'],
           borderRadius: 6
@@ -1315,7 +1315,7 @@
         responsive: true,
         maintainAspectRatio: false,
         scales: {
-          x: { grid: { display: false }, title: { display: true, text: 'Domain Rating Range', font: { family: 'Inter', size: 12 } } },
+          x: { grid: { display: false }, title: { display: true, text: 'Authority Score Range', font: { family: 'Inter', size: 12 } } },
           y: { grid: { color: '#f1f5f9' }, title: { display: true, text: 'Count', font: { family: 'Inter', size: 12 } } }
         },
         plugins: { legend: { display: false } }
@@ -1478,7 +1478,7 @@
         '<select id="opp-filter-effort" style="border:1px solid #e2e8f0;border-radius:8px;padding:0.35rem 0.75rem;font-size:0.8rem;background:white;font-family:inherit">' +
           '<option value="">All Difficulty</option><option value="easy">Easy</option><option value="medium">Medium</option><option value="hard">Hard</option>' +
         '</select>' +
-        '<span style="font-size:0.78rem;color:#64748b">DR:</span>' +
+        '<span style="font-size:0.78rem;color:#64748b">AS:</span>' +
         '<input id="opp-filter-dr-min" type="number" min="0" max="100" placeholder="0" style="border:1px solid #e2e8f0;border-radius:8px;padding:0.35rem 0.5rem;font-size:0.8rem;width:56px;font-family:inherit">' +
         '<span style="font-size:0.78rem;color:#94a3b8">&ndash;</span>' +
         '<input id="opp-filter-dr-max" type="number" min="0" max="100" placeholder="100" style="border:1px solid #e2e8f0;border-radius:8px;padding:0.35rem 0.5rem;font-size:0.8rem;width:56px;font-family:inherit">' +
@@ -1907,8 +1907,8 @@
       },
       'section-backlinks': {
         title: 'Your Backlink Profile',
-        explanation: 'This is your current backlink profile — the external sites already linking to you. Domain Rating (DR) measures your site\'s overall link authority on a 0-100 scale. Referring domains count unique websites linking to you (more important than total backlinks). The inventory table shows every known external link grouped by source domain.',
-        tip: 'A healthy profile has diverse referring domains with mostly dofollow links. Compare your DR and referring domain count against competitors in the next section to see where you stand.'
+        explanation: 'This is your current backlink profile — the external sites already linking to you. Authority Score measures your site\'s overall link authority. Referring domains count unique websites linking to you (more important than total backlinks). The inventory table shows every known external link grouped by source domain.',
+        tip: 'A healthy profile has diverse referring domains with mostly dofollow links. Compare your Authority Score and referring domain count against competitors in the next section to see where you stand.'
       },
       'section-summary': {
         title: 'Opportunity Summary',
@@ -1927,7 +1927,7 @@
       },
       'section-details': {
         title: 'Detailed Analysis',
-        explanation: 'Three views into the same data: "Opportunities" is your working checklist with filters for type, difficulty, DR range, and more. "By Competitor" lets you study one competitor\'s links at a time. "Matrix" is the bird\'s-eye view — toggle competitors on/off, use "Your Gaps" to see what you\'re missing, or "Unique to Selected" to find their secret weapons.',
+        explanation: 'Three views into the same data: "Opportunities" is your working checklist with filters for type, difficulty, authority range, and more. "By Competitor" lets you study one competitor\'s links at a time. "Matrix" is the bird\'s-eye view — toggle competitors on/off, use "Your Gaps" to see what you\'re missing, or "Unique to Selected" to find their secret weapons.',
         tip: 'Export your filtered Opportunities list as your link-building task list. Work through it top-to-bottom by score.'
       }
     });

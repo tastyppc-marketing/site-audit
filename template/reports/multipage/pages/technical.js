@@ -55,6 +55,25 @@
     return String(value).replace(/\s+/g, ' ').trim();
   }
 
+  function renderDupUrls(urls) {
+    var visible = urls.slice(0, 3);
+    var remaining = urls.slice(3);
+    var html = '<div class="dup-urls">';
+    html += visible.map(function(url) {
+      return '<a href="' + esc(url) + '" class="text-xs text-blue-600 block truncate" style="max-width:280px" title="' + esc(url) + '">' + esc(url) + '</a>';
+    }).join('');
+    if (remaining.length > 0) {
+      html += '<button class="text-xs text-blue-500 font-medium mt-1 border-0 bg-transparent cursor-pointer p-0" data-expand data-count="' + remaining.length + '">+' + remaining.length + ' more pages</button>';
+      html += '<div style="display:none">';
+      html += remaining.map(function(url) {
+        return '<a href="' + esc(url) + '" class="text-xs text-blue-600 block truncate" style="max-width:280px" title="' + esc(url) + '">' + esc(url) + '</a>';
+      }).join('');
+      html += '</div>';
+    }
+    html += '</div>';
+    return html;
+  }
+
   function average(values) {
     var numbers = values.filter(function (value) {
       return value != null && !isNaN(value);
@@ -761,14 +780,14 @@
                           return '<tr>' +
                             '<td>Title</td>' +
                             '<td class="text-slate-700">' + esc(group.value) + '</td>' +
-                            '<td class="text-xs text-slate-500">' + esc(group.urls.join(', ')) + '</td>' +
+                            '<td>' + renderDupUrls(group.urls) + '</td>' +
                           '</tr>';
                         }).join('') +
                         duplicateDescriptions.map(function (group) {
                           return '<tr>' +
                             '<td>Description</td>' +
                             '<td class="text-slate-700">' + esc(group.value) + '</td>' +
-                            '<td class="text-xs text-slate-500">' + esc(group.urls.join(', ')) + '</td>' +
+                            '<td>' + renderDupUrls(group.urls) + '</td>' +
                           '</tr>';
                         }).join('')
                       : '<tr><td colspan="3" class="text-slate-500">No duplicate title or description groups were found in the available page audits.</td></tr>') +

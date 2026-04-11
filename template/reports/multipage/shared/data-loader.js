@@ -105,4 +105,16 @@
       '</div>';
   }
 
+  // Expand/collapse delegation for +N more badges
+  document.addEventListener('click', function(e) {
+    var btn = e.target.closest('[data-expand]');
+    if (!btn) return;
+    var target = btn.nextElementSibling;
+    if (!target) return;
+    var isHidden = target.style.display === 'none';
+    target.style.display = isHidden ? '' : 'none';
+    var count = btn.getAttribute('data-count') || '';
+    btn.textContent = isHidden ? 'Show less' : '+' + count + ' more';
+  });
+
 })();
