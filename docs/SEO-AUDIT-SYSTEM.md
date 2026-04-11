@@ -143,10 +143,12 @@ node generate-multipage-report.js
 |-----|---------|------|-----------------|----------|
 | Google PSI v5 | `googleapis.com/pagespeedonline/v5/runPagespeed` | Free (25K/day with key) | Performance scores, CWV, Lighthouse results, speed opportunities | `PAGESPEED_API_KEY` |
 | Google Custom Search | `googleapis.com/customsearch/v1` | Free (100/day), $5/1K paid | Keyword ranking checks, SERP data | `GOOGLE_API_KEY`, `GOOGLE_CSE_CX` |
-| DFS backlinks/summary | `api.dataforseo.com/v3/backlinks/summary/live` | ~$0.02/call | DR, referring domains, backlink count per domain | `DATAFORSEO_LOGIN/PASSWORD` |
-| DFS backlinks/backlinks | `api.dataforseo.com/v3/backlinks/backlinks/live` | ~$0.02/call | Individual backlink details (source, anchor, dofollow) | Same |
-| DFS backlinks/referring_domains | `api.dataforseo.com/v3/backlinks/referring_domains/live` | ~$0.02/call | Referring domain list with metrics | Same |
-| DFS SERP/keyword | Various keyword endpoints | Varies | Numeric search volumes, keyword difficulty, CPC | Same |
+| DFS backlinks/summary | `api.dataforseo.com/v3/backlinks/summary/live` | $0.02/call flat | DR, referring domains, backlink count per domain | `DATAFORSEO_LOGIN/PASSWORD` |
+| DFS backlinks/backlinks | `api.dataforseo.com/v3/backlinks/backlinks/live` | $0.02 + $0.00003/row | Individual backlink details (source, anchor, dofollow). 200 rows = $0.026 | Same |
+| DFS backlinks/referring_domains | `api.dataforseo.com/v3/backlinks/referring_domains/live` | $0.02 + $0.00003/row | Referring domain list with metrics. 200 rows = $0.026 | Same |
+| DFS domain_intersection | `api.dataforseo.com/v3/backlinks/domain_intersection/live` | ~$0.02 + rows | Up to 20 domains per request. Finds shared referring domains | Same |
+| DFS keyword volume | `api.dataforseo.com/v3/keywords_data/google_ads/search_volume/live` | $0.075/task (up to 1,000 keywords!) | Monthly search volume, CPC, competition, trends | Same |
+| DFS SERP organic | `api.dataforseo.com/v3/serp/google/organic/live` | $0.002/SERP (10 results) | Live ranking check for a keyword | Same |
 | Google Analytics 4 | GA4 Data API | Free | Session data, traffic channels, conversions | `GA4_PROPERTY_ID`, OAuth tokens |
 | Google Search Console | SC API | Free | Clicks, impressions, CTR, position, top queries/pages | `SEARCH_CONSOLE_SITE_URL`, service account |
 | Google Business Profile | GBP API | Free | Reviews, ratings, business info | `GBP_ACCOUNT_ID/LOCATION_ID` |
@@ -341,15 +343,32 @@ linkOpportunities{2}          — opportunities[], summary{}
 
 ## Closing the Gaps — Priority Order
 
+### Per-Audit API Cost Estimate (all gaps closed)
+
+| API call | Count | Cost |
+|----------|-------|------|
+| DFS keyword volume (25 keywords in 1 task) | 1 | $0.075 |
+| DFS backlinks/summary (client + 5 comps) | 6 | $0.12 |
+| DFS backlinks/backlinks 200 rows (client + 5 comps) | 6 | $0.156 |
+| DFS backlinks/referring_domains 200 rows (client + 5 comps) | 6 | $0.156 |
+| DFS domain_intersection (1 call, all 6 domains) | 1 | ~$0.05 |
+| DFS SERP checks (25 keywords) | 25 | $0.05 |
+| Google PSI (6 domains × 2 strategies) | 12 | Free |
+| **Total DFS per audit** | | **~$0.61** |
+
+Note: DFS Backlinks API requires $100/month minimum commitment (credits, not a fee — spent across all DFS APIs).
+
+### Gap Closure Priority
+
 | Priority | Gap | Effort | Cost/audit | Impact |
 |----------|-----|--------|-----------|--------|
 | 1 | Gap 8: Call build_audit.py in workflow | Low | $0 | Unlocks 15 data fields |
-| 2 | Gap 2: Competitor backlink scraping | Low | ~$0.20 | Unlocks backlink comparison |
-| 3 | Gap 1: DFS numeric keyword volumes | Low | ~$0.50 | Unlocks volume chart |
-| 4 | Gap 3: Backlink intersection/opportunities | Medium | ~$0.10 | Fills opportunities page |
+| 2 | Gap 2: Competitor backlink scraping (200/comp) | Low | ~$0.36 | Unlocks backlink comparison |
+| 3 | Gap 1: DFS numeric keyword volumes | Low | $0.075 | Unlocks volume chart |
+| 4 | Gap 3: Backlink intersection/opportunities | Medium | ~$0.05 | Fills opportunities page |
 | 5 | Gap 7: Markdown → JSON auto-populator | High | $0 | Eliminates manual data entry |
-| 6 | Gap 9: Real Domain Rating | Low | $0 (Ahrefs MCP) | Fixes wrong DR values |
+| 6 | Gap 9: Real Domain Rating via Ahrefs MCP | Low | $0 (included in Ahrefs plan) | Fixes wrong DR values |
 | 7 | Gap 10: Best practices single source | Low | $0 | Stops file duplication |
-| 8 | Gap 6: Rank tracking in workflow | Low | ~$0.10 | Adds rank history chart |
+| 8 | Gap 6: Rank tracking in workflow | Low | $0.05 (25 SERP checks) | Adds rank history chart |
 | 9 | Gap 5: Per-client GSC/GA4 | Medium | $0 | Unlocks SC + traffic sections |
 | 10 | Gap 4: Local SEO data gathering | High | $0-varies | Fills local SEO page |
