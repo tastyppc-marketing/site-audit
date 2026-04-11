@@ -97,9 +97,9 @@ Report QA fix work. Round 1 complete (31 issues, most fixed). Round 2 in progres
 - [x] Gap 6: Rank tracking optional step added (Step 5.8)
 
 ## Gaps Remaining
-- [ ] Gap 7: MD → JSON auto-populator (HIGH effort — needs AI agent)
-- [ ] Gap 5: Per-client GSC/GA4 credentials (MEDIUM effort — architecture)
-- [ ] Gap 4: Local SEO data gathering (HIGH effort — depends on Gap 5)
+- [x] Gap 7: MD → JSON auto-populator — CLOSED (76d01f7) — populate-audit-data.js
+- [x] Gap 5: Per-client GSC/GA4 credentials — CLOSED (76d01f7) — client-config.json + build_audit.py override
+- [ ] Gap 4: Local SEO data gathering (HIGH effort — now unblocked by Gap 5)
 
 ## Also Still Open (Round 2 Visual QA)
 - [ ] Pagination not firing at runtime

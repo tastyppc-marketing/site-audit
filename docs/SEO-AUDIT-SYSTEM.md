@@ -423,9 +423,9 @@ Note: DFS Backlinks API requires $100/month minimum commitment (credits, not a f
 | 2 | Gap 2: Competitor backlink scraping (200/comp) | Low | ~$0.36 | Unlocks backlink comparison | CLOSED (307201b) |
 | 3 | Gap 1: DFS numeric keyword volumes | Low | $0.075 | Unlocks volume chart | CLOSED (307201b) |
 | 4 | Gap 3: Backlink intersection/opportunities | Medium | ~$0.05 | Fills opportunities page | AUTO-CLOSED (Gaps 2+8 enable BacklinkAnalyzer) |
-| 5 | Gap 7: Markdown → JSON auto-populator | High | $0 | Eliminates manual data entry | OPEN |
+| 5 | Gap 7: Markdown → JSON auto-populator | High | $0 | Eliminates manual data entry | CLOSED (76d01f7) |
 | 6 | Gap 9: DFS rank relabel to Authority Score | Low | $0 | Fixes misleading labels | CLOSED (307201b) |
 | 7 | Gap 10: Best practices single source | Low | $0 | Stops file duplication | CLOSED (307201b) |
 | 8 | Gap 6: Rank tracking in workflow | Low | $0.05 (25 SERP checks) | Adds rank history chart | CLOSED (307201b) |
-| 9 | Gap 5: Per-client GSC/GA4 | Medium | $0 | Unlocks SC + traffic sections | OPEN |
+| 9 | Gap 5: Per-client GSC/GA4 | Medium | $0 | Unlocks SC + traffic sections | CLOSED (76d01f7) |
 | 10 | Gap 4: Local SEO data gathering | High | $0-varies | Fills local SEO page | OPEN |
