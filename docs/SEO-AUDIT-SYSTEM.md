@@ -111,7 +111,10 @@ Pipeline A produces rich Markdown files but does NOT automatically translate the
 |--------|-----|------------|--------|
 | `gather-pagespeed.js` | Google PSI v5 | `PAGESPEED_API_KEY` (optional) | `seo/research/pagespeed-data.json` |
 | `gather-domain-metrics.js` | DFS backlinks/summary | `DATAFORSEO_LOGIN/PASSWORD` | `seo/research/domain-metrics.json` |
-| `gather-backlinks.js` | DFS backlinks + referring_domains | `DATAFORSEO_LOGIN/PASSWORD` | `seo/research/client-backlinks.json` |
+| `gather-backlinks.js` | DFS backlinks + referring_domains | `DATAFORSEO_LOGIN/PASSWORD` | `seo/research/client-backlinks.json` + `backlinks-{comp}.json` |
+| `gather-organic-metrics.js` | DFS Labs ranked_keywords | `DATAFORSEO_LOGIN/PASSWORD` | `seo/research/organic-metrics.json` |
+| `gather-local-pack.js` | DFS SERP local pack | `DATAFORSEO_LOGIN/PASSWORD` | `seo/research/local-pack-data.json` |
+| `gather-keyword-volumes.js` | DFS keyword search volume | `DATAFORSEO_LOGIN/PASSWORD` | `seo/research/keyword-volumes.json` |
 | `extract-text.js` | Playwright (local) | None | `seo/research/page-text-analysis.json` |
 
 ### Phase 4: Data Population
