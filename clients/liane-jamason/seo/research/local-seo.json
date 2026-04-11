@@ -1,0 +1,62 @@
+{
+  "businessProfile": {
+    "name": "Liane Jamason",
+    "address": "",
+    "phone": "727-755-3325",
+    "website": "https://lianejamason.com",
+    "category": "",
+    "rating": null,
+    "reviewCount": 0,
+    "gbpVerified": false,
+    "source": "web-research",
+    "note": "GBP data gathered from public web research. For full data (reviews, photos, hours, map pack positions), grant Google Business Profile API access in client-config.json."
+  },
+  "napConsistency": {
+    "websiteNap": {
+      "name": "Liane Jamason",
+      "address": "",
+      "phone": "727-755-3325"
+    },
+    "directoryListings": [
+      {
+        "directory": "Yelp",
+        "found": false,
+        "url": "",
+        "napMatch": false,
+        "note": "HTTP 403"
+      },
+      {
+        "directory": "BBB",
+        "found": true,
+        "url": "https://www.bbb.org/search?find_text=Liane%20Jamason&find_loc=St.%20Petersburg%2C%20FL",
+        "napMatch": false
+      },
+      {
+        "directory": "Facebook",
+        "found": true,
+        "url": "https://www.facebook.com/search/pages/?q=Liane%20Jamason",
+        "napMatch": false
+      },
+      {
+        "directory": "Google Maps",
+        "found": true,
+        "url": "https://www.google.com/maps/search/Liane%20Jamason+St.%20Petersburg%2C%20FL",
+        "napMatch": false
+      }
+    ]
+  },
+  "citations": {
+    "totalFound": 3,
+    "consistent": 3,
+    "inconsistent": 0,
+    "missing": [
+      "Yelp"
+    ],
+    "issues": []
+  },
+  "competitorGbp": [],
+  "reviews": [],
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-04-11T10:01:38.304Z"
+}

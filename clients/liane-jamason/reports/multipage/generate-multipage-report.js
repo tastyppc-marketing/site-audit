@@ -1327,6 +1327,90 @@ function normalizeAuditData(data, dataDir) {
     });
   }
 
+  // ── 6c. Organic metrics fallback — merge research/organic-metrics.json ─────
+  const omPath = path.join(dataDir, 'research', 'organic-metrics.json');
+  if (fs.existsSync(omPath)) {
+    try {
+      const omFile = JSON.parse(fs.readFileSync(omPath, 'utf-8'));
+      propagateApiErrors('organic-metrics.json', omFile);
+      const omEntries = Array.isArray(omFile.data) ? omFile.data : (Array.isArray(omFile) ? omFile : []);
+
+      if (omEntries.length) {
+        const normalizeDomainName = function (value) {
+          return String(value || '')
+            .trim()
+            .toLowerCase()
+            .replace(/^https?:\/\//, '')
+            .replace(/^www\./, '')
+            .replace(/\/.*$/, '');
+        };
+
+        let mergedDomains = 0;
+        const clientOrganicEntry = omEntries.find(function (entry) { return entry && entry.isClient; }) || omEntries[0];
+        if (clientOrganicEntry) {
+          let mergedClient = false;
+          const bl6c = data.backlinks || (data.backlinks = {});
+          const blDm6c = bl6c.domainMetrics || (bl6c.domainMetrics = {});
+
+          if (blDm6c.organicKeywords == null && clientOrganicEntry.organicKeywords != null) {
+            blDm6c.organicKeywords = clientOrganicEntry.organicKeywords;
+            mergedClient = true;
+          }
+          if (blDm6c.organicTraffic == null && clientOrganicEntry.organicTraffic != null) {
+            blDm6c.organicTraffic = clientOrganicEntry.organicTraffic;
+            mergedClient = true;
+          }
+
+          if (data.domainMetrics && data.domainMetrics.client) {
+            if (data.domainMetrics.client.organicKeywords == null && clientOrganicEntry.organicKeywords != null) {
+              data.domainMetrics.client.organicKeywords = clientOrganicEntry.organicKeywords;
+              mergedClient = true;
+            }
+            if (data.domainMetrics.client.organicTraffic == null && clientOrganicEntry.organicTraffic != null) {
+              data.domainMetrics.client.organicTraffic = clientOrganicEntry.organicTraffic;
+              mergedClient = true;
+            }
+          }
+
+          if (mergedClient) mergedDomains++;
+        }
+
+        if (data.domainMetrics && Array.isArray(data.domainMetrics.competitors) && data.domainMetrics.competitors.length) {
+          const competitorsByDomain = new Map();
+          data.domainMetrics.competitors.forEach(function (competitor) {
+            const key = normalizeDomainName(competitor && competitor.domain);
+            if (key && !competitorsByDomain.has(key)) {
+              competitorsByDomain.set(key, competitor);
+            }
+          });
+
+          omEntries.forEach(function (entry) {
+            if (!entry || entry.isClient !== false) return;
+            const competitor = competitorsByDomain.get(normalizeDomainName(entry.domain));
+            if (!competitor) return;
+
+            let mergedCompetitor = false;
+            if (competitor.organicKeywords == null && entry.organicKeywords != null) {
+              competitor.organicKeywords = entry.organicKeywords;
+              mergedCompetitor = true;
+            }
+            if (competitor.organicTraffic == null && entry.organicTraffic != null) {
+              competitor.organicTraffic = entry.organicTraffic;
+              mergedCompetitor = true;
+            }
+
+            if (mergedCompetitor) mergedDomains++;
+          });
+        }
+
+        if (mergedDomains) {
+          logInfo('Merged organic-metrics.json', mergedDomains + ' domains');
+          fixes++;
+        }
+      }
+    } catch (err) { logWarning('Failed to parse organic-metrics.json', err.message); }
+  }
+
   // ── 6b. Backlink Opportunities — build from available data ──────────
   const bo = data.backlinkOpportunities || (data.backlinkOpportunities = {});
 
@@ -1559,6 +1643,28 @@ function normalizeAuditData(data, dataDir) {
       }
     } catch (err) { logWarning('Failed to parse local-seo.json', err.message); }
   }
+
+  // ── 8a. Local Pack data — read local-pack-data.json if present ──────
+  const localPackPath = path.join(dataDir, 'research', 'local-pack-data.json');
+  if (fs.existsSync(localPackPath)) {
+    try {
+      const localPackJson = JSON.parse(fs.readFileSync(localPackPath, 'utf-8'));
+      const ls = data.localSeo || (data.localSeo = {});
+      if (!ls.mapPackKeywords && localPackJson.keywords && localPackJson.keywords.length > 0) {
+        ls.mapPackKeywords = localPackJson.keywords.map(function(kw) {
+          return {
+            keyword: kw.keyword,
+            position: kw.foundInPack ? kw.position : null,
+            inPack: kw.foundInPack,
+            packSize: kw.packItems.length,
+          };
+        });
+        logInfo('Auto-populated localSeo.mapPackKeywords', 'from local-pack-data.json (' + localPackJson.keywords.length + ' keywords)');
+        fixes++;
+      }
+    } catch (err) { logWarning('Failed to parse local-pack-data.json', err.message); }
+  }
+
 
   // ── 1e. Sanitize AI tool references from client-facing data ──────────
   (function sanitizeAiReferences(obj, path2) {

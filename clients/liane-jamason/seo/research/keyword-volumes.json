@@ -1,0 +1,418 @@
+{
+  "data": [
+    {
+      "keyword": "Liane Jamason realtor St Petersburg FL",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    },
+    {
+      "keyword": "Corcoran Dwellings St Petersburg",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    },
+    {
+      "keyword": "St Petersburg FL homes for sale",
+      "volume": 9900,
+      "cpc": 0.84,
+      "competition": "MEDIUM",
+      "trend": [
+        12100,
+        12100,
+        12100,
+        8100,
+        8100,
+        8100,
+        6600,
+        8100,
+        9900,
+        8100,
+        9900,
+        9900
+      ]
+    },
+    {
+      "keyword": "St Petersburg FL real estate",
+      "volume": 320,
+      "cpc": 0.34,
+      "competition": "MEDIUM",
+      "trend": [
+        480,
+        390,
+        390,
+        260,
+        210,
+        210,
+        210,
+        260,
+        260,
+        320,
+        390,
+        390
+      ]
+    },
+    {
+      "keyword": "Tampa Bay waterfront homes for sale",
+      "volume": 40,
+      "cpc": 0.77,
+      "competition": "LOW",
+      "trend": [
+        90,
+        70,
+        70,
+        50,
+        30,
+        30,
+        20,
+        30,
+        20,
+        30,
+        20,
+        50
+      ]
+    },
+    {
+      "keyword": "St Pete Beach homes for sale",
+      "volume": 1300,
+      "cpc": 0.46,
+      "competition": "MEDIUM",
+      "trend": [
+        1900,
+        1600,
+        1600,
+        1300,
+        1000,
+        1300,
+        1300,
+        1300,
+        1300,
+        1300,
+        1600,
+        1600
+      ]
+    },
+    {
+      "keyword": "Pinellas County real estate",
+      "volume": 390,
+      "cpc": 0.48,
+      "competition": "LOW",
+      "trend": [
+        480,
+        390,
+        390,
+        320,
+        390,
+        320,
+        320,
+        480,
+        480,
+        480,
+        480,
+        480
+      ]
+    },
+    {
+      "keyword": "Shore Acres St Petersburg homes for sale",
+      "volume": 260,
+      "cpc": 0.47,
+      "competition": "LOW",
+      "trend": [
+        320,
+        210,
+        210,
+        210,
+        210,
+        260,
+        260,
+        320,
+        320,
+        320,
+        320,
+        320
+      ]
+    },
+    {
+      "keyword": "Snell Isle homes for sale",
+      "volume": 260,
+      "cpc": 0.64,
+      "competition": "MEDIUM",
+      "trend": [
+        320,
+        210,
+        260,
+        260,
+        210,
+        210,
+        210,
+        260,
+        320,
+        210,
+        260,
+        260
+      ]
+    },
+    {
+      "keyword": "Tierra Verde homes for sale",
+      "volume": 590,
+      "cpc": 0.53,
+      "competition": "MEDIUM",
+      "trend": [
+        720,
+        590,
+        720,
+        590,
+        480,
+        590,
+        590,
+        590,
+        590,
+        590,
+        590,
+        720
+      ]
+    },
+    {
+      "keyword": "Downtown St Pete condos for sale",
+      "volume": 480,
+      "cpc": 1.33,
+      "competition": "MEDIUM",
+      "trend": [
+        480,
+        480,
+        590,
+        390,
+        390,
+        390,
+        320,
+        390,
+        480,
+        390,
+        480,
+        480
+      ]
+    },
+    {
+      "keyword": "Old Northeast St Petersburg real estate",
+      "volume": 10,
+      "cpc": 0.02,
+      "competition": "LOW",
+      "trend": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "keyword": "buy a home in St Petersburg FL",
+      "volume": 10,
+      "cpc": 3.98,
+      "competition": "HIGH",
+      "trend": [
+        10,
+        0,
+        0,
+        10,
+        0,
+        10,
+        10,
+        0,
+        10,
+        10,
+        10,
+        0
+      ]
+    },
+    {
+      "keyword": "sell my house St Petersburg FL",
+      "volume": 10,
+      "cpc": null,
+      "competition": "LOW",
+      "trend": [
+        10,
+        0,
+        10,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        10,
+        0,
+        10
+      ]
+    },
+    {
+      "keyword": "St Petersburg FL real estate agent",
+      "volume": 320,
+      "cpc": 2.45,
+      "competition": "MEDIUM",
+      "trend": [
+        320,
+        210,
+        170,
+        110,
+        170,
+        170,
+        480,
+        260,
+        390,
+        480,
+        390,
+        320
+      ]
+    },
+    {
+      "keyword": "best realtor in St Petersburg FL",
+      "volume": 10,
+      "cpc": null,
+      "competition": "HIGH",
+      "trend": [
+        10,
+        10,
+        10,
+        10,
+        20,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        20
+      ]
+    },
+    {
+      "keyword": "St Petersburg FL housing market 2026",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    },
+    {
+      "keyword": "luxury homes St Petersburg FL",
+      "volume": 50,
+      "cpc": 2.34,
+      "competition": "LOW",
+      "trend": [
+        90,
+        50,
+        40,
+        40,
+        30,
+        30,
+        40,
+        70,
+        50,
+        50,
+        50,
+        70
+      ]
+    },
+    {
+      "keyword": "waterfront homes St Petersburg FL",
+      "volume": 40,
+      "cpc": 0.34,
+      "competition": "MEDIUM",
+      "trend": [
+        50,
+        40,
+        40,
+        30,
+        30,
+        40,
+        30,
+        30,
+        70,
+        50,
+        30,
+        50
+      ]
+    },
+    {
+      "keyword": "St Petersburg FL homes with pool",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    },
+    {
+      "keyword": "historic homes St Petersburg FL",
+      "volume": 20,
+      "cpc": null,
+      "competition": "LOW",
+      "trend": [
+        10,
+        20,
+        20,
+        10,
+        10,
+        20,
+        10,
+        10,
+        20,
+        10,
+        20,
+        20
+      ]
+    },
+    {
+      "keyword": "St Pete waterfront condos for sale",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    },
+    {
+      "keyword": "affordable homes St Petersburg FL",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    },
+    {
+      "keyword": "new construction homes St Petersburg FL",
+      "volume": 480,
+      "cpc": 5.37,
+      "competition": "HIGH",
+      "trend": [
+        480,
+        390,
+        390,
+        320,
+        320,
+        320,
+        320,
+        390,
+        480,
+        590,
+        590,
+        590
+      ]
+    },
+    {
+      "keyword": "St Petersburg FL investment property",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    }
+  ],
+  "errors": [],
+  "status": "success",
+  "locationCode": 2840,
+  "languageCode": "en",
+  "gatheredAt": "2026-04-11T12:02:07.793Z"
+}

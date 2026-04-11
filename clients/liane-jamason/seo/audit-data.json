@@ -142,178 +142,228 @@
   "keywords": [
     {
       "keyword": "Liane Jamason realtor St Petersburg FL",
-      "volume": "Low",
+      "volume": null,
       "clientRank": "#1, #2",
       "competitorRank": "N/A",
-      "topResult": "lianejamason.com"
+      "topResult": "lianejamason.com",
+      "cpc": null,
+      "competition": null
     },
     {
       "keyword": "Corcoran Dwellings St Petersburg",
-      "volume": "Low",
+      "volume": null,
       "clientRank": "#4",
       "competitorRank": "N/A",
-      "topResult": "corcoran.com"
+      "topResult": "corcoran.com",
+      "cpc": null,
+      "competition": null
     },
     {
       "keyword": "St Petersburg FL homes for sale",
-      "volume": "Very High",
+      "volume": 9900,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 0.84,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "St Petersburg FL real estate",
-      "volume": "Very High",
+      "volume": 320,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 0.34,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "Tampa Bay waterfront homes for sale",
-      "volume": "High",
+      "volume": 40,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 0.77,
+      "competition": "LOW"
     },
     {
       "keyword": "St Pete Beach homes for sale",
-      "volume": "High",
+      "volume": 1300,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 0.46,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "Pinellas County real estate",
-      "volume": "High",
+      "volume": 390,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 0.48,
+      "competition": "LOW"
     },
     {
       "keyword": "Shore Acres St Petersburg homes for sale",
-      "volume": "Medium",
+      "volume": 260,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 0.47,
+      "competition": "LOW"
     },
     {
       "keyword": "Snell Isle homes for sale",
-      "volume": "Medium",
+      "volume": 260,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "premiersothebysrealty.com"
+      "topResult": "premiersothebysrealty.com",
+      "cpc": 0.64,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "Tierra Verde homes for sale",
-      "volume": "Medium",
+      "volume": 590,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 0.53,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "Downtown St Pete condos for sale",
-      "volume": "Medium",
+      "volume": 480,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 1.33,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "Old Northeast St Petersburg real estate",
-      "volume": "Medium",
+      "volume": 10,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 0.02,
+      "competition": "LOW"
     },
     {
       "keyword": "buy a home in St Petersburg FL",
-      "volume": "High",
+      "volume": 10,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 3.98,
+      "competition": "HIGH"
     },
     {
       "keyword": "sell my house St Petersburg FL",
-      "volume": "Medium",
+      "volume": 10,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "stpetefasthomebuyer.com"
+      "topResult": "stpetefasthomebuyer.com",
+      "cpc": null,
+      "competition": "LOW"
     },
     {
       "keyword": "St Petersburg FL real estate agent",
-      "volume": "High",
+      "volume": 320,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com (agent directory)"
+      "topResult": "zillow.com (agent directory)",
+      "cpc": 2.45,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "best realtor in St Petersburg FL",
-      "volume": "Medium",
+      "volume": 10,
       "clientRank": "Not found",
       "competitorRank": "Avalon Group ranks",
-      "topResult": "realestate.usnews.com"
+      "topResult": "realestate.usnews.com",
+      "cpc": null,
+      "competition": "HIGH"
     },
     {
       "keyword": "St Petersburg FL housing market 2026",
-      "volume": "Medium",
+      "volume": null,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": null,
+      "competition": null
     },
     {
       "keyword": "luxury homes St Petersburg FL",
-      "volume": "High",
+      "volume": 50,
       "clientRank": "Not found",
       "competitorRank": "stpetersburgrealestate.com ranks",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 2.34,
+      "competition": "LOW"
     },
     {
       "keyword": "waterfront homes St Petersburg FL",
-      "volume": "High",
+      "volume": 40,
       "clientRank": "Not found",
       "competitorRank": "stpetersburgrealestate.com, smithandassociates.com rank",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 0.34,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "St Petersburg FL homes with pool",
-      "volume": "Medium",
+      "volume": null,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "redfin.com"
+      "topResult": "redfin.com",
+      "cpc": null,
+      "competition": null
     },
     {
       "keyword": "historic homes St Petersburg FL",
-      "volume": "Medium",
+      "volume": 20,
       "clientRank": "Not found",
       "competitorRank": "smithandassociates.com ranks",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": null,
+      "competition": "LOW"
     },
     {
       "keyword": "St Pete waterfront condos for sale",
-      "volume": "Medium",
+      "volume": null,
       "clientRank": "Not found",
       "competitorRank": "mygulfcoastproperty.com ranks",
-      "topResult": "homes.com"
+      "topResult": "homes.com",
+      "cpc": null,
+      "competition": null
     },
     {
       "keyword": "affordable homes St Petersburg FL",
-      "volume": "Medium",
+      "volume": null,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "homes.com"
+      "topResult": "homes.com",
+      "cpc": null,
+      "competition": null
     },
     {
       "keyword": "new construction homes St Petersburg FL",
-      "volume": "Medium",
+      "volume": 480,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 5.37,
+      "competition": "HIGH"
     },
     {
       "keyword": "St Petersburg FL investment property",
-      "volume": "Medium",
+      "volume": null,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "redfin.com"
+      "topResult": "redfin.com",
+      "cpc": null,
+      "competition": null
     }
   ],
   "competitorComparison": [
