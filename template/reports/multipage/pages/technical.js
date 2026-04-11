@@ -335,7 +335,7 @@
       }
       container.innerHTML = emptyState(
         'No Core Web Vitals data',
-        'This audit build did not include a coreWebVitals object for mobile or desktop rendering.'
+        'Core Web Vitals data is being loaded from the PageSpeed API. If this section remains empty after regeneration, verify the PageSpeed API key is configured.'
       );
       return;
     }
@@ -720,7 +720,7 @@
         ? '<div class="grid gap-6 xl:grid-cols-2">' +
             '<div>' +
               '<h3 class="text-base font-bold text-slate-800 mb-4">Pages Missing Key Meta Tags</h3>' +
-              '<div data-filterable data-filters=\'[{"col":1,"label":"Missing","type":"unique"}]\'>' +
+              '<div data-filterable data-paginate data-filters=\'[{"col":1,"label":"Missing","type":"unique"}]\'>' +
               '<div class="report-table-wrap">' +
                 '<table class="report-table">' +
                   '<thead><tr><th>Page</th><th>Missing</th><th>Details</th></tr></thead>' +
@@ -751,6 +751,7 @@
             '</div>' +
             '<div>' +
               '<h3 class="text-base font-bold text-slate-800 mb-4">Duplicate Meta Content</h3>' +
+              '<div data-paginate>' +
               '<div class="report-table-wrap">' +
                 '<table class="report-table">' +
                   '<thead><tr><th>Type</th><th>Value</th><th>Pages</th></tr></thead>' +
@@ -773,6 +774,7 @@
                       : '<tr><td colspan="3" class="text-slate-500">No duplicate title or description groups were found in the available page audits.</td></tr>') +
                   '</tbody>' +
                 '</table>' +
+              '</div>' +
               '</div>' +
             '</div>' +
           '</div>'
@@ -824,7 +826,7 @@
         statCard(String(redirectCount), '3xx redirect issues', redirectCount ? 'orange' : 'green') +
         statCard(String(uniqueCount(sortedIssues.map(function (issue) { return issue && issue.statusCode; }))), 'Unique status codes', 'orange') +
       '</div>' +
-      '<div data-filterable data-filters=\'[{"col":1,"label":"Status","type":"badge"}]\'>' +
+      '<div data-filterable data-paginate data-filters=\'[{"col":1,"label":"Status","type":"badge"}]\'>' +
       '<div class="report-table-wrap">' +
         '<table class="report-table">' +
           '<thead><tr><th>URL</th><th>Status</th><th>Issue</th></tr></thead>' +
@@ -881,7 +883,7 @@
         statCard(avgExternalLinks != null ? formatNumber(Math.round(avgExternalLinks)) : 'N/A', 'Average external links', 'orange') +
         statCard(String(pagesWithIssues), 'Pages with issues', pagesWithIssues ? 'red' : 'green', pagesWithSchema + ' pages show schema coverage') +
       '</div>' +
-      '<div data-filterable data-filters=\'[{"col":4,"label":"Schema","type":"badge"},{"col":5,"label":"Issues","options":["None","Has issues"]}]\'>' +
+      '<div data-filterable data-paginate data-filters=\'[{"col":4,"label":"Schema","type":"badge"},{"col":5,"label":"Issues","options":["None","Has issues"]}]\'>' +
       '<div class="report-table-wrap">' +
         '<table class="report-table">' +
           '<thead><tr><th>Page</th><th>Words</th><th>H1 / H2</th><th>Links</th><th>Schema</th><th>Issues</th></tr></thead>' +

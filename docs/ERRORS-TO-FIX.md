@@ -168,3 +168,79 @@ The backlink researcher agent is referenced in multiple empty-state messages but
 
 ### 9.4 No AI References
 Zero tolerance. Scan ALL report output for: Claude, Codex, GPT, OpenAI, Anthropic, AI-generated, AI-assisted, or any similar references. Strip them all.
+
+---
+
+## 10. Round 2 Visual QA (2026-04-11)
+
+### Status of Round 1 Fixes
+- [x] Key Stats: 10 cards (was 6) — FIXED
+- [x] Site comparison: now uses per-competitor columns — FIXED
+- [x] CWV: now populated (mobile 0.64, desktop 0.94) — FIXED
+- [x] AI references: sanitizer + manual fix — FIXED
+- [x] Depth analysis: BFS computed (13 levels, 1042 unreachable) — FIXED
+- [x] Empty state messages: user-facing for most sections — FIXED
+- [x] tailwind.css: was missing from output dir — FIXED
+- [ ] Pagination: JS code present but NOT WORKING at runtime — SEE 10.1
+
+### 10.1 Pagination Not Firing at Runtime
+- **Issue:** `data-paginate` attributes exist in the JS renderer code, `table-pagination.js` is loaded in all 9 HTML pages, `pagination.init()` is called in boot() — but pagination controls do NOT appear in the browser.
+- **Affected tables:** Meta Tag Audit, Schema Markup, Crawl Issues, Site Structure, Orphan Pages, Your Backlinks
+- **Root cause:** NEEDS INVESTIGATION — scripts load in correct order, init is called, but controls aren't rendering. Could be a timing issue, CSS visibility issue (now that tailwind.css is restored), or a bug in the pagination init logic.
+
+### 10.2 Duplicate Meta Content — Links Are a Mess
+- **Issue:** In Technical > Meta Tag Audit > Duplicate Meta Content, pages sharing the same meta value show their URLs separated by commas with no formatting. The list is massive and unreadable.
+- **Expected:** 
+  1. Organize links vertically (one per line), not comma-separated
+  2. Hide most links behind a "Show more" button
+  3. Only show first 3-5 links by default, expand on click
+
+### 10.3 Hub & Spoke Clusters — Static "+N more" Badges
+- **Issue:** Hub URL cards show badges like "+29 more" and "+28 more" but they are static text, not clickable.
+- **Expected:** Clicking the badge should expand to show all spoke URLs.
+
+### 10.4 Unreachable URLs — Static "+34 more" Badge
+- **Issue:** Same as 10.3 — the "+34 more" badge in the unreachable URLs section is not expandable.
+- **Expected:** Click to expand and see all URLs.
+
+### 10.5 Keywords Section 2 — Qualitative Volumes
+- **Issue:** "Search volumes are qualitative only" — this is because the keyword-researcher agent records volumes as labels (High/Medium/Low) instead of numbers.
+- **Root cause:** WORKFLOW GAP — need to add a DataForSEO keyword lookup step that fetches numeric monthly search volumes.
+- **Expected:** Numeric volumes so the chart can render.
+
+### 10.6 Keywords Sections 3-6 — Empty, Partially Explained
+- **Section 3 (Organic Visibility):** Empty. Message now says "requires DataForSEO API connection or Google Search Console access" — FIXED from dev message.
+- **Section 4 (Search Console):** Empty. Says "Google Search Console is not linked" — GOOD.
+- **Section 5 (Traffic Overview):** Empty. Says "requires Google Analytics or Search Console access" — GOOD.
+- **Section 6 (Rank Tracking History):** Empty. Says "not yet available, future audits will show" — GOOD.
+
+### 10.7 Backlink Opportunity Summary — Zero Tiles
+- **Issue:** All tiles show zero because competitor backlinks were never scraped.
+- **Root cause:** WORKFLOW GAP — the /seo-audit workflow needs a step that asks "Do you want to scrape competitor backlinks? (costs API credits)" and then runs gather-backlinks.js for each competitor domain.
+- **Expected:** After competitor backlink scraping, the opportunity summary should show real gap data.
+
+### 10.8 Domain Rating Distribution — Empty
+- **Issue:** No chart shown. We have DR data for all 5 domains from domain-metrics.json.
+- **Expected:** Bar chart showing DR for client + all competitors.
+
+### 10.9 Empty State Messages — Need Source-Specific Language
+- **Rule:** Each empty panel must name the SPECIFIC data source it needs:
+  - If it needs GBP: "Requires Google Business Profile access"
+  - If it needs GA4: "Requires Google Analytics 4 access"
+  - If it needs GSC: "Requires Google Search Console access"
+  - If it needs DFS Backlinks: "Requires DataForSEO Backlinks API"
+  - If it needs a workflow step: "Requires [specific step] — run [command]"
+- **Rule:** If a panel says "all data from web research" but shows NO data, that's confusing. Clarify what "web research" means or what it couldn't find.
+
+### 10.10 Workflow Must Match Report Expectations
+- Every section that says "Run X to populate this" MUST have that step in the /seo-audit skill workflow.
+- Current gaps:
+  1. Numeric keyword volumes (DataForSEO keyword lookup)
+  2. Competitor backlink scraping (gather-backlinks.js for each competitor)
+  3. Backlink type classification (link type breakdown)
+  4. Link velocity analysis
+  5. Competitor backlink intersection/overlap analysis
+
+### 10.11 Visual Verification Requirement
+- After every report regeneration, use Claude/Codex vision to visually inspect all 9 pages.
+- Check: layout renders correctly, pagination visible, charts populated, no broken sections.

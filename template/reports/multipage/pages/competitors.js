@@ -82,9 +82,14 @@
     if (value == null) return null;
 
     var str = String(value).trim();
+    var normalized;
+    var rangeFraction;
+    var fraction;
+    var matches;
+
     if (!str) return null;
 
-    var rangeFraction = str.match(/(-?\d[\d,]*(?:\.\d+)?)\s*(?:-|to)\s*(-?\d[\d,]*(?:\.\d+)?)\s*\/\s*(-?\d[\d,]*(?:\.\d+)?)/i);
+    rangeFraction = str.match(/(-?\d[\d,]*(?:\.\d+)?)\s*(?:-|to)\s*(-?\d[\d,]*(?:\.\d+)?)\s*\/\s*(-?\d[\d,]*(?:\.\d+)?)/i);
     if (rangeFraction) {
       var low = parseFloat(rangeFraction[1].replace(/,/g, ''));
       var high = parseFloat(rangeFraction[2].replace(/,/g, ''));
@@ -92,23 +97,46 @@
       if (!isNaN(low) && !isNaN(high) && denominator) return ((low + high) / 2 / denominator) * 100;
     }
 
-    var fraction = str.match(/(-?\d[\d,]*(?:\.\d+)?)\s*\/\s*(-?\d[\d,]*(?:\.\d+)?)/);
+    fraction = str.match(/(-?\d[\d,]*(?:\.\d+)?)\s*\/\s*(-?\d[\d,]*(?:\.\d+)?)/);
     if (fraction) {
       var numerator = parseFloat(fraction[1].replace(/,/g, ''));
       var div = parseFloat(fraction[2].replace(/,/g, ''));
       if (!isNaN(numerator) && div) return (numerator / div) * 100;
     }
 
-    var matches = str.match(/-?\d[\d,]*(?:\.\d+)?/g);
+    normalized = str
+      .replace(/[~≈]/g, '')
+      .replace(/\babout\b|\bapprox\.?\b|\baround\b/gi, '')
+      .replace(/(\d[\d,]*(?:\.\d+)?)\s*\+/g, '$1')
+      .replace(/(\d[\d,]*(?:\.\d+)?)s\b/gi, '$1')
+      .replace(/\$/g, '')
+      .trim();
+
+    matches = normalized.match(/-?\d[\d,]*(?:\.\d+)?(?:[kmb])?/gi);
     if (!matches || !matches.length) return null;
 
     var numbers = matches.map(function (match) {
-      return parseFloat(match.replace(/,/g, ''));
+      var scale = 1;
+      var cleaned = match.replace(/,/g, '');
+
+      if (/k$/i.test(cleaned)) {
+        scale = 1000;
+        cleaned = cleaned.slice(0, -1);
+      } else if (/m$/i.test(cleaned)) {
+        scale = 1000000;
+        cleaned = cleaned.slice(0, -1);
+      } else if (/b$/i.test(cleaned)) {
+        scale = 1000000000;
+        cleaned = cleaned.slice(0, -1);
+      }
+
+      var num = parseFloat(cleaned);
+      return isNaN(num) ? null : num * scale;
     }).filter(function (num) {
-      return !isNaN(num);
+      return num != null && !isNaN(num);
     });
 
-    return average(numbers);
+    return numbers.length ? average(numbers) : null;
   }
 
   function normalizeToPercent(metrics) {

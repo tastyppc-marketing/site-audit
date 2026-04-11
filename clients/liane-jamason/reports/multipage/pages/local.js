@@ -85,14 +85,20 @@
       '</div>';
   }
 
-  function emptyStateHTML() {
+  function emptyStateHTML(msg) {
     var esc = getEsc();
+    if (!msg) {
+      var auditData = window.AUDIT_DATA || {};
+      var localSeo = auditData.localSeo || auditData.local_seo || {};
+      var notes = localSeo.accessNotes || {};
+      msg = notes.note || 'Local SEO data has not been collected yet.';
+    }
     return '' +
       '<div class="empty-state">' +
         '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">' +
           '<path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM12 15.75h.008v.008H12v-.008Z" />' +
         '</svg>' +
-        '<p>' + esc('Local SEO data has not been collected yet.') + '</p>' +
+        '<p>' + esc(msg) + '</p>' +
       '</div>';
   }
 
@@ -413,7 +419,7 @@
       if (!container) return;
 
       if (!hasMeaningfulBusinessProfile(profile)) {
-        container.innerHTML = emptyStateHTML();
+        container.innerHTML = emptyStateHTML('No Google Business Profile data was collected for this client. GBP access is required to populate this section.');
         return;
       }
 

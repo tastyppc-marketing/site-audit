@@ -126,7 +126,7 @@
     if (!chartData.length) {
       container.innerHTML = buildEmptyState(
         'No numeric search volume data was provided',
-        'Current keyword rows use qualitative labels only, so the monthly search volume chart cannot be rendered yet.',
+        'Search volumes are qualitative only (e.g., High, Medium, Low). Connect DataForSEO keyword data to enable the volume chart.',
         EMPTY_ICONS.volume
       );
       return;
@@ -157,16 +157,21 @@
 
   function renderOrganicOverview(data) {
     var container = document.getElementById('organic-content');
-    var metrics = data && data.backlinks && data.backlinks.domainMetrics ? data.backlinks.domainMetrics : null;
+    var metrics = (data && data.backlinks && data.backlinks.domainMetrics) ? data.backlinks.domainMetrics : ((data && data.domainMetrics && data.domainMetrics.client) ? data.domainMetrics.client : null);
     var cards = [];
     var context = [];
 
     if (!container) return;
 
     if (!metrics || (!hasValue(metrics.organicKeywords) && !hasValue(metrics.organicTraffic))) {
+      var apiErr = window.TPPC.utils && window.TPPC.utils.getApiErrors(data, 'domain-metrics.json');
+      if (apiErr && window.TPPC.utils.renderApiErrorBanner) {
+        container.innerHTML = window.TPPC.utils.renderApiErrorBanner(apiErr);
+        return;
+      }
       container.innerHTML = buildEmptyState(
-        'No organic visibility data was provided',
-        'Add backlinks.domainMetrics.organicKeywords and organicTraffic to show current organic visibility on this page.',
+        'Organic visibility data is not available',
+        'Organic keyword and traffic estimates require a DataForSEO API connection or Google Search Console access. This data was not available for this client.',
         EMPTY_ICONS.organic
       );
       return;
@@ -214,7 +219,7 @@
     if (!topQueries.length && !topPages.length) {
       container.innerHTML = buildEmptyState(
         'Search Console data is not available',
-        'Add searchConsoleData.topQueries or searchConsoleData.topPages to populate this section with live search performance insights.',
+        'Google Search Console is not linked for this client. Connect GSC access to see live search performance data.',
         EMPTY_ICONS.gsc
       );
       return;
@@ -297,7 +302,7 @@
     if (!channels.length && !devices.length && !landingPages.length) {
       container.innerHTML = buildEmptyState(
         'Traffic data is not available',
-        'Add trafficData.channels, trafficData.devices, or trafficData.topLandingPages to populate this section.',
+        'Traffic data requires Google Analytics or Search Console access. Connect GA4 or GSC to populate this section.',
         EMPTY_ICONS.traffic
       );
       return;
@@ -519,7 +524,7 @@
     if (!rh || !rh.keywords || !Object.keys(rh.keywords).length) {
       container.innerHTML = buildEmptyState(
         'No rank tracking history available',
-        'Run the rank tracker to capture SERP positions over time: python3 scripts/run_rank_tracker.py --domain example.com --keywords-file client-info.json --history rank-history.json --label "Baseline"',
+        'Rank tracking history is not yet available. Future audits will show ranking changes over time as position data is captured.',
         '<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 13.5h4.5V21H3v-7.5Zm6.75-6h4.5V21h-4.5V7.5Zm6.75-4.5H21V21h-4.5V3Z" />'
       );
       return;

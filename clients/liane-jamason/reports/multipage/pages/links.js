@@ -63,12 +63,17 @@
     }
 
     if (!hasSummary) {
-      html += '<div class="mt-8">' +
-        _emptyState(
-          'No internal link summary yet',
-          'Populate `internalLinking.summary` or provide root `LinkGraphResult` fields so the page can show site-wide link metrics.'
-        ) +
-      '</div>';
+      var apiErr = window.TPPC.utils && window.TPPC.utils.getApiErrors(data, 'link-graph.json');
+      if (apiErr && window.TPPC.utils.renderApiErrorBanner) {
+        html += '<div class="mt-8">' + window.TPPC.utils.renderApiErrorBanner(apiErr) + '</div>';
+      } else {
+        html += '<div class="mt-8">' +
+          _emptyState(
+            'No internal link summary yet',
+            'Populate `internalLinking.summary` or provide root `LinkGraphResult` fields so the page can show site-wide link metrics.'
+          ) +
+        '</div>';
+      }
     }
 
     container.innerHTML = html;
@@ -110,7 +115,7 @@
           '<div class="text-sm text-slate-500">Total orphan pages: <span class="font-bold text-slate-800">' + _formatNumber(orphans.length) + '</span></div>' +
         '</div>' +
       '</div>' +
-      '<div data-filterable data-filters=\'[{"col":2,"label":"Sitemap","type":"unique"}]\'>' +
+      '<div data-filterable data-paginate data-filters=\'[{"col":2,"label":"Sitemap","type":"unique"}]\'>' +
       '<div class="report-table-wrap">' +
         '<table class="report-table">' +
           '<thead>' +
@@ -245,7 +250,7 @@
     } else if (hasDepthData) {
       html += _emptyState(
         'No depth distribution available',
-        'Populate `internalLinking.depthResult.depths` to chart how many pages sit at each click depth.'
+        'Link depth data will be populated automatically from the site crawl. Re-run the report generator to compute depth distribution.'
       );
     }
 
@@ -272,7 +277,7 @@
     } else if (hasDepthData) {
       html += '<div class="bg-white border border-slate-200 rounded-xl p-6 mt-6">' +
         '<div class="text-sm font-semibold text-slate-800">Unreachable status</div>' +
-        '<p class="text-sm text-slate-500 mt-1">No unreachable URLs were supplied in the depth analysis result.</p>' +
+        '<p class="text-sm text-slate-500 mt-1">No unreachable pages were detected from the homepage crawl path.</p>' +
       '</div>';
     }
 
@@ -280,7 +285,7 @@
       html += '<div class="mt-6">' +
         _emptyState(
           'No link depth metrics yet',
-          'Populate `internalLinking.depthResult` with homepage depth data, max depth, and unreachable URLs.'
+          'Depth analysis not yet computed. Re-run the report generator after completing the site crawl.'
         ) +
       '</div>';
     }

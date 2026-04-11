@@ -4,14 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="preconnect" href="https://cdn.tailwindcss.com">
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
   <title>Content Quality &amp; Readability | TastyPPC SEO Audit</title>
 
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="shared/tailwind.css">
   <script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 
   <link rel="stylesheet" href="shared/report-styles.css">
@@ -22,22 +21,6 @@
     window.SEARCH_INDEX = /* __SEARCH_INDEX_PLACEHOLDER__ */[];
   </script>
 
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            navy: {
-              900: '#0b1629',
-              800: '#111d35',
-              700: '#172644',
-              600: '#1e3a5f'
-            }
-          }
-        }
-      }
-    };
-  </script>
 </head>
 <body class="multipage font-sans antialiased text-slate-800">
   <nav id="top-nav" aria-label="Primary"></nav>
@@ -110,6 +93,7 @@
   <script defer src="shared/nav.js"></script>
   <script defer src="shared/search.js"></script>
   <script defer src="shared/table-filters.js"></script>
+  <script defer src="shared/table-pagination.js"></script>
   <script defer src="shared/print.js"></script>
   <script defer src="shared/explainer.js"></script>
   <script defer src="pages/content.js"></script>

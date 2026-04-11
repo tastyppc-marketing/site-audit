@@ -287,6 +287,7 @@
     html += '<div class="mt-6">' +
       '<h3 class="text-base font-bold text-slate-800 mb-1">Backlink Inventory</h3>' +
       '<p class="text-sm text-slate-500 mb-4">Every external page linking to your site, grouped by referring domain and sorted by authority (Domain Rating). Click <strong>Show backlinks</strong> to expand domains with multiple links.</p>' +
+      '<div data-paginate>' +
       '<div class="report-table-wrap">' +
         '<table class="report-table report-table-sticky">' +
           '<thead>' +
@@ -302,6 +303,7 @@
           '<tbody>' + rows + '</tbody>' +
         '</table>' +
       '</div>' +
+      '</div>' +
       '<div class="mt-3 px-2 text-sm text-slate-500">' + domainOrder.length + ' referring domains, ' + MOCK_BACKLINKS.length + ' total backlinks shown (of ' + formatNumber(CLIENT.backlinks) + ' total)</div>' +
     '</div>';
 
@@ -314,6 +316,12 @@
   function renderInsights() {
     var el = document.getElementById('insights-content');
     if (!el) return;
+
+    // Guard: no competitors means no meaningful comparison
+    if (!COMPETITORS.length) {
+      el.innerHTML = '<div class="empty-state"><p>Backlink competitor data has not yet been collected. This section will populate once competitor backlink research is complete.</p></div>';
+      return;
+    }
 
     var avgCompetitorRD = Math.round(COMPETITORS.reduce(function(s, c) { return s + c.referringDomains; }, 0) / COMPETITORS.length);
     var easyHighPriority = highPriority.filter(function(o) { return o.effort === 'easy'; });
@@ -406,7 +414,7 @@
             'The <strong>total count of all links</strong> pointing to you, including multiple links from the same site. One domain with 5 pages linking to you = 5 backlinks, 1 referring domain.' +
           '</p>' +
           '<p style="font-size:0.82rem;color:#475569;line-height:1.5;margin:0">' +
-            'You have <strong>' + formatNumber(CLIENT.backlinks) + ' backlinks</strong> from ' + formatNumber(CLIENT.referringDomains) + ' domains &mdash; ' + (CLIENT.backlinks / CLIENT.referringDomains).toFixed(1) + ' links per domain on average.' +
+            'You have <strong>' + formatNumber(CLIENT.backlinks) + ' backlinks</strong> from ' + formatNumber(CLIENT.referringDomains) + ' domains' + (CLIENT.referringDomains > 0 ? ' &mdash; ' + (CLIENT.backlinks / CLIENT.referringDomains).toFixed(1) + ' links per domain on average' : '') + '.' +
           '</p>' +
         '</div>' +
       '</div>' +
@@ -537,6 +545,12 @@
   function renderSummary() {
     var el = document.getElementById('summary-content');
     if (!el) return;
+
+    // Guard: no competitors means no meaningful comparison
+    if (!COMPETITORS.length) {
+      el.innerHTML = '<div class="empty-state"><p>Competitor backlink data not yet available.</p></div>';
+      return;
+    }
 
     var avgCompetitorRD = Math.round(COMPETITORS.reduce(function(s, c) { return s + c.referringDomains; }, 0) / COMPETITORS.length);
 
@@ -962,7 +976,7 @@
 
     if (!sortedPairs.length) {
       html += '<div style="text-align:center;padding:2rem;color:#94a3b8;font-style:italic;background:#fff;border:1px solid #e2e8f0;border-radius:12px;margin-bottom:1.5rem">' +
-        'Profile similarity data not yet available. Run the backlink researcher agent with competitor intersection analysis to populate this section.' +
+        'Backlink profile similarity data has not yet been collected. This section will populate once competitor backlink overlap data is available.' +
       '</div>';
     } else {
 
@@ -1196,13 +1210,16 @@
 
   function renderDofollowCard(domain, ratio, isClient) {
     var pct = Math.round(ratio * 100);
+    // For competitors with 0 dofollow ratio, show N/A since their backlinks weren't collected
+    var displayValue = (!isClient && pct === 0) ? 'N/A' : pct + '%';
     var barColor = pct >= 70 ? 'var(--sev-low)' : (pct >= 55 ? 'var(--sev-medium)' : 'var(--sev-critical)');
     return '<div style="background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:1rem;' + (isClient ? 'border-left:3px solid var(--accent-blue)' : '') + '">' +
       '<div style="font-size:0.8rem;font-weight:600;color:' + (isClient ? 'var(--accent-blue)' : 'var(--navy-800)') + ';margin-bottom:8px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="' + esc(domain) + '">' + esc(domain) + '</div>' +
-      '<div style="font-size:1.5rem;font-weight:800;color:var(--navy-800)">' + pct + '%</div>' +
+      '<div style="font-size:1.5rem;font-weight:800;color:var(--navy-800)">' + displayValue + '</div>' +
+      ((!isClient && pct === 0) ? '<div style="font-size:0.7rem;color:#94a3b8;margin-top:4px">Competitor backlinks not collected</div>' :
       '<div style="height:6px;background:#e2e8f0;border-radius:3px;overflow:hidden;margin-top:6px">' +
         '<div style="height:100%;width:' + pct + '%;border-radius:3px;background:' + barColor + '"></div>' +
-      '</div>' +
+      '</div>') +
     '</div>';
   }
 
@@ -1220,7 +1237,7 @@
       }
     }
     if (!hasTypeData) {
-      ctx.parentElement.innerHTML = '<div style="text-align:center;padding:2rem;color:#94a3b8;font-style:italic">Link type breakdown data not yet available. Run the backlink researcher agent to classify referring domains by type.</div>';
+      ctx.parentElement.innerHTML = '<div style="text-align:center;padding:2rem;color:#94a3b8;font-style:italic">Link type breakdown data requires a deeper backlink audit. This data will be available in follow-up analyses.</div>';
       return;
     }
     var typeColors = ['#3b82f6', '#f59e0b', '#ec4899', '#10b981', '#6366f1', '#94a3b8'];
@@ -1921,6 +1938,20 @@
   // ---------------------------------------------------------------------------
   function init() {
     if (!_hasData) {
+      var _auditData = window.AUDIT_DATA || {};
+      var _apiErrBacklinks = window.TPPC.utils && window.TPPC.utils.getApiErrors(_auditData, 'client-backlinks.json');
+      var _apiErrDomainMetrics = window.TPPC.utils && window.TPPC.utils.getApiErrors(_auditData, 'domain-metrics.json');
+      var _apiErrFirst = _apiErrBacklinks || _apiErrDomainMetrics;
+
+      if (_apiErrFirst && window.TPPC.utils.renderApiErrorBanner) {
+        var noDataEl = document.getElementById('insights-content') || document.getElementById('summary-content');
+        if (noDataEl) {
+          noDataEl.innerHTML = window.TPPC.utils.renderApiErrorBanner(_apiErrFirst);
+        }
+        registerExplainers();
+        return;
+      }
+
       // Determine which connectors/data sources are missing
       var missing = [];
       var bl = (window.AUDIT_DATA && window.AUDIT_DATA.backlinks) || {};
@@ -1945,7 +1976,7 @@
         noData.innerHTML = '<div style="text-align:center;padding:3rem 1rem;color:#94a3b8">' +
           '<div style="font-size:2.5rem;margin-bottom:0.75rem">&#128279;</div>' +
           '<h3 style="font-size:1.1rem;font-weight:700;color:#64748b;margin-bottom:0.5rem">No Backlink Opportunity Data</h3>' +
-          '<p style="font-size:0.88rem;max-width:480px;margin:0 auto">Backlink opportunity analysis requires competitor referring domain data. Run the backlink researcher agent to populate this section.</p>' +
+          '<p style="font-size:0.88rem;max-width:480px;margin:0 auto">Backlink opportunity analysis requires competitor referring domain data. This section will populate once competitor backlink data collection is complete.</p>' +
           missingHtml +
         '</div>';
       }

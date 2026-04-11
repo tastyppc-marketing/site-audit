@@ -73,6 +73,11 @@
       if (window.TPPC.utils && typeof window.TPPC.utils.makeTablesResponsive === 'function') {
         window.TPPC.utils.makeTablesResponsive();
       }
+
+      // Init pagination on tables with [data-paginate] wrappers
+      if (window.TPPC.pagination && typeof window.TPPC.pagination.init === 'function') {
+        window.TPPC.pagination.init();
+      }
     };
 
     // If setup was called late (async debug-data.js fallback), auto-boot now

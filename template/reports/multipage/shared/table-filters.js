@@ -318,6 +318,15 @@
       }
 
       countSpan.textContent = visibleCount + ' of ' + totalRows + ' rows';
+
+      if (typeof window.CustomEvent === 'function') {
+        table.dispatchEvent(new window.CustomEvent('tppc:filterchange', {
+          detail: {
+            visibleCount: visibleCount,
+            totalRows: totalRows
+          }
+        }));
+      }
     }
 
     // --- Event listeners ---

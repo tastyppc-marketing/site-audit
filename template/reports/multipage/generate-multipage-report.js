@@ -710,6 +710,25 @@ function normalizeAuditData(data, dataDir) {
     }
   }
 
+  // ── 1a. Re-run CWV hoisting after PSI auto-population ─────────────
+  // The first CWV copy (step 1) may have copied null-valued CWV from
+  // audit-data.json before PSI data was loaded. If tech.coreWebVitals
+  // now has real values (from PSI), overwrite the null-valued copy.
+  if (tech.coreWebVitals && tech.coreWebVitals.mobile && tech.coreWebVitals.mobile.performanceScore != null) {
+    data.coreWebVitals = tech.coreWebVitals;
+    fixes++;
+  }
+  if (data.coreWebVitals) {
+    ['mobile', 'desktop'].forEach(function (device) {
+      var d = data.coreWebVitals[device];
+      if (d && d.performanceScore != null && d.score == null) {
+        d.score = d.performanceScore;
+        fixes++;
+      }
+    });
+  }
+
+
   // ── 3. PageSpeed comparison ─────────────────────────────────────────
   // Renderer reads data.pageSpeedComparison (top-level) as [{ name, score }].
   // Data pipelines may put it under technicalSeo or competitorAnalysis,
@@ -934,6 +953,62 @@ function normalizeAuditData(data, dataDir) {
         fixes++;
       }
     }
+
+    // ── 5b-depth. Compute link depth via BFS from homepage ─────────
+    var depthResult = linking.depth_result || linking.depthResult || {};
+    var depths = depthResult.depths || {};
+    if (Object.keys(depths).length === 0) {
+      var homepageUrl = (data.client && (data.client.websiteUrl || data.client.website)) || linking.domain || '';
+      // Normalize to https and strip trailing slash for lookup
+      var homeNorm = homepageUrl.replace(/\/+$/, '');
+      var homeVariants = [homeNorm, homeNorm + '/', homeNorm.replace('http://', 'https://'), homeNorm.replace('https://', 'http://')];
+      // Also try www / non-www variants
+      homeVariants = homeVariants.concat(homeVariants.map(function(u) {
+        return /\/\/www\./.test(u) ? u.replace('://www.', '://') : u.replace('://', '://www.');
+      }));
+      var startUrl = homeVariants.find(function(u) { return !!linkEdges[u]; }) || null;
+
+      if (startUrl) {
+        var visited = {};
+        var queue = [{ url: startUrl, depth: 0 }];
+        visited[startUrl] = true;
+        var depthCounts = {};
+        var maxDepth = 0;
+        var totalDepth = 0;
+        var visitedCount = 0;
+
+        while (queue.length) {
+          var item = queue.shift();
+          var d = item.depth;
+          depthCounts[d] = (depthCounts[d] || 0) + 1;
+          if (d > maxDepth) maxDepth = d;
+          totalDepth += d;
+          visitedCount++;
+          var neighbors = linkEdges[item.url] || [];
+          neighbors.forEach(function(target) {
+            if (!visited[target] && linkEdges[target] !== undefined) {
+              visited[target] = true;
+              queue.push({ url: target, depth: d + 1 });
+            }
+          });
+        }
+
+        var allNodes = Object.keys(linkEdges);
+        var unreachable = allNodes.filter(function(u) { return !visited[u]; });
+
+        depthResult.depths = depthCounts;
+        depthResult.max_depth = maxDepth;
+        depthResult.avg_depth = visitedCount ? Math.round((totalDepth / visitedCount) * 10) / 10 : 0;
+        depthResult.unreachable_count = unreachable.length;
+        depthResult.unreachable = unreachable.slice(0, 50); // cap for JSON size (links.js reads 'unreachable')
+        linking.depth_result = depthResult;
+
+        logInfo('Computed link depth via BFS', 'max_depth=' + maxDepth + ', pages=' + visitedCount + ', unreachable=' + unreachable.length);
+        fixes++;
+      } else {
+        logWarning('Link depth BFS: could not locate homepage in link graph', 'tried ' + homeVariants.slice(0, 2).join(', '));
+      }
+    }
   }
 
   // ── 5c. Content readability — enrich with syllables/word from page-text-analysis.json ──
@@ -1095,25 +1170,45 @@ function normalizeAuditData(data, dataDir) {
     }
   }
 
+  // ── 6a. Backward-compat: keywords.js reads backlinks.domainMetrics for organic data
+  // The normalizer populates data.domainMetrics.client (top-level) but the keywords
+  // renderer reads data.backlinks.domainMetrics.organicKeywords (old path).
+  if (data.domainMetrics && data.domainMetrics.client) {
+    var bl6a = data.backlinks || (data.backlinks = {});
+    var blDm = bl6a.domainMetrics || (bl6a.domainMetrics = {});
+    var clientDm = data.domainMetrics.client;
+    ['organicKeywords', 'organicTraffic', 'trafficValue', 'referringDomains', 'domain', 'domainRating'].forEach(function (key) {
+      if (clientDm[key] != null && blDm[key] == null) {
+        blDm[key] = clientDm[key];
+      }
+    });
+  }
+
   // ── 6b. Backlink Opportunities — build from available data ──────────
   const bo = data.backlinkOpportunities || (data.backlinkOpportunities = {});
 
   // Client profile
   if (!bo.client) {
     const blMetrics = (data.backlinks || {}).domainMetrics || {};
+    const dmClient = (data.domainMetrics && data.domainMetrics.client) ? data.domainMetrics.client : {};
     bo.client = {
-      domain: blMetrics.domain || (data.client && (data.client.website || data.client.websiteUrl)) || '',
-      backlinks: blMetrics.totalBacklinks || 0,
-      referringDomains: blMetrics.referringDomains || 0,
-      domainRating: blMetrics.domainRating || 0,
+      domain: blMetrics.domain || dmClient.domain || (data.client && (data.client.website || data.client.websiteUrl)) || '',
+      backlinks: blMetrics.totalBacklinks || dmClient.backlinks || ((data.backlinks || {}).topBacklinks || []).length || 0,
+      referringDomains: blMetrics.referringDomains || dmClient.referringDomains || 0,
+      domainRating: blMetrics.domainRating || dmClient.domainRating || 0,
       dofollowRatio: (data.backlinks || {}).dofollowRatio || 0
     };
+    if (bo.client.backlinks || bo.client.referringDomains || bo.client.domainRating) {
+      logInfo('Backlink opportunities client', 'DR=' + bo.client.domainRating + ' RD=' + bo.client.referringDomains + ' BL=' + bo.client.backlinks);
+    }
   }
 
-  // Competitor profiles (from competitorDomainMetrics)
+  // Competitor profiles (from domainMetrics.competitors or competitorDomainMetrics)
   if (!bo.competitors || !bo.competitors.length) {
+    const dmComps = (data.domainMetrics && Array.isArray(data.domainMetrics.competitors)) ? data.domainMetrics.competitors : null;
     const cdm = (data.backlinks || {}).competitorDomainMetrics || [];
-    bo.competitors = cdm.filter(function(c) { return !c.isClient; }).map(function(c) {
+    const compSource = (dmComps && dmComps.length) ? dmComps : cdm.filter(function(c) { return !c.isClient; });
+    bo.competitors = compSource.map(function(c) {
       return {
         domain: c.domain || '',
         backlinks: c.backlinks || c.totalBacklinks || 0,
@@ -1122,6 +1217,9 @@ function normalizeAuditData(data, dataDir) {
         dofollowRatio: c.dofollowRatio || 0
       };
     });
+    if (bo.competitors.length) {
+      logInfo('Backlink opportunities competitors', bo.competitors.length + ' from ' + ((dmComps && dmComps.length) ? 'domainMetrics.competitors' : 'competitorDomainMetrics'));
+    }
   }
 
   // Opportunities array (from backlink-opportunities.json if it exists)
@@ -1199,6 +1297,101 @@ function normalizeAuditData(data, dataDir) {
       }
     }
   }
+
+
+  // ── 1b. Auto-derive keyStats from available data ─────────────────────
+  // Append derived stat cards if keyStats has fewer than 10 entries.
+  var keyStats = Array.isArray(data.keyStats) ? data.keyStats : (data.keyStats = []);
+  function hasKeyStat(labelFragment) {
+    return keyStats.some(function(s) {
+      return s && typeof s.label === 'string' && s.label.toLowerCase().indexOf(labelFragment.toLowerCase()) !== -1;
+    });
+  }
+  function appendKeyStat(obj) {
+    if (keyStats.length < 10) keyStats.push(obj);
+  }
+
+  if (!hasKeyStat('Mobile Performance') && data.coreWebVitals && data.coreWebVitals.mobile) {
+    var mobileScore = data.coreWebVitals.mobile.score != null ? data.coreWebVitals.mobile.score : data.coreWebVitals.mobile.performanceScore;
+    if (mobileScore != null) {
+      var msPct = mobileScore <= 1 ? Math.round(mobileScore * 100) : Math.round(mobileScore);
+      appendKeyStat({
+        label: 'Mobile Performance Score',
+        value: msPct + '%',
+        severity: msPct >= 90 ? 'green' : (msPct >= 50 ? 'yellow' : 'red'),
+      });
+      fixes++;
+    }
+  }
+
+  if (!hasKeyStat('Backlink') && data.backlinks && Array.isArray(data.backlinks.topBacklinks) && data.backlinks.topBacklinks.length) {
+    appendKeyStat({
+      label: 'Total Backlinks',
+      value: data.backlinks.topBacklinks.length.toLocaleString ? String(data.backlinks.topBacklinks.length) : data.backlinks.topBacklinks.length,
+      severity: 'green',
+    });
+    fixes++;
+  }
+
+  if (!hasKeyStat('Referring Domain') && data.domainMetrics && data.domainMetrics.client && data.domainMetrics.client.referringDomains != null) {
+    appendKeyStat({
+      label: 'Referring Domains',
+      value: String(data.domainMetrics.client.referringDomains),
+      severity: 'green',
+    });
+    fixes++;
+  }
+
+  if (!hasKeyStat('Domain Rating') && data.domainMetrics && data.domainMetrics.client && data.domainMetrics.client.domainRating != null) {
+    var dr = data.domainMetrics.client.domainRating;
+    appendKeyStat({
+      label: 'Domain Rating',
+      value: String(dr),
+      severity: dr >= 40 ? 'green' : (dr >= 20 ? 'yellow' : 'red'),
+    });
+    fixes++;
+  }
+
+  if (!hasKeyStat('Orphan') && data.internalLinking && data.internalLinking.orphan_count != null) {
+    var orphanCount = data.internalLinking.orphan_count;
+    var orphanRate = data.internalLinking.orphan_rate != null ? data.internalLinking.orphan_rate : null;
+    appendKeyStat({
+      label: 'Orphan Pages' + (orphanRate != null ? ' (' + orphanRate + '%)' : ''),
+      value: String(orphanCount),
+      severity: orphanRate != null && orphanRate > 20 ? 'red' : (orphanCount > 0 ? 'yellow' : 'green'),
+    });
+    fixes++;
+  }
+
+  if (!hasKeyStat('Pages Crawled') && data.internalLinking && data.internalLinking.total_pages != null) {
+    appendKeyStat({
+      label: 'Pages Crawled',
+      value: String(data.internalLinking.total_pages),
+      severity: 'green',
+    });
+    fixes++;
+  }
+
+  // ── 1e. Sanitize AI tool references from client-facing data ──────────
+  (function sanitizeAiReferences(obj, path2) {
+    if (!obj || typeof obj !== 'object') return;
+    var aiPattern = /\b(Claude|Codex|GPT[-\s]?\d*|OpenAI|Anthropic|AI[- ]generated|AI[- ]assisted|AI tool)\b/gi;
+    Object.keys(obj).forEach(function (key) {
+      var val = obj[key];
+      if (typeof val === 'string') {
+        aiPattern.lastIndex = 0;
+        if (!aiPattern.test(val)) return;
+        aiPattern.lastIndex = 0;
+        var cleaned = val.replace(aiPattern, '').replace(/\s*\([,\s]*\)\s*/g, '').replace(/\s{2,}/g, ' ').trim();
+        if (cleaned !== val) {
+          logWarning('Sanitized AI reference at ' + (path2 ? path2 + '.' : '') + key + ': "' + val.substring(0, 80) + '"');
+          obj[key] = cleaned;
+        }
+      } else if (val && typeof val === 'object') {
+        sanitizeAiReferences(val, (path2 ? path2 + '.' : '') + key);
+      }
+    });
+  })(data, '');
 
   if (fixes) {
     logInfo('Data normalization', `${fixes} fix${fixes === 1 ? '' : 'es'} applied`);

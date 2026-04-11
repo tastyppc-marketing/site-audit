@@ -143,16 +143,53 @@
     },
 
     renderSiteComparison: function (data) {
-      var rows = data && data.siteComparison;
+      var compRows = data && Array.isArray(data.competitorComparison) ? data.competitorComparison : [];
+      var fallbackRows = data && data.siteComparison ? data.siteComparison : [];
       var table = document.getElementById('comparison-table');
-      var clientLabel = data && data.client ? data.client.website : '';
-      var competitorLabel = data && data.competitor ? (data.competitor.primaryLabel || data.competitor.primary) : '';
+      var clientLabel = data && data.client ? (data.client.website || data.client.company || 'Client') : 'Client';
 
-      if (!rows || !rows.length || !table) {
+      if (!table) return;
+
+      if (compRows.length > 0) {
+        // Use per-competitor columns from competitorComparison
+        var compKeys = Object.keys(compRows[0]).filter(function (k) {
+          return /^comp\d+$/.test(k);
+        }).sort(function (a, b) {
+          return parseInt(a.slice(4), 10) - parseInt(b.slice(4), 10);
+        });
+
+        var competitor = data && data.competitor ? data.competitor : {};
+        var allComps = Array.isArray(competitor.all) ? competitor.all : [];
+
+        var headers = '<th>Metric</th><th class="highlight-col">' + _text(clientLabel) + '</th>';
+        compKeys.forEach(function (key) {
+          var idx = parseInt(key.slice(4), 10) - 1;
+          var comp = allComps[idx];
+          var label = comp ? (comp.domain || comp.name || ('Comp ' + (idx + 1))) : ('Comp ' + (idx + 1));
+          headers += '<th>' + _text(label) + '</th>';
+        });
+        headers += '<th>Gap</th>';
+        _setHTML('#comparison-table thead tr', headers);
+
+        _setHTML('#comparison-table tbody', compRows.map(function (row) {
+          var cells = '<td class="font-medium text-slate-700">' + _text(row.metric) + '</td>' +
+            '<td class="highlight-col">' + _text(row.client) + '</td>';
+          compKeys.forEach(function (key) {
+            cells += '<td>' + _text(row[key] != null ? row[key] : '—') + '</td>';
+          });
+          cells += '<td><span class="text-sm text-slate-500 italic">' + _text(row.gap) + '</span></td>';
+          return '<tr class="no-break">' + cells + '</tr>';
+        }).join(''));
+        return;
+      }
+
+      if (!fallbackRows.length) {
         _hideSection('section-comparison');
         return;
       }
 
+      // Fallback: siteComparison with single competitor column
+      var competitorLabel = data && data.competitor ? (data.competitor.primaryLabel || data.competitor.primary) : '';
       _setHTML('#comparison-table thead tr',
         '<th>Metric</th>' +
         '<th class="highlight-col">' + _text(clientLabel || 'Client') + '</th>' +
@@ -160,7 +197,7 @@
         '<th>Gap</th>'
       );
 
-      _setHTML('#comparison-table tbody', rows.map(function (row) {
+      _setHTML('#comparison-table tbody', fallbackRows.map(function (row) {
         return '' +
           '<tr class="no-break">' +
             '<td class="font-medium text-slate-700">' + _text(row.metric) + '</td>' +
