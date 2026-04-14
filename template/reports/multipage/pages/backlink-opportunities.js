@@ -238,7 +238,7 @@
       var group = domainGroups[domain];
       var firstLink = group.links[0];
       var hasMultiple = group.links.length > 1;
-      var groupId = 'bl-group-' + domain.replace(/[^a-z0-9]/g, '-');
+      var groupId = 'bl-group-' + domain.toLowerCase().replace(/[^a-z0-9]/g, '-');
 
       var followBadge = firstLink.isDofollow == null
         ? '<span class="severity-badge info">Unknown</span>'
@@ -246,24 +246,9 @@
           ? '<span class="severity-badge low">Dofollow</span>'
           : '<span class="severity-badge medium">Nofollow</span>';
 
-      rows += '<tr class="no-break">' +
-        '<td>' +
-          '<div class="font-medium text-slate-800">' + esc(domain) + '</div>' +
-          (hasMultiple
-            ? '<button class="text-xs text-blue-600 mt-1 cursor-pointer bg-transparent border-none p-0" style="cursor:pointer" onclick="(function(){ var el=document.getElementById(\'' + groupId + '\'); el.style.display = el.style.display===\'none\'?\'table-row-group\':\'none\'; this.textContent = el.style.display===\'none\'? \'Show ' + group.links.length + ' backlinks\' : \'Hide backlinks\'; }).call(this)">' +
-              'Show ' + group.links.length + ' backlinks' +
-            '</button>'
-            : '<div class="text-xs text-slate-500 mt-1 break-all">' + esc(firstLink.sourceUrl) + '</div>') +
-        '</td>' +
-        '<td><div class="text-slate-600 leading-relaxed">' + esc(firstLink.anchorText || 'No anchor') + '</div></td>' +
-        '<td>' + (group.bestDR != null ? group.bestDR : '—') + '</td>' +
-        '<td>' + followBadge + '</td>' +
-        '<td>' + group.links.length + '</td>' +
-        '<td>' + esc(firstLink.firstSeen || '') + '</td>' +
-      '</tr>';
-
+      var detailsHtml = '';
       if (hasMultiple) {
-        rows += '<tbody id="' + groupId + '" style="display:none">';
+        detailsHtml = '<div id="' + groupId + '" data-backlink-detail style="display:none;margin-top:12px" class="space-y-2">';
         group.links.forEach(function (link) {
           var childFollow = link.isDofollow == null
             ? '<span class="severity-badge info">Unknown</span>'
@@ -271,17 +256,37 @@
               ? '<span class="severity-badge low">Dofollow</span>'
               : '<span class="severity-badge medium">Nofollow</span>';
 
-          rows += '<tr class="no-break" style="background:#f8fafc">' +
-            '<td style="padding-left:2rem"><div class="text-xs text-slate-600 break-all">' + esc(link.sourceUrl) + '</div></td>' +
-            '<td><div class="text-xs text-slate-500">' + esc(link.anchorText || 'No anchor') + '</div></td>' +
-            '<td class="text-xs">' + (link.domainRating != null ? link.domainRating : '—') + '</td>' +
-            '<td>' + childFollow + '</td>' +
-            '<td></td>' +
-            '<td class="text-xs">' + esc(link.firstSeen || '') + '</td>' +
-          '</tr>';
+          detailsHtml += '' +
+            '<div class="rounded-lg border border-slate-200 bg-slate-50 p-3">' +
+              '<div class="text-xs font-semibold uppercase tracking-[0.16em] text-slate-400">Backlink</div>' +
+              '<div class="mt-1 text-xs text-slate-600 break-all">' + esc(link.sourceUrl) + '</div>' +
+              '<div class="mt-2 flex flex-wrap gap-2 text-xs text-slate-500">' +
+                '<span>Anchor: ' + esc(link.anchorText || 'No anchor') + '</span>' +
+                '<span>DR: ' + esc(link.domainRating != null ? link.domainRating : '—') + '</span>' +
+                '<span>First seen: ' + esc(link.firstSeen || 'Unknown') + '</span>' +
+              '</div>' +
+              '<div class="mt-2">' + childFollow + '</div>' +
+            '</div>';
         });
-        rows += '</tbody>';
+        detailsHtml += '</div>';
       }
+
+      rows += '<tr class="no-break">' +
+        '<td>' +
+          '<div class="font-medium text-slate-800">' + esc(domain) + '</div>' +
+          (hasMultiple
+            ? '<button class="text-xs text-blue-600 mt-1 cursor-pointer bg-transparent border-none p-0" style="cursor:pointer" data-backlink-toggle="' + groupId + '" data-backlink-count="' + group.links.length + '" aria-expanded="false">' +
+              'Show ' + group.links.length + ' backlinks' +
+            '</button>'
+            : '<div class="text-xs text-slate-500 mt-1 break-all">' + esc(firstLink.sourceUrl) + '</div>') +
+          detailsHtml +
+        '</td>' +
+        '<td><div class="text-slate-600 leading-relaxed">' + esc(hasMultiple ? 'Multiple backlinks' : (firstLink.anchorText || 'No anchor')) + '</div></td>' +
+        '<td>' + (group.bestDR != null ? group.bestDR : '—') + '</td>' +
+        '<td>' + followBadge + '</td>' +
+        '<td>' + group.links.length + '</td>' +
+        '<td>' + esc(firstLink.firstSeen || '') + '</td>' +
+      '</tr>';
     });
 
     html += '<div class="mt-6">' +
@@ -308,6 +313,18 @@
     '</div>';
 
     container.innerHTML = html;
+    container.querySelectorAll('[data-backlink-toggle]').forEach(function (button) {
+      button.addEventListener('click', function () {
+        var detailId = button.getAttribute('data-backlink-toggle');
+        var detail = detailId ? document.getElementById(detailId) : null;
+        if (!detail) return;
+
+        var expanded = button.getAttribute('aria-expanded') === 'true';
+        detail.style.display = expanded ? 'none' : '';
+        button.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+        button.textContent = (expanded ? 'Show ' : 'Hide ') + button.getAttribute('data-backlink-count') + ' backlinks';
+      });
+    });
   }
 
   // ---------------------------------------------------------------------------

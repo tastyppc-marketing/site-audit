@@ -543,6 +543,141 @@ function normalizeAuditData(data, dataDir) {
   const tech = data.technicalSeo || (data.technicalSeo = {});
   let fixes = 0;
   data.apiErrors = data.apiErrors || [];
+  const clientWebsite = toText(data.client && (data.client.websiteUrl || data.client.website));
+  let clientBaseUrl = null;
+
+  if (clientWebsite) {
+    try {
+      clientBaseUrl = new URL(/^https?:\/\//i.test(clientWebsite) ? clientWebsite : `https://${clientWebsite}`);
+    } catch (error) {
+      clientBaseUrl = null;
+    }
+  }
+
+  function urlVariants(value) {
+    const text = toText(value);
+    const seen = new Set();
+    const variants = [];
+
+    function addVariant(candidate) {
+      const normalized = toText(candidate);
+      if (!normalized) return;
+
+      const finalValue = normalized.length > 1
+        ? normalized.replace(/\/+$/, '')
+        : normalized;
+
+      if (!finalValue || seen.has(finalValue)) return;
+      seen.add(finalValue);
+      variants.push(finalValue);
+    }
+
+    if (!text) return variants;
+
+    addVariant(text);
+
+    try {
+      const parsed = clientBaseUrl ? new URL(text, clientBaseUrl) : new URL(text);
+      addVariant(parsed.toString());
+      addVariant(`${parsed.origin}${parsed.pathname || '/'}`);
+      addVariant(parsed.pathname || '/');
+    } catch (error) {
+      if (text.charAt(0) === '/') {
+        addVariant(text === '/' ? '/' : text);
+      }
+    }
+
+    return variants;
+  }
+
+  function buildUrlLookup(entries) {
+    const lookup = new Map();
+
+    (Array.isArray(entries) ? entries : []).forEach(function(entry) {
+      if (!entry || typeof entry !== 'object') return;
+
+      urlVariants(entry.url).forEach(function(variant) {
+        if (!lookup.has(variant)) {
+          lookup.set(variant, entry);
+        }
+      });
+    });
+
+    return lookup;
+  }
+
+  function findByUrl(lookup, value) {
+    const variants = urlVariants(value);
+    for (let index = 0; index < variants.length; index += 1) {
+      const variant = variants[index];
+      if (lookup.has(variant)) {
+        return lookup.get(variant);
+      }
+    }
+    return null;
+  }
+
+  function toRelativeUrl(value) {
+    const text = toText(value);
+    if (!text) return '';
+
+    try {
+      const parsed = clientBaseUrl ? new URL(text, clientBaseUrl) : new URL(text);
+      if (!clientBaseUrl || parsed.origin === clientBaseUrl.origin) {
+        return parsed.pathname || '/';
+      }
+      return parsed.toString();
+    } catch (error) {
+      return text;
+    }
+  }
+
+  function buildReadabilityExplanation(page) {
+    if (!page || typeof page !== 'object') return '';
+
+    const parts = [];
+    if (page.fleschReadingEase != null) {
+      const score = Number(page.fleschReadingEase);
+      let level = 'Very difficult';
+      if (score >= 90) level = 'Very easy';
+      else if (score >= 80) level = 'Easy';
+      else if (score >= 70) level = 'Fairly easy';
+      else if (score >= 60) level = 'Standard';
+      else if (score >= 50) level = 'Fairly difficult';
+      else if (score >= 30) level = 'Difficult';
+      parts.push(`Flesch Reading Ease ${score.toFixed(1)} (${level})`);
+    }
+    if (page.fleschKincaidGrade != null) {
+      parts.push(`Grade level ${Number(page.fleschKincaidGrade).toFixed(1)}`);
+    }
+    if (page.avgSentenceLength != null) {
+      parts.push(`Average sentence length ${Number(page.avgSentenceLength).toFixed(1)} words`);
+    }
+    if (page.wordCount != null) {
+      parts.push(`Word count ${Number(page.wordCount).toLocaleString()}`);
+    }
+    return parts.join(' | ');
+  }
+
+  function normalizeDomain(value) {
+    const text = toText(value);
+    if (!text) return '';
+
+    try {
+      const parsed = /^https?:\/\//i.test(text) ? new URL(text) : new URL(`https://${text}`);
+      return parsed.hostname.replace(/^www\./i, '').toLowerCase();
+    } catch (error) {
+      return text.replace(/^https?:\/\//i, '').replace(/\/.*$/, '').replace(/^www\./i, '').toLowerCase();
+    }
+  }
+
+  function parseKeywordRank(value) {
+    const text = toText(value);
+    if (!text) return null;
+    if (/not\s*found|n\/a|^-$|^w\/r$/i.test(text)) return null;
+    const match = text.match(/(\d+)/);
+    return match ? Number(match[1]) : null;
+  }
 
   function propagateApiErrors(source, payload) {
     if (!payload || typeof payload !== 'object') return;
@@ -615,6 +750,17 @@ function normalizeAuditData(data, dataDir) {
         }
       } catch (err) { logWarning('Failed to parse keyword-volumes.json', err.message); }
     }
+
+    data.keywords.forEach(function(keyword) {
+      if (!keyword || typeof keyword !== 'object') return;
+
+      if (keyword.clientRankValue == null) {
+        keyword.clientRankValue = parseKeywordRank(keyword.clientRank);
+      }
+      if (keyword.competitorRankValue == null) {
+        keyword.competitorRankValue = parseKeywordRank(keyword.competitorRank);
+      }
+    });
   }
 
   // ── 1. Core Web Vitals ──────────────────────────────────────────────
@@ -688,7 +834,24 @@ function normalizeAuditData(data, dataDir) {
       try {
         const psi = JSON.parse(fs.readFileSync(psiPath, 'utf-8'));
         propagateApiErrors('pagespeed-data.json', psi);
-        const clientPages = (psi.data && Array.isArray(psi.data.client)) ? psi.data.client : [];
+        const rawClientPages = (psi.data && Array.isArray(psi.data.client)) ? psi.data.client : [];
+        const expectedClientDomain = normalizeDomain(data.client && (data.client.websiteUrl || data.client.website));
+        const clientPages = rawClientPages.filter(function(entry) {
+          const entryDomain = normalizeDomain((entry && (entry.domain || entry.url)) || '');
+          return !!entryDomain && entryDomain === expectedClientDomain;
+        });
+
+        if (!clientPages.length && rawClientPages.length) {
+          logWarning(
+            'pagespeed-data.json client domain mismatch',
+            'Expected ' + (expectedClientDomain || 'unknown') + ' but found ' +
+              rawClientPages.map(function(entry) {
+                return normalizeDomain((entry && (entry.domain || entry.url)) || '') || 'unknown';
+              }).filter(Boolean).join(', ') +
+              '. Skipping PSI client auto-population.'
+          );
+        }
+
         const expanded = [];
         clientPages.forEach(function (entry) {
           ['mobile', 'desktop'].forEach(function (strategy) {
@@ -841,6 +1004,67 @@ function normalizeAuditData(data, dataDir) {
     }
   }
 
+  // ── 3a. Rank history — transpose snapshot-based rankings into keyword-centric history ──
+  if (data.rankHistory && typeof data.rankHistory === 'object') {
+    const rh = data.rankHistory;
+    const snapshots = Array.isArray(rh.snapshots) ? rh.snapshots : [];
+    const keywords = rh.keywords && typeof rh.keywords === 'object' ? rh.keywords : null;
+
+    if (snapshots.length && typeof snapshots[0] === 'object' && snapshots[0] !== null) {
+      rh.snapshots = snapshots.map(function(snapshot) {
+        return snapshot && typeof snapshot === 'object' ? (snapshot.date || '') : snapshot;
+      }).filter(Boolean);
+      fixes++;
+    }
+
+    if (snapshots.length && keywords) {
+      let transposedEntries = 0;
+
+      snapshots.forEach(function(snapshot) {
+        if (!snapshot || typeof snapshot !== 'object') return;
+
+        const snapshotDate = toText(snapshot.date);
+        const rankings = snapshot.rankings && typeof snapshot.rankings === 'object'
+          ? snapshot.rankings
+          : null;
+
+        if (!snapshotDate || !rankings) return;
+
+        Object.keys(rankings).forEach(function(domain) {
+          const domainRankings = rankings[domain];
+          if (!domainRankings || typeof domainRankings !== 'object') return;
+
+          Object.keys(domainRankings).forEach(function(keyword) {
+            if (!Object.prototype.hasOwnProperty.call(keywords, keyword)) {
+              keywords[keyword] = {};
+            }
+
+            const rankValue = domainRankings[keyword];
+            const keywordEntry = keywords[keyword];
+            if (!keywordEntry || typeof keywordEntry !== 'object') return;
+
+            keywordEntry.history = keywordEntry.history && typeof keywordEntry.history === 'object'
+              ? keywordEntry.history
+              : {};
+            keywordEntry.history[domain] = keywordEntry.history[domain] && typeof keywordEntry.history[domain] === 'object'
+              ? keywordEntry.history[domain]
+              : {};
+
+            if (keywordEntry.history[domain][snapshotDate] !== rankValue) {
+              keywordEntry.history[domain][snapshotDate] = rankValue;
+              transposedEntries++;
+            }
+          });
+        });
+      });
+
+      if (transposedEntries) {
+        logInfo('Transposed rankHistory snapshots', transposedEntries + ' keyword/domain/date entries');
+        fixes++;
+      }
+    }
+  }
+
   // ── 4. Page audits (site structure) ─────────────────────────────────
   // Renderer reads data.technicalSeo.pageAudits as [{ url, title,
   // metaDescription, canonicalUrl, wordCount, h1Tags[], h2Tags[],
@@ -868,6 +1092,15 @@ function normalizeAuditData(data, dataDir) {
               hasSchema:       !!p.hasSchema,
               schemaTypes:     Array.isArray(p.schemaTypes) ? p.schemaTypes : [],
               issues:          Array.isArray(p.issues) ? p.issues : [],
+              imageCount:      p.imgCount != null ? p.imgCount : (p.imageCount != null ? p.imageCount : null),
+              imagesWithAlt:   p.imagesWithAlt != null ? p.imagesWithAlt : (
+                p.imgCount != null && p.imgWithoutAlt != null ? Math.max(p.imgCount - p.imgWithoutAlt, 0) : null
+              ),
+              hasFaqSchema:    p.hasFaqSchema != null ? p.hasFaqSchema : null,
+              h3Tags:          Array.isArray(p.h3) ? p.h3 : (Array.isArray(p.h3Tags) ? p.h3Tags : []),
+              headingHierarchyValid: p.headingHierarchyValid != null ? p.headingHierarchyValid : (
+                Array.isArray(p.h1) ? p.h1.length === 1 : null
+              ),
               statusCode:      p.statusCode != null ? p.statusCode : 200,
             };
           });
@@ -905,72 +1138,76 @@ function normalizeAuditData(data, dataDir) {
     // Build inbound/outbound maps
     const inbound = {};
     const outbound = {};
-    const allPages = new Set();
     let totalLinks = 0;
 
     Object.keys(linkEdges).forEach(function (source) {
       const targets = Array.isArray(linkEdges[source]) ? linkEdges[source] : [];
-      allPages.add(source);
       outbound[source] = targets.length;
       totalLinks += targets.length;
       targets.forEach(function (target) {
-        allPages.add(target);
         inbound[target] = (inbound[target] || 0) + 1;
       });
     });
 
     const sitemapPages = new Set(Object.keys(linkEdges));
     const pageCount = sitemapPages.size;
+    const inboundValues = [];
+    const outboundValues = [];
+    const currentTotal = Number(linking.total_pages || linking.totalPages) || 0;
+    const currentOrphans = Array.isArray(linking.orphans) ? linking.orphans : [];
+    const currentHubClusters = Array.isArray(linking.hubClusters) ? linking.hubClusters
+      : (Array.isArray(linking.hub_clusters) ? linking.hub_clusters : []);
+    const hasUsableHubClusters = currentHubClusters.some(function(cluster) {
+      return !!(
+        cluster &&
+        (cluster.hubUrl || cluster.hub_url) &&
+        (
+          Array.isArray(cluster.spokes) ||
+          cluster.spokeCount != null ||
+          cluster.spoke_count != null
+        )
+      );
+    });
+
+    sitemapPages.forEach(function (url) {
+      inboundValues.push(inbound[url] || 0);
+      outboundValues.push(outbound[url] || 0);
+    });
+
+    const sum = function (arr) { return arr.reduce(function (a, b) { return a + b; }, 0); };
+    const avgIn = pageCount ? sum(inboundValues) / pageCount : 0;
+    const avgOut = pageCount ? sum(outboundValues) / pageCount : 0;
+
+    const derivedOrphans = [];
+    sitemapPages.forEach(function (url) {
+      if ((inbound[url] || 0) !== 0) return;
+
+      const pathname = url.replace(/^https?:\/\/[^/]+/, '').replace(/\/$/, '');
+      if (!pathname) return;
+
+      derivedOrphans.push({
+        url: url,
+        outbound_links: outbound[url] || 0,
+        is_in_sitemap: true,
+        recommendation: 'No contextual links point to this page. Add it to at least 2-3 hub or category pages.',
+      });
+    });
 
     // ── 5a. Recompute overview stats if stale (total_pages is 0 or missing) ──
-    const currentTotal = Number(linking.total_pages || linking.totalPages) || 0;
-    if (currentTotal === 0 && pageCount > 0) {
-      // Compute averages across sitemap pages
-      const inboundValues = [];
-      const outboundValues = [];
-      sitemapPages.forEach(function (url) {
-        inboundValues.push(inbound[url] || 0);
-        outboundValues.push(outbound[url] || 0);
-      });
-      const sum = function (arr) { return arr.reduce(function (a, b) { return a + b; }, 0); };
-      const avgIn = pageCount ? sum(inboundValues) / pageCount : 0;
-      const avgOut = pageCount ? sum(outboundValues) / pageCount : 0;
-
-      // Identify orphans: pages in sitemap with 0 inbound links (except homepage)
-      const orphans = [];
-      sitemapPages.forEach(function (url) {
-        if ((inbound[url] || 0) === 0) {
-          // Don't count homepage as orphan
-          const pathname = url.replace(/^https?:\/\/[^/]+/, '').replace(/\/$/, '');
-          if (pathname && pathname !== '') {
-            orphans.push({
-              url: url,
-              outbound_links: outbound[url] || 0,
-              is_in_sitemap: true,
-              recommendation: 'No contextual links point to this page. Add it to at least 2-3 hub or category pages.',
-            });
-          }
-        }
-      });
-
+    if (pageCount > 0 && (currentTotal === 0 || !currentOrphans.length || Math.abs(currentTotal - pageCount) > pageCount * 0.5)) {
       linking.total_pages = pageCount;
       linking.total_internal_links = totalLinks;
       linking.avg_inbound_links = Math.round(avgIn * 10) / 10;
       linking.avg_outbound_links = Math.round(avgOut * 10) / 10;
-      linking.orphan_count = orphans.length;
-      linking.orphan_rate = pageCount ? Math.round((orphans.length / pageCount) * 1000) / 10 : 0;
-
-      // Only replace orphans list if current one looks stale too
-      const currentOrphans = Array.isArray(linking.orphans) ? linking.orphans : [];
-      if (!currentOrphans.length || currentOrphans.length === Number(linking.orphan_count)) {
-        linking.orphans = orphans;
-      }
+      linking.orphan_count = derivedOrphans.length;
+      linking.orphan_rate = pageCount ? Math.round((derivedOrphans.length / pageCount) * 1000) / 10 : 0;
+      linking.orphans = derivedOrphans;
 
       // Recompute issues based on real data
       const issues = [];
-      if (orphans.length > 0) issues.push('HAS_ORPHANS');
+      if (derivedOrphans.length > 0) issues.push('HAS_ORPHANS');
       if (avgIn < 2) issues.push('WEAK_INTERNAL_LINKING');
-      if (!hubClusters.length) issues.push('NO_HUB_STRUCTURE');
+      if (!hasUsableHubClusters) issues.push('NO_HUB_STRUCTURE');
       linking.issues = issues;
 
       linking.recommendations = [];
@@ -980,19 +1217,23 @@ function normalizeAuditData(data, dataDir) {
           ' (below 2.0). Increase internal linking density across the site.'
         );
       }
-      if (orphans.length > 0) {
+      if (derivedOrphans.length > 0) {
         linking.recommendations.push(
-          orphans.length + ' orphan page' + (orphans.length === 1 ? '' : 's') +
+          derivedOrphans.length + ' orphan page' + (derivedOrphans.length === 1 ? '' : 's') +
           ' found with zero inbound links. Add contextual links from hub or category pages.'
         );
       }
 
-      logInfo('Auto-populated link overview', pageCount + ' pages, ' + totalLinks + ' links, ' + orphans.length + ' orphans');
+      logInfo('Auto-populated link overview', pageCount + ' pages, ' + totalLinks + ' links, ' + derivedOrphans.length + ' orphans');
+      fixes++;
+    } else if (!currentOrphans.length && derivedOrphans.length) {
+      linking.orphans = derivedOrphans;
+      logInfo('Auto-populated orphan pages', derivedOrphans.length + ' orphan URLs from link-graph.json');
       fixes++;
     }
 
     // ── 5b. Build hub clusters if missing ──
-    if (!hubClusters.length) {
+    if (!hasUsableHubClusters) {
       const hubCandidates = Object.keys(linkEdges)
         .map(function (url) {
           const targets = (Array.isArray(linkEdges[url]) ? linkEdges[url] : [])
@@ -1081,29 +1322,171 @@ function normalizeAuditData(data, dataDir) {
       propagateApiErrors('page-text-analysis.json', ptaRaw);
       const ptaPages = Array.isArray(ptaRaw) ? ptaRaw : (ptaRaw.pages || []);
       if (ptaPages.length) {
-        const ptaByUrl = {};
-        ptaPages.forEach(function (p) { if (p.url) ptaByUrl[p.url] = p; });
-
-        const cq = data.contentQuality || {};
-        const cqPages = Array.isArray(cq.pages) ? cq.pages : [];
+        const ptaByUrl = buildUrlLookup(ptaPages);
+        const cq = data.contentQuality || (data.contentQuality = {});
+        const existingPages = Array.isArray(cq.pages) ? cq.pages : [];
+        const existingByUrl = buildUrlLookup(existingPages);
+        const pageAuditsByUrl = buildUrlLookup(Array.isArray(tech.pageAudits) ? tech.pageAudits : []);
+        const summary = cq.summary && typeof cq.summary === 'object' ? cq.summary : {};
+        const thinThreshold = summary.thinThreshold != null ? Number(summary.thinThreshold) : null;
+        const needsReadabilityRebuild = !existingPages.length || existingPages.every(function(page) {
+          return !page || (page.readability == null && page.readabilityScore == null);
+        });
         let enriched = 0;
-        cqPages.forEach(function (page) {
-          if (!page || !page.readability) return;
-          const pta = ptaByUrl[page.url];
-          if (!pta) return;
-          if (pta.avgSyllablesPerWord != null && page.readability.syllablesPerWord == null) {
-            page.readability.syllablesPerWord = pta.avgSyllablesPerWord;
-            enriched++;
+
+        if (needsReadabilityRebuild) {
+          cq.pages = ptaPages.map(function(ptaPage) {
+            const existing = findByUrl(existingByUrl, ptaPage.url) || {};
+            const pageAudit = findByUrl(pageAuditsByUrl, ptaPage.url) || {};
+            const wordCount = ptaPage.wordCount != null ? ptaPage.wordCount
+              : (existing.wordCount != null ? existing.wordCount : pageAudit.wordCount);
+            const readabilityScore = ptaPage.fleschReadingEase != null ? Number(ptaPage.fleschReadingEase)
+              : (existing.readabilityScore != null ? existing.readabilityScore : null);
+            const issues = Array.isArray(existing.issues) ? existing.issues.slice()
+              : (existing.issue ? [existing.issue] : []);
+            const page = Object.assign({}, existing, {
+              url: toRelativeUrl(ptaPage.url),
+              title: toText(ptaPage.title) || toText(existing.title) || toText(pageAudit.title),
+              wordCount: wordCount != null ? wordCount : null,
+              readabilityScore: readabilityScore,
+              readability: Object.assign({}, existing.readability || {}, {
+                fleschReadingEase: ptaPage.fleschReadingEase != null ? Number(ptaPage.fleschReadingEase) : null,
+                fleschKincaidGrade: ptaPage.fleschKincaidGrade != null ? Number(ptaPage.fleschKincaidGrade) : null,
+                wordCount: wordCount != null ? wordCount : null,
+                syllablesPerWord: ptaPage.avgSyllablesPerWord != null ? Number(ptaPage.avgSyllablesPerWord) : null,
+                avgSentenceLength: ptaPage.avgSentenceLength != null ? Number(ptaPage.avgSentenceLength) : null,
+                sentenceCount: ptaPage.sentenceCount != null ? Number(ptaPage.sentenceCount) : null,
+                readingLevel: toText(ptaPage.readingLevel),
+                scoreExplanation: buildReadabilityExplanation(ptaPage),
+              }),
+            });
+
+            if (page.isThin == null && thinThreshold != null && wordCount != null) {
+              page.isThin = Number(wordCount) < thinThreshold;
+            }
+            if (issues.length) {
+              page.issues = issues;
+            }
+            return page;
+          });
+          enriched = cq.pages.length;
+        } else {
+          const cqPages = Array.isArray(cq.pages) ? cq.pages : [];
+          cqPages.forEach(function (page) {
+            if (!page || typeof page !== 'object') return;
+
+            const pta = findByUrl(ptaByUrl, page.url);
+            if (!pta) return;
+
+            page.readability = page.readability && typeof page.readability === 'object' ? page.readability : {};
+
+            if (pta.fleschReadingEase != null && page.readabilityScore == null) {
+              page.readabilityScore = Number(pta.fleschReadingEase);
+              enriched++;
+            }
+            if (page.wordCount == null && pta.wordCount != null) {
+              page.wordCount = pta.wordCount;
+            }
+            if (page.readability.wordCount == null && (pta.wordCount != null || page.wordCount != null)) {
+              page.readability.wordCount = pta.wordCount != null ? pta.wordCount : page.wordCount;
+            }
+            if (pta.fleschReadingEase != null && page.readability.fleschReadingEase == null) {
+              page.readability.fleschReadingEase = Number(pta.fleschReadingEase);
+            }
+            if (pta.fleschKincaidGrade != null && page.readability.fleschKincaidGrade == null) {
+              page.readability.fleschKincaidGrade = Number(pta.fleschKincaidGrade);
+            }
+            if (pta.avgSyllablesPerWord != null && page.readability.syllablesPerWord == null) {
+              page.readability.syllablesPerWord = Number(pta.avgSyllablesPerWord);
+            }
+            if (pta.avgSentenceLength != null && page.readability.avgSentenceLength == null) {
+              page.readability.avgSentenceLength = Number(pta.avgSentenceLength);
+            }
+            if (pta.sentenceCount != null && page.readability.sentenceCount == null) {
+              page.readability.sentenceCount = Number(pta.sentenceCount);
+            }
+            if (page.readability.readingLevel == null && pta.readingLevel) {
+              page.readability.readingLevel = pta.readingLevel;
+            }
+            if (!page.readability.scoreExplanation) {
+              page.readability.scoreExplanation = buildReadabilityExplanation(pta);
+            }
+          });
+        }
+
+        const cqPages = Array.isArray(cq.pages) ? cq.pages : [];
+        cqPages.forEach(function(page) {
+          if (!page || typeof page !== 'object') return;
+
+          if ((!Array.isArray(page.issues) || !page.issues.length) && page.issue) {
+            page.issues = [page.issue];
           }
-          if (pta.avgSentenceLength != null && page.readability.avgSentenceLength == null) {
-            page.readability.avgSentenceLength = pta.avgSentenceLength;
+          if (page.readability && page.readability.wordCount == null && page.wordCount != null) {
+            page.readability.wordCount = page.wordCount;
           }
-          if (pta.sentenceCount != null && page.readability.sentenceCount == null) {
-            page.readability.sentenceCount = pta.sentenceCount;
+          if (page.isThin == null && thinThreshold != null && page.wordCount != null) {
+            page.isThin = Number(page.wordCount) < thinThreshold;
+          }
+
+          const pageAudit = findByUrl(pageAuditsByUrl, page.url);
+          if (!pageAudit) return;
+
+          const structure = page.structure && typeof page.structure === 'object' ? page.structure : (page.structure = {});
+          const h1Tags = Array.isArray(pageAudit.h1Tags) ? pageAudit.h1Tags : [];
+          const h2Tags = Array.isArray(pageAudit.h2Tags) ? pageAudit.h2Tags : [];
+          const h3Tags = Array.isArray(pageAudit.h3Tags) ? pageAudit.h3Tags : [];
+          const inferredHeadingCount = h1Tags.length + h2Tags.length + h3Tags.length;
+
+          if (page.title == null && pageAudit.title) {
+            page.title = pageAudit.title;
+          }
+          if (page.wordCount == null && pageAudit.wordCount != null) {
+            page.wordCount = pageAudit.wordCount;
+          }
+          if (page.readability && page.readability.wordCount == null && page.wordCount != null) {
+            page.readability.wordCount = page.wordCount;
+          }
+          if (structure.headingCount == null && inferredHeadingCount) {
+            structure.headingCount = inferredHeadingCount;
+          }
+          if (structure.h2Count == null && h2Tags.length) {
+            structure.h2Count = h2Tags.length;
+          }
+          if (structure.h3Count == null && h3Tags.length) {
+            structure.h3Count = h3Tags.length;
+          }
+          if (structure.headingHierarchyValid == null) {
+            if (pageAudit.headingHierarchyValid != null) {
+              structure.headingHierarchyValid = pageAudit.headingHierarchyValid;
+            } else if (h1Tags.length) {
+              structure.headingHierarchyValid = h1Tags.length === 1;
+            }
+          }
+          if (structure.imageCount == null && pageAudit.imageCount != null) {
+            structure.imageCount = pageAudit.imageCount;
+          }
+          if (structure.imagesWithAlt == null && pageAudit.imagesWithAlt != null) {
+            structure.imagesWithAlt = pageAudit.imagesWithAlt;
+          }
+          if (structure.internalLinks == null && pageAudit.internalLinks != null) {
+            structure.internalLinks = pageAudit.internalLinks;
+          }
+          if (structure.hasFaqSchema == null) {
+            if (pageAudit.hasFaqSchema != null) {
+              structure.hasFaqSchema = pageAudit.hasFaqSchema;
+            } else if (Array.isArray(pageAudit.schemaTypes) && pageAudit.schemaTypes.length) {
+              structure.hasFaqSchema = pageAudit.schemaTypes.some(function(type) {
+                return String(type).toLowerCase() === 'faqpage';
+              });
+            }
           }
         });
+
         if (enriched) {
-          logInfo('Enriched readability data', enriched + ' pages with syllables/word from page-text-analysis.json');
+          logInfo(
+            needsReadabilityRebuild ? 'Rebuilt content readability data' : 'Enriched readability data',
+            enriched + ' pages from page-text-analysis.json'
+          );
           fixes++;
         }
       }

@@ -163,6 +163,24 @@
     return descending ? right - left : left - right;
   }
 
+  function getReadabilityScore(page) {
+    if (!page || typeof page !== 'object') return null;
+    if (hasNumber(page.readabilityScore)) return Number(page.readabilityScore);
+    if (page.readability && hasNumber(page.readability.fleschReadingEase)) {
+      return Number(page.readability.fleschReadingEase);
+    }
+    return null;
+  }
+
+  function getReadabilityWordCount(page) {
+    if (!page || typeof page !== 'object') return null;
+    if (page.readability && hasNumber(page.readability.wordCount)) {
+      return Number(page.readability.wordCount);
+    }
+    if (hasNumber(page.wordCount)) return Number(page.wordCount);
+    return null;
+  }
+
   function renderContentOverview(data) {
     var content = getContentQuality(data);
     if (!content || !content.summary || typeof content.summary !== 'object') {
@@ -239,17 +257,13 @@
     }
 
     pages = pages.slice().sort(function (left, right) {
-      var scoreCompare = compareNumbers(left && left.readabilityScore, right && right.readabilityScore, false);
+      var scoreCompare = compareNumbers(getReadabilityScore(left), getReadabilityScore(right), false);
       if (scoreCompare !== 0) return scoreCompare;
-      return compareNumbers(
-        left && left.readability && left.readability.wordCount,
-        right && right.readability && right.readability.wordCount,
-        false
-      );
+      return compareNumbers(getReadabilityWordCount(left), getReadabilityWordCount(right), false);
     });
 
     var html = '' +
-      '<div data-filterable data-filters=\'[{"col":1,"label":"Readability","type":"range","ranges":[{"label":"Good (60+)","min":60},{"label":"Needs Work (30-59)","min":30,"max":59.9},{"label":"Poor (0-29)","min":0,"max":29.9}]},{"col":3,"label":"Word Count","type":"range","ranges":[{"label":"Thin (<300)","min":0,"max":299},{"label":"Light (300-799)","min":300,"max":799},{"label":"Standard (800+)","min":800}]}]\'>' +
+      '<div data-filterable data-paginate data-filters=\'[{"col":1,"label":"Readability","type":"range","ranges":[{"label":"Good (60+)","min":60},{"label":"Needs Work (30-59)","min":30,"max":59.9},{"label":"Poor (0-29)","min":0,"max":29.9}]},{"col":3,"label":"Word Count","type":"range","ranges":[{"label":"Thin (<300)","min":0,"max":299},{"label":"Light (300-799)","min":300,"max":799},{"label":"Standard (800+)","min":800}]}]\'>' +
       '<div class="report-table-wrap">' +
         '<table class="report-table">' +
           '<thead>' +
@@ -264,6 +278,8 @@
 
     pages.forEach(function (page) {
       var readability = page && page.readability ? page.readability : {};
+      var readabilityScore = getReadabilityScore(page);
+      var wordCount = getReadabilityWordCount(page);
       var explanation = readability.scoreExplanation || '';
       var fkGrade = readability.fleschKincaidGrade;
       var avgSentLen = readability.avgSentenceLength;
@@ -302,12 +318,12 @@
         '<tr class="has-popover" data-popover="' + esc(tooltip) + '">' +
           '<td>' + renderUrlCell(page && page.url, page && page.title) + '</td>' +
           '<td>' +
-            '<span class="severity-badge ' + readabilitySeverity(page && page.readabilityScore) + '" title="' + esc(tooltip) + '">' +
-              formatNumber(page && page.readabilityScore, 1) +
+            '<span class="severity-badge ' + readabilitySeverity(readabilityScore) + '" title="' + esc(tooltip) + '">' +
+              formatNumber(readabilityScore, 1) +
             '</span>' +
           '</td>' +
           '<td>' + (hasNumber(readability.syllablesPerWord) ? formatNumber(readability.syllablesPerWord, 2) : hasNumber(readability.avgSyllablesPerWord) ? formatNumber(readability.avgSyllablesPerWord, 2) : '&mdash;') + '</td>' +
-          '<td>' + formatNumber(readability.wordCount, 0) + '</td>' +
+          '<td>' + formatNumber(wordCount, 0) + '</td>' +
         '</tr>';
     });
 
@@ -581,9 +597,22 @@
       var structure = page && page.structure ? page.structure : {};
       var imageCount = toNumber(structure.imageCount);
       var imagesWithAlt = toNumber(structure.imagesWithAlt);
-      var altCoverage = (imageCount != null && imageCount > 0 && imagesWithAlt != null)
-        ? formatNumber(imagesWithAlt, 0) + ' / ' + formatNumber(imageCount, 0) + ' (' + formatPercent(imagesWithAlt / imageCount, 0) + ')'
-        : 'No images';
+      var altCoverage = 'Not analyzed';
+      var hierarchyHtml = '<span class="severity-badge info">Not analyzed</span>';
+      var faqLabel = structure.hasFaqSchema == null ? 'Not analyzed' : (structure.hasFaqSchema ? 'Yes' : 'No');
+
+      if (imageCount != null) {
+        altCoverage = imageCount > 0 && imagesWithAlt != null
+          ? formatNumber(imagesWithAlt, 0) + ' / ' + formatNumber(imageCount, 0) + ' (' + formatPercent(imagesWithAlt / imageCount, 0) + ')'
+          : 'No images';
+      }
+
+      if (structure.headingHierarchyValid != null) {
+        hierarchyHtml =
+          '<span class="severity-badge ' + (structure.headingHierarchyValid ? 'low' : 'high') + '">' +
+            (structure.headingHierarchyValid ? 'Valid' : 'Needs review') +
+          '</span>';
+      }
 
       html += '' +
         '<tr>' +
@@ -592,16 +621,12 @@
             '<div class="font-medium text-slate-900">' + formatNumber(structure.headingCount, 0) + '</div>' +
             '<div class="mt-1 text-xs text-slate-500">H2: ' + formatNumber(structure.h2Count, 0) + ' | H3: ' + formatNumber(structure.h3Count, 0) + '</div>' +
           '</td>' +
-          '<td>' +
-            '<span class="severity-badge ' + (structure.headingHierarchyValid ? 'low' : 'high') + '">' +
-              (structure.headingHierarchyValid ? 'Valid' : 'Needs review') +
-            '</span>' +
-          '</td>' +
+          '<td>' + hierarchyHtml + '</td>' +
           '<td>' + formatNumber(structure.imageCount, 0) + '</td>' +
           '<td>' + altCoverage + '</td>' +
           '<td>' +
             '<div class="font-medium text-slate-900">' + formatNumber(structure.internalLinks, 0) + '</div>' +
-            '<div class="mt-1 text-xs text-slate-500">FAQ schema: ' + esc(structure.hasFaqSchema ? 'Yes' : 'No') + '</div>' +
+            '<div class="mt-1 text-xs text-slate-500">FAQ schema: ' + esc(faqLabel) + '</div>' +
           '</td>' +
         '</tr>';
     });
