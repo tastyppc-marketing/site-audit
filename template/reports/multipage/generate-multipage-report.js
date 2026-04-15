@@ -116,6 +116,35 @@ function ensureFileExists(filePath, label) {
   }
 }
 
+/**
+ * deepCamelCaseKeys — recursively converts all snake_case object keys to camelCase.
+ * Mutates the object in place. Skips keys starting with '_' (internal).
+ * Only converts keys containing underscores (e.g., performance_score → performanceScore).
+ */
+function deepCamelCaseKeys(obj) {
+  if (!obj || typeof obj !== 'object') return obj;
+  if (Array.isArray(obj)) {
+    obj.forEach(function(item) { deepCamelCaseKeys(item); });
+    return obj;
+  }
+  Object.keys(obj).forEach(function(key) {
+    var value = obj[key];
+    // Recurse into nested objects/arrays first
+    if (value && typeof value === 'object') {
+      deepCamelCaseKeys(value);
+    }
+    // Convert snake_case keys (skip internal keys starting with _)
+    if (key.indexOf('_') > 0 && key.charAt(0) !== '_') {
+      var camelKey = key.replace(/_([a-z0-9])/g, function(m, ch) { return ch.toUpperCase(); });
+      if (camelKey !== key && !Object.prototype.hasOwnProperty.call(obj, camelKey)) {
+        obj[camelKey] = obj[key];
+        delete obj[key];
+      }
+    }
+  });
+  return obj;
+}
+
 function toText(value) {
   if (value === null || value === undefined) return '';
   if (typeof value === 'string') return value.trim();
@@ -540,6 +569,9 @@ function copyDirectory(sourceDir, destinationDir) {
  * sibling research files (e.g. crawl-data.json, pagespeed-data.json).
  */
 function normalizeAuditData(data, dataDir) {
+  // Convert all snake_case keys to camelCase before any section-specific normalization
+  deepCamelCaseKeys(data);
+
   const tech = data.technicalSeo || (data.technicalSeo = {});
   let fixes = 0;
   data.apiErrors = data.apiErrors || [];
@@ -1187,20 +1219,20 @@ function normalizeAuditData(data, dataDir) {
 
       derivedOrphans.push({
         url: url,
-        outbound_links: outbound[url] || 0,
-        is_in_sitemap: true,
+        outboundLinks: outbound[url] || 0,
+        isInSitemap: true,
         recommendation: 'No contextual links point to this page. Add it to at least 2-3 hub or category pages.',
       });
     });
 
     // ── 5a. Recompute overview stats if stale (total_pages is 0 or missing) ──
     if (pageCount > 0 && (currentTotal === 0 || !currentOrphans.length || Math.abs(currentTotal - pageCount) > pageCount * 0.5)) {
-      linking.total_pages = pageCount;
-      linking.total_internal_links = totalLinks;
-      linking.avg_inbound_links = Math.round(avgIn * 10) / 10;
-      linking.avg_outbound_links = Math.round(avgOut * 10) / 10;
-      linking.orphan_count = derivedOrphans.length;
-      linking.orphan_rate = pageCount ? Math.round((derivedOrphans.length / pageCount) * 1000) / 10 : 0;
+      linking.totalPages = pageCount;
+      linking.totalInternalLinks = totalLinks;
+      linking.avgInboundLinks = Math.round(avgIn * 10) / 10;
+      linking.avgOutboundLinks = Math.round(avgOut * 10) / 10;
+      linking.orphanCount = derivedOrphans.length;
+      linking.orphanRate = pageCount ? Math.round((derivedOrphans.length / pageCount) * 1000) / 10 : 0;
       linking.orphans = derivedOrphans;
 
       // Recompute issues based on real data
@@ -1213,7 +1245,7 @@ function normalizeAuditData(data, dataDir) {
       linking.recommendations = [];
       if (avgIn < 2) {
         linking.recommendations.push(
-          'Average inbound contextual links per page is ' + linking.avg_inbound_links +
+          'Average inbound contextual links per page is ' + linking.avgInboundLinks +
           ' (below 2.0). Increase internal linking density across the site.'
         );
       }
@@ -1300,11 +1332,11 @@ function normalizeAuditData(data, dataDir) {
         var unreachable = allNodes.filter(function(u) { return !visited[u]; });
 
         depthResult.depths = depthCounts;
-        depthResult.max_depth = maxDepth;
-        depthResult.avg_depth = visitedCount ? Math.round((totalDepth / visitedCount) * 10) / 10 : 0;
-        depthResult.unreachable_count = unreachable.length;
+        depthResult.maxDepth = maxDepth;
+        depthResult.avgDepth = visitedCount ? Math.round((totalDepth / visitedCount) * 10) / 10 : 0;
+        depthResult.unreachableCount = unreachable.length;
         depthResult.unreachable = unreachable.slice(0, 50); // cap for JSON size (links.js reads 'unreachable')
-        linking.depth_result = depthResult;
+        linking.depthResult = depthResult;
 
         logInfo('Computed link depth via BFS', 'max_depth=' + maxDepth + ', pages=' + visitedCount + ', unreachable=' + unreachable.length);
         fixes++;
@@ -1949,6 +1981,398 @@ function normalizeAuditData(data, dataDir) {
   }
 
 
+  // ── 8. coreWebVitals — fallback from pagespeed-data.json ─────────────
+  // If data.coreWebVitals is still missing after earlier PSI hoists, try again
+  // with a broader search of pagespeed-data.json client entries.
+  if (!data.coreWebVitals || (!data.coreWebVitals.mobile && !data.coreWebVitals.desktop)) {
+    var psiPath8 = path.join(dataDir, 'research', 'pagespeed-data.json');
+    if (fs.existsSync(psiPath8)) {
+      try {
+        var psi8 = JSON.parse(fs.readFileSync(psiPath8, 'utf-8'));
+        deepCamelCaseKeys(psi8);
+        var clientEntries8 = (psi8.data && Array.isArray(psi8.data.client)) ? psi8.data.client : [];
+        if (clientEntries8.length) {
+          var cwv8 = {};
+          ['mobile', 'desktop'].forEach(function(strategy) {
+            var scores = [];
+            var sums = { lcp: 0, cls: 0, fcp: 0, inp: 0, ttfb: 0 };
+            clientEntries8.forEach(function(entry) {
+              var s = entry[strategy];
+              if (!s) return;
+              var ps = s.performanceScore != null ? s.performanceScore : s.score;
+              if (ps != null) scores.push(ps);
+              Object.keys(sums).forEach(function(k) { if (s[k] != null) sums[k] += s[k]; });
+            });
+            if (scores.length) {
+              var avg = scores.reduce(function(a, b) { return a + b; }, 0) / scores.length;
+              var n = scores.length;
+              cwv8[strategy] = {
+                performanceScore: avg,
+                score: avg,
+                lcp: Math.round(sums.lcp / n),
+                cls: Math.round(sums.cls / n * 1000) / 1000,
+                fcp: Math.round(sums.fcp / n),
+                inp: Math.round(sums.inp / n),
+                ttfb: Math.round(sums.ttfb / n),
+              };
+            }
+          });
+          if (cwv8.mobile || cwv8.desktop) {
+            data.coreWebVitals = cwv8;
+            logInfo('Auto-populated coreWebVitals', 'from pagespeed-data.json (' + clientEntries8.length + ' client pages)');
+            fixes++;
+          }
+        }
+      } catch (err8) { logWarning('Failed to parse pagespeed-data.json for CWV: ' + err8.message); }
+    }
+  }
+
+  // ── 9. pageSpeedComparison — fallback from pagespeed-data.json ──────
+  if (!Array.isArray(data.pageSpeedComparison) || !data.pageSpeedComparison.length) {
+    var psiPath9 = path.join(dataDir, 'research', 'pagespeed-data.json');
+    if (fs.existsSync(psiPath9)) {
+      try {
+        var psi9 = JSON.parse(fs.readFileSync(psiPath9, 'utf-8'));
+        deepCamelCaseKeys(psi9);
+        var allDomains9 = [];
+        var clientDomains9 = (psi9.data && Array.isArray(psi9.data.client)) ? psi9.data.client : [];
+        var compDomains9 = (psi9.data && Array.isArray(psi9.data.competitors)) ? psi9.data.competitors : [];
+        clientDomains9.forEach(function(e) { allDomains9.push({ entry: e, isClient: true }); });
+        compDomains9.forEach(function(e) { allDomains9.push({ entry: e, isClient: false }); });
+
+        if (allDomains9.length > 1) {
+          data.pageSpeedComparison = allDomains9.map(function(item) {
+            var e = item.entry;
+            var mob = e.mobile ? (e.mobile.performanceScore != null ? e.mobile.performanceScore : e.mobile.score) : null;
+            var score = mob != null ? Math.round(mob * 100) : null;
+            var name = e.domain || normalizeDomain(e.url) || '';
+            if (item.isClient) name += ' (Client)';
+            return { name: name, score: score };
+          });
+          logInfo('Auto-populated pageSpeedComparison', allDomains9.length + ' domains from pagespeed-data.json');
+          fixes++;
+        }
+      } catch (err9) { logWarning('Failed to parse pagespeed-data.json for comparison: ' + err9.message); }
+    }
+  }
+
+  // ── 10. keywords — merge keyword-data.json + keyword-research.json ──
+  if (!Array.isArray(data.keywords) || !data.keywords.length) {
+    var kwDataPath = path.join(dataDir, 'research', 'keyword-data.json');
+    var kwResearchPath = path.join(dataDir, 'research', 'keyword-research.json');
+    var kwVolumesPath = path.join(dataDir, 'research', 'keyword-volumes.json');
+    var mergedKeywords = [];
+
+    // Load keyword-data.json (has volume, cpc, competition)
+    var kwDataMap = new Map();
+    if (fs.existsSync(kwDataPath)) {
+      try {
+        var kwRaw = JSON.parse(fs.readFileSync(kwDataPath, 'utf-8'));
+        deepCamelCaseKeys(kwRaw);
+        var kwArr = Array.isArray(kwRaw) ? kwRaw : (kwRaw.data || []);
+        kwArr.forEach(function(e) {
+          if (e && e.keyword) kwDataMap.set(e.keyword.toLowerCase().trim(), e);
+        });
+      } catch (err10a) { logWarning('Failed to parse keyword-data.json: ' + err10a.message); }
+    }
+    // Also try keyword-volumes.json as fallback volume source
+    if (fs.existsSync(kwVolumesPath) && !kwDataMap.size) {
+      try {
+        var kvRaw = JSON.parse(fs.readFileSync(kwVolumesPath, 'utf-8'));
+        deepCamelCaseKeys(kvRaw);
+        var kvArr = Array.isArray(kvRaw) ? kvRaw : (kvRaw.data || []);
+        kvArr.forEach(function(e) {
+          if (e && e.keyword) kwDataMap.set(e.keyword.toLowerCase().trim(), e);
+        });
+      } catch (err10b) { logWarning('Failed to parse keyword-volumes.json: ' + err10b.message); }
+    }
+
+    // Load keyword-research.json (has clientFound, competitorDomains, topResult)
+    var kwResearchMap = new Map();
+    if (fs.existsSync(kwResearchPath)) {
+      try {
+        var krRaw = JSON.parse(fs.readFileSync(kwResearchPath, 'utf-8'));
+        deepCamelCaseKeys(krRaw);
+        var krArr = Array.isArray(krRaw) ? krRaw : (krRaw.keywords || krRaw.data || []);
+        krArr.forEach(function(e) {
+          if (e && e.keyword) kwResearchMap.set(e.keyword.toLowerCase().trim(), e);
+        });
+      } catch (err10c) { logWarning('Failed to parse keyword-research.json: ' + err10c.message); }
+    }
+
+    // Merge: iterate over all unique keywords from both sources
+    var allKwKeys = new Set();
+    kwDataMap.forEach(function(v, k) { allKwKeys.add(k); });
+    kwResearchMap.forEach(function(v, k) { allKwKeys.add(k); });
+
+    allKwKeys.forEach(function(kwKey) {
+      var kd = kwDataMap.get(kwKey) || {};
+      var kr = kwResearchMap.get(kwKey) || {};
+      var volume = kd.volume != null ? kd.volume : (kd.searchVolume != null ? kd.searchVolume : null);
+      var compDomains = Array.isArray(kr.competitorDomains) ? kr.competitorDomains : [];
+      var compRank = '';
+      if (compDomains.length && kr.competitorNotes) {
+        compRank = kr.competitorNotes;
+      } else if (compDomains.length) {
+        compRank = compDomains[0];
+      }
+
+      mergedKeywords.push({
+        keyword: kr.keyword || kd.keyword || kwKey,
+        volume: volume,
+        volumeNumeric: volume,
+        cpc: kd.cpc != null ? kd.cpc : null,
+        competitionIndex: kd.competitionIndex != null ? kd.competitionIndex : null,
+        clientRank: kr.clientFound === true ? 'Found' : (kr.clientFound === false ? 'Not found' : ''),
+        competitorRank: compRank,
+        topResult: kr.topResult || '',
+      });
+    });
+
+    if (mergedKeywords.length) {
+      data.keywords = mergedKeywords;
+      logInfo('Auto-populated keywords', mergedKeywords.length + ' keywords from research files');
+      fixes++;
+    }
+  }
+
+  // ── 11. rankHistory — reformat rank-history.json ────────────────────
+  if (!data.rankHistory || !data.rankHistory.keywords || !Object.keys(data.rankHistory.keywords).length) {
+    var rhPath = path.join(dataDir, 'research', 'rank-history.json');
+    if (fs.existsSync(rhPath)) {
+      try {
+        var rhRaw = JSON.parse(fs.readFileSync(rhPath, 'utf-8'));
+        deepCamelCaseKeys(rhRaw);
+        var rhKeywords = rhRaw.keywords || {};
+        var kwNames = Object.keys(rhKeywords);
+        if (kwNames.length) {
+          var allDates = new Set();
+          var allDomains = new Set();
+          var clientDomain11 = (rhRaw.meta && rhRaw.meta.clientDomain) || '';
+
+          kwNames.forEach(function(kwName) {
+            var entry = rhKeywords[kwName];
+            var positions = entry.positions || entry.history || {};
+            Object.keys(positions).forEach(function(domain) {
+              allDomains.add(domain);
+              var dateMap = positions[domain];
+              if (dateMap && typeof dateMap === 'object') {
+                Object.keys(dateMap).forEach(function(d) { allDates.add(d); });
+              }
+            });
+          });
+
+          var snapshots = Array.from(allDates).sort();
+          var competitors = Array.from(allDomains).filter(function(d) { return d !== clientDomain11; });
+
+          // Rename positions → history for each keyword
+          var normalizedKws = {};
+          kwNames.forEach(function(kwName) {
+            var entry = rhKeywords[kwName];
+            normalizedKws[kwName] = {
+              volume: entry.volume || null,
+              history: entry.positions || entry.history || {},
+            };
+          });
+
+          // Build chart labels from milestones or dates
+          var chartLabels = snapshots.map(function(d) {
+            if (rhRaw.milestones && Array.isArray(rhRaw.milestones)) {
+              var ms = rhRaw.milestones.find(function(m) { return m.date === d; });
+              if (ms && ms.label) return ms.label;
+            }
+            return d;
+          });
+
+          data.rankHistory = {
+            snapshots: snapshots,
+            chartLabels: chartLabels,
+            domains: { client: clientDomain11, competitors: competitors },
+            keywords: normalizedKws,
+          };
+          logInfo('Auto-populated rankHistory', kwNames.length + ' keywords, ' + snapshots.length + ' snapshots');
+          fixes++;
+        }
+      } catch (err11) { logWarning('Failed to parse rank-history.json: ' + err11.message); }
+    }
+  }
+
+  // ── 12. searchConsoleData — from search-console.json ────────────────
+  if (!data.searchConsoleData) {
+    var scPath = path.join(dataDir, 'research', 'search-console.json');
+    if (fs.existsSync(scPath)) {
+      try {
+        var scRaw = JSON.parse(fs.readFileSync(scPath, 'utf-8'));
+        deepCamelCaseKeys(scRaw);
+        if (scRaw.topQueries || scRaw.topPages) {
+          data.searchConsoleData = {
+            totalQueries: scRaw.totalQueries || 0,
+            totalPages: scRaw.totalPages || 0,
+            topQueries: (Array.isArray(scRaw.topQueries) ? scRaw.topQueries : []).slice(0, 50),
+            topPages: (Array.isArray(scRaw.topPages) ? scRaw.topPages : []).slice(0, 50),
+          };
+          logInfo('Auto-populated searchConsoleData', (data.searchConsoleData.topQueries.length) + ' queries, ' + (data.searchConsoleData.topPages.length) + ' pages');
+          fixes++;
+        }
+      } catch (err12) { logWarning('Failed to parse search-console.json: ' + err12.message); }
+    }
+  }
+
+  // ── 13. trafficData — from ga4-data.json ────────────────────────────
+  if (!data.trafficData) {
+    var ga4Path = path.join(dataDir, 'research', 'ga4-data.json');
+    if (fs.existsSync(ga4Path)) {
+      try {
+        var ga4 = JSON.parse(fs.readFileSync(ga4Path, 'utf-8'));
+        deepCamelCaseKeys(ga4);
+        var trafficData = {};
+        var hasTrafficData = false;
+
+        // Channels: group by channel, sum sessions
+        if (Array.isArray(ga4.acquisitionChannels) && ga4.acquisitionChannels.length) {
+          var channelMap = new Map();
+          ga4.acquisitionChannels.forEach(function(item) {
+            var name = item.sessionDefaultChannelGroup || item.channel || 'Unknown';
+            var existing = channelMap.get(name) || 0;
+            channelMap.set(name, existing + (item.sessions || 0));
+          });
+          trafficData.channels = Array.from(channelMap.entries())
+            .map(function(pair) { return { name: pair[0], value: pair[1] }; })
+            .sort(function(a, b) { return b.value - a.value; })
+            .slice(0, 8);
+          hasTrafficData = true;
+        }
+
+        // Devices
+        if (Array.isArray(ga4.deviceBreakdown) && ga4.deviceBreakdown.length) {
+          trafficData.devices = ga4.deviceBreakdown.map(function(item) {
+            return { name: item.deviceCategory || 'Unknown', value: item.sessions || 0 };
+          });
+          hasTrafficData = true;
+        }
+
+        // Top landing pages
+        if (Array.isArray(ga4.landingPages) && ga4.landingPages.length) {
+          trafficData.topLandingPages = ga4.landingPages
+            .slice(0, 25)
+            .map(function(item) {
+              return {
+                page: item.landingPage || item.page || '',
+                sessions: item.sessions || 0,
+                bounceRate: item.bounceRate != null ? item.bounceRate : null,
+              };
+            });
+          hasTrafficData = true;
+        }
+
+        if (hasTrafficData) {
+          data.trafficData = trafficData;
+          logInfo('Auto-populated trafficData', [
+            trafficData.channels ? trafficData.channels.length + ' channels' : '',
+            trafficData.devices ? trafficData.devices.length + ' devices' : '',
+            trafficData.topLandingPages ? trafficData.topLandingPages.length + ' pages' : '',
+          ].filter(Boolean).join(', '));
+          fixes++;
+        }
+      } catch (err13) { logWarning('Failed to parse ga4-data.json: ' + err13.message); }
+    }
+  }
+
+  // ── 14. contentQuality — from crawl-data.json + page-text-analysis.json ─
+  if (!data.contentQuality || !Array.isArray(data.contentQuality.pages) || !data.contentQuality.pages.length) {
+    var crawlPath14 = path.join(dataDir, 'research', 'crawl-data.json');
+    var ptaPath14 = path.join(dataDir, 'research', 'page-text-analysis.json');
+    var cqPages = [];
+
+    // Load crawl data for base page info
+    var crawlPages14 = [];
+    if (fs.existsSync(crawlPath14)) {
+      try {
+        var crawl14 = JSON.parse(fs.readFileSync(crawlPath14, 'utf-8'));
+        deepCamelCaseKeys(crawl14);
+        crawlPages14 = Array.isArray(crawl14.pages) ? crawl14.pages : (Array.isArray(crawl14) ? crawl14 : []);
+      } catch (err14a) { logWarning('Failed to parse crawl-data.json for contentQuality: ' + err14a.message); }
+    }
+
+    // Load text analysis for readability scores
+    var ptaMap14 = new Map();
+    if (fs.existsSync(ptaPath14)) {
+      try {
+        var pta14 = JSON.parse(fs.readFileSync(ptaPath14, 'utf-8'));
+        deepCamelCaseKeys(pta14);
+        var ptaArr14 = Array.isArray(pta14) ? pta14 : (pta14.pages || []);
+        ptaArr14.forEach(function(p) {
+          if (p && p.url) {
+            var key14 = toRelativeUrl(p.url);
+            if (!ptaMap14.has(key14)) ptaMap14.set(key14, p);
+            if (!ptaMap14.has(p.url)) ptaMap14.set(p.url, p);
+          }
+        });
+      } catch (err14b) { logWarning('Failed to parse page-text-analysis.json for contentQuality: ' + err14b.message); }
+    }
+
+    // Build page array
+    var sourcePages14 = crawlPages14.length ? crawlPages14 : Array.from(ptaMap14.values());
+    sourcePages14.forEach(function(page) {
+      var url = page.url || '';
+      var relUrl = toRelativeUrl(url);
+      var pta = ptaMap14.get(relUrl) || ptaMap14.get(url) || {};
+
+      var wordCount = pta.wordCount != null ? pta.wordCount : (page.wordCount != null ? page.wordCount : null);
+      var fleschScore = pta.fleschReadingEase != null ? Number(pta.fleschReadingEase) : null;
+
+      // Quality score: simple formula based on word count + readability
+      var qualityScore = null;
+      if (wordCount != null) {
+        var wcScore = wordCount >= 1500 ? 90 : (wordCount >= 800 ? 70 : (wordCount >= 300 ? 50 : 20));
+        var rdScore = fleschScore != null ? Math.min(fleschScore, 100) : 50;
+        qualityScore = Math.round((wcScore * 0.6 + rdScore * 0.4));
+      }
+
+      cqPages.push({
+        url: relUrl || url,
+        title: page.title || pta.title || '',
+        wordCount: wordCount,
+        qualityScore: qualityScore,
+        readabilityScore: fleschScore,
+        isThin: wordCount != null ? wordCount < 300 : false,
+        readability: {
+          fleschReadingEase: fleschScore,
+          fleschKincaidGrade: pta.fleschKincaidGrade != null ? Number(pta.fleschKincaidGrade) : null,
+          wordCount: wordCount,
+          syllablesPerWord: pta.avgSyllablesPerWord != null ? Number(pta.avgSyllablesPerWord) : null,
+          avgSentenceLength: pta.avgSentenceLength != null ? Number(pta.avgSentenceLength) : null,
+          sentenceCount: pta.sentenceCount != null ? Number(pta.sentenceCount) : null,
+          readingLevel: pta.readingLevel || '',
+          scoreExplanation: buildReadabilityExplanation(pta),
+        },
+      });
+    });
+
+    if (cqPages.length) {
+      var scores14 = cqPages.map(function(p) { return p.qualityScore; }).filter(function(s) { return s != null; });
+      var words14 = cqPages.map(function(p) { return p.wordCount; }).filter(function(w) { return w != null; });
+      var thinCount14 = cqPages.filter(function(p) { return p.isThin; }).length;
+      var avgQuality14 = scores14.length ? Math.round(scores14.reduce(function(a, b) { return a + b; }, 0) / scores14.length) : 0;
+      var avgWords14 = words14.length ? Math.round(words14.reduce(function(a, b) { return a + b; }, 0) / words14.length) : 0;
+      var wordRange14 = words14.length ? [Math.min.apply(null, words14), Math.max.apply(null, words14)] : [0, 0];
+
+      var cq = data.contentQuality || (data.contentQuality = {});
+      cq.pages = cqPages;
+      cq.summary = {
+        totalPages: cqPages.length,
+        totalPagesAnalyzed: cqPages.length,
+        avgQualityScore: avgQuality14,
+        avgWordCount: avgWords14,
+        thinPageCount: thinCount14,
+        wordCountRange: wordRange14,
+        duplicateGroupCount: Array.isArray(cq.duplicateGroups) ? cq.duplicateGroups.length : 0,
+      };
+      logInfo('Auto-populated contentQuality', cqPages.length + ' pages (' + thinCount14 + ' thin, avg ' + avgWords14 + ' words)');
+      fixes++;
+    }
+  }
+
   // ── 1b. Auto-derive keyStats from available data ─────────────────────
   // Append derived stat cards if keyStats has fewer than 10 entries.
   var keyStats = Array.isArray(data.keyStats) ? data.keyStats : (data.keyStats = []);
@@ -2002,9 +2426,9 @@ function normalizeAuditData(data, dataDir) {
     fixes++;
   }
 
-  if (!hasKeyStat('Orphan') && data.internalLinking && data.internalLinking.orphan_count != null) {
-    var orphanCount = data.internalLinking.orphan_count;
-    var orphanRate = data.internalLinking.orphan_rate != null ? data.internalLinking.orphan_rate : null;
+  if (!hasKeyStat('Orphan') && data.internalLinking && (data.internalLinking.orphanCount != null || data.internalLinking.orphan_count != null)) {
+    var orphanCount = data.internalLinking.orphanCount != null ? data.internalLinking.orphanCount : data.internalLinking.orphan_count;
+    var orphanRate = data.internalLinking.orphanRate != null ? data.internalLinking.orphanRate : (data.internalLinking.orphan_rate != null ? data.internalLinking.orphan_rate : null);
     appendKeyStat({
       label: 'Orphan Pages' + (orphanRate != null ? ' (' + orphanRate + '%)' : ''),
       value: String(orphanCount),
@@ -2013,10 +2437,10 @@ function normalizeAuditData(data, dataDir) {
     fixes++;
   }
 
-  if (!hasKeyStat('Pages Crawled') && data.internalLinking && data.internalLinking.total_pages != null) {
+  if (!hasKeyStat('Pages Crawled') && data.internalLinking && (data.internalLinking.totalPages != null || data.internalLinking.total_pages != null)) {
     appendKeyStat({
       label: 'Pages Crawled',
-      value: String(data.internalLinking.total_pages),
+      value: String(data.internalLinking.totalPages != null ? data.internalLinking.totalPages : data.internalLinking.total_pages),
       severity: 'green',
     });
     fixes++;
@@ -2115,6 +2539,63 @@ function normalizeAuditData(data, dataDir) {
   }
 }
 
+/**
+ * validateAuditData — checks each page's minimum data contract after normalization.
+ * Returns array of { page, severity, message } for any missing/incomplete data.
+ */
+function validateAuditData(data) {
+  var issues = [];
+
+  function check(page, condition, message, severity) {
+    if (!condition) {
+      issues.push({ page: page, severity: severity || 'warning', message: message });
+    }
+  }
+
+  function isNonEmptyArray(val) { return Array.isArray(val) && val.length > 0; }
+  function isObj(val) { return val && typeof val === 'object' && !Array.isArray(val); }
+
+  // Index page
+  var client = data.client || {};
+  check('index', client.name || client.company || client.website, 'client name/company is missing — header will be blank', 'critical');
+  check('index', isNonEmptyArray(data.keyStats), 'keyStats is empty — stat cards will not render');
+  check('index', isNonEmptyArray(data.topIssues), 'topIssues is empty — issues section will be blank');
+
+  // Keywords page
+  check('keywords', isNonEmptyArray(data.keywords), 'keywords array is empty — keyword table will not render');
+
+  // Content page
+  var cq = data.contentQuality || {};
+  check('content', isObj(data.contentQuality), 'contentQuality is missing — entire content page will be empty');
+  check('content', isNonEmptyArray(cq.pages), 'contentQuality.pages is empty — readability table will not render');
+  check('content', isObj(cq.summary), 'contentQuality.summary is missing — overview stat cards will show dashes');
+
+  // Technical page
+  check('technical', isObj(data.coreWebVitals), 'coreWebVitals is missing — CWV gauges will not render');
+  var techSeo = data.technicalSeo || {};
+  check('technical', isNonEmptyArray(techSeo.lighthouseResults), 'technicalSeo.lighthouseResults is empty — Lighthouse section will be blank');
+
+  // Links page
+  var linking = data.internalLinking || {};
+  check('links', linking.totalPages != null || linking.total_pages != null, 'internalLinking.totalPages is missing — link overview will be empty');
+
+  // Backlink opportunities page
+  var bo = data.backlinkOpportunities || {};
+  check('backlink-opportunities', isObj(data.backlinkOpportunities) && (isNonEmptyArray(bo.competitors) || isObj(bo.client)), 'backlinkOpportunities is missing or has no competitors — page will show empty state');
+
+  // Competitors page
+  check('competitors', isNonEmptyArray(data.competitorComparison) || isNonEmptyArray(data.siteComparison), 'competitorComparison and siteComparison are both empty — comparison table will not render');
+
+  // Local page
+  check('local', isObj(data.localSeo), 'localSeo is missing — entire local page will be empty');
+
+  // Action plan page
+  var ap = data.actionPlan || {};
+  check('action-plan', isNonEmptyArray(ap.quickWins) || isNonEmptyArray(ap.shortTerm) || isNonEmptyArray(data.quickWins), 'actionPlan has no items — action plan tabs will be empty');
+
+  return issues;
+}
+
 function main() {
   if (hasFlag('--help') || hasFlag('-h')) {
     printUsage();
@@ -2133,6 +2614,24 @@ function main() {
   // format conversion, and auto-population from sibling research files.
   const dataDir = path.dirname(dataPath);
   normalizeAuditData(auditData, dataDir);
+
+  // Validate data completeness — warn about pages that may render empty
+  var validationIssues = validateAuditData(auditData);
+  if (validationIssues.length) {
+    var criticals = validationIssues.filter(function(i) { return i.severity === 'critical'; });
+    var warnings = validationIssues.filter(function(i) { return i.severity !== 'critical'; });
+    validationIssues.forEach(function(issue) {
+      if (issue.severity === 'critical') {
+        console.error('\x1b[31mCRITICAL:\x1b[0m Page \'' + issue.page + '\': ' + issue.message);
+      } else {
+        logWarning('Page \'' + issue.page + '\': ' + issue.message);
+      }
+    });
+    var emptyPages = validationIssues.map(function(i) { return i.page; }).filter(function(v, i, a) { return a.indexOf(v) === i; });
+    logInfo('Data validation', validationIssues.length + ' issue(s) — ' + emptyPages.join(', ') + ' page(s) may render empty');
+  } else {
+    logSuccess('Data validation', 'All 9 pages have required data');
+  }
 
   const outputDir = inferOutputDir(dataPath, auditData);
 
@@ -2213,8 +2712,13 @@ function main() {
   }
 }
 
-try {
-  main();
-} catch (error) {
-  exitWithError(error.message);
+// Export for testing — only when required as a module, not when run directly
+if (require.main === module) {
+  try {
+    main();
+  } catch (error) {
+    exitWithError(error.message);
+  }
+} else {
+  module.exports = { normalizeAuditData, validateAuditData, deepCamelCaseKeys, buildSearchIndex };
 }
