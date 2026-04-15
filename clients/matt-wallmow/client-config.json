@@ -1,0 +1,47 @@
+{
+  "clientDomain": "mattwallmow.com",
+  "clientName": "Matt Wallmow",
+  "clientCompany": "Wallmow Realty, Inc / Lakeland Realty",
+  "location": "Rhinelander, WI 54501",
+  "address": "48 W King St, Rhinelander, WI 54501",
+  "phone": "715-490-9930",
+  "email": "matt@mattwallmow.com",
+  "serviceType": "Real estate — residential, lakefront, northwoods properties",
+  "market": "Greater Northwoods area (Rhinelander, Eagle River, Minocqua, Tomahawk, Three Lakes)",
+  "competitors": [
+    "redmanrealtygroup.com",
+    "eliasonrealty.com",
+    "pinepointrealty.com",
+    "northwoodshomefinder.com",
+    "shorewest.com"
+  ],
+  "socialLinks": {
+    "zillow": "https://www.zillow.com/profile/Matt%20Wallmow",
+    "realtor": "https://www.realtor.com/realestateagents/5e68b56ec0b4d6001112b335",
+    "youtube": "https://www.youtube.com/channel/UCq0P5MUtJ_YlSqtKPI3-Xsw",
+    "tiktok": "https://www.tiktok.com/@mattwallmowrealtor",
+    "facebook": "https://www.facebook.com/MattWallmowRealtor",
+    "instagram": "https://www.instagram.com/matt_wallmow_realtor/"
+  },
+  "secondaryDomain": "northwoodspropertysource.com",
+  "googleAccess": {
+    "searchConsole": {
+      "siteUrl": "",
+      "hasAccess": false
+    },
+    "analytics": {
+      "propertyId": "",
+      "hasAccess": false
+    },
+    "businessProfile": {
+      "accountId": "",
+      "locationId": "",
+      "hasAccess": false
+    }
+  },
+  "dataForSeo": {
+    "useBacklinksApi": true,
+    "useKeywordApi": true
+  },
+  "notes": "Known competitors: The Skagen Team (First Weber), Shorewest Realtors Rhinelander, Luke Team Real Estate. Secondary domain northwoodspropertysource.com also owned by client."
+}

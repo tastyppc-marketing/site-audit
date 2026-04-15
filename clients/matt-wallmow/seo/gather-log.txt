@@ -1,0 +1,165 @@
+==========================================
+FULL GATHER SCRIPT TEST PASS
+Started: 2026-04-15T05:00:07+00:00
+Client: mattwallmow.com
+Competitors: redmanrealtygroup.com eliasonrealty.com pinepointrealty.com northwoodshomefinder.com shorewest.com
+==========================================
+
+=== [1/7] gather-pagespeed.js ===
+  Fetching PSI: https://mattwallmow.com [mobile]...
+  Fetching PSI: https://mattwallmow.com [desktop]...
+  Done: mattwallmow.com — mobile: 0.56, desktop: 0.82
+  Fetching PSI: https://redmanrealtygroup.com [mobile]...
+  WARNING: PSI HTTP 500 for https://redmanrealtygroup.com [mobile]: PSI API error (HTTP 500).
+  Fetching PSI: https://redmanrealtygroup.com [desktop]...
+  Done: redmanrealtygroup.com — mobile: FAILED, desktop: 0.74
+  Fetching PSI: https://eliasonrealty.com [mobile]...
+  Fetching PSI: https://eliasonrealty.com [desktop]...
+  Done: eliasonrealty.com — mobile: 0.65, desktop: 0.9
+  Fetching PSI: https://pinepointrealty.com [mobile]...
+  Fetching PSI: https://pinepointrealty.com [desktop]...
+  Done: pinepointrealty.com — mobile: 0.33, desktop: 0.18
+  Fetching PSI: https://shorewest.com [mobile]...
+  Fetching PSI: https://shorewest.com [desktop]...
+  Done: shorewest.com — mobile: 0.44, desktop: 0.75
+
+Written: /root/site-audit/clients/matt-wallmow/seo/research/pagespeed-data.json
+  Client pages: 1, Competitor pages: 4
+  Errors: 1 (status: partial)
+
+=== [2/7] gather-domain-metrics.js ===
+  Fetching backlinks/summary for mattwallmow.com...
+  Done: mattwallmow.com — DR: 37, RD: 44, BL: 66
+  Fetching backlinks/summary for redmanrealtygroup.com...
+  Done: redmanrealtygroup.com — DR: 239, RD: 151, BL: 1153
+  Fetching backlinks/summary for eliasonrealty.com...
+  Done: eliasonrealty.com — DR: 188, RD: 310, BL: 789
+  Fetching backlinks/summary for pinepointrealty.com...
+  Done: pinepointrealty.com — DR: 179, RD: 73, BL: 168
+  Fetching backlinks/summary for northwoodshomefinder.com...
+  Done: northwoodshomefinder.com — DR: 70, RD: 48, BL: 126
+  Fetching backlinks/summary for shorewest.com...
+  Done: shorewest.com — DR: 356, RD: 2120, BL: 24443
+
+Written: /root/site-audit/clients/matt-wallmow/seo/research/domain-metrics.json (6 domains)
+
+=== [3/7] gather-backlinks.js ===
+
+[1/6] Client domain: mattwallmow.com
+  Fetching backlinks for mattwallmow.com (limit 200)...
+  Backlinks: 66 records
+  Fetching referring domains for mattwallmow.com (limit 200)...
+  Referring domains: 42 records
+Written: /root/site-audit/clients/matt-wallmow/seo/research/client-backlinks.json (66 backlinks, 42 referring domains)
+  Waiting 2 seconds before next domain...
+
+[2/6] Competitor domain: redmanrealtygroup.com
+  Fetching backlinks for redmanrealtygroup.com (limit 200)...
+  Backlinks: 200 records
+  Fetching referring domains for redmanrealtygroup.com (limit 200)...
+  Referring domains: 149 records
+Written: /root/site-audit/clients/matt-wallmow/seo/research/backlinks-redmanrealtygroup.com.json (200 backlinks, 149 referring domains)
+  Waiting 2 seconds before next domain...
+
+[3/6] Competitor domain: eliasonrealty.com
+  Fetching backlinks for eliasonrealty.com (limit 200)...
+  Backlinks: 200 records
+  Fetching referring domains for eliasonrealty.com (limit 200)...
+  Referring domains: 200 records
+Written: /root/site-audit/clients/matt-wallmow/seo/research/backlinks-eliasonrealty.com.json (200 backlinks, 200 referring domains)
+  Waiting 2 seconds before next domain...
+
+[4/6] Competitor domain: pinepointrealty.com
+  Fetching backlinks for pinepointrealty.com (limit 200)...
+  Backlinks: 159 records
+  Fetching referring domains for pinepointrealty.com (limit 200)...
+  Referring domains: 69 records
+Written: /root/site-audit/clients/matt-wallmow/seo/research/backlinks-pinepointrealty.com.json (159 backlinks, 69 referring domains)
+  Waiting 2 seconds before next domain...
+
+[5/6] Competitor domain: northwoodshomefinder.com
+  Fetching backlinks for northwoodshomefinder.com (limit 200)...
+  Backlinks: 112 records
+  Fetching referring domains for northwoodshomefinder.com (limit 200)...
+  Referring domains: 46 records
+Written: /root/site-audit/clients/matt-wallmow/seo/research/backlinks-northwoodshomefinder.com.json (112 backlinks, 46 referring domains)
+  Waiting 2 seconds before next domain...
+
+[6/6] Competitor domain: shorewest.com
+  Fetching backlinks for shorewest.com (limit 200)...
+  Backlinks: 200 records
+  Fetching referring domains for shorewest.com (limit 200)...
+  Referring domains: 200 records
+Written: /root/site-audit/clients/matt-wallmow/seo/research/backlinks-shorewest.com.json (200 backlinks, 200 referring domains)
+
+Total DFS API cost estimate: ~$0.36 (6 domains x 2 calls)
+
+=== [4/7] gather-organic-metrics.js ===
+  Fetching ranked keywords for mattwallmow.com...
+  Done: mattwallmow.com — keywords: 81, traffic: 66.10604030452669
+  Fetching ranked keywords for redmanrealtygroup.com...
+  Done: redmanrealtygroup.com — keywords: 1133, traffic: 5600.451808333397
+  Fetching ranked keywords for eliasonrealty.com...
+  Done: eliasonrealty.com — keywords: 1884, traffic: 1948.2762644290924
+  Fetching ranked keywords for pinepointrealty.com...
+  Done: pinepointrealty.com — keywords: 173, traffic: 901.2756822258234
+  Fetching ranked keywords for northwoodshomefinder.com...
+  Done: northwoodshomefinder.com — keywords: 42, traffic: 85.05605968087912
+  Fetching ranked keywords for shorewest.com...
+  Done: shorewest.com — keywords: 61333, traffic: 22733.120121002197
+
+Written: /root/site-audit/clients/matt-wallmow/seo/research/organic-metrics.json (6 domains)
+
+=== [5/7] gather-keyword-volumes.js ===
+Fetching volumes for 25 keywords...
+  Batch 1/1: 25 keywords
+  Done: Batch 1 returned volume data for 9/25 keywords
+
+Written: /root/site-audit/clients/matt-wallmow/seo/research/keyword-volumes.json (25 keywords)
+Estimated DataForSEO cost: $0.075 per batch task x 1 = ~$0.07 total
+Updated 25 keywords in audit-data.json with real volumes
+
+=== [6/7] gather-local-pack.js ===
+Checking Local Pack for "Matt Wallmow" — 25 keywords, location 2840
+Estimated cost: $0.050 (25 SERP queries)
+
+  [1/25] Matt Wallmow realtor Rhinelander
+    No local pack found
+  [2/25] Wallmow Realty Rhinelander WI
+    No local pack found
+  [3/25] Rhinelander WI homes for sale
+    No local pack found
+  [4/25] Rhinelander WI real estate
+    No local pack found
+  [5/25] homes for sale Rhinelander Wisconsin
+    No local pack found
+  [6/25] Northwoods Wisconsin real estate
+    No local pack found
+  [7/25] lakefront homes Rhinelander WI
+    No local pack found
+  [8/25] Rhinelander WI realtor
+  (timed out or failed)
+
+=== [7/7] gather-local-seo.js ===
+
+Gathering local SEO data for: Matt Wallmow
+Domain: mattwallmow.com | Location: Rhinelander, WI
+
+Scraping contact page for NAP...
+  Found NAP on: https://mattwallmow.com/contact/
+
+Checking directory presence...
+  Checking Yelp...
+  Checking BBB...
+  Checking Facebook...
+  Checking Google Maps...
+
+Written: /root/site-audit/clients/matt-wallmow/seo/research/local-seo.json
+  NAP: address found, phone found
+  Directories: 3/4 found
+
+Note: For full GBP data (rating, reviews, hours), configure GBP API access in client-config.json.
+
+==========================================
+COMPLETED: 2026-04-15T05:06:59+00:00
+==========================================

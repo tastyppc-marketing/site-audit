@@ -1,0 +1,196 @@
+{
+  "client": {
+    "name": "Client Name",
+    "company": "Brokerage / Company",
+    "website": "example.com",
+    "websiteUrl": "https://www.example.com",
+    "accountId": "123-456-7890",
+    "campaignName": "Campaign Name",
+    "monthlyBudget": "$500",
+    "dailyBudget": "$16.66",
+    "biddingStrategy": "Maximize Conversions (Auto)",
+    "geoTargeting": "Interest & Presence",
+    "conversionType": "Forced IDX Registration",
+    "targetCpl": "$50",
+    "dateRange": "Aug 2024 - Mar 2026",
+    "totalSpend": "$13,213",
+    "auditDate": "March 2, 2026",
+    "location": "Park City, Utah",
+    "overallGrade": "D",
+    "gradeSummary": "High spend with low-quality lead generation — only 1 closed transaction from $13,213 in ad spend"
+  },
+
+  "campaignHealth": [
+    { "metric": "Total Spend", "value": "$13,213", "benchmark": "N/A", "status": "neutral" },
+    { "metric": "Total Clicks", "value": "14,894", "benchmark": "N/A", "status": "neutral" },
+    { "metric": "Average CTR", "value": "8.21%", "benchmark": "3-5% (RE avg)", "status": "green" },
+    { "metric": "Average CPC", "value": "$0.96", "benchmark": "$1.50-$3.00", "status": "green" },
+    { "metric": "Conversions (Registrations)", "value": "395", "benchmark": "N/A", "status": "orange" },
+    { "metric": "Cost per Registration", "value": "$33.46", "benchmark": "$20-$50", "status": "orange" },
+    { "metric": "Closed Transactions", "value": "1", "benchmark": "5-10+", "status": "red" },
+    { "metric": "Cost per Transaction", "value": "$13,213", "benchmark": "$500-$2,000", "status": "red" }
+  ],
+
+  "topIssues": [
+    { "issue": "Lead quality crisis", "detail": "395 forced registrations produced only 1 closed deal — cost per actual transaction is $13,213", "impact": "Critical", "effort": "Medium" },
+    { "issue": "Broad match cannibalization", "detail": "One broad match keyword 'Park City Luxury Real Estate' runs across all ad groups, cannibalizing budget", "impact": "Critical", "effort": "Low" },
+    { "issue": "Massive search term waste", "detail": "Irrelevant queries like 'mansions in usa' and 'homes under $100K' consuming budget with zero conversions", "impact": "High", "effort": "Low" },
+    { "issue": "No negative keyword strategy", "detail": "Zero negative keywords applied — no filtering of irrelevant geographic, price, or intent queries", "impact": "High", "effort": "Low" },
+    { "issue": "Missing ad extensions", "detail": "No sitelinks, callouts, or structured snippets — reducing ad real estate and Quality Score potential", "impact": "High", "effort": "Low" }
+  ],
+
+  "theProblem": {
+    "totalSpend": "$13,213",
+    "registrations": 395,
+    "closedDeals": 1,
+    "costPerDeal": "$13,213",
+    "registrationToCloseRate": "0.25%",
+    "industryAvgRate": "2-5%",
+    "explanation": "The campaign generates cheap clicks and forced IDX registrations, but these are not qualified leads. The funnel breaks between registration and engagement."
+  },
+
+  "budgetBreakdown": [
+    { "adGroup": "Old Town", "spend": 1255.59, "pctOfBudget": "9.5%", "conversions": 24.83, "costPerConv": 50.56, "status": "Overspending" },
+    { "adGroup": "Silver Creek Estates/Village", "spend": 1152.92, "pctOfBudget": "8.7%", "conversions": 63.75, "costPerConv": 18.08, "status": "Top Performer" },
+    { "adGroup": "Canyons Village & The Colony", "spend": 1028.09, "pctOfBudget": "7.8%", "conversions": 31.50, "costPerConv": 32.64, "status": "Average" },
+    { "adGroup": "Old Ranch Road", "spend": 980.52, "pctOfBudget": "7.4%", "conversions": 21.00, "costPerConv": 46.69, "status": "Underperforming" },
+    { "adGroup": "Promontory", "spend": 967.97, "pctOfBudget": "7.3%", "conversions": 36.00, "costPerConv": 26.89, "status": "Good" }
+  ],
+
+  "budgetWaste": {
+    "totalWasted": "$2,500",
+    "percentWasted": "19%",
+    "topWastedQueries": [
+      { "query": "mansions in usa", "cost": 0.99, "clicks": 1, "conversions": 0, "reason": "Geographic mismatch" },
+      { "query": "homes for sale in utah under $100,000", "cost": 0.00, "clicks": 0, "conversions": 0, "reason": "Price mismatch" },
+      { "query": "luxury properties for sale usa", "cost": 0.00, "clicks": 0, "conversions": 0, "reason": "Too broad" },
+      { "query": "flats in usa for sale", "cost": 0.77, "clicks": 1, "conversions": 0, "reason": "International/irrelevant" },
+      { "query": "mansion for sale in utah", "cost": 0.00, "clicks": 0, "conversions": 0, "reason": "Non-Park City intent" },
+      { "query": "utah houses in the mountains", "cost": 0.00, "clicks": 0, "conversions": 0, "reason": "Generic Utah" },
+      { "query": "most expensive homes for sale in utah", "cost": 0.00, "clicks": 0, "conversions": 0, "reason": "Browsing intent" },
+      { "query": "for sale ut", "cost": 0.00, "clicks": 0, "conversions": 0, "reason": "Too vague" }
+    ]
+  },
+
+  "topPerformers": [
+    { "rank": 1, "adGroup": "Silver Creek Estates/Village", "impressions": 8802, "clicks": 1248, "ctr": "14.18%", "cost": 1152.92, "conversions": 63.75, "costPerConv": 18.08, "recommendation": "Increase budget — best CPL and highest volume" },
+    { "rank": 2, "adGroup": "Tuhaye", "impressions": 8620, "clicks": 863, "ctr": "10.01%", "cost": 822.68, "conversions": 40.00, "costPerConv": 20.57, "recommendation": "Increase budget — strong CVR and good CPL" },
+    { "rank": 3, "adGroup": "Kimball Junction", "impressions": 2167, "clicks": 241, "ctr": "11.12%", "cost": 230.71, "conversions": 10.00, "costPerConv": 23.07, "recommendation": "Scale up — excellent CPL with room to grow" },
+    { "rank": 4, "adGroup": "Promontory", "impressions": 15625, "clicks": 1040, "ctr": "6.66%", "cost": 967.97, "conversions": 36.00, "costPerConv": 26.89, "recommendation": "Maintain — solid performance at scale" },
+    { "rank": 5, "adGroup": "Glenwild", "impressions": 3840, "clicks": 417, "ctr": "10.86%", "cost": 372.10, "conversions": 14.00, "costPerConv": 26.58, "recommendation": "Increase budget — good CPL and high CTR" }
+  ],
+
+  "bottomPerformers": [
+    { "rank": 1, "adGroup": "Silver Springs", "impressions": 2587, "clicks": 215, "ctr": "8.31%", "cost": 216.77, "conversions": 1.50, "costPerConv": 144.51, "recommendation": "Pause or restructure — CPL 8x above average" },
+    { "rank": 2, "adGroup": "Extended Summit County", "impressions": 2746, "clicks": 195, "ctr": "7.10%", "cost": 181.93, "conversions": 2.00, "costPerConv": 90.96, "recommendation": "Already paused — keep paused" },
+    { "rank": 3, "adGroup": "Extended Wasatch County", "impressions": 4828, "clicks": 362, "ctr": "7.50%", "cost": 348.42, "conversions": 4.00, "costPerConv": 87.10, "recommendation": "Already paused — keep paused" },
+    { "rank": 4, "adGroup": "Heber", "impressions": 6062, "clicks": 304, "ctr": "5.01%", "cost": 308.02, "conversions": 4.00, "costPerConv": 77.01, "recommendation": "Already paused — keep paused" },
+    { "rank": 5, "adGroup": "Red Ledges", "impressions": 5039, "clicks": 166, "ctr": "3.29%", "cost": 150.63, "conversions": 2.50, "costPerConv": 60.25, "recommendation": "Consider pausing — worst CTR and high CPL" }
+  ],
+
+  "keywordIssues": {
+    "broadMatchProblem": "'Park City Luxury Real Estate' runs as Broad match across ALL ad groups, causing inter-group cannibalization and matching irrelevant queries nationwide",
+    "deadKeywords": [
+      { "keyword": "Park City Agents", "adGroup": "All (6 ad groups)", "impressions": 0 },
+      { "keyword": "Canyons Village & The Colony homes for sale", "adGroup": "Canyons Village & The Colony", "impressions": 0 },
+      { "keyword": "Trailside Park Area homes for sale", "adGroup": "Trailside Park Area", "impressions": 0 }
+    ],
+    "missingExtensions": ["Sitelink extensions", "Callout extensions", "Structured snippet extensions", "Call extensions", "Location extensions"]
+  },
+
+  "adCopyImprovements": [
+    { "adGroup": "All ad groups", "issue": "Generic headlines", "current": "Park City Homes For Sale / Your Home Away From Home / Find Your Second Home", "recommended": "Use neighborhood-specific headlines: 'Deer Crest Ski-In Homes From $2M' / 'Tuhaye Golf Course Living' / 'Silver Creek — Best Value in Park City'" },
+    { "adGroup": "All ad groups", "issue": "Same descriptions everywhere", "current": "Buy or Sell Your Park City Home in [Area]. Call Us To Get Started.", "recommended": "Unique value props per neighborhood: price ranges, lifestyle hooks, recent sales data" },
+    { "adGroup": "All ad groups", "issue": "Ad strength is Average", "current": "9 headlines, 2 descriptions per ad", "recommended": "Add to 15 headlines and 4 descriptions with more keyword variety" }
+  ],
+
+  "negativeKeywords": {
+    "geographic": ["florida", "california homes", "texas real estate", "new york", "mansions in usa", "usa for sale", "orlando", "las vegas", "colorado springs"],
+    "price": ["under $100,000", "under $200,000", "cheap homes", "affordable housing", "low income", "section 8", "foreclosure"],
+    "competitor": ["zillow", "redfin", "realtor.com", "trulia", "keller williams", "coldwell banker", "re/max"],
+    "brand": ["karen stone", "summit sotheby's careers", "sotheby's auction"],
+    "unrelated": ["flats in usa", "apartment rent", "rental", "mobile home", "manufactured home", "tiny home", "rv park", "storage unit", "commercial property", "land only"]
+  },
+
+  "quickWins": [
+    { "action": "Add 50+ negative keywords (geographic, price, competitor, unrelated)", "impact": "High" },
+    { "action": "Pause all 'Park City Agents' keywords (0 impressions across all groups)", "impact": "Medium" },
+    { "action": "Change 'Park City Luxury Real Estate' from Broad to Phrase match", "impact": "High" },
+    { "action": "Add sitelink extensions (About, Communities, Contact, Featured Listings)", "impact": "High" },
+    { "action": "Add callout extensions (Luxury Specialist, Summit Sotheby's, 30+ Communities)", "impact": "Medium" },
+    { "action": "Pause Silver Springs ad group (CPL $144.51)", "impact": "Medium" },
+    { "action": "Add call extensions with tracking number", "impact": "Medium" },
+    { "action": "Increase budget for Silver Creek Estates (best CPL at $18.08)", "impact": "High" },
+    { "action": "Change geo-targeting from Interest & Presence to Presence Only", "impact": "High" },
+    { "action": "Set up conversion value tracking (not just registration count)", "impact": "High" }
+  ],
+
+  "actionPlan": {
+    "immediate": [
+      { "action": "Add 50+ negative keywords across geographic, price, competitor, and unrelated categories", "why": "Eliminating wasted spend on irrelevant queries", "effort": "Low", "impact": "High" },
+      { "action": "Change broad match 'Park City Luxury Real Estate' to phrase match in all ad groups", "why": "Stop cannibalization and irrelevant matching", "effort": "Low", "impact": "High" },
+      { "action": "Pause dead keywords with 0 impressions ('Park City Agents' x6)", "why": "Clean up account, reduce noise", "effort": "Low", "impact": "Low" },
+      { "action": "Add sitelink extensions to all ad groups", "why": "Increases ad real estate, improves CTR and Quality Score", "effort": "Low", "impact": "High" },
+      { "action": "Add callout and structured snippet extensions", "why": "Free ad improvements, builds trust", "effort": "Low", "impact": "Medium" },
+      { "action": "Change geo-targeting from Interest & Presence to Presence Only", "why": "Stop showing ads to people not physically in/near Park City", "effort": "Low", "impact": "High" },
+      { "action": "Pause Silver Springs ad group ($144.51 CPL)", "why": "8x above account average CPL", "effort": "Low", "impact": "Medium" },
+      { "action": "Add call extensions with tracking", "why": "Phone calls are higher-intent than IDX registrations", "effort": "Low", "impact": "Medium" },
+      { "action": "Set up conversion value tracking", "why": "Auto-bidding optimizes for volume, not quality", "effort": "Medium", "impact": "High" },
+      { "action": "Increase Silver Creek Estates daily budget allocation", "why": "Best CPL at $18.08 — deserves more spend", "effort": "Low", "impact": "High" }
+    ],
+    "week2to3": [
+      { "action": "Rewrite ad headlines with neighborhood-specific value props", "why": "Generic headlines reduce relevance and Quality Score", "effort": "Medium", "impact": "High" },
+      { "action": "Create unique descriptions per ad group with local details", "why": "Same description across 30 ads dilutes relevance", "effort": "Medium", "impact": "High" },
+      { "action": "Expand to 15 headlines and 4 descriptions per RSA", "why": "Google recommends full asset utilization for RSA strength", "effort": "Medium", "impact": "Medium" },
+      { "action": "Add exact match versions of top-converting phrase match keywords", "why": "Exact match gives more control and typically lower CPC", "effort": "Low", "impact": "Medium" },
+      { "action": "Review and optimize landing pages for each ad group", "why": "Keyword-to-landing-page alignment impacts Quality Score", "effort": "Medium", "impact": "High" },
+      { "action": "Set up ad scheduling based on time-of-day conversion data", "why": "Conversions cluster at specific hours — save budget on low-performing times", "effort": "Low", "impact": "Medium" },
+      { "action": "Add device bid adjustments (tablets converting at 5.21% vs mobile 2.70%)", "why": "Shift budget toward higher-converting devices", "effort": "Low", "impact": "Medium" },
+      { "action": "Create remarketing audience from site visitors", "why": "Re-engage visitors who didn't convert on first visit", "effort": "Medium", "impact": "High" }
+    ],
+    "month1to2": [
+      { "action": "Restructure campaign: separate neighborhoods into themed groups", "why": "Current structure has one broad keyword cannibalizing all groups", "effort": "High", "impact": "High" },
+      { "action": "Create dedicated DSA campaign for long-tail capture", "why": "DSA finds queries you haven't thought of from your site content", "effort": "Medium", "impact": "High" },
+      { "action": "Test Performance Max campaign for luxury real estate", "why": "PMax accesses YouTube, Display, Maps — broader reach", "effort": "High", "impact": "Medium" },
+      { "action": "Implement lead qualification scoring on website", "why": "Not all registrations are equal — qualify before follow-up", "effort": "High", "impact": "High" },
+      { "action": "Create landing pages optimized for PPC (not IDX-only pages)", "why": "Forced registration pages create low-quality leads", "effort": "High", "impact": "High" },
+      { "action": "Set up CRM integration with Google Ads for offline conversion tracking", "why": "Feed actual deal data back to optimize bidding", "effort": "High", "impact": "High" }
+    ],
+    "month2to3": [
+      { "action": "Launch call-only campaigns for high-intent keywords", "why": "Phone calls close at 10x the rate of web registrations", "effort": "Medium", "impact": "High" },
+      { "action": "Test audience segments as targeting layers (not just observation)", "why": "Current audiences are observation-only — not filtering targeting", "effort": "Medium", "impact": "Medium" },
+      { "action": "A/B test landing pages (IDX forced-registration vs. soft CTA)", "why": "Forced registration may be causing lead quality issues", "effort": "High", "impact": "High" },
+      { "action": "Review competitor ad strategies via Auction Insights", "why": "Understand impression share and competitive positioning", "effort": "Low", "impact": "Medium" },
+      { "action": "Implement speed-to-lead automation (respond within 5 minutes)", "why": "Leads contacted within 5 min are 21x more likely to convert", "effort": "Medium", "impact": "High" },
+      { "action": "Build lookalike audiences from closed deals", "why": "Target users similar to the 1 person who actually closed", "effort": "Medium", "impact": "Medium" }
+    ]
+  },
+
+  "budgetReallocation": [
+    { "adGroup": "Silver Creek Estates/Village", "currentSpend": 1152.92, "recommendedPct": "15%", "change": "+6.3%", "reason": "Best CPL at $18.08 — highest efficiency" },
+    { "adGroup": "Tuhaye", "currentSpend": 822.68, "recommendedPct": "12%", "change": "+5.8%", "reason": "Strong CPL at $20.57 with high volume" },
+    { "adGroup": "Kimball Junction", "currentSpend": 230.71, "recommendedPct": "8%", "change": "+6.3%", "reason": "Excellent CPL at $23.07 — needs more budget" },
+    { "adGroup": "Promontory", "currentSpend": 967.97, "recommendedPct": "10%", "change": "+2.7%", "reason": "Good CPL at scale — maintain and grow" },
+    { "adGroup": "Glenwild", "currentSpend": 372.10, "recommendedPct": "8%", "change": "+5.2%", "reason": "Strong CPL and CTR — deserves more investment" },
+    { "adGroup": "Silver Springs", "currentSpend": 216.77, "recommendedPct": "0%", "change": "-1.6%", "reason": "PAUSE — $144.51 CPL is 8x above account average" },
+    { "adGroup": "Red Ledges", "currentSpend": 150.63, "recommendedPct": "1%", "change": "-0.1%", "reason": "Reduce — worst CTR (3.29%) and high CPL" },
+    { "adGroup": "Old Town", "currentSpend": 1255.59, "recommendedPct": "7%", "change": "-2.5%", "reason": "Reduce — $50.56 CPL despite high volume" }
+  ],
+
+  "projectedImpact": {
+    "currentCostPerLead": "$33.46",
+    "projectedCostPerLead": "$22-$28",
+    "currentLeadQuality": "0.25% close rate",
+    "projectedLeadQuality": "1-3% close rate",
+    "estimatedMonthlySavings": "$80-$150/mo",
+    "explanation": "By eliminating wasted spend, fixing match types, adding negative keywords, and shifting budget to top performers, we can reduce CPL by 20-35% while improving lead quality through better targeting and landing page optimization."
+  },
+
+  "nextSteps": [
+    { "text": "Implement negative keywords and fix match types immediately", "sub": "Takes 30 minutes — eliminates the biggest source of wasted spend" },
+    { "text": "Add all ad extensions (sitelinks, callouts, structured snippets, call)", "sub": "Takes 1 hour — free improvement to ad performance and Quality Score" },
+    { "text": "Change geo-targeting to Presence Only", "sub": "One setting change — stops showing ads to people outside Park City area" },
+    { "text": "Reallocate budget from underperformers to top 5 ad groups", "sub": "Shift spend toward Silver Creek, Tuhaye, Kimball Junction, Promontory, Glenwild" },
+    { "text": "Schedule 30-day check-in to measure impact of changes", "sub": "Track: CPL trend, search term quality, conversion rate by ad group" }
+  ]
+}

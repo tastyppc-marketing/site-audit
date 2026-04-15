@@ -2,8 +2,9 @@
 
 ## Required Reading
 Before running any SEO or PPC audit, read and follow:
-- **`/mnt/c/dev/site audit/AUDIT-SOP.md`** — Mandatory standards for every audit (data collection, report quality, deliverables)
-- **`/mnt/c/dev/site audit/HANDOFF.md`** — Current system state, data normalization pipeline, verification checklist, and troubleshooting guide
+- **`docs/SEO-AUDIT-SYSTEM.md`** — Definitive reference for the entire audit workflow: every step, every script, every API call, every expected output. **Read this first whenever starting an audit.**
+- **`AUDIT-SOP.md`** — Mandatory standards for every audit (data collection, report quality, deliverables)
+- **`HANDOFF.md`** — Current system state, data normalization pipeline, verification checklist, and troubleshooting guide
 
 ## Project Structure
 - `platform/` — Python audit platform (analyzers, connectors, models)

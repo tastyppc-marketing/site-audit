@@ -1,0 +1,120 @@
+{
+  "domain": "mattwallmow.com",
+  "crawlDate": "2026-04-15",
+  "notes": "Contextual internal links only (excludes nav/footer boilerplate). Nav links present on every page: /, /buyers/, /sellers/, /about/, /communities/, /home-valuation/, /properties/, /vip-home-search/, /recently-sold/, /office-exclusive-listings/, /contact/, /testimonials/, /blog/, /mortgage-calculator/",
+  "edges": {
+    "https://mattwallmow.com/": [
+      "https://mattwallmow.com/about",
+      "https://mattwallmow.com/our-listings/",
+      "https://mattwallmow.com/properties/listing/NorthwoodsWI/216457/Three%20Lakes/6914-CONNORS-RD",
+      "https://mattwallmow.com/properties/listing/NorthwoodsWI/216386/Winchester/13794-PRIEST-POINT-LN",
+      "https://mattwallmow.com/properties/listing/NorthwoodsWI/216312/Minocqua/1055-SHISHEBOGAMA-DR",
+      "https://mattwallmow.com/properties/listing/NorthwoodsWI/216305/Gleason/W1007-SEVEN-ISLAND-LAKE-DR",
+      "https://mattwallmow.com/properties/listing/NorthwoodsWI/216171/Winchester/7390-BIRCH-LAKE-RD-W",
+      "https://mattwallmow.com/properties/listing/NorthwoodsWI/216132/Lakewood/17410-W-WHEELER-LAKE-LN",
+      "https://mattwallmow.com/properties/listing/NorthwoodsWI/216118/Watersmeet/3869-MAPLEWOOD-RD",
+      "https://mattwallmow.com/properties/listing/NorthwoodsWI/216070/Wabeno/2210-SWITZERS-PT-RD",
+      "https://mattwallmow.com/properties/listing/NorthwoodsWI/216060/Ironwood/E266-LAKE-RD",
+      "https://mattwallmow.com/properties/listing/NorthwoodsWI/216022/Three%20Lakes/7622-BRAEGER-RD",
+      "https://mattwallmow.com/forest-county/",
+      "https://mattwallmow.com/price-county/",
+      "https://mattwallmow.com/iron-county/",
+      "https://mattwallmow.com/oneida-county/",
+      "https://mattwallmow.com/vilas-county/",
+      "https://mattwallmow.com/lincoln-county/",
+      "https://mattwallmow.com/langlade-county/",
+      "https://mattwallmow.com/lauderdale-beach/",
+      "https://mattwallmow.com/davie/",
+      "https://mattwallmow.com/boca-raton/",
+      "https://mattwallmow.com/aventura/",
+      "https://mattwallmow.com/sunny-isles-beach/",
+      "https://mattwallmow.com/bal-harbour/",
+      "https://mattwallmow.com/miami/",
+      "https://mattwallmow.com/home-valuation",
+      "https://mattwallmow.com/vip-home-search",
+      "https://mattwallmow.com/contact",
+      "https://mattwallmow.com/testimonials/"
+    ],
+    "https://mattwallmow.com/about/": [
+      "https://mattwallmow.com/contact"
+    ],
+    "https://mattwallmow.com/contact/": [],
+    "https://mattwallmow.com/buyers/": [
+      "https://mattwallmow.com/vip-home-search",
+      "https://mattwallmow.com/contact",
+      "https://mattwallmow.com/testimonials/",
+      "https://mattwallmow.com/properties/listing/NorthwoodsWI/216070/Wabeno/2210-SWITZERS-PT-RD",
+      "https://mattwallmow.com/properties/listing/NorthwoodsWI/216060/Ironwood/E266-LAKE-RD",
+      "https://mattwallmow.com/properties/listing/NorthwoodsWI/216022/Three%20Lakes/7622-BRAEGER-RD",
+      "https://mattwallmow.com/properties/listing/NorthwoodsWI/216457/Three%20Lakes/6914-CONNORS-RD",
+      "https://mattwallmow.com/properties/listing/NorthwoodsWI/216386/Winchester/13794-PRIEST-POINT-LN",
+      "https://mattwallmow.com/properties/listing/NorthwoodsWI/216312/Minocqua/1055-SHISHEBOGAMA-DR",
+      "https://mattwallmow.com/properties/listing/NorthwoodsWI/216305/Gleason/W1007-SEVEN-ISLAND-LAKE-DR",
+      "https://mattwallmow.com/properties/listing/NorthwoodsWI/216171/Winchester/7390-BIRCH-LAKE-RD-W",
+      "https://mattwallmow.com/properties/listing/NorthwoodsWI/216132/Lakewood/17410-W-WHEELER-LAKE-LN",
+      "https://mattwallmow.com/properties/listing/NorthwoodsWI/216118/Watersmeet/3869-MAPLEWOOD-RD"
+    ],
+    "https://mattwallmow.com/sellers/": [
+      "https://mattwallmow.com/contact",
+      "https://mattwallmow.com/testimonials/"
+    ],
+    "https://mattwallmow.com/communities/": [
+      "https://mattwallmow.com/forest-county/",
+      "https://mattwallmow.com/iron-county/",
+      "https://mattwallmow.com/langlade-county/",
+      "https://mattwallmow.com/lincoln-county/",
+      "https://mattwallmow.com/oneida-county/",
+      "https://mattwallmow.com/price-county/",
+      "https://mattwallmow.com/vilas-county/"
+    ],
+    "https://mattwallmow.com/testimonials/": [],
+    "https://mattwallmow.com/blog/": [
+      "https://mattwallmow.com/minocqua-vs-rhinelander-best-real-estate-market-for-buyers-sellers/",
+      "https://mattwallmow.com/2026-spring-real-estate-market-in-northern-wisconsin/",
+      "https://mattwallmow.com/what-real-results-look-like-when-hiring-matt-wallmow-a-local-real-estate-agent-in-minocqua-wi/",
+      "https://mattwallmow.com/how-can-i-sell-my-home-fast-in-minocqua-wi-8-local-strategies-that-get-results/",
+      "https://mattwallmow.com/find-the-best-luxury-real-estate-agent-near-me-in-minocqua-wi/",
+      "https://mattwallmow.com/10-pros-and-cons-of-waterfront-living-in-minocqua-wi-a-local-experts-breakdown/",
+      "https://mattwallmow.com/why-its-important-to-work-with-a-realtor/",
+      "https://mattwallmow.com/things-shouldnt-buying-home/",
+      "https://mattwallmow.com/rent-buy-home/",
+      "https://mattwallmow.com/10-top-renos-that-will-up-the-sale-price-of-your-home/",
+      "https://mattwallmow.com/category/real-estate/",
+      "https://mattwallmow.com/category/selling/",
+      "https://mattwallmow.com/category/minocqua-wi-real-estate/",
+      "https://mattwallmow.com/category/buying/",
+      "https://mattwallmow.com/category/renting/",
+      "https://mattwallmow.com/privacy-policy/"
+    ],
+    "https://mattwallmow.com/10-pros-and-cons-of-waterfront-living-in-minocqua-wi-a-local-experts-breakdown/": [
+      "https://mattwallmow.com/author/mattmattwallmow-com/",
+      "https://mattwallmow.com/category/minocqua-wi-real-estate/",
+      "https://mattwallmow.com/category/real-estate/",
+      "https://mattwallmow.com/why-its-important-to-work-with-a-realtor/",
+      "https://mattwallmow.com/minocqua-vs-rhinelander-best-real-estate-market-for-buyers-sellers/",
+      "https://mattwallmow.com/2026-spring-real-estate-market-in-northern-wisconsin/",
+      "https://mattwallmow.com/what-real-results-look-like-when-hiring-matt-wallmow-a-local-real-estate-agent-in-minocqua-wi/",
+      "https://mattwallmow.com/how-can-i-sell-my-home-fast-in-minocqua-wi-8-local-strategies-that-get-results/",
+      "https://mattwallmow.com/find-the-best-luxury-real-estate-agent-near-me-in-minocqua-wi/"
+    ],
+    "https://mattwallmow.com/2026-spring-real-estate-market-in-northern-wisconsin/": [
+      "https://mattwallmow.com/author/mattmattwallmow-com/",
+      "https://mattwallmow.com/category/real-estate/",
+      "https://mattwallmow.com/oneida-county/",
+      "https://mattwallmow.com/what-real-results-look-like-when-hiring-matt-wallmow-a-local-real-estate-agent-in-minocqua-wi/",
+      "https://mattwallmow.com/minocqua-vs-rhinelander-best-real-estate-market-for-buyers-sellers/",
+      "https://mattwallmow.com/how-can-i-sell-my-home-fast-in-minocqua-wi-8-local-strategies-that-get-results/",
+      "https://mattwallmow.com/find-the-best-luxury-real-estate-agent-near-me-in-minocqua-wi/"
+    ],
+    "https://mattwallmow.com/find-the-best-luxury-real-estate-agent-near-me-in-minocqua-wi/": [
+      "https://mattwallmow.com/author/mattmattwallmow-com/",
+      "https://mattwallmow.com/category/minocqua-wi-real-estate/",
+      "https://mattwallmow.com/category/real-estate/",
+      "https://mattwallmow.com/10-pros-and-cons-of-waterfront-living-in-minocqua-wi-a-local-experts-breakdown/",
+      "https://mattwallmow.com/minocqua-vs-rhinelander-best-real-estate-market-for-buyers-sellers/",
+      "https://mattwallmow.com/2026-spring-real-estate-market-in-northern-wisconsin/",
+      "https://mattwallmow.com/what-real-results-look-like-when-hiring-matt-wallmow-a-local-real-estate-agent-in-minocqua-wi/",
+      "https://mattwallmow.com/how-can-i-sell-my-home-fast-in-minocqua-wi-8-local-strategies-that-get-results/"
+    ]
+  }
+}

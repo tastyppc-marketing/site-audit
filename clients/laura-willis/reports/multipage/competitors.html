@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+  <title>Competitor Analysis | TastyPPC SEO Audit</title>
+
+  <link rel="stylesheet" href="shared/tailwind.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+
+  <link rel="stylesheet" href="shared/report-styles.css">
+  <link rel="stylesheet" href="shared/multipage-nav.css">
+
+  <script id="audit-data-inject">
+    window.AUDIT_DATA = /* __AUDIT_DATA_PLACEHOLDER__ */null;
+    window.SEARCH_INDEX = /* __SEARCH_INDEX_PLACEHOLDER__ */[];
+  </script>
+
+</head>
+<body class="multipage font-sans antialiased">
+  <nav id="top-nav"></nav>
+  <div id="mobile-drawer"></div>
+
+  <div class="flex pt-16">
+    <aside id="side-nav"></aside>
+
+    <main id="page-content" class="flex-1 min-h-screen">
+      <h1 class="sr-only">Competitor Analysis — SEO Audit Report</h1>
+      <section class="report-section" id="section-comparison">
+        <div class="section-heading">
+          <span class="section-number">1</span>
+          Multi-Competitor Comparison
+        </div>
+        <p class="section-sub">How your site stacks up against the top competitors across the core SEO metrics already captured in the audit.</p>
+        <div id="comparison-content"></div>
+      </section>
+
+      <section class="report-section" id="section-radar">
+        <div class="section-heading">
+          <span class="section-number">2</span>
+          Competitive Gap Analysis
+        </div>
+        <p class="section-sub">Client vs. primary competitor across key metrics — log scale chart plus gap breakdown table.</p>
+        <div id="radar-content"></div>
+      </section>
+
+      <section class="report-section" id="section-strategies">
+        <div class="section-heading">
+          <span class="section-number">3</span>
+          Competitor Strategies
+        </div>
+        <p class="section-sub">Patterns competitors are using to win visibility, authority, or coverage in the market.</p>
+        <div id="strategies-content" class="grid md:grid-cols-2 gap-4"></div>
+      </section>
+
+      <section class="report-section" id="section-domains">
+        <div class="section-heading">
+          <span class="section-number">4</span>
+          Domain Metrics Comparison
+        </div>
+        <p class="section-sub">Domain-level authority, traffic, keyword, and backlink signals across the client site and competitor set.</p>
+        <div id="domains-content"></div>
+      </section>
+
+      <section class="report-section" id="section-pagespeedcomp">
+        <div class="section-heading">
+          <span class="section-number">5</span>
+          PageSpeed Comparison
+        </div>
+        <p class="section-sub">Relative PageSpeed performance scores for the domains included in the audit.</p>
+        <div id="pagespeedcomp-content"></div>
+      </section>
+    </main>
+  </div>
+
+  <script defer src="shared/utils.js"></script>
+  <script defer src="shared/data-loader.js"></script>
+  <script defer src="shared/charts.js"></script>
+  <script defer src="shared/nav.js"></script>
+  <script defer src="shared/search.js"></script>
+  <script defer src="shared/table-filters.js"></script>
+  <script defer src="shared/table-pagination.js"></script>
+  <script defer src="shared/print.js"></script>
+  <script defer src="shared/explainer.js"></script>
+  <script defer src="pages/competitors.js"></script>
+</body>
+</html>

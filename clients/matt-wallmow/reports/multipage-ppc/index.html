@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PPC Dashboard | PPC Audit Report</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+
+  <link rel="stylesheet" href="shared/report-styles.css">
+  <link rel="stylesheet" href="shared/multipage-nav.css">
+
+  <script id="audit-data-inject">
+    window.AUDIT_DATA = /* __AUDIT_DATA_PLACEHOLDER__ */null;
+    window.SEARCH_INDEX = /* __SEARCH_INDEX_PLACEHOLDER__ */[];
+  </script>
+
+  <script>
+    window.TPPC = window.TPPC || {};
+    window.TPPC.currentPage = 'index';
+
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: {
+              900: '#0b1629',
+              800: '#111d35',
+              700: '#172644',
+              600: '#1e3a5f'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="multipage font-sans antialiased">
+  <nav id="top-nav" class="fixed top-0 left-0 right-0 z-50 bg-navy-900"></nav>
+
+  <div id="mobile-drawer" class="fixed inset-0 z-40 lg:hidden"></div>
+
+  <div class="flex pt-16">
+    <aside id="side-nav" class="hidden lg:block w-56 fixed top-16 left-0 bottom-0"></aside>
+
+    <main id="page-content" class="flex-1 lg:ml-56 min-h-screen">
+      <header class="hero-section" id="section-hero">
+        <div class="max-w-6xl mx-auto px-6 py-16 md:py-24 relative z-10">
+          <div class="flex flex-col xl:flex-row items-start justify-between gap-8">
+            <div class="max-w-3xl">
+              <div class="text-blue-300 text-sm font-semibold tracking-widest uppercase mb-3">PPC Audit Dashboard</div>
+              <h1 class="text-3xl md:text-5xl font-extrabold leading-tight">Paid Search Performance Overview</h1>
+              <p class="mt-4 text-blue-100 text-base md:text-lg leading-relaxed">
+                Account health, wasted spend, efficiency, and the highest-priority actions to improve paid search results.
+              </p>
+              <div class="mt-6 flex flex-wrap gap-4 text-sm text-slate-300">
+                <span id="hero-client" class="font-semibold text-white"></span>
+                <span id="hero-website"></span>
+                <span id="hero-date"></span>
+              </div>
+              <div id="hero-summary" class="mt-6 text-blue-100 text-base leading-relaxed"></div>
+            </div>
+
+            <div id="hero-score-card" class="w-full max-w-sm"></div>
+          </div>
+        </div>
+      </header>
+
+      <section class="report-section page-break" id="section-score">
+        <div class="section-heading">
+          <span class="section-number">1</span>
+          Account Score
+        </div>
+        <p class="section-sub">Weighted account health based on structure, quality score, wasted spend, and bidding checks.</p>
+        <div id="score-panel"></div>
+      </section>
+
+      <section class="report-section" id="section-overview">
+        <div class="section-heading">
+          <span class="section-number">2</span>
+          Key Metrics
+        </div>
+        <p class="section-sub">Core spend and efficiency signals surfaced from the PPC audit data.</p>
+        <div id="overview-grid" class="grid gap-4 md:grid-cols-2 xl:grid-cols-4"></div>
+      </section>
+
+      <section class="report-section page-break" id="section-findings">
+        <div class="section-heading">
+          <span class="section-number">3</span>
+          Top Findings
+        </div>
+        <p class="section-sub">The most important failed and warning checks affecting performance right now.</p>
+        <div id="findings-list" class="flex flex-col gap-4"></div>
+      </section>
+
+      <section class="report-section page-break" id="section-recommendations">
+        <div class="section-heading">
+          <span class="section-number">4</span>
+          Top Recommendations
+        </div>
+        <p class="section-sub">The highest-priority actions to reduce waste and improve account efficiency.</p>
+        <div id="recommendations-list" class="flex flex-col gap-4"></div>
+      </section>
+
+      <footer class="bg-navy-900 text-slate-400 text-center py-8 text-sm">
+        <p>Confidential PPC Audit Report &mdash; Prepared <span id="footer-date"></span></p>
+        <p class="mt-1 text-slate-500">Generated with Site Audit Toolkit</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="shared/utils.js"></script>
+  <script src="shared/data-loader.js"></script>
+  <script src="shared/charts.js"></script>
+  <script src="shared/nav.js"></script>
+  <script src="shared/search.js"></script>
+  <script src="shared/print.js"></script>
+  <script src="pages/index.js"></script>
+</body>
+</html>

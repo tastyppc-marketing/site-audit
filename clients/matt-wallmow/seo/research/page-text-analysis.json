@@ -1,0 +1,145 @@
+{
+  "pages": [
+    {
+      "url": "https://mattwallmow.com/",
+      "title": "Access denied",
+      "wordCount": 42,
+      "sentenceCount": 5,
+      "syllableCount": 71,
+      "fleschReadingEase": 55.3,
+      "fleschKincaidGrade": 7.6,
+      "avgWordsPerSentence": 8.4,
+      "avgSentenceLength": 8.4,
+      "avgSyllablesPerWord": 1.69
+    },
+    {
+      "url": "https://mattwallmow.com/about/",
+      "title": "About Meet The Team - Lakeland Realty",
+      "wordCount": 2162,
+      "sentenceCount": 96,
+      "syllableCount": 3893,
+      "fleschReadingEase": 31.6,
+      "fleschKincaidGrade": 14.4,
+      "avgWordsPerSentence": 22.5,
+      "avgSentenceLength": 22.5,
+      "avgSyllablesPerWord": 1.8
+    },
+    {
+      "url": "https://mattwallmow.com/contact/",
+      "title": "Access denied",
+      "wordCount": 42,
+      "sentenceCount": 5,
+      "syllableCount": 71,
+      "fleschReadingEase": 55.3,
+      "fleschKincaidGrade": 7.6,
+      "avgWordsPerSentence": 8.4,
+      "avgSentenceLength": 8.4,
+      "avgSyllablesPerWord": 1.69
+    },
+    {
+      "url": "https://mattwallmow.com/buyers/",
+      "title": "Buying - Lakeland Realty",
+      "wordCount": 2690,
+      "sentenceCount": 107,
+      "syllableCount": 4686,
+      "fleschReadingEase": 33.9,
+      "fleschKincaidGrade": 14.8,
+      "avgWordsPerSentence": 25.1,
+      "avgSentenceLength": 25.1,
+      "avgSyllablesPerWord": 1.74
+    },
+    {
+      "url": "https://mattwallmow.com/sellers/",
+      "title": "Selling - Lakeland Realty",
+      "wordCount": 2292,
+      "sentenceCount": 107,
+      "syllableCount": 4047,
+      "fleschReadingEase": 35.7,
+      "fleschKincaidGrade": 13.6,
+      "avgWordsPerSentence": 21.4,
+      "avgSentenceLength": 21.4,
+      "avgSyllablesPerWord": 1.77
+    },
+    {
+      "url": "https://mattwallmow.com/communities/",
+      "title": "communities - Lakeland Realty",
+      "wordCount": 1748,
+      "sentenceCount": 75,
+      "syllableCount": 3182,
+      "fleschReadingEase": 29.2,
+      "fleschKincaidGrade": 15,
+      "avgWordsPerSentence": 23.3,
+      "avgSentenceLength": 23.3,
+      "avgSyllablesPerWord": 1.82
+    },
+    {
+      "url": "https://mattwallmow.com/testimonials/",
+      "title": "testimonials - Lakeland Realty",
+      "wordCount": 2247,
+      "sentenceCount": 105,
+      "syllableCount": 3899,
+      "fleschReadingEase": 38.3,
+      "fleschKincaidGrade": 13.2,
+      "avgWordsPerSentence": 21.4,
+      "avgSentenceLength": 21.4,
+      "avgSyllablesPerWord": 1.74
+    },
+    {
+      "url": "https://mattwallmow.com/blog/",
+      "title": "Blog - Lakeland Realty",
+      "wordCount": 1966,
+      "sentenceCount": 74,
+      "syllableCount": 3493,
+      "fleschReadingEase": 29.6,
+      "fleschKincaidGrade": 15.7,
+      "avgWordsPerSentence": 26.6,
+      "avgSentenceLength": 26.6,
+      "avgSyllablesPerWord": 1.78
+    },
+    {
+      "url": "https://mattwallmow.com/10-pros-and-cons-of-waterfront-living-in-minocqua-wi-a-local-experts-breakdown/",
+      "title": "10 Pros and Cons of Waterfront Living in Minocqua, WI? A Local Expert’s Breakdown - Lakeland Realty",
+      "wordCount": 2856,
+      "sentenceCount": 128,
+      "syllableCount": 5375,
+      "fleschReadingEase": 25,
+      "fleschKincaidGrade": 15.3,
+      "avgWordsPerSentence": 22.3,
+      "avgSentenceLength": 22.3,
+      "avgSyllablesPerWord": 1.88
+    },
+    {
+      "url": "https://mattwallmow.com/2026-spring-real-estate-market-in-northern-wisconsin/",
+      "title": "2026 Spring Real Estate Market in Northern Wisconsin - Lakeland Realty",
+      "wordCount": 3320,
+      "sentenceCount": 143,
+      "syllableCount": 6266,
+      "fleschReadingEase": 23.6,
+      "fleschKincaidGrade": 15.7,
+      "avgWordsPerSentence": 23.2,
+      "avgSentenceLength": 23.2,
+      "avgSyllablesPerWord": 1.89
+    },
+    {
+      "url": "https://mattwallmow.com/find-the-best-luxury-real-estate-agent-near-me-in-minocqua-wi/",
+      "title": "Find the Best Luxury Real Estate Agent Near Me in Minocqua, WI - Lakeland Realty",
+      "wordCount": 2727,
+      "sentenceCount": 107,
+      "syllableCount": 5120,
+      "fleschReadingEase": 22.1,
+      "fleschKincaidGrade": 16.5,
+      "avgWordsPerSentence": 25.5,
+      "avgSentenceLength": 25.5,
+      "avgSyllablesPerWord": 1.88
+    }
+  ],
+  "summary": {
+    "totalPages": 11,
+    "avgFleschReadingEase": 34.5,
+    "avgFleschKincaidGrade": 13.6,
+    "avgWordCount": 2008
+  },
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-04-15T04:16:29.985Z"
+}

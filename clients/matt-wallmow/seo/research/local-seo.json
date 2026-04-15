@@ -1,0 +1,68 @@
+{
+  "businessProfile": {
+    "name": "Matt Wallmow",
+    "address": "",
+    "phone": "",
+    "website": "https://mattwallmow.com",
+    "category": "",
+    "rating": null,
+    "reviewCount": 0,
+    "gbpVerified": false,
+    "source": "web-research",
+    "note": "GBP data gathered from public web research. For full data (reviews, photos, hours, map pack positions), grant Google Business Profile API access in client-config.json."
+  },
+  "napConsistency": {
+    "websiteNap": {
+      "name": "Matt Wallmow",
+      "address": "",
+      "phone": ""
+    },
+    "directoryListings": [
+      {
+        "directory": "Yelp",
+        "found": false,
+        "url": "",
+        "napMatch": false,
+        "note": "HTTP undefined"
+      },
+      {
+        "directory": "BBB",
+        "found": false,
+        "url": "",
+        "napMatch": false,
+        "note": "HTTP undefined"
+      },
+      {
+        "directory": "Facebook",
+        "found": false,
+        "url": "",
+        "napMatch": false,
+        "note": "HTTP undefined"
+      },
+      {
+        "directory": "Google Maps",
+        "found": false,
+        "url": "",
+        "napMatch": false,
+        "note": "HTTP undefined"
+      }
+    ]
+  },
+  "citations": {
+    "totalFound": 0,
+    "consistent": 0,
+    "inconsistent": 0,
+    "missing": [
+      "Yelp",
+      "BBB",
+      "Facebook",
+      "Google Maps"
+    ],
+    "issues": []
+  },
+  "competitorGbp": [],
+  "reviews": [],
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-04-15T05:12:23.744Z"
+}

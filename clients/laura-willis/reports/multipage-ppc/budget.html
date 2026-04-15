@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Budget &amp; Bidding | PPC Audit Report</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+
+  <link rel="stylesheet" href="shared/report-styles.css">
+  <link rel="stylesheet" href="shared/multipage-nav.css">
+
+  <script id="audit-data-inject">
+    window.AUDIT_DATA = /* __AUDIT_DATA_PLACEHOLDER__ */null;
+    window.SEARCH_INDEX = /* __SEARCH_INDEX_PLACEHOLDER__ */[];
+  </script>
+
+  <script>
+    window.TPPC = window.TPPC || {};
+    window.TPPC.currentPage = 'budget';
+
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: {
+              900: '#0b1629',
+              800: '#111d35',
+              700: '#172644',
+              600: '#1e3a5f'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif']
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="multipage font-sans antialiased">
+  <nav id="top-nav" class="fixed top-0 left-0 right-0 z-50 bg-navy-900"></nav>
+
+  <div id="mobile-drawer" class="fixed inset-0 z-40 lg:hidden"></div>
+
+  <div class="flex pt-16">
+    <aside id="side-nav" class="hidden lg:block w-56 fixed top-16 left-0 bottom-0"></aside>
+
+    <main id="page-content" class="flex-1 lg:ml-56 min-h-screen">
+      <header class="hero-section">
+        <div class="max-w-6xl mx-auto px-6 py-16 md:py-20 relative z-10">
+          <div class="max-w-4xl">
+            <div class="text-blue-300 text-sm font-semibold tracking-widest uppercase mb-3">Budget &amp; Bidding</div>
+            <h1 class="text-3xl md:text-5xl font-extrabold leading-tight">Bidding Strategy Mix and Delivery Signals</h1>
+            <p class="mt-4 text-blue-100 text-base md:text-lg leading-relaxed">
+              Smart bidding adoption, manual exposure, and impression share clues that indicate where campaigns may be constrained.
+            </p>
+            <div class="mt-6 flex flex-wrap gap-4 text-sm text-slate-300">
+              <span id="hero-client" class="font-semibold text-white"></span>
+              <span id="hero-website"></span>
+              <span id="hero-date"></span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="report-section page-break" id="section-strategies">
+        <div class="section-heading">
+          <span class="section-number">1</span>
+          Bidding Strategies
+        </div>
+        <p class="section-sub">How campaigns are distributed across smart and manual bidding strategies.</p>
+        <div class="grid gap-6 xl:grid-cols-[1.05fr,0.95fr]">
+          <div class="chart-container no-break">
+            <canvas id="strategy-chart" aria-label="Bidding strategy chart"></canvas>
+          </div>
+          <div id="strategy-summary" class="grid gap-4 sm:grid-cols-2"></div>
+        </div>
+      </section>
+
+      <section class="report-section page-break" id="section-impression-share">
+        <div class="section-heading">
+          <span class="section-number">2</span>
+          Impression Share
+        </div>
+        <p class="section-sub">Available Search Impression Share data and the account-level visibility check.</p>
+        <div id="impression-share-content"></div>
+      </section>
+
+      <section class="report-section page-break" id="section-pacing">
+        <div class="section-heading">
+          <span class="section-number">3</span>
+          Smart Bidding vs Manual
+        </div>
+        <p class="section-sub">Adoption summary, campaign counts, and bidding-related checks from the audit.</p>
+        <div id="pacing-content"></div>
+      </section>
+
+      <footer class="bg-navy-900 text-slate-400 text-center py-8 text-sm">
+        <p>Confidential PPC Audit Report &mdash; Prepared <span id="footer-date"></span></p>
+        <p class="mt-1 text-slate-500">Generated with Site Audit Toolkit</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="shared/utils.js"></script>
+  <script src="shared/data-loader.js"></script>
+  <script src="shared/charts.js"></script>
+  <script src="shared/nav.js"></script>
+  <script src="shared/search.js"></script>
+  <script src="shared/print.js"></script>
+  <script src="pages/budget.js"></script>
+</body>
+</html>

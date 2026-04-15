@@ -1,0 +1,62 @@
+{
+  "businessProfile": {
+    "name": "Laura Willis Real Estate",
+    "address": "625 Main St, Park City, UT, 84060, US",
+    "phone": "+14357315148",
+    "website": "https://laurawillisrealestate.com",
+    "category": "",
+    "rating": null,
+    "reviewCount": 0,
+    "gbpVerified": false,
+    "source": "web-research",
+    "note": "GBP data gathered from public web research. For full data (reviews, photos, hours, map pack positions), grant Google Business Profile API access in client-config.json."
+  },
+  "napConsistency": {
+    "websiteNap": {
+      "name": "Laura Willis Real Estate",
+      "address": "625 Main St, Park City, UT, 84060, US",
+      "phone": "+14357315148"
+    },
+    "directoryListings": [
+      {
+        "directory": "Yelp",
+        "found": false,
+        "url": "",
+        "napMatch": false,
+        "note": "HTTP 403"
+      },
+      {
+        "directory": "BBB",
+        "found": true,
+        "url": "https://www.bbb.org/search?find_text=Laura%20Willis&find_loc=Park%20City%2C%20Utah",
+        "napMatch": false
+      },
+      {
+        "directory": "Facebook",
+        "found": true,
+        "url": "https://www.facebook.com/search/pages/?q=Laura%20Willis",
+        "napMatch": false
+      },
+      {
+        "directory": "Google Maps",
+        "found": true,
+        "url": "https://www.google.com/maps/search/Laura%20Willis+Park%20City%2C%20Utah",
+        "napMatch": false
+      }
+    ]
+  },
+  "citations": {
+    "totalFound": 3,
+    "consistent": 3,
+    "inconsistent": 0,
+    "missing": [
+      "Yelp"
+    ],
+    "issues": []
+  },
+  "competitorGbp": [],
+  "reviews": [],
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-04-11T20:24:07.395Z"
+}

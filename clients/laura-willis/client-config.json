@@ -1,0 +1,29 @@
+{
+  "clientDomain": "laurawillisrealestate.com",
+  "clientName": "Laura Willis",
+  "company": "Summit Sotheby's International Realty",
+  "location": "Park City, Utah",
+  "serviceType": "Luxury Real Estate",
+  "goal": "Lead generation, organic traffic growth, brand awareness",
+  "competitors": [],
+  "googleAccess": {
+    "searchConsole": {
+      "siteUrl": "",
+      "hasAccess": false
+    },
+    "analytics": {
+      "propertyId": "",
+      "hasAccess": false
+    },
+    "businessProfile": {
+      "accountId": "",
+      "locationId": "",
+      "hasAccess": false
+    }
+  },
+  "dataForSeo": {
+    "useBacklinksApi": true,
+    "useKeywordApi": true
+  },
+  "notes": "Auto-discover competitors."
+}

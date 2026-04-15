@@ -1,0 +1,415 @@
+{
+  "data": [
+    {
+      "domain": "mattwallmow.com",
+      "organicKeywords": 81,
+      "organicTraffic": 66.10604030452669,
+      "topKeywords": [
+        {
+          "keyword": "lakeland realty rhinelander wi",
+          "volume": 70,
+          "position": 2,
+          "traffic": 11.34000015258789
+        },
+        {
+          "keyword": "vilas county wi house for sale",
+          "volume": 1000,
+          "position": 14,
+          "traffic": 5.599999904632568
+        },
+        {
+          "keyword": "vilas county wi homes for sale",
+          "volume": 1000,
+          "position": 15,
+          "traffic": 5.099999904632568
+        },
+        {
+          "keyword": "business for sale in wisconsin",
+          "volume": 1300,
+          "position": 59,
+          "traffic": 2.7300000190734863
+        },
+        {
+          "keyword": "homes for sale vilas county wi",
+          "volume": 1000,
+          "position": 20,
+          "traffic": 2.4000000953674316
+        },
+        {
+          "keyword": "lakeland realty wisconsin",
+          "volume": 50,
+          "position": 5,
+          "traffic": 2.3450000286102295
+        },
+        {
+          "keyword": "wi resort for sale",
+          "volume": 880,
+          "position": 78,
+          "traffic": 1.8480000495910645
+        },
+        {
+          "keyword": "wisconsin resort for sale",
+          "volume": 880,
+          "position": 84,
+          "traffic": 1.8480000495910645
+        },
+        {
+          "keyword": "langlade county homes for sale",
+          "volume": 720,
+          "position": 33,
+          "traffic": 1.5120000839233398
+        },
+        {
+          "keyword": "homes for sale langlade county wi",
+          "volume": 720,
+          "position": 37,
+          "traffic": 1.5120000839233398
+        }
+      ],
+      "isClient": true
+    },
+    {
+      "domain": "redmanrealtygroup.com",
+      "organicKeywords": 1133,
+      "organicTraffic": 5600.451808333397,
+      "topKeywords": [
+        {
+          "keyword": "redman realty",
+          "volume": 1600,
+          "position": 1,
+          "traffic": 486.3999938964844
+        },
+        {
+          "keyword": "redman realty group minocqua",
+          "volume": 1600,
+          "position": 1,
+          "traffic": 486.3999938964844
+        },
+        {
+          "keyword": "redman realty minocqua",
+          "volume": 1600,
+          "position": 1,
+          "traffic": 486.3999938964844
+        },
+        {
+          "keyword": "homes for sale eagle river",
+          "volume": 2400,
+          "position": 2,
+          "traffic": 388.79998779296875
+        },
+        {
+          "keyword": "minocqua webcam",
+          "volume": 3600,
+          "position": 3,
+          "traffic": 350.2799987792969
+        },
+        {
+          "keyword": "rhinelander houses for sale",
+          "volume": 3600,
+          "position": 3,
+          "traffic": 350.2799987792969
+        },
+        {
+          "keyword": "houses for sale in minocqua wi",
+          "volume": 1600,
+          "position": 2,
+          "traffic": 259.20001220703125
+        },
+        {
+          "keyword": "homes for sale in woodruff",
+          "volume": 1900,
+          "position": 3,
+          "traffic": 184.8699951171875
+        },
+        {
+          "keyword": "waterfront homes in wisconsin for sale",
+          "volume": 1900,
+          "position": 3,
+          "traffic": 184.8699951171875
+        },
+        {
+          "keyword": "eagle river homes for sale",
+          "volume": 2400,
+          "position": 4,
+          "traffic": 158.16000366210938
+        }
+      ],
+      "isClient": false
+    },
+    {
+      "domain": "eliasonrealty.com",
+      "organicKeywords": 1884,
+      "organicTraffic": 1948.2762644290924,
+      "topKeywords": [
+        {
+          "keyword": "eliason realty",
+          "volume": 1000,
+          "position": 1,
+          "traffic": 304
+        },
+        {
+          "keyword": "eliason realty of the north",
+          "volume": 1000,
+          "position": 1,
+          "traffic": 304
+        },
+        {
+          "keyword": "homes for sale in eagle river",
+          "volume": 2400,
+          "position": 3,
+          "traffic": 233.52000427246094
+        },
+        {
+          "keyword": "homes for sale eagle river",
+          "volume": 2400,
+          "position": 6,
+          "traffic": 81.12000274658203
+        },
+        {
+          "keyword": "houses for sale in eagle river wi",
+          "volume": 1600,
+          "position": 6,
+          "traffic": 54.08000183105469
+        },
+        {
+          "keyword": "land o lakes wi homes for sale",
+          "volume": 320,
+          "position": 2,
+          "traffic": 51.84000015258789
+        },
+        {
+          "keyword": "eliason realty eagle river wi",
+          "volume": 140,
+          "position": 1,
+          "traffic": 42.560001373291016
+        },
+        {
+          "keyword": "homes for sale in boulder junction wisconsin",
+          "volume": 320,
+          "position": 2,
+          "traffic": 40.43519973754883
+        },
+        {
+          "keyword": "homes for sale in st germain wi",
+          "volume": 590,
+          "position": 5,
+          "traffic": 27.67099952697754
+        },
+        {
+          "keyword": "homes for sale st germain wi",
+          "volume": 590,
+          "position": 5,
+          "traffic": 27.67099952697754
+        }
+      ],
+      "isClient": false
+    },
+    {
+      "domain": "pinepointrealty.com",
+      "organicKeywords": 173,
+      "organicTraffic": 901.2756822258234,
+      "topKeywords": [
+        {
+          "keyword": "homes for sale tomahawk wi",
+          "volume": 1900,
+          "position": 4,
+          "traffic": 125.20999908447266
+        },
+        {
+          "keyword": "homes for sale in rhinelander",
+          "volume": 3600,
+          "position": 7,
+          "traffic": 92.16000366210938
+        },
+        {
+          "keyword": "homes for sale rhinelander wi",
+          "volume": 3600,
+          "position": 7,
+          "traffic": 92.16000366210938
+        },
+        {
+          "keyword": "houses for sale in rhinelander wisconsin",
+          "volume": 3600,
+          "position": 7,
+          "traffic": 92.16000366210938
+        },
+        {
+          "keyword": "rhinelander homes for sale",
+          "volume": 3600,
+          "position": 7,
+          "traffic": 92.16000366210938
+        },
+        {
+          "keyword": "pine point realty",
+          "volume": 210,
+          "position": 1,
+          "traffic": 63.84000015258789
+        },
+        {
+          "keyword": "rhinelander real estate",
+          "volume": 590,
+          "position": 4,
+          "traffic": 38.88100051879883
+        },
+        {
+          "keyword": "houses for sale rhinelander",
+          "volume": 3600,
+          "position": 10,
+          "traffic": 38.645999908447266
+        },
+        {
+          "keyword": "homes for sale in rhinelander wi",
+          "volume": 3600,
+          "position": 11,
+          "traffic": 32.7599983215332
+        },
+        {
+          "keyword": "houses for sale in rhinelander wi",
+          "volume": 3600,
+          "position": 12,
+          "traffic": 27
+        }
+      ],
+      "isClient": false
+    },
+    {
+      "domain": "northwoodshomefinder.com",
+      "organicKeywords": 42,
+      "organicTraffic": 85.05605968087912,
+      "topKeywords": [
+        {
+          "keyword": "remax rhinelander",
+          "volume": 70,
+          "position": 2,
+          "traffic": 11.34000015258789
+        },
+        {
+          "keyword": "houses for sale in rhinelander wisconsin",
+          "volume": 3600,
+          "position": 50,
+          "traffic": 7.559999942779541
+        },
+        {
+          "keyword": "rhinelander houses for sale",
+          "volume": 3600,
+          "position": 51,
+          "traffic": 7.559999942779541
+        },
+        {
+          "keyword": "homes for sale rhinelander wi",
+          "volume": 3600,
+          "position": 52,
+          "traffic": 7.559999942779541
+        },
+        {
+          "keyword": "rhinelander homes for sale",
+          "volume": 3600,
+          "position": 53,
+          "traffic": 7.559999942779541
+        },
+        {
+          "keyword": "houses for sale rhinelander wi",
+          "volume": 3600,
+          "position": 55,
+          "traffic": 7.559999942779541
+        },
+        {
+          "keyword": "homes for sale in rhinelander",
+          "volume": 3600,
+          "position": 59,
+          "traffic": 7.559999942779541
+        },
+        {
+          "keyword": "homes for sale in rhinelander wi",
+          "volume": 3600,
+          "position": 62,
+          "traffic": 7.559999942779541
+        },
+        {
+          "keyword": "houses for sale in rhinelander wi",
+          "volume": 3600,
+          "position": 63,
+          "traffic": 7.559999942779541
+        },
+        {
+          "keyword": "houses for sale rhinelander",
+          "volume": 3600,
+          "position": 56,
+          "traffic": 7.106400012969971
+        }
+      ],
+      "isClient": false
+    },
+    {
+      "domain": "shorewest.com",
+      "organicKeywords": 61333,
+      "organicTraffic": 22733.120121002197,
+      "topKeywords": [
+        {
+          "keyword": "home for sale new berlin",
+          "volume": 6600,
+          "position": 1,
+          "traffic": 2006.4000244140625
+        },
+        {
+          "keyword": "home for sale in muskego wi",
+          "volume": 4400,
+          "position": 1,
+          "traffic": 1337.5999755859375
+        },
+        {
+          "keyword": "barton houses",
+          "volume": 3600,
+          "position": 1,
+          "traffic": 1094.4000244140625
+        },
+        {
+          "keyword": "beaver dam homes for sale",
+          "volume": 3600,
+          "position": 1,
+          "traffic": 1094.4000244140625
+        },
+        {
+          "keyword": "beaver dam wisconsin homes for sale",
+          "volume": 3600,
+          "position": 1,
+          "traffic": 1094.4000244140625
+        },
+        {
+          "keyword": "fort atkinson wi homes for sale",
+          "volume": 2400,
+          "position": 1,
+          "traffic": 729.5999755859375
+        },
+        {
+          "keyword": "home for sale in germantown wi",
+          "volume": 2400,
+          "position": 1,
+          "traffic": 729.5999755859375
+        },
+        {
+          "keyword": "homes for sale in edgerton wisconsin",
+          "volume": 2400,
+          "position": 1,
+          "traffic": 729.5999755859375
+        },
+        {
+          "keyword": "home for sale port washington wi",
+          "volume": 1900,
+          "position": 1,
+          "traffic": 577.5999755859375
+        },
+        {
+          "keyword": "antigo homes for sale",
+          "volume": 1300,
+          "position": 1,
+          "traffic": 395.20001220703125
+        }
+      ],
+      "isClient": false
+    }
+  ],
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-04-15T05:12:11.710Z"
+}

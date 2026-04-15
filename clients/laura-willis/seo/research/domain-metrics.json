@@ -1,0 +1,88 @@
+{
+  "data": [
+    {
+      "domain": "laurawillisrealestate.com",
+      "domainRating": null,
+      "referringDomains": null,
+      "backlinks": null,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": null,
+      "isClient": true
+    },
+    {
+      "domain": "parkcityluxuryrealestate.com",
+      "domainRating": null,
+      "referringDomains": null,
+      "backlinks": null,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": null,
+      "isClient": false
+    },
+    {
+      "domain": "realestateinparkcity.com",
+      "domainRating": null,
+      "referringDomains": null,
+      "backlinks": null,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": null,
+      "isClient": false
+    },
+    {
+      "domain": "steinsrealty.com",
+      "domainRating": null,
+      "referringDomains": null,
+      "backlinks": null,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": null,
+      "isClient": false
+    },
+    {
+      "domain": "deervalleyrealestate.com",
+      "domainRating": null,
+      "referringDomains": null,
+      "backlinks": null,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": null,
+      "isClient": false
+    }
+  ],
+  "errors": [
+    {
+      "domain": "laurawillisrealestate.com",
+      "code": 40207,
+      "reason": "Access denied. Your IP is not whitelisted. You can modify your IP whitelist in the user panel https://app.dataforseo.com/api-access ."
+    },
+    {
+      "domain": "parkcityluxuryrealestate.com",
+      "code": 40207,
+      "reason": "Access denied. Your IP is not whitelisted. You can modify your IP whitelist in the user panel https://app.dataforseo.com/api-access ."
+    },
+    {
+      "domain": "realestateinparkcity.com",
+      "code": 40207,
+      "reason": "Access denied. Your IP is not whitelisted. You can modify your IP whitelist in the user panel https://app.dataforseo.com/api-access ."
+    },
+    {
+      "domain": "steinsrealty.com",
+      "code": 40207,
+      "reason": "Access denied. Your IP is not whitelisted. You can modify your IP whitelist in the user panel https://app.dataforseo.com/api-access ."
+    },
+    {
+      "domain": "deervalleyrealestate.com",
+      "code": 40207,
+      "reason": "Access denied. Your IP is not whitelisted. You can modify your IP whitelist in the user panel https://app.dataforseo.com/api-access ."
+    }
+  ],
+  "status": "failed",
+  "gatheredAt": "2026-04-11T20:24:43.490Z"
+}

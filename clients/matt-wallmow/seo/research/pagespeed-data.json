@@ -1,0 +1,322 @@
+{
+  "data": {
+    "client": [
+      {
+        "url": "https://mattwallmow.com",
+        "domain": "mattwallmow.com",
+        "mobile": {
+          "performanceScore": 0.57,
+          "lcp": 13877.010558687987,
+          "fcp": 7615.250280860031,
+          "cls": 0.00012000000000000002,
+          "inp": null,
+          "ttfb": 7,
+          "speedIndex": 7875.412790030526,
+          "opportunities": [
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 1500
+            },
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 1350
+            }
+          ]
+        },
+        "desktop": {
+          "performanceScore": 0.96,
+          "lcp": 1084.513666812782,
+          "fcp": 926.0117649277721,
+          "cls": 0.060858,
+          "inp": null,
+          "ttfb": 6,
+          "speedIndex": 1154.1135130852147,
+          "opportunities": [
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 80
+            }
+          ]
+        }
+      }
+    ],
+    "competitors": [
+      {
+        "url": "https://redmanrealtygroup.com",
+        "domain": "redmanrealtygroup.com",
+        "mobile": {
+          "performanceScore": 0.52,
+          "lcp": 6632.145521361111,
+          "fcp": 5294.019056157403,
+          "cls": 0,
+          "inp": null,
+          "ttfb": 2,
+          "speedIndex": 8722.140421572069,
+          "opportunities": [
+            {
+              "title": "Avoid multiple page redirects",
+              "id": "redirects",
+              "savings": 780
+            },
+            {
+              "title": "Minify JavaScript",
+              "id": "unminified-javascript",
+              "savings": 150
+            },
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 600
+            },
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 450
+            }
+          ]
+        },
+        "desktop": {
+          "performanceScore": 0.77,
+          "lcp": 1434.117997726042,
+          "fcp": 1323.016856818006,
+          "cls": 0.018847000000000003,
+          "inp": null,
+          "ttfb": 4,
+          "speedIndex": 3308.247697293447,
+          "opportunities": [
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 80
+            },
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 40
+            },
+            {
+              "title": "Avoid multiple page redirects",
+              "id": "redirects",
+              "savings": 230
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://eliasonrealty.com",
+        "domain": "eliasonrealty.com",
+        "mobile": {
+          "performanceScore": 0.66,
+          "lcp": 7233.659856679824,
+          "fcp": 4083.566649806181,
+          "cls": 0,
+          "inp": null,
+          "ttfb": 3,
+          "speedIndex": 4430.643669940463,
+          "opportunities": [
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 450
+            },
+            {
+              "title": "Avoid multiple page redirects",
+              "id": "redirects",
+              "savings": 780
+            }
+          ]
+        },
+        "desktop": {
+          "performanceScore": 0.89,
+          "lcp": 1880.482617267488,
+          "fcp": 1034.040394516622,
+          "cls": 0,
+          "inp": null,
+          "ttfb": 4,
+          "speedIndex": 1400.0815516821672,
+          "opportunities": [
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 40
+            },
+            {
+              "title": "Avoid multiple page redirects",
+              "id": "redirects",
+              "savings": 230
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://pinepointrealty.com",
+        "domain": "pinepointrealty.com",
+        "mobile": {
+          "performanceScore": 0.09,
+          "lcp": 13813.12097752457,
+          "fcp": 5487.660216367838,
+          "cls": 1.7539649999999998,
+          "inp": null,
+          "ttfb": 4,
+          "speedIndex": 9080.934775729933,
+          "opportunities": [
+            {
+              "title": "Avoid multiple page redirects",
+              "id": "redirects",
+              "savings": 780
+            },
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 3320
+            },
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 600
+            }
+          ]
+        },
+        "desktop": {
+          "performanceScore": 0.24,
+          "lcp": 2585.7481611050753,
+          "fcp": 1209.0249981654563,
+          "cls": 1.079985,
+          "inp": null,
+          "ttfb": 4,
+          "speedIndex": 2845.231795694064,
+          "opportunities": [
+            {
+              "title": "Avoid multiple page redirects",
+              "id": "redirects",
+              "savings": 230
+            },
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 120
+            },
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 490
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://shorewest.com",
+        "domain": "shorewest.com",
+        "mobile": {
+          "performanceScore": 0.48,
+          "lcp": 8258.557934180093,
+          "fcp": 3610.4175948849415,
+          "cls": 0.12415899999999999,
+          "inp": null,
+          "ttfb": 15,
+          "speedIndex": 4513.744620811625,
+          "opportunities": [
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 150
+            }
+          ]
+        },
+        "desktop": {
+          "performanceScore": 0.68,
+          "lcp": 1845.5722923145906,
+          "fcp": 881.3187543189358,
+          "cls": 0.09518,
+          "inp": null,
+          "ttfb": 10,
+          "speedIndex": 1169.0508464517297,
+          "opportunities": [
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 40
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "pageSpeedComparison": [
+    {
+      "domain": "mattwallmow.com",
+      "mobileScore": 0.57,
+      "desktopScore": 0.96,
+      "isClient": true
+    },
+    {
+      "domain": "redmanrealtygroup.com",
+      "mobileScore": 0.52,
+      "desktopScore": 0.77,
+      "isClient": false
+    },
+    {
+      "domain": "eliasonrealty.com",
+      "mobileScore": 0.66,
+      "desktopScore": 0.89,
+      "isClient": false
+    },
+    {
+      "domain": "pinepointrealty.com",
+      "mobileScore": 0.09,
+      "desktopScore": 0.24,
+      "isClient": false
+    },
+    {
+      "domain": "shorewest.com",
+      "mobileScore": 0.48,
+      "desktopScore": 0.68,
+      "isClient": false
+    }
+  ],
+  "coreWebVitals": {
+    "mobile": {
+      "performanceScore": 0.57,
+      "lcp": 13877.010558687987,
+      "fcp": 7615.250280860031,
+      "cls": 0.00012000000000000002,
+      "inp": null,
+      "ttfb": 7,
+      "speedIndex": 7875.412790030526,
+      "opportunities": [
+        {
+          "title": "Reduce unused CSS",
+          "id": "unused-css-rules",
+          "savings": 1500
+        },
+        {
+          "title": "Reduce unused JavaScript",
+          "id": "unused-javascript",
+          "savings": 1350
+        }
+      ]
+    },
+    "desktop": {
+      "performanceScore": 0.96,
+      "lcp": 1084.513666812782,
+      "fcp": 926.0117649277721,
+      "cls": 0.060858,
+      "inp": null,
+      "ttfb": 6,
+      "speedIndex": 1154.1135130852147,
+      "opportunities": [
+        {
+          "title": "Reduce unused CSS",
+          "id": "unused-css-rules",
+          "savings": 80
+        }
+      ]
+    }
+  },
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-04-15T05:11:42.230Z"
+}

@@ -1,0 +1,250 @@
+==========================================
+FULL GATHER SCRIPT TEST PASS v2 (retry-enabled)
+Started: 2026-04-15T05:07:59+00:00
+==========================================
+
+=== [1/7] gather-pagespeed.js ===
+  Fetching PSI: https://mattwallmow.com [mobile]...
+  [2026-04-15 05:08:16.004] GET OK 200 476.3KB 16439ms PSI https://www.googleapis.com/pagespeedonline/v5/runPagespeed?u
+  Fetching PSI: https://mattwallmow.com [desktop]...
+  [2026-04-15 05:08:36.191] GET OK 200 521.4KB 20184ms PSI https://www.googleapis.com/pagespeedonline/v5/runPagespeed?u
+  Done: mattwallmow.com — mobile: 0.57, desktop: 0.96
+  Fetching PSI: https://redmanrealtygroup.com [mobile]...
+  [2026-04-15 05:09:01.240] GET OK 200 795.5KB 25046ms PSI https://www.googleapis.com/pagespeedonline/v5/runPagespeed?u
+  Fetching PSI: https://redmanrealtygroup.com [desktop]...
+  [2026-04-15 05:09:28.680] GET OK 200 1234.5KB 27436ms PSI https://www.googleapis.com/pagespeedonline/v5/runPagespeed?u
+  Done: redmanrealtygroup.com — mobile: 0.52, desktop: 0.77
+  Fetching PSI: https://eliasonrealty.com [mobile]...
+  [2026-04-15 05:09:46.583] GET OK 200 211.9KB 17899ms PSI https://www.googleapis.com/pagespeedonline/v5/runPagespeed?u
+  Fetching PSI: https://eliasonrealty.com [desktop]...
+  [2026-04-15 05:10:06.020] GET OK 200 254.6KB 19433ms PSI https://www.googleapis.com/pagespeedonline/v5/runPagespeed?u
+  Done: eliasonrealty.com — mobile: 0.66, desktop: 0.89
+  Fetching PSI: https://pinepointrealty.com [mobile]...
+  [2026-04-15 05:10:27.581] GET OK 200 679.7KB 21559ms PSI https://www.googleapis.com/pagespeedonline/v5/runPagespeed?u
+  Fetching PSI: https://pinepointrealty.com [desktop]...
+  [2026-04-15 05:10:50.671] GET OK 200 825.8KB 23088ms PSI https://www.googleapis.com/pagespeedonline/v5/runPagespeed?u
+  Done: pinepointrealty.com — mobile: 0.09, desktop: 0.24
+  Fetching PSI: https://shorewest.com [mobile]...
+  [2026-04-15 05:11:13.984] GET OK 200 618.8KB 23309ms PSI https://www.googleapis.com/pagespeedonline/v5/runPagespeed?u
+  Fetching PSI: https://shorewest.com [desktop]...
+  [2026-04-15 05:11:42.226] GET OK 200 956.6KB 28237ms PSI https://www.googleapis.com/pagespeedonline/v5/runPagespeed?u
+  Done: shorewest.com — mobile: 0.48, desktop: 0.68
+
+Written: /root/site-audit/clients/matt-wallmow/seo/research/pagespeed-data.json
+  Client pages: 1, Competitor pages: 4
+
+--- fetch-with-retry summary ---
+  Total requests: 10
+  Successes: 10
+  Failures: 0
+  Retries: 0
+  Total data: 6575.2KB
+  Elapsed: 222.7s
+  Status codes: {"200":10}
+-------------------------------
+
+
+=== [2/7] gather-domain-metrics.js ===
+  Fetching backlinks/summary for mattwallmow.com...
+  [2026-04-15 05:11:43.928] POST OK 200 3.6KB 1666ms DataForSEO /backlinks/summary/live
+  Done: mattwallmow.com — DR: 37, RD: 44, BL: 66
+  Fetching backlinks/summary for redmanrealtygroup.com...
+  [2026-04-15 05:11:44.533] POST OK 200 4.1KB 604ms DataForSEO /backlinks/summary/live
+  Done: redmanrealtygroup.com — DR: 239, RD: 151, BL: 1153
+  Fetching backlinks/summary for eliasonrealty.com...
+  [2026-04-15 05:11:45.143] POST OK 200 4.0KB 609ms DataForSEO /backlinks/summary/live
+  Done: eliasonrealty.com — DR: 188, RD: 310, BL: 789
+  Fetching backlinks/summary for pinepointrealty.com...
+  [2026-04-15 05:11:45.877] POST OK 200 3.6KB 734ms DataForSEO /backlinks/summary/live
+  Done: pinepointrealty.com — DR: 179, RD: 73, BL: 168
+  Fetching backlinks/summary for northwoodshomefinder.com...
+  [2026-04-15 05:11:46.460] POST OK 200 3.7KB 582ms DataForSEO /backlinks/summary/live
+  Done: northwoodshomefinder.com — DR: 70, RD: 48, BL: 126
+  Fetching backlinks/summary for shorewest.com...
+  [2026-04-15 05:11:47.279] POST OK 200 4.2KB 819ms DataForSEO /backlinks/summary/live
+  Done: shorewest.com — DR: 356, RD: 2120, BL: 24443
+
+Written: /root/site-audit/clients/matt-wallmow/seo/research/domain-metrics.json (6 domains)
+
+--- fetch-with-retry summary ---
+  Total requests: 6
+  Successes: 6
+  Failures: 0
+  Retries: 0
+  Total data: 23.2KB
+  Elapsed: 5.0s
+  Status codes: {"200":6}
+-------------------------------
+
+
+=== [3/7] gather-backlinks.js ===
+
+[1/6] Client domain: mattwallmow.com
+  Fetching backlinks for mattwallmow.com (limit 200)...
+  [2026-04-15 05:11:50.590] POST OK 200 211.8KB 3276ms DataForSEO /backlinks/backlinks/live
+  Backlinks: 66 records
+  Fetching referring domains for mattwallmow.com (limit 200)...
+  [2026-04-15 05:11:51.129] POST OK 200 73.9KB 537ms DataForSEO /backlinks/referring_domains/live
+  Referring domains: 42 records
+Written: /root/site-audit/clients/matt-wallmow/seo/research/client-backlinks.json (66 backlinks, 42 referring domains)
+  Continuing to next domain...
+
+[2/6] Competitor domain: redmanrealtygroup.com
+  Fetching backlinks for redmanrealtygroup.com (limit 200)...
+  [2026-04-15 05:11:53.098] POST OK 200 619.8KB 1967ms DataForSEO /backlinks/backlinks/live
+  Backlinks: 200 records
+  Fetching referring domains for redmanrealtygroup.com (limit 200)...
+  [2026-04-15 05:11:53.765] POST OK 200 260.8KB 665ms DataForSEO /backlinks/referring_domains/live
+  Referring domains: 149 records
+Written: /root/site-audit/clients/matt-wallmow/seo/research/backlinks-redmanrealtygroup.com.json (200 backlinks, 149 referring domains)
+  Continuing to next domain...
+
+[3/6] Competitor domain: eliasonrealty.com
+  Fetching backlinks for eliasonrealty.com (limit 200)...
+  [2026-04-15 05:11:55.128] POST OK 200 648.9KB 1361ms DataForSEO /backlinks/backlinks/live
+  Backlinks: 200 records
+  Fetching referring domains for eliasonrealty.com (limit 200)...
+  [2026-04-15 05:11:55.707] POST OK 200 354.8KB 578ms DataForSEO /backlinks/referring_domains/live
+  Referring domains: 200 records
+Written: /root/site-audit/clients/matt-wallmow/seo/research/backlinks-eliasonrealty.com.json (200 backlinks, 200 referring domains)
+  Continuing to next domain...
+
+[4/6] Competitor domain: pinepointrealty.com
+  Fetching backlinks for pinepointrealty.com (limit 200)...
+  [2026-04-15 05:11:56.941] POST OK 200 494.4KB 1231ms DataForSEO /backlinks/backlinks/live
+  Backlinks: 159 records
+  Fetching referring domains for pinepointrealty.com (limit 200)...
+  [2026-04-15 05:11:57.509] POST OK 200 120.3KB 565ms DataForSEO /backlinks/referring_domains/live
+  Referring domains: 69 records
+Written: /root/site-audit/clients/matt-wallmow/seo/research/backlinks-pinepointrealty.com.json (159 backlinks, 69 referring domains)
+  Continuing to next domain...
+
+[5/6] Competitor domain: northwoodshomefinder.com
+  Fetching backlinks for northwoodshomefinder.com (limit 200)...
+  [2026-04-15 05:11:58.726] POST OK 200 354.8KB 1215ms DataForSEO /backlinks/backlinks/live
+  Backlinks: 112 records
+  Fetching referring domains for northwoodshomefinder.com (limit 200)...
+  [2026-04-15 05:11:59.165] POST OK 200 80.2KB 438ms DataForSEO /backlinks/referring_domains/live
+  Referring domains: 46 records
+Written: /root/site-audit/clients/matt-wallmow/seo/research/backlinks-northwoodshomefinder.com.json (112 backlinks, 46 referring domains)
+  Continuing to next domain...
+
+[6/6] Competitor domain: shorewest.com
+  Fetching backlinks for shorewest.com (limit 200)...
+  [2026-04-15 05:12:00.475] POST OK 200 620.7KB 1309ms DataForSEO /backlinks/backlinks/live
+  Backlinks: 200 records
+  Fetching referring domains for shorewest.com (limit 200)...
+  [2026-04-15 05:12:01.247] POST OK 200 348.4KB 769ms DataForSEO /backlinks/referring_domains/live
+  Referring domains: 200 records
+Written: /root/site-audit/clients/matt-wallmow/seo/research/backlinks-shorewest.com.json (200 backlinks, 200 referring domains)
+
+Total DFS API cost estimate: ~$0.36 (6 domains x 2 calls)
+
+--- fetch-with-retry summary ---
+  Total requests: 12
+  Successes: 12
+  Failures: 0
+  Retries: 0
+  Total data: 4188.8KB
+  Elapsed: 13.9s
+  Status codes: {"200":12}
+-------------------------------
+
+
+=== [4/7] gather-organic-metrics.js ===
+  Fetching ranked keywords for mattwallmow.com...
+  [2026-04-15 05:12:02.504] POST OK 200 877.2KB 1198ms DataForSEO /dataforseo_labs/google/ranked_keywords/live
+  Done: mattwallmow.com — keywords: 81, traffic: 66.10604030452669
+  Fetching ranked keywords for redmanrealtygroup.com...
+  [2026-04-15 05:12:04.008] POST OK 200 1134.9KB 1501ms DataForSEO /dataforseo_labs/google/ranked_keywords/live
+  Done: redmanrealtygroup.com — keywords: 1133, traffic: 5600.451808333397
+  Fetching ranked keywords for eliasonrealty.com...
+  [2026-04-15 05:12:05.247] POST OK 200 1098.3KB 1234ms DataForSEO /dataforseo_labs/google/ranked_keywords/live
+  Done: eliasonrealty.com — keywords: 1884, traffic: 1948.2762644290924
+  Fetching ranked keywords for pinepointrealty.com...
+  [2026-04-15 05:12:09.741] POST OK 200 1098.2KB 4490ms DataForSEO /dataforseo_labs/google/ranked_keywords/live
+  Done: pinepointrealty.com — keywords: 173, traffic: 901.2756822258234
+  Fetching ranked keywords for northwoodshomefinder.com...
+  [2026-04-15 05:12:11.211] POST OK 200 483.5KB 1467ms DataForSEO /dataforseo_labs/google/ranked_keywords/live
+  Done: northwoodshomefinder.com — keywords: 42, traffic: 85.05605968087912
+  Fetching ranked keywords for shorewest.com...
+  [2026-04-15 05:12:11.705] POST OK 200 1098.1KB 493ms DataForSEO /dataforseo_labs/google/ranked_keywords/live
+  Done: shorewest.com — keywords: 61333, traffic: 22733.120121002197
+
+Written: /root/site-audit/clients/matt-wallmow/seo/research/organic-metrics.json (6 domains)
+
+--- fetch-with-retry summary ---
+  Total requests: 6
+  Successes: 6
+  Failures: 0
+  Retries: 0
+  Total data: 5790.1KB
+  Elapsed: 10.4s
+  Status codes: {"200":6}
+-------------------------------
+
+
+=== [5/7] gather-keyword-volumes.js ===
+Fetching volumes for 25 keywords...
+  Batch 1/1: 25 keywords
+  [2026-04-15 05:12:15.985] POST OK 200 36.7KB 4218ms DataForSEO /keywords_data/google_ads/search_volume/live
+  Done: Batch 1 returned volume data for 9/25 keywords
+
+Written: /root/site-audit/clients/matt-wallmow/seo/research/keyword-volumes.json (25 keywords)
+Estimated DataForSEO cost: $0.075 per batch task x 1 = ~$0.07 total
+Updated 25 keywords in audit-data.json with real volumes
+
+--- fetch-with-retry summary ---
+  Total requests: 1
+  Successes: 1
+  Failures: 0
+  Retries: 0
+  Total data: 36.7KB
+  Elapsed: 4.2s
+  Status codes: {"200":1}
+-------------------------------
+
+
+=== [6/7] gather-local-seo.js ===
+
+Gathering local SEO data for: Matt Wallmow
+Domain: mattwallmow.com | Location: Rhinelander, WI
+
+Scraping contact page for NAP...
+  [2026-04-15 05:12:16.120] GET OK 200 140.2KB 93ms HTML fetch https://mattwallmow.com/contact/
+  [2026-04-15 05:12:16.786] GET FAIL 404 119.8KB 166ms HTML fetch https://mattwallmow.com/contact-us/
+  [2026-04-15 05:12:17.317] GET OK 200 186.0KB 30ms HTML fetch https://mattwallmow.com/about/
+  [2026-04-15 05:12:18.047] GET FAIL 404 119.8KB 229ms HTML fetch https://mattwallmow.com/about-us/
+  [2026-04-15 05:12:18.597] GET OK 200 297.4KB 49ms HTML fetch https://mattwallmow.com
+
+Checking directory presence...
+  Checking Yelp...
+  [2026-04-15 05:12:19.189] GET FAIL 403 841B 91ms HTML fetch https://www.yelp.com/search?find_desc=Matt%20Wallmow&find_loc=Rhinelander%2C%20WI
+  Checking BBB...
+  [2026-04-15 05:12:20.463] GET OK 200 92.0KB 272ms HTML fetch https://www.bbb.org/search?find_text=Matt%20Wallmow&find_loc=Rhinelander%2C%20WI
+  Checking Facebook...
+  [2026-04-15 05:12:21.567] GET OK 302 0B 103ms HTML fetch https://www.facebook.com/search/pages/?q=Matt%20Wallmow
+  Checking Google Maps...
+  [2026-04-15 05:12:22.740] GET OK 200 216.7KB 172ms HTML fetch https://www.google.com/maps/search/Matt%20Wallmow+Rhinelander%2C%20WI
+
+Written: /root/site-audit/clients/matt-wallmow/seo/research/local-seo.json
+  NAP: no address, no phone
+  Directories: 0/4 found
+
+Note: For full GBP data (rating, reviews, hours), configure GBP API access in client-config.json.
+
+--- fetch-with-retry summary ---
+  Total requests: 9
+  Successes: 6
+  Failures: 3
+  Retries: 0
+  Total data: 1172.7KB
+  Elapsed: 7.7s
+  Status codes: {"200":5,"302":1,"403":1,"404":2}
+-------------------------------
+
+
+==========================================
+COMPLETED (6/7): 2026-04-15T05:12:23+00:00
+NOTE: gather-local-pack.js skipped — DFS SERP API too slow (~30s/query x 25 = 12min)
+==========================================

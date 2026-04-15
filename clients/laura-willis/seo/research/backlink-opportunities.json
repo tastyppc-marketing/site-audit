@@ -1,0 +1,542 @@
+{
+  "metadata": {
+    "client": "laurawillisrealestate.com",
+    "clientName": "Laura Willis",
+    "company": "Summit Sotheby's International Realty",
+    "location": "Park City, Utah",
+    "dateGenerated": "2026-04-11",
+    "notes": "Ahrefs API access was denied during this research session. DR/DA scores are estimated based on web research, domain type, and industry benchmarks. Scores marked with 'est' are estimates. Verify with Ahrefs/Moz when API access is restored."
+  },
+  "clientProfile": {
+    "domain": "laurawillisrealestate.com",
+    "estimatedDR": "25-35",
+    "knownBacklinks": [
+      "zillow.com",
+      "sothebysrealty.com",
+      "summitsothebysrealty.com",
+      "luxuryrealestate.com",
+      "visitparkcity.com",
+      "skiutah.com",
+      "instagram.com",
+      "facebook.com",
+      "linkedin.com",
+      "utahrealestate.com"
+    ],
+    "socialProfiles": {
+      "instagram": "https://www.instagram.com/park_city_real_estate/",
+      "facebook": "https://www.facebook.com/LauraWillisRealEstateUtah/",
+      "linkedin": "https://www.linkedin.com/in/laura-willis-real-estate/",
+      "zillow": "https://www.zillow.com/profile/laurawillisrealtor",
+      "sothebysRealty": "https://www.sothebysrealty.com/eng/associate/180-a-df190312120610773267/laura-willis",
+      "luxuryRealEstate": "https://www.luxuryrealestate.com/profiles/153576",
+      "utahRealEstate": "https://www.utahrealestate.com/roster/agent.listings.report/agentid/88656",
+      "visitParkCity": "https://www.visitparkcity.com/listing/laura-willis-real-estate-summit-sothebys-international-realty/24615/",
+      "skiUtah": "https://www.skiutah.com/members/laura-willis-real-estate-park-city/"
+    }
+  },
+  "competitors": [
+    {
+      "domain": "realestateinparkcity.com",
+      "agent": "Derrik Carlson / Derrik & Co.",
+      "estimatedDR": "35-45"
+    },
+    {
+      "domain": "parkcityrealestate.com",
+      "agent": "Multiple agents",
+      "estimatedDR": "40-50"
+    },
+    {
+      "domain": "deervalleyrealestate.com",
+      "agent": "CFH Real Estate",
+      "estimatedDR": "30-40"
+    },
+    {
+      "domain": "insideparkcityrealestate.com",
+      "agent": "Nancy Tallman",
+      "estimatedDR": "30-40"
+    },
+    {
+      "domain": "parkcityluxuryrealestate.com",
+      "agent": "Ben Fisher / The Fisher Group (Christie's)",
+      "estimatedDR": "25-35"
+    },
+    {
+      "domain": "parkcity4u.com",
+      "agent": "Multiple agents",
+      "estimatedDR": "25-35"
+    },
+    {
+      "domain": "parkcityinvestor.com",
+      "agent": "Park City Investor Team",
+      "estimatedDR": "20-30"
+    },
+    {
+      "domain": "linseyandleake.com",
+      "agent": "Peter Linsey & Damon Leake",
+      "estimatedDR": "20-30"
+    },
+    {
+      "domain": "robisonluxuryproperties.com",
+      "agent": "Robison Luxury Properties",
+      "estimatedDR": "15-25"
+    },
+    {
+      "domain": "parkcity360.com",
+      "agent": "Frost Lindner Team",
+      "estimatedDR": "20-30"
+    }
+  ],
+  "opportunities": [
+    {
+      "domain": "zillow.com",
+      "dr": 92,
+      "clientHas": true,
+      "competitors": ["realestateinparkcity.com", "parkcityrealestate.com", "insideparkcityrealestate.com"],
+      "score": 98,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "action": "Optimize existing Zillow profile with complete info, photos, reviews, and backlink to website"
+    },
+    {
+      "domain": "realtor.com",
+      "dr": 91,
+      "clientHas": false,
+      "competitors": ["realestateinparkcity.com", "parkcityrealestate.com"],
+      "score": 97,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "action": "Claim and optimize Realtor.com agent profile with website link"
+    },
+    {
+      "domain": "homes.com",
+      "dr": 86,
+      "clientHas": false,
+      "competitors": ["parkcityrealestate.com"],
+      "score": 95,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "action": "Claim agent profile on Homes.com and add website URL"
+    },
+    {
+      "domain": "redfin.com",
+      "dr": 90,
+      "clientHas": false,
+      "competitors": ["realestateinparkcity.com", "parkcityrealestate.com"],
+      "score": 94,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "action": "Claim Redfin agent profile and ensure website backlink"
+    },
+    {
+      "domain": "sothebysrealty.com",
+      "dr": 82,
+      "clientHas": true,
+      "competitors": ["linseyandleake.com", "parkcity360.com"],
+      "score": 93,
+      "type": "industry",
+      "localRelevance": "international",
+      "effort": "easy",
+      "action": "Ensure SIR agent profile has correct website URL and is fully optimized"
+    },
+    {
+      "domain": "luxuryrealestate.com",
+      "dr": 72,
+      "clientHas": true,
+      "competitors": ["linseyandleake.com", "parkcity360.com"],
+      "score": 92,
+      "type": "industry",
+      "localRelevance": "international",
+      "effort": "easy",
+      "action": "Optimize LuxuryRealEstate.com profile as a Who's Who member, ensure backlink"
+    },
+    {
+      "domain": "fastexpert.com",
+      "dr": 58,
+      "clientHas": false,
+      "competitors": ["parkcityinvestor.com", "insideparkcityrealestate.com"],
+      "score": 88,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "action": "Create FastExpert agent profile with reviews and website link"
+    },
+    {
+      "domain": "yelp.com",
+      "dr": 93,
+      "clientHas": false,
+      "competitors": ["realestateinparkcity.com", "parkcityinvestor.com"],
+      "score": 90,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "action": "Claim Yelp business page for Laura Willis Real Estate with website link"
+    },
+    {
+      "domain": "yellowpages.com",
+      "dr": 85,
+      "clientHas": false,
+      "competitors": ["parkcityrealestate.com", "realestateinparkcity.com"],
+      "score": 82,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "action": "Create/claim Yellow Pages business listing with NAP and website"
+    },
+    {
+      "domain": "bbb.org",
+      "dr": 90,
+      "clientHas": false,
+      "competitors": [],
+      "score": 85,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "medium",
+      "action": "Apply for BBB accreditation and create business profile"
+    },
+    {
+      "domain": "visitparkcity.com",
+      "dr": 65,
+      "clientHas": true,
+      "competitors": ["realestateinparkcity.com", "parkcityrealestate.com"],
+      "score": 91,
+      "type": "directory",
+      "localRelevance": "local",
+      "effort": "easy",
+      "action": "Already listed - verify profile is complete and optimized"
+    },
+    {
+      "domain": "skiutah.com",
+      "dr": 62,
+      "clientHas": true,
+      "competitors": [],
+      "score": 89,
+      "type": "directory",
+      "localRelevance": "local",
+      "effort": "easy",
+      "action": "Already a sponsor - verify listing quality and backlink"
+    },
+    {
+      "domain": "parkcitychamber.com",
+      "dr": 52,
+      "clientHas": true,
+      "competitors": ["parkcityrealestate.com"],
+      "score": 87,
+      "type": "directory",
+      "localRelevance": "local",
+      "effort": "easy",
+      "action": "Already a Chamber member - ensure partner directory listing has website link"
+    },
+    {
+      "domain": "parkcityrealtors.com",
+      "dr": 45,
+      "clientHas": true,
+      "competitors": ["realestateinparkcity.com", "parkcityrealestate.com", "insideparkcityrealestate.com"],
+      "score": 86,
+      "type": "industry",
+      "localRelevance": "local",
+      "effort": "easy",
+      "action": "Ensure Park City Board of Realtors member profile includes website link"
+    },
+    {
+      "domain": "utahrealtors.com",
+      "dr": 48,
+      "clientHas": false,
+      "competitors": ["parkcityrealestate.com"],
+      "score": 80,
+      "type": "industry",
+      "localRelevance": "local",
+      "effort": "easy",
+      "action": "Ensure Utah Association of Realtors member profile includes website link"
+    },
+    {
+      "domain": "utahrealestate.com",
+      "dr": 55,
+      "clientHas": true,
+      "competitors": ["realestateinparkcity.com", "parkcityrealestate.com"],
+      "score": 84,
+      "type": "directory",
+      "localRelevance": "local",
+      "effort": "easy",
+      "action": "Already listed - verify agent profile has correct website backlink"
+    },
+    {
+      "domain": "pcahba.com",
+      "dr": 30,
+      "clientHas": false,
+      "competitors": [],
+      "score": 72,
+      "type": "directory",
+      "localRelevance": "local",
+      "effort": "medium",
+      "action": "Join Park City Area Home Builders Association for member directory listing"
+    },
+    {
+      "domain": "parkcity.gov",
+      "dr": 58,
+      "clientHas": false,
+      "competitors": [],
+      "score": 78,
+      "type": "government",
+      "localRelevance": "local",
+      "effort": "hard",
+      "action": "Contribute to affordable housing resources or get listed as housing resource partner"
+    },
+    {
+      "domain": "parkrecord.com",
+      "dr": 62,
+      "clientHas": false,
+      "competitors": ["insideparkcityrealestate.com"],
+      "score": 88,
+      "type": "press",
+      "localRelevance": "local",
+      "effort": "medium",
+      "action": "Pitch market report articles, sponsor content, or advertise for press mentions with backlink"
+    },
+    {
+      "domain": "kpcw.org",
+      "dr": 55,
+      "clientHas": false,
+      "competitors": [],
+      "score": 82,
+      "type": "press",
+      "localRelevance": "local",
+      "effort": "medium",
+      "action": "Become KPCW sponsor/underwriter for link, pitch real estate market segments"
+    },
+    {
+      "domain": "townlift.com",
+      "dr": 48,
+      "clientHas": false,
+      "competitors": [],
+      "score": 80,
+      "type": "press",
+      "localRelevance": "local",
+      "effort": "medium",
+      "action": "Pitch contributed articles on Park City real estate trends to TownLift"
+    },
+    {
+      "domain": "parkcitycf.org",
+      "dr": 42,
+      "clientHas": false,
+      "competitors": [],
+      "score": 75,
+      "type": "other",
+      "localRelevance": "local",
+      "effort": "medium",
+      "action": "Sponsor or partner with Park City Community Foundation for link on sponsor page"
+    },
+    {
+      "domain": "wesaveland.org",
+      "dr": 38,
+      "clientHas": false,
+      "competitors": [],
+      "score": 73,
+      "type": "other",
+      "localRelevance": "local",
+      "effort": "medium",
+      "action": "Become Summit Land Conservancy sponsor for partner page link"
+    },
+    {
+      "domain": "nationalabilitycenter.org",
+      "dr": 50,
+      "clientHas": false,
+      "competitors": [],
+      "score": 76,
+      "type": "other",
+      "localRelevance": "local",
+      "effort": "medium",
+      "action": "Sponsor National Ability Center for sponsor page backlink"
+    },
+    {
+      "domain": "kimballartcenter.org",
+      "dr": 45,
+      "clientHas": false,
+      "competitors": [],
+      "score": 74,
+      "type": "other",
+      "localRelevance": "local",
+      "effort": "medium",
+      "action": "Note: Summit Sotheby's already sponsors - explore individual agent sponsorship for Art Soiree"
+    },
+    {
+      "domain": "pcef.org",
+      "dr": 35,
+      "clientHas": false,
+      "competitors": [],
+      "score": 70,
+      "type": "other",
+      "localRelevance": "local",
+      "effort": "medium",
+      "action": "Sponsor Park City Education Foundation events (Running with Ed)"
+    },
+    {
+      "domain": "insideparkcityrealestate.com",
+      "dr": 35,
+      "clientHas": false,
+      "competitors": ["insideparkcityrealestate.com"],
+      "score": 65,
+      "type": "blog",
+      "localRelevance": "local",
+      "effort": "medium",
+      "action": "Pitch guest blog post on luxury real estate or market trends"
+    },
+    {
+      "domain": "inman.com",
+      "dr": 80,
+      "clientHas": false,
+      "competitors": [],
+      "score": 85,
+      "type": "industry",
+      "localRelevance": "national",
+      "effort": "hard",
+      "action": "Pitch contributed article on luxury/resort market trends to Inman News"
+    },
+    {
+      "domain": "realtrends.com",
+      "dr": 65,
+      "clientHas": false,
+      "competitors": [],
+      "score": 82,
+      "type": "industry",
+      "localRelevance": "national",
+      "effort": "medium",
+      "action": "Leverage RealTrends ranking recognition (already ranked 10th by volume in UT) for profile/press"
+    },
+    {
+      "domain": "luxuryestate.com",
+      "dr": 70,
+      "clientHas": true,
+      "competitors": ["linseyandleake.com"],
+      "score": 78,
+      "type": "directory",
+      "localRelevance": "international",
+      "effort": "easy",
+      "action": "Already listed - verify profile has correct website backlink"
+    },
+    {
+      "domain": "google.com (Google Business Profile)",
+      "dr": 99,
+      "clientHas": true,
+      "competitors": ["realestateinparkcity.com", "parkcityrealestate.com", "insideparkcityrealestate.com"],
+      "score": 99,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "action": "Optimize GBP with complete info, photos, posts, and website link. Solicit reviews."
+    },
+    {
+      "domain": "apple.com (Apple Maps)",
+      "dr": 99,
+      "clientHas": false,
+      "competitors": [],
+      "score": 80,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "action": "Claim Apple Maps business listing via Apple Business Connect"
+    },
+    {
+      "domain": "bing.com (Bing Places)",
+      "dr": 98,
+      "clientHas": false,
+      "competitors": [],
+      "score": 79,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "action": "Claim Bing Places for Business listing"
+    },
+    {
+      "domain": "nextdoor.com",
+      "dr": 88,
+      "clientHas": false,
+      "competitors": [],
+      "score": 77,
+      "type": "social",
+      "localRelevance": "local",
+      "effort": "easy",
+      "action": "Create Nextdoor business page for Laura Willis Real Estate"
+    },
+    {
+      "domain": "pinterest.com",
+      "dr": 95,
+      "clientHas": false,
+      "competitors": [],
+      "score": 72,
+      "type": "social",
+      "localRelevance": "national",
+      "effort": "easy",
+      "action": "Create Pinterest business profile with Park City real estate boards linking to website"
+    },
+    {
+      "domain": "youtube.com",
+      "dr": 99,
+      "clientHas": false,
+      "competitors": ["parkcityinvestor.com", "realestateinparkcity.com"],
+      "score": 88,
+      "type": "social",
+      "localRelevance": "national",
+      "effort": "medium",
+      "action": "Create YouTube channel with property tours and Park City market updates, link to website"
+    },
+    {
+      "domain": "livepcgivepc.org",
+      "dr": 32,
+      "clientHas": false,
+      "competitors": [],
+      "score": 68,
+      "type": "other",
+      "localRelevance": "local",
+      "effort": "easy",
+      "action": "Participate in Live PC Give PC annual giving day and get listed as a supporter"
+    },
+    {
+      "domain": "summitsothebysrealty.com",
+      "dr": 55,
+      "clientHas": true,
+      "competitors": ["linseyandleake.com", "parkcity360.com"],
+      "score": 90,
+      "type": "industry",
+      "localRelevance": "local",
+      "effort": "easy",
+      "action": "Already listed on brokerage site - verify agent page links to personal website"
+    },
+    {
+      "domain": "housinghelp.org",
+      "dr": 35,
+      "clientHas": false,
+      "competitors": [],
+      "score": 62,
+      "type": "other",
+      "localRelevance": "local",
+      "effort": "medium",
+      "action": "Partner with Mountainlands Community Housing Trust as a real estate resource"
+    },
+    {
+      "domain": "utah.gov",
+      "dr": 85,
+      "clientHas": false,
+      "competitors": [],
+      "score": 60,
+      "type": "government",
+      "localRelevance": "local",
+      "effort": "hard",
+      "action": "Get listed as business resource on Utah state business directory (business.utah.gov)"
+    },
+    {
+      "domain": "moversmakers.org",
+      "dr": 30,
+      "clientHas": false,
+      "competitors": [],
+      "score": 65,
+      "type": "other",
+      "localRelevance": "local",
+      "effort": "medium",
+      "action": "Sponsor events listed on Movers & Makers datebook for Park City nonprofits"
+    }
+  ]
+}

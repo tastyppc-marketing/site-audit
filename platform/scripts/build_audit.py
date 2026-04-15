@@ -194,9 +194,13 @@ class AuditOrchestrator:
         from audit_platform.analyzers.content_quality import ContentQualityAnalyzer
         analyzer = ContentQualityAnalyzer()
 
-        pages = crawl_data.get("pages", [])
-        # ContentQualityAnalyzer expects HTML content per page — use crawl data fields
-        result = analyzer.audit_site(pages) if hasattr(analyzer, 'audit_site') else {}
+        pages = self._merge_page_text_analysis(crawl_data.get("pages", []))
+        if not hasattr(analyzer, "analyze_batch"):
+            return {}
+
+        records, duplicate_groups = analyzer.analyze_batch(pages)
+        cannibalization = self._build_cannibalization(analyzer)
+        result = self._build_content_quality_payload(pages, records, duplicate_groups, cannibalization)
         return {"contentQuality": result}
 
     def _run_internal_linking(self) -> dict[str, Any]:
@@ -518,6 +522,257 @@ class AuditOrchestrator:
             return parts
         return []
 
+    def _merge_page_text_analysis(self, pages: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        """Merge page-text-analysis metrics into crawl pages by URL."""
+        text_analysis = self._load_research_file("page-text-analysis.json")
+        if not isinstance(text_analysis, dict):
+            return pages
+
+        text_pages = text_analysis.get("pages")
+        if not isinstance(text_pages, list):
+            return pages
+
+        analysis_by_url: dict[str, dict[str, Any]] = {}
+        for item in text_pages:
+            if not isinstance(item, dict):
+                continue
+            url = item.get("url")
+            if isinstance(url, str) and url:
+                analysis_by_url[url] = item
+
+        merged_pages: list[dict[str, Any]] = []
+        for page in pages:
+            if not isinstance(page, dict):
+                continue
+
+            merged_page = dict(page)
+            text_page = analysis_by_url.get(merged_page.get("url", ""))
+            if text_page:
+                merged_page["wordCount"] = text_page.get("wordCount", merged_page.get("wordCount", 0))
+                merged_page["fleschReadingEase"] = text_page.get("fleschReadingEase")
+                merged_page["fleschKincaidGrade"] = text_page.get("fleschKincaidGrade")
+                merged_page["avgSentenceLength"] = text_page.get("avgSentenceLength")
+                merged_page["avgSyllablesPerWord"] = text_page.get("avgSyllablesPerWord")
+            merged_pages.append(merged_page)
+
+        return merged_pages
+
+    def _build_cannibalization(self, analyzer: Any) -> list[dict[str, Any]]:
+        """Build keyword cannibalization findings when supporting research exists."""
+        query_page_data = self._load_research_file("search-console-query-pages.json")
+        if not isinstance(query_page_data, list) or not query_page_data:
+            return []
+
+        if not hasattr(analyzer, "detect_cannibalization"):
+            return []
+
+        records = analyzer.detect_cannibalization(query_page_data)
+        return [self._to_dict(record) for record in records]
+
+    def _build_content_quality_payload(
+        self,
+        source_pages: list[dict[str, Any]],
+        records: list[Any],
+        duplicate_groups: list[Any],
+        cannibalization: list[dict[str, Any]],
+    ) -> dict[str, Any]:
+        """Convert analyzer output into the renderer's camelCase contract."""
+        source_pages_by_url = {
+            page.get("url", ""): page
+            for page in source_pages
+            if isinstance(page, dict) and page.get("url")
+        }
+        record_dicts = [self._to_dict(record) for record in records]
+        duplicate_group_dicts = [self._transform_duplicate_group(group) for group in duplicate_groups]
+        page_records = [
+            self._transform_content_quality_record(
+                record,
+                source_pages_by_url.get(record.get("url", ""), {}),
+            )
+            for record in record_dicts
+        ]
+
+        quality_scores = [
+            page.get("qualityScore", 0)
+            for page in page_records
+            if isinstance(page.get("qualityScore"), (int, float))
+        ]
+        readability_scores = [
+            page.get("readabilityScore", 0)
+            for page in page_records
+            if isinstance(page.get("readabilityScore"), (int, float))
+        ]
+        seo_scores = [
+            record.get("seo_score", 0)
+            for record in record_dicts
+            if isinstance(record.get("seo_score"), (int, float))
+        ]
+        structure_scores = [
+            record.get("structure_score", 0)
+            for record in record_dicts
+            if isinstance(record.get("structure_score"), (int, float))
+        ]
+
+        return {
+            "summary": {
+                "totalPagesAnalyzed": len(page_records),
+                "avgQualityScore": round(sum(quality_scores) / max(len(quality_scores), 1), 1),
+                "thinPageCount": sum(1 for page in page_records if page.get("isThin")),
+                "avgReadabilityScore": round(sum(readability_scores) / max(len(readability_scores), 1), 1),
+                "duplicateGroupCount": len(duplicate_group_dicts),
+                "cannibalizationCount": len(cannibalization),
+                "avgSeoScore": round(sum(seo_scores) / max(len(seo_scores), 1), 1),
+                "avgStructureScore": round(sum(structure_scores) / max(len(structure_scores), 1), 1),
+            },
+            "pages": page_records,
+            "duplicateGroups": duplicate_group_dicts,
+            "cannibalization": cannibalization,
+        }
+
+    def _transform_content_quality_record(
+        self,
+        record: dict[str, Any],
+        source_page: dict[str, Any],
+    ) -> dict[str, Any]:
+        """Map analyzer record fields to renderer-friendly camelCase output."""
+        readability = record.get("readability") or {}
+        structure = record.get("structure") or {}
+
+        flesch_reading_ease = self._prefer_nonzero_number(
+            readability.get("flesch_reading_ease"),
+            source_page.get("fleschReadingEase"),
+        )
+        flesch_kincaid_grade = self._prefer_nonzero_number(
+            readability.get("flesch_kincaid_grade"),
+            source_page.get("fleschKincaidGrade"),
+        )
+        word_count = self._coalesce_int(
+            readability.get("word_count"),
+            source_page.get("wordCount"),
+        )
+        avg_sentence_length = self._prefer_nonzero_number(
+            readability.get("avg_sentence_length"),
+            source_page.get("avgSentenceLength"),
+        )
+        avg_syllables_per_word = self._prefer_nonzero_number(
+            source_page.get("avgSyllablesPerWord"),
+            readability.get("avg_syllables_per_word"),
+        )
+        if avg_syllables_per_word is None:
+            avg_word_length = self._to_number(readability.get("avg_word_length"))
+            if avg_word_length is not None:
+                avg_syllables_per_word = round(avg_word_length / 3, 2)
+
+        readability_score = self._prefer_nonzero_number(
+            record.get("readability_score"),
+            flesch_reading_ease,
+        )
+
+        score_explanation = (
+            f"Flesch Reading Ease {flesch_reading_ease:.1f}; "
+            f"Flesch-Kincaid Grade {flesch_kincaid_grade:.1f}; "
+            f"word count {word_count}."
+            if flesch_reading_ease is not None and flesch_kincaid_grade is not None and word_count is not None
+            else ""
+        )
+
+        return {
+            "url": record.get("url", ""),
+            "title": record.get("title", ""),
+            "readabilityScore": readability_score,
+            "qualityScore": self._to_number(record.get("quality_score")),
+            "isThin": bool(record.get("is_thin", False)),
+            "readability": {
+                "fleschReadingEase": flesch_reading_ease,
+                "fleschKincaidGrade": flesch_kincaid_grade,
+                "wordCount": word_count,
+                "avgSentenceLength": avg_sentence_length,
+                "avgSyllablesPerWord": avg_syllables_per_word,
+                "scoreExplanation": score_explanation,
+            },
+            "structure": {
+                "headingCount": self._to_int(structure.get("heading_count")),
+                "h2Count": self._to_int(structure.get("h2_count")),
+                "h3Count": self._to_int(structure.get("h3_count")),
+                "headingHierarchyValid": bool(structure.get("heading_hierarchy_valid", False)),
+                "imageCount": self._to_int(structure.get("image_count")),
+                "imagesWithAlt": self._to_int(structure.get("images_with_alt")),
+                "internalLinks": self._to_int(structure.get("internal_links")),
+                "hasFaqSchema": bool(structure.get("has_faq_schema", False)),
+            },
+            "issues": record.get("issues") or [],
+            "recommendations": record.get("recommendations") or [],
+        }
+
+    def _transform_duplicate_group(self, group: Any) -> dict[str, Any]:
+        """Normalize duplicate groups for the content quality report."""
+        group_dict = self._to_dict(group)
+        word_count_range = group_dict.get("word_count_range")
+        return {
+            "fingerprint": group_dict.get("fingerprint", ""),
+            "pages": group_dict.get("pages") or [],
+            "similarity": self._to_number(group_dict.get("similarity")),
+            "wordCountRange": list(word_count_range) if isinstance(word_count_range, (list, tuple)) else [],
+            "recommendation": group_dict.get("recommendation", ""),
+        }
+
+    @staticmethod
+    def _to_dict(model: Any) -> Any:
+        if hasattr(model, "model_dump"):
+            return model.model_dump(mode="json")
+        if hasattr(model, "dict"):
+            return model.dict()
+        if hasattr(model, "__dict__"):
+            return model.__dict__
+        return model
+
+    @staticmethod
+    def _to_number(value: Any) -> float | None:
+        if isinstance(value, bool) or value is None:
+            return None
+        if isinstance(value, (int, float)):
+            return float(value)
+        return None
+
+    @staticmethod
+    def _to_int(value: Any) -> int | None:
+        if isinstance(value, bool) or value is None:
+            return None
+        if isinstance(value, int):
+            return value
+        if isinstance(value, float):
+            return int(round(value))
+        return None
+
+    @classmethod
+    def _coalesce_number(cls, *values: Any) -> float | None:
+        for value in values:
+            num = cls._to_number(value)
+            if num is not None:
+                return num
+        return None
+
+    @classmethod
+    def _coalesce_int(cls, *values: Any) -> int | None:
+        for value in values:
+            num = cls._to_int(value)
+            if num is not None:
+                return num
+        return None
+
+    @classmethod
+    def _prefer_nonzero_number(cls, *values: Any) -> float | None:
+        first_numeric: float | None = None
+        for value in values:
+            num = cls._to_number(value)
+            if num is None:
+                continue
+            if first_numeric is None:
+                first_numeric = num
+            if num != 0:
+                return num
+        return first_numeric
+
     # ------------------------------------------------------------------
     # Summary
     # ------------------------------------------------------------------
@@ -565,6 +820,39 @@ def main() -> None:
     settings = Settings()
     orchestrator = AuditOrchestrator(settings, args)
     audit_data = orchestrator.run()
+
+    # Normalize legacy contentQuality shape before merging/writing so downstream
+    # consumers always receive the renderer-friendly camelCase payload.
+    content_quality = audit_data.get("contentQuality")
+    if isinstance(content_quality, dict) and "summary" not in content_quality:
+        pages = content_quality.get("pages") or []
+        duplicate_groups = content_quality.get("duplicateGroups") or []
+        total_pages = content_quality.get("totalPagesAnalyzed", content_quality.get("totalPages", len(pages)))
+        avg_readability = content_quality.get("avgReadabilityScore", content_quality.get("avgReadability", 0.0))
+        thin_page_count = sum(
+            1
+            for page in pages
+            if isinstance(page, dict) and (page.get("isThin") or page.get("is_thin"))
+        )
+        quality_scores = [
+            page.get("qualityScore", page.get("quality_score", 0))
+            for page in pages
+            if isinstance(page, dict)
+        ]
+
+        audit_data["contentQuality"] = {
+            "summary": {
+                "totalPagesAnalyzed": total_pages,
+                "avgQualityScore": round(sum(quality_scores) / max(len(quality_scores), 1), 1),
+                "thinPageCount": thin_page_count,
+                "avgReadabilityScore": avg_readability,
+                "duplicateGroupCount": len(duplicate_groups),
+                "cannibalizationCount": len(content_quality.get("cannibalization") or []),
+            },
+            "pages": pages,
+            "duplicateGroups": duplicate_groups,
+            "cannibalization": content_quality.get("cannibalization") or [],
+        }
 
     # Write output
     output_path = Path(args.output)

@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "domain": "mattwallmow.com",
+      "domainRating": 37,
+      "referringDomains": 44,
+      "backlinks": 66,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": 0,
+      "isClient": true
+    },
+    {
+      "domain": "redmanrealtygroup.com",
+      "domainRating": 239,
+      "referringDomains": 151,
+      "backlinks": 1153,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": 3,
+      "isClient": false
+    },
+    {
+      "domain": "eliasonrealty.com",
+      "domainRating": 188,
+      "referringDomains": 310,
+      "backlinks": 789,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": 492,
+      "isClient": false
+    },
+    {
+      "domain": "pinepointrealty.com",
+      "domainRating": 179,
+      "referringDomains": 73,
+      "backlinks": 168,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": 0,
+      "isClient": false
+    },
+    {
+      "domain": "northwoodshomefinder.com",
+      "domainRating": 70,
+      "referringDomains": 48,
+      "backlinks": 126,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": 0,
+      "isClient": false
+    },
+    {
+      "domain": "shorewest.com",
+      "domainRating": 356,
+      "referringDomains": 2120,
+      "backlinks": 24443,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": 11051,
+      "isClient": false
+    }
+  ],
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-04-15T05:11:47.279Z"
+}

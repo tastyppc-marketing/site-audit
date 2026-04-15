@@ -1,0 +1,5005 @@
+{
+  "client": {
+    "website": "mattwallmow.com",
+    "websiteUrl": "https://www.mattwallmow.com",
+    "auditDate": "April 15, 2026",
+    "overallGrade": "B-",
+    "gradeSummary": "mattwallmow.com scored an overall grade of C- (57/100). The biggest opportunities are: No viewport meta tag \u2014 page won't render properly on mobile; No meta description found; Title is 99 chars (max 60). Quick wins include: No viewport meta tag \u2014 page won't render properly on mobile; No meta description found; Title is 99 chars (max 60). Category breakdown: technical: 67/100, content: 22.8/100, indexability: 100/100.",
+    "grade": "B-"
+  },
+  "competitor": {
+    "primary": "redmanrealtygroup.com",
+    "primaryName": "Redman Realty Group",
+    "all": [
+      {
+        "domain": "redmanrealtygroup.com",
+        "name": "Redman Realty Group"
+      },
+      {
+        "domain": "eliasonrealty.com",
+        "name": "Eliason Realty"
+      },
+      {
+        "domain": "pinepointrealty.com",
+        "name": "Pine Point Realty"
+      },
+      {
+        "domain": "northwoodshomefinder.com",
+        "name": "RE/MAX Invest"
+      },
+      {
+        "domain": "shorewest.com",
+        "name": "Shorewest Realtors"
+      }
+    ]
+  },
+  "topIssues": [
+    {
+      "issue": "No viewport meta tag \u2014 page won't render properly on mobile",
+      "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+      "impact": "Critical",
+      "effort": "Low"
+    },
+    {
+      "issue": "No meta description found",
+      "detail": "No meta description found",
+      "impact": "Medium",
+      "effort": "Low"
+    },
+    {
+      "issue": "Title is 99 chars (max 60)",
+      "detail": "Title is 99 chars (max 60)",
+      "impact": "Medium",
+      "effort": "Low"
+    },
+    {
+      "issue": "Description is 233 chars (max 160)",
+      "detail": "Description is 233 chars (max 160)",
+      "impact": "Medium",
+      "effort": "Medium"
+    },
+    {
+      "issue": "2 pages have thin content (below word count threshold)",
+      "detail": "2 pages have thin content (below word count threshold)",
+      "impact": "Medium",
+      "effort": "High"
+    }
+  ],
+  "siteComparison": [
+    {
+      "metric": "Domain",
+      "client": "mattwallmow.com",
+      "competitor": "redmanrealtygroup.com / eliasonrealty.com / pinepointrealty.com / northwoodshomefinder.com / shorewest.com",
+      "gap": ""
+    },
+    {
+      "metric": "Platform",
+      "client": "RealtyCandy / WordPress + HomeJunction IDX",
+      "competitor": "WordPress + Jewell IDX / Lofty (Chime) / iHouseWeb Elite / Xposure (single-page app) / Custom proprietary",
+      "gap": ""
+    },
+    {
+      "metric": "Total Pages (sitemap)",
+      "client": "~57 (47 pages + 10 posts)",
+      "competitor": "~200 (197 pages + 3 posts) / ~400+ / ~92 / ~1 (SPA) / 1,000s (statewide)",
+      "gap": ""
+    },
+    {
+      "metric": "Blog Posts",
+      "client": "10",
+      "competitor": "3 (from 2018) / 26+ pages of posts / 0 / 0 / Corporate blog (statewide)",
+      "gap": ""
+    },
+    {
+      "metric": "Community/Area Pages",
+      "client": "7 (county-level)",
+      "competitor": "15 (town-level) / 18+ (town-level) / 4 (city-level) / 4 (chamber links only) / Statewide community pages",
+      "gap": ""
+    },
+    {
+      "metric": "Agent Count",
+      "client": "1 (solo agent)",
+      "competitor": "40+ / 22 / ~5 / 1 / 10+ (Rhinelander office)",
+      "gap": ""
+    },
+    {
+      "metric": "Office Locations",
+      "client": "2 (Minocqua + Rhinelander)",
+      "competitor": "5 / 3 / 1 / 1 / 20+ statewide",
+      "gap": ""
+    },
+    {
+      "metric": "Meta Title Format",
+      "client": "\"Page - Lakeland Realty\"",
+      "competitor": "\"Page - Redman Realty Group\" / \"Page description...\" (Lofty) / \"Page, Property Search...\" / \"REMAX Invest\" / \"Page \\",
+      "gap": ""
+    },
+    {
+      "metric": "Schema Markup",
+      "client": "Likely (WordPress + IDX)",
+      "competitor": "Yes (Yoast SEO) / Yes (Lofty built-in) / Basic / Minimal / Yes",
+      "gap": ""
+    },
+    {
+      "metric": "Lead Capture",
+      "client": "Home valuation, VIP search, contact forms",
+      "competitor": "Email alerts, valuation, contact / Home valuation, contact / Dream Home Finder, Market Analysis, contact / Listing alerts signup / Home valuation, agent match",
+      "gap": ""
+    },
+    {
+      "metric": "Accessibility",
+      "client": "Comprehensive (UserWay widget)",
+      "competitor": "None visible / Yes (Lofty built-in) / Basic / None / Basic",
+      "gap": ""
+    },
+    {
+      "metric": "Mobile App",
+      "client": "No",
+      "competitor": "No / Yes (Lofty) / No / No / Yes (iOS + Android)",
+      "gap": ""
+    }
+  ],
+  "keyStats": [
+    {
+      "value": "0 / 25",
+      "label": "keywords ranking in Google",
+      "severity": "red"
+    },
+    {
+      "value": "62 pages",
+      "label": "vs. competitors' 200-400+",
+      "severity": "orange"
+    },
+    {
+      "value": "5 blog posts",
+      "label": "all generic, last updated months ago",
+      "severity": "orange"
+    },
+    {
+      "value": "~200 words",
+      "label": "avg. key page (competitors: 3,500+)",
+      "severity": "red"
+    },
+    {
+      "value": "0 schema",
+      "label": "markup on any page",
+      "severity": "red"
+    },
+    {
+      "value": "0 market reports",
+      "label": "the #1 content type for this industry",
+      "severity": "red"
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "Matt Wallmow realtor Rhinelander",
+      "volume": null,
+      "clientRank": "~7 (mattwallmow.com)",
+      "competitorRank": "",
+      "topResult": "yelp.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "Wallmow Realty Rhinelander WI",
+      "volume": null,
+      "clientRank": "Not in top 10",
+      "competitorRank": "",
+      "topResult": "yelp.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "Rhinelander WI homes for sale",
+      "volume": 3600,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "zillow.com",
+      "cpc": 0.26,
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "Rhinelander WI real estate",
+      "volume": 590,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "zillow.com",
+      "cpc": 0.69,
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "homes for sale Rhinelander Wisconsin",
+      "volume": 3600,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "zillow.com",
+      "cpc": 0.26,
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "Northwoods Wisconsin real estate",
+      "volume": 70,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "northwoodswi.com",
+      "cpc": 0.77,
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "lakefront homes Rhinelander WI",
+      "volume": null,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "zillow.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "Rhinelander WI realtor",
+      "volume": null,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "firstweber.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "Eagle River WI homes for sale",
+      "volume": 1600,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "zillow.com",
+      "cpc": 0.23,
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "Minocqua WI real estate",
+      "volume": 590,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "zillow.com",
+      "cpc": 0.3,
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "Three Lakes WI lakefront homes",
+      "volume": null,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "zillow.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "Tomahawk WI homes for sale",
+      "volume": 1900,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "wildriversgroup.com",
+      "cpc": 0.18,
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "Oneida County WI real estate",
+      "volume": 260,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "zillow.com",
+      "cpc": 0.06,
+      "competition": "LOW"
+    },
+    {
+      "keyword": "buy a home in Rhinelander WI",
+      "volume": null,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "homes.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "sell my house Rhinelander WI",
+      "volume": null,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "flipfoxvalley.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "best realtor Rhinelander WI",
+      "volume": null,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "fastexpert.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "Rhinelander WI housing market",
+      "volume": null,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "redfin.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "Northwoods WI lake property for sale",
+      "volume": null,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "northwoodscommunityrealty.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "lakefront property Northwoods Wisconsin",
+      "volume": null,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "wislakes.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "waterfront homes for sale Oneida County WI",
+      "volume": null,
+      "clientRank": "~9",
+      "competitorRank": "",
+      "topResult": "zillow.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "log cabin for sale Rhinelander WI",
+      "volume": null,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "landsearch.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "land for sale Rhinelander WI",
+      "volume": 170,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "zillow.com",
+      "cpc": 0.45,
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "Rhinelander WI real estate agent reviews",
+      "volume": null,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "zillow.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "affordable homes Rhinelander WI",
+      "volume": null,
+      "clientRank": "~10",
+      "competitorRank": "",
+      "topResult": "homes.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "luxury lakefront homes Northwoods WI",
+      "volume": null,
+      "clientRank": "Not found",
+      "competitorRank": "",
+      "topResult": "northwoodscommunityrealty.com",
+      "cpc": null,
+      "competition": null
+    }
+  ],
+  "competitorComparison": [
+    {
+      "metric": "Domain",
+      "client": "mattwallmow.com",
+      "comp1": "redmanrealtygroup.com",
+      "comp2": "eliasonrealty.com",
+      "comp3": "pinepointrealty.com",
+      "comp4": "northwoodshomefinder.com",
+      "comp5": "shorewest.com",
+      "comp6": "skagenteam.firstweber.com",
+      "gap": ""
+    },
+    {
+      "metric": "Platform",
+      "client": "RealtyCandy / WordPress + HomeJunction IDX",
+      "comp1": "WordPress + Jewell IDX",
+      "comp2": "Lofty (Chime)",
+      "comp3": "iHouseWeb Elite",
+      "comp4": "Xposure (single-page app)",
+      "comp5": "Custom proprietary",
+      "comp6": "First Weber proprietary",
+      "gap": ""
+    },
+    {
+      "metric": "Total Pages (sitemap)",
+      "client": "~57 (47 pages + 10 posts)",
+      "comp1": "~200 (197 pages + 3 posts)",
+      "comp2": "~400+",
+      "comp3": "~92",
+      "comp4": "~1 (SPA)",
+      "comp5": "1,000s (statewide)",
+      "comp6": "Unknown (blocked)",
+      "gap": ""
+    },
+    {
+      "metric": "Blog Posts",
+      "client": "10",
+      "comp1": "3 (from 2018)",
+      "comp2": "26+ pages of posts",
+      "comp3": "0",
+      "comp4": "0",
+      "comp5": "Corporate blog (statewide)",
+      "comp6": "0",
+      "gap": ""
+    },
+    {
+      "metric": "Community/Area Pages",
+      "client": "7 (county-level)",
+      "comp1": "15 (town-level)",
+      "comp2": "18+ (town-level)",
+      "comp3": "4 (city-level)",
+      "comp4": "4 (chamber links only)",
+      "comp5": "Statewide community pages",
+      "comp6": "0",
+      "gap": ""
+    },
+    {
+      "metric": "Agent Count",
+      "client": "1 (solo agent)",
+      "comp1": "40+",
+      "comp2": "22",
+      "comp3": "~5",
+      "comp4": "1",
+      "comp5": "10+ (Rhinelander office)",
+      "comp6": "3",
+      "gap": ""
+    },
+    {
+      "metric": "Office Locations",
+      "client": "2 (Minocqua + Rhinelander)",
+      "comp1": "5",
+      "comp2": "3",
+      "comp3": "1",
+      "comp4": "1",
+      "comp5": "20+ statewide",
+      "comp6": "1",
+      "gap": ""
+    },
+    {
+      "metric": "Meta Title Format",
+      "client": "\"Page - Lakeland Realty\"",
+      "comp1": "\"Page - Redman Realty Group\"",
+      "comp2": "\"Page description...\" (Lofty)",
+      "comp3": "\"Page, Property Search...\"",
+      "comp4": "\"REMAX Invest\"",
+      "comp5": "\"Page \\",
+      "comp6": "Shorewest Realtors\"",
+      "gap": ""
+    },
+    {
+      "metric": "Schema Markup",
+      "client": "Likely (WordPress + IDX)",
+      "comp1": "Yes (Yoast SEO)",
+      "comp2": "Yes (Lofty built-in)",
+      "comp3": "Basic",
+      "comp4": "Minimal",
+      "comp5": "Yes",
+      "comp6": "Unknown",
+      "gap": ""
+    },
+    {
+      "metric": "Lead Capture",
+      "client": "Home valuation, VIP search, contact forms",
+      "comp1": "Email alerts, valuation, contact",
+      "comp2": "Home valuation, contact",
+      "comp3": "Dream Home Finder, Market Analysis, contact",
+      "comp4": "Listing alerts signup",
+      "comp5": "Home valuation, agent match",
+      "comp6": "Property search",
+      "gap": ""
+    },
+    {
+      "metric": "Accessibility",
+      "client": "Comprehensive (UserWay widget)",
+      "comp1": "None visible",
+      "comp2": "Yes (Lofty built-in)",
+      "comp3": "Basic",
+      "comp4": "None",
+      "comp5": "Basic",
+      "comp6": "None",
+      "gap": ""
+    },
+    {
+      "metric": "Mobile App",
+      "client": "No",
+      "comp1": "No",
+      "comp2": "Yes (Lofty)",
+      "comp3": "No",
+      "comp4": "No",
+      "comp5": "Yes (iOS + Android)",
+      "comp6": "No",
+      "gap": ""
+    }
+  ],
+  "competitorStrategies": [
+    {
+      "strategy": "Content Depth",
+      "detail": "Top competitor has 300+ pages at 3,500-4,500 words each with dedicated sub-pages"
+    },
+    {
+      "strategy": "Market Reports",
+      "detail": "Competitor publishes monthly reports with pricing data, inventory, and year-over-year trends"
+    },
+    {
+      "strategy": "Blog Volume",
+      "detail": "Competitors have 33-207 blog posts vs. client's 5"
+    },
+    {
+      "strategy": "FAQ Sections",
+      "detail": "Competitor uses FAQ schema targeting 'People Also Ask' and AI Overview citations"
+    },
+    {
+      "strategy": "Local Resources",
+      "detail": "Competitor has 14+ local resource pages building topical authority"
+    },
+    {
+      "strategy": "Schema Markup",
+      "detail": "Top competitors have structured data on every page enabling rich search results"
+    }
+  ],
+  "quickWins": [
+    {
+      "action": "No viewport meta tag \u2014 page won't render properly on mobile",
+      "impact": "Critical"
+    },
+    {
+      "action": "No meta description found",
+      "impact": "Medium"
+    },
+    {
+      "action": "Title is 99 chars (max 60)",
+      "impact": "Medium"
+    }
+  ],
+  "actionPlan": {
+    "quickWins": [
+      {
+        "action": "No viewport meta tag \u2014 page won't render properly on mobile",
+        "why": "No viewport meta tag \u2014 page won't render properly on mobile",
+        "effort": "Low",
+        "impact": "Critical",
+        "roiScore": 100,
+        "affectedCount": 11
+      },
+      {
+        "action": "No meta description found",
+        "why": "No meta description found",
+        "effort": "Low",
+        "impact": "Medium",
+        "roiScore": 95,
+        "affectedCount": 7
+      },
+      {
+        "action": "Title is 99 chars (max 60)",
+        "why": "Title is 99 chars (max 60)",
+        "effort": "Low",
+        "impact": "Medium",
+        "roiScore": 41,
+        "affectedCount": 3
+      }
+    ],
+    "shortTerm": [],
+    "mediumTerm": [
+      {
+        "action": "Description is 233 chars (max 160)",
+        "why": "Description is 233 chars (max 160)",
+        "effort": "Medium",
+        "impact": "Medium",
+        "roiScore": 5,
+        "affectedCount": 1
+      }
+    ],
+    "longTerm": [
+      {
+        "action": "2 pages have thin content (below word count threshold)",
+        "why": "2 pages have thin content (below word count threshold)",
+        "effort": "High",
+        "impact": "Medium",
+        "roiScore": 3,
+        "affectedCount": 1
+      }
+    ]
+  },
+  "contentCalendar": {
+    "month1Label": "Month 1: Establish Credibility",
+    "month1": [
+      {
+        "week": 1,
+        "topic": "Industry/Market Report: Current Data",
+        "keyword": "primary market keyword",
+        "type": "Market Report"
+      },
+      {
+        "week": 2,
+        "topic": "Best [Locations/Options] Guide (Current Year)",
+        "keyword": "best locations keyword",
+        "type": "Guide"
+      },
+      {
+        "week": 3,
+        "topic": "Is [Industry] a Good Investment?",
+        "keyword": "investment keyword",
+        "type": "Informational"
+      },
+      {
+        "week": 4,
+        "topic": "Major Development/Trend: What Buyers Need to Know",
+        "keyword": "trend keyword",
+        "type": "News/Analysis"
+      }
+    ],
+    "month2Label": "Month 2: Build Depth",
+    "month2": [
+      {
+        "week": 1,
+        "topic": "Relocation/Getting Started Guide",
+        "keyword": "relocation keyword",
+        "type": "Guide"
+      },
+      {
+        "week": 2,
+        "topic": "Premium/Specialty Offering Guide",
+        "keyword": "specialty keyword",
+        "type": "Property Guide"
+      },
+      {
+        "week": 3,
+        "topic": "Comparison: Your Market vs. Alternative",
+        "keyword": "comparison keyword",
+        "type": "Comparison"
+      },
+      {
+        "week": 4,
+        "topic": "Costs, Fees, and Practical FAQ",
+        "keyword": "practical keyword",
+        "type": "FAQ/Guide"
+      }
+    ],
+    "month3Label": "Month 3: Expand Reach",
+    "month3": [
+      {
+        "week": 1,
+        "topic": "Quarterly Market Update",
+        "keyword": "market update keyword",
+        "type": "Market Report"
+      },
+      {
+        "week": 2,
+        "topic": "Adjacent Area/Hidden Gem Guide",
+        "keyword": "adjacent area keyword",
+        "type": "Area Guide"
+      },
+      {
+        "week": 3,
+        "topic": "Regulations/Rules Investors Need to Know",
+        "keyword": "regulations keyword",
+        "type": "Investment Guide"
+      },
+      {
+        "week": 4,
+        "topic": "Luxury/Premium Segment Deep Dive",
+        "keyword": "luxury keyword",
+        "type": "Luxury Guide"
+      }
+    ]
+  },
+  "deliverables": [
+    {
+      "name": "Meta Titles & Descriptions",
+      "scope": "All pages",
+      "score": "8.75/10",
+      "status": "Ready \u2014 verify claims with client"
+    },
+    {
+      "name": "Schema Markup (JSON-LD)",
+      "scope": "8 schema blocks",
+      "score": "9.00/10",
+      "status": "Ready \u2014 verify URLs"
+    },
+    {
+      "name": "Key Pages (expanded content)",
+      "scope": "4 pages, 1,000+ words",
+      "score": "8.75/10",
+      "status": "Ready \u2014 paste into CMS"
+    },
+    {
+      "name": "Blog Posts (SEO-optimized)",
+      "scope": "4 posts, 900-1,200 words",
+      "score": "9.00/10",
+      "status": "Ready \u2014 paste into CMS"
+    }
+  ],
+  "keyPagesCreated": [
+    "Page 1",
+    "Page 2",
+    "Page 3",
+    "Page 4"
+  ],
+  "blogPostsCreated": [
+    "Blog Post 1",
+    "Blog Post 2",
+    "Blog Post 3",
+    "Blog Post 4"
+  ],
+  "advantages": [
+    {
+      "title": "Strong Brand",
+      "detail": "Recognized brand name provides luxury/authority cachet"
+    },
+    {
+      "title": "Same Platform as Competitors",
+      "detail": "Everything they do, you can do too"
+    },
+    {
+      "title": "First Mover on Key Content",
+      "detail": "No competitor publishes regular market data"
+    },
+    {
+      "title": "Solid Foundation",
+      "detail": "Clean design, existing pages, IDX integration"
+    },
+    {
+      "title": "Strong Social Proof",
+      "detail": "Sales volume, transaction count, success rate \u2014 just needs visibility"
+    }
+  ],
+  "nextSteps": [
+    {
+      "text": "Deploy ready-to-use deliverables (meta tags, schema, pages, blog posts)",
+      "sub": "Can be done this week \u2014 just copy-paste into CMS"
+    },
+    {
+      "text": "Complete Week 1-2 quick wins (technical fixes)",
+      "sub": "Developer can complete in 1-2 business days"
+    },
+    {
+      "text": "Begin Month 1 content calendar",
+      "sub": "One blog post per week targeting high-value keywords"
+    },
+    {
+      "text": "Create first market/industry report (first mover advantage)",
+      "sub": "No competitor currently publishes regular data"
+    },
+    {
+      "text": "Review progress at 30-day mark and adjust strategy",
+      "sub": "Measure keyword improvements, traffic changes, lead capture"
+    }
+  ],
+  "pillars": [
+    {
+      "title": "TECHNICAL\nFIXES",
+      "desc": "Fix H1 tags, meta descriptions,\nschema markup, errors,\nOG tags",
+      "time": "Week 1-2"
+    },
+    {
+      "title": "CONTENT\nDEPTH",
+      "desc": "Expand key pages,\nlaunch reports,\nrevive the blog",
+      "time": "Month 1-2"
+    },
+    {
+      "title": "CONTENT\nSCALE",
+      "desc": "Build topic sections,\nsub-pages,\nlifestyle guides",
+      "time": "Month 2-4"
+    },
+    {
+      "title": "AUTHORITY\n& LEADS",
+      "desc": "Video content, press mentions,\nemail newsletter, local citations,\nconversion optimization",
+      "time": "Month 4+"
+    }
+  ],
+  "mediumTermRoadmap": [
+    {
+      "title": "Hub Page for Top Topic",
+      "detail": "Comprehensive guide for highest-value keyword cluster"
+    },
+    {
+      "title": "Topic Section Pages",
+      "detail": "Individual pages for each sub-topic within main clusters"
+    },
+    {
+      "title": "Relocation Guide",
+      "detail": "2,000+ words on local info, costs, lifestyle, climate"
+    },
+    {
+      "title": "Investment Guide",
+      "detail": "Regulations, ROI analysis, rates, management"
+    },
+    {
+      "title": "New Development/Product Pages",
+      "detail": "Dedicated pages for newest offerings"
+    },
+    {
+      "title": "Individual Listing/Location Pages",
+      "detail": "Top 20 individual sub-pages following competitor model"
+    },
+    {
+      "title": "FAQ Schema on All Key Pages",
+      "detail": "Rich snippets + AI Overview citation opportunities"
+    },
+    {
+      "title": "Cross-Linking Strategy",
+      "detail": "Blog > key pages > conversion pages across all content"
+    }
+  ],
+  "longTermColumns": [
+    {
+      "title": "Content Authority",
+      "items": [
+        "Monthly reports",
+        "Build to 200+ pages",
+        "Lifestyle/resource guides",
+        "Comparison content",
+        "\"Best of\" resource pages"
+      ]
+    },
+    {
+      "title": "Video & Media",
+      "items": [
+        "Monthly video updates",
+        "Tour/showcase videos",
+        "Team introduction video",
+        "Press/media coverage",
+        "\"As Featured In\" section"
+      ]
+    },
+    {
+      "title": "Lead Generation",
+      "items": [
+        "Email newsletter",
+        "Gated PDFs/downloads",
+        "Chat widget",
+        "Page-specific email signups",
+        "Alert notifications"
+      ]
+    },
+    {
+      "title": "Local SEO",
+      "items": [
+        "Google Business Profile",
+        "Directory profiles",
+        "Citation consistency",
+        "International tags if needed",
+        "Performance audit"
+      ]
+    }
+  ],
+  "contentQuality": {
+    "summary": {
+      "totalPagesAnalyzed": 11,
+      "avgQualityScore": 22.8,
+      "thinPageCount": 2,
+      "avgReadabilityScore": 34.5,
+      "duplicateGroupCount": 0,
+      "cannibalizationCount": 0,
+      "avgSeoScore": 0.0,
+      "avgStructureScore": 58.6
+    },
+    "pages": [
+      {
+        "url": "https://mattwallmow.com/",
+        "title": "Your Northwoods Real Estate Professional | Lakeland Realty",
+        "readabilityScore": 55.3,
+        "qualityScore": 18.75,
+        "isThin": true,
+        "readability": {
+          "fleschReadingEase": 55.3,
+          "fleschKincaidGrade": 7.6,
+          "wordCount": 42,
+          "avgSentenceLength": 8.4,
+          "avgSyllablesPerWord": 1.69,
+          "scoreExplanation": "Flesch Reading Ease 55.3; Flesch-Kincaid Grade 7.6; word count 42."
+        },
+        "structure": {
+          "headingCount": 23,
+          "h2Count": 12,
+          "h3Count": 10,
+          "headingHierarchyValid": true,
+          "imageCount": 30,
+          "imagesWithAlt": 15,
+          "internalLinks": 55,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "Meta description exceeds 160 characters (233 chars)",
+          "No JSON-LD schema markup found",
+          "No og:image set",
+          "Multiple H2 tags (12) \u2014 some are poorly formed (contain raw stats text)",
+          "High number of images without alt text (~15)",
+          "South Florida section dilutes Northwoods geographic focus",
+          "H2 'in total sales volume' is not descriptive \u2014 contains raw layout text",
+          "THIN_CONTENT",
+          "MISSING_ALT_TEXT",
+          "READABILITY_NOT_ANALYZED",
+          "NO_KEYWORD_PROVIDED"
+        ],
+        "recommendations": [
+          "Page has only 42 words. Expand to 300+ for substantive content.",
+          "Add descriptive alt text to all images.",
+          "Provide a target keyword for SEO analysis."
+        ]
+      },
+      {
+        "url": "https://mattwallmow.com/about/",
+        "title": "About Meet The Team - Lakeland Realty",
+        "readabilityScore": 31.6,
+        "qualityScore": 28.75,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 31.6,
+          "fleschKincaidGrade": 14.4,
+          "wordCount": 2162,
+          "avgSentenceLength": 22.5,
+          "avgSyllablesPerWord": 1.8,
+          "scoreExplanation": "Flesch Reading Ease 31.6; Flesch-Kincaid Grade 14.4; word count 2162."
+        },
+        "structure": {
+          "headingCount": 5,
+          "h2Count": 4,
+          "h3Count": 0,
+          "headingHierarchyValid": true,
+          "imageCount": 8,
+          "imagesWithAlt": 4,
+          "internalLinks": 5,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "Title tag is generic \u2014 'About Meet The Team' should reference Matt Wallmow or Northwoods",
+          "Meta description is generic \u2014 'Real estate Realty Group' is not the actual brand name",
+          "H1 'Northwoods Guide' is vague and does not mention Matt Wallmow or About",
+          "No JSON-LD schema markup (should have Person or RealEstateAgent schema)",
+          "No og:image set",
+          "Meta description too short (111 chars) \u2014 not utilizing full space",
+          "MISSING_ALT_TEXT",
+          "READABILITY_NOT_ANALYZED",
+          "NO_KEYWORD_PROVIDED"
+        ],
+        "recommendations": [
+          "Add descriptive alt text to all images.",
+          "Provide a target keyword for SEO analysis."
+        ]
+      },
+      {
+        "url": "https://mattwallmow.com/contact/",
+        "title": "contact - Lakeland Realty",
+        "readabilityScore": 55.3,
+        "qualityScore": 10.0,
+        "isThin": true,
+        "readability": {
+          "fleschReadingEase": 55.3,
+          "fleschKincaidGrade": 7.6,
+          "wordCount": 42,
+          "avgSentenceLength": 8.4,
+          "avgSyllablesPerWord": 1.69,
+          "scoreExplanation": "Flesch Reading Ease 55.3; Flesch-Kincaid Grade 7.6; word count 42."
+        },
+        "structure": {
+          "headingCount": 1,
+          "h2Count": 0,
+          "h3Count": 0,
+          "headingHierarchyValid": true,
+          "imageCount": 3,
+          "imagesWithAlt": 1,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "Missing meta description entirely",
+          "Title tag is lowercase 'contact' \u2014 not properly capitalized",
+          "H1 'Real Estate' is completely generic and non-descriptive",
+          "No JSON-LD schema markup (should have LocalBusiness or ContactPage schema)",
+          "No og:image or og:description",
+          "Very thin content (180 words)",
+          "THIN_CONTENT",
+          "MISSING_ALT_TEXT",
+          "NO_INTERNAL_LINKS",
+          "READABILITY_NOT_ANALYZED",
+          "NO_KEYWORD_PROVIDED",
+          "LOW_STRUCTURE_SCORE"
+        ],
+        "recommendations": [
+          "Page has only 42 words. Expand to 300+ for substantive content.",
+          "Add descriptive alt text to all images.",
+          "Add internal links to relevant pages on this site.",
+          "Provide a target keyword for SEO analysis.",
+          "Improve content structure: add H2 subheadings, internal links, and lists."
+        ]
+      },
+      {
+        "url": "https://mattwallmow.com/buyers/",
+        "title": "Buying - Lakeland Realty",
+        "readabilityScore": 33.9,
+        "qualityScore": 28.75,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 33.9,
+          "fleschKincaidGrade": 14.8,
+          "wordCount": 2690,
+          "avgSentenceLength": 25.1,
+          "avgSyllablesPerWord": 1.74,
+          "scoreExplanation": "Flesch Reading Ease 33.9; Flesch-Kincaid Grade 14.8; word count 2690."
+        },
+        "structure": {
+          "headingCount": 8,
+          "h2Count": 7,
+          "h3Count": 0,
+          "headingHierarchyValid": true,
+          "imageCount": 15,
+          "imagesWithAlt": 7,
+          "internalLinks": 15,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "Meta description is woefully short (26 chars) \u2014 'This is how we help buyers' is a placeholder",
+          "Title tag is too short and generic \u2014 should include location keywords",
+          "H1 'Dream Home' is vague \u2014 no location or service context",
+          "No JSON-LD schema markup",
+          "No og:image set",
+          "High number of images without alt text (~8)",
+          "MISSING_ALT_TEXT",
+          "READABILITY_NOT_ANALYZED",
+          "NO_KEYWORD_PROVIDED"
+        ],
+        "recommendations": [
+          "Add descriptive alt text to all images.",
+          "Provide a target keyword for SEO analysis."
+        ]
+      },
+      {
+        "url": "https://mattwallmow.com/sellers/",
+        "title": "Selling - Lakeland Realty",
+        "readabilityScore": 35.7,
+        "qualityScore": 28.75,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 35.7,
+          "fleschKincaidGrade": 13.6,
+          "wordCount": 2292,
+          "avgSentenceLength": 21.4,
+          "avgSyllablesPerWord": 1.77,
+          "scoreExplanation": "Flesch Reading Ease 35.7; Flesch-Kincaid Grade 13.6; word count 2292."
+        },
+        "structure": {
+          "headingCount": 8,
+          "h2Count": 7,
+          "h3Count": 0,
+          "headingHierarchyValid": true,
+          "imageCount": 10,
+          "imagesWithAlt": 5,
+          "internalLinks": 5,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "Meta description is a placeholder (30 chars) \u2014 'This is how we sell properties'",
+          "Title tag is too short and generic \u2014 should include Northwoods/Minocqua",
+          "H1 'Confidence' is a single abstract word \u2014 no SEO value",
+          "No JSON-LD schema markup",
+          "No og:image set",
+          "MISSING_ALT_TEXT",
+          "READABILITY_NOT_ANALYZED",
+          "NO_KEYWORD_PROVIDED"
+        ],
+        "recommendations": [
+          "Add descriptive alt text to all images.",
+          "Provide a target keyword for SEO analysis."
+        ]
+      },
+      {
+        "url": "https://mattwallmow.com/communities/",
+        "title": "communities - Lakeland Realty",
+        "readabilityScore": 29.2,
+        "qualityScore": 28.75,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 29.2,
+          "fleschKincaidGrade": 15.0,
+          "wordCount": 1748,
+          "avgSentenceLength": 23.3,
+          "avgSyllablesPerWord": 1.82,
+          "scoreExplanation": "Flesch Reading Ease 29.2; Flesch-Kincaid Grade 15.0; word count 1748."
+        },
+        "structure": {
+          "headingCount": 9,
+          "h2Count": 8,
+          "h3Count": 0,
+          "headingHierarchyValid": true,
+          "imageCount": 10,
+          "imagesWithAlt": 5,
+          "internalLinks": 7,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "Missing meta description entirely",
+          "Title tag is lowercase 'communities' \u2014 not capitalized",
+          "H1 'Communities' is generic \u2014 should include 'Northwoods' or 'Northern Wisconsin'",
+          "No JSON-LD schema markup",
+          "No og:image or og:description",
+          "Incomplete data for Lincoln, Oneida, Price, and Vilas counties (blank stats)",
+          "Thin content \u2014 only ~450 words for 7 county pages",
+          "MISSING_ALT_TEXT",
+          "READABILITY_NOT_ANALYZED",
+          "NO_KEYWORD_PROVIDED"
+        ],
+        "recommendations": [
+          "Add descriptive alt text to all images.",
+          "Provide a target keyword for SEO analysis."
+        ]
+      },
+      {
+        "url": "https://mattwallmow.com/testimonials/",
+        "title": "testimonials - Lakeland Realty",
+        "readabilityScore": 38.3,
+        "qualityScore": 20.0,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 38.3,
+          "fleschKincaidGrade": 13.2,
+          "wordCount": 2247,
+          "avgSentenceLength": 21.4,
+          "avgSyllablesPerWord": 1.74,
+          "scoreExplanation": "Flesch Reading Ease 38.3; Flesch-Kincaid Grade 13.2; word count 2247."
+        },
+        "structure": {
+          "headingCount": 12,
+          "h2Count": 1,
+          "h3Count": 10,
+          "headingHierarchyValid": true,
+          "imageCount": 12,
+          "imagesWithAlt": 2,
+          "internalLinks": 0,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "Missing meta description entirely",
+          "Title tag is lowercase 'testimonials'",
+          "No JSON-LD schema markup (should have Review/AggregateRating schema)",
+          "No og:image or og:description",
+          "H3 tags used for 'View review on Google' \u2014 misuse of heading hierarchy",
+          "Empty H4 tags present",
+          "MISSING_ALT_TEXT",
+          "NO_INTERNAL_LINKS",
+          "READABILITY_NOT_ANALYZED",
+          "NO_KEYWORD_PROVIDED",
+          "LOW_STRUCTURE_SCORE"
+        ],
+        "recommendations": [
+          "Add descriptive alt text to all images.",
+          "Add internal links to relevant pages on this site.",
+          "Provide a target keyword for SEO analysis.",
+          "Improve content structure: add H2 subheadings, internal links, and lists."
+        ]
+      },
+      {
+        "url": "https://mattwallmow.com/blog/",
+        "title": "Blog - Lakeland Realty",
+        "readabilityScore": 29.6,
+        "qualityScore": 23.75,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 29.6,
+          "fleschKincaidGrade": 15.7,
+          "wordCount": 1966,
+          "avgSentenceLength": 26.6,
+          "avgSyllablesPerWord": 1.78,
+          "scoreExplanation": "Flesch Reading Ease 29.6; Flesch-Kincaid Grade 15.7; word count 1966."
+        },
+        "structure": {
+          "headingCount": 2,
+          "h2Count": 1,
+          "h3Count": 0,
+          "headingHierarchyValid": true,
+          "imageCount": 12,
+          "imagesWithAlt": 2,
+          "internalLinks": 15,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "Missing meta description entirely",
+          "H1 'Northwoods' is a single word \u2014 should be more descriptive",
+          "No JSON-LD schema markup",
+          "No og:image or og:description",
+          "Blog post titles use H4 instead of H2/H3 \u2014 poor heading hierarchy",
+          "MISSING_ALT_TEXT",
+          "READABILITY_NOT_ANALYZED",
+          "NO_KEYWORD_PROVIDED"
+        ],
+        "recommendations": [
+          "Add descriptive alt text to all images.",
+          "Provide a target keyword for SEO analysis."
+        ]
+      },
+      {
+        "url": "https://mattwallmow.com/10-pros-and-cons-of-waterfront-living-in-minocqua-wi-a-local-experts-breakdown/",
+        "title": "10 Pros and Cons of Waterfront Living in Minocqua, WI? A Local Expert's Breakdown - Lakeland Realty",
+        "readabilityScore": 25.0,
+        "qualityScore": 21.25,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 25.0,
+          "fleschKincaidGrade": 15.3,
+          "wordCount": 2856,
+          "avgSentenceLength": 22.3,
+          "avgSyllablesPerWord": 1.88,
+          "scoreExplanation": "Flesch Reading Ease 25.0; Flesch-Kincaid Grade 15.3; word count 2856."
+        },
+        "structure": {
+          "headingCount": 18,
+          "h2Count": 4,
+          "h3Count": 12,
+          "headingHierarchyValid": false,
+          "imageCount": 5,
+          "imagesWithAlt": 2,
+          "internalLinks": 10,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "Title tag exceeds 60 characters (99 chars) \u2014 will be truncated in SERPs",
+          "Missing meta description (despite having og:description)",
+          "Two H1 tags present \u2014 'Insert/edit link' is a WordPress editor artifact left in production",
+          "No JSON-LD schema markup (should have Article/BlogPosting schema)",
+          "Question mark in title is awkward \u2014 '10 Pros and Cons...WI?'",
+          "MULTIPLE_H1",
+          "MISSING_ALT_TEXT",
+          "READABILITY_NOT_ANALYZED",
+          "NO_KEYWORD_PROVIDED",
+          "LOW_STRUCTURE_SCORE"
+        ],
+        "recommendations": [
+          "Use only one H1 tag per page.",
+          "Add descriptive alt text to all images.",
+          "Provide a target keyword for SEO analysis.",
+          "Improve content structure: add H2 subheadings, internal links, and lists."
+        ]
+      },
+      {
+        "url": "https://mattwallmow.com/2026-spring-real-estate-market-in-northern-wisconsin/",
+        "title": "2026 Spring Real Estate Market in Northern Wisconsin - Lakeland Realty",
+        "readabilityScore": 23.6,
+        "qualityScore": 21.25,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 23.6,
+          "fleschKincaidGrade": 15.7,
+          "wordCount": 3320,
+          "avgSentenceLength": 23.2,
+          "avgSyllablesPerWord": 1.89,
+          "scoreExplanation": "Flesch Reading Ease 23.6; Flesch-Kincaid Grade 15.7; word count 3320."
+        },
+        "structure": {
+          "headingCount": 24,
+          "h2Count": 10,
+          "h3Count": 12,
+          "headingHierarchyValid": false,
+          "imageCount": 5,
+          "imagesWithAlt": 2,
+          "internalLinks": 8,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "Title tag slightly exceeds 60 characters (69 chars)",
+          "Missing meta description (despite having og:description)",
+          "Two H1 tags \u2014 'Insert/edit link' is a WordPress editor artifact",
+          "No JSON-LD schema markup (should have Article/BlogPosting schema)",
+          "MULTIPLE_H1",
+          "MISSING_ALT_TEXT",
+          "READABILITY_NOT_ANALYZED",
+          "NO_KEYWORD_PROVIDED",
+          "LOW_STRUCTURE_SCORE"
+        ],
+        "recommendations": [
+          "Use only one H1 tag per page.",
+          "Add descriptive alt text to all images.",
+          "Provide a target keyword for SEO analysis.",
+          "Improve content structure: add H2 subheadings, internal links, and lists."
+        ]
+      },
+      {
+        "url": "https://mattwallmow.com/find-the-best-luxury-real-estate-agent-near-me-in-minocqua-wi/",
+        "title": "Find the Best Luxury Real Estate Agent Near Me in Minocqua, WI - Lakeland Realty",
+        "readabilityScore": 22.1,
+        "qualityScore": 21.25,
+        "isThin": false,
+        "readability": {
+          "fleschReadingEase": 22.1,
+          "fleschKincaidGrade": 16.5,
+          "wordCount": 2727,
+          "avgSentenceLength": 25.5,
+          "avgSyllablesPerWord": 1.88,
+          "scoreExplanation": "Flesch Reading Ease 22.1; Flesch-Kincaid Grade 16.5; word count 2727."
+        },
+        "structure": {
+          "headingCount": 14,
+          "h2Count": 7,
+          "h3Count": 5,
+          "headingHierarchyValid": false,
+          "imageCount": 5,
+          "imagesWithAlt": 2,
+          "internalLinks": 8,
+          "hasFaqSchema": false
+        },
+        "issues": [
+          "Title tag exceeds 60 characters (80 chars) \u2014 will be truncated in SERPs",
+          "Missing meta description (despite having og:description)",
+          "Two H1 tags \u2014 'Insert/edit link' is a WordPress editor artifact",
+          "No JSON-LD schema markup (should have Article/BlogPosting schema)",
+          "Excessive keyword repetition of 'luxury real estate agent in Minocqua, WI' in H2 tags",
+          "MULTIPLE_H1",
+          "MISSING_ALT_TEXT",
+          "READABILITY_NOT_ANALYZED",
+          "NO_KEYWORD_PROVIDED",
+          "LOW_STRUCTURE_SCORE"
+        ],
+        "recommendations": [
+          "Use only one H1 tag per page.",
+          "Add descriptive alt text to all images.",
+          "Provide a target keyword for SEO analysis.",
+          "Improve content structure: add H2 subheadings, internal links, and lists."
+        ]
+      }
+    ],
+    "duplicateGroups": [],
+    "cannibalization": []
+  },
+  "backlinks": {
+    "domainMetrics": {
+      "domain": "mattwallmow.com",
+      "domainRating": 37.0,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "referringDomains": 44,
+      "totalBacklinks": 66,
+      "trafficValue": null,
+      "source": "dataforseo"
+    },
+    "topBacklinks": [],
+    "referringDomains": [
+      {
+        "domain": "northwoodsrealtors.org",
+        "domainRating": 31,
+        "backlinks": 22,
+        "dofollow": true,
+        "firstSeen": "2025-01-24 20:47:56 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "sergechel.info",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2026-03-25 23:12:22 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "seomuda.id",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2026-03-23 04:51:19 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "torun-stolarz.pl",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2026-03-21 09:27:43 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "shoplogist.com",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2026-03-20 14:01:29 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "ycm.info",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2026-03-19 08:15:00 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "pagesearch.net",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2026-03-16 18:08:38 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "tunca.org",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2026-02-28 08:47:38 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "wallpapers.pro",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2026-02-24 07:25:36 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "musweb.org",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2026-02-13 13:49:25 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "way2check.cv",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2026-01-26 23:47:06 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "alljobs.info",
+        "domainRating": 0,
+        "backlinks": 2,
+        "dofollow": true,
+        "firstSeen": "2026-01-25 20:29:58 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "globalecommerce.org",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2026-01-25 15:05:01 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "simplewebdirectory.com",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2026-01-17 11:18:56 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "wheretobuybest.link",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-12-28 11:30:17 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "getwebsiteworth.com",
+        "domainRating": 0,
+        "backlinks": 2,
+        "dofollow": true,
+        "firstSeen": "2025-12-22 20:32:28 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "booksreadr.org",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-12-07 16:41:15 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "smartwebdirectory.com",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-12-01 22:52:58 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "fastexpert.com",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-12-01 09:15:46 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "quero.party",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-11-16 11:11:25 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "mydeepin.ru",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-08-15 14:41:13 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "australianwebdirectory.pro",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-08-07 02:31:45 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "globalcocolk.com",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-08-01 20:00:56 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "gaister.com",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-08-01 01:02:38 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "astrologlar.com",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-07-31 22:22:13 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "m-he.com",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-07-30 20:31:59 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "ezeller.com",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-07-15 08:06:13 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "sisgroup.lk",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-07-12 19:55:57 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "productionfunctionusa.com",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-07-10 17:59:21 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "australianwebdirectory.shop",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-06-03 06:03:50 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "belonnanotservice.ga",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-05-27 20:47:31 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "cocoqatar.com",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-05-19 19:22:39 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "seobacklinks.agency",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-05-15 21:04:10 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "rankgrow.agency",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-05-10 04:12:47 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "prolinkbox.com",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-04-19 06:44:59 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "thebestbacklinksavailable.click",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-04-11 09:03:21 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "what-happens-next.xyz",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-04-08 22:51:29 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "browseallexpireddomains.us",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-04-07 16:21:24 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "lodgefarm-plants.com",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-02-26 14:02:29 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "mundotecnologia.info",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-02-09 08:43:56 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "insumosartesgraficas.com",
+        "domainRating": 0,
+        "backlinks": 1,
+        "dofollow": true,
+        "firstSeen": "2025-01-12 03:04:19 +00:00",
+        "brokenBacklinks": 0
+      },
+      {
+        "domain": "jazminsbeautysalon.be",
+        "domainRating": 0,
+        "backlinks": 2,
+        "dofollow": true,
+        "firstSeen": "2024-11-18 09:46:40 +00:00",
+        "brokenBacklinks": 0
+      }
+    ],
+    "anchorDistribution": [],
+    "qualitySummary": {
+      "total": 0,
+      "dofollow": 0,
+      "nofollow": 0,
+      "avgDomainRating": 0,
+      "highQuality": 0,
+      "mediumQuality": 0,
+      "lowQuality": 0
+    },
+    "anchorIssues": [],
+    "brokenBacklinkOpportunities": [],
+    "competitorDomainMetrics": [
+      {
+        "domain": "redmanrealtygroup.com",
+        "domainRating": 239.0,
+        "organicTraffic": null,
+        "organicKeywords": null,
+        "referringDomains": 151,
+        "totalBacklinks": 1153,
+        "trafficValue": null,
+        "source": "dataforseo"
+      },
+      {
+        "domain": "eliasonrealty.com",
+        "domainRating": 188.0,
+        "organicTraffic": null,
+        "organicKeywords": null,
+        "referringDomains": 310,
+        "totalBacklinks": 789,
+        "trafficValue": null,
+        "source": "dataforseo"
+      },
+      {
+        "domain": "pinepointrealty.com",
+        "domainRating": 179.0,
+        "organicTraffic": null,
+        "organicKeywords": null,
+        "referringDomains": 73,
+        "totalBacklinks": 168,
+        "trafficValue": null,
+        "source": "dataforseo"
+      },
+      {
+        "domain": "northwoodshomefinder.com",
+        "domainRating": 70.0,
+        "organicTraffic": null,
+        "organicKeywords": null,
+        "referringDomains": 48,
+        "totalBacklinks": 126,
+        "trafficValue": null,
+        "source": "dataforseo"
+      },
+      {
+        "domain": "shorewest.com",
+        "domainRating": 356.0,
+        "organicTraffic": null,
+        "organicKeywords": null,
+        "referringDomains": 2120,
+        "totalBacklinks": 24443,
+        "trafficValue": null,
+        "source": "dataforseo"
+      }
+    ]
+  },
+  "internalLinking": {
+    "domain": "https://www.mattwallmow.com",
+    "analyzed_at": "2026-04-15T06:06:07.345397",
+    "total_pages": 0,
+    "total_internal_links": 0,
+    "orphan_count": 11,
+    "orphan_rate": 0.0,
+    "avg_inbound_links": 0.0,
+    "avg_outbound_links": 0.0,
+    "unreachable_count": 0,
+    "nodes": [],
+    "orphans": [
+      {
+        "url": "https://mattwallmow.com/",
+        "outbound_links": 0,
+        "is_in_sitemap": true,
+        "recommendation": "No contextual links point to this page. Add it to at least 2-3 hub or category pages."
+      },
+      {
+        "url": "https://mattwallmow.com/about",
+        "outbound_links": 0,
+        "is_in_sitemap": true,
+        "recommendation": "No contextual links point to this page. Add it to at least 2-3 hub or category pages."
+      },
+      {
+        "url": "https://mattwallmow.com/contact",
+        "outbound_links": 0,
+        "is_in_sitemap": true,
+        "recommendation": "No contextual links point to this page. Add it to at least 2-3 hub or category pages."
+      },
+      {
+        "url": "https://mattwallmow.com/buyers",
+        "outbound_links": 0,
+        "is_in_sitemap": true,
+        "recommendation": "No contextual links point to this page. Add it to at least 2-3 hub or category pages."
+      },
+      {
+        "url": "https://mattwallmow.com/sellers",
+        "outbound_links": 0,
+        "is_in_sitemap": true,
+        "recommendation": "No contextual links point to this page. Add it to at least 2-3 hub or category pages."
+      },
+      {
+        "url": "https://mattwallmow.com/communities",
+        "outbound_links": 0,
+        "is_in_sitemap": true,
+        "recommendation": "No contextual links point to this page. Add it to at least 2-3 hub or category pages."
+      },
+      {
+        "url": "https://mattwallmow.com/testimonials",
+        "outbound_links": 0,
+        "is_in_sitemap": true,
+        "recommendation": "No contextual links point to this page. Add it to at least 2-3 hub or category pages."
+      },
+      {
+        "url": "https://mattwallmow.com/blog",
+        "outbound_links": 0,
+        "is_in_sitemap": true,
+        "recommendation": "No contextual links point to this page. Add it to at least 2-3 hub or category pages."
+      },
+      {
+        "url": "https://mattwallmow.com/10-pros-and-cons-of-waterfront-living-in-minocqua-wi-a-local-experts-breakdown",
+        "outbound_links": 0,
+        "is_in_sitemap": true,
+        "recommendation": "No contextual links point to this page. Add it to at least 2-3 hub or category pages."
+      },
+      {
+        "url": "https://mattwallmow.com/2026-spring-real-estate-market-in-northern-wisconsin",
+        "outbound_links": 0,
+        "is_in_sitemap": true,
+        "recommendation": "No contextual links point to this page. Add it to at least 2-3 hub or category pages."
+      },
+      {
+        "url": "https://mattwallmow.com/find-the-best-luxury-real-estate-agent-near-me-in-minocqua-wi",
+        "outbound_links": 0,
+        "is_in_sitemap": true,
+        "recommendation": "No contextual links point to this page. Add it to at least 2-3 hub or category pages."
+      }
+    ],
+    "hub_clusters": [],
+    "depth_result": {
+      "homepage": "https://www.mattwallmow.com/",
+      "depths": {
+        "https://www.mattwallmow.com/": 0
+      },
+      "unreachable": [],
+      "max_depth": 0,
+      "avg_depth": 0.0
+    },
+    "graph_density": 0.0,
+    "avg_clustering_coefficient": 0.0,
+    "community_count": 0,
+    "communities": [],
+    "link_suggestions": [],
+    "issues": [
+      "HAS_ORPHANS",
+      "WEAK_INTERNAL_LINKING",
+      "NO_HUB_STRUCTURE"
+    ],
+    "recommendations": [
+      "Average inbound contextual links per page is 0.0 (below 2.0). Increase internal linking density across the site."
+    ]
+  },
+  "technicalSeo": {
+    "metaTagSummary": {
+      "pagesWithTitle": 11,
+      "pagesWithoutTitle": 0,
+      "titleTooLong": 3,
+      "titleTooShort": 0,
+      "pagesWithDescription": 4,
+      "pagesWithoutDescription": 7,
+      "descriptionTooLong": 1,
+      "descriptionTooShort": 2,
+      "pagesWithCanonical": 11,
+      "pagesWithoutCanonical": 0,
+      "duplicateTitles": 0,
+      "duplicateDescriptions": 0
+    },
+    "metaTagIssues": [
+      {
+        "url": "https://mattwallmow.com/",
+        "issue": "DESCRIPTION_TOO_LONG",
+        "detail": "Description is 233 chars (max 160)"
+      },
+      {
+        "url": "https://mattwallmow.com/contact/",
+        "issue": "MISSING_META_DESCRIPTION",
+        "detail": "No meta description found"
+      },
+      {
+        "url": "https://mattwallmow.com/communities/",
+        "issue": "MISSING_META_DESCRIPTION",
+        "detail": "No meta description found"
+      },
+      {
+        "url": "https://mattwallmow.com/testimonials/",
+        "issue": "MISSING_META_DESCRIPTION",
+        "detail": "No meta description found"
+      },
+      {
+        "url": "https://mattwallmow.com/blog/",
+        "issue": "MISSING_META_DESCRIPTION",
+        "detail": "No meta description found"
+      },
+      {
+        "url": "https://mattwallmow.com/10-pros-and-cons-of-waterfront-living-in-minocqua-wi-a-local-experts-breakdown/",
+        "issue": "TITLE_TOO_LONG",
+        "detail": "Title is 99 chars (max 60)",
+        "value": "10 Pros and Cons of Waterfront Living in Minocqua, WI? A Local Expert's Breakdown - Lakeland Realty"
+      },
+      {
+        "url": "https://mattwallmow.com/10-pros-and-cons-of-waterfront-living-in-minocqua-wi-a-local-experts-breakdown/",
+        "issue": "MISSING_META_DESCRIPTION",
+        "detail": "No meta description found"
+      },
+      {
+        "url": "https://mattwallmow.com/2026-spring-real-estate-market-in-northern-wisconsin/",
+        "issue": "TITLE_TOO_LONG",
+        "detail": "Title is 69 chars (max 60)",
+        "value": "2026 Spring Real Estate Market in Northern Wisconsin - Lakeland Realty"
+      },
+      {
+        "url": "https://mattwallmow.com/2026-spring-real-estate-market-in-northern-wisconsin/",
+        "issue": "MISSING_META_DESCRIPTION",
+        "detail": "No meta description found"
+      },
+      {
+        "url": "https://mattwallmow.com/find-the-best-luxury-real-estate-agent-near-me-in-minocqua-wi/",
+        "issue": "TITLE_TOO_LONG",
+        "detail": "Title is 80 chars (max 60)",
+        "value": "Find the Best Luxury Real Estate Agent Near Me in Minocqua, WI - Lakeland Realty"
+      },
+      {
+        "url": "https://mattwallmow.com/find-the-best-luxury-real-estate-agent-near-me-in-minocqua-wi/",
+        "issue": "MISSING_META_DESCRIPTION",
+        "detail": "No meta description found"
+      }
+    ],
+    "templateDetection": {
+      "templates": [],
+      "totalTemplatedTitles": 0,
+      "totalTemplatedDescriptions": 0
+    },
+    "imageAudit": {
+      "summary": {
+        "totalImages": 115,
+        "totalMissingAlt": 68,
+        "overallAltCoverage": 40.9,
+        "pagesWithImages": 11,
+        "pagesMissingAlt": 11
+      },
+      "worstPages": [
+        {
+          "url": "https://mattwallmow.com/",
+          "totalImages": 30,
+          "missingAlt": 15,
+          "altCoverage": 50.0
+        },
+        {
+          "url": "https://mattwallmow.com/testimonials/",
+          "totalImages": 12,
+          "missingAlt": 10,
+          "altCoverage": 16.7
+        },
+        {
+          "url": "https://mattwallmow.com/blog/",
+          "totalImages": 12,
+          "missingAlt": 10,
+          "altCoverage": 16.7
+        },
+        {
+          "url": "https://mattwallmow.com/buyers/",
+          "totalImages": 15,
+          "missingAlt": 8,
+          "altCoverage": 46.7
+        },
+        {
+          "url": "https://mattwallmow.com/sellers/",
+          "totalImages": 10,
+          "missingAlt": 5,
+          "altCoverage": 50.0
+        },
+        {
+          "url": "https://mattwallmow.com/communities/",
+          "totalImages": 10,
+          "missingAlt": 5,
+          "altCoverage": 50.0
+        },
+        {
+          "url": "https://mattwallmow.com/about/",
+          "totalImages": 8,
+          "missingAlt": 4,
+          "altCoverage": 50.0
+        },
+        {
+          "url": "https://mattwallmow.com/10-pros-and-cons-of-waterfront-living-in-minocqua-wi-a-local-experts-breakdown/",
+          "totalImages": 5,
+          "missingAlt": 3,
+          "altCoverage": 40.0
+        },
+        {
+          "url": "https://mattwallmow.com/2026-spring-real-estate-market-in-northern-wisconsin/",
+          "totalImages": 5,
+          "missingAlt": 3,
+          "altCoverage": 40.0
+        },
+        {
+          "url": "https://mattwallmow.com/find-the-best-luxury-real-estate-agent-near-me-in-minocqua-wi/",
+          "totalImages": 5,
+          "missingAlt": 3,
+          "altCoverage": 40.0
+        },
+        {
+          "url": "https://mattwallmow.com/contact/",
+          "totalImages": 3,
+          "missingAlt": 2,
+          "altCoverage": 33.3
+        }
+      ]
+    },
+    "urlStructure": {
+      "summary": {
+        "totalPages": 11,
+        "totalIssues": 0,
+        "avgUrlLength": 47.0,
+        "avgDepth": 0.9,
+        "maxDepth": 1,
+        "trailingSlashConsistent": true,
+        "urlsTooLong": 0,
+        "urlsTooDeep": 0,
+        "urlsWithParameters": 0,
+        "urlsWithUppercase": 0,
+        "urlsWithUnderscores": 0
+      },
+      "depthDistribution": {
+        "0": 1,
+        "1": 10
+      },
+      "issues": []
+    },
+    "crawlIssues": [],
+    "schemaSummary": {
+      "pagesWithSchema": 0,
+      "pagesWithoutSchema": 11,
+      "schemaTypesFound": [],
+      "recommendedSchemas": [
+        "LocalBusiness",
+        "RealEstateAgent",
+        "FAQPage",
+        "BreadcrumbList",
+        "Article",
+        "AboutPage"
+      ]
+    },
+    "canonicalAudit": {
+      "summary": {
+        "totalPages": 11,
+        "pagesWithCanonical": 11,
+        "selfCanonicals": 0,
+        "crossCanonicals": 0,
+        "totalIssues": 0
+      },
+      "issues": []
+    },
+    "redirectChains": {
+      "summary": {
+        "totalRedirects": 0,
+        "chainsOver1Hop": 0,
+        "chainsOver3Hops": 0,
+        "loops": 0,
+        "totalIssues": 0
+      },
+      "chains": [],
+      "issues": []
+    },
+    "securityHeaders": {
+      "summary": {
+        "pagesAnalyzed": 0,
+        "headerCoverage": {
+          "Strict-Transport-Security": 0,
+          "Content-Security-Policy": 0,
+          "X-Content-Type-Options": 0,
+          "X-Frame-Options": 0,
+          "Referrer-Policy": 0,
+          "Permissions-Policy": 0
+        },
+        "totalIssues": 0
+      },
+      "issues": []
+    },
+    "indexability": {
+      "summary": {
+        "totalPages": 11,
+        "noindexPages": 0,
+        "nofollowPages": 0,
+        "indexablePages": 11,
+        "totalIssues": 0
+      },
+      "noindexUrls": [],
+      "nofollowUrls": [],
+      "issues": []
+    },
+    "mobileUsability": {
+      "summary": {
+        "pagesWithViewport": 0,
+        "pagesWithoutViewport": 11,
+        "totalIssues": 11
+      },
+      "issues": [
+        {
+          "url": "https://mattwallmow.com/",
+          "issue": "MISSING_VIEWPORT",
+          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "severity": "critical"
+        },
+        {
+          "url": "https://mattwallmow.com/about/",
+          "issue": "MISSING_VIEWPORT",
+          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "severity": "critical"
+        },
+        {
+          "url": "https://mattwallmow.com/contact/",
+          "issue": "MISSING_VIEWPORT",
+          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "severity": "critical"
+        },
+        {
+          "url": "https://mattwallmow.com/buyers/",
+          "issue": "MISSING_VIEWPORT",
+          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "severity": "critical"
+        },
+        {
+          "url": "https://mattwallmow.com/sellers/",
+          "issue": "MISSING_VIEWPORT",
+          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "severity": "critical"
+        },
+        {
+          "url": "https://mattwallmow.com/communities/",
+          "issue": "MISSING_VIEWPORT",
+          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "severity": "critical"
+        },
+        {
+          "url": "https://mattwallmow.com/testimonials/",
+          "issue": "MISSING_VIEWPORT",
+          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "severity": "critical"
+        },
+        {
+          "url": "https://mattwallmow.com/blog/",
+          "issue": "MISSING_VIEWPORT",
+          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "severity": "critical"
+        },
+        {
+          "url": "https://mattwallmow.com/10-pros-and-cons-of-waterfront-living-in-minocqua-wi-a-local-experts-breakdown/",
+          "issue": "MISSING_VIEWPORT",
+          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "severity": "critical"
+        },
+        {
+          "url": "https://mattwallmow.com/2026-spring-real-estate-market-in-northern-wisconsin/",
+          "issue": "MISSING_VIEWPORT",
+          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "severity": "critical"
+        },
+        {
+          "url": "https://mattwallmow.com/find-the-best-luxury-real-estate-agent-near-me-in-minocqua-wi/",
+          "issue": "MISSING_VIEWPORT",
+          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "severity": "critical"
+        }
+      ]
+    },
+    "structuredDataValidation": {
+      "summary": {
+        "totalSchemas": 0,
+        "validSchemas": 0,
+        "invalidSchemas": 0,
+        "totalIssues": 0
+      },
+      "issues": []
+    }
+  },
+  "localSeo": {
+    "reviewSentiment": {
+      "summary": {
+        "totalReviews": 0,
+        "analyzedReviews": 0,
+        "meanCompound": 0,
+        "pctPositive": 0,
+        "pctNegative": 0,
+        "pctNeutral": 0,
+        "replyRate": 0,
+        "topPositiveKeywords": [],
+        "topNegativeKeywords": []
+      },
+      "reviews": []
+    },
+    "competitorGbp": [],
+    "landingPageScores": [],
+    "serviceAreaMap": {
+      "type": "FeatureCollection",
+      "features": []
+    }
+  },
+  "indexationCrawlability": {
+    "parameterAudit": {
+      "summary": {
+        "totalParameterizedUrls": 0,
+        "parameterCategories": {},
+        "facetedNavUrls": 0,
+        "sessionIdUrls": 0,
+        "explosionPaths": 0,
+        "totalIssues": 0
+      },
+      "pages": [],
+      "issues": []
+    },
+    "paginationAudit": {
+      "summary": {
+        "totalPaginatedPages": 0,
+        "noindexPaginated": 0,
+        "brokenNext": 0,
+        "totalIssues": 0
+      },
+      "pages": [],
+      "issues": []
+    },
+    "soft404s": {
+      "summary": {
+        "totalSoft404s": 0,
+        "byReason": {
+          "titlePattern": 0,
+          "h1Pattern": 0,
+          "nearEmpty": 0
+        }
+      },
+      "pages": []
+    },
+    "indexOrphans": {
+      "summary": {
+        "totalOrphans": 0
+      },
+      "orphans": []
+    },
+    "crawlBudgetHealth": {
+      "score": 100,
+      "grade": "good",
+      "factors": {
+        "parameterizedUrls": {
+          "count": 0,
+          "ratio": 0.0,
+          "waste": 0.0
+        },
+        "orphanPages": {
+          "count": 0,
+          "ratio": 0.0,
+          "waste": 0.0
+        },
+        "redirectChains": {
+          "count": 0,
+          "ratio": 0.0,
+          "waste": 0.0
+        },
+        "soft404s": {
+          "count": 0,
+          "ratio": 0.0,
+          "waste": 0.0
+        },
+        "deepPages": {
+          "count": 0,
+          "ratio": 0.0,
+          "waste": 0.0
+        }
+      }
+    }
+  },
+  "eeatSignals": {
+    "summary": {
+      "eeatScore": 17,
+      "eeatGrade": "Poor",
+      "trustScore": 33,
+      "expertiseScore": 12,
+      "authorityScore": 0,
+      "experienceScore": 0,
+      "ymylPages": 0,
+      "pagesWithAuthor": 0,
+      "pagesWithDate": 0,
+      "pagesWithExpertiseSchema": 0,
+      "totalPages": 11
+    },
+    "siteTrust": {
+      "hasAboutPage": true,
+      "hasContactPage": true,
+      "hasPrivacyPolicy": false,
+      "hasTermsOfService": false,
+      "hasPhysicalAddress": false,
+      "hasPhoneNumber": false,
+      "hasSecureConnection": true,
+      "hasOrganizationSchema": false,
+      "hasLocalBusinessSchema": false,
+      "trustSignalCount": 3,
+      "trustSignalTotal": 9,
+      "trustSignalPct": 33.3
+    },
+    "pageSignals": [
+      {
+        "url": "https://mattwallmow.com/",
+        "isYmyl": false,
+        "ymylCategory": null,
+        "hasAuthor": false,
+        "hasPublicationDate": false,
+        "hasExpertiseSchema": false,
+        "effortScore": 80,
+        "expertiseScore": 25,
+        "schemaTypes": []
+      },
+      {
+        "url": "https://mattwallmow.com/about/",
+        "isYmyl": false,
+        "ymylCategory": null,
+        "hasAuthor": false,
+        "hasPublicationDate": false,
+        "hasExpertiseSchema": false,
+        "effortScore": 70,
+        "expertiseScore": 25,
+        "schemaTypes": []
+      },
+      {
+        "url": "https://mattwallmow.com/contact/",
+        "isYmyl": false,
+        "ymylCategory": null,
+        "hasAuthor": false,
+        "hasPublicationDate": false,
+        "hasExpertiseSchema": false,
+        "effortScore": 38,
+        "expertiseScore": 5,
+        "schemaTypes": []
+      },
+      {
+        "url": "https://mattwallmow.com/buyers/",
+        "isYmyl": false,
+        "ymylCategory": null,
+        "hasAuthor": false,
+        "hasPublicationDate": false,
+        "hasExpertiseSchema": false,
+        "effortScore": 80,
+        "expertiseScore": 5,
+        "schemaTypes": []
+      },
+      {
+        "url": "https://mattwallmow.com/sellers/",
+        "isYmyl": false,
+        "ymylCategory": null,
+        "hasAuthor": false,
+        "hasPublicationDate": false,
+        "hasExpertiseSchema": false,
+        "effortScore": 80,
+        "expertiseScore": 5,
+        "schemaTypes": []
+      },
+      {
+        "url": "https://mattwallmow.com/communities/",
+        "isYmyl": false,
+        "ymylCategory": null,
+        "hasAuthor": false,
+        "hasPublicationDate": false,
+        "hasExpertiseSchema": false,
+        "effortScore": 65,
+        "expertiseScore": 5,
+        "schemaTypes": []
+      },
+      {
+        "url": "https://mattwallmow.com/testimonials/",
+        "isYmyl": false,
+        "ymylCategory": null,
+        "hasAuthor": false,
+        "hasPublicationDate": false,
+        "hasExpertiseSchema": false,
+        "effortScore": 63,
+        "expertiseScore": 15,
+        "schemaTypes": []
+      },
+      {
+        "url": "https://mattwallmow.com/blog/",
+        "isYmyl": false,
+        "ymylCategory": null,
+        "hasAuthor": false,
+        "hasPublicationDate": false,
+        "hasExpertiseSchema": false,
+        "effortScore": 63,
+        "expertiseScore": 5,
+        "schemaTypes": []
+      },
+      {
+        "url": "https://mattwallmow.com/10-pros-and-cons-of-waterfront-living-in-minocqua-wi-a-local-experts-breakdown/",
+        "isYmyl": false,
+        "ymylCategory": null,
+        "hasAuthor": false,
+        "hasPublicationDate": false,
+        "hasExpertiseSchema": false,
+        "effortScore": 90,
+        "expertiseScore": 15,
+        "schemaTypes": []
+      },
+      {
+        "url": "https://mattwallmow.com/2026-spring-real-estate-market-in-northern-wisconsin/",
+        "isYmyl": false,
+        "ymylCategory": null,
+        "hasAuthor": false,
+        "hasPublicationDate": false,
+        "hasExpertiseSchema": false,
+        "effortScore": 90,
+        "expertiseScore": 15,
+        "schemaTypes": []
+      },
+      {
+        "url": "https://mattwallmow.com/find-the-best-luxury-real-estate-agent-near-me-in-minocqua-wi/",
+        "isYmyl": false,
+        "ymylCategory": null,
+        "hasAuthor": false,
+        "hasPublicationDate": false,
+        "hasExpertiseSchema": false,
+        "effortScore": 90,
+        "expertiseScore": 15,
+        "schemaTypes": []
+      }
+    ],
+    "eeatScore": {
+      "score": 17,
+      "grade": "Poor",
+      "trustScore": 33,
+      "expertiseScore": 12,
+      "authorityScore": 0,
+      "experienceScore": 0
+    },
+    "issues": [
+      {
+        "issue": "MISSING_PRIVACY_POLICY",
+        "detail": "No Privacy Policy found. Required for sites that collect user data.",
+        "severity": "medium",
+        "reference": "Search Quality Guidelines Section 3.3"
+      },
+      {
+        "issue": "MISSING_ORGANIZATION_SCHEMA",
+        "detail": "No Organization or LocalBusiness schema. This structured data tells Google who is responsible for the site.",
+        "severity": "high",
+        "reference": "Search Quality Guidelines Section 2.5"
+      },
+      {
+        "issue": "LOW_AUTHOR_ATTRIBUTION",
+        "detail": "11 of 11 pages lack author attribution. Google raters look for who created the content.",
+        "severity": "high",
+        "reference": "Search Quality Guidelines Section 3.4 - Experience & Expertise"
+      },
+      {
+        "issue": "LOW_DATE_ATTRIBUTION",
+        "detail": "11 of 11 pages lack publication dates. Freshness signals matter for E-E-A-T.",
+        "severity": "medium",
+        "reference": "Search Quality Guidelines Section 18.0 - Freshness"
+      }
+    ]
+  },
+  "reportingIntelligence": {
+    "siteHealthGrade": {
+      "compositeScore": 57,
+      "letterGrade": "C-",
+      "floorPenaltyApplied": true
+    },
+    "prioritizedFindings": [
+      {
+        "issue": "No viewport meta tag \u2014 page won't render properly on mobile",
+        "issueCode": "MISSING_VIEWPORT",
+        "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+        "impact": "Critical",
+        "effort": "Low",
+        "roiScore": 100,
+        "affectedCount": 11,
+        "category": "technical",
+        "sampleUrls": [
+          "https://mattwallmow.com/",
+          "https://mattwallmow.com/about/",
+          "https://mattwallmow.com/contact/"
+        ]
+      },
+      {
+        "issue": "No meta description found",
+        "issueCode": "MISSING_META_DESCRIPTION",
+        "detail": "No meta description found",
+        "impact": "Medium",
+        "effort": "Low",
+        "roiScore": 95,
+        "affectedCount": 7,
+        "category": "technical",
+        "sampleUrls": [
+          "https://mattwallmow.com/contact/",
+          "https://mattwallmow.com/communities/",
+          "https://mattwallmow.com/testimonials/"
+        ]
+      },
+      {
+        "issue": "Title is 99 chars (max 60)",
+        "issueCode": "TITLE_TOO_LONG",
+        "detail": "Title is 99 chars (max 60)",
+        "impact": "Medium",
+        "effort": "Low",
+        "roiScore": 41,
+        "affectedCount": 3,
+        "category": "technical",
+        "sampleUrls": [
+          "https://mattwallmow.com/10-pros-and-cons-of-waterfront-living-in-minocqua-wi-a-local-experts-breakdown/",
+          "https://mattwallmow.com/2026-spring-real-estate-market-in-northern-wisconsin/",
+          "https://mattwallmow.com/find-the-best-luxury-real-estate-agent-near-me-in-minocqua-wi/"
+        ]
+      },
+      {
+        "issue": "Description is 233 chars (max 160)",
+        "issueCode": "DESCRIPTION_TOO_LONG",
+        "detail": "Description is 233 chars (max 160)",
+        "impact": "Medium",
+        "effort": "Medium",
+        "roiScore": 5,
+        "affectedCount": 1,
+        "category": "technical",
+        "sampleUrls": [
+          "https://mattwallmow.com/"
+        ]
+      },
+      {
+        "issue": "2 pages have thin content (below word count threshold)",
+        "issueCode": "THIN_CONTENT",
+        "detail": "2 pages have thin content (below word count threshold)",
+        "impact": "Medium",
+        "effort": "High",
+        "roiScore": 3,
+        "affectedCount": 1,
+        "category": "content",
+        "sampleUrls": []
+      }
+    ],
+    "actionPlan": {
+      "quickWins": [
+        {
+          "action": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "why": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "effort": "Low",
+          "impact": "Critical",
+          "roiScore": 100,
+          "affectedCount": 11
+        },
+        {
+          "action": "No meta description found",
+          "why": "No meta description found",
+          "effort": "Low",
+          "impact": "Medium",
+          "roiScore": 95,
+          "affectedCount": 7
+        },
+        {
+          "action": "Title is 99 chars (max 60)",
+          "why": "Title is 99 chars (max 60)",
+          "effort": "Low",
+          "impact": "Medium",
+          "roiScore": 41,
+          "affectedCount": 3
+        }
+      ],
+      "shortTerm": [],
+      "mediumTerm": [
+        {
+          "action": "Description is 233 chars (max 160)",
+          "why": "Description is 233 chars (max 160)",
+          "effort": "Medium",
+          "impact": "Medium",
+          "roiScore": 5,
+          "affectedCount": 1
+        }
+      ],
+      "longTerm": [
+        {
+          "action": "2 pages have thin content (below word count threshold)",
+          "why": "2 pages have thin content (below word count threshold)",
+          "effort": "High",
+          "impact": "Medium",
+          "roiScore": 3,
+          "affectedCount": 1
+        }
+      ]
+    },
+    "benchmarkComparisons": [
+      {
+        "metric": "Schema Markup Coverage",
+        "clientValue": 0.0,
+        "benchmark": 80,
+        "industryAvg": 44,
+        "unit": "%",
+        "status": "below"
+      }
+    ],
+    "executiveSummary": "mattwallmow.com scored an overall grade of C- (57/100). The biggest opportunities are: No viewport meta tag \u2014 page won't render properly on mobile; No meta description found; Title is 99 chars (max 60). Quick wins include: No viewport meta tag \u2014 page won't render properly on mobile; No meta description found; Title is 99 chars (max 60). Category breakdown: technical: 67/100, content: 22.8/100, indexability: 100/100.",
+    "trendData": {
+      "auditDates": [
+        "2026-04-15",
+        "2026-04-15"
+      ],
+      "compositeScores": [
+        57,
+        57
+      ],
+      "categoryTrends": {
+        "technical": [
+          67
+        ],
+        "content": [
+          22.8
+        ],
+        "indexability": [
+          100
+        ]
+      },
+      "delta": {
+        "composite": 0,
+        "trend": "stable"
+      }
+    },
+    "categoryScores": {
+      "technical": 67,
+      "performance": null,
+      "content": 22.8,
+      "backlinks": null,
+      "indexability": 100,
+      "local": null
+    }
+  },
+  "competitorAnalysis": {
+    "discoveredCompetitors": [
+      {
+        "domain": "redmanrealtygroup.com",
+        "manual": true
+      },
+      {
+        "domain": "eliasonrealty.com",
+        "manual": true
+      },
+      {
+        "domain": "pinepointrealty.com",
+        "manual": true
+      },
+      {
+        "domain": "northwoodshomefinder.com",
+        "manual": true
+      },
+      {
+        "domain": "shorewest.com",
+        "manual": true
+      }
+    ],
+    "keywordOverlap": {
+      "summary": {
+        "clientKeywords": 81,
+        "gapKeywords": 238,
+        "clientOnlyKeywords": 44,
+        "sharedKeywords": 37
+      },
+      "overlapMatrix": [
+        {
+          "domain": "mattwallmow.com",
+          "mattwallmow.com": 1.0,
+          "redmanrealtygroup.com": 0.017,
+          "eliasonrealty.com": 0.026,
+          "pinepointrealty.com": 0.054,
+          "northwoodshomefinder.com": 0.034,
+          "shorewest.com": 0.002
+        },
+        {
+          "domain": "redmanrealtygroup.com",
+          "mattwallmow.com": 0.017,
+          "redmanrealtygroup.com": 1.0,
+          "eliasonrealty.com": 0.163,
+          "pinepointrealty.com": 0.075,
+          "northwoodshomefinder.com": 0.024,
+          "shorewest.com": 0.013
+        },
+        {
+          "domain": "eliasonrealty.com",
+          "mattwallmow.com": 0.026,
+          "redmanrealtygroup.com": 0.163,
+          "eliasonrealty.com": 1.0,
+          "pinepointrealty.com": 0.081,
+          "northwoodshomefinder.com": 0.023,
+          "shorewest.com": 0.02
+        },
+        {
+          "domain": "pinepointrealty.com",
+          "mattwallmow.com": 0.054,
+          "redmanrealtygroup.com": 0.075,
+          "eliasonrealty.com": 0.081,
+          "pinepointrealty.com": 1.0,
+          "northwoodshomefinder.com": 0.15,
+          "shorewest.com": 0.007
+        },
+        {
+          "domain": "northwoodshomefinder.com",
+          "mattwallmow.com": 0.034,
+          "redmanrealtygroup.com": 0.024,
+          "eliasonrealty.com": 0.023,
+          "pinepointrealty.com": 0.15,
+          "northwoodshomefinder.com": 1.0,
+          "shorewest.com": 0.002
+        },
+        {
+          "domain": "shorewest.com",
+          "mattwallmow.com": 0.002,
+          "redmanrealtygroup.com": 0.013,
+          "eliasonrealty.com": 0.02,
+          "pinepointrealty.com": 0.007,
+          "northwoodshomefinder.com": 0.002,
+          "shorewest.com": 1.0
+        }
+      ],
+      "keywordGaps": [
+        {
+          "keyword": "107 ridgewood dr",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "3 lakes realty",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "421 3rd avenue",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "421 third avenue",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "4214 redman rd",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "546 east pine street",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "almond wi homes for sale",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "amik lake wisconsin",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "arbor vitae wi homes for sale",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "ashland wi commercial real estate",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "bay lakes realty",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "bayfront homes",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "beloit commercial real estate",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "big crawling stone lake wi",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "blue lake minocqua wi",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "blue river wi homes for sale",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "boulder junction real estate",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "boulder junction wi homes for sale",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "boulder junction wi real estate",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "boulder junction wi zip code",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "boulder junction zip code",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "brookman realty",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "cabin for sale minocqua wi",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "cabins for sale eagle river wi",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "cabins for sale in minocqua",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "cabins for sale in northern wisconsin",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "cabins for sale in rhinelander wi",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "cabins for sale minocqua wi",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "cabins for sale northern wisconsin",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "cabins for sale on lake wisconsin",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "cabins for sale rhinelander wi",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "cabins for sale wisconsin lakes",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "carol martin realtor",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "castle rock lake waterfront homes for sale",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "chain homes",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "chain lake wisconsin",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "chain lakes wisconsin",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "chain o lakes homes for sale",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "chain o'lakes homes for sale",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "chain of lakes",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "chain of lakes in wisconsin",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "chain of lakes real estate",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "chain of lakes waterfront homes for sale",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "chain of lakes wisconsin",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "chain of lakes wisconsin map",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "chenequa homes for sale",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "christie realty group",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "christie wi",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "cisco chain of lakes",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "cisco chain of lakes homes for sale",
+          "competitorDomain": "redmanrealtygroup.com"
+        },
+        {
+          "keyword": "127 anderson st",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "161 park ave",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "161 park avenue",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "17 prospect street",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "2830 wildwood road",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "49920/12",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "7 mile lake",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "700 grand avenue",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "713 pine street",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "abbotsford home for sale",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "absolute realtors antigo wi",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "acreage and land",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "acreage for sale wisconsin",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "allison realty",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "amber lake minocqua wi",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "amber lake wisconsin",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "antigo homes for sale",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "antigo homes for sale by owner",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "antigo wi homes for sale",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "anvil lake",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "anvil lake wi",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "aquila court",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "arbor vitae homes",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "arbor vitae lake wi",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "arbor vitae wi homes for sale",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "arbor vitae wi real estate",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "argonne wi homes for sale",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "axe throwing eagle river",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "bass lake eagle river wi",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "bass lake waterfront homes for sale",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "bauer's dam resort conover wi",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "beacon of minocqua wi",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "beacons in minocqua",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "beacons minocqua wi",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "beacons of minocqua minocqua wi",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "beacons of minocqua prices",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "beacons of minocqua reviews",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "beacons of minocqua wi",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "beattie dental eagle river wi",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "big arb resort",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "big arbor vitae",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "big arbor vitae lake resorts",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "big portage lake",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "big portage lake vilas county",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "big portage lake wi",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "big saint germain lake wi",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "big saint germain lake wisconsin",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "big sand lake phelps wi",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "big sand lake wi",
+          "competitorDomain": "eliasonrealty.com"
+        },
+        {
+          "keyword": "big st germain lake",
+          "competitorDomain": "eliasonrealty.com"
+        }
+      ],
+      "clientOnlyKeywords": [
+        "business for sale in wisconsin",
+        "homes for sale in iron county",
+        "homes for sale in iron county wi",
+        "homes for sale in langlade county wisconsin",
+        "homes for sale in lincoln county wi",
+        "homes for sale in oneida county wi",
+        "homes for sale in oneida county wisconsin",
+        "homes for sale in price county wisconsin",
+        "homes for sale in vilas county wisconsin",
+        "homes for sale langlade county wi",
+        "homes for sale lincoln county wi",
+        "homes for sale price county wi",
+        "hotel for sale in wi",
+        "hotel motel for sale in wisconsin",
+        "iron county wi homes for sale",
+        "iron county wi real estate",
+        "iron county wisconsin real estate",
+        "lake nebagamon wi real estate",
+        "lakelands realty",
+        "land for sale in vilas county",
+        "land for sale iron county wi",
+        "land for sale vilas county wi",
+        "langlade county homes for sale",
+        "langlade county real estate",
+        "langlade county wi house for sale",
+        "lincoln county wi homes for sale",
+        "lincoln county wi real estate",
+        "oneida county wi real estate",
+        "price county homes for sale",
+        "price county wi real estate",
+        "real estate langlade county wi",
+        "real estate oneida county wi",
+        "realtor com oneida county wi",
+        "realtor com vilas county wi",
+        "realtor.com oneida county wi",
+        "realtor.com vilas county wi",
+        "realtors in tomahawk wi",
+        "vilas county real estate",
+        "vilas county real estate for sale",
+        "vilas county wi house for sale",
+        "vilas county wi real estate",
+        "wabeno real estate",
+        "wi resort for sale",
+        "wisconsin resort for sale"
+      ]
+    },
+    "serpFeatures": {},
+    "techStack": [
+      {
+        "domain": "mattwallmow.com",
+        "technologies": [
+          {
+            "name": "cloudflare",
+            "category": "Web Server",
+            "version": "cloudflare"
+          },
+          {
+            "name": "AgentFire.com - The Complete, Hyper-Local Website Real Estate Solution",
+            "category": "Framework",
+            "version": "AgentFire.com - The Complete, Hyper-Local Website Real Estate Solution"
+          },
+          {
+            "name": "WordPress",
+            "category": "CMS"
+          },
+          {
+            "name": "Google Analytics",
+            "category": "Analytics"
+          },
+          {
+            "name": "Schema.org JSON-LD",
+            "category": "Structured Data"
+          },
+          {
+            "name": "Cloudflare",
+            "category": "CDN"
+          }
+        ]
+      },
+      {
+        "domain": "redmanrealtygroup.com",
+        "technologies": [
+          {
+            "name": "cloudflare",
+            "category": "Web Server",
+            "version": "cloudflare"
+          },
+          {
+            "name": "PHP",
+            "category": "Framework",
+            "version": "PHP/8.2.30"
+          },
+          {
+            "name": "WordPress",
+            "category": "CMS"
+          },
+          {
+            "name": "Schema.org JSON-LD",
+            "category": "Structured Data"
+          },
+          {
+            "name": "Cloudflare",
+            "category": "CDN"
+          }
+        ]
+      },
+      {
+        "domain": "eliasonrealty.com",
+        "technologies": [
+          {
+            "name": "openresty",
+            "category": "Web Server",
+            "version": "openresty"
+          },
+          {
+            "name": "Chime",
+            "category": "IDX Platform"
+          }
+        ]
+      },
+      {
+        "domain": "pinepointrealty.com",
+        "technologies": [
+          {
+            "name": "Google Analytics",
+            "category": "Analytics"
+          },
+          {
+            "name": "Schema.org JSON-LD",
+            "category": "Structured Data"
+          }
+        ]
+      },
+      {
+        "domain": "northwoodshomefinder.com",
+        "technologies": [
+          {
+            "name": "nginx",
+            "category": "Web Server",
+            "version": "nginx/1.20.1"
+          }
+        ]
+      },
+      {
+        "domain": "shorewest.com",
+        "technologies": [
+          {
+            "name": "cloudflare",
+            "category": "Web Server",
+            "version": "cloudflare"
+          },
+          {
+            "name": "Cloudflare",
+            "category": "CDN"
+          }
+        ]
+      }
+    ],
+    "strategy": [
+      {
+        "finding": "Competitors rank for 238 keywords you don't",
+        "action": "Create content targeting the top keyword gaps identified in the overlap analysis",
+        "impact": "high",
+        "effort": "medium",
+        "priority": 90
+      }
+    ]
+  },
+  "rankHistory": {
+    "snapshots": [],
+    "chartLabels": [],
+    "milestoneLabels": {},
+    "domains": {
+      "client": "",
+      "competitors": []
+    },
+    "keywords": {}
+  },
+  "domainMetrics": {
+    "client": {
+      "domain": "mattwallmow.com",
+      "domainRating": 37.0,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "referringDomains": 44,
+      "totalBacklinks": 66,
+      "trafficValue": null,
+      "source": "dataforseo"
+    },
+    "competitors": [
+      {
+        "domain": "redmanrealtygroup.com",
+        "domainRating": 239.0,
+        "organicTraffic": null,
+        "organicKeywords": null,
+        "referringDomains": 151,
+        "totalBacklinks": 1153,
+        "trafficValue": null,
+        "source": "dataforseo"
+      },
+      {
+        "domain": "eliasonrealty.com",
+        "domainRating": 188.0,
+        "organicTraffic": null,
+        "organicKeywords": null,
+        "referringDomains": 310,
+        "totalBacklinks": 789,
+        "trafficValue": null,
+        "source": "dataforseo"
+      },
+      {
+        "domain": "pinepointrealty.com",
+        "domainRating": 179.0,
+        "organicTraffic": null,
+        "organicKeywords": null,
+        "referringDomains": 73,
+        "totalBacklinks": 168,
+        "trafficValue": null,
+        "source": "dataforseo"
+      },
+      {
+        "domain": "northwoodshomefinder.com",
+        "domainRating": 70.0,
+        "organicTraffic": null,
+        "organicKeywords": null,
+        "referringDomains": 48,
+        "totalBacklinks": 126,
+        "trafficValue": null,
+        "source": "dataforseo"
+      },
+      {
+        "domain": "shorewest.com",
+        "domainRating": 356.0,
+        "organicTraffic": null,
+        "organicKeywords": null,
+        "referringDomains": 2120,
+        "totalBacklinks": 24443,
+        "trafficValue": null,
+        "source": "dataforseo"
+      }
+    ]
+  },
+  "backlinkOpportunities": {
+    "opportunities": [],
+    "summary": {
+      "totalFound": 0,
+      "highPriority": 0,
+      "mediumPriority": 0,
+      "lowPriority": 0,
+      "avgDomainRating": 0,
+      "byCategory": []
+    }
+  },
+  "contentGap": {
+    "summary": {
+      "totalGaps": 1108,
+      "highPriority": 211,
+      "mediumPriority": 754,
+      "lowPriority": 143,
+      "informationalGaps": 506,
+      "commercialGaps": 0,
+      "transactionalGaps": 602,
+      "avgVolume": 721
+    },
+    "gaps": [
+      {
+        "keyword": "redman realty",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/"
+      },
+      {
+        "keyword": "redman realty group minocqua",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/"
+      },
+      {
+        "keyword": "redman realty minocqua",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/"
+      },
+      {
+        "keyword": "homes for sale eagle river",
+        "volume": 2400,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 2,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Eagle-River-Homes-For-Sale/1047460/"
+      },
+      {
+        "keyword": "houses for sale in minocqua wi",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 2,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Minocqua-Homes-for-Sale/679444/"
+      },
+      {
+        "keyword": "homes for sale in minocqua",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 3,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Minocqua-Homes-for-Sale/679444/"
+      },
+      {
+        "keyword": "homes for sale in woodruff",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 3,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Woodruff-Homes-for-Sale/679451/"
+      },
+      {
+        "keyword": "homes for sale minocqua",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 3,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/minocqua-community-information/"
+      },
+      {
+        "keyword": "homes for sale minocqua wi",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 3,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Minocqua-Homes-for-Sale/679444/"
+      },
+      {
+        "keyword": "houses for sale in minocqua wisconsin",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 3,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Minocqua-Homes-for-Sale/679444/"
+      },
+      {
+        "keyword": "minocqua houses for sale",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 3,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Minocqua-Homes-for-Sale/679444/"
+      },
+      {
+        "keyword": "minocqua webcam",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 3,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/webcam/"
+      },
+      {
+        "keyword": "rhinelander houses for sale",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 3,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Rhinelander-Homes-for-Sale/697792/"
+      },
+      {
+        "keyword": "waterfront homes in wisconsin for sale",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 3,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/waterfront-homes/"
+      },
+      {
+        "keyword": "eagle river homes for sale",
+        "volume": 2400,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Eagle-River-Homes-For-Sale/1047460/"
+      },
+      {
+        "keyword": "eagle river wi homes for sale",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Eagle-River-Homes-For-Sale/1047460/"
+      },
+      {
+        "keyword": "eagle river wisconsin homes for sale",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Eagle-River-Homes-For-Sale/1047460/"
+      },
+      {
+        "keyword": "hazelhurst wi",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/hazelhurst-community-information/"
+      },
+      {
+        "keyword": "homes for sale in minocqua wi",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Minocqua-Homes-for-Sale/679444/"
+      },
+      {
+        "keyword": "houses for sale rhinelander wi",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Rhinelander-Homes-for-Sale/697792/"
+      },
+      {
+        "keyword": "lakes in minocqua wi",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/area-chain-of-lakes/"
+      },
+      {
+        "keyword": "minocqua wi homes for sale",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Minocqua-Homes-for-Sale/679444/"
+      },
+      {
+        "keyword": "wisconsin homes for sale waterfront",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/waterfront-homes/"
+      },
+      {
+        "keyword": "wisconsin lake property for sale",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/waterfront-homes/"
+      },
+      {
+        "keyword": "eagle river wi houses for sale",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 5,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Eagle-River-Homes-For-Sale/1047460/"
+      },
+      {
+        "keyword": "home waterfront",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 5,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/waterfront-homes/"
+      },
+      {
+        "keyword": "homes for sale in eagle river",
+        "volume": 2400,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 5,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Eagle-River-Homes-For-Sale/1047460/"
+      },
+      {
+        "keyword": "homes for sale in rhinelander",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 5,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Rhinelander-Chain-Lake-Homes-for-Sale/679441/"
+      },
+      {
+        "keyword": "homes for sale rhinelander wi",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 5,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Lake-Tomahawk-Homes-for-Sale/697769/"
+      },
+      {
+        "keyword": "homes for sale woodruff",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 5,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Woodruff-Homes-for-Sale/679451/"
+      },
+      {
+        "keyword": "houses for sale in rhinelander wisconsin",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 5,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Lake-Tomahawk-Homes-for-Sale/697769/"
+      },
+      {
+        "keyword": "minocqua webcams",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 5,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/webcam/"
+      },
+      {
+        "keyword": "minocqua wisconsin webcam",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 5,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/webcam/"
+      },
+      {
+        "keyword": "waterfront property wisconsin for sale",
+        "volume": 1300,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 5,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/waterfront-homes/"
+      },
+      {
+        "keyword": "fence lake wisconsin",
+        "volume": 1000,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/area-chain-of-lakes/"
+      },
+      {
+        "keyword": "homes waterfront",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/waterfront-homes/"
+      },
+      {
+        "keyword": "houses for sale minocqua wi",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Minocqua-Chain-Homes-for-Sale/679434/"
+      },
+      {
+        "keyword": "houses for sale rhinelander",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Lake-Tomahawk-Homes-for-Sale/697769/"
+      },
+      {
+        "keyword": "lake property for sale in wi",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/waterfront-homes/"
+      },
+      {
+        "keyword": "lakefront properties in wisconsin for sale",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/waterfront-homes/"
+      },
+      {
+        "keyword": "minocqua live cam",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/webcam/"
+      },
+      {
+        "keyword": "minocqua web cam",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/webcam/"
+      },
+      {
+        "keyword": "minocqua wi lakes",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/area-chain-of-lakes/"
+      },
+      {
+        "keyword": "minocqua wi web cam",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/webcam/"
+      },
+      {
+        "keyword": "minocqua wi webcam",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/webcam/"
+      },
+      {
+        "keyword": "rhinelander homes for sale",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Lake-Tomahawk-Homes-for-Sale/697769/"
+      },
+      {
+        "keyword": "sayner wis",
+        "volume": 2400,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/sayner-community-information/"
+      },
+      {
+        "keyword": "webcam minocqua",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/webcam/"
+      },
+      {
+        "keyword": "hazelhurst wisconsin",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 7,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/hazelhurst-community-information/"
+      },
+      {
+        "keyword": "lac du flambeau wi",
+        "volume": 1300,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 7,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/lac-du-flambeau-community-information/"
+      },
+      {
+        "keyword": "lakefront properties for sale in wisconsin",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 7,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/waterfront-homes/"
+      },
+      {
+        "keyword": "lakehouse wisconsin",
+        "volume": 1300,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 7,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/waterfront-homes/"
+      },
+      {
+        "keyword": "wisconsin park falls",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 7,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/park-falls-community-info/"
+      },
+      {
+        "keyword": "houses for sale minocqua",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 8,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Minocqua-Chain-Homes-for-Sale/679434/"
+      },
+      {
+        "keyword": "lake homes wisconsin",
+        "volume": 1300,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 8,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/waterfront-homes/"
+      },
+      {
+        "keyword": "lake minocqua",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 8,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/area-chain-of-lakes/"
+      },
+      {
+        "keyword": "tomahawk homes for sale",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 8,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Lake-Tomahawk-Homes-for-Sale/697769/"
+      },
+      {
+        "keyword": "tomahawk houses for sale",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 8,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Tomahawk-Homes-for-Sale/679455/"
+      },
+      {
+        "keyword": "waterfront property for sale in wisconsin",
+        "volume": 1300,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 8,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/waterfront-homes/"
+      },
+      {
+        "keyword": "woodruff wi county",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 8,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/woodruff-community-information/"
+      },
+      {
+        "keyword": "fence lake lac du flambeau",
+        "volume": 1000,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 9,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/area-chain-of-lakes/"
+      },
+      {
+        "keyword": "fence lake lac du flambeau wi",
+        "volume": 1000,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 9,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/area-chain-of-lakes/"
+      },
+      {
+        "keyword": "hazelhurst",
+        "volume": 2400,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 9,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/hazelhurst-community-information/"
+      },
+      {
+        "keyword": "houses for sale in mercer",
+        "volume": 1300,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 9,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Mercer-Homes-for-Sale/679452/"
+      },
+      {
+        "keyword": "lake tomahawk webcam",
+        "volume": 1300,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 9,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/webcam/"
+      },
+      {
+        "keyword": "lake tomahawk",
+        "volume": 18100,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 10,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/lake-tomahawk-community-information/"
+      },
+      {
+        "keyword": "waterfront homes for sale in wisconsin",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 10,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/waterfront-homes/"
+      },
+      {
+        "keyword": "wi waterfront homes for sale",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 10,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/waterfront-homes/"
+      },
+      {
+        "keyword": "wisconsin lake minocqua",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 10,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/area-chain-of-lakes/"
+      },
+      {
+        "keyword": "eliason realty",
+        "volume": 1000,
+        "difficulty": 0,
+        "competitorDomain": "eliasonrealty.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.eliasonrealty.com/"
+      },
+      {
+        "keyword": "eliason realty of the north",
+        "volume": 1000,
+        "difficulty": 0,
+        "competitorDomain": "eliasonrealty.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.eliasonrealty.com/"
+      },
+      {
+        "keyword": "houses for sale in eagle river wi",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "eliasonrealty.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.eliasonrealty.com/neighborhoods/10357925/eagle-river"
+      },
+      {
+        "keyword": "homes for sale in eagle river wisconsin",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "eliasonrealty.com",
+        "competitorPosition": 7,
+        "priority": 60,
+        "url": "https://www.eliasonrealty.com/neighborhoods/10357925/eagle-river"
+      },
+      {
+        "keyword": "house for sale eagle river wi",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "eliasonrealty.com",
+        "competitorPosition": 9,
+        "priority": 60,
+        "url": "https://www.eliasonrealty.com/neighborhoods/10357925/eagle-river"
+      },
+      {
+        "keyword": "houses for sale in eagle river wisconsin",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "eliasonrealty.com",
+        "competitorPosition": 9,
+        "priority": 60,
+        "url": "https://www.eliasonrealty.com/neighborhoods/10357925/eagle-river"
+      },
+      {
+        "keyword": "land o lakes houses for sale",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "eliasonrealty.com",
+        "competitorPosition": 10,
+        "priority": 60,
+        "url": "https://www.eliasonrealty.com/neighborhoods/10357926/land-o-lakes"
+      },
+      {
+        "keyword": "homes for sale tomahawk wi",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "pinepointrealty.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.pinepointrealty.com/tomahawk-homes"
+      },
+      {
+        "keyword": "antigo homes for sale",
+        "volume": 1300,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/WI/Langlade/Antigo/"
+      },
+      {
+        "keyword": "antigo wi homes for sale",
+        "volume": 1300,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/WI/Langlade/Antigo/"
+      },
+      {
+        "keyword": "antigo wi houses for sale",
+        "volume": 1300,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/WI/Langlade/Antigo/"
+      },
+      {
+        "keyword": "barton houses",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/s_search/lp-cd-presentation_P/listing-city_Barton/listing-state_WI/sc_lsearch_amt_search_price+DESC/nts_28/sn_SEARCH_LISTING_PQUICK/sd_S2/"
+      },
+      {
+        "keyword": "bayfield wi homes for sale",
+        "volume": 1000,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/homes-for-sale/Bayfield_listing-city/Single%2BFamily%2BResidential_type/sd_S2/sc_l_listingstatus%2BASC%252Clsearch_amt_search_price%2BDESC/"
+      },
+      {
+        "keyword": "bayfield wi houses for sale",
+        "volume": 1000,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/homes-for-sale/Bayfield_listing-city/Single%2BFamily%2BResidential_type/sd_S2/sc_l_listingstatus%2BASC%252Clsearch_amt_search_price%2BDESC/"
+      },
+      {
+        "keyword": "beaver dam homes for sale",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/homes-for-sale/Beaver%20Dam_city/N_limited-service/Active,ActiveWO,Pending,Offer-Show,Offer+w~s~Bump_list-status/Single+Family+Residential_type/sc_l_listingstatus+ASC,lsearch_amt_search_price+DESC/sd_S2/sn_SEARCH_LISTING_P/page_1/"
+      },
+      {
+        "keyword": "beaver dam wisconsin homes for sale",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/homes-for-sale/Beaver%20Dam_city/N_limited-service/Active,ActiveWO,Pending,Offer-Show,Offer+w~s~Bump_list-status/Single+Family+Residential_type/sc_l_listingstatus+ASC,lsearch_amt_search_price+DESC/sd_S2/sn_SEARCH_LISTING_P/page_1/"
+      },
+      {
+        "keyword": "brodhead wi homes for sale",
+        "volume": 1300,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/homes-for-sale/Brodhead_listing-city/Single%2BFamily%2BResidential_type/sd_S2/sc_l_listingstatus%2BASC%252Clsearch_amt_search_price%2BDESC/"
+      },
+      {
+        "keyword": "brown deer houses for sale",
+        "volume": 1000,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/homes-for-sale/Brown+Deer_listing-city/Single%2BFamily%2BResidential_type/sd_S2/sc_l_listingstatus%2BASC%252Clsearch_amt_search_price%2BDESC/"
+      },
+      {
+        "keyword": "condos for sale west bend",
+        "volume": 1300,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/homes-for-sale/West+Bend_listing-city/Condominium_type/sd_S2/sc_l_listingstatus%2BASC%252Clsearch_amt_search_price%2BDESC/"
+      },
+      {
+        "keyword": "crivitz wi homes for sale",
+        "volume": 1300,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/homes-for-sale/Crivitz_listing-city/Single%2BFamily%2BResidential_type/sd_S2/sc_l_listingstatus%2BASC%252Clsearch_amt_search_price%2BDESC/"
+      },
+      {
+        "keyword": "east troy wi homes for sale",
+        "volume": 1300,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/s_search/lp-cd-presentation_P/listing-city_East+Troy/listing-state_WI/sc_lsearch_amt_search_price+DESC/nts_28/sn_SEARCH_LISTING_PQUICK/sd_S2/"
+      },
+      {
+        "keyword": "east troy wi houses for sale",
+        "volume": 1300,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/s_search/lp-cd-presentation_P/listing-city_East+Troy/listing-state_WI/sc_lsearch_amt_search_price+DESC/nts_28/sn_SEARCH_LISTING_PQUICK/sd_S2/"
+      },
+      {
+        "keyword": "fort atkinson wi homes for sale",
+        "volume": 2400,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/homes-for-sale/Fort+Atkinson_listing-city/WI_listing-state/Single+Family+Residential_type/P_lp-cd-presentation/sc_lsearch_amt_search_price+DESC/sd_S2/sn_SEARCH_LISTING_PQUICK/"
+      },
+      {
+        "keyword": "fox point homes for sale",
+        "volume": 1300,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/WI/Milwaukee/Fox+Point/"
+      },
+      {
+        "keyword": "fox point wisconsin homes for sale",
+        "volume": 1300,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/WI/Milwaukee/Fox+Point/"
+      },
+      {
+        "keyword": "germantown wi house for sale",
+        "volume": 2400,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/s_search/listing-city_Germantown/listing-state_WI/lp-cd-presentation_P/type_Single+Family+Residential/sc_lsearch_amt_search_price+DESC/sn_SEARCH_LISTING_PQUICK/sd_S2/"
+      },
+      {
+        "keyword": "grafton homes for sale wi",
+        "volume": 1000,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/s_search/lp-cd-presentation_P/listing-city_Grafton/listing-state_WI/sc_lsearch_amt_search_price+DESC/nts_28/sn_SEARCH_LISTING_PQUICK/sd_S2/"
+      },
+      {
+        "keyword": "greenfield wisconsin homes for sale",
+        "volume": 1000,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/s_search/lp-cd-presentation_P/listing-city_Greenfield/listing-state_WI/sc_lsearch_amt_search_price+DESC/nts_28/sn_SEARCH_LISTING_PQUICK/sd_S2/"
+      },
+      {
+        "keyword": "hales corners homes for sale",
+        "volume": 1000,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/WI/Milwaukee/Hales+Corners/"
+      },
+      {
+        "keyword": "hales corners houses for sale",
+        "volume": 1000,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/WI/Milwaukee/Hales+Corners/"
+      },
+      {
+        "keyword": "home for sale grafton wi",
+        "volume": 1000,
+        "difficulty": 0,
+        "competitorDomain": "shorewest.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.shorewest.com/s_search/lp-cd-presentation_P/listing-city_Grafton/listing-state_WI/sc_lsearch_amt_search_price+DESC/nts_28/sn_SEARCH_LISTING_PQUICK/sd_S2/"
+      }
+    ],
+    "topInformational": [
+      {
+        "keyword": "redman realty",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/"
+      },
+      {
+        "keyword": "redman realty group minocqua",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/"
+      },
+      {
+        "keyword": "redman realty minocqua",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 1,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/"
+      },
+      {
+        "keyword": "minocqua webcam",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 3,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/webcam/"
+      },
+      {
+        "keyword": "hazelhurst wi",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/hazelhurst-community-information/"
+      },
+      {
+        "keyword": "home waterfront",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 5,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/waterfront-homes/"
+      },
+      {
+        "keyword": "minocqua webcams",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 5,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/webcam/"
+      },
+      {
+        "keyword": "minocqua wisconsin webcam",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 5,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/webcam/"
+      },
+      {
+        "keyword": "fence lake wisconsin",
+        "volume": 1000,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/area-chain-of-lakes/"
+      },
+      {
+        "keyword": "homes waterfront",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/waterfront-homes/"
+      },
+      {
+        "keyword": "minocqua live cam",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/webcam/"
+      },
+      {
+        "keyword": "minocqua web cam",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/webcam/"
+      },
+      {
+        "keyword": "minocqua wi lakes",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/area-chain-of-lakes/"
+      },
+      {
+        "keyword": "minocqua wi web cam",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/webcam/"
+      },
+      {
+        "keyword": "minocqua wi webcam",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/webcam/"
+      },
+      {
+        "keyword": "sayner wis",
+        "volume": 2400,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/sayner-community-information/"
+      },
+      {
+        "keyword": "webcam minocqua",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 6,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/webcam/"
+      },
+      {
+        "keyword": "hazelhurst wisconsin",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 7,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/hazelhurst-community-information/"
+      },
+      {
+        "keyword": "lac du flambeau wi",
+        "volume": 1300,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 7,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/lac-du-flambeau-community-information/"
+      },
+      {
+        "keyword": "lakehouse wisconsin",
+        "volume": 1300,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 7,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/waterfront-homes/"
+      }
+    ],
+    "topCommercial": [],
+    "topTransactional": [
+      {
+        "keyword": "homes for sale eagle river",
+        "volume": 2400,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 2,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Eagle-River-Homes-For-Sale/1047460/"
+      },
+      {
+        "keyword": "houses for sale in minocqua wi",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 2,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Minocqua-Homes-for-Sale/679444/"
+      },
+      {
+        "keyword": "homes for sale in minocqua",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 3,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Minocqua-Homes-for-Sale/679444/"
+      },
+      {
+        "keyword": "homes for sale in woodruff",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 3,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Woodruff-Homes-for-Sale/679451/"
+      },
+      {
+        "keyword": "homes for sale minocqua",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 3,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/minocqua-community-information/"
+      },
+      {
+        "keyword": "homes for sale minocqua wi",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 3,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Minocqua-Homes-for-Sale/679444/"
+      },
+      {
+        "keyword": "houses for sale in minocqua wisconsin",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 3,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Minocqua-Homes-for-Sale/679444/"
+      },
+      {
+        "keyword": "minocqua houses for sale",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 3,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Minocqua-Homes-for-Sale/679444/"
+      },
+      {
+        "keyword": "rhinelander houses for sale",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 3,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Rhinelander-Homes-for-Sale/697792/"
+      },
+      {
+        "keyword": "waterfront homes in wisconsin for sale",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 3,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/waterfront-homes/"
+      },
+      {
+        "keyword": "eagle river homes for sale",
+        "volume": 2400,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Eagle-River-Homes-For-Sale/1047460/"
+      },
+      {
+        "keyword": "eagle river wi homes for sale",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Eagle-River-Homes-For-Sale/1047460/"
+      },
+      {
+        "keyword": "eagle river wisconsin homes for sale",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Eagle-River-Homes-For-Sale/1047460/"
+      },
+      {
+        "keyword": "homes for sale in minocqua wi",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Minocqua-Homes-for-Sale/679444/"
+      },
+      {
+        "keyword": "houses for sale rhinelander wi",
+        "volume": 3600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Rhinelander-Homes-for-Sale/697792/"
+      },
+      {
+        "keyword": "lakes in minocqua wi",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/communities/area-chain-of-lakes/"
+      },
+      {
+        "keyword": "minocqua wi homes for sale",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Minocqua-Homes-for-Sale/679444/"
+      },
+      {
+        "keyword": "wisconsin homes for sale waterfront",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/waterfront-homes/"
+      },
+      {
+        "keyword": "wisconsin lake property for sale",
+        "volume": 1900,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 4,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/waterfront-homes/"
+      },
+      {
+        "keyword": "eagle river wi houses for sale",
+        "volume": 1600,
+        "difficulty": 0,
+        "competitorDomain": "redmanrealtygroup.com",
+        "competitorPosition": 5,
+        "priority": 60,
+        "url": "https://www.redmanrealtygroup.com/listing-report/Eagle-River-Homes-For-Sale/1047460/"
+      }
+    ]
+  },
+  "topicalAuthority": {
+    "summary": {
+      "totalTopics": 30,
+      "strongTopics": 12,
+      "moderateTopics": 14,
+      "weakTopics": 4
+    },
+    "clusters": [
+      {
+        "topic": "county",
+        "keywordCount": 47,
+        "keywords": [
+          "cabins for sale vilas county wi",
+          "forest county wi real estate",
+          "homes for sale forest county wi",
+          "homes for sale in forest county wi",
+          "homes for sale in iron county",
+          "homes for sale in iron county wi",
+          "homes for sale in langlade county wisconsin",
+          "homes for sale in lincoln county wi",
+          "homes for sale in oneida county wi",
+          "homes for sale in oneida county wisconsin"
+        ],
+        "totalVolume": 13800,
+        "avgPosition": 29.9,
+        "depthScore": 70
+      },
+      {
+        "topic": "sale",
+        "keywordCount": 44,
+        "keywords": [
+          "armstrong creek wi homes for sale",
+          "business for sale in wisconsin",
+          "cabins for sale vilas county wi",
+          "commercial land for sale wisconsin",
+          "commercial property for sale wisconsin",
+          "homes for sale forest county wi",
+          "homes for sale in forest county wi",
+          "homes for sale in forestville wi",
+          "homes for sale in iron county",
+          "homes for sale in iron county wi"
+        ],
+        "totalVolume": 14820,
+        "avgPosition": 39.5,
+        "depthScore": 70
+      },
+      {
+        "topic": "homes",
+        "keywordCount": 26,
+        "keywords": [
+          "armstrong creek wi homes for sale",
+          "homes for sale forest county wi",
+          "homes for sale in forest county wi",
+          "homes for sale in forestville wi",
+          "homes for sale in iron county",
+          "homes for sale in iron county wi",
+          "homes for sale in langlade county wisconsin",
+          "homes for sale in lincoln county wi",
+          "homes for sale in oneida county wi",
+          "homes for sale in oneida county wisconsin"
+        ],
+        "totalVolume": 7950,
+        "avgPosition": 31.2,
+        "depthScore": 70
+      },
+      {
+        "topic": "real",
+        "keywordCount": 21,
+        "keywords": [
+          "commercial real estate wisconsin",
+          "eagle river wi commercial real estate",
+          "forest county wi real estate",
+          "iron county wi real estate",
+          "iron county wisconsin real estate",
+          "lake nebagamon wi real estate",
+          "langlade county real estate",
+          "lincoln county wi real estate",
+          "minocqua commercial real estate",
+          "northwoods real estate wisconsin"
+        ],
+        "totalVolume": 6510,
+        "avgPosition": 39.6,
+        "depthScore": 70
+      },
+      {
+        "topic": "vilas",
+        "keywordCount": 17,
+        "keywords": [
+          "cabins for sale vilas county wi",
+          "homes for sale in vilas county wisconsin",
+          "homes for sale vilas county wi",
+          "lake homes for sale in vilas county",
+          "land for sale in vilas county",
+          "land for sale vilas county wi",
+          "realtor com vilas county wi",
+          "realtor.com vilas county wi",
+          "vilas county lake homes for sale",
+          "vilas county real estate"
+        ],
+        "totalVolume": 5660,
+        "avgPosition": 27.6,
+        "depthScore": 70
+      },
+      {
+        "topic": "estate",
+        "keywordCount": 21,
+        "keywords": [
+          "commercial real estate wisconsin",
+          "eagle river wi commercial real estate",
+          "forest county wi real estate",
+          "iron county wi real estate",
+          "iron county wisconsin real estate",
+          "lake nebagamon wi real estate",
+          "langlade county real estate",
+          "lincoln county wi real estate",
+          "minocqua commercial real estate",
+          "northwoods real estate wisconsin"
+        ],
+        "totalVolume": 4160,
+        "avgPosition": 44.5,
+        "depthScore": 60
+      },
+      {
+        "topic": "wisconsin",
+        "keywordCount": 17,
+        "keywords": [
+          "business for sale in wisconsin",
+          "commercial land for sale wisconsin",
+          "commercial property for sale wisconsin",
+          "commercial real estate wisconsin",
+          "gold bar realty wisconsin",
+          "homes for sale in langlade county wisconsin",
+          "homes for sale in oneida county wisconsin",
+          "homes for sale in price county wisconsin",
+          "homes for sale in vilas county wisconsin",
+          "hotel motel for sale in wisconsin"
+        ],
+        "totalVolume": 4220,
+        "avgPosition": 54.0,
+        "depthScore": 60
+      },
+      {
+        "topic": "commercial",
+        "keywordCount": 7,
+        "keywords": [
+          "commercial land for sale wisconsin",
+          "commercial property for sale wisconsin",
+          "commercial real estate wisconsin",
+          "eagle river wi commercial real estate",
+          "minocqua commercial real estate",
+          "wisconsin commercial property",
+          "wisconsin commercial real estate for sale"
+        ],
+        "totalVolume": 1660,
+        "avgPosition": 72.0,
+        "depthScore": 60
+      },
+      {
+        "topic": "oneida",
+        "keywordCount": 6,
+        "keywords": [
+          "homes for sale in oneida county wi",
+          "homes for sale in oneida county wisconsin",
+          "oneida county wi real estate",
+          "real estate oneida county wi",
+          "realtor com oneida county wi",
+          "realtor.com oneida county wi"
+        ],
+        "totalVolume": 1370,
+        "avgPosition": 35.3,
+        "depthScore": 60
+      },
+      {
+        "topic": "langlade",
+        "keywordCount": 6,
+        "keywords": [
+          "homes for sale in langlade county wisconsin",
+          "homes for sale langlade county wi",
+          "langlade county homes for sale",
+          "langlade county real estate",
+          "langlade county wi house for sale",
+          "real estate langlade county wi"
+        ],
+        "totalVolume": 2620,
+        "avgPosition": 35.7,
+        "depthScore": 60
+      },
+      {
+        "topic": "land",
+        "keywordCount": 5,
+        "keywords": [
+          "commercial land for sale wisconsin",
+          "eliason realty land o lakes wi",
+          "land for sale in vilas county",
+          "land for sale iron county wi",
+          "land for sale vilas county wi"
+        ],
+        "totalVolume": 2460,
+        "avgPosition": 28.2,
+        "depthScore": 60
+      },
+      {
+        "topic": "realtor",
+        "keywordCount": 5,
+        "keywords": [
+          "realtor com oneida county wi",
+          "realtor com vilas county wi",
+          "realtor rhinelander wi",
+          "realtor.com oneida county wi",
+          "realtor.com vilas county wi"
+        ],
+        "totalVolume": 1440,
+        "avgPosition": 38.0,
+        "depthScore": 60
+      },
+      {
+        "topic": "rhinelander",
+        "keywordCount": 4,
+        "keywords": [
+          "lakeland realty rhinelander wi",
+          "realtor rhinelander wi",
+          "realtors in rhinelander wi",
+          "rhinelander realtors"
+        ],
+        "totalVolume": 760,
+        "avgPosition": 18.2,
+        "depthScore": 55
+      },
+      {
+        "topic": "lakeland",
+        "keywordCount": 4,
+        "keywords": [
+          "lakeland realty listings",
+          "lakeland realty rhinelander wi",
+          "lakeland realty wi",
+          "lakeland realty wisconsin"
+        ],
+        "totalVolume": 790,
+        "avgPosition": 11.0,
+        "depthScore": 55
+      },
+      {
+        "topic": "realty",
+        "keywordCount": 7,
+        "keywords": [
+          "eliason realty land o lakes wi",
+          "gold bar realty wisconsin",
+          "lakeland realty listings",
+          "lakeland realty rhinelander wi",
+          "lakeland realty wi",
+          "lakeland realty wisconsin",
+          "lakelands realty"
+        ],
+        "totalVolume": 910,
+        "avgPosition": 27.1,
+        "depthScore": 50
+      },
+      {
+        "topic": "iron",
+        "keywordCount": 6,
+        "keywords": [
+          "homes for sale in iron county",
+          "homes for sale in iron county wi",
+          "iron county wi homes for sale",
+          "iron county wi real estate",
+          "iron county wisconsin real estate",
+          "land for sale iron county wi"
+        ],
+        "totalVolume": 780,
+        "avgPosition": 27.0,
+        "depthScore": 50
+      },
+      {
+        "topic": "realtors",
+        "keywordCount": 5,
+        "keywords": [
+          "realtors in rhinelander wi",
+          "realtors in tomahawk wi",
+          "realtors tomahawk wi",
+          "rhinelander realtors",
+          "tomahawk wi realtors"
+        ],
+        "totalVolume": 350,
+        "avgPosition": 45.0,
+        "depthScore": 50
+      },
+      {
+        "topic": "forest",
+        "keywordCount": 4,
+        "keywords": [
+          "forest county wi real estate",
+          "homes for sale forest county wi",
+          "homes for sale in forest county wi",
+          "real estate forest county wi"
+        ],
+        "totalVolume": 1230,
+        "avgPosition": 32.4,
+        "depthScore": 50
+      },
+      {
+        "topic": "price",
+        "keywordCount": 4,
+        "keywords": [
+          "homes for sale in price county wisconsin",
+          "homes for sale price county wi",
+          "price county homes for sale",
+          "price county wi real estate"
+        ],
+        "totalVolume": 1040,
+        "avgPosition": 25.8,
+        "depthScore": 50
+      },
+      {
+        "topic": "lincoln",
+        "keywordCount": 4,
+        "keywords": [
+          "homes for sale in lincoln county wi",
+          "homes for sale lincoln county wi",
+          "lincoln county wi homes for sale",
+          "lincoln county wi real estate"
+        ],
+        "totalVolume": 1210,
+        "avgPosition": 34.5,
+        "depthScore": 50
+      }
+    ],
+    "urlTopicMap": []
+  }
+}

@@ -667,7 +667,7 @@ function normalizeAuditData(data, dataDir) {
       const parsed = /^https?:\/\//i.test(text) ? new URL(text) : new URL(`https://${text}`);
       return parsed.hostname.replace(/^www\./i, '').toLowerCase();
     } catch (error) {
-      return text.replace(/^https?:\/\//i, '').replace(/\/.*$/, '').replace(/^www\./i, '').toLowerCase();
+      return text.replace(/^https?:\/\//i).replace(/\/.*$/, '').replace(/^www\./i, '').toLowerCase();
     }
   }
 
@@ -1323,6 +1323,46 @@ function normalizeAuditData(data, dataDir) {
       const ptaPages = Array.isArray(ptaRaw) ? ptaRaw : (ptaRaw.pages || []);
       if (ptaPages.length) {
         const ptaByUrl = buildUrlLookup(ptaPages);
+
+        // Defensive normalizer: Handle snake_case from build_audit.py and compute missing summary
+        if (data.contentQuality && Array.isArray(data.contentQuality.pages) && data.contentQuality.pages.length > 0) {
+          const cq = data.contentQuality;
+          const firstPage = cq.pages[0] || {};
+
+          // 1. Detect and transform snake_case
+          const isSnake = Object.prototype.hasOwnProperty.call(firstPage, 'quality_score') ||
+                          Object.prototype.hasOwnProperty.call(firstPage, 'is_thin');
+
+          if (isSnake) {
+            cq.pages = cq.pages.map(function(p) {
+              if (!p) return p;
+              if (p.quality_score !== undefined) { p.qualityScore = p.quality_score; delete p.quality_score; }
+              if (p.readability_score !== undefined) { p.readabilityScore = p.readability_score; delete p.readability_score; }
+              if (p.is_thin !== undefined) { p.isThin = p.is_thin; delete p.is_thin; }
+              if (p.structure_score !== undefined) { p.structureScore = p.structure_score; delete p.structure_score; }
+
+              // 2. Handle string readability (parse if possible)
+              if (typeof p.readability === 'string') {
+                try { p.readability = JSON.parse(p.readability); } catch(e) { p.readability = {}; }
+              }
+              return p;
+            });
+          }
+
+          // 3. Compute summary if missing or empty
+          if (!cq.summary || !Object.keys(cq.summary).length) {
+            const scores = cq.pages.map(p => p.qualityScore).filter(s => s != null);
+            const words = cq.pages.map(p => p.wordCount).filter(w => w != null);
+            cq.summary = {
+              totalPages: cq.pages.length,
+              avgQualityScore: scores.length ? Math.round(scores.reduce((a, b) => a + b, 0) / scores.length * 10) / 10 : 0,
+              avgWordCount: words.length ? Math.round(words.reduce((a, b) => a + b, 0) / words.length) : 0,
+              thinPageCount: cq.pages.filter(p => p.isThin).length,
+              duplicateGroupCount: Array.isArray(cq.duplicateGroups) ? cq.duplicateGroups.length : 0
+            };
+          }
+        }
+
         const cq = data.contentQuality || (data.contentQuality = {});
         const existingPages = Array.isArray(cq.pages) ? cq.pages : [];
         const existingByUrl = buildUrlLookup(existingPages);

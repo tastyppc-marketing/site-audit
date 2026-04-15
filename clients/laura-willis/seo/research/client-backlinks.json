@@ -1,0 +1,21 @@
+{
+  "domain": "laurawillisrealestate.com",
+  "totalBacklinks": null,
+  "referringDomains": null,
+  "backlinks": null,
+  "referring_domains": null,
+  "errors": [
+    {
+      "endpoint": "backlinks",
+      "code": 40207,
+      "reason": "Access denied. Your IP is not whitelisted. You can modify your IP whitelist in the user panel https://app.dataforseo.com/api-access ."
+    },
+    {
+      "endpoint": "referring_domains",
+      "code": 40207,
+      "reason": "Access denied. Your IP is not whitelisted. You can modify your IP whitelist in the user panel https://app.dataforseo.com/api-access ."
+    }
+  ],
+  "status": "failed",
+  "gatheredAt": "2026-04-11T20:24:46.146Z"
+}

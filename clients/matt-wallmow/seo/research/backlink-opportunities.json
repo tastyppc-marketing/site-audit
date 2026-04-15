@@ -1,0 +1,580 @@
+{
+  "domain": "mattwallmow.com",
+  "secondaryDomain": "northwoodspropertysource.com",
+  "dateResearched": "2026-04-15",
+  "estimatedReferringDomains": 35,
+  "estimatedDomainAuthority": 15,
+  "opportunities": [
+    {
+      "domain": "zillow.com",
+      "dr": 93,
+      "clientHas": true,
+      "competitors": ["firstweber.com", "shorewest.com", "remax.com"],
+      "score": 95,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "url": "https://www.zillow.com/profile/Matt%20Wallmow",
+      "notes": "Client has profile. Ensure NAP consistency, maximize review count, add all service areas."
+    },
+    {
+      "domain": "realtor.com",
+      "dr": 92,
+      "clientHas": true,
+      "competitors": ["firstweber.com", "shorewest.com", "remax.com"],
+      "score": 95,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "url": "https://www.realtor.com/realestateagents/5e68b56ec0b4d6001112b335",
+      "notes": "Client has profile. Verify website link points to mattwallmow.com, optimize headshot and bio."
+    },
+    {
+      "domain": "homes.com",
+      "dr": 88,
+      "clientHas": false,
+      "competitors": ["firstweber.com", "shorewest.com"],
+      "score": 90,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "notes": "Claim or create agent profile. Major portal with strong DA. Free listing."
+    },
+    {
+      "domain": "redfin.com",
+      "dr": 90,
+      "clientHas": false,
+      "competitors": ["firstweber.com", "shorewest.com"],
+      "score": 85,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "notes": "Claim agent profile if available for Rhinelander market."
+    },
+    {
+      "domain": "trulia.com",
+      "dr": 88,
+      "clientHas": false,
+      "competitors": ["firstweber.com", "shorewest.com", "remax.com"],
+      "score": 85,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "notes": "Owned by Zillow Group. Claim agent profile for additional backlink."
+    },
+    {
+      "domain": "facebook.com",
+      "dr": 96,
+      "clientHas": true,
+      "competitors": ["firstweber.com", "shorewest.com", "remax.com"],
+      "score": 90,
+      "type": "social",
+      "localRelevance": "national",
+      "effort": "easy",
+      "url": "https://www.facebook.com/MattWallmowRealtor",
+      "notes": "Active business page. Ensure website link present. Post consistently."
+    },
+    {
+      "domain": "instagram.com",
+      "dr": 96,
+      "clientHas": true,
+      "competitors": ["firstweber.com", "shorewest.com"],
+      "score": 85,
+      "type": "social",
+      "localRelevance": "national",
+      "effort": "easy",
+      "url": "https://www.instagram.com/matt_wallmow_realtor/",
+      "notes": "Profile exists. Ensure bio link points to mattwallmow.com."
+    },
+    {
+      "domain": "youtube.com",
+      "dr": 99,
+      "clientHas": true,
+      "competitors": ["firstweber.com", "shorewest.com"],
+      "score": 90,
+      "type": "social",
+      "localRelevance": "national",
+      "effort": "medium",
+      "url": "https://www.youtube.com/channel/UCq0P5MUtJ_YlSqtKPI3-Xsw",
+      "notes": "Channel exists. Add website link in channel description and video descriptions. Create local market content."
+    },
+    {
+      "domain": "tiktok.com",
+      "dr": 94,
+      "clientHas": true,
+      "competitors": [],
+      "score": 80,
+      "type": "social",
+      "localRelevance": "national",
+      "effort": "easy",
+      "url": "https://www.tiktok.com/@mattwallmowrealtor",
+      "notes": "Profile exists. Ensure bio link to mattwallmow.com."
+    },
+    {
+      "domain": "linkedin.com",
+      "dr": 98,
+      "clientHas": true,
+      "competitors": ["firstweber.com", "shorewest.com"],
+      "score": 90,
+      "type": "social",
+      "localRelevance": "national",
+      "effort": "easy",
+      "url": "https://www.linkedin.com/in/matt-wallmow-1b2a8247/",
+      "notes": "Profile exists. Ensure website link and company page are set up correctly."
+    },
+    {
+      "domain": "twitter.com",
+      "dr": 96,
+      "clientHas": true,
+      "competitors": ["firstweber.com", "shorewest.com"],
+      "score": 80,
+      "type": "social",
+      "localRelevance": "national",
+      "effort": "easy",
+      "url": "https://twitter.com/mattwallmow",
+      "notes": "Profile exists. Ensure bio link to mattwallmow.com."
+    },
+    {
+      "domain": "yelp.com",
+      "dr": 93,
+      "clientHas": true,
+      "competitors": ["firstweber.com", "shorewest.com"],
+      "score": 90,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "url": "https://www.yelp.com/biz/matt-wallmow-lakeland-realty-rhinelander",
+      "notes": "Profile exists with positive reviews. Verify NAP consistency, add photos."
+    },
+    {
+      "domain": "birdeye.com",
+      "dr": 72,
+      "clientHas": true,
+      "competitors": [],
+      "score": 75,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "url": "https://birdeye.com/matt-wallmow-realtor-lakeland-realty-169470545747480",
+      "notes": "162 reviews, 5-star rating. Ensure backlink to mattwallmow.com is present."
+    },
+    {
+      "domain": "alignable.com",
+      "dr": 68,
+      "clientHas": true,
+      "competitors": [],
+      "score": 70,
+      "type": "directory",
+      "localRelevance": "local",
+      "effort": "easy",
+      "url": "https://www.alignable.com/rhinelander-wi/matt-wallmow",
+      "notes": "Profile exists. Local business networking platform. Engage with other local businesses."
+    },
+    {
+      "domain": "fastexpert.com",
+      "dr": 58,
+      "clientHas": true,
+      "competitors": ["firstweber.com", "shorewest.com"],
+      "score": 80,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "url": "https://www.fastexpert.com/agents/matt-wallmow-55855/",
+      "notes": "Profile with reviews. Optimize bio, verify website link."
+    },
+    {
+      "domain": "instacard.co",
+      "dr": 30,
+      "clientHas": true,
+      "competitors": [],
+      "score": 50,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "url": "https://instacard.co/Matt-Wallmow/contact",
+      "notes": "Digital business card. Ensure all links correct."
+    },
+    {
+      "domain": "showcase.com",
+      "dr": 55,
+      "clientHas": true,
+      "competitors": ["redmanrealtygroup.com"],
+      "score": 65,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "url": "https://www.showcase.com/p/matt-wallmow/167333541/",
+      "notes": "Commercial listing profile. Ensure website link is present."
+    },
+    {
+      "domain": "rhinelanderchamber.com",
+      "dr": 42,
+      "clientHas": false,
+      "competitors": ["shorewest.com"],
+      "score": 90,
+      "type": "directory",
+      "localRelevance": "local",
+      "effort": "easy",
+      "url": "https://business.rhinelanderchamber.com/list",
+      "notes": "Lakeland Realty (Cecily Dawson) is listed but Matt Wallmow individually may not be. Join chamber or verify listing. High local relevance."
+    },
+    {
+      "domain": "northwoodsrealtors.org",
+      "dr": 38,
+      "clientHas": true,
+      "competitors": ["firstweber.com", "shorewest.com", "norwisrealty.com"],
+      "score": 85,
+      "type": "industry",
+      "localRelevance": "local",
+      "effort": "easy",
+      "notes": "Northwoods Association of REALTORS (NWAR). Matt is a member. Verify profile link back to mattwallmow.com."
+    },
+    {
+      "domain": "wra.org",
+      "dr": 50,
+      "clientHas": false,
+      "competitors": ["firstweber.com", "shorewest.com"],
+      "score": 70,
+      "type": "industry",
+      "localRelevance": "local",
+      "effort": "medium",
+      "notes": "Wisconsin REALTORS Association. Check for member directory listing."
+    },
+    {
+      "domain": "upnorthhomeshowcase.com",
+      "dr": 35,
+      "clientHas": false,
+      "competitors": ["firstweber.com", "shorewest.com", "norwisrealty.com", "lasierrealty.com"],
+      "score": 85,
+      "type": "industry",
+      "localRelevance": "local",
+      "effort": "medium",
+      "url": "https://www.upnorthhomeshowcase.com/real-estate-offices-1/",
+      "notes": "Regional real estate magazine/directory, 35+ years. Competitors are listed. Get Lakeland Realty/mattwallmow.com listed."
+    },
+    {
+      "domain": "explorerhinelander.com",
+      "dr": 32,
+      "clientHas": false,
+      "competitors": [],
+      "score": 80,
+      "type": "directory",
+      "localRelevance": "local",
+      "effort": "easy",
+      "notes": "Local tourism/business directory for Rhinelander. Submit business listing."
+    },
+    {
+      "domain": "ocedc.org",
+      "dr": 30,
+      "clientHas": false,
+      "competitors": [],
+      "score": 70,
+      "type": "directory",
+      "localRelevance": "local",
+      "effort": "medium",
+      "notes": "Oneida County Economic Development Corp. Partner or sponsor opportunities."
+    },
+    {
+      "domain": "bbb.org",
+      "dr": 93,
+      "clientHas": false,
+      "competitors": [],
+      "score": 85,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "medium",
+      "notes": "No BBB profile found for Lakeland Realty Rhinelander. Creating an accredited listing provides high-DA backlink."
+    },
+    {
+      "domain": "google.com",
+      "dr": 99,
+      "clientHas": true,
+      "competitors": ["firstweber.com", "shorewest.com", "remax.com"],
+      "score": 99,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "easy",
+      "notes": "Google Business Profile. Must be fully optimized with website link, correct NAP, photos, posts. Critical for local SEO."
+    },
+    {
+      "domain": "realestate.usnews.com",
+      "dr": 92,
+      "clientHas": false,
+      "competitors": ["firstweber.com", "shorewest.com"],
+      "score": 80,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "medium",
+      "url": "https://realestate.usnews.com/agents/wisconsin/rhinelander",
+      "notes": "U.S. News agent directory. High DA. Claim profile if available."
+    },
+    {
+      "domain": "angi.com",
+      "dr": 90,
+      "clientHas": false,
+      "competitors": [],
+      "score": 75,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "medium",
+      "url": "https://www.angi.com/companylist/us/wi/rhinelander/real-estate-agents.htm",
+      "notes": "Angi (formerly Angie's List). Claim business profile for high-DA link."
+    },
+    {
+      "domain": "nextdoor.com",
+      "dr": 86,
+      "clientHas": false,
+      "competitors": [],
+      "score": 75,
+      "type": "social",
+      "localRelevance": "local",
+      "effort": "easy",
+      "notes": "Hyperlocal social network. Create business profile for Rhinelander area."
+    },
+    {
+      "domain": "rivernewsonline.com",
+      "dr": 25,
+      "clientHas": false,
+      "competitors": [],
+      "score": 80,
+      "type": "press",
+      "localRelevance": "local",
+      "effort": "medium",
+      "notes": "Northwoods River News - local Rhinelander newspaper. Pitch market reports, community stories for earned media coverage."
+    },
+    {
+      "domain": "starjournalnow.com",
+      "dr": 22,
+      "clientHas": false,
+      "competitors": [],
+      "score": 70,
+      "type": "press",
+      "localRelevance": "local",
+      "effort": "medium",
+      "notes": "Northwoods Star Journal. Regional newspaper. Submit real estate market commentary."
+    },
+    {
+      "domain": "wsaw.com",
+      "dr": 65,
+      "clientHas": false,
+      "competitors": [],
+      "score": 70,
+      "type": "press",
+      "localRelevance": "local",
+      "effort": "hard",
+      "notes": "Local TV news (CBS). Pitch as expert source for Northwoods real estate market stories."
+    },
+    {
+      "domain": "waow.com",
+      "dr": 62,
+      "clientHas": false,
+      "competitors": [],
+      "score": 70,
+      "type": "press",
+      "localRelevance": "local",
+      "effort": "hard",
+      "notes": "Local TV news (ABC). Pitch as expert source for Northwoods housing market stories."
+    },
+    {
+      "domain": "dsps.wi.gov",
+      "dr": 70,
+      "clientHas": true,
+      "competitors": ["firstweber.com", "shorewest.com"],
+      "score": 60,
+      "type": "other",
+      "localRelevance": "local",
+      "effort": "easy",
+      "notes": "WI Dept of Safety & Professional Services - license verification. Passive .gov link. Cannot be built, but confirms legitimacy."
+    },
+    {
+      "domain": "oneidacountywi.gov",
+      "dr": 45,
+      "clientHas": false,
+      "competitors": [],
+      "score": 65,
+      "type": "other",
+      "localRelevance": "local",
+      "effort": "hard",
+      "notes": "Oneida County government. Look for community resource pages that list local businesses."
+    },
+    {
+      "domain": "lakeplace.com",
+      "dr": 40,
+      "clientHas": false,
+      "competitors": [],
+      "score": 60,
+      "type": "directory",
+      "localRelevance": "local",
+      "effort": "medium",
+      "notes": "Lake property search site covering WI. Get listings or agent profile listed."
+    },
+    {
+      "domain": "upnorthaction.com",
+      "dr": 28,
+      "clientHas": false,
+      "competitors": ["firstweber.com"],
+      "score": 70,
+      "type": "directory",
+      "localRelevance": "local",
+      "effort": "easy",
+      "notes": "Oneida County real estate directory. Submit listing for Lakeland Realty/Matt Wallmow."
+    },
+    {
+      "domain": "northwoodswisconsin.com",
+      "dr": 30,
+      "clientHas": false,
+      "competitors": [],
+      "score": 65,
+      "type": "directory",
+      "localRelevance": "local",
+      "effort": "medium",
+      "notes": "Northwoods Wisconsin tourism/real estate directory. Get listed in real estate section."
+    },
+    {
+      "domain": "eagleriver.org",
+      "dr": 38,
+      "clientHas": false,
+      "competitors": [],
+      "score": 65,
+      "type": "directory",
+      "localRelevance": "local",
+      "effort": "easy",
+      "notes": "Eagle River Area Chamber of Commerce. If Matt serves Eagle River area, join for directory listing."
+    },
+    {
+      "domain": "st-germain.com",
+      "dr": 30,
+      "clientHas": false,
+      "competitors": [],
+      "score": 60,
+      "type": "directory",
+      "localRelevance": "local",
+      "effort": "easy",
+      "notes": "St. Germain Chamber. If serving this area, get listed in business directory."
+    },
+    {
+      "domain": "conover.org",
+      "dr": 25,
+      "clientHas": false,
+      "competitors": [],
+      "score": 55,
+      "type": "directory",
+      "localRelevance": "local",
+      "effort": "easy",
+      "notes": "Conover Chamber of Commerce directory."
+    },
+    {
+      "domain": "mercercc.com",
+      "dr": 22,
+      "clientHas": false,
+      "competitors": [],
+      "score": 55,
+      "type": "directory",
+      "localRelevance": "local",
+      "effort": "easy",
+      "notes": "Mercer Chamber of Commerce. Get listed if serving Iron County area."
+    },
+    {
+      "domain": "gototomahawk.com",
+      "dr": 25,
+      "clientHas": false,
+      "competitors": [],
+      "score": 55,
+      "type": "directory",
+      "localRelevance": "local",
+      "effort": "easy",
+      "notes": "Tomahawk Chamber of Commerce. Get listed if serving Lincoln County area."
+    },
+    {
+      "domain": "century21.com",
+      "dr": 85,
+      "clientHas": false,
+      "competitors": [],
+      "score": 40,
+      "type": "directory",
+      "localRelevance": "national",
+      "effort": "hard",
+      "notes": "Competitor directory. Cannot get listed unless affiliated. Included for competitive context only."
+    },
+    {
+      "domain": "lakelandrealtywi.com",
+      "dr": 25,
+      "clientHas": true,
+      "competitors": [],
+      "score": 80,
+      "type": "other",
+      "localRelevance": "local",
+      "effort": "easy",
+      "url": "https://www.lakelandrealtywi.com/agents/matt-wallmow/",
+      "notes": "Brokerage website. Ensure agent page links to mattwallmow.com."
+    }
+  ],
+  "similarityPairs": [
+    {
+      "domain1": "firstweber.com",
+      "domain2": "skagenteam.firstweber.com",
+      "note": "Skagen Team operates under First Weber brand. Main competitor team in Rhinelander."
+    },
+    {
+      "domain1": "mattwallmow.com",
+      "domain2": "northwoodspropertysource.com",
+      "note": "Both owned by Matt Wallmow / Wallmow Realty. Ensure cross-linking and consistent NAP."
+    },
+    {
+      "domain1": "mattwallmow.com",
+      "domain2": "lakelandrealtywi.com",
+      "note": "Matt is agent at Lakeland Realty. Brokerage site should link to personal site."
+    }
+  ],
+  "competitors": [
+    {
+      "name": "Skagen Team (First Weber)",
+      "domain": "skagenteam.firstweber.com",
+      "parentDomain": "firstweber.com",
+      "estimatedDR": 60,
+      "notes": "Ron Skagen, Christy Schneider, John Zenk. 50+ years combined experience. Listed on multiple directories. Backed by First Weber (statewide brand with 70+ offices)."
+    },
+    {
+      "name": "Shorewest Realtors - Rhinelander",
+      "domain": "shorewest.com",
+      "estimatedDR": 55,
+      "notes": "Major WI brokerage. 601 Lincoln St office. Listed in Rhinelander Chamber. Strong statewide brand authority."
+    },
+    {
+      "name": "RE/MAX Property Pros",
+      "domain": "remax.com",
+      "estimatedDR": 88,
+      "notes": "National franchise with strong domain authority. Rhinelander agents benefit from brand DR."
+    },
+    {
+      "name": "Northern Wisconsin Realty",
+      "domain": "norwisrealty.com",
+      "estimatedDR": 20,
+      "notes": "Local independent brokerage. Listed on Up North Home Showcase."
+    },
+    {
+      "name": "Lasier Realty",
+      "domain": "lasierrealty.com",
+      "estimatedDR": 15,
+      "notes": "Local independent specializing in waterfront property."
+    },
+    {
+      "name": "Redman Realty Group",
+      "domain": "redmanrealtygroup.com",
+      "estimatedDR": 20,
+      "notes": "425 Lincoln St office (same address as Matt). Multiple offices in Northwoods. Listed on Showcase.com."
+    },
+    {
+      "name": "Northwoods Luxury Real Estate",
+      "domain": "northwoodsluxuryrealestate.com",
+      "estimatedDR": 18,
+      "notes": "Luxury segment competitor. Active Rhinelander listings."
+    },
+    {
+      "name": "Coldwell Banker Action",
+      "domain": "coldwellbanker.com",
+      "estimatedDR": 82,
+      "notes": "National franchise. Oneida County listings. Benefits from brand DR."
+    }
+  ]
+}

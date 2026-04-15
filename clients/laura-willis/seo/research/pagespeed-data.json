@@ -1,0 +1,303 @@
+{
+  "data": {
+    "client": [
+      {
+        "url": "https://www.laurawillisrealestate.com",
+        "domain": "laurawillisrealestate.com",
+        "mobile": {
+          "performanceScore": 0.13,
+          "lcp": 27135.62033495724,
+          "fcp": 6037.504928346478,
+          "cls": 0.354289,
+          "inp": null,
+          "ttfb": 60,
+          "speedIndex": 10563.735173549489,
+          "opportunities": [
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 2400
+            },
+            {
+              "title": "Minify CSS",
+              "id": "unminified-css",
+              "savings": 300
+            },
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 6600
+            }
+          ]
+        },
+        "desktop": {
+          "performanceScore": 0.5,
+          "lcp": 2394.0085499411152,
+          "fcp": 1274.0055013855779,
+          "cls": 0.001513,
+          "inp": null,
+          "ttfb": 70,
+          "speedIndex": 2227.9775184472,
+          "opportunities": [
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 350
+            },
+            {
+              "title": "Minify CSS",
+              "id": "unminified-css",
+              "savings": 120
+            },
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 280
+            }
+          ]
+        }
+      }
+    ],
+    "competitors": [
+      {
+        "url": "https://www.parkcityluxuryrealestate.com",
+        "domain": "parkcityluxuryrealestate.com",
+        "mobile": null,
+        "desktop": {
+          "performanceScore": 0.75,
+          "lcp": 3921.2775332431024,
+          "fcp": 1145.3304392946409,
+          "cls": 0.002344,
+          "inp": null,
+          "ttfb": 45,
+          "speedIndex": 1513.9841850558823,
+          "opportunities": [
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 80
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://www.realestateinparkcity.com",
+        "domain": "realestateinparkcity.com",
+        "mobile": {
+          "performanceScore": 0.71,
+          "lcp": 7956.86921798832,
+          "fcp": 2336.0069950397774,
+          "cls": 0.011401,
+          "inp": null,
+          "ttfb": 50,
+          "speedIndex": 4083.2311451183123,
+          "opportunities": [
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 750
+            }
+          ]
+        },
+        "desktop": {
+          "performanceScore": 0.96,
+          "lcp": 1325.0086174559733,
+          "fcp": 484.6994328936771,
+          "cls": 0.00739,
+          "inp": null,
+          "ttfb": 13,
+          "speedIndex": 781.5401020049285,
+          "opportunities": []
+        }
+      },
+      {
+        "url": "https://www.steinsrealty.com",
+        "domain": "steinsrealty.com",
+        "mobile": {
+          "performanceScore": 0.55,
+          "lcp": 8283.00478898497,
+          "fcp": 4085.703796379164,
+          "cls": 0.000905,
+          "inp": null,
+          "ttfb": 61,
+          "speedIndex": 4690.193286750331,
+          "opportunities": [
+            {
+              "title": "Avoid multiple page redirects",
+              "id": "redirects",
+              "savings": 780
+            }
+          ]
+        },
+        "desktop": {
+          "performanceScore": 0.93,
+          "lcp": 1353.005326851263,
+          "fcp": 1035.743889054408,
+          "cls": 0,
+          "inp": null,
+          "ttfb": 13,
+          "speedIndex": 1035.743889054408,
+          "opportunities": [
+            {
+              "title": "Avoid multiple page redirects",
+              "id": "redirects",
+              "savings": 230
+            },
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 40
+            },
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 40
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://www.deervalleyrealestate.com",
+        "domain": "deervalleyrealestate.com",
+        "mobile": {
+          "performanceScore": 0.54,
+          "lcp": 18572.779787033855,
+          "fcp": 6903.101322053411,
+          "cls": 0,
+          "inp": null,
+          "ttfb": 40,
+          "speedIndex": 6903.101322053411,
+          "opportunities": [
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 1350
+            },
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 300
+            }
+          ]
+        },
+        "desktop": {
+          "performanceScore": 0.7,
+          "lcp": 4412.111643696275,
+          "fcp": 1179.5280407423202,
+          "cls": 0,
+          "inp": null,
+          "ttfb": 6,
+          "speedIndex": 2201.7183197528593,
+          "opportunities": [
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 40
+            },
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 240
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "pageSpeedComparison": [
+    {
+      "domain": "laurawillisrealestate.com",
+      "mobileScore": 0.13,
+      "desktopScore": 0.5,
+      "isClient": true
+    },
+    {
+      "domain": "parkcityluxuryrealestate.com",
+      "mobileScore": null,
+      "desktopScore": 0.75,
+      "isClient": false
+    },
+    {
+      "domain": "realestateinparkcity.com",
+      "mobileScore": 0.71,
+      "desktopScore": 0.96,
+      "isClient": false
+    },
+    {
+      "domain": "steinsrealty.com",
+      "mobileScore": 0.55,
+      "desktopScore": 0.93,
+      "isClient": false
+    },
+    {
+      "domain": "deervalleyrealestate.com",
+      "mobileScore": 0.54,
+      "desktopScore": 0.7,
+      "isClient": false
+    }
+  ],
+  "coreWebVitals": {
+    "mobile": {
+      "performanceScore": 0.13,
+      "lcp": 27135.62033495724,
+      "fcp": 6037.504928346478,
+      "cls": 0.354289,
+      "inp": null,
+      "ttfb": 60,
+      "speedIndex": 10563.735173549489,
+      "opportunities": [
+        {
+          "title": "Reduce unused CSS",
+          "id": "unused-css-rules",
+          "savings": 2400
+        },
+        {
+          "title": "Minify CSS",
+          "id": "unminified-css",
+          "savings": 300
+        },
+        {
+          "title": "Reduce unused JavaScript",
+          "id": "unused-javascript",
+          "savings": 6600
+        }
+      ]
+    },
+    "desktop": {
+      "performanceScore": 0.5,
+      "lcp": 2394.0085499411152,
+      "fcp": 1274.0055013855779,
+      "cls": 0.001513,
+      "inp": null,
+      "ttfb": 70,
+      "speedIndex": 2227.9775184472,
+      "opportunities": [
+        {
+          "title": "Reduce unused CSS",
+          "id": "unused-css-rules",
+          "savings": 350
+        },
+        {
+          "title": "Minify CSS",
+          "id": "unminified-css",
+          "savings": 120
+        },
+        {
+          "title": "Reduce unused JavaScript",
+          "id": "unused-javascript",
+          "savings": 280
+        }
+      ]
+    }
+  },
+  "errors": [
+    {
+      "domain": "parkcityluxuryrealestate.com",
+      "strategy": "mobile",
+      "code": 500,
+      "reason": "PSI API error (HTTP 500)."
+    }
+  ],
+  "status": "partial",
+  "gatheredAt": "2026-04-11T20:29:53.488Z"
+}
