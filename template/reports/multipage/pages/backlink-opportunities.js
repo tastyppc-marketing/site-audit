@@ -233,6 +233,22 @@
     });
 
     // Build inventory table rows
+    // Build spam lookup from spam analysis data
+    var spamLookup = {};
+    if (SPAM_DATA) {
+      (SPAM_DATA.spam.domains || []).forEach(function(d) { spamLookup[d.domain.toLowerCase()] = 'spam'; });
+      (SPAM_DATA.suspicious.domains || []).forEach(function(d) { spamLookup[d.domain.toLowerCase()] = 'suspicious'; });
+      (SPAM_DATA.legit.domains || []).forEach(function(d) { spamLookup[d.domain.toLowerCase()] = 'legit'; });
+    }
+
+    function qualityBadge(domain) {
+      var q = spamLookup[domain.toLowerCase()];
+      if (q === 'spam') return '<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#ef4444;margin-right:6px" title="Spam domain"></span>';
+      if (q === 'suspicious') return '<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#eab308;margin-right:6px" title="Suspicious domain"></span>';
+      if (q === 'legit') return '<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#22c55e;margin-right:6px" title="Legitimate domain"></span>';
+      return '<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:#cbd5e1;margin-right:6px" title="Unclassified"></span>';
+    }
+
     var rows = '';
     domainOrder.forEach(function (domain) {
       var group = domainGroups[domain];
@@ -273,7 +289,7 @@
 
       rows += '<tr class="no-break">' +
         '<td>' +
-          '<div class="font-medium text-slate-800">' + esc(domain) + '</div>' +
+          '<div class="font-medium text-slate-800">' + qualityBadge(domain) + esc(domain) + '</div>' +
           (hasMultiple
             ? '<button class="text-xs text-blue-600 mt-1 cursor-pointer bg-transparent border-none p-0" style="cursor:pointer" data-backlink-toggle="' + groupId + '" data-backlink-count="' + group.links.length + '" aria-expanded="false">' +
               'Show ' + group.links.length + ' backlinks' +
@@ -325,6 +341,116 @@
         button.textContent = (expanded ? 'Show ' : 'Hide ') + button.getAttribute('data-backlink-count') + ' backlinks';
       });
     });
+  }
+
+  // ---------------------------------------------------------------------------
+  // Section: Referring Domain Spam Analysis
+  // ---------------------------------------------------------------------------
+  var SPAM_DATA = _bo.spamAnalysis || null;
+
+  function renderSpamAnalysis() {
+    var container = document.getElementById('backlinks-content');
+    if (!container || !SPAM_DATA) return;
+
+    var sa = SPAM_DATA;
+    var healthColors = {
+      'Good': { bg: '#d1fae5', color: '#065f46', border: '#6ee7b7' },
+      'Fair': { bg: '#fef3c7', color: '#92400e', border: '#fcd34d' },
+      'Needs Attention': { bg: '#ffedd5', color: '#9a3412', border: '#fdba74' },
+      'Poor': { bg: '#fee2e2', color: '#991b1b', border: '#fca5a5' },
+    };
+    var hc = healthColors[sa.healthRating] || healthColors['Fair'];
+
+    var html = '';
+
+    // Section header
+    html += '<div style="margin-top:2.5rem;padding-top:2rem;border-top:2px solid #e2e8f0">';
+    html += '<div style="display:flex;align-items:center;gap:12px;margin-bottom:1.5rem">';
+    html += '<h3 style="font-size:1.25rem;font-weight:700;color:#1e293b;margin:0">Referring Domain Health Analysis</h3>';
+    html += '<span style="display:inline-flex;align-items:center;padding:4px 12px;border-radius:9999px;font-size:0.75rem;font-weight:700;background:' + hc.bg + ';color:' + hc.color + ';border:1px solid ' + hc.border + '">' + esc(sa.healthRating) + '</span>';
+    html += '</div>';
+
+    // Overview stat cards
+    html += '<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">';
+    html += '<div class="stat-card" style="border-left:4px solid #22c55e"><div class="stat-label">Legit Domains</div><div class="stat-value">' + sa.legit.count + ' <span style="font-size:0.75rem;color:#64748b">(' + sa.legit.pct + '%)</span></div></div>';
+    html += '<div class="stat-card" style="border-left:4px solid #eab308"><div class="stat-label">Suspicious</div><div class="stat-value">' + sa.suspicious.count + ' <span style="font-size:0.75rem;color:#64748b">(' + sa.suspicious.pct + '%)</span></div></div>';
+    html += '<div class="stat-card" style="border-left:4px solid #ef4444"><div class="stat-label">Spam</div><div class="stat-value">' + sa.spam.count + ' <span style="font-size:0.75rem;color:#64748b">(' + sa.spam.pct + '%)</span></div></div>';
+    html += '<div class="stat-card" style="border-left:4px solid #3b82f6"><div class="stat-label">Total Analyzed</div><div class="stat-value">' + sa.totalDomains + '</div></div>';
+    html += '</div>';
+
+    // Visual bar chart
+    var barTotal = sa.legit.pct + sa.suspicious.pct + sa.spam.pct;
+    if (barTotal > 0) {
+      html += '<div style="margin-bottom:1.5rem">';
+      html += '<div style="display:flex;height:32px;border-radius:8px;overflow:hidden;box-shadow:0 1px 2px rgba(0,0,0,0.05)">';
+      if (sa.legit.pct > 0) html += '<div style="width:' + sa.legit.pct + '%;background:#22c55e;display:flex;align-items:center;justify-content:center;color:#fff;font-size:0.7rem;font-weight:700">' + (sa.legit.pct >= 8 ? sa.legit.pct + '% Legit' : '') + '</div>';
+      if (sa.suspicious.pct > 0) html += '<div style="width:' + sa.suspicious.pct + '%;background:#eab308;display:flex;align-items:center;justify-content:center;color:#fff;font-size:0.7rem;font-weight:700">' + (sa.suspicious.pct >= 8 ? sa.suspicious.pct + '% Susp.' : '') + '</div>';
+      if (sa.spam.pct > 0) html += '<div style="width:' + sa.spam.pct + '%;background:#ef4444;display:flex;align-items:center;justify-content:center;color:#fff;font-size:0.7rem;font-weight:700">' + (sa.spam.pct >= 8 ? sa.spam.pct + '% Spam' : '') + '</div>';
+      html += '</div></div>';
+    }
+
+    // Recommendations
+    if (sa.recommendations && sa.recommendations.length) {
+      html += '<div style="background:#fefce8;border:1px solid #fde68a;border-radius:8px;padding:1rem 1.25rem;margin-bottom:1.5rem">';
+      html += '<div style="font-weight:700;color:#92400e;margin-bottom:0.5rem;font-size:0.875rem">Recommendations</div>';
+      html += '<ul style="margin:0;padding-left:1.25rem;font-size:0.85rem;color:#78350f;line-height:1.6">';
+      sa.recommendations.forEach(function(rec) {
+        html += '<li>' + esc(rec) + '</li>';
+      });
+      html += '</ul></div>';
+    }
+
+    // Spam domains table (top offenders)
+    if (sa.spam.domains && sa.spam.domains.length) {
+      var spamExpandId = 'spam-domains-expand';
+      var visibleSpam = Math.min(sa.spam.domains.length, 10);
+      html += '<div style="margin-bottom:1.5rem">';
+      html += '<h4 style="font-size:0.95rem;font-weight:700;color:#991b1b;margin-bottom:0.75rem">Spam Domains (' + sa.spam.count + ')</h4>';
+      html += '<div style="overflow-x:auto"><table class="data-table" style="width:100%">';
+      html += '<thead><tr><th>Domain</th><th>DR</th><th>Links</th><th>Flags</th></tr></thead><tbody>';
+      sa.spam.domains.forEach(function(d, idx) {
+        var rowStyle = idx >= visibleSpam ? ' style="display:none" data-spam-extra' : '';
+        html += '<tr' + rowStyle + '>';
+        html += '<td style="font-size:0.8rem;color:#991b1b;font-weight:500">' + esc(d.domain) + '</td>';
+        html += '<td style="text-align:center">' + d.dr + '</td>';
+        html += '<td style="text-align:center">' + d.linkCount + '</td>';
+        html += '<td style="font-size:0.75rem;color:#64748b">' + d.flags.map(function(f) {
+          return '<span style="display:inline-block;padding:1px 6px;border-radius:4px;background:#fee2e2;color:#991b1b;font-size:0.65rem;margin:1px 2px">' + esc(f) + '</span>';
+        }).join(' ') + '</td>';
+        html += '</tr>';
+      });
+      html += '</tbody></table></div>';
+      if (sa.spam.domains.length > visibleSpam) {
+        html += '<a href="javascript:void(0)" style="display:inline-block;margin-top:8px;font-size:0.8rem;color:#3b82f6;font-weight:600" onclick="' +
+          'var rows=document.querySelectorAll(\'[data-spam-extra]\');' +
+          'var show=rows[0]&&rows[0].style.display===\'none\';' +
+          'rows.forEach(function(r){r.style.display=show?\'\':\'none\'});' +
+          'this.textContent=show?\'Show fewer\':\'+ ' + (sa.spam.domains.length - visibleSpam) + ' more spam domains\';' +
+          'return false">+ ' + (sa.spam.domains.length - visibleSpam) + ' more spam domains</a>';
+      }
+      html += '</div>';
+    }
+
+    // Legit domains table (the good ones)
+    if (sa.legit.domains && sa.legit.domains.length) {
+      html += '<div style="margin-bottom:1rem">';
+      html += '<h4 style="font-size:0.95rem;font-weight:700;color:#065f46;margin-bottom:0.75rem">Quality Referring Domains (' + sa.legit.count + ')</h4>';
+      html += '<div style="overflow-x:auto"><table class="data-table" style="width:100%">';
+      html += '<thead><tr><th>Domain</th><th>DR</th><th>Links</th></tr></thead><tbody>';
+      sa.legit.domains.slice(0, 20).forEach(function(d) {
+        html += '<tr>';
+        html += '<td style="font-size:0.8rem;color:#065f46;font-weight:500">' + esc(d.domain) + '</td>';
+        html += '<td style="text-align:center">' + d.dr + '</td>';
+        html += '<td style="text-align:center">' + d.linkCount + '</td>';
+        html += '</tr>';
+      });
+      html += '</tbody></table></div>';
+      html += '</div>';
+    }
+
+    html += '</div>'; // close section wrapper
+
+    container.insertAdjacentHTML('beforeend', html);
   }
 
   // ---------------------------------------------------------------------------
@@ -2002,6 +2128,7 @@
     }
     renderInsights();
     renderBacklinkProfile();
+    renderSpamAnalysis();
     renderSummary();
     renderTopOpportunities();
     renderIntelligence();

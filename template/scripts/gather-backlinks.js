@@ -9,6 +9,12 @@
  *
  * Usage:
  *   node gather-backlinks.js <client-domain> [competitor-domain ...] [--limit 200]
+ *   node gather-backlinks.js --from-audit-data [--competitors-only] [--limit 200]
+ *
+ * Flags:
+ *   --from-audit-data   Auto-read client + competitor domains from seo/audit-data.json
+ *   --competitors-only  Skip client domain if client-backlinks.json already exists
+ *   --limit N           Max backlinks per domain (default 200)
  *
  * Approximate DataForSEO cost: ~$0.06 per domain (2 calls at ~$0.03 each).
  *
@@ -148,19 +154,48 @@ async function main() {
   const args = process.argv.slice(2);
   const domains = [];
   let limit = DEFAULT_LIMIT;
+  const fromAuditData = args.includes('--from-audit-data');
+  const competitorsOnly = args.includes('--competitors-only');
 
+  // Parse CLI flags
   for (let i = 0; i < args.length; i += 1) {
     const arg = args[i];
-    if (arg === '--limit') {
-      limit = parseInt(args[i + 1], 10);
-      i += 1;
-      continue;
+    if (arg === '--limit') { limit = parseInt(args[i + 1], 10); i += 1; continue; }
+    if (arg.startsWith('--')) continue;
+    domains.push(arg);
+  }
+
+  // --from-audit-data: auto-read domains from audit-data.json
+  if (fromAuditData) {
+    const auditPath = path.resolve('seo', 'audit-data.json');
+    if (!fs.existsSync(auditPath)) {
+      console.error('ERROR: --from-audit-data requires seo/audit-data.json in the current directory');
+      process.exit(1);
     }
-    if (!arg.startsWith('--')) domains.push(arg);
+    const auditData = JSON.parse(fs.readFileSync(auditPath, 'utf-8'));
+    const clientDomain = auditData.client && (auditData.client.website || auditData.client.websiteUrl || '');
+    const cleanDomain = clientDomain.replace(/^https?:\/\//, '').replace(/^www\./, '').replace(/\/$/, '');
+    if (!cleanDomain) {
+      console.error('ERROR: audit-data.json has no client.website');
+      process.exit(1);
+    }
+    if (!competitorsOnly) domains.unshift(cleanDomain);
+    else domains.unshift(cleanDomain); // still need client as first for isClient flag
+
+    const compAll = (auditData.competitor && Array.isArray(auditData.competitor.all))
+      ? auditData.competitor.all : [];
+    compAll.forEach(function(c) {
+      var d = (c.domain || '').replace(/^https?:\/\//, '').replace(/^www\./, '').replace(/\/$/, '');
+      if (d && domains.indexOf(d) === -1) domains.push(d);
+    });
+    console.error('Auto-loaded from audit-data.json: ' + domains.length + ' domains');
+    console.error('  Client: ' + cleanDomain);
+    console.error('  Competitors: ' + (domains.length - 1));
   }
 
   if (domains.length === 0) {
-    console.error('Usage: node gather-backlinks.js <client-domain> [competitor-domain ...] [--limit 200]');
+    console.error('Usage: node gather-backlinks.js <client-domain> [competitor ...] [--limit 200]');
+    console.error('       node gather-backlinks.js --from-audit-data [--competitors-only] [--limit 200]');
     process.exit(1);
   }
 
@@ -179,27 +214,39 @@ async function main() {
   const auth = `${login}:${password}`;
   const outputDir = path.resolve('seo', 'research');
   if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
-  let processedDomains = 0;
 
-  for (let i = 0; i < domains.length; i += 1) {
-    const domain = domains[i];
+  // Build task list (skip client if --competitors-only and data exists)
+  const tasks = domains.map(function(domain, i) {
     const isClient = i === 0;
     const outputFilename = isClient ? 'client-backlinks.json' : `backlinks-${domain}.json`;
     const outputPath = path.join(outputDir, outputFilename);
+    const skip = isClient && competitorsOnly && fs.existsSync(outputPath);
+    return { domain, isClient, outputFilename, outputPath, skip };
+  });
 
-    console.error(`\n[${i + 1}/${domains.length}] ${isClient ? 'Client' : 'Competitor'} domain: ${domain}`);
-    const output = await fetchDomainBacklinks(domain, limit, auth);
-
-    fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
-    processedDomains += 1;
-
-    console.error(`Written: ${outputPath} (${output.backlinks ? output.backlinks.length : 'null'} backlinks, ${output.referring_domains ? output.referring_domains.length : 'null'} referring domains)`);
-    if (output.errors.length > 0) console.error(`  Errors: ${output.errors.length} (status: ${output.status})`);
-
-    if (i < domains.length - 1) {
-      console.error('  Continuing to next domain...');
-    }
+  const activeTasks = tasks.filter(function(t) { return !t.skip; });
+  const estCost = activeTasks.length * DFS_CALL_COST * 2;
+  console.error(`\nEstimated cost: ~$${estCost.toFixed(2)} (${activeTasks.length} domains x 2 calls x $${DFS_CALL_COST})`);
+  if (tasks.some(function(t) { return t.skip; })) {
+    console.error('Skipping client domain (--competitors-only, client-backlinks.json exists)');
   }
+
+  // Parallel fetching with Semaphore(2) for ~2x speedup
+  let processedDomains = 0;
+  const sem = new Semaphore(2);
+
+  await Promise.all(activeTasks.map(function(task, idx) {
+    return sem.run(async function() {
+      console.error(`\n[${idx + 1}/${activeTasks.length}] ${task.isClient ? 'Client' : 'Competitor'} domain: ${task.domain}`);
+      const output = await fetchDomainBacklinks(task.domain, limit, auth);
+
+      fs.writeFileSync(task.outputPath, JSON.stringify(output, null, 2));
+      processedDomains += 1;
+
+      console.error(`Written: ${task.outputPath} (${output.backlinks ? output.backlinks.length : 'null'} backlinks, ${output.referring_domains ? output.referring_domains.length : 'null'} referring domains)`);
+      if (output.errors.length > 0) console.error(`  Errors: ${output.errors.length} (status: ${output.status})`);
+    });
+  }));
 
   const totalCost = processedDomains * DFS_CALL_COST * 2;
   console.error(`\nTotal DFS API cost estimate: ~$${totalCost.toFixed(2)} (${processedDomains} domains x 2 calls)`);

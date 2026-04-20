@@ -1593,7 +1593,7 @@ function normalizeAuditData(data, dataDir) {
         fixes++;
       }
 
-      if (rawDomains.length && !backlinks.topReferringDomains) {
+      if (rawDomains.length && !Array.isArray(backlinks.topReferringDomains)) {
         backlinks.topReferringDomains = rawDomains.map(function (d) {
           return {
             domain:         d.domain || '',
@@ -1681,6 +1681,20 @@ function normalizeAuditData(data, dataDir) {
         competitorEntry.referringDomains = referringDomainsCount;
         if (dofollowRatio != null) {
           competitorEntry.dofollowRatio = dofollowRatio;
+        }
+
+        // 4b: Retain individual referring domain records per competitor
+        if (!boFromFiles.competitorReferringDomains) boFromFiles.competitorReferringDomains = {};
+        if (rawDomains.length) {
+          boFromFiles.competitorReferringDomains[domain] = rawDomains.map(function(d) {
+            return {
+              domain: d.domain || '',
+              rank: d.rank != null ? d.rank : 0,
+              backlinks: d.backlinks != null ? d.backlinks : 0,
+              dofollow: d.dofollow != null ? d.dofollow : 0,
+              referringPages: d.referringPages || d.referring_pages || 0,
+            };
+          });
         }
       } catch (err) { logWarning('Failed to parse ' + filename, err.message); }
     });
@@ -1927,9 +1941,183 @@ function normalizeAuditData(data, dataDir) {
     bo.clientBacklinks = (data.backlinks || {}).topBacklinks || [];
   }
 
-  // Similarity pairs default
-  if (!bo.similarityPairs) {
-    bo.similarityPairs = [];
+  // ── 4c. Auto-generate opportunities from competitor referring domains ──
+  // If opportunities array is empty and we have competitor referring domain data,
+  // compute opportunities by finding domains competitors have that client doesn't.
+  if ((!bo.opportunities || !bo.opportunities.length) && bo.competitorReferringDomains && Object.keys(bo.competitorReferringDomains).length) {
+    // Build set of client's referring domains
+    var clientRDs = new Set();
+    var clientTopRDs = Array.isArray((data.backlinks || {}).topReferringDomains) ? data.backlinks.topReferringDomains : [];
+    clientTopRDs.forEach(function(rd) { if (rd.domain) clientRDs.add(rd.domain.toLowerCase()); });
+    // Also check client backlinks source domains
+    (bo.clientBacklinks || []).forEach(function(bl) {
+      var src = bl.sourceUrl || '';
+      try { clientRDs.add(new URL(src).hostname.replace(/^www\./, '').toLowerCase()); } catch(e) {}
+    });
+
+    // Domain classification lookup
+    var DOMAIN_TYPES = {
+      directory: ['yellowpages','yelp','bbb','manta','hotfrog','superpages','angieslist','thumbtack','homeadvisor','houzz','foursquare','mapquest','citysearch'],
+      social: ['facebook','linkedin','twitter','pinterest','youtube','instagram','tiktok','reddit'],
+      realEstate: ['zillow','realtor','redfin','trulia','homes.com','movoto','loopnet','homesnap','har.com','mlslistings'],
+      press: ['patch.com','prnewswire','prweb','businesswire','globenewswire'],
+      forum: ['activerain','biggerpockets','city-data','quora','reddit'],
+    };
+
+    function classifyDomain(domainName) {
+      var d = domainName.toLowerCase();
+      var type = 'other', effort = 'medium', localRelevance = 'international';
+      // Check known domain lists
+      Object.keys(DOMAIN_TYPES).forEach(function(t) {
+        DOMAIN_TYPES[t].forEach(function(known) {
+          if (d.indexOf(known) >= 0) type = t;
+        });
+      });
+      if (/\.gov$/i.test(d)) type = 'government';
+      if (/\.edu$/i.test(d)) type = 'educational';
+      if (/blog|article|resource|guide/i.test(d)) type = 'blog';
+      if (/forum|community|discuss/i.test(d)) type = 'forum';
+      if (/news|times|herald|gazette|tribune|journal|post\b|observer|chronicle/i.test(d)) type = 'press';
+
+      // Effort based on type
+      if (type === 'directory' || type === 'social') effort = 'easy';
+      else if (type === 'press' || type === 'government' || type === 'educational') effort = 'hard';
+      else effort = 'medium';
+
+      // Local relevance: check if domain contains client location words
+      var clientLoc = (data.client && data.client.location) || '';
+      var locWords = clientLoc.toLowerCase().split(/[,\s]+/).filter(function(w) { return w.length > 3; });
+      locWords.forEach(function(w) { if (d.indexOf(w) >= 0) localRelevance = 'local'; });
+
+      return { type: type, effort: effort, localRelevance: localRelevance };
+    }
+
+    // Count which competitor domains the client doesn't have
+    var oppMap = new Map(); // domain → { dr, competitors[], ... }
+    Object.keys(bo.competitorReferringDomains).forEach(function(compDomain) {
+      var rds = bo.competitorReferringDomains[compDomain] || [];
+      rds.forEach(function(rd) {
+        var rdDomain = (rd.domain || '').toLowerCase();
+        if (!rdDomain || clientRDs.has(rdDomain)) return;
+        if (!oppMap.has(rdDomain)) {
+          oppMap.set(rdDomain, { domain: rd.domain, dr: rd.rank || 0, competitors: [], linkCount: rd.backlinks || 0 });
+        }
+        var entry = oppMap.get(rdDomain);
+        if (entry.competitors.indexOf(compDomain) === -1) entry.competitors.push(compDomain);
+        if (rd.rank != null && rd.rank > entry.dr) entry.dr = rd.rank;
+      });
+    });
+
+    // Score and classify each opportunity
+    var generatedOpps = [];
+    oppMap.forEach(function(opp) {
+      var cls = classifyDomain(opp.domain);
+      var score = (opp.competitors.length * 20) + (opp.dr * 0.5);
+      generatedOpps.push({
+        domain: opp.domain,
+        dr: opp.dr,
+        clientHas: false,
+        competitors: opp.competitors,
+        score: Math.round(score),
+        type: cls.type,
+        localRelevance: cls.localRelevance,
+        effort: cls.effort,
+      });
+    });
+
+    // Also add domains the client HAS that competitors also have
+    clientRDs.forEach(function(clientDomain) {
+      var sharedWith = [];
+      Object.keys(bo.competitorReferringDomains).forEach(function(compDomain) {
+        var rds = bo.competitorReferringDomains[compDomain] || [];
+        if (rds.some(function(rd) { return (rd.domain || '').toLowerCase() === clientDomain; })) {
+          sharedWith.push(compDomain);
+        }
+      });
+      if (sharedWith.length) {
+        var cls = classifyDomain(clientDomain);
+        var clientRD = clientTopRDs.find(function(rd) { return (rd.domain || '').toLowerCase() === clientDomain; });
+        var dr = clientRD ? (clientRD.rank || 0) : 0;
+        generatedOpps.push({
+          domain: clientDomain,
+          dr: dr,
+          clientHas: true,
+          competitors: sharedWith,
+          score: Math.round((sharedWith.length * 10) + (dr * 0.3)),
+          type: cls.type,
+          localRelevance: cls.localRelevance,
+          effort: cls.effort,
+        });
+      }
+    });
+
+    generatedOpps.sort(function(a, b) { return b.score - a.score; });
+    bo.opportunities = generatedOpps.slice(0, 200);
+
+    if (bo.opportunities.length) {
+      var missing = bo.opportunities.filter(function(o) { return !o.clientHas; }).length;
+      var shared = bo.opportunities.filter(function(o) { return o.clientHas; }).length;
+      logInfo('Auto-generated opportunities', bo.opportunities.length + ' (' + missing + ' gaps, ' + shared + ' shared)');
+      fixes++;
+    }
+  }
+
+  // ── 4d. Compute typeCounts for client and competitors ──
+  function computeTypeCounts(backlinks) {
+    var counts = {};
+    (backlinks || []).forEach(function(bl) {
+      var src = bl.sourceUrl || bl.source_url || '';
+      var domain;
+      try { domain = new URL(src).hostname.replace(/^www\./, '').toLowerCase(); } catch(e) { domain = src; }
+      var cls = typeof classifyDomain === 'function' ? classifyDomain(domain) : { type: 'other' };
+      counts[cls.type] = (counts[cls.type] || 0) + 1;
+    });
+    return counts;
+  }
+
+  if (bo.client && bo.clientBacklinks && bo.clientBacklinks.length) {
+    if (!bo.client.typeCounts || !Object.keys(bo.client.typeCounts).length) {
+      bo.client.typeCounts = computeTypeCounts(bo.clientBacklinks);
+    }
+  }
+
+  // ── 4e. Generate similarityPairs (Jaccard index) ──
+  if (!bo.similarityPairs || !bo.similarityPairs.length) {
+    var allDomainSets = {};
+    // Client set
+    var clientDomainName = bo.client ? bo.client.domain : '';
+    if (clientDomainName && clientTopRDs && clientTopRDs.length) {
+      allDomainSets[clientDomainName] = new Set(clientTopRDs.map(function(rd) { return (rd.domain || '').toLowerCase(); }));
+    }
+    // Competitor sets
+    if (bo.competitorReferringDomains) {
+      Object.keys(bo.competitorReferringDomains).forEach(function(compDomain) {
+        allDomainSets[compDomain] = new Set(
+          (bo.competitorReferringDomains[compDomain] || []).map(function(rd) { return (rd.domain || '').toLowerCase(); })
+        );
+      });
+    }
+
+    var simPairs = [];
+    var domainNames = Object.keys(allDomainSets);
+    for (var si = 0; si < domainNames.length; si++) {
+      for (var sj = si + 1; sj < domainNames.length; sj++) {
+        var setA = allDomainSets[domainNames[si]];
+        var setB = allDomainSets[domainNames[sj]];
+        var intersection = 0;
+        setA.forEach(function(d) { if (setB.has(d)) intersection++; });
+        var union = setA.size + setB.size - intersection;
+        var similarity = union > 0 ? Math.round(intersection / union * 100) : 0;
+        simPairs.push({
+          domainA: domainNames[si],
+          domainB: domainNames[sj],
+          shared: intersection,
+          similarity: similarity,
+        });
+      }
+    }
+    simPairs.sort(function(a, b) { return b.similarity - a.similarity; });
+    bo.similarityPairs = simPairs;
   }
 
   logInfo('Backlink opportunities data',
@@ -1937,6 +2125,254 @@ function normalizeAuditData(data, dataDir) {
     ', competitors=' + bo.competitors.length +
     ', opportunities=' + bo.opportunities.length +
     ', clientBacklinks=' + bo.clientBacklinks.length);
+
+  // ── 4f. Anchor text distribution ──────────────────────────────────────
+  if (bo.clientBacklinks && bo.clientBacklinks.length && !bo.anchorDistribution) {
+    var anchorCounts = { branded: 0, exactMatch: 0, partial: 0, url: 0, empty: 0, generic: 0, other: 0 };
+    var clientDomainLower = (bo.client && bo.client.domain || '').toLowerCase().replace(/\.(com|net|org|co|io)$/i, '');
+    var clientNameLower = (data.client && (data.client.name || data.client.company) || '').toLowerCase();
+
+    bo.clientBacklinks.forEach(function(bl) {
+      var anchor = (bl.anchorText || '').trim();
+      if (!anchor || anchor === '(empty)') { anchorCounts.empty++; return; }
+      var aLower = anchor.toLowerCase();
+      if (/^https?:\/\/|^www\./i.test(anchor) || /^\S+\.\S{2,4}$/.test(anchor)) { anchorCounts.url++; return; }
+      if (/^(click here|here|link|website|read more|learn more|visit|source|post|this|view)$/i.test(anchor)) { anchorCounts.generic++; return; }
+      if (clientDomainLower && aLower.indexOf(clientDomainLower) >= 0) { anchorCounts.branded++; return; }
+      if (clientNameLower && clientNameLower.length > 3 && aLower.indexOf(clientNameLower) >= 0) { anchorCounts.branded++; return; }
+      // Check if anchor matches any keyword (rough: >4 words = likely partial match)
+      if (anchor.split(/\s+/).length > 4) { anchorCounts.partial++; return; }
+      anchorCounts.other++;
+    });
+
+    var total = bo.clientBacklinks.length;
+    bo.anchorDistribution = Object.keys(anchorCounts).map(function(type) {
+      return { type: type, count: anchorCounts[type], pct: total ? Math.round(anchorCounts[type] / total * 100) : 0 };
+    }).filter(function(a) { return a.count > 0; }).sort(function(a, b) { return b.count - a.count; });
+
+    // Top anchors by frequency
+    var anchorFreq = {};
+    bo.clientBacklinks.forEach(function(bl) {
+      var anchor = (bl.anchorText || '').trim() || '(empty)';
+      anchorFreq[anchor] = (anchorFreq[anchor] || 0) + 1;
+    });
+    bo.topAnchors = Object.entries(anchorFreq)
+      .sort(function(a, b) { return b[1] - a[1]; })
+      .slice(0, 20)
+      .map(function(pair) { return { text: pair[0], count: pair[1] }; });
+  }
+
+  // ── 4g. Link velocity ──────────────────────────────────────────────────
+  if (bo.clientBacklinks && bo.clientBacklinks.length && !bo.velocityData) {
+    var monthBuckets = {};
+    bo.clientBacklinks.forEach(function(bl) {
+      var date = bl.firstSeen || '';
+      if (!date) return;
+      var month = date.substring(0, 7); // YYYY-MM
+      if (!/^\d{4}-\d{2}$/.test(month)) return;
+      monthBuckets[month] = (monthBuckets[month] || 0) + 1;
+    });
+
+    var months = Object.keys(monthBuckets).sort();
+    if (months.length) {
+      bo.velocityData = {
+        months: months,
+        client: months.map(function(m) { return monthBuckets[m] || 0; }),
+      };
+
+      // Also compute competitor velocity if we have their backlinks
+      if (bo.competitorReferringDomains) {
+        bo.velocityData.competitors = {};
+        // Note: We only have referring domain data (not individual backlinks with dates)
+        // for competitors, so velocity is limited to client for now
+      }
+    }
+  }
+
+  // ── 4h. Broken backlink detection ──────────────────────────────────────
+  if (bo.clientBacklinks && bo.clientBacklinks.length && !bo.brokenBacklinks) {
+    var crawlPath4h = path.join(dataDir, 'research', 'crawl-data.json');
+    if (fs.existsSync(crawlPath4h)) {
+      try {
+        var crawl4h = JSON.parse(fs.readFileSync(crawlPath4h, 'utf-8'));
+        var crawlPages4h = Array.isArray(crawl4h.pages) ? crawl4h.pages : (Array.isArray(crawl4h) ? crawl4h : []);
+        var notFoundUrls = new Set();
+        crawlPages4h.forEach(function(p) {
+          if (p.statusCode && (p.statusCode === 404 || p.statusCode === 410)) {
+            var url = (p.url || '').toLowerCase();
+            notFoundUrls.add(url);
+            // Also add without trailing slash
+            notFoundUrls.add(url.replace(/\/$/, ''));
+          }
+        });
+
+        if (notFoundUrls.size) {
+          var broken = [];
+          bo.clientBacklinks.forEach(function(bl) {
+            var target = (bl.targetUrl || '').toLowerCase();
+            if (notFoundUrls.has(target) || notFoundUrls.has(target.replace(/\/$/, ''))) {
+              broken.push({
+                sourceUrl: bl.sourceUrl,
+                targetUrl: bl.targetUrl,
+                anchorText: bl.anchorText || '',
+                domainRating: bl.domainRating,
+              });
+            }
+          });
+          if (broken.length) {
+            bo.brokenBacklinks = broken;
+            logInfo('Broken backlinks detected', broken.length + ' backlinks pointing to 404 pages');
+          }
+        }
+      } catch (err4h) { /* crawl data parse error — non-critical */ }
+    }
+  }
+
+  // ── 6d. Referring domain spam analysis ────────────────────────────────
+  // Uses AI quality data from analyze-backlink-quality.js when available,
+  // falls back to heuristic classification otherwise.
+  if (bo.clientBacklinks && bo.clientBacklinks.length) {
+    // Check if AI quality analyzer has already classified the data
+    var cbPath6d = path.join(dataDir, 'research', 'client-backlinks.json');
+    var aiQualitySummary = null;
+    if (fs.existsSync(cbPath6d)) {
+      try {
+        var cb6d = JSON.parse(fs.readFileSync(cbPath6d, 'utf-8'));
+        if (cb6d.qualitySummary && cb6d.qualitySummary.analyzedAt) {
+          aiQualitySummary = cb6d.qualitySummary;
+          // Also enrich clientBacklinks with per-domain quality from the analyzed file
+          var rdQuality = {};
+          (Array.isArray(cb6d.referring_domains) ? cb6d.referring_domains : []).forEach(function(rd) {
+            if (rd.domainQuality) rdQuality[(rd.domain || '').toLowerCase()] = rd;
+          });
+          bo.clientBacklinks.forEach(function(bl) {
+            var src = bl.sourceUrl || '';
+            var domain;
+            try { domain = new URL(src).hostname.replace(/^www\./, '').toLowerCase(); } catch(e) { return; }
+            var rd = rdQuality[domain];
+            if (rd) {
+              bl.domainQuality = rd.domainQuality;
+              bl.qualityScore = rd.qualityScore;
+            }
+          });
+        }
+      } catch(e) { /* non-critical */ }
+    }
+
+    var spamSignals = {
+      telegramAnchors: /telegram|t\.me|darksidelinks|quarterlinks/i,
+      genericAnchors: /^\[.*more\]$|^post$|^click here$|^here$|^link$|^website$/i,
+      spamTlds: /\.(info|xyz|top|club|buzz|wang|bid|win|stream|gq|cf|ga|ml|tk)$/i,
+      foreignSpam: /\.(ru|cn|vn|id|pl|be)$/i,
+    };
+
+    var domainMap = new Map();
+    bo.clientBacklinks.forEach(function(link) {
+      var src = link.sourceUrl || '';
+      var domain;
+      try { domain = new URL(src).hostname.replace(/^www\./, '').toLowerCase(); } catch(e) { domain = src; }
+      if (!domain) return;
+      if (!domainMap.has(domain)) {
+        domainMap.set(domain, { domain: domain, links: [], dr: link.domainRating || 0, isDofollow: false });
+      }
+      var entry = domainMap.get(domain);
+      entry.links.push(link);
+      if (link.isDofollow) entry.isDofollow = true;
+      if (link.domainRating != null && link.domainRating > entry.dr) entry.dr = link.domainRating;
+    });
+
+    var spamDomains = [];
+    var suspiciousDomains = [];
+    var legitDomains = [];
+
+    domainMap.forEach(function(entry) {
+      var flags = [];
+      var score = 0; // higher = more spammy
+
+      // DR-based signals
+      if (entry.dr === 0) { flags.push('DR 0'); score += 3; }
+      else if (entry.dr < 5) { flags.push('Very low DR (' + entry.dr + ')'); score += 2; }
+
+      // Anchor text signals
+      entry.links.forEach(function(link) {
+        var anchor = link.anchorText || '';
+        if (spamSignals.telegramAnchors.test(anchor)) { flags.push('Telegram/spam anchor'); score += 5; }
+        if (spamSignals.genericAnchors.test(anchor)) { flags.push('Generic anchor text'); score += 1; }
+      });
+
+      // TLD signals
+      if (spamSignals.spamTlds.test(entry.domain)) { flags.push('Spam TLD'); score += 3; }
+      if (spamSignals.foreignSpam.test(entry.domain) && entry.dr < 10) { flags.push('Low-DR foreign domain'); score += 2; }
+
+      // Single-page, low-DR dofollow = likely paid/spam
+      if (entry.links.length === 1 && entry.dr === 0 && entry.isDofollow) {
+        flags.push('Single dofollow link from DR-0 domain');
+        score += 2;
+      }
+
+      entry.spamScore = score;
+      entry.flags = flags;
+      entry.classification = score >= 5 ? 'spam' : (score >= 2 ? 'suspicious' : 'legit');
+
+      if (entry.classification === 'spam') spamDomains.push(entry);
+      else if (entry.classification === 'suspicious') suspiciousDomains.push(entry);
+      else legitDomains.push(entry);
+    });
+
+    // Sort each group by spam score descending
+    spamDomains.sort(function(a, b) { return b.spamScore - a.spamScore; });
+    suspiciousDomains.sort(function(a, b) { return b.spamScore - a.spamScore; });
+    legitDomains.sort(function(a, b) { return (b.dr || 0) - (a.dr || 0); });
+
+    var totalDomains = domainMap.size;
+    var spamPct = totalDomains ? Math.round(spamDomains.length / totalDomains * 100) : 0;
+    var suspPct = totalDomains ? Math.round(suspiciousDomains.length / totalDomains * 100) : 0;
+    var legitPct = totalDomains ? Math.round(legitDomains.length / totalDomains * 100) : 0;
+
+    var healthRating = spamPct >= 50 ? 'Poor' : (spamPct >= 25 ? 'Needs Attention' : (spamPct >= 10 ? 'Fair' : 'Good'));
+
+    bo.spamAnalysis = {
+      totalDomains: totalDomains,
+      spam: { count: spamDomains.length, pct: spamPct, domains: spamDomains.slice(0, 50).map(function(d) {
+        return { domain: d.domain, dr: d.dr, flags: d.flags, spamScore: d.spamScore, linkCount: d.links.length };
+      })},
+      suspicious: { count: suspiciousDomains.length, pct: suspPct, domains: suspiciousDomains.slice(0, 30).map(function(d) {
+        return { domain: d.domain, dr: d.dr, flags: d.flags, spamScore: d.spamScore, linkCount: d.links.length };
+      })},
+      legit: { count: legitDomains.length, pct: legitPct, domains: legitDomains.slice(0, 30).map(function(d) {
+        return { domain: d.domain, dr: d.dr, linkCount: d.links.length };
+      })},
+      healthRating: healthRating,
+      recommendations: [],
+    };
+
+    // Generate recommendations
+    if (spamPct >= 25) {
+      bo.spamAnalysis.recommendations.push('Consider using Google\'s Disavow Tool to disavow the ' + spamDomains.length + ' spam domains identified. These low-quality links may be suppressing your domain authority.');
+    }
+    if (spamDomains.some(function(d) { return d.flags.indexOf('Telegram/spam anchor') >= 0; })) {
+      bo.spamAnalysis.recommendations.push('Multiple backlinks contain Telegram spam channel anchors — a sign of automated link-building attacks. Monitor Google Search Console for manual action warnings.');
+    }
+    if (spamPct >= 50) {
+      bo.spamAnalysis.recommendations.push('Over half of referring domains are classified as spam. This is a significant link profile toxicity issue that should be addressed before investing in new link building.');
+    }
+    if (legitDomains.length < 10) {
+      bo.spamAnalysis.recommendations.push('Only ' + legitDomains.length + ' referring domains appear to be high-quality. Prioritize earning links from authoritative, relevant real estate and local business sites.');
+    }
+
+    // Build filtered backlinks list (excluding spam domains for cleaner display)
+    var spamDomainSet = new Set(spamDomains.map(function(d) { return d.domain; }));
+    bo.filteredTopBacklinks = (bo.clientBacklinks || []).filter(function(bl) {
+      var src = bl.sourceUrl || '';
+      var domain;
+      try { domain = new URL(src).hostname.replace(/^www\./, '').toLowerCase(); } catch(e) { return true; }
+      return !spamDomainSet.has(domain);
+    });
+
+    logInfo('Spam analysis', totalDomains + ' domains: ' + spamDomains.length + ' spam (' + spamPct + '%), ' + suspiciousDomains.length + ' suspicious (' + suspPct + '%), ' + legitDomains.length + ' legit (' + legitPct + '%) — ' + healthRating);
+    logInfo('Filtered backlinks', bo.filteredTopBacklinks.length + ' of ' + (bo.clientBacklinks || []).length + ' backlinks after removing spam domains');
+    fixes++;
+  }
 
   // ── 7. Competitor comparison table column normalization ─────────────
   // Renderer expects competitor columns named comp1, comp2, etc.
