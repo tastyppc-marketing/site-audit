@@ -12,7 +12,7 @@
 
 Matt Wallmow's online link authority is **estimated to be low-to-moderate** (DA ~15-20 range). The domain mattwallmow.com is a personal agent site with limited inbound links outside of social profiles and a handful of real estate directories. The site benefits from some high-DA social signals (Facebook, LinkedIn, YouTube, TikTok, Instagram, Twitter) and directory citations (Zillow, Realtor.com, Yelp, Birdeye, FastExpert, Alignable, Showcase.com, Instacard).
 
-However, compared to competitors operating under major brokerage brands (First Weber DR ~60, Shorewest DR ~55, RE/MAX DR ~88, Coldwell Banker DR ~82), Matt's independent domain has significantly fewer referring domains and lower domain authority. The good news: Matt has an excellent reputation foundation (162 reviews, 5-star rating, #1 Solo Agent for Sides Sold in 2025) that can be leveraged for link acquisition.
+However, compared to competitors operating under major brokerage brands (First Weber DR ~60, Shorewest DR ~55, RE/MAX DR ~88, Coldwell Banker DR ~82), Matt's independent domain has significantly fewer referring domains and lower domain authority. The good news: Matt has an excellent reputation foundation (182 Google reviews, 5-star rating, #1 Solo Agent for Sides Sold in 2025) that can be leveraged for link acquisition.
 
 **Key findings:**
 - ~35 estimated referring domains (vs. competitors on brand domains with hundreds)
@@ -44,7 +44,7 @@ However, compared to competitors operating under major brokerage brands (First W
 | Zillow | 93 | Listed | Profile exists |
 | Realtor.com | 92 | Listed | Profile exists |
 | Yelp | 93 | Listed | Positive reviews |
-| Birdeye | 72 | Listed | 162 reviews, 5-star |
+| Birdeye | 72 | Listed | Profile present with strong review volume |
 | FastExpert | 58 | Listed | Agent profile with reviews |
 | Alignable | 68 | Listed | Business networking profile |
 | Instacard | 30 | Listed | Digital business card |
@@ -95,7 +95,7 @@ However, compared to competitors operating under major brokerage brands (First W
 ### Matt's Advantages
 1. **Personal brand domain** (mattwallmow.com) means all link equity goes directly to his site vs. shared with a brokerage
 2. **Two domains** (mattwallmow.com + northwoodspropertysource.com) = more real estate on the SERP
-3. **162 reviews and 5-star rating** = strong trust signals that can be leveraged for earned media
+3. **182 Google reviews and 5-star rating** = strong trust signals that can be leveraged for earned media
 4. **#1 Solo Agent for Sides Sold (2025)** = PR-worthy credential
 5. **Active on more social platforms** than most local competitors (TikTok is a differentiator)
 

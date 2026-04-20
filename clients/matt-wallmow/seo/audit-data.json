@@ -4,7 +4,7 @@
     "websiteUrl": "https://www.mattwallmow.com",
     "auditDate": "April 15, 2026",
     "overallGrade": "B-",
-    "gradeSummary": "mattwallmow.com scored an overall grade of C- (57/100). The biggest opportunities are: No viewport meta tag \u2014 page won't render properly on mobile; No meta description found; Title is 99 chars (max 60). Quick wins include: No viewport meta tag \u2014 page won't render properly on mobile; No meta description found; Title is 99 chars (max 60). Category breakdown: technical: 67/100, content: 22.8/100, indexability: 100/100.",
+    "gradeSummary": "mattwallmow.com scored an overall grade of B- (70/100). The biggest opportunities are: zero structured data across analyzed pages; South Florida pages diluting Northwoods local SEO; and missing or weak meta descriptions on major pages. Quick wins include: rewrite missing and placeholder meta descriptions, fix vague H1s, and add JSON-LD schema markup. Category breakdown: technical: 67/100, content: 72/100, backlinks & authority: 56/100, indexability: 100/100, local SEO / E-E-A-T: 55/100, keyword visibility: 15/100.",
     "grade": "B-"
   },
   "competitor": {
@@ -35,34 +35,34 @@
   },
   "topIssues": [
     {
-      "issue": "No viewport meta tag \u2014 page won't render properly on mobile",
-      "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+      "issue": "Near-zero organic visibility",
+      "detail": "Only 2 of 25 target keywords rank in Google, leaving Matt invisible for most high-value Northwoods searches.",
       "impact": "Critical",
-      "effort": "Low"
+      "effort": "High"
     },
     {
-      "issue": "No meta description found",
-      "detail": "No meta description found",
-      "impact": "Medium",
-      "effort": "Low"
-    },
-    {
-      "issue": "Title is 99 chars (max 60)",
-      "detail": "Title is 99 chars (max 60)",
-      "impact": "Medium",
-      "effort": "Low"
-    },
-    {
-      "issue": "Description is 233 chars (max 160)",
-      "detail": "Description is 233 chars (max 160)",
-      "impact": "Medium",
+      "issue": "Zero structured data on analyzed pages",
+      "detail": "No JSON-LD schema was confirmed on the 11 analyzed pages, including homepage, About, contact, testimonials, and blog posts.",
+      "impact": "Critical",
       "effort": "Medium"
     },
     {
-      "issue": "2 pages have thin content (below word count threshold)",
-      "detail": "2 pages have thin content (below word count threshold)",
-      "impact": "Medium",
-      "effort": "High"
+      "issue": "South Florida pages undermine local SEO",
+      "detail": "Seven South Florida community pages are linked from the homepage and included in the sitemap, diluting Northwoods geographic relevance.",
+      "impact": "Critical",
+      "effort": "Medium"
+    },
+    {
+      "issue": "Meta description crisis across major pages",
+      "detail": "Core pages have missing, placeholder, generic, or overlong meta descriptions, weakening click-through rate and topical clarity.",
+      "impact": "High",
+      "effort": "Low"
+    },
+    {
+      "issue": "No dedicated Rhinelander landing page",
+      "detail": "Matt's primary office city lacks a focused landing page even though Rhinelander is a core search market and service area.",
+      "impact": "High",
+      "effort": "Medium"
     }
   ],
   "siteComparison": [
@@ -74,13 +74,13 @@
     },
     {
       "metric": "Platform",
-      "client": "RealtyCandy / WordPress + HomeJunction IDX",
+      "client": "AgentFire / WordPress + HomeJunction IDX",
       "competitor": "WordPress + Jewell IDX / Lofty (Chime) / iHouseWeb Elite / Xposure (single-page app) / Custom proprietary",
       "gap": ""
     },
     {
       "metric": "Total Pages (sitemap)",
-      "client": "~57 (47 pages + 10 posts)",
+      "client": "50 (40 pages + 10 posts)",
       "competitor": "~200 (197 pages + 3 posts) / ~400+ / ~92 / ~1 (SPA) / 1,000s (statewide)",
       "gap": ""
     },
@@ -111,12 +111,12 @@
     {
       "metric": "Meta Title Format",
       "client": "\"Page - Lakeland Realty\"",
-      "competitor": "\"Page - Redman Realty Group\" / \"Page description...\" (Lofty) / \"Page, Property Search...\" / \"REMAX Invest\" / \"Page \\",
+      "competitor": "\"Page - Redman Realty Group\" / \"Page description...\" (Lofty) / \"Page, Property Search...\" / \"REMAX Invest\" / \"Shorewest Realtors\"",
       "gap": ""
     },
     {
       "metric": "Schema Markup",
-      "client": "Likely (WordPress + IDX)",
+      "client": "None confirmed (0/11 analyzed pages)",
       "competitor": "Yes (Yoast SEO) / Yes (Lofty built-in) / Basic / Minimal / Yes",
       "gap": ""
     },
@@ -141,34 +141,34 @@
   ],
   "keyStats": [
     {
-      "value": "0 / 25",
+      "value": "2 / 25",
       "label": "keywords ranking in Google",
       "severity": "red"
     },
     {
-      "value": "62 pages",
-      "label": "vs. competitors' 200-400+",
+      "value": "50 content pages",
+      "label": "40 pages + 10 posts vs. competitors' 92-400+",
       "severity": "orange"
     },
     {
-      "value": "5 blog posts",
-      "label": "all generic, last updated months ago",
+      "value": "10 blog posts",
+      "label": "6 localized recent posts, 4 older generic posts",
       "severity": "orange"
-    },
-    {
-      "value": "~200 words",
-      "label": "avg. key page (competitors: 3,500+)",
-      "severity": "red"
     },
     {
       "value": "0 schema",
-      "label": "markup on any page",
+      "label": "confirmed on 11 analyzed pages",
       "severity": "red"
     },
     {
-      "value": "0 market reports",
-      "label": "the #1 content type for this industry",
+      "value": "7 South Florida pages",
+      "label": "diluting Northwoods local relevance",
       "severity": "red"
+    },
+    {
+      "value": "182 Google reviews",
+      "label": "strong trust signal, weakly leveraged on-site",
+      "severity": "green"
     }
   ],
   "keywords": [
@@ -412,7 +412,7 @@
     },
     {
       "metric": "Platform",
-      "client": "RealtyCandy / WordPress + HomeJunction IDX",
+      "client": "AgentFire / WordPress + HomeJunction IDX",
       "comp1": "WordPress + Jewell IDX",
       "comp2": "Lofty (Chime)",
       "comp3": "iHouseWeb Elite",
@@ -423,7 +423,7 @@
     },
     {
       "metric": "Total Pages (sitemap)",
-      "client": "~57 (47 pages + 10 posts)",
+      "client": "50 (40 pages + 10 posts)",
       "comp1": "~200 (197 pages + 3 posts)",
       "comp2": "~400+",
       "comp3": "~92",
@@ -483,13 +483,13 @@
       "comp2": "\"Page description...\" (Lofty)",
       "comp3": "\"Page, Property Search...\"",
       "comp4": "\"REMAX Invest\"",
-      "comp5": "\"Page \\",
-      "comp6": "Shorewest Realtors\"",
+      "comp5": "\"Shorewest Realtors\"",
+      "comp6": "First Weber / Skagen Team",
       "gap": ""
     },
     {
       "metric": "Schema Markup",
-      "client": "Likely (WordPress + IDX)",
+      "client": "None confirmed (0/11 analyzed pages)",
       "comp1": "Yes (Yoast SEO)",
       "comp2": "Yes (Lofty built-in)",
       "comp3": "Basic",
@@ -543,7 +543,7 @@
     },
     {
       "strategy": "Blog Volume",
-      "detail": "Competitors have 33-207 blog posts vs. client's 5"
+      "detail": "Eliason has 26+ blog pages and broader competitors add deeper resource libraries; Matt has 10 posts, but only 6 are strongly localized."
     },
     {
       "strategy": "FAQ Sections",
@@ -560,64 +560,113 @@
   ],
   "quickWins": [
     {
-      "action": "No viewport meta tag \u2014 page won't render properly on mobile",
+      "action": "Write and replace weak meta descriptions on major pages",
+      "impact": "High"
+    },
+    {
+      "action": "Rewrite vague H1 tags on homepage, service pages, and blog hub",
+      "impact": "High"
+    },
+    {
+      "action": "Add JSON-LD schema to homepage, About, testimonials, and blog posts",
       "impact": "Critical"
     },
     {
-      "action": "No meta description found",
-      "impact": "Medium"
+      "action": "Remove or relocate the 7 South Florida pages from homepage and sitemap",
+      "impact": "Critical"
     },
     {
-      "action": "Title is 99 chars (max 60)",
-      "impact": "Medium"
+      "action": "Complete missing data on Oneida, Vilas, Lincoln, and Price County pages",
+      "impact": "High"
     }
   ],
   "actionPlan": {
     "quickWins": [
       {
-        "action": "No viewport meta tag \u2014 page won't render properly on mobile",
-        "why": "No viewport meta tag \u2014 page won't render properly on mobile",
+        "action": "Write and replace weak meta descriptions on major pages",
+        "why": "Six major pages are missing descriptions, two use placeholders, the About page uses boilerplate, and the homepage description is too long.",
         "effort": "Low",
-        "impact": "Critical",
-        "roiScore": 100,
-        "affectedCount": 11
+        "impact": "High",
+        "roiScore": 98,
+        "affectedCount": 8
       },
       {
-        "action": "No meta description found",
-        "why": "No meta description found",
+        "action": "Rewrite vague H1 tags on homepage, service pages, and blog hub",
+        "why": "Core pages use abstract H1s like \"Confidence,\" \"Dream Home,\" and \"Real Estate,\" which give search engines almost no topical context.",
         "effort": "Low",
-        "impact": "Medium",
-        "roiScore": 95,
+        "impact": "High",
+        "roiScore": 94,
         "affectedCount": 7
       },
       {
-        "action": "Title is 99 chars (max 60)",
-        "why": "Title is 99 chars (max 60)",
-        "effort": "Low",
-        "impact": "Medium",
-        "roiScore": 41,
-        "affectedCount": 3
+        "action": "Add JSON-LD schema to homepage, About, testimonials, and blog posts",
+        "why": "No structured data was confirmed on the analyzed pages, so Matt is missing LocalBusiness, RealEstateAgent, Article, and AggregateRating signals.",
+        "effort": "Medium",
+        "impact": "Critical",
+        "roiScore": 92,
+        "affectedCount": 11
+      },
+      {
+        "action": "Remove or relocate the 7 South Florida pages from homepage and sitemap",
+        "why": "Those pages dilute Northwoods geographic relevance and create avoidable local SEO confusion.",
+        "effort": "Medium",
+        "impact": "Critical",
+        "roiScore": 90,
+        "affectedCount": 7
+      },
+      {
+        "action": "Complete missing data on Oneida, Vilas, Lincoln, and Price County pages",
+        "why": "Four county pages have blank or incomplete data, including Oneida County where Rhinelander is located.",
+        "effort": "Medium",
+        "impact": "High",
+        "roiScore": 84,
+        "affectedCount": 4
       }
     ],
-    "shortTerm": [],
+    "shortTerm": [
+      {
+        "action": "Create a dedicated Rhinelander, WI landing page",
+        "why": "Matt's primary office city currently has no focused landing page despite meaningful search demand.",
+        "effort": "Medium",
+        "impact": "High",
+        "roiScore": 80,
+        "affectedCount": 1
+      },
+      {
+        "action": "Build a stronger reviews/testimonials page targeting review keywords",
+        "why": "Matt has 182 Google reviews, but only a small subset is surfaced on-site and no AggregateRating schema is present.",
+        "effort": "Medium",
+        "impact": "High",
+        "roiScore": 76,
+        "affectedCount": 1
+      },
+      {
+        "action": "Expand localized Northwoods content beyond the current 10-post blog base",
+        "why": "Recent posts are good, but Matt still trails better-resourced competitors in topic depth and breadth.",
+        "effort": "Medium",
+        "impact": "High",
+        "roiScore": 72,
+        "affectedCount": 10
+      }
+    ],
     "mediumTerm": [
       {
-        "action": "Description is 233 chars (max 160)",
-        "why": "Description is 233 chars (max 160)",
+        "action": "Create town-level community pages for key Northwoods markets",
+        "why": "Competitors publish deeper town-level and lake-area pages, while Matt is still limited mostly to county-level coverage.",
         "effort": "Medium",
-        "impact": "Medium",
-        "roiScore": 5,
-        "affectedCount": 1
+        "impact": "High",
+        "roiScore": 65,
+        "affectedCount": 6
       }
     ],
     "longTerm": [
       {
-        "action": "2 pages have thin content (below word count threshold)",
-        "why": "2 pages have thin content (below word count threshold)",
+        "action": "Publish recurring market-report content and local resource pages",
+        "why": "Market reports and evergreen local resources will strengthen Matt's topical authority and internal-link network over time.",
         "effort": "High",
-        "impact": "Medium",
-        "roiScore": 3,
-        "affectedCount": 1
+        "impact": "High",
+        "roiScore": 58,
+        "affectedCount": 12
       }
     ]
   },
@@ -2203,9 +2252,76 @@
     }
   },
   "localSeo": {
+    "businessProfile": {
+      "name": "Matt Wallmow",
+      "address": "48 W King St, Rhinelander, WI 54501",
+      "phone": "715-490-9930",
+      "website": "https://mattwallmow.com",
+      "category": "Real estate agent",
+      "rating": 5.0,
+      "reviewCount": 182,
+      "isVerified": false,
+      "latitude": 45.6366,
+      "longitude": -89.4121,
+      "source": "audit-synthesis",
+      "note": "Profile details synthesized from the final audit, schema deliverable, and client-config.json. Google Business Profile API access is still required for live reviews, photos, hours, and performance data."
+    },
+    "napConsistency": {
+      "websiteNap": {
+        "name": "Matt Wallmow",
+        "address": "48 W King St, Rhinelander, WI 54501",
+        "phone": "715-490-9930"
+      },
+      "directoryListings": [
+        {
+          "directory": "Yelp",
+          "found": false,
+          "url": "",
+          "napMatch": false,
+          "note": "Mentioned in backlink research, but not independently verified in the local SEO dataset."
+        },
+        {
+          "directory": "BBB",
+          "found": false,
+          "url": "",
+          "napMatch": false,
+          "note": "Not found in audit research."
+        },
+        {
+          "directory": "Facebook",
+          "found": true,
+          "url": "https://www.facebook.com/MattWallmowRealtor",
+          "napMatch": true,
+          "note": "Confirmed in client-config social links."
+        },
+        {
+          "directory": "Google Maps",
+          "found": false,
+          "url": "",
+          "napMatch": false,
+          "note": "Review volume implies a GBP exists, but the listing was not independently verified in this dataset."
+        }
+      ]
+    },
+    "citations": {
+      "totalFound": 1,
+      "consistent": 1,
+      "inconsistent": 0,
+      "missing": [
+        "Yelp",
+        "BBB",
+        "Google Maps"
+      ],
+      "issues": []
+    },
+    "accessNotes": {
+      "source": "audit-synthesis",
+      "note": "Profile details synthesized from the final audit, schema deliverable, and client-config.json. Google Business Profile API access is still required for live reviews, photos, hours, and performance data.",
+      "gbpAccess": false
+    },
     "reviewSentiment": {
       "summary": {
-        "totalReviews": 0,
+        "totalReviews": 182,
         "analyzedReviews": 0,
         "meanCompound": 0,
         "pctPositive": 0,
@@ -2313,16 +2429,16 @@
     "siteTrust": {
       "hasAboutPage": true,
       "hasContactPage": true,
-      "hasPrivacyPolicy": false,
+      "hasPrivacyPolicy": true,
       "hasTermsOfService": false,
-      "hasPhysicalAddress": false,
-      "hasPhoneNumber": false,
+      "hasPhysicalAddress": true,
+      "hasPhoneNumber": true,
       "hasSecureConnection": true,
       "hasOrganizationSchema": false,
       "hasLocalBusinessSchema": false,
-      "trustSignalCount": 3,
+      "trustSignalCount": 6,
       "trustSignalTotal": 9,
-      "trustSignalPct": 33.3
+      "trustSignalPct": 66.7
     },
     "pageSignals": [
       {
@@ -2484,9 +2600,9 @@
   },
   "reportingIntelligence": {
     "siteHealthGrade": {
-      "compositeScore": 57,
-      "letterGrade": "C-",
-      "floorPenaltyApplied": true
+      "compositeScore": 70,
+      "letterGrade": "B-",
+      "floorPenaltyApplied": false
     },
     "prioritizedFindings": [
       {

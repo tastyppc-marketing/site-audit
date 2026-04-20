@@ -42,7 +42,7 @@
 1. **Near-zero organic visibility:** Only 2 of 25 target keywords rank in Google (8% visibility). The site is invisible for high-value terms like "Rhinelander WI homes for sale" (3,600 monthly searches) and "Eagle River WI homes for sale" (1,600 monthly searches). *(Source: keyword-research.md)*
 2. **Zero structured data (schema markup):** No JSON-LD schema on any page -- no RealEstateAgent, no LocalBusiness, no Article, no Review schema. This is the single biggest technical gap. *(Source: client-site-structure.md, Section 6)*
 3. **South Florida pages undermining local SEO:** 7 South Florida community pages (Fort Lauderdale, Davie, Boca Raton, Aventura, Sunny Isles Beach, Bal Harbour, Miami) on the homepage and in the sitemap create geographic confusion for search engines. *(Source: content-audit.md, client-site-structure.md)*
-4. **Massive content volume gap:** 57 total pages vs. Eliason Realty's 400+ and Redman Realty's 200. No dedicated Rhinelander landing page despite it being Matt's primary office city. *(Source: competitor-analysis.md)*
+4. **Massive content volume gap:** 50 content pages (40 pages + 10 blog posts) vs. Eliason Realty's 400+ and Redman Realty's 200. No dedicated Rhinelander landing page despite it being Matt's primary office city. *(Source: competitor-analysis.md, crawl-data.json)*
 5. **Meta description crisis:** 6 of 11 major pages have NO meta description. 2 more have placeholder text ("This is how we help buyers"). *(Source: client-site-structure.md, content-audit.md)*
 
 ### ROI Opportunity
@@ -434,7 +434,7 @@ Matt operates two domains: mattwallmow.com (primary) and northwoodspropertysourc
 
 1. **Personal brand domain** -- all link equity goes directly to his site, not shared with a brokerage
 2. **Two domains** -- more SERP real estate if managed correctly
-3. **162 reviews, 5-star rating** -- leverageable for earned media and trust signals
+3. **182 Google reviews, 5-star rating** -- leverageable for earned media and trust signals
 4. **#1 Solo Agent credential** -- PR-worthy for local media pitches
 5. **Active on 6 social platforms** including TikTok (a differentiator vs. competitors)
 

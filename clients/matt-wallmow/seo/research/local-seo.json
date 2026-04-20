@@ -1,21 +1,23 @@
 {
   "businessProfile": {
     "name": "Matt Wallmow",
-    "address": "",
-    "phone": "",
+    "address": "48 W King St, Rhinelander, WI 54501",
+    "phone": "715-490-9930",
     "website": "https://mattwallmow.com",
-    "category": "",
-    "rating": null,
-    "reviewCount": 0,
-    "gbpVerified": false,
-    "source": "web-research",
-    "note": "GBP data gathered from public web research. For full data (reviews, photos, hours, map pack positions), grant Google Business Profile API access in client-config.json."
+    "category": "Real estate agent",
+    "rating": 5.0,
+    "reviewCount": 182,
+    "isVerified": false,
+    "latitude": 45.6366,
+    "longitude": -89.4121,
+    "source": "audit-synthesis",
+    "note": "Profile details synthesized from the final audit, schema deliverable, and client-config.json. Google Business Profile API access is still required for live reviews, photos, hours, and performance data."
   },
   "napConsistency": {
     "websiteNap": {
       "name": "Matt Wallmow",
-      "address": "",
-      "phone": ""
+      "address": "48 W King St, Rhinelander, WI 54501",
+      "phone": "715-490-9930"
     },
     "directoryListings": [
       {
@@ -23,39 +25,38 @@
         "found": false,
         "url": "",
         "napMatch": false,
-        "note": "HTTP undefined"
+        "note": "Mentioned in backlink research, but not independently verified in the local SEO dataset."
       },
       {
         "directory": "BBB",
         "found": false,
         "url": "",
         "napMatch": false,
-        "note": "HTTP undefined"
+        "note": "Not found in audit research."
       },
       {
         "directory": "Facebook",
-        "found": false,
-        "url": "",
-        "napMatch": false,
-        "note": "HTTP undefined"
+        "found": true,
+        "url": "https://www.facebook.com/MattWallmowRealtor",
+        "napMatch": true,
+        "note": "Confirmed in client-config social links."
       },
       {
         "directory": "Google Maps",
         "found": false,
         "url": "",
         "napMatch": false,
-        "note": "HTTP undefined"
+        "note": "Review volume implies a GBP exists, but the listing was not independently verified in this dataset."
       }
     ]
   },
   "citations": {
-    "totalFound": 0,
-    "consistent": 0,
+    "totalFound": 1,
+    "consistent": 1,
     "inconsistent": 0,
     "missing": [
       "Yelp",
       "BBB",
-      "Facebook",
       "Google Maps"
     ],
     "issues": []
