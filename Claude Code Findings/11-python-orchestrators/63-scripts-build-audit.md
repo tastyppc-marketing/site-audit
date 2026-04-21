@@ -69,3 +69,27 @@ Plus research-file loaders: `_load_crawl_data` (line 480), `_load_link_graph` (l
 3. **Parameterize homepage prefix** (line 218) — read from client-config.json or derive from crawl-data's `domain` field.
 4. **Add pre-flight research-file check.**
 5. **Parallelize independent steps.**
+
+## Additional Information
+
+### 2026-04-21 — Fix shipped (Tier 1)
+
+Committed as `76e8535` on branch `site-audit-fixes`.
+
+Final form (chose null-safe variant over the raw `link_graph.get(...)` recommendation so a missing `link-graph.json` path stays graceful):
+```python
+edges = (link_graph or {}).get("edges", {})
+```
+
+**Empirical verification on matt-wallmow** (isolated run: `python platform/scripts/build_audit.py --type seo --domain mattwallmow.com --research-dir clients/matt-wallmow/seo/research --output /tmp/matt-audit-data.post-fix1.json --skip-api`):
+
+| Field | Before | After |
+|---|---|---|
+| `internalLinking.total_pages` | 0 | 52 |
+| `internalLinking.total_internal_links` | 0 | 93 |
+| `internalLinking.orphans` count | 11 | 5 |
+| `internalLinking.nodes` count | 0 | 52 |
+
+Log confirms correct extraction: `internal_link_analysis_start edge_count=11 sitemap_url_count=11` → `build_graph_complete edge_count=93 node_count=11` → analyzer produced hubs, orphans, pagerank, depth.
+
+Fix verified end-to-end on the reference client.

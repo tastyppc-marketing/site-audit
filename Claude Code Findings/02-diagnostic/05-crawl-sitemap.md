@@ -271,3 +271,29 @@ Registered as `npm run crawl` in `template/package.json:7`.
 - **Grep all analyzers' Python source for `page.get('wordCount'`, `page.get('title'`, etc.** — confirm they handle the sparse error-page shape gracefully. If any don't, we need to add guards before fixing anything in the analyzers themselves.
 - **Check `test_*.py`** to see if crawl-data fixtures exist and what shape they cover — tests may need updating if we change the schema.
 - **Confirm which exact clients were generated from template vs inline** — spot-check each `clients/*/scripts/crawl-sitemap.js` size and features. Build a migration plan.
+
+## Additional Information
+
+### 2026-04-21 — Bug #2 (fetchXmlRaw) shipped as Tier 1.5
+
+Committed as `88a67e6` on branch `site-audit-fixes`.
+
+Port is an adaptation of liane-jamason's patch, minus the Chromium `--no-sandbox` launch args (out of scope; defer to environment-level fix if needed). Three call sites switched from Playwright `fetchText` → Node-native `fetchXmlRaw`:
+- Sitemap-candidate probe loop (`sitemap.xml`, `sitemap_index.xml`, `sitemap`).
+- Sitemap-index child fetch inside `fetchAllSitemapUrls`.
+- Flat urlset fetch inside `fetchAllSitemapUrls`.
+
+URL extraction switched from `page.evaluate` DOM selectors to regex `<loc>([^<]+)<\/loc>` over the raw response text. `fetchText` itself is retained for page-analysis calls — only XML resources use the raw path.
+
+**Why promoted to Tier 1.5:** Finding #67 (Agent 2 overwrite removal) left Yoast-stylesheet clients with no crawl-data producer. This bug blocked the empirical verification of Fix 3. Addressing it here keeps Tier 1 self-contained — upstream crawl-sitemap now produces 84 pages for matt (where the pre-patch pipeline produced 0 via the script and 11 via Agent 2's curation).
+
+**Empirical verification (matt-wallmow, Yoast XSL sitemap):**
+- Pre-patch: `=== SITEMAP === / No standard sitemap found.` → 0 URLs, no output files.
+- Post-patch: `Found sitemap at: https://mattwallmow.com/sitemap.xml / Sitemap index with 5 child sitemaps` → 84 URLs → 84 content pages → link-graph with 69 sources.
+
+Out-of-scope items this fix does NOT address:
+- XML declaration handling in dynamically-generated sitemaps.
+- Gzipped sitemap (`.xml.gz`) support.
+- Sitemap size limits / streaming parsing.
+- Retry logic beyond the single 15-second request timeout.
+- Chromium `--no-sandbox` launch flags (liane included these; left out here).

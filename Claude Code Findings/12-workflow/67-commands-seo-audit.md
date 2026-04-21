@@ -86,3 +86,20 @@ With this finding, we have complete coverage of:
 **Next phase per INDEX.md:** synthesize the cross-cutting patterns into a fix queue with blast-radius × effort scoring.
 
 Ready for the synthesis phase.
+
+## Additional Information
+
+### 2026-04-21 — Fix shipped (Tier 1)
+
+Committed as `ff952ad` on branch `site-audit-fixes`.
+
+**Scope of deletion (larger than originally spec'd):** removed lines 379–397, which is the *full* Agent 2 overwrite block — both the `link-graph.json` write instructions (lines 379–389) AND the `crawl-data.json` write instructions (lines 391–397). Per the audit's cross-reference to Finding #5, both JSONs are authoritative outputs of `crawl-sitemap.js`; Agent 2 was overwriting *both* when it should have been producing neither. Agent 2's remaining duty — synthesizing `client-site-structure.md` (lines 399–409) — is preserved and coherent.
+
+**Empirical verification (dependency chain):**
+1. Standalone `crawl-sitemap.js mattwallmow.com --analyze` returns 0 URLs pre-patch: matt's sitemap_index.xml uses Yoast's XSL stylesheet, which Playwright's `page.content()` misparses. This is Finding #5 bug #2 (`fetchXmlRaw`). Fixed in commit `88a67e6` (Tier 1.5).
+2. Post-`fetchXmlRaw` standalone crawl on matt: 84 sitemap URLs discovered (5 child sitemaps) → 84 pages analyzed → link-graph with 69 source-page edges. Authoritative, complete, no Agent 2 involvement.
+3. Matt's on-disk `crawl-data.json` and `link-graph.json` were not overwritten during verification (template-relative outputs landed in `template/seo/research/`, now cleaned up).
+
+**Revisit conclusion: Fix 3 deletion stands.** With `fetchXmlRaw` in place, crawl-sitemap is the sole authoritative writer of both JSONs. Agent 2's overwrite was never curation — it was truncation (84 → 11 pages). Removing it was correct.
+
+**Follow-up:** matt's existing 11-page `crawl-data.json` should be regenerated via a proper `/seo-audit` run (or a direct `crawl-sitemap.js` invocation from his client dir) whenever Tier 2+ planning is ready to use matt as a live-reference.
