@@ -22,6 +22,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { writeJsonAtomic } = require('./lib/atomic-write');
 
 const FORCE = process.argv.includes('--force');
 
@@ -458,7 +459,7 @@ function main() {
     console.log('Run with --force to overwrite.');
   } else if (Object.keys(updates).length > 0) {
     Object.assign(data, updates);
-    fs.writeFileSync(AUDIT_DATA_PATH, JSON.stringify(data, null, 2));
+    writeJsonAtomic(AUDIT_DATA_PATH, data, { indent: 2, trailingNewline: false });
     console.log(`\nWrote ${Object.keys(updates).length} field(s) to ${AUDIT_DATA_PATH}`);
     if (skipped.length) console.log('Skipped (already populated): ' + skipped.join(', '));
   }
