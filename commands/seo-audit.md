@@ -66,13 +66,23 @@ mkdir -p seo/{research,content,reports} ppc/{exports,research,reports} scripts
 
 ## Step 1.5: Sync Client Scripts from Template
 
-Before running ANY audit (new or re-run), sync client scripts with the current template. This ensures every audit runs the latest fixed scripts — no stale forks. Client copies that differ are **backed up** before being replaced, so nothing is ever lost.
+**⚠ DO NOT REMOVE OR SKIP THIS STEP.** It is the architectural guarantee that every audit runs the latest fixed scripts. Removing it reintroduces silent fork drift — the exact class of bug that caused the Tier 1 audit work.
+
+Before running ANY audit (new or re-run), sync client scripts with the current template. Client copies that differ are **backed up** before being replaced, so nothing is ever lost. Every file under `template/scripts/` is covered recursively — not just `.js`, not just known subdirs. This future-proofs the sync against adding new script types or directory structure.
 
 ```bash
-TIMESTAMP=$(date +%Y%m%d-%H%M%S)
+# Sanity check: template must have a scripts/ dir. If not, fail loudly — something is wrong with TEMPLATE_DIR resolution.
+if [ ! -d "$TEMPLATE_DIR/scripts" ]; then
+  echo "FATAL: TEMPLATE_DIR=$TEMPLATE_DIR has no scripts/ subdir. Refusing to sync. Fix Step 1's TEMPLATE_DIR resolution."
+  exit 1
+fi
+
+# Timestamp + PID to guarantee uniqueness even if two audits launch in the same second.
+TIMESTAMP="$(date +%Y%m%d-%H%M%S)-$$"
 BACKUP_DIR="$CLIENT_DIR/scripts/_backup/$TIMESTAMP"
 SYNCED=0
 BACKED_UP=0
+ORPHANS=""
 
 sync_file() {
   local src="$1" dst="$2" rel="$3"
@@ -91,26 +101,45 @@ sync_file() {
   fi
 }
 
-# Sync top-level scripts and lib/ helpers from template
-for src in "$TEMPLATE_DIR/scripts"/*.js; do
-  [ -f "$src" ] || continue
-  rel="$(basename "$src")"
+# Walk every file under template/scripts/ recursively — covers .js, .ts, .py, .sh,
+# nested subdirs, future-proof against any addition. Excludes _backup/ if it ever
+# ends up in the template (shouldn't, but defensive).
+while IFS= read -r -d '' src; do
+  rel="${src#$TEMPLATE_DIR/scripts/}"
+  case "$rel" in _backup/*) continue ;; esac
   sync_file "$src" "$CLIENT_DIR/scripts/$rel" "$rel"
-done
-for src in "$TEMPLATE_DIR/scripts/lib"/*.js; do
-  [ -f "$src" ] || continue
-  rel="lib/$(basename "$src")"
-  sync_file "$src" "$CLIENT_DIR/scripts/$rel" "$rel"
-done
+done < <(find "$TEMPLATE_DIR/scripts" -type f -print0)
+
+# Detect orphans: files in client/scripts that are NOT in template/scripts. Do not
+# auto-delete (could be intentional client customization) — WARN only.
+while IFS= read -r -d '' dst; do
+  rel="${dst#$CLIENT_DIR/scripts/}"
+  case "$rel" in _backup/*) continue ;; esac
+  if [ ! -f "$TEMPLATE_DIR/scripts/$rel" ]; then
+    ORPHANS="$ORPHANS  $rel\n"
+  fi
+done < <(find "$CLIENT_DIR/scripts" -type f -print0 2>/dev/null)
 
 if [ "$SYNCED" -eq 0 ]; then
   echo "Client scripts already match template — no sync needed."
 else
   echo "Synced $SYNCED script(s). $BACKED_UP existing client copies were backed up to scripts/_backup/$TIMESTAMP/ (safe to delete once the audit succeeds)."
 fi
+
+if [ -n "$ORPHANS" ]; then
+  echo ""
+  echo "WARNING: client has script files NOT in template (possible intentional customization, possible stale leftover):"
+  echo -e "$ORPHANS"
+  echo "Review these manually. Delete if stale, or add to template if they should be part of the baseline."
+fi
 ```
 
-If the backup dir has files after a run, it's a hint that the client was drifting from template — worth reviewing whether those customizations were intentional. Delete old `scripts/_backup/*` subfolders after successful audits to keep the tree tidy.
+**Contract:**
+- Template is the single source of truth for every file under `scripts/`.
+- Client drift from template is a bug by default. Step 1.5 heals it automatically.
+- Intentional client customizations belong in the template (promote the fix upstream) or in a clearly-named sibling directory outside `scripts/` (e.g., `scripts-custom/`) — but NOT in `scripts/` itself.
+- Backups in `scripts/_backup/<timestamp>-<pid>/` preserve everything the sync touched. Delete after verifying nothing important was lost.
+- Orphan warnings surface files the sync leaves alone. Review and promote/delete; don't ignore.
 
 ## Step 1.6: Dependency Check
 
