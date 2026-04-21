@@ -3,6 +3,24 @@
 const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
+const https = require('https');
+const http = require('http');
+
+function fetchXmlRaw(url) {
+  return new Promise((resolve) => {
+    const mod = url.startsWith('https') ? https : http;
+    const req = mod.get(url, { headers: { 'User-Agent': 'Mozilla/5.0 (compatible)' } }, (res) => {
+      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+        return fetchXmlRaw(res.headers.location).then(resolve);
+      }
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => resolve(data));
+    });
+    req.on('error', () => resolve(null));
+    req.setTimeout(15000, () => { req.destroy(); resolve(null); });
+  });
+}
 
 // IDX / filter page patterns — auto-generated thin content to skip
 const idxPatterns = [
@@ -47,41 +65,32 @@ async function fetchText(page, url) {
   }
 }
 
-// Recursively fetch all URLs from sitemaps (handles sitemap index files)
+// Recursively fetch all URLs from sitemaps (handles sitemap index files).
+// Uses raw http(s).get so XSL-stylesheet XML sitemaps (e.g. Yoast) aren't
+// misparsed by Playwright's XML viewer.
 async function fetchAllSitemapUrls(page, sitemapUrl) {
-  const content = await fetchText(page, sitemapUrl);
+  const content = await fetchXmlRaw(sitemapUrl);
   if (!content) return [];
 
   const isSitemapIndex = content.includes('<sitemapindex');
 
   if (isSitemapIndex) {
-    // Extract child sitemap URLs
-    const childSitemaps = await page.evaluate(() => {
-      const locs = document.querySelectorAll('sitemap > loc, sitemapindex > sitemap > loc');
-      return Array.from(locs).map(el => el.textContent.trim());
-    });
+    const childSitemaps = Array.from(content.matchAll(/<loc>([^<]+)<\/loc>/g)).map(m => m[1].trim());
     console.log(`  Sitemap index with ${childSitemaps.length} child sitemaps`);
 
     let allUrls = [];
     for (const childUrl of childSitemaps) {
       console.log(`  Fetching: ${childUrl}`);
-      const childContent = await fetchText(page, childUrl);
+      const childContent = await fetchXmlRaw(childUrl);
       if (childContent) {
-        const childPageUrls = await page.evaluate(() => {
-          const locs = document.querySelectorAll('loc');
-          return Array.from(locs).map(el => el.textContent.trim());
-        });
+        const childPageUrls = Array.from(childContent.matchAll(/<loc>([^<]+)<\/loc>/g)).map(m => m[1].trim());
         allUrls = allUrls.concat(childPageUrls);
         console.log(`    -> ${childPageUrls.length} URLs`);
       }
     }
     return allUrls;
   } else {
-    // Simple urlset
-    return await page.evaluate(() => {
-      const locs = document.querySelectorAll('loc');
-      return Array.from(locs).map(el => el.textContent.trim());
-    });
+    return Array.from(content.matchAll(/<loc>([^<]+)<\/loc>/g)).map(m => m[1].trim());
   }
 }
 
@@ -306,7 +315,7 @@ async function main() {
     let foundSitemapUrl = null;
 
     for (const url of sitemapCandidates) {
-      const content = await fetchText(page, url);
+      const content = await fetchXmlRaw(url);
       if (content && (content.includes('<urlset') || content.includes('<sitemapindex'))) {
         foundSitemapUrl = url;
         console.log(`Found sitemap at: ${url}`);
