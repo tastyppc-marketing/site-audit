@@ -35,7 +35,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { postJson } = require('./lib/fetch-with-retry');
+const { postJson, Semaphore } = require('./lib/fetch-with-retry');
 
 const DFS_BASE = 'https://api.dataforseo.com/v3';
 const DEFAULT_LIMIT = 200;
