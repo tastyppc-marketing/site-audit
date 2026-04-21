@@ -8,7 +8,7 @@ import httpx
 import structlog
 from tenacity import (
     retry,
-    retry_if_exception_type,
+    retry_if_exception,
     stop_after_attempt,
     wait_exponential,
 )
@@ -16,6 +16,15 @@ from tenacity import (
 from audit_platform.config import Settings
 
 logger = structlog.get_logger(__name__)
+
+
+def _retry_on_transient(exc: BaseException) -> bool:
+    """Retry on transport-level errors, timeouts, and HTTP 5xx responses."""
+    if isinstance(exc, (httpx.TransportError, httpx.TimeoutException)):
+        return True
+    if isinstance(exc, httpx.HTTPStatusError):
+        return 500 <= exc.response.status_code < 600
+    return False
 
 
 class BaseConnector:
@@ -77,7 +86,7 @@ class BaseConnector:
     @retry(
         stop=stop_after_attempt(3),
         wait=wait_exponential(min=1, max=30),
-        retry=retry_if_exception_type((httpx.TransportError, httpx.TimeoutException)),
+        retry=retry_if_exception(_retry_on_transient),
         reraise=True,
     )
     async def _request(
@@ -98,6 +107,12 @@ class BaseConnector:
         response.raise_for_status()
         return response
 
+    @retry(
+        stop=stop_after_attempt(3),
+        wait=wait_exponential(min=1, max=30),
+        retry=retry_if_exception(_retry_on_transient),
+        reraise=True,
+    )
     def _request_sync(
         self,
         method: str,
