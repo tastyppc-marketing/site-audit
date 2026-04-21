@@ -27,6 +27,7 @@
 const fs = require('fs');
 const path = require('path');
 const { postJson } = require('./lib/fetch-with-retry');
+const { writeJsonAtomic } = require('./lib/atomic-write');
 
 const DFS_BASE = 'https://api.dataforseo.com/v3';
 const DEFAULT_LOCATION_CODE = 2840;
@@ -294,7 +295,7 @@ async function main() {
 
   if (auditPath && auditData) {
     const updatedCount = updateAuditKeywordVolumes(auditData, results);
-    fs.writeFileSync(auditPath, `${JSON.stringify(auditData, null, 2)}\n`);
+    writeJsonAtomic(auditPath, auditData, { indent: 2, trailingNewline: true });
     console.error(`Updated ${updatedCount} keywords in audit-data.json with real volumes`);
   }
 }
