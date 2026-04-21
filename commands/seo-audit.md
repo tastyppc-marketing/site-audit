@@ -802,11 +802,11 @@ Note: This gathers NAP from the client website and checks directory presence (Ye
 
 ### Local Pack tracking (DataForSEO, ~$0.05 for 25 keywords):
 ```bash
-node scripts/gather-local-pack.js --from-audit seo/audit-data.json --location 2840
+node scripts/gather-local-pack.js --from-audit seo/audit-data.json
 ```
 Output: `seo/research/local-pack-data.json`
 
-Checks if the client business appears in Google's Local Pack (map pack) for each tracked keyword. Uses client.name from audit-data.json for fuzzy matching.
+Checks if the client business appears in Google's Local Pack (map pack) for each tracked keyword. Uses client.name from audit-data.json for fuzzy matching. The DataForSEO `location_code` is read from `client-config.json` field `locationCode` (falls back to `2840` country-level US with a visible warning). Pass `--location <code>` on the CLI to override for ad-hoc runs.
 
 **Verify all files exist before proceeding:**
 ```bash
