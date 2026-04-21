@@ -132,18 +132,18 @@ async function main() {
         continue;
       }
 
-      // Find local_pack items in the SERP result
+      // Collect local_pack items — DataForSEO emits each pack entry as a
+      // top-level item with type: 'local_pack' (up to 3 per SERP).
       const items = task.result[0].items || [];
-      const localPackItem = items.find(item => item.type === 'local_pack');
+      const localPackEntries = items.filter(item => item.type === 'local_pack');
 
-      if (!localPackItem || !localPackItem.items || localPackItem.items.length === 0) {
+      if (localPackEntries.length === 0) {
         console.error(`    No local pack found`);
         results.push({ keyword, foundInPack: false, position: null, packItems: [] });
         continue;
       }
 
-      const packEntries = localPackItem.items.slice(0, 3);
-      const packItems = packEntries.map((entry, idx) => ({
+      const packItems = localPackEntries.slice(0, 3).map((entry, idx) => ({
         title: entry.title || entry.domain || '',
         rating: entry.rating ? (entry.rating.value || entry.rating) : null,
         reviews: entry.rating ? (entry.rating.votes_count || null) : null,
