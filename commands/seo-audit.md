@@ -376,26 +376,6 @@ prompt: |
     - Schema markup presence (JSON-LD)
     - OG tags presence
 
-  Step 5 — Build the internal link graph:
-    For every page analyzed, record which internal pages it links to (contextual links only, 
-    not nav/footer boilerplate). Write seo/research/link-graph.json with:
-    {
-      "domain": "{CLIENT_SITE}",
-      "crawlDate": "YYYY-MM-DD",
-      "edges": {
-        "https://example.com/page-a/": ["https://example.com/page-b/", "https://example.com/page-c/"],
-        ...
-      }
-    }
-
-  Write seo/research/crawl-data.json with per-page data:
-    { "domain": "...", "crawlDate": "...", "totalSitemapUrls": N, "contentPages": N,
-      "pages": [{ "url", "title", "titleLength", "description", "descriptionLength",
-        "h1": [], "h2": [], "h2Count", "h3Count", "wordCount", "imgCount", "imgWithoutAlt",
-        "totalInternalLinks", "contextualInternalLinks", "externalLinks",
-        "canonical", "hasSchema", "schemaTypes": [], "ogTitle", "ogDescription",
-        "issues": [], "statusCode" }, ...] }
-
   Write seo/research/client-site-structure.md with:
   - Sitemap overview (total pages, URL categories, structure analysis)
   - Navigation and internal linking assessment
