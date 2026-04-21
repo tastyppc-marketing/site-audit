@@ -84,13 +84,17 @@ class DataForSEOConnector(BaseConnector):
     ) -> dict[str, Any]:
         """POST *payload* to ``{_BASE_URL}{path}`` and return raw JSON.
 
-        Raises ``httpx.HTTPStatusError`` on HTTP-level failures.
+        Routes through ``BaseConnector._request_sync`` so every call gains
+        transparent retry on HTTP 5xx, transport errors, and timeouts
+        (3 attempts with exponential backoff). ``_request_sync`` also
+        handles rate-limiting and ``raise_for_status``.
+
+        Raises ``httpx.HTTPStatusError`` on 4xx or on 5xx after retries
+        are exhausted.
         """
-        self._rate_limit_sync()
         url = f"{_BASE_URL}{path}"
         self.log.debug("dataforseo_request", url=url, tasks=len(payload))
-        resp = self.sync_client.post(url, json=payload, auth=self._auth)
-        resp.raise_for_status()
+        resp = self._request_sync("POST", url, json=payload, auth=self._auth)
         return resp.json()
 
     def _unwrap(
