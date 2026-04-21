@@ -42,14 +42,20 @@ Create `client-config.json` in the client root from the shared template and fill
 
 ## Step 1: Project Setup
 
-Copy the reusable template into a client-specific folder. The template lives at the project root.
+Copy the reusable template into a client-specific folder (new clients only). The template lives at the project root.
 
 ```bash
-# Create client folder from template (scripts, package.json, audit-data.json all included)
-TEMPLATE_DIR="/mnt/c/Dev/site audit/template"
-CLIENT_DIR="/mnt/c/Dev/site audit/clients/${CLIENT_NAME_SLUG}"
+# Resolve template + client dirs relative to the repo root (works on macOS/Linux/WSL)
+REPO_ROOT=$(git -C "$PWD" rev-parse --show-toplevel 2>/dev/null || pwd)
+TEMPLATE_DIR="$REPO_ROOT/template"
+CLIENT_DIR="$REPO_ROOT/clients/${CLIENT_NAME_SLUG}"
 
-cp -r "$TEMPLATE_DIR" "$CLIENT_DIR"
+# Only create from template if the client folder doesn't exist yet
+if [ ! -d "$CLIENT_DIR" ]; then
+  cp -r "$TEMPLATE_DIR" "$CLIENT_DIR"
+  echo "Created new client folder at $CLIENT_DIR"
+fi
+
 cd "$CLIENT_DIR"
 ```
 
@@ -57,6 +63,56 @@ If the template doesn't exist, create the structure manually:
 ```bash
 mkdir -p seo/{research,content,reports} ppc/{exports,research,reports} scripts
 ```
+
+## Step 1.5: Sync Client Scripts from Template
+
+Before running ANY audit (new or re-run), sync client scripts with the current template. This ensures every audit runs the latest fixed scripts — no stale forks. Client copies that differ are **backed up** before being replaced, so nothing is ever lost.
+
+```bash
+TIMESTAMP=$(date +%Y%m%d-%H%M%S)
+BACKUP_DIR="$CLIENT_DIR/scripts/_backup/$TIMESTAMP"
+SYNCED=0
+BACKED_UP=0
+
+sync_file() {
+  local src="$1" dst="$2" rel="$3"
+  if [ ! -f "$dst" ]; then
+    mkdir -p "$(dirname "$dst")"
+    cp "$src" "$dst"
+    echo "  [NEW]     $rel"
+    SYNCED=$((SYNCED+1))
+  elif ! cmp -s "$src" "$dst"; then
+    mkdir -p "$BACKUP_DIR/$(dirname "$rel")"
+    cp "$dst" "$BACKUP_DIR/$rel"
+    cp "$src" "$dst"
+    echo "  [UPDATED] $rel (old version saved to scripts/_backup/$TIMESTAMP/)"
+    SYNCED=$((SYNCED+1))
+    BACKED_UP=$((BACKED_UP+1))
+  fi
+}
+
+# Sync top-level scripts and lib/ helpers from template
+for src in "$TEMPLATE_DIR/scripts"/*.js; do
+  [ -f "$src" ] || continue
+  rel="$(basename "$src")"
+  sync_file "$src" "$CLIENT_DIR/scripts/$rel" "$rel"
+done
+for src in "$TEMPLATE_DIR/scripts/lib"/*.js; do
+  [ -f "$src" ] || continue
+  rel="lib/$(basename "$src")"
+  sync_file "$src" "$CLIENT_DIR/scripts/$rel" "$rel"
+done
+
+if [ "$SYNCED" -eq 0 ]; then
+  echo "Client scripts already match template — no sync needed."
+else
+  echo "Synced $SYNCED script(s). $BACKED_UP existing client copies were backed up to scripts/_backup/$TIMESTAMP/ (safe to delete once the audit succeeds)."
+fi
+```
+
+If the backup dir has files after a run, it's a hint that the client was drifting from template — worth reviewing whether those customizations were intentional. Delete old `scripts/_backup/*` subfolders after successful audits to keep the tree tidy.
+
+## Step 1.6: Dependency Check
 
 Check if dependencies are installed:
 ```bash
@@ -75,9 +131,11 @@ All subsequent steps run from within the client folder. All file paths (seo/rese
 
 ---
 
-## Step 2: Create Playwright Scripts
+## Step 2: Verify Playwright Scripts Are Present
 
-Write these scripts if they don't already exist. Check with `ls scripts/` first.
+Step 1.5 should have synced all scripts from template. Confirm with `ls scripts/` — you should see at minimum: `browse.js`, `crawl-sitemap.js`, `check-technical.js`, `ddg-search.js`, and all `gather-*.js` files. If any are missing, Step 1.5 failed or the template is incomplete. Do NOT hand-write scripts to fill gaps — fix the template or Step 1.5 instead.
+
+The reference implementations below document the expected contract and should be updated in the template (not inlined per-client) if the API surface changes.
 
 ### scripts/browse.js — General Page Browser
 

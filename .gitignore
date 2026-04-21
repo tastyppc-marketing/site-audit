@@ -3,6 +3,9 @@ Livinginparkcity/
 archive/root-node_modules-old/
 ~$*
 
+# Per-client auto-sync backups (created by /seo-audit Step 1.5)
+clients/*/scripts/_backup/
+
 # Secrets
 service-account.json
 client_secret*.json
