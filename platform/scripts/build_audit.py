@@ -213,7 +213,7 @@ class AuditOrchestrator:
         from audit_platform.analyzers.internal_linking import InternalLinkAnalyzer
         analyzer = InternalLinkAnalyzer()
 
-        edges = link_graph or {}
+        edges = (link_graph or {}).get("edges", {})
         sitemap_urls = [p.get("url", "") for p in (crawl_data or {}).get("pages", [])]
         homepage = f"https://www.{self.args.domain}" if self.args.domain else ""
 
