@@ -92,12 +92,19 @@ const kwTableRows = [
    { text: 'Your Site', options: { bold: true, color: WHITE, fill: { color: DARK } } },
    { text: d.competitor.primaryLabel, options: { bold: true, color: WHITE, fill: { color: DARK } } },
    { text: '#1 Result', options: { bold: true, color: WHITE, fill: { color: DARK } } }],
-  ...d.keywords.slice(0, 8).map(k => [
-    k.keyword, k.volume,
-    k.clientRank === 'Not found' ? { text: 'Not found', options: { color: RED } } : { text: k.clientRank, options: { color: GREEN } },
-    k.competitorRank === 'Not found' ? 'Not found' : { text: k.competitorRank, options: { color: GREEN } },
-    k.topResult
-  ])
+  ...d.keywords.slice(0, 8).map(k => {
+    const isClientNotFound = !k.clientRank || k.clientRank === 'Not found';
+    const isCompNotFound = !k.competitorRank || k.competitorRank === 'Not found';
+    return [
+      k.keyword || '',
+      k.volume == null ? '—' : String(k.volume),
+      isClientNotFound
+        ? { text: 'Not found', options: { color: RED } }
+        : { text: String(k.clientRank), options: { color: GREEN } },
+      isCompNotFound ? 'Not found' : { text: String(k.competitorRank), options: { color: GREEN } },
+      k.topResult || ''
+    ];
+  })
 ];
 
 slide.addTable(kwTableRows, {
