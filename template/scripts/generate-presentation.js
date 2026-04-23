@@ -117,23 +117,47 @@ slide.addTable(kwTableRows, {
 slide = pptx.addSlide();
 addTitleBar(slide, 'The Content Gap');
 
+// Mirrors pages/competitors.js:64-71 — derive column count from row keys, not
+// from competitor.all (the two can diverge when normalizer adds a comp slot
+// without a matching competitor metadata entry).
+const compKeys = (function (rows) {
+  if (!rows.length) return [];
+  return Object.keys(rows[0]).filter(k => /^comp\d+$/.test(k) && rows[0][k] !== undefined)
+    .sort((a, b) => parseInt(a.slice(4), 10) - parseInt(b.slice(4), 10));
+})(d.competitorComparison);
+
+const headerOpts = { bold: true, color: WHITE, fill: { color: DARK } };
+const compHeaderRow = [
+  { text: 'Metric', options: headerOpts },
+  { text: 'Your Site', options: headerOpts },
+];
+compKeys.forEach((_, i) => {
+  const meta = d.competitor.all[i];
+  compHeaderRow.push({ text: (meta && meta.name) || ('Comp ' + (i + 1)), options: headerOpts });
+});
+compHeaderRow.push({ text: 'Gap', options: headerOpts });
+
 const compTableRows = [
-  [{ text: 'Metric', options: { bold: true, color: WHITE, fill: { color: DARK } } },
-   { text: 'Your Site', options: { bold: true, color: WHITE, fill: { color: DARK } } },
-   { text: d.competitor.all[0]?.name || 'Comp 1', options: { bold: true, color: WHITE, fill: { color: DARK } } },
-   { text: d.competitor.all[1]?.name || 'Comp 2', options: { bold: true, color: WHITE, fill: { color: DARK } } },
-   { text: 'Gap', options: { bold: true, color: WHITE, fill: { color: DARK } } }],
-  ...d.competitorComparison.map(row => [
-    row.metric,
-    { text: String(row.client), options: { color: RED, bold: true } },
-    String(row.comp1 || ''),
-    String(row.comp2 || ''),
-    { text: row.gap, options: { color: RED } }
-  ])
+  compHeaderRow,
+  ...d.competitorComparison.map(row => {
+    const cells = [
+      row.metric,
+      { text: String(row.client == null ? '' : row.client), options: { color: RED, bold: true } },
+    ];
+    compKeys.forEach(key => cells.push(String(row[key] == null ? '' : row[key])));
+    cells.push({ text: String(row.gap == null ? '' : row.gap), options: { color: RED } });
+    return cells;
+  })
 ];
 
+// Dynamic column widths: Metric (2.5) + Client (1.5) + N comps (share remainder) + Gap (1.5).
+// Total slide width budget: 12 inches. Comps share 12 - 2.5 - 1.5 - 1.5 = 6.5 inches.
+const compCount = compKeys.length || 1;
+const compColW = Math.max(0.7, 6.5 / compCount);
+const compColWidths = [2.5, 1.5].concat(compKeys.map(() => compColW)).concat([1.5]);
+
 slide.addTable(compTableRows, {
-  x: 0.5, y: 1.8, w: 12, colW: [2.5, 2, 2.5, 2.5, 2.5],
+  x: 0.5, y: 1.8, w: 12, colW: compColWidths,
   fontSize: 12, fontFace: 'Arial',
   border: { type: 'solid', pt: 0.5, color: 'cccccc' },
 });
