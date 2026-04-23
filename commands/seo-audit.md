@@ -780,6 +780,14 @@ node scripts/gather-backlinks.js {CLIENT_DOMAIN} {COMPETITOR_DOMAINS_SPACE_SEPAR
 ```
 Output: `seo/research/client-backlinks.json` + `seo/research/backlinks-{competitor-domain}.json`
 
+### Backlink quality classification (rule-based, no auth needed):
+```bash
+node scripts/analyze-backlink-quality.js
+```
+Output: enriches `seo/research/client-backlinks.json` and each `seo/research/backlinks-*.json` in place with a `qualitySummary` block (legitimate / suspicious / spam counts, top samples, classifier metadata). Backups are written as `*.json.bak`.
+
+Note: This is **non-blocking**. If `gather-backlinks.js` skipped (e.g. DataForSEO budget cap, missing competitor list), the script prints `"No backlink files found to analyze."` and exits 0 — surface that as a warning, do NOT abort the audit. Must run BEFORE `populate-audit-data.js` (Step 5.6) so any enriched `qualitySummary` is present when the MD→JSON bridge runs.
+
 ### Keyword volumes (DataForSEO, API key only):
 ```bash
 node scripts/gather-keyword-volumes.js --from-audit seo/audit-data.json
