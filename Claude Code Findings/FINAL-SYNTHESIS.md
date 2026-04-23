@@ -553,3 +553,20 @@ landed (per §5d step "Open all 9 HTML report pages") was NOT executed in
 this session — it requires DFS + GBP credentials that live in 1Password.
 The unit-level verifications above cover everything that's runnable
 without secrets.
+
+### Tier 3 advisor catches — disposition (2026-04-23)
+
+After Tier 3 shipped, advisor flagged 6 follow-up catches. Disposition:
+
+| # | Catch | Disposition |
+|---|---|---|
+| 1 | `organicTrafficTotal` silent-failure FYI (try/catch omits the field) | Operator verification checklist appended to F#10 `## Additional Information`. Code is correct by design — no change. |
+| 2 | Audit runtime grows (Fix 10 doubles DFS calls; Fix 9 surfaces Realtor.com 429 retry-storm ~70s) | **Band-aid shipped:** `gather-local-seo.js` directory fetches now cap at 1 retry. Reclaims ~60s per audit on matt. Proper fix is transport-layer — tracked with the Zillow deferral. |
+| 3 | UI card reordering: "Total organic traffic" placed before "Est. top-100 traffic" in `keywords.js` + `competitors.js` | Intentional. Total (domain-level, uncapped) is the primary metric; top-100 sum is the back-compat secondary. No change. |
+| 4 | Zillow URL change deferred (CloudFront 403 either form) | Already documented in this file (Tier 3 SHIPPED block above) + F#13 `## Additional Information`. No additional action. |
+| 5 | `utils/__init__.py` doesn't export `write_json_atomic` | **Shipped** — one-line export added alongside `setup_logging` / `retry`. |
+| 6 | 11 pre-existing pytest failures (`test_internal_linking.py` graph density / `test_local_seo.py` sentiment) | Confirmed pre-existing at `304ae6a`. Not a Tier 3 regression; owned by whoever owns the internal-linking / local-seo analyzers. No action this tier. |
+
+Catches #1, #5, and a band-aid for #2 each shipped as their own commit on
+`site-audit-fixes`. Catches #3, #4, and #6 are status-quo / already-tracked
+elsewhere.

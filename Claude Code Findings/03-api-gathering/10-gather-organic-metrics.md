@@ -266,3 +266,54 @@ sum only) is preserved unchanged — no inert fix. What WAS verified locally:
 `languageCode: "en"` was added to matt-wallmow's `client-config.json` for
 parity with the `locationCode` entry from Tier 2 fix #12. No behavior
 change — just suppresses the `languageCode missing` warning on his runs.
+
+### Operator verification (post-next-/seo-audit-run)
+
+Fix 10 adds a second DFS call to `/dataforseo_labs/google/domain_rank_overview/live`
+per domain, populating `organicTrafficTotal`. The call is wrapped in
+try/catch (`gather-organic-metrics.js:251-266`); on failure the field is
+**OMITTED** from the entry rather than set to null. That's defensive —
+consumers fall back to `organicTraffic` (top-100 sum) transparently — but
+it's also a **silent-failure path**: no error thrown, only a stderr WARNING.
+
+Verification checklist for the next real `/seo-audit` run (requires DFS
+creds from 1Password, not runnable in this repo clone):
+
+1. After `gather-organic-metrics.js` exits, check:
+
+   ```bash
+   jq '.data[] | {domain, organicTraffic, organicTrafficTotal}' \
+     seo/research/organic-metrics.json
+   ```
+
+   Expect: every domain has `organicTrafficTotal` numerically `>= organicTraffic`
+   for any domain ranking for `> 100` keywords. If `organicTrafficTotal` is
+   missing for ALL domains, grep stderr for
+   `"domain_rank_overview/live returned no organic.etv"` — that means the
+   summary endpoint didn't emit `metrics.organic`. Escalate to DataForSEO
+   support if persistent.
+
+2. Open the multipage report, **Keywords** page — expect TWO traffic cards:
+   "Total organic traffic" (green) AND "Est. top-100 traffic" (orange).
+   If only the orange one shows, the normalizer at
+   `generate-multipage-report.js:1832` and `:1841` didn't find
+   `organicTrafficTotal` in `research/organic-metrics.json` — see step 1.
+
+3. Open **Competitors** page, Domain Metrics table — expect a
+   "Total Organic Traffic" row above "Est. Top-100 Traffic". Both should
+   be populated for the client row and each competitor with a successful
+   DFS call.
+
+If step 1 shows `organicTrafficTotal` consistently absent for all domains,
+the second DFS call is broken — not a config issue. Investigate
+`extractOverviewMetrics` (`gather-organic-metrics.js` lines after the
+`extractOverviewMetrics` definition) against the actual response shape
+DFS is emitting.
+
+**Runtime cost note (advisor catch #2):** Fix 10 doubles DFS calls per
+domain (matt: 6 → 12). Plus Fix 9 surfaced Realtor.com 429-throttling
+that previously hid behind the SiteAuditBot UA's blanket 403. Catch #2
+band-aid (capping directory-check retries at 1 in `gather-local-seo.js`,
+commit shipped 2026-04-23) reclaims ~60s per audit. Further reductions
+require a different transport for anti-bot directories — tracked
+alongside the Zillow URL deferral in F#13 §8.
