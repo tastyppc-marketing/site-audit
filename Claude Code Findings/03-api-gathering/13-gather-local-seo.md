@@ -196,3 +196,67 @@ Written to `seo/research/local-seo.json` (line 349).
 - **Run the UA fix on one client (Matt) in a staging env.** Measure Yelp/BBB/Google Maps response codes before and after. If still 403, a headless browser (Playwright) may be required for the more protected directories.
 - **Confirm GBP API path is used for any current client.** If `business_profile.py` has never run successfully on any client, this script's output IS the only local data — making every bug above user-facing. If GBP IS configured for some client, we have a reference for what "full data" should look like.
 - **Check `pages/local.js:51,92`** to confirm the consumer handles `napMatch: false` on every listing. If it renders "consistent" badges based on this, the fix #7 needs coordinated UI change.
+
+---
+
+## Additional Information
+
+### `audit-synthesis` literal — falsified (2026-04-23)
+
+The "Trace Matt's `businessProfile.source: 'audit-synthesis'`" verification
+item turned out to be a non-issue. Repo-wide grep for `"audit-synthesis"`
+returns ZERO matches across all `*.js`, `*.py`, `*.md`, and `*.json`
+sources in both `template/` and `platform/`. No code anywhere writes that
+literal string. Matt's `local-seo.json` did not contain it on a fresh
+re-run of the script. The bug entry is resolved-as-spurious; remove from
+the active backlog if/when this finding is revised.
+
+### Tier 3 Fix 9 — UA + match + RE detection (commit `8c9b716`, 2026-04-23)
+
+Three citation-checker bugs landed together:
+- **UA (line 97):** `SiteAuditBot/1.0` → current Win10 Chrome 130 UA. Live
+  `curl -I` gate confirmed BBB and Google Maps now return HTTP 200 (were
+  403). Yelp still 403 even with full Chrome headers — that's a
+  CloudFront JS-challenge layer, needs a different fetcher.
+- **Fuzzy match (line 198-204):** `lowerName.split(' ')[0]` substring →
+  full-name substring (still OR'd with domain match). Eliminates the
+  "Matt" → "Matt's Deli" false positive class.
+- **RE detection (line 287):** test string is now
+  `[name, location, company]` (not `name + ' ' + location`). `loadConfig()`
+  also returns `cfg.clientCompany`. matt-wallmow's "Wallmow Realty, Inc /
+  Lakeland Realty" company string now triggers Realtor.com + Zillow
+  lookups — previously skipped because his personal name has no RE keyword.
+
+### Tier 3 Fix 9 prep — response-unwrap fix (commit `ef94747`, 2026-04-23)
+
+Discovered while verifying Fix 9: `fetchHtml` called `requestText()` (which
+returns just `res.body` — a raw string) but then accessed
+`response.statusCode` and `response.body` on the result. Both were always
+`undefined`, so EVERY directory check silently returned `note="HTTP undefined"`
+with an empty body and `found=false` regardless of actual HTTP outcome.
+This was the actual reason matt was finding 0-1 directories. Switched to
+`requestJson` which returns `{statusCode, headers, body}` (with body falling
+back to the raw string for non-JSON responses). Strict prerequisite for
+Fix 9's UA + match changes to have any effect.
+
+### Zillow URL form — DEFERRED (live-test gate failed)
+
+The Tier 3 plan included a Zillow URL fix (line 295: strip `%2C`, drop ZIP).
+Live-test gate (`curl -I` against `rhinelander%2c-wi-54501/` AND
+`rhinelander-wi/`) returned **HTTP 403 from CloudFront for both forms**
+even with full Chrome UA + browser-like headers. Per the plan rule "do not
+commit speculative URL templating", the Zillow URL form is unchanged. The
+actual blocker is transport-layer; restoring Zillow citation checks needs
+a headless browser or proxy fetcher, tracked as a follow-up. Yelp +
+Realtor.com (HTTP 429 throttling) need the same.
+
+### Verification on matt-wallmow
+
+| Directory   | Pre-fix | Post-fix Chrome UA | Post-fix found |
+|-------------|---------|-------------------:|----------------|
+| Yelp        | n/a (note=HTTP undefined) | 403 | false |
+| BBB         | n/a (note=HTTP undefined) | 200 | true (real hit) |
+| Facebook    | n/a (note=HTTP undefined) | 400 | false |
+| Google Maps | n/a (note=HTTP undefined) | 200 | true (real hit) |
+| Realtor.com | not checked (RE undetected) | 429 | false |
+| Zillow      | not checked (RE undetected) | 403 | false |

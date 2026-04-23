@@ -183,3 +183,44 @@ Header (line 7-8) promises a "Phase 2: Optional Claude CLI session for ambiguous
 - **Confirm DFS vs Ahrefs data scale via actual client files.** Open `matt-wallmow/seo/research/client-backlinks.json` and note whether `referring_domains[i]` has `rank` (DFS, 0-1000) or `dr` (Ahrefs, 0-100). That determines the urgency of fix #3.
 - **Trace how Liane's `qualitySummary` happened** — if analyze-backlink-quality.js was run manually once for her as a one-off experiment, there may be tribal knowledge about why (calibration? A/B test? forgotten initiative?). Worth a git-blame on when that run happened.
 - **Inspect `pages/backlink-opportunities.js` + `pages/links.js`** to confirm what UI elements depend on `domainQuality` / `qualitySummary`. If renderers have null-safe fallbacks to a "no quality data" state, the wire-in is additive; if not, we're shipping new UI for old clients that may have gaps.
+
+---
+
+## Additional Information
+
+### Tier 3 Fix 7 — wired into the skill (commit `543cfc2`, 2026-04-23)
+
+`commands/seo-audit.md` now invokes `node scripts/analyze-backlink-quality.js`
+after `gather-backlinks.js` and BEFORE `populate-audit-data.js` (Step 5.5
+section). Step 1.5 auto-sync covers the new invocation — every file under
+`template/scripts/` is recursively synced into `clients/<name>/scripts/` on
+each `/seo-audit` run, so the script becomes available to every client.
+
+The new sub-step documents the script's no-input tolerance: if `gather-backlinks.js`
+skipped (DFS budget cap, missing competitor list, etc.), the script prints
+`"No backlink files found to analyze."` and exits 0 — surface as a warning,
+do NOT abort the audit.
+
+**Pre-requisite (commit `920807a`):** `analyze-backlink-quality.js` was
+present in `/root/site-audit/template/scripts/` but had **never been committed
+to git** — so the fix-work clone didn't have it at all, and the GitHub repo
+didn't either. Re-imported from the parent working tree before Tier 3 began,
+to make the wire-up commit meaningful.
+
+**Renderer is designed for the JS-script output shape, not the Python one.**
+`generate-multipage-report.js:2230-2260` reads `cb6d.qualitySummary.analyzedAt`
+from the **research file** (`seo/research/client-backlinks.json`), which is
+exactly what this script writes. The Python-side `qualitySummary` writer at
+`platform/src/audit_platform/analyzers/backlinks.py:122` writes to
+`audit-data.json` instead — a path the multipage renderer doesn't consume.
+Net: the JS classifier is the production write path; the Python classifier
+is dead in the render pipeline. Reconciliation deferred to Fix 15.
+
+### Verification on matt-wallmow
+
+- Pre-fix: 0 occurrences of `qualitySummary` in `client-backlinks.json`.
+- Post-fix (one manual run): 706 referring domains classified across 6 files
+  (client + 5 competitors). 1 legit / 35 spam for the client; 219 / 194 totals.
+  All 6 files gained `*.json.bak` backups.
+- Missing-input variant (empty `seo/research/`): exits 0 with the documented
+  warning. Confirmed in `/tmp/fix7-empty`.

@@ -46,3 +46,37 @@ Python analyzer that DIRECTLY calls DFS via `DataForSEOConnector` (line 29) — 
 1. **Pick Python OR JS path for backlink gathering.** Retire the other. If keeping Python: delete gather-backlinks.js + analyze-backlink-quality.js. If keeping JS: this analyzer drops to just `_find_broken_backlinks` + opportunity scoring on the JS-produced files.
 2. **Scale-normalize DR at model layer** (finding #8 #3).
 3. **Document which classifier is authoritative** for qualitySummary.
+
+---
+
+## Additional Information
+
+### Python `qualitySummary` writer is DEAD in the render path (2026-04-23)
+
+While verifying Tier 3 Fix 7 (wiring `analyze-backlink-quality.js` into the
+skill), the renderer-consumer side was traced. The multipage renderer's
+backlink-quality block at `template/reports/multipage/generate-multipage-report.js:2230-2260`
+reads `cb6d.qualitySummary.analyzedAt` from the **research file**
+(`seo/research/client-backlinks.json`) — exactly what the JS classifier
+writes to.
+
+The Python `qualitySummary` writer at this analyzer's line 122 writes to
+`audit-data.json` instead — a different file the multipage renderer does
+not consume for this field. So the dual-classifier conflict that
+`MAJOR-FINDINGS.md §4` flagged as a "writer collision" is **architectural,
+not active**: the two classifiers write to different paths and only the
+JS path is consumed by the renderer. The Python path is dead in the
+render pipeline.
+
+This means Tier 3 could ship Fix 7 (wire the JS classifier) without
+having to first reconcile the Python writer. The reconciliation
+(retire Python OR JS — finding #5 item 1) is still owed work, but
+is no-longer-blocking. Retitled and pushed to Fix 15 (FINAL-SYNTHESIS.md
+§5e tier 5).
+
+The `audit-data.json` `qualitySummary` block from the Python analyzer
+remains a hidden write — it lands in the file but no consumer reads it.
+A grep of `qualitySummary` consumers in `pages/*.js` confirms zero
+references to `data.backlinks.qualitySummary` (the Python write target);
+all hits point to `data.research.backlinks.qualitySummary` or the
+research-file path.

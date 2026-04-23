@@ -125,3 +125,47 @@ Binary XLSX, 6 sheets, fixed column widths (lines 124-146).
 - **Check `audit-data.json` for all 8 required sections** across all clients. If any client is missing `actionPlan.quickWins` (or similar), this script currently crashes silently or produces an empty sheet.
 - **Confirm `d.competitor.all[i].name` is a string** — not nested object. If nested, headers show `[object Object]`.
 - **Check `generate-ppc-spreadsheet.js`** (deep-dive #19) — likely has identical bugs given the pattern consistency. Fixes should cascade across both.
+
+---
+
+## Additional Information
+
+### Tier 3 Fix 8 — dynamic competitor-column iteration (commit `257ee52`, 2026-04-23)
+
+`generate-spreadsheet.js:50-66` (Sheet 3 "Competitor Comparison") had two
+related bugs in the same block:
+- Header iterated `d.competitor.all.forEach(...)` dynamically, but body row
+  builder hardcoded `[row.metric, row.client, row.comp1 || '', row.comp2 || '', row.gap || '']` — only 5 cells.
+- Header had **no Gap column** at all — so even when body produced a gap
+  value, it landed in the wrong column visually.
+
+Fix mirrors the canonical pattern from `template/reports/multipage/pages/competitors.js:64-71`
+(`getCompetitorColumnKeys`): derive column count from the comparison row's
+`compN` keys, NOT from `d.competitor.all`. Discovered during matt-wallmow
+verification that the two can diverge — his `competitor.all` has 5 entries
+but his `competitorComparison` rows have `comp1..comp6` keys (extra `comp6`
+without metadata). Iterating `competitor.all` would have silently dropped
+the comp6 data. Fallback header label is `'Comp ' + (i + 1)` when metadata
+is missing (matches `getCompetitorName`'s fallback in pages/competitors.js:61).
+
+Also adds the missing `'Gap'` header.
+
+### Verification on matt-wallmow
+
+- Pre: header row 8 cells (no Gap), body row 5 cells. Gap value silently
+  landed under "comp3 name" header. comp3-comp6 cells empty under labeled
+  headers.
+- Post: header `[Metric, ClientWebsite, comp1Name..comp6Name (Comp 6 fallback for comp6), Gap]`
+  = 9 cells. Body row 9 cells matching, with `skagenteam.firstweber.com`
+  populated under "Comp 6".
+
+Decision: pattern is inlined per-generator rather than extracted to a shared
+helper. Two call sites, ~10 lines each — premature abstraction would obscure
+the fix. `pages/competitors.js` stays as the canonical reference.
+
+### Slide-overflow eyeball
+
+XLSX is a tabular format — column widths flex automatically based on content.
+No overflow concerns at any practical comp count. The Excel file opens
+cleanly on matt with all 9 cols visible. PPTX has tighter geometric
+constraints — see addendum on `18-generate-presentation.md`.

@@ -192,3 +192,77 @@ Written to `seo/research/organic-metrics.json` (line 157, CWD-relative).
 - **Confirm calgary-castles's Competitors page currently renders** — if `organicKeywords`/`organicTraffic` are blank on her report today, we need to know before "adding" the script to her folder will look like regression or improvement.
 - **Spot-check the three old-cohort clients' existing organic-metrics.json** for completeness/sanity. If any looks truncated or wrong, bulk re-run is the right call regardless.
 - **Confirm `limit: 100` is the DFS default or a deliberate cap** — if we can raise it cheaply (no proportional cost increase), that changes the cost math for fix #6.
+
+---
+
+## Additional Information
+
+### Tier 3 Fix 10 — parameterize + add organicTrafficTotal (commit `3a1aea3`, 2026-04-23)
+
+Two changes landed together:
+
+1. **Parameterize `location_code` and `language_code`.** Lifted the
+   `resolveLocationCode()` helper from `gather-local-pack.js:65-98` (the
+   Tier 2 pattern) and added a parallel `resolveLanguageCode()`. Resolution
+   priority for both: `--location` / `--language` CLI flag > `client-config.json`
+   (`locationCode` / `languageCode`) > `2840` / `'en'` default with a visible
+   warning.
+
+2. **Add `organicTrafficTotal` field via second DFS call.** Made a second
+   call per domain to `/dataforseo_labs/google/domain_rank_overview/live`
+   (the summary endpoint, uncapped). Emits a NEW field `organicTrafficTotal`
+   alongside the existing `organicTraffic` (top-100 sum, kept for back-compat).
+   Wrapped in try/catch — if the summary endpoint errors or returns no
+   `organic.etv`, the field is OMITTED rather than null. Renderer's
+   `hasValue()` check skips missing fields gracefully.
+
+Normalizer (`generate-multipage-report.js`) was updated at three sites
+(`normalizeDMEntry` at 1764, the cross-merge at 1788, and the research-merge
+at 1828-1872) to propagate `organicTrafficTotal` everywhere `organicTraffic`
+was already passed through. Renderer relabels: `keywords.js` adds a "Total
+organic traffic" card and renames the existing card to "Est. top-100 traffic";
+`competitors.js` adds a "Total Organic Traffic" row above "Est. Top-100 Traffic".
+
+### DFS response shape — confirmed via Python connector
+
+`platform/src/audit_platform/connectors/dataforseo.py:825-830` reads
+`metrics.organic.{count, etv}` from a sibling Labs endpoint — same shape
+the new `extractOverviewMetrics()` parser tolerates (handles both
+`result.items[0].metrics.organic` and `result.metrics.organic` shapes
+defensively).
+
+### Consumer map (post-fix)
+
+| Field | Producer (write) | Normalizer | UI consumer |
+|---|---|---|---|
+| `organicTraffic` (top-100 sum) | gather-organic-metrics.js | gen-multipage:1768, 1828, 1866 | keywords.js "Est. top-100 traffic" / competitors.js "Est. Top-100 Traffic" |
+| `organicTrafficTotal` (true total) | gather-organic-metrics.js (NEW) | gen-multipage:1769, 1832, 1870 | keywords.js "Total organic traffic" / competitors.js "Total Organic Traffic" |
+| `organicKeywords` (true count via `total_count`) | gather-organic-metrics.js | gen-multipage:1769 | keywords.js "Organic keywords" |
+
+### Dead code identified
+
+`platform/src/audit_platform/connectors/dataforseo.py:830` (`get_competitors_domain`)
+is a competitor-domain endpoint with **zero callers anywhere in the codebase**.
+Marked dead. Fix 10 is JS-only by design; the parallel Python data path is
+not invoked by the orchestrator.
+
+### Verification gap — gate is operator-side
+
+The summary-endpoint live-test gate could NOT be run in this environment
+(no DataForSEO credentials per the project's 1Password-only secrets policy).
+Operator must verify on the next `/seo-audit` run that
+`organicTrafficTotal` populates and is numerically > `organicTraffic` for
+`wallmowrealty.com`. If the endpoint returns no `organic.etv`, the
+defensive try/catch keeps the field absent and existing behavior (top-100
+sum only) is preserved unchanged — no inert fix. What WAS verified locally:
+
+- All 4 modified files pass `node --check` syntax validation.
+- `--location 1028181 --language en` CLI flags resolve and log correctly.
+- With matt-wallmow's `client-config.json` (`locationCode: 1028181`, no
+  `languageCode`), resolution falls back to config + default with warnings.
+- DFS auth failure (401) is handled gracefully — script writes `nullEntry`
+  and exits 0 with `status="failed"`, no crash.
+
+`languageCode: "en"` was added to matt-wallmow's `client-config.json` for
+parity with the `locationCode` entry from Tier 2 fix #12. No behavior
+change — just suppresses the `languageCode missing` warning on his runs.

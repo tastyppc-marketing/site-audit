@@ -136,3 +136,54 @@ Tracing who authors these is a skill deep-dive concern (#67). Deep-dives of agen
 - **Trace `pillars, keyStats, longTermColumns, mediumTermRoadmap, nextSteps, gradeSummary`** in the skill (`commands/seo-audit.md`). Identify the agent prompt responsible for each.
 - **Check if `d.quickWins` and `d.actionPlan.quickWins` ever DIVERGE** across clients — if not, the duplication is just inefficient, not a data integrity issue.
 - **Cross-reference fix #1 with the HTML report's competitor page** (`pages/competitors.js`) — the same multi-competitor logic exists there too. Solution should be consistent across XLSX, PPTX, and HTML.
+
+---
+
+## Additional Information
+
+### Tier 3 Fix 8 — dynamic competitor-column iteration (commit `257ee52`, 2026-04-23)
+
+Slide 5 "Competitor Gap" hardcoded comp1/comp2 in both header (lines 116-117)
+and body rows (lines 122-123). With matt's 5 competitors, only comp1 and
+comp2 appeared on the slide; comp3-5 were completely missing. With his
+`competitorComparison` rows containing comp1..comp6 keys (one extra slot
+beyond `competitor.all`), iterating `competitor.all` would still have lost
+the comp6 data — so the fix mirrors the canonical pattern from
+`pages/competitors.js:64-71` (derive column count from row keys).
+
+Header fallback for missing competitor metadata is `'Comp ' + (i + 1)`,
+matching `getCompetitorName`'s convention.
+
+### Slide-overflow handling
+
+PPTX `addTable` requires explicit column widths. The hardcoded
+`colW: [2.5, 2, 2.5, 2.5, 2.5]` (5 columns, 12in slide width) was
+incompatible with N-competitor layouts. Replaced with dynamic widths:
+- Metric column: 2.5in
+- Client column: 1.5in
+- Each competitor column: `Math.max(0.7, 6.5 / compCount)` — equal share
+  of the remaining 6.5in budget with a 0.7in floor
+- Gap column: 1.5in
+
+For matt's 6 comps: ~1.08in per comp column. Tight but readable. For 2
+comps: 3.25in each (plenty). Eyeball check on the generated PPTX confirmed
+no overflow or text clipping in matt's output.
+
+### Tier 3 Fix 8 prep — null-safe kwTable (commit `d98fc43`, 2026-04-23)
+
+Pre-existing bug discovered while verifying Fix 8: when audit-data.json
+has any keyword with `volume=null`, `clientRank=''`, `competitorRank=''`,
+or `topResult=null`, `generate-presentation.js` crashed with
+`TypeError: Cannot read properties of null (reading 'options')` inside
+pptxgenjs (the addTable iterator tried `cell.options` on the literal null).
+
+matt-wallmow has 4 of 8 top keywords with `volume=null` (brand-name
+queries with no DFS data) plus all 8 with `competitorRank=''`. PPTX
+generation has been failing silently for matt's audit since the
+keyword-volume normalizer started emitting nulls.
+
+Hardened the row-builder to coerce nulls to `'—'` / `'Not found'` /
+`String(value)`. This is a strict pre-requisite for Fix 8's PPTX
+verification — without it the generator can't run end-to-end on matt
+regardless of competitor-column logic. Shipped as a separate commit so
+the Fix 8 commit stays narrowly scoped.

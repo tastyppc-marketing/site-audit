@@ -93,3 +93,74 @@ edges = (link_graph or {}).get("edges", {})
 Log confirms correct extraction: `internal_link_analysis_start edge_count=11 sitemap_url_count=11` → `build_graph_complete edge_count=93 node_count=11` → analyzer produced hubs, orphans, pagerank, depth.
 
 Fix verified end-to-end on the reference client.
+
+---
+
+## Additional Information
+
+### Tier 3 Fix 11 — atomic write of audit-data.json (commit `6e4af6c`, 2026-04-23)
+
+Twin of Tier-2 Fix 5 on the Python side. The previous write at line 871-872
+used:
+
+```python
+with open(output_path, "w") as f:
+    json.dump(audit_data, f, indent=2, default=str)
+```
+
+A SIGKILL, OOM, disk-full, or any exception between the truncating `"w"`
+open and the `json.dump` completion left `audit-data.json` in a
+partial/invalid state — losing every prior tier's data plus whatever the
+current run had merged. Tier 2 closed this gap on the JS path
+(`template/scripts/lib/atomic-write.js` + writers wired through it); this
+fix closes it on the Python path.
+
+Note: the line number referenced as `:871` in the Tier 3 plan is actually
+`:872` (the `json.dump` line; line 871 is the `with open ... as f:` line).
+Fix touches both lines + the import at the top.
+
+### New module: `platform/src/audit_platform/utils/atomic_write.py`
+
+```python
+write_json_atomic(target: Path | str, data: Any, *, indent: int = 2) -> None
+```
+
+Mirrors the JS semantics in `template/scripts/lib/atomic-write.js:35-72`:
+1. If target exists, `shutil.copy2` it to `target.bak`.
+2. Write JSON to `target.parent/{name}.tmp-<pid>-<ms>`; explicit `f.flush()`
+   + `os.fsync(f.fileno())` so bytes are durable on disk before rename.
+3. `os.replace(tmp, target)` — atomic POSIX rename within the same
+   filesystem.
+
+On any exception during steps 2-3 the `.tmp-*` file is unlinked and the
+prior target + its `.bak` are left untouched. The caller sees the original
+exception re-raised.
+
+### Tests: 4 cases in `platform/tests/test_atomic_write.py`
+
+Round-trip; existing-target backup; mid-write crash (target preserved + no
+`.tmp` leakage); first-write-no-backup. All 4 pass:
+
+```
+PYTHONPATH=platform/src python3 -m pytest platform/tests/test_atomic_write.py -v
+# 4 passed in 0.17s
+```
+
+### `.gitignore` broadened
+
+Existing `audit-data.json.bak` coverage extended to also ignore:
+- `clients/*/seo/audit-data.json.tmp-*` (Fix 11 mid-write artifacts on the
+  rare path where a build dies between fsync and rename)
+- `clients/*/seo/research/*.json.bak` (analyze-backlink-quality.js artifacts
+  from Fix 7's classifier — created every run)
+
+### Verification on matt-wallmow
+
+Round-trip via `write_json_atomic` on his existing `audit-data.json`:
+- Pre: target exists, `.bak` absent.
+- Post: target + `.bak` both exist, round-trip content equal, no `.tmp-*`
+  leftovers.
+
+End-to-end stress test (SIGKILL during a real build_audit.py run) is owed
+follow-up — the unit test simulates the crash path via `monkeypatch`, but
+real-world signal handling under the new code path has not been validated.

@@ -36,3 +36,27 @@ Outputs the shape that `pages/local.js` (finding #28) reads.
 
 1. **Confirm provenance label origin** (bug #1) — grep for `"audit-synthesis"` string literal in this file. Document data-merge path.
 2. **Document merge precedence.**
+
+---
+
+## Additional Information
+
+### Bug #1 prediction — falsified (2026-04-23)
+
+This finding's bug #1 predicted that `analyzers/local_seo.py` writes the
+literal string `"audit-synthesis"` somewhere as a provenance source label.
+**Repo-wide grep returns ZERO matches** across all `*.js`, `*.py`, `*.md`,
+and `*.json` sources in both `template/` and `platform/`. The literal does
+not exist anywhere — not in this analyzer, not in `populate-audit-data.js`,
+not in any agent prompt definition.
+
+The "Trace Matt's `businessProfile.source: 'audit-synthesis'`" item in
+finding #13 (gather-local-seo) §8 is therefore also resolved-as-spurious.
+A fresh `gather-local-seo.js --config client-config.json` run on Matt
+produces `businessProfile.source: "web-research"` (the script's default),
+not `"audit-synthesis"`. Whatever produced the original sighting may have
+been a one-off agent intervention or a since-removed code path; no current
+production code emits this label.
+
+Recommend striking bug #1 from the active backlog. Bug #2 (merge precedence
+documentation) is unaffected and remains valid follow-up.

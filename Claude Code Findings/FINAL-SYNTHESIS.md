@@ -458,3 +458,98 @@ The 15 fixes, in order. For each: title, source, rationale, ordering logic, effo
 - The test strategy for each fix — next session's concern.
 
 Ready for implementation.
+
+---
+
+## Additional Information
+
+### Tier 3 — SHIPPED (2026-04-23)
+
+5 planned fixes shipped, plus 2 prep commits surfaced during verification:
+
+| # | Subject | Commit |
+|---|---|---|
+| 7  | Wire `analyze-backlink-quality.js` into Step 5.5 | `543cfc2` |
+| 8a | Pre-existing PPTX null-safe kwTable cells (prep) | `d98fc43` |
+| 8  | XLSX + PPTX dynamic competitor-column iteration | `257ee52` |
+| 9a | Pre-existing local-seo response unwrap (prep) | `ef94747` |
+| 9  | Local-SEO Chrome UA + full-name match + RE detection | `8c9b716` |
+| 10 | Parameterize organic-metrics + add `organicTrafficTotal` | `3a1aea3` |
+| 11 | `build_audit.py` atomic write (promoted from §5d) | `6e4af6c` |
+
+**Branch:** `site-audit-fixes`. All 7 commits queued for push.
+
+#### Recon discoveries surfaced during Tier 3
+
+- **`analyze-backlink-quality.js` was never committed** (now `920807a`).
+  The script existed in `/root/site-audit/template/scripts/` but had no git
+  history in either repo. Re-imported from parent before wiring; otherwise
+  Fix 7 would have wired a missing file.
+- **Renderer reads from research/, not audit-data/.** The multipage
+  renderer's `qualitySummary` consumer (`generate-multipage-report.js:2230-2260`)
+  reads from `seo/research/client-backlinks.json` — exactly the JS classifier's
+  output path. Python `qualitySummary` writer is dead in render. F#54's
+  "dual-classifier conflict" downgraded from blocking to architectural.
+- **`audit-synthesis` literal does not exist anywhere.** F#13 §8 + F#56
+  bug #1 both predicted this string was emitted by some code path. Repo-wide
+  grep returns zero matches. Both items resolved-as-spurious.
+- **`get_competitors_domain` is dead code.** No callers anywhere. Fix 10's
+  organic-metrics work is JS-only by design.
+- **Pre-existing PPTX null-safety bug** (kwTable with null volumes / empty
+  rank strings → crash). Discovered while verifying Fix 8. Shipped as
+  separate commit `d98fc43` so Fix 8 stays narrowly scoped.
+- **Pre-existing local-seo response-unwrap bug** (`requestText` returns just
+  `res.body` not `{statusCode, body}` — every directory check returned
+  `note=HTTP undefined` regardless of actual outcome). Discovered while
+  verifying Fix 9. Shipped as separate commit `ef94747`.
+- **Zillow URL gate failed.** Live `curl -I` against both URL form variants
+  for `rhinelander` returns CloudFront 403 even with full Chrome UA +
+  browser-like headers. Per plan rule, did NOT commit speculative URL
+  templating. Zillow restoration deferred — needs a different transport
+  (headless browser or proxy), not config tweaks.
+- **Fix 10 summary-endpoint gate is operator-side.** No DataForSEO
+  credentials in this environment per the project's 1Password-only secrets
+  policy. `domain_rank_overview/live` parser is wrapped in try/catch — if
+  the endpoint returns no `organic.etv`, `organicTrafficTotal` is omitted
+  from the entry rather than null. Existing top-100-sum behavior preserved
+  unchanged on gate failure. Operator must verify on next `/seo-audit` run
+  that the field populates and is numerically > `organicTraffic`.
+
+#### What Tier 3 did NOT touch (intentional, deferred)
+
+- **Yelp + Realtor.com transport-layer blocks** (HTTP 403 with JS challenge,
+  HTTP 429 throttling). Both need a different fetcher than HTTPS-with-headers.
+  Tracked as a follow-up.
+- **Spam-classifier calibration** (3.5% legit rate on Liane's data — likely
+  over-aggressive). Decision C in the plan: ship the wiring, defer the
+  calibration. Stays at Fix 15 in §5e.
+- **Python `qualitySummary` writer reconciliation.** Confirmed dead in
+  render path. Retire decision deferred to Fix 15.
+- **Fix 11 SIGKILL stress test.** Unit test simulates the crash path via
+  `monkeypatch`; real-world signal handling under the new code path was
+  not validated. Owed follow-up.
+
+#### Verification surface
+
+What was independently verified locally on matt-wallmow (no DFS / GBP
+credentials needed):
+
+1. Backlink quality classification: 706 referring domains classified
+   across 6 files (1 legit / 35 spam for client; 219 legit / 194 spam
+   totals).
+2. XLSX + PPTX competitor tables: all 6 comp columns populated end-to-end
+   (header has `Comp 6` fallback for the metadata-less slot,
+   `skagenteam.firstweber.com` populated under that column).
+3. Local-page citations: BBB + Google Maps return HTTP 200 (were 403);
+   matt found in both via full-name substring match. Yelp/Facebook/Realtor/
+   Zillow surface real HTTP statuses (403/400/429/403) as `note` fields.
+   Realtor.com + Zillow now checked (RE detection triggered by `clientCompany`).
+4. `audit-data.json.bak`: appears next to `audit-data.json` after
+   `write_json_atomic` round-trip; content-equal to the original target.
+5. Atomic-write tests: 4/4 passed in 0.17s.
+
+The full `/seo-audit` end-to-end run on matt with all 5 Tier 3 fixes
+landed (per §5d step "Open all 9 HTML report pages") was NOT executed in
+this session — it requires DFS + GBP credentials that live in 1Password.
+The unit-level verifications above cover everything that's runnable
+without secrets.
