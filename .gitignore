@@ -6,8 +6,12 @@ archive/root-node_modules-old/
 # Per-client auto-sync backups (created by /seo-audit Step 1.5)
 clients/*/scripts/_backup/
 
-# Per-client atomic-write backups (created by scripts using lib/atomic-write.js)
+# Per-client atomic-write backups (created by scripts using lib/atomic-write.js
+# and platform/src/audit_platform/utils/atomic_write.py)
 clients/*/seo/audit-data.json.bak
+clients/*/seo/audit-data.json.tmp-*
+# Backlink-classifier in-place backups (analyze-backlink-quality.js)
+clients/*/seo/research/*.json.bak
 
 # Secrets
 service-account.json

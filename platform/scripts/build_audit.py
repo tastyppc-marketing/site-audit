@@ -34,6 +34,7 @@ from typing import Any
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 
 from audit_platform.config.settings import Settings
+from audit_platform.utils.atomic_write import write_json_atomic
 
 
 # ---------------------------------------------------------------------------
@@ -868,8 +869,7 @@ def main() -> None:
         except Exception:
             pass
 
-    with open(output_path, "w") as f:
-        json.dump(audit_data, f, indent=2, default=str)
+    write_json_atomic(output_path, audit_data, indent=2)
 
     print(f"Audit data written to: {output_path}")
 
