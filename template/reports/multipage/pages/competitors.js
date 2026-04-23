@@ -452,7 +452,8 @@
     var columns = [];
     var metricDefs = [
       { key: 'domainRating', label: 'Authority Score' },
-      { key: 'organicTraffic', label: 'Organic Traffic' },
+      { key: 'organicTrafficTotal', label: 'Total Organic Traffic' },
+      { key: 'organicTraffic', label: 'Est. Top-100 Traffic' },
       { key: 'organicKeywords', label: 'Organic Keywords' },
       { key: 'referringDomains', label: 'Referring Domains' },
       { key: 'backlinks', label: 'Backlinks' },

@@ -163,7 +163,7 @@
 
     if (!container) return;
 
-    if (!metrics || (!hasValue(metrics.organicKeywords) && !hasValue(metrics.organicTraffic))) {
+    if (!metrics || (!hasValue(metrics.organicKeywords) && !hasValue(metrics.organicTraffic) && !hasValue(metrics.organicTrafficTotal))) {
       var apiErr = window.TPPC.utils && window.TPPC.utils.getApiErrors(data, 'domain-metrics.json');
       if (apiErr && window.TPPC.utils.renderApiErrorBanner) {
         container.innerHTML = window.TPPC.utils.renderApiErrorBanner(apiErr);
@@ -180,8 +180,11 @@
     if (hasValue(metrics.organicKeywords)) {
       cards.push(buildStatCard(formatInteger(metrics.organicKeywords), 'Organic keywords', 'green'));
     }
+    if (hasValue(metrics.organicTrafficTotal)) {
+      cards.push(buildStatCard(formatInteger(metrics.organicTrafficTotal), 'Total organic traffic', 'green'));
+    }
     if (hasValue(metrics.organicTraffic)) {
-      cards.push(buildStatCard(formatInteger(metrics.organicTraffic), 'Estimated organic traffic', 'orange'));
+      cards.push(buildStatCard(formatInteger(metrics.organicTraffic), 'Est. top-100 traffic', 'orange'));
     }
     if (hasValue(metrics.trafficValue)) {
       cards.push(buildStatCard(formatCurrency(metrics.trafficValue), 'Traffic value', 'green'));

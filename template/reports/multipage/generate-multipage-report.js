@@ -1763,13 +1763,14 @@ function normalizeAuditData(data, dataDir) {
 
       function normalizeDMEntry(e) {
         return {
-          domain:           e.domain || '',
-          domainRating:     e.domainRating != null ? e.domainRating : (e.domain_rating != null ? e.domain_rating : (e.dr != null ? e.dr : null)),
-          organicTraffic:   e.organicTraffic != null ? e.organicTraffic : (e.organic_traffic != null ? e.organic_traffic : null),
-          organicKeywords:  e.organicKeywords != null ? e.organicKeywords : (e.organic_keywords != null ? e.organic_keywords : null),
-          referringDomains: e.referringDomains != null ? e.referringDomains : (e.referring_domains != null ? e.referring_domains : null),
-          backlinks:        e.backlinks != null ? e.backlinks : (e.totalBacklinks != null ? e.totalBacklinks : (e.total_backlinks != null ? e.total_backlinks : null)),
-          trafficValue:     e.trafficValue != null ? e.trafficValue : (e.traffic_value != null ? e.traffic_value : null),
+          domain:               e.domain || '',
+          domainRating:         e.domainRating != null ? e.domainRating : (e.domain_rating != null ? e.domain_rating : (e.dr != null ? e.dr : null)),
+          organicTraffic:       e.organicTraffic != null ? e.organicTraffic : (e.organic_traffic != null ? e.organic_traffic : null),
+          organicTrafficTotal:  e.organicTrafficTotal != null ? e.organicTrafficTotal : (e.organic_traffic_total != null ? e.organic_traffic_total : null),
+          organicKeywords:      e.organicKeywords != null ? e.organicKeywords : (e.organic_keywords != null ? e.organic_keywords : null),
+          referringDomains:     e.referringDomains != null ? e.referringDomains : (e.referring_domains != null ? e.referring_domains : null),
+          backlinks:            e.backlinks != null ? e.backlinks : (e.totalBacklinks != null ? e.totalBacklinks : (e.total_backlinks != null ? e.total_backlinks : null)),
+          trafficValue:         e.trafficValue != null ? e.trafficValue : (e.traffic_value != null ? e.traffic_value : null),
         };
       }
 
@@ -1789,7 +1790,7 @@ function normalizeAuditData(data, dataDir) {
     var bl6a = data.backlinks || (data.backlinks = {});
     var blDm = bl6a.domainMetrics || (bl6a.domainMetrics = {});
     var clientDm = data.domainMetrics.client;
-    ['organicKeywords', 'organicTraffic', 'trafficValue', 'referringDomains', 'domain', 'domainRating'].forEach(function (key) {
+    ['organicKeywords', 'organicTraffic', 'organicTrafficTotal', 'trafficValue', 'referringDomains', 'domain', 'domainRating'].forEach(function (key) {
       if (clientDm[key] != null && blDm[key] == null) {
         blDm[key] = clientDm[key];
       }
@@ -1829,6 +1830,10 @@ function normalizeAuditData(data, dataDir) {
             blDm6c.organicTraffic = clientOrganicEntry.organicTraffic;
             mergedClient = true;
           }
+          if (blDm6c.organicTrafficTotal == null && clientOrganicEntry.organicTrafficTotal != null) {
+            blDm6c.organicTrafficTotal = clientOrganicEntry.organicTrafficTotal;
+            mergedClient = true;
+          }
 
           if (data.domainMetrics && data.domainMetrics.client) {
             if (data.domainMetrics.client.organicKeywords == null && clientOrganicEntry.organicKeywords != null) {
@@ -1837,6 +1842,10 @@ function normalizeAuditData(data, dataDir) {
             }
             if (data.domainMetrics.client.organicTraffic == null && clientOrganicEntry.organicTraffic != null) {
               data.domainMetrics.client.organicTraffic = clientOrganicEntry.organicTraffic;
+              mergedClient = true;
+            }
+            if (data.domainMetrics.client.organicTrafficTotal == null && clientOrganicEntry.organicTrafficTotal != null) {
+              data.domainMetrics.client.organicTrafficTotal = clientOrganicEntry.organicTrafficTotal;
               mergedClient = true;
             }
           }
@@ -1865,6 +1874,10 @@ function normalizeAuditData(data, dataDir) {
             }
             if (competitor.organicTraffic == null && entry.organicTraffic != null) {
               competitor.organicTraffic = entry.organicTraffic;
+              mergedCompetitor = true;
+            }
+            if (competitor.organicTrafficTotal == null && entry.organicTrafficTotal != null) {
+              competitor.organicTrafficTotal = entry.organicTrafficTotal;
               mergedCompetitor = true;
             }
 
