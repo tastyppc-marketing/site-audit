@@ -89,14 +89,15 @@ function loadConfig() {
 
 // ── HTTP fetch ───────────────────────────────────────────────────────────────
 
-function fetchHtml(url, timeoutMs) {
+function fetchHtml(url, timeoutMs, opts) {
   const timeout = timeoutMs || 15000;
+  const maxRetries = opts && opts.maxRetries != null ? opts.maxRetries : undefined;
   // requestJson returns {statusCode, headers, body}; body falls back to the raw
   // string when the response isn't valid JSON (which is the common case here —
   // we're fetching HTML). The previous version called requestText, which
   // returns just res.body — so .statusCode was always undefined and every
   // directory check silently reported note="HTTP undefined" with body="".
-  return requestJson(url, {
+  return requestJson(url, Object.assign({
     timeout,
     followRedirects: 1,
     label: `HTML fetch ${url}`,
@@ -105,7 +106,7 @@ function fetchHtml(url, timeoutMs) {
       'Accept': 'text/html,application/xhtml+xml',
       'Accept-Language': 'en-US,en;q=0.9',
     },
-  }).then((response) => ({
+  }, maxRetries != null ? { maxRetries } : {})).then((response) => ({
     ok: response.statusCode === 200,
     status: response.statusCode,
     body: response.statusCode === 200 ? String(response.body || '') : '',
@@ -192,7 +193,11 @@ async function checkDirectory(dirName, searchUrl, clientDomain, clientName) {
 
   try {
     console.error(`  Checking ${dirName}...`);
-    const res = await fetchHtml(searchUrl, 12000);
+    // Anti-bot 429/403 from Yelp / Realtor.com / Zillow doesn't recover within
+    // the default 5-retry budget (~62s wasted per directory). Cap at 1 retry;
+    // proper fix needs a different transport (headless / proxy) — see F#13 §8
+    // Zillow URL deferral.
+    const res = await fetchHtml(searchUrl, 12000, { maxRetries: 1 });
     await sleep(1000); // polite delay between checks
 
     if (!res.ok) {
