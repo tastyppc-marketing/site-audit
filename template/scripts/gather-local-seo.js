@@ -43,7 +43,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { requestText } = require('./lib/fetch-with-retry');
+const { requestJson } = require('./lib/fetch-with-retry');
 
 const errors = [];
 
@@ -89,7 +89,12 @@ function loadConfig() {
 
 function fetchHtml(url, timeoutMs) {
   const timeout = timeoutMs || 15000;
-  return requestText(url, {
+  // requestJson returns {statusCode, headers, body}; body falls back to the raw
+  // string when the response isn't valid JSON (which is the common case here —
+  // we're fetching HTML). The previous version called requestText, which
+  // returns just res.body — so .statusCode was always undefined and every
+  // directory check silently reported note="HTTP undefined" with body="".
+  return requestJson(url, {
     timeout,
     followRedirects: 1,
     label: `HTML fetch ${url}`,
@@ -101,7 +106,7 @@ function fetchHtml(url, timeoutMs) {
   }).then((response) => ({
     ok: response.statusCode === 200,
     status: response.statusCode,
-    body: response.statusCode === 200 ? response.body : '',
+    body: response.statusCode === 200 ? String(response.body || '') : '',
   })).catch((err) => ({
     ok: false,
     status: 0,
