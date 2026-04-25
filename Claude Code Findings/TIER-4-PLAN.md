@@ -246,6 +246,14 @@ git add "clients/<c>/scripts"
 #### Commit 3 — Fix 13 calgary-castles
 
 - Prior state: 9 scripts; 1 orphan (`update-readability.py`); 1 fork (`extract-text.js` — Q1.5).
+- **Pre-verification (calgary-only — confirm fork still matches Q1.5 description before relying on the recipe):**
+  ```bash
+  wc -l clients/calgary-castles/scripts/extract-text.js
+  # expect ~275 lines per FINAL-SYNTHESIS lines 308-313
+  grep -ic "calgary\|community" clients/calgary-castles/scripts/extract-text.js
+  # expect non-zero — Calgary-specific slugs are the load-bearing fork content
+  ```
+  If the wc count or grep hits diverge significantly from the description, the file may have changed since 2026-04-20 — escalate to user, do not proceed with recipe-based commit body.
 - Operation: `cp -R template/scripts/. clients/calgary-castles/scripts/` then `git checkout HEAD -- clients/calgary-castles/scripts/extract-text.js`.
 - Result: 11 [NEW] files (8 missing + lib/ pair + analyze-backlink-quality.js); 3 [UPDATED] (crawl-sitemap.js, generate-presentation.js, generate-spreadsheet.js); 1 PRESERVED (extract-text.js); 1 ORPHAN preserved (update-readability.py — Step 1.5 warn-don't-delete).
 - Verification: `diff -rq template/scripts/ clients/calgary-castles/scripts/` → expect only `extract-text.js (Files differ)` and `update-readability.py (Only in client)`.
@@ -481,8 +489,9 @@ for c in matt-wallmow laura-willis liane-jamason; do
 done
 
 # 4. node --check across every synced .js
-find clients/*/scripts/ -name '*.js' -type f -not -path '*_backup*' -exec node --check {} \; 2>&1 | head -20
-# expect zero error lines
+node_check_errors=$(find clients/*/scripts/ -name '*.js' -type f -not -path '*_backup*' -exec node --check {} \; 2>&1 | grep -c '^')
+echo "node --check error lines: $node_check_errors"
+# expect 0. If non-zero, re-run without grep -c to see the actual error output.
 
 # 5. lib/ presence
 for c in laura-willis liane-jamason chris-nevada calgary-castles mammoth-lakes murray-gardner p3realtync; do
