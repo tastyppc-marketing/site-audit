@@ -43,8 +43,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const https = require('https');
-const http = require('http');
+const { requestJson } = require('./lib/fetch-with-retry');
 
 const errors = [];
 
@@ -71,6 +70,7 @@ function loadConfig() {
           domain: cfg.domain || cfg.clientDomain || '',
           name: cfg.clientName || cfg.name || '',
           location: cfg.location || cfg.targetLocation || '',
+          company: cfg.clientCompany || cfg.company || '',
         };
       } catch (e) {
         console.error(`Warning: Could not parse ${configPath}: ${e.message}`);
@@ -83,44 +83,39 @@ function loadConfig() {
     domain: getArg('--domain') || '',
     name: getArg('--name') || '',
     location: getArg('--location') || '',
+    company: getArg('--company') || '',
   };
 }
 
 // ── HTTP fetch ───────────────────────────────────────────────────────────────
 
-function fetchHtml(url, timeoutMs) {
-  return new Promise((resolve, reject) => {
-    const timeout = timeoutMs || 15000;
-    const parsed = new URL(url);
-    const lib = parsed.protocol === 'https:' ? https : http;
-
-    const req = lib.get(url, {
-      timeout,
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (compatible; SiteAuditBot/1.0)',
-        'Accept': 'text/html,application/xhtml+xml',
-        'Accept-Language': 'en-US,en;q=0.9',
-      },
-    }, (res) => {
-      // Follow one redirect
-      if ((res.statusCode === 301 || res.statusCode === 302) && res.headers.location) {
-        req.destroy();
-        fetchHtml(res.headers.location, timeoutMs).then(resolve).catch(reject);
-        return;
-      }
-      if (res.statusCode !== 200) {
-        req.destroy();
-        resolve({ ok: false, status: res.statusCode, body: '' });
-        return;
-      }
-      let body = '';
-      res.setEncoding('utf-8');
-      res.on('data', (chunk) => { body += chunk; if (body.length > 500000) req.destroy(); });
-      res.on('end', () => resolve({ ok: true, status: res.statusCode, body }));
-    });
-    req.on('timeout', () => { req.destroy(new Error('timeout')); });
-    req.on('error', (err) => resolve({ ok: false, status: 0, body: '', err: err.message }));
-  });
+function fetchHtml(url, timeoutMs, opts) {
+  const timeout = timeoutMs || 15000;
+  const maxRetries = opts && opts.maxRetries != null ? opts.maxRetries : undefined;
+  // requestJson returns {statusCode, headers, body}; body falls back to the raw
+  // string when the response isn't valid JSON (which is the common case here —
+  // we're fetching HTML). The previous version called requestText, which
+  // returns just res.body — so .statusCode was always undefined and every
+  // directory check silently reported note="HTTP undefined" with body="".
+  return requestJson(url, Object.assign({
+    timeout,
+    followRedirects: 1,
+    label: `HTML fetch ${url}`,
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+      'Accept': 'text/html,application/xhtml+xml',
+      'Accept-Language': 'en-US,en;q=0.9',
+    },
+  }, maxRetries != null ? { maxRetries } : {})).then((response) => ({
+    ok: response.statusCode === 200,
+    status: response.statusCode,
+    body: response.statusCode === 200 ? String(response.body || '') : '',
+  })).catch((err) => ({
+    ok: false,
+    status: 0,
+    body: '',
+    err: err.message,
+  }));
 }
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
@@ -198,7 +193,11 @@ async function checkDirectory(dirName, searchUrl, clientDomain, clientName) {
 
   try {
     console.error(`  Checking ${dirName}...`);
-    const res = await fetchHtml(searchUrl, 12000);
+    // Anti-bot 429/403 from Yelp / Realtor.com / Zillow doesn't recover within
+    // the default 5-retry budget (~62s wasted per directory). Cap at 1 retry;
+    // proper fix needs a different transport (headless / proxy) — see F#13 §8
+    // Zillow URL deferral.
+    const res = await fetchHtml(searchUrl, 12000, { maxRetries: 1 });
     await sleep(1000); // polite delay between checks
 
     if (!res.ok) {
@@ -208,13 +207,16 @@ async function checkDirectory(dirName, searchUrl, clientDomain, clientName) {
 
     const lowerBody = res.body.toLowerCase();
     const lowerDomain = clientDomain.replace(/^www\./, '').toLowerCase();
-    const lowerName = clientName.toLowerCase();
+    const lowerName = (clientName || '').toLowerCase().trim();
 
-    // Look for client domain or name fragments in the page
+    // Require either an exact domain hit OR the FULL business name as a
+    // substring. The previous heuristic (first-word substring of the name)
+    // matched any page containing e.g. "matt" -> "Matt's Deli", inflating
+    // the found count with false positives.
     const domainFound = lowerDomain && lowerBody.includes(lowerDomain);
-    const nameFound = lowerName.length > 3 && lowerBody.includes(lowerName.split(' ')[0].toLowerCase());
+    const fullNameFound = lowerName.length > 3 && lowerBody.includes(lowerName);
 
-    result.found = domainFound || nameFound;
+    result.found = domainFound || fullNameFound;
     if (result.found) result.url = searchUrl;
   } catch (e) {
     result.note = e.message;
@@ -228,7 +230,7 @@ async function checkDirectory(dirName, searchUrl, clientDomain, clientName) {
 
 async function main() {
   const config = loadConfig();
-  const { domain, name, location } = config;
+  const { domain, name, location, company } = config;
 
   if (!domain) {
     console.error('Error: --domain <domain> is required (or use --config client-config.json)');
@@ -296,8 +298,11 @@ async function main() {
     },
   ];
 
-  // Real estate-specific directories
-  if (/real.?estate|realtor|realt|property|homes|housing/i.test(name + ' ' + location)) {
+  // Real estate-specific directories. Test against name + location + company so
+  // clients whose business identity lives in clientCompany (e.g. "Wallmow Realty,
+  // Inc / Lakeland Realty" — the personal name "Matt Wallmow" alone has no
+  // RE keyword) still trigger Realtor.com / Zillow lookups.
+  if (/real.?estate|realtor|realt|property|homes|housing/i.test([name, location, company].filter(Boolean).join(' '))) {
     directoriesToCheck.push(
       {
         name: 'Realtor.com',

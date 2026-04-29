@@ -6,6 +6,21 @@ const path = require('path');
 const https = require('https');
 const http = require('http');
 
+function fetchXmlRaw(url) {
+  return new Promise((resolve) => {
+    const mod = url.startsWith('https') ? https : http;
+    const req = mod.get(url, { headers: { 'User-Agent': 'Mozilla/5.0 (compatible)' } }, (res) => {
+      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+        return fetchXmlRaw(res.headers.location).then(resolve);
+      }
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => resolve(data));
+    });
+    req.on('error', () => resolve(null));
+    req.setTimeout(15000, () => { req.destroy(); resolve(null); });
+  });
+}
 
 // IDX / filter page patterns — auto-generated thin content to skip
 const idxPatterns = [
@@ -41,23 +56,6 @@ function isContentPage(url) {
   return true;
 }
 
-// Fetch raw text via Node http/https (bypasses Playwright for XML/text resources)
-function fetchXmlRaw(url) {
-  return new Promise((resolve) => {
-    const mod = url.startsWith('https') ? https : http;
-    const req = mod.get(url, { headers: { 'User-Agent': 'Mozilla/5.0 (compatible)' } }, (res) => {
-      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        return fetchXmlRaw(res.headers.location).then(resolve);
-      }
-      let data = '';
-      res.on('data', chunk => data += chunk);
-      res.on('end', () => resolve(data));
-    });
-    req.on('error', () => resolve(null));
-    req.setTimeout(15000, () => { req.destroy(); resolve(null); });
-  });
-}
-
 async function fetchText(page, url) {
   try {
     await page.goto(url, { waitUntil: 'networkidle', timeout: 15000 });
@@ -67,8 +65,9 @@ async function fetchText(page, url) {
   }
 }
 
-// Recursively fetch all URLs from sitemaps (handles sitemap index files)
-// Uses Node https.get to reliably parse XML (Playwright misparses XML sitemaps)
+// Recursively fetch all URLs from sitemaps (handles sitemap index files).
+// Uses raw http(s).get so XSL-stylesheet XML sitemaps (e.g. Yoast) aren't
+// misparsed by Playwright's XML viewer.
 async function fetchAllSitemapUrls(page, sitemapUrl) {
   const content = await fetchXmlRaw(sitemapUrl);
   if (!content) return [];
@@ -76,7 +75,7 @@ async function fetchAllSitemapUrls(page, sitemapUrl) {
   const isSitemapIndex = content.includes('<sitemapindex');
 
   if (isSitemapIndex) {
-    const childSitemaps = Array.from(content.matchAll(new RegExp("<loc>([^<]+)</loc>", "g"))).map(m => m[1].trim());
+    const childSitemaps = Array.from(content.matchAll(/<loc>([^<]+)<\/loc>/g)).map(m => m[1].trim());
     console.log(`  Sitemap index with ${childSitemaps.length} child sitemaps`);
 
     let allUrls = [];
@@ -84,14 +83,14 @@ async function fetchAllSitemapUrls(page, sitemapUrl) {
       console.log(`  Fetching: ${childUrl}`);
       const childContent = await fetchXmlRaw(childUrl);
       if (childContent) {
-        const childPageUrls = Array.from(childContent.matchAll(new RegExp("<loc>([^<]+)</loc>", "g"))).map(m => m[1].trim());
+        const childPageUrls = Array.from(childContent.matchAll(/<loc>([^<]+)<\/loc>/g)).map(m => m[1].trim());
         allUrls = allUrls.concat(childPageUrls);
         console.log(`    -> ${childPageUrls.length} URLs`);
       }
     }
     return allUrls;
   } else {
-    return Array.from(content.matchAll(new RegExp("<loc>([^<]+)</loc>", "g"))).map(m => m[1].trim());
+    return Array.from(content.matchAll(/<loc>([^<]+)<\/loc>/g)).map(m => m[1].trim());
   }
 }
 
@@ -292,7 +291,6 @@ async function main() {
   const browser = await chromium.launch({
     headless: !headed,
     slowMo: headed ? 500 : 0,
-    args: ['--no-sandbox', '--disable-setuid-sandbox'],
   });
   const context = await browser.newContext({
     userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',

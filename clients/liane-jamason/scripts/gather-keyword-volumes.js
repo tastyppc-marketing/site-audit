@@ -26,7 +26,8 @@
 
 const fs = require('fs');
 const path = require('path');
-const https = require('https');
+const { postJson } = require('./lib/fetch-with-retry');
+const { writeJsonAtomic } = require('./lib/atomic-write');
 
 const DFS_BASE = 'https://api.dataforseo.com/v3';
 const DEFAULT_LOCATION_CODE = 2840;
@@ -35,35 +36,14 @@ const MAX_KEYWORDS_PER_BATCH = 1000;
 const COST_PER_BATCH = 0.075;
 
 function dfsPost(endpoint, payload, auth) {
-  return new Promise((resolve, reject) => {
-    const body = JSON.stringify(payload);
-    const url = new URL(`${DFS_BASE}${endpoint}`);
-    const options = {
-      hostname: url.hostname,
-      path: url.pathname,
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': 'Basic ' + Buffer.from(auth).toString('base64'),
-        'Content-Length': Buffer.byteLength(body),
-      },
-      timeout: 60000,
-    };
-    const req = https.request(options, (res) => {
-      let data = '';
-      res.on('data', (chunk) => { data += chunk; });
-      res.on('end', () => {
-        try { resolve(JSON.parse(data)); }
-        catch (e) { reject(new Error(`JSON parse error: ${e.message}`)); }
-      });
-    });
-    req.on('error', reject);
-    req.write(body);
-    req.end();
-  });
+  return postJson(`${DFS_BASE}${endpoint}`, payload, {
+    headers: {
+      'Authorization': 'Basic ' + Buffer.from(auth).toString('base64'),
+    },
+    timeout: 60000,
+    label: `DataForSEO ${endpoint}`,
+  }).then((response) => response.body);
 }
-
-function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 function usage() {
   console.error('Usage:');
@@ -282,10 +262,6 @@ async function main() {
       console.error(`  ERROR in batch ${i + 1}: ${err.message}`);
       for (const keyword of batch) results.push(nullEntry(keyword));
     }
-
-    if (batches.length > 1 && i < batches.length - 1) {
-      await sleep(1000);
-    }
   }
 
   let status;
@@ -319,7 +295,7 @@ async function main() {
 
   if (auditPath && auditData) {
     const updatedCount = updateAuditKeywordVolumes(auditData, results);
-    fs.writeFileSync(auditPath, `${JSON.stringify(auditData, null, 2)}\n`);
+    writeJsonAtomic(auditPath, auditData, { indent: 2, trailingNewline: true });
     console.error(`Updated ${updatedCount} keywords in audit-data.json with real volumes`);
   }
 }
