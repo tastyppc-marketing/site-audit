@@ -21,40 +21,19 @@
 
 const fs = require('fs');
 const path = require('path');
-const https = require('https');
+const { postJson } = require('./lib/fetch-with-retry');
 
 const DFS_BASE = 'https://api.dataforseo.com/v3';
 
 function dfsPost(endpoint, payload, auth) {
-  return new Promise((resolve, reject) => {
-    const body = JSON.stringify(payload);
-    const url = new URL(`${DFS_BASE}${endpoint}`);
-    const options = {
-      hostname: url.hostname,
-      path: url.pathname,
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': 'Basic ' + Buffer.from(auth).toString('base64'),
-        'Content-Length': Buffer.byteLength(body),
-      },
-      timeout: 60000,
-    };
-    const req = https.request(options, (res) => {
-      let data = '';
-      res.on('data', (chunk) => { data += chunk; });
-      res.on('end', () => {
-        try { resolve(JSON.parse(data)); }
-        catch (e) { reject(new Error(`JSON parse error: ${e.message}`)); }
-      });
-    });
-    req.on('error', reject);
-    req.write(body);
-    req.end();
-  });
+  return postJson(`${DFS_BASE}${endpoint}`, payload, {
+    headers: {
+      'Authorization': 'Basic ' + Buffer.from(auth).toString('base64'),
+    },
+    timeout: 60000,
+    label: `DataForSEO ${endpoint}`,
+  }).then((response) => response.body);
 }
-
-function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 const NULL_ENTRY = (domain, isClient) => ({
   domain,
@@ -91,8 +70,6 @@ async function main() {
     const domain = allDomains[i];
     const isClient = (i === 0);
     console.error(`  Fetching backlinks/summary for ${domain}...`);
-
-    if (i > 0) await sleep(1500); // Rate-limit safety
 
     try {
       const resp = await dfsPost('/backlinks/summary/live', [{ target: domain }], auth);

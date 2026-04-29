@@ -20,13 +20,14 @@
  * }
  *
  * Rate limit: Google PSI allows ~25 requests per 100 seconds (public) or 25,000/day (with key).
- * We make 2 calls per URL (mobile + desktop). For 5 URLs = 10 calls — well within limit.
- * Add 3-second delay between URLs as a safety margin.
+ * Requests now flow through a shared retry utility with max 2 concurrent requests,
+ * exponential backoff on 429/5xx, and 5 retries per request.
  */
 
 const fs = require('fs');
 const path = require('path');
-const https = require('https');
+const { fetchJSON: fetchJSONRetry, Semaphore } = require('./lib/fetch-with-retry');
+const sem = new Semaphore(2); // max 2 concurrent PSI requests
 
 const PSI_BASE = 'https://www.googleapis.com/pagespeedonline/v5/runPagespeed';
 const PSI_API_KEY = process.env.PAGESPEED_API_KEY || process.env.GOOGLE_API_KEY || '';
@@ -39,22 +40,14 @@ function mapPsiStatusCode(code) {
   return `PSI API error (HTTP ${code}).`;
 }
 
-function fetchJSON(url) {
-  return new Promise((resolve, reject) => {
-    const req = https.get(url, { timeout: 60000 }, (res) => {
-      let data = '';
-      res.on('data', (chunk) => { data += chunk; });
-      res.on('end', () => {
-        try { resolve({ statusCode: res.statusCode, body: JSON.parse(data) }); }
-        catch (e) { reject(new Error(`JSON parse error for ${url}: ${e.message}`)); }
-      });
-    });
-    req.on('timeout', () => { req.destroy(new Error('timeout')); });
-    req.on('error', reject);
+async function fetchPSIJSON(url) {
+  const res = await fetchJSONRetry(url, {
+    timeout: 90000,
+    label: `PSI ${url.substring(0, 60)}`,
+    allowNon2xx: true, // we handle status codes ourselves
   });
+  return res;
 }
-
-function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 function extractMetrics(psiResponse) {
   const lhr = psiResponse.lighthouseResult;
@@ -85,26 +78,29 @@ async function fetchPSI(url, strategy, domain) {
   const keyParam = PSI_API_KEY ? `&key=${PSI_API_KEY}` : '';
   const apiUrl = `${PSI_BASE}?url=${encodeURIComponent(url)}&strategy=${strategy}&category=performance${keyParam}`;
   console.error(`  Fetching PSI: ${url} [${strategy}]...`);
-  try {
-    const { statusCode, body } = await fetchJSON(apiUrl);
-    if (statusCode !== 200) {
-      const reason = mapPsiStatusCode(statusCode);
-      errors.push({ domain, strategy, code: statusCode, reason });
-      console.error(`  WARNING: PSI HTTP ${statusCode} for ${url} [${strategy}]: ${reason}`);
+  return sem.run(async () => {
+    try {
+      const body = await fetchPSIJSON(apiUrl);
+      if (body && body.error) {
+        const code = body.error.code || 500;
+        const reason = mapPsiStatusCode(code);
+        errors.push({ domain, strategy, code, reason });
+        console.error(`  WARNING: PSI HTTP ${code} for ${url} [${strategy}]: ${reason}`);
+        return null;
+      }
+      if (!body || !body.lighthouseResult) {
+        errors.push({ domain, strategy, reason: 'PSI API returned no lighthouseResult.' });
+        console.error(`  WARNING: PSI no lighthouseResult for ${url} [${strategy}]`);
+        return null;
+      }
+      return body;
+    } catch (err) {
+      const reason = err.message === 'timeout' ? 'PSI API request timed out.' : err.message;
+      errors.push({ domain, strategy, reason });
+      console.error(`  WARNING: PSI failed for ${url} [${strategy}]: ${reason}`);
       return null;
     }
-    if (!body.lighthouseResult) {
-      errors.push({ domain, strategy, reason: 'PSI API returned no lighthouseResult.' });
-      console.error(`  WARNING: PSI no lighthouseResult for ${url} [${strategy}]`);
-      return null;
-    }
-    return body;
-  } catch (err) {
-    const reason = err.message === 'timeout' ? 'PSI API request timed out.' : err.message;
-    errors.push({ domain, strategy, reason });
-    console.error(`  WARNING: PSI failed for ${url} [${strategy}]: ${reason}`);
-    return null;
-  }
+  });
 }
 
 async function main() {
@@ -134,10 +130,7 @@ async function main() {
     const isClient = (i === 0);
     const domain = domainFromUrl(url);
 
-    if (i > 0) await sleep(3000); // Rate-limit safety margin
-
     const mobileResp = await fetchPSI(url, 'mobile', domain);
-    await sleep(1500);
     const desktopResp = await fetchPSI(url, 'desktop', domain);
 
     const mobile = mobileResp ? extractMetrics(mobileResp) : null;

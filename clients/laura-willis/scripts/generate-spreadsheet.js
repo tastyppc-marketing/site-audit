@@ -47,14 +47,30 @@ const keywords = [
 ];
 
 // ============ SHEET 3: Competitor Comparison ============
+// Mirrors pages/competitors.js:64-71 — derive column count from row keys, not
+// from competitor.all (the two can diverge when normalizer adds a comp slot
+// without a matching competitor metadata entry).
+const compKeys = (function (rows) {
+  if (!rows.length) return [];
+  return Object.keys(rows[0]).filter(k => /^comp\d+$/.test(k) && rows[0][k] !== undefined)
+    .sort((a, b) => parseInt(a.slice(4), 10) - parseInt(b.slice(4), 10));
+})(d.competitorComparison);
+
 const compHeaders = ['Metric', d.client.website];
-d.competitor.all.forEach(c => compHeaders.push(c.name));
+compKeys.forEach((_, i) => {
+  const meta = d.competitor.all[i];
+  compHeaders.push((meta && meta.name) || ('Comp ' + (i + 1)));
+});
+compHeaders.push('Gap');
+
 const competitors = [
   ['COMPETITOR COMPARISON', '', '', '', '', ''],
   [],
   compHeaders,
   ...d.competitorComparison.map(row => {
-    const r = [row.metric, row.client, row.comp1 || '', row.comp2 || '', row.gap || ''];
+    const r = [row.metric, row.client];
+    compKeys.forEach(key => r.push(row[key] || ''));
+    r.push(row.gap || '');
     return r;
   }),
 ];
