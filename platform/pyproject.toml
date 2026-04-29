@@ -19,6 +19,8 @@ dependencies = [
     "google-api-python-client>=2.0",
     "tenacity>=8.0",
     "structlog>=23.0",
+    "networkx>=2.6",
+    "vaderSentiment>=3.3.2",
 ]
 
 [project.optional-dependencies]
