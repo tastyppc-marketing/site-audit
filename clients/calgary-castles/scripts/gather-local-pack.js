@@ -1,0 +1,268 @@
+#!/usr/bin/env node
+'use strict';
+
+/**
+ * gather-local-pack.js — Calls DataForSEO SERP API to check if client appears
+ * in Google Local Pack (map pack) for each tracked keyword.
+ * Produces research/local-pack-data.json.
+ *
+ * Usage:
+ *   node scripts/gather-local-pack.js --keywords "kw1,kw2,kw3" --business "Business Name"
+ *   node scripts/gather-local-pack.js --from-audit seo/audit-data.json
+ *
+ * The DataForSEO location_code is resolved in this priority order:
+ *   1. --location <int>          explicit CLI override
+ *   2. client-config.json        "locationCode" field (auto-loaded from cwd,
+ *                                or --config <path>)
+ *   3. 2840 (country-level US)   fallback with visible warning
+ *
+ * Requires env vars: DATAFORSEO_LOGIN, DATAFORSEO_PASSWORD
+ *
+ * Output shape:
+ * {
+ *   businessName, locationCode,
+ *   keywords: [{ keyword, foundInPack, position, packItems }],
+ *   summary: { totalKeywords, foundInPack, notInPack, avgPosition },
+ *   errors: [{ keyword, code?, reason }],
+ *   status: "success" | "partial" | "failed",
+ *   gatheredAt: ISO timestamp
+ * }
+ */
+
+const fs = require('fs');
+const path = require('path');
+const { postJson } = require('./lib/fetch-with-retry');
+
+const DFS_BASE = 'https://api.dataforseo.com/v3';
+function dfsPost(endpoint, payload, auth) {
+  return postJson(`${DFS_BASE}${endpoint}`, payload, {
+    headers: {
+      'Authorization': 'Basic ' + Buffer.from(auth).toString('base64'),
+    },
+    timeout: 60000,
+    label: `DataForSEO ${endpoint}`,
+  }).then((response) => response.body);
+}
+
+function getArg(flag, defaultVal) {
+  const idx = process.argv.indexOf(flag);
+  if (idx !== -1 && process.argv[idx + 1]) return process.argv[idx + 1];
+  return defaultVal;
+}
+
+function hasFlag(flag) { return process.argv.includes(flag); }
+
+/**
+ * Resolve the DataForSEO location_code from (in priority order):
+ *   1. --location CLI flag (explicit override)
+ *   2. client-config.json "locationCode" field (auto-loaded from --config
+ *      path, else ./client-config.json relative to cwd)
+ *   3. 2840 (country-level US) with a visible warning
+ *
+ * Returns a positive integer. Exits 1 on invalid values rather than
+ * silently falling through.
+ */
+function resolveLocationCode() {
+  const cliLoc = getArg('--location', null);
+  if (cliLoc != null) {
+    const code = parseInt(cliLoc, 10);
+    if (!Number.isInteger(code) || code <= 0) {
+      console.error(`ERROR: --location must be a positive integer, got: ${cliLoc}`);
+      process.exit(1);
+    }
+    console.error(`location_code ${code} (source: --location CLI flag)`);
+    return code;
+  }
+
+  const configPath = path.resolve(getArg('--config', null) || 'client-config.json');
+  if (fs.existsSync(configPath)) {
+    try {
+      const cfg = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
+      if (cfg.locationCode != null) {
+        const code = parseInt(cfg.locationCode, 10);
+        if (!Number.isInteger(code) || code <= 0) {
+          console.error(`ERROR: client-config.json "locationCode" must be a positive integer, got: ${cfg.locationCode}`);
+          process.exit(1);
+        }
+        console.error(`location_code ${code} (source: ${configPath})`);
+        return code;
+      }
+    } catch (e) {
+      console.error(`WARNING: could not parse ${configPath}: ${e.message}`);
+    }
+  }
+
+  console.error(`WARNING: no --location flag and no locationCode in ${configPath} — falling back to 2840 (country-level US).`);
+  console.error(`         Local-pack results will NOT be city-specific. Add "locationCode": <DFS numeric code> to client-config.json.`);
+  return 2840;
+}
+
+function fuzzyMatch(title, businessName) {
+  if (!title || !businessName) return false;
+  return title.toLowerCase().includes(businessName.toLowerCase()) ||
+    businessName.toLowerCase().includes(title.toLowerCase());
+}
+
+async function main() {
+  const login = process.env.DATAFORSEO_LOGIN;
+  const password = process.env.DATAFORSEO_PASSWORD;
+  if (!login || !password) {
+    console.error('ERROR: Set DATAFORSEO_LOGIN and DATAFORSEO_PASSWORD environment variables');
+    process.exit(1);
+  }
+
+  const locationCode = resolveLocationCode();
+  let keywords = [];
+  let businessName = '';
+
+  // --from-audit mode: read keywords and business name from audit-data.json
+  const fromAudit = getArg('--from-audit', null);
+  if (fromAudit) {
+    const auditPath = path.resolve(fromAudit);
+    if (!fs.existsSync(auditPath)) {
+      console.error(`ERROR: audit-data.json not found at ${auditPath}`);
+      process.exit(1);
+    }
+    const auditData = JSON.parse(fs.readFileSync(auditPath, 'utf-8'));
+    const kwArray = (auditData.data || auditData).keywords || [];
+    keywords = kwArray.map(k => (typeof k === 'string' ? k : k.keyword)).filter(Boolean);
+    businessName = ((auditData.data || auditData).client || {}).name || '';
+    if (!businessName) {
+      console.error('ERROR: Could not read client.name from audit-data.json');
+      process.exit(1);
+    }
+  } else {
+    // --keywords and --business mode
+    const kwArg = getArg('--keywords', '');
+    if (!kwArg) {
+      console.error('Usage: node gather-local-pack.js --keywords "kw1,kw2" --business "Name" [--location <code>]');
+      console.error('       node gather-local-pack.js --from-audit seo/audit-data.json [--location <code>]');
+      console.error('       (location_code also read from client-config.json "locationCode" if present)');
+      process.exit(1);
+    }
+    keywords = kwArg.split(',').map(k => k.trim()).filter(Boolean);
+    businessName = getArg('--business', '');
+    if (!businessName) {
+      console.error('ERROR: --business "Business Name" is required');
+      process.exit(1);
+    }
+  }
+
+  if (keywords.length === 0) {
+    console.error('ERROR: No keywords found');
+    process.exit(1);
+  }
+
+  console.error(`Checking Local Pack for "${businessName}" — ${keywords.length} keywords, location ${locationCode}`);
+  console.error(`Estimated cost: $${(keywords.length * 0.002).toFixed(3)} (${keywords.length} SERP queries)\n`);
+
+  const auth = `${login}:${password}`;
+  const results = [];
+  const errors = [];
+
+  for (let i = 0; i < keywords.length; i++) {
+    const keyword = keywords[i];
+    console.error(`  [${i + 1}/${keywords.length}] ${keyword}`);
+
+    try {
+      const resp = await dfsPost('/serp/google/organic/live/advanced', [{
+        keyword,
+        location_code: locationCode,
+        language_code: 'en',
+        device: 'desktop',
+        depth: 100,
+      }], auth);
+
+      const tasks = resp.tasks || [];
+      const task = tasks[0];
+      if (!task || task.status_code !== 20000 || !task.result || !task.result[0]) {
+        const reason = task ? task.status_message : 'No task returned';
+        const code = task ? task.status_code : null;
+        errors.push({ keyword, code, reason });
+        console.error(`    WARNING: No data — ${reason}`);
+        results.push({ keyword, foundInPack: false, position: null, packItems: [] });
+        continue;
+      }
+
+      // Collect local_pack items — DataForSEO emits each pack entry as a
+      // top-level item with type: 'local_pack' (up to 3 per SERP).
+      const items = task.result[0].items || [];
+      const localPackEntries = items.filter(item => item.type === 'local_pack');
+
+      if (localPackEntries.length === 0) {
+        console.error(`    No local pack found`);
+        results.push({ keyword, foundInPack: false, position: null, packItems: [] });
+        continue;
+      }
+
+      const packItems = localPackEntries.slice(0, 3).map((entry, idx) => ({
+        title: entry.title || entry.domain || '',
+        rating: entry.rating ? (entry.rating.value || entry.rating) : null,
+        reviews: entry.rating ? (entry.rating.votes_count || null) : null,
+        position: idx + 1,
+      }));
+
+      // Fuzzy match client business name
+      const matchIdx = packItems.findIndex(p => fuzzyMatch(p.title, businessName));
+      const foundInPack = matchIdx !== -1;
+      const position = foundInPack ? matchIdx + 1 : null;
+
+      if (foundInPack) {
+        console.error(`    FOUND at position ${position}`);
+      } else {
+        console.error(`    Not in pack (pack: ${packItems.map(p => p.title).join(', ')})`);
+      }
+
+      results.push({ keyword, foundInPack, position, packItems });
+    } catch (err) {
+      errors.push({ keyword, reason: err.message });
+      console.error(`    ERROR: ${err.message}`);
+      results.push({ keyword, foundInPack: false, position: null, packItems: [] });
+    }
+  }
+
+  // Summary
+  const inPackResults = results.filter(r => r.foundInPack);
+  const positions = inPackResults.map(r => r.position).filter(p => p !== null);
+  const avgPosition = positions.length > 0
+    ? Math.round((positions.reduce((a, b) => a + b, 0) / positions.length) * 10) / 10
+    : null;
+
+  const summary = {
+    totalKeywords: results.length,
+    foundInPack: inPackResults.length,
+    notInPack: results.length - inPackResults.length,
+    avgPosition,
+  };
+
+  // Compute status
+  let status;
+  if (errors.length === 0) {
+    status = 'success';
+  } else if (results.every(r => !r.foundInPack) && errors.length === results.length) {
+    status = 'failed';
+  } else {
+    status = 'partial';
+  }
+
+  const outputDir = path.resolve('seo', 'research');
+  if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
+  const outputPath = path.join(outputDir, 'local-pack-data.json');
+
+  fs.writeFileSync(outputPath, JSON.stringify({
+    businessName,
+    locationCode,
+    keywords: results,
+    summary,
+    errors,
+    status,
+    gatheredAt: new Date().toISOString(),
+  }, null, 2));
+
+  console.error(`\nWritten: ${outputPath}`);
+  console.error(`Summary: ${summary.foundInPack}/${summary.totalKeywords} keywords in pack` +
+    (avgPosition !== null ? `, avg position ${avgPosition}` : ''));
+  if (errors.length > 0) console.error(`Errors: ${errors.length} (status: ${status})`);
+}
+
+main().catch(err => { console.error('FATAL:', err.message); process.exit(1); });
