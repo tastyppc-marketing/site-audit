@@ -3,6 +3,24 @@
 const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
+const https = require('https');
+const http = require('http');
+
+function fetchXmlRaw(url) {
+  return new Promise((resolve) => {
+    const mod = url.startsWith('https') ? https : http;
+    const req = mod.get(url, { headers: { 'User-Agent': 'Mozilla/5.0 (compatible)' } }, (res) => {
+      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+        return fetchXmlRaw(res.headers.location).then(resolve);
+      }
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => resolve(data));
+    });
+    req.on('error', () => resolve(null));
+    req.setTimeout(15000, () => { req.destroy(); resolve(null); });
+  });
+}
 
 // IDX / filter page patterns — auto-generated thin content to skip
 const idxPatterns = [
@@ -47,46 +65,72 @@ async function fetchText(page, url) {
   }
 }
 
-// Recursively fetch all URLs from sitemaps (handles sitemap index files)
+// Recursively fetch all URLs from sitemaps (handles sitemap index files).
+// Uses raw http(s).get so XSL-stylesheet XML sitemaps (e.g. Yoast) aren't
+// misparsed by Playwright's XML viewer.
 async function fetchAllSitemapUrls(page, sitemapUrl) {
-  const content = await fetchText(page, sitemapUrl);
+  const content = await fetchXmlRaw(sitemapUrl);
   if (!content) return [];
 
   const isSitemapIndex = content.includes('<sitemapindex');
 
   if (isSitemapIndex) {
-    // Extract child sitemap URLs
-    const childSitemaps = await page.evaluate(() => {
-      const locs = document.querySelectorAll('sitemap > loc, sitemapindex > sitemap > loc');
-      return Array.from(locs).map(el => el.textContent.trim());
-    });
+    const childSitemaps = Array.from(content.matchAll(/<loc>([^<]+)<\/loc>/g)).map(m => m[1].trim());
     console.log(`  Sitemap index with ${childSitemaps.length} child sitemaps`);
 
     let allUrls = [];
     for (const childUrl of childSitemaps) {
       console.log(`  Fetching: ${childUrl}`);
-      const childContent = await fetchText(page, childUrl);
+      const childContent = await fetchXmlRaw(childUrl);
       if (childContent) {
-        const childPageUrls = await page.evaluate(() => {
-          const locs = document.querySelectorAll('loc');
-          return Array.from(locs).map(el => el.textContent.trim());
-        });
+        const childPageUrls = Array.from(childContent.matchAll(/<loc>([^<]+)<\/loc>/g)).map(m => m[1].trim());
         allUrls = allUrls.concat(childPageUrls);
         console.log(`    -> ${childPageUrls.length} URLs`);
       }
     }
     return allUrls;
   } else {
-    // Simple urlset
-    return await page.evaluate(() => {
-      const locs = document.querySelectorAll('loc');
-      return Array.from(locs).map(el => el.textContent.trim());
-    });
+    return Array.from(content.matchAll(/<loc>([^<]+)<\/loc>/g)).map(m => m[1].trim());
   }
 }
 
 // Analyze a single page — returns enhanced page data object
 async function analyzePage(browserPage, pageUrl) {
+  // P7: Capture response headers and redirect chain via response events
+  const responseHeaders = {};
+  const redirectChain = [];
+
+  browserPage.on('response', response => {
+    const status = response.status();
+    const url = response.url();
+
+    // Track redirect hops
+    if (status >= 300 && status < 400) {
+      redirectChain.push({
+        url: url,
+        status: status,
+        location: response.headers()['location'] || null,
+      });
+    }
+
+    // Capture headers from the final (primary) response matching our target URL
+    // Use the last non-redirect response as the "final" response
+    if (status < 300 || status >= 400) {
+      const headers = response.headers();
+      responseHeaders.xRobotsTag = headers['x-robots-tag'] || null;
+      responseHeaders.linkHeader = headers['link'] || null;
+      responseHeaders.strictTransportSecurity = headers['strict-transport-security'] || null;
+      responseHeaders.contentSecurityPolicy = headers['content-security-policy'] || null;
+      responseHeaders.xContentTypeOptions = headers['x-content-type-options'] || null;
+      responseHeaders.xFrameOptions = headers['x-frame-options'] || null;
+      responseHeaders.referrerPolicy = headers['referrer-policy'] || null;
+      responseHeaders.permissionsPolicy = headers['permissions-policy'] || null;
+      responseHeaders.cacheControl = headers['cache-control'] || null;
+      responseHeaders.server = headers['server'] || null;
+      responseHeaders.statusCode = status;
+    }
+  });
+
   await browserPage.goto(pageUrl, { waitUntil: 'networkidle', timeout: 20000 });
   await browserPage.waitForTimeout(500);
 
@@ -129,10 +173,21 @@ async function analyzePage(browserPage, pageUrl) {
       contextualLinkTargets: contextualLinks.map(l => l.href),
       externalLinks: Array.from(document.querySelectorAll('a[href^="http"]'))
         .filter(a => { try { return new URL(a.href).hostname !== hostname; } catch { return false; } }).length,
-      canonical: document.querySelector('link[rel="canonical"]')?.href || null,
+      // P7: Use getAttribute('href') to preserve relative URLs for canonical audit
+      canonical: document.querySelector('link[rel="canonical"]')?.getAttribute('href') || null,
+      canonicalResolved: document.querySelector('link[rel="canonical"]')?.href || null,
+      canonicalCount: document.querySelectorAll('link[rel="canonical"]').length,
+      // P7: Robots meta directives
+      robotsMeta: document.querySelector('meta[name="robots"]')?.getAttribute('content') || null,
+      googlebotMeta: document.querySelector('meta[name="googlebot"]')?.getAttribute('content') || null,
+      // P7: Viewport meta for mobile usability
+      viewportMeta: document.querySelector('meta[name="viewport"]')?.getAttribute('content') || null,
+      // Schema: collect full JSON-LD for validation (not just types)
       hasSchema: !!document.querySelector('script[type="application/ld+json"]'),
       schemaTypes: Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
-        .map(s => { try { const d = JSON.parse(s.textContent); return d['@type'] || 'unknown'; } catch { return 'invalid'; } }),
+        .map(s => { try { const d = JSON.parse(s.textContent); return d['@type'] || (d['@graph'] ? 'graph' : 'unknown'); } catch { return 'invalid'; } }),
+      schemaData: Array.from(document.querySelectorAll('script[type="application/ld+json"]'))
+        .map(s => { try { return JSON.parse(s.textContent); } catch(e) { return { _parseError: e.message, _raw: s.textContent.substring(0, 500) }; } }),
       ogTitle: getMeta('og:title'),
       ogDescription: getMeta('og:description'),
       ogImage: getMeta('og:image'),
@@ -140,6 +195,20 @@ async function analyzePage(browserPage, pageUrl) {
       issues: [],
     };
   });
+
+  // P7: Attach response headers and redirect chain
+  pageData.responseHeaders = responseHeaders;
+  pageData.redirectChain = redirectChain;
+  pageData.redirectChainLength = redirectChain.length;
+  pageData.statusCode = responseHeaders.statusCode || 200;
+
+  // P7: Parse Link header for HTTP canonical
+  if (responseHeaders.linkHeader) {
+    const canonicalMatch = responseHeaders.linkHeader.match(/<([^>]+)>;\s*rel="canonical"/i);
+    pageData.httpCanonical = canonicalMatch ? canonicalMatch[1] : null;
+  } else {
+    pageData.httpCanonical = null;
+  }
 
   // Post-process issues
   if (!pageData.title) pageData.issues.push('MISSING_TITLE');
@@ -155,6 +224,14 @@ async function analyzePage(browserPage, pageUrl) {
   if (!pageData.ogTitle) pageData.issues.push('NO_OG_TAGS');
   if (pageData.contextualInternalLinks === 0) pageData.issues.push('NO_CONTEXTUAL_INTERNAL_LINKS');
   if (pageData.imgWithoutAlt > 0) pageData.issues.push('MISSING_ALT_TEXT');
+
+  // P7: New issue flags
+  if (!pageData.viewportMeta) pageData.issues.push('MISSING_VIEWPORT');
+  if (pageData.redirectChainLength > 1) pageData.issues.push('REDIRECT_CHAIN');
+  if (pageData.canonicalCount > 1) pageData.issues.push('MULTIPLE_CANONICALS');
+  if (pageData.robotsMeta && pageData.robotsMeta.toLowerCase().includes('noindex')) pageData.issues.push('NOINDEX');
+  if (responseHeaders.xRobotsTag && responseHeaders.xRobotsTag.toLowerCase().includes('noindex')) pageData.issues.push('X_ROBOTS_NOINDEX');
+  if (!responseHeaders.strictTransportSecurity) pageData.issues.push('MISSING_HSTS');
 
   return pageData;
 }
@@ -238,7 +315,7 @@ async function main() {
     let foundSitemapUrl = null;
 
     for (const url of sitemapCandidates) {
-      const content = await fetchText(page, url);
+      const content = await fetchXmlRaw(url);
       if (content && (content.includes('<urlset') || content.includes('<sitemapindex'))) {
         foundSitemapUrl = url;
         console.log(`Found sitemap at: ${url}`);
@@ -392,6 +469,20 @@ async function main() {
         }
         fs.writeFileSync(outputPath, JSON.stringify(results, null, 2));
         console.log(`\nCrawl data saved to: ${outputPath}`);
+
+        // Write link graph (edge data for Python InternalLinkAnalyzer)
+        const linkGraph = {
+          domain: baseUrl,
+          crawlDate: new Date().toISOString(),
+          edges: Object.fromEntries(
+            analyzedPages
+              .filter(pd => !pd.error && pd.contextualLinkTargets)
+              .map(pd => [pd.url, pd.contextualLinkTargets])
+          ),
+        };
+        const graphOutputPath = path.join(__dirname, '..', 'seo', 'research', 'link-graph.json');
+        fs.writeFileSync(graphOutputPath, JSON.stringify(linkGraph, null, 2));
+        console.log(`Link graph saved to: ${graphOutputPath}`);
       }
     } else {
       console.log('No URLs found in sitemap.');
