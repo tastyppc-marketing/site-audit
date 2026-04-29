@@ -86,17 +86,18 @@ class CrUXConnector(BaseConnector):
         url = self._endpoint_url()
         self.log.debug("crux_request", body=body)
 
-        response = self.sync_client.post(
-            url,
-            json=body,
-            headers={"Content-Type": "application/json"},
-        )
-
-        if response.status_code == 404:
-            self.log.info("crux_no_data", body=body)
-            return None
-
-        response.raise_for_status()
+        try:
+            response = self._request_sync(
+                "POST",
+                url,
+                json=body,
+                headers={"Content-Type": "application/json"},
+            )
+        except httpx.HTTPStatusError as exc:
+            if exc.response.status_code == 404:
+                self.log.info("crux_no_data", body=body)
+                return None
+            raise
         return response.json()
 
     # ------------------------------------------------------------------
