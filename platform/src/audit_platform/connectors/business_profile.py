@@ -122,14 +122,12 @@ class BusinessProfileConnector(BaseConnector):
 
     def _get(self, url: str, params: dict[str, Any] | None = None) -> dict[str, Any]:
         """Issue an authenticated GET and return the JSON body."""
-        resp = self.sync_client.get(url, headers=self._get_auth_headers(), params=params)
-        resp.raise_for_status()
+        resp = self._request_sync("GET", url, headers=self._get_auth_headers(), params=params)
         return resp.json()
 
     def _post(self, url: str, json_body: dict[str, Any] | None = None) -> dict[str, Any]:
         """Issue an authenticated POST and return the JSON body."""
-        resp = self.sync_client.post(url, headers=self._get_auth_headers(), json=json_body)
-        resp.raise_for_status()
+        resp = self._request_sync("POST", url, headers=self._get_auth_headers(), json=json_body)
         return resp.json()
 
     # ------------------------------------------------------------------
