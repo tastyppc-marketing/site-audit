@@ -67,13 +67,21 @@ class BrandMentionsConnector(BaseConnector):
         params: dict[str, Any] | None = None,
         label: str = "request",
     ) -> httpx.Response | None:
-        """Issue a GET that never raises -- returns *None* on any failure."""
+        """Issue a GET that never raises -- returns *None* on any failure.
+
+        Routes through ``_request_sync`` to gain 5xx + transport-error retry
+        coverage from the base class.  The inline single-retry on 429 is
+        preserved: base intentionally does NOT retry 429 (rate-limit is not
+        transient -- immediate retry worsens throttling), but brand_mentions'
+        opportunistic check pattern benefits from one extra attempt with the
+        server-supplied backoff.
+        """
         merged_headers = {**_DEFAULT_HEADERS, **(headers or {})}
         try:
-            self._rate_limit_sync()
-            resp = self.sync_client.get(url, headers=merged_headers, params=params)
-            if resp.status_code == 429:
-                retry_after = int(resp.headers.get("Retry-After", "5"))
+            return self._request_sync("GET", url, headers=merged_headers, params=params)
+        except httpx.HTTPStatusError as exc:
+            if exc.response.status_code == 429:
+                retry_after = int(exc.response.headers.get("Retry-After", "5"))
                 self.log.warning(
                     "rate_limited",
                     url=url,
@@ -81,10 +89,32 @@ class BrandMentionsConnector(BaseConnector):
                     label=label,
                 )
                 time.sleep(min(retry_after, 30))
-                resp = self.sync_client.get(url, headers=merged_headers, params=params)
-            resp.raise_for_status()
-            return resp
-        except httpx.HTTPStatusError as exc:
+                try:
+                    return self._request_sync("GET", url, headers=merged_headers, params=params)
+                except httpx.HTTPStatusError as exc2:
+                    self.log.warning(
+                        "http_error",
+                        url=url,
+                        status=exc2.response.status_code,
+                        label=label,
+                    )
+                    return None
+                except (httpx.TransportError, httpx.TimeoutException) as exc2:
+                    self.log.warning(
+                        "transport_error",
+                        url=url,
+                        error=str(exc2),
+                        label=label,
+                    )
+                    return None
+                except Exception as exc2:
+                    self.log.warning(
+                        "unexpected_error",
+                        url=url,
+                        error=str(exc2),
+                        label=label,
+                    )
+                    return None
             self.log.warning(
                 "http_error",
                 url=url,
