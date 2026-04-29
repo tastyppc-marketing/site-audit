@@ -29,13 +29,22 @@ const path = require('path');
 
 function countSyllables(word) {
   word = word.toLowerCase().replace(/[^a-z]/g, '');
-  if (word.length <= 2) return 1;
-  // Remove trailing silent-e
-  word = word.replace(/e$/, '');
-  // Count vowel groups
-  const matches = word.match(/[aeiouy]+/g);
-  const count = matches ? matches.length : 1;
-  return Math.max(1, count);
+  if (word.length <= 3) return 1;
+  word = word.replace(/(?:[^laeiouy]es|ed|[^laeiouy]e)$/, '');
+  word = word.replace(/^y/, '');
+  const matches = word.match(/[aeiouy]{1,2}/g);
+  return matches ? matches.length : 1;
+}
+
+// ── Readability level label ──
+function getReadabilityLevel(score) {
+  if (score >= 90) return 'Very Easy';
+  if (score >= 80) return 'Easy';
+  if (score >= 70) return 'Fairly Easy';
+  if (score >= 60) return 'Standard';
+  if (score >= 50) return 'Fairly Difficult';
+  if (score >= 30) return 'Difficult';
+  return 'Very Difficult';
 }
 
 function analyzeText(text) {
@@ -129,17 +138,45 @@ async function main() {
       const page = await context.newPage();
       await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
 
-      // Extract body text, stripping non-content elements
+      // Extract body text with boilerplate stripped, preferring <main>/<article>/<section>
       const result = await page.evaluate(() => {
-        // Remove non-content elements
-        const removeSelectors = ['script', 'style', 'noscript', 'nav', 'footer', 'header', 'aside', '.nav', '.footer', '.header', '.sidebar'];
+        // Remove boilerplate elements (22 selectors — semantic tags + class/id variants)
+        const selectorsToRemove = [
+          'nav', 'footer', 'header', 'aside',
+          'script', 'style', 'noscript', 'iframe',
+          '[class*="menu"]', '[class*="nav"]', '[class*="footer"]',
+          '[class*="sidebar"]', '[class*="widget"]',
+          '[id*="menu"]', '[id*="nav"]', '[id*="footer"]',
+          '[id*="sidebar"]', '[id*="widget"]',
+          '[class*="Menu"]', '[class*="Nav"]', '[class*="Footer"]',
+          '[class*="Sidebar"]', '[class*="Widget"]',
+          '[id*="Menu"]', '[id*="Nav"]', '[id*="Footer"]',
+          '[id*="Sidebar"]', '[id*="Widget"]'
+        ];
+
+        // Clone body so we don't destroy the page
         const clone = document.body.cloneNode(true);
-        removeSelectors.forEach(sel => {
+        for (const sel of selectorsToRemove) {
           clone.querySelectorAll(sel).forEach(el => el.remove());
-        });
+        }
+
+        // Try <main> → <article> → aggregated <section>s → fallback to body
+        let contentEl = clone.querySelector('main') || clone.querySelector('article');
+        if (!contentEl) {
+          const sections = clone.querySelectorAll('section');
+          if (sections.length > 0) {
+            contentEl = document.createElement('div');
+            sections.forEach(s => contentEl.appendChild(s.cloneNode(true)));
+          }
+        }
+        if (!contentEl) {
+          contentEl = clone;
+        }
+
+        const text = contentEl.innerText || contentEl.textContent || '';
         return {
           title: document.title || '',
-          text: (clone.textContent || '').replace(/\s+/g, ' ').trim(),
+          text: text.replace(/\s+/g, ' ').trim(),
         };
       });
 
