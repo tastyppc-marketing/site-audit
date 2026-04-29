@@ -183,8 +183,7 @@ class PageSpeedConnector(BaseConnector):
 
         self.log.info("pagespeed_analyze_start", url=url, strategy=strategy, categories=cats)
 
-        response = self.sync_client.get(_PSI_ENDPOINT, params=params)
-        response.raise_for_status()
+        response = self._request_sync("GET", _PSI_ENDPOINT, params=params)
         data: dict[str, Any] = response.json()
 
         record = self._parse_response(data, url, strategy)
