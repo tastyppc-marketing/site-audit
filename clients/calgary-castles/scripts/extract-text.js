@@ -78,8 +78,6 @@ function buildExplanation(avgSentLen, avgSylPerWord, fleschScore, url) {
     contentNote = 'Blog content ';
   } else if (url.includes('/buyers/') || url.includes('/sellers/')) {
     contentNote = 'Real estate guidance content ';
-  } else if (url.includes('/communities/') || url.match(/\/(auburn-bay|bridlewood|chaparral|cranston|evergreen|legacy|mahogany|mckenzie-towne|new-brighton|walden)\//)) {
-    contentNote = 'Community/neighbourhood page content ';
   } else if (url.includes('/contact/')) {
     contentNote = 'Contact page content ';
   } else if (url.includes('/about/')) {
