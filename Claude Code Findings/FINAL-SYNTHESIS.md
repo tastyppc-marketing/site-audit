@@ -621,3 +621,70 @@ The full `/seo-audit` end-to-end run on each newly-synced client was NOT execute
 - Planned 8 commits, shipped 9 (added C2-prep for the gitlink fix). Following Tier 3 prep-commit precedent (`d98fc43`, `ef94747`).
 - All 4 hardened seed concerns from `/root/.claude/plans/okay-awesome-can-we-zazzy-hopcroft.md` addressed: file-count parity, `test -f` lib/ assertions, sha256 fork guard, exact-SHA push-disclosure block.
 - bd issues filed: 4 (3 from spill register §5 + 1 NEW v4-branch investigation from execution-time discovery).
+
+### Tier 4 Followups — SHIPPED (2026-04-29)
+
+12-commit pass on `site-audit-fixes-tier-4-followups` (forked from `site-audit-fixes-tier-4` at `f761fea`, pushed to origin `e6033ec`) resolving the 4 bd issues filed during Tier 4 wrap (aj1, 0au, acf, ar9), surfacing 2 NEW Tier 5 candidates from forensic, and restoring fleet parity after the template upgrade.
+
+| # | Subject | Commit |
+|---|---|---|
+| docs    | Tier 4 Overflow Plan committed (max-effort revision; D1–D6 + 14-risk register) | `cdb8153` |
+| aj1     | networkx + vaderSentiment as required deps in `platform/pyproject.toml` (eliminates silent prod zero-data risk) | `5950198` |
+| acf 1/5 | `pagespeed.py` GET routed through `_request_sync` (preserves API-key delay logic) | `f59998d` |
+| acf 2/5 | `business_profile.py` OAuth GET + POST routed through `_request_sync` | `4534d37` |
+| acf 3/5 | `crux.py` POST routed through `_request_sync` with 404-as-no-data preserved via `httpx.HTTPStatusError` catch | `50ae087` |
+| acf 4/5 | `brand_mentions.py` `_safe_get` wraps `_request_sync`; preserved `Retry-After` header parsing + bare-Exception "never raises" contract; removed redundant `_rate_limit_sync()` (base does it) | `32b6149` |
+| acf 5/5 | `social_audit.py` `_safe_head`/`_safe_get` wrap `_request_sync`; `_safe_head` returns `int \| None` (status code) preserved via `exc.response.status_code` from HTTPStatusError catch | `27ac230` |
+| bd hook | Auto-commit from `bd close site-audit-fix-work-acf` | `86e4ae6` |
+| ar9 1/3 | Upstreamed Calgary's `countSyllables` (regex suffix-stripping) + `<main>`/`<article>` extraction (22-selector boilerplate strip) + `getReadabilityLevel(score)` helper to `template/scripts/extract-text.js` | `7836e23` |
+| ar9 2/3 | Removed Calgary's hardcoded community-slug regex from `extract-text.js` fork | `ac9220b` |
+| ar9 3/3 | Synced calgary's `extract-text.js` to template via `cp` (sha256 verified). **Calgary fork retired — Tier 4 sha256-fingerprint guard no longer needed.** | `1b22d64` |
+| ar9 4/3 | Surfaced during post-flight: 4a's template upgrade had not propagated to the 6 non-calgary clients, breaking Tier 4 fleet-parity. Cohort cp + 1 commit. **Restored fleet-parity guarantee explicitly.** | `e6033ec` |
+
+**Branch:** `site-audit-fixes-tier-4-followups` at `e6033ec`. Pushed to origin.
+
+#### Recon discoveries surfaced during Followups
+
+- **PEP 668 externally-managed Python.** Pre-flight `pip install --dry-run` failed on the system Python. Resolved via `--break-system-packages` flag (matches pytest precedent at `/usr/local/lib/python3.12/dist-packages`). The platform package is PYTHONPATH-imported (no pip install needed); only external deps require the install.
+- **`scoreExplanation` IS consumed by code (Explore C correction).** Repo-wide grep at planning time proved `scoreExplanation` has 4 distinct consumers (renderer with `buildReadabilityExplanation()` fallback at `generate-multipage-report.js:1432,1483-1484,2796`; HTML renderer at `pages/content.js:293`; Python pipeline at `build_audit.py:692`; SOP requirement at `AUDIT-SOP.md:26`). Calgary's slug deletion was still safe (renderer fallback handles missing values), but commit-message accuracy required correcting Explore C's "no consumers" framing.
+- **ar9 1/3 broke fleet parity until propagated.** The plan's 3-subtask ar9 didn't account for the 6 OTHER clients also needing the template update. Surfaced during Task 5 post-flight `diff -rq` check; resolved via commit `e6033ec`.
+- **Subtle behaviors preserved during connector refactors.** brand_mentions: `Retry-After` header parsing (`min(int(headers.get("Retry-After", "5")), 30)`), removal of redundant `_rate_limit_sync()` (base does it), bare `except Exception` for "never raises" docstring contract. social_audit: `_safe_head` returns status code as `int` not `Response`, preserved via `exc.response.status_code` in HTTPStatusError catch.
+
+#### What Tier 4 Followups did NOT touch (intentional, deferred)
+
+- **try/except-import guard cleanup.** aj1 left the `_NETWORKX_AVAILABLE` / `HAS_VADER` guards in `internal_linking.py` + `local_seo.py` as defense-in-depth. Now that deps are required, the guards are dead code. Bundle with whoever next touches those analyzers.
+- **PageSpeed `requests_per_second` override.** acf 1/5 preserved the manual `_request_delay()` per D3. Future cleanup: override `requests_per_second` in `__init__` based on whether API key is set; retire the manual delay logic.
+- **`codex_worker.sh` reliability investigation.** Worker produced 1 valid + 1 wrong-file artifact across 9 dispatches. Smart-team Step 7 evidence check #2 partial. Bundle with whoever next touches llm-router tooling.
+
+#### Verification surface
+
+What was independently verified locally:
+
+1. pytest full suite: **414/414 passing** (was 403 + 11 fail pre-aj1).
+2. Fleet `diff -rq template/scripts/ clients/<c>/scripts/`: **all 7 clients in template parity** (calgary excepted on `update-readability.py` orphan only — `extract-text.js` fork RETIRED).
+3. `node --check` zero errors fleet-wide across all template + client `.js` files.
+4. networkx 3.6.1 + vaderSentiment 3.3.2 importable from system Python.
+5. `_NETWORKX_AVAILABLE = True` and `HAS_VADER = True` post-aj1; previously-failing 11 tests all pass.
+6. Calgary `extract-text.js` sha256 matches template post-sync (fork retirement verified).
+7. 6 in-scope Python connectors (dataforseo + 5 from this pass) route through `base._request_sync` for retry coverage. 3 Google-SDK connectors confirmed out of scope; `local_seo` composes others (transitive coverage).
+
+Live `/seo-audit` end-to-end run NOT executed (requires DFS/GBP credentials). Step 1.5's auto-sync guarantee continues to hold; next live run per client produces zero deltas.
+
+#### NEW issues filed during 0au forensic (Tier 5 candidates)
+
+| bd ID | Pri | Title |
+|---|---|---|
+| `site-audit-fix-work-c6r` | P3 | Remove committed `.bak` files for `generate-multipage-report.js` (4 locations) + add `*.js.bak` to `.gitignore` |
+| `site-audit-fix-work-8d2` | P3 | Remove committed `.collab/` directory (10 files incl 104KB `collab.db` binary) from tracking + add `.collab/` to `.gitignore` |
+
+Both surfaced during the v4-branch forensic investigation (0au). Filed for Tier 5 consideration; not addressed in this pass to keep scope disciplined.
+
+#### Plan delta vs TIER-4-OVERFLOW-PLAN.md
+
+- Planned 9-10 commits, shipped 12. Deltas:
+  - +1 plan doc commit (`cdb8153`) per Tier 4 pattern.
+  - +1 bd auto-hook commit (`86e4ae6`) when acf closed.
+  - +1 ar9 propagation commit (`e6033ec`, "ar9 4/3") surfaced during post-flight when fleet-parity check failed.
+- All 6 plan decisions (D1–D6) honored as written. All 14 plan risks (R1–R14) had their mitigations exercised.
+- Critical mid-execution correction: D5's `scoreExplanation` consumer-audit. Plan's `ar9 2/3` commit message body accurately describes the renderer's `buildReadabilityExplanation()` fallback path rather than falsely claiming "no consumers" (Explore C error caught at planning time, codified into the plan, executed correctly).
+- Smart-team subagent-driven execution: 9 CX-Executor dispatches, 0 blocking-question escalations. 2 dispatches caught and preserved subtle behaviors that blind template-application would have broken (acf 4/5 brand_mentions, acf 5/5 social_audit). The pattern works.
