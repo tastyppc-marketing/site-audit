@@ -570,3 +570,54 @@ After Tier 3 shipped, advisor flagged 6 follow-up catches. Disposition:
 Catches #1, #5, and a band-aid for #2 each shipped as their own commit on
 `site-audit-fixes`. Catches #3, #4, and #6 are status-quo / already-tracked
 elsewhere.
+
+### Tier 4 — SHIPPED (2026-04-29)
+
+3 planned bulk-op fixes shipped across 7 client cohorts (8 commits), plus 1 prep commit surfaced during execution:
+
+| # | Subject | Commit |
+|---|---|---|
+| 14         | Remove stale client-local `generate-multipage-report.js` (matt + laura + liane, batched per cohort exemption) | `6bb4dc3` |
+| 13-prep    | Pre-existing orphan gitlink for `clients/chris-nevada` (`git rm --cached`) | `34f0801` |
+| 13.chris   | Restore template scripts to empty client (21 NEW) | `6358bbe` |
+| 13.calgary | Restore + re-sync (11 NEW + 3 UPD) — `extract-text.js` fork preserved via sha256 round-trip | `b592fd1` |
+| 13.mammoth | Restore + re-sync (12 NEW + 3 UPD) | `c455656` |
+| 13.murray  | Restore + re-sync (12 NEW + 3 UPD) | `9ed246e` |
+| 13.p3      | Restore + re-sync (12 NEW + 3 UPD) | `0041cad` |
+| 12.laura   | Re-sync drifted scripts (3 NEW + 11 UPD; ~1256 diff lines) | `c1da62f` |
+| 12.liane   | Re-sync drifted scripts (3 NEW + 11 UPD; ~1069 diff lines) | `690ed71` |
+
+**Branch:** `site-audit-fixes-tier-4`. 9 new commits queued for push (+ 2 pre-existing docs/infra commits — `e65bea4` TANDEM doc + `a98562f` bd init — already on branch).
+
+#### Recon discoveries surfaced during Tier 4
+
+- **Phantom gitlink in `clients/chris-nevada`.** Registered as 160000 gitlink pointing at commit `8832cc2c18149536872e8dbdade48026277b34fc` which does NOT exist in the local git db (`git cat-file -t 8832cc2c` → "Not a valid object name"). No `.gitmodules` ever existed in the repo. Introduced by abandoned v4-branch experiment `a139db9` ("feat: v4 — multi-LLM collab audit"). Cleaned up via prep commit `34f0801` (`git rm --cached`); files on disk untouched. Filed as bd `site-audit-fix-work-0au` for v4-branch follow-up investigation.
+- **Pre-flight `git status` does not catch phantom gitlinks.** `git status` compares the gitlink hash, not the working tree; an `ls clients/chris-nevada` showed an empty dir, masking the `160000` index entry. Future pre-flight should `git ls-tree HEAD clients/` looking for unexpected `160000` mode entries.
+- **Calgary fork sha256 round-trip is the strong fingerprint.** The plan upgraded the prior `wc -l + grep` heuristic to capture-then-compare sha256 (`b2e89f0f5e097af1758f3d41b199520a81b56c3aa05696cbeb78502484cdc291`). Caught nothing this run (fork preserved cleanly), but is the right pattern for any future cp+checkout sequence touching forked client files.
+- **`codex_worker.sh` produced no manifest artifacts in this environment.** Each CX-Executor dispatch fell back to direct bash. Smart-team Step 7 evidence check #2 not satisfied at manifest level, but per-task git verification is independent. Worth investigating worker setup separately before relying on smart-team routing for evidence trails.
+
+#### What Tier 4 did NOT touch (intentional, deferred)
+
+- **Calgary `extract-text.js` upstream-then-replace.** Preserved as-is. Owner needed to extract universally-useful improvements (richer syllable algo, main/article extraction) into template before retiring the fork. Filed as bd `site-audit-fix-work-ar9`.
+- **`scripts/_backup/*` cleanup across clients.** Disk hygiene only; not blocking.
+- **9 Python connectors bypassing `_request_sync` retry coverage.** Filed as bd `site-audit-fix-work-acf` (carry-forward from §5a).
+- **`networkx` + `vaderSentiment` missing from `pyproject.toml`.** Filed as bd `site-audit-fix-work-aj1` (carry-forward from §5b — 11 pre-existing pytest failures still pre-existing).
+
+#### Verification surface
+
+What was independently verified locally (no DFS / GBP credentials needed):
+
+1. All 7 synced clients in template parity per `diff -rq` (calgary excepted: `extract-text.js` fork differs + `update-readability.py` orphan, both documented).
+2. Calgary fork sha256 round-trip: pre-cp `b2e89f0f5e097af1758f3d41b199520a81b56c3aa05696cbeb78502484cdc291` == post-cp.
+3. `node --check` zero errors across every synced `.js` file (all 7 clients).
+4. `lib/atomic-write.js` + `lib/fetch-with-retry.js` present on all 7 synced clients (was missing on 6 pre-Tier-4; only matt had `lib/`).
+5. Fix 14 deletions: all 3 client-local `generate-multipage-report.js` files absent on disk; zero code callers grep-confirmed across `*.md`, `*.js`, `*.py`, `*.json`.
+6. Regression suite (atomic_write + connectors_base subset): 8/8 passing (matches pre-Tier-4 baseline). Full pytest still has 11 unrelated pre-existing failures (networkx + vaderSentiment).
+
+The full `/seo-audit` end-to-end run on each newly-synced client was NOT executed this session — requires DFS + GBP credentials. **Step 1.5's auto-sync architectural guarantee now holds end-to-end across the entire fleet;** the next live audit per client should produce zero `template/scripts/ → clients/<c>/scripts/` deltas.
+
+#### Plan delta vs TIER-4-PLAN.md
+
+- Planned 8 commits, shipped 9 (added C2-prep for the gitlink fix). Following Tier 3 prep-commit precedent (`d98fc43`, `ef94747`).
+- All 4 hardened seed concerns from `/root/.claude/plans/okay-awesome-can-we-zazzy-hopcroft.md` addressed: file-count parity, `test -f` lib/ assertions, sha256 fork guard, exact-SHA push-disclosure block.
+- bd issues filed: 4 (3 from spill register §5 + 1 NEW v4-branch investigation from execution-time discovery).
