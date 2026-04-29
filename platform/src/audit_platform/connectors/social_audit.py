@@ -94,13 +94,20 @@ class SocialAuditConnector(BaseConnector):
     # ------------------------------------------------------------------
 
     def _safe_head(self, url: str, *, label: str = "head") -> int | None:
-        """Issue a HEAD request and return the status code, or None on failure."""
+        """Issue a HEAD request and return the status code, or None on failure.
+
+        Routes through ``_request_sync`` to gain 5xx + transport-error retry
+        coverage from the base class.  ``_request_sync`` calls ``raise_for_status``
+        internally, so non-2xx responses surface as ``HTTPStatusError``; we
+        catch that and return the status code so callers can inspect it.
+        """
         headers = {**_DEFAULT_HEADERS}
         try:
-            self._rate_limit_sync()
-            resp = self.sync_client.head(url, headers=headers, follow_redirects=True)
-            return resp.status_code
-        except (httpx.HTTPStatusError, httpx.TransportError, httpx.TimeoutException) as exc:
+            return self._request_sync("HEAD", url, headers=headers, follow_redirects=True).status_code
+        except httpx.HTTPStatusError as exc:
+            self.log.debug("head_request_failed", url=url, error=str(exc), label=label)
+            return exc.response.status_code
+        except (httpx.TransportError, httpx.TimeoutException) as exc:
             self.log.debug("head_request_failed", url=url, error=str(exc), label=label)
             return None
         except Exception as exc:
@@ -113,13 +120,14 @@ class SocialAuditConnector(BaseConnector):
         *,
         label: str = "get",
     ) -> httpx.Response | None:
-        """Issue a GET that returns None on any failure."""
+        """Issue a GET that returns None on any failure.
+
+        Routes through ``_request_sync`` to gain 5xx + transport-error retry
+        coverage from the base class.
+        """
         headers = {**_DEFAULT_HEADERS}
         try:
-            self._rate_limit_sync()
-            resp = self.sync_client.get(url, headers=headers, follow_redirects=True)
-            resp.raise_for_status()
-            return resp
+            return self._request_sync("GET", url, headers=headers, follow_redirects=True)
         except (httpx.HTTPStatusError, httpx.TransportError, httpx.TimeoutException) as exc:
             self.log.debug("get_request_failed", url=url, error=str(exc), label=label)
             return None
