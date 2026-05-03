@@ -41,7 +41,57 @@ This plan supersedes the placeholder Tier 5 scope in `FINAL-SYNTHESIS.md §5e` w
 
 ---
 
-## 2.5 — Audit invalidation finding (2026-05-03 Phase A pre-flight)
+## 2.5 — Audit re-verification across all phases (2026-05-03)
+
+After Phase A's "Python is dead" claim was found empirically wrong, four parallel Explore agents re-verified Phases B, C, D, E, F against the source. Findings below supersede the original 2026-04-29 audit.
+
+### Phase B — largely invalidated
+
+| Analyzer | Original claim | Empirical finding |
+|---|---|---|
+| `competitor.py` | Refactor to read JSON instead of DFS | DFS calls are real, BUT renderer only consumes `domainMetrics` (sourced from JS gather, not Python). `keywordOverlap`, `serpFeatures`, `techStack` written but **never read** — dead code. |
+| `content_gap.py` | Refactor to read JSON | **100% dead**. All 3 outputs (`contentGap`, `topicalAuthority`, `unlinkedMentions`) have zero consumers. No JS equivalent exists. **Delete entirely.** |
+| `rank_tracker.py` | Refactor to read JSON | **NOT EVEN REGISTERED** in `build_audit.py` SEO_STEPS. Renderer has code at lines 1040-1094 + 2589-2642 ready to consume `rankHistory`, but nothing produces it (Python orphan + no JS gather script). **Incomplete feature, not a refactor candidate.** |
+| `local_seo.py` (pack-check) | Refactor to read JSON instead of `/serp/google/organic/live/advanced` | **Calls ZERO DFS endpoints.** Already reads research files. Of 4 outputs, 3 are dead (`reviewSentiment`, `competitorGbp`, `landingPageScores`, `serviceAreaMap`). The renderer-consumed fields (`businessProfile`, `napConsistency`, `citations`) come from research files via fallback, not analyzer output. |
+
+**Revised Phase B scope:** not a "refactor 4 analyzers to read JSON" phase. It's a **dead-code deletion** phase + a separate decision about `rank_tracker.py` (build it out OR remove the orphaned renderer code).
+
+### Phase C — critical gaps in original claims
+
+1. **Renderer lines 2275-2380 are NOT pure classifier fallback.** They implement an **independent second classifier** that ALWAYS runs (even when JS classifier output is present) + business logic for health ratings, recommendations, and the entire backlinks-page health-analysis section.
+2. **DUAL CLASSIFIER CONFLICT.** Python's `analyzers/backlinks.py:122` also writes a `qualitySummary` field (with different schema than JS). Removing the JS classifier alone leaves the Python one running.
+3. **`spamAnalysis` field is required by `pages/backlink-opportunities.js:349`** for the entire "Referring Domain Health Analysis" section (~100 lines of UI: health rating, domain counts, charts, recommendations, spam/quality tables). Removing the renderer's classifier deletes this section entirely.
+4. **Step 5.5 invocation is correctly characterized.** Safe to remove from skill, but Step 5.6 (`populate-audit-data.js`) currently expects `qualitySummary` to be present.
+
+**Revised Phase C scope:** must include a Python-side classifier decision (keep, deprecate, or unify) + an explicit page-redesign decision (keep heuristic-only health analysis, or fully strip backlinks page to raw list).
+
+### Phase D — VERIFIED CLEAN, safe to proceed
+
+All 3 original claims empirically correct:
+- `reviewSentiment` field has zero renderer consumers (verified by grep across `generate-multipage-report.js`, `pages/*.js`, `shared/*.js`, and a rendered matt-wallmow report).
+- `vaderSentiment` only used in `local_seo.py` (single import + single `polarity_scores()` call).
+- 9 sentiment tests in `test_local_seo.py:83-129` will be removed; 5 remaining tests pass independently.
+- Plus: `docs/SEO-AUDIT-SYSTEM.md:51` mentions sentiment as a feature — needs doc update.
+- Recommendation: leave try/except-import guard at `local_seo.py:23-27` per Tier 4 followups precedent (`internal_linking.py` pattern).
+
+### Phase E — surface mapped, hazards identified
+
+- **14 `Settings()` instantiation sites** (1 production at `build_audit.py:821`, 13 in test scripts).
+- **1 orphan direct env read:** `analyzers/reporting_intelligence.py:572` does `os.environ.get("ANTHROPIC_API_KEY")` bypassing `Settings`. Must be routed through `ClientContext` too.
+- **6 template JS gather scripts** read `process.env.*` (DataForSEO + PageSpeed/Google API keys); propagated to 9 client copies = 48 JS files total.
+- **No `dotenv` dependency anywhere** in JS — Option B (custom `loadClientEnv` helper) is unblocked.
+- **No module-level `Settings()` caching** in Python — refactor can be straightforward (no cache-invalidation logic needed).
+- **Current slug flow is `cd` into client dir** — not arg-passed. Tier 5 must thread slug explicitly via arg or context object; the cd-based flow is fragile (silent fail if cwd wrong).
+- **Pre-commit framework not installed** (no `.pre-commit-config.yaml`); `.gitignore` has `.env` but not `clients/*/.env`.
+
+### Phase F — concrete and clean
+
+- **c6r:** exactly 4 tracked `.bak` files (template + 3 clients: matt, laura, liane). `.gitignore` already has `*.json.bak` patterns but not `*.js.bak`.
+- **8d2:** `.collab/` has 10 tracked files — `collab.db` (104K, definitely drop) + 9 prompt `.md` files (orchestration prompts for multi-LLM work; user decides whether to keep in retired repo).
+
+---
+
+## 2.6 — Original Phase A invalidation finding (kept for context)
 
 **Empirical re-verification of the 2026-04-29 dual-path audit's "Python is dead" claims invalidated most of Phase A as originally scoped.**
 
