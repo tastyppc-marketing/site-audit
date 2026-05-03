@@ -41,7 +41,48 @@ This plan supersedes the placeholder Tier 5 scope in `FINAL-SYNTHESIS.md §5e` w
 
 ---
 
-## 3. Phase A — Dual-path retirements (no refactor)
+## 2.5 — Audit invalidation finding (2026-05-03 Phase A pre-flight)
+
+**Empirical re-verification of the 2026-04-29 dual-path audit's "Python is dead" claims invalidated most of Phase A as originally scoped.**
+
+`build_audit.py:69` registers `_run_backlinks` as an active `AuditStep` that runs whenever `DATAFORSEO_LOGIN` is set. `_run_backlinks` calls `BacklinkAnalyzer.analyze()` (analyzers/backlinks.py:769 LOC) and writes the result into `audit_data["backlinks"]`. The renderer (`generate-multipage-report.js:1614-1772`) then reads from `audit_data["backlinks"]` for **6+ fields**:
+
+| Field | Source | Renderer line |
+|---|---|---|
+| `domainMetrics` | Python → `audit_data["backlinks"]` | 1716, 1736 |
+| `competitorDomainMetrics` | Python | 1614 |
+| `qualitySummary` | Python (spam classifier output — D1 will remove anyway) | various |
+| `referringDomains` | Python | also read by `build_audit.py:387` |
+| `anchorDistribution`, `anchorIssues`, `brokenBacklinkOpportunities` | Python | various |
+| `topBacklinks` | Python writes; renderer overwrites from `client-backlinks.json` | 1582 (JS wins) |
+| `topReferringDomains` | Renderer populates from `client-backlinks.json` if absent | 1596 |
+
+**Conclusion:** the original audit conflated "renderer doesn't consume Python output" (false — it consumes 6+ fields) with "Python is dead." Most of Phase A as originally scoped would break the report.
+
+Re-verification of the 3 "dead Python methods" (A4) showed:
+- `get_keyword_overlap` — truly dead (zero callers anywhere). ✓ Safe to retire.
+- `get_keyword_suggestions` — called by `platform/scripts/test_dataforseo.py` (manual CLI tester). NOT dead in the strictest sense.
+- `get_serp_batch` — same as above.
+
+### Revised Phase A scope (2026-05-03)
+
+Phase A reduced to **1 commit**: retire `get_keyword_overlap` only. The other claimed "dead methods" need a separate decision — keep them as manual-tester surface, or retire the manual tester too. Defer to Phase B.
+
+The 3 backlinks-endpoint retirements (originally A1-A3) become **Phase B work** — they require migrating the renderer's 6+ Python-sourced fields to JS-side gather + analyzer JSON outputs first. That's a substantial scope expansion for Phase B (was 8-12 commits, now likely 15-20).
+
+### Trust impact on the rest of the plan
+
+Phases C and D rest on audit claims that have not been re-verified:
+- Phase C: "renderer fallback at `generate-multipage-report.js:2275-2380` is classifier-only" — needs re-verification before deletion.
+- Phase D: "renderer never reads `reviewSentiment`" — needs re-verification before deletion.
+
+Phases E and F are independent of the dual-path audit and can proceed.
+
+**Recommended pivot:** start with **Phase E (env-segregation)** since it's foundational, audit-independent, and matches user's stated TOP PRIORITY. Re-audit C/D claims in parallel before executing those phases.
+
+---
+
+## 3. Phase A — Dual-path retirements (no refactor) — REVISED
 
 **Method:** for each retired artifact: copy to `/root/site-audit-retired/<mirrored-path>/<file>` with a header comment, `git rm` from main repo, commit with one fix per commit.
 
@@ -55,10 +96,10 @@ This plan supersedes the placeholder Tier 5 scope in `FINAL-SYNTHESIS.md §5e` w
 
 | Commit | Action | Files |
 |---|---|---|
-| A1 | Retire Python backlinks analyzer | `platform/src/audit_platform/analyzers/backlinks.py` (769 LOC) + `platform/tests/test_backlinks.py` |
-| A2 | Retire 3 backlinks methods from `dataforseo.py` | Surgical edit removing methods that hit `/backlinks/backlinks/live`, `/backlinks/referring_domains/live`, `/backlinks/summary/live` |
-| A3 | Retire dead `get_keyword_volumes` Python method | `dataforseo.py` (zero callers per audit) |
-| A4 | Retire 3 dead Python methods | `get_keyword_suggestions`, `get_keyword_overlap`, `get_serp_batch` from `dataforseo.py` |
+| A1 | ~~Retire Python backlinks analyzer~~ | **DEFERRED to Phase B** — Python output actively consumed by renderer (see §2.5) |
+| A2 | ~~Retire 3 backlinks methods from `dataforseo.py`~~ | **DEFERRED to Phase B** — same reason |
+| A3 | ~~Retire dead `get_keyword_volumes` Python method~~ | **NEEDS RE-VERIFICATION** — audit track record poor; defer until reverified |
+| A4 | Retire `get_keyword_overlap` only | `dataforseo.py` — verified zero callers 2026-05-03 |
 
 **Verification per commit:**
 - `pytest platform/tests/ --tb=no -q` — expect 414 passed (no regressions; removed tests count is reduced 1:1).
