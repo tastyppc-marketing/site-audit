@@ -123,15 +123,31 @@ async function testPage(browser, fileName) {
     logFail(fileName, 'Page content', 'Missing #page-content element');
   }
 
-  // Test 4: Client name appears somewhere in page
-  const hasClientName = await page.evaluate(() => {
+  // Test 4: Client name appears somewhere in page (data-binding sanity check).
+  // Pulls expected values from the page's own injected AUDIT_DATA so the test
+  // works for any client without template-level hardcoded strings.
+  const dataBindingResult = await page.evaluate(() => {
+    const auditData = (typeof window !== 'undefined' && window.AUDIT_DATA) || {};
+    const client = auditData.client || {};
+    const candidates = [
+      client.name,
+      client.company,
+      client.website,
+      client.websiteUrl,
+    ].filter((v) => typeof v === 'string' && v.length > 0);
+    if (candidates.length === 0) {
+      return { ok: false, reason: 'AUDIT_DATA.client missing or empty' };
+    }
     const text = document.body.textContent || '';
-    return text.includes('Jamie Kelly') || text.includes('Mammoth Lakes') || text.includes('mammothlakesproperties');
+    const matched = candidates.find((needle) => text.includes(needle));
+    return matched
+      ? { ok: true, matched }
+      : { ok: false, reason: `none of ${JSON.stringify(candidates)} found in body text` };
   });
-  if (hasClientName) {
-    logPass(fileName, 'Client data bound correctly');
+  if (dataBindingResult.ok) {
+    logPass(fileName, `Client data bound correctly (matched "${dataBindingResult.matched}")`);
   } else {
-    logFail(fileName, 'Data binding', 'Client name not found in page text');
+    logFail(fileName, 'Data binding', dataBindingResult.reason);
   }
 
   // Test 5: At least one visible section
