@@ -76,60 +76,6 @@ def sample_crawl_pages():
 
 
 # ---------------------------------------------------------------------------
-# Tests — Review Sentiment
-# ---------------------------------------------------------------------------
-
-
-def test_sentiment_positive_reviews(analyzer, sample_reviews):
-    result = analyzer.analyze_review_sentiment(sample_reviews)
-    assert result["summary"]["pctPositive"] > 0
-
-
-def test_sentiment_negative_reviews(analyzer, sample_reviews):
-    result = analyzer.analyze_review_sentiment(sample_reviews)
-    assert result["summary"]["pctNegative"] > 0
-
-
-def test_sentiment_mean_compound(analyzer, sample_reviews):
-    result = analyzer.analyze_review_sentiment(sample_reviews)
-    # Most reviews are positive, so mean should be > 0
-    assert result["summary"]["meanCompound"] > 0
-
-
-def test_sentiment_reply_rate(analyzer, sample_reviews):
-    result = analyzer.analyze_review_sentiment(sample_reviews)
-    # 2 of 6 reviews have replies = 33.3%
-    assert result["summary"]["replyRate"] == pytest.approx(33.3, abs=0.1)
-
-
-def test_sentiment_total_reviews(analyzer, sample_reviews):
-    result = analyzer.analyze_review_sentiment(sample_reviews)
-    assert result["summary"]["totalReviews"] == 6
-
-
-def test_sentiment_keyword_extraction(analyzer, sample_reviews):
-    result = analyzer.analyze_review_sentiment(sample_reviews)
-    # Positive keywords should include "mammoth" or "jamie" or "vacation"
-    pos_keywords = [k["keyword"] for k in result["summary"]["topPositiveKeywords"]]
-    assert len(pos_keywords) > 0
-
-
-def test_sentiment_empty_reviews(analyzer):
-    result = analyzer.analyze_review_sentiment([])
-    assert result["summary"]["totalReviews"] == 0
-    assert result["summary"]["meanCompound"] == 0
-
-
-def test_sentiment_short_reviews_use_rating(analyzer):
-    reviews = [
-        {"comment": "OK", "rating": 5},
-        {"comment": "", "rating": 1},
-    ]
-    result = analyzer.analyze_review_sentiment(reviews)
-    assert result["summary"]["totalReviews"] == 2
-
-
-# ---------------------------------------------------------------------------
 # Tests — Competitor GBP Comparison
 # ---------------------------------------------------------------------------
 
@@ -266,7 +212,6 @@ def test_full_analyze(analyzer, sample_reviews, sample_profile, sample_crawl_pag
         location_keywords=["Mammoth Lakes", "June Lake"],
     )
 
-    assert "reviewSentiment" in result
     assert "competitorGbp" in result
     assert "landingPageScores" in result
     assert "serviceAreaMap" in result
@@ -274,6 +219,5 @@ def test_full_analyze(analyzer, sample_reviews, sample_profile, sample_crawl_pag
 
 def test_full_analyze_empty(analyzer):
     result = analyzer.analyze()
-    assert result["reviewSentiment"]["summary"]["totalReviews"] == 0
     assert result["competitorGbp"] == []
     assert result["landingPageScores"] == []

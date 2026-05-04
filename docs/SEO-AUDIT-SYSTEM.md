@@ -48,7 +48,7 @@ Last updated: 2026-04-11
 | `TechnicalSeoAnalyzer` | Meta tag audit, schema validation, crawl issues | Yes — rule-based checks |
 | `BacklinkAnalyzer` | Backlink metrics, competitor comparison, opportunity scoring | Yes — API data + scoring formulas |
 | `CompetitorAnalyzer` | Domain comparison, keyword overlap | Yes — API data + comparison logic |
-| `LocalSeoAnalyzer` | NAP consistency, GBP completeness, review sentiment | Yes — rule-based + sentiment scoring |
+| `LocalSeoAnalyzer` | NAP consistency, GBP completeness | Yes — rule-based |
 | `IndexCrawlabilityAnalyzer` | Robots.txt, sitemap, indexability | Yes — rule-based checks |
 | `EEATSignalAnalyzer` | E-E-A-T signal detection from page content | Yes — heuristic pattern matching |
 | `ContentGapAnalyzer` | Keyword gaps, topical authority mapping | Yes — set operations on keyword data |
@@ -152,7 +152,6 @@ Pipeline A produces rich Markdown files but does NOT automatically translate the
 | `backlinkOpportunities` | Partial | `BacklinkAnalyzer.find_link_opportunities()` EXISTS *Not Integrated (Python); normalizer builds skeleton from available data |
 | `localSeo` | No | `LocalSeoAnalyzer` EXISTS *Not Integrated — needs local-seo.json + reviews.json inputs that nothing produces |
 | `localSeo.businessProfile` | No | `BusinessProfileConnector` EXISTS *Not Integrated — needs GBP_ACCOUNT_ID/LOCATION_ID per client |
-| `localSeo.reviewSentiment` | No | `BusinessProfileConnector.get_reviews()` EXISTS *Not Integrated — same GBP access requirement |
 | `actionPlan` | No | `ReportingIntelligenceAnalyzer` EXISTS *Not Integrated — auto-generates quickWins/shortTerm/mediumTerm/longTerm |
 | `contentCalendar` | No | NO SCRIPT *Needed — must be populated from FINAL-AUDIT-REPORT.md (manual or new auto-populator) |
 | `quickWins` | No | `ReportingIntelligenceAnalyzer` EXISTS *Not Integrated — auto-generates from all prior data |
