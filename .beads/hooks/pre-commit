@@ -22,3 +22,13 @@ if command -v bd >/dev/null 2>&1; then
   if [ $_bd_exit -ne 0 ]; then exit $_bd_exit; fi
 fi
 # --- END BEADS INTEGRATION v1.0.3 ---
+
+# --- Tier 5 Phase 0: pre-commit framework chain ---
+# bd owns core.hooksPath, so `pre-commit install` cannot place its hook directly.
+# Chain it here instead. Runs after bd's logic; fails the commit on hook failure.
+if command -v pre-commit >/dev/null 2>&1; then
+  pre-commit run --hook-stage pre-commit
+  _pc_exit=$?
+  if [ $_pc_exit -ne 0 ]; then exit $_pc_exit; fi
+fi
+# --- END Tier 5 Phase 0 chain ---

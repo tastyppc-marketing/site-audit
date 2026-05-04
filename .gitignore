@@ -13,6 +13,11 @@ clients/*/seo/audit-data.json.tmp-*
 # Backlink-classifier in-place backups (analyze-backlink-quality.js)
 clients/*/seo/research/*.json.bak
 
+# Tier 5 Phase 0 hygiene
+clients/*/.env
+*.js.bak
+.collab/
+
 # Secrets
 service-account.json
 client_secret*.json

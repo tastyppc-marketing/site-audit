@@ -1,0 +1,25 @@
+# Tier 5 Phase 0 — minimal pre-commit guardrails.
+# Hooks deliberately kept minimal: heavy lint/test/build live in manual gates or CI.
+# Reason: missing-deps and other instability are still in flight; strict hooks
+# block forward motion. Tune up later as the repo stabilizes.
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-added-large-files
+        args: ['--maxkb=500']
+      - id: check-merge-conflict
+      - id: check-yaml
+      - id: check-json
+        exclude: '^\.vscode/'
+
+  - repo: local
+    hooks:
+      - id: block-client-env
+        name: Block clients/*/.env from being committed
+        language: fail
+        entry: client .env files must never be committed (Tier 5 Phase 0 guardrail)
+        files: '^clients/[^/]+/\.env$'
