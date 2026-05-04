@@ -1,9 +1,8 @@
 """Local SEO Deep Dive Analyzer (P6).
 
-Review sentiment analysis, competitor GBP comparison, local landing page
-scoring, Maps grid ranking preparation, service area mapping.
+Competitor GBP comparison, local landing page scoring, Maps grid ranking
+preparation, service area mapping.
 
-Uses VADER for sentiment (5K stars, lexicon-based, no model download).
 Uses geopy for coordinate math (4.8K stars).
 
 Outputs to ``localSeo`` key extensions in audit-data.json, consumed by
@@ -14,17 +13,10 @@ from __future__ import annotations
 
 import math
 import re
-from collections import Counter, defaultdict
 from datetime import datetime, timedelta
 from typing import Any, Optional
 
 import structlog
-
-try:
-    from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer as VaderAnalyzer
-    HAS_VADER = True
-except ImportError:
-    HAS_VADER = False
 
 try:
     from geopy.distance import distance as geodesic_distance
@@ -36,11 +28,8 @@ except ImportError:
 class LocalSeoAnalyzer:
     """Local SEO deep-dive analysis."""
 
-    MIN_REVIEW_LENGTH: int = 20  # Min chars for sentiment analysis
-
     def __init__(self) -> None:
         self.log = structlog.get_logger(self.__class__.__name__)
-        self._vader = VaderAnalyzer() if HAS_VADER else None
 
     def analyze(
         self,
@@ -64,7 +53,6 @@ class LocalSeoAnalyzer:
         """
         self.log.info("local_seo_analysis_start")
 
-        review_sentiment = self.analyze_review_sentiment(reviews or [])
         gbp_comparison = self.compare_competitor_gbp(
             business_profile or {}, competitor_profiles or []
         )
@@ -74,7 +62,6 @@ class LocalSeoAnalyzer:
         service_area = self.generate_service_area_geojson(business_profile or {})
 
         result = {
-            "reviewSentiment": review_sentiment,
             "competitorGbp": gbp_comparison,
             "landingPageScores": landing_scores,
             "serviceAreaMap": service_area,
@@ -82,104 +69,11 @@ class LocalSeoAnalyzer:
 
         self.log.info(
             "local_seo_analysis_complete",
-            reviews_analyzed=review_sentiment["summary"]["totalReviews"],
             competitors_compared=len(gbp_comparison),
             pages_scored=len(landing_scores),
         )
 
         return result
-
-    # ------------------------------------------------------------------
-    # Review Sentiment Analysis
-    # ------------------------------------------------------------------
-
-    def analyze_review_sentiment(
-        self, reviews: list[dict[str, Any]]
-    ) -> dict[str, Any]:
-        """Analyze review sentiment using VADER.
-
-        Classifies each review as positive/negative/neutral, extracts
-        keyword themes, computes reply rate and sentiment trend.
-        """
-        if not reviews:
-            return self._empty_sentiment_summary()
-
-        if not self._vader:
-            self.log.warning("vader_not_available", msg="Install vaderSentiment for review analysis")
-            return self._empty_sentiment_summary()
-
-        analyzed: list[dict[str, Any]] = []
-        positive_words: Counter[str] = Counter()
-        negative_words: Counter[str] = Counter()
-        total_compound = 0.0
-        positive_count = 0
-        negative_count = 0
-        neutral_count = 0
-        replied_count = 0
-
-        for review in reviews:
-            comment = (review.get("comment") or review.get("text") or "").strip()
-            rating = review.get("rating") or review.get("starRating")
-            create_time = review.get("createTime") or review.get("create_time") or review.get("date")
-            has_reply = bool(review.get("reply") or review.get("reviewReply"))
-
-            if has_reply:
-                replied_count += 1
-
-            # Skip very short/empty reviews for sentiment
-            if len(comment) < self.MIN_REVIEW_LENGTH:
-                if rating:
-                    # Use rating as proxy sentiment
-                    r = int(rating) if isinstance(rating, (int, float, str)) and str(rating).isdigit() else 3
-                    if r >= 4:
-                        positive_count += 1
-                    elif r <= 2:
-                        negative_count += 1
-                    else:
-                        neutral_count += 1
-                continue
-
-            # VADER sentiment
-            scores = self._vader.polarity_scores(comment)
-            compound = scores["compound"]
-            total_compound += compound
-
-            if compound >= 0.05:
-                sentiment = "positive"
-                positive_count += 1
-                self._extract_keywords(comment, positive_words)
-            elif compound <= -0.05:
-                sentiment = "negative"
-                negative_count += 1
-                self._extract_keywords(comment, negative_words)
-            else:
-                sentiment = "neutral"
-                neutral_count += 1
-
-            analyzed.append({
-                "comment": comment[:200],
-                "rating": rating,
-                "compound": round(compound, 3),
-                "sentiment": sentiment,
-                "date": str(create_time) if create_time else None,
-            })
-
-        total = len(reviews)
-        analyzed_count = max(positive_count + negative_count + neutral_count, 1)
-
-        summary = {
-            "totalReviews": total,
-            "analyzedReviews": len(analyzed),
-            "meanCompound": round(total_compound / len(analyzed), 3) if analyzed else 0,
-            "pctPositive": round(positive_count / analyzed_count * 100, 1),
-            "pctNegative": round(negative_count / analyzed_count * 100, 1),
-            "pctNeutral": round(neutral_count / analyzed_count * 100, 1),
-            "replyRate": round(replied_count / total * 100, 1) if total else 0,
-            "topPositiveKeywords": [{"keyword": k, "count": c} for k, c in positive_words.most_common(10)],
-            "topNegativeKeywords": [{"keyword": k, "count": c} for k, c in negative_words.most_common(10)],
-        }
-
-        return {"summary": summary, "reviews": analyzed[:50]}
 
     # ------------------------------------------------------------------
     # Competitor GBP Comparison
@@ -419,27 +313,6 @@ class LocalSeoAnalyzer:
     # Private helpers
     # ------------------------------------------------------------------
 
-    def _extract_keywords(self, text: str, counter: Counter[str]) -> None:
-        """Extract simple noun-phrase-like keywords from review text."""
-        # Simple word frequency (2-3 word phrases) — avoids TextBlob dependency
-        words = re.findall(r'\b[a-zA-Z]{3,}\b', text.lower())
-        stop_words = {
-            "the", "and", "was", "were", "are", "for", "that", "this", "with",
-            "they", "have", "had", "has", "from", "very", "really", "just",
-            "our", "will", "been", "not", "but", "all", "can", "her", "his",
-            "she", "him", "you", "your", "them", "their", "than", "about",
-        }
-        filtered = [w for w in words if w not in stop_words]
-
-        # Single words
-        for word in filtered:
-            counter[word] += 1
-
-        # Bigrams
-        for i in range(len(filtered) - 1):
-            bigram = f"{filtered[i]} {filtered[i+1]}"
-            counter[bigram] += 1
-
     def _normalize_gbp_for_comparison(
         self, profile: dict[str, Any], is_client: bool = False
     ) -> dict[str, Any]:
@@ -472,20 +345,3 @@ class LocalSeoAnalyzer:
             coords.append([round(lng + dlng, 7), round(lat + dlat, 7)])
 
         return coords
-
-    @staticmethod
-    def _empty_sentiment_summary() -> dict[str, Any]:
-        return {
-            "summary": {
-                "totalReviews": 0,
-                "analyzedReviews": 0,
-                "meanCompound": 0,
-                "pctPositive": 0,
-                "pctNegative": 0,
-                "pctNeutral": 0,
-                "replyRate": 0,
-                "topPositiveKeywords": [],
-                "topNegativeKeywords": [],
-            },
-            "reviews": [],
-        }
