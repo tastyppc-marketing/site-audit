@@ -35,27 +35,56 @@ if [ -n "${DATAFORSEO_LOGIN:-}" ]; then
   exit 1
 fi
 
-# Run the gather script from a scratch cwd so the seo/research/ output
-# does not pollute the repo root. The HANDOFF originally specified
-# "from repo root (no cd)", but the goal is "outside clients/<slug>/" —
-# scratch dir satisfies that and cleans up automatically.
-cd "$SCRATCH"
-node "$REPO_ROOT/template/scripts/gather-domain-metrics.js" \
-  --client-slug matt-wallmow \
-  mattwallmow.com pinepointrealty.com 2>&1 | tee gather.log
+# Two call sites must work, since they hit different __dirname depths
+# inside loadClientEnv (3 levels for template, 4 for cohort-synced
+# clients/<slug>/scripts/lib/). Earlier resolveClientEnvPath silently
+# wrong-pathed the cohort variant and went undetected because this
+# smoke only tested the template path. Both are now required to pass.
 
-OUT="$SCRATCH/seo/research/domain-metrics.json"
-if [ ! -f "$OUT" ]; then
-  echo "FAIL: expected output not written at $OUT"
-  exit 1
-fi
+run_gather() {
+  local label="$1" cwd="$2" script="$3" outdir="$4"
+  echo
+  echo ">>> $label (cwd=$cwd, script=$script)"
+  ( cd "$cwd" && node "$script" \
+    --client-slug matt-wallmow \
+    mattwallmow.com pinepointrealty.com 2>&1 ) | tee "$SCRATCH/${label}.log"
 
-# Shape check: verify the script actually got data back from DataForSEO.
-# If creds were silently empty, status would be "failed" with errors.
-STATUS="$(python3 -c "import json,sys; print(json.load(open('$OUT')).get('status','?'))")"
-if [ "$STATUS" != "success" ] && [ "$STATUS" != "partial" ]; then
-  echo "FAIL: domain-metrics.json status='$STATUS' (expected success or partial)"
-  cat "$OUT" | head -30
+  local out="$outdir/domain-metrics.json"
+  if [ ! -f "$out" ]; then
+    echo "FAIL [$label]: expected output not written at $out"
+    exit 1
+  fi
+  local status
+  status="$(python3 -c "import json; print(json.load(open('$out')).get('status','?'))")"
+  if [ "$status" != "success" ] && [ "$status" != "partial" ]; then
+    echo "FAIL [$label]: domain-metrics.json status='$status' (expected success or partial)"
+    head -30 "$out"
+    exit 1
+  fi
+  STATUS="$status" # exposed for the trailing PASS print
+}
+
+# Path A: template invocation from a scratch cwd. Mirrors a
+# repo-root-relative ad-hoc run.
+mkdir -p "$SCRATCH/templ"
+( cd "$SCRATCH/templ" && true ) # ensure dir exists
+run_gather "template-path" "$SCRATCH/templ" \
+  "$REPO_ROOT/template/scripts/gather-domain-metrics.js" \
+  "$SCRATCH/templ/seo/research"
+
+# Path B: cohort invocation. cd clients/matt-wallmow + relative
+# scripts/gather-domain-metrics.js — what the orchestrator skill
+# does. Output lands in clients/matt-wallmow/seo/research/, so we
+# capture the existing file's mtime, run the script, and assert the
+# file got refreshed (mtime advanced).
+COHORT_OUT="$REPO_ROOT/clients/matt-wallmow/seo/research/domain-metrics.json"
+PRE_MTIME=$(stat -c '%Y' "$COHORT_OUT" 2>/dev/null || echo 0)
+run_gather "cohort-path" "$REPO_ROOT/clients/matt-wallmow" \
+  "scripts/gather-domain-metrics.js" \
+  "$REPO_ROOT/clients/matt-wallmow/seo/research"
+POST_MTIME=$(stat -c '%Y' "$COHORT_OUT")
+if [ "$POST_MTIME" -le "$PRE_MTIME" ]; then
+  echo "FAIL [cohort-path]: domain-metrics.json mtime did not advance"
   exit 1
 fi
 
@@ -70,7 +99,8 @@ if [ -n "${DATAFORSEO_LOGIN:-}" ]; then
 fi
 
 echo
-echo "PASS: tier5_js_smoke"
-echo "  status:                $STATUS"
-echo "  output bytes:          $(wc -c < "$OUT")"
-echo "  parent DATAFORSEO_LOGIN: <unset>"
+echo "PASS: tier5_js_smoke (both call sites)"
+echo "  template-path domain-metrics.json bytes: $(wc -c < "$SCRATCH/templ/seo/research/domain-metrics.json")"
+echo "  cohort-path domain-metrics.json bytes:   $(wc -c < "$COHORT_OUT")"
+echo "  cohort-path mtime advanced:              yes (was=$PRE_MTIME now=$POST_MTIME)"
+echo "  parent DATAFORSEO_LOGIN:                 <unset>"
