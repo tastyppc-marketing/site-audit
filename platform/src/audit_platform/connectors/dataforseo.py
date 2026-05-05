@@ -18,13 +18,16 @@ Reference: https://docs.dataforseo.com/v3/
 from __future__ import annotations
 
 from datetime import datetime
-from typing import Any
+from typing import TYPE_CHECKING, Any
 
 import httpx
 import structlog
 
 from audit_platform.config import Settings
 from audit_platform.connectors.base import BaseConnector
+
+if TYPE_CHECKING:
+    from audit_platform.config.client_context import ClientContext
 from audit_platform.models.seo import BacklinkRecord, DomainMetrics, KeywordRecord
 
 logger = structlog.get_logger(__name__)
@@ -56,8 +59,12 @@ class DataForSEOConnector(BaseConnector):
             metrics = dfs.get_domain_metrics("example.com")
     """
 
-    def __init__(self, settings: Settings | None = None) -> None:
-        super().__init__(settings)
+    def __init__(
+        self,
+        settings: Settings | None = None,
+        ctx: ClientContext | None = None,
+    ) -> None:
+        super().__init__(settings=settings, ctx=ctx)
         self._login = self.settings.DATAFORSEO_LOGIN
         self._password = self.settings.DATAFORSEO_PASSWORD
         if not self._login or not self._password:

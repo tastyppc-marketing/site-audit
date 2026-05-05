@@ -1,0 +1,4335 @@
+{
+  "domain": "myhtr.com",
+  "totalBacklinks": 200,
+  "referringDomains": 152,
+  "backlinks": [
+    {
+      "source_url": "http://www.hometownerealty.com/",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": 209,
+      "is_dofollow": true,
+      "first_seen": "2021-09-09 07:26:47 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.claytonhomeimprovements.com/remodeling/what-home-improvements-add-the-most-value-when-selling/",
+      "target_url": "https://www.myhtr.com/hometowne-realty-clayton-nc-homes-complimentary-evaluation/",
+      "anchor_text": "home value",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-10-13 10:46:34 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://homesforsaleclayton.com/what-to-look-for-when-selling-your-home/",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "selling your home in clayton",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-10-24 00:22:34 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 91
+    },
+    {
+      "source_url": "https://www.claytonhomeimprovements.com/remodeling/buying-a-home-kitchen-essentials/",
+      "target_url": "https://www.myhtr.com/hometowne-realty-clayton-nc-homes-for-buyers/",
+      "anchor_text": "buy a home",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-10-13 20:42:48 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.claytonhomeimprovements.com/landscaping/landscaping-adds-value-when-you-sell-your-home/",
+      "target_url": "https://www.myhtr.com/hometowne-realty-clayton-nc-homes-complimentary-evaluation/",
+      "anchor_text": "sell your home",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-10-10 11:16:28 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.42eastbuilder.com/real-estate/clayton-nc-home-buying-guide/",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "Clayton NC real estate",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-07-31 08:05:07 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 91
+    },
+    {
+      "source_url": "https://st-patricks-day.com/us-realtors-north-carolina-clayton.html",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "Sheilab Whitley Realtors®",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-10-18 01:27:08 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://kotohomes.com/listing-broker/-/br_Ylx13OlyqVXONMlcw6PBvJwbHCs",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "http://www.hometownerealty.com",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-03-13 05:11:33 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://kotohomes.com/listing-broker/-/br_lZQeJtUoLAWJg-8wFt3iFN266QU",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "http://WWW.HOMETOWNEREALTY.COM",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-03-10 22:56:13 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/TRIANGLE/10085965/?channel=transparenseesystems",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "Website",
+      "domain_rating": 90,
+      "is_dofollow": true,
+      "first_seen": "2025-04-20 18:21:44 +00:00"
+    },
+    {
+      "source_url": "https://listingsus.com/north-carolina/business/real_estate/index15.asp",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "Kimberle Adamof, Signature GMAC",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2022-03-18 14:46:57 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.st-patricks-day.com/us-realtors-north-carolina-clayton.html",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "Sheilab Whitley Realtors®",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2023-10-12 11:37:21 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://securitypropertymanagement.com/company/best-property-management-company-hometowne-realty/",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "HomeTowne Realty",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-05-15 06:50:44 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://listingsus.com/north-carolina/heartland-region/business/real_estate/index11.asp",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "Kimberle Adamof, Signature GMAC",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2022-03-21 05:44:32 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://listingsus.com/north-carolina/heartland-region/wake-county/business/real_estate/index2.asp",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "Kimberle Adamof, Signature GMAC",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2022-03-21 05:49:40 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://listingsus.com/north-carolina/heartland-region/wake-county/raleigh/business/real_estate/",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "Kimberle Adamof, Signature GMAC",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2022-01-14 10:30:15 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://comparable-companies.com/company/hometowne-realty-competitors-similar-companies",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "www.myhtr.com",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2023-04-12 09:30:29 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 77
+    },
+    {
+      "source_url": "https://b2b.getemail.io/hometowne-realty-company-14924591.html",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-08-01 05:34:51 +00:00"
+    },
+    {
+      "source_url": "https://fouroakschamber.com/directory/hometowne-realty/",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2023-10-03 15:23:07 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://agentnook.com/brokerage/north-carolina/hometowne-realty-clayton-nc/",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "https://myhtr.com",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-05-06 19:41:03 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://agentnook.com/brokerage/north-carolina/hometown-realty-clayton-nc/",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "https://myhtr.com",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-05-06 19:40:51 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://directory.email-verifier.io/hometowne-realty-emails-10203197.html",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2024-02-05 22:04:28 +00:00"
+    },
+    {
+      "source_url": "https://htrapp.com/",
+      "target_url": "https://www.myhtr.com/offices/",
+      "anchor_text": "Call",
+      "domain_rating": 31,
+      "is_dofollow": true,
+      "first_seen": "2023-05-02 19:47:47 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://htrapp.com/",
+      "target_url": "https://www.myhtr.com/roster/",
+      "anchor_text": "Agents",
+      "domain_rating": 31,
+      "is_dofollow": true,
+      "first_seen": "2023-05-02 19:47:47 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://htrapp.com/",
+      "target_url": "https://www.myhtr.com/properties/?perRow=4&limit=800&order=visits%7Cdesc&page=1&limited=true&layout=map",
+      "anchor_text": "Search",
+      "domain_rating": 31,
+      "is_dofollow": true,
+      "first_seen": "2023-05-02 19:47:47 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.juridipedia.com/US/Clayton/1482637498651217/Margie-Riedel",
+      "target_url": "http://margie.myhtr.com/",
+      "anchor_text": "http://margie.myhtr.com/",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-04-25 12:20:05 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.lawfirms1.com/US/Clayton/1482637498651217/Margie-Riedel",
+      "target_url": "http://margie.myhtr.com/",
+      "anchor_text": "http://margie.myhtr.com/",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-20 03:14:17 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/Brandon_Dunn_c05aa0a09c/reviews",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-08-27 05:02:29 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/Kristen_Warren_be641bbb13/reviews",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-08-27 04:19:29 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/James_Jarman_3a84bf6bdf/reviews",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-29 13:25:45 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/Emma_Hicks_3e2ae73c6f/reviews",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-29 13:08:50 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/Emma_Hicks_3e2ae73c6f",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-29 13:04:18 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/James_Jarman_3a84bf6bdf",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-29 00:56:32 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/Kasey_Lewis_76a7085d19/reviews",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-08-26 14:02:59 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/Brandon_Dunn_c05aa0a09c",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-08-25 13:03:30 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/Rodney_Carroll_48cd107f8d/reviews",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2024-08-26 19:41:52 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/Kristen_Warren_be641bbb13",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-08-25 11:24:54 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/Kasey_Lewis_76a7085d19",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-08-23 06:46:56 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/Rodney_Carroll_48cd107f8d",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2024-08-26 00:13:37 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://wehaveashowing.com/115-Snowy-Orchid-Ln/",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "WWW.HOMETOWNEREALTY.COM",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-07-03 07:01:53 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/Matthew_Fiandach_0526f896e0",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-29 16:38:01 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/Gus_Nystrom_c6b096f69d/reviews",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-29 16:36:51 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/Gus_Nystrom_c6b096f69d",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-29 13:04:38 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/Sherri_Reddrick_43a5579f42",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-28 13:18:03 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://theorg.com/org/hometowne-realty",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2024-09-25 20:35:53 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://southernstatelandscape.com/fuquay-varina-yard-drainage/",
+      "target_url": "https://www.myhtr.com/5-secrets-to-selling-your-home-faster/",
+      "anchor_text": "5 Secrets to Selling Your Home Faster",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2024-12-11 12:41:28 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://southernstatelandscape.com/holly-springs-sod-installation/",
+      "target_url": "https://www.myhtr.com/5-secrets-to-selling-your-home-faster/",
+      "anchor_text": "5 Secrets to Selling Your Home Faster",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2024-12-11 12:41:20 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://southernstatelandscape.com/fuquay-varina-mulching/",
+      "target_url": "https://www.myhtr.com/5-secrets-to-selling-your-home-faster/",
+      "anchor_text": "5 Secrets to Selling Your Home Faster",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-07-31 09:21:02 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://southernstatelandscape.com/clayton-yard-drainage/",
+      "target_url": "https://www.myhtr.com/5-secrets-to-selling-your-home-faster/",
+      "anchor_text": "5 Secrets to Selling Your Home Faster",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2024-12-11 12:41:08 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://southernstatelandscape.com/clayton-mulching/",
+      "target_url": "https://www.myhtr.com/5-secrets-to-selling-your-home-faster/",
+      "anchor_text": "5 Secrets to Selling Your Home Faster",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-07-31 09:19:38 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://southernstatelandscape.com/commercial-property-maintenance-in-clayton/",
+      "target_url": "https://www.myhtr.com/5-secrets-to-selling-your-home-faster/",
+      "anchor_text": "5 Secrets to Selling Your Home Faster",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2026-04-15 19:47:48 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://southernstatelandscape.com/clayton-seasonal-lawn-care/",
+      "target_url": "https://www.myhtr.com/5-secrets-to-selling-your-home-faster/",
+      "anchor_text": "5 Secrets to Selling Your Home Faster",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2026-01-23 02:57:35 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://southernstatelandscape.com/holly-springs-yard-drainage/",
+      "target_url": "https://www.myhtr.com/5-secrets-to-selling-your-home-faster/",
+      "anchor_text": "5 Secrets to Selling Your Home Faster",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2024-12-11 12:40:56 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://southernstatelandscape.com/fuquay-varina-sod-installation/",
+      "target_url": "https://www.myhtr.com/5-secrets-to-selling-your-home-faster/",
+      "anchor_text": "5 Secrets to Selling Your Home Faster",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2024-12-11 12:40:28 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://southernstatelandscape.com/holly-springs-mulching/",
+      "target_url": "https://www.myhtr.com/5-secrets-to-selling-your-home-faster/",
+      "anchor_text": "5 Secrets to Selling Your Home Faster",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-07-31 09:14:38 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://southernstatelandscape.com/brush-removal-service-in-clayton/",
+      "target_url": "https://www.myhtr.com/5-secrets-to-selling-your-home-faster/",
+      "anchor_text": "5 Secrets to Selling Your Home Faster",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2026-01-15 23:54:50 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://southernstatelandscape.com/clayton-lot-clearing/",
+      "target_url": "https://www.myhtr.com/5-secrets-to-selling-your-home-faster/",
+      "anchor_text": "5 Secrets to Selling Your Home Faster",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2026-01-15 23:54:14 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://southernstatelandscape.com/clayton-commercial-mowing/",
+      "target_url": "https://www.myhtr.com/5-secrets-to-selling-your-home-faster/",
+      "anchor_text": "5 Secrets to Selling Your Home Faster",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2026-03-18 14:24:16 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://southernstatelandscape.com/clayton-lawn-seeding-and-aeration/",
+      "target_url": "https://www.myhtr.com/5-secrets-to-selling-your-home-faster/",
+      "anchor_text": "5 Secrets to Selling Your Home Faster",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 02:32:11 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://southernstatelandscape.com/erosion-control-service-in-clayton/",
+      "target_url": "https://www.myhtr.com/5-secrets-to-selling-your-home-faster/",
+      "anchor_text": "5 Secrets to Selling Your Home Faster",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-12-03 12:17:48 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://southernstatelandscape.com/landscape-maintenance-plan-in-clayton-nc/",
+      "target_url": "https://www.myhtr.com/5-secrets-to-selling-your-home-faster/",
+      "anchor_text": "5 Secrets to Selling Your Home Faster",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-12-03 12:17:32 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://southernstatelandscape.com/clayton-landscape-maintenance-service/",
+      "target_url": "https://www.myhtr.com/5-secrets-to-selling-your-home-faster/",
+      "anchor_text": "5 Secrets to Selling Your Home Faster",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-11-05 07:18:43 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://southernstatelandscape.com/lawn-aeration-and-overseeding-in-clayton-nc/",
+      "target_url": "https://www.myhtr.com/5-secrets-to-selling-your-home-faster/",
+      "anchor_text": "5 Secrets to Selling Your Home Faster",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-11-05 07:18:21 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://southernstatelandscape.com/clayton-mulch-installation/",
+      "target_url": "https://www.myhtr.com/5-secrets-to-selling-your-home-faster/",
+      "anchor_text": "5 Secrets to Selling Your Home Faster",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2026-01-23 02:57:44 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://southernstatelandscape.com/clayton-sod-installation/",
+      "target_url": "https://www.myhtr.com/5-secrets-to-selling-your-home-faster/",
+      "anchor_text": "5 Secrets to Selling Your Home Faster",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2024-12-11 12:40:44 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://blackdogclub.net/our-sponsors",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2023-10-03 23:42:44 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.clodura.ai/directory/company/hometowne-realty",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-06-07 03:06:44 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.localbiznetwork.com/united-states/clayton/home-towne-realtydarla-aldridge",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2024-12-01 17:18:36 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://myhtrnc.com/",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": 3,
+      "is_dofollow": true,
+      "first_seen": "2026-04-17 03:24:32 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://claytonwin.com/friends-of-win/",
+      "target_url": "https://www.myhtr.com/htr-nc-realtors/",
+      "anchor_text": "Agents",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2025-11-05 10:43:39 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 76
+    },
+    {
+      "source_url": "https://claytonwin.com/friends-of-win/",
+      "target_url": "https://www.myhtr.com/offices/",
+      "anchor_text": "office locations",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2025-11-05 10:43:39 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 76
+    },
+    {
+      "source_url": "https://claytonwin.com/friends-of-win/",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2025-11-05 10:43:39 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 76
+    },
+    {
+      "source_url": "https://www.fastexpert.com/agents/beverly-knight-30578/",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2025-03-22 14:32:09 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.erealestatepro.com/real_estate_agents/listing_c0f637e63dab38b86b6ab5b89c1106a7.shtml",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "https://myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-05-07 08:28:44 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.realestatesmarter.com/property-management/listing/4ca653da3ef1abd8f6caeea6ba7e50e9/",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "https://www.myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-04-08 19:54:24 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.realestatesmarter.com/property-management/listing/64c04d4b14e82fb54f2fa7a4156c8547/",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "https://www.myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-04-08 19:30:36 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://bye.fyi/report/100608",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-02 14:29:13 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.seolium.com/market-research/where-is-myhtr-in-the-real-estate-market/",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-06-30 17:56:51 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://web.raleighchamber.org/Real-Estate/HTR-Capital-Group-28756",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "HTR - Capital Group",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-02-16 20:54:17 +00:00"
+    },
+    {
+      "source_url": "https://mefine.ejoinme.org/MyEvents/MeFineGala2021/SponsorshipOpportunities/tabid/1247523/Default.aspx",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-01-30 04:45:27 +00:00"
+    },
+    {
+      "source_url": "https://mefine.ejoinme.org/MyEvents/MeFineGala2021/2021MeFineGalaFAQ/tabid/1260173/Default.aspx",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-01-30 04:45:23 +00:00"
+    },
+    {
+      "source_url": "https://mefine.ejoinme.org/MyEvents/MeFineGala2021/BuyTickets/tabid/1247522/Default.aspx",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-01-30 04:45:21 +00:00"
+    },
+    {
+      "source_url": "https://countrylifedreams.com/built-1982-unique-north-carolina-log-cabin-for-sale-on-5-acres-650000/",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "HomeTowne Realty",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-02 14:46:11 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://web.raleighchamber.org/2023/Real-Estate",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "Visit Site",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-06-20 17:05:54 +00:00"
+    },
+    {
+      "source_url": "https://www.seolium.com/blog/best-83-realtors-in-raleigh/",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-06-22 03:28:44 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://nc-clayton.civicplus.com/503/Sponsors",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "HomeTowne Realty",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2021-12-24 01:09:57 +00:00"
+    },
+    {
+      "source_url": "https://mefine.ejoinme.org/MyEvents/MeFineGala2021/tabid/1247168/Default.aspx",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-01-30 04:43:42 +00:00"
+    },
+    {
+      "source_url": "https://mefine.ejoinme.org/gala2021",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-01-30 04:45:25 +00:00"
+    },
+    {
+      "source_url": "https://downtownclayton.org/503/Sponsors",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "HomeTowne Realty",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-01-03 10:29:23 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://globalecommerce.org/page-fa1726f85a84d1388b04a1e39946cc5b.html",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "myhtrnc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-26 06:14:52 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://globalecommerce.org/page-fa1726f85a84d1388b04a1e39946cc5b.html",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-26 06:14:52 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://mefine.ejoinme.org/MyEvents/MeFineGala2025SpeakeasySoir%C3%A9e/tabid/1554521/Default.aspx",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-10-12 07:06:14 +00:00"
+    },
+    {
+      "source_url": "https://mefine.ejoinme.org/MyEvents/MeFineGala2025/tabid/1554521/Default.aspx",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-10-12 07:05:05 +00:00"
+    },
+    {
+      "source_url": "https://mefine.ejoinme.org/MyEvents/MeFineGala2025/FAQ/tabid/1554525/Default.aspx",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-10-12 07:06:08 +00:00"
+    },
+    {
+      "source_url": "https://mefine.ejoinme.org/MyEvents/MeFineGala2025/GetYourTickets/tabid/1554524/Default.aspx",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-10-12 07:06:12 +00:00"
+    },
+    {
+      "source_url": "https://mefine.ejoinme.org/MyEvents/MeFineGala2025/SponsorshipandDonationOpportunities/tabid/1554523/Default.aspx",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-10-12 07:06:10 +00:00"
+    },
+    {
+      "source_url": "https://townofclaytonnc.org/503/Sponsors",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "HomeTowne Realty",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-01-06 21:40:02 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://rankvanceseo.info/rankvance-affordable-pricing-for-backlinks-120/",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "myhtrnc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-04-20 08:27:50 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.neverbounce.com/company/hometowne-realty/1125987488",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "www.myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-04-20 03:43:03 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://alljobs.info/3eefdb5b32ca3b4d7bdeb73551f23a08-l/",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "myhtrnc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-03 02:09:44 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://alljobs.info/3eefdb5b32ca3b4d7bdeb73551f23a08-l/",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-03 02:09:44 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://growjo.com/company/Sansone_Group",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-06-27 22:39:38 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://agreatertown.com/willow-spring-nc/maggie-schiele-listing-agent-at-000664443402",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "WWW.HOMETOWNEREALTY.COM",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-12 23:08:30 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://agreatertown.com/zebulon-nc/kimberly-willis-listing-agent-at-0002045687251",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "WWW.HOMETOWNEREALTY.COM",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-25 08:41:26 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://agreatertown.com/raleigh-nc/joseph-calzaretta-listing-agent-at-0002073362265",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "WWW.HOMETOWNEREALTY.COM",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-12 23:03:55 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://agreatertown.com/raleigh-nc/raymond-hammond-listing-agent-at-0002073362277",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "WWW.HOMETOWNEREALTY.COM",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-12 23:03:43 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://agreatertown.com/garner-nc/michael-thomas-listing-agent-at-0001853075045",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "WWW.HOMETOWNEREALTY.COM",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-12 23:00:57 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://agreatertown.com/wendell-nc/shannon-sharrock-listing-agent-at-0001548051696",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "WWW.HOMETOWNEREALTY.COM",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-12 22:55:42 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://prlog.ru/analysis/hometownrealtymexia.com",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2022-04-10 16:15:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.sellingnc.com/neighborhood/heritage-archer-lodge",
+      "target_url": "https://www.myhtr.com/custom-builders",
+      "anchor_text": "Darryl D. Evans Inc.",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2019-02-19 14:27:22 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://citysquares.com/b/hometown-realty-smithfield-4676575",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "http://www.myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-12-01 11:19:13 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.erealestatepro.com/real_estate_agents/listing_ce7b3735aeb404c0fa0042bf2781fd3b.shtml",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "https://myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-02-12 16:18:41 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.claytonlibrarync.org/503/Sponsors",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "HomeTowne Realty",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-09-11 08:25:36 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://theclaytoncenter.com/503/Sponsors",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "HomeTowne Realty",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-01-06 15:22:29 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://claytonparks.org/503/Sponsors",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "HomeTowne Realty",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2021-12-24 00:21:16 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://thinkclaytonnc.org/503/Sponsors",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "HomeTowne Realty",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-08-18 17:35:49 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://claytonpolice.org/503/Sponsors",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "HomeTowne Realty",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-10-09 14:36:53 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.theclaytoncenter.com/503/Sponsors",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "HomeTowne Realty",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2021-12-26 15:13:27 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://fouroakschamber.com/business-directory-2/",
+      "target_url": "http://www.myhtr.com/l/htr.php",
+      "anchor_text": "HomeTowne Realty",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-03 15:05:21 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://worldbusinesspromote.com/the-shrug-emoji-expressing-indifference-confusion-and-humor/",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-04-11 01:31:02 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://worldbusinesspromote.com/sumac-the-vibrant-spice-with-ancient-roots/",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-04-11 01:18:04 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://worldbusinesspromote.com/julio-rodriguez-the-bright-future-of-baseball/",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-04-11 01:12:07 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://sergechel.info/list-371b591165349709c5b07056de63d458",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-25 22:54:51 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://sergechel.info/list-371b591165349709c5b07056de63d458",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "myhtrnc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-25 22:54:51 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://prlog.ru/analysis/claytonpianofestival.org",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-24 13:38:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://compworth.com/top-100-companies-of-clayton",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-23 15:14:22 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://kelas.seomuda.id/quarterlinks-dofollow-article-links-just-for-25-955/",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-22 22:29:33 +00:00"
+    },
+    {
+      "source_url": "https://quero.party/report/66653",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "myhtrnc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-22 08:40:00 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://drjack.world/report/66653",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "myhtrnc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-22 06:19:20 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://mefine.ejoinme.org/MyEvents/MeFineGala2023/SponsorshipOpportunities/tabid/1377420/Default.aspx",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-04 14:01:19 +00:00"
+    },
+    {
+      "source_url": "https://mefine.ejoinme.org/GalaTickets2023",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-04 02:15:41 +00:00"
+    },
+    {
+      "source_url": "https://mefine.ejoinme.org/MyEvents/MeFineGala2023/MeFineGalaFAQ/tabid/1388749/Default.aspx",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-04 13:40:32 +00:00"
+    },
+    {
+      "source_url": "https://mefine.ejoinme.org/MyEvents/MeFineGala2023/tabid/1377419/Default.aspx",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-04 03:21:32 +00:00"
+    },
+    {
+      "source_url": "https://mefine.ejoinme.org/GalaTickets2023?fbclid=IwAR38em5a0QYXZ0SEoPV1qg_mhUzkyg2WdG8059T16PJCPaXdC-S3_CKsP64",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-04 03:46:15 +00:00"
+    },
+    {
+      "source_url": "http://www.torun-stolarz.pl/dark-side-links-dark-white-hat-link-building-615/",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-21 08:02:25 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.claytonpolice.org/503/Sponsors",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "HomeTowne Realty",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-08-13 01:51:10 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://shoplogist.com/dark-side-links-dark-white-hat-link-building-615/",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-20 10:48:45 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "http://business.triangleeastchamber.com/list/member/htr-southern-properties-stephanie-jirtle-broker-realtor-13751",
+      "target_url": "https://www.myhtr.com/clayton-huff/1841638-stephanie-jirtle/",
+      "anchor_text": "http://www.StephanieJirtleHTRSouthernProperties.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-07-01 18:48:00 +00:00"
+    },
+    {
+      "source_url": "https://compworth.com/city/clayton",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-18 19:24:37 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://anchorurl.cloud/share/100607",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-02 12:58:03 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.claytonparks.org/503/Sponsors",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "HomeTowne Realty",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-01-29 07:41:40 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.bbb.org/us/nc/clayton/profile/real-estate/hometowne-realty-group-llc-0593-90003376",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-03-02 10:17:21 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.businessesup.com/74061/hometowne-realty",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "Hometowne Realty",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-05-01 19:26:52 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://web.thecloudherald.com/15/GYBHbfLbbE",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "visit myhtrnc.com for latest info",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-12-25 20:02:06 +00:00"
+    },
+    {
+      "source_url": "https://web.raleighchamber.org/demo/Real-Estate",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "Visit Site",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-10-03 12:30:42 +00:00"
+    },
+    {
+      "source_url": "https://www.erealestatepro.com/real_estate_agents/listing_64c04d4b14e82fb54f2fa7a4156c8547.shtml",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "https://www.myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-01-22 15:45:56 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://pagesearch.net/3eefdb5b32ca3b4d7bdeb73551f23a08-l/",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "myhtrnc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-15 22:15:34 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.zabasearch.com/phone/9193510760/",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-15 21:17:47 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.zabasearch.com/phone/9192912263/",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-15 21:14:12 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.zabasearch.com/phone/9193513339/",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-15 21:13:28 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://buzzshrink.website/share/66652",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "myhtrnc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-15 20:36:56 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://business.triangleeastchamber.com/list/member/htr-southern-properties-stephanie-jirtle-broker-realtor-13751",
+      "target_url": "https://www.myhtr.com/clayton-huff/1841638-stephanie-jirtle/",
+      "anchor_text": "http://www.StephanieJirtleHTRSouthernProperties.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-18 22:17:41 +00:00"
+    },
+    {
+      "source_url": "https://www.realtorson.com/5332/hometowne-realty",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "Hometowne Realty",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-15 10:50:54 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://shortenurls.eu/share/100607",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-31 01:05:24 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://agreatertown.com/raleigh-nc/htr-capital-group-00047255685",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "WWW.HOMETOWNEREALTY.COM",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-14 23:06:43 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://agreatertown.com/clayton-nc/hometowne-realty-00047255683",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "WWW.HOMETOWNEREALTY.COM",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-14 22:43:40 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.smallbusinessdb.com/home-towne-realty-garner-nc-27529.htm",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-16 13:34:31 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://screenshots.wiki/report/66652",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "myhtrnc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-28 16:18:16 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://claytonlibrarync.org/503/Sponsors",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "HomeTowne Realty",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-08-12 03:19:20 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://prlog.ru/analysis/garnernchomes.com",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-04-01 16:46:21 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://prlog.ru/analysis/myhtr.com",
+      "target_url": "http://www.myhtr.com/Portofino",
+      "anchor_text": "myhtr.com/Portofino",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-03-02 17:54:54 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://prlog.ru/analysis/myhtr.com",
+      "target_url": "http://www.myhtr.com/Riverwood_Homes_for_Sale_in_Clayton_NC",
+      "anchor_text": "myhtr.com/Riverwood_Homes_for_...",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-03-02 17:54:54 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://prlog.ru/analysis/myhtr.com",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "myhtr.com/",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-03-02 17:54:54 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://prlog.ru/analysis/myhtr.com",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-03-02 17:54:54 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://prlog.ru/analysis/myhtr.com",
+      "target_url": "http://www.myhtr.com/LionsGate_Clayton_NC",
+      "anchor_text": "myhtr.com/LionsGate_Clayton_NC",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-03-02 17:54:54 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://prlog.ru/analysis/fox-rentals.com",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-08-05 09:15:28 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://prlog.ru/analysis/ncclaytonrentals.com",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-04-01 16:46:17 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://listings.lighthousevisuals.com/sites/80-bramble-ln-clayton-nc-27527-16161782",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "https://www.MyHTR.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-08-20 17:40:31 +00:00"
+    },
+    {
+      "source_url": "https://estateagentdb.com/go/NC/garner/home-towne-realty/247988",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "http://www.myhtr.com/",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-09 02:26:22 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://estateagentdb.com/go/NC/garner/hometown-realty/247746",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "http://myhtr.com/",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-09 02:19:47 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://bye.fyi/report/66653",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "myhtrnc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-11-17 15:42:33 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://estateagentdb.com/go/NC/clayton/htr-real-estate/376548",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "https://www.myhtr.com/",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-09 00:53:47 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://isonade.pages.dev/09/PjyAsPTrrv",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "myhtrnc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-10-14 17:45:52 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://anchorurl.cloud/share/66653",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "myhtrnc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-18 14:13:28 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.thinkclaytonnc.org/503/Sponsors",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "HomeTowne Realty",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-11-05 02:32:24 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://xedulichdaklak.com/dark-side-links-dark-white-hat-link-building-615.html",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-06 10:12:45 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.enigma.com/directory/nc/clayton/real-estate-agency/",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "https://www.myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-08-20 21:44:39 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://australianwebdirectory.shop/page-fa1726f85a84d1388b04a1e39946cc5b.html",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-06-03 09:55:50 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://australianwebdirectory.shop/page-fa1726f85a84d1388b04a1e39946cc5b.html",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "myhtrnc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-06-03 09:55:50 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://www.smallbusinessdb.com/hometowne-realty-clayton-nc-27520-2.htm",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-03-21 14:14:22 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.smallbusinessdb.com/home-town-realty-smithfield-nc-27577.htm",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-10-01 16:46:05 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://web.raleighchamber.org/Real-Estate",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "Visit Site",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-02-03 06:40:12 +00:00"
+    },
+    {
+      "source_url": "https://pirdu.com/the-rise-of-edge-computing-enhancing-speed-and-the-efficiency-in-data-processing/",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "myhtr",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-04-09 13:09:47 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.getwebsiteworth.com/3eefdb5b32ca3b4d7bdeb73551f23a08-l/",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-24 11:01:20 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.getwebsiteworth.com/3eefdb5b32ca3b4d7bdeb73551f23a08-l/",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "myhtrnc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-24 11:01:20 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://growjo.com/company/HomeTowne_Realty",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-23 13:41:33 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://growjo.com/company/Ray's_Trash_Service",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-07-01 18:54:30 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.erealestatepro.com/real_estate_agents/listing_65e424ebca9b8e834af0a6d79c3461be.shtml",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "https://www.myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-01-18 20:51:13 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.erealestatepro.com/real_estate_agents/listing_e1532d736c5f10a41632961a4011b3ae.shtml",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "https://myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-01-18 20:47:34 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://urls-shortener.eu/share/66652",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "myhtrnc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-25 05:28:29 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://sites.jake.eu/share/100607",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-24 14:35:10 +00:00"
+    },
+    {
+      "source_url": "https://agreatertown.com/vandemere-nc/andy-buschine-buschine-listing-agent-000337673428",
+      "target_url": "http://myhtr.com/",
+      "anchor_text": "WWW.HOMETOWNEREALTY.COM",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-24 02:20:32 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.wallpapers.pro/3eefdb5b32ca3b4d7bdeb73551f23a08-l/",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "myhtr.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-23 05:19:08 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.wallpapers.pro/3eefdb5b32ca3b4d7bdeb73551f23a08-l/",
+      "target_url": "https://www.myhtr.com/",
+      "anchor_text": "myhtrnc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-23 05:19:08 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://domains.tntcode.com/ip/104.17.236.232",
+      "target_url": "https://myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-03-03 03:36:36 +00:00"
+    },
+    {
+      "source_url": "https://hoursfinder.com/r-hours/riverwood-athletic-club-pool-hours.html",
+      "target_url": "https://www.myhtr.com/neighborhood/riverwood-athletic-club",
+      "anchor_text": "Riverwood Athletic Club Neigborhood Information",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-10-30 02:42:22 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://blog.dakno.com/market-a-neighborhood-to-the-right-audience/",
+      "target_url": "http://www.myhtr.com/neighborhood/carriage-creek",
+      "anchor_text": "neighborhoods",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2019-03-25 06:21:29 +00:00"
+    },
+    {
+      "source_url": "https://mefine.ejoinme.org/MyEvents/ComfyforaCause2020ANightatHomewithMeFine/SponsorshipOpportunities/tabid/1173609/Default.aspx",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-22 01:39:14 +00:00"
+    },
+    {
+      "source_url": "https://mefine.ejoinme.org/MyEvents/ComfyforaCause2020ANightatHomewithMeFine/ComfyforaCauseFoodOptions/tabid/1179895/Default.aspx",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-22 01:39:09 +00:00"
+    },
+    {
+      "source_url": "https://mefine.ejoinme.org/MyEvents/ComfyforaCause2020ANightatHomewithMeFine/BuildABarRaffle/tabid/1182416/Default.aspx",
+      "target_url": "http://www.myhtr.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-22 01:39:07 +00:00"
+    }
+  ],
+  "referring_domains": [
+    {
+      "domain": "downtownclayton.blogspot.com",
+      "rank": 167,
+      "backlinks": 1013,
+      "first_seen": "2023-08-06 15:41:19 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1011,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 167)"
+    },
+    {
+      "domain": "hometownerealty.com",
+      "rank": 128,
+      "backlinks": 1,
+      "first_seen": "2021-09-09 07:26:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 128)"
+    },
+    {
+      "domain": "claytonhomeimprovements.com",
+      "rank": 96,
+      "backlinks": 3,
+      "first_seen": "2025-10-10 11:16:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 96)"
+    },
+    {
+      "domain": "southernstatelandscape.com",
+      "rank": 93,
+      "backlinks": 20,
+      "first_seen": "2024-12-11 12:40:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 20,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 93)"
+    },
+    {
+      "domain": "st-patricks-day.com",
+      "rank": 68,
+      "backlinks": 2,
+      "first_seen": "2023-10-12 11:37:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 68)"
+    },
+    {
+      "domain": "listingsus.com",
+      "rank": 67,
+      "backlinks": 4,
+      "first_seen": "2022-01-14 10:30:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 67)"
+    },
+    {
+      "domain": "homesforsaleclayton.com",
+      "rank": 51,
+      "backlinks": 1,
+      "first_seen": "2025-10-24 00:22:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 91,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 51)"
+    },
+    {
+      "domain": "42eastbuilder.com",
+      "rank": 51,
+      "backlinks": 1,
+      "first_seen": "2025-07-31 08:05:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 91,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 51)"
+    },
+    {
+      "domain": "htrapp.com",
+      "rank": 30,
+      "backlinks": 15,
+      "first_seen": "2023-05-02 19:47:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "securitypropertymanagement.com",
+      "rank": 23,
+      "backlinks": 1,
+      "first_seen": "2025-05-15 06:50:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "agentnook.com",
+      "rank": 23,
+      "backlinks": 2,
+      "first_seen": "2025-05-06 19:40:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "getemail.io",
+      "rank": 7,
+      "backlinks": 1,
+      "first_seen": "2024-08-01 05:34:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 77,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "comparable-companies.com",
+      "rank": 7,
+      "backlinks": 1,
+      "first_seen": "2023-04-12 09:30:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 77,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "claytonwin.com",
+      "rank": 6,
+      "backlinks": 4,
+      "first_seen": "2025-11-05 10:43:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 76,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "ejoinme.org",
+      "rank": 3,
+      "backlinks": 46,
+      "first_seen": "2023-10-04 02:15:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 23,
+      "domainQuality": "suspicious",
+      "qualityScore": 63,
+      "qualitySignals": [
+        "very-low-DR"
+      ],
+      "qualityReason": "very-low-DR"
+    },
+    {
+      "domain": "riverwoodclayton.blogspot.com",
+      "rank": 1,
+      "backlinks": 12,
+      "first_seen": "2023-11-20 14:54:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 9,
+      "domainQuality": "suspicious",
+      "qualityScore": 61,
+      "qualitySignals": [
+        "very-low-DR"
+      ],
+      "qualityReason": "very-low-DR"
+    },
+    {
+      "domain": "rankvanceseo.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-20 08:27:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+    },
+    {
+      "domain": "neverbounce.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-20 03:43:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "myhtrnc.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-17 03:24:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "worldbusinesspromote.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-04-11 01:12:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "sergechel.info",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-03-25 22:54:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "seomuda.id",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-22 22:29:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign, SEO-spam-domain"
+    },
+    {
+      "domain": "torun-stolarz.pl",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-21 08:02:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign, telegram-spam-anchor"
+    },
+    {
+      "domain": "shoplogist.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-20 10:48:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "compworth.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-03-18 19:24:37 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "pagesearch.net",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-15 22:15:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "buzzshrink.website",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-15 20:36:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "realtorson.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2026-03-15 10:50:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "estateagentdb.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-03-09 00:53:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "xedulichdaklak.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-06 10:12:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "alljobs.info",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-03-03 02:09:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "urls-shortener.eu",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-25 05:28:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "wallpapers.pro",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-02-23 05:19:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "musweb.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-02-13 23:57:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "jake.eu",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-02-13 03:30:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "agreatertown.com",
+      "rank": 0,
+      "backlinks": 25,
+      "first_seen": "2026-02-12 22:55:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 9,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "booksreadr.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-02-03 22:26:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "shortenurls.eu",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-31 01:05:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "ready.pro",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-28 20:05:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "runningwebsites.net",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-28 17:54:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "screenshots.wiki",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-28 16:18:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "way2check.cv",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-27 10:00:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "globalecommerce.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-26 06:14:52 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "dexknows.com",
+      "rank": 0,
+      "backlinks": 6,
+      "first_seen": "2026-01-22 04:15:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 6,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "anchorurl.cloud",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-01-18 14:13:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "superpages.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-12-28 11:58:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "thecloudherald.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-25 20:02:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "getwebsiteworth.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-12-24 11:01:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "raleighbusinessguide.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-12-08 06:17:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "2x9.co",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-12-04 08:26:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "hometownelife.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-23 22:28:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "zappenin.com",
+      "rank": 0,
+      "backlinks": 8,
+      "first_seen": "2025-11-18 03:02:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 7,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "bye.fyi",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-11-17 15:42:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "mapquest.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-10-20 07:30:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "drjack.world",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-08-21 02:18:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "enigma.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-20 21:44:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "mydeepin.ru",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-15 14:50:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
+    },
+    {
+      "domain": "wliinc35.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-07 04:01:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "globalcocolk.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-01 07:45:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "lighthousevisuals.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-31 23:31:23 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "gaister.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-31 19:09:48 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "astrologlar.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-30 18:39:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "sisgroup.lk",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-12 18:50:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "passiogolf.vn",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-12 01:09:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
+    },
+    {
+      "domain": "m-he.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-11 17:26:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "bridglobal.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-10 22:39:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "productionfunctionusa.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-10 14:34:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "ezeller.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-05 13:31:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "wehaveashowing.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-03 07:01:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "agmermer.pro",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-06-27 13:12:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "what-happens-next.xyz",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-06-23 14:13:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 10,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD"
+      ],
+      "qualityReason": "DR-0, spam-TLD"
+    },
+    {
+      "domain": "clodura.ai",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-06-07 03:06:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "fashioment.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-06-06 00:07:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "australianwebdirectory.shop",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-06-03 09:55:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "belonnanotservice.ga",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-28 04:35:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 10,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD"
+      ],
+      "qualityReason": "DR-0, spam-TLD"
+    },
+    {
+      "domain": "mcabralcriminalistas.com.br",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-24 17:37:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "growjo.com",
+      "rank": 0,
+      "backlinks": 5,
+      "first_seen": "2025-05-23 13:08:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "lawfirms1.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-20 03:14:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "cocoqatar.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-19 16:56:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "seobacklinks.agency",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-14 15:01:37 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "riverwildrealestate.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-14 03:14:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "businesscontacts.io",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-12 03:27:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "insumosartesgraficas.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-09 16:13:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "rankgrow.agency",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-08 20:56:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "leadiq.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-05-04 20:47:02 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "countrylifedreams.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-02 14:46:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "juridipedia.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-04-25 12:20:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "whatsaroundtown.info",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-04-22 04:05:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "listhub.net",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-04-20 18:21:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "prolinkbox.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-04-19 14:30:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "sitelike.org",
+      "rank": 0,
+      "backlinks": 24,
+      "first_seen": "2025-04-17 20:06:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 24,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "thebestbacklinksavailable.click",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-04-11 23:20:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD",
+        "SEO-spam-domain",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, spam-TLD, SEO-spam-domain, suspiciously-long-domain"
+    },
+    {
+      "domain": "zabasearch.com",
+      "rank": 0,
+      "backlinks": 6,
+      "first_seen": "2025-04-09 17:32:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 6,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "realestatesmarter.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-04-08 19:30:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "hotfrog.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-04-07 13:49:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "browseallexpireddomains.us",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-04-07 11:23:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "fastexpert.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-03-22 14:32:09 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "smallbusinessdb.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-03-21 14:14:22 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "kotohomes.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-03-10 22:56:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "peekyou.com",
+      "rank": 0,
+      "backlinks": 7,
+      "first_seen": "2025-03-09 22:08:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 7,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "lodgefarm-plants.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-02-26 14:00:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "highrises.com",
+      "rank": 0,
+      "backlinks": 21,
+      "first_seen": "2025-02-24 08:39:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 21,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "bbb.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-02-09 21:11:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "mundotecnologia.info",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-02-09 14:00:31 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "bizdb.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-01-28 16:01:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "erealestatepro.com",
+      "rank": 0,
+      "backlinks": 5,
+      "first_seen": "2025-01-18 20:47:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "triangleeastchamber.com",
+      "rank": 0,
+      "backlinks": 5,
+      "first_seen": "2025-01-04 22:04:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "kirkwoodbuilders.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-12-16 01:27:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "localbiznetwork.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-12-01 17:18:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "citysquares.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-12-01 11:19:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "jazminsbeautysalon.be",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-11-18 12:42:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
+    },
+    {
+      "domain": "zoominfo.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-11-16 03:10:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "claytonhairsalon.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-10-22 02:06:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "beststartup.us",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2024-10-17 02:53:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "quero.party",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2024-10-07 23:12:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "crunchbase.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-10-06 08:56:09 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "lateroundqb.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-10-01 08:59:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "theorg.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-09-25 20:35:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "dtg5o8n2qcvfv.cloudfront.net",
+      "rank": 0,
+      "backlinks": 16,
+      "first_seen": "2024-08-26 00:13:37 +00:00",
+      "dofollow": 0,
+      "referring_pages": 16,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "willettonuniforms.com.au",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-07-27 03:48:37 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "seolium.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-06-22 03:28:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "camfivecommercialembroiderymachinetos.blogspot.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-06-06 04:18:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, suspiciously-long-domain"
+    },
+    {
+      "domain": "businessesup.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2024-05-01 19:26:52 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "webranksite.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-04-19 09:32:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "pirdu.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-04-09 13:09:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "tntcode.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-02-25 18:28:22 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "tiffanyknitsandpurls.blogspot.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-02-24 08:37:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, suspiciously-long-domain"
+    },
+    {
+      "domain": "email-verifier.io",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-02-05 22:04:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "secondchancenc.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-01-04 17:29:52 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "deckbuilderstooday.blogspot.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2023-11-29 17:41:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, suspiciously-long-domain"
+    },
+    {
+      "domain": "global-website.pages.dev",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2023-11-14 04:30:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "investmentopportunitiestoday.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-11-13 18:43:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, suspiciously-long-domain"
+    },
+    {
+      "domain": "hoursfinder.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-30 02:42:22 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "linkstock.net",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2023-10-16 09:23:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "isonade.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-14 17:45:52 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "claytonhomesshikokun.blogspot.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2023-10-13 11:53:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, suspiciously-long-domain"
+    },
+    {
+      "domain": "blackdogclub.net",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-03 23:42:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "fouroakschamber.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2023-10-03 15:05:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "thinkclaytonnc.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2023-08-18 17:35:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "claytonpolice.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2022-08-13 01:51:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "claytonlibrarync.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2022-08-12 03:19:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "prlog.ru",
+      "rank": 0,
+      "backlinks": 24,
+      "first_seen": "2022-03-25 09:44:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 18,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
+    },
+    {
+      "domain": "raleighchamber.org",
+      "rank": 0,
+      "backlinks": 5,
+      "first_seen": "2022-02-03 06:40:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "downtownclayton.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2022-01-03 10:29:23 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "theclaytoncenter.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2021-12-26 15:13:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "civicplus.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2021-12-24 01:09:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "claytonparks.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2021-12-24 00:21:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "townofclaytonnc.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2021-12-23 22:21:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "garnerchamber.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2021-02-27 21:30:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "dakno.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2019-03-25 06:21:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "claytonchamber.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2019-02-23 11:37:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "sellingnc.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2019-02-19 14:27:22 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    }
+  ],
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-05-05T18:40:57.760Z",
+  "qualitySummary": {
+    "total": 152,
+    "legitimate": 16,
+    "suspicious": 108,
+    "spam": 28,
+    "legitimatePct": 11,
+    "suspiciousPct": 71,
+    "spamPct": 18,
+    "topLegitimate": [
+      {
+        "domain": "downtownclayton.blogspot.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 167)"
+      },
+      {
+        "domain": "hometownerealty.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 128)"
+      },
+      {
+        "domain": "claytonhomeimprovements.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 96)"
+      },
+      {
+        "domain": "southernstatelandscape.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 93)"
+      },
+      {
+        "domain": "st-patricks-day.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 68)"
+      },
+      {
+        "domain": "listingsus.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 67)"
+      },
+      {
+        "domain": "htrapp.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "securitypropertymanagement.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "agentnook.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "homesforsaleclayton.com",
+        "quality": "legitimate",
+        "score": 91,
+        "reason": "High domain authority (DR 51)"
+      },
+      {
+        "domain": "42eastbuilder.com",
+        "quality": "legitimate",
+        "score": 91,
+        "reason": "High domain authority (DR 51)"
+      },
+      {
+        "domain": "getemail.io",
+        "quality": "legitimate",
+        "score": 77,
+        "reason": "low-DR"
+      },
+      {
+        "domain": "comparable-companies.com",
+        "quality": "legitimate",
+        "score": 77,
+        "reason": "low-DR"
+      },
+      {
+        "domain": "claytonwin.com",
+        "quality": "legitimate",
+        "score": 76,
+        "reason": "low-DR"
+      },
+      {
+        "domain": "kotohomes.com",
+        "quality": "legitimate",
+        "score": 50,
+        "reason": "Recognized legitimate domain"
+      },
+      {
+        "domain": "bbb.org",
+        "quality": "legitimate",
+        "score": 50,
+        "reason": "Recognized legitimate domain"
+      }
+    ],
+    "topSpam": [
+      {
+        "domain": "rankvanceseo.info",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+      },
+      {
+        "domain": "seomuda.id",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, low-DR-foreign, SEO-spam-domain"
+      },
+      {
+        "domain": "torun-stolarz.pl",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, low-DR-foreign, telegram-spam-anchor"
+      },
+      {
+        "domain": "shoplogist.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "xedulichdaklak.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "thebestbacklinksavailable.click",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, spam-TLD, SEO-spam-domain, suspiciously-long-domain"
+      },
+      {
+        "domain": "what-happens-next.xyz",
+        "quality": "spam",
+        "score": 10,
+        "reason": "DR-0, spam-TLD"
+      },
+      {
+        "domain": "belonnanotservice.ga",
+        "quality": "spam",
+        "score": 10,
+        "reason": "DR-0, spam-TLD"
+      },
+      {
+        "domain": "australianwebdirectory.shop",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "seobacklinks.agency",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "seolium.com",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "myhtrnc.com",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "pagesearch.net",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "mydeepin.ru",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, low-DR-foreign"
+      },
+      {
+        "domain": "passiogolf.vn",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, low-DR-foreign"
+      },
+      {
+        "domain": "wehaveashowing.com",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "clodura.ai",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "lawfirms1.com",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "countrylifedreams.com",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "juridipedia.com",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      }
+    ],
+    "analyzedAt": "2026-05-05T18:41:28.309Z",
+    "method": "rule-based-v1"
+  }
+}

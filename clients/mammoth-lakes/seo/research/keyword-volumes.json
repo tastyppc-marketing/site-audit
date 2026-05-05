@@ -1,277 +1,509 @@
-[
-  {
-    "keyword": "mammoth lakes real estate",
-    "volume": 720,
-    "difficulty": 42,
-    "cpc": 0.51,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657202"
-  },
-  {
-    "keyword": "mammoth lakes homes for sale",
-    "volume": 1600,
-    "difficulty": 47,
-    "cpc": 0.61,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657217"
-  },
-  {
-    "keyword": "mammoth lakes condos for sale",
-    "volume": 590,
-    "difficulty": 53,
-    "cpc": 0.87,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657222"
-  },
-  {
-    "keyword": "mammoth lakes properties",
-    "volume": 720,
-    "difficulty": 42,
-    "cpc": 0.51,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657226"
-  },
-  {
-    "keyword": "mammoth lakes cabin for sale",
-    "volume": 140,
-    "difficulty": 58,
-    "cpc": 0.87,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657302"
-  },
-  {
-    "keyword": "mammoth lakes real estate agent",
-    "volume": 40,
-    "difficulty": 59,
-    "cpc": 2.44,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657306"
-  },
-  {
-    "keyword": "mammoth mountain homes for sale",
-    "volume": 1600,
-    "difficulty": 47,
-    "cpc": 0.61,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657308"
-  },
-  {
-    "keyword": "mammoth lakes vacation homes",
-    "volume": 1300,
-    "difficulty": 69,
-    "cpc": 6.47,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657317"
-  },
-  {
-    "keyword": "mammoth lakes luxury homes",
-    "volume": null,
-    "difficulty": null,
-    "cpc": null,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657320"
-  },
-  {
-    "keyword": "mammoth lakes land for sale",
-    "volume": 90,
-    "difficulty": 41,
-    "cpc": 0.92,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657325"
-  },
-  {
-    "keyword": "mammoth lakes townhomes for sale",
-    "volume": null,
-    "difficulty": null,
-    "cpc": null,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657328"
-  },
-  {
-    "keyword": "mammoth mountain real estate",
-    "volume": 590,
-    "difficulty": 48,
-    "cpc": 0.84,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657330"
-  },
-  {
-    "keyword": "mammoth lakes ski condo",
-    "volume": null,
-    "difficulty": null,
-    "cpc": null,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657333"
-  },
-  {
-    "keyword": "june lake homes for sale",
-    "volume": 590,
-    "difficulty": 23,
-    "cpc": 0.27,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657335"
-  },
-  {
-    "keyword": "crowley lake homes for sale",
-    "volume": 170,
-    "difficulty": 21,
-    "cpc": 0.45,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657337"
-  },
-  {
-    "keyword": "mammoth lakes investment property",
-    "volume": 10,
-    "difficulty": null,
-    "cpc": null,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657340"
-  },
-  {
-    "keyword": "mammoth lakes new construction",
-    "volume": null,
-    "difficulty": null,
-    "cpc": null,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657347"
-  },
-  {
-    "keyword": "mammoth lakes real estate market",
-    "volume": 10,
-    "difficulty": 40,
-    "cpc": 0.79,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657354"
-  },
-  {
-    "keyword": "best mammoth lakes neighborhoods",
-    "volume": null,
-    "difficulty": null,
-    "cpc": null,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657368"
-  },
-  {
-    "keyword": "mammoth lakes property management",
-    "volume": 170,
-    "difficulty": 16,
-    "cpc": 8.01,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657376"
-  },
-  {
-    "keyword": "buy a home in mammoth lakes",
-    "volume": null,
-    "difficulty": null,
-    "cpc": null,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657380"
-  },
-  {
-    "keyword": "mammoth lakes ca homes for sale",
-    "volume": 1600,
-    "difficulty": 47,
-    "cpc": 0.61,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657384"
-  },
-  {
-    "keyword": "sierra nevada real estate",
-    "volume": 70,
-    "difficulty": 29,
-    "cpc": 0.27,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657389"
-  },
-  {
-    "keyword": "eastern sierra real estate",
-    "volume": 40,
-    "difficulty": 24,
-    "cpc": 0.5,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657395"
-  },
-  {
-    "keyword": "mono county real estate",
-    "volume": 70,
-    "difficulty": 42,
-    "cpc": 0.07,
-    "position": null,
-    "url": null,
-    "serp_features": [],
-    "source": "dataforseo",
-    "fetched_at": "2026-03-20T05:23:00.657410"
-  }
-]
+{
+  "data": [
+    {
+      "keyword": "mammoth lakes homes for sale",
+      "volume": 1600,
+      "cpc": 0.63,
+      "competition": "MEDIUM",
+      "trend": [
+        1300,
+        1600,
+        1900,
+        1600,
+        1600,
+        1600,
+        1600,
+        1900,
+        2400,
+        1600,
+        1600,
+        1900
+      ]
+    },
+    {
+      "keyword": "mammoth mountain homes for sale",
+      "volume": 1600,
+      "cpc": 0.63,
+      "competition": "MEDIUM",
+      "trend": [
+        1300,
+        1600,
+        1900,
+        1600,
+        1600,
+        1600,
+        1600,
+        1900,
+        2400,
+        1600,
+        1600,
+        1900
+      ]
+    },
+    {
+      "keyword": "mammoth lakes ca homes for sale",
+      "volume": 1600,
+      "cpc": 0.63,
+      "competition": "MEDIUM",
+      "trend": [
+        1300,
+        1600,
+        1900,
+        1600,
+        1600,
+        1600,
+        1600,
+        1900,
+        2400,
+        1600,
+        1600,
+        1900
+      ]
+    },
+    {
+      "keyword": "mammoth lakes vacation homes",
+      "volume": 1300,
+      "cpc": 6.12,
+      "competition": "MEDIUM",
+      "trend": [
+        720,
+        1000,
+        1600,
+        1900,
+        1300,
+        880,
+        880,
+        1300,
+        1600,
+        1300,
+        1000,
+        1300
+      ]
+    },
+    {
+      "keyword": "mammoth lakes real estate",
+      "volume": 720,
+      "cpc": 0.59,
+      "competition": "MEDIUM",
+      "trend": [
+        480,
+        720,
+        590,
+        720,
+        480,
+        720,
+        590,
+        880,
+        880,
+        720,
+        720,
+        720
+      ]
+    },
+    {
+      "keyword": "mammoth lakes properties",
+      "volume": 720,
+      "cpc": 0.59,
+      "competition": "MEDIUM",
+      "trend": [
+        480,
+        720,
+        590,
+        720,
+        480,
+        720,
+        590,
+        880,
+        880,
+        720,
+        720,
+        720
+      ]
+    },
+    {
+      "keyword": "mammoth lakes condos for sale",
+      "volume": 590,
+      "cpc": 0.62,
+      "competition": "MEDIUM",
+      "trend": [
+        590,
+        590,
+        720,
+        590,
+        480,
+        720,
+        590,
+        720,
+        720,
+        480,
+        480,
+        590
+      ]
+    },
+    {
+      "keyword": "mammoth mountain real estate",
+      "volume": 590,
+      "cpc": 0.95,
+      "competition": "MEDIUM",
+      "trend": [
+        590,
+        590,
+        590,
+        590,
+        480,
+        590,
+        590,
+        720,
+        720,
+        590,
+        590,
+        720
+      ]
+    },
+    {
+      "keyword": "june lake homes for sale",
+      "volume": 590,
+      "cpc": 0.25,
+      "competition": "LOW",
+      "trend": [
+        480,
+        480,
+        480,
+        480,
+        480,
+        590,
+        720,
+        880,
+        1000,
+        720,
+        720,
+        590
+      ]
+    },
+    {
+      "keyword": "crowley lake homes for sale",
+      "volume": 140,
+      "cpc": 0.4,
+      "competition": "LOW",
+      "trend": [
+        70,
+        70,
+        110,
+        90,
+        110,
+        210,
+        210,
+        210,
+        210,
+        170,
+        140,
+        170
+      ]
+    },
+    {
+      "keyword": "mammoth lakes cabin for sale",
+      "volume": 110,
+      "cpc": 0.71,
+      "competition": "MEDIUM",
+      "trend": [
+        90,
+        90,
+        140,
+        170,
+        140,
+        110,
+        110,
+        110,
+        170,
+        110,
+        110,
+        110
+      ]
+    },
+    {
+      "keyword": "mammoth lakes land for sale",
+      "volume": 90,
+      "cpc": 0.4,
+      "competition": "LOW",
+      "trend": [
+        70,
+        70,
+        90,
+        90,
+        70,
+        70,
+        90,
+        110,
+        110,
+        90,
+        70,
+        90
+      ]
+    },
+    {
+      "keyword": "mammoth lakes property management",
+      "volume": 170,
+      "cpc": 8.94,
+      "competition": "LOW",
+      "trend": [
+        170,
+        140,
+        210,
+        140,
+        110,
+        140,
+        260,
+        210,
+        170,
+        140,
+        210,
+        210
+      ]
+    },
+    {
+      "keyword": "mammoth lakes real estate agent",
+      "volume": 40,
+      "cpc": 2.57,
+      "competition": "MEDIUM",
+      "trend": [
+        40,
+        30,
+        20,
+        30,
+        30,
+        30,
+        40,
+        50,
+        70,
+        40,
+        50,
+        70
+      ]
+    },
+    {
+      "keyword": "mammoth lakes real estate market",
+      "volume": 10,
+      "cpc": null,
+      "competition": "LOW",
+      "trend": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        20,
+        10,
+        30,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "keyword": "eastern sierra real estate",
+      "volume": 40,
+      "cpc": 0.39,
+      "competition": "LOW",
+      "trend": [
+        90,
+        40,
+        40,
+        20,
+        30,
+        20,
+        50,
+        70,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    {
+      "keyword": "mono county real estate",
+      "volume": 70,
+      "cpc": 0.24,
+      "competition": "MEDIUM",
+      "trend": [
+        50,
+        30,
+        50,
+        70,
+        50,
+        70,
+        70,
+        90,
+        90,
+        70,
+        70,
+        40
+      ]
+    },
+    {
+      "keyword": "sierra nevada real estate",
+      "volume": 70,
+      "cpc": 1.17,
+      "competition": "LOW",
+      "trend": [
+        40,
+        40,
+        40,
+        70,
+        50,
+        70,
+        90,
+        70,
+        90,
+        70,
+        70,
+        70
+      ]
+    },
+    {
+      "keyword": "mammoth lakes investment property",
+      "volume": 10,
+      "cpc": null,
+      "competition": null,
+      "trend": [
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        10,
+        0
+      ]
+    },
+    {
+      "keyword": "chamonix condos mammoth",
+      "volume": 210,
+      "cpc": 4.1,
+      "competition": "MEDIUM",
+      "trend": [
+        170,
+        260,
+        320,
+        320,
+        170,
+        210,
+        140,
+        140,
+        140,
+        110,
+        110,
+        210
+      ]
+    },
+    {
+      "keyword": "mountainback condominiums mammoth lakes",
+      "volume": 320,
+      "cpc": 3.42,
+      "competition": "LOW",
+      "trend": [
+        480,
+        720,
+        720,
+        590,
+        260,
+        140,
+        140,
+        210,
+        260,
+        140,
+        90,
+        210
+      ]
+    },
+    {
+      "keyword": "mammoth village condos for sale",
+      "volume": 590,
+      "cpc": 0.62,
+      "competition": "MEDIUM",
+      "trend": [
+        590,
+        590,
+        720,
+        590,
+        480,
+        720,
+        590,
+        720,
+        720,
+        480,
+        480,
+        590
+      ]
+    },
+    {
+      "keyword": "mammoth lakes realty",
+      "volume": 720,
+      "cpc": 0.59,
+      "competition": "MEDIUM",
+      "trend": [
+        480,
+        720,
+        590,
+        720,
+        480,
+        720,
+        590,
+        880,
+        880,
+        720,
+        720,
+        720
+      ]
+    },
+    {
+      "keyword": "zillow mammoth lakes",
+      "volume": 1300,
+      "cpc": 0.15,
+      "competition": "LOW",
+      "trend": [
+        1300,
+        1300,
+        1300,
+        1300,
+        1300,
+        1300,
+        1300,
+        1300,
+        1600,
+        1300,
+        1000,
+        1000
+      ]
+    },
+    {
+      "keyword": "mammoth for sale",
+      "volume": 210,
+      "cpc": 0.37,
+      "competition": "MEDIUM",
+      "trend": [
+        170,
+        170,
+        210,
+        170,
+        210,
+        170,
+        170,
+        260,
+        260,
+        170,
+        210,
+        170
+      ]
+    }
+  ],
+  "errors": [],
+  "status": "success",
+  "locationCode": 2840,
+  "languageCode": "en",
+  "gatheredAt": "2026-05-05T21:17:11.675Z"
+}

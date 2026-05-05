@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import asyncio
 import time
-from typing import Any
+from typing import TYPE_CHECKING, Any
 
 import httpx
 import structlog
@@ -14,6 +14,9 @@ from tenacity import (
 )
 
 from audit_platform.config import Settings
+
+if TYPE_CHECKING:
+    from audit_platform.config.client_context import ClientContext
 
 logger = structlog.get_logger(__name__)
 
@@ -32,14 +35,20 @@ class BaseConnector:
 
     Provides shared settings, async/sync HTTP clients with retry logic,
     structured logging, and configurable rate limiting.
+
+    Accepts either a ``ClientContext`` (preferred, per Tier 5 client-env
+    segregation) or a bare ``Settings`` (legacy, kept for tests and any
+    not-yet-migrated callers). When both are provided, ``ctx`` wins.
     """
 
     def __init__(
         self,
         settings: Settings | None = None,
         requests_per_second: float = 10.0,
+        ctx: ClientContext | None = None,
     ) -> None:
-        self.settings = settings or Settings()
+        self.ctx = ctx
+        self.settings = ctx.settings if ctx is not None else (settings or Settings())
         self.log = structlog.get_logger(self.__class__.__name__)
         self._async_client: httpx.AsyncClient | None = None
         self._sync_client: httpx.Client | None = None

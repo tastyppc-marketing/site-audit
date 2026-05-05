@@ -1607,6 +1607,19 @@ function normalizeAuditData(data, dataDir) {
         logInfo('Auto-populated topReferringDomains', rawDomains.length + ' domains from client-backlinks.json');
         fixes++;
       }
+
+      // analyze-backlink-quality.js writes qualitySummary onto the same
+      // research file. Propagate it whenever research has actual data
+      // (total > 0); the audit-data.json default is { total: 0, ... }.
+      // Without this, the rendered report shows 0/0/0 even when the
+      // analyzer has classified hundreds of referring domains.
+      if (cb.qualitySummary && typeof cb.qualitySummary === 'object' &&
+          (cb.qualitySummary.total || 0) > 0) {
+        backlinks.qualitySummary = cb.qualitySummary;
+        logInfo('Auto-populated backlinks.qualitySummary',
+          cb.qualitySummary.total + ' domains classified from client-backlinks.json');
+        fixes++;
+      }
     } catch (err) { logWarning('Failed to parse client-backlinks.json', err.message); }
   }
 

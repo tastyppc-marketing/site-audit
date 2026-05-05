@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from datetime import date, timedelta
-from typing import Any, Sequence
+from typing import TYPE_CHECKING, Any, Sequence
 
 import structlog
 from googleapiclient.discovery import build, Resource
@@ -12,6 +12,9 @@ from googleapiclient.errors import HttpError
 from audit_platform.auth.oauth import get_oauth_credentials
 from audit_platform.config import Settings
 from audit_platform.connectors.base import BaseConnector
+
+if TYPE_CHECKING:
+    from audit_platform.config.client_context import ClientContext
 
 logger = structlog.get_logger(__name__)
 
@@ -59,8 +62,12 @@ class SearchConsoleConnector(BaseConnector):
     status via the Sitemaps API.
     """
 
-    def __init__(self, settings: Settings | None = None) -> None:
-        super().__init__(settings)
+    def __init__(
+        self,
+        settings: Settings | None = None,
+        ctx: ClientContext | None = None,
+    ) -> None:
+        super().__init__(settings=settings, ctx=ctx)
         self._service: Resource | None = None
 
     # ------------------------------------------------------------------

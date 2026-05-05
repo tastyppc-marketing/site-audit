@@ -18,7 +18,7 @@ References
 from __future__ import annotations
 
 from datetime import date, datetime, timedelta
-from typing import Any
+from typing import TYPE_CHECKING, Any
 
 import httpx
 import structlog
@@ -26,6 +26,9 @@ import structlog
 from audit_platform.auth.oauth import get_oauth_credentials
 from audit_platform.config import Settings
 from audit_platform.connectors.base import BaseConnector
+
+if TYPE_CHECKING:
+    from audit_platform.config.client_context import ClientContext
 from audit_platform.models.local import BusinessProfileRecord, LocalPerformanceRecord
 
 logger = structlog.get_logger(__name__)
@@ -81,8 +84,12 @@ class BusinessProfileConnector(BaseConnector):
     5. The Business Profile APIs must be enabled in the Cloud project.
     """
 
-    def __init__(self, settings: Settings | None = None) -> None:
-        super().__init__(settings)
+    def __init__(
+        self,
+        settings: Settings | None = None,
+        ctx: ClientContext | None = None,
+    ) -> None:
+        super().__init__(settings=settings, ctx=ctx)
         self._credentials = get_oauth_credentials(
             client_id=self.settings.GOOGLE_CLIENT_ID,
             client_secret=self.settings.GOOGLE_CLIENT_SECRET,

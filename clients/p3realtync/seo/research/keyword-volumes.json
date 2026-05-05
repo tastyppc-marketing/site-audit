@@ -1,0 +1,418 @@
+{
+  "data": [
+    {
+      "keyword": "homes for sale Hampstead NC",
+      "volume": 3600,
+      "cpc": 0.57,
+      "competition": "MEDIUM",
+      "trend": [
+        4400,
+        3600,
+        3600,
+        2400,
+        2400,
+        2900,
+        3600,
+        4400,
+        4400,
+        4400,
+        4400,
+        4400
+      ]
+    },
+    {
+      "keyword": "Johnston County NC real estate",
+      "volume": 260,
+      "cpc": 1.85,
+      "competition": "LOW",
+      "trend": [
+        260,
+        170,
+        210,
+        210,
+        260,
+        210,
+        260,
+        260,
+        720,
+        260,
+        210,
+        260
+      ]
+    },
+    {
+      "keyword": "Clayton NC homes for sale",
+      "volume": 5400,
+      "cpc": 1.62,
+      "competition": "MEDIUM",
+      "trend": [
+        6600,
+        5400,
+        6600,
+        5400,
+        5400,
+        5400,
+        5400,
+        6600,
+        6600,
+        5400,
+        6600,
+        6600
+      ]
+    },
+    {
+      "keyword": "Pinehurst NC real estate",
+      "volume": 720,
+      "cpc": 0.53,
+      "competition": "MEDIUM",
+      "trend": [
+        880,
+        480,
+        720,
+        590,
+        720,
+        720,
+        590,
+        590,
+        720,
+        590,
+        720,
+        720
+      ]
+    },
+    {
+      "keyword": "Smithfield NC homes for sale",
+      "volume": 1900,
+      "cpc": 1.22,
+      "competition": "MEDIUM",
+      "trend": [
+        1900,
+        1900,
+        1900,
+        1600,
+        1600,
+        1900,
+        1900,
+        1900,
+        1900,
+        1900,
+        2400,
+        2400
+      ]
+    },
+    {
+      "keyword": "Surf City NC homes for sale",
+      "volume": 1900,
+      "cpc": 0.69,
+      "competition": "MEDIUM",
+      "trend": [
+        1900,
+        1600,
+        1900,
+        1600,
+        1300,
+        1600,
+        1900,
+        2900,
+        2900,
+        2900,
+        2400,
+        1900
+      ]
+    },
+    {
+      "keyword": "NC real estate agent",
+      "volume": 1900,
+      "cpc": 6.08,
+      "competition": "LOW",
+      "trend": [
+        1600,
+        1900,
+        1300,
+        1000,
+        1000,
+        1900,
+        2900,
+        2900,
+        3600,
+        2900,
+        2400,
+        1900
+      ]
+    },
+    {
+      "keyword": "Lisa Johnson realtor NC",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    },
+    {
+      "keyword": "P3 Realty NC",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    },
+    {
+      "keyword": "performance property partners NC",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    },
+    {
+      "keyword": "new construction homes NC",
+      "volume": 590,
+      "cpc": 6.94,
+      "competition": "MEDIUM",
+      "trend": [
+        590,
+        480,
+        480,
+        390,
+        480,
+        480,
+        590,
+        480,
+        720,
+        590,
+        720,
+        590
+      ]
+    },
+    {
+      "keyword": "no HOA homes Johnston County",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    },
+    {
+      "keyword": "Hampstead NC real estate agent",
+      "volume": 140,
+      "cpc": 2.91,
+      "competition": "MEDIUM",
+      "trend": [
+        170,
+        90,
+        110,
+        70,
+        90,
+        110,
+        140,
+        140,
+        170,
+        170,
+        210,
+        170
+      ]
+    },
+    {
+      "keyword": "homes for sale near Camp Lejeune",
+      "volume": 40,
+      "cpc": 3.92,
+      "competition": "MEDIUM",
+      "trend": [
+        50,
+        30,
+        40,
+        40,
+        20,
+        30,
+        20,
+        40,
+        50,
+        30,
+        40,
+        50
+      ]
+    },
+    {
+      "keyword": "Garner NC homes for sale",
+      "volume": 3600,
+      "cpc": 1.95,
+      "competition": "MEDIUM",
+      "trend": [
+        3600,
+        3600,
+        3600,
+        2900,
+        2900,
+        2900,
+        3600,
+        3600,
+        3600,
+        3600,
+        4400,
+        4400
+      ]
+    },
+    {
+      "keyword": "waterfront homes Hampstead NC",
+      "volume": 20,
+      "cpc": 0.89,
+      "competition": "LOW",
+      "trend": [
+        30,
+        10,
+        10,
+        10,
+        20,
+        10,
+        10,
+        10,
+        20,
+        30,
+        10,
+        10
+      ]
+    },
+    {
+      "keyword": "luxury homes Pinehurst NC",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    },
+    {
+      "keyword": "first time home buyer NC",
+      "volume": 2900,
+      "cpc": 10.22,
+      "competition": "HIGH",
+      "trend": [
+        2900,
+        2400,
+        2900,
+        1900,
+        2400,
+        2400,
+        2400,
+        2400,
+        3600,
+        2900,
+        2900,
+        3600
+      ]
+    },
+    {
+      "keyword": "sell my house fast NC",
+      "volume": 30,
+      "cpc": 85.08,
+      "competition": "MEDIUM",
+      "trend": [
+        20,
+        20,
+        10,
+        10,
+        20,
+        10,
+        10,
+        30,
+        30,
+        40,
+        70,
+        50
+      ]
+    },
+    {
+      "keyword": "NC home prices 2026",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    },
+    {
+      "keyword": "best neighborhoods Clayton NC",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    },
+    {
+      "keyword": "Pender County homes for sale",
+      "volume": 880,
+      "cpc": 0.44,
+      "competition": "MEDIUM",
+      "trend": [
+        880,
+        720,
+        880,
+        720,
+        720,
+        720,
+        880,
+        880,
+        1000,
+        1000,
+        880,
+        1000
+      ]
+    },
+    {
+      "keyword": "Onslow County real estate",
+      "volume": 170,
+      "cpc": 0.2,
+      "competition": "LOW",
+      "trend": [
+        170,
+        110,
+        140,
+        110,
+        140,
+        210,
+        170,
+        170,
+        170,
+        210,
+        210,
+        210
+      ]
+    },
+    {
+      "keyword": "Southern Pines NC homes",
+      "volume": 260,
+      "cpc": 2.1,
+      "competition": "MEDIUM",
+      "trend": [
+        260,
+        260,
+        260,
+        210,
+        210,
+        210,
+        210,
+        210,
+        320,
+        260,
+        320,
+        260
+      ]
+    },
+    {
+      "keyword": "Topsail Island real estate",
+      "volume": 170,
+      "cpc": 0.77,
+      "competition": "MEDIUM",
+      "trend": [
+        170,
+        140,
+        140,
+        90,
+        110,
+        140,
+        170,
+        210,
+        260,
+        260,
+        210,
+        170
+      ]
+    }
+  ],
+  "errors": [],
+  "status": "success",
+  "locationCode": 2840,
+  "languageCode": "en",
+  "gatheredAt": "2026-05-05T21:17:20.161Z"
+}

@@ -1,0 +1,3779 @@
+{
+  "domain": "riverwildrealestate.com",
+  "totalBacklinks": 200,
+  "referringDomains": 113,
+  "backlinks": [
+    {
+      "source_url": "https://www.rewebcoach.com/ai",
+      "target_url": "https://blog.riverwildrealestate.com/files/2025/06/seth-godin-biggest-change.png",
+      "anchor_text": "",
+      "domain_rating": 114,
+      "is_dofollow": true,
+      "first_seen": "2025-06-13 18:57:45 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 92
+    },
+    {
+      "source_url": "https://www.staywild.com/",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 110,
+      "is_dofollow": true,
+      "first_seen": "2025-08-17 04:37:43 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.maggieway.com/floor-plans/",
+      "target_url": "https://www.riverwildrealestate.com/neighborhood/maggie-way",
+      "anchor_text": "Explore Floorplans",
+      "domain_rating": 108,
+      "is_dofollow": true,
+      "first_seen": "2024-04-22 21:34:44 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.maggieway.com/builders/",
+      "target_url": "https://www.riverwildrealestate.com/neighborhood/maggie-way",
+      "anchor_text": "Explore Floorplans",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2024-04-22 21:36:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://one27homes.com/",
+      "target_url": "https://riverwildrealestate.com/",
+      "anchor_text": "",
+      "domain_rating": 73,
+      "is_dofollow": true,
+      "first_seen": "2023-11-30 19:49:40 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 75
+    },
+    {
+      "source_url": "https://jaclynsmithproperties.com/",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "",
+      "domain_rating": 72,
+      "is_dofollow": true,
+      "first_seen": "2023-12-12 04:20:57 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/vision",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 61,
+      "is_dofollow": true,
+      "first_seen": "2025-05-08 10:26:13 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.zillow.com/community/sommerset-pond/32083162_plid/",
+      "target_url": "https://www.riverwildrealestate.com/t?utm_medium=newhomefeed&utm_source=zillow%2Fpaid_network&nhf_channel=6&nhf_listing_id=676266&nhf_listing_type=community&utm_term=comm_SommersetPond&utm_campaign=Wendell%2FNC&source_string=zillow-neighborhood-page&page_url=%2Fneighborhood%2Fsommerset-pond",
+      "anchor_text": "View the Sommerset Pond website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-03-13 14:57:05 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.zillow.com/community/longleaf-village/31903401_plid/",
+      "target_url": "https://www.riverwildrealestate.com/t?utm_medium=newhomefeed&utm_source=zillow%2Fpaid_network&nhf_channel=6&nhf_listing_id=644190&nhf_listing_type=community&utm_term=comm_LongleafVillage&utm_campaign=Selma%2FNC&source_string=zillow-longleaf-village&page_url=%2Fneighborhood%2Flongleaf-village",
+      "anchor_text": "View the Longleaf Village website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-03-13 10:44:42 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.zillow.com/community/alton-fields/31714116_plid/",
+      "target_url": "https://www.riverwildrealestate.com/t?utm_medium=newhomefeed&utm_source=zillow%2Fpaid_network&nhf_channel=6&nhf_listing_id=542678&nhf_listing_type=community&utm_term=comm_AltonFields&utm_campaign=Dunn%2FNC&source_string=zillow-alton-fields&page_url=%2Fneighborhood%2Falton-fields",
+      "anchor_text": "View the Alton Fields website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-03-13 14:57:15 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.zillow.com/community/maggie-way/31941015_plid/",
+      "target_url": "https://www.riverwildrealestate.com/t?utm_medium=newhomefeed&utm_source=zillow%2Fpaid_network&nhf_channel=6&nhf_listing_id=648383&nhf_listing_type=community&utm_term=comm_MaggieWay&utm_campaign=Wendell%2FNC&source_string=zillow-maggie-way&page_url=%2Fneighborhood%2Fmaggie-way",
+      "anchor_text": "View the Maggie Way website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-03-13 10:39:22 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.zillow.com/community/ashcroft/30153067_plid/",
+      "target_url": "https://www.riverwildrealestate.com/t?utm_medium=newhomefeed&utm_source=zillow%2Fpaid_network&nhf_channel=6&nhf_listing_id=261042&nhf_listing_type=community&utm_term=comm_Ashcroft&utm_campaign=Clayton%2FNC&source_string=zillow-ashcroft&page_url=%2Fneighborhood%2Fashcroft",
+      "anchor_text": "View the Ashcroft website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-01-25 14:11:47 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.zillow.com/community/archer-s-park/29926877_plid/",
+      "target_url": "https://www.riverwildrealestate.com/t?utm_medium=newhomefeed&utm_source=zillow%2Fpaid_network&nhf_channel=6&nhf_listing_id=145609&nhf_listing_type=community&utm_term=comm_Archer%27sPark&utm_campaign=Middlesex%2FNC&source_string=zillow-archers-park&page_url=%2Fneighborhood%2Farchers-park",
+      "anchor_text": "View the Archer's Park website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-01-31 13:22:25 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.zillow.com/community/harvest-meadows/29926879_plid/",
+      "target_url": "https://www.riverwildrealestate.com/t?utm_medium=newhomefeed&utm_source=zillow%2Fpaid_network&nhf_channel=6&nhf_listing_id=146755&nhf_listing_type=community&utm_term=comm_HarvestMeadows&utm_campaign=Zebulon%2FNC&source_string=zillow-harvest-meadows&page_url=%2Fneighborhood%2Fharvest-meadows",
+      "anchor_text": "View the Harvest Meadows website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-03-10 05:31:10 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.zillow.com/community/marin-woods/30266266_plid/",
+      "target_url": "https://www.riverwildrealestate.com/neighborhood/marin-woods?utm_medium=newhomefeed&utm_source=zillow%2Fpaid_network&nhf_channel=6&nhf_listing_id=330355&nhf_listing_type=community&utm_term=comm_MarinWoods&utm_campaign=Smithfield%2FNC",
+      "anchor_text": "View the Marin Woods website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-03-10 05:30:40 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.zillow.com/community/riverside/30426419_plid/",
+      "target_url": "https://www.riverwildrealestate.com/t?utm_medium=newhomefeed&utm_source=zillow%2Fpaid_network&nhf_channel=6&nhf_listing_id=390960&nhf_listing_type=community&utm_term=comm_Riverside&utm_campaign=ZEBULON%2FNC&source_string=zillow-riverside&page_url=%2Fneighborhood%2Friverside",
+      "anchor_text": "View the Riverside website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-03-10 05:25:52 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.oldhouses.com/38307",
+      "target_url": "https://www.riverwildrealestate.com/staff/dakota-hogan",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-02-01 11:40:25 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 77
+    },
+    {
+      "source_url": "https://www.zillow.com/community/o-neil-overlook/31440230_plid/",
+      "target_url": "https://www.riverwildrealestate.com/t?utm_medium=newhomefeed&utm_source=zillow%2Fpaid_network&nhf_channel=6&nhf_listing_id=542681&nhf_listing_type=community&utm_term=comm_O%27NeilOverlook&utm_campaign=Clayton%2FNC&source_string=zillow-oneil-overlook&page_url=%2Fneighborhood%2Foneil-overlook",
+      "anchor_text": "View the O'Neil Overlook website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-12-22 02:31:45 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://village.do/company/jaclyn-smith-properties",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-03-19 07:36:21 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.staywild.com/homes",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 34,
+      "is_dofollow": true,
+      "first_seen": "2025-07-09 04:08:18 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/internships",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 33,
+      "is_dofollow": true,
+      "first_seen": "2025-05-08 10:25:57 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/development",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 33,
+      "is_dofollow": true,
+      "first_seen": "2025-05-08 10:26:17 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/team",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 33,
+      "is_dofollow": true,
+      "first_seen": "2025-05-23 16:48:00 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/contact-1",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-23 16:53:39 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/our-story",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-11-27 19:58:55 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/construction-team",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-23 21:45:20 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/our-work",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-08 10:26:01 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/commercial",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 14:10:19 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tag/Wild+Factor",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 17:53:40 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tag/Wild+Thing",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 17:49:11 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tag/Wild+Life",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 17:47:08 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tag/Awards",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 17:37:04 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/category/Wild+Thing",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 17:34:04 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/category/RiverWild",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 17:28:10 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/category/Outings",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 17:22:37 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/category/Jaclyn+Smith+properties",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 16:29:29 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tag/Full-time",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 16:10:18 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tag/Anniversaries",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 15:49:39 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/category/Providence+Construction",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 15:42:52 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-08 10:25:53 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/construction",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-23 16:50:46 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.jaclynsmithproperties.com/",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2019-01-23 13:56:20 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tag/Culture",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:40:22 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tag/Jaclyn+Smith+Properties",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:48:44 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tag/Leadership",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:51:02 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/category/Uncategorized",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:33:40 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/category/One+Compassion",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:36:39 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tag/RiverWild",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:37:55 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tag/Our+People",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:38:31 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tag/Executive+Voice",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:39:07 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/category/Awards",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:51:54 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tag/Intern",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:59:51 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/category/One27Homes",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:11:45 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tag/June+Anniversaries",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:14:08 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/category/Press+and+News",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:15:16 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tag/BestPlacesToWork",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:27:45 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/category/Wild+Factor",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:36:32 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/category/Our+People",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:57:24 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/category/RiverWorks",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 13:00:50 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tag/Providence+Construction",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 13:02:20 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/category/Leadership+Articles",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-23 16:30:05 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/wildlife-blog",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-23 16:57:14 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/team-gallery",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-23 21:44:25 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/homes-team",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-07-09 04:12:19 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/development-team",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-08 10:41:09 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/commercial-team",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-07-09 04:08:34 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/careers",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 31,
+      "is_dofollow": true,
+      "first_seen": "2025-05-23 16:41:01 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/contact",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-08 10:26:09 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/austin-marsland-october-2021-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 16:17:02 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/jack-diebolt-june-2021-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 14:53:12 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/aly-burr-may-2021-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:45:44 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/austen-jones-november-2021-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:19:44 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/hannah-smith-april-2021-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:53:07 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/marcos-orozco-december-2021-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:54:21 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/chad-hollifield-october-2021-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:57:12 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/jamal-barbour-february-2020-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:44:51 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/courtney-ellis-october-2020-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-05-23 15:26:14 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/johnathan-peele-august-2021-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-05-23 16:02:50 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/work-wild",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-06-10 15:29:30 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tbj-corridors-of-opportunity-the-future-of-johnston-county-is-bright",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 10,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:16:45 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/project/little-creek",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-12-24 10:12:32 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/paul-smart-march-2021-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-11-13 11:37:02 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/lindsey-goodson-january-2022-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 17:55:35 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/fayre-mason-november-2021-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 17:51:24 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/matt-schelm-march-2022-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 17:40:04 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/riverwild-selected-as-a-best-place-to-work-two-years-in-a-row",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 17:30:59 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/june-anniversaries",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 17:25:25 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/kurt-cusac-january-2022-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-11-13 11:37:06 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tucker-hobbs-2021-annual-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 16:34:51 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/into-the-wild-meet-our-intern-class-of-2024",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 16:22:59 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/celebrating-the-paperco",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 15:55:30 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/austin-marsland-annual-2021-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 15:35:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/announcing-our-february-2024-wild-thing-award-winners-mark-austen",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 15:11:34 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/july-anniversaries",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 15:03:39 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.onecompassion.com/news/cooper-academy-movie-night-and-school-beautification-day",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Jaclyn Smith Properties Agent Team",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-06-03 21:29:33 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/cody-hairr-march-2021-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:01:24 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/mark-turner-december-2020-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:08:28 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/time-to-celebrate-2021-promotions",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:10:35 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/victor-ventura-january-2020-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:17:48 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/jamal-barbour-2020-annual-wild-factor-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:21:36 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/riverwild-selected-as-a-best-place-to-work",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:26:44 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/susan-bercaw-january-2021-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:30:05 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/riverwild-to-deliver-needed-inventory-in-zebulon-area",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:35:54 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tyler-carlton-april-2022-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:37:15 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/adam-sale-january-2021-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:39:47 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/caleb-berumez-february-2022-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:58:37 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/johnny-tamayo-august-2020-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:02:05 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/thats-a-wrap-2021-year-end-wrap-up",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:06:12 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/3478-2",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:10:40 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/john-gibbons-june-2022-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:17:51 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/austen-jones-august-2022-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:18:59 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/trevor-viehweg-november-2020-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:22:52 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tony-maxwell-december-2020-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:24:54 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/courtney-ellis-2020-annual-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:33:35 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/jessica-lloyd-february-2021-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:34:35 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/3525-2",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:35:33 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/2021-compassion-award-winner-eric-gutierrez",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:37:32 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/jorge-romero-march-2020-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:42:07 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/danielle-lantz-july-2021-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:43:59 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/2018-first-quarter-meeting",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:46:39 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/juan-gonzalez-april-2020-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:49:59 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/matt-bunn-november-2020-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:50:33 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/nick-larson-april-2022-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:51:36 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/jenna-mckeel-december-2021-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:54:20 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/sarah-morris-september-2021-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:54:58 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/candor-and-confidence-eric-curran",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:56:12 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/robert-brownfield-october-2020-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:58:10 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/academy-pointe-feature-in-triangle-business-journal",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 13:00:04 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/riverwild-to-develop-marin-woods-subdivision-in-smithfield-nc",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 13:01:33 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tramain-eason-may-2020-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2026-02-21 10:01:10 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/announcing-our-march-2024-wild-thing-award-winners-connor-jordan",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-23 15:29:49 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/jack-diebolt-july-2020-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-23 15:35:25 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/impacted-and-developed-how-to-become-an-accountable-leader-austin-marsland",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-07-01 09:53:48 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/kenneth-phillips-september-2020-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-23 16:07:45 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/mark-pemberton-june-2020-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-23 16:19:51 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/st-patricks-day-festivities",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:21:03 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/will-hardison-february-2022-wild-thing-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-07-09 04:08:47 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/riverwild-receives-approval-for-riverwood-golf-club-section-two-development",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-06-22 07:21:43 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/rafael-hernandez-march-2022-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-23 16:34:38 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/riverwild-homes-receives-2025-builder-of-integrity-award",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2026-01-27 11:55:39 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/project/ashcroft-section-ii",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-08 10:39:12 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/project/academy-pointe",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-08 10:39:08 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/project/toc-access-rd",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-08 10:39:03 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/project/east-river",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-08 10:38:59 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/project/tractor-supply",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-08 10:38:55 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/project/woodard-oaks",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-08 10:38:47 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/project/riverwood-golf-section-2",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-08 10:38:43 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/project/hollybrook",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-08 10:38:39 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/project/thanksgiving-elementary",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-08 10:38:35 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://archerlodge.org/9th-annual-archer-lodge-christmas-celebration/",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Jaclyn Smith Properties",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2024-09-27 07:18:24 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/eddie-bell-may-2022-wild-factor-award-winner",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-23 16:24:58 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/ladies-spa-day-outing",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:28:25 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/jaclyn-smith-wins-north-carolinas-2022-trailblazers-award",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:34:51 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/a-wild-start-to-2022",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:01:02 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/riverwild-construction-wins-business-north-carolinas-small-business-of-the-year-award",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:30:40 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/tbj-feature-one27-homes-ashcroft-development",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:32:31 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/5-reasons-you-should-intern-at-riverwild",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 11:03:35 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/riverwild-wins-fast-50-award",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2025-06-22 14:05:43 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/intern-to-full-time-the-hobbs-brothers",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2025-05-24 02:24:52 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.cityhomesandlifestyle.com/Block-Test",
+      "target_url": "https://search.riverwildrealestate.com/search/results/Johnston-County-sold-this-week",
+      "anchor_text": "Sold  This Week",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-02-09 13:25:48 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 76
+    },
+    {
+      "source_url": "https://www.cityhomesandlifestyle.com/Block-Test",
+      "target_url": "https://search.riverwildrealestate.com/search/results/Johnston-County-active-homes-for-sale",
+      "anchor_text": "Homes For Sale",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-02-09 13:25:48 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 76
+    },
+    {
+      "source_url": "https://www.cityhomesandlifestyle.com/Block-Test",
+      "target_url": "https://search.riverwildrealestate.com/search/results/Johnston-County-under-contract-this-week",
+      "anchor_text": "Under Contract  This Week",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-02-09 13:25:48 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 76
+    },
+    {
+      "source_url": "https://shoplogist.com/dark-side-links-dark-white-hat-link-building-957/",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-20 11:43:39 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.one27homes.com/",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2019-01-18 05:37:54 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 75
+    },
+    {
+      "source_url": "https://estateinnovation.com/81-top-north-carolina-commercial-real-estate-companies-and-startups-innovating-the-industry/",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Website",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2021-10-14 13:44:58 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 40
+    },
+    {
+      "source_url": "http://www.jaclynsmithproperties.com/",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-04-23 19:46:35 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.neverbounce.com/company/jaclyn-smith-properties/386259489",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "www.jaclynsmithproperties.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-04-23 19:45:14 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://mail.getwebsiteworth.com/44ff8ddfba92018995083ef4d95c32f5-l/",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "jaclynsmithproperties.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-04-20 13:15:05 +00:00"
+    },
+    {
+      "source_url": "https://globalecommerce.org/page-c43d495645635de02f615c0d198aefb0.html",
+      "target_url": "https://riverwildrealestate.com/",
+      "anchor_text": "riverwildrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-25 13:13:09 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://mail.getwebsiteworth.com/3dee3fc42f85c97fae1706e30ce81cad-l/",
+      "target_url": "https://riverwildrealestate.com/",
+      "anchor_text": "riverwildrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-04-19 17:46:43 +00:00"
+    },
+    {
+      "source_url": "https://globalecommerce.org/page-c46336cdae4e08248a19447ed424d8fb.html",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "jaclynsmithproperties.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-23 22:27:55 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://suadienlanhhaiduong.com/dark-side-links-dark-white-hat-link-building-957/",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-04-18 03:07:26 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://huldra.pages.dev/14/evrWElMXVX",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "jaclynsmithproperties.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-10-14 21:02:05 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.websiterace.com/3dee3fc42f85c97fae1706e30ce81cad-l/",
+      "target_url": "https://riverwildrealestate.com/",
+      "anchor_text": "riverwildrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-02 14:12:05 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://listingsus.com/north-carolina/heartland-region/johnston-county/clayton/business/",
+      "target_url": "http://www.riverwildrealestate.com/riverwoodlife",
+      "anchor_text": "Riverwood Life",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2022-01-13 13:19:11 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://listingsus.com/north-carolina/heartland-region/johnston-county/business/",
+      "target_url": "http://www.riverwildrealestate.com/riverwoodlife",
+      "anchor_text": "Riverwood Life",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2022-01-13 13:12:41 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "http://www.riverwoodlife.com/",
+      "target_url": "http://www.riverwildrealestate.com/riverwoodlife",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-04-14 14:28:28 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://listingsus.com/north-carolina/business/real_estate/index24.asp",
+      "target_url": "http://www.riverwildrealestate.com/riverwoodlife",
+      "anchor_text": "Riverwood Life",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2022-03-18 14:40:54 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/riverwild-announces-wilders-farm",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 17:44:43 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://sergechel.info/list-3b4d7daec3382781d4a615a52c0560ec",
+      "target_url": "https://riverwildrealestate.com/",
+      "anchor_text": "riverwildrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-04-13 02:53:02 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/jaclyn-smith-featured-in-recent-tbj-residential-market-report",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 15:18:57 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://sergechel.info/list-cfcc68c3efe439d1db81a5af4f046d59",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "jaclynsmithproperties.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-04-11 09:33:48 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://global-websites.pages.dev/55/uGsfTBVrJK",
+      "target_url": "https://riverwildrealestate.com/",
+      "anchor_text": "one27homes.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-11-30 15:48:52 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://ycm.info/a1fd0da118f21f3e935f471089bff1f5-l/",
+      "target_url": "https://riverwildrealestate.com/",
+      "anchor_text": "one27homes.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-23 19:25:34 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://kelas.seomuda.id/quarterlinks-dofollow-article-links-just-for-25-3017/",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-23 10:03:03 +00:00"
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/one27homes-named-outstanding-business-of-the-month",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:53:14 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/riverwild-introduces-thousands-of-middle-schoolers-to-construction-at-2022-joco-works",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:09:33 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/riverwild-celebrates-women-in-construction-week",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:22:08 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/hello-world-2",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:25:54 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/reid-and-jaclyn-smith-featured-in-tbj-executive-voice",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-17 12:48:10 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.staywild.com/blog/summer-internship-program",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-17 08:10:37 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://ycm.info/44ff8ddfba92018995083ef4d95c32f5-l/",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "jaclynsmithproperties.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-22 12:28:21 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://drjack.world/report/62307",
+      "target_url": "https://riverwildrealestate.com/",
+      "anchor_text": "one27homes.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-21 21:22:15 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://anchorurl.cloud/share/62307",
+      "target_url": "https://riverwildrealestate.com/",
+      "anchor_text": "one27homes.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-02 20:23:39 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://rankvanceauthority.info/rankvance-affordable-link-building-430/",
+      "target_url": "https://riverwildrealestate.com/",
+      "anchor_text": "one27homes.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-19 11:32:20 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://rankvanceauthority.info/link-building-pricing-rankvance-392/",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "jaclynsmithproperties.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-27 05:55:10 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "http://www.nomoz.org/Top/Regional/North_America/United_States/North_Carolina/Localities/C/Clayton/Business_and_Economy/Real_Estate/",
+      "target_url": "http://www.riverwildrealestate.com/riverwoodlife",
+      "anchor_text": "Riverwood Life",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-16 22:04:18 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.example3.com/keyword/clayton",
+      "target_url": "https://riverwildrealestate.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-08 21:04:44 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://anchorurl.cloud/share/5633",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "jaclynsmithproperties.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-02 19:42:33 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://estateinnovation.com/75-top-north-carolina-property-development-startups-companies/",
+      "target_url": "https://www.riverwildrealestate.com/",
+      "anchor_text": "Website",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-04-01 21:14:41 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 40
+    }
+  ],
+  "referring_domains": [
+    {
+      "domain": "staywild.com",
+      "rank": 178,
+      "backlinks": 445,
+      "first_seen": "2025-05-08 10:25:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 147,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 178)"
+    },
+    {
+      "domain": "zillow.com",
+      "rank": 100,
+      "backlinks": 10,
+      "first_seen": "2025-12-22 02:31:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 10,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "maggieway.com",
+      "rank": 65,
+      "backlinks": 2,
+      "first_seen": "2024-04-22 21:34:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 65)"
+    },
+    {
+      "domain": "rewebcoach.com",
+      "rank": 52,
+      "backlinks": 1,
+      "first_seen": "2025-06-13 18:57:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 92,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 52)"
+    },
+    {
+      "domain": "jaclynsmithproperties.com",
+      "rank": 33,
+      "backlinks": 3,
+      "first_seen": "2019-01-23 13:56:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "one27homes.com",
+      "rank": 25,
+      "backlinks": 4,
+      "first_seen": "2019-01-18 05:37:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "legitimate",
+      "qualityScore": 75,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "oldhouses.com",
+      "rank": 7,
+      "backlinks": 4,
+      "first_seen": "2026-02-01 11:40:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 77,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "cityhomesandlifestyle.com",
+      "rank": 6,
+      "backlinks": 3,
+      "first_seen": "2026-02-09 13:25:48 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 76,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "neverbounce.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-23 19:45:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "suadienlanhhaiduong.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-18 03:07:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "riverwoodlife.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-14 14:28:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "sergechel.info",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-04-11 09:33:48 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "seomuda.id",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-23 10:03:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign, SEO-spam-domain"
+    },
+    {
+      "domain": "ycm.info",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-03-22 12:28:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "shoplogist.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-20 11:43:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "pagesearch.net",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-13 20:40:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "xedulichdaklak.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-06 09:27:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "cacaolandbmt.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-05 07:38:31 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "wallpapers.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-02 06:02:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "siteprice.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-02 02:01:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "tunca.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-02-25 02:53:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "urls-shortener.eu",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-02-24 18:56:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "jake.eu",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-14 05:04:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "musweb.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-02-11 22:07:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "livinginraleighnow.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-10 04:26:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "anchorurl.cloud",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-02-02 19:42:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "runningwebsites.net",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-30 22:55:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "screenshots.wiki",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-01-28 17:23:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "ready.pro",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-28 08:16:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "buzzshrink.website",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-27 18:27:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "way2check.cv",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-01-25 04:57:02 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "websitescrawl.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-24 08:08:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "globalecommerce.org",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-01-23 22:27:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "dexknows.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2026-01-22 04:37:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "shortenurls.eu",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-01-21 15:48:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "concejomunicipaldechinu.gov.co",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-20 23:43:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "alljobs.info",
+      "rank": 0,
+      "backlinks": 5,
+      "first_seen": "2026-01-20 01:37:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "simplewebdirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-16 10:40:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "backlinksolutions.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-03 00:52:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "websiterace.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-12-30 04:00:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "wheretobuybest.link",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-28 13:40:09 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "superpages.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-12-28 11:58:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "bye.fyi",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-12-21 11:40:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "getwebsiteworth.com",
+      "rank": 0,
+      "backlinks": 8,
+      "first_seen": "2025-12-20 06:31:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 8,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "one27design.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-08 08:00:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "raleighbusinessguide.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-08 07:59:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "booksreadr.org",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-12-08 01:48:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "2x9.co",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-07 12:25:31 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "c99.nl",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-07 07:48:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "homesphere.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-01 00:06:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "riverside-life.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-30 17:58:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "rankvanceauthority.info",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-09-27 05:55:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "esad.edu.br",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-09-05 17:21:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "mydeepin.ru",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-15 15:25:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
+    },
+    {
+      "domain": "australianwebdirectory.pro",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-08-02 11:39:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "globalcocolk.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-01 18:37:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "gaister.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-01 03:15:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "astrologlar.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-31 11:12:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "m-he.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-30 22:51:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "ezeller.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-15 08:34:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "sisgroup.lk",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-12 21:02:02 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "productionfunctionusa.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-10 17:30:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "onecompassion.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-06-03 21:29:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "australianwebdirectory.shop",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-05-30 08:46:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "belonnanotservice.ga",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-05-27 03:11:31 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "spam",
+      "qualityScore": 10,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD"
+      ],
+      "qualityReason": "DR-0, spam-TLD"
+    },
+    {
+      "domain": "cocoqatar.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-19 19:01:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "rubinazfidela.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-14 23:59:22 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "seobacklinks.agency",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-05-14 20:10:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "agmermer.pro",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-05-11 22:11:48 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "rankgrow.agency",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-05-09 05:06:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "prolinkbox.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-04-19 05:24:23 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "sitelike.org",
+      "rank": 0,
+      "backlinks": 13,
+      "first_seen": "2025-04-18 04:35:23 +00:00",
+      "dofollow": 0,
+      "referring_pages": 13,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "nomoz.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-04-16 22:04:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "realestatesmarter.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-04-08 19:30:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "what-happens-next.xyz",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-04-07 21:34:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "spam",
+      "qualityScore": 10,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD"
+      ],
+      "qualityReason": "DR-0, spam-TLD"
+    },
+    {
+      "domain": "browseallexpireddomains.us",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-04-07 00:34:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "thebestbacklinksavailable.click",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-04-06 15:38:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD",
+        "SEO-spam-domain",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, spam-TLD, SEO-spam-domain, suspiciously-long-domain"
+    },
+    {
+      "domain": "great-choice-for-pbn-domains.co.uk",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-04-01 00:21:09 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, suspiciously-long-domain"
+    },
+    {
+      "domain": "lodgefarm-plants.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-03-29 00:07:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "crunchbase.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-03-24 08:07:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "village.do",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-03-19 07:36:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "mundotecnologia.info",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-02-08 19:26:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "erealestatepro.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-01-22 15:48:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "urbanplanet.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-01-20 07:34:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "quero.party",
+      "rank": 0,
+      "backlinks": 6,
+      "first_seen": "2024-12-10 07:35:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 6,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "drjack.world",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2024-11-27 18:24:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "jazminsbeautysalon.be",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-11-18 12:49:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
+    },
+    {
+      "domain": "vailvalleylifestyle.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-11-11 06:28:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "myretirementstories.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-10-09 04:37:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "redfin.com",
+      "rank": 0,
+      "backlinks": 15,
+      "first_seen": "2024-10-07 04:51:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 15,
+      "domainQuality": "legitimate",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "archerlodge.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-09-27 07:18:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "xploredomains.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-08-09 20:32:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "mellicentzjulee.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-07-11 17:15:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "example3.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-05-07 04:35:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "wildfallsavings.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-03-29 01:51:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "wildhomespromo.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-03-28 19:00:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "newlyregddomains.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2024-03-28 17:00:31 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "cience.com",
+      "rank": 0,
+      "backlinks": 13,
+      "first_seen": "2024-03-15 12:57:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 11,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "knightdalehome.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-03-06 13:45:19 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "about.me",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-03-06 13:43:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "global-websites.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-11-30 15:48:52 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "global-website.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-11-14 01:26:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "global-ranks.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-11-13 17:07:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "huldra.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-14 21:02:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "isonade.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-14 20:27:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "thebuildermarket.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2023-08-04 09:34:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "linkstock.net",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2023-01-05 08:41:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "mylocalgolfcourse.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2022-07-25 03:25:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "loginslink.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2022-06-14 21:35:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "ispionage.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2022-03-30 19:51:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "willettonuniforms.com.au",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2022-03-17 22:35:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "listingsus.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2022-01-13 13:12:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "estateinnovation.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2021-10-14 13:44:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "generic-anchor-low-DR"
+      ],
+      "qualityReason": "DR-0, generic-anchor-low-DR"
+    }
+  ],
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-05-05T18:40:57.020Z",
+  "qualitySummary": {
+    "total": 113,
+    "legitimate": 9,
+    "suspicious": 87,
+    "spam": 17,
+    "legitimatePct": 8,
+    "suspiciousPct": 77,
+    "spamPct": 15,
+    "topLegitimate": [
+      {
+        "domain": "staywild.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 178)"
+      },
+      {
+        "domain": "zillow.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "Recognized legitimate domain"
+      },
+      {
+        "domain": "maggieway.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 65)"
+      },
+      {
+        "domain": "jaclynsmithproperties.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "rewebcoach.com",
+        "quality": "legitimate",
+        "score": 92,
+        "reason": "High domain authority (DR 52)"
+      },
+      {
+        "domain": "oldhouses.com",
+        "quality": "legitimate",
+        "score": 77,
+        "reason": "low-DR"
+      },
+      {
+        "domain": "cityhomesandlifestyle.com",
+        "quality": "legitimate",
+        "score": 76,
+        "reason": "low-DR"
+      },
+      {
+        "domain": "one27homes.com",
+        "quality": "legitimate",
+        "score": 75,
+        "reason": "Recognized legitimate domain"
+      },
+      {
+        "domain": "redfin.com",
+        "quality": "legitimate",
+        "score": 50,
+        "reason": "Recognized legitimate domain"
+      }
+    ],
+    "topSpam": [
+      {
+        "domain": "suadienlanhhaiduong.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "seomuda.id",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, low-DR-foreign, SEO-spam-domain"
+      },
+      {
+        "domain": "shoplogist.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "thebestbacklinksavailable.click",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, spam-TLD, SEO-spam-domain, suspiciously-long-domain"
+      },
+      {
+        "domain": "belonnanotservice.ga",
+        "quality": "spam",
+        "score": 10,
+        "reason": "DR-0, spam-TLD"
+      },
+      {
+        "domain": "what-happens-next.xyz",
+        "quality": "spam",
+        "score": 10,
+        "reason": "DR-0, spam-TLD"
+      },
+      {
+        "domain": "simplewebdirectory.com",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "backlinksolutions.info",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "australianwebdirectory.pro",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "australianwebdirectory.shop",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "seobacklinks.agency",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "riverwoodlife.com",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "mydeepin.ru",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, low-DR-foreign"
+      },
+      {
+        "domain": "onecompassion.com",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "village.do",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "jazminsbeautysalon.be",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, low-DR-foreign"
+      },
+      {
+        "domain": "archerlodge.org",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      }
+    ],
+    "analyzedAt": "2026-05-05T18:41:28.311Z",
+    "method": "rule-based-v1"
+  }
+}

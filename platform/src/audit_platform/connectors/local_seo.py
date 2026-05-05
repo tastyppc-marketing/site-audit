@@ -11,12 +11,15 @@ data and the ``DataForSEOConnector`` for SERP / local pack analysis.
 from __future__ import annotations
 
 from difflib import SequenceMatcher
-from typing import Any
+from typing import TYPE_CHECKING, Any
 
 import structlog
 
 from audit_platform.config import Settings
 from audit_platform.connectors.base import BaseConnector
+
+if TYPE_CHECKING:
+    from audit_platform.config.client_context import ClientContext
 
 logger = structlog.get_logger(__name__)
 
@@ -70,8 +73,9 @@ class LocalSEOConnector(BaseConnector):
         self,
         settings: Settings | None = None,
         requests_per_second: float = 2.0,
+        ctx: ClientContext | None = None,
     ) -> None:
-        super().__init__(settings, requests_per_second=requests_per_second)
+        super().__init__(settings=settings, requests_per_second=requests_per_second, ctx=ctx)
 
     # ------------------------------------------------------------------
     # NAP Consistency

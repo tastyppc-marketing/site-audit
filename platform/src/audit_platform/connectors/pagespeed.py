@@ -3,13 +3,16 @@
 from __future__ import annotations
 
 import time
-from typing import Any, Sequence
+from typing import TYPE_CHECKING, Any, Sequence
 
 import httpx
 import structlog
 
 from audit_platform.config import Settings
 from audit_platform.connectors.base import BaseConnector
+
+if TYPE_CHECKING:
+    from audit_platform.config.client_context import ClientContext
 from audit_platform.models.performance import CoreWebVitals, PageSpeedRecord
 
 logger = structlog.get_logger(__name__)
@@ -90,8 +93,12 @@ class PageSpeedConnector(BaseConnector):
     roughly 25 requests per second.
     """
 
-    def __init__(self, settings: Settings | None = None) -> None:
-        super().__init__(settings)
+    def __init__(
+        self,
+        settings: Settings | None = None,
+        ctx: ClientContext | None = None,
+    ) -> None:
+        super().__init__(settings=settings, ctx=ctx)
         self._api_key: str | None = self.settings.PAGESPEED_API_KEY or None
 
     # ------------------------------------------------------------------

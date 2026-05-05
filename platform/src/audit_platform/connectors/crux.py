@@ -2,13 +2,16 @@
 
 from __future__ import annotations
 
-from typing import Any
+from typing import TYPE_CHECKING, Any
 
 import httpx
 import structlog
 
 from audit_platform.config import Settings
 from audit_platform.connectors.base import BaseConnector
+
+if TYPE_CHECKING:
+    from audit_platform.config.client_context import ClientContext
 from audit_platform.models.performance import CrUXRecord
 
 logger = structlog.get_logger(__name__)
@@ -63,8 +66,12 @@ class CrUXConnector(BaseConnector):
     higher daily quotas.
     """
 
-    def __init__(self, settings: Settings | None = None) -> None:
-        super().__init__(settings)
+    def __init__(
+        self,
+        settings: Settings | None = None,
+        ctx: ClientContext | None = None,
+    ) -> None:
+        super().__init__(settings=settings, ctx=ctx)
         self._api_key: str | None = self.settings.CRUX_API_KEY or None
 
     # ------------------------------------------------------------------

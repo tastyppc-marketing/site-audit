@@ -44,6 +44,9 @@ class Settings(BaseSettings):
     DATAFORSEO_LOGIN: str = ""
     DATAFORSEO_PASSWORD: str = ""
 
+    # Anthropic Claude (used by ReportingIntelligenceAnalyzer for executive summaries)
+    ANTHROPIC_API_KEY: Optional[str] = None
+
     # Service account JSON file path (alternative to OAuth)
     GOOGLE_SERVICE_ACCOUNT_JSON: Optional[Path] = None
 

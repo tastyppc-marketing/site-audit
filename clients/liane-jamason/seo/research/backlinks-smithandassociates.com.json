@@ -1,0 +1,4731 @@
+{
+  "domain": "smithandassociates.com",
+  "totalBacklinks": 200,
+  "referringDomains": 200,
+  "backlinks": [
+    {
+      "source_url": "http://smithishome.com/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 423,
+      "is_dofollow": true,
+      "first_seen": "2026-03-13 18:51:08 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.luxuryportfolio.com/brokers/smith-associates-real-estate",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "http://www.smithandassociates.com",
+      "domain_rating": 342,
+      "is_dofollow": true,
+      "first_seen": "2022-06-29 07:32:31 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "http://www.gulfandbayfl.com/",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 296,
+      "is_dofollow": true,
+      "first_seen": "2021-09-11 08:07:24 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampabaymetro.com/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 209,
+      "is_dofollow": true,
+      "first_seen": "2026-03-13 18:42:43 +00:00"
+    },
+    {
+      "source_url": "https://lizheinkel.com/",
+      "target_url": "https://lizheinkel.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 182,
+      "is_dofollow": true,
+      "first_seen": "2019-09-19 07:01:05 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://sanchezandcompany.com/",
+      "target_url": "https://sophia.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 169,
+      "is_dofollow": true,
+      "first_seen": "2019-01-16 01:18:28 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.americanstage.org/",
+      "target_url": "https://www.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 169,
+      "is_dofollow": true,
+      "first_seen": "2026-04-12 03:16:49 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://carproperty.com/11-000-sf-of-air-conditioned-garage-and-workshop-on-florida-lakefront-home-ad86133794.htm",
+      "target_url": "http://dinasierrasmith.agent.smithandassociates.com/listing/FL/Thonotosassa/12321-Fort-King-Highway-33592/90679833",
+      "anchor_text": "http://dinasierrasmith.agent.smithandassociates.com/listing/FL/Thon...",
+      "domain_rating": 153,
+      "is_dofollow": true,
+      "first_seen": "2025-12-03 06:56:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://greatwestchase.wixsite.com/website",
+      "target_url": "https://www.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 148,
+      "is_dofollow": true,
+      "first_seen": "2025-09-29 20:27:51 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://thatssotampa.com/embracing-our-differences-2026/",
+      "target_url": "https://sophia.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 145,
+      "is_dofollow": true,
+      "first_seen": "2026-05-03 19:34:11 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "http://cheriboudreau.com/",
+      "target_url": "https://cheriboudreauteam.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 144,
+      "is_dofollow": true,
+      "first_seen": "2019-01-16 15:00:29 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://thatssotampa.com/boss-gala-tampa-club/",
+      "target_url": "https://buchananportfolio.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 141,
+      "is_dofollow": true,
+      "first_seen": "2025-11-10 15:10:26 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://thenolenstpete.com/",
+      "target_url": "http://www.smithandassociates.com/listing/126-4th-avenue-ne-1302-st-petersburg-fl-33701-tb8319195/",
+      "anchor_text": "",
+      "domain_rating": 140,
+      "is_dofollow": true,
+      "first_seen": "2021-10-12 04:34:05 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "http://thenolenstpete.com/",
+      "target_url": "http://www.smithandassociates.com/listing/126-4th-avenue-ne-1302-st-petersburg-fl-33701-tb8319195/",
+      "anchor_text": "",
+      "domain_rating": 136,
+      "is_dofollow": true,
+      "first_seen": "2025-05-28 02:09:08 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.lostriverrealestate.com/",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 136,
+      "is_dofollow": true,
+      "first_seen": "2022-06-30 09:22:33 +00:00"
+    },
+    {
+      "source_url": "https://lostriverrealestate.com/",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 126,
+      "is_dofollow": true,
+      "first_seen": "2023-12-12 13:58:24 +00:00"
+    },
+    {
+      "source_url": "https://smithishome.com/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 125,
+      "is_dofollow": true,
+      "first_seen": "2023-12-22 06:08:18 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/MFRMLSFL/TB8346362/?channel=transparenseesystems",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 125,
+      "is_dofollow": true,
+      "first_seen": "2025-05-05 02:17:14 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/MFRMLSFL/T3542372/?channel=transparenseesystems",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 125,
+      "is_dofollow": true,
+      "first_seen": "2025-03-14 05:13:25 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/MFRMLSFL/TB8373153/?channel=transparenseesystems",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 125,
+      "is_dofollow": true,
+      "first_seen": "2025-04-24 23:49:41 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/MFRMLSFL/TB8336867/?channel=transparenseesystems",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 125,
+      "is_dofollow": true,
+      "first_seen": "2025-03-14 05:12:14 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/MFRMLSFL/U8254465/?channel=transparenseesystems",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 125,
+      "is_dofollow": true,
+      "first_seen": "2025-04-18 15:52:12 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/MFRMLSFL/TB8369819/?channel=transparenseesystems",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 125,
+      "is_dofollow": true,
+      "first_seen": "2025-04-17 12:27:35 +00:00"
+    },
+    {
+      "source_url": "https://6210bayshoreboulevard.relahq.com/",
+      "target_url": "http://jfuddy.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 122,
+      "is_dofollow": true,
+      "first_seen": "2023-12-07 11:03:29 +00:00"
+    },
+    {
+      "source_url": "https://thatssotampa.com/hammock-world-record/",
+      "target_url": "https://www.smithandassociates.com/tampa-condos-for-sale/",
+      "anchor_text": "",
+      "domain_rating": 121,
+      "is_dofollow": true,
+      "first_seen": "2025-11-07 12:28:35 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://thatssotampa.com/hammock-world-record/",
+      "target_url": "https://andrekashou.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 121,
+      "is_dofollow": true,
+      "first_seen": "2025-11-07 12:28:35 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/5-communities-that-define-harbour-island/",
+      "target_url": "https://www.smithandassociates.com/",
+      "anchor_text": "Smith & Associates Realtor",
+      "domain_rating": 120,
+      "is_dofollow": true,
+      "first_seen": "2022-03-12 19:00:46 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/MFRMLSFL/TB8362932/?channel=reagroup",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 118,
+      "is_dofollow": true,
+      "first_seen": "2025-06-25 19:04:58 +00:00"
+    },
+    {
+      "source_url": "https://thatssotampa.com/money-tampa-best-places-to-live/",
+      "target_url": "https://andrekashou.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 117,
+      "is_dofollow": true,
+      "first_seen": "2026-04-29 13:22:40 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/MFRMLSFL/TB8423471/?channel=dhn",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 117,
+      "is_dofollow": true,
+      "first_seen": "2025-09-13 06:35:54 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/MFRMLSFL/TB8401262/?channel=dhn",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 117,
+      "is_dofollow": true,
+      "first_seen": "2025-07-01 03:36:41 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/MFRMLSFL/TB8400857/?channel=dhn",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 117,
+      "is_dofollow": true,
+      "first_seen": "2025-06-30 20:57:52 +00:00"
+    },
+    {
+      "source_url": "https://tampamagazines.com/5-homes-that-define-bayshore-boulevard/",
+      "target_url": "https://www.smithandassociates.com/",
+      "anchor_text": "Smith & Associates",
+      "domain_rating": 116,
+      "is_dofollow": true,
+      "first_seen": "2021-04-20 17:25:15 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.incrawler.com/dir/Business/Real_Estate/13059.html",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Tampa Real Estate",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-12-04 01:17:59 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 93
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-women/listing/sophia-sanchez-sanchezco-real-estate-broker-owner/",
+      "target_url": "https://sophia.smithandassociates.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-10-03 03:45:36 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-best_city/listing/scott-wolfe-smith-associates/",
+      "target_url": "https://scottwolfe.agent.smithandassociates.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2022-08-01 09:24:55 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-best_city/listing/nicholas-j-buchanan-smith-associates/",
+      "target_url": "https://smithandassociates.com/directory/agents/nicholas-buchanan",
+      "anchor_text": "Visit Website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2021-09-05 13:34:50 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-best_city/listing/traci-burns-smith-associates/",
+      "target_url": "https://traciburns.agent.smithandassociates.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2021-09-05 13:28:42 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-best_city/listing/nicholas-buchanan-smith-associates/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2022-09-25 05:22:51 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-best_city/listing/sam-chandler-smith-associates/",
+      "target_url": "https://smithandassociates.com/directory/agents/sam-chandler",
+      "anchor_text": "Visit Website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2021-09-05 12:56:43 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-best_city/listing/sophia-sanchez-sanchezco/",
+      "target_url": "https://sophia.smithandassociates.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2022-09-25 05:09:55 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-best_city/listing/gail-lykes-smith-associates/",
+      "target_url": "http://gaillykes.agent.smithandassociates.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2021-09-05 12:22:53 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-best_city/listing/hyde-park-house/",
+      "target_url": "https://www.smithandassociates.com/hyde-park-house/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2024-09-29 11:04:32 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-best_city/listing/the-plaza-harbour-island-2/",
+      "target_url": "https://www.smithandassociates.com/the-plaza/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2024-09-29 10:55:13 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-best_city/listing/aquatica-on-bayshore/",
+      "target_url": "https://www.smithandassociates.com/aquatica-on-bayshore/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2024-09-29 10:49:06 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-best_city/listing/brooke-brate-smith-associates/",
+      "target_url": "https://brookebrate.smithandassociates.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2024-10-06 11:33:11 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-best_city/listing/smith-associates-real-estate/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2021-09-05 12:06:51 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-bost/listing/nicholas-buchanan-smith-associates/",
+      "target_url": "https://buchananportfolio.smithandassociates.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-10-11 05:59:19 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-bost/listing/stephen-gay-smith-associates/",
+      "target_url": "https://stephengay.smithandassociates.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-10-11 05:58:54 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-bost/listing/katie-glaser-smith-associates/",
+      "target_url": "https://katieglaser.smithandassociates.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-10-11 05:58:31 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.tampabaygaynewstoday.com/derek-jeter-sells-tampa-mansion-tom-brady-has-been-renting-yankton-daily-press/",
+      "target_url": "https://www.smithandassociates.com/2021/05/14/22-things-we-love-about-derek-jeters-just-sold-tampa-waterfront-home",
+      "anchor_text": "The seven-bedroom, eight-bath estate",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2026-01-30 09:03:38 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 91
+    },
+    {
+      "source_url": "https://www.shantadevelopers.com/communities",
+      "target_url": "http://www.smithandassociates.com/real-estate/developments/Palm-Crest-Place/708",
+      "anchor_text": "Visit Palm Crest Place",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2024-04-15 08:03:44 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 91
+    },
+    {
+      "source_url": "https://americatop10.com/florida/st-petersburg/top10/real-estate-agent",
+      "target_url": "http://baytobeaches.agent.smithandassociates.com/profile/about-us",
+      "anchor_text": "Visit Website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2026-02-01 10:40:40 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-home_pros/listing/smith-associates-real-estate/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-04-29 03:51:42 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://runsignup.com/Race/68885/Sponsor/829127",
+      "target_url": "https://www.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-05-07 07:27:42 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 91
+    },
+    {
+      "source_url": "https://www.lostriverrealestate.com/virtual.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2022-01-05 10:08:49 +00:00"
+    },
+    {
+      "source_url": "http://digitaleditions.walsworthprintgroup.com/publication/?i=183032&p=2&view=issueViewer&pp=1",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "John Smith",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-10-25 04:43:45 +00:00"
+    },
+    {
+      "source_url": "https://lostriverrealestate.com/register.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-03-22 05:51:41 +00:00"
+    },
+    {
+      "source_url": "https://www.lostriverrealestate.com/commercial.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2022-01-05 09:56:08 +00:00"
+    },
+    {
+      "source_url": "https://www.lostriverrealestate.com/land.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2022-01-05 09:54:04 +00:00"
+    },
+    {
+      "source_url": "https://www.lostriverrealestate.com/mls_hampnorth.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2022-01-05 09:55:34 +00:00"
+    },
+    {
+      "source_url": "https://www.lostriverrealestate.com/residential.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2022-01-05 09:54:17 +00:00"
+    },
+    {
+      "source_url": "https://www.lostriverrealestate.com/login.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2022-01-05 09:55:56 +00:00"
+    },
+    {
+      "source_url": "https://www.lostriverrealestate.com/mls_pendleton.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2022-01-05 09:54:40 +00:00"
+    },
+    {
+      "source_url": "https://www.lostriverrealestate.com/mls_grantsouth.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2022-01-05 09:54:27 +00:00"
+    },
+    {
+      "source_url": "https://www.lostriverrealestate.com/mls_sbv.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2022-01-05 09:55:25 +00:00"
+    },
+    {
+      "source_url": "https://www.lostriverrealestate.com/register.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-03-18 02:44:19 +00:00"
+    },
+    {
+      "source_url": "https://www.lostriverrealestate.com/record.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2022-01-05 09:56:37 +00:00"
+    },
+    {
+      "source_url": "https://www.lostriverrealestate.com/mls_hampsouth.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2022-01-05 09:53:52 +00:00"
+    },
+    {
+      "source_url": "https://www.lostriverrealestate.com/mls_grantnorth.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2022-01-05 09:53:40 +00:00"
+    },
+    {
+      "source_url": "https://www.lostriverrealestate.com/drone.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2022-01-05 10:08:39 +00:00"
+    },
+    {
+      "source_url": "https://www.lostriverrealestate.com/mls_lrv.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2022-01-05 09:55:04 +00:00"
+    },
+    {
+      "source_url": "https://www.lostriverrealestate.com/mls_warden.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2022-01-05 09:55:15 +00:00"
+    },
+    {
+      "source_url": "http://digitaleditions.walsworthprintgroup.com/publication/?i=185667&p=2&view=issueViewer&pp=1",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "John Smith",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2024-05-17 20:17:01 +00:00"
+    },
+    {
+      "source_url": "https://trustradar.net/analysis/smithandassociates.com",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "smithandassociates.com",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-08-08 01:00:15 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 91
+    },
+    {
+      "source_url": "https://lostriverrealestate.com/residential.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-12-12 14:00:18 +00:00"
+    },
+    {
+      "source_url": "https://lostriverrealestate.com/mls_grantsouth.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-12-12 14:00:10 +00:00"
+    },
+    {
+      "source_url": "https://lostriverrealestate.com/mls_hampnorth.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-12-12 14:00:02 +00:00"
+    },
+    {
+      "source_url": "https://lostriverrealestate.com/mls_hampsouth.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-12-12 13:59:58 +00:00"
+    },
+    {
+      "source_url": "https://lostriverrealestate.com/mls_lrv.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-12-12 13:59:54 +00:00"
+    },
+    {
+      "source_url": "https://lostriverrealestate.com/login.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-12-12 13:59:46 +00:00"
+    },
+    {
+      "source_url": "https://lostriverrealestate.com/index.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-12-12 13:59:42 +00:00"
+    },
+    {
+      "source_url": "https://lostriverrealestate.com/land.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-12-12 13:59:34 +00:00"
+    },
+    {
+      "source_url": "https://lostriverrealestate.com/mls_warden.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-12-12 13:59:30 +00:00"
+    },
+    {
+      "source_url": "https://lostriverrealestate.com/mls_grantnorth.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-12-12 13:59:26 +00:00"
+    },
+    {
+      "source_url": "https://lostriverrealestate.com/virtual.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-12-12 13:59:22 +00:00"
+    },
+    {
+      "source_url": "https://lostriverrealestate.com/mls_sbv.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-12-12 13:59:18 +00:00"
+    },
+    {
+      "source_url": "https://lostriverrealestate.com/mls_pendleton.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-12-12 13:59:14 +00:00"
+    },
+    {
+      "source_url": "https://lostriverrealestate.com/record.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-12-12 13:59:10 +00:00"
+    },
+    {
+      "source_url": "https://lostriverrealestate.com/commercial.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-12-12 13:59:02 +00:00"
+    },
+    {
+      "source_url": "https://lostriverrealestate.com/drone.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-12-12 13:58:58 +00:00"
+    },
+    {
+      "source_url": "https://www.peerreputation.com/Agent/Profile/nancy-riley/101179/2ace",
+      "target_url": "http://nancyriley.agent.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2022-12-14 21:19:28 +00:00"
+    },
+    {
+      "source_url": "https://kotohomes.com/listing-broker/-/br_VAwhdnsC-5BgX2J4ZEgTA3UeM5g",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "http://www.smithandassociates.com",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-03-09 19:47:00 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://kotohomes.com/listing-broker/-/br_KGGf8Xf1W-NmwVr3SZf76cPyb9o",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "http://www.smithandassociates.com",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-03-10 04:49:18 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://thestudioat620.org/",
+      "target_url": "https://www.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 111,
+      "is_dofollow": true,
+      "first_seen": "2021-01-21 19:48:34 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://thatssotampa.com/tampa-pickleball-courts/",
+      "target_url": "https://sophia.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 111,
+      "is_dofollow": true,
+      "first_seen": "2026-03-16 07:36:12 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "http://don-taylor.com/",
+      "target_url": "https://dontaylor.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 110,
+      "is_dofollow": true,
+      "first_seen": "2019-01-23 02:02:22 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://nancyriley.com/",
+      "target_url": "http://nancyriley.agent.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 102,
+      "is_dofollow": true,
+      "first_seen": "2022-12-14 21:20:36 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.americanstage.org/shows/hair",
+      "target_url": "https://www.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 100,
+      "is_dofollow": true,
+      "first_seen": "2026-04-20 05:50:49 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "http://www.jackifabrizio.com/",
+      "target_url": "https://jackifabrizio.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 99,
+      "is_dofollow": true,
+      "first_seen": "2024-08-23 10:54:05 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 90
+    },
+    {
+      "source_url": "https://thatssotampa.com/holiday-gift-market-junior-league-tampa-2025/",
+      "target_url": "https://buchananportfolio.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 95,
+      "is_dofollow": true,
+      "first_seen": "2026-04-21 11:38:41 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "http://dsmithproperties.com/",
+      "target_url": "https://dinasierrasmith.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 92,
+      "is_dofollow": true,
+      "first_seen": "2020-11-27 18:06:38 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/MFRMLSFL/TB8375371/?channel=transparenseesystems",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 90,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 23:08:53 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/PINELLAS/TB8373153/?channel=transparenseesystems",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 90,
+      "is_dofollow": true,
+      "first_seen": "2025-04-24 23:50:27 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/PINELLAS/TB8373153/?channel=transparenseesystems",
+      "target_url": "http://www.smithandassociates.com/find_a_property/",
+      "anchor_text": "Search More Area Listings!",
+      "domain_rating": 90,
+      "is_dofollow": true,
+      "first_seen": "2025-04-24 23:50:27 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/MFRMLSFL/TB8326196/?channel=transparenseesystems",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 90,
+      "is_dofollow": true,
+      "first_seen": "2025-04-21 23:31:47 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/MFRMLSFL/T3541640/?channel=transparenseesystems",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 90,
+      "is_dofollow": true,
+      "first_seen": "2025-04-21 07:54:02 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/PINELLAS/TB8369819/?channel=transparenseesystems",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 90,
+      "is_dofollow": true,
+      "first_seen": "2025-04-20 08:04:03 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/PINELLAS/TB8369819/?channel=transparenseesystems",
+      "target_url": "http://www.smithandassociates.com/find_a_property/",
+      "anchor_text": "Search More Area Listings!",
+      "domain_rating": 90,
+      "is_dofollow": true,
+      "first_seen": "2025-04-20 08:04:03 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/MFRMLSFL/TB8368894/?channel=transparenseesystems",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 90,
+      "is_dofollow": true,
+      "first_seen": "2025-04-20 04:36:35 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/MFRMLSFL/TB8365641/?channel=transparenseesystems",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 90,
+      "is_dofollow": true,
+      "first_seen": "2025-04-20 02:08:13 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/MFRMLSFL/TB8306578/?channel=transparenseesystems",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 90,
+      "is_dofollow": true,
+      "first_seen": "2025-04-18 21:19:11 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/PINELLAS/U8254465/?channel=transparenseesystems",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 90,
+      "is_dofollow": true,
+      "first_seen": "2025-04-18 15:51:30 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/PINELLAS/U8254465/?channel=transparenseesystems",
+      "target_url": "http://www.smithandassociates.com/find_a_property/",
+      "anchor_text": "Search More Area Listings!",
+      "domain_rating": 90,
+      "is_dofollow": true,
+      "first_seen": "2025-04-18 15:51:30 +00:00"
+    },
+    {
+      "source_url": "https://www.thesuncoastvibe.com/",
+      "target_url": "https://kelligarcia.smithandassociates.com/idx/?search_type%5B0%5D=Residential&search_type%5B1%5D=Land&search_type%5B2%5D=Commercial%20Sale&search_type%5B3%5D=Residential%20Income&search_type%5B4%5D=Business%20Opportunity&feed=stellar&quicksearch=true&usersearch=1&bounds%5Bne%5D%5Blat%5D=28.29839873708904&bounds%5Bne%5D%5Blng%5D=-82.10742208309063&bounds%5Bsw%5D%5Blat%5D=27.518079438556793&bounds%5Bsw%5D%5Blng%5D=-83.07147237605938",
+      "anchor_text": "LET'S LOOK FOR HOMES!",
+      "domain_rating": 88,
+      "is_dofollow": true,
+      "first_seen": "2025-07-09 22:44:11 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.thesuncoastvibe.com/",
+      "target_url": "https://www.smithandassociates.com/",
+      "anchor_text": "Smith & Associates",
+      "domain_rating": 88,
+      "is_dofollow": true,
+      "first_seen": "2025-07-09 22:44:11 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "http://www.sanchezandcompany.com/",
+      "target_url": "https://sophia.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 84,
+      "is_dofollow": true,
+      "first_seen": "2021-09-16 07:07:09 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/bob-glaser/",
+      "target_url": "https://www.smithandassociates.com/",
+      "anchor_text": "Smith & Associates",
+      "domain_rating": 84,
+      "is_dofollow": true,
+      "first_seen": "2023-10-11 01:42:36 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/bob-glaser/",
+      "target_url": "https://www.smithandassociates.com/community-giving-program/",
+      "anchor_text": "Smith & Associates Real Estate Foundation",
+      "domain_rating": 84,
+      "is_dofollow": true,
+      "first_seen": "2023-10-11 01:42:36 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/MFRMLSFL/TB8381138/?channel=reagroup",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 83,
+      "is_dofollow": true,
+      "first_seen": "2025-07-11 22:07:46 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/MFRMLSFL/TB8384310/?channel=dhn",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 82,
+      "is_dofollow": true,
+      "first_seen": "2025-07-01 00:25:14 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/MFRMLSFL/TB8309325/?channel=dhn",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 82,
+      "is_dofollow": true,
+      "first_seen": "2024-10-30 15:20:18 +00:00"
+    },
+    {
+      "source_url": "https://thatssotampa.com/winter-village-tampa-bay/",
+      "target_url": "https://sophia.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 79,
+      "is_dofollow": true,
+      "first_seen": "2026-05-04 08:02:48 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://ddadevelopment.com/portfolio/thenolen/",
+      "target_url": "http://www.smithandassociates.com/listing/126-4th-avenue-ne-1302-st-petersburg-fl-33701-tb8319195/",
+      "anchor_text": "Website >",
+      "domain_rating": 79,
+      "is_dofollow": true,
+      "first_seen": "2022-01-12 10:00:16 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/MFRMLSFL/TB8382432/?channel=reagroup",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 79,
+      "is_dofollow": true,
+      "first_seen": "2025-07-05 06:27:34 +00:00"
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-women/listing/brooke-brate-realtor-with-smith-associates-real-estate/",
+      "target_url": "https://brookebrate.smithandassociates.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2024-04-28 08:53:13 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/sophia-sanchez/",
+      "target_url": "https://sophia.smithandassociates.com/",
+      "anchor_text": "sanchezandcompany.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2022-02-14 15:37:50 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/realtor-recognized-in-best-of-south-tampa/",
+      "target_url": "https://sophia.smithandassociates.com/",
+      "anchor_text": "sanchezandcompany.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2022-03-22 15:19:12 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/traci-burns/",
+      "target_url": "https://www.smithandassociates.com/",
+      "anchor_text": "Smith & Associates",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2022-02-09 13:47:24 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://sanctuarybayshore.com/",
+      "target_url": "http://smithandassociates.com/",
+      "anchor_text": "smithandassociates.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2023-04-02 01:50:51 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-best_city/listing/stephen-gay-smith-associates/",
+      "target_url": "https://stephengaygroup.smithandassociates.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2022-09-25 05:27:47 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-best_city/listing/katie-glaser-smith-associates/",
+      "target_url": "https://katieglaser.smithandassociates.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2023-10-10 22:01:35 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.luxuryportfolio.com/it/brokers/smith-associates-real-estate",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "http://www.smithandassociates.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-07-02 19:21:06 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-home_pros/listing/traci-burns-smith-associates/",
+      "target_url": "https://www.smithandassociates.com/",
+      "anchor_text": "Smith & Associates",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2022-02-11 22:31:51 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-bost/listing/holton-irwin-smith-associates/",
+      "target_url": "https://holtonirwin.smithandassociates.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2023-10-11 06:00:57 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://listings.2findlocal.com/b/12576099/smith-associates-birmingham-al",
+      "target_url": "http://smithandassociates.com/",
+      "anchor_text": "Visit us now!\r\n                \r\n                Learn more",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2026-03-15 19:34:16 +00:00"
+    },
+    {
+      "source_url": "https://www.luxuryportfolio.com/index.php/brokers/smith-associates-real-estate",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "http://www.smithandassociates.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-05-08 23:58:42 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.savvycard.com/BarbHetrick/barbhetrick/6365d_scid",
+      "target_url": "http://barbhetrick.smithandassociates.com/",
+      "anchor_text": "My Website",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2026-01-19 04:52:19 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 94
+    },
+    {
+      "source_url": "https://www.luxuryportfolio.com/de/brokers/smith-associates-real-estate",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "http://www.smithandassociates.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-06-27 03:07:34 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.luxuryportfolio.com/en/brokers/smith-associates-real-estate",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "http://www.smithandassociates.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-05-26 19:18:49 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://jimmymacontwowheels.com/florida-country-estate-with-road-course-yours-for-only-17-5-million/",
+      "target_url": "https://www.smithandassociates.com/listing/FL/Thonotosassa/12321-Fort-King-Highway-33592/90679833",
+      "anchor_text": "The Oaks",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2023-07-26 00:18:13 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.luxuryportfolio.com/zh/brokers/smith-associates-real-estate",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "http://www.smithandassociates.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-04-30 05:22:18 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.luxuryportfolio.com/fr/brokers/smith-associates-real-estate",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "http://www.smithandassociates.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-06-04 03:12:28 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.luxuryportfolio.com/es/brokers/smith-associates-real-estate",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "http://www.smithandassociates.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-06-10 18:43:52 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://americatop10.com/florida/st-petersburg/top10/real-estate-agent/kathy-arango",
+      "target_url": "http://baytobeaches.agent.smithandassociates.com/profile/about-us",
+      "anchor_text": "Visit Website",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2026-02-02 01:06:56 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.andreamazzini.com/",
+      "target_url": "https://andreamazzini.smithandassociates.com/",
+      "anchor_text": "Search Homes",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-09-15 14:52:39 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampamagazines.com/directory-home_pros/listing/sanchezco-tampa-real-estate/",
+      "target_url": "https://sophia.smithandassociates.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-04-29 03:48:12 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://pho79.org/eufy-c/330-vincent-drive-mount-dora%2C-fl",
+      "target_url": "https://www.smithandassociates.com/listing-stellar_sold/o6106767-330-vincent-drive-mount-dora-fl-32757/",
+      "anchor_text": "330 Vincent Drive, MOUNT DORA, FL - smithandassociates.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-06-17 19:57:24 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://floridarealestatewire.com/insights-on-tampas-housing-market/",
+      "target_url": "https://www.smithandassociates.com/",
+      "anchor_text": "Smith & Associates Real Estate",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-10-29 07:44:32 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://fohweb.com/www.don-taylor.com",
+      "target_url": "https://dontaylor.smithandassociates.com/",
+      "anchor_text": "Treasure Island, FL Realtor Don Taylor's, home page. Search for listings, see Don Taylor's featured listings, get lots of information about buying and selling real estate in Treasure Island, and The Gulf Beaches and greater St. Petersburg area of Tampa B",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-05-29 17:32:10 +00:00"
+    },
+    {
+      "source_url": "https://www.processregister.com/Cunningham_Quality_Painting/Supplier/sid107068.htm",
+      "target_url": "https://www.smithandassociates.com/agent/becky-slocum/",
+      "anchor_text": "Cunningham Quality Painting",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-04-23 14:36:39 +00:00"
+    },
+    {
+      "source_url": "https://www.partnersinnetwork.com/member-profiles/arseneau-kristen-residential-real-estate/",
+      "target_url": "https://kristenarseneau.smithandassociates.com/",
+      "anchor_text": "https://kristenarseneau.smithandassociates.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2024-11-23 21:33:40 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://web.notifyninja.com/smithandassociates.com",
+      "target_url": "http://smithandassociates.com/",
+      "anchor_text": "smithandassociates.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-09-09 13:43:39 +00:00"
+    },
+    {
+      "source_url": "https://www.propgoluxury.com/vn/homes/6179229/tampa-property-for-rent/11431-georgetown-circle-tampa-fl-33635",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Trang web đại lý",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-08-20 17:47:12 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.propgoluxury.com/th/homes/6179229/tampa-property-for-rent/11431-georgetown-circle-tampa-fl-33635",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "เว็บไซต์เอเย่นต์",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-08-20 17:44:18 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.propgoluxury.com/vn/homes/5771713/apollo-beach-property-for-rent/5314-golden-isles-drive-apollo-beach-fl-33572",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Trang web đại lý",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-08-20 14:14:10 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.propgoluxury.com/th/homes/5771713/apollo-beach-property-for-rent/5314-golden-isles-drive-apollo-beach-fl-33572",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "เว็บไซต์เอเย่นต์",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-08-20 14:12:41 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.propgoluxury.com/vn/homes/6179235/tampa-property-for-sale/15217-west-pond-woods-drive-tampa-fl-33618",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Trang web đại lý",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-08-20 09:32:47 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.propgoluxury.com/th/homes/6179235/tampa-property-for-sale/15217-west-pond-woods-drive-tampa-fl-33618",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "เว็บไซต์เอเย่นต์",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-08-20 09:25:49 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.lostriverrealestate.com/communities.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2022-01-05 09:55:45 +00:00"
+    },
+    {
+      "source_url": "https://491lagunadrive.relahq.com/",
+      "target_url": "https://dinasierrasmith.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-08-03 15:47:17 +00:00"
+    },
+    {
+      "source_url": "https://lostriverrealestate.com/communities.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2023-12-12 13:59:50 +00:00"
+    },
+    {
+      "source_url": "https://mydigitalpublication.com/publication/?i=828304&p=2&view=issueViewer&pp=1",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "https://SMITHISHOME.COM",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2024-11-01 12:40:59 +00:00"
+    },
+    {
+      "source_url": "https://securitypropertymanagement.com/company/best-property-management-company-smith-associates-real-estate/",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Smith & Associates Real Estate",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-05-14 10:13:10 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://bestagents.press/jim-mcconnell-recognized-by-bestagents-us-as-a-2023-top-agent/",
+      "target_url": "https://www.smithandassociates.com/agent/jim-mcconnell/",
+      "anchor_text": "https://www.smithandassociates.com/agent/jim-mcconnell/",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2023-11-21 17:47:39 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "http://dreamhomestampabay.com/",
+      "target_url": "https://juliafanning.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 76,
+      "is_dofollow": true,
+      "first_seen": "2024-01-05 18:38:15 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://billhorne.hd.pics/3028-Summervale-Dr/",
+      "target_url": "https://mikebarrett.smithandassociates.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 75,
+      "is_dofollow": true,
+      "first_seen": "2025-01-29 17:31:21 +00:00"
+    },
+    {
+      "source_url": "http://www.justlistedtampa.com/",
+      "target_url": "https://www.smithandassociates.com/agent/becky-slocum/",
+      "anchor_text": "",
+      "domain_rating": 73,
+      "is_dofollow": true,
+      "first_seen": "2024-08-12 16:49:17 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 99
+    },
+    {
+      "source_url": "https://thatssotampa.com/bonnet-springs-park-lakeland/",
+      "target_url": "https://andrekashou.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 70,
+      "is_dofollow": true,
+      "first_seen": "2026-05-04 09:27:18 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://thatssotampa.com/the-residences-at-400/",
+      "target_url": "https://andrekashou.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 70,
+      "is_dofollow": true,
+      "first_seen": "2026-03-12 20:17:40 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "http://lostriverrealestate.com/record.html",
+      "target_url": "http://danreichard.smithandassociates.com/",
+      "anchor_text": "Dan Reichard",
+      "domain_rating": 69,
+      "is_dofollow": true,
+      "first_seen": "2021-09-11 08:07:31 +00:00"
+    },
+    {
+      "source_url": "http://bgsold.com/",
+      "target_url": "https://b-gholmberg.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 69,
+      "is_dofollow": true,
+      "first_seen": "2019-01-18 07:15:24 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/PINELLAS/TB8368894/?channel=transparenseesystems",
+      "target_url": "http://www.smithandassociates.com/",
+      "anchor_text": "Website",
+      "domain_rating": 69,
+      "is_dofollow": true,
+      "first_seen": "2025-04-20 04:37:03 +00:00"
+    },
+    {
+      "source_url": "https://listings.listhub.net/pages/PINELLAS/TB8368894/?channel=transparenseesystems",
+      "target_url": "http://www.smithandassociates.com/find_a_property/",
+      "anchor_text": "Search More Area Listings!",
+      "domain_rating": 69,
+      "is_dofollow": true,
+      "first_seen": "2025-04-20 04:37:03 +00:00"
+    },
+    {
+      "source_url": "http://sanchezandcompany.com/",
+      "target_url": "https://sophia.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 67,
+      "is_dofollow": true,
+      "first_seen": "2019-01-16 01:18:28 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://smithassociatesrealestate.freshdesk.com/support/solutions/articles/35000077896-appfiles-how-do-i-get-help-",
+      "target_url": "https://help.smithandassociates.com/support/solutions/articles/35000077896-how-to-get-help-with-appfiles",
+      "anchor_text": "",
+      "domain_rating": 67,
+      "is_dofollow": true,
+      "first_seen": "2021-12-30 07:30:04 +00:00"
+    },
+    {
+      "source_url": "https://cheriboudreau.com/",
+      "target_url": "https://cheriboudreauteam.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 63,
+      "is_dofollow": true,
+      "first_seen": "2021-05-16 21:34:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://thatssotampa.com/learn-euphoria-tampa-bay/",
+      "target_url": "https://theplatinumgroup.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 63,
+      "is_dofollow": true,
+      "first_seen": "2025-12-01 10:41:50 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampabaymetro.com/calendar/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 62,
+      "is_dofollow": true,
+      "first_seen": "2026-03-13 18:42:56 +00:00"
+    },
+    {
+      "source_url": "https://smithorange.com/3ARSYUF",
+      "target_url": "https://www.smithandassociates.com/?utm_source=I%20Love%20The%20Burg&utm_medium=Display%20Ads&utm_campaign=Smith%20Is%20Home",
+      "anchor_text": "",
+      "domain_rating": 60,
+      "is_dofollow": true,
+      "first_seen": "2021-10-06 12:10:38 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://thatssotampa.com/jurassic-world-live-tampa/",
+      "target_url": "https://theplatinumgroup.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 59,
+      "is_dofollow": true,
+      "first_seen": "2025-11-07 00:27:02 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.homesforcoastallifestyles.com/",
+      "target_url": "https://www.carolinesouthwell.smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 59,
+      "is_dofollow": true,
+      "first_seen": "2019-08-23 13:27:24 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://intently.co/suppliers/United+States/Tampa/Luxury+Real+Estate",
+      "target_url": "https://www.smithandassociates.com/",
+      "anchor_text": "Real Estate Broker in Tampa, FL | Smith & Associates Real Estate | Hillsborough & Pinellas",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-15 13:30:46 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://intently.co/suppliers/United+States/St+Petersburg/Luxury+Real+Estate",
+      "target_url": "https://www.smithandassociates.com/",
+      "anchor_text": "Real Estate Broker in Tampa, FL | Smith & Associates Real Estate | Hillsborough & Pinellas",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-15 13:37:34 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://lemonfire.com.br/antonio-brown-florida-mansion-under-contract-days-after-listing/",
+      "target_url": "https://www.smithandassociates.com/agent/nicholas-buchanan/",
+      "anchor_text": "Nicholas Buchanan",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-17 04:34:23 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 77
+    },
+    {
+      "source_url": "https://tampamagazines.com/5-developments-that-define-downtown-tampa-real-estate/",
+      "target_url": "https://chandlerdespointes.agent.smithandassociates.com/",
+      "anchor_text": "Sam Chandler",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2021-06-19 12:42:12 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tampabaymetro.com/quintero_feature/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-12 16:38:01 +00:00"
+    },
+    {
+      "source_url": "https://tampabaymetro.com/sparkman_feature/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-12 16:21:05 +00:00"
+    },
+    {
+      "source_url": "https://tampabaymetro.com/selby-gardens-the-orchid-show/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-12 15:59:35 +00:00"
+    },
+    {
+      "source_url": "https://tampabaymetro.com/4709-w-leona-34/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-12 15:15:36 +00:00"
+    },
+    {
+      "source_url": "https://tampabaymetro.com/verte-brown-leather-jacket_feature/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-12 15:15:20 +00:00"
+    },
+    {
+      "source_url": "https://tampabaymetro.com/berkeley/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-12 14:35:04 +00:00"
+    },
+    {
+      "source_url": "https://tampabaymetro.com/4709-w-leona-35/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-12 14:34:48 +00:00"
+    },
+    {
+      "source_url": "https://tampabaymetro.com/dod-bhat_feature/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-12 14:34:33 +00:00"
+    },
+    {
+      "source_url": "https://tampabaymetro.com/tampa-bay-metro-home-tour-where-personality-meets-refinement/crespoparkstoneterrace-1/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-12 14:34:16 +00:00"
+    },
+    {
+      "source_url": "https://tampabaymetro.com/4709-w-leona-29/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-12 14:33:56 +00:00"
+    },
+    {
+      "source_url": "https://tampabaymetro.com/b0604800040013_11/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-12 14:33:42 +00:00"
+    },
+    {
+      "source_url": "https://tampabaymetro.com/screenshot-12/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-12 14:33:27 +00:00"
+    },
+    {
+      "source_url": "https://tampabaymetro.com/top-12-dazzling-tampa-bay-rooftop-lounges-that-we-love/mbird/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-12 13:48:33 +00:00"
+    },
+    {
+      "source_url": "https://tampabaymetro.com/jwmarriottclearwater/",
+      "target_url": "https://smithandassociates.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-12 13:48:16 +00:00"
+    }
+  ],
+  "referring_domains": [
+    {
+      "domain": "smithishome.com",
+      "rank": 300,
+      "backlinks": 2,
+      "first_seen": "2023-12-22 06:08:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 300)"
+    },
+    {
+      "domain": "thatssotampa.com",
+      "rank": 249,
+      "backlinks": 1549,
+      "first_seen": "2020-09-18 13:44:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1520,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 249)"
+    },
+    {
+      "domain": "luxuryportfolio.com",
+      "rank": 247,
+      "backlinks": 352,
+      "first_seen": "2022-03-31 21:52:37 +00:00",
+      "dofollow": 0,
+      "referring_pages": 352,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 247)"
+    },
+    {
+      "domain": "ilovetheburg.com",
+      "rank": 201,
+      "backlinks": 632,
+      "first_seen": "2019-01-24 08:05:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 613,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 201)"
+    },
+    {
+      "domain": "gulfandbayfl.com",
+      "rank": 197,
+      "backlinks": 1,
+      "first_seen": "2021-09-11 08:07:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 197)"
+    },
+    {
+      "domain": "propgoluxury.com",
+      "rank": 186,
+      "backlinks": 710,
+      "first_seen": "2025-04-01 03:20:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 355,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 186)"
+    },
+    {
+      "domain": "thestudioat620.org",
+      "rank": 178,
+      "backlinks": 551,
+      "first_seen": "2021-01-19 11:09:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 551,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 178)"
+    },
+    {
+      "domain": "listhub.net",
+      "rank": 177,
+      "backlinks": 28,
+      "first_seen": "2024-10-30 15:20:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 28,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 177)"
+    },
+    {
+      "domain": "tampamagazines.com",
+      "rank": 177,
+      "backlinks": 48,
+      "first_seen": "2019-04-25 07:48:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 45,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 177)"
+    },
+    {
+      "domain": "leadingre.com",
+      "rank": 176,
+      "backlinks": 746,
+      "first_seen": "2024-02-22 18:37:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 746,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 176)"
+    },
+    {
+      "domain": "howzes.com",
+      "rank": 161,
+      "backlinks": 72,
+      "first_seen": "2025-02-01 04:15:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 72,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 161)"
+    },
+    {
+      "domain": "alivinghominid.blogspot.com",
+      "rank": 160,
+      "backlinks": 370,
+      "first_seen": "2022-04-01 23:36:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 352,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 160)"
+    },
+    {
+      "domain": "alturabayshore.com",
+      "rank": 154,
+      "backlinks": 136,
+      "first_seen": "2021-04-19 02:34:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 136,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 154)"
+    },
+    {
+      "domain": "luxuryrealtynetwork.com",
+      "rank": 142,
+      "backlinks": 67,
+      "first_seen": "2024-09-11 04:15:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 67,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 142)"
+    },
+    {
+      "domain": "sanctuarybayshore.com",
+      "rank": 140,
+      "backlinks": 40,
+      "first_seen": "2023-03-24 21:41:09 +00:00",
+      "dofollow": 0,
+      "referring_pages": 39,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 140)"
+    },
+    {
+      "domain": "luxuryhomemagazine.com",
+      "rank": 129,
+      "backlinks": 71,
+      "first_seen": "2021-09-04 19:08:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 58,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 129)"
+    },
+    {
+      "domain": "viragebayshore.com",
+      "rank": 129,
+      "backlinks": 36,
+      "first_seen": "2019-01-21 07:08:22 +00:00",
+      "dofollow": 0,
+      "referring_pages": 36,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 129)"
+    },
+    {
+      "domain": "sellingtampabayrealestate.com",
+      "rank": 128,
+      "backlinks": 123,
+      "first_seen": "2026-01-20 03:49:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 41,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 128)"
+    },
+    {
+      "domain": "myadum.com",
+      "rank": 120,
+      "backlinks": 154,
+      "first_seen": "2024-12-17 00:17:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 154,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 120)"
+    },
+    {
+      "domain": "gloopla.com",
+      "rank": 111,
+      "backlinks": 88,
+      "first_seen": "2023-11-28 07:49:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 63,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 111)"
+    },
+    {
+      "domain": "americanstage.org",
+      "rank": 108,
+      "backlinks": 22,
+      "first_seen": "2026-03-04 04:15:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 108)"
+    },
+    {
+      "domain": "luxetitleservices.com",
+      "rank": 108,
+      "backlinks": 17,
+      "first_seen": "2021-08-03 00:09:04 +00:00",
+      "dofollow": 0,
+      "referring_pages": 17,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 108)"
+    },
+    {
+      "domain": "lizheinkel.com",
+      "rank": 108,
+      "backlinks": 3,
+      "first_seen": "2019-09-19 07:01:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 108)"
+    },
+    {
+      "domain": "sanchezandcompany.com",
+      "rank": 108,
+      "backlinks": 5,
+      "first_seen": "2019-01-16 01:18:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 108)"
+    },
+    {
+      "domain": "intently.co",
+      "rank": 101,
+      "backlinks": 41,
+      "first_seen": "2025-04-21 20:23:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 41,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 101)"
+    },
+    {
+      "domain": "thenolenstpete.com",
+      "rank": 99,
+      "backlinks": 2,
+      "first_seen": "2021-10-12 04:34:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 99)"
+    },
+    {
+      "domain": "buzzsprout.com",
+      "rank": 94,
+      "backlinks": 26,
+      "first_seen": "2024-11-13 10:24:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 26,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 94)"
+    },
+    {
+      "domain": "walsworthprintgroup.com",
+      "rank": 92,
+      "backlinks": 17,
+      "first_seen": "2022-03-13 14:50:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 9,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 92)"
+    },
+    {
+      "domain": "waresidencesstpetersburg.com",
+      "rank": 91,
+      "backlinks": 18,
+      "first_seen": "2025-07-08 00:37:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 18,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 91)"
+    },
+    {
+      "domain": "thesuncoastvibe.com",
+      "rank": 88,
+      "backlinks": 12,
+      "first_seen": "2025-07-09 22:43:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 9,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 88)"
+    },
+    {
+      "domain": "carproperty.com",
+      "rank": 85,
+      "backlinks": 2,
+      "first_seen": "2023-07-09 18:55:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 85)"
+    },
+    {
+      "domain": "cheriboudreau.com",
+      "rank": 83,
+      "backlinks": 2,
+      "first_seen": "2019-01-16 15:00:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 83)"
+    },
+    {
+      "domain": "greatwestchase.wixsite.com",
+      "rank": 79,
+      "backlinks": 1,
+      "first_seen": "2025-09-29 20:27:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 79)"
+    },
+    {
+      "domain": "kotohomes.com",
+      "rank": 79,
+      "backlinks": 2,
+      "first_seen": "2025-03-09 19:47:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "dtg5o8n2qcvfv.cloudfront.net",
+      "rank": 79,
+      "backlinks": 12,
+      "first_seen": "2025-01-13 10:50:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 12,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 79)"
+    },
+    {
+      "domain": "stpetecatalyst.com",
+      "rank": 76,
+      "backlinks": 46,
+      "first_seen": "2019-02-23 17:04:31 +00:00",
+      "dofollow": 0,
+      "referring_pages": 46,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 76)"
+    },
+    {
+      "domain": "americatop10.com",
+      "rank": 68,
+      "backlinks": 8,
+      "first_seen": "2021-09-08 09:39:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 7,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 68)"
+    },
+    {
+      "domain": "imagetou.com",
+      "rank": 63,
+      "backlinks": 12,
+      "first_seen": "2025-11-25 00:18:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 9,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 63)"
+    },
+    {
+      "domain": "relahq.com",
+      "rank": 58,
+      "backlinks": 2,
+      "first_seen": "2023-12-07 11:03:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 98,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 58)"
+    },
+    {
+      "domain": "freshdesk.com",
+      "rank": 58,
+      "backlinks": 14,
+      "first_seen": "2021-12-30 07:30:04 +00:00",
+      "dofollow": 0,
+      "referring_pages": 14,
+      "domainQuality": "legitimate",
+      "qualityScore": 98,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 58)"
+    },
+    {
+      "domain": "savvycard.com",
+      "rank": 54,
+      "backlinks": 3,
+      "first_seen": "2026-01-18 20:42:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 94,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 54)"
+    },
+    {
+      "domain": "mayfairblog.com",
+      "rank": 54,
+      "backlinks": 32,
+      "first_seen": "2023-10-03 13:56:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 29,
+      "domainQuality": "legitimate",
+      "qualityScore": 94,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 54)"
+    },
+    {
+      "domain": "incrawler.com",
+      "rank": 53,
+      "backlinks": 2,
+      "first_seen": "2023-12-03 21:23:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 93,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 53)"
+    },
+    {
+      "domain": "axios.com",
+      "rank": 53,
+      "backlinks": 4,
+      "first_seen": "2021-10-16 12:20:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "legitimate",
+      "qualityScore": 93,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 53)"
+    },
+    {
+      "domain": "registrytampabay.com",
+      "rank": 52,
+      "backlinks": 6,
+      "first_seen": "2021-09-13 04:05:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 6,
+      "domainQuality": "legitimate",
+      "qualityScore": 92,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 52)"
+    },
+    {
+      "domain": "tampabaygaynewstoday.com",
+      "rank": 51,
+      "backlinks": 2,
+      "first_seen": "2026-01-30 09:03:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 91,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 51)"
+    },
+    {
+      "domain": "trustradar.net",
+      "rank": 51,
+      "backlinks": 1,
+      "first_seen": "2025-08-08 01:00:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 91,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 51)"
+    },
+    {
+      "domain": "runsignup.com",
+      "rank": 51,
+      "backlinks": 2,
+      "first_seen": "2025-05-07 07:27:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 91,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 51)"
+    },
+    {
+      "domain": "juridipedia.com",
+      "rank": 51,
+      "backlinks": 12,
+      "first_seen": "2024-08-26 10:31:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 11,
+      "domainQuality": "legitimate",
+      "qualityScore": 91,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 51)"
+    },
+    {
+      "domain": "shantadevelopers.com",
+      "rank": 51,
+      "backlinks": 1,
+      "first_seen": "2024-04-15 08:03:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 91,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 51)"
+    },
+    {
+      "domain": "tampalistinglab.com",
+      "rank": 51,
+      "backlinks": 31,
+      "first_seen": "2023-10-19 17:54:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 31,
+      "domainQuality": "legitimate",
+      "qualityScore": 91,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 51)"
+    },
+    {
+      "domain": "jackifabrizio.com",
+      "rank": 50,
+      "backlinks": 3,
+      "first_seen": "2024-08-23 10:54:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 90,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 50)"
+    },
+    {
+      "domain": "stpeterising.com",
+      "rank": 50,
+      "backlinks": 35,
+      "first_seen": "2021-11-09 10:43:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 31,
+      "domainQuality": "legitimate",
+      "qualityScore": 90,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 50)"
+    },
+    {
+      "domain": "n49.com",
+      "rank": 48,
+      "backlinks": 14,
+      "first_seen": "2022-12-26 09:41:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 14,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "don-taylor.com",
+      "rank": 48,
+      "backlinks": 1,
+      "first_seen": "2019-01-23 02:02:22 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "christiansinbusiness.com",
+      "rank": 45,
+      "backlinks": 6,
+      "first_seen": "2026-01-16 19:05:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 6,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "83degreesmedia.com",
+      "rank": 42,
+      "backlinks": 28,
+      "first_seen": "2023-11-20 18:48:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 26,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "nancyriley.com",
+      "rank": 42,
+      "backlinks": 1,
+      "first_seen": "2022-12-14 21:20:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "tampahomenews.com",
+      "rank": 41,
+      "backlinks": 13,
+      "first_seen": "2025-09-18 20:04:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 13,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "lianejamason.com",
+      "rank": 40,
+      "backlinks": 13,
+      "first_seen": "2021-01-25 23:35:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 12,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "researchgiant.com",
+      "rank": 37,
+      "backlinks": 5,
+      "first_seen": "2025-06-30 12:34:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "getemail.io",
+      "rank": 35,
+      "backlinks": 2,
+      "first_seen": "2024-02-02 23:55:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "homesforcoastallifestyles.com",
+      "rank": 35,
+      "backlinks": 3,
+      "first_seen": "2019-08-23 13:27:23 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "dsmithproperties.com",
+      "rank": 34,
+      "backlinks": 1,
+      "first_seen": "2020-11-27 18:06:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "ddtampabay.com",
+      "rank": 32,
+      "backlinks": 5,
+      "first_seen": "2023-10-04 00:04:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "michaelsaunders.com",
+      "rank": 32,
+      "backlinks": 8,
+      "first_seen": "2022-12-12 15:31:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 8,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "louisedegn.org",
+      "rank": 27,
+      "backlinks": 3,
+      "first_seen": "2023-02-23 05:57:02 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "thewoodteamtampabay.com",
+      "rank": 25,
+      "backlinks": 3,
+      "first_seen": "2021-12-07 04:24:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "2findlocal.com",
+      "rank": 23,
+      "backlinks": 4,
+      "first_seen": "2026-03-12 13:29:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "floridarealestatewire.com",
+      "rank": 23,
+      "backlinks": 1,
+      "first_seen": "2025-10-29 07:44:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "andreamazzini.com",
+      "rank": 23,
+      "backlinks": 1,
+      "first_seen": "2025-09-15 14:52:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "notifyninja.com",
+      "rank": 23,
+      "backlinks": 2,
+      "first_seen": "2025-09-09 13:43:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "pho79.org",
+      "rank": 23,
+      "backlinks": 1,
+      "first_seen": "2025-06-17 19:57:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "securitypropertymanagement.com",
+      "rank": 23,
+      "backlinks": 1,
+      "first_seen": "2025-05-14 10:13:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "partnersinnetwork.com",
+      "rank": 23,
+      "backlinks": 1,
+      "first_seen": "2024-11-23 21:33:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "bestagents.press",
+      "rank": 23,
+      "backlinks": 1,
+      "first_seen": "2023-11-21 17:47:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "jimmymacontwowheels.com",
+      "rank": 23,
+      "backlinks": 2,
+      "first_seen": "2023-07-26 00:18:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "hd.pics",
+      "rank": 21,
+      "backlinks": 1,
+      "first_seen": "2025-01-29 17:31:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "lawfirms1.com",
+      "rank": 21,
+      "backlinks": 3,
+      "first_seen": "2024-10-12 07:27:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "dreamhomestampabay.com",
+      "rank": 21,
+      "backlinks": 1,
+      "first_seen": "2024-01-05 18:38:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "mypalladium.org",
+      "rank": 21,
+      "backlinks": 8,
+      "first_seen": "2022-09-09 09:30:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 8,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "smithorange.com",
+      "rank": 20,
+      "backlinks": 2,
+      "first_seen": "2021-10-06 12:10:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "bgsold.com",
+      "rank": 20,
+      "backlinks": 3,
+      "first_seen": "2019-01-18 07:15:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "justlistedtampa.com",
+      "rank": 19,
+      "backlinks": 1,
+      "first_seen": "2024-08-12 16:49:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 99,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "reportwire.org",
+      "rank": 17,
+      "backlinks": 4,
+      "first_seen": "2025-02-28 14:03:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 97,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "modernglobe.com",
+      "rank": 17,
+      "backlinks": 3,
+      "first_seen": "2022-01-01 10:15:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 97,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "cftampabay.org",
+      "rank": 15,
+      "backlinks": 8,
+      "first_seen": "2025-06-20 15:06:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 7,
+      "domainQuality": "legitimate",
+      "qualityScore": 95,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "realpromedia.com",
+      "rank": 15,
+      "backlinks": 2,
+      "first_seen": "2025-01-22 00:03:22 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 95,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "6amcity.com",
+      "rank": 14,
+      "backlinks": 13,
+      "first_seen": "2023-02-05 10:49:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 13,
+      "domainQuality": "legitimate",
+      "qualityScore": 84,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "danrcasper.com",
+      "rank": 14,
+      "backlinks": 3,
+      "first_seen": "2019-03-25 22:46:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 84,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "autoappassionati.it",
+      "rank": 13,
+      "backlinks": 3,
+      "first_seen": "2020-07-14 13:37:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 83,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "lemonfire.com.br",
+      "rank": 7,
+      "backlinks": 1,
+      "first_seen": "2026-04-17 04:34:23 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 77,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "voyagetampa.com",
+      "rank": 7,
+      "backlinks": 3,
+      "first_seen": "2026-03-23 12:08:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 77,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "grantedai.com",
+      "rank": 7,
+      "backlinks": 1,
+      "first_seen": "2026-03-22 04:25:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 77,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "nesteroo.com",
+      "rank": 7,
+      "backlinks": 1,
+      "first_seen": "2025-09-25 21:56:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 77,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "comparable-companies.com",
+      "rank": 7,
+      "backlinks": 1,
+      "first_seen": "2023-12-10 13:05:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 77,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "westchasewow.com",
+      "rank": 7,
+      "backlinks": 4,
+      "first_seen": "2023-10-03 04:26:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "legitimate",
+      "qualityScore": 77,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "neighborhoodlink.com",
+      "rank": 7,
+      "backlinks": 5,
+      "first_seen": "2021-04-18 14:10:31 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "legitimate",
+      "qualityScore": 77,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "southtampachamber.org",
+      "rank": 5,
+      "backlinks": 18,
+      "first_seen": "2022-06-08 23:15:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 18,
+      "domainQuality": "legitimate",
+      "qualityScore": 75,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "myagentgabe.com",
+      "rank": 5,
+      "backlinks": 1,
+      "first_seen": "2022-04-10 14:42:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 75,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "cltampa.com",
+      "rank": 4,
+      "backlinks": 15,
+      "first_seen": "2023-07-25 16:26:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 15,
+      "domainQuality": "suspicious",
+      "qualityScore": 64,
+      "qualitySignals": [
+        "very-low-DR"
+      ],
+      "qualityReason": "very-low-DR"
+    },
+    {
+      "domain": "westchasehomes.com",
+      "rank": 3,
+      "backlinks": 1,
+      "first_seen": "2024-09-05 15:26:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 53,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "bradbellrealestate.com",
+      "rank": 3,
+      "backlinks": 1,
+      "first_seen": "2023-08-31 03:47:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 63,
+      "qualitySignals": [
+        "very-low-DR"
+      ],
+      "qualityReason": "very-low-DR"
+    },
+    {
+      "domain": "polishfloridabiz.com",
+      "rank": 2,
+      "backlinks": 3,
+      "first_seen": "2021-05-12 05:55:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 62,
+      "qualitySignals": [
+        "very-low-DR"
+      ],
+      "qualityReason": "very-low-DR"
+    },
+    {
+      "domain": "mapquest.com",
+      "rank": 1,
+      "backlinks": 5,
+      "first_seen": "2024-12-27 02:28:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "suspicious",
+      "qualityScore": 61,
+      "qualitySignals": [
+        "very-low-DR"
+      ],
+      "qualityReason": "very-low-DR"
+    },
+    {
+      "domain": "newsbeast.gr",
+      "rank": 1,
+      "backlinks": 1,
+      "first_seen": "2020-04-08 06:08:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 61,
+      "qualitySignals": [
+        "very-low-DR"
+      ],
+      "qualityReason": "very-low-DR"
+    },
+    {
+      "domain": "babymonitor101.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-30 01:10:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "homestratosphere.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-29 10:52:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "marketingexperts.click",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-29 00:00:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 10,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD"
+      ],
+      "qualityReason": "DR-0, spam-TLD"
+    },
+    {
+      "domain": "thewholeys.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-23 16:22:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "daolink.mom",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-04-23 14:36:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "lantern.llc",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2026-04-22 23:42:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "dltech.forum",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-22 23:21:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "98.83.172.161",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-21 10:37:37 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "mksellsflorida.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-18 21:09:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "gulffrontrealtor.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-18 21:06:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "n-tv.de",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-15 12:59:52 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "theredzone.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-15 02:31:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "gulfcoasttribune.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-13 02:11:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "miamiselect.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-12 23:06:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "givehopefoundation.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-04-11 23:03:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "myframeworks.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-11 22:43:02 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "traded.co",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-11 06:34:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "worldbusinesspromote.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2026-04-11 00:50:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "passagrillehometour.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-10 23:39:09 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "topworldnewstoday.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-10 23:25:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "woodteamrealty.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-09 21:30:48 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "coastaldreamliving.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-25 16:13:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "dailymail.co.uk",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-25 15:11:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "qmcproperties.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-23 07:18:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "seomuda.id",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-22 21:59:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign, SEO-spam-domain"
+    },
+    {
+      "domain": "shoplogist.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-22 13:45:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "torun-stolarz.pl",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-21 07:46:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
+    },
+    {
+      "domain": "ododuorpremium.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-20 19:09:52 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "celebrity.land",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-03-20 13:17:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "ycm.info",
+      "rank": 0,
+      "backlinks": 5,
+      "first_seen": "2026-03-20 03:08:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "founderjar.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-18 15:09:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "theclose.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-03-15 08:36:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "pagesearch.net",
+      "rank": 0,
+      "backlinks": 5,
+      "first_seen": "2026-03-14 00:35:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "american-stage.webflow.io",
+      "rank": 0,
+      "backlinks": 41,
+      "first_seen": "2026-03-10 09:26:04 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "tamparep.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-03-09 18:27:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "clearwaterbyheart.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-08 17:42:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "judyossian.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-08 07:46:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "qilins.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-06 13:18:48 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "officemoversofflorida.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-04 18:00:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "worldecomag.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-26 19:23:19 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "hubbry.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-25 07:19:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "improuse.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-21 19:57:22 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "wallpapers.pro",
+      "rank": 0,
+      "backlinks": 7,
+      "first_seen": "2026-02-21 10:43:48 +00:00",
+      "dofollow": 0,
+      "referring_pages": 7,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "eliterankdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-20 12:37:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "tunca.org",
+      "rank": 0,
+      "backlinks": 5,
+      "first_seen": "2026-02-19 07:13:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "usf.edu",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-18 17:39:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "utbchamber.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-02-14 18:22:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "musweb.org",
+      "rank": 0,
+      "backlinks": 8,
+      "first_seen": "2026-02-11 07:40:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 8,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "waterclubsnellisle.blogspot.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-02-09 06:23:19 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, suspiciously-long-domain"
+    },
+    {
+      "domain": "tampabaylgbtchamber.org",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-02-08 07:15:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "marybeattiehomes.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-08 00:51:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "jake.eu",
+      "rank": 0,
+      "backlinks": 9,
+      "first_seen": "2026-02-07 13:34:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 9,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "mediq.online",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-07 09:25:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 10,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD"
+      ],
+      "qualityReason": "DR-0, spam-TLD"
+    },
+    {
+      "domain": "newnewyorkers.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-06 15:58:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "blueinblue.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-04 18:14:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "anchorurl.cloud",
+      "rank": 0,
+      "backlinks": 7,
+      "first_seen": "2026-01-31 07:13:22 +00:00",
+      "dofollow": 0,
+      "referring_pages": 7,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "usa7s.net",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-31 06:18:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "moreanartscenter.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-29 15:17:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "mypodcastdata.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-28 16:09:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "screenshots.wiki",
+      "rank": 0,
+      "backlinks": 10,
+      "first_seen": "2026-01-28 13:47:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 10,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "ready.pro",
+      "rank": 0,
+      "backlinks": 8,
+      "first_seen": "2026-01-28 12:32:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 8,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "runningwebsites.net",
+      "rank": 0,
+      "backlinks": 5,
+      "first_seen": "2026-01-28 01:07:04 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "dutchclarke.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-25 22:12:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "starcourts.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-25 11:42:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "way2check.cv",
+      "rank": 0,
+      "backlinks": 8,
+      "first_seen": "2026-01-24 20:32:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 8,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "idcrawl.com",
+      "rank": 0,
+      "backlinks": 9,
+      "first_seen": "2026-01-21 20:26:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 9,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "shortenurls.eu",
+      "rank": 0,
+      "backlinks": 7,
+      "first_seen": "2026-01-20 20:01:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 7,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "northtampabaychamber.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-20 09:27:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "alljobs.info",
+      "rank": 0,
+      "backlinks": 18,
+      "first_seen": "2026-01-19 21:03:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 18,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "jetsetmag.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-18 08:58:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "esad.edu.br",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-18 05:42:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "buzzshrink.website",
+      "rank": 0,
+      "backlinks": 9,
+      "first_seen": "2026-01-18 03:57:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 9,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "realestatemarket.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-17 19:31:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "simplewebdirectory.com",
+      "rank": 0,
+      "backlinks": 7,
+      "first_seen": "2026-01-15 23:14:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 7,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "pick4d.live",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-09 23:37:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "concejomunicipaldechinu.gov.co",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-08 15:35:48 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "tradercoach.us",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-08 14:46:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "ughscripts.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-07 11:17:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "fooshya.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-06 13:15:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "backlinksolutions.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-05 02:14:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "urls-shortener.eu",
+      "rank": 0,
+      "backlinks": 12,
+      "first_seen": "2026-01-03 03:16:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 12,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "websiterace.com",
+      "rank": 0,
+      "backlinks": 8,
+      "first_seen": "2025-12-30 20:16:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 8,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "roadandtrack.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-30 03:59:31 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "channingcoxrealtor.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-29 09:09:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "coastalpgi.net",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-12-29 07:42:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "wheretobuybest.link",
+      "rank": 0,
+      "backlinks": 7,
+      "first_seen": "2025-12-28 08:06:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 7,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "ladybirdsisters.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-25 11:16:22 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "activerain.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-12-23 11:58:48 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "serden.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-12-21 22:46:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "tampasbest.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-12-21 09:25:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "membershiptoolkit.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-12-19 11:30:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "getwebsiteworth.com",
+      "rank": 0,
+      "backlinks": 23,
+      "first_seen": "2025-12-18 22:27:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 23,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "keepsaintpetersburglocal.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-12-18 20:10:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "directorydaddy.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-08 17:27:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    }
+  ],
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-05-05T18:40:57.510Z",
+  "qualitySummary": {
+    "total": 200,
+    "legitimate": 106,
+    "suspicious": 88,
+    "spam": 6,
+    "legitimatePct": 53,
+    "suspiciousPct": 44,
+    "spamPct": 3,
+    "topLegitimate": [
+      {
+        "domain": "smithishome.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 300)"
+      },
+      {
+        "domain": "thatssotampa.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 249)"
+      },
+      {
+        "domain": "luxuryportfolio.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 247)"
+      },
+      {
+        "domain": "ilovetheburg.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 201)"
+      },
+      {
+        "domain": "gulfandbayfl.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 197)"
+      },
+      {
+        "domain": "propgoluxury.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 186)"
+      },
+      {
+        "domain": "thestudioat620.org",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 178)"
+      },
+      {
+        "domain": "listhub.net",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 177)"
+      },
+      {
+        "domain": "tampamagazines.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 177)"
+      },
+      {
+        "domain": "leadingre.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 176)"
+      },
+      {
+        "domain": "howzes.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 161)"
+      },
+      {
+        "domain": "alivinghominid.blogspot.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 160)"
+      },
+      {
+        "domain": "alturabayshore.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 154)"
+      },
+      {
+        "domain": "luxuryrealtynetwork.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 142)"
+      },
+      {
+        "domain": "sanctuarybayshore.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 140)"
+      },
+      {
+        "domain": "luxuryhomemagazine.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 129)"
+      },
+      {
+        "domain": "viragebayshore.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 129)"
+      },
+      {
+        "domain": "sellingtampabayrealestate.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 128)"
+      },
+      {
+        "domain": "myadum.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 120)"
+      },
+      {
+        "domain": "gloopla.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 111)"
+      }
+    ],
+    "topSpam": [
+      {
+        "domain": "seomuda.id",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, low-DR-foreign, SEO-spam-domain"
+      },
+      {
+        "domain": "marketingexperts.click",
+        "quality": "spam",
+        "score": 10,
+        "reason": "DR-0, spam-TLD"
+      },
+      {
+        "domain": "mediq.online",
+        "quality": "spam",
+        "score": 10,
+        "reason": "DR-0, spam-TLD"
+      },
+      {
+        "domain": "simplewebdirectory.com",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "backlinksolutions.info",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "torun-stolarz.pl",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, low-DR-foreign"
+      }
+    ],
+    "analyzedAt": "2026-05-05T18:41:28.134Z",
+    "method": "rule-based-v1"
+  }
+}

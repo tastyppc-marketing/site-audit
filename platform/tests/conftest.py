@@ -8,7 +8,27 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
+import audit_platform
 from audit_platform.config import Settings
+
+
+def pytest_configure(config: pytest.Config) -> None:
+    """Fail fast if pytest is importing audit_platform from a different tree.
+
+    The package is installed editably; if the editable install points at a
+    different repo (e.g. a sibling production checkout), pytest silently
+    runs against stale code and verification becomes meaningless. Catch
+    that here with a clear remediation pointer.
+    """
+    expected = (Path(__file__).resolve().parents[1] / "src" / "audit_platform" / "__init__.py").resolve()
+    actual = Path(audit_platform.__file__).resolve()
+    if expected != actual:
+        raise pytest.UsageError(
+            f"audit_platform is being imported from {actual} but tests live alongside {expected}.\n"
+            f"Reinstall the editable package from this repo:\n"
+            f"  pip install -e platform/ --break-system-packages\n"
+            f"This usually happens when a sibling production checkout was installed first."
+        )
 
 
 # ---------------------------------------------------------------------------

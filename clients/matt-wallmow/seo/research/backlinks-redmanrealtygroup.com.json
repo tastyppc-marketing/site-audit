@@ -9,7 +9,9 @@
       "anchor_text": "",
       "domain_rating": 162,
       "is_dofollow": true,
-      "first_seen": "2024-01-27 19:48:28 +00:00"
+      "first_seen": "2024-01-27 19:48:28 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://listings.listhub.net/pages/GNMLSWI/210220/?channel=transparenseesystems",
@@ -137,7 +139,9 @@
       "anchor_text": "",
       "domain_rating": 121,
       "is_dofollow": true,
-      "first_seen": "2025-02-21 07:27:47 +00:00"
+      "first_seen": "2025-02-21 07:27:47 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 97
     },
     {
       "source_url": "https://listings.listhub.net/pages/GNMLSWI/211926/?channel=hudseeker",
@@ -409,7 +413,9 @@
       "anchor_text": "Aerial Photography",
       "domain_rating": 115,
       "is_dofollow": true,
-      "first_seen": "2024-04-26 21:49:02 +00:00"
+      "first_seen": "2024-04-26 21:49:02 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://listings.listhub.net/pages/GNMLSWI/213130/?channel=reagroup",
@@ -433,7 +439,9 @@
       "anchor_text": "Visit",
       "domain_rating": 113,
       "is_dofollow": true,
-      "first_seen": "2025-05-23 17:28:25 +00:00"
+      "first_seen": "2025-05-23 17:28:25 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 91
     },
     {
       "source_url": "https://pagelsrealtyteam.com/test-search/",
@@ -441,7 +449,9 @@
       "anchor_text": "Search for listings in Greater Northwoods",
       "domain_rating": 113,
       "is_dofollow": true,
-      "first_seen": "2025-05-24 23:38:08 +00:00"
+      "first_seen": "2025-05-24 23:38:08 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://runsignup.com/Race/136390/Sponsor/769785",
@@ -449,7 +459,9 @@
       "anchor_text": "",
       "domain_rating": 113,
       "is_dofollow": true,
-      "first_seen": "2025-07-05 07:05:58 +00:00"
+      "first_seen": "2025-07-05 07:05:58 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://runsignup.com/Race/19835/Sponsor/635283",
@@ -457,7 +469,9 @@
       "anchor_text": "",
       "domain_rating": 113,
       "is_dofollow": true,
-      "first_seen": "2024-03-30 06:45:28 +00:00"
+      "first_seen": "2024-03-30 06:45:28 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://kotohomes.com/listing-broker/-/br_WAWb2XZzVfRA4w8-f_cZtmsLras",
@@ -465,7 +479,9 @@
       "anchor_text": "http://www.redmanrealtygroup.com/",
       "domain_rating": 113,
       "is_dofollow": true,
-      "first_seen": "2025-03-11 09:26:38 +00:00"
+      "first_seen": "2025-03-11 09:26:38 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "http://www.hasbrooklake.com/",
@@ -473,7 +489,9 @@
       "anchor_text": "",
       "domain_rating": 103,
       "is_dofollow": true,
-      "first_seen": "2024-04-26 21:49:34 +00:00"
+      "first_seen": "2024-04-26 21:49:34 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://listings.listhub.net/pages/GNMLSWI/210893/?channel=transparenseesystems",
@@ -497,7 +515,9 @@
       "anchor_text": "ON RIVER RD, LAKE TOMAHAWK, WI 54539 - Redman Realty Group",
       "domain_rating": 78,
       "is_dofollow": true,
-      "first_seen": "2025-11-08 10:26:42 +00:00"
+      "first_seen": "2025-11-08 10:26:42 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.minocqua-real-estate.com/",
@@ -505,7 +525,9 @@
       "anchor_text": "",
       "domain_rating": 73,
       "is_dofollow": true,
-      "first_seen": "2025-01-25 05:12:21 +00:00"
+      "first_seen": "2025-01-25 05:12:21 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/jeremy-oberlander/",
@@ -513,7 +535,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 58,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:44:45 +00:00"
+      "first_seen": "2021-11-10 23:44:45 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/featured-listings/",
@@ -521,7 +545,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 58,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:46:51 +00:00"
+      "first_seen": "2021-11-10 23:46:51 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/contact-us/",
@@ -529,7 +555,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 58,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:45:04 +00:00"
+      "first_seen": "2021-11-10 23:45:04 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://village.do/company/redman-realty-group-llc",
@@ -537,7 +565,9 @@
       "anchor_text": "",
       "domain_rating": 58,
       "is_dofollow": true,
-      "first_seen": "2025-04-13 16:28:09 +00:00"
+      "first_seen": "2025-04-13 16:28:09 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 77
     },
     {
       "source_url": "https://strandsofstrength.com/",
@@ -545,7 +575,9 @@
       "anchor_text": "",
       "domain_rating": 48,
       "is_dofollow": true,
-      "first_seen": "2025-02-09 20:08:04 +00:00"
+      "first_seen": "2025-02-09 20:08:04 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://webworklife.com/redman-realty-group/",
@@ -553,7 +585,9 @@
       "anchor_text": "",
       "domain_rating": 43,
       "is_dofollow": true,
-      "first_seen": "2023-07-05 13:16:34 +00:00"
+      "first_seen": "2023-07-05 13:16:34 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
     },
     {
       "source_url": "https://www.minocqua-real-estate.com/minocqua/minocqua-chain-of-lakes/",
@@ -561,7 +595,9 @@
       "anchor_text": "",
       "domain_rating": 43,
       "is_dofollow": true,
-      "first_seen": "2019-01-16 14:38:51 +00:00"
+      "first_seen": "2019-01-16 14:38:51 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://pagelsrealtyteam.com/for-buyers/",
@@ -569,7 +605,9 @@
       "anchor_text": "Redman Realty Group",
       "domain_rating": 43,
       "is_dofollow": true,
-      "first_seen": "2023-12-15 09:39:14 +00:00"
+      "first_seen": "2023-12-15 09:39:14 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://pagelsrealtyteam.com/for-sellers/",
@@ -577,7 +615,9 @@
       "anchor_text": "Redman Realty Group",
       "domain_rating": 43,
       "is_dofollow": true,
-      "first_seen": "2023-12-15 09:39:05 +00:00"
+      "first_seen": "2023-12-15 09:39:05 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://pagelsrealtyteam.com/contact-the-pagels-team/",
@@ -585,7 +625,9 @@
       "anchor_text": "Redman Realty Group",
       "domain_rating": 43,
       "is_dofollow": true,
-      "first_seen": "2023-12-15 09:38:55 +00:00"
+      "first_seen": "2023-12-15 09:38:55 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://pagelsrealtyteam.com/about-the-pagels-team/",
@@ -593,7 +635,9 @@
       "anchor_text": "Redman Realty Group",
       "domain_rating": 43,
       "is_dofollow": true,
-      "first_seen": "2023-12-15 09:39:22 +00:00"
+      "first_seen": "2023-12-15 09:39:22 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://pagelsrealtyteam.com/the-pagels-team-real-estate-listings/",
@@ -601,7 +645,9 @@
       "anchor_text": "Redman Realty Group",
       "domain_rating": 43,
       "is_dofollow": true,
-      "first_seen": "2023-12-15 09:38:48 +00:00"
+      "first_seen": "2023-12-15 09:38:48 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://pagelsrealtyteam.com/home-valuation/",
@@ -609,7 +655,9 @@
       "anchor_text": "Redman Realty Group",
       "domain_rating": 43,
       "is_dofollow": true,
-      "first_seen": "2023-12-15 09:37:42 +00:00"
+      "first_seen": "2023-12-15 09:37:42 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://northwoodspros.com/the-rasmussen-team",
@@ -617,7 +665,9 @@
       "anchor_text": "",
       "domain_rating": 40,
       "is_dofollow": true,
-      "first_seen": "2021-12-18 17:18:52 +00:00"
+      "first_seen": "2021-12-18 17:18:52 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://oldhousecalling.com/2021/07/14/sold-log-home-for-sale-in-minocqua-wi-675000/",
@@ -625,7 +675,9 @@
       "anchor_text": "Pat Van Hefty",
       "domain_rating": 32,
       "is_dofollow": true,
-      "first_seen": "2022-01-30 01:42:01 +00:00"
+      "first_seen": "2022-01-30 01:42:01 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://www.minocqua-real-estate.com/minocqua/lakeside-landing-executive-residence/",
@@ -633,7 +685,9 @@
       "anchor_text": "",
       "domain_rating": 32,
       "is_dofollow": true,
-      "first_seen": "2019-01-16 13:57:56 +00:00"
+      "first_seen": "2019-01-16 13:57:56 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.minocqua-real-estate.com/property-valuation-request/",
@@ -641,7 +695,9 @@
       "anchor_text": "",
       "domain_rating": 32,
       "is_dofollow": true,
-      "first_seen": "2023-08-11 20:13:06 +00:00"
+      "first_seen": "2023-08-11 20:13:06 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.minocqua-real-estate.com/contact-us/",
@@ -649,7 +705,9 @@
       "anchor_text": "",
       "domain_rating": 32,
       "is_dofollow": true,
-      "first_seen": "2023-08-11 19:53:18 +00:00"
+      "first_seen": "2023-08-11 19:53:18 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://pagelsrealtyteam.com/",
@@ -657,7 +715,9 @@
       "anchor_text": "Search for listings in Greater Northwoods",
       "domain_rating": 28,
       "is_dofollow": true,
-      "first_seen": "2025-02-20 10:04:56 +00:00"
+      "first_seen": "2025-02-20 10:04:56 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://pagelsrealtyteam.com/",
@@ -665,7 +725,9 @@
       "anchor_text": "7379 Timber Lane - Minocqua\n\n\t\t\t\t\t\t\t\t\t\t\tViews of the 14th Fairway | $525,000",
       "domain_rating": 28,
       "is_dofollow": true,
-      "first_seen": "2026-02-23 04:04:18 +00:00"
+      "first_seen": "2026-02-23 04:04:18 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://pagelsrealtyteam.com/",
@@ -673,7 +735,9 @@
       "anchor_text": "Redman Realty Group",
       "domain_rating": 28,
       "is_dofollow": true,
-      "first_seen": "2025-02-20 10:04:56 +00:00"
+      "first_seen": "2025-02-20 10:04:56 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.barrierfreehome.com/redman-realty-group-llc-adam-redman-broker-minocqua-wi-u45587",
@@ -681,7 +745,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2026-03-22 13:25:19 +00:00"
+      "first_seen": "2026-03-22 13:25:19 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
     },
     {
       "source_url": "https://www.golfhomes.com/redman-realty-group-llc-adam-redman-broker-minocqua-wi-u45587.html",
@@ -689,7 +755,9 @@
       "anchor_text": "http://www.RedmanRealtyGroup.com",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2023-03-15 14:52:12 +00:00"
+      "first_seen": "2023-03-15 14:52:12 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/boulder-junction/",
@@ -697,7 +765,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:48:25 +00:00"
+      "first_seen": "2021-11-10 23:48:25 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/boulder-junction/",
@@ -705,7 +775,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:48:25 +00:00"
+      "first_seen": "2021-11-10 23:48:25 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/boulder-junction/",
@@ -713,7 +785,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:48:25 +00:00"
+      "first_seen": "2021-11-10 23:48:25 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/st-germain/",
@@ -721,7 +795,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:46:10 +00:00"
+      "first_seen": "2021-11-10 23:46:10 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/st-germain/",
@@ -729,7 +805,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:46:10 +00:00"
+      "first_seen": "2021-11-10 23:46:10 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/st-germain/",
@@ -737,7 +815,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:46:10 +00:00"
+      "first_seen": "2021-11-10 23:46:10 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/three-lakes/",
@@ -745,7 +825,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:47:02 +00:00"
+      "first_seen": "2021-11-10 23:47:02 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/three-lakes/",
@@ -753,7 +835,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:47:02 +00:00"
+      "first_seen": "2021-11-10 23:47:02 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/three-lakes/",
@@ -761,7 +845,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:47:02 +00:00"
+      "first_seen": "2021-11-10 23:47:02 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/phelps/",
@@ -769,7 +855,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2024-04-29 07:56:22 +00:00"
+      "first_seen": "2024-04-29 07:56:22 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/phelps/",
@@ -777,7 +865,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2024-04-29 07:56:22 +00:00"
+      "first_seen": "2024-04-29 07:56:22 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/phelps/",
@@ -785,7 +875,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2024-04-29 07:56:22 +00:00"
+      "first_seen": "2024-04-29 07:56:22 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/sayner-star-lake/",
@@ -793,7 +885,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:46:50 +00:00"
+      "first_seen": "2021-11-10 23:46:50 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/sayner-star-lake/",
@@ -801,7 +895,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:46:50 +00:00"
+      "first_seen": "2021-11-10 23:46:50 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/sayner-star-lake/",
@@ -809,7 +905,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:46:50 +00:00"
+      "first_seen": "2021-11-10 23:46:50 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/sugar-camp/",
@@ -817,7 +915,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:48:13 +00:00"
+      "first_seen": "2021-11-10 23:48:13 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/sugar-camp/",
@@ -825,7 +925,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:48:13 +00:00"
+      "first_seen": "2021-11-10 23:48:13 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/sugar-camp/",
@@ -833,7 +935,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:48:13 +00:00"
+      "first_seen": "2021-11-10 23:48:13 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/conover/",
@@ -841,7 +945,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:45:00 +00:00"
+      "first_seen": "2021-11-10 23:45:00 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/conover/",
@@ -849,7 +955,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:45:00 +00:00"
+      "first_seen": "2021-11-10 23:45:00 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/conover/",
@@ -857,7 +965,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:45:00 +00:00"
+      "first_seen": "2021-11-10 23:45:00 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/land-o-lakes/",
@@ -865,7 +975,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:45:18 +00:00"
+      "first_seen": "2021-11-10 23:45:18 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/land-o-lakes/",
@@ -873,7 +985,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:45:18 +00:00"
+      "first_seen": "2021-11-10 23:45:18 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/land-o-lakes/",
@@ -881,7 +995,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:45:18 +00:00"
+      "first_seen": "2021-11-10 23:45:18 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/eagle-river/",
@@ -889,7 +1005,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:46:27 +00:00"
+      "first_seen": "2021-11-10 23:46:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/eagle-river/",
@@ -897,7 +1015,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:46:27 +00:00"
+      "first_seen": "2021-11-10 23:46:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.buysellnorthwoods.com/eagle-river/",
@@ -905,7 +1025,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:46:27 +00:00"
+      "first_seen": "2021-11-10 23:46:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.minocqua-real-estate.com/minocqua/timber-ridge-golf-course-subdivision/",
@@ -913,7 +1035,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2019-01-16 13:46:55 +00:00"
+      "first_seen": "2019-01-16 13:46:55 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.minocqua-real-estate.com/eagle-river/",
@@ -921,7 +1045,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2023-08-11 19:55:53 +00:00"
+      "first_seen": "2023-08-11 19:55:53 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.minocqua-real-estate.com/hazelhurst/",
@@ -929,7 +1055,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2023-08-11 19:58:02 +00:00"
+      "first_seen": "2023-08-11 19:58:02 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.minocqua-real-estate.com/minocqua/",
@@ -937,7 +1065,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2023-08-11 19:56:18 +00:00"
+      "first_seen": "2023-08-11 19:56:18 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.minocqua-real-estate.com/lake-tomahawk-real-estate/",
@@ -945,7 +1075,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2023-08-11 19:58:21 +00:00"
+      "first_seen": "2023-08-11 19:58:21 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.minocqua-real-estate.com/boulder-junction/",
@@ -953,7 +1085,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2023-08-11 19:51:52 +00:00"
+      "first_seen": "2023-08-11 19:51:52 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.eagleriverrevitalization.org/artscapepeopleschoicepoll/",
@@ -961,7 +1095,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-09-22 23:43:28 +00:00"
+      "first_seen": "2025-09-22 23:43:28 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.eagleriverrevitalization.org/artscape-banner-program/",
@@ -969,7 +1105,9 @@
       "anchor_text": "",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-09-22 02:20:57 +00:00"
+      "first_seen": "2025-09-22 02:20:57 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.golfhomes.com/index.php/tpl/partial/redman-realty-group-llc-adam-redman-broker-minocqua-wi-u45587.html",
@@ -977,7 +1115,9 @@
       "anchor_text": "http://www.RedmanRealtyGroup.com",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-09-09 01:40:01 +00:00"
+      "first_seen": "2025-09-09 01:40:01 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.golfhomes.com/index.php/championnats-2005-2015/20122013/dhr/portal/tpl/partial/redman-realty-group-llc-adam-redman-broker-minocqua-wi-u45587.html",
@@ -985,7 +1125,9 @@
       "anchor_text": "http://www.RedmanRealtyGroup.com",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-09-08 14:14:37 +00:00"
+      "first_seen": "2025-09-08 14:14:37 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.golfhomes.com/index.php/italricambi-nl-alfa-romeo-fiat-lancia/tpl/partial/redman-realty-group-llc-adam-redman-broker-minocqua-wi-u45587.html",
@@ -993,7 +1135,9 @@
       "anchor_text": "http://www.RedmanRealtyGroup.com",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-09-06 20:39:05 +00:00"
+      "first_seen": "2025-09-06 20:39:05 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/JODI_DROST_5696f5e571/reviews",
@@ -1001,7 +1145,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-09-03 08:52:29 +00:00"
+      "first_seen": "2025-09-03 08:52:29 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.julielovesthenorthwoods.com/2021/09/",
@@ -1009,7 +1155,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-12-04 23:43:05 +00:00"
+      "first_seen": "2021-12-04 23:43:05 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.julielovesthenorthwoods.com/author/webworklife/",
@@ -1017,7 +1165,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2024-05-13 06:00:37 +00:00"
+      "first_seen": "2024-05-13 06:00:37 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.julielovesthenorthwoods.com/category/blog/",
@@ -1025,7 +1175,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2024-05-13 06:00:20 +00:00"
+      "first_seen": "2024-05-13 06:00:20 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.julielovesthenorthwoods.com/my-listings/",
@@ -1033,7 +1185,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:48:27 +00:00"
+      "first_seen": "2021-11-10 23:48:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.julielovesthenorthwoods.com/for-sellers/",
@@ -1041,7 +1195,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2023-12-15 09:18:01 +00:00"
+      "first_seen": "2023-12-15 09:18:01 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.julielovesthenorthwoods.com/contact/",
@@ -1049,7 +1205,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:45:19 +00:00"
+      "first_seen": "2021-11-10 23:45:19 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.julielovesthenorthwoods.com/about-julie-engels/",
@@ -1057,7 +1215,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2021-11-10 23:45:56 +00:00"
+      "first_seen": "2021-11-10 23:45:56 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.julielovesthenorthwoods.com/manitowish-waters-dam-the-fall-draw-down-the-when-and-the-why/",
@@ -1065,7 +1225,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2024-05-13 06:00:27 +00:00"
+      "first_seen": "2024-05-13 06:00:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/JODI_DROST_5696f5e571",
@@ -1073,7 +1235,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-08-28 10:36:09 +00:00"
+      "first_seen": "2025-08-28 10:36:09 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.golfhomes.com/index.php/italricambi-nl-alfa-romeo-fiat-lancia/portal/redman-realty-group-llc-adam-redman-broker-minocqua-wi-u45587.html",
@@ -1081,7 +1245,9 @@
       "anchor_text": "http://www.RedmanRealtyGroup.com",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-08-28 07:54:04 +00:00"
+      "first_seen": "2025-08-28 07:54:04 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/CHRISTOPHER_NOR_e9ef8aa227/reviews",
@@ -1089,7 +1255,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-08-28 04:44:05 +00:00"
+      "first_seen": "2025-08-28 04:44:05 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/JULIE_ENGELS_b2de79ffc8/reviews",
@@ -1097,7 +1265,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-08-28 03:51:53 +00:00"
+      "first_seen": "2025-08-28 03:51:53 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/RACHEL_MARTIN_7b447eed85/reviews",
@@ -1105,7 +1275,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-08-27 19:54:32 +00:00"
+      "first_seen": "2025-08-27 19:54:32 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.golfhomes.com/index.php/redman-realty-group-llc-adam-redman-broker-minocqua-wi-u45587.html",
@@ -1113,7 +1285,9 @@
       "anchor_text": "http://www.RedmanRealtyGroup.com",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-08-27 16:55:32 +00:00"
+      "first_seen": "2025-08-27 16:55:32 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/PETER_RONDELLO_20b23b818a/reviews",
@@ -1121,7 +1295,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-08-27 10:10:15 +00:00"
+      "first_seen": "2025-08-27 10:10:15 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/THOMAS_COTE_0d771a496d/reviews",
@@ -1129,7 +1305,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-08-27 10:10:11 +00:00"
+      "first_seen": "2025-08-27 10:10:11 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.golfhomes.com/index.php/championnats-2005-2015/20122013/dhr/portal/redman-realty-group-llc-adam-redman-broker-minocqua-wi-u45587.html",
@@ -1137,7 +1315,9 @@
       "anchor_text": "http://www.RedmanRealtyGroup.com",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-08-27 08:02:19 +00:00"
+      "first_seen": "2025-08-27 08:02:19 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.golfhomes.com/index.php/portal/tpl/partial/redman-realty-group-llc-adam-redman-broker-minocqua-wi-u45587.html",
@@ -1145,7 +1325,9 @@
       "anchor_text": "http://www.RedmanRealtyGroup.com",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-08-27 02:58:52 +00:00"
+      "first_seen": "2025-08-27 02:58:52 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/ERICA_DUMAS_cbd22e30c7/reviews",
@@ -1153,7 +1335,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-05-29 07:25:32 +00:00"
+      "first_seen": "2025-05-29 07:25:32 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/ERICA_DUMAS_cbd22e30c7",
@@ -1161,7 +1345,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2024-11-03 11:00:01 +00:00"
+      "first_seen": "2024-11-03 11:00:01 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/CHRISTOPHER_NOR_e9ef8aa227",
@@ -1169,7 +1355,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2024-08-28 01:54:19 +00:00"
+      "first_seen": "2024-08-28 01:54:19 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/TARA_STEPHENS_62fac35bcb/reviews",
@@ -1177,7 +1365,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-08-26 23:19:51 +00:00"
+      "first_seen": "2025-08-26 23:19:51 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/JULIE_ENGELS_b2de79ffc8",
@@ -1185,7 +1375,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2024-08-26 20:51:19 +00:00"
+      "first_seen": "2024-08-26 20:51:19 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/MALLORI_ZOESCH_253b5c410e/reviews",
@@ -1193,7 +1385,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2024-08-27 19:03:59 +00:00"
+      "first_seen": "2024-08-27 19:03:59 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/GREG_HARVEY_62abe12a14/reviews",
@@ -1201,7 +1395,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-08-26 16:49:54 +00:00"
+      "first_seen": "2025-08-26 16:49:54 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/RACHEL_MARTIN_7b447eed85",
@@ -1209,7 +1405,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2024-08-27 14:47:31 +00:00"
+      "first_seen": "2024-08-27 14:47:31 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/THOMAS_COTE_0d771a496d",
@@ -1217,7 +1415,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-08-26 00:51:38 +00:00"
+      "first_seen": "2025-08-26 00:51:38 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/PETER_RONDELLO_20b23b818a",
@@ -1225,7 +1425,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-08-26 00:51:34 +00:00"
+      "first_seen": "2025-08-26 00:51:34 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/TARA_STEPHENS_62fac35bcb",
@@ -1233,7 +1435,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2024-08-26 20:53:20 +00:00"
+      "first_seen": "2024-08-26 20:53:20 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/MALLORI_ZOESCH_253b5c410e",
@@ -1241,7 +1445,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2024-08-27 10:54:06 +00:00"
+      "first_seen": "2024-08-27 10:54:06 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/GREG_HARVEY_62abe12a14",
@@ -1249,7 +1455,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2023-11-14 11:28:55 +00:00"
+      "first_seen": "2023-11-14 11:28:55 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/PETER_MEYER_ec0fb9c70a/reviews",
@@ -1257,7 +1465,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2024-08-26 02:14:26 +00:00"
+      "first_seen": "2024-08-26 02:14:26 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/PETER_MEYER_ec0fb9c70a",
@@ -1265,7 +1475,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2024-08-24 21:55:09 +00:00"
+      "first_seen": "2024-08-24 21:55:09 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/ELLI_SODER_54115e898c/reviews",
@@ -1273,7 +1485,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-01-11 11:18:21 +00:00"
+      "first_seen": "2025-01-11 11:18:21 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/ELLI_SODER_54115e898c",
@@ -1281,7 +1495,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2024-08-26 20:53:24 +00:00"
+      "first_seen": "2024-08-26 20:53:24 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/DENISE_HERVEY_3a707b7916/reviews",
@@ -1289,7 +1505,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-01-14 14:26:54 +00:00"
+      "first_seen": "2025-01-14 14:26:54 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/DENISE_HERVEY_3a707b7916",
@@ -1297,7 +1515,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-01-12 02:13:47 +00:00"
+      "first_seen": "2025-01-12 02:13:47 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/GUY_POLACEK_b29a6f80c3/reviews",
@@ -1305,7 +1525,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-05-29 07:12:03 +00:00"
+      "first_seen": "2025-05-29 07:12:03 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/Matthew_Solatka_29368cd882/reviews",
@@ -1313,7 +1535,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-05-27 18:25:44 +00:00"
+      "first_seen": "2025-05-27 18:25:44 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/Matthew_Solatka_29368cd882",
@@ -1321,7 +1545,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2024-11-01 17:19:47 +00:00"
+      "first_seen": "2024-11-01 17:19:47 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/GUY_POLACEK_b29a6f80c3",
@@ -1329,7 +1555,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-05-28 10:55:10 +00:00"
+      "first_seen": "2025-05-28 10:55:10 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/Kyle_Skarr_d0821fb8cf/reviews",
@@ -1337,7 +1565,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-01-10 15:42:46 +00:00"
+      "first_seen": "2025-01-10 15:42:46 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/Kyle_Skarr_d0821fb8cf",
@@ -1345,7 +1575,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2024-11-03 10:59:57 +00:00"
+      "first_seen": "2024-11-03 10:59:57 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.golfhomes.com/index.php/italricambi-nl-alfa-romeo-fiat-lancia/redman-realty-group-llc-adam-redman-broker-minocqua-wi-u45587.html",
@@ -1353,7 +1585,9 @@
       "anchor_text": "http://www.RedmanRealtyGroup.com",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-08-18 06:02:26 +00:00"
+      "first_seen": "2025-08-18 06:02:26 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/DANIELLE_HAZELQUIST_b4d18b2a1e",
@@ -1361,7 +1595,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-05-29 17:03:02 +00:00"
+      "first_seen": "2025-05-29 17:03:02 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/KRISTINA_WIELAND_5d8749c0d6/reviews",
@@ -1369,7 +1605,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-05-29 02:32:54 +00:00"
+      "first_seen": "2025-05-29 02:32:54 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://dtg5o8n2qcvfv.cloudfront.net/real_estate_agent/KRISTINA_WIELAND_5d8749c0d6",
@@ -1377,7 +1615,9 @@
       "anchor_text": "Visit Website",
       "domain_rating": 23,
       "is_dofollow": true,
-      "first_seen": "2025-05-28 10:55:31 +00:00"
+      "first_seen": "2025-05-28 10:55:31 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.julielovesthenorthwoods.com/",
@@ -1385,7 +1625,9 @@
       "anchor_text": "Search for listings in Greater Northwoods",
       "domain_rating": 21,
       "is_dofollow": true,
-      "first_seen": "2024-05-13 05:59:04 +00:00"
+      "first_seen": "2024-05-13 05:59:04 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.julielovesthenorthwoods.com/",
@@ -1393,7 +1635,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 21,
       "is_dofollow": true,
-      "first_seen": "2024-05-13 05:59:04 +00:00"
+      "first_seen": "2024-05-13 05:59:04 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/author/webworklife/",
@@ -1401,7 +1645,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2026-03-15 20:33:11 +00:00"
+      "first_seen": "2026-03-15 20:33:11 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/author/webworklife/",
@@ -1409,7 +1655,9 @@
       "anchor_text": "> Redman Realty Group",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2026-03-15 20:33:11 +00:00"
+      "first_seen": "2026-03-15 20:33:11 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/for-sellers/why-choose-linda-as-your-realtor/",
@@ -1417,7 +1665,9 @@
       "anchor_text": "> Redman Realty Group",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2024-05-28 03:19:46 +00:00"
+      "first_seen": "2024-05-28 03:19:46 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/for-sellers/why-choose-linda-as-your-realtor/",
@@ -1425,7 +1675,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2024-05-28 03:19:46 +00:00"
+      "first_seen": "2024-05-28 03:19:46 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/about/linda-l-long/",
@@ -1433,7 +1685,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2024-05-28 11:42:28 +00:00"
+      "first_seen": "2024-05-28 11:42:28 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/about/linda-l-long/",
@@ -1441,7 +1695,9 @@
       "anchor_text": "> Redman Realty Group",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2024-05-28 11:42:28 +00:00"
+      "first_seen": "2024-05-28 11:42:28 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/for-sellers/pricing-your-home/",
@@ -1449,7 +1705,9 @@
       "anchor_text": "> Redman Realty Group",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2024-05-28 18:34:20 +00:00"
+      "first_seen": "2024-05-28 18:34:20 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/for-sellers/pricing-your-home/",
@@ -1457,7 +1715,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2024-05-28 18:34:20 +00:00"
+      "first_seen": "2024-05-28 18:34:20 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/about/pete-nicol/",
@@ -1465,7 +1725,9 @@
       "anchor_text": "> Redman Realty Group",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2024-05-08 06:27:55 +00:00"
+      "first_seen": "2024-05-08 06:27:55 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/about/pete-nicol/",
@@ -1473,7 +1735,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2024-05-08 06:27:55 +00:00"
+      "first_seen": "2024-05-08 06:27:55 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/for-sellers/staging-your-home/",
@@ -1481,7 +1745,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2024-05-30 00:38:16 +00:00"
+      "first_seen": "2024-05-30 00:38:16 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/for-sellers/staging-your-home/",
@@ -1489,7 +1755,9 @@
       "anchor_text": "> Redman Realty Group",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2024-05-30 00:38:16 +00:00"
+      "first_seen": "2024-05-30 00:38:16 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/for-sellers/the-redman-realty-group/",
@@ -1497,7 +1765,9 @@
       "anchor_text": "> Redman Realty Group",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2024-03-15 02:03:35 +00:00"
+      "first_seen": "2024-03-15 02:03:35 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/for-sellers/the-redman-realty-group/",
@@ -1505,7 +1775,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2024-03-15 02:03:35 +00:00"
+      "first_seen": "2024-03-15 02:03:35 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/about/stephanie-mcclellan/",
@@ -1513,7 +1785,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2024-05-30 06:43:45 +00:00"
+      "first_seen": "2024-05-30 06:43:45 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/about/stephanie-mcclellan/",
@@ -1521,7 +1795,9 @@
       "anchor_text": "> Redman Realty Group",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2024-05-30 06:43:45 +00:00"
+      "first_seen": "2024-05-30 06:43:45 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/featured-listings/",
@@ -1529,7 +1805,9 @@
       "anchor_text": "> Redman Realty Group",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2026-03-14 15:57:36 +00:00"
+      "first_seen": "2026-03-14 15:57:36 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/featured-listings/",
@@ -1537,7 +1815,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2026-03-14 15:57:36 +00:00"
+      "first_seen": "2026-03-14 15:57:36 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/for-buyers/",
@@ -1545,7 +1825,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2026-03-14 14:27:58 +00:00"
+      "first_seen": "2026-03-14 14:27:58 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/for-buyers/",
@@ -1553,7 +1835,9 @@
       "anchor_text": "> Redman Realty Group",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2026-03-14 14:27:58 +00:00"
+      "first_seen": "2026-03-14 14:27:58 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/for-sellers/",
@@ -1561,7 +1845,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2026-03-14 11:47:03 +00:00"
+      "first_seen": "2026-03-14 11:47:03 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/for-sellers/",
@@ -1569,7 +1855,9 @@
       "anchor_text": "> Redman Realty Group",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2026-03-14 11:47:03 +00:00"
+      "first_seen": "2026-03-14 11:47:03 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/contact/",
@@ -1577,7 +1865,9 @@
       "anchor_text": "> Redman Realty Group",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2026-03-14 08:39:50 +00:00"
+      "first_seen": "2026-03-14 08:39:50 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.lindalongrealestate.com/contact/",
@@ -1585,7 +1875,9 @@
       "anchor_text": "Property Search",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2026-03-14 08:39:50 +00:00"
+      "first_seen": "2026-03-14 08:39:50 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.minocqua-real-estate.com/lac-du-flambeau/",
@@ -1593,7 +1885,9 @@
       "anchor_text": "",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2023-08-11 19:56:14 +00:00"
+      "first_seen": "2023-08-11 19:56:14 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.minocqua-real-estate.com/sayner-star-lake/",
@@ -1601,7 +1895,9 @@
       "anchor_text": "",
       "domain_rating": 15,
       "is_dofollow": true,
-      "first_seen": "2023-08-11 19:53:56 +00:00"
+      "first_seen": "2023-08-11 19:53:56 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     }
   ],
   "referring_domains": [
@@ -1611,7 +1907,13 @@
       "backlinks": 52,
       "first_seen": "2024-03-18 14:28:35 +00:00",
       "dofollow": 0,
-      "referring_pages": 52
+      "referring_pages": 52,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 216)"
     },
     {
       "domain": "dtg5o8n2qcvfv.cloudfront.net",
@@ -1619,7 +1921,13 @@
       "backlinks": 35,
       "first_seen": "2023-11-14 11:28:55 +00:00",
       "dofollow": 0,
-      "referring_pages": 35
+      "referring_pages": 35,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 122)"
     },
     {
       "domain": "buysellnorthwoods.com",
@@ -1627,7 +1935,13 @@
       "backlinks": 72,
       "first_seen": "2021-11-10 23:44:45 +00:00",
       "dofollow": 0,
-      "referring_pages": 30
+      "referring_pages": 30,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 120)"
     },
     {
       "domain": "runsignup.com",
@@ -1635,7 +1949,13 @@
       "backlinks": 5,
       "first_seen": "2024-01-27 19:48:28 +00:00",
       "dofollow": 0,
-      "referring_pages": 3
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 113)"
     },
     {
       "domain": "pagelsrealtyteam.com",
@@ -1643,7 +1963,13 @@
       "backlinks": 26,
       "first_seen": "2023-12-15 09:37:42 +00:00",
       "dofollow": 0,
-      "referring_pages": 24
+      "referring_pages": 24,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 113)"
     },
     {
       "domain": "lindalongrealestate.com",
@@ -1651,7 +1977,13 @@
       "backlinks": 44,
       "first_seen": "2024-03-15 02:03:35 +00:00",
       "dofollow": 0,
-      "referring_pages": 29
+      "referring_pages": 29,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 106)"
     },
     {
       "domain": "minocqua-real-estate.com",
@@ -1659,7 +1991,13 @@
       "backlinks": 15,
       "first_seen": "2019-01-16 13:46:55 +00:00",
       "dofollow": 0,
-      "referring_pages": 15
+      "referring_pages": 15,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 93)"
     },
     {
       "domain": "strandsofstrength.com",
@@ -1667,7 +2005,13 @@
       "backlinks": 24,
       "first_seen": "2025-02-09 20:08:04 +00:00",
       "dofollow": 0,
-      "referring_pages": 24
+      "referring_pages": 24,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 81)"
     },
     {
       "domain": "julielovesthenorthwoods.com",
@@ -1675,7 +2019,13 @@
       "backlinks": 12,
       "first_seen": "2021-11-10 23:45:19 +00:00",
       "dofollow": 0,
-      "referring_pages": 11
+      "referring_pages": 11,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 72)"
     },
     {
       "domain": "golfhomes.com",
@@ -1683,7 +2033,13 @@
       "backlinks": 9,
       "first_seen": "2023-03-15 14:52:12 +00:00",
       "dofollow": 0,
-      "referring_pages": 9
+      "referring_pages": 9,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
     },
     {
       "domain": "constantcontact.com",
@@ -1691,7 +2047,13 @@
       "backlinks": 65,
       "first_seen": "2025-05-04 12:47:00 +00:00",
       "dofollow": 0,
-      "referring_pages": 33
+      "referring_pages": 33,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 66)"
     },
     {
       "domain": "minocquawinterpark.org",
@@ -1699,7 +2061,13 @@
       "backlinks": 1,
       "first_seen": "2025-02-21 07:27:47 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 97,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 57)"
     },
     {
       "domain": "clientsbee.com",
@@ -1707,7 +2075,13 @@
       "backlinks": 1,
       "first_seen": "2025-05-23 17:28:25 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 91,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 51)"
     },
     {
       "domain": "kotohomes.com",
@@ -1715,7 +2089,13 @@
       "backlinks": 1,
       "first_seen": "2025-03-11 09:26:38 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
     },
     {
       "domain": "tarastephensrealtor.com",
@@ -1723,7 +2103,13 @@
       "backlinks": 40,
       "first_seen": "2024-11-01 02:51:03 +00:00",
       "dofollow": 0,
-      "referring_pages": 20
+      "referring_pages": 20,
+      "domainQuality": "legitimate",
+      "qualityScore": 98,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
     },
     {
       "domain": "hasbrooklake.com",
@@ -1731,7 +2117,11 @@
       "backlinks": 1,
       "first_seen": "2024-04-26 21:49:34 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
     },
     {
       "domain": "eagleriverrevitalization.org",
@@ -1739,7 +2129,11 @@
       "backlinks": 11,
       "first_seen": "2025-09-22 02:20:57 +00:00",
       "dofollow": 0,
-      "referring_pages": 5
+      "referring_pages": 5,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
     },
     {
       "domain": "e-drapery.ca",
@@ -1747,7 +2141,11 @@
       "backlinks": 1,
       "first_seen": "2025-11-08 10:26:42 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
     },
     {
       "domain": "village.do",
@@ -1755,7 +2153,13 @@
       "backlinks": 1,
       "first_seen": "2025-04-13 16:28:09 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 77,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
     },
     {
       "domain": "ghtrails.org",
@@ -1763,7 +2167,13 @@
       "backlinks": 1,
       "first_seen": "2026-04-11 22:39:35 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "seomuda.id",
@@ -1771,7 +2181,15 @@
       "backlinks": 1,
       "first_seen": "2026-03-22 23:30:05 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign, SEO-spam-domain"
     },
     {
       "domain": "barrierfreehome.com",
@@ -1779,7 +2197,13 @@
       "backlinks": 3,
       "first_seen": "2026-03-22 13:25:19 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "torun-stolarz.pl",
@@ -1787,7 +2211,14 @@
       "backlinks": 1,
       "first_seen": "2026-03-21 07:51:56 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
     },
     {
       "domain": "shoplogist.com",
@@ -1795,7 +2226,13 @@
       "backlinks": 1,
       "first_seen": "2026-03-20 11:26:57 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "ycm.info",
@@ -1803,7 +2240,13 @@
       "backlinks": 1,
       "first_seen": "2026-03-19 12:16:36 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "tlwa.org",
@@ -1811,7 +2254,13 @@
       "backlinks": 1,
       "first_seen": "2026-03-17 17:00:15 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "bye.fyi",
@@ -1819,7 +2268,13 @@
       "backlinks": 1,
       "first_seen": "2026-03-16 02:54:21 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "urls-shortener.eu",
@@ -1827,7 +2282,13 @@
       "backlinks": 1,
       "first_seen": "2026-02-28 04:40:12 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "wallpapers.pro",
@@ -1835,7 +2296,13 @@
       "backlinks": 1,
       "first_seen": "2026-02-27 09:39:54 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "feedourruralkids.org",
@@ -1843,7 +2310,13 @@
       "backlinks": 1,
       "first_seen": "2026-02-27 01:32:35 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "st-germain.com",
@@ -1851,7 +2324,13 @@
       "backlinks": 1,
       "first_seen": "2026-02-26 15:25:33 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "localitybiz.com",
@@ -1859,7 +2338,13 @@
       "backlinks": 8,
       "first_seen": "2026-02-13 17:27:01 +00:00",
       "dofollow": 0,
-      "referring_pages": 5
+      "referring_pages": 5,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "musweb.org",
@@ -1867,7 +2352,13 @@
       "backlinks": 1,
       "first_seen": "2026-02-11 08:23:43 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "jake.eu",
@@ -1875,7 +2366,13 @@
       "backlinks": 1,
       "first_seen": "2026-02-07 09:39:22 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "screenshots.wiki",
@@ -1883,7 +2380,13 @@
       "backlinks": 1,
       "first_seen": "2026-02-04 15:01:10 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "wjfw.com",
@@ -1891,7 +2394,13 @@
       "backlinks": 1,
       "first_seen": "2026-02-03 19:25:13 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "ready.pro",
@@ -1899,7 +2408,13 @@
       "backlinks": 1,
       "first_seen": "2026-02-03 00:03:33 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "booksreadr.org",
@@ -1907,7 +2422,13 @@
       "backlinks": 1,
       "first_seen": "2026-02-02 17:48:40 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "anchorurl.cloud",
@@ -1915,7 +2436,13 @@
       "backlinks": 1,
       "first_seen": "2026-02-01 09:10:07 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "way2check.cv",
@@ -1923,7 +2450,13 @@
       "backlinks": 1,
       "first_seen": "2026-01-28 20:32:55 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "runningwebsites.net",
@@ -1931,7 +2464,13 @@
       "backlinks": 1,
       "first_seen": "2026-01-28 19:56:22 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "alljobs.info",
@@ -1939,7 +2478,13 @@
       "backlinks": 1,
       "first_seen": "2026-01-25 11:23:46 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "globalecommerce.org",
@@ -1947,7 +2492,13 @@
       "backlinks": 1,
       "first_seen": "2026-01-24 08:54:45 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "shortenurls.eu",
@@ -1955,7 +2506,13 @@
       "backlinks": 1,
       "first_seen": "2026-01-23 10:42:09 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "getwebsiteworth.com",
@@ -1963,7 +2520,13 @@
       "backlinks": 2,
       "first_seen": "2025-12-29 06:30:25 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "aulaperu.edu.pe",
@@ -1971,7 +2534,13 @@
       "backlinks": 1,
       "first_seen": "2025-12-28 12:59:58 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "websiterace.com",
@@ -1979,7 +2548,13 @@
       "backlinks": 1,
       "first_seen": "2025-12-28 08:39:09 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "rankvancebacklinks.pro",
@@ -1987,7 +2562,14 @@
       "backlinks": 1,
       "first_seen": "2025-12-21 11:13:48 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
     },
     {
       "domain": "americanpondhockey.com",
@@ -1995,7 +2577,13 @@
       "backlinks": 1,
       "first_seen": "2025-12-20 15:30:47 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "topagentmagazine.com",
@@ -2003,7 +2591,13 @@
       "backlinks": 1,
       "first_seen": "2025-12-18 09:20:34 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "winmantrails.com",
@@ -2011,7 +2605,13 @@
       "backlinks": 1,
       "first_seen": "2025-12-10 10:33:34 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "postgradoune.edu.pe",
@@ -2019,7 +2619,13 @@
       "backlinks": 1,
       "first_seen": "2025-11-28 20:26:14 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "dependablerealtors.com",
@@ -2027,7 +2633,13 @@
       "backlinks": 4,
       "first_seen": "2025-11-18 22:27:44 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "zappenin.com",
@@ -2035,7 +2647,13 @@
       "backlinks": 1,
       "first_seen": "2025-11-18 04:42:24 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "realtorson.com",
@@ -2043,7 +2661,13 @@
       "backlinks": 4,
       "first_seen": "2025-11-08 03:32:36 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "nckl.gov.kh",
@@ -2051,7 +2675,13 @@
       "backlinks": 1,
       "first_seen": "2025-10-21 04:28:10 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "realtor.com",
@@ -2059,7 +2689,13 @@
       "backlinks": 2,
       "first_seen": "2025-10-20 21:43:41 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
     },
     {
       "domain": "avposgradounap.edu.pe",
@@ -2067,7 +2703,13 @@
       "backlinks": 1,
       "first_seen": "2025-10-14 23:00:23 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "ccicthai.com",
@@ -2075,7 +2717,13 @@
       "backlinks": 2,
       "first_seen": "2025-10-05 23:19:03 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "reputablebusinesses.com",
@@ -2083,7 +2731,13 @@
       "backlinks": 4,
       "first_seen": "2025-10-05 05:28:45 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "rankvanceseo.info",
@@ -2091,7 +2745,14 @@
       "backlinks": 1,
       "first_seen": "2025-09-28 11:44:13 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
     },
     {
       "domain": "minocqua.org",
@@ -2099,7 +2760,13 @@
       "backlinks": 1,
       "first_seen": "2025-09-14 07:48:29 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "mydeepin.ru",
@@ -2107,7 +2774,14 @@
       "backlinks": 3,
       "first_seen": "2025-08-15 14:29:19 +00:00",
       "dofollow": 0,
-      "referring_pages": 3
+      "referring_pages": 3,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
     },
     {
       "domain": "australianwebdirectory.pro",
@@ -2115,7 +2789,14 @@
       "backlinks": 1,
       "first_seen": "2025-08-05 20:36:30 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
     },
     {
       "domain": "namenfinden.de",
@@ -2123,7 +2804,13 @@
       "backlinks": 1,
       "first_seen": "2025-08-04 10:22:11 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "globalcocolk.com",
@@ -2131,7 +2818,13 @@
       "backlinks": 1,
       "first_seen": "2025-08-01 11:50:44 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "gaister.com",
@@ -2139,7 +2832,13 @@
       "backlinks": 1,
       "first_seen": "2025-07-31 17:05:49 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "astrologlar.com",
@@ -2147,7 +2846,13 @@
       "backlinks": 1,
       "first_seen": "2025-07-31 04:04:14 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "bonitaynariko.pages.dev",
@@ -2155,7 +2860,13 @@
       "backlinks": 1,
       "first_seen": "2025-07-31 00:12:41 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "sisgroup.lk",
@@ -2163,7 +2874,13 @@
       "backlinks": 1,
       "first_seen": "2025-07-12 17:03:36 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "passiogolf.vn",
@@ -2171,7 +2888,14 @@
       "backlinks": 1,
       "first_seen": "2025-07-12 02:31:03 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
     },
     {
       "domain": "m-he.com",
@@ -2179,7 +2903,13 @@
       "backlinks": 1,
       "first_seen": "2025-07-11 17:34:04 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "productionfunctionusa.com",
@@ -2187,7 +2917,13 @@
       "backlinks": 1,
       "first_seen": "2025-07-10 15:31:25 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "swapptechs.com",
@@ -2195,7 +2931,13 @@
       "backlinks": 1,
       "first_seen": "2025-07-09 13:54:25 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "ewloeboardingkennels.co.uk",
@@ -2203,7 +2945,13 @@
       "backlinks": 1,
       "first_seen": "2025-07-05 12:29:31 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "ezeller.com",
@@ -2211,7 +2959,13 @@
       "backlinks": 1,
       "first_seen": "2025-07-05 12:18:01 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "xposureapp.com",
@@ -2219,7 +2973,13 @@
       "backlinks": 4,
       "first_seen": "2025-06-30 06:40:27 +00:00",
       "dofollow": 0,
-      "referring_pages": 4
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "algolinkers.com",
@@ -2227,7 +2987,13 @@
       "backlinks": 1,
       "first_seen": "2025-06-11 23:03:10 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "fashioment.com",
@@ -2235,7 +3001,13 @@
       "backlinks": 2,
       "first_seen": "2025-06-05 22:38:49 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "great-choice-for-pbn-domains.co.uk",
@@ -2243,7 +3015,14 @@
       "backlinks": 2,
       "first_seen": "2025-06-03 18:06:40 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, suspiciously-long-domain"
     },
     {
       "domain": "australianwebdirectory.shop",
@@ -2251,7 +3030,14 @@
       "backlinks": 2,
       "first_seen": "2025-06-03 17:38:47 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
     },
     {
       "domain": "belonnanotservice.ga",
@@ -2259,7 +3045,14 @@
       "backlinks": 2,
       "first_seen": "2025-05-28 18:22:22 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 10,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD"
+      ],
+      "qualityReason": "DR-0, spam-TLD"
     },
     {
       "domain": "mcabralcriminalistas.com.br",
@@ -2267,7 +3060,13 @@
       "backlinks": 1,
       "first_seen": "2025-05-24 16:06:59 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "cocoqatar.com",
@@ -2275,7 +3074,13 @@
       "backlinks": 1,
       "first_seen": "2025-05-19 17:45:01 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "seobacklinks.agency",
@@ -2283,7 +3088,14 @@
       "backlinks": 2,
       "first_seen": "2025-05-16 10:02:50 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
     },
     {
       "domain": "agmermer.pro",
@@ -2291,7 +3103,13 @@
       "backlinks": 2,
       "first_seen": "2025-05-13 03:18:13 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "rankgrow.agency",
@@ -2299,7 +3117,13 @@
       "backlinks": 2,
       "first_seen": "2025-05-10 16:32:39 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "ceoofamericanexpressfinancialadvisors.blogspot.com",
@@ -2307,7 +3131,14 @@
       "backlinks": 1,
       "first_seen": "2025-05-06 07:54:46 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, suspiciously-long-domain"
     },
     {
       "domain": "epictures.homes",
@@ -2315,7 +3146,13 @@
       "backlinks": 1,
       "first_seen": "2025-04-26 09:53:37 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "prolinkbox.com",
@@ -2323,7 +3160,13 @@
       "backlinks": 1,
       "first_seen": "2025-04-19 10:55:13 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "assurances.gov.gh",
@@ -2331,7 +3174,13 @@
       "backlinks": 1,
       "first_seen": "2025-04-15 01:53:21 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "thecloudherald.com",
@@ -2339,7 +3188,13 @@
       "backlinks": 2,
       "first_seen": "2025-04-10 21:09:59 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "thebestbacklinksavailable.click",
@@ -2347,7 +3202,16 @@
       "backlinks": 2,
       "first_seen": "2025-04-10 19:10:52 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD",
+        "SEO-spam-domain",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, spam-TLD, SEO-spam-domain, suspiciously-long-domain"
     },
     {
       "domain": "medicareplus.com.ph",
@@ -2355,7 +3219,13 @@
       "backlinks": 1,
       "first_seen": "2025-04-09 15:27:06 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "what-happens-next.xyz",
@@ -2363,7 +3233,14 @@
       "backlinks": 2,
       "first_seen": "2025-04-08 01:59:59 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 10,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD"
+      ],
+      "qualityReason": "DR-0, spam-TLD"
     },
     {
       "domain": "browseallexpireddomains.us",
@@ -2371,7 +3248,13 @@
       "backlinks": 2,
       "first_seen": "2025-04-07 04:15:41 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "zoominfo.com",
@@ -2379,7 +3262,13 @@
       "backlinks": 1,
       "first_seen": "2025-03-21 14:10:46 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "salutingheroesballoonrally.com",
@@ -2387,7 +3276,13 @@
       "backlinks": 1,
       "first_seen": "2025-03-19 22:37:34 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "intently.co",
@@ -2395,7 +3290,13 @@
       "backlinks": 2,
       "first_seen": "2025-03-08 05:02:06 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "peekyou.com",
@@ -2403,7 +3304,13 @@
       "backlinks": 2,
       "first_seen": "2025-03-08 04:37:31 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "lodgefarm-plants.com",
@@ -2411,7 +3318,13 @@
       "backlinks": 1,
       "first_seen": "2025-02-26 01:25:42 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "mundotecnologia.info",
@@ -2419,7 +3332,13 @@
       "backlinks": 2,
       "first_seen": "2025-02-09 15:28:04 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "sergechel.info",
@@ -2427,7 +3346,13 @@
       "backlinks": 2,
       "first_seen": "2025-02-06 23:09:22 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "kompromat100.info",
@@ -2435,7 +3360,13 @@
       "backlinks": 1,
       "first_seen": "2025-02-04 01:01:35 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "insumosartesgraficas.com",
@@ -2443,7 +3374,13 @@
       "backlinks": 3,
       "first_seen": "2025-01-12 01:30:50 +00:00",
       "dofollow": 0,
-      "referring_pages": 3
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "drjack.world",
@@ -2451,7 +3388,13 @@
       "backlinks": 2,
       "first_seen": "2025-01-02 04:55:42 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "quero.party",
@@ -2459,7 +3402,13 @@
       "backlinks": 2,
       "first_seen": "2024-12-30 00:36:11 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "jazminsbeautysalon.be",
@@ -2467,7 +3416,14 @@
       "backlinks": 2,
       "first_seen": "2024-11-18 13:08:58 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
     },
     {
       "domain": "mercerpubliclibrary.org",
@@ -2475,7 +3431,13 @@
       "backlinks": 1,
       "first_seen": "2024-11-06 15:20:03 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "countrylifedreams.com",
@@ -2483,7 +3445,13 @@
       "backlinks": 1,
       "first_seen": "2024-10-28 13:33:32 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "levleachim.co.il",
@@ -2491,7 +3459,13 @@
       "backlinks": 2,
       "first_seen": "2024-09-01 06:49:14 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "foodroute.nl",
@@ -2499,7 +3473,13 @@
       "backlinks": 1,
       "first_seen": "2024-08-25 18:00:45 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "redmanrentalgroup.com",
@@ -2507,7 +3487,13 @@
       "backlinks": 2,
       "first_seen": "2024-08-24 01:49:59 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "kcporktrs.dp.ua",
@@ -2515,7 +3501,14 @@
       "backlinks": 1,
       "first_seen": "2024-07-19 12:39:38 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
     },
     {
       "domain": "3lakesrealestate.com",
@@ -2523,7 +3516,13 @@
       "backlinks": 1,
       "first_seen": "2024-07-02 23:31:52 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "seolium.com",
@@ -2531,7 +3530,14 @@
       "backlinks": 2,
       "first_seen": "2024-06-22 03:28:32 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
     },
     {
       "domain": "theweek.com",
@@ -2539,7 +3545,13 @@
       "backlinks": 1,
       "first_seen": "2024-05-18 16:45:10 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "movingbitsproductions.com",
@@ -2547,7 +3559,14 @@
       "backlinks": 1,
       "first_seen": "2024-04-26 21:49:02 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "jacobsgolfmemorial.com",
@@ -2555,7 +3574,13 @@
       "backlinks": 2,
       "first_seen": "2024-03-09 00:14:14 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "prlog.ru",
@@ -2563,7 +3588,14 @@
       "backlinks": 5,
       "first_seen": "2024-03-08 02:52:28 +00:00",
       "dofollow": 0,
-      "referring_pages": 5
+      "referring_pages": 5,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
     },
     {
       "domain": "minaquabats.org",
@@ -2571,7 +3603,13 @@
       "backlinks": 1,
       "first_seen": "2023-12-11 16:08:37 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "lakeoswegomashigata.blogspot.com",
@@ -2579,7 +3617,14 @@
       "backlinks": 4,
       "first_seen": "2023-12-10 22:26:08 +00:00",
       "dofollow": 0,
-      "referring_pages": 4
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, suspiciously-long-domain"
     },
     {
       "domain": "lakelandfitnessandgolf.com",
@@ -2587,7 +3632,13 @@
       "backlinks": 2,
       "first_seen": "2023-11-26 21:25:19 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "boulderjct.org",
@@ -2595,7 +3646,13 @@
       "backlinks": 2,
       "first_seen": "2023-11-21 22:59:45 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "global-website.pages.dev",
@@ -2603,7 +3660,13 @@
       "backlinks": 2,
       "first_seen": "2023-11-13 22:30:18 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "echoz.pages.dev",
@@ -2611,7 +3674,13 @@
       "backlinks": 1,
       "first_seen": "2023-10-14 18:25:33 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "businessesup.com",
@@ -2619,7 +3688,13 @@
       "backlinks": 4,
       "first_seen": "2023-10-12 09:25:11 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "snoskeeters.org",
@@ -2627,7 +3702,13 @@
       "backlinks": 1,
       "first_seen": "2023-10-08 15:13:00 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "conover.org",
@@ -2635,7 +3716,13 @@
       "backlinks": 1,
       "first_seen": "2023-10-07 02:58:02 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "vilaswi.com",
@@ -2643,7 +3730,13 @@
       "backlinks": 2,
       "first_seen": "2023-09-22 09:38:18 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "campanilecenter.org",
@@ -2651,7 +3744,13 @@
       "backlinks": 2,
       "first_seen": "2023-09-16 20:09:48 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "gotrncwisconsin.org",
@@ -2659,7 +3758,13 @@
       "backlinks": 1,
       "first_seen": "2023-08-21 10:53:07 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "webworklife.com",
@@ -2667,7 +3772,13 @@
       "backlinks": 2,
       "first_seen": "2023-07-05 13:16:34 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "northwoodsrealtors.org",
@@ -2675,7 +3786,13 @@
       "backlinks": 507,
       "first_seen": "2023-07-02 22:36:55 +00:00",
       "dofollow": 0,
-      "referring_pages": 507
+      "referring_pages": 507,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "northwoodsveteranshomestead.org",
@@ -2683,7 +3800,14 @@
       "backlinks": 2,
       "first_seen": "2023-06-19 13:55:13 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, suspiciously-long-domain"
     },
     {
       "domain": "namesandnumbers.com",
@@ -2691,7 +3815,13 @@
       "backlinks": 6,
       "first_seen": "2023-04-13 10:00:24 +00:00",
       "dofollow": 0,
-      "referring_pages": 5
+      "referring_pages": 5,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "minocquakawaga.org",
@@ -2699,7 +3829,13 @@
       "backlinks": 1,
       "first_seen": "2023-04-11 01:10:40 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "upnorthaction.com",
@@ -2707,7 +3843,13 @@
       "backlinks": 5,
       "first_seen": "2023-03-31 11:05:59 +00:00",
       "dofollow": 0,
-      "referring_pages": 5
+      "referring_pages": 5,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "rhinelanderchamber.com",
@@ -2715,7 +3857,13 @@
       "backlinks": 4,
       "first_seen": "2023-03-20 21:39:57 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "lakehouse.com",
@@ -2723,7 +3871,13 @@
       "backlinks": 1,
       "first_seen": "2023-03-19 07:16:39 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "upnorthhomeshowcase.com",
@@ -2731,7 +3885,13 @@
       "backlinks": 5,
       "first_seen": "2022-04-28 11:46:36 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "tntcode.com",
@@ -2739,7 +3899,13 @@
       "backlinks": 1,
       "first_seen": "2022-04-08 07:29:40 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "willettonuniforms.com.au",
@@ -2747,7 +3913,13 @@
       "backlinks": 13,
       "first_seen": "2022-03-23 17:32:19 +00:00",
       "dofollow": 0,
-      "referring_pages": 13
+      "referring_pages": 13,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "eagleriver.org",
@@ -2755,7 +3927,13 @@
       "backlinks": 5,
       "first_seen": "2022-03-19 05:29:00 +00:00",
       "dofollow": 0,
-      "referring_pages": 5
+      "referring_pages": 5,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "oldhousecalling.com",
@@ -2763,7 +3941,14 @@
       "backlinks": 1,
       "first_seen": "2022-01-30 01:42:01 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "equinenow.com",
@@ -2771,7 +3956,13 @@
       "backlinks": 2,
       "first_seen": "2021-12-25 15:02:01 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "northwoodspros.com",
@@ -2779,7 +3970,14 @@
       "backlinks": 1,
       "first_seen": "2021-12-18 17:18:52 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "northtwinbuilders.com",
@@ -2787,7 +3985,13 @@
       "backlinks": 1,
       "first_seen": "2021-11-02 10:13:00 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "northwoodsblizzardblast.com",
@@ -2795,10 +3999,265 @@
       "backlinks": 2,
       "first_seen": "2020-02-22 07:19:07 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     }
   ],
   "errors": [],
   "status": "success",
-  "gatheredAt": "2026-04-15T05:11:53.766Z"
+  "gatheredAt": "2026-04-15T05:11:53.766Z",
+  "qualitySummary": {
+    "total": 149,
+    "legitimate": 20,
+    "suspicious": 110,
+    "spam": 19,
+    "legitimatePct": 13,
+    "suspiciousPct": 74,
+    "spamPct": 13,
+    "topLegitimate": [
+      {
+        "domain": "listhub.net",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 216)"
+      },
+      {
+        "domain": "dtg5o8n2qcvfv.cloudfront.net",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 122)"
+      },
+      {
+        "domain": "buysellnorthwoods.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 120)"
+      },
+      {
+        "domain": "runsignup.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 113)"
+      },
+      {
+        "domain": "pagelsrealtyteam.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 113)"
+      },
+      {
+        "domain": "lindalongrealestate.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 106)"
+      },
+      {
+        "domain": "minocqua-real-estate.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 93)"
+      },
+      {
+        "domain": "strandsofstrength.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 81)"
+      },
+      {
+        "domain": "julielovesthenorthwoods.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 72)"
+      },
+      {
+        "domain": "golfhomes.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "Recognized legitimate domain"
+      },
+      {
+        "domain": "constantcontact.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 66)"
+      },
+      {
+        "domain": "kotohomes.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "Recognized legitimate domain"
+      },
+      {
+        "domain": "hasbrooklake.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "eagleriverrevitalization.org",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "e-drapery.ca",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "tarastephensrealtor.com",
+        "quality": "legitimate",
+        "score": 98,
+        "reason": "Recognized legitimate domain"
+      },
+      {
+        "domain": "minocquawinterpark.org",
+        "quality": "legitimate",
+        "score": 97,
+        "reason": "High domain authority (DR 57)"
+      },
+      {
+        "domain": "clientsbee.com",
+        "quality": "legitimate",
+        "score": 91,
+        "reason": "High domain authority (DR 51)"
+      },
+      {
+        "domain": "village.do",
+        "quality": "legitimate",
+        "score": 77,
+        "reason": "low-DR"
+      },
+      {
+        "domain": "realtor.com",
+        "quality": "legitimate",
+        "score": 50,
+        "reason": "Recognized legitimate domain"
+      }
+    ],
+    "topSpam": [
+      {
+        "domain": "seomuda.id",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, low-DR-foreign, SEO-spam-domain"
+      },
+      {
+        "domain": "thebestbacklinksavailable.click",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, spam-TLD, SEO-spam-domain, suspiciously-long-domain"
+      },
+      {
+        "domain": "belonnanotservice.ga",
+        "quality": "spam",
+        "score": 10,
+        "reason": "DR-0, spam-TLD"
+      },
+      {
+        "domain": "what-happens-next.xyz",
+        "quality": "spam",
+        "score": 10,
+        "reason": "DR-0, spam-TLD"
+      },
+      {
+        "domain": "rankvancebacklinks.pro",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "rankvanceseo.info",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "australianwebdirectory.pro",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "australianwebdirectory.shop",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "seobacklinks.agency",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "seolium.com",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "torun-stolarz.pl",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, low-DR-foreign"
+      },
+      {
+        "domain": "mydeepin.ru",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, low-DR-foreign"
+      },
+      {
+        "domain": "passiogolf.vn",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, low-DR-foreign"
+      },
+      {
+        "domain": "jazminsbeautysalon.be",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, low-DR-foreign"
+      },
+      {
+        "domain": "kcporktrs.dp.ua",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, low-DR-foreign"
+      },
+      {
+        "domain": "movingbitsproductions.com",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "prlog.ru",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, low-DR-foreign"
+      },
+      {
+        "domain": "oldhousecalling.com",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "northwoodspros.com",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      }
+    ],
+    "analyzedAt": "2026-05-05T18:41:28.217Z",
+    "method": "rule-based-v1"
+  }
 }

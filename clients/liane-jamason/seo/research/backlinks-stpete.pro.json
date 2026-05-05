@@ -1,0 +1,2821 @@
+{
+  "domain": "stpete.pro",
+  "totalBacklinks": 137,
+  "referringDomains": 88,
+  "backlinks": [
+    {
+      "source_url": "http://www.onthebeach.me/",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-04-23 17:21:07 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://tsitestatus.com/exit/onthebeach.me",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "http://www.onthebeach.me",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-01-14 21:17:14 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://onthebeach.me/",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2026-01-01 15:34:48 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.onthebeach.me/",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2026-01-01 15:34:44 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "http://onthebeach.me/",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2026-01-01 15:34:38 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.sigler-group.com/blog/at8pjiu3x17dr47578hw1nhctnpopg",
+      "target_url": "https://www.stpete.pro/blog/3-staging-trends-to-sell-your-waterfront-home",
+      "anchor_text": "Staging your waterfront property",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2023-10-16 11:33:17 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.realtrends.com/team-profile/thesalamonegroup-florida-compass/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-02-24 23:11:58 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.luxuryrealestate.com/news/press_releases/12722",
+      "target_url": "https://stpete.pro/",
+      "anchor_text": "stpete.pro",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2023-11-14 02:25:06 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://puca.pages.dev/04/khzlslsgqO",
+      "target_url": "https://stpete.pro/",
+      "anchor_text": "stpete.pro",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-10-14 20:30:38 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.australianwebdirectory.com/domain-list-834",
+      "target_url": "http://stpete.pro/",
+      "anchor_text": "stpete.pro",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-10-09 09:19:46 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://intently.co/suppliers/United+States/St+Petersburg/Luxury+Real+Estate",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "St. Petersburg and Tierra Verde Real Estate | The Salamone Group",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-04-15 13:37:34 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.luxuryrealestate.com/news/press_releases/13199",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "The Salamone Group at Compass",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-01-19 18:59:15 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.luxuryrealestate.com/news/press_releases/13897",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "Andrew Salamone, The Salamone Group at Compass",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-10-27 16:28:00 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.luxuryrealestate.com/news/press_releases/13014",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "The Salamone Group at Compass",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-28 03:07:46 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://slapshady.com/quarterlinks-dofollow-article-links-just-for-25-6170/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-06-08 02:10:32 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "http://bluecantera.com/dark-side-links-dark-white-hat-link-building-105/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-23 00:54:11 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://kelas.seomuda.id/quarterlinks-dofollow-article-links-just-for-25-6170/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-23 16:13:27 +00:00"
+    },
+    {
+      "source_url": "https://quero.party/report/40261",
+      "target_url": "https://stpete.pro/",
+      "anchor_text": "stpete.pro",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-11-17 00:33:58 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "http://www.torun-stolarz.pl/dark-side-links-dark-white-hat-link-building-105/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-21 08:26:08 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.ododuorpremium.com/2026/02/21/dark-side-links-dark-white-hat-link-building-105/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-20 16:59:52 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.tampabaysymphony.org/sponsors/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-03-06 21:02:40 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.erealestatepro.com/real_estate_agents/listing_b8f8d866676a875a8d5905d6dd1231ae.shtml",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "https://www.stpete.pro",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2022-09-16 09:07:39 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://berlin-immobilien-verkaufen.de/dark-side-links-dark-white-hat-link-building-105/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-20 11:56:33 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://shoplogist.com/dark-side-links-dark-white-hat-link-building-105/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-20 10:33:16 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://anchorurl.cloud/share/40260",
+      "target_url": "https://stpete.pro/",
+      "anchor_text": "stpete.pro",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-02 15:38:52 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://drjack.world/report/40260",
+      "target_url": "https://stpete.pro/",
+      "anchor_text": "stpete.pro",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-31 05:48:07 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://buzzshrink.website/share/40260",
+      "target_url": "https://stpete.pro/",
+      "anchor_text": "stpete.pro",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-30 21:10:10 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.strollmag.com/locations/venetian-isles-fl/partners/",
+      "target_url": "https://stpete.pro/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-03 21:06:41 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.strollmag.com/locations/tierra-verde-fl/partners/",
+      "target_url": "https://stpete.pro/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-07-31 12:11:26 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.strollmag.com/locations/venetian-isles-fl/",
+      "target_url": "https://stpete.pro/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-03 15:31:57 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.strollmag.com/locations/tierra-verde-fl/",
+      "target_url": "https://stpete.pro/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-07-31 11:46:10 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://arteza.fr/dark-side-links-dark-white-hat-link-building-105/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-08 17:33:54 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://tierraverdehome.com/",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-09-22 16:39:00 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://buzzshrink.website/share/40261",
+      "target_url": "https://stpete.pro/",
+      "anchor_text": "stpete.pro",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-26 08:16:09 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://alljobs.info/185f190a9e9323f094b13272dd9e0215-l/",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-05 04:09:26 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://shortenurls.eu/share/40261",
+      "target_url": "https://stpete.pro/",
+      "anchor_text": "stpete.pro",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-22 14:44:57 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://shortenurls.eu/share/63249",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-15 02:19:54 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.tunca.org/185f190a9e9323f094b13272dd9e0215-l/",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-01 13:34:29 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://urls-shortener.eu/share/63249",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-19 18:54:41 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "http://www.cuevideos.com/bez-rubriki/dark-side-links-dark-white-hat-link-building-105/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-28 04:44:35 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://buzzshrink.website/share/63248",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-28 00:57:51 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.wallpapers.pro/185f190a9e9323f094b13272dd9e0215-l/",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-27 10:57:29 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://urls-shortener.eu/share/63248",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-27 00:00:56 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.tellows.com/num/7272324491",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "Website",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-11-09 09:45:32 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 40
+    },
+    {
+      "source_url": "https://www.getwebsiteworth.com/185f190a9e9323f094b13272dd9e0215-l/",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-23 18:58:45 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://sites.jake.eu/share/63248",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-23 16:13:24 +00:00"
+    },
+    {
+      "source_url": "https://www.xploredomains.com/2024-08-21?page=25",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-09-22 16:31:47 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://sisgroup.lk/quarterlinks-dofollow-article-links-just-for-25-6170/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-13 01:38:25 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://sites.jake.eu/share/63249",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-14 20:22:52 +00:00"
+    },
+    {
+      "source_url": "https://getwebsiteworth.com/185f190a9e9323f094b13272dd9e0215-l/",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-02 09:46:53 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://sites.jake.eu/share/40261",
+      "target_url": "https://stpete.pro/",
+      "anchor_text": "stpete.pro",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-13 01:05:02 +00:00"
+    },
+    {
+      "source_url": "https://www.musweb.org/page-5f4c998f42f8f1ba8f112256b6d39632.html",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-11 09:16:51 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://drjack.world/report/63249",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-12-30 14:52:04 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://quero.party/report/63249",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-12-27 22:10:04 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://screenshots.wiki/report/63248",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-04 07:02:50 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://booksreadr.org/page-5f4c998f42f8f1ba8f112256b6d39632.html",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-03 15:29:45 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://anchorurl.cloud/share/63248",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-02 09:34:22 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://ready.pro/stats/40260",
+      "target_url": "https://stpete.pro/",
+      "anchor_text": "stpete.pro",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-01 13:03:47 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://stpetecatalyst.com/market-property/stunning-one-of-a-kind-condo-in-st-petersburgs-prestigious-vinoy-place/",
+      "target_url": "https://search.stpete.pro/listing-detail/1037910541/555_5TH_AVENUE_NE_-824-St_Petersburg-FL",
+      "anchor_text": "Property Website",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2021-04-11 16:42:50 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://global-website.pages.dev/12/khzlslsgqO",
+      "target_url": "https://stpete.pro/",
+      "anchor_text": "stpete.pro",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-11-14 13:11:58 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://way2check.cv/page-5f4c998f42f8f1ba8f112256b6d39632.html",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-25 05:33:40 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://buzzshrink.website/share/63249",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-25 05:11:26 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://global-website.pages.dev/37/PJCIheRbSh",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-11-13 17:50:08 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://mydeepin.ru/best-white-dark-hat-linkbuilding-for-your-website-656/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "LINKS FOR www.stpete.pro TELEGRAM @happygrannypies",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-08-15 16:37:16 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://globalecommerce.org/page-5f4c998f42f8f1ba8f112256b6d39632.html",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-07 04:28:42 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.simplewebdirectory.com/185f190a9e9323f094b13272dd9e0215-l/",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-18 18:46:46 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://drjack.world/report/40261",
+      "target_url": "https://stpete.pro/",
+      "anchor_text": "stpete.pro",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-11-19 16:11:20 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.example3.com/domain/propertypanorama.com",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-09-28 16:22:32 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.websitescrawl.com/domain-list-20342",
+      "target_url": "http://stpete.pro/",
+      "anchor_text": "stpete",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-03-08 05:14:25 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.websiterace.com/790296166e24236c65994c734754b4ca-l/",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "onthebeach.me",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-31 06:49:50 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://bye.fyi/report/63249",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-12-30 12:47:34 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "http://wheretobuybest.link/Event-Agentsgreato/",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-12-29 06:45:24 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://getwebsiteworth.com/790296166e24236c65994c734754b4ca-l/",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "onthebeach.me",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-27 21:59:16 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.getwebsiteworth.com/790296166e24236c65994c734754b4ca-l/",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "onthebeach.me",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-20 03:24:04 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.expertise.com/home-improvement/real-estate-agents/florida/largo",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "Visit Website",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-08-07 12:46:04 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://2x9.co/page-67bf93e3c079ace3e660da836c5d9e47.html",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "onthebeach.me",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-03 06:44:58 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://tierraverdeevents.wixsite.com/treelighting/copy-of-2024-sponsors",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-07-31 11:38:53 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://tierraverdeevents.wixsite.com/treelighting/our-sponsors",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-30 03:28:41 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://centralc.pages.dev/03/PJCIheRbSh",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-10-14 18:47:10 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "http://2971ststw.com/",
+      "target_url": "https://www.stpete.pro/listing/tb8384301-297-1st-street-w-tierra-verde-fl-33715/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-10-10 22:58:10 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://www.uniquehomes.com/properties/1967540-Residential-Tierra-Verde-Pinellas-33715-United-States-4-Bedrooms-2-Bathrooms-USD3-500-000/",
+      "target_url": "https://www.stpete.pro/listing/tb8384301-297-1st-street-w-tierra-verde-fl-33715/",
+      "anchor_text": "View website",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-10-10 22:57:00 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://bye.fyi/report/115113",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "onthebeach.me",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-11-17 15:52:53 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://quero.party/report/115113",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "onthebeach.me",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-11-16 17:06:35 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://productionfunctionusa.com/quarterlinks-dofollow-article-links-just-for-25-6170/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-10 22:34:42 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.strollmag.com/locations/tierra-verde-fl/articles/-791fbb/",
+      "target_url": "http://www.stpete.pro/",
+      "anchor_text": "www.stpete.pro",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-01-24 13:20:01 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://algolinkers.agency/guaranteed-seo-backlinks-pay-later-399/",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-22 03:51:00 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.travelnetworkindia.com/domain-list-834",
+      "target_url": "http://stpete.pro/",
+      "anchor_text": "stpete.pro",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-09-17 20:01:11 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://australianwebdirectory.pro/790296166e24236c65994c734754b4ca-l/",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "onthebeach.me",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-07 00:23:26 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://piscatore.dk/blog/2025/07/01/quarterlinks-dofollow-article-links-just-for-25-6170/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-09-13 00:58:59 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://australianwebdirectory.pro/185f190a9e9323f094b13272dd9e0215-l/",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-02 15:47:43 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://bye.fyi/report/2765388",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-11-11 11:59:18 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "http://3rdpalmpoint.com/",
+      "target_url": "http://www.stpete.pro/listing/u8240563-6410-3rd-palm-point-st-pete-beach-fl-33706/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-08-24 01:21:18 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://newlyregddomains.com/2024-08-20/43",
+      "target_url": "http://www.stpete.pro/listing/u8240563-6410-3rd-palm-point-st-pete-beach-fl-33706/",
+      "anchor_text": "3rdpalmpoint.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-08-23 01:21:05 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://newlyregddomains.com/2024-01-14/6",
+      "target_url": "http://www.stpete.pro/listing/u8226749-624-pinta-drive-tierra-verde-fl-33715/",
+      "anchor_text": "624pinta.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-02-23 09:17:08 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://globalcocolk.com/2025/07/01/quarterlinks-dofollow-article-links-just-for-25-6170/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-08-02 13:47:14 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "http://624pinta.com/",
+      "target_url": "http://www.stpete.pro/listing/u8226749-624-pinta-drive-tierra-verde-fl-33715/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-02-23 09:18:21 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.cocoqatar.com/quarterlinks-dofollow-article-links-just-for-25-6170/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-05-20 01:06:17 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://m-he.com/quarterlinks-dofollow-article-links-just-for-25-6170/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-31 10:14:00 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://insumosartesgraficas.com/2024/07/30/best-white-dark-hat-linkbuilding-for-your-website-656/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "LINKS FOR www.stpete.pro TELEGRAM @happygrannypies",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-01-12 02:13:43 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://ezeller.com/quarterlinks-dofollow-article-links-just-for-25-6170/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-15 12:20:35 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://mundotecnologia.info/8900c59986385ed85dd0da772ac38863-domains.html",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "onthebeach.me",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-02-10 13:13:58 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://mundotecnologia.info/bc8d7a543344dfdf31cbebc25b4000f6-domains.html",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-02-09 06:41:30 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://quero.party/report/2765388",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-11-27 12:07:50 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://thebestbacklinksavailable.click/1a5603d919bd1b42269f44c17fb173b5-items",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-10 13:13:01 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://thebestbacklinksavailable.click/e6824bbba5ca4957c69aeb8d26baa02c-items",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "onthebeach.me",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-08 16:58:25 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://levleachim.co.il/best-white-dark-hat-linkbuilding-for-your-website-656/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "LINKS FOR www.stpete.pro TELEGRAM @happygrannypies",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-09-01 07:27:13 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://browseallexpireddomains.us/b9a8e621eaea0ecc0b843a6460f5eb2e-view.html",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "onthebeach.me",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-07-01 01:47:43 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://browseallexpireddomains.us/0b73a98aa72a788b8ca404b8b85d4389-view.html",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-08 05:27:06 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://agmermer.pro/1732290829f2d04b543420871a63bdb5-domains.html",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-12 22:58:10 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://what-happens-next.xyz/list-edde811ba7fb56e908d5b99077487670",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "onthebeach.me",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-12 13:26:41 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 10
+    },
+    {
+      "source_url": "https://what-happens-next.xyz/list-d544ab8f3347211d3b48b4ff8b3d2a66",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-08 07:39:20 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 10
+    },
+    {
+      "source_url": "https://foodroute.nl/2024/07/30/best-white-dark-hat-linkbuilding-for-your-website-656/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "LINKS FOR www.stpete.pro TELEGRAM @happygrannypies",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-08-25 19:48:07 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://great-choice-for-pbn-domains.co.uk/a98bcc42f7811c96d8ca14e7627fe53e-str",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-06-16 17:16:54 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 40
+    },
+    {
+      "source_url": "https://www.shopandgetlocal.com/listing/the-salamone-group-tierra-verde-real-estate-at-re-max-metro/",
+      "target_url": "http://www.stpete.pro/",
+      "anchor_text": "http://www.stpete.pro",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2022-03-14 03:33:58 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://australianwebdirectory.shop/page-67bf93e3c079ace3e660da836c5d9e47.html",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "onthebeach.me",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 22:32:45 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://great-choice-for-pbn-domains.co.uk/0029d59aba86caf181a73a9048878cdd-str",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "onthebeach.me",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-01 17:48:54 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 40
+    },
+    {
+      "source_url": "https://tierraverdeevents.wixsite.com/treelighting/copy-of-2023-sponsors-1",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-05-23 22:04:26 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://belonnanotservice.ga/page-c10c1fab2b907834c4884e79a1f3d5f2.html",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-27 17:07:27 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://sergechel.info/list-11b380b0e78223bc5659951eaf4d54be",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "onthebeach.me",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-02-09 09:21:39 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://seobacklinks.agency/professional-high-quality-dofollow-link-building-for-your-website-seo-59858/",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "https://tierraverdehome.com – You need to Skyrocket your Ahrefs DR, Moz DA, and Majestic TF with real PBN, Guest posts, and premium backlinks—competitors trust us, why not you? Pay after work! Visit SeoBoost.agency now!",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-05-17 11:46:39 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://seobacklinks.agency/professional-high-quality-dofollow-link-building-for-your-website-seo-52848/",
+      "target_url": "https://stpete.pro/",
+      "anchor_text": "https://stpete.pro – You need to Skyrocket your Ahrefs DR, Moz DA, and Majestic TF with real PBN, Guest posts, and premium backlinks—competitors trust us, why not you? Pay after work! Visit SeoBoost.agency now!",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-05-17 03:29:25 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://agmermer.pro/94a2874b1bc08dbcb998318e4db5f547-domains.html",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "onthebeach.me",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-16 02:02:52 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://rankgrow.agency/risk-free-seo-backlinks-service-59858/",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "https://tierraverdehome.com – Increase your site’s backlinks and skyrocket your DA, DR, and TF with our expert SEO services—authentic dofollow backlinks, guest posts, and PBN links delivered by our team. Visit BuySeoLink.com to choose a plan, enjoy our pay-after-work model, and access 24/7 support!",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-05-11 20:31:29 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://rankgrow.agency/risk-free-seo-backlinks-service-52848/",
+      "target_url": "https://stpete.pro/",
+      "anchor_text": "https://stpete.pro – Increase your site’s backlinks and skyrocket your DA, DR, and TF with our expert SEO services—authentic dofollow backlinks, guest posts, and PBN links delivered by our team. Visit BuySeoLink.com to choose a plan, enjoy our pay-after-work model, and access 24/7 support!",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-05-11 12:00:27 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://kompromat100.info/dom-id-bb6fc5d8462c45f85dac78562fca16f9.html",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "onthebeach.me",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-26 18:21:06 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://bahiacondo.me/",
+      "target_url": "https://www.stpete.pro/listing/tb8339464-6085-bahia-del-mar-circle-272-st-petersburg-fl-33715/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-23 17:20:52 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Tierra-Verde/1610889409134506/Tierra-Verde%2C-FL-Real-Estate",
+      "target_url": "http://stpete.pro/",
+      "anchor_text": "http://StPete.pro/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-23 17:20:49 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Tierra-Verde/605664926162875/The-Salamone-Group---Real-Estate",
+      "target_url": "https://www.stpete.pro/the-old-northeast/",
+      "anchor_text": "https://www.stpete.pro/the-old-northeast/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-23 17:20:13 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Tierra-Verde/605664926162875/The-Salamone-Group---Real-Estate",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "https://www.stpete.pro/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-23 17:20:13 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Tierra-Verde/605664926162875/The-Salamone-Group---Real-Estate",
+      "target_url": "https://www.stpete.pro/listing/tb8339464-6085-bahia-del-mar-circle-272-st-petersburg-fl-33715/",
+      "anchor_text": "https://bahiacondo.me",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-23 17:20:13 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Tierra-Verde/605664926162875/The-Salamone-Group---Real-Estate",
+      "target_url": "https://www.stpete.pro/listing/tb8340247-1310-gulf-boulevard-4-g-clearwater-fl-33767/",
+      "anchor_text": "www.onthebeach.me",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-23 17:20:13 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://drjack.world/report/1660503",
+      "target_url": "https://stpete.pro/",
+      "anchor_text": "stpete.pro",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-02-05 02:03:23 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://prolinkbox.com/boost-da-dr-tf-with-refill-guarantee-32559/",
+      "target_url": "https://www.stpete.pro/listing/u8248850-366-6th-avenue-n-tierra-verde-fl-33715/",
+      "anchor_text": "tierraverdehome.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-04-19 07:03:38 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.xotly.com/real-estate-agents-in-largo-florida/",
+      "target_url": "https://www.stpete.pro/",
+      "anchor_text": "Visit Website",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2022-04-15 19:56:46 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://agmermer.pro/30c002433ed18e9cdeb46d5d5aa12e36-domains.html",
+      "target_url": "https://www.stpete.pro/listing/tb8339464-6085-bahia-del-mar-circle-272-st-petersburg-fl-33715/",
+      "anchor_text": "bahiacondo.me",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-15 23:25:37 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://thebestbacklinksavailable.click/db2174095a0d8d416238693f5d9bab62-items",
+      "target_url": "https://www.stpete.pro/listing/tb8339464-6085-bahia-del-mar-circle-272-st-petersburg-fl-33715/",
+      "anchor_text": "bahiacondo.me",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-08 18:00:40 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://browseallexpireddomains.us/95a60392d45035096d6fcb96cc5d791c-view.html",
+      "target_url": "https://www.stpete.pro/listing/tb8339464-6085-bahia-del-mar-circle-272-st-petersburg-fl-33715/",
+      "anchor_text": "bahiacondo.me",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-08 09:09:08 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    }
+  ],
+  "referring_domains": [
+    {
+      "domain": "onthebeach.me",
+      "rank": 45,
+      "backlinks": 4,
+      "first_seen": "2025-04-23 17:21:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "intently.co",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-15 13:37:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "seomuda.id",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-23 16:13:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign, SEO-spam-domain"
+    },
+    {
+      "domain": "torun-stolarz.pl",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-21 08:26:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign, telegram-spam-anchor"
+    },
+    {
+      "domain": "ododuorpremium.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-20 16:59:52 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "berlin-immobilien-verkaufen.de",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-20 11:56:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "shoplogist.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-20 10:33:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "arteza.fr",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-08 17:33:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "alljobs.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-05 04:09:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "tunca.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-01 13:34:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "cuevideos.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-28 04:44:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "wallpapers.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-27 10:57:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "bluecantera.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-23 00:54:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "jake.eu",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-02-13 01:05:02 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "musweb.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-11 09:16:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "screenshots.wiki",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-04 07:02:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "booksreadr.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-03 15:29:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "anchorurl.cloud",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-02-02 09:34:22 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "ready.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-01 13:03:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "way2check.cv",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-25 05:33:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "buzzshrink.website",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2026-01-25 05:11:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "urls-shortener.eu",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-19 18:54:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "simplewebdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-18 18:46:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+    },
+    {
+      "domain": "shortenurls.eu",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-15 02:19:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "websiterace.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-31 06:49:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "wheretobuybest.link",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-29 06:45:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "getwebsiteworth.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-12-20 03:24:04 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "globalecommerce.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-07 04:28:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "2x9.co",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-03 06:44:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "2971ststw.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-10-10 22:58:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0",
+        "numeric-domain"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0, numeric-domain"
+    },
+    {
+      "domain": "uniquehomes.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-10-10 22:57:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "australianwebdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-10-09 09:19:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "algolinkers.agency",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-22 03:51:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "travelnetworkindia.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-17 20:01:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "piscatore.dk",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-13 00:58:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "mydeepin.ru",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-15 16:37:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign, telegram-spam-anchor"
+    },
+    {
+      "domain": "australianwebdirectory.pro",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-08-02 15:47:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "globalcocolk.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-02 13:47:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "m-he.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-31 10:14:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "ezeller.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-15 12:20:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "sisgroup.lk",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-13 01:38:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "productionfunctionusa.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-10 22:34:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "slapshady.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-06-08 02:10:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "australianwebdirectory.shop",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-06-01 22:32:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+    },
+    {
+      "domain": "belonnanotservice.ga",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-27 17:07:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, spam-TLD, single-dofollow-DR0"
+    },
+    {
+      "domain": "cocoqatar.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-20 01:06:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "seobacklinks.agency",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-17 03:29:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "rankgrow.agency",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-11 12:00:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "kompromat100.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-04-26 18:21:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "bahiacondo.me",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-04-23 17:20:52 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "gloopla.com",
+      "rank": 0,
+      "backlinks": 6,
+      "first_seen": "2025-04-23 17:20:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "prolinkbox.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-04-19 07:03:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "agmermer.pro",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-04-15 23:25:37 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "thebestbacklinksavailable.click",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-04-08 16:58:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD",
+        "SEO-spam-domain",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, spam-TLD, SEO-spam-domain, suspiciously-long-domain"
+    },
+    {
+      "domain": "what-happens-next.xyz",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-04-08 07:39:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 10,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD"
+      ],
+      "qualityReason": "DR-0, spam-TLD"
+    },
+    {
+      "domain": "browseallexpireddomains.us",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-04-08 05:27:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "great-choice-for-pbn-domains.co.uk",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-04-01 17:48:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, suspiciously-long-domain"
+    },
+    {
+      "domain": "websitescrawl.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-03-08 05:14:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "realtrends.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-02-24 23:11:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "sergechel.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-02-09 09:21:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "mundotecnologia.info",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-02-09 06:41:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "drjack.world",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-02-05 02:03:23 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "tsitestatus.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-01-14 21:17:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "insumosartesgraficas.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-01-12 02:13:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor, single-dofollow-DR0"
+    },
+    {
+      "domain": "quero.party",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2024-11-27 12:07:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "bye.fyi",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2024-11-11 11:59:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "tellows.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-11-09 09:45:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "generic-anchor-low-DR"
+      ],
+      "qualityReason": "DR-0, generic-anchor-low-DR"
+    },
+    {
+      "domain": "example3.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-09-28 16:22:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "tierraverdehome.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-09-22 16:39:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "xploredomains.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-09-22 16:31:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "levleachim.co.il",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-09-01 07:27:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor, single-dofollow-DR0"
+    },
+    {
+      "domain": "foodroute.nl",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-08-25 19:48:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor, single-dofollow-DR0"
+    },
+    {
+      "domain": "3rdpalmpoint.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-08-24 01:21:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "expertise.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-08-07 12:46:04 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "tierraverdeevents.wixsite.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2024-05-23 22:04:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "tampabaysymphony.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-03-06 21:02:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "624pinta.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-02-23 09:18:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "newlyregddomains.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-02-23 09:17:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "strollmag.com",
+      "rank": 0,
+      "backlinks": 5,
+      "first_seen": "2024-01-24 13:20:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "global-website.pages.dev",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2023-11-13 17:50:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "luxuryrealestate.com",
+      "rank": 0,
+      "backlinks": 6,
+      "first_seen": "2023-10-28 03:07:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "sigler-group.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-16 11:33:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "puca.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-14 20:30:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "centralc.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-14 18:47:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "erealestatepro.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2022-09-16 09:07:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "xotly.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2022-04-15 19:56:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "shopandgetlocal.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2022-03-14 03:33:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "stpetecatalyst.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2021-04-11 16:42:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    }
+  ],
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-05-05T18:40:57.073Z",
+  "qualitySummary": {
+    "total": 88,
+    "legitimate": 3,
+    "suspicious": 35,
+    "spam": 50,
+    "legitimatePct": 3,
+    "suspiciousPct": 40,
+    "spamPct": 57,
+    "topLegitimate": [
+      {
+        "domain": "onthebeach.me",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "uniquehomes.com",
+        "quality": "legitimate",
+        "score": 50,
+        "reason": "Recognized legitimate domain"
+      },
+      {
+        "domain": "realtrends.com",
+        "quality": "legitimate",
+        "score": 50,
+        "reason": "Recognized legitimate domain"
+      }
+    ],
+    "topSpam": [
+      {
+        "domain": "seomuda.id",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, low-DR-foreign, SEO-spam-domain"
+      },
+      {
+        "domain": "torun-stolarz.pl",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, low-DR-foreign, telegram-spam-anchor"
+      },
+      {
+        "domain": "ododuorpremium.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "berlin-immobilien-verkaufen.de",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "shoplogist.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "arteza.fr",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "cuevideos.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "bluecantera.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "simplewebdirectory.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+      },
+      {
+        "domain": "piscatore.dk",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "mydeepin.ru",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, low-DR-foreign, telegram-spam-anchor"
+      },
+      {
+        "domain": "globalcocolk.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "m-he.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "ezeller.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "sisgroup.lk",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "productionfunctionusa.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "slapshady.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "australianwebdirectory.shop",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+      },
+      {
+        "domain": "belonnanotservice.ga",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, spam-TLD, single-dofollow-DR0"
+      },
+      {
+        "domain": "cocoqatar.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      }
+    ],
+    "analyzedAt": "2026-05-05T18:41:28.136Z",
+    "method": "rule-based-v1"
+  }
+}

@@ -9,7 +9,9 @@
       "anchor_text": "http://www.northwoodshomefinder.com",
       "domain_rating": 113,
       "is_dofollow": true,
-      "first_seen": "2025-04-12 14:23:15 +00:00"
+      "first_seen": "2025-04-12 14:23:15 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     },
     {
       "source_url": "https://www.mylocalservices.com/REMAX+Investandreg+LLC-Rhinelander-Wisconsin-22647243.html",
@@ -17,7 +19,9 @@
       "anchor_text": "http://www.northwoodshomefinder.com/",
       "domain_rating": 32,
       "is_dofollow": true,
-      "first_seen": "2022-06-22 12:21:47 +00:00"
+      "first_seen": "2022-06-22 12:21:47 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://mikeariola.realtyhd.com/",
@@ -49,7 +53,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-10-14 18:21:19 +00:00"
+      "first_seen": "2023-10-14 18:21:19 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
     },
     {
       "source_url": "https://www.websiterace.com/807e2ec26667689bc6ca6ead4596468b-l/",
@@ -57,7 +63,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2026-01-02 16:51:20 +00:00"
+      "first_seen": "2026-01-02 16:51:20 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://sergechel.info/list-d74ec87e53fa6fc83fb717946708b54d",
@@ -65,7 +73,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2026-04-12 04:41:33 +00:00"
+      "first_seen": "2026-04-12 04:41:33 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://listings.northwoodsrealtors.org/listing/33489",
@@ -89,7 +99,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2025-09-22 02:51:17 +00:00"
+      "first_seen": "2025-09-22 02:51:17 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://rankvanceauthority.info/explore-best-backlink-deals-with-rankvance-agency-199/",
@@ -97,7 +109,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2026-03-19 04:29:41 +00:00"
+      "first_seen": "2026-03-19 04:29:41 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://anchorurl.cloud/share/89862",
@@ -105,7 +119,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2026-02-02 12:19:02 +00:00"
+      "first_seen": "2026-02-02 12:19:02 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
     },
     {
       "source_url": "https://pagesearch.net/807e2ec26667689bc6ca6ead4596468b-l/",
@@ -113,7 +129,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2026-03-17 15:54:30 +00:00"
+      "first_seen": "2026-03-17 15:54:30 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/lakecottageland.com",
@@ -121,7 +139,9 @@
       "anchor_text": "",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2025-06-25 19:02:12 +00:00"
+      "first_seen": "2025-06-25 19:02:12 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/castle-rock-realty.com",
@@ -129,7 +149,9 @@
       "anchor_text": "",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2025-04-06 13:22:58 +00:00"
+      "first_seen": "2025-04-06 13:22:58 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://screenshots.wiki/report/89862",
@@ -137,7 +159,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2026-01-29 05:51:56 +00:00"
+      "first_seen": "2026-01-29 05:51:56 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
     },
     {
       "source_url": "https://quero.party/report/89863",
@@ -145,7 +169,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2026-01-01 18:54:29 +00:00"
+      "first_seen": "2026-01-01 18:54:29 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
     },
     {
       "source_url": "https://getwebsiteworth.com/807e2ec26667689bc6ca6ead4596468b-l/",
@@ -153,7 +179,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2026-03-08 07:21:52 +00:00"
+      "first_seen": "2026-03-08 07:21:52 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
     },
     {
       "source_url": "https://alljobs.info/807e2ec26667689bc6ca6ead4596468b-l/",
@@ -161,7 +189,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2026-01-22 17:55:57 +00:00"
+      "first_seen": "2026-01-22 17:55:57 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
     },
     {
       "source_url": "https://australianwebdirectory.shop/page-5ee8711377d62c06ff824651507be186.html",
@@ -169,7 +199,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2025-06-01 19:45:03 +00:00"
+      "first_seen": "2025-06-01 19:45:03 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
     },
     {
       "source_url": "https://www.tellows.com/num/7153697990",
@@ -177,7 +209,9 @@
       "anchor_text": "Website",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2021-12-27 09:27:32 +00:00"
+      "first_seen": "2021-12-27 09:27:32 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 40
     },
     {
       "source_url": "https://www.wallpapers.pro/807e2ec26667689bc6ca6ead4596468b-l/",
@@ -185,7 +219,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2026-03-01 07:17:49 +00:00"
+      "first_seen": "2026-03-01 07:17:49 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://www.tunca.org/807e2ec26667689bc6ca6ead4596468b-l/",
@@ -193,7 +229,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2026-02-24 10:48:23 +00:00"
+      "first_seen": "2026-02-24 10:48:23 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://sites.jake.eu/share/89862",
@@ -249,7 +287,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2026-02-13 00:38:23 +00:00"
+      "first_seen": "2026-02-13 00:38:23 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://drjack.world/report/89863",
@@ -257,7 +297,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2026-01-02 11:43:23 +00:00"
+      "first_seen": "2026-01-02 11:43:23 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
     },
     {
       "source_url": "https://booksreadr.org/page-5ee8711377d62c06ff824651507be186.html",
@@ -265,7 +307,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2026-02-03 14:35:48 +00:00"
+      "first_seen": "2026-02-03 14:35:48 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://ready.pro/stats/89862",
@@ -273,7 +317,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2026-02-03 00:27:27 +00:00"
+      "first_seen": "2026-02-03 00:27:27 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -281,7 +327,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Vilas-WI/4578-Wond...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -289,7 +337,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Langlade-WI/1308-3...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -297,7 +347,9 @@
       "anchor_text": "northwoodshomefinder.com/resid...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -305,7 +357,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Ashland-WI/403-Mai...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -313,7 +367,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Oneida-WI/7103-Bey...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -321,7 +377,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Oneida-WI/136-King...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -329,7 +387,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Oneida-WI/5074-Spa...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -337,7 +397,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Oneida-WI/93-Sprin...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -345,7 +407,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Price-WI/w7082-Dam...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -353,7 +417,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Vilas-WI/2493-Schu...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -361,7 +427,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Oneida-WI/3763-Lak...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -369,7 +437,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Vilas-WI/10995-Ver...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -377,7 +447,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Oneida-WI/1441-Ste...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -385,7 +457,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Forest-WI/1776-Cec...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -393,7 +467,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Oneida-WI/5532-Riv...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -401,7 +477,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Vilas-WI/12163-Str...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -409,7 +487,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Oneida-WI/335-Mapl...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -417,7 +497,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Oneida-WI/427-Lenn...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -425,7 +507,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Oneida-WI/5615-Clo...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -433,7 +517,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Vilas-WI/5967-Litt...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -441,7 +527,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Vilas-WI/3230-Old-...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -449,7 +537,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Forest-WI/4851-Ham...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -457,7 +547,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Oneida-WI/2759-Ger...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -465,7 +557,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Forest-WI/6431-Cth...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -473,7 +567,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Oneida-WI/704-Coon...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -481,7 +577,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Oconto-WI/14336-Ma...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -489,7 +587,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Oneida-WI/4016-Cro...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -497,7 +597,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Price-WI/121-Harmo...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -505,7 +607,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Oneida-WI/920-Rive...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -513,7 +617,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Oneida-WI/2781-Hig...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -521,7 +627,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Iron-Wi-WI/2-Ontar...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -529,7 +637,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Oneida-WI/503-Doug...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -537,7 +647,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/northwoods/userId_19476",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -545,7 +657,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Iron-Wi-WI/105-7th...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -553,7 +667,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Price-WI/355-Avery...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -561,7 +677,9 @@
       "anchor_text": "listings.northwoodshomefinder.com/listing/Oneida-WI/345-High...",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/northwoodshomefinder.com",
@@ -569,7 +687,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-12-26 19:34:31 +00:00"
+      "first_seen": "2023-12-26 19:34:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/landwagner.com",
@@ -577,7 +697,9 @@
       "anchor_text": "",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2022-12-18 14:29:30 +00:00"
+      "first_seen": "2022-12-18 14:29:30 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://prlog.ru/analysis/hilgartrealty.com",
@@ -585,7 +707,9 @@
       "anchor_text": "",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2025-04-25 03:40:17 +00:00"
+      "first_seen": "2025-04-25 03:40:17 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://listings.northwoodsrealtors.org/listing/33os0",
@@ -601,7 +725,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2026-01-27 07:43:20 +00:00"
+      "first_seen": "2026-01-27 07:43:20 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://global-website.pages.dev/32/gjmtKERMzH",
@@ -609,7 +735,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2023-11-13 18:20:25 +00:00"
+      "first_seen": "2023-11-13 18:20:25 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
     },
     {
       "source_url": "https://www.alljobs.info/807e2ec26667689bc6ca6ead4596468b-l/",
@@ -617,7 +745,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2026-01-23 02:58:10 +00:00"
+      "first_seen": "2026-01-23 02:58:10 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
     },
     {
       "source_url": "https://globalecommerce.org/page-5ee8711377d62c06ff824651507be186.html",
@@ -625,7 +755,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2026-01-22 17:51:42 +00:00"
+      "first_seen": "2026-01-22 17:51:42 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://www.simplewebdirectory.com/807e2ec26667689bc6ca6ead4596468b-l/",
@@ -633,7 +765,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2026-01-17 03:29:02 +00:00"
+      "first_seen": "2026-01-17 03:29:02 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
     },
     {
       "source_url": "http://wheretobuybest.link/maret-emasgreato/",
@@ -641,7 +775,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2025-12-29 07:00:04 +00:00"
+      "first_seen": "2025-12-29 07:00:04 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
     },
     {
       "source_url": "https://www.getwebsiteworth.com/807e2ec26667689bc6ca6ead4596468b-l/",
@@ -649,7 +785,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2025-12-26 01:34:04 +00:00"
+      "first_seen": "2025-12-26 01:34:04 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
     },
     {
       "source_url": "https://2x9.co/page-5ee8711377d62c06ff824651507be186.html",
@@ -657,7 +795,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2025-12-07 05:16:54 +00:00"
+      "first_seen": "2025-12-07 05:16:54 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://listings.northwoodsrealtors.org/listing/32opv",
@@ -681,7 +821,9 @@
       "anchor_text": "View My Website",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2025-03-17 20:07:02 +00:00"
+      "first_seen": "2025-03-17 20:07:02 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
     },
     {
       "source_url": "https://listings.northwoodsrealtors.org/listing/32ptm",
@@ -697,7 +839,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2025-02-08 05:34:48 +00:00"
+      "first_seen": "2025-02-08 05:34:48 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
     },
     {
       "source_url": "https://australianwebdirectory.pro/807e2ec26667689bc6ca6ead4596468b-l/",
@@ -705,7 +849,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2025-08-04 23:16:13 +00:00"
+      "first_seen": "2025-08-04 23:16:13 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
     },
     {
       "source_url": "https://listings.northwoodsrealtors.org/listing/2zsqm",
@@ -745,7 +891,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2025-08-22 05:27:11 +00:00"
+      "first_seen": "2025-08-22 05:27:11 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 10
     },
     {
       "source_url": "https://drjack.world/report/543177",
@@ -753,7 +901,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2024-10-29 22:03:38 +00:00"
+      "first_seen": "2024-10-29 22:03:38 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
     },
     {
       "source_url": "https://quero.party/report/543177",
@@ -761,7 +911,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2025-01-29 07:44:45 +00:00"
+      "first_seen": "2025-01-29 07:44:45 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
     },
     {
       "source_url": "https://listings.northwoodsrealtors.org/listing/30uug",
@@ -777,7 +929,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2025-02-09 05:41:07 +00:00"
+      "first_seen": "2025-02-09 05:41:07 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://thebestbacklinksavailable.click/2c4a417634f87fa91eab8c1597ac5f6d-items",
@@ -785,7 +939,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2025-04-11 04:09:36 +00:00"
+      "first_seen": "2025-04-11 04:09:36 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
     },
     {
       "source_url": "https://browseallexpireddomains.us/53e49d9c25538f18defaaa9ce2493ca8-view.html",
@@ -793,7 +949,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2025-04-07 04:19:04 +00:00"
+      "first_seen": "2025-04-07 04:19:04 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://agmermer.pro/e487b70cbcf28b04ac74bc5fe19d7716-domains.html",
@@ -801,7 +959,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2025-05-13 02:43:04 +00:00"
+      "first_seen": "2025-05-13 02:43:04 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     },
     {
       "source_url": "https://what-happens-next.xyz/list-fd5236a22146bc52f39a34eea863bfab",
@@ -809,7 +969,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2025-04-08 09:13:33 +00:00"
+      "first_seen": "2025-04-08 09:13:33 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
     },
     {
       "source_url": "https://listings.northwoodsrealtors.org/listing/307jd",
@@ -841,7 +1003,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2025-05-28 15:21:52 +00:00"
+      "first_seen": "2025-05-28 15:21:52 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
     },
     {
       "source_url": "https://seobacklinks.agency/professional-high-quality-dofollow-link-building-for-your-website-seo-57070/",
@@ -849,7 +1013,9 @@
       "anchor_text": "https://northwoodshomefinder.com – You need to Skyrocket your Ahrefs DR, Moz DA, and Majestic TF with real PBN, Guest posts, and premium backlinks—competitors trust us, why not you? Pay after work! Visit SeoBoost.agency now!",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2025-05-17 09:10:15 +00:00"
+      "first_seen": "2025-05-17 09:10:15 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
     },
     {
       "source_url": "https://rankgrow.agency/risk-free-seo-backlinks-service-57070/",
@@ -857,7 +1023,9 @@
       "anchor_text": "https://northwoodshomefinder.com – Increase your site’s backlinks and skyrocket your DA, DR, and TF with our expert SEO services—authentic dofollow backlinks, guest posts, and PBN links delivered by our team. Visit BuySeoLink.com to choose a plan, enjoy our pay-after-work model, and access 24/7 support!",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2025-05-11 17:41:37 +00:00"
+      "first_seen": "2025-05-11 17:41:37 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
     },
     {
       "source_url": "https://listings.northwoodsrealtors.org/listing/2pqlh",
@@ -889,7 +1057,9 @@
       "anchor_text": "northwoodshomefinder.com",
       "domain_rating": null,
       "is_dofollow": false,
-      "first_seen": "2025-04-19 16:41:32 +00:00"
+      "first_seen": "2025-04-19 16:41:32 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
     },
     {
       "source_url": "https://www.instantcheckmate.com/people/bonnie-steinmetz/",
@@ -897,7 +1067,9 @@
       "anchor_text": "Northwoodshomefinder.Com",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2024-04-04 22:45:07 +00:00"
+      "first_seen": "2024-04-04 22:45:07 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
     }
   ],
   "referring_domains": [
@@ -907,7 +1079,13 @@
       "backlinks": 1,
       "first_seen": "2025-04-12 14:23:15 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
     },
     {
       "domain": "realtyhd.com",
@@ -915,7 +1093,13 @@
       "backlinks": 6,
       "first_seen": "2025-07-12 01:02:35 +00:00",
       "dofollow": 0,
-      "referring_pages": 3
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 77,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
     },
     {
       "domain": "sergechel.info",
@@ -923,7 +1107,14 @@
       "backlinks": 1,
       "first_seen": "2026-04-12 04:41:33 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "rankvanceauthority.info",
@@ -931,7 +1122,14 @@
       "backlinks": 1,
       "first_seen": "2026-03-19 04:29:41 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "pagesearch.net",
@@ -939,7 +1137,14 @@
       "backlinks": 1,
       "first_seen": "2026-03-17 15:54:30 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "wallpapers.pro",
@@ -947,7 +1152,14 @@
       "backlinks": 1,
       "first_seen": "2026-03-01 07:17:49 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "tunca.org",
@@ -955,7 +1167,14 @@
       "backlinks": 1,
       "first_seen": "2026-02-24 10:48:23 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "jake.eu",
@@ -963,7 +1182,13 @@
       "backlinks": 1,
       "first_seen": "2026-02-23 22:13:11 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "musweb.org",
@@ -971,7 +1196,14 @@
       "backlinks": 1,
       "first_seen": "2026-02-13 00:38:23 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "booksreadr.org",
@@ -979,7 +1211,14 @@
       "backlinks": 1,
       "first_seen": "2026-02-03 14:35:48 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "ready.pro",
@@ -987,7 +1226,13 @@
       "backlinks": 1,
       "first_seen": "2026-02-03 00:27:27 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "anchorurl.cloud",
@@ -995,7 +1240,13 @@
       "backlinks": 1,
       "first_seen": "2026-02-02 12:19:02 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "screenshots.wiki",
@@ -1003,7 +1254,13 @@
       "backlinks": 1,
       "first_seen": "2026-01-29 05:51:56 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "way2check.cv",
@@ -1011,7 +1268,14 @@
       "backlinks": 1,
       "first_seen": "2026-01-27 07:43:20 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "alljobs.info",
@@ -1019,7 +1283,13 @@
       "backlinks": 2,
       "first_seen": "2026-01-22 17:55:57 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "globalecommerce.org",
@@ -1027,7 +1297,14 @@
       "backlinks": 1,
       "first_seen": "2026-01-22 17:51:42 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "simplewebdirectory.com",
@@ -1035,7 +1312,15 @@
       "backlinks": 1,
       "first_seen": "2026-01-17 03:29:02 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
     },
     {
       "domain": "websiterace.com",
@@ -1043,7 +1328,14 @@
       "backlinks": 1,
       "first_seen": "2026-01-02 16:51:20 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "wheretobuybest.link",
@@ -1051,7 +1343,13 @@
       "backlinks": 1,
       "first_seen": "2025-12-29 07:00:04 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "getwebsiteworth.com",
@@ -1059,7 +1357,13 @@
       "backlinks": 2,
       "first_seen": "2025-12-26 01:34:04 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "2x9.co",
@@ -1067,7 +1371,14 @@
       "backlinks": 1,
       "first_seen": "2025-12-07 05:16:54 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "algolinkers.agency",
@@ -1075,7 +1386,14 @@
       "backlinks": 1,
       "first_seen": "2025-09-22 02:51:17 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "globaldomains.xyz",
@@ -1083,7 +1401,14 @@
       "backlinks": 1,
       "first_seen": "2025-08-22 05:27:11 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 10,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD"
+      ],
+      "qualityReason": "DR-0, spam-TLD"
     },
     {
       "domain": "australianwebdirectory.pro",
@@ -1091,7 +1416,15 @@
       "backlinks": 1,
       "first_seen": "2025-08-04 23:16:13 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
     },
     {
       "domain": "australianwebdirectory.shop",
@@ -1099,7 +1432,15 @@
       "backlinks": 1,
       "first_seen": "2025-06-01 19:45:03 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
     },
     {
       "domain": "belonnanotservice.ga",
@@ -1107,7 +1448,15 @@
       "backlinks": 1,
       "first_seen": "2025-05-28 15:21:52 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, spam-TLD, single-dofollow-DR0"
     },
     {
       "domain": "seobacklinks.agency",
@@ -1115,7 +1464,14 @@
       "backlinks": 1,
       "first_seen": "2025-05-17 09:10:15 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
     },
     {
       "domain": "agmermer.pro",
@@ -1123,7 +1479,14 @@
       "backlinks": 1,
       "first_seen": "2025-05-13 02:43:04 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "rankgrow.agency",
@@ -1131,7 +1494,13 @@
       "backlinks": 1,
       "first_seen": "2025-05-11 17:41:37 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "prolinkbox.com",
@@ -1139,7 +1508,13 @@
       "backlinks": 1,
       "first_seen": "2025-04-19 16:41:32 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "thebestbacklinksavailable.click",
@@ -1147,7 +1522,17 @@
       "backlinks": 1,
       "first_seen": "2025-04-11 04:09:36 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD",
+        "SEO-spam-domain",
+        "single-dofollow-DR0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, spam-TLD, SEO-spam-domain, single-dofollow-DR0, suspiciously-long-domain"
     },
     {
       "domain": "what-happens-next.xyz",
@@ -1155,7 +1540,15 @@
       "backlinks": 1,
       "first_seen": "2025-04-08 09:13:33 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, spam-TLD, single-dofollow-DR0"
     },
     {
       "domain": "browseallexpireddomains.us",
@@ -1163,7 +1556,14 @@
       "backlinks": 1,
       "first_seen": "2025-04-07 04:19:04 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "remax.com",
@@ -1171,7 +1571,13 @@
       "backlinks": 2,
       "first_seen": "2025-03-17 20:07:02 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "mundotecnologia.info",
@@ -1179,7 +1585,14 @@
       "backlinks": 1,
       "first_seen": "2025-02-09 05:41:07 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "bye.fyi",
@@ -1187,7 +1600,13 @@
       "backlinks": 1,
       "first_seen": "2025-02-08 05:34:48 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "quero.party",
@@ -1195,7 +1614,13 @@
       "backlinks": 2,
       "first_seen": "2025-01-29 07:44:45 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "drjack.world",
@@ -1203,7 +1628,13 @@
       "backlinks": 2,
       "first_seen": "2024-10-29 22:03:38 +00:00",
       "dofollow": 0,
-      "referring_pages": 2
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "northwoodsrealtors.org",
@@ -1211,7 +1642,13 @@
       "backlinks": 21,
       "first_seen": "2024-08-16 00:12:25 +00:00",
       "dofollow": 0,
-      "referring_pages": 21
+      "referring_pages": 21,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "instantcheckmate.com",
@@ -1219,7 +1656,14 @@
       "backlinks": 1,
       "first_seen": "2024-04-04 22:45:07 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "global-website.pages.dev",
@@ -1227,7 +1671,13 @@
       "backlinks": 1,
       "first_seen": "2023-11-13 18:20:25 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "centralc.pages.dev",
@@ -1235,7 +1685,13 @@
       "backlinks": 1,
       "first_seen": "2023-10-14 18:21:19 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "prlog.ru",
@@ -1243,7 +1699,14 @@
       "backlinks": 51,
       "first_seen": "2022-12-18 14:29:30 +00:00",
       "dofollow": 0,
-      "referring_pages": 41
+      "referring_pages": 41,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
     },
     {
       "domain": "mylocalservices.com",
@@ -1251,7 +1714,14 @@
       "backlinks": 1,
       "first_seen": "2022-06-22 12:21:47 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "tntcode.com",
@@ -1259,7 +1729,13 @@
       "backlinks": 1,
       "first_seen": "2022-04-07 19:10:38 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "tellows.com",
@@ -1267,10 +1743,164 @@
       "backlinks": 1,
       "first_seen": "2021-12-27 09:27:32 +00:00",
       "dofollow": 0,
-      "referring_pages": 1
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "generic-anchor-low-DR"
+      ],
+      "qualityReason": "DR-0, generic-anchor-low-DR"
     }
   ],
   "errors": [],
   "status": "success",
-  "gatheredAt": "2026-04-15T05:11:59.165Z"
+  "gatheredAt": "2026-04-15T05:11:59.165Z",
+  "qualitySummary": {
+    "total": 46,
+    "legitimate": 2,
+    "suspicious": 18,
+    "spam": 26,
+    "legitimatePct": 4,
+    "suspiciousPct": 39,
+    "spamPct": 57,
+    "topLegitimate": [
+      {
+        "domain": "kotohomes.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "Recognized legitimate domain"
+      },
+      {
+        "domain": "realtyhd.com",
+        "quality": "legitimate",
+        "score": 77,
+        "reason": "low-DR"
+      }
+    ],
+    "topSpam": [
+      {
+        "domain": "simplewebdirectory.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+      },
+      {
+        "domain": "australianwebdirectory.pro",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+      },
+      {
+        "domain": "australianwebdirectory.shop",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+      },
+      {
+        "domain": "belonnanotservice.ga",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, spam-TLD, single-dofollow-DR0"
+      },
+      {
+        "domain": "thebestbacklinksavailable.click",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, spam-TLD, SEO-spam-domain, single-dofollow-DR0, suspiciously-long-domain"
+      },
+      {
+        "domain": "what-happens-next.xyz",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, spam-TLD, single-dofollow-DR0"
+      },
+      {
+        "domain": "globaldomains.xyz",
+        "quality": "spam",
+        "score": 10,
+        "reason": "DR-0, spam-TLD"
+      },
+      {
+        "domain": "seobacklinks.agency",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "sergechel.info",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "rankvanceauthority.info",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "pagesearch.net",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "wallpapers.pro",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "tunca.org",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "musweb.org",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "booksreadr.org",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "way2check.cv",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "globalecommerce.org",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "websiterace.com",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "2x9.co",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "algolinkers.agency",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      }
+    ],
+    "analyzedAt": "2026-05-05T18:41:28.212Z",
+    "method": "rule-based-v1"
+  }
 }

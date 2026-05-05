@@ -33,6 +33,7 @@ from typing import Any
 # Add platform src to path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 
+from audit_platform.config.client_context import ClientContext
 from audit_platform.config.settings import Settings
 from audit_platform.utils.atomic_write import write_json_atomic
 
@@ -83,8 +84,14 @@ PPC_STEPS: list[AuditStep] = [
 class AuditOrchestrator:
     """Orchestrates the full audit pipeline."""
 
-    def __init__(self, settings: Settings, args: argparse.Namespace) -> None:
-        self.settings = settings
+    def __init__(
+        self,
+        settings: Settings,
+        args: argparse.Namespace,
+        ctx: ClientContext | None = None,
+    ) -> None:
+        self.ctx = ctx
+        self.settings = ctx.settings if ctx is not None else settings
         self.args = args
         self.audit_data: dict[str, Any] = {}
         self.results: list[StepResult] = []
@@ -106,11 +113,16 @@ class AuditOrchestrator:
             "auditDate": time.strftime("%B %d, %Y"),
         }
 
-        client_config = getattr(self.args, "client_config", None)
-        if client_config:
-            with open(client_config) as f:
-                client_config_data = json.load(f)
+        client_config_data: dict[str, Any] | None = None
+        if self.ctx and self.ctx.client_config:
+            client_config_data = self.ctx.client_config
+        else:
+            client_config = getattr(self.args, "client_config", None)
+            if client_config:
+                with open(client_config) as f:
+                    client_config_data = json.load(f)
 
+        if client_config_data:
             google_access = client_config_data.get("googleAccess", {})
             search_console = google_access.get("searchConsole", {})
             analytics = google_access.get("analytics", {})
@@ -245,7 +257,7 @@ class AuditOrchestrator:
 
         competitors = self._parse_competitors()
 
-        with DataForSEOConnector(self.settings) as connector:
+        with DataForSEOConnector(settings=self.settings, ctx=self.ctx) as connector:
             analyzer = BacklinkAnalyzer(connector)
             result = analyzer.analyze(
                 target=self.args.domain,
@@ -272,7 +284,7 @@ class AuditOrchestrator:
         competitors = self._parse_competitors()
         keywords = self._extract_tracked_keywords()
 
-        with DataForSEOConnector(self.settings) as connector:
+        with DataForSEOConnector(settings=self.settings, ctx=self.ctx) as connector:
             analyzer = CompetitorAnalyzer(connector)
             result = analyzer.analyze(
                 target=self.args.domain,
@@ -358,7 +370,7 @@ class AuditOrchestrator:
             discovered = comp_analysis.get("discoveredCompetitors") or []
             competitors = [c.get("domain", "") for c in discovered if c.get("domain")][:5]
 
-        with DataForSEOConnector(self.settings) as connector:
+        with DataForSEOConnector(settings=self.settings, ctx=self.ctx) as connector:
             analyzer = ContentGapAnalyzer(connector)
 
             # Fetch client keywords
@@ -403,7 +415,7 @@ class AuditOrchestrator:
     def _run_reporting(self) -> dict[str, Any]:
         """Run reporting intelligence — MUST be last step."""
         from audit_platform.analyzers.reporting_intelligence import ReportingIntelligenceAnalyzer
-        analyzer = ReportingIntelligenceAnalyzer()
+        analyzer = ReportingIntelligenceAnalyzer(ctx=self.ctx)
 
         result = analyzer.analyze(self.audit_data, domain=self.args.domain)
 
@@ -465,7 +477,7 @@ class AuditOrchestrator:
         """Fetch data from Google Ads API."""
         try:
             from audit_platform.connectors.google_ads import GoogleAdsConnector
-            with GoogleAdsConnector(self.settings) as connector:
+            with GoogleAdsConnector(settings=self.settings, ctx=self.ctx) as connector:
                 campaigns = [c.model_dump(mode="json") for c in connector.get_campaigns()]
                 ad_groups = [ag.model_dump(mode="json") for ag in connector.get_ad_groups()]
                 keywords = [kw.model_dump(mode="json") for kw in connector.get_keywords()]
@@ -815,11 +827,19 @@ def main() -> None:
     parser.add_argument("--skip-api", action="store_true", help="Skip steps requiring API calls")
     parser.add_argument("--target-cpa", type=float, default=None, help="Target CPA for PPC audit")
     parser.add_argument("--verbose", action="store_true", help="Show full error tracebacks")
-    parser.add_argument("--client-config", default=None, help="Path to client-config.json")
+    parser.add_argument("--client-config", default=None, help="Path to client-config.json (legacy; prefer --client-slug)")
+    parser.add_argument("--client-slug", default=None, help="Client slug under clients/ — auto-loads .env + client-config.json into a ClientContext (preferred over --client-config)")
     args = parser.parse_args()
 
-    settings = Settings()
-    orchestrator = AuditOrchestrator(settings, args)
+    ctx: ClientContext | None = None
+    if args.client_slug:
+        ctx = ClientContext.from_slug(args.client_slug)
+        # Default --domain from client-config.clientDomain when not explicitly passed
+        if not args.domain and ctx.client_config:
+            args.domain = ctx.client_config.get("clientDomain") or ctx.client_config.get("clientWebsite") or ""
+
+    settings = ctx.settings if ctx is not None else Settings()
+    orchestrator = AuditOrchestrator(settings, args, ctx=ctx)
     audit_data = orchestrator.run()
 
     # Normalize legacy contentQuality shape before merging/writing so downstream

@@ -15,9 +15,12 @@ from __future__ import annotations
 import json
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Optional
+from typing import TYPE_CHECKING, Any, Optional
 
 import structlog
+
+if TYPE_CHECKING:
+    from audit_platform.config.client_context import ClientContext
 
 
 class ReportingIntelligenceAnalyzer:
@@ -113,9 +116,14 @@ class ReportingIntelligenceAnalyzer:
         (65, "C+"), (60, "C"), (55, "C-"), (50, "D+"), (45, "D"), (40, "D-"),
     ]
 
-    def __init__(self, history_dir: str | Path | None = None) -> None:
+    def __init__(
+        self,
+        history_dir: str | Path | None = None,
+        ctx: ClientContext | None = None,
+    ) -> None:
         self.log = structlog.get_logger(self.__class__.__name__)
         self.history_dir = Path(history_dir) if history_dir else Path.home() / ".site-audit" / "history"
+        self.ctx = ctx
 
     def analyze(
         self,
@@ -568,8 +576,14 @@ class ReportingIntelligenceAnalyzer:
         except ImportError:
             return None
 
-        import os
-        api_key = os.environ.get("ANTHROPIC_API_KEY")
+        # Prefer ClientContext (per-client .env, no os.environ pollution).
+        # Fall back to os.environ for legacy invocations that haven't migrated.
+        api_key: str | None = None
+        if self.ctx is not None:
+            api_key = self.ctx.ANTHROPIC_API_KEY
+        if not api_key:
+            import os
+            api_key = os.environ.get("ANTHROPIC_API_KEY")
         if not api_key:
             return None
 

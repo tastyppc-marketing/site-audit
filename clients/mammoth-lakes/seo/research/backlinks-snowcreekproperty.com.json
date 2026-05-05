@@ -1,0 +1,1808 @@
+{
+  "domain": "snowcreekproperty.com",
+  "totalBacklinks": 77,
+  "referringDomains": 60,
+  "backlinks": [
+    {
+      "source_url": "https://village.do/company/the-snowcreek-property-company",
+      "target_url": "http://snowcreekproperty.com/",
+      "anchor_text": "",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-09-13 02:50:13 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://trademarkmammoth.com/unexpected-buyer-trends-in-mammoth-lakes/",
+      "target_url": "https://www.snowcreekproperty.com/blog/attention-investors-in-mammoth-lakes/",
+      "anchor_text": "Attention Investors in Mammoth Lakes",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-05-20 22:55:38 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.snowcreekresort.com/residences/",
+      "target_url": "https://www.snowcreekproperty.com/",
+      "anchor_text": "The Snowcreek Property Company",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-10-01 14:46:42 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.mirrorrealestate.com/agents/details/julie-wright-4915",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "Brokerage Website",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-05-03 13:45:23 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 76
+    },
+    {
+      "source_url": "https://www.mirrorrealestate.com/agents/details/jodi-melton-1451",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "Brokerage Website",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-05-03 06:25:36 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 76
+    },
+    {
+      "source_url": "https://www.mirrorrealestate.com/homes/details/1362-timber-creek-drive-road-1362-mammoth-lakes-mono-county-ca-93546-silicon-valley-ca-us5856",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "Visit Brokerage",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-04-29 02:14:28 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 76
+    },
+    {
+      "source_url": "https://pagesearch.net/1a06c1fd730e576c51d437aa3ecfd18e-l/",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-05-05 08:06:07 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://massrealestatenews.com/real-estate-january-2025/",
+      "target_url": "https://www.snowcreekproperty.com/blog/how-to-flip-an-older-home-in-mammoth-lakes/",
+      "anchor_text": "Julie Wright’s guide covers key steps in flipping a property",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-01-23 18:04:50 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.snowcreekresort.com/things-to-know/",
+      "target_url": "https://www.snowcreekproperty.com/",
+      "anchor_text": "The Snowcreek Property Company",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-10-01 14:45:45 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.tunca.org/1a06c1fd730e576c51d437aa3ecfd18e-l/",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-23 15:20:37 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.alljobs.info/1a06c1fd730e576c51d437aa3ecfd18e-l/",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-23 17:08:18 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://globalecommerce.org/page-eeb8a73d7eb129a7b3abbf7dd324fd25.html",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-25 10:14:40 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.websiterace.com/1a06c1fd730e576c51d437aa3ecfd18e-l/",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-14 22:31:17 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://huldra.pages.dev/07/qOsCooaKud",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-10-14 19:26:53 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://sergechel.info/list-0547d5451f41d965056e9cf441a58343",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-02-06 21:41:18 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.erealestatepro.com/real_estate_agents/listing_3090ebf0ed3853f3629bba23a68ebd39.shtml",
+      "target_url": "https://www.snowcreekproperty.com/site/index.php",
+      "anchor_text": "https://www.snowcreekproperty.com/site/index.php",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-03-02 05:14:15 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://rankvance-agency.online/explore-rankvance-seo-solutions-that-work-103/",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-23 09:10:15 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://ycm.info/1a06c1fd730e576c51d437aa3ecfd18e-l/",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-20 10:35:58 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://rankvanceauthority.info/professional-link-building-solutions-52/",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-19 06:52:15 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://buzzshrink.website/share/54749",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-30 12:51:03 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://screenshots.wiki/report/54749",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-28 08:28:41 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.lisnic.com/business-profile/the-snowcreek-property-company",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-05-17 00:40:50 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://buzzshrink.website/share/54750",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-26 03:04:34 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://australianwebdirectory.shop/page-eeb8a73d7eb129a7b3abbf7dd324fd25.html",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-06-04 01:36:19 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://rankvanceseo.info/professional-link-building-solutions-52/",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-27 06:00:10 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://shortenurls.eu/share/54750",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-21 10:14:18 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.wallpapers.pro/1a06c1fd730e576c51d437aa3ecfd18e-l/",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-01 13:46:42 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.websitescrawl.com/domain-list-19890",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-21 17:41:24 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://urls-shortener.eu/share/54749",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-20 22:53:34 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.musweb.org/page-eeb8a73d7eb129a7b3abbf7dd324fd25.html",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-15 08:55:58 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://getwebsiteworth.com/1a06c1fd730e576c51d437aa3ecfd18e-l/",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-03 03:46:12 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://sites.jake.eu/share/54750",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-12 13:40:26 +00:00"
+    },
+    {
+      "source_url": "https://bye.fyi/report/54750",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-12-30 00:13:02 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://fixithomestead.com/homeowners-insurance-is-going-up-again-in-2026-what-insurers-look-at-when-they-price-your-house/",
+      "target_url": "https://www.snowcreekproperty.com/blog/downsizing-as-a-fresh-start/",
+      "anchor_text": "review options",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-02 06:18:17 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://booksreadr.org/page-eeb8a73d7eb129a7b3abbf7dd324fd25.html",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-02 02:50:41 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://ready.pro/stats/54749",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-31 12:37:00 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://quero.party/report/54749",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-30 05:49:04 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://hoursfinder.com/s-hours/sherry-wishney-hours.html",
+      "target_url": "https://sherrywishney.snowcreekproperty.com/contact/",
+      "anchor_text": "Contact Sherry Wishney",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-09-17 19:19:44 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://hoursfinder.com/s-hours/sherry-wishney-hours.html",
+      "target_url": "https://www.snowcreekproperty.com/agents/sherrywishney/",
+      "anchor_text": "Sherry Wishney  SnowCreekProperty.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-09-17 19:19:44 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://way2check.cv/page-eeb8a73d7eb129a7b3abbf7dd324fd25.html",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-24 20:27:50 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://global-website.pages.dev/37/qOsCooaKud",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-11-13 19:07:36 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.idcrawl.com/jodi-melton",
+      "target_url": "https://www.snowcreekproperty.com/agents/jodimelton/",
+      "anchor_text": "Jodi Melton | SnowCreekProperty.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-21 15:16:49 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://backlink-agency.pro/explore-rankvance-seo-solutions-that-work-103/",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-19 20:14:12 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.zoominfo.com/c/the-snowcreek-property-co/61767953",
+      "target_url": "https://www.snowcreekproperty.com/",
+      "anchor_text": "www.snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-12-19 19:15:59 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.mlbor.com/boardofdirectors",
+      "target_url": "https://www.snowcreekproperty.com/agents/juliewright/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2020-10-27 21:51:42 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.mlbor.com/boardofdirectors",
+      "target_url": "https://www.snowcreekproperty.com/agents/jodimelton/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2020-10-27 21:51:42 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://2x9.co/page-eeb8a73d7eb129a7b3abbf7dd324fd25.html",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-04 13:36:56 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://backlinkoptimizer.pro/explore-our-best-link-building-packages-today-103/",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-10-01 06:02:58 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.softwareworld.co/service/the-snowcreek-property-company-reviews/",
+      "target_url": "http://snowcreekproperty.com/?utm_source=softwareworld.co&utm_medium=referral",
+      "anchor_text": "Visit Website",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-05-15 04:42:49 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://1stcallglasscare.com/improve-organic-traffic-da-rankings-backlinks-guest-posting-service-52/",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-07-06 22:35:51 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://australianwebdirectory.pro/1a06c1fd730e576c51d437aa3ecfd18e-l/",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-06 21:48:58 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://quero.party/report/1825898",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-10-08 06:02:33 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.willettonuniforms.com.au/s-headquarters/sherry-wishney-headquarters.html",
+      "target_url": "https://sherrywishney.snowcreekproperty.com/contact/",
+      "anchor_text": "Contact Sherry Wishney",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-08-02 22:27:33 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.willettonuniforms.com.au/s-headquarters/sherry-wishney-headquarters.html",
+      "target_url": "https://sherrywishney.snowcreekproperty.com/about/",
+      "anchor_text": "About Sherry Wishney",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-08-02 22:27:33 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://mundotecnologia.info/c3532959f380acb0b99a458f7968f19c-domains.html",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-02-09 16:00:37 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://thebestbacklinksavailable.click/883ac6bfadda4fcdb46ea41c2dbe8830-items",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-11 13:53:30 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.sitelike.org/similar/century21mammoth.com/",
+      "target_url": "https://www.snowcreekproperty.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-10-05 03:13:05 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://agmermer.pro/5b9c5b29647ab68c1c978504a57b223d-domains.html",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-15 11:28:29 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://what-happens-next.xyz/list-9450f7354d330fa1ec291f548c96124e",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-07 20:45:08 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 10
+    },
+    {
+      "source_url": "https://www.refetrust.com/agency/the-snowcreek-property-company",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "Visit website",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-10-09 08:05:19 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://great-choice-for-pbn-domains.co.uk/411db6e0d532a6ec689b17d42abbef51-str",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-06-16 23:41:13 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://www.ispionage.com/Competitive_Intelligence_directory/CA/s/248/snowcreekproperty_com_736E6F77637265656B70726F70657274792E636F6D",
+      "target_url": "http://www.snowcreekproperty.com/site/index.php",
+      "anchor_text": "The Snowcreek Property Company: Mammoth Lakes Real Estate ...http://www.snowcreekproperty.c",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-09-23 09:04:10 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.sitelike.org/similar/riffelrealestate.com/",
+      "target_url": "https://www.snowcreekproperty.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-07-03 02:31:52 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://belonnanotservice.ga/page-2abe0259c6777402fce306e62f8ae9da.html",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "snowcreekproperty.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-28 01:04:00 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.ispionage.com/Competitive_Intelligence_directory/AU/s/189/snowcreekproperty_com_736E6F77637265656B70726F70657274792E636F6D",
+      "target_url": "http://www.snowcreekproperty.com/site/index.php",
+      "anchor_text": "The Snowcreek Property Company: Mammoth Lakes Real Estate ...http://www.snowcreekproperty.c",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-09-24 01:48:53 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://seobacklinks.agency/professional-high-quality-dofollow-link-building-for-your-website-seo-6945/",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "https://snowcreekproperty.com – You need to Skyrocket your Ahrefs DR, Moz DA, and Majestic TF with real PBN, Guest posts, and premium backlinks—competitors trust us, why not you? Pay after work! Visit SeoBoost.agency now!",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-05-14 16:54:29 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://www.ispionage.com/Competitive_Intelligence_directory/UK/s/342/snowcreekproperty_com_736E6F77637265656B70726F70657274792E636F6D",
+      "target_url": "http://www.snowcreekproperty.com/site/index.php",
+      "anchor_text": "The Snowcreek Property Company: Mammoth Lakes Real Estate ...http://www.snowcreekproperty.c",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2022-07-14 07:15:40 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://mammothpropertysearch.com/",
+      "target_url": "https://juliewright.snowcreekproperty.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-10-31 04:07:23 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://rankgrow.agency/risk-free-seo-backlinks-service-8967/",
+      "target_url": "https://juliewright.snowcreekproperty.com/",
+      "anchor_text": "https://mammothpropertysearch.com – Increase your site’s backlinks and skyrocket your DA, DR, and TF with our expert SEO services—authentic dofollow backlinks, guest posts, and PBN links delivered by our team. Visit BuySeoLink.com to choose a plan, enjoy our pay-after-work model, and access 24/7 support!",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-05-09 01:11:02 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://rankgrow.agency/risk-free-seo-backlinks-service-6945/",
+      "target_url": "https://snowcreekproperty.com/",
+      "anchor_text": "https://snowcreekproperty.com – Increase your site’s backlinks and skyrocket your DA, DR, and TF with our expert SEO services—authentic dofollow backlinks, guest posts, and PBN links delivered by our team. Visit BuySeoLink.com to choose a plan, enjoy our pay-after-work model, and access 24/7 support!",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-05-08 22:36:00 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://kompromat100.info/dom-id-742c6cdfe44eb968321b5bbb16948ac0.html",
+      "target_url": "https://juliewright.snowcreekproperty.com/",
+      "anchor_text": "mammothpropertysearch.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-02-03 10:44:30 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://mundotecnologia.info/adba39f1b64b96789aef9b2f01525a85-domains.html",
+      "target_url": "https://juliewright.snowcreekproperty.com/",
+      "anchor_text": "mammothpropertysearch.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-02-09 12:03:38 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.lusha.com/business/eca1368005523fd9/",
+      "target_url": "https://www.snowcreekproperty.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-10-05 23:51:30 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.sitelike.org/similar/mammothlakesmls.com/",
+      "target_url": "https://www.snowcreekproperty.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-04-25 18:34:10 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.ispionage.com/Competitive_Intelligence_directory/s/419/snowcreekproperty_com_736E6F77637265656B70726F70657274792E636F6D",
+      "target_url": "http://www.snowcreekproperty.com/homes-for-sale/CA/Virginia_Lakes/",
+      "anchor_text": "Virginia Lakes Real Estate Homes For Sale | snowcreekproperty.comhttp://www.snowcreekproperty.com/homes-for-sale/CA/Virginia_",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-05-02 09:34:23 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.ispionage.com/Competitive_Intelligence_directory/s/419/snowcreekproperty_com_736E6F77637265656B70726F70657274792E636F6D",
+      "target_url": "http://www.snowcreekproperty.com/site/index.php",
+      "anchor_text": "The Snowcreek Property Company: Mammoth Lakes Real Estate ...http://www.snowcreekproperty.c",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-05-02 09:34:23 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://what-happens-next.xyz/list-0f46a82c5b60441165e6620f77f99deb",
+      "target_url": "https://juliewright.snowcreekproperty.com/",
+      "anchor_text": "mammothpropertysearch.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-08 13:16:54 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 10
+    }
+  ],
+  "referring_domains": [
+    {
+      "domain": "village.do",
+      "rank": 23,
+      "backlinks": 1,
+      "first_seen": "2025-09-13 02:50:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "mirrorrealestate.com",
+      "rank": 6,
+      "backlinks": 3,
+      "first_seen": "2026-04-29 02:14:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 76,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "pagesearch.net",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-05-05 08:06:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "rankvance-agency.online",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-23 09:10:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, spam-TLD, single-dofollow-DR0"
+    },
+    {
+      "domain": "ycm.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-20 10:35:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "rankvanceauthority.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-19 06:52:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "wallpapers.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-01 13:46:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "tunca.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-23 15:20:37 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "websitescrawl.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-21 17:41:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "urls-shortener.eu",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-20 22:53:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "musweb.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-15 08:55:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "jake.eu",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-12 13:40:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "booksreadr.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-02 02:50:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "ready.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-31 12:37:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "screenshots.wiki",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-28 08:28:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "buzzshrink.website",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-26 03:04:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "globalecommerce.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-25 10:14:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "way2check.cv",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-24 20:27:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "alljobs.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-23 17:08:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "idcrawl.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-21 15:16:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "shortenurls.eu",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-21 10:14:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "websiterace.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-14 22:31:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "getwebsiteworth.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-03 03:46:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "fixithomestead.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-02 06:18:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "bye.fyi",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-30 00:13:02 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "backlink-agency.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-19 20:14:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+    },
+    {
+      "domain": "zoominfo.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-19 19:15:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "2x9.co",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-04 13:36:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "snowcreekresort.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-10-01 14:45:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "backlinkoptimizer.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-10-01 06:02:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+    },
+    {
+      "domain": "rankvanceseo.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-27 06:00:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+    },
+    {
+      "domain": "hoursfinder.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-09-17 19:19:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "australianwebdirectory.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-06 21:48:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+    },
+    {
+      "domain": "1stcallglasscare.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-06 22:35:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "great-choice-for-pbn-domains.co.uk",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-06-16 23:41:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0, suspiciously-long-domain"
+    },
+    {
+      "domain": "australianwebdirectory.shop",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-06-04 01:36:19 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+    },
+    {
+      "domain": "belonnanotservice.ga",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-28 01:04:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, spam-TLD, single-dofollow-DR0"
+    },
+    {
+      "domain": "trademarkmammoth.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-20 22:55:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "agmermer.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-15 11:28:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "softwareworld.co",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-15 04:42:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "seobacklinks.agency",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-14 16:54:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "rankgrow.agency",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-08 22:36:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "thebestbacklinksavailable.click",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-04-11 13:53:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD",
+        "SEO-spam-domain",
+        "single-dofollow-DR0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, spam-TLD, SEO-spam-domain, single-dofollow-DR0, suspiciously-long-domain"
+    },
+    {
+      "domain": "what-happens-next.xyz",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-04-07 20:45:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 10,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD"
+      ],
+      "qualityReason": "DR-0, spam-TLD"
+    },
+    {
+      "domain": "erealestatepro.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-03-02 05:14:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "mundotecnologia.info",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-02-09 12:03:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "sergechel.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-02-06 21:41:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "kompromat100.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-02-03 10:44:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "massrealestatenews.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-01-23 18:04:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "mammothpropertysearch.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-10-31 04:07:23 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "refetrust.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-10-09 08:05:19 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "quero.party",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-10-08 06:02:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "lusha.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2024-10-05 23:51:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "willettonuniforms.com.au",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-08-02 22:27:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "sitelike.org",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2024-07-03 02:31:52 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "lisnic.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-05-17 00:40:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "global-website.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-11-13 19:07:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "huldra.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-14 19:26:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "ispionage.com",
+      "rank": 0,
+      "backlinks": 5,
+      "first_seen": "2022-07-14 07:15:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "mlbor.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2020-10-27 21:51:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    }
+  ],
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-05-05T18:40:56.494Z",
+  "qualitySummary": {
+    "total": 60,
+    "legitimate": 2,
+    "suspicious": 26,
+    "spam": 32,
+    "legitimatePct": 3,
+    "suspiciousPct": 43,
+    "spamPct": 53,
+    "topLegitimate": [
+      {
+        "domain": "village.do",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "mirrorrealestate.com",
+        "quality": "legitimate",
+        "score": 76,
+        "reason": "low-DR"
+      }
+    ],
+    "topSpam": [
+      {
+        "domain": "rankvance-agency.online",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, spam-TLD, single-dofollow-DR0"
+      },
+      {
+        "domain": "backlink-agency.pro",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+      },
+      {
+        "domain": "backlinkoptimizer.pro",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+      },
+      {
+        "domain": "rankvanceseo.info",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+      },
+      {
+        "domain": "australianwebdirectory.pro",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+      },
+      {
+        "domain": "australianwebdirectory.shop",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+      },
+      {
+        "domain": "belonnanotservice.ga",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, spam-TLD, single-dofollow-DR0"
+      },
+      {
+        "domain": "thebestbacklinksavailable.click",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, spam-TLD, SEO-spam-domain, single-dofollow-DR0, suspiciously-long-domain"
+      },
+      {
+        "domain": "what-happens-next.xyz",
+        "quality": "spam",
+        "score": 10,
+        "reason": "DR-0, spam-TLD"
+      },
+      {
+        "domain": "great-choice-for-pbn-domains.co.uk",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, single-dofollow-DR0, suspiciously-long-domain"
+      },
+      {
+        "domain": "seobacklinks.agency",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "pagesearch.net",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "ycm.info",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "rankvanceauthority.info",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "wallpapers.pro",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "tunca.org",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "musweb.org",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "booksreadr.org",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "globalecommerce.org",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "way2check.cv",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      }
+    ],
+    "analyzedAt": "2026-05-05T18:41:28.175Z",
+    "method": "rule-based-v1"
+  }
+}

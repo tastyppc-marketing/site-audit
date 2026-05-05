@@ -6,7 +6,7 @@ via GAQL queries, normalizing results into pydantic models.
 
 from __future__ import annotations
 
-from typing import Any
+from typing import TYPE_CHECKING, Any
 
 import structlog
 from google.ads.googleads.client import GoogleAdsClient
@@ -15,6 +15,9 @@ from google.ads.googleads.errors import GoogleAdsException
 from audit_platform.auth.oauth import get_oauth_credentials
 from audit_platform.config import Settings
 from audit_platform.connectors.base import BaseConnector
+
+if TYPE_CHECKING:
+    from audit_platform.config.client_context import ClientContext
 from audit_platform.models.ppc import (
     AdGroupRecord,
     CampaignRecord,
@@ -42,8 +45,12 @@ class GoogleAdsConnector(BaseConnector):
     exposes methods that return lists of normalized pydantic models.
     """
 
-    def __init__(self, settings: Settings | None = None) -> None:
-        super().__init__(settings)
+    def __init__(
+        self,
+        settings: Settings | None = None,
+        ctx: ClientContext | None = None,
+    ) -> None:
+        super().__init__(settings=settings, ctx=ctx)
         self._ads_client: GoogleAdsClient | None = None
 
     # ------------------------------------------------------------------

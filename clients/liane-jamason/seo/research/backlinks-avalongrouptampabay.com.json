@@ -1,0 +1,4341 @@
+{
+  "domain": "avalongrouptampabay.com",
+  "totalBacklinks": 200,
+  "referringDomains": 150,
+  "backlinks": [
+    {
+      "source_url": "https://www.mystatemls.com/profiles/fl/st-petersburg/avalon-group-realty/elizabeth-mahon-mulhern/227917/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-04-08 17:52:52 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dailygram.com/avalongroup/info",
+      "target_url": "http://avalongrouptampabay.com/",
+      "anchor_text": "http://avalongrouptampabay.com",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-05-22 12:12:58 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 91
+    },
+    {
+      "source_url": "https://www.avalongrouprealtytampa.com/blog/tampa-real-estate",
+      "target_url": "https://avalongrouptampabay.com/aaron-hunt/",
+      "anchor_text": "Aaron Hunt",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2024-06-16 19:59:45 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.nystatemls.com/profiles/fl/st-petersburg/avalon-group-realty/elizabeth-mahon-mulhern/227917/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2026-03-15 12:44:40 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://alwaysislandtimerealty.com/real-estate-blog/sunny-southwest-florida-celebrity-news-recent-celebrity-real-estate-moves/",
+      "target_url": "https://avalongrouptampabay.com/sylvester-stallone-moving-florida/",
+      "anchor_text": "Sylvester Stallone Sells His Naples Home",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-10-17 13:37:21 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.avalongrouprealtytampa.com/blog/dutch-bros-coming-to-tampa",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "https://avalongrouptampabay.com",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-08-10 22:37:45 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.pointcom.com/fl/saint-petersburg/42545156-avalon-group-lpt-realty/",
+      "target_url": "http://www.avalongrouptampabay.com/",
+      "anchor_text": "http://www.avalongrouptampabay.com",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2023-05-22 13:52:06 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 77
+    },
+    {
+      "source_url": "https://www.mystatemls.com/profiles/fl/st-petersburg/avalon-group-realty/yvette-kim/227618/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-04-08 14:59:45 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.nystatemls.com/profiles/fl/st-petersburg/avalon-group-realty/yvette-kim/227618/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-04-26 17:58:30 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://zumvu.com/avalongrouptampabay/",
+      "target_url": "http://avalongrouptampabay.com/",
+      "anchor_text": "Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-03-18 17:06:35 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://christmasappeal2024.pages.dev/yvrrvyc-idlewild-christmas-show-2024-urvxnvo/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2024-10-03 08:17:12 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 40
+    },
+    {
+      "source_url": "https://ashelyycassondra.pages.dev/mcoyene-idlewild-christmas-show-2024-cwbvtxz/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2024-09-25 14:58:55 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://deliabgabrila.pages.dev/flblqxp-idlewild-christmas-show-2024-images-txolgoy/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-16 02:17:05 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://directory.reviewsonmywebsite.com/reviews/avalon-group-lpt-realty-63558",
+      "target_url": "http://www.avalongrouptampabay.com/",
+      "anchor_text": "http://www.avalongrouptampabay.com/",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-05-08 09:27:44 +00:00"
+    },
+    {
+      "source_url": "https://kalabothella.pages.dev/viuvtgr-idlewild-christmas-presentation-2024-images-ikjzvgt/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2024-10-23 01:05:52 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://roboapply.co/how-to-find-a-job-in-st-petersburg-2025/",
+      "target_url": "https://avalongrouptampabay.com/good-salary-st-petersburg-florida/",
+      "anchor_text": "salary benchmarks",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-07-31 12:38:47 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Saint-Petersburg/1525298921089547/The-Avalon-Group-Realty",
+      "target_url": "http://www.avalongrouptampabay.com/",
+      "anchor_text": "http://www.avalongrouptampabay.com/",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-29 11:38:33 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://delqamberly.pages.dev/ktetoae-tampa-florida-housing-market-2024-photos-bchdycj/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2024-08-08 01:45:35 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://propertyvendors.com/realtors-brokers/avalon-group-52695",
+      "target_url": "http://avalongrouptampabay.com/",
+      "anchor_text": "http://avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2022-07-07 07:18:01 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://bye.fyi/report/53975",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-12-18 06:04:09 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.enigma.com/directory/fl/saint-petersburg/real-estate-agency/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "https://avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-05-04 00:22:03 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://estateinnovation.com/32-top-st-petersburg-real-estate-startups-companies/",
+      "target_url": "http://avalongrouptampabay.com/",
+      "anchor_text": "Website",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-06-29 00:46:34 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 40
+    },
+    {
+      "source_url": "https://intently.co/suppliers/United+States/St+Petersburg/Luxury+Real+Estate",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "St Petersburg Realtor - Avalon Group Realty - Aaron Hunt",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-04-15 13:37:34 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://intently.co/suppliers/United+States/St+Petersburg/House+Builder",
+      "target_url": "https://avalongrouptampabay.com/kasper-modern-homes/",
+      "anchor_text": "Kasper Modern Homes - AVALON Group Real Estate Agents",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-01-02 16:50:16 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://180contractors.com/the-most-popular-siding-colors-for-2024/",
+      "target_url": "https://avalongrouptampabay.com/top-yellow-paint-colors-home/",
+      "anchor_text": "exudes warmth and optimism",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-12-18 22:28:03 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.scoremyreviews.com/business/avalon-group/",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "www.avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2021-10-26 20:38:08 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://lantern.llc/fl/st-petersburg/professional-services/real-estate",
+      "target_url": "https://avalongrouptampabay.com/?utm_source=lantern.llc&utm_medium=referral&utm_campaign=listing",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-04-23 16:21:47 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.tellows.com/num/7272627920",
+      "target_url": "http://www.avalongrouptampabay.com/",
+      "anchor_text": "Website",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2022-03-14 01:03:57 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 40
+    },
+    {
+      "source_url": "https://spb.skysmart.ru/parents-experience-online-school-spb",
+      "target_url": "https://avalongrouptampabay.com/homeschooling-st-petersburg/",
+      "anchor_text": "Avalon Group Tampa Bay",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-10-16 09:11:57 +00:00"
+    },
+    {
+      "source_url": "https://lantern.llc/tampa-bay/professional-services/real-estate",
+      "target_url": "https://avalongrouptampabay.com/?utm_source=lantern.llc&utm_medium=referral&utm_campaign=listing",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-04-22 23:42:55 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://mail.getwebsiteworth.com/22216976f8002a7d2715793a37f6a723-l/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-04-20 08:58:25 +00:00"
+    },
+    {
+      "source_url": "https://dilloncook.com/how-real-estate-experts-price-properties/",
+      "target_url": "https://avalongrouptampabay.com/understanding-comparative-market-analysis-cma-in-real-estate/",
+      "anchor_text": "Understanding Comparative Market Analysis (CMA) in Real Estate –",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-03-26 17:09:36 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.alljobs.info/22216976f8002a7d2715793a37f6a723-l/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-21 00:37:59 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://directory.reviewsonmywebsite.com/real-estate-agencies/fl/st-petersburg",
+      "target_url": "http://www.avalongrouptampabay.com/",
+      "anchor_text": "Visit website",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-19 13:49:03 +00:00"
+    },
+    {
+      "source_url": "https://globalecommerce.org/page-fde9c8aba8627dfbfd666885ce4ca971.html",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-24 07:14:14 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://junkhomebuyer.com/florida-housing-market-inventory-spike-what-to-know/",
+      "target_url": "https://avalongrouptampabay.com/floridas-rise-active-listings/",
+      "anchor_text": "25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-02 06:14:34 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://grokipedia.com/page/Belleair,_Florida",
+      "target_url": "https://avalongrouptampabay.com/hulk-hogans-house-belleair-florida/",
+      "anchor_text": "Where is Hulk Hogan's House in Belleair Florida?",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-22 08:10:44 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.lanacion.com.ar/estados-unidos/famosos/un-recorrido-por-el-ultimo-refugio-de-hulk-hogan-asi-era-la-casa-de-florida-donde-paso-sus-ultimos-nid24072025/",
+      "target_url": "https://avalongrouptampabay.com/hulk-hogans-house-belleair-florida/",
+      "anchor_text": "Avalon Group Realty",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-08-21 13:11:38 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://alljobs.info/22216976f8002a7d2715793a37f6a723-l/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-27 14:57:39 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.websiterace.com/22216976f8002a7d2715793a37f6a723-l/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-02 15:15:12 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://members.flaglercountyrealtors.com/office-directory/FindStartsWith?term=A",
+      "target_url": "http://avalongrouptampabay.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-01-13 13:18:14 +00:00"
+    },
+    {
+      "source_url": "https://members.flaglercountyrealtors.com/designated-realtor-directory/FindStartsWith?term=H",
+      "target_url": "http://www.avalongrouptampabay.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-01-13 13:12:30 +00:00"
+    },
+    {
+      "source_url": "https://sergechel.info/list-cbb6937f4317a49403a491ee502c9d1a",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-04-13 18:35:50 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://prothor-ing.com/bez-rubriki/dark-side-links-dark-white-hat-link-building-1330/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-14 12:14:35 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.mearoon.com/q58y6m2/cost-to-build-a-house-in-st-petersburg%2C-fl",
+      "target_url": "https://avalongrouptampabay.com/best-neighborhoods-st-petersburg-florida/",
+      "anchor_text": "Best Neighborhoods in St Petersburg Florida",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-07-18 15:49:43 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://listingnearme.com/real-estate-agents-in-florida/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "Avalon Group Realty",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-04-13 11:57:20 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "http://bluecantera.com/dark-side-links-dark-white-hat-link-building-1330/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-23 00:15:18 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://global-websites.pages.dev/48/CHxcxkrUfT",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-11-30 23:29:04 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://global-websites.pages.dev/48/iyOjWgqlkP",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-11-30 22:32:01 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://keirseybooks.com/bez-rubriki/dark-side-links-dark-white-hat-link-building-1330/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-25 00:14:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://grokipedia.com/page/St._Petersburg,_Florida",
+      "target_url": "https://avalongrouptampabay.com/st-petersburg-tops-florida-in-homeownership-growth/",
+      "anchor_text": "St. Petersburg Tops Florida in Homeownership Growth -",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-24 04:54:45 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://kelas.seomuda.id/quarterlinks-dofollow-article-links-just-for-25-5253/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-23 13:25:26 +00:00"
+    },
+    {
+      "source_url": "https://www.windowssearch-exp.com/images/search?q=St.+Petersburg+Streets&qft=+filterui%3acolor2-FGcls_PINK&FORM=IRMHIP",
+      "target_url": "https://avalongrouptampabay.com/the-pink-streets-of-st-petersburg/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-18 12:02:15 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.windowssearch-exp.com/images/search?q=St.+Petersburg+Streets&qft=+filterui%3acolor2-FGcls_PINK&FORM=IRIBIP",
+      "target_url": "https://avalongrouptampabay.com/the-pink-streets-of-st-petersburg/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-18 12:02:11 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.windowssearch-exp.com/images/search?q=Streets+Ooooops&qft=+filterui%3acolor2-FGcls_PINK&FORM=IRMHIP",
+      "target_url": "https://avalongrouptampabay.com/the-pink-streets-of-st-petersburg/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-22 11:41:11 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "http://www.torun-stolarz.pl/dark-side-links-dark-white-hat-link-building-1330/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-21 09:10:39 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.windowssearch-exp.com/images/search?&q=Streets+Ooooops&qft=+filterui:color2-FGcls_PINK&FORM=IRFLTR",
+      "target_url": "https://avalongrouptampabay.com/the-pink-streets-of-st-petersburg/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-20 14:28:09 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.windowssearch-exp.com/images/search?&q=St.+Petersburg+Streets&qft=+filterui:color2-FGcls_GREEN&FORM=IRFLTR",
+      "target_url": "https://avalongrouptampabay.com/safest-neighborhoods-st-petersburg/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-21 14:56:45 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.windowssearch-exp.com/images/search?&q=St.+Petersburg+Streets&qft=+filterui:color2-FGcls_PINK&FORM=IRFLTR",
+      "target_url": "https://avalongrouptampabay.com/the-pink-streets-of-st-petersburg/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-18 12:01:00 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.windowssearch-exp.com/images/search?q=St.+Petersburg+Streets&qft=+filterui%3acolor2-FGcls_GREEN&FORM=IRIBIP",
+      "target_url": "https://avalongrouptampabay.com/safest-neighborhoods-st-petersburg/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-07-08 06:38:05 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.windowssearch-exp.com/images/search?q=St.+Petersburg+Streets&qft=+filterui%3acolor2-FGcls_GREEN&FORM=IRMHIP",
+      "target_url": "https://avalongrouptampabay.com/safest-neighborhoods-st-petersburg/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-07-08 06:38:01 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://dcoutesnjacob.com/dark-side-links-dark-white-hat-link-building-1330/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-20 03:34:36 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.seolium.com/blog/best-31-realtors-in-saint-petersburg/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-06-22 03:36:28 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://grokipedia.com/page/Al_Lang_Stadium",
+      "target_url": "https://avalongrouptampabay.com/history-of-al-lang-stadium/",
+      "anchor_text": "What is the History of Al Lang Stadium in St. Petersburg? -",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-11-07 18:58:16 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.businessesup.com/33740/avalon-group-real-estate-agents",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "Avalon Group Real Estate Agents",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-07-14 06:49:51 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://shop.thesocialhouseja.com/dark-side-links-dark-white-hat-link-building-1330/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-14 13:56:27 +00:00"
+    },
+    {
+      "source_url": "https://glynisbmarketa.pages.dev/ksoullg-florida-state-fair-tampa-2024-images-hhfobgg/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-07-18 23:57:04 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://blog.parseai.co/10-essential-steps-for-your-property-title-verification-checklist/",
+      "target_url": "https://avalongrouptampabay.com/benefits-property-surveys",
+      "anchor_text": "precise measurements and delineations of borders",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-11-24 12:06:21 +00:00"
+    },
+    {
+      "source_url": "https://avalongrouprealtyfl.com/agent/1099/Yvette_Kim",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "Avalon Group Realty",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-03-28 02:14:21 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://avalongrouprealtyfl.com/agent/1104/Jeannie_Johnston",
+      "target_url": "https://avalongrouptampabay.com/jeannie-johnston/",
+      "anchor_text": "real estate goals",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-03-28 02:14:13 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://melbayarliene.pages.dev/zuikimb-whole-foods-opening-in-2024-bangalore-images-kizxrva/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-10-09 21:00:41 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://lyndebclaudette.pages.dev/qtcaykl-florida-hoa-changes-2024-images-rshxezk/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-10-10 08:42:28 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://xedulichdaklak.com/dark-side-links-dark-white-hat-link-building-1330.html",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-06 08:56:04 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.walisha.org/dark-side-links-dark-white-hat-link-building-1330/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-05 19:43:07 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://cacaolandbmt.com/dark-side-links-dark-white-hat-link-building-1330/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-05 06:36:25 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://shortenurls.eu/share/53975",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-20 23:27:45 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.bizhwy.com/visit.php?biz=46742&state=Florida",
+      "target_url": "http://avalongrouptampabay.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-11 11:55:27 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://bigtrakisback.com/bez-rubriki/dark-side-links-dark-white-hat-link-building-1330/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-02 03:13:54 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.idcrawl.com/yvette-kim",
+      "target_url": "https://avalongrouptampabay.com/yvette-kim/",
+      "anchor_text": "Westchase Realtor - Yvette Kim - AVALON Group Real Estate Agents",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-28 12:10:24 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "http://connect.releasewire.com/company/details/avalon-group-169774.htm",
+      "target_url": "http://avalongrouptampabay.com/",
+      "anchor_text": "http://avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-11-11 05:59:16 +00:00"
+    },
+    {
+      "source_url": "https://egumball.vids.io/videos/4c9ddebc1610efc5c4/realtor-in-st-petersburg-fl-avalon-group-palmerhouse-properties",
+      "target_url": "http://avalongrouptampabay.com/",
+      "anchor_text": "http://avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2022-01-31 10:56:01 +00:00"
+    },
+    {
+      "source_url": "https://www.tunca.org/22216976f8002a7d2715793a37f6a723-l/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-24 05:54:38 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://paisaldia.com/un-recorrido-por-el-ultimo-refugio-de-hulk-hogan-asi-era-su-casa-de-florida/",
+      "target_url": "https://avalongrouptampabay.com/hulk-hogans-house-belleair-florida/",
+      "anchor_text": "Avalon Group Realty",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-31 21:50:15 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://bluecantera.com/dark-side-links-dark-white-hat-link-building-1330/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-23 00:05:45 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://patbselestina.pages.dev/bhrcsoh-whole-foods-opening-in-2024-in-india-images-luvqbkj/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-09-13 18:54:12 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "http://connect.releasewire.com/company/avalon-group-169774.htm",
+      "target_url": "http://avalongrouptampabay.com/",
+      "anchor_text": "Home Page",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-10-20 09:47:48 +00:00"
+    },
+    {
+      "source_url": "https://tomisheeree.pages.dev/azehgec-green-thumb-festival-st-petersburg-2024-photos-flzjvzx/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-07-16 02:42:39 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://karlavadelina.pages.dev/ceqkspa-st-petersburg-florida-march-2024-events-calendar-images-avxcxvj/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-12-15 10:03:18 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.wallpapers.pro/22216976f8002a7d2715793a37f6a723-l/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-19 03:26:38 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://quero.party/report/53974",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-19 00:39:59 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://local.exactseek.com/location/saint-petersburg-3929/70",
+      "target_url": "http://avalongrouptampabay.com/",
+      "anchor_text": "Website",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-14 19:22:43 +00:00"
+    },
+    {
+      "source_url": "https://www.musweb.org/page-fde9c8aba8627dfbfd666885ce4ca971.html",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-13 11:29:57 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://grokipedia.com/page/Belleair%2C_Florida",
+      "target_url": "https://avalongrouptampabay.com/hulk-hogans-house-belleair-florida/",
+      "anchor_text": "https://avalongrouptampabay.com/hulk-hogans-house-belleair-florida/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-13 10:07:16 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.hoursmap.com/b/avalon-group-st-petersburg-fl",
+      "target_url": "http://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2020-10-20 23:05:53 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://realtors.city/listing/avalon-group-realty/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "Website",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-01-06 13:23:52 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 40
+    },
+    {
+      "source_url": "https://www.reputablebusinesses.com/368131/avalon-group-real-estate-agents",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "Avalon Group Real Estate Agents",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-10-05 09:46:18 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://getwebsiteworth.com/22216976f8002a7d2715793a37f6a723-l/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-29 08:52:23 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://sites.jake.eu/share/53975",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-07 15:19:24 +00:00"
+    },
+    {
+      "source_url": "https://servicespro.net/welcome-to-avalon-group-lpt-realty-your-trusted-real-estate-partner-avalon-group-lpt-realty-fl-real-estate-agent/",
+      "target_url": "http://www.avalongrouptampabay.com/",
+      "anchor_text": "http://www.avalongrouptampabay.com/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-03 21:15:06 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "http://photoderm.org/obfxs/748259172278165f58a9599111bd7f099",
+      "target_url": "https://www.avalongrouptampabay.com/search/foreclosure_search/",
+      "anchor_text": "avalongrouptampabay.com Foreclosure Search",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-10-20 07:44:58 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "http://photoderm.org/obfxs/748259172278165f58a9",
+      "target_url": "https://www.avalongrouptampabay.com/search/foreclosure_search/",
+      "anchor_text": "avalongrouptampabay.com Foreclosure Search",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-10-20 07:56:02 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "http://photoderm.org/obfxs/748259172278165f58a9599111bd7f0995b9",
+      "target_url": "https://www.avalongrouptampabay.com/search/foreclosure_search/",
+      "anchor_text": "avalongrouptampabay.com Foreclosure Search",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-10-20 07:45:22 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "http://photoderm.org/obfxs/748259172278165f58a",
+      "target_url": "https://www.avalongrouptampabay.com/search/foreclosure_search/",
+      "anchor_text": "avalongrouptampabay.com Foreclosure Search",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-10-20 04:20:20 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "http://photoderm.org/obfxs/748259172278165f58a9599111bd7",
+      "target_url": "https://www.avalongrouptampabay.com/search/foreclosure_search/",
+      "anchor_text": "avalongrouptampabay.com Foreclosure Search",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-10-19 22:11:28 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "http://photoderm.org/obfxs/748259172278165f58a9599111bd7f0995b",
+      "target_url": "https://www.avalongrouptampabay.com/search/foreclosure_search/",
+      "anchor_text": "avalongrouptampabay.com Foreclosure Search",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-10-19 16:00:00 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "http://photoderm.org/obfxs/748259172278165f58a9599",
+      "target_url": "https://www.avalongrouptampabay.com/search/foreclosure_search/",
+      "anchor_text": "avalongrouptampabay.com Foreclosure Search",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-10-19 10:54:39 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.bestprosintown.com/fl/st.-petersburg/avalon-group-lpt-realty-/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "Website",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-11-26 14:31:21 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 40
+    },
+    {
+      "source_url": "https://ready.pro/stats/53974",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-01 21:15:12 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://global-ranks.pages.dev/48/CHxcxkrUfT",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-11-13 13:28:22 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://global-ranks.pages.dev/48/iyOjWgqlkP",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-11-13 11:37:20 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://booksreadr.org/page-fde9c8aba8627dfbfd666885ce4ca971.html",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-31 15:44:50 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://members.flaglercountyrealtors.com/designated-realtor-directory/FindStartsWith?term=%23%21",
+      "target_url": "http://www.avalongrouptampabay.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-01-13 13:15:02 +00:00"
+    },
+    {
+      "source_url": "https://members.flaglercountyrealtors.com/office-directory/FindStartsWith?term=%23%21",
+      "target_url": "http://avalongrouptampabay.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-01-13 13:21:14 +00:00"
+    },
+    {
+      "source_url": "https://marlenazdarya.pages.dev/ukspi-2024-st-petersburg-grand-prix-schedule-qdjam/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-07-06 16:57:44 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.fyple.com/company/avalon-group-palmerhouse-properties-yivlbyz/",
+      "target_url": "http://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-01-23 11:56:12 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://siannazdora.pages.dev/vnvyn-st-petersburg-fl-events-september-2024-tkzyk/",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "www.avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-01-31 20:22:12 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://way2check.cv/page-fde9c8aba8627dfbfd666885ce4ca971.html",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-25 08:57:10 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://mydeepin.ru/best-white-dark-hat-linkbuilding-for-your-website-656/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "LINKS FOR avalongrouptampabay.com TELEGRAM @happygrannypies",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-08-15 16:37:16 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://lottayjosephine.pages.dev/acyonvg-florida-hoa-changes-2024-photos-tvpodhu/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-03-29 15:13:09 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.interluxinteriors.com/news",
+      "target_url": "https://avalongrouptampabay.com/reviving-st-petersburg-landmark/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-02-03 19:44:18 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://thetaylortownsend.com/merced-county/cost-to-build-a-house-in-st-petersburg%2C-fl",
+      "target_url": "https://avalongrouptampabay.com/best-neighborhoods-st-petersburg-florida/",
+      "anchor_text": "Best Neighborhoods in St Petersburg Florida",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-09-04 11:43:55 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.seolium.com/market-research/where-is-avalongrouptampabay-in-the-real-estate-market/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-06-30 20:25:59 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://siouxfthjoycelin.pages.dev/btofimc-2025-will-house-prices-go-down-in-2025-top-photos-agazbri/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-10-13 17:48:59 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://dailebgeorgena.pages.dev/jsoceiq-st-pete-neighborhoods-map-images-phugnyp/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-08-24 01:54:26 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://sisgroup.lk/quarterlinks-dofollow-article-links-just-for-25-5253/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-12 23:39:41 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.avalongrouprealtyfl.com/agent/1104/Jeannie_Johnston",
+      "target_url": "https://avalongrouptampabay.com/jeannie-johnston/",
+      "anchor_text": "real estate goals",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-26 18:04:18 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.avalongrouprealtyfl.com/agent/1099/Yvette_Kim",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "Avalon Group Realty",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-26 18:04:10 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.loc8nearme.com/florida/st.-petersburg/avalon-group-real-estate-agents/6737756/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "Website",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-11-20 00:30:06 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 40
+    },
+    {
+      "source_url": "https://pollolandiacr.com/lg-soundbar/cost-to-build-a-house-in-st-petersburg%2C-fl",
+      "target_url": "https://avalongrouptampabay.com/best-neighborhoods-st-petersburg-florida/",
+      "anchor_text": "Best Neighborhoods in St Petersburg Florida",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-08-28 21:33:18 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://janiceqpetronella.pages.dev/qhfolmh-green-thumb-festival-2025-images-gxfcdqf/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-07-16 14:43:51 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://dalilabcindelyn.pages.dev/gbwmhom-florida-hoa-changes-2024-photos-kfnftyt/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-10-21 16:58:18 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "http://wheretobuybest.link/duslertabirigreato/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-12-29 03:51:45 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://sblisting.com/real-estate-agents-in-florida/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "Avalon Group Realty",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-06-02 12:32:02 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://cristaytessie.pages.dev/kwsedbg-whole-foods-opening-in-2024-in-india-photos-hparxmi/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-03-25 09:47:56 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://intently.co/providers/United+States/St+Petersburg/House+Builder",
+      "target_url": "https://avalongrouptampabay.com/kasper-modern-homes/",
+      "anchor_text": "Visit website",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-10-18 21:07:37 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.expertise.com/home-improvement/real-estate-agents/florida/tampa",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-08-07 12:49:37 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.expertise.com/home-improvement/real-estate-agents/florida/st-petersburg",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-08-07 13:57:07 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://grayychristyna.pages.dev/bnezcey-whole-foods-opening-in-2024-photos-cvrflyh/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-09-12 04:30:37 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://agreatertown.com/largo-fl/aaron-hunt-listing-agent-at-00023848477",
+      "target_url": "http://www.avalongrouptampabay.com/",
+      "anchor_text": "http://www.avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-09 08:29:52 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://consumercredittips.com/the-pre-approval-process-bidding-wars/",
+      "target_url": "https://avalongrouptampabay.com/winning-real-estate-bidding-war/",
+      "anchor_text": "half of homes",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-09-26 00:59:33 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://bye.fyi/report/665409",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-10-09 13:43:34 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.steadily.com/blog/largo-fl-real-estate-market-overview",
+      "target_url": "https://avalongrouptampabay.com/our-areas/largo/",
+      "anchor_text": "3",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-11-04 20:03:05 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.steadily.com/blog/hoa-laws-regulations-st-petersburg",
+      "target_url": "https://avalongrouptampabay.com/surging-growth-homeowners-associations/",
+      "anchor_text": "homeowners associations",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-10-27 23:25:10 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.steadily.com/blog/hoa-laws-regulations-st-petersburg",
+      "target_url": "https://avalongrouptampabay.com/hoa-changes-2024/",
+      "anchor_text": "HOA legal updates",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-10-27 23:25:10 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://intently.co/providers/United+States/St+Petersburg/House+Builder?display=normal",
+      "target_url": "https://avalongrouptampabay.com/kasper-modern-homes/",
+      "anchor_text": "Kasper Modern Homes - AVALON Group Real Estate Agentsavalongrouptampabay.com\n\n          \n        About:  Kasper Modern Homes is their favorite house builder in St. Petersburg, FL. Avalon Group will help you through the process of building a modern custom house",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-10-20 08:20:28 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.ghcfunding.com/2025/st-petersburg/unlock-st-petersburgs-no-doc-cre-loans-for-rentals-now/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "https://avalongrouptampabay.com/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-10 08:26:07 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://productionfunctionusa.com/quarterlinks-dofollow-article-links-just-for-25-5253/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-10 20:11:39 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.swflifestyles.com/blog/the-value-of-community-pools-in-the-swfl-lifestyle",
+      "target_url": "https://avalongrouptampabay.com/hoa-questions-buying/?utm_source=chatgpt.com",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-10-09 07:11:33 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://about.me/avalongroup",
+      "target_url": "http://avalongrouptampabay.com/",
+      "anchor_text": "Visit my company website",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2022-01-14 19:55:28 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://servicefinderamerica.com/search/real%20estate%20agent/st.%20petersburg/fl?page=1",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-10-02 01:28:38 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://servicefinderamerica.com/search/real%20estate%20agent/st.%20petersburg/fl",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-01-19 10:22:02 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://d-macindustries.info/hkwumn/cost-to-build-a-house-in-st-petersburg%2C-fl",
+      "target_url": "https://avalongrouptampabay.com/best-neighborhoods-st-petersburg-florida/",
+      "anchor_text": "Best Neighborhoods in St Petersburg Florida",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-02-28 02:38:01 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://piscatore.dk/blog/2025/07/01/quarterlinks-dofollow-article-links-just-for-25-5253/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-09-13 03:02:03 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://australianwebdirectory.pro/22216976f8002a7d2715793a37f6a723-l/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-03 00:25:35 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://florrybkalila.pages.dev/aguspor-st-petersburg-fl-neighborhoods-map-images-qkpqgrk/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-11-02 23:23:48 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://synara.tech/directory/avalon-group-realty-10028423",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "link",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-08-19 10:37:04 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 40
+    },
+    {
+      "source_url": "https://intently.co/suppliers/United+States/St+Petersburg/House+Builder?display=normal",
+      "target_url": "https://avalongrouptampabay.com/kasper-modern-homes/",
+      "anchor_text": "Kasper Modern Homes - AVALON Group Real Estate Agentsavalongrouptampabay.com\n\n          \n        About:  Kasper Modern Homes is their favorite house builder in St. Petersburg, FL. Avalon Group will help you through the process of building a modern custom house",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-04-21 20:17:40 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://franniyardella.pages.dev/wiewjpt-whole-foods-opening-in-2024-images-zojyszx/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-09-12 05:09:38 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://matbannguyentam.com/dnapcb/cost-to-build-a-house-in-st-petersburg%2C-fl",
+      "target_url": "https://avalongrouptampabay.com/best-neighborhoods-st-petersburg-florida/",
+      "anchor_text": "Best Neighborhoods in St Petersburg Florida",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-04-22 02:21:32 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://realestatebrokersearch.com/FL/34638/zip",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-01-22 19:59:33 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.fmalpina.com.ar/articulo/un-recorrido-por-el-ultimo-refugio-de-hulk-hogan-asi-era-su-casa-de-florida.php",
+      "target_url": "https://avalongrouptampabay.com/hulk-hogans-house-belleair-florida/",
+      "anchor_text": "Avalon Group Realty",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-03 13:49:24 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://unitedstatesmls.com/FL/33706/zip",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-02-21 22:44:00 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://globalcocolk.com/2025/07/01/quarterlinks-dofollow-article-links-just-for-25-5253/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-08-02 06:49:39 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.astrologlar.com/quarterlinks-dofollow-article-links-just-for-25-5253/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-08-01 05:23:28 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.leqfort.com.br/rUulIaj/cost-to-build-a-house-in-st-petersburg%2C-fl",
+      "target_url": "https://avalongrouptampabay.com/best-neighborhoods-st-petersburg-florida/",
+      "anchor_text": "Best Neighborhoods in St Petersburg Florida",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-10-02 13:14:59 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://m-he.com/quarterlinks-dofollow-article-links-just-for-25-5253/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-31 02:02:31 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://floridaonlinerealestate.com/FL/34685/zip",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-02-09 00:00:16 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://floridaonlinerealestate.com/FL/34667/zip",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-02-08 23:39:51 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://floridaonlinerealestate.com/FL/33702/zip",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-02-08 23:37:32 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://floridaonlinerealestate.com/FL/33701/zip",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-02-08 23:25:32 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://insumosartesgraficas.com/2024/07/30/best-white-dark-hat-linkbuilding-for-your-website-656/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "LINKS FOR avalongrouptampabay.com TELEGRAM @happygrannypies",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-01-12 02:13:43 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://ezeller.com/quarterlinks-dofollow-article-links-just-for-25-5253/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-15 09:48:55 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://passiogolf.vn/news/quarterlinks-dofollow-article-links-just-for-25-5253/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-12 05:13:59 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://mundotecnologia.info/53e62bd4da00c6d6ebddc130eae345e0-domains.html",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-02-08 23:17:37 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Saint-Petersburg/660948354299122/Avalon-Group-Realty",
+      "target_url": "https://avalongrouptampabay.com/46-story-400-central-condo-tower-rises-as-tallest-on-floridas-west-coast/",
+      "anchor_text": "https://avalongrouptampabay.com/46-story-400-central-condo-tower-rises-as-tallest-on-floridas-west-coast/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-23 19:01:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Saint-Petersburg/660948354299122/Avalon-Group-Realty",
+      "target_url": "https://avalongrouptampabay.com/best-boba-tea-in-st-pete-fl/",
+      "anchor_text": "https://avalongrouptampabay.com/best-boba-tea-in-st-pete-fl/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-23 19:01:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Saint-Petersburg/660948354299122/Avalon-Group-Realty",
+      "target_url": "https://avalongrouptampabay.com/will-house-prices-go-down-in-st-petersburg-fl/",
+      "anchor_text": "https://avalongrouptampabay.com/will-house-prices-go-down-in-st-petersburg-fl/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-23 19:01:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Saint-Petersburg/660948354299122/Avalon-Group-Realty",
+      "target_url": "https://avalongrouptampabay.com/home-buyers-focus-on-wellness-homes/",
+      "anchor_text": "https://avalongrouptampabay.com/home-buyers-focus-on-wellness-homes/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-23 19:01:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Saint-Petersburg/660948354299122/Avalon-Group-Realty",
+      "target_url": "https://avalongrouptampabay.com/best-spaghetti-st-pete-jay-luigis/",
+      "anchor_text": "https://avalongrouptampabay.com/best-spaghetti-st-pete-jay-luigis/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-23 19:01:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Saint-Petersburg/660948354299122/Avalon-Group-Realty",
+      "target_url": "https://avalongrouptampabay.com/3107-mountain-spruce-ter-wesley-chapel-home-for-sale/",
+      "anchor_text": "https://avalongrouptampabay.com/3107-mountain-spruce-ter-wesley-chapel-home-for-sale/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-23 19:01:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Saint-Petersburg/660948354299122/Avalon-Group-Realty",
+      "target_url": "https://avalongrouptampabay.com/673-folsom-st-s-st-petersburg-fl/",
+      "anchor_text": "https://avalongrouptampabay.com/673-folsom-st-s-st-petersburg-fl/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-23 19:01:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Saint-Petersburg/660948354299122/Avalon-Group-Realty",
+      "target_url": "https://avalongrouptampabay.com/tax-deductions-for-homeowners-in-2025/",
+      "anchor_text": "https://avalongrouptampabay.com/tax-deductions-for-homeowners-in-2025/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-23 19:01:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Saint-Petersburg/660948354299122/Avalon-Group-Realty",
+      "target_url": "https://avalongrouptampabay.com/picking-a-home-that-will-fit-your-dining-table/",
+      "anchor_text": "https://avalongrouptampabay.com/picking-a-home-that-will-fit-your-dining-table/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-23 19:01:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Saint-Petersburg/660948354299122/Avalon-Group-Realty",
+      "target_url": "https://avalongrouptampabay.com/red-thread-restaurant-explores-flavors-of-the-silk-road/",
+      "anchor_text": "https://avalongrouptampabay.com/red-thread-restaurant-explores-flavors-of-the-silk-road/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-23 19:01:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Saint-Petersburg/660948354299122/Avalon-Group-Realty",
+      "target_url": "https://avalongrouptampabay.com/st-petersburg-rental-market-february-2025/",
+      "anchor_text": "https://avalongrouptampabay.com/st-petersburg-rental-market-february-2025/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-23 19:01:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Saint-Petersburg/660948354299122/Avalon-Group-Realty",
+      "target_url": "https://avalongrouptampabay.com/real-estate-market-in-orlando-vs-st-pete/",
+      "anchor_text": "https://avalongrouptampabay.com/real-estate-market-in-orlando-vs-st-pete/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-23 19:01:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Saint-Petersburg/660948354299122/Avalon-Group-Realty",
+      "target_url": "http://www.avalongrouptampabay.com/",
+      "anchor_text": "www.AvalonGroupTampaBay.com.",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-11-26 04:10:37 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://thebestbacklinksavailable.click/c05c049f1582db1a3ad58342e3f2af36-items",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "avalongrouptampabay.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-08 12:14:30 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://levleachim.co.il/best-white-dark-hat-linkbuilding-for-your-website-656/",
+      "target_url": "https://avalongrouptampabay.com/",
+      "anchor_text": "LINKS FOR avalongrouptampabay.com TELEGRAM @happygrannypies",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-09-01 07:27:13 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://stpetersburgmls.com/FL/33523/zip",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-12-26 12:08:15 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://stpetersburgmls.com/FL/PINELLAS%20PARK",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-12-26 12:21:59 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://stpetersburgmls.com/FL/SAINT%20PETERSBURG",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-12-26 12:21:50 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://stpetersburgmls.com/FL/SAN%20ANTONIO",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-12-26 12:20:17 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://stpetersburgmls.com/FL/SAFETY%20HARBOR",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-12-26 12:18:54 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://stpetersburgmls.com/FL/33762/zip",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-12-26 12:13:25 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://tampasmls.com/FL/34683/zip",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-12-26 12:58:56 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://tampasmls.com/FL/33774/zip",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-12-26 12:58:41 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://tampasmls.com/FL/34685/zip",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-12-26 12:58:29 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://stpetersburgmls.com/FL/34677/zip",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-12-26 12:08:01 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://tampasmls.com/FL/33765/zip",
+      "target_url": "https://www.avalongrouptampabay.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-12-26 12:56:46 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    }
+  ],
+  "referring_domains": [
+    {
+      "domain": "mystatemls.com",
+      "rank": 60,
+      "backlinks": 2,
+      "first_seen": "2025-04-08 14:59:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 60)"
+    },
+    {
+      "domain": "dailygram.com",
+      "rank": 51,
+      "backlinks": 1,
+      "first_seen": "2025-05-22 12:12:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 91,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 51)"
+    },
+    {
+      "domain": "avalongrouprealtytampa.com",
+      "rank": 44,
+      "backlinks": 2,
+      "first_seen": "2024-06-16 19:59:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "gloopla.com",
+      "rank": 41,
+      "backlinks": 15,
+      "first_seen": "2024-11-26 04:10:37 +00:00",
+      "dofollow": 0,
+      "referring_pages": 14,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "nystatemls.com",
+      "rank": 37,
+      "backlinks": 2,
+      "first_seen": "2025-04-26 17:58:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "avalongrouprealtyfl.com",
+      "rank": 29,
+      "backlinks": 6,
+      "first_seen": "2025-03-28 02:14:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 6,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "alwaysislandtimerealty.com",
+      "rank": 23,
+      "backlinks": 1,
+      "first_seen": "2025-10-17 13:37:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "pointcom.com",
+      "rank": 7,
+      "backlinks": 1,
+      "first_seen": "2023-05-22 13:52:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 77,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "enigma.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-05-04 00:22:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "lantern.llc",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-04-22 23:42:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "sergechel.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-13 18:35:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "keirseybooks.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-25 00:14:31 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "seomuda.id",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-23 13:25:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign, SEO-spam-domain"
+    },
+    {
+      "domain": "torun-stolarz.pl",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-21 09:10:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign, telegram-spam-anchor"
+    },
+    {
+      "domain": "dcoutesnjacob.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-20 03:34:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "zumvu.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-18 17:06:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "generic-anchor-low-DR",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, generic-anchor-low-DR, single-dofollow-DR0"
+    },
+    {
+      "domain": "thesocialhouseja.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-14 13:56:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "prothor-ing.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-14 12:14:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "xedulichdaklak.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-06 08:56:04 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "walisha.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-05 19:43:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "cacaolandbmt.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-05 06:36:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "junkhomebuyer.com",
+      "rank": 0,
+      "backlinks": 5,
+      "first_seen": "2026-03-02 06:14:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "bigtrakisback.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-02 03:13:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "idcrawl.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-28 12:10:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "tunca.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-24 05:54:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "bluecantera.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-02-23 00:05:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "wallpapers.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-19 03:26:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "quero.party",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-19 00:39:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "exactseek.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-14 19:22:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "musweb.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-13 11:29:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "jake.eu",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-07 15:19:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "websiterace.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-02 15:15:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "ready.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-01 21:15:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "booksreadr.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-31 15:44:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "way2check.cv",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-25 08:57:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "globalecommerce.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-24 07:14:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "alljobs.info",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-21 00:37:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "shortenurls.eu",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-20 23:27:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "getwebsiteworth.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-12-29 08:52:23 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "wheretobuybest.link",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-29 03:51:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "180contractors.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-18 22:28:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "parseai.co",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-24 12:06:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "grokipedia.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-11-07 18:58:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "steadily.com",
+      "rank": 0,
+      "backlinks": 7,
+      "first_seen": "2025-10-27 23:25:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "releasewire.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-10-20 09:47:48 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "skysmart.ru",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-10-16 09:11:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
+    },
+    {
+      "domain": "siouxfthjoycelin.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-10-13 17:48:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "melbayarliene.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-10-09 21:00:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "swflifestyles.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-10-09 07:11:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "reputablebusinesses.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-10-05 09:46:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "consumercredittips.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-26 00:59:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "piscatore.dk",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-13 03:02:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "dailebgeorgena.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-24 01:54:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "lanacion.com.ar",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-21 13:11:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "synara.tech",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-08-19 10:37:04 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "generic-anchor-low-DR"
+      ],
+      "qualityReason": "DR-0, generic-anchor-low-DR"
+    },
+    {
+      "domain": "mydeepin.ru",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-15 16:37:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign, telegram-spam-anchor"
+    },
+    {
+      "domain": "fmalpina.com.ar",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-03 13:49:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "australianwebdirectory.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-03 00:25:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+    },
+    {
+      "domain": "globalcocolk.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-02 06:49:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "astrologlar.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-01 05:23:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "paisaldia.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-31 21:50:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "roboapply.co",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-31 12:38:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "m-he.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-31 02:02:31 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "ezeller.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-15 09:48:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "sisgroup.lk",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-12 23:39:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "passiogolf.vn",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-12 05:13:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign, telegram-spam-anchor"
+    },
+    {
+      "domain": "productionfunctionusa.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-10 20:11:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "agreatertown.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-09 08:29:52 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "australianwebdirectory.shop",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-31 07:32:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "belonnanotservice.ga",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-27 07:05:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 10,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD"
+      ],
+      "qualityReason": "DR-0, spam-TLD"
+    },
+    {
+      "domain": "windowssearch-exp.com",
+      "rank": 0,
+      "backlinks": 8,
+      "first_seen": "2025-05-21 14:56:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 8,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "cocoqatar.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-19 23:52:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "enwikipedia.net",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-19 23:49:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "agmermer.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-16 23:50:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "deliabgabrila.pages.dev",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-16 02:17:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "seobacklinks.agency",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-15 04:28:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "rankgrow.agency",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-09 10:54:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "americasmls.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-05-08 22:30:09 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "ghcfunding.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-04-24 03:03:19 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "reviewsonmywebsite.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-04-19 13:49:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "thebestbacklinksavailable.click",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-04-08 12:14:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD",
+        "SEO-spam-domain",
+        "single-dofollow-DR0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, spam-TLD, SEO-spam-domain, single-dofollow-DR0, suspiciously-long-domain"
+    },
+    {
+      "domain": "what-happens-next.xyz",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-04-07 13:12:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 10,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD"
+      ],
+      "qualityReason": "DR-0, spam-TLD"
+    },
+    {
+      "domain": "browseallexpireddomains.us",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-04-06 15:28:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "lottayjosephine.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-03-29 15:13:09 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "great-choice-for-pbn-domains.co.uk",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-03-29 04:55:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, suspiciously-long-domain"
+    },
+    {
+      "domain": "dilloncook.com",
+      "rank": 0,
+      "backlinks": 6,
+      "first_seen": "2025-03-26 17:09:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "cristaytessie.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-03-25 09:47:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "d-macindustries.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-02-28 02:38:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "unitedstatesmls.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-02-21 22:44:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "floridaonlinerealestate.com",
+      "rank": 0,
+      "backlinks": 6,
+      "first_seen": "2025-02-08 23:25:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 6,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "mundotecnologia.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-02-08 23:17:37 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "interluxinteriors.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-02-03 19:44:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "fyple.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-01-23 11:56:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "realestatebrokersearch.com",
+      "rank": 0,
+      "backlinks": 6,
+      "first_seen": "2025-01-22 19:59:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 6,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "servicefinderamerica.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-01-19 10:22:02 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "flaglercountyrealtors.com",
+      "rank": 0,
+      "backlinks": 6,
+      "first_seen": "2025-01-13 13:12:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "seemymls.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-01-12 20:06:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "insumosartesgraficas.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-01-12 02:13:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor, single-dofollow-DR0"
+    },
+    {
+      "domain": "realtors.city",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-01-06 13:23:52 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "generic-anchor-low-DR"
+      ],
+      "qualityReason": "DR-0, generic-anchor-low-DR"
+    },
+    {
+      "domain": "smarthomes.kz",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-01-04 06:48:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
+    },
+    {
+      "domain": "intently.co",
+      "rank": 0,
+      "backlinks": 5,
+      "first_seen": "2025-01-02 16:50:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "tampasmls.com",
+      "rank": 0,
+      "backlinks": 21,
+      "first_seen": "2024-12-26 11:33:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 21,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "stpetersburgmls.com",
+      "rank": 0,
+      "backlinks": 19,
+      "first_seen": "2024-12-26 11:23:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 19,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "karlavadelina.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-12-15 10:03:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "bestprosintown.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-11-26 14:31:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "generic-anchor-low-DR"
+      ],
+      "qualityReason": "DR-0, generic-anchor-low-DR"
+    },
+    {
+      "domain": "loc8nearme.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-11-20 00:30:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "generic-anchor-low-DR"
+      ],
+      "qualityReason": "DR-0, generic-anchor-low-DR"
+    },
+    {
+      "domain": "florrybkalila.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-11-02 23:23:48 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "kalabothella.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-10-23 01:05:52 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "dalilabcindelyn.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-10-21 16:58:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "photoderm.org",
+      "rank": 0,
+      "backlinks": 7,
+      "first_seen": "2024-10-19 10:54:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 7,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "lyndebclaudette.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-10-10 08:42:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "bye.fyi",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-10-09 13:43:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "christmasappeal2024.pages.dev",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-10-03 08:17:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "numeric-domain"
+      ],
+      "qualityReason": "DR-0, numeric-domain"
+    },
+    {
+      "domain": "leqfort.com.br",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-10-02 13:14:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "ashelyycassondra.pages.dev",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-09-25 14:58:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "patbselestina.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-09-13 18:54:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "franniyardella.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-09-12 05:09:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "grayychristyna.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-09-12 04:30:37 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "thetaylortownsend.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-09-04 11:43:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "levleachim.co.il",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-09-01 07:27:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor, single-dofollow-DR0"
+    },
+    {
+      "domain": "pollolandiacr.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-08-28 21:33:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "foodroute.nl",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-08-25 19:48:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "delqamberly.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-08-08 01:45:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "expertise.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-08-07 12:49:37 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "glynisbmarketa.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-07-18 23:57:04 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "mearoon.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-07-18 15:49:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "janiceqpetronella.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-07-16 14:43:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "tomisheeree.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-07-16 02:42:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "businessesup.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2024-07-14 06:49:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "marlenazdarya.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-07-06 16:57:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "seolium.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-06-22 03:36:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "sblisting.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-06-02 12:32:02 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "matbannguyentam.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-04-22 02:21:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "listingnearme.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-04-13 11:57:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "siannazdora.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-01-31 20:22:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "global-websites.pages.dev",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2023-11-30 22:32:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "global-ranks.pages.dev",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2023-11-13 11:37:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "bizhwy.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-11 11:55:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "servicespro.net",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-03 21:15:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "shopandgetlocal.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-06-18 08:54:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "propertyvendors.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2022-07-07 07:18:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "estateinnovation.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2022-06-29 00:46:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "generic-anchor-low-DR"
+      ],
+      "qualityReason": "DR-0, generic-anchor-low-DR"
+    },
+    {
+      "domain": "xotly.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2022-03-31 21:19:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "tellows.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2022-03-14 01:03:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "generic-anchor-low-DR"
+      ],
+      "qualityReason": "DR-0, generic-anchor-low-DR"
+    },
+    {
+      "domain": "us-business.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2022-02-14 18:57:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "vids.io",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2022-01-31 10:56:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "about.me",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2022-01-14 19:55:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "scoremyreviews.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2021-10-26 20:38:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "727area.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2021-09-14 14:14:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "hoursmap.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2020-10-20 23:05:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    }
+  ],
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-05-05T18:40:56.198Z",
+  "qualitySummary": {
+    "total": 150,
+    "legitimate": 8,
+    "suspicious": 73,
+    "spam": 69,
+    "legitimatePct": 5,
+    "suspiciousPct": 49,
+    "spamPct": 46,
+    "topLegitimate": [
+      {
+        "domain": "mystatemls.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 60)"
+      },
+      {
+        "domain": "avalongrouprealtytampa.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "gloopla.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "nystatemls.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "avalongrouprealtyfl.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "alwaysislandtimerealty.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "dailygram.com",
+        "quality": "legitimate",
+        "score": 91,
+        "reason": "High domain authority (DR 51)"
+      },
+      {
+        "domain": "pointcom.com",
+        "quality": "legitimate",
+        "score": 77,
+        "reason": "low-DR"
+      }
+    ],
+    "topSpam": [
+      {
+        "domain": "keirseybooks.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "seomuda.id",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, low-DR-foreign, SEO-spam-domain"
+      },
+      {
+        "domain": "torun-stolarz.pl",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, low-DR-foreign, telegram-spam-anchor"
+      },
+      {
+        "domain": "dcoutesnjacob.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "prothor-ing.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "xedulichdaklak.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "walisha.org",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "cacaolandbmt.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "bigtrakisback.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "bluecantera.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "piscatore.dk",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "mydeepin.ru",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, low-DR-foreign, telegram-spam-anchor"
+      },
+      {
+        "domain": "australianwebdirectory.pro",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+      },
+      {
+        "domain": "globalcocolk.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "astrologlar.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "m-he.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "ezeller.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "sisgroup.lk",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "passiogolf.vn",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, low-DR-foreign, telegram-spam-anchor"
+      },
+      {
+        "domain": "productionfunctionusa.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      }
+    ],
+    "analyzedAt": "2026-05-05T18:41:28.125Z",
+    "method": "rule-based-v1"
+  }
+}

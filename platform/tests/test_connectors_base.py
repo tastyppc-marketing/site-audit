@@ -80,3 +80,48 @@ class TestRequestSyncRetry:
 
         assert response.status_code == 200
         assert mock_client.request.call_count == 1
+
+
+class TestClientContextWiring:
+    """Verify BaseConnector accepts ClientContext and prefers it over settings."""
+
+    def test_legacy_settings_path_still_works(self) -> None:
+        """Existing callers that pass settings= continue to work unchanged."""
+        from audit_platform.config import Settings
+
+        bc = BaseConnector(settings=Settings(_env_file=None, DATAFORSEO_LOGIN="legacy"))
+        assert bc.settings.DATAFORSEO_LOGIN == "legacy"
+        assert bc.ctx is None
+
+    def test_ctx_path_populates_settings(self, tmp_path) -> None:
+        """When ctx is passed, BaseConnector reads its settings from the ctx."""
+        from audit_platform.config.client_context import ClientContext
+
+        client_dir = tmp_path / "clients" / "demo"
+        client_dir.mkdir(parents=True)
+        (client_dir / ".env").write_text("DATAFORSEO_LOGIN=via-ctx\n")
+        ctx = ClientContext.from_slug("demo", repo_root=tmp_path)
+
+        bc = BaseConnector(ctx=ctx)
+        assert bc.ctx is ctx
+        assert bc.settings.DATAFORSEO_LOGIN == "via-ctx"
+
+    def test_ctx_wins_over_explicit_settings(self, tmp_path) -> None:
+        """When both ctx and settings are passed, ctx's settings are used."""
+        from audit_platform.config import Settings
+        from audit_platform.config.client_context import ClientContext
+
+        client_dir = tmp_path / "clients" / "demo"
+        client_dir.mkdir(parents=True)
+        (client_dir / ".env").write_text("DATAFORSEO_LOGIN=ctx-wins\n")
+        ctx = ClientContext.from_slug("demo", repo_root=tmp_path)
+
+        loser = Settings(_env_file=None, DATAFORSEO_LOGIN="should-lose")
+        bc = BaseConnector(settings=loser, ctx=ctx)
+        assert bc.settings.DATAFORSEO_LOGIN == "ctx-wins"
+
+    def test_no_args_defaults_to_settings(self) -> None:
+        """Bare BaseConnector() falls back to a default Settings()."""
+        bc = BaseConnector()
+        assert bc.ctx is None
+        assert bc.settings.DATAFORSEO_LOGIN == ""
