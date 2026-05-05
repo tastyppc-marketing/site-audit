@@ -4,7 +4,7 @@
     "websiteUrl": "https://www.laurawillisrealestate.com",
     "auditDate": "April 11, 2026",
     "overallGrade": "F",
-    "gradeSummary": "laurawillisrealestate.com scored an overall grade of F (28/100). The biggest opportunities are: WebSite schema missing required field: name; JSON-LD parse error: Bad control character in string literal in JSON at position 2954 (line 69 column 68); No viewport meta tag \u2014 page won't render properly on mobile. Quick wins include: WebSite schema missing required field: name; JSON-LD parse error: Bad control character in string literal in JSON at position 2954 (line 69 column 68); No viewport meta tag \u2014 page won't render properly on mobile. Category breakdown: technical: 0/100, indexability: 99/100."
+    "gradeSummary": "laurawillisrealestate.com scored an overall grade of F (28/100). The biggest opportunities are: WebSite schema missing required field: name; JSON-LD parse error: Bad control character in string literal in JSON at position 2954 (line 69 column 68); No viewport meta tag — page won't render properly on mobile. Quick wins include: WebSite schema missing required field: name; JSON-LD parse error: Bad control character in string literal in JSON at position 2954 (line 69 column 68); No viewport meta tag — page won't render properly on mobile. Category breakdown: technical: 0/100, indexability: 99/100."
   },
   "competitor": {
     "primary": "competitor1.com",
@@ -42,8 +42,8 @@
       "effort": "Low"
     },
     {
-      "issue": "No viewport meta tag \u2014 page won't render properly on mobile",
-      "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+      "issue": "No viewport meta tag — page won't render properly on mobile",
+      "detail": "No viewport meta tag — page won't render properly on mobile",
       "impact": "Critical",
       "effort": "Low"
     },
@@ -145,178 +145,228 @@
   "keywords": [
     {
       "keyword": "Laura Willis Park City real estate",
-      "volume": "~2",
+      "volume": 10,
       "clientRank": "zillow.com",
       "competitorRank": "",
-      "topResult": "zillow.com (#1), visitparkcity.com, instagram.com, skiutah.com, sothebysrealty.com, utahrealestate.com"
+      "topResult": "zillow.com (#1), visitparkcity.com, instagram.com, skiutah.com, sothebysrealty.com, utahrealestate.com",
+      "cpc": null,
+      "competition": "LOW"
     },
     {
       "keyword": "Laura Willis Summit Sotheby's",
-      "volume": "~1",
+      "volume": null,
       "clientRank": "laurawillisrealestate.com (contact page)",
       "competitorRank": "",
-      "topResult": "visitparkcity.com, linkedin.com, summitsothebysrealty.com, sothebysrealty.com, zillow.com, luxuryrealestate.com"
+      "topResult": "visitparkcity.com, linkedin.com, summitsothebysrealty.com, sothebysrealty.com, zillow.com, luxuryrealestate.com",
+      "cpc": null,
+      "competition": null
     },
     {
       "keyword": "Park City homes for sale",
-      "volume": "Not found",
+      "volume": 4400,
       "clientRank": "zillow.com",
       "competitorRank": "",
-      "topResult": "coldwellbanker.com, theutahhomes.com, parkcityrealestate.com, homesparkcity.com, century21.com, redfin.com, homes.com, movoto.com"
+      "topResult": "coldwellbanker.com, theutahhomes.com, parkcityrealestate.com, homesparkcity.com, century21.com, redfin.com, homes.com, movoto.com",
+      "cpc": 3.37,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "Park City real estate",
-      "volume": "~4",
+      "volume": 1600,
       "clientRank": "zillow.com",
       "competitorRank": "",
-      "topResult": "homes.com, insideparkcityrealestate.com, parkcityrealestate.com, remaxofutah.com, lookoutparkcity.com, parkcityrealtygroup.com, trulia.com, realestateinparkcity.com"
+      "topResult": "homes.com, insideparkcityrealestate.com, parkcityrealestate.com, remaxofutah.com, lookoutparkcity.com, parkcityrealtygroup.com, trulia.com, realestateinparkcity.com",
+      "cpc": 3.73,
+      "competition": "LOW"
     },
     {
       "keyword": "Park City luxury homes",
-      "volume": "Not found",
+      "volume": 110,
       "clientRank": "zillow.com",
       "competitorRank": "",
-      "topResult": "sothebysrealty.com, parkcityluxuryrealestate.com, steinsrealty.com, promontoryclub.com, enjoyparkcity.com, redfin.com, utahluxurygroup.com, utahrealtygroup.com, realestateinparkcity.com"
+      "topResult": "sothebysrealty.com, parkcityluxuryrealestate.com, steinsrealty.com, promontoryclub.com, enjoyparkcity.com, redfin.com, utahluxurygroup.com, utahrealtygroup.com, realestateinparkcity.com",
+      "cpc": 6.19,
+      "competition": "LOW"
     },
     {
       "keyword": "Park City condos for sale",
-      "volume": "Not found",
+      "volume": 880,
       "clientRank": "zillow.com",
       "competitorRank": "",
-      "topResult": "enjoyparkcity.com, investinparkcity.com, parkcitypropertyguide.com, parkcityluxuryrealestate.com, parkcityinvestor.com, redfin.com, parkcity4u.com"
+      "topResult": "enjoyparkcity.com, investinparkcity.com, parkcitypropertyguide.com, parkcityluxuryrealestate.com, parkcityinvestor.com, redfin.com, parkcity4u.com",
+      "cpc": 3.67,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "Park City ski homes for sale",
-      "volume": "Not found",
+      "volume": 10,
       "clientRank": "zillow.com",
       "competitorRank": "",
-      "topResult": "realestateinparkcity.com, parkcityluxuryrealestate.com, redfin.com, utahrealtygroup.com, skiresortproperty.com, parkcityrealestate.com, deervalley.com"
+      "topResult": "realestateinparkcity.com, parkcityluxuryrealestate.com, redfin.com, utahrealtygroup.com, skiresortproperty.com, parkcityrealestate.com, deervalley.com",
+      "cpc": 2.06,
+      "competition": "LOW"
     },
     {
       "keyword": "Deer Valley real estate",
-      "volume": "~3",
+      "volume": 480,
       "clientRank": "zillow.com",
       "competitorRank": "",
-      "topResult": "deervalleyrealestateguide.com, parkcityinvestor.com, deervalleyproperties.com, parkcityluxuryrealestate.com, parkcityrealestate.com, sothebysrealty.com, steinsrealty.com, deervalleyrealestate.com"
+      "topResult": "deervalleyrealestateguide.com, parkcityinvestor.com, deervalleyproperties.com, parkcityluxuryrealestate.com, parkcityrealestate.com, sothebysrealty.com, steinsrealty.com, deervalleyrealestate.com",
+      "cpc": 6.31,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "Deer Valley homes for sale",
-      "volume": "Not found",
+      "volume": 880,
       "clientRank": "redfin.com (Antioch, CA)",
       "competitorRank": "",
-      "topResult": "parkcityrealestate.com, parkcityluxuryrealestate.com, zillow.com, trulia.com"
+      "topResult": "parkcityrealestate.com, parkcityluxuryrealestate.com, zillow.com, trulia.com",
+      "cpc": 2.66,
+      "competition": "LOW"
     },
     {
       "keyword": "Promontory Park City homes",
-      "volume": "Not found",
+      "volume": 10,
       "clientRank": "germaniaconstruction.com",
       "competitorRank": "",
-      "topResult": "promontoryclub.com, zillow.com, skiresortproperty.com, bestutahrealestate.com, realestateinparkcity.com, mullinrealestate.com"
+      "topResult": "promontoryclub.com, zillow.com, skiresortproperty.com, bestutahrealestate.com, realestateinparkcity.com, mullinrealestate.com",
+      "cpc": 3.41,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "Canyons Village real estate",
-      "volume": "Not found",
+      "volume": 10,
       "clientRank": "parkcitypropertyguide.com",
       "competitorRank": "",
-      "topResult": "parkcityluxuryrealestate.com, realestateinparkcity.com, chooseparkcity.com, parkcity4u.com, deervalleyrealestateguide.com, parkcityinvestor.com, utahskiproperties.com"
+      "topResult": "parkcityluxuryrealestate.com, realestateinparkcity.com, chooseparkcity.com, parkcity4u.com, deervalleyrealestateguide.com, parkcityinvestor.com, utahskiproperties.com",
+      "cpc": 3.46,
+      "competition": "HIGH"
     },
     {
       "keyword": "Jeremy Ranch homes for sale",
-      "volume": "Not found",
+      "volume": 110,
       "clientRank": "kwparkcity.com",
       "competitorRank": "",
-      "topResult": "zillow.com, livingparkcityutah.com, parkcity4u.com, parkcityrealestate.com, parkcityrealtygroup.com, redfin.com, parkcityinvestor.com, liveeatplayparkcity.com"
+      "topResult": "zillow.com, livingparkcityutah.com, parkcity4u.com, parkcityrealestate.com, parkcityrealtygroup.com, redfin.com, parkcityinvestor.com, liveeatplayparkcity.com",
+      "cpc": 2.72,
+      "competition": "HIGH"
     },
     {
       "keyword": "buy home Park City Utah",
-      "volume": "Not found",
+      "volume": null,
       "clientRank": "zillow.com",
       "competitorRank": "",
-      "topResult": "redfin.com, parkcityluxuryrealestate.com, parkcity4u.com, trulia.com, coldwellbankerhomes.com, remax.com, homes.com, parkcityhousehunters.com, engelvoelkers.com"
+      "topResult": "redfin.com, parkcityluxuryrealestate.com, parkcity4u.com, trulia.com, coldwellbankerhomes.com, remax.com, homes.com, parkcityhousehunters.com, engelvoelkers.com",
+      "cpc": null,
+      "competition": null
     },
     {
       "keyword": "sell home Park City Utah",
-      "volume": "Not found",
+      "volume": null,
       "clientRank": "parkcityluxuryrealestate.com",
       "competitorRank": "",
-      "topResult": "zillow.com, parkcity4u.com, utahluxurygroup.com, forsalebyowner.com, coldwellbankerhomes.com, sellingparkcity.com, insideparkcityrealestate.com, trulia.com"
+      "topResult": "zillow.com, parkcity4u.com, utahluxurygroup.com, forsalebyowner.com, coldwellbankerhomes.com, sellingparkcity.com, insideparkcityrealestate.com, trulia.com",
+      "cpc": null,
+      "competition": null
     },
     {
       "keyword": "Park City real estate market 2026",
-      "volume": "Not found",
+      "volume": null,
       "clientRank": "realestateinparkcity.com",
       "competitorRank": "",
-      "topResult": "zillow.com, parkcityhomesandland.com, keyeteam.com, insideparkcityrealestate.com, bespokeutahproperties.com, parkcityhomesales.com, luxuryrealestate.com"
+      "topResult": "zillow.com, parkcityhomesandland.com, keyeteam.com, insideparkcityrealestate.com, bespokeutahproperties.com, parkcityhomesales.com, luxuryrealestate.com",
+      "cpc": null,
+      "competition": null
     },
     {
       "keyword": "Park City real estate agent",
-      "volume": "Not found",
+      "volume": 140,
       "clientRank": "zillow.com",
       "competitorRank": "",
-      "topResult": "deervalleyproperties.com, fastexpert.com, century21.com, steinsrealty.com, homes.com, liveeatplayparkcity.com, realestateinparkcity.com, jensenandcompany.com, enjoyparkcity.com"
+      "topResult": "deervalleyproperties.com, fastexpert.com, century21.com, steinsrealty.com, homes.com, liveeatplayparkcity.com, realestateinparkcity.com, jensenandcompany.com, enjoyparkcity.com",
+      "cpc": 8.88,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "best real estate agent Park City",
-      "volume": "Not found",
+      "volume": null,
       "clientRank": "steinsrealty.com",
       "competitorRank": "",
-      "topResult": "coldwellbanker.com, usnews.com, yelp.com, fastexpert.com, parkcityluxuryrealestate.com, deervalleyrealestate.com, theagencyre.com, parkcityinvestor.com"
+      "topResult": "coldwellbanker.com, usnews.com, yelp.com, fastexpert.com, parkcityluxuryrealestate.com, deervalleyrealestate.com, theagencyre.com, parkcityinvestor.com",
+      "cpc": null,
+      "competition": null
     },
     {
       "keyword": "luxury homes Park City Utah",
-      "volume": "~10",
+      "volume": 140,
       "clientRank": "redfin.com",
       "competitorRank": "",
-      "topResult": "parkcityluxuryrealestate.com, engelvoelkers.com, parkcity4u.com, zillow.com, facebook.com, parkcityinvestor.com, enjoyparkcity.com, sothebysrealty.com"
+      "topResult": "parkcityluxuryrealestate.com, engelvoelkers.com, parkcity4u.com, zillow.com, facebook.com, parkcityinvestor.com, enjoyparkcity.com, sothebysrealty.com",
+      "cpc": 3.73,
+      "competition": "LOW"
     },
     {
       "keyword": "Park City ski-in ski-out homes",
-      "volume": "Not found",
+      "volume": 10,
       "clientRank": "zillow.com",
       "competitorRank": "",
-      "topResult": "redfin.com, airbnb.com, summitluxuryvacations.com, onefinestay.com, realestateinparkcity.com, parkcityrealestate.com"
+      "topResult": "redfin.com, airbnb.com, summitluxuryvacations.com, onefinestay.com, realestateinparkcity.com, parkcityrealestate.com",
+      "cpc": 7.36,
+      "competition": "LOW"
     },
     {
       "keyword": "Park City mountain homes for sale",
-      "volume": "Not found",
+      "volume": 10,
       "clientRank": "redfin.com",
       "competitorRank": "",
-      "topResult": "skyridgeparkcity.com, liveeatplayparkcity.com, parkcityluxuryrealestate.com, zillow.com, mountainluxury.com, lookoutparkcity.com, realestateinparkcity.com"
+      "topResult": "skyridgeparkcity.com, liveeatplayparkcity.com, parkcityluxuryrealestate.com, zillow.com, mountainluxury.com, lookoutparkcity.com, realestateinparkcity.com",
+      "cpc": 0.62,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "affordable homes Park City area",
-      "volume": "Not found",
+      "volume": null,
       "clientRank": "realestateinparkcity.com",
       "competitorRank": "",
-      "topResult": "homes.com, parkcity.gov, enjoyparkcity.com, redfin.com, parkcityluxuryrealestate.com, housinghelp.org, properstar.com, liveeatplayparkcity.com, insideparkcityrealestate.com"
+      "topResult": "homes.com, parkcity.gov, enjoyparkcity.com, redfin.com, parkcityluxuryrealestate.com, housinghelp.org, properstar.com, liveeatplayparkcity.com, insideparkcityrealestate.com",
+      "cpc": null,
+      "competition": null
     },
     {
       "keyword": "Park City investment property",
-      "volume": "Not found",
+      "volume": 10,
       "clientRank": "realestateinparkcity.com",
       "competitorRank": "",
-      "topResult": "evolve.com, parkcityinvestor.com, deervalleyrealestate.com, mashvisor.com, liveeatplayparkcity.com, redfin.com, insideparkcityrealestate.com, enjoyparkcity.com, ark7.com"
+      "topResult": "evolve.com, parkcityinvestor.com, deervalleyrealestate.com, mashvisor.com, liveeatplayparkcity.com, redfin.com, insideparkcityrealestate.com, enjoyparkcity.com, ark7.com",
+      "cpc": 5.36,
+      "competition": "HIGH"
     },
     {
       "keyword": "Snyderville Basin homes for sale",
-      "volume": "Not found",
+      "volume": null,
       "clientRank": "zillow.com",
       "competitorRank": "",
-      "topResult": "parkcityluxuryrealestate.com, redfin.com, vuere.com, bestutahrealestate.com, parkcity4u.com, trulia.com"
+      "topResult": "parkcityluxuryrealestate.com, redfin.com, vuere.com, bestutahrealestate.com, parkcity4u.com, trulia.com",
+      "cpc": null,
+      "competition": null
     },
     {
       "keyword": "Heber City real estate",
-      "volume": "Not found",
+      "volume": 480,
       "clientRank": "zillow.com",
       "competitorRank": "",
-      "topResult": "homes.com, trulia.com, homes.ksl.com, redfin.com, realestateinparkcity.com, parkcityrealestate.com, coldwellbankerhomes.com, parkcityluxuryrealestate.com"
+      "topResult": "homes.com, trulia.com, homes.ksl.com, redfin.com, realestateinparkcity.com, parkcityrealestate.com, coldwellbankerhomes.com, parkcityluxuryrealestate.com",
+      "cpc": 1.25,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "Midway Utah homes for sale",
-      "volume": "Not found",
+      "volume": 1900,
       "clientRank": "zillow.com",
       "competitorRank": "",
-      "topResult": "redfin.com, chooseparkcity.com, midwayutahrealestate.com, lookoutparkcity.com, realtypathutah.com, coldwellbankerhomes.com, parkcityluxuryrealestate.com, trulia.com"
+      "topResult": "redfin.com, chooseparkcity.com, midwayutahrealestate.com, lookoutparkcity.com, realtypathutah.com, coldwellbankerhomes.com, parkcityluxuryrealestate.com, trulia.com",
+      "cpc": 0.92,
+      "competition": "MEDIUM"
     }
   ],
   "competitorComparison": [
@@ -392,7 +442,7 @@
       "impact": "High"
     },
     {
-      "action": "No viewport meta tag \u2014 page won't render properly on mobile",
+      "action": "No viewport meta tag — page won't render properly on mobile",
       "impact": "Critical"
     },
     {
@@ -427,8 +477,8 @@
         "affectedCount": 331
       },
       {
-        "action": "No viewport meta tag \u2014 page won't render properly on mobile",
-        "why": "No viewport meta tag \u2014 page won't render properly on mobile",
+        "action": "No viewport meta tag — page won't render properly on mobile",
+        "why": "No viewport meta tag — page won't render properly on mobile",
         "effort": "Low",
         "impact": "Critical",
         "roiScore": 55,
@@ -650,25 +700,25 @@
       "name": "Meta Titles & Descriptions",
       "scope": "All pages",
       "score": "8.75/10",
-      "status": "Ready \u2014 verify claims with client"
+      "status": "Ready — verify claims with client"
     },
     {
       "name": "Schema Markup (JSON-LD)",
       "scope": "8 schema blocks",
       "score": "9.00/10",
-      "status": "Ready \u2014 verify URLs"
+      "status": "Ready — verify URLs"
     },
     {
       "name": "Key Pages (expanded content)",
       "scope": "4 pages, 1,000+ words",
       "score": "8.75/10",
-      "status": "Ready \u2014 paste into CMS"
+      "status": "Ready — paste into CMS"
     },
     {
       "name": "Blog Posts (SEO-optimized)",
       "scope": "4 posts, 900-1,200 words",
       "score": "9.00/10",
-      "status": "Ready \u2014 paste into CMS"
+      "status": "Ready — paste into CMS"
     }
   ],
   "keyPagesCreated": [
@@ -720,7 +770,7 @@
   "nextSteps": [
     {
       "text": "Deploy ready-to-use deliverables (meta tags, schema, pages, blog posts)",
-      "sub": "Can be done this week \u2014 just copy-paste into CMS"
+      "sub": "Can be done this week — just copy-paste into CMS"
     },
     {
       "text": "Complete Week 1-2 quick wins (technical fixes)",
@@ -858,9 +908,9 @@
     "total_pages": 0,
     "total_internal_links": 0,
     "orphan_count": 373,
-    "orphan_rate": 0.0,
-    "avg_inbound_links": 0.0,
-    "avg_outbound_links": 0.0,
+    "orphan_rate": 0,
+    "avg_inbound_links": 0,
+    "avg_outbound_links": 0,
     "unreachable_count": 0,
     "nodes": [],
     "orphans": [
@@ -3111,10 +3161,10 @@
       },
       "unreachable": [],
       "max_depth": 0,
-      "avg_depth": 0.0
+      "avg_depth": 0
     },
-    "graph_density": 0.0,
-    "avg_clustering_coefficient": 0.0,
+    "graph_density": 0,
+    "avg_clustering_coefficient": 0,
     "community_count": 0,
     "communities": [],
     "link_suggestions": [],
@@ -3345,7 +3395,7 @@
         "url": "https://www.laurawillisrealestate.com/buyers/buyer-representation/",
         "issue": "TITLE_TOO_LONG",
         "detail": "Title is 69 chars (max 60)",
-        "value": "Comprehensive Home-Buying Guide with Laura Willis at Summit Sotheby\u2019s"
+        "value": "Comprehensive Home-Buying Guide with Laura Willis at Summit Sotheby’s"
       },
       {
         "url": "https://www.laurawillisrealestate.com/buyers/buyer-representation/",
@@ -4176,7 +4226,7 @@
         "url": "https://www.laurawillisrealestate.com/marcella-landing/",
         "issue": "TITLE_TOO_LONG",
         "detail": "Title is 91 chars (max 60)",
-        "value": "Marcella Landing | Luxury Townhomes with Ski-In Ski-Out Access at Deer Valley\u00ae East Village"
+        "value": "Marcella Landing | Luxury Townhomes with Ski-In Ski-Out Access at Deer Valley® East Village"
       },
       {
         "url": "https://www.laurawillisrealestate.com/marcella-landing/",
@@ -4516,7 +4566,7 @@
         "url": "https://www.laurawillisrealestate.com/pioche-village-condominiums/",
         "issue": "TITLE_TOO_LONG",
         "detail": "Title is 80 chars (max 60)",
-        "value": "Pioche Village Condominiums \u2013 Luxury Mountain Living in Deer Valley East Village"
+        "value": "Pioche Village Condominiums – Luxury Mountain Living in Deer Valley East Village"
       },
       {
         "url": "https://www.laurawillisrealestate.com/pioche-village-condominiums/",
@@ -4768,7 +4818,7 @@
         "url": "https://www.laurawillisrealestate.com/st-regis-deer-valley/",
         "issue": "TITLE_TOO_LONG",
         "detail": "Title is 64 chars (max 60)",
-        "value": "St. Regis Deer Valley Real Estate \u2013 Where Luxury Meets the Slope"
+        "value": "St. Regis Deer Valley Real Estate – Where Luxury Meets the Slope"
       },
       {
         "url": "https://www.laurawillisrealestate.com/st-regis-deer-valley/",
@@ -5364,7 +5414,7 @@
         "url": "https://www.laurawillisrealestate.com/blog/laura-willis-top-producing-real-estate-agent-in-park-city-utah/",
         "issue": "TITLE_TOO_LONG",
         "detail": "Title is 85 chars (max 60)",
-        "value": "Top Park City Real Estate Agent | Luxury Realtor | Summit Sotheby\u2019s Top Producer 2024"
+        "value": "Top Park City Real Estate Agent | Luxury Realtor | Summit Sotheby’s Top Producer 2024"
       },
       {
         "url": "https://www.laurawillisrealestate.com/blog/laura-willis-top-producing-real-estate-agent-in-park-city-utah/",
@@ -5385,7 +5435,7 @@
         "url": "https://www.laurawillisrealestate.com/blog/summit-sothebys-buyers-guide-your-essential-guide-to-the-home-buying-process-with-laura-willis/",
         "issue": "TITLE_TOO_LONG",
         "detail": "Title is 97 chars (max 60)",
-        "value": "Summit Sotheby\u2019s Buyer\u2019s Guide: Your Essential Guide to the Home-Buying Process with Laura Willis"
+        "value": "Summit Sotheby’s Buyer’s Guide: Your Essential Guide to the Home-Buying Process with Laura Willis"
       },
       {
         "url": "https://www.laurawillisrealestate.com/blog/summit-sothebys-buyers-guide-your-essential-guide-to-the-home-buying-process-with-laura-willis/",
@@ -5495,7 +5545,7 @@
         "url": "https://www.laurawillisrealestate.com/blog/maximize-your-propertys-value-with-laura-willis-and-sothebys-international-realty/",
         "issue": "TITLE_TOO_LONG",
         "detail": "Title is 83 chars (max 60)",
-        "value": "Maximize Your Property\u2019s Value with Laura Willis and Sotheby\u2019s International Realty"
+        "value": "Maximize Your Property’s Value with Laura Willis and Sotheby’s International Realty"
       },
       {
         "url": "https://www.laurawillisrealestate.com/blog/maximize-your-propertys-value-with-laura-willis-and-sothebys-international-realty/",
@@ -5511,7 +5561,7 @@
         "url": "https://www.laurawillisrealestate.com/blog/park-city-board-of-realtors-announces-q1-2024-real-estate-market-analysis/",
         "issue": "TITLE_TOO_LONG",
         "detail": "Title is 74 chars (max 60)",
-        "value": "Park City Board of REALTORS\u00ae Announces Q1 2024 Real Estate Market Analysis"
+        "value": "Park City Board of REALTORS® Announces Q1 2024 Real Estate Market Analysis"
       },
       {
         "url": "https://www.laurawillisrealestate.com/blog/park-city-board-of-realtors-announces-q1-2024-real-estate-market-analysis/",
@@ -5621,7 +5671,7 @@
         "url": "https://www.laurawillisrealestate.com/blog/unlock-winter-bliss-why-investing-in-park-city-real-estate-is-a-skiers-dream-come-true/",
         "issue": "TITLE_TOO_LONG",
         "detail": "Title is 88 chars (max 60)",
-        "value": "Unlock Winter Bliss: Why Investing in Park City Real Estate is a Skier\u2019s Dream Come True"
+        "value": "Unlock Winter Bliss: Why Investing in Park City Real Estate is a Skier’s Dream Come True"
       },
       {
         "url": "https://www.laurawillisrealestate.com/blog/unlock-winter-bliss-why-investing-in-park-city-real-estate-is-a-skiers-dream-come-true/",
@@ -5932,7 +5982,7 @@
           "url": "https://www.laurawillisrealestate.com/buyers/financial-terms-glossary/",
           "totalImages": 25,
           "missingAlt": 21,
-          "altCoverage": 16.0
+          "altCoverage": 16
         },
         {
           "url": "https://www.laurawillisrealestate.com/communities/",
@@ -5950,7 +6000,7 @@
           "url": "https://www.laurawillisrealestate.com/blog/the-best-park-city-communities-and-neighborhoods/",
           "totalImages": 24,
           "missingAlt": 18,
-          "altCoverage": 25.0
+          "altCoverage": 25
         },
         {
           "url": "https://www.laurawillisrealestate.com/ski/ski-communities/",
@@ -5968,7 +6018,7 @@
           "url": "https://www.laurawillisrealestate.com/blog/explore-park-city-real-estate-market-trends-key-areas-and-property-insights-for-2024/",
           "totalImages": 20,
           "missingAlt": 13,
-          "altCoverage": 35.0
+          "altCoverage": 35
         },
         {
           "url": "https://www.laurawillisrealestate.com/blog/september-news/",
@@ -5998,7 +6048,7 @@
           "url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
           "totalImages": 12,
           "missingAlt": 6,
-          "altCoverage": 50.0
+          "altCoverage": 50
         },
         {
           "url": "https://www.laurawillisrealestate.com/blog/monthly-market-stats/",
@@ -6034,13 +6084,13 @@
           "url": "https://www.laurawillisrealestate.com/blog/cozy-fall-scents-to-sell-your-park-city-home-insights-from-laura-willis/",
           "totalImages": 10,
           "missingAlt": 3,
-          "altCoverage": 70.0
+          "altCoverage": 70
         },
         {
           "url": "https://www.laurawillisrealestate.com/blog/park-city-real-estate-market-update-november-2024/",
           "totalImages": 10,
           "missingAlt": 3,
-          "altCoverage": 70.0
+          "altCoverage": 70
         },
         {
           "url": "https://www.laurawillisrealestate.com/blog/summit-sothebys-buyers-guide-your-essential-guide-to-the-home-buying-process-with-laura-willis/",
@@ -6052,13 +6102,13 @@
           "url": "https://www.laurawillisrealestate.com/blog/utah-real-estate-market-snapshot-trends-and-insights-for-july-2024/",
           "totalImages": 10,
           "missingAlt": 3,
-          "altCoverage": 70.0
+          "altCoverage": 70
         },
         {
           "url": "https://www.laurawillisrealestate.com/blog/may-we-pose-a-question/",
           "totalImages": 10,
           "missingAlt": 3,
-          "altCoverage": 70.0
+          "altCoverage": 70
         }
       ]
     },
@@ -7455,415 +7505,415 @@
         {
           "url": "https://www.laurawillisrealestate.com/deer-crossing/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/deer-springs-hideout-real-estate-for-sale/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/midway/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/buyers/mortgage-calculator/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/nakoma/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/new-developments/new-construction-park-city-real-estate/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/old-town/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/old-town-park-city-new-construction-rea-estate/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/park-city-communities/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/park-city-events/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/ski/park-city-mountain-resort-ski-properties/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/ski/park-city-ski-condos/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/ski/ski-in-ski-out-land/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/golf/park-meadows-golf-community/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/parks-edge-park-city-utah-real-estate/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/buyers/personalized-home-search/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/ski/powder-mountain/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/promontory-neighborhood-guide/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/promontory-ridge/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/prospector/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/red-pine-canyons-village-real-estate/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/sage-hills-estates/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/sandy/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/shoreline/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/signal-hill/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/silver-gate-ranches/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/silverado-lodge-canyons-village-real-estate/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/st-regis-snow-park-new-construction-deer-valley-utah/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/stein-eriksen-residences-deer-valley-utah/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/summit-park/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/summit-sothebys-international-realty-featured-realtor-listings/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/sunset-ridge/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/about/testimonials-laura-willis/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/the-ascent-park-city-real-estate/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/the-gallery/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/the-homesteads/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/the-palisades/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/the-parkite-new-construction-park-city-real-estate/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/timberwolf-estates-canyons-village-real-estate/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/victory-ranch-new-construction/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/village-at-the-shores-new-construction-park-city-real-estate/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/vintage-on-the-strand-canyons-village-real-estate/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/wasatch-springs-heber-city-real-estate/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/weber-canyon/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/west-view/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/golf/wohali-utah-private-gated-community-new-development/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/featured-listings/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/sellers/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/sellers/adding-value/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/buyers/making-an-offer/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/sellers/pricing-your-home/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/buyers/first-time-buyers/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/contact/thank-you/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/agents/laura-willis/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/blog/park-city-deer-valley-real-estate-guide-2026/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/blog/three-time-top-producer-park-city-luxury-real-estate-authority/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/blog/its-more-than-just-price-per-square-foot/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/blog/q1-top-producer-your-edge-for-luxury-ski-homes-in-park-city/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/blog/sundance-film-festival-2025-explore-park-city-luxury-living-and-real-estate-opportunities/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/blog/retiring-in-utah-embracing-mountain-living-in-park-city-midway-and-heber-valley/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/blog/embracing-wellness-and-nature-discover-the-holistic-lifestyle-at-velvre/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/blog/your-forever-home-is-utah-a-good-place-to-retire/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/blog/park-city-hidden-gems-5-lesser-known-neighborhoods-to-invest-in-now/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/blog/embrace-the-magic-of-summer-in-park-city-utah/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/blog/canyons-village-park-city-utah/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/blog/things-to-do-in-park-city/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/blog/goldener-hirsch-deer-valley/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/blog/jordanelle-ridge/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         },
         {
           "url": "https://www.laurawillisrealestate.com/blog/park-city-event-information/",
           "issue": "MISSING_VIEWPORT",
-          "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "detail": "No viewport meta tag — page won't render properly on mobile",
           "severity": "critical"
         }
       ]
@@ -12123,13 +12173,13 @@
       "factors": {
         "parameterizedUrls": {
           "count": 0,
-          "ratio": 0.0,
-          "waste": 0.0
+          "ratio": 0,
+          "waste": 0
         },
         "orphanPages": {
           "count": 0,
-          "ratio": 0.0,
-          "waste": 0.0
+          "ratio": 0,
+          "waste": 0
         },
         "redirectChains": {
           "count": 7,
@@ -12143,8 +12193,8 @@
         },
         "deepPages": {
           "count": 0,
-          "ratio": 0.0,
-          "waste": 0.0
+          "ratio": 0,
+          "waste": 0
         }
       }
     }
@@ -13130,9 +13180,9 @@
         ]
       },
       {
-        "issue": "No viewport meta tag \u2014 page won't render properly on mobile",
+        "issue": "No viewport meta tag — page won't render properly on mobile",
         "issueCode": "MISSING_VIEWPORT",
-        "detail": "No viewport meta tag \u2014 page won't render properly on mobile",
+        "detail": "No viewport meta tag — page won't render properly on mobile",
         "impact": "Critical",
         "effort": "Low",
         "roiScore": 55,
@@ -13402,8 +13452,8 @@
           "affectedCount": 331
         },
         {
-          "action": "No viewport meta tag \u2014 page won't render properly on mobile",
-          "why": "No viewport meta tag \u2014 page won't render properly on mobile",
+          "action": "No viewport meta tag — page won't render properly on mobile",
+          "why": "No viewport meta tag — page won't render properly on mobile",
           "effort": "Low",
           "impact": "Critical",
           "roiScore": 55,
@@ -13547,7 +13597,7 @@
         "status": "above"
       }
     ],
-    "executiveSummary": "laurawillisrealestate.com scored an overall grade of F (28/100). The biggest opportunities are: WebSite schema missing required field: name; JSON-LD parse error: Bad control character in string literal in JSON at position 2954 (line 69 column 68); No viewport meta tag \u2014 page won't render properly on mobile. Quick wins include: WebSite schema missing required field: name; JSON-LD parse error: Bad control character in string literal in JSON at position 2954 (line 69 column 68); No viewport meta tag \u2014 page won't render properly on mobile. Category breakdown: technical: 0/100, indexability: 99/100.",
+    "executiveSummary": "laurawillisrealestate.com scored an overall grade of F (28/100). The biggest opportunities are: WebSite schema missing required field: name; JSON-LD parse error: Bad control character in string literal in JSON at position 2954 (line 69 column 68); No viewport meta tag — page won't render properly on mobile. Quick wins include: WebSite schema missing required field: name; JSON-LD parse error: Bad control character in string literal in JSON at position 2954 (line 69 column 68); No viewport meta tag — page won't render properly on mobile. Category breakdown: technical: 0/100, indexability: 99/100.",
     "trendData": {
       "auditDates": [
         "2026-04-11"

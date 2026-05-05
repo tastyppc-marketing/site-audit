@@ -11,232 +11,1017 @@
     "serviceType": "Full Service (Buy/Sell/Luxury)",
     "location": "Park City, Utah"
   },
-
   "competitor": {
     "primary": "realestateinparkcity.com",
     "primaryLabel": "Derrik Carlson",
     "all": [
-      { "name": "Derrik Carlson", "domain": "realestateinparkcity.com" },
-      { "name": "Ben Fisher / Fisher Group", "domain": "parkcityluxuryrealestate.com" },
-      { "name": "Matthew Magnotta", "domain": "parkcityrealestate.com" },
-      { "name": "Laura Willis", "domain": "laurawillisrealestate.com" }
+      {
+        "name": "Derrik Carlson",
+        "domain": "realestateinparkcity.com"
+      },
+      {
+        "name": "Ben Fisher / Fisher Group",
+        "domain": "parkcityluxuryrealestate.com"
+      },
+      {
+        "name": "Matthew Magnotta",
+        "domain": "parkcityrealestate.com"
+      },
+      {
+        "name": "Laura Willis",
+        "domain": "laurawillisrealestate.com"
+      }
     ]
   },
-
   "topIssues": [
-    { "issue": "Zero non-branded organic visibility", "detail": "Ranks for 2/25 keywords (branded only). 0 non-branded page 1 rankings despite 493 pages and 52 blog posts", "impact": "Critical", "effort": "Medium-High" },
-    { "issue": "Weak backlink profile (4/10 authority)", "detail": "Competitors at 5-7/10. Missing major directories (Realtor.com, Trulia, Redfin), no press/news backlinks", "impact": "Critical", "effort": "Medium" },
-    { "issue": "Near-zero contextual internal links", "detail": "380+ community pages have virtually no body-content internal links — only nav/footer links", "impact": "Critical", "effort": "Medium" },
-    { "issue": "Missing schema markup site-wide", "detail": "No RealEstateAgent, LocalBusiness, Organization, FAQPage, BreadcrumbList, or BlogPosting schema", "impact": "High", "effort": "Low" },
-    { "issue": "Untapped PR and personal brand potential", "detail": "Top Gun instructor, F/A-18 pilot, 7 Showcase homes — most compelling narrative in Park City RE, not leveraged", "impact": "High", "effort": "Medium" }
+    {
+      "issue": "Zero non-branded organic visibility",
+      "detail": "Ranks for 2/25 keywords (branded only). 0 non-branded page 1 rankings despite 493 pages and 52 blog posts",
+      "impact": "Critical",
+      "effort": "Medium-High"
+    },
+    {
+      "issue": "Weak backlink profile (4/10 authority)",
+      "detail": "Competitors at 5-7/10. Missing major directories (Realtor.com, Trulia, Redfin), no press/news backlinks",
+      "impact": "Critical",
+      "effort": "Medium"
+    },
+    {
+      "issue": "Near-zero contextual internal links",
+      "detail": "380+ community pages have virtually no body-content internal links — only nav/footer links",
+      "impact": "Critical",
+      "effort": "Medium"
+    },
+    {
+      "issue": "Missing schema markup site-wide",
+      "detail": "No RealEstateAgent, LocalBusiness, Organization, FAQPage, BreadcrumbList, or BlogPosting schema",
+      "impact": "High",
+      "effort": "Low"
+    },
+    {
+      "issue": "Untapped PR and personal brand potential",
+      "detail": "Top Gun instructor, F/A-18 pilot, 7 Showcase homes — most compelling narrative in Park City RE, not leveraged",
+      "impact": "High",
+      "effort": "Medium"
+    }
   ],
-
   "siteComparison": [
-    { "metric": "Total Pages", "client": 493, "competitor": "372-1,200", "gap": "Volume OK, depth gaps" },
-    { "metric": "Blog Posts", "client": 52, "competitor": "33-208", "gap": "Good volume, 5-month gap" },
-    { "metric": "Community Page Depth", "client": "3,500-5,300 words", "competitor": "3,000-6,000 words", "gap": "Competitive" },
-    { "metric": "Schema Markup", "client": "Minimal (some FAQ)", "competitor": "Full suite", "gap": "Critical gap" },
-    { "metric": "Keywords Ranking (of 25)", "client": "2 (branded only)", "competitor": "5-12", "gap": "Zero non-branded" },
-    { "metric": "Backlink Authority", "client": "4/10", "competitor": "5-7/10", "gap": "Weak profile" }
+    {
+      "metric": "Total Pages",
+      "client": 493,
+      "competitor": "372-1,200",
+      "gap": "Volume OK, depth gaps"
+    },
+    {
+      "metric": "Blog Posts",
+      "client": 52,
+      "competitor": "33-208",
+      "gap": "Good volume, 5-month gap"
+    },
+    {
+      "metric": "Community Page Depth",
+      "client": "3,500-5,300 words",
+      "competitor": "3,000-6,000 words",
+      "gap": "Competitive"
+    },
+    {
+      "metric": "Schema Markup",
+      "client": "Minimal (some FAQ)",
+      "competitor": "Full suite",
+      "gap": "Critical gap"
+    },
+    {
+      "metric": "Keywords Ranking (of 25)",
+      "client": "2 (branded only)",
+      "competitor": "5-12",
+      "gap": "Zero non-branded"
+    },
+    {
+      "metric": "Backlink Authority",
+      "client": "4/10",
+      "competitor": "5-7/10",
+      "gap": "Weak profile"
+    }
   ],
-
   "keyStats": [
-    { "value": "2 / 25", "label": "keywords ranking (branded only)", "severity": "red" },
-    { "value": "493 pages", "label": "but zero non-branded rankings", "severity": "orange" },
-    { "value": "52 blog posts", "label": "5-month publishing gap", "severity": "orange" },
-    { "value": "4/10", "label": "backlink authority vs competitors 5-7/10", "severity": "red" },
-    { "value": "0 schema", "label": "markup on homepage/contact/about", "severity": "red" },
-    { "value": "0 ski/golf", "label": "lifestyle pages (competitors have 20-31)", "severity": "red" }
+    {
+      "value": "2 / 25",
+      "label": "keywords ranking (branded only)",
+      "severity": "red"
+    },
+    {
+      "value": "493 pages",
+      "label": "but zero non-branded rankings",
+      "severity": "orange"
+    },
+    {
+      "value": "52 blog posts",
+      "label": "5-month publishing gap",
+      "severity": "orange"
+    },
+    {
+      "value": "4/10",
+      "label": "backlink authority vs competitors 5-7/10",
+      "severity": "red"
+    },
+    {
+      "value": "0 schema",
+      "label": "markup on homepage/contact/about",
+      "severity": "red"
+    },
+    {
+      "value": "0 ski/golf",
+      "label": "lifestyle pages (competitors have 20-31)",
+      "severity": "red"
+    }
   ],
-
   "keywords": [
-    { "keyword": "Murray Gardner Park City real estate", "volume": "Low", "clientRank": "#1, #7", "competitorRank": "N/A", "topResult": "gardnergrouprealtors.com" },
-    { "keyword": "Gardner Group Realtors Park City", "volume": "Low", "clientRank": "#1-#5", "competitorRank": "N/A", "topResult": "gardnergrouprealtors.com" },
-    { "keyword": "Park City real estate", "volume": "Very High", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "Park City homes for sale", "volume": "Very High", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "Park City Utah real estate", "volume": "High", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "laurawillisrealestate.com" },
-    { "keyword": "Park City condos for sale", "volume": "High", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "Park City luxury homes", "volume": "High", "clientRank": "Not found", "competitorRank": "#1", "topResult": "realestateinparkcity.com" },
-    { "keyword": "Deer Valley homes for sale", "volume": "High", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "steinsrealty.com" },
-    { "keyword": "Jeremy Ranch homes for sale", "volume": "Medium", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "kwparkcity.com" },
-    { "keyword": "Snyderville Basin real estate", "volume": "Low", "clientRank": "Not found", "competitorRank": "#1", "topResult": "parkcityluxuryrealestate.com" },
-    { "keyword": "Promontory Park City homes", "volume": "Medium", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "germaniaconstruction.com" },
-    { "keyword": "Heber City real estate", "volume": "High", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "buy a home in Park City", "volume": "High", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "Park City real estate agent", "volume": "High", "clientRank": "Not found", "competitorRank": "#1", "topResult": "insideparkcityrealestate.com" },
-    { "keyword": "Park City real estate market", "volume": "Medium", "clientRank": "Not found", "competitorRank": "#1", "topResult": "realestateinparkcity.com" },
-    { "keyword": "sell my home Park City", "volume": "Medium", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "liveeatplayparkcity.com" },
-    { "keyword": "Park City investment property", "volume": "Medium", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "jensenandcompany.com" },
-    { "keyword": "luxury ski homes Park City", "volume": "Medium", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "sothebysrealty.com" },
-    { "keyword": "Park City ski-in ski-out homes", "volume": "Medium", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "best neighborhoods in Park City Utah", "volume": "Medium", "clientRank": "Not found", "competitorRank": "#1", "topResult": "realestateinparkcity.com" },
-    { "keyword": "Park City vacation homes for sale", "volume": "Medium", "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "affordable homes Park City Utah", "volume": "Medium", "clientRank": "Not found", "competitorRank": "#2", "topResult": "parkcity.gov" },
-    { "keyword": "Park City new construction homes", "volume": "Medium", "clientRank": "Not found", "competitorRank": "#1", "topResult": "parkcityluxuryrealestate.com" },
-    { "keyword": "Park City golf community homes", "volume": "Medium", "clientRank": "Not found", "competitorRank": "#1", "topResult": "realestateinparkcity.com" },
-    { "keyword": "Deer Valley luxury condos", "volume": "Medium", "clientRank": "Not found", "competitorRank": "#2", "topResult": "enjoyparkcity.com" }
+    {
+      "keyword": "Murray Gardner Park City real estate",
+      "volume": null,
+      "clientRank": "#1, #7",
+      "competitorRank": "N/A",
+      "topResult": "gardnergrouprealtors.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "Gardner Group Realtors Park City",
+      "volume": null,
+      "clientRank": "#1-#5",
+      "competitorRank": "N/A",
+      "topResult": "gardnergrouprealtors.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "Park City real estate",
+      "volume": 1600,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com",
+      "cpc": 3.73,
+      "competition": "LOW"
+    },
+    {
+      "keyword": "Park City homes for sale",
+      "volume": 4400,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com",
+      "cpc": 3.37,
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "Park City Utah real estate",
+      "volume": 880,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "laurawillisrealestate.com",
+      "cpc": 3.02,
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "Park City condos for sale",
+      "volume": 880,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com",
+      "cpc": 3.67,
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "Park City luxury homes",
+      "volume": 110,
+      "clientRank": "Not found",
+      "competitorRank": "#1",
+      "topResult": "realestateinparkcity.com",
+      "cpc": 6.19,
+      "competition": "LOW"
+    },
+    {
+      "keyword": "Deer Valley homes for sale",
+      "volume": 880,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "steinsrealty.com",
+      "cpc": 2.66,
+      "competition": "LOW"
+    },
+    {
+      "keyword": "Jeremy Ranch homes for sale",
+      "volume": 110,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "kwparkcity.com",
+      "cpc": 2.72,
+      "competition": "HIGH"
+    },
+    {
+      "keyword": "Snyderville Basin real estate",
+      "volume": null,
+      "clientRank": "Not found",
+      "competitorRank": "#1",
+      "topResult": "parkcityluxuryrealestate.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "Promontory Park City homes",
+      "volume": 10,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "germaniaconstruction.com",
+      "cpc": 3.41,
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "Heber City real estate",
+      "volume": 480,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com",
+      "cpc": 1.25,
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "buy a home in Park City",
+      "volume": null,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "Park City real estate agent",
+      "volume": 140,
+      "clientRank": "Not found",
+      "competitorRank": "#1",
+      "topResult": "insideparkcityrealestate.com",
+      "cpc": 8.88,
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "Park City real estate market",
+      "volume": 140,
+      "clientRank": "Not found",
+      "competitorRank": "#1",
+      "topResult": "realestateinparkcity.com",
+      "cpc": 3.03,
+      "competition": "LOW"
+    },
+    {
+      "keyword": "sell my home Park City",
+      "volume": null,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "liveeatplayparkcity.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "Park City investment property",
+      "volume": 10,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "jensenandcompany.com",
+      "cpc": 5.36,
+      "competition": "HIGH"
+    },
+    {
+      "keyword": "luxury ski homes Park City",
+      "volume": null,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "sothebysrealty.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "Park City ski-in ski-out homes",
+      "volume": 10,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com",
+      "cpc": 7.36,
+      "competition": "LOW"
+    },
+    {
+      "keyword": "best neighborhoods in Park City Utah",
+      "volume": 10,
+      "clientRank": "Not found",
+      "competitorRank": "#1",
+      "topResult": "realestateinparkcity.com",
+      "cpc": null,
+      "competition": "LOW"
+    },
+    {
+      "keyword": "Park City vacation homes for sale",
+      "volume": 10,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com",
+      "cpc": 12.71,
+      "competition": "LOW"
+    },
+    {
+      "keyword": "affordable homes Park City Utah",
+      "volume": null,
+      "clientRank": "Not found",
+      "competitorRank": "#2",
+      "topResult": "parkcity.gov",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "Park City new construction homes",
+      "volume": null,
+      "clientRank": "Not found",
+      "competitorRank": "#1",
+      "topResult": "parkcityluxuryrealestate.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "Park City golf community homes",
+      "volume": null,
+      "clientRank": "Not found",
+      "competitorRank": "#1",
+      "topResult": "realestateinparkcity.com",
+      "cpc": null,
+      "competition": null
+    },
+    {
+      "keyword": "Deer Valley luxury condos",
+      "volume": 10,
+      "clientRank": "Not found",
+      "competitorRank": "#2",
+      "topResult": "enjoyparkcity.com",
+      "cpc": 3.76,
+      "competition": "LOW"
+    }
   ],
-
   "competitorComparison": [
-    { "metric": "Total Pages", "client": "493", "comp1": "~1,200", "comp2": "426", "gap": "Client competitive on volume" },
-    { "metric": "Blog Posts", "client": "52", "comp1": "150+", "comp2": "208", "gap": "Need publishing cadence" },
-    { "metric": "Community Page Depth", "client": "3,500-5,300 words", "comp1": "3,000-6,000", "comp2": "500-2,000", "gap": "Client wins on new pages" },
-    { "metric": "Schema Markup", "client": "Minimal", "comp1": "Full suite", "comp2": "None", "gap": "Critical gap vs Carlson" },
-    { "metric": "Keywords Ranking", "client": "2 / 25", "comp1": "12 / 25", "comp2": "10 / 25", "gap": "6x behind top competitor" },
-    { "metric": "Ski/Golf Pages", "client": "0", "comp1": "20+", "comp2": "31", "gap": "Biggest content gap" },
-    { "metric": "Backlink Authority", "client": "4/10", "comp1": "6/10", "comp2": "7/10", "gap": "Weak link profile" }
+    {
+      "metric": "Total Pages",
+      "client": "493",
+      "comp1": "~1,200",
+      "comp2": "426",
+      "gap": "Client competitive on volume"
+    },
+    {
+      "metric": "Blog Posts",
+      "client": "52",
+      "comp1": "150+",
+      "comp2": "208",
+      "gap": "Need publishing cadence"
+    },
+    {
+      "metric": "Community Page Depth",
+      "client": "3,500-5,300 words",
+      "comp1": "3,000-6,000",
+      "comp2": "500-2,000",
+      "gap": "Client wins on new pages"
+    },
+    {
+      "metric": "Schema Markup",
+      "client": "Minimal",
+      "comp1": "Full suite",
+      "comp2": "None",
+      "gap": "Critical gap vs Carlson"
+    },
+    {
+      "metric": "Keywords Ranking",
+      "client": "2 / 25",
+      "comp1": "12 / 25",
+      "comp2": "10 / 25",
+      "gap": "6x behind top competitor"
+    },
+    {
+      "metric": "Ski/Golf Pages",
+      "client": "0",
+      "comp1": "20+",
+      "comp2": "31",
+      "gap": "Biggest content gap"
+    },
+    {
+      "metric": "Backlink Authority",
+      "client": "4/10",
+      "comp1": "6/10",
+      "comp2": "7/10",
+      "gap": "Weak link profile"
+    }
   ],
-
   "competitorStrategies": [
-    { "strategy": "Exact-Match Domains", "detail": "Carlson (realestateinparkcity.com) and Magnotta (parkcityrealestate.com) have keyword-rich domains providing inherent SEO advantage" },
-    { "strategy": "Content Depth + Year Stamps", "detail": "Carlson publishes 3,000-6,000+ word guides with year-stamped titles for freshness signals" },
-    { "strategy": "Ski/Golf Lifestyle Verticals", "detail": "Willis has 31 dedicated ski + golf pages; Fisher has subdivision-level coverage. Gardner has zero" },
-    { "strategy": "Blog Volume & Frequency", "detail": "Magnotta: 208 blog posts with question-based titles for featured snippets. Carlson: 150+ with market reports" },
-    { "strategy": "Press & Brand Backlinks", "detail": "Carlson featured in Business Insider/Mansion Global; Fisher in Vogue/WSJ; Willis has Sotheby's brand network" },
-    { "strategy": "FAQ Schema on Content Pages", "detail": "Carlson uses FAQ schema targeting People Also Ask; enables rich results and AI Overview citations" }
+    {
+      "strategy": "Exact-Match Domains",
+      "detail": "Carlson (realestateinparkcity.com) and Magnotta (parkcityrealestate.com) have keyword-rich domains providing inherent SEO advantage"
+    },
+    {
+      "strategy": "Content Depth + Year Stamps",
+      "detail": "Carlson publishes 3,000-6,000+ word guides with year-stamped titles for freshness signals"
+    },
+    {
+      "strategy": "Ski/Golf Lifestyle Verticals",
+      "detail": "Willis has 31 dedicated ski + golf pages; Fisher has subdivision-level coverage. Gardner has zero"
+    },
+    {
+      "strategy": "Blog Volume & Frequency",
+      "detail": "Magnotta: 208 blog posts with question-based titles for featured snippets. Carlson: 150+ with market reports"
+    },
+    {
+      "strategy": "Press & Brand Backlinks",
+      "detail": "Carlson featured in Business Insider/Mansion Global; Fisher in Vogue/WSJ; Willis has Sotheby's brand network"
+    },
+    {
+      "strategy": "FAQ Schema on Content Pages",
+      "detail": "Carlson uses FAQ schema targeting People Also Ask; enables rich results and AI Overview citations"
+    }
   ],
-
   "quickWins": [
-    { "action": "Fix homepage H1 (single, keyword-rich)", "impact": "High" },
-    { "action": "Rewrite homepage meta description with brand + differentiator", "impact": "High" },
-    { "action": "Rewrite Buyers/Sellers meta descriptions (expand to 140-160 chars)", "impact": "Medium" },
-    { "action": "Add H1 to property search results pages", "impact": "Medium" },
-    { "action": "Fix About page H1 and heading hierarchy", "impact": "Medium" },
-    { "action": "Add alt text to 60 missing homepage images", "impact": "Medium" },
-    { "action": "Claim Realtor.com, Trulia, Redfin agent profiles", "impact": "High" },
-    { "action": "Remove duplicate footer H2/H3 blocks", "impact": "Medium" },
-    { "action": "Add RealEstateAgent + Organization schema to homepage", "impact": "High" },
-    { "action": "Update Visit Park City listing to Realtor category", "impact": "Medium" }
+    {
+      "action": "Fix homepage H1 (single, keyword-rich)",
+      "impact": "High"
+    },
+    {
+      "action": "Rewrite homepage meta description with brand + differentiator",
+      "impact": "High"
+    },
+    {
+      "action": "Rewrite Buyers/Sellers meta descriptions (expand to 140-160 chars)",
+      "impact": "Medium"
+    },
+    {
+      "action": "Add H1 to property search results pages",
+      "impact": "Medium"
+    },
+    {
+      "action": "Fix About page H1 and heading hierarchy",
+      "impact": "Medium"
+    },
+    {
+      "action": "Add alt text to 60 missing homepage images",
+      "impact": "Medium"
+    },
+    {
+      "action": "Claim Realtor.com, Trulia, Redfin agent profiles",
+      "impact": "High"
+    },
+    {
+      "action": "Remove duplicate footer H2/H3 blocks",
+      "impact": "Medium"
+    },
+    {
+      "action": "Add RealEstateAgent + Organization schema to homepage",
+      "impact": "High"
+    },
+    {
+      "action": "Update Visit Park City listing to Realtor category",
+      "impact": "Medium"
+    }
   ],
-
   "actionPlan": {
     "quickWins": [
-      { "action": "Fix homepage H1 (single, keyword-rich)", "why": "Dual H1s with broken text dilute primary keyword signal", "effort": "Low", "impact": "High" },
-      { "action": "Rewrite homepage meta description", "why": "Boilerplate IDX text fails to differentiate in SERPs", "effort": "Low", "impact": "High" },
-      { "action": "Rewrite Buyers/Sellers meta descriptions", "why": "Currently 37-41 chars; Google overwrites with random text", "effort": "Low", "impact": "Medium" },
-      { "action": "Add H1 to property search results pages", "why": "Missing H1 weakens topical signal on key page type", "effort": "Low", "impact": "Medium" },
-      { "action": "Fix About page H1 and heading hierarchy", "why": "Non-descriptive H1, broken H2/H3 structure hurts E-E-A-T", "effort": "Low", "impact": "Medium" },
-      { "action": "Add alt text to 60 missing homepage images", "why": "68% missing alt text -- accessibility and keyword signal issue", "effort": "Low", "impact": "Medium" },
-      { "action": "Claim Realtor.com, Trulia, Redfin profiles", "why": "Major directory gaps -- high DA backlinks from 89-94 DA sites", "effort": "Low", "impact": "High" },
-      { "action": "Remove duplicate footer H2/H3 blocks", "why": "Duplicate headings on every page inflate heading counts site-wide", "effort": "Low", "impact": "Medium" },
-      { "action": "Add RealEstateAgent + Organization schema", "why": "Zero schema on homepage; table-stakes for rich results", "effort": "Low", "impact": "High" },
-      { "action": "Update Visit Park City listing category", "why": "Currently listed under wrong business category", "effort": "Low", "impact": "Medium" }
+      {
+        "action": "Fix homepage H1 (single, keyword-rich)",
+        "why": "Dual H1s with broken text dilute primary keyword signal",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Rewrite homepage meta description",
+        "why": "Boilerplate IDX text fails to differentiate in SERPs",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Rewrite Buyers/Sellers meta descriptions",
+        "why": "Currently 37-41 chars; Google overwrites with random text",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Add H1 to property search results pages",
+        "why": "Missing H1 weakens topical signal on key page type",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Fix About page H1 and heading hierarchy",
+        "why": "Non-descriptive H1, broken H2/H3 structure hurts E-E-A-T",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Add alt text to 60 missing homepage images",
+        "why": "68% missing alt text -- accessibility and keyword signal issue",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Claim Realtor.com, Trulia, Redfin profiles",
+        "why": "Major directory gaps -- high DA backlinks from 89-94 DA sites",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Remove duplicate footer H2/H3 blocks",
+        "why": "Duplicate headings on every page inflate heading counts site-wide",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Add RealEstateAgent + Organization schema",
+        "why": "Zero schema on homepage; table-stakes for rich results",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Update Visit Park City listing category",
+        "why": "Currently listed under wrong business category",
+        "effort": "Low",
+        "impact": "Medium"
+      }
     ],
     "shortTerm": [
-      { "action": "Implement FAQPage schema on 40+ community pages", "why": "FAQ content exists but no structured data; enables rich results", "effort": "Medium", "impact": "High" },
-      { "action": "Add BreadcrumbList schema site-wide", "why": "Breadcrumbs exist visually but no structured data", "effort": "Low", "impact": "Medium" },
-      { "action": "Add Article/BlogPosting schema to 52 blog posts", "why": "Blog posts lack author, date, publisher schema", "effort": "Low", "impact": "Medium" },
-      { "action": "Add og:title and og:description to all page templates", "why": "Only 2 of 14+ page types have complete OG tags", "effort": "Low", "impact": "Medium" },
-      { "action": "Add 3-5 contextual internal links to top 20 community pages", "why": "Near-zero body internal links; #1 reason content isn't ranking", "effort": "Medium", "impact": "Very High" },
-      { "action": "Add canonical tags to property search/IDX pages", "why": "4 pages missing canonicals; risks duplicate content", "effort": "Low", "impact": "Medium" },
-      { "action": "Year-stamp titles, H1s, meta descriptions on pillar pages", "why": "Competitors use year-stamps for freshness signals", "effort": "Low", "impact": "High" },
-      { "action": "Submit to 10+ remaining directories", "why": "Citation gap: 6-8 directories vs competitors 12-15+", "effort": "Medium", "impact": "Medium" },
-      { "action": "Create dedicated Murray Gardner agent page", "why": "No page optimized for 'Park City real estate agent'", "effort": "Medium", "impact": "High" },
-      { "action": "Publish 4 new blog posts (market report, neighborhoods, investment, luxury)", "why": "5-month publishing gap; re-establish freshness signals", "effort": "Medium", "impact": "High" }
+      {
+        "action": "Implement FAQPage schema on 40+ community pages",
+        "why": "FAQ content exists but no structured data; enables rich results",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Add BreadcrumbList schema site-wide",
+        "why": "Breadcrumbs exist visually but no structured data",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Add Article/BlogPosting schema to 52 blog posts",
+        "why": "Blog posts lack author, date, publisher schema",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Add og:title and og:description to all page templates",
+        "why": "Only 2 of 14+ page types have complete OG tags",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Add 3-5 contextual internal links to top 20 community pages",
+        "why": "Near-zero body internal links; #1 reason content isn't ranking",
+        "effort": "Medium",
+        "impact": "Very High"
+      },
+      {
+        "action": "Add canonical tags to property search/IDX pages",
+        "why": "4 pages missing canonicals; risks duplicate content",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Year-stamp titles, H1s, meta descriptions on pillar pages",
+        "why": "Competitors use year-stamps for freshness signals",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Submit to 10+ remaining directories",
+        "why": "Citation gap: 6-8 directories vs competitors 12-15+",
+        "effort": "Medium",
+        "impact": "Medium"
+      },
+      {
+        "action": "Create dedicated Murray Gardner agent page",
+        "why": "No page optimized for 'Park City real estate agent'",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Publish 4 new blog posts (market report, neighborhoods, investment, luxury)",
+        "why": "5-month publishing gap; re-establish freshness signals",
+        "effort": "Medium",
+        "impact": "High"
+      }
     ],
     "mediumTerm": [
-      { "action": "Build 10-15 dedicated Ski Property pages", "why": "Willis has 20 ski pages; Gardner has zero -- biggest content gap", "effort": "High", "impact": "Very High" },
-      { "action": "Build 6-8 dedicated Golf Community pages", "why": "Willis has 11 golf pages; Gardner has zero", "effort": "High", "impact": "High" },
-      { "action": "Create Home Valuation page for seller leads", "why": "Missing high-converting lead capture page", "effort": "Medium", "impact": "High" },
-      { "action": "Create 'Sell My Home in Park City' page", "why": "No page targeting seller-intent keywords", "effort": "Medium", "impact": "High" },
-      { "action": "Expand internal linking to all 380+ community pages", "why": "Extend top-20 internal linking work site-wide", "effort": "High", "impact": "Very High" },
-      { "action": "Build 'Park City Local Guide' section (10-15 pages)", "why": "Magnotta's 'Best of PC' pages capture non-RE traffic", "effort": "High", "impact": "Medium" },
-      { "action": "Add table of contents to all 2,000+ word content", "why": "Improves UX, creates sitelinks; Carlson does this on every page", "effort": "Medium", "impact": "Medium" },
-      { "action": "Expand Buyers page to 2,500+ words", "why": "Currently ~800 words; should be definitive buying guide", "effort": "Medium", "impact": "Medium" },
-      { "action": "Expand Sellers page to 2,500+ words", "why": "Currently ~900 words; needs process, staging, track record", "effort": "Medium", "impact": "Medium" },
-      { "action": "Build 5 neighborhood-specific market report pages", "why": "Carlson publishes area reports; data content attracts links", "effort": "High", "impact": "High" },
-      { "action": "Add community-specific email subscription", "why": "Turns every community page into a lead capture funnel", "effort": "Medium", "impact": "Medium" },
-      { "action": "Add blog subscription mechanism", "why": "52 quality posts with no subscriber capture", "effort": "Low", "impact": "Medium" },
-      { "action": "Optimize Core Web Vitals (37 scripts on homepage)", "why": "Heavy JS payload; mobile performance affects rankings", "effort": "High", "impact": "Medium" }
+      {
+        "action": "Build 10-15 dedicated Ski Property pages",
+        "why": "Willis has 20 ski pages; Gardner has zero -- biggest content gap",
+        "effort": "High",
+        "impact": "Very High"
+      },
+      {
+        "action": "Build 6-8 dedicated Golf Community pages",
+        "why": "Willis has 11 golf pages; Gardner has zero",
+        "effort": "High",
+        "impact": "High"
+      },
+      {
+        "action": "Create Home Valuation page for seller leads",
+        "why": "Missing high-converting lead capture page",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Create 'Sell My Home in Park City' page",
+        "why": "No page targeting seller-intent keywords",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Expand internal linking to all 380+ community pages",
+        "why": "Extend top-20 internal linking work site-wide",
+        "effort": "High",
+        "impact": "Very High"
+      },
+      {
+        "action": "Build 'Park City Local Guide' section (10-15 pages)",
+        "why": "Magnotta's 'Best of PC' pages capture non-RE traffic",
+        "effort": "High",
+        "impact": "Medium"
+      },
+      {
+        "action": "Add table of contents to all 2,000+ word content",
+        "why": "Improves UX, creates sitelinks; Carlson does this on every page",
+        "effort": "Medium",
+        "impact": "Medium"
+      },
+      {
+        "action": "Expand Buyers page to 2,500+ words",
+        "why": "Currently ~800 words; should be definitive buying guide",
+        "effort": "Medium",
+        "impact": "Medium"
+      },
+      {
+        "action": "Expand Sellers page to 2,500+ words",
+        "why": "Currently ~900 words; needs process, staging, track record",
+        "effort": "Medium",
+        "impact": "Medium"
+      },
+      {
+        "action": "Build 5 neighborhood-specific market report pages",
+        "why": "Carlson publishes area reports; data content attracts links",
+        "effort": "High",
+        "impact": "High"
+      },
+      {
+        "action": "Add community-specific email subscription",
+        "why": "Turns every community page into a lead capture funnel",
+        "effort": "Medium",
+        "impact": "Medium"
+      },
+      {
+        "action": "Add blog subscription mechanism",
+        "why": "52 quality posts with no subscriber capture",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Optimize Core Web Vitals (37 scripts on homepage)",
+        "why": "Heavy JS payload; mobile performance affects rankings",
+        "effort": "High",
+        "impact": "Medium"
+      }
     ],
     "longTerm": [
-      { "action": "Pitch 'Top Gun to Top Agent' story to Business Insider", "why": "Carlson has this backlink; Murray's story is more compelling", "effort": "Medium", "impact": "Very High" },
-      { "action": "Pitch showcase home feature to Western Home Journal", "why": "7 Showcase homes; perfect fit for luxury mountain magazine", "effort": "Medium", "impact": "High" },
-      { "action": "Pitch Park Record feature / interview", "why": "Local press coverage builds authority", "effort": "Low", "impact": "High" },
-      { "action": "Explore Ski Utah sponsorship", "why": "Willis has this high-authority tourism backlink", "effort": "Medium", "impact": "High" },
-      { "action": "Apply for LuxuryRealEstate.com Who's Who membership", "why": "Willis has this luxury network credibility signal", "effort": "Low", "impact": "Medium" },
-      { "action": "Launch monthly video content series", "why": "Video generates 66% more leads; builds E-E-A-T", "effort": "High", "impact": "High" },
-      { "action": "Create Park City Relocation Guide (downloadable asset)", "why": "Comprehensive guide earns links from relocation sites", "effort": "High", "impact": "High" },
-      { "action": "Add secondary blog tier: Q&A posts targeting featured snippets", "why": "Magnotta proves question-format titles capture PAA boxes", "effort": "Medium", "impact": "Medium" },
-      { "action": "Build relationships with 5-10 local businesses for cross-referencing", "why": "Mortgage lenders, inspectors, designers -- natural local links", "effort": "Medium", "impact": "Medium" },
-      { "action": "Increase blog frequency to 6-8 posts/month", "why": "Current pace good but competitors publish 8-10/month", "effort": "High", "impact": "Medium" },
-      { "action": "Create agent comparison/differentiation content", "why": "'What a Fighter Pilot Notices When Touring a Luxury Home'", "effort": "Medium", "impact": "Medium" },
-      { "action": "Monitor and optimize for AI Overviews / GEO", "why": "Track AI Overview queries; structure content for citation", "effort": "Medium", "impact": "High" }
+      {
+        "action": "Pitch 'Top Gun to Top Agent' story to Business Insider",
+        "why": "Carlson has this backlink; Murray's story is more compelling",
+        "effort": "Medium",
+        "impact": "Very High"
+      },
+      {
+        "action": "Pitch showcase home feature to Western Home Journal",
+        "why": "7 Showcase homes; perfect fit for luxury mountain magazine",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Pitch Park Record feature / interview",
+        "why": "Local press coverage builds authority",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Explore Ski Utah sponsorship",
+        "why": "Willis has this high-authority tourism backlink",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Apply for LuxuryRealEstate.com Who's Who membership",
+        "why": "Willis has this luxury network credibility signal",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Launch monthly video content series",
+        "why": "Video generates 66% more leads; builds E-E-A-T",
+        "effort": "High",
+        "impact": "High"
+      },
+      {
+        "action": "Create Park City Relocation Guide (downloadable asset)",
+        "why": "Comprehensive guide earns links from relocation sites",
+        "effort": "High",
+        "impact": "High"
+      },
+      {
+        "action": "Add secondary blog tier: Q&A posts targeting featured snippets",
+        "why": "Magnotta proves question-format titles capture PAA boxes",
+        "effort": "Medium",
+        "impact": "Medium"
+      },
+      {
+        "action": "Build relationships with 5-10 local businesses for cross-referencing",
+        "why": "Mortgage lenders, inspectors, designers -- natural local links",
+        "effort": "Medium",
+        "impact": "Medium"
+      },
+      {
+        "action": "Increase blog frequency to 6-8 posts/month",
+        "why": "Current pace good but competitors publish 8-10/month",
+        "effort": "High",
+        "impact": "Medium"
+      },
+      {
+        "action": "Create agent comparison/differentiation content",
+        "why": "'What a Fighter Pilot Notices When Touring a Luxury Home'",
+        "effort": "Medium",
+        "impact": "Medium"
+      },
+      {
+        "action": "Monitor and optimize for AI Overviews / GEO",
+        "why": "Track AI Overview queries; structure content for citation",
+        "effort": "Medium",
+        "impact": "High"
+      }
     ]
   },
-
   "contentCalendar": {
     "month1Label": "Month 1: Re-Establish Authority",
     "month1": [
-      { "week": 1, "topic": "Park City Real Estate Market Report -- Q1 2026", "keyword": "Park City real estate market 2026", "type": "Market Report" },
-      { "week": 2, "topic": "Complete Guide to Ski-In/Ski-Out Properties in Park City", "keyword": "Park City ski-in ski-out homes", "type": "Pillar Guide" },
-      { "week": 3, "topic": "Is Park City a Good Investment for Rental Property? (2026 Data)", "keyword": "Park City investment property", "type": "Informational" },
-      { "week": 4, "topic": "Park City vs. Deer Valley: What Buyers Need to Know", "keyword": "Park City vs Deer Valley", "type": "Comparison" }
+      {
+        "week": 1,
+        "topic": "Park City Real Estate Market Report -- Q1 2026",
+        "keyword": "Park City real estate market 2026",
+        "type": "Market Report"
+      },
+      {
+        "week": 2,
+        "topic": "Complete Guide to Ski-In/Ski-Out Properties in Park City",
+        "keyword": "Park City ski-in ski-out homes",
+        "type": "Pillar Guide"
+      },
+      {
+        "week": 3,
+        "topic": "Is Park City a Good Investment for Rental Property? (2026 Data)",
+        "keyword": "Park City investment property",
+        "type": "Informational"
+      },
+      {
+        "week": 4,
+        "topic": "Park City vs. Deer Valley: What Buyers Need to Know",
+        "keyword": "Park City vs Deer Valley",
+        "type": "Comparison"
+      }
     ],
     "month2Label": "Month 2: Build Lifestyle Verticals",
     "month2": [
-      { "week": 1, "topic": "Best Golf Communities in Park City: Promontory, Glenwild, Tuhaye Compared", "keyword": "Park City golf community homes", "type": "Comparison" },
-      { "week": 2, "topic": "How Much Does It Cost to Build a Custom Home in Park City? (2026)", "keyword": "cost to build home Park City", "type": "Expert Guide" },
-      { "week": 3, "topic": "What a Former Fighter Pilot Notices on a Luxury Home Tour", "keyword": "Park City real estate agent", "type": "Personal Expertise" },
-      { "week": 4, "topic": "Park City New Construction Update: 2026-2027", "keyword": "Park City new construction homes", "type": "Market Update" }
+      {
+        "week": 1,
+        "topic": "Best Golf Communities in Park City: Promontory, Glenwild, Tuhaye Compared",
+        "keyword": "Park City golf community homes",
+        "type": "Comparison"
+      },
+      {
+        "week": 2,
+        "topic": "How Much Does It Cost to Build a Custom Home in Park City? (2026)",
+        "keyword": "cost to build home Park City",
+        "type": "Expert Guide"
+      },
+      {
+        "week": 3,
+        "topic": "What a Former Fighter Pilot Notices on a Luxury Home Tour",
+        "keyword": "Park City real estate agent",
+        "type": "Personal Expertise"
+      },
+      {
+        "week": 4,
+        "topic": "Park City New Construction Update: 2026-2027",
+        "keyword": "Park City new construction homes",
+        "type": "Market Update"
+      }
     ],
     "month3Label": "Month 3: Expand Reach",
     "month3": [
-      { "week": 1, "topic": "The Ultimate Park City Relocation Guide (2026 Edition)", "keyword": "relocating to Park City Utah", "type": "Pillar Guide" },
-      { "week": 2, "topic": "Deer Valley Real Estate Market Report -- Spring 2026", "keyword": "Deer Valley homes for sale", "type": "Market Report" },
-      { "week": 3, "topic": "Short-Term Rental Rules in Park City: What Investors Need to Know", "keyword": "Park City short-term rental regulations", "type": "Investment Guide" },
-      { "week": 4, "topic": "Best Neighborhoods in Park City for Families (2026)", "keyword": "best neighborhoods Park City Utah", "type": "Listicle Guide" }
+      {
+        "week": 1,
+        "topic": "The Ultimate Park City Relocation Guide (2026 Edition)",
+        "keyword": "relocating to Park City Utah",
+        "type": "Pillar Guide"
+      },
+      {
+        "week": 2,
+        "topic": "Deer Valley Real Estate Market Report -- Spring 2026",
+        "keyword": "Deer Valley homes for sale",
+        "type": "Market Report"
+      },
+      {
+        "week": 3,
+        "topic": "Short-Term Rental Rules in Park City: What Investors Need to Know",
+        "keyword": "Park City short-term rental regulations",
+        "type": "Investment Guide"
+      },
+      {
+        "week": 4,
+        "topic": "Best Neighborhoods in Park City for Families (2026)",
+        "keyword": "best neighborhoods Park City Utah",
+        "type": "Listicle Guide"
+      }
     ]
   },
-
   "deliverables": [
-    { "name": "Meta Titles & Descriptions", "scope": "All 493 pages (67+ unique, 380 templated)", "score": "TBD", "status": "Ready -- verify with client" },
-    { "name": "Schema Markup (JSON-LD)", "scope": "9 schema blocks, production-ready", "score": "TBD", "status": "Ready -- verify URLs/contact" },
-    { "name": "Community Pages (expanded)", "scope": "4 pages, 1,000-1,500 words each", "score": "TBD", "status": "Ready -- paste into CMS" },
-    { "name": "Blog Posts (SEO-optimized)", "scope": "4 posts, 900-1,200 words each", "score": "TBD", "status": "Ready -- paste into CMS" }
+    {
+      "name": "Meta Titles & Descriptions",
+      "scope": "All 493 pages (67+ unique, 380 templated)",
+      "score": "TBD",
+      "status": "Ready -- verify with client"
+    },
+    {
+      "name": "Schema Markup (JSON-LD)",
+      "scope": "9 schema blocks, production-ready",
+      "score": "TBD",
+      "status": "Ready -- verify URLs/contact"
+    },
+    {
+      "name": "Community Pages (expanded)",
+      "scope": "4 pages, 1,000-1,500 words each",
+      "score": "TBD",
+      "status": "Ready -- paste into CMS"
+    },
+    {
+      "name": "Blog Posts (SEO-optimized)",
+      "scope": "4 posts, 900-1,200 words each",
+      "score": "TBD",
+      "status": "Ready -- paste into CMS"
+    }
   ],
-
-  "keyPagesCreated": ["Deer Valley Real Estate", "Promontory Homes for Sale", "Jeremy Ranch Real Estate", "Canyons Village / Park Meadows"],
-  "blogPostsCreated": ["Park City Real Estate Market Report: Spring 2026", "Best Neighborhoods in Park City (2026 Guide)", "Is Park City Real Estate a Good Investment?", "Park City Luxury Ski Homes Guide"],
-
+  "keyPagesCreated": [
+    "Deer Valley Real Estate",
+    "Promontory Homes for Sale",
+    "Jeremy Ranch Real Estate",
+    "Canyons Village / Park Meadows"
+  ],
+  "blogPostsCreated": [
+    "Park City Real Estate Market Report: Spring 2026",
+    "Best Neighborhoods in Park City (2026 Guide)",
+    "Is Park City Real Estate a Good Investment?",
+    "Park City Luxury Ski Homes Guide"
+  ],
   "advantages": [
-    { "title": "Exceptional Content Quality", "detail": "52 blog posts at 2,000-4,000 words with genuine local expertise -- among the best in the market" },
-    { "title": "Compelling Personal Story", "detail": "Top Gun instructor, F/A-18 pilot, 7 Showcase homes -- most differentiating narrative in Park City RE" },
-    { "title": "Deep Community Architecture", "detail": "493 pages with community-centric structure; more pages than 3 of 4 key competitors" },
-    { "title": "Same Platform as Competitors", "detail": "Sierra Interactive -- everything Willis/Magnotta do technically, Gardner can match" },
-    { "title": "Construction Expertise", "detail": "Builder background gives unique credibility evaluating properties that no other agent can claim" }
+    {
+      "title": "Exceptional Content Quality",
+      "detail": "52 blog posts at 2,000-4,000 words with genuine local expertise -- among the best in the market"
+    },
+    {
+      "title": "Compelling Personal Story",
+      "detail": "Top Gun instructor, F/A-18 pilot, 7 Showcase homes -- most differentiating narrative in Park City RE"
+    },
+    {
+      "title": "Deep Community Architecture",
+      "detail": "493 pages with community-centric structure; more pages than 3 of 4 key competitors"
+    },
+    {
+      "title": "Same Platform as Competitors",
+      "detail": "Sierra Interactive -- everything Willis/Magnotta do technically, Gardner can match"
+    },
+    {
+      "title": "Construction Expertise",
+      "detail": "Builder background gives unique credibility evaluating properties that no other agent can claim"
+    }
   ],
-
   "nextSteps": [
-    { "text": "Deploy ready-to-use deliverables (meta tags, schema, community pages, blog posts)", "sub": "Copy-paste into Sierra Interactive CMS -- can be done this week" },
-    { "text": "Complete Week 1-2 quick wins (10 technical fixes)", "sub": "H1 fixes, alt text, footer cleanup, directory submissions -- 1-2 business days" },
-    { "text": "Implement schema markup site-wide (JSON-LD)", "sub": "RealEstateAgent, FAQPage, BreadcrumbList, BlogPosting -- highest technical ROI" },
-    { "text": "Begin Month 1 content calendar + internal linking", "sub": "One blog post/week + add 3-5 contextual links to top 20 community pages" },
-    { "text": "Review progress at 30-day mark", "sub": "Measure keyword movement, crawl stats, lead capture changes" }
+    {
+      "text": "Deploy ready-to-use deliverables (meta tags, schema, community pages, blog posts)",
+      "sub": "Copy-paste into Sierra Interactive CMS -- can be done this week"
+    },
+    {
+      "text": "Complete Week 1-2 quick wins (10 technical fixes)",
+      "sub": "H1 fixes, alt text, footer cleanup, directory submissions -- 1-2 business days"
+    },
+    {
+      "text": "Implement schema markup site-wide (JSON-LD)",
+      "sub": "RealEstateAgent, FAQPage, BreadcrumbList, BlogPosting -- highest technical ROI"
+    },
+    {
+      "text": "Begin Month 1 content calendar + internal linking",
+      "sub": "One blog post/week + add 3-5 contextual links to top 20 community pages"
+    },
+    {
+      "text": "Review progress at 30-day mark",
+      "sub": "Measure keyword movement, crawl stats, lead capture changes"
+    }
   ],
-
   "pillars": [
-    { "title": "TECHNICAL\nFIXES", "desc": "Fix H1 tags, add schema\nmarkup, alt text, OG tags,\nclaim directory profiles", "time": "Week 1-2" },
-    { "title": "CONTENT\nDEPTH", "desc": "Internal linking, publish\nblog posts, expand\ncommunity pages", "time": "Month 1-2" },
-    { "title": "LIFESTYLE\nVERTICALS", "desc": "Build ski property pages,\ngolf community pages,\nlocal guides", "time": "Month 2-4" },
-    { "title": "AUTHORITY\n& PR", "desc": "Press pitches, video series,\nrelocation guide, citations,\nAI Overview optimization", "time": "Month 4+" }
+    {
+      "title": "TECHNICAL\nFIXES",
+      "desc": "Fix H1 tags, add schema\nmarkup, alt text, OG tags,\nclaim directory profiles",
+      "time": "Week 1-2"
+    },
+    {
+      "title": "CONTENT\nDEPTH",
+      "desc": "Internal linking, publish\nblog posts, expand\ncommunity pages",
+      "time": "Month 1-2"
+    },
+    {
+      "title": "LIFESTYLE\nVERTICALS",
+      "desc": "Build ski property pages,\ngolf community pages,\nlocal guides",
+      "time": "Month 2-4"
+    },
+    {
+      "title": "AUTHORITY\n& PR",
+      "desc": "Press pitches, video series,\nrelocation guide, citations,\nAI Overview optimization",
+      "time": "Month 4+"
+    }
   ],
-
   "mediumTermRoadmap": [
-    { "title": "Ski Property Pages (10-15)", "detail": "Biggest content gap: Willis has 20 ski pages, Gardner has zero" },
-    { "title": "Golf Community Pages (6-8)", "detail": "Willis has 11 golf pages; Promontory, Glenwild, Tuhaye, Victory Ranch" },
-    { "title": "Home Valuation Landing Page", "detail": "High-converting seller lead capture for 'what is my home worth'" },
-    { "title": "Sell My Home Landing Page", "detail": "Dedicated page targeting seller-intent keywords" },
-    { "title": "Site-Wide Internal Linking (380+ pages)", "detail": "Extend contextual body links across all community pages" },
-    { "title": "Park City Local Guide (10-15 pages)", "detail": "Lifestyle content: dining, activities, events, schools, neighborhoods" },
-    { "title": "Neighborhood Market Reports (5)", "detail": "Individual area data reports that attract backlinks" },
-    { "title": "FAQ Schema Expansion", "detail": "Activate FAQPage schema on all 40+ community FAQ sections" }
+    {
+      "title": "Ski Property Pages (10-15)",
+      "detail": "Biggest content gap: Willis has 20 ski pages, Gardner has zero"
+    },
+    {
+      "title": "Golf Community Pages (6-8)",
+      "detail": "Willis has 11 golf pages; Promontory, Glenwild, Tuhaye, Victory Ranch"
+    },
+    {
+      "title": "Home Valuation Landing Page",
+      "detail": "High-converting seller lead capture for 'what is my home worth'"
+    },
+    {
+      "title": "Sell My Home Landing Page",
+      "detail": "Dedicated page targeting seller-intent keywords"
+    },
+    {
+      "title": "Site-Wide Internal Linking (380+ pages)",
+      "detail": "Extend contextual body links across all community pages"
+    },
+    {
+      "title": "Park City Local Guide (10-15 pages)",
+      "detail": "Lifestyle content: dining, activities, events, schools, neighborhoods"
+    },
+    {
+      "title": "Neighborhood Market Reports (5)",
+      "detail": "Individual area data reports that attract backlinks"
+    },
+    {
+      "title": "FAQ Schema Expansion",
+      "detail": "Activate FAQPage schema on all 40+ community FAQ sections"
+    }
   ],
-
   "longTermColumns": [
-    { "title": "Content Authority", "items": ["Monthly market reports", "Ski/golf vertical pages", "Relocation guide", "Comparison content", "'Best of Park City' resources"] },
-    { "title": "PR & Backlinks", "items": ["Business Insider pitch", "Western Home Journal feature", "Park Record interview", "Ski Utah sponsorship", "LuxuryRealEstate.com membership"] },
-    { "title": "Lead Generation", "items": ["Community email subscriptions", "Blog subscriber capture", "Chat widget", "Video content series", "Downloadable guides"] },
-    { "title": "Local SEO", "items": ["Complete directory profiles", "Citation consistency", "Google Business Profile optimization", "AI Overview monitoring", "Performance audit quarterly"] }
+    {
+      "title": "Content Authority",
+      "items": [
+        "Monthly market reports",
+        "Ski/golf vertical pages",
+        "Relocation guide",
+        "Comparison content",
+        "'Best of Park City' resources"
+      ]
+    },
+    {
+      "title": "PR & Backlinks",
+      "items": [
+        "Business Insider pitch",
+        "Western Home Journal feature",
+        "Park Record interview",
+        "Ski Utah sponsorship",
+        "LuxuryRealEstate.com membership"
+      ]
+    },
+    {
+      "title": "Lead Generation",
+      "items": [
+        "Community email subscriptions",
+        "Blog subscriber capture",
+        "Chat widget",
+        "Video content series",
+        "Downloadable guides"
+      ]
+    },
+    {
+      "title": "Local SEO",
+      "items": [
+        "Complete directory profiles",
+        "Citation consistency",
+        "Google Business Profile optimization",
+        "AI Overview monitoring",
+        "Performance audit quarterly"
+      ]
+    }
   ]
 }

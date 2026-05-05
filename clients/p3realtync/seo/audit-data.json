@@ -7,7 +7,7 @@
     "platform": "Sierra Interactive (SIS)",
     "auditDate": "March 23, 2026",
     "overallGrade": "D",
-    "gradeSummary": "Lisa's own listing addresses don't rank on Google \u2014 Zillow, Redfin, and Realtor.com outrank her for properties she represents. 360 address queries in Search Console show impressions but near-zero clicks. The site has 127 pages but 126 are orphaned with no internal links, E-E-A-T score is 21/100, mobile LCP is 7.2s (3x over threshold), and 0 of 25 target keywords rank. Brand searches work (#1 for 'performance property partners'), but organic visibility for everything else is effectively zero.",
+    "gradeSummary": "Lisa's own listing addresses don't rank on Google — Zillow, Redfin, and Realtor.com outrank her for properties she represents. 360 address queries in Search Console show impressions but near-zero clicks. The site has 127 pages but 126 are orphaned with no internal links, E-E-A-T score is 21/100, mobile LCP is 7.2s (3x over threshold), and 0 of 25 target keywords rank. Brand searches work (#1 for 'performance property partners'), but organic visibility for everything else is effectively zero.",
     "serviceType": "Full Service (Buy/Sell/Residential)",
     "location": "Johnston County, Clayton, Smithfield, Pinehurst, Hampstead, Surf City NC"
   },
@@ -56,61 +56,61 @@
   "topIssues": [
     {
       "issue": "Listing pages don't rank for property addresses",
-      "detail": "360 address-like queries in Search Console show impressions at positions 10-40 but near-zero clicks \u2014 Zillow, Redfin, and Realtor.com outrank Lisa for her own listings",
+      "detail": "360 address-like queries in Search Console show impressions at positions 10-40 but near-zero clicks — Zillow, Redfin, and Realtor.com outrank Lisa for her own listings",
       "impact": "Critical",
       "effort": "High"
     },
     {
       "issue": "Zero organic visibility for target keywords",
-      "detail": "0 of 25 target keywords ranking in Google \u2014 site is invisible for 'homes for sale Hampstead NC', 'Clayton NC homes for sale', and all service area terms",
+      "detail": "0 of 25 target keywords ranking in Google — site is invisible for 'homes for sale Hampstead NC', 'Clayton NC homes for sale', and all service area terms",
       "impact": "Critical",
       "effort": "High"
     },
     {
       "issue": "126 of 127 pages are orphaned",
-      "detail": "No internal links point to any content pages \u2014 the entire site relies on navigation menus only, destroying link equity distribution",
+      "detail": "No internal links point to any content pages — the entire site relies on navigation menus only, destroying link equity distribution",
       "impact": "Critical",
       "effort": "Medium"
     },
     {
       "issue": "Weak E-E-A-T signals (21/100)",
-      "detail": "0 pages have author attribution, 0 pages have publish dates, 0 pages have expertise schema \u2014 11 YMYL (financial/real estate) pages have no trust signals",
+      "detail": "0 pages have author attribution, 0 pages have publish dates, 0 pages have expertise schema — 11 YMYL (financial/real estate) pages have no trust signals",
       "impact": "Critical",
       "effort": "Medium"
     },
     {
       "issue": "Poor mobile performance (LCP 7.2s)",
-      "detail": "Mobile PageSpeed 66/100, LCP is 3x over the 2.5s threshold, FCP 3.5s (threshold 1.8s) \u2014 majority of real estate searches happen on mobile",
+      "detail": "Mobile PageSpeed 66/100, LCP is 3x over the 2.5s threshold, FCP 3.5s (threshold 1.8s) — majority of real estate searches happen on mobile",
       "impact": "High",
       "effort": "Medium"
     },
     {
       "issue": "Missing RealEstateListing schema markup",
-      "detail": "Listing pages have no structured data \u2014 competitors use RealEstateListing schema to get rich results with price, photos, and address in search",
+      "detail": "Listing pages have no structured data — competitors use RealEstateListing schema to get rich results with price, photos, and address in search",
       "impact": "High",
       "effort": "Low"
     },
     {
       "issue": "Thin listing page content",
-      "detail": "Listing pages are mostly IDX-generated with minimal unique content \u2014 no neighborhood descriptions, no agent commentary, no market context to differentiate from portal pages",
+      "detail": "Listing pages are mostly IDX-generated with minimal unique content — no neighborhood descriptions, no agent commentary, no market context to differentiate from portal pages",
       "impact": "High",
       "effort": "Medium"
     },
     {
       "issue": "Missing or poor meta descriptions",
-      "detail": "82 pages have descriptions over 160 chars (truncated in search), many are generic Sierra Interactive defaults \u2014 no location-specific or listing-specific descriptions",
+      "detail": "82 pages have descriptions over 160 chars (truncated in search), many are generic Sierra Interactive defaults — no location-specific or listing-specific descriptions",
       "impact": "High",
       "effort": "Low"
     },
     {
       "issue": "No content strategy for service areas",
-      "detail": "County pages exist but are thin \u2014 no market reports, no neighborhood guides, no area-specific blog content to build topical authority",
+      "detail": "County pages exist but are thin — no market reports, no neighborhood guides, no area-specific blog content to build topical authority",
       "impact": "High",
       "effort": "High"
     },
     {
       "issue": "JSON-LD schema parse errors",
-      "detail": "Existing schema markup has parse errors (invalid JSON) \u2014 Google can't read the structured data that does exist",
+      "detail": "Existing schema markup has parse errors (invalid JSON) — Google can't read the structured data that does exist",
       "impact": "Medium",
       "effort": "Low"
     }
@@ -123,7 +123,7 @@
     },
     {
       "value": "360 queries",
-      "label": "address searches with near-zero clicks \u2014 Zillow ranks above",
+      "label": "address searches with near-zero clicks — Zillow ranks above",
       "severity": "red"
     },
     {
@@ -138,7 +138,7 @@
     },
     {
       "value": "21 / 100",
-      "label": "E-E-A-T score \u2014 11 YMYL pages with no trust signals",
+      "label": "E-E-A-T score — 11 YMYL pages with no trust signals",
       "severity": "red"
     },
     {
@@ -163,7 +163,7 @@
     },
     {
       "value": "127 pages",
-      "label": "crawled \u2014 site has content, it just needs optimization",
+      "label": "crawled — site has content, it just needs optimization",
       "severity": "yellow"
     }
   ],
@@ -232,178 +232,228 @@
   "keywords": [
     {
       "keyword": "homes for sale Hampstead NC",
-      "volume": 1500,
+      "volume": 3600,
       "clientRank": "Not found",
       "competitorRank": "#4 (Intracoastal)",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 0.57,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "Johnston County NC real estate",
-      "volume": 1500,
+      "volume": 260,
       "clientRank": "Not found",
       "competitorRank": "#7 (RiverWILD)",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 1.85,
+      "competition": "LOW"
     },
     {
       "keyword": "Clayton NC homes for sale",
-      "volume": 1500,
+      "volume": 5400,
       "clientRank": "Not found",
       "competitorRank": "#5 (RiverWILD)",
-      "topResult": "realtor.com"
+      "topResult": "realtor.com",
+      "cpc": 1.62,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "Pinehurst NC real estate",
-      "volume": 1500,
+      "volume": 720,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 0.53,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "Smithfield NC homes for sale",
-      "volume": 500,
+      "volume": 1900,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 1.22,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "Surf City NC homes for sale",
-      "volume": 500,
+      "volume": 1900,
       "clientRank": "Not found",
       "competitorRank": "#6 (Intracoastal)",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 0.69,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "NC real estate agent",
-      "volume": 1500,
+      "volume": 1900,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "realtor.com"
+      "topResult": "realtor.com",
+      "cpc": 6.08,
+      "competition": "LOW"
     },
     {
       "keyword": "Lisa Johnson realtor NC",
-      "volume": 100,
+      "volume": null,
       "clientRank": "Not found",
       "competitorRank": "N/A",
-      "topResult": "Multiple Lisa Johnsons"
+      "topResult": "Multiple Lisa Johnsons",
+      "cpc": null,
+      "competition": null
     },
     {
       "keyword": "P3 Realty NC",
-      "volume": 100,
+      "volume": null,
       "clientRank": "#1",
       "competitorRank": "N/A",
-      "topResult": "p3realtync.com"
+      "topResult": "p3realtync.com",
+      "cpc": null,
+      "competition": null
     },
     {
       "keyword": "performance property partners NC",
-      "volume": 100,
+      "volume": null,
       "clientRank": "#1",
       "competitorRank": "N/A",
-      "topResult": "p3realtync.com"
+      "topResult": "p3realtync.com",
+      "cpc": null,
+      "competition": null
     },
     {
       "keyword": "new construction homes NC",
-      "volume": 1500,
+      "volume": 590,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "newhomesource.com"
+      "topResult": "newhomesource.com",
+      "cpc": 6.94,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "no HOA homes Johnston County",
-      "volume": 500,
+      "volume": null,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": null,
+      "competition": null
     },
     {
       "keyword": "Hampstead NC real estate agent",
-      "volume": 500,
+      "volume": 140,
       "clientRank": "Not found",
       "competitorRank": "#3 (Intracoastal)",
-      "topResult": "realtor.com"
+      "topResult": "realtor.com",
+      "cpc": 2.91,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "homes for sale near Camp Lejeune",
-      "volume": 500,
+      "volume": 40,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "militarybyowner.com"
+      "topResult": "militarybyowner.com",
+      "cpc": 3.92,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "Garner NC homes for sale",
-      "volume": 500,
+      "volume": 3600,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 1.95,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "waterfront homes Hampstead NC",
-      "volume": 500,
+      "volume": 20,
       "clientRank": "Not found",
       "competitorRank": "#5 (Intracoastal)",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 0.89,
+      "competition": "LOW"
     },
     {
       "keyword": "luxury homes Pinehurst NC",
-      "volume": 500,
+      "volume": null,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": null,
+      "competition": null
     },
     {
       "keyword": "first time home buyer NC",
-      "volume": 1500,
+      "volume": 2900,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "nchfa.com"
+      "topResult": "nchfa.com",
+      "cpc": 10.22,
+      "competition": "HIGH"
     },
     {
       "keyword": "sell my house fast NC",
-      "volume": 1500,
+      "volume": 30,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "webuyhousesnc.com"
+      "topResult": "webuyhousesnc.com",
+      "cpc": 85.08,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "NC home prices 2026",
-      "volume": 500,
+      "volume": null,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": null,
+      "competition": null
     },
     {
       "keyword": "best neighborhoods Clayton NC",
-      "volume": 500,
+      "volume": null,
       "clientRank": "Not found",
       "competitorRank": "#8 (RiverWILD)",
-      "topResult": "niche.com"
+      "topResult": "niche.com",
+      "cpc": null,
+      "competition": null
     },
     {
       "keyword": "Pender County homes for sale",
-      "volume": 500,
+      "volume": 880,
       "clientRank": "Not found",
       "competitorRank": "#6 (Intracoastal)",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 0.44,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "Onslow County real estate",
-      "volume": 500,
+      "volume": 170,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 0.2,
+      "competition": "LOW"
     },
     {
       "keyword": "Southern Pines NC homes",
-      "volume": 500,
+      "volume": 260,
       "clientRank": "Not found",
       "competitorRank": "Not found",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 2.1,
+      "competition": "MEDIUM"
     },
     {
       "keyword": "Topsail Island real estate",
-      "volume": 500,
+      "volume": 170,
       "clientRank": "Not found",
       "competitorRank": "#4 (Intracoastal)",
-      "topResult": "zillow.com"
+      "topResult": "zillow.com",
+      "cpc": 0.77,
+      "competition": "MEDIUM"
     }
   ],
   "competitorComparison": [
@@ -471,27 +521,27 @@
     },
     {
       "strategy": "Neighborhood Content Hubs",
-      "detail": "Intracoastal has dedicated area pages with market data, school info, lifestyle content, and internal links to listings \u2014 builds topical authority"
+      "detail": "Intracoastal has dedicated area pages with market data, school info, lifestyle content, and internal links to listings — builds topical authority"
     },
     {
       "strategy": "Monthly Market Reports",
-      "detail": "Competitors publish regular market updates with pricing trends, inventory data, and analysis \u2014 establishes expertise and drives repeat visits"
+      "detail": "Competitors publish regular market updates with pricing trends, inventory data, and analysis — establishes expertise and drives repeat visits"
     },
     {
       "strategy": "Agent Bio + Expertise Pages",
-      "detail": "Competitor agents have detailed bio pages with credentials, specializations, transaction history, and client testimonials \u2014 strong E-E-A-T signals"
+      "detail": "Competitor agents have detailed bio pages with credentials, specializations, transaction history, and client testimonials — strong E-E-A-T signals"
     },
     {
       "strategy": "Keyword-Rich Domain Names",
-      "detail": "homesforsalehampsteadnc.com uses exact-match domain strategy for 'homes for sale Hampstead NC' \u2014 instant relevance signal"
+      "detail": "homesforsalehampsteadnc.com uses exact-match domain strategy for 'homes for sale Hampstead NC' — instant relevance signal"
     },
     {
       "strategy": "IDX + Custom Content Combo",
-      "detail": "Best competitors layer unique agent commentary, neighborhood descriptions, and market context on top of IDX listing data \u2014 differentiates from Zillow/Redfin"
+      "detail": "Best competitors layer unique agent commentary, neighborhood descriptions, and market context on top of IDX listing data — differentiates from Zillow/Redfin"
     },
     {
       "strategy": "Internal Linking Networks",
-      "detail": "Competitors cross-link county pages, listing pages, blog posts, and area guides \u2014 creates topical clusters that signal authority to Google"
+      "detail": "Competitors cross-link county pages, listing pages, blog posts, and area guides — creates topical clusters that signal authority to Google"
     },
     {
       "strategy": "Blog Content Targeting Long-Tail",
@@ -503,13 +553,13 @@
       "action": "Add RealEstateListing schema to every active listing page",
       "impact": "Critical",
       "effort": "Low",
-      "detail": "Enables rich results with price, photos, beds/baths \u2014 the #1 way to compete with portals in search results"
+      "detail": "Enables rich results with price, photos, beds/baths — the #1 way to compete with portals in search results"
     },
     {
       "action": "Fix JSON-LD parse errors on existing schema",
       "impact": "High",
       "effort": "Low",
-      "detail": "Current structured data has invalid JSON \u2014 Google can't read it at all"
+      "detail": "Current structured data has invalid JSON — Google can't read it at all"
     },
     {
       "action": "Write unique meta descriptions for all 82 pages with truncated descriptions",
@@ -533,7 +583,7 @@
       "action": "Add author attribution and publish dates to all blog posts",
       "impact": "High",
       "effort": "Low",
-      "detail": "36 blog posts have zero author or date \u2014 critical E-E-A-T gap for YMYL content"
+      "detail": "36 blog posts have zero author or date — critical E-E-A-T gap for YMYL content"
     },
     {
       "action": "Add LocalBusiness + RealEstateAgent schema to homepage and about page",
@@ -551,7 +601,7 @@
       "action": "Defer render-blocking CSS and JavaScript",
       "impact": "Medium",
       "effort": "Low",
-      "detail": "Est savings of 630ms on mobile \u2014 would bring LCP closer to threshold"
+      "detail": "Est savings of 630ms on mobile — would bring LCP closer to threshold"
     },
     {
       "action": "Add canonical tags to property search and IDX pages",
@@ -582,13 +632,13 @@
       },
       {
         "action": "Fix broken JSON-LD schema on existing pages",
-        "why": "Google can't parse the current structured data \u2014 zero benefit from existing markup",
+        "why": "Google can't parse the current structured data — zero benefit from existing markup",
         "effort": "Low",
         "impact": "High"
       },
       {
         "action": "Rewrite meta descriptions with address + location for listing pages",
-        "why": "82 pages have truncated/generic descriptions \u2014 unique descriptions improve CTR from search results",
+        "why": "82 pages have truncated/generic descriptions — unique descriptions improve CTR from search results",
         "effort": "Low",
         "impact": "High"
       },
@@ -600,7 +650,7 @@
       },
       {
         "action": "Add author bios and publish dates to all 36 blog posts",
-        "why": "E-E-A-T score is 21/100 \u2014 0 pages have author attribution, critical for YMYL real estate content",
+        "why": "E-E-A-T score is 21/100 — 0 pages have author attribution, critical for YMYL real estate content",
         "effort": "Low",
         "impact": "High"
       },
@@ -612,7 +662,7 @@
       },
       {
         "action": "Add internal links from blog sidebar to county pages",
-        "why": "126 orphan pages \u2014 sidebar links from 36 posts instantly creates link equity flow",
+        "why": "126 orphan pages — sidebar links from 36 posts instantly creates link equity flow",
         "effort": "Low",
         "impact": "High"
       }
@@ -620,19 +670,19 @@
     "shortTerm": [
       {
         "action": "Write unique listing page content (agent commentary, neighborhood context) for top 20 active listings",
-        "why": "Thin IDX-only pages can never outrank Zillow \u2014 unique content is the only differentiator",
+        "why": "Thin IDX-only pages can never outrank Zillow — unique content is the only differentiator",
         "effort": "Medium",
         "impact": "Critical"
       },
       {
-        "action": "Build internal linking hub: county page \u2192 listings \u2192 blog posts \u2192 back to county",
-        "why": "126 orphan pages means zero link equity distribution \u2014 hub-and-spoke model fixes this",
+        "action": "Build internal linking hub: county page → listings → blog posts → back to county",
+        "why": "126 orphan pages means zero link equity distribution — hub-and-spoke model fixes this",
         "effort": "Medium",
         "impact": "High"
       },
       {
         "action": "Create/update market reports for each service area with current 2026 data",
-        "why": "Only 1 stale report exists (June 2025) \u2014 regular market data builds expertise authority",
+        "why": "Only 1 stale report exists (June 2025) — regular market data builds expertise authority",
         "effort": "Medium",
         "impact": "High"
       },
@@ -644,13 +694,13 @@
       },
       {
         "action": "Optimize mobile performance: defer CSS/JS, optimize images, fix render-blocking",
-        "why": "LCP 7.2s (3x threshold), FCP 3.5s \u2014 majority of home searches are on mobile",
+        "why": "LCP 7.2s (3x threshold), FCP 3.5s — majority of home searches are on mobile",
         "effort": "Medium",
         "impact": "High"
       },
       {
         "action": "Create Lisa Johnson credentials/expertise page with transaction history and testimonials",
-        "why": "Experience score is 0/100 \u2014 agent expertise page is the fastest E-E-A-T improvement",
+        "why": "Experience score is 0/100 — agent expertise page is the fastest E-E-A-T improvement",
         "effort": "Medium",
         "impact": "High"
       }
@@ -658,13 +708,13 @@
     "mediumTerm": [
       {
         "action": "Launch Google Ads campaign targeting listing addresses",
-        "why": "360 address queries show impressions at position 10-40 \u2014 paid ads guarantee top position for Lisa's own listings while organic catches up",
+        "why": "360 address queries show impressions at position 10-40 — paid ads guarantee top position for Lisa's own listings while organic catches up",
         "effort": "Medium",
         "impact": "Critical"
       },
       {
         "action": "Create comprehensive neighborhood guide hubs for Clayton, Hampstead, Pinehurst",
-        "why": "Competitors use hub-and-spoke pages to dominate local keywords \u2014 each hub targets 10+ long-tail keywords",
+        "why": "Competitors use hub-and-spoke pages to dominate local keywords — each hub targets 10+ long-tail keywords",
         "effort": "High",
         "impact": "High"
       },
@@ -676,19 +726,19 @@
       },
       {
         "action": "Create relocation guides for military (Camp Lejeune) and retirees (Pinehurst)",
-        "why": "Underserved audience segments with high intent \u2014 'homes near Camp Lejeune' has no strong organic result",
+        "why": "Underserved audience segments with high intent — 'homes near Camp Lejeune' has no strong organic result",
         "effort": "High",
         "impact": "High"
       },
       {
         "action": "Add FAQ sections with schema to all area and listing pages",
-        "why": "FAQ schema targets 'People Also Ask' + AI Overview \u2014 competitors already doing this",
+        "why": "FAQ schema targets 'People Also Ask' + AI Overview — competitors already doing this",
         "effort": "Medium",
         "impact": "High"
       },
       {
         "action": "Implement cross-linking strategy connecting all 127 pages",
-        "why": "Currently 99% orphan rate \u2014 need contextual links between related content to build topical clusters",
+        "why": "Currently 99% orphan rate — need contextual links between related content to build topical clusters",
         "effort": "Medium",
         "impact": "High"
       }
@@ -696,13 +746,13 @@
     "longTerm": [
       {
         "action": "Monthly market report publishing cadence for all service areas",
-        "why": "Consistent data publishing builds authority \u2014 first mover advantage since no competitor does this regularly",
+        "why": "Consistent data publishing builds authority — first mover advantage since no competitor does this regularly",
         "effort": "Medium",
         "impact": "High"
       },
       {
         "action": "Build content library toward 300+ optimized pages",
-        "why": "Currently 127 pages but most are thin/orphaned \u2014 need depth + breadth to compete",
+        "why": "Currently 127 pages but most are thin/orphaned — need depth + breadth to compete",
         "effort": "High",
         "impact": "High"
       },
@@ -720,19 +770,19 @@
       },
       {
         "action": "Email newsletter with market updates and new listings",
-        "why": "Email converts higher than any other channel \u2014 nurtures leads from organic traffic",
+        "why": "Email converts higher than any other channel — nurtures leads from organic traffic",
         "effort": "Medium",
         "impact": "High"
       },
       {
         "action": "Implement listing page auto-optimization: schema + meta + content template for every new listing",
-        "why": "Sierra Interactive can be configured to auto-generate optimized listing pages \u2014 scales the solution",
+        "why": "Sierra Interactive can be configured to auto-generate optimized listing pages — scales the solution",
         "effort": "High",
         "impact": "Critical"
       },
       {
         "action": "Press/media coverage and local partnership content",
-        "why": "Authority score is 6/100 \u2014 external mentions and backlinks are needed for domain authority",
+        "why": "Authority score is 6/100 — external mentions and backlinks are needed for domain authority",
         "effort": "High",
         "impact": "Medium"
       }
@@ -743,7 +793,7 @@
     "month1": [
       {
         "week": 1,
-        "topic": "Johnston County NC Real Estate Market Report \u2014 Spring 2026 Data",
+        "topic": "Johnston County NC Real Estate Market Report — Spring 2026 Data",
         "keyword": "Johnston County NC real estate",
         "type": "Market Report"
       },
@@ -824,19 +874,19 @@
   "advantages": [
     {
       "title": "Brand Searches Work",
-      "detail": "'performance property partners' ranks #1 with 19 clicks \u2014 brand recognition exists, just needs organic expansion"
+      "detail": "'performance property partners' ranks #1 with 19 clicks — brand recognition exists, just needs organic expansion"
     },
     {
       "title": "127 Pages Already Exist",
-      "detail": "The site has county pages, specialty search pages, and 36 blog posts \u2014 these need optimization, not creation from scratch"
+      "detail": "The site has county pages, specialty search pages, and 36 blog posts — these need optimization, not creation from scratch"
     },
     {
       "title": "Sierra Interactive Platform",
-      "detail": "SIS supports schema markup, custom content areas, and IDX optimization \u2014 the same platform competitors use successfully"
+      "detail": "SIS supports schema markup, custom content areas, and IDX optimization — the same platform competitors use successfully"
     },
     {
       "title": "Pinehurst Content Proves the Model",
-      "detail": "/blog/why-people-love-pinehurst-nc/ gets 476 impressions and 9 clicks \u2014 shows what optimized content can achieve at scale"
+      "detail": "/blog/why-people-love-pinehurst-nc/ gets 476 impressions and 9 clicks — shows what optimized content can achieve at scale"
     },
     {
       "title": "Service Area Diversity",
@@ -848,17 +898,17 @@
     },
     {
       "title": "Address Queries Show Demand",
-      "detail": "360 address searches means people ARE looking for her listings \u2014 they just can't find her site. The demand already exists."
+      "detail": "360 address searches means people ARE looking for her listings — they just can't find her site. The demand already exists."
     },
     {
       "title": "Strong Listing Inventory",
-      "detail": "Active listings across multiple counties give Lisa unique content no competitor can replicate \u2014 each listing is a ranking opportunity"
+      "detail": "Active listings across multiple counties give Lisa unique content no competitor can replicate — each listing is a ranking opportunity"
     }
   ],
   "nextSteps": [
     {
       "text": "Deploy RealEstateListing schema to all active listing pages",
-      "sub": "Highest-impact single change \u2014 enables rich results and starts competing with portals"
+      "sub": "Highest-impact single change — enables rich results and starts competing with portals"
     },
     {
       "text": "Fix technical quick wins (meta tags, titles, JSON-LD, internal links)",
@@ -866,19 +916,19 @@
     },
     {
       "text": "Launch Google Ads campaign for listing addresses",
-      "sub": "360 address queries show demand \u2014 paid ads guarantee top position while organic catches up. Budget: $500-800/month targeting specific addresses"
+      "sub": "360 address queries show demand — paid ads guarantee top position while organic catches up. Budget: $500-800/month targeting specific addresses"
     },
     {
       "text": "Begin Month 1 content calendar",
-      "sub": "Johnston County market report first \u2014 establishes expertise and targets highest-value keyword"
+      "sub": "Johnston County market report first — establishes expertise and targets highest-value keyword"
     },
     {
       "text": "Add unique content to top 20 listing pages",
-      "sub": "Agent commentary, neighborhood context, market data \u2014 the only way to differentiate from Zillow/Redfin"
+      "sub": "Agent commentary, neighborhood context, market data — the only way to differentiate from Zillow/Redfin"
     },
     {
       "text": "Build internal linking structure",
-      "sub": "Blog sidebar, county page cross-links, listing-to-area connections \u2014 fixes the 126-orphan crisis"
+      "sub": "Blog sidebar, county page cross-links, listing-to-area connections — fixes the 126-orphan crisis"
     },
     {
       "text": "Schedule 30-day review to measure progress",
@@ -915,15 +965,15 @@
   "mediumTermRoadmap": [
     {
       "title": "Neighborhood Hub Pages",
-      "detail": "Comprehensive guides for Clayton, Hampstead, Pinehurst, Smithfield, Surf City \u2014 each with market data, schools, lifestyle, and linked listings"
+      "detail": "Comprehensive guides for Clayton, Hampstead, Pinehurst, Smithfield, Surf City — each with market data, schools, lifestyle, and linked listings"
     },
     {
       "title": "Military Relocation Content",
-      "detail": "Camp Lejeune relocation guide + military-friendly housing content \u2014 underserved high-intent audience"
+      "detail": "Camp Lejeune relocation guide + military-friendly housing content — underserved high-intent audience"
     },
     {
       "title": "Retirement/55+ Community Guides",
-      "detail": "Pinehurst and Moore County retirement content \u2014 55+ community pages already exist but need depth"
+      "detail": "Pinehurst and Moore County retirement content — 55+ community pages already exist but need depth"
     },
     {
       "title": "Listing Page Optimization Template",
@@ -931,7 +981,7 @@
     },
     {
       "title": "Market Report Cadence",
-      "detail": "Monthly reports for Johnston County + Hampstead, quarterly for other areas \u2014 first mover advantage"
+      "detail": "Monthly reports for Johnston County + Hampstead, quarterly for other areas — first mover advantage"
     },
     {
       "title": "FAQ Schema on All Key Pages",
@@ -943,7 +993,7 @@
     },
     {
       "title": "Google Ads for Address Queries",
-      "detail": "Targeted campaigns for Lisa's active listing addresses \u2014 guarantees visibility while organic rankings build"
+      "detail": "Targeted campaigns for Lisa's active listing addresses — guarantees visibility while organic rankings build"
     }
   ],
   "longTermColumns": [
@@ -992,51 +1042,51 @@
     "problem": "Lisa's own listings don't rank when someone Googles the property address. 360 address-like queries in Search Console show her site gets impressions (Google knows about the pages) but ranks at position 10-40 with near-zero clicks. Zillow, Redfin, and Realtor.com consistently outrank her.",
     "whyThisHappens": [
       "Portal sites (Zillow, Redfin, Realtor.com) have massive domain authority (DA 90+) vs. p3realtync.com",
-      "Portal listing pages have rich structured data (RealEstateListing schema) \u2014 Lisa's pages have none (and existing JSON-LD has parse errors)",
-      "Portal pages have thousands of internal links from city/state/county hub pages \u2014 Lisa's listing pages are orphaned (0 internal links)",
-      "Portal pages aggregate user reviews, saved counts, and price history \u2014 Lisa's pages have IDX data only with no unique content",
-      "Portal pages are optimized for address queries with exact-match titles and meta descriptions \u2014 Lisa's have generic Sierra Interactive defaults"
+      "Portal listing pages have rich structured data (RealEstateListing schema) — Lisa's pages have none (and existing JSON-LD has parse errors)",
+      "Portal pages have thousands of internal links from city/state/county hub pages — Lisa's listing pages are orphaned (0 internal links)",
+      "Portal pages aggregate user reviews, saved counts, and price history — Lisa's pages have IDX data only with no unique content",
+      "Portal pages are optimized for address queries with exact-match titles and meta descriptions — Lisa's have generic Sierra Interactive defaults"
     ],
     "howToFix": {
       "immediate": [
         {
           "action": "Add RealEstateListing schema to every active listing page",
           "detail": "Include @type, name (full address), description, price, numberOfBedrooms, numberOfBathroomsTotal, floorSize, photo, address, geo coordinates, and Lisa as the agent",
-          "impact": "Enables rich results with property details directly in search \u2014 levels the playing field with portals"
+          "impact": "Enables rich results with property details directly in search — levels the playing field with portals"
         },
         {
           "action": "Rewrite listing page titles to: '[Address] | [City] NC Home for Sale | Lisa Johnson'",
-          "detail": "Current titles are generic \u2014 address in title is the strongest on-page signal for address queries",
+          "detail": "Current titles are generic — address in title is the strongest on-page signal for address queries",
           "impact": "Direct ranking factor for address searches"
         },
         {
           "action": "Write unique meta descriptions per listing with address, price, and key features",
-          "detail": "Current descriptions are platform defaults \u2014 unique descriptions improve CTR even if ranking doesn't change immediately",
+          "detail": "Current descriptions are platform defaults — unique descriptions improve CTR even if ranking doesn't change immediately",
           "impact": "Higher CTR from search results"
         }
       ],
       "shortTerm": [
         {
           "action": "Add 200-400 words of unique agent commentary to each listing page",
-          "detail": "Include: why Lisa chose to list this home, neighborhood highlights, nearby amenities, school district info, what makes this property special \u2014 content Zillow can't replicate",
-          "impact": "Unique content differentiates from portals \u2014 Google rewards original content over syndicated IDX data"
+          "detail": "Include: why Lisa chose to list this home, neighborhood highlights, nearby amenities, school district info, what makes this property special — content Zillow can't replicate",
+          "impact": "Unique content differentiates from portals — Google rewards original content over syndicated IDX data"
         },
         {
           "action": "Link each listing page from its county/area page and related blog posts",
-          "detail": "Currently 0 internal links to listing pages \u2014 add contextual links from Johnston County page, 'no HOA homes' page, etc.",
+          "detail": "Currently 0 internal links to listing pages — add contextual links from Johnston County page, 'no HOA homes' page, etc.",
           "impact": "Fixes orphan status and passes link equity to listing pages"
         },
         {
           "action": "Add neighborhood micro-content blocks to listing pages",
-          "detail": "Schools within 5 miles, average commute, nearby shopping/dining, HOA details if applicable \u2014 structured content that Zillow doesn't provide per-listing",
-          "impact": "Increases page depth and dwell time \u2014 signals quality to Google"
+          "detail": "Schools within 5 miles, average commute, nearby shopping/dining, HOA details if applicable — structured content that Zillow doesn't provide per-listing",
+          "impact": "Increases page depth and dwell time — signals quality to Google"
         }
       ],
       "paidStrategy": [
         {
           "action": "Google Ads campaign targeting active listing addresses",
-          "detail": "Create ad campaigns for each active listing's full address \u2014 budget $500-800/month, bid on exact-match address queries",
-          "impact": "Guarantees #1 position for Lisa's own listing addresses \u2014 immediate visibility while organic builds"
+          "detail": "Create ad campaigns for each active listing's full address — budget $500-800/month, bid on exact-match address queries",
+          "impact": "Guarantees #1 position for Lisa's own listing addresses — immediate visibility while organic builds"
         },
         {
           "action": "Ad extensions with Lisa's photo, phone, and listing details",
@@ -1046,15 +1096,15 @@
         {
           "action": "Landing pages optimized per listing with clear CTA",
           "detail": "Send ad traffic to optimized listing pages (not generic search results) with 'Schedule a Showing' and 'Ask Lisa a Question' CTAs",
-          "impact": "Higher conversion rate than portals \u2014 direct connection to the listing agent"
+          "impact": "Higher conversion rate than portals — direct connection to the listing agent"
         }
       ]
     },
     "expectedTimeline": {
-      "week1_2": "Schema + meta tag fixes go live \u2014 rich results may appear within 1-2 weeks of Google recrawling",
-      "week3_4": "Google Ads campaign launches \u2014 immediate visibility for active listing addresses",
-      "month1_2": "Unique listing content added \u2014 organic positions should improve from 10-40 range to 5-15",
-      "month3_6": "Combined effect of schema + content + internal links + ads \u2014 target: position 1-5 for all active listing addresses"
+      "week1_2": "Schema + meta tag fixes go live — rich results may appear within 1-2 weeks of Google recrawling",
+      "week3_4": "Google Ads campaign launches — immediate visibility for active listing addresses",
+      "month1_2": "Unique listing content added — organic positions should improve from 10-40 range to 5-15",
+      "month3_6": "Combined effect of schema + content + internal links + ads — target: position 1-5 for all active listing addresses"
     }
   },
   "deliverables": [
@@ -1062,37 +1112,37 @@
       "name": "RealEstateListing Schema (JSON-LD)",
       "scope": "All active listing pages",
       "score": "9.5/10",
-      "status": "Template ready \u2014 populate per listing"
+      "status": "Template ready — populate per listing"
     },
     {
       "name": "Meta Titles & Descriptions",
       "scope": "127 pages (82 need description fixes, 50 need title fixes)",
       "score": "8.5/10",
-      "status": "Ready \u2014 verify with current listing data"
+      "status": "Ready — verify with current listing data"
     },
     {
       "name": "LocalBusiness + RealEstateAgent Schema",
       "scope": "Homepage, About, Contact",
       "score": "9.0/10",
-      "status": "Ready \u2014 verify NAP and service areas"
+      "status": "Ready — verify NAP and service areas"
     },
     {
       "name": "Internal Linking Map",
-      "scope": "All 127 pages \u2014 hub-and-spoke structure",
+      "scope": "All 127 pages — hub-and-spoke structure",
       "score": "8.5/10",
-      "status": "Ready \u2014 implement in Sierra Interactive"
+      "status": "Ready — implement in Sierra Interactive"
     },
     {
       "name": "Content Calendar (12 blog posts)",
       "scope": "3 months of SEO-optimized content",
       "score": "9.0/10",
-      "status": "Topics and keywords defined \u2014 write and publish weekly"
+      "status": "Topics and keywords defined — write and publish weekly"
     },
     {
       "name": "Google Ads Campaign Structure",
       "scope": "Address-targeted campaigns for active listings",
       "score": "8.5/10",
-      "status": "Strategy defined \u2014 requires Google Ads account setup"
+      "status": "Strategy defined — requires Google Ads account setup"
     }
   ],
   "keyPagesCreated": [
@@ -1102,7 +1152,7 @@
     "Pinehurst NC Retirement & Golf Community Guide"
   ],
   "blogPostsCreated": [
-    "Why People Love Pinehurst NC (existing \u2014 optimize)",
+    "Why People Love Pinehurst NC (existing — optimize)",
     "Johnston County Market Report Spring 2026",
     "No HOA Homes in Johnston County Guide",
     "Moving to NC Near Camp Lejeune: Military Guide"
@@ -1111,7 +1161,7 @@
     "summary": {
       "totalPagesAnalyzed": 127,
       "avgQualityScore": 74.6,
-      "avgReadabilityScore": 90.0,
+      "avgReadabilityScore": 90,
       "avgSeoScore": 74.6,
       "avgStructureScore": 30.1,
       "thinPageCount": 0,
@@ -1373,7 +1423,7 @@
       },
       {
         "url": "https://www.p3realtync.com/sellers/adding-value/",
-        "title": "Increase Your Home\u2019s Value Before Selling | Performance Property Partners",
+        "title": "Increase Your Home’s Value Before Selling | Performance Property Partners",
         "qualityScore": 70,
         "readabilityScore": 90,
         "seoScore": 70,
@@ -1688,7 +1738,7 @@
       },
       {
         "url": "https://www.p3realtync.com/hampstead-market-report-june-2025/",
-        "title": "Hampstead NC Market Report \u2013 June 2025 | Performance Property Partners",
+        "title": "Hampstead NC Market Report – June 2025 | Performance Property Partners",
         "qualityScore": 75,
         "readabilityScore": 90,
         "seoScore": 75,
@@ -2024,7 +2074,7 @@
       },
       {
         "url": "https://www.p3realtync.com/join-us/join-performance-property-partners-100-commission-low-fees-work-from-home/",
-        "title": "Join Performance Property Partners \u2013 100% Commission, Low Fees, Work from Home",
+        "title": "Join Performance Property Partners – 100% Commission, Low Fees, Work from Home",
         "qualityScore": 75,
         "readabilityScore": 90,
         "seoScore": 75,
@@ -2045,7 +2095,7 @@
       },
       {
         "url": "https://www.p3realtync.com/our-agents/ken-stancil/",
-        "title": "Meet Ken Stancil | Broker & Land Development Specialist \u2014 Performance Property Partners",
+        "title": "Meet Ken Stancil | Broker & Land Development Specialist — Performance Property Partners",
         "qualityScore": 75,
         "readabilityScore": 90,
         "seoScore": 75,
@@ -2177,9 +2227,9 @@
     "total_pages": 0,
     "total_internal_links": 0,
     "orphan_count": 126,
-    "orphan_rate": 0.0,
-    "avg_inbound_links": 0.0,
-    "avg_outbound_links": 0.0,
+    "orphan_rate": 0,
+    "avg_inbound_links": 0,
+    "avg_outbound_links": 0,
     "unreachable_count": 0,
     "nodes": [],
     "orphans": [
@@ -2948,10 +2998,10 @@
       },
       "unreachable": [],
       "max_depth": 0,
-      "avg_depth": 0.0
+      "avg_depth": 0
     },
-    "graph_density": 0.0,
-    "avg_clustering_coefficient": 0.0,
+    "graph_density": 0,
+    "avg_clustering_coefficient": 0,
     "community_count": 0,
     "communities": [],
     "link_suggestions": [],
@@ -3082,7 +3132,7 @@
         "url": "https://www.p3realtync.com/hampstead-market-report-june-2025/",
         "issue": "TITLE_TOO_LONG",
         "detail": "Title is 70 chars (max 60)",
-        "value": "Hampstead NC Market Report \u2013 June 2025 | Performance Property Partners"
+        "value": "Hampstead NC Market Report – June 2025 | Performance Property Partners"
       },
       {
         "url": "https://www.p3realtync.com/hampstead-market-report-june-2025/",
@@ -3174,7 +3224,7 @@
         "url": "https://www.p3realtync.com/join-us/join-performance-property-partners-100-commission-low-fees-work-from-home/",
         "issue": "TITLE_TOO_LONG",
         "detail": "Title is 78 chars (max 60)",
-        "value": "Join Performance Property Partners \u2013 100% Commission, Low Fees, Work from Home"
+        "value": "Join Performance Property Partners – 100% Commission, Low Fees, Work from Home"
       },
       {
         "url": "https://www.p3realtync.com/join-us/join-performance-property-partners-100-commission-low-fees-work-from-home/",
@@ -3185,7 +3235,7 @@
         "url": "https://www.p3realtync.com/our-agents/ken-stancil/",
         "issue": "TITLE_TOO_LONG",
         "detail": "Title is 87 chars (max 60)",
-        "value": "Meet Ken Stancil | Broker & Land Development Specialist \u2014 Performance Property Partners"
+        "value": "Meet Ken Stancil | Broker & Land Development Specialist — Performance Property Partners"
       },
       {
         "url": "https://www.p3realtync.com/our-agents/ken-stancil/",
@@ -3409,7 +3459,7 @@
         "url": "https://www.p3realtync.com/sellers/adding-value/",
         "issue": "TITLE_TOO_LONG",
         "detail": "Title is 73 chars (max 60)",
-        "value": "Increase Your Home\u2019s Value Before Selling | Performance Property Partners"
+        "value": "Increase Your Home’s Value Before Selling | Performance Property Partners"
       },
       {
         "url": "https://www.p3realtync.com/sellers/adding-value/",
@@ -3489,7 +3539,7 @@
         "url": "https://www.p3realtync.com/blog/why-people-love-pinehurst-nc/",
         "issue": "TITLE_TOO_LONG",
         "detail": "Title is 63 chars (max 60)",
-        "value": "Why People Love Living in Pinehurst, NC | A Local\u2019s Perspective"
+        "value": "Why People Love Living in Pinehurst, NC | A Local’s Perspective"
       },
       {
         "url": "https://www.p3realtync.com/blog/why-people-are-moving-to-north-carolina/",
@@ -3533,7 +3583,7 @@
         "url": "https://www.p3realtync.com/blog/hardest-real-estate-decision/",
         "issue": "TITLE_TOO_LONG",
         "detail": "Title is 66 chars (max 60)",
-        "value": "The Hardest Real Estate Decision I\u2019ve Ever Faced | Lisa W. Johnson"
+        "value": "The Hardest Real Estate Decision I’ve Ever Faced | Lisa W. Johnson"
       },
       {
         "url": "https://www.p3realtync.com/blog/buying-a-lake-house-lake-tillery/",
@@ -3814,7 +3864,7 @@
           "url": "https://www.p3realtync.com/property-search/site-map/",
           "totalImages": 4,
           "missingAlt": 1,
-          "altCoverage": 75.0
+          "altCoverage": 75
         },
         {
           "url": "https://www.p3realtync.com/contact/",
@@ -3898,7 +3948,7 @@
           "url": "https://www.p3realtync.com/relocating-to-north-carolina/",
           "totalImages": 4,
           "missingAlt": 1,
-          "altCoverage": 75.0
+          "altCoverage": 75
         },
         {
           "url": "https://www.p3realtync.com/multi-generational-homes-for-sale-in-johnston-county/",
@@ -4062,7 +4112,7 @@
         "headerCoverage": {
           "Strict-Transport-Security": 7.9,
           "Content-Security-Policy": 1.6,
-          "X-Content-Type-Options": 63.0,
+          "X-Content-Type-Options": 63,
           "X-Frame-Options": 60.6,
           "Referrer-Policy": 59.1,
           "Permissions-Policy": 3.9
@@ -4329,11 +4379,11 @@
         "url": "https://www.p3realtync.com/",
         "strategy": "mobile",
         "performanceScore": 0.66,
-        "lcp": 7203.0,
-        "inp": 0.0,
+        "lcp": 7203,
+        "inp": 0,
         "cls": 0.0515,
-        "fcp": 3453.0,
-        "ttfb": 22.0,
+        "fcp": 3453,
+        "ttfb": 22,
         "speedIndex": 5145.3,
         "opportunities": [
           {
@@ -4361,17 +4411,17 @@
           {
             "id": "render-blocking-insight",
             "title": "Render blocking requests",
-            "value": "Est savings of 630\u00a0ms"
+            "value": "Est savings of 630 ms"
           },
           {
             "id": "interactive",
             "title": "Time to Interactive",
-            "value": "7.3\u00a0s"
+            "value": "7.3 s"
           },
           {
             "id": "cache-insight",
             "title": "Use efficient cache lifetimes",
-            "value": "Est savings of 381\u00a0KiB"
+            "value": "Est savings of 381 KiB"
           },
           {
             "id": "unsized-images",
@@ -4381,7 +4431,7 @@
           {
             "id": "largest-contentful-paint",
             "title": "Largest Contentful Paint",
-            "value": "7.2\u00a0s"
+            "value": "7.2 s"
           }
         ]
       },
@@ -4389,10 +4439,10 @@
         "url": "https://www.p3realtync.com/",
         "strategy": "desktop",
         "performanceScore": 0.88,
-        "lcp": 1982.0,
+        "lcp": 1982,
         "cls": 0.0043,
         "fcp": 766.7,
-        "ttfb": 71.0
+        "ttfb": 71
       }
     ],
     "pageAudits": [
@@ -4650,7 +4700,7 @@
       },
       {
         "url": "https://www.p3realtync.com/hampstead-market-report-june-2025/",
-        "title": "Hampstead NC Market Report \u2013 June 2025 | Performance Property Partners",
+        "title": "Hampstead NC Market Report – June 2025 | Performance Property Partners",
         "wordCount": 2452,
         "internalLinks": 212,
         "externalLinks": 9,
@@ -4945,7 +4995,7 @@
       },
       {
         "url": "https://www.p3realtync.com/join-us/join-performance-property-partners-100-commission-low-fees-work-from-home/",
-        "title": "Join Performance Property Partners \u2013 100% Commission, Low Fees, Work from Home",
+        "title": "Join Performance Property Partners – 100% Commission, Low Fees, Work from Home",
         "wordCount": 2567,
         "internalLinks": 230,
         "externalLinks": 8,
@@ -4961,7 +5011,7 @@
       },
       {
         "url": "https://www.p3realtync.com/our-agents/ken-stancil/",
-        "title": "Meet Ken Stancil | Broker & Land Development Specialist \u2014 Performance Property Partners",
+        "title": "Meet Ken Stancil | Broker & Land Development Specialist — Performance Property Partners",
         "wordCount": 2442,
         "internalLinks": 139,
         "externalLinks": 8,
@@ -5228,7 +5278,7 @@
         "Facebook Business"
       ],
       "issues": [
-        "Google Business Profile not connected \u2014 critical for local SEO"
+        "Google Business Profile not connected — critical for local SEO"
       ]
     },
     "mapPackKeywords": [
@@ -5295,28 +5345,28 @@
       "factors": {
         "parameterizedUrls": {
           "count": 0,
-          "ratio": 0.0,
-          "waste": 0.0
+          "ratio": 0,
+          "waste": 0
         },
         "orphanPages": {
           "count": 0,
-          "ratio": 0.0,
-          "waste": 0.0
+          "ratio": 0,
+          "waste": 0
         },
         "redirectChains": {
           "count": 0,
-          "ratio": 0.0,
-          "waste": 0.0
+          "ratio": 0,
+          "waste": 0
         },
         "soft404s": {
           "count": 0,
-          "ratio": 0.0,
-          "waste": 0.0
+          "ratio": 0,
+          "waste": 0
         },
         "deepPages": {
           "count": 0,
-          "ratio": 0.0,
-          "waste": 0.0
+          "ratio": 0,
+          "waste": 0
         }
       }
     }
@@ -6273,7 +6323,7 @@
         "status": "below"
       }
     ],
-    "executiveSummary": "Lisa's own listing addresses don't rank on Google \u2014 Zillow, Redfin, and Realtor.com outrank her for properties she represents. 360 address queries in Search Console show impressions but near-zero clicks. The site has 127 pages but 126 are orphaned with no internal links, E-E-A-T score is 21/100, mobile LCP is 7.2s (3x over threshold), and 0 of 25 target keywords rank. Brand searches work (#1 for 'performance property partners'), but organic visibility for everything else is effectively zero.",
+    "executiveSummary": "Lisa's own listing addresses don't rank on Google — Zillow, Redfin, and Realtor.com outrank her for properties she represents. 360 address queries in Search Console show impressions but near-zero clicks. The site has 127 pages but 126 are orphaned with no internal links, E-E-A-T score is 21/100, mobile LCP is 7.2s (3x over threshold), and 0 of 25 target keywords rank. Brand searches work (#1 for 'performance property partners'), but organic visibility for everything else is effectively zero.",
     "trendData": {
       "auditDates": [
         "2026-03-23"
@@ -7138,7 +7188,7 @@
       {
         "channel": "Paid Search",
         "sessions": 552,
-        "percentage": 27.0,
+        "percentage": 27,
         "users": 500,
         "conversions": 270
       },
@@ -7336,20 +7386,20 @@
   "coreWebVitals": {
     "mobile": {
       "score": 0.66,
-      "lcp": 7203.0,
+      "lcp": 7203,
       "cls": 0.0515,
-      "fcp": 3453.0,
-      "inp": 0.0,
-      "ttfb": 22.0,
+      "fcp": 3453,
+      "inp": 0,
+      "ttfb": 22,
       "speedIndex": 5145.3
     },
     "desktop": {
       "score": 0.88,
-      "lcp": 1982.0,
+      "lcp": 1982,
       "cls": 0.0043,
       "fcp": 766.7,
-      "inp": 0.0,
-      "ttfb": 71.0
+      "inp": 0,
+      "ttfb": 71
     }
   },
   "backlinks": {

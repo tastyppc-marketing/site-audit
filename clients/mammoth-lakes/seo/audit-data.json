@@ -11,194 +11,889 @@
     "serviceType": "Full Service (Buy/Sell/Vacation/Investment)",
     "location": "Mammoth Lakes, California"
   },
-
   "competitor": {
     "primary": "mammothlakesresortrealty.com",
     "primaryLabel": "Mammoth Lakes Resort Realty",
     "all": [
-      { "name": "Mammoth Lakes Resort Realty", "domain": "mammothlakesresortrealty.com" },
-      { "name": "RE/MAX Mammoth", "domain": "remax-mammoth.com" },
-      { "name": "Snowcreek Property", "domain": "snowcreekproperty.com" },
-      { "name": "Mammoth Village Properties", "domain": "mammothvillageproperties.com" },
-      { "name": "Mammoth 1 Real Estate", "domain": "mammoth1.com" },
-      { "name": "Mammoth Mtn Properties", "domain": "mammothmtnproperties.com" }
+      {
+        "name": "Mammoth Lakes Resort Realty",
+        "domain": "mammothlakesresortrealty.com"
+      },
+      {
+        "name": "RE/MAX Mammoth",
+        "domain": "remax-mammoth.com"
+      },
+      {
+        "name": "Snowcreek Property",
+        "domain": "snowcreekproperty.com"
+      },
+      {
+        "name": "Mammoth Village Properties",
+        "domain": "mammothvillageproperties.com"
+      },
+      {
+        "name": "Mammoth 1 Real Estate",
+        "domain": "mammoth1.com"
+      },
+      {
+        "name": "Mammoth Mtn Properties",
+        "domain": "mammothmtnproperties.com"
+      }
     ]
   },
-
   "topIssues": [
-    { "issue": "Catastrophic mobile performance", "detail": "PageSpeed mobile score of 30/100 with 15.8s LCP, 0.80 CLS, and 16.2s Time to Interactive. 1,027 KiB of unused JavaScript. RE/MAX scores 79/100 on mobile.", "impact": "Critical", "effort": "Medium-High" },
-    { "issue": "Massively bloated sitemap with thin IDX pages", "detail": "2,984 URLs in sitemap, but only ~70 contain unique content. The remaining ~2,900 are auto-generated IDX filter pages (e.g., /bishop-homes-for-sale/2-bedroom/) with thin, duplicative content that dilutes crawl budget.", "impact": "Critical", "effort": "Medium" },
-    { "issue": "Multiple H1 tags and heading hierarchy issues", "detail": "Homepage has 4 H1 tags ('Find Your Mammoth Lakes Home', 'IMAGINE', 'LIVING HERE', 'Welcome'). Blog page has 5 H1s. About page has 2 H1s (one empty). Property search results page has NO H1.", "impact": "High", "effort": "Low" },
-    { "issue": "Broken/empty schema markup", "detail": "Organization schema has empty 'name' field. Article schema on blog/about has empty author, publisher.name, and contentLocation. About page uses Article type instead of AboutPage. Community and contact pages have NO schema at all.", "impact": "High", "effort": "Low" },
-    { "issue": "93-94% of listing images missing alt text", "detail": "Property search results page: 476 images with 447 missing alt (94%). Full listing page: 1,425 images with 1,339 missing alt (94%). This is a massive accessibility and SEO failure.", "impact": "High", "effort": "Medium" },
-    { "issue": "Wrong-city title tag on property search sitemap", "detail": "The /property-search/site-map/ page displays 'Louisville Area MLS Listings' as its title -- a platform default from the wrong city entirely.", "impact": "High", "effort": "Low" },
-    { "issue": "Missing from highest-value keywords", "detail": "Not ranking at all for 'mammoth lakes homes for sale' (1,600 mo/search), 'mammoth mountain homes for sale' (1,600), 'mammoth lakes condos for sale' (590), 'mammoth lakes vacation homes' (1,300), or 'june lake homes for sale' (590). Only 5 of 10 tracked keywords show any ranking.", "impact": "Critical", "effort": "High" },
-    { "issue": "Near-zero brand presence outside own website", "detail": "Zero third-party mentions for Jamie Kelly. YouTube dominated by competitor Joseph Bogorad. Social score 35/100. Missing Facebook, YouTube, Yelp profiles. Only found on BBB and Zillow directories.", "impact": "High", "effort": "Medium" }
+    {
+      "issue": "Catastrophic mobile performance",
+      "detail": "PageSpeed mobile score of 30/100 with 15.8s LCP, 0.80 CLS, and 16.2s Time to Interactive. 1,027 KiB of unused JavaScript. RE/MAX scores 79/100 on mobile.",
+      "impact": "Critical",
+      "effort": "Medium-High"
+    },
+    {
+      "issue": "Massively bloated sitemap with thin IDX pages",
+      "detail": "2,984 URLs in sitemap, but only ~70 contain unique content. The remaining ~2,900 are auto-generated IDX filter pages (e.g., /bishop-homes-for-sale/2-bedroom/) with thin, duplicative content that dilutes crawl budget.",
+      "impact": "Critical",
+      "effort": "Medium"
+    },
+    {
+      "issue": "Multiple H1 tags and heading hierarchy issues",
+      "detail": "Homepage has 4 H1 tags ('Find Your Mammoth Lakes Home', 'IMAGINE', 'LIVING HERE', 'Welcome'). Blog page has 5 H1s. About page has 2 H1s (one empty). Property search results page has NO H1.",
+      "impact": "High",
+      "effort": "Low"
+    },
+    {
+      "issue": "Broken/empty schema markup",
+      "detail": "Organization schema has empty 'name' field. Article schema on blog/about has empty author, publisher.name, and contentLocation. About page uses Article type instead of AboutPage. Community and contact pages have NO schema at all.",
+      "impact": "High",
+      "effort": "Low"
+    },
+    {
+      "issue": "93-94% of listing images missing alt text",
+      "detail": "Property search results page: 476 images with 447 missing alt (94%). Full listing page: 1,425 images with 1,339 missing alt (94%). This is a massive accessibility and SEO failure.",
+      "impact": "High",
+      "effort": "Medium"
+    },
+    {
+      "issue": "Wrong-city title tag on property search sitemap",
+      "detail": "The /property-search/site-map/ page displays 'Louisville Area MLS Listings' as its title -- a platform default from the wrong city entirely.",
+      "impact": "High",
+      "effort": "Low"
+    },
+    {
+      "issue": "Missing from highest-value keywords",
+      "detail": "Not ranking at all for 'mammoth lakes homes for sale' (1,600 mo/search), 'mammoth mountain homes for sale' (1,600), 'mammoth lakes condos for sale' (590), 'mammoth lakes vacation homes' (1,300), or 'june lake homes for sale' (590). Only 5 of 10 tracked keywords show any ranking.",
+      "impact": "Critical",
+      "effort": "High"
+    },
+    {
+      "issue": "Near-zero brand presence outside own website",
+      "detail": "Zero third-party mentions for Jamie Kelly. YouTube dominated by competitor Joseph Bogorad. Social score 35/100. Missing Facebook, YouTube, Yelp profiles. Only found on BBB and Zillow directories.",
+      "impact": "High",
+      "effort": "Medium"
+    }
   ],
-
   "siteComparison": [
-    { "metric": "Mobile PageSpeed Score", "client": "30/100", "competitor": "79/100 (RE/MAX)", "gap": "49 points behind" },
-    { "metric": "Mobile LCP", "client": "15.8s", "competitor": "4.1s (RE/MAX)", "gap": "Nearly 4x slower" },
-    { "metric": "Mobile CLS", "client": "0.80", "competitor": "0.0004 (RE/MAX)", "gap": "2,000x worse layout shift" },
-    { "metric": "Keywords Ranking (of 10)", "client": "5", "competitor": "8 (RE/MAX)", "gap": "Missing 5 high-value terms" },
-    { "metric": "Top 10 Rankings", "client": "1 (branded only)", "competitor": "7 (RE/MAX)", "gap": "6 fewer top-10 spots" },
-    { "metric": "Avg Position (when ranked)", "client": "11.2", "competitor": "9.2 (RE/MAX)", "gap": "Page 2 vs Page 1" },
-    { "metric": "Schema Markup Quality", "client": "Empty name/author fields", "competitor": "Full RealEstateAgent (Resort Realty)", "gap": "Broken vs. complete" },
-    { "metric": "H1 Tags (Homepage)", "client": "4 (broken)", "competitor": "1 (correct)", "gap": "Non-standard heading structure" },
-    { "metric": "Sitemap URLs", "client": "2,984 (only 79 unique content — 2,523 auto-generated)", "competitor": "~200-400 (focused content)", "gap": "Bloated with thin pages; 97% are auto-generated filter pages" },
-    { "metric": "Homepage Scripts", "client": "52", "competitor": "23 (Resort Realty)", "gap": "2.3x more scripts" }
+    {
+      "metric": "Mobile PageSpeed Score",
+      "client": "30/100",
+      "competitor": "79/100 (RE/MAX)",
+      "gap": "49 points behind"
+    },
+    {
+      "metric": "Mobile LCP",
+      "client": "15.8s",
+      "competitor": "4.1s (RE/MAX)",
+      "gap": "Nearly 4x slower"
+    },
+    {
+      "metric": "Mobile CLS",
+      "client": "0.80",
+      "competitor": "0.0004 (RE/MAX)",
+      "gap": "2,000x worse layout shift"
+    },
+    {
+      "metric": "Keywords Ranking (of 10)",
+      "client": "5",
+      "competitor": "8 (RE/MAX)",
+      "gap": "Missing 5 high-value terms"
+    },
+    {
+      "metric": "Top 10 Rankings",
+      "client": "1 (branded only)",
+      "competitor": "7 (RE/MAX)",
+      "gap": "6 fewer top-10 spots"
+    },
+    {
+      "metric": "Avg Position (when ranked)",
+      "client": "11.2",
+      "competitor": "9.2 (RE/MAX)",
+      "gap": "Page 2 vs Page 1"
+    },
+    {
+      "metric": "Schema Markup Quality",
+      "client": "Empty name/author fields",
+      "competitor": "Full RealEstateAgent (Resort Realty)",
+      "gap": "Broken vs. complete"
+    },
+    {
+      "metric": "H1 Tags (Homepage)",
+      "client": "4 (broken)",
+      "competitor": "1 (correct)",
+      "gap": "Non-standard heading structure"
+    },
+    {
+      "metric": "Sitemap URLs",
+      "client": "2,984 (only 79 unique content — 2,523 auto-generated)",
+      "competitor": "~200-400 (focused content)",
+      "gap": "Bloated with thin pages; 97% are auto-generated filter pages"
+    },
+    {
+      "metric": "Homepage Scripts",
+      "client": "52",
+      "competitor": "23 (Resort Realty)",
+      "gap": "2.3x more scripts"
+    }
   ],
-
   "keyStats": [
-    { "value": "5 / 10", "label": "tracked keywords ranking (only 1 in top 10)", "severity": "red" },
-    { "value": "30 / 100", "label": "mobile PageSpeed score (RE/MAX: 79)", "severity": "red" },
-    { "value": "15.8s", "label": "mobile LCP (should be under 2.5s)", "severity": "red" },
-    { "value": "0.80", "label": "CLS score (should be under 0.1)", "severity": "red" },
-    { "value": "2,984", "label": "sitemap URLs — only 79 have unique content (2,523 auto-generated)", "severity": "orange" },
-    { "value": "99%", "label": "of pages (2,580) missing Open Graph tags — social sharing broken site-wide", "severity": "red" },
-    { "value": "82%", "label": "of pages (2,135) have images missing alt text", "severity": "red" },
-    { "value": "59%", "label": "of pages (1,525) have titles too long — Google will truncate", "severity": "orange" },
-    { "value": "58%", "label": "of pages (1,518) have no schema markup at all", "severity": "red" },
-    { "value": "4 H1s", "label": "on homepage (should be exactly 1)", "severity": "orange" },
-    { "value": "665", "label": "organic Google sessions (vs. 11,620 direct)", "severity": "orange" },
-    { "value": "1 click", "label": "total from Google Search Console in tracking period", "severity": "red" },
-    { "value": "$0.00", "label": "organic revenue from search (all conversions from paid/direct)", "severity": "red" }
+    {
+      "value": "5 / 10",
+      "label": "tracked keywords ranking (only 1 in top 10)",
+      "severity": "red"
+    },
+    {
+      "value": "30 / 100",
+      "label": "mobile PageSpeed score (RE/MAX: 79)",
+      "severity": "red"
+    },
+    {
+      "value": "15.8s",
+      "label": "mobile LCP (should be under 2.5s)",
+      "severity": "red"
+    },
+    {
+      "value": "0.80",
+      "label": "CLS score (should be under 0.1)",
+      "severity": "red"
+    },
+    {
+      "value": "2,984",
+      "label": "sitemap URLs — only 79 have unique content (2,523 auto-generated)",
+      "severity": "orange"
+    },
+    {
+      "value": "99%",
+      "label": "of pages (2,580) missing Open Graph tags — social sharing broken site-wide",
+      "severity": "red"
+    },
+    {
+      "value": "82%",
+      "label": "of pages (2,135) have images missing alt text",
+      "severity": "red"
+    },
+    {
+      "value": "59%",
+      "label": "of pages (1,525) have titles too long — Google will truncate",
+      "severity": "orange"
+    },
+    {
+      "value": "58%",
+      "label": "of pages (1,518) have no schema markup at all",
+      "severity": "red"
+    },
+    {
+      "value": "4 H1s",
+      "label": "on homepage (should be exactly 1)",
+      "severity": "orange"
+    },
+    {
+      "value": "665",
+      "label": "organic Google sessions (vs. 11,620 direct)",
+      "severity": "orange"
+    },
+    {
+      "value": "1 click",
+      "label": "total from Google Search Console in tracking period",
+      "severity": "red"
+    },
+    {
+      "value": "$0.00",
+      "label": "organic revenue from search (all conversions from paid/direct)",
+      "severity": "red"
+    }
   ],
-
   "keywords": [
-    { "keyword": "mammoth lakes homes for sale", "volume": 1600, "difficulty": 47, "cpc": 0.61, "clientRank": "Not found", "competitorRank": "#9 RE/MAX, #11 Resort Realty", "topResult": "zillow.com" },
-    { "keyword": "mammoth mountain homes for sale", "volume": 1600, "difficulty": 47, "cpc": 0.61, "clientRank": "Not found", "competitorRank": "#17 Resort Realty", "topResult": "zillow.com" },
-    { "keyword": "mammoth lakes ca homes for sale", "volume": 1600, "difficulty": 47, "cpc": 0.61, "clientRank": "#11", "competitorRank": "#9 RE/MAX, #13 Resort Realty", "topResult": "zillow.com" },
-    { "keyword": "mammoth lakes vacation homes", "volume": 1300, "difficulty": 69, "cpc": 6.47, "clientRank": "Not found", "competitorRank": "Not found", "topResult": "vrbo.com / airbnb.com" },
-    { "keyword": "mammoth lakes real estate", "volume": 720, "difficulty": 42, "cpc": 0.51, "clientRank": "#16", "competitorRank": "#6 RE/MAX, #11 Resort Realty", "topResult": "zillow.com" },
-    { "keyword": "mammoth lakes properties", "volume": 720, "difficulty": 42, "cpc": 0.51, "clientRank": "#1", "competitorRank": "#8 Village Props, #10 RE/MAX", "topResult": "mammothlakesproperties.com" },
-    { "keyword": "mammoth lakes condos for sale", "volume": 590, "difficulty": 53, "cpc": 0.87, "clientRank": "Not found", "competitorRank": "#11 Mammoth1, #16 Resort Realty", "topResult": "zillow.com" },
-    { "keyword": "mammoth mountain real estate", "volume": 590, "difficulty": 48, "cpc": 0.84, "clientRank": "#17", "competitorRank": "#7 RE/MAX, #13 Village Props", "topResult": "zillow.com" },
-    { "keyword": "june lake homes for sale", "volume": 590, "difficulty": 23, "cpc": 0.27, "clientRank": "Not found", "competitorRank": "#8 Resort Realty, #9 RE/MAX", "topResult": "zillow.com" },
-    { "keyword": "crowley lake homes for sale", "volume": 170, "difficulty": 21, "cpc": 0.45, "clientRank": "#11", "competitorRank": "#6 RE/MAX, #15 Resort Realty", "topResult": "redfin.com" },
-    { "keyword": "mammoth lakes cabin for sale", "volume": 140, "difficulty": 58, "cpc": 0.87, "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "mammoth lakes land for sale", "volume": 90, "difficulty": 41, "cpc": 0.92, "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "mammoth lakes property management", "volume": 170, "difficulty": 16, "cpc": 8.01, "clientRank": "Not found", "competitorRank": "Not found", "topResult": "vacasa.com" },
-    { "keyword": "mammoth lakes real estate agent", "volume": 40, "difficulty": 59, "cpc": 2.44, "clientRank": "Not found", "competitorRank": "Not found", "topResult": "realtor.com" },
-    { "keyword": "mammoth lakes real estate market", "volume": 10, "difficulty": 40, "cpc": 0.79, "clientRank": "Not found", "competitorRank": "Not found", "topResult": "redfin.com" },
-    { "keyword": "eastern sierra real estate", "volume": 40, "difficulty": 24, "cpc": 0.50, "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "mono county real estate", "volume": 70, "difficulty": 42, "cpc": 0.07, "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "sierra nevada real estate", "volume": 70, "difficulty": 29, "cpc": 0.27, "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "mammoth lakes investment property", "volume": 10, "difficulty": null, "cpc": null, "clientRank": "Not found", "competitorRank": "Not found", "topResult": "Unknown" },
-    { "keyword": "chamonix condos mammoth", "volume": 210, "difficulty": 61, "cpc": 4.38, "clientRank": "Not found", "competitorRank": "Not found", "topResult": "Unknown" },
-    { "keyword": "mountainback condominiums mammoth lakes", "volume": 320, "difficulty": 9, "cpc": 4.18, "clientRank": "Not found", "competitorRank": "Not found", "topResult": "Unknown" },
-    { "keyword": "mammoth village condos for sale", "volume": 590, "difficulty": 53, "cpc": 0.87, "clientRank": "Not found", "competitorRank": "Not found", "topResult": "Unknown" },
-    { "keyword": "mammoth lakes realty", "volume": 720, "difficulty": 42, "cpc": 0.51, "clientRank": "Not found", "competitorRank": "Not found", "topResult": "Unknown" },
-    { "keyword": "zillow mammoth lakes", "volume": 1300, "difficulty": 23, "cpc": 0.20, "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" },
-    { "keyword": "mammoth for sale", "volume": 210, "difficulty": 45, "cpc": 0.25, "clientRank": "Not found", "competitorRank": "Not found", "topResult": "zillow.com" }
+    {
+      "keyword": "mammoth lakes homes for sale",
+      "volume": 1600,
+      "difficulty": 47,
+      "cpc": 0.63,
+      "clientRank": "Not found",
+      "competitorRank": "#9 RE/MAX, #11 Resort Realty",
+      "topResult": "zillow.com",
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "mammoth mountain homes for sale",
+      "volume": 1600,
+      "difficulty": 47,
+      "cpc": 0.63,
+      "clientRank": "Not found",
+      "competitorRank": "#17 Resort Realty",
+      "topResult": "zillow.com",
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "mammoth lakes ca homes for sale",
+      "volume": 1600,
+      "difficulty": 47,
+      "cpc": 0.63,
+      "clientRank": "#11",
+      "competitorRank": "#9 RE/MAX, #13 Resort Realty",
+      "topResult": "zillow.com",
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "mammoth lakes vacation homes",
+      "volume": 1300,
+      "difficulty": 69,
+      "cpc": 6.12,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "vrbo.com / airbnb.com",
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "mammoth lakes real estate",
+      "volume": 720,
+      "difficulty": 42,
+      "cpc": 0.59,
+      "clientRank": "#16",
+      "competitorRank": "#6 RE/MAX, #11 Resort Realty",
+      "topResult": "zillow.com",
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "mammoth lakes properties",
+      "volume": 720,
+      "difficulty": 42,
+      "cpc": 0.59,
+      "clientRank": "#1",
+      "competitorRank": "#8 Village Props, #10 RE/MAX",
+      "topResult": "mammothlakesproperties.com",
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "mammoth lakes condos for sale",
+      "volume": 590,
+      "difficulty": 53,
+      "cpc": 0.62,
+      "clientRank": "Not found",
+      "competitorRank": "#11 Mammoth1, #16 Resort Realty",
+      "topResult": "zillow.com",
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "mammoth mountain real estate",
+      "volume": 590,
+      "difficulty": 48,
+      "cpc": 0.95,
+      "clientRank": "#17",
+      "competitorRank": "#7 RE/MAX, #13 Village Props",
+      "topResult": "zillow.com",
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "june lake homes for sale",
+      "volume": 590,
+      "difficulty": 23,
+      "cpc": 0.25,
+      "clientRank": "Not found",
+      "competitorRank": "#8 Resort Realty, #9 RE/MAX",
+      "topResult": "zillow.com",
+      "competition": "LOW"
+    },
+    {
+      "keyword": "crowley lake homes for sale",
+      "volume": 140,
+      "difficulty": 21,
+      "cpc": 0.4,
+      "clientRank": "#11",
+      "competitorRank": "#6 RE/MAX, #15 Resort Realty",
+      "topResult": "redfin.com",
+      "competition": "LOW"
+    },
+    {
+      "keyword": "mammoth lakes cabin for sale",
+      "volume": 110,
+      "difficulty": 58,
+      "cpc": 0.71,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com",
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "mammoth lakes land for sale",
+      "volume": 90,
+      "difficulty": 41,
+      "cpc": 0.4,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com",
+      "competition": "LOW"
+    },
+    {
+      "keyword": "mammoth lakes property management",
+      "volume": 170,
+      "difficulty": 16,
+      "cpc": 8.94,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "vacasa.com",
+      "competition": "LOW"
+    },
+    {
+      "keyword": "mammoth lakes real estate agent",
+      "volume": 40,
+      "difficulty": 59,
+      "cpc": 2.57,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "realtor.com",
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "mammoth lakes real estate market",
+      "volume": 10,
+      "difficulty": 40,
+      "cpc": null,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "redfin.com",
+      "competition": "LOW"
+    },
+    {
+      "keyword": "eastern sierra real estate",
+      "volume": 40,
+      "difficulty": 24,
+      "cpc": 0.39,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com",
+      "competition": "LOW"
+    },
+    {
+      "keyword": "mono county real estate",
+      "volume": 70,
+      "difficulty": 42,
+      "cpc": 0.24,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com",
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "sierra nevada real estate",
+      "volume": 70,
+      "difficulty": 29,
+      "cpc": 1.17,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com",
+      "competition": "LOW"
+    },
+    {
+      "keyword": "mammoth lakes investment property",
+      "volume": 10,
+      "difficulty": null,
+      "cpc": null,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "Unknown",
+      "competition": null
+    },
+    {
+      "keyword": "chamonix condos mammoth",
+      "volume": 210,
+      "difficulty": 61,
+      "cpc": 4.1,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "Unknown",
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "mountainback condominiums mammoth lakes",
+      "volume": 320,
+      "difficulty": 9,
+      "cpc": 3.42,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "Unknown",
+      "competition": "LOW"
+    },
+    {
+      "keyword": "mammoth village condos for sale",
+      "volume": 590,
+      "difficulty": 53,
+      "cpc": 0.62,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "Unknown",
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "mammoth lakes realty",
+      "volume": 720,
+      "difficulty": 42,
+      "cpc": 0.59,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "Unknown",
+      "competition": "MEDIUM"
+    },
+    {
+      "keyword": "zillow mammoth lakes",
+      "volume": 1300,
+      "difficulty": 23,
+      "cpc": 0.15,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com",
+      "competition": "LOW"
+    },
+    {
+      "keyword": "mammoth for sale",
+      "volume": 210,
+      "difficulty": 45,
+      "cpc": 0.37,
+      "clientRank": "Not found",
+      "competitorRank": "Not found",
+      "topResult": "zillow.com",
+      "competition": "MEDIUM"
+    }
   ],
-
   "competitorComparison": [
-    { "metric": "Mobile PageSpeed", "client": "30", "comp1": "56 (Resort Realty)", "comp2": "79 (RE/MAX)", "gap": "Worst of all three by far" },
-    { "metric": "Mobile LCP", "client": "15,812ms", "comp1": "6,268ms", "comp2": "4,053ms", "gap": "4x slower than RE/MAX" },
-    { "metric": "Mobile CLS", "client": "0.803", "comp1": "0.345", "comp2": "0.0004", "gap": "2,000x worse than RE/MAX" },
-    { "metric": "Mobile INP", "client": "356ms", "comp1": "55ms", "comp2": "0ms", "gap": "Worst interactivity" },
-    { "metric": "Keywords Ranked (of 10)", "client": "5", "comp1": "9 (Resort Realty)", "comp2": "8 (RE/MAX)", "gap": "Least keyword coverage" },
-    { "metric": "Top 10 Rankings", "client": "1", "comp1": "1", "comp2": "7", "gap": "RE/MAX dominates page 1" },
-    { "metric": "Avg Position", "client": "11.2", "comp1": "13.9", "comp2": "9.2", "gap": "Only branded term on page 1" },
-    { "metric": "Schema Type", "client": "Organization (empty fields)", "comp1": "RealEstateAgent (full)", "comp2": "None", "gap": "Resort Realty has best schema" },
-    { "metric": "H1 Tags (Homepage)", "client": "4 (broken)", "comp1": "1 (correct)", "comp2": "1 (correct)", "gap": "Only client has H1 issues" },
-    { "metric": "Alt Text Coverage", "client": "79% homepage / 6% listings", "comp1": "14% homepage", "comp2": "96% homepage", "gap": "RE/MAX leads; all have issues on listings" },
-    { "metric": "DOM Elements", "client": "2,607", "comp1": "1,246", "comp2": "2,110", "gap": "Most bloated DOM" },
-    { "metric": "Scripts Loaded", "client": "52", "comp1": "23", "comp2": "26", "gap": "2x more scripts than competitors" }
+    {
+      "metric": "Mobile PageSpeed",
+      "client": "30",
+      "comp1": "56 (Resort Realty)",
+      "comp2": "79 (RE/MAX)",
+      "gap": "Worst of all three by far"
+    },
+    {
+      "metric": "Mobile LCP",
+      "client": "15,812ms",
+      "comp1": "6,268ms",
+      "comp2": "4,053ms",
+      "gap": "4x slower than RE/MAX"
+    },
+    {
+      "metric": "Mobile CLS",
+      "client": "0.803",
+      "comp1": "0.345",
+      "comp2": "0.0004",
+      "gap": "2,000x worse than RE/MAX"
+    },
+    {
+      "metric": "Mobile INP",
+      "client": "356ms",
+      "comp1": "55ms",
+      "comp2": "0ms",
+      "gap": "Worst interactivity"
+    },
+    {
+      "metric": "Keywords Ranked (of 10)",
+      "client": "5",
+      "comp1": "9 (Resort Realty)",
+      "comp2": "8 (RE/MAX)",
+      "gap": "Least keyword coverage"
+    },
+    {
+      "metric": "Top 10 Rankings",
+      "client": "1",
+      "comp1": "1",
+      "comp2": "7",
+      "gap": "RE/MAX dominates page 1"
+    },
+    {
+      "metric": "Avg Position",
+      "client": "11.2",
+      "comp1": "13.9",
+      "comp2": "9.2",
+      "gap": "Only branded term on page 1"
+    },
+    {
+      "metric": "Schema Type",
+      "client": "Organization (empty fields)",
+      "comp1": "RealEstateAgent (full)",
+      "comp2": "None",
+      "gap": "Resort Realty has best schema"
+    },
+    {
+      "metric": "H1 Tags (Homepage)",
+      "client": "4 (broken)",
+      "comp1": "1 (correct)",
+      "comp2": "1 (correct)",
+      "gap": "Only client has H1 issues"
+    },
+    {
+      "metric": "Alt Text Coverage",
+      "client": "79% homepage / 6% listings",
+      "comp1": "14% homepage",
+      "comp2": "96% homepage",
+      "gap": "RE/MAX leads; all have issues on listings"
+    },
+    {
+      "metric": "DOM Elements",
+      "client": "2,607",
+      "comp1": "1,246",
+      "comp2": "2,110",
+      "gap": "Most bloated DOM"
+    },
+    {
+      "metric": "Scripts Loaded",
+      "client": "52",
+      "comp1": "23",
+      "comp2": "26",
+      "gap": "2x more scripts than competitors"
+    }
   ],
-
   "competitorStrategies": [
-    { "strategy": "Superior Schema Markup (Resort Realty)", "detail": "Mammoth Lakes Resort Realty uses RealEstateAgent schema with full address, geo coordinates, areaServed, sameAs links to social profiles. This enables rich results and knowledge panel potential. Client has generic Organization with empty name field." },
-    { "strategy": "Lean Site Architecture (Resort Realty)", "detail": "Resort Realty runs only 1,246 DOM elements and 23 scripts vs. client's 2,607 elements and 52 scripts, resulting in faster load times and better mobile experience despite both being local real estate sites." },
-    { "strategy": "RE/MAX Dominates Page 1 Rankings", "detail": "RE/MAX Mammoth ranks in the top 10 for 7 of 10 tracked keywords with avg position 9.2. They achieve this with a simple but fast site (79/100 mobile PageSpeed, near-zero CLS), proper heading structure, and 96% alt text coverage on homepage images." },
-    { "strategy": "Dedicated Niche Pages (Snowcreek, Resort Realty)", "detail": "Competitors create keyword-targeted pages like 'Ski-In/Ski-Out Condos for Sale' and 'Mammoth Mountain Chalet Homes for Sale' that rank for specific search intents. Client relies on generic IDX filter pages that don't target specific buyer interests." },
-    { "strategy": "Market Statistics Content (Resort Realty)", "detail": "Resort Realty's /market-statistics/ page ranks #11 for 'mammoth lakes real estate' (720/mo search volume). Client has no equivalent data-driven content despite this being a prime content opportunity." },
-    { "strategy": "Community-Specific Landing Pages", "detail": "RE/MAX has dedicated pages for June Lake and Crowley Lake real estate that rank #9 and #6 respectively. Client's Crowley Lake page ranks #11 but through a filter page (/open-houses/), not a dedicated landing page." }
+    {
+      "strategy": "Superior Schema Markup (Resort Realty)",
+      "detail": "Mammoth Lakes Resort Realty uses RealEstateAgent schema with full address, geo coordinates, areaServed, sameAs links to social profiles. This enables rich results and knowledge panel potential. Client has generic Organization with empty name field."
+    },
+    {
+      "strategy": "Lean Site Architecture (Resort Realty)",
+      "detail": "Resort Realty runs only 1,246 DOM elements and 23 scripts vs. client's 2,607 elements and 52 scripts, resulting in faster load times and better mobile experience despite both being local real estate sites."
+    },
+    {
+      "strategy": "RE/MAX Dominates Page 1 Rankings",
+      "detail": "RE/MAX Mammoth ranks in the top 10 for 7 of 10 tracked keywords with avg position 9.2. They achieve this with a simple but fast site (79/100 mobile PageSpeed, near-zero CLS), proper heading structure, and 96% alt text coverage on homepage images."
+    },
+    {
+      "strategy": "Dedicated Niche Pages (Snowcreek, Resort Realty)",
+      "detail": "Competitors create keyword-targeted pages like 'Ski-In/Ski-Out Condos for Sale' and 'Mammoth Mountain Chalet Homes for Sale' that rank for specific search intents. Client relies on generic IDX filter pages that don't target specific buyer interests."
+    },
+    {
+      "strategy": "Market Statistics Content (Resort Realty)",
+      "detail": "Resort Realty's /market-statistics/ page ranks #11 for 'mammoth lakes real estate' (720/mo search volume). Client has no equivalent data-driven content despite this being a prime content opportunity."
+    },
+    {
+      "strategy": "Community-Specific Landing Pages",
+      "detail": "RE/MAX has dedicated pages for June Lake and Crowley Lake real estate that rank #9 and #6 respectively. Client's Crowley Lake page ranks #11 but through a filter page (/open-houses/), not a dedicated landing page."
+    }
   ],
-
   "quickWins": [
-    { "action": "Fix 'Louisville Area MLS Listings' title tag on /property-search/site-map/", "impact": "High" },
-    { "action": "Consolidate homepage to single H1 tag ('Find Your Mammoth Lakes Home')", "impact": "High" },
-    { "action": "Fix blog H1s (change post titles from H1 to H2)", "impact": "High" },
-    { "action": "Add H1 tag to property search results page", "impact": "Medium" },
-    { "action": "Fix empty 'name' field in Organization schema on homepage", "impact": "High" },
-    { "action": "Fix empty author/publisher fields in Article schema on blog/about", "impact": "High" },
-    { "action": "Add canonical tags to all /property-search/ pages", "impact": "Medium" },
-    { "action": "Complete Open Graph tags (add og:title, og:url, og:description) site-wide", "impact": "Medium" },
-    { "action": "Add Twitter Card meta tags site-wide", "impact": "Low" },
-    { "action": "Upgrade Organization schema to RealEstateAgent with full business data", "impact": "High" },
-    { "action": "Add schema markup to community pages, contact page, community-info", "impact": "Medium" },
-    { "action": "Fix about page schema type from Article to AboutPage", "impact": "Low" }
+    {
+      "action": "Fix 'Louisville Area MLS Listings' title tag on /property-search/site-map/",
+      "impact": "High"
+    },
+    {
+      "action": "Consolidate homepage to single H1 tag ('Find Your Mammoth Lakes Home')",
+      "impact": "High"
+    },
+    {
+      "action": "Fix blog H1s (change post titles from H1 to H2)",
+      "impact": "High"
+    },
+    {
+      "action": "Add H1 tag to property search results page",
+      "impact": "Medium"
+    },
+    {
+      "action": "Fix empty 'name' field in Organization schema on homepage",
+      "impact": "High"
+    },
+    {
+      "action": "Fix empty author/publisher fields in Article schema on blog/about",
+      "impact": "High"
+    },
+    {
+      "action": "Add canonical tags to all /property-search/ pages",
+      "impact": "Medium"
+    },
+    {
+      "action": "Complete Open Graph tags (add og:title, og:url, og:description) site-wide",
+      "impact": "Medium"
+    },
+    {
+      "action": "Add Twitter Card meta tags site-wide",
+      "impact": "Low"
+    },
+    {
+      "action": "Upgrade Organization schema to RealEstateAgent with full business data",
+      "impact": "High"
+    },
+    {
+      "action": "Add schema markup to community pages, contact page, community-info",
+      "impact": "Medium"
+    },
+    {
+      "action": "Fix about page schema type from Article to AboutPage",
+      "impact": "Low"
+    }
   ],
-
   "actionPlan": {
     "quickWins": [
-      { "action": "Fix 'Louisville Area MLS Listings' wrong-city title on /property-search/site-map/", "why": "A wrong-city title signals to Google that the page is irrelevant to Mammoth Lakes searches", "effort": "Low", "impact": "High" },
-      { "action": "Consolidate to single H1 per page (homepage: 4->1, blog: 5->1, about: 2->1)", "why": "Multiple H1s dilute topic signal and confuse search engine understanding of page focus", "effort": "Low", "impact": "High" },
-      { "action": "Fix all schema markup errors (empty name, author, publisher fields)", "why": "Broken schema is worse than no schema -- it signals low quality to Google", "effort": "Low", "impact": "High" },
-      { "action": "Upgrade schema from Organization to RealEstateAgent with full business data", "why": "Resort Realty's RealEstateAgent schema with geo, address, and sameAs gives them rich result advantages", "effort": "Low", "impact": "High" },
-      { "action": "Add canonical tags to /property-search/ pages and all IDX filter pages", "why": "Missing canonicals on 2,900+ filter pages causes massive duplicate content issues", "effort": "Low", "impact": "High" },
-      { "action": "Complete Open Graph tags on all pages (og:title, og:url, og:description)", "why": "Homepage only has og:image; social shares display poorly without full OG data", "effort": "Low", "impact": "Medium" },
-      { "action": "Add H1 to property search results page", "why": "This is the 3rd most visited page (522 sessions) and has no H1 tag at all", "effort": "Low", "impact": "Medium" }
+      {
+        "action": "Fix 'Louisville Area MLS Listings' wrong-city title on /property-search/site-map/",
+        "why": "A wrong-city title signals to Google that the page is irrelevant to Mammoth Lakes searches",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Consolidate to single H1 per page (homepage: 4->1, blog: 5->1, about: 2->1)",
+        "why": "Multiple H1s dilute topic signal and confuse search engine understanding of page focus",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Fix all schema markup errors (empty name, author, publisher fields)",
+        "why": "Broken schema is worse than no schema -- it signals low quality to Google",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Upgrade schema from Organization to RealEstateAgent with full business data",
+        "why": "Resort Realty's RealEstateAgent schema with geo, address, and sameAs gives them rich result advantages",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Add canonical tags to /property-search/ pages and all IDX filter pages",
+        "why": "Missing canonicals on 2,900+ filter pages causes massive duplicate content issues",
+        "effort": "Low",
+        "impact": "High"
+      },
+      {
+        "action": "Complete Open Graph tags on all pages (og:title, og:url, og:description)",
+        "why": "Homepage only has og:image; social shares display poorly without full OG data",
+        "effort": "Low",
+        "impact": "Medium"
+      },
+      {
+        "action": "Add H1 to property search results page",
+        "why": "This is the 3rd most visited page (522 sessions) and has no H1 tag at all",
+        "effort": "Low",
+        "impact": "Medium"
+      }
     ],
     "shortTerm": [
-      { "action": "Add alt text to all listing images (1,800+ affected)", "why": "94% of listing images have no alt text -- massive accessibility failure and missed SEO opportunity", "effort": "Medium", "impact": "High" },
-      { "action": "Reduce unused JavaScript (1,027 KiB identified)", "why": "Unused JS is the primary cause of 15.8s LCP and 16.2s Time to Interactive on mobile", "effort": "Medium", "impact": "High" },
-      { "action": "Add width/height attributes to images to fix CLS (0.80)", "why": "CLS of 0.80 is 8x above Google's 0.1 threshold; unsized images are the primary cause", "effort": "Medium", "impact": "High" },
-      { "action": "Create dedicated Mammoth Lakes market report page", "why": "Resort Realty's market-statistics page ranks #11 for 'mammoth lakes real estate' (720/mo); no competitor owns this content type", "effort": "Medium", "impact": "High" },
-      { "action": "Noindex or remove ~2,900 thin IDX filter pages from sitemap", "why": "These thin pages dilute crawl budget and provide near-zero search value", "effort": "Medium", "impact": "High" },
-      { "action": "Create keyword-optimized community landing pages for June Lake and Crowley Lake", "why": "Not ranking for 'june lake homes for sale' (590/mo) despite having content; RE/MAX ranks #9 and #6 for these", "effort": "Medium", "impact": "High" },
-      { "action": "Write 4-6 blog posts targeting high-volume keywords", "why": "Blog has 20 pages but currently generates no organic search traffic; needs keyword-targeted content", "effort": "Medium", "impact": "High" }
+      {
+        "action": "Add alt text to all listing images (1,800+ affected)",
+        "why": "94% of listing images have no alt text -- massive accessibility failure and missed SEO opportunity",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Reduce unused JavaScript (1,027 KiB identified)",
+        "why": "Unused JS is the primary cause of 15.8s LCP and 16.2s Time to Interactive on mobile",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Add width/height attributes to images to fix CLS (0.80)",
+        "why": "CLS of 0.80 is 8x above Google's 0.1 threshold; unsized images are the primary cause",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Create dedicated Mammoth Lakes market report page",
+        "why": "Resort Realty's market-statistics page ranks #11 for 'mammoth lakes real estate' (720/mo); no competitor owns this content type",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Noindex or remove ~2,900 thin IDX filter pages from sitemap",
+        "why": "These thin pages dilute crawl budget and provide near-zero search value",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Create keyword-optimized community landing pages for June Lake and Crowley Lake",
+        "why": "Not ranking for 'june lake homes for sale' (590/mo) despite having content; RE/MAX ranks #9 and #6 for these",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Write 4-6 blog posts targeting high-volume keywords",
+        "why": "Blog has 20 pages but currently generates no organic search traffic; needs keyword-targeted content",
+        "effort": "Medium",
+        "impact": "High"
+      }
     ],
     "mediumTerm": [
-      { "action": "Create dedicated condo complex pages (Chamonix, Mountainback, Village, etc.)", "why": "High-volume keywords like 'chamonix condos mammoth' (210/mo), 'mountainback condominiums' (320/mo), 'mammoth village condos' (590/mo) have no targeted landing pages", "effort": "High", "impact": "High" },
-      { "action": "Create comprehensive 'Mammoth Lakes Homes for Sale' hub page", "why": "Highest-value keyword (1,600/mo) but client is not ranking at all; competitors have dedicated pages that rank", "effort": "High", "impact": "High" },
-      { "action": "Build ski-in/ski-out property landing page", "why": "Both Resort Realty and Snowcreek Property rank for 'mammoth mountain homes for sale' with ski-specific pages", "effort": "Medium", "impact": "High" },
-      { "action": "Create vacation rental/Airbnb investment guide", "why": "'mammoth lakes vacation homes' has 1,300/mo searches and high CPC ($6.47); prime content opportunity", "effort": "High", "impact": "High" },
-      { "action": "Add FAQ sections with schema to all key pages", "why": "No competitor uses FAQ schema; first-mover advantage for rich snippets and AI Overview citations", "effort": "Medium", "impact": "High" },
-      { "action": "Implement internal linking strategy from blog to community pages to listings", "why": "Most IDX pages have 0 internal links; homepage has only 18; cross-linking builds topic authority", "effort": "Medium", "impact": "Medium" }
+      {
+        "action": "Create dedicated condo complex pages (Chamonix, Mountainback, Village, etc.)",
+        "why": "High-volume keywords like 'chamonix condos mammoth' (210/mo), 'mountainback condominiums' (320/mo), 'mammoth village condos' (590/mo) have no targeted landing pages",
+        "effort": "High",
+        "impact": "High"
+      },
+      {
+        "action": "Create comprehensive 'Mammoth Lakes Homes for Sale' hub page",
+        "why": "Highest-value keyword (1,600/mo) but client is not ranking at all; competitors have dedicated pages that rank",
+        "effort": "High",
+        "impact": "High"
+      },
+      {
+        "action": "Build ski-in/ski-out property landing page",
+        "why": "Both Resort Realty and Snowcreek Property rank for 'mammoth mountain homes for sale' with ski-specific pages",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Create vacation rental/Airbnb investment guide",
+        "why": "'mammoth lakes vacation homes' has 1,300/mo searches and high CPC ($6.47); prime content opportunity",
+        "effort": "High",
+        "impact": "High"
+      },
+      {
+        "action": "Add FAQ sections with schema to all key pages",
+        "why": "No competitor uses FAQ schema; first-mover advantage for rich snippets and AI Overview citations",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Implement internal linking strategy from blog to community pages to listings",
+        "why": "Most IDX pages have 0 internal links; homepage has only 18; cross-linking builds topic authority",
+        "effort": "Medium",
+        "impact": "Medium"
+      }
     ],
     "longTerm": [
-      { "action": "Monthly Mammoth Lakes real estate market report publishing cadence", "why": "No local competitor consistently publishes market data; first-mover advantage builds authority over time", "effort": "Medium", "impact": "High" },
-      { "action": "Create Mammoth Lakes relocation guide (2,000+ words)", "why": "Targets 'living in mammoth lakes' and related informational queries that attract future buyers", "effort": "High", "impact": "High" },
-      { "action": "Build neighborhood comparison content (Old Mammoth vs. The Village vs. Snowcreek, etc.)", "why": "Buyers compare neighborhoods; this content attracts mid-funnel search traffic", "effort": "High", "impact": "Medium" },
-      { "action": "Video content series: virtual tours, market updates, neighborhood guides", "why": "Video builds trust and can be embedded on pages plus published to YouTube for additional visibility", "effort": "High", "impact": "High" },
-      { "action": "Build local citations and directory profiles (Google Business, Yelp, Chamber of Commerce)", "why": "Chamber of Commerce already sends referral traffic (5 sessions); strengthen all local signals", "effort": "Medium", "impact": "High" },
-      { "action": "Email newsletter with market updates and new listings", "why": "Direct channel is already strongest (11,620 sessions); nurture that audience with regular content", "effort": "Medium", "impact": "High" },
-      { "action": "Create seasonal buyer guides (winter ski season vs. summer outdoor season)", "why": "Mammoth Lakes has strong seasonal search patterns; align content with buyer intent cycles", "effort": "Medium", "impact": "Medium" }
+      {
+        "action": "Monthly Mammoth Lakes real estate market report publishing cadence",
+        "why": "No local competitor consistently publishes market data; first-mover advantage builds authority over time",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Create Mammoth Lakes relocation guide (2,000+ words)",
+        "why": "Targets 'living in mammoth lakes' and related informational queries that attract future buyers",
+        "effort": "High",
+        "impact": "High"
+      },
+      {
+        "action": "Build neighborhood comparison content (Old Mammoth vs. The Village vs. Snowcreek, etc.)",
+        "why": "Buyers compare neighborhoods; this content attracts mid-funnel search traffic",
+        "effort": "High",
+        "impact": "Medium"
+      },
+      {
+        "action": "Video content series: virtual tours, market updates, neighborhood guides",
+        "why": "Video builds trust and can be embedded on pages plus published to YouTube for additional visibility",
+        "effort": "High",
+        "impact": "High"
+      },
+      {
+        "action": "Build local citations and directory profiles (Google Business, Yelp, Chamber of Commerce)",
+        "why": "Chamber of Commerce already sends referral traffic (5 sessions); strengthen all local signals",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Email newsletter with market updates and new listings",
+        "why": "Direct channel is already strongest (11,620 sessions); nurture that audience with regular content",
+        "effort": "Medium",
+        "impact": "High"
+      },
+      {
+        "action": "Create seasonal buyer guides (winter ski season vs. summer outdoor season)",
+        "why": "Mammoth Lakes has strong seasonal search patterns; align content with buyer intent cycles",
+        "effort": "Medium",
+        "impact": "Medium"
+      }
     ]
   },
-
   "contentCalendar": {
     "month1Label": "Month 1: Fix Foundation & Establish Authority",
     "month1": [
-      { "week": 1, "topic": "Mammoth Lakes Real Estate Market Report: Spring 2026 Update", "keyword": "mammoth lakes real estate market", "type": "Market Report" },
-      { "week": 2, "topic": "Best Ski-In/Ski-Out Properties in Mammoth Lakes (2026 Guide)", "keyword": "mammoth mountain homes for sale", "type": "Guide" },
-      { "week": 3, "topic": "Is Mammoth Lakes a Good Investment? Vacation Rental Income & ROI Analysis", "keyword": "mammoth lakes investment property", "type": "Investment Guide" },
-      { "week": 4, "topic": "Mammoth Lakes Condo Buyer's Guide: Village, Chamonix, Snowcreek & More", "keyword": "mammoth lakes condos for sale", "type": "Buyer Guide" }
+      {
+        "week": 1,
+        "topic": "Mammoth Lakes Real Estate Market Report: Spring 2026 Update",
+        "keyword": "mammoth lakes real estate market",
+        "type": "Market Report"
+      },
+      {
+        "week": 2,
+        "topic": "Best Ski-In/Ski-Out Properties in Mammoth Lakes (2026 Guide)",
+        "keyword": "mammoth mountain homes for sale",
+        "type": "Guide"
+      },
+      {
+        "week": 3,
+        "topic": "Is Mammoth Lakes a Good Investment? Vacation Rental Income & ROI Analysis",
+        "keyword": "mammoth lakes investment property",
+        "type": "Investment Guide"
+      },
+      {
+        "week": 4,
+        "topic": "Mammoth Lakes Condo Buyer's Guide: Village, Chamonix, Snowcreek & More",
+        "keyword": "mammoth lakes condos for sale",
+        "type": "Buyer Guide"
+      }
     ],
     "month2Label": "Month 2: Build Community Depth",
     "month2": [
-      { "week": 1, "topic": "Moving to Mammoth Lakes: The Complete Relocation Guide", "keyword": "living in mammoth lakes", "type": "Relocation Guide" },
-      { "week": 2, "topic": "June Lake Real Estate: A Hidden Gem in the Eastern Sierra", "keyword": "june lake homes for sale", "type": "Area Guide" },
-      { "week": 3, "topic": "Mammoth Lakes vs. Big Bear: Which Mountain Town Is Right for You?", "keyword": "mammoth mountain real estate", "type": "Comparison" },
-      { "week": 4, "topic": "Mammoth Lakes Short-Term Rental Rules: What Investors Need to Know in 2026", "keyword": "mammoth lakes property management", "type": "Investment Guide" }
+      {
+        "week": 1,
+        "topic": "Moving to Mammoth Lakes: The Complete Relocation Guide",
+        "keyword": "living in mammoth lakes",
+        "type": "Relocation Guide"
+      },
+      {
+        "week": 2,
+        "topic": "June Lake Real Estate: A Hidden Gem in the Eastern Sierra",
+        "keyword": "june lake homes for sale",
+        "type": "Area Guide"
+      },
+      {
+        "week": 3,
+        "topic": "Mammoth Lakes vs. Big Bear: Which Mountain Town Is Right for You?",
+        "keyword": "mammoth mountain real estate",
+        "type": "Comparison"
+      },
+      {
+        "week": 4,
+        "topic": "Mammoth Lakes Short-Term Rental Rules: What Investors Need to Know in 2026",
+        "keyword": "mammoth lakes property management",
+        "type": "Investment Guide"
+      }
     ],
     "month3Label": "Month 3: Expand Reach & Seasonal Content",
     "month3": [
-      { "week": 1, "topic": "Mammoth Lakes Summer Real Estate Market Update", "keyword": "mammoth lakes real estate", "type": "Market Report" },
-      { "week": 2, "topic": "Crowley Lake & Long Valley Homes: Eastern Sierra's Best Kept Secret", "keyword": "crowley lake homes for sale", "type": "Area Guide" },
-      { "week": 3, "topic": "Mammoth Lakes Luxury Homes: Mountain Estates & Premium Properties", "keyword": "mammoth lakes luxury homes", "type": "Luxury Guide" },
-      { "week": 4, "topic": "Top 10 Neighborhoods in Mammoth Lakes for Families, Skiers & Investors", "keyword": "best mammoth lakes neighborhoods", "type": "Guide" }
+      {
+        "week": 1,
+        "topic": "Mammoth Lakes Summer Real Estate Market Update",
+        "keyword": "mammoth lakes real estate",
+        "type": "Market Report"
+      },
+      {
+        "week": 2,
+        "topic": "Crowley Lake & Long Valley Homes: Eastern Sierra's Best Kept Secret",
+        "keyword": "crowley lake homes for sale",
+        "type": "Area Guide"
+      },
+      {
+        "week": 3,
+        "topic": "Mammoth Lakes Luxury Homes: Mountain Estates & Premium Properties",
+        "keyword": "mammoth lakes luxury homes",
+        "type": "Luxury Guide"
+      },
+      {
+        "week": 4,
+        "topic": "Top 10 Neighborhoods in Mammoth Lakes for Families, Skiers & Investors",
+        "keyword": "best mammoth lakes neighborhoods",
+        "type": "Guide"
+      }
     ]
   },
-
   "coreWebVitals": {
     "mobile": {
-      "score": 0.30,
+      "score": 0.3,
       "lcp": 15812,
-      "cls": 0.80,
+      "cls": 0.8,
       "fcp": 2852,
       "inp": 356,
       "ttfb": 110,
@@ -269,7 +964,6 @@
       }
     }
   },
-
   "searchConsoleData": {
     "totalClicks": 6,
     "totalImpressions": 457,
@@ -277,140 +971,551 @@
     "avgPosition": 15.8,
     "dateRange": "Recent tracking period",
     "topQueries": [
-      { "query": "mammoth lakes real estate", "clicks": 0, "impressions": 8, "ctr": 0, "position": 9.88 },
-      { "query": "mammoth lakes ca real estate", "clicks": 0, "impressions": 3, "ctr": 0, "position": 10.33 },
-      { "query": "local realtors june lake, ca", "clicks": 0, "impressions": 5, "ctr": 0, "position": 27.0 },
-      { "query": "mammoth real estate for sale", "clicks": 0, "impressions": 4, "ctr": 0, "position": 9.0 },
-      { "query": "homes for sale june lake, ca", "clicks": 0, "impressions": 3, "ctr": 0, "position": 20.33 },
-      { "query": "mammoth view villas condos for sale", "clicks": 0, "impressions": 3, "ctr": 0, "position": 6.67 },
-      { "query": "mammoth lakes homes for sale", "clicks": 0, "impressions": 1, "ctr": 0, "position": 10.0 },
-      { "query": "swall meadows real estate", "clicks": 0, "impressions": 3, "ctr": 0, "position": 7.67 },
-      { "query": "mammoth lakes homes", "clicks": 0, "impressions": 2, "ctr": 0, "position": 8.5 },
-      { "query": "cynthia fleming", "clicks": 1, "impressions": 3, "ctr": 0.33, "position": 1.67 }
+      {
+        "query": "mammoth lakes real estate",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 9.88
+      },
+      {
+        "query": "mammoth lakes ca real estate",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 10.33
+      },
+      {
+        "query": "local realtors june lake, ca",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 27
+      },
+      {
+        "query": "mammoth real estate for sale",
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "query": "homes for sale june lake, ca",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 20.33
+      },
+      {
+        "query": "mammoth view villas condos for sale",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 6.67
+      },
+      {
+        "query": "mammoth lakes homes for sale",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "query": "swall meadows real estate",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 7.67
+      },
+      {
+        "query": "mammoth lakes homes",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 8.5
+      },
+      {
+        "query": "cynthia fleming",
+        "clicks": 1,
+        "impressions": 3,
+        "ctr": 0.33,
+        "position": 1.67
+      }
     ],
     "topPages": [
-      { "page": "https://www.mammothlakesproperties.com/", "clicks": 1, "impressions": 68, "ctr": 0.015, "position": 10.47 },
-      { "page": "https://www.mammothlakesproperties.com/about/", "clicks": 1, "impressions": 16, "ctr": 0.063, "position": 13.12 },
-      { "page": "https://www.mammothlakesproperties.com/agents/1756/jamie-kelly/", "clicks": 0, "impressions": 15, "ctr": 0, "position": 4.0 },
-      { "page": "https://www.mammothlakesproperties.com/june-lake/", "clicks": 0, "impressions": 15, "ctr": 0, "position": 51.6 },
-      { "page": "https://www.mammothlakesproperties.com/mammoth-lakes-living/", "clicks": 0, "impressions": 13, "ctr": 0, "position": 8.92 },
-      { "page": "https://www.mammothlakesproperties.com/bigwood-85-homes-for-sale/eagle-lodge/", "clicks": 1, "impressions": 12, "ctr": 0.083, "position": 12.25 },
-      { "page": "https://www.mammothlakesproperties.com/june-lake-homes-for-sale/single-family-homes/", "clicks": 0, "impressions": 10, "ctr": 0, "position": 40.4 },
-      { "page": "https://www.mammothlakesproperties.com/june-lake-homes-for-sale/june-lake-village/", "clicks": 0, "impressions": 9, "ctr": 0, "position": 20.67 },
-      { "page": "https://www.mammothlakesproperties.com/blog/", "clicks": 0, "impressions": 8, "ctr": 0, "position": 10.38 },
-      { "page": "https://www.mammothlakesproperties.com/blog/maximize-your-mammoth-lakes-airbnb-income-with-cynthia-jamie-local-experts-with-a-15-management-fee/", "clicks": 0, "impressions": 8, "ctr": 0, "position": 7.38 }
+      {
+        "page": "https://www.mammothlakesproperties.com/",
+        "clicks": 1,
+        "impressions": 68,
+        "ctr": 0.015,
+        "position": 10.47
+      },
+      {
+        "page": "https://www.mammothlakesproperties.com/about/",
+        "clicks": 1,
+        "impressions": 16,
+        "ctr": 0.063,
+        "position": 13.12
+      },
+      {
+        "page": "https://www.mammothlakesproperties.com/agents/1756/jamie-kelly/",
+        "clicks": 0,
+        "impressions": 15,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "page": "https://www.mammothlakesproperties.com/june-lake/",
+        "clicks": 0,
+        "impressions": 15,
+        "ctr": 0,
+        "position": 51.6
+      },
+      {
+        "page": "https://www.mammothlakesproperties.com/mammoth-lakes-living/",
+        "clicks": 0,
+        "impressions": 13,
+        "ctr": 0,
+        "position": 8.92
+      },
+      {
+        "page": "https://www.mammothlakesproperties.com/bigwood-85-homes-for-sale/eagle-lodge/",
+        "clicks": 1,
+        "impressions": 12,
+        "ctr": 0.083,
+        "position": 12.25
+      },
+      {
+        "page": "https://www.mammothlakesproperties.com/june-lake-homes-for-sale/single-family-homes/",
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 40.4
+      },
+      {
+        "page": "https://www.mammothlakesproperties.com/june-lake-homes-for-sale/june-lake-village/",
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 20.67
+      },
+      {
+        "page": "https://www.mammothlakesproperties.com/blog/",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 10.38
+      },
+      {
+        "page": "https://www.mammothlakesproperties.com/blog/maximize-your-mammoth-lakes-airbnb-income-with-cynthia-jamie-local-experts-with-a-15-management-fee/",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 7.38
+      }
     ],
     "insights": "Search Console reveals extremely low organic visibility. Only 6 total clicks across the entire tracking period, with 457 impressions. The homepage averages position 10.47 -- just barely off page 1. Most impressions come from address-specific listing queries, not high-value real estate keywords. The agent page for Jamie Kelly (position 4.0) and the Mammoth Lakes Living page (position 8.92) are bright spots that could be optimized further."
   },
-
   "trafficData": {
     "totalSessions": 14698,
     "acquisitionChannels": [
-      { "channel": "Direct", "sessions": 11620, "percentage": 79.1, "users": 8432, "conversions": 4 },
-      { "channel": "Paid Search (Google)", "sessions": 1746, "percentage": 11.9, "users": 1658, "conversions": 7 },
-      { "channel": "Organic Search (Google)", "sessions": 665, "percentage": 4.5, "users": 450, "conversions": 0 },
-      { "channel": "Unassigned", "sessions": 616, "percentage": 4.2, "users": 616, "conversions": 0 },
-      { "channel": "Organic Search (Bing)", "sessions": 42, "percentage": 0.3, "users": 31, "conversions": 0 },
-      { "channel": "Organic Search (Yahoo)", "sessions": 32, "percentage": 0.2, "users": 23, "conversions": 0 },
-      { "channel": "Social (Facebook/Instagram)", "sessions": 34, "percentage": 0.2, "users": 33, "conversions": 0 },
-      { "channel": "Organic Search (DuckDuckGo)", "sessions": 16, "percentage": 0.1, "users": 16, "conversions": 0 },
-      { "channel": "Referral (Various)", "sessions": 30, "percentage": 0.2, "users": 23, "conversions": 0 },
-      { "channel": "ChatGPT", "sessions": 4, "percentage": 0.03, "users": 4, "conversions": 1 }
+      {
+        "channel": "Direct",
+        "sessions": 11620,
+        "percentage": 79.1,
+        "users": 8432,
+        "conversions": 4
+      },
+      {
+        "channel": "Paid Search (Google)",
+        "sessions": 1746,
+        "percentage": 11.9,
+        "users": 1658,
+        "conversions": 7
+      },
+      {
+        "channel": "Organic Search (Google)",
+        "sessions": 665,
+        "percentage": 4.5,
+        "users": 450,
+        "conversions": 0
+      },
+      {
+        "channel": "Unassigned",
+        "sessions": 616,
+        "percentage": 4.2,
+        "users": 616,
+        "conversions": 0
+      },
+      {
+        "channel": "Organic Search (Bing)",
+        "sessions": 42,
+        "percentage": 0.3,
+        "users": 31,
+        "conversions": 0
+      },
+      {
+        "channel": "Organic Search (Yahoo)",
+        "sessions": 32,
+        "percentage": 0.2,
+        "users": 23,
+        "conversions": 0
+      },
+      {
+        "channel": "Social (Facebook/Instagram)",
+        "sessions": 34,
+        "percentage": 0.2,
+        "users": 33,
+        "conversions": 0
+      },
+      {
+        "channel": "Organic Search (DuckDuckGo)",
+        "sessions": 16,
+        "percentage": 0.1,
+        "users": 16,
+        "conversions": 0
+      },
+      {
+        "channel": "Referral (Various)",
+        "sessions": 30,
+        "percentage": 0.2,
+        "users": 23,
+        "conversions": 0
+      },
+      {
+        "channel": "ChatGPT",
+        "sessions": 4,
+        "percentage": 0.03,
+        "users": 4,
+        "conversions": 1
+      }
     ],
     "deviceBreakdown": [
-      { "device": "Desktop", "sessions": 9437, "percentage": 64.2, "users": 8462, "bounceRate": 0.69, "conversions": 0 },
-      { "device": "Mobile", "sessions": 5152, "percentage": 35.0, "users": 2775, "bounceRate": 0.53, "conversions": 12 },
-      { "device": "Tablet", "sessions": 108, "percentage": 0.7, "users": 71, "bounceRate": 0.44, "conversions": 0 }
+      {
+        "device": "Desktop",
+        "sessions": 9437,
+        "percentage": 64.2,
+        "users": 8462,
+        "bounceRate": 0.69,
+        "conversions": 0
+      },
+      {
+        "device": "Mobile",
+        "sessions": 5152,
+        "percentage": 35,
+        "users": 2775,
+        "bounceRate": 0.53,
+        "conversions": 12
+      },
+      {
+        "device": "Tablet",
+        "sessions": 108,
+        "percentage": 0.7,
+        "users": 71,
+        "bounceRate": 0.44,
+        "conversions": 0
+      }
     ],
     "topLandingPages": [
-      { "page": "/", "sessions": 1194, "bounceRate": 0.51, "avgDuration": 229.8, "conversions": 0 },
-      { "page": "/property-search/results", "sessions": 522, "bounceRate": 0.47, "avgDuration": 169.9, "conversions": 0 },
-      { "page": "/long-valley-homes-for-sale/luxury", "sessions": 514, "bounceRate": 0.55, "avgDuration": 41.4, "conversions": 0 },
-      { "page": "/mammoth-lakes-homes-for-sale/lake", "sessions": 289, "bounceRate": 0.43, "avgDuration": 112.3, "conversions": 4 },
-      { "page": "/property-search/detail/.../1031-sierra-star-pkwy", "sessions": 201, "bounceRate": 0.58, "avgDuration": 173.5, "conversions": 0 },
-      { "page": "/property-search/detail/.../463-mono-street", "sessions": 106, "bounceRate": 0.39, "avgDuration": 204.7, "conversions": 0 },
-      { "page": "/property-search/detail/.../248-mammoth-slopes-dr", "sessions": 103, "bounceRate": 0.56, "avgDuration": 128.8, "conversions": 0 },
-      { "page": "/sunny-slopes-homes-for-sale/luxury", "sessions": 86, "bounceRate": 0.36, "avgDuration": 30.7, "conversions": 0 },
-      { "page": "/property-search/detail/.../6201-minaret", "sessions": 83, "bounceRate": 0.60, "avgDuration": 394.1, "conversions": 0 },
-      { "page": "/mammoth-lakes-homes-for-sale/on-golf-course", "sessions": 77, "bounceRate": 0.29, "avgDuration": 142.4, "conversions": 2 }
+      {
+        "page": "/",
+        "sessions": 1194,
+        "bounceRate": 0.51,
+        "avgDuration": 229.8,
+        "conversions": 0
+      },
+      {
+        "page": "/property-search/results",
+        "sessions": 522,
+        "bounceRate": 0.47,
+        "avgDuration": 169.9,
+        "conversions": 0
+      },
+      {
+        "page": "/long-valley-homes-for-sale/luxury",
+        "sessions": 514,
+        "bounceRate": 0.55,
+        "avgDuration": 41.4,
+        "conversions": 0
+      },
+      {
+        "page": "/mammoth-lakes-homes-for-sale/lake",
+        "sessions": 289,
+        "bounceRate": 0.43,
+        "avgDuration": 112.3,
+        "conversions": 4
+      },
+      {
+        "page": "/property-search/detail/.../1031-sierra-star-pkwy",
+        "sessions": 201,
+        "bounceRate": 0.58,
+        "avgDuration": 173.5,
+        "conversions": 0
+      },
+      {
+        "page": "/property-search/detail/.../463-mono-street",
+        "sessions": 106,
+        "bounceRate": 0.39,
+        "avgDuration": 204.7,
+        "conversions": 0
+      },
+      {
+        "page": "/property-search/detail/.../248-mammoth-slopes-dr",
+        "sessions": 103,
+        "bounceRate": 0.56,
+        "avgDuration": 128.8,
+        "conversions": 0
+      },
+      {
+        "page": "/sunny-slopes-homes-for-sale/luxury",
+        "sessions": 86,
+        "bounceRate": 0.36,
+        "avgDuration": 30.7,
+        "conversions": 0
+      },
+      {
+        "page": "/property-search/detail/.../6201-minaret",
+        "sessions": 83,
+        "bounceRate": 0.6,
+        "avgDuration": 394.1,
+        "conversions": 0
+      },
+      {
+        "page": "/mammoth-lakes-homes-for-sale/on-golf-course",
+        "sessions": 77,
+        "bounceRate": 0.29,
+        "avgDuration": 142.4,
+        "conversions": 2
+      }
     ],
     "insights": "The site is heavily dependent on direct traffic (79.1%) and paid search (11.9%). Organic Google search drives only 4.5% of sessions (665) with ZERO conversions from organic. Paid search converts better (7 conversions) but at a cost. Mobile users actually convert better (12 conversions, lower bounce rate 53%) than desktop (0 conversions, 69% bounce rate) despite the catastrophic mobile PageSpeed score. The /mammoth-lakes-homes-for-sale/lake and /on-golf-course filter pages generate the only conversions from landing pages, suggesting buyers landing on specific property-type pages convert better. Notable: ChatGPT already sends traffic (4 sessions, 1 conversion) -- an emerging channel worth optimizing for."
   },
-
   "deliverables": [
-    { "name": "Meta Titles & Descriptions", "scope": "Homepage + key pages", "score": "TBD", "status": "To be created" },
-    { "name": "Schema Markup (JSON-LD)", "scope": "RealEstateAgent + Article + FAQ schemas", "score": "TBD", "status": "To be created" },
-    { "name": "Key Pages (expanded content)", "scope": "Market report, community pages, buyer guide", "score": "TBD", "status": "To be created" },
-    { "name": "Blog Posts (SEO-optimized)", "scope": "4 posts targeting high-volume keywords", "score": "TBD", "status": "To be created" }
+    {
+      "name": "Meta Titles & Descriptions",
+      "scope": "Homepage + key pages",
+      "score": "TBD",
+      "status": "To be created"
+    },
+    {
+      "name": "Schema Markup (JSON-LD)",
+      "scope": "RealEstateAgent + Article + FAQ schemas",
+      "score": "TBD",
+      "status": "To be created"
+    },
+    {
+      "name": "Key Pages (expanded content)",
+      "scope": "Market report, community pages, buyer guide",
+      "score": "TBD",
+      "status": "To be created"
+    },
+    {
+      "name": "Blog Posts (SEO-optimized)",
+      "scope": "4 posts targeting high-volume keywords",
+      "score": "TBD",
+      "status": "To be created"
+    }
   ],
-
   "keyPagesCreated": [
     "Mammoth Lakes Real Estate Market Report",
     "Mammoth Lakes Homes for Sale (Hub Page)",
     "June Lake Real Estate Guide",
     "Mammoth Lakes Condo Buyer's Guide"
   ],
-
   "blogPostsCreated": [
     "Best Ski-In/Ski-Out Properties in Mammoth Lakes (2026)",
     "Is Mammoth Lakes a Good Investment? Vacation Rental Income & ROI",
     "Moving to Mammoth Lakes: The Complete Relocation Guide",
     "Mammoth Lakes Short-Term Rental Rules: What Investors Need to Know"
   ],
-
   "advantages": [
-    { "title": "#1 for Branded Keyword", "detail": "Ranks #1 for 'mammoth lakes properties' (720/mo search volume). The brand name IS the keyword -- a powerful advantage few competitors have." },
-    { "title": "Strong Direct Traffic Base", "detail": "11,620 direct sessions shows an established client base and brand recognition in the market. This audience can be converted to repeat organic visitors with email nurturing." },
-    { "title": "Sierra Interactive Platform", "detail": "A capable IDX platform with built-in property search, CRM, and lead capture. Same platform tier as many top competitors -- the technology is not the limiting factor." },
-    { "title": "Mobile Users Convert Better", "detail": "Despite terrible mobile PageSpeed, mobile users generate ALL 12 conversions vs. zero from desktop. Fixing mobile performance could significantly increase conversion rates." },
-    { "title": "Content Opportunities Wide Open", "detail": "No local competitor publishes regular market reports, comprehensive buyer guides, or seasonal content. The first agent to consistently publish data-driven Mammoth Lakes content will own these keywords." },
-    { "title": "Emerging AI Traffic", "detail": "Already receiving traffic from ChatGPT (4 sessions, 1 conversion). Structured data, FAQ schema, and authoritative content can accelerate AI-referral traffic." }
+    {
+      "title": "#1 for Branded Keyword",
+      "detail": "Ranks #1 for 'mammoth lakes properties' (720/mo search volume). The brand name IS the keyword -- a powerful advantage few competitors have."
+    },
+    {
+      "title": "Strong Direct Traffic Base",
+      "detail": "11,620 direct sessions shows an established client base and brand recognition in the market. This audience can be converted to repeat organic visitors with email nurturing."
+    },
+    {
+      "title": "Sierra Interactive Platform",
+      "detail": "A capable IDX platform with built-in property search, CRM, and lead capture. Same platform tier as many top competitors -- the technology is not the limiting factor."
+    },
+    {
+      "title": "Mobile Users Convert Better",
+      "detail": "Despite terrible mobile PageSpeed, mobile users generate ALL 12 conversions vs. zero from desktop. Fixing mobile performance could significantly increase conversion rates."
+    },
+    {
+      "title": "Content Opportunities Wide Open",
+      "detail": "No local competitor publishes regular market reports, comprehensive buyer guides, or seasonal content. The first agent to consistently publish data-driven Mammoth Lakes content will own these keywords."
+    },
+    {
+      "title": "Emerging AI Traffic",
+      "detail": "Already receiving traffic from ChatGPT (4 sessions, 1 conversion). Structured data, FAQ schema, and authoritative content can accelerate AI-referral traffic."
+    }
   ],
-
   "nextSteps": [
-    { "text": "Deploy technical quick wins (H1 fixes, schema repair, title fix, canonical tags)", "sub": "Can be completed in 1-2 days. Immediately fixes the most embarrassing technical issues." },
-    { "text": "Address mobile performance crisis (unused JS removal, image optimization, CLS fixes)", "sub": "Work with Sierra Interactive support to identify which scripts can be deferred or removed." },
-    { "text": "Noindex or prune ~2,900 thin IDX filter pages from sitemap", "sub": "Reclaim crawl budget so Google focuses on your ~70 pages with real content." },
-    { "text": "Create and publish first Mammoth Lakes market report", "sub": "No competitor consistently publishes market data -- first-mover advantage available now." },
-    { "text": "Begin Month 1 content calendar targeting 1,600/mo search volume keywords", "sub": "One optimized blog post per week. Target keywords where you are currently invisible." },
-    { "text": "Review progress at 30-day mark with ranking and traffic analysis", "sub": "Measure keyword improvements, organic traffic changes, and new Search Console impressions." }
+    {
+      "text": "Deploy technical quick wins (H1 fixes, schema repair, title fix, canonical tags)",
+      "sub": "Can be completed in 1-2 days. Immediately fixes the most embarrassing technical issues."
+    },
+    {
+      "text": "Address mobile performance crisis (unused JS removal, image optimization, CLS fixes)",
+      "sub": "Work with Sierra Interactive support to identify which scripts can be deferred or removed."
+    },
+    {
+      "text": "Noindex or prune ~2,900 thin IDX filter pages from sitemap",
+      "sub": "Reclaim crawl budget so Google focuses on your ~70 pages with real content."
+    },
+    {
+      "text": "Create and publish first Mammoth Lakes market report",
+      "sub": "No competitor consistently publishes market data -- first-mover advantage available now."
+    },
+    {
+      "text": "Begin Month 1 content calendar targeting 1,600/mo search volume keywords",
+      "sub": "One optimized blog post per week. Target keywords where you are currently invisible."
+    },
+    {
+      "text": "Review progress at 30-day mark with ranking and traffic analysis",
+      "sub": "Measure keyword improvements, organic traffic changes, and new Search Console impressions."
+    }
   ],
-
   "pillars": [
-    { "title": "TECHNICAL\nFIXES", "desc": "Fix H1 tags, schema markup,\nwrong-city title, canonical tags,\nalt text, OG tags", "time": "Week 1-2" },
-    { "title": "PERFORMANCE\nCRISIS", "desc": "Remove unused JS (1,027 KiB),\nfix CLS (0.80), optimize images,\nreduce 52 scripts", "time": "Week 2-4" },
-    { "title": "CONTENT\nAUTHORITY", "desc": "Market reports, buyer guides,\ncommunity pages, blog posts\ntargeting 1,600/mo keywords", "time": "Month 1-3" },
-    { "title": "LONG-TERM\nGROWTH", "desc": "Monthly market data, video content,\nemail newsletter, local citations,\nAI optimization", "time": "Month 3+" }
+    {
+      "title": "TECHNICAL\nFIXES",
+      "desc": "Fix H1 tags, schema markup,\nwrong-city title, canonical tags,\nalt text, OG tags",
+      "time": "Week 1-2"
+    },
+    {
+      "title": "PERFORMANCE\nCRISIS",
+      "desc": "Remove unused JS (1,027 KiB),\nfix CLS (0.80), optimize images,\nreduce 52 scripts",
+      "time": "Week 2-4"
+    },
+    {
+      "title": "CONTENT\nAUTHORITY",
+      "desc": "Market reports, buyer guides,\ncommunity pages, blog posts\ntargeting 1,600/mo keywords",
+      "time": "Month 1-3"
+    },
+    {
+      "title": "LONG-TERM\nGROWTH",
+      "desc": "Monthly market data, video content,\nemail newsletter, local citations,\nAI optimization",
+      "time": "Month 3+"
+    }
   ],
-
   "mediumTermRoadmap": [
-    { "title": "Mammoth Lakes Homes Hub Page", "detail": "Comprehensive guide targeting 'mammoth lakes homes for sale' (1,600/mo) with neighborhood breakdowns, price data, and IDX integration" },
-    { "title": "Condo Complex Pages (10+)", "detail": "Dedicated pages for Chamonix (210/mo), Mountainback (320/mo), Village condos (590/mo), and other complexes with photos, amenities, and active listings" },
-    { "title": "Ski-In/Ski-Out Landing Page", "detail": "Targets 'mammoth mountain homes for sale' (1,600/mo) following Resort Realty and Snowcreek's proven model" },
-    { "title": "Vacation Rental Investment Guide", "detail": "Targets 'mammoth lakes vacation homes' (1,300/mo, $6.47 CPC) and Airbnb/rental management queries" },
-    { "title": "June Lake Real Estate Page", "detail": "Dedicated landing page to compete with RE/MAX (#9) and Resort Realty (#8) for 'june lake homes for sale' (590/mo)" },
-    { "title": "FAQ Schema on All Key Pages", "detail": "No local competitor uses FAQ schema; first-mover advantage for rich snippets and AI citations" },
-    { "title": "Internal Linking Overhaul", "detail": "Most IDX pages have 0 internal links; homepage has only 18; build topic clusters with cross-linking" },
-    { "title": "Sitemap Optimization", "detail": "Reduce from 2,984 URLs to ~200-300 quality pages; noindex thin filter pages" }
+    {
+      "title": "Mammoth Lakes Homes Hub Page",
+      "detail": "Comprehensive guide targeting 'mammoth lakes homes for sale' (1,600/mo) with neighborhood breakdowns, price data, and IDX integration"
+    },
+    {
+      "title": "Condo Complex Pages (10+)",
+      "detail": "Dedicated pages for Chamonix (210/mo), Mountainback (320/mo), Village condos (590/mo), and other complexes with photos, amenities, and active listings"
+    },
+    {
+      "title": "Ski-In/Ski-Out Landing Page",
+      "detail": "Targets 'mammoth mountain homes for sale' (1,600/mo) following Resort Realty and Snowcreek's proven model"
+    },
+    {
+      "title": "Vacation Rental Investment Guide",
+      "detail": "Targets 'mammoth lakes vacation homes' (1,300/mo, $6.47 CPC) and Airbnb/rental management queries"
+    },
+    {
+      "title": "June Lake Real Estate Page",
+      "detail": "Dedicated landing page to compete with RE/MAX (#9) and Resort Realty (#8) for 'june lake homes for sale' (590/mo)"
+    },
+    {
+      "title": "FAQ Schema on All Key Pages",
+      "detail": "No local competitor uses FAQ schema; first-mover advantage for rich snippets and AI citations"
+    },
+    {
+      "title": "Internal Linking Overhaul",
+      "detail": "Most IDX pages have 0 internal links; homepage has only 18; build topic clusters with cross-linking"
+    },
+    {
+      "title": "Sitemap Optimization",
+      "detail": "Reduce from 2,984 URLs to ~200-300 quality pages; noindex thin filter pages"
+    }
   ],
-
   "longTermColumns": [
-    { "title": "Content Authority", "items": ["Monthly market reports with pricing data", "Build to 100+ quality content pages", "Seasonal buyer guides (ski season, summer)", "Neighborhood comparison content", "Eastern Sierra regional guides (Mono County, Sierra Nevada)"] },
-    { "title": "Video & Media", "items": ["Monthly video market updates", "Virtual property tours", "Neighborhood walkthrough videos", "Agent introduction/expertise video", "YouTube channel for Mammoth Lakes real estate"] },
-    { "title": "Lead Generation", "items": ["Email newsletter with market updates", "Gated market report PDFs", "Property alert sign-ups on every page", "Chat widget for instant engagement", "Retargeting pixel for paid campaigns"] },
-    { "title": "Local & AI SEO", "items": ["Google Business Profile optimization", "Local directory citations (Chamber of Commerce, Yelp)", "Structured data for AI/LLM citations", "ChatGPT/Perplexity optimization", "Review generation strategy"] }
+    {
+      "title": "Content Authority",
+      "items": [
+        "Monthly market reports with pricing data",
+        "Build to 100+ quality content pages",
+        "Seasonal buyer guides (ski season, summer)",
+        "Neighborhood comparison content",
+        "Eastern Sierra regional guides (Mono County, Sierra Nevada)"
+      ]
+    },
+    {
+      "title": "Video & Media",
+      "items": [
+        "Monthly video market updates",
+        "Virtual property tours",
+        "Neighborhood walkthrough videos",
+        "Agent introduction/expertise video",
+        "YouTube channel for Mammoth Lakes real estate"
+      ]
+    },
+    {
+      "title": "Lead Generation",
+      "items": [
+        "Email newsletter with market updates",
+        "Gated market report PDFs",
+        "Property alert sign-ups on every page",
+        "Chat widget for instant engagement",
+        "Retargeting pixel for paid campaigns"
+      ]
+    },
+    {
+      "title": "Local & AI SEO",
+      "items": [
+        "Google Business Profile optimization",
+        "Local directory citations (Chamber of Commerce, Yelp)",
+        "Structured data for AI/LLM citations",
+        "ChatGPT/Perplexity optimization",
+        "Review generation strategy"
+      ]
+    }
   ],
-
   "brandPresence": {
     "overallScore": 35,
     "socialProfiles": [
-      { "platform": "Instagram", "found": true, "url": "https://www.instagram.com/mammothlakesproperties" },
-      { "platform": "LinkedIn", "found": true, "url": "https://www.linkedin.com/in/jamienashinmammoth" },
-      { "platform": "Pinterest", "found": true, "url": "https://www.pinterest.com/mammothlakesproperties" },
-      { "platform": "Facebook", "found": false, "url": null },
-      { "platform": "YouTube", "found": false, "url": null },
-      { "platform": "X (Twitter)", "found": false, "url": null },
-      { "platform": "TikTok", "found": false, "url": null }
+      {
+        "platform": "Instagram",
+        "found": true,
+        "url": "https://www.instagram.com/mammothlakesproperties"
+      },
+      {
+        "platform": "LinkedIn",
+        "found": true,
+        "url": "https://www.linkedin.com/in/jamienashinmammoth"
+      },
+      {
+        "platform": "Pinterest",
+        "found": true,
+        "url": "https://www.pinterest.com/mammothlakesproperties"
+      },
+      {
+        "platform": "Facebook",
+        "found": false,
+        "url": null
+      },
+      {
+        "platform": "YouTube",
+        "found": false,
+        "url": null
+      },
+      {
+        "platform": "X (Twitter)",
+        "found": false,
+        "url": null
+      },
+      {
+        "platform": "TikTok",
+        "found": false,
+        "url": null
+      }
     ],
     "recommendations": [
       "Create profiles on: Facebook, YouTube. These are high-impact platforms for business visibility.",
@@ -421,11 +1526,31 @@
     "redditMentions": 32,
     "youtubeMentions": 10,
     "directoryListings": [
-      { "directory": "BBB", "found": true, "url": "https://www.bbb.org/search?find_text=Mammoth+Lakes+Properties&find_loc=Mammoth+Lakes%2C+CA" },
-      { "directory": "Zillow", "found": true, "url": "https://www.zillow.com/professionals/real-estate-agent-reviews/?name=Mammoth+Lakes+Properties&location=Mammoth+Lakes%2C+CA" },
-      { "directory": "Yelp", "found": false, "url": null },
-      { "directory": "Realtor.com", "found": false, "url": null },
-      { "directory": "Facebook", "found": false, "url": null }
+      {
+        "directory": "BBB",
+        "found": true,
+        "url": "https://www.bbb.org/search?find_text=Mammoth+Lakes+Properties&find_loc=Mammoth+Lakes%2C+CA"
+      },
+      {
+        "directory": "Zillow",
+        "found": true,
+        "url": "https://www.zillow.com/professionals/real-estate-agent-reviews/?name=Mammoth+Lakes+Properties&location=Mammoth+Lakes%2C+CA"
+      },
+      {
+        "directory": "Yelp",
+        "found": false,
+        "url": null
+      },
+      {
+        "directory": "Realtor.com",
+        "found": false,
+        "url": null
+      },
+      {
+        "directory": "Facebook",
+        "found": false,
+        "url": null
+      }
     ],
     "jamieKellyMentions": 0,
     "keyFindings": [
@@ -439,7 +1564,6 @@
       "Competitor Gillian Parrish and Joseph Bogorad have active YouTube presence; client has none"
     ]
   },
-
   "technicalAudit": {
     "totalSitemapUrls": 2984,
     "pagesAnalyzed": 2602,
@@ -462,12 +1586,36 @@
       "CRAWL_ERROR": 1
     },
     "contentBreakdown": [
-      { "category": "Area search pages (auto-generated)", "count": 2523, "note": "Thin IDX pages like /mammoth-lakes-homes-for-sale/ with bedroom/price filter variants" },
-      { "category": "Blog posts", "count": 20, "note": "Mix of market updates and generic RE content" },
-      { "category": "Community/area info", "count": 35, "note": "Individual area pages like /mammoth-lakes/, /june-lake/, /crowley-lake/" },
-      { "category": "Buyer resources", "count": 8, "note": "/buyers/ section with guides" },
-      { "category": "Seller resources", "count": 6, "note": "/sellers/ section with guides" },
-      { "category": "Core pages", "count": 10, "note": "Homepage, about, contact, agents, etc." }
+      {
+        "category": "Area search pages (auto-generated)",
+        "count": 2523,
+        "note": "Thin IDX pages like /mammoth-lakes-homes-for-sale/ with bedroom/price filter variants"
+      },
+      {
+        "category": "Blog posts",
+        "count": 20,
+        "note": "Mix of market updates and generic RE content"
+      },
+      {
+        "category": "Community/area info",
+        "count": 35,
+        "note": "Individual area pages like /mammoth-lakes/, /june-lake/, /crowley-lake/"
+      },
+      {
+        "category": "Buyer resources",
+        "count": 8,
+        "note": "/buyers/ section with guides"
+      },
+      {
+        "category": "Seller resources",
+        "count": 6,
+        "note": "/sellers/ section with guides"
+      },
+      {
+        "category": "Core pages",
+        "count": 10,
+        "note": "Homepage, about, contact, agents, etc."
+      }
     ],
     "criticalFindings": [
       "99% of pages (2,580) have no Open Graph tags — social sharing is broken site-wide",
@@ -479,7 +1627,6 @@
       "128 pages have no H1 tag at all"
     ]
   },
-
   "localSEO": {
     "citationOpportunities": 22,
     "citationsByPriority": {
@@ -488,20 +1635,77 @@
       "low": 4
     },
     "topCitations": [
-      { "name": "Google Business Profile", "url": "https://business.google.com", "priority": "high" },
-      { "name": "Bing Places", "url": "https://www.bingplaces.com", "priority": "high" },
-      { "name": "Apple Maps Connect", "url": "https://mapsconnect.apple.com", "priority": "high" },
-      { "name": "Yelp", "url": "https://biz.yelp.com", "priority": "high" },
-      { "name": "Facebook Business", "url": "https://www.facebook.com/business", "priority": "high" },
-      { "name": "Realtor.com", "url": "https://www.realtor.com", "priority": "high" },
-      { "name": "Zillow", "url": "https://www.zillow.com", "priority": "high" },
-      { "name": "Trulia", "url": "https://www.trulia.com", "priority": "high" },
-      { "name": "Local MLS", "url": "", "priority": "high" }
+      {
+        "name": "Google Business Profile",
+        "url": "https://business.google.com",
+        "priority": "high"
+      },
+      {
+        "name": "Bing Places",
+        "url": "https://www.bingplaces.com",
+        "priority": "high"
+      },
+      {
+        "name": "Apple Maps Connect",
+        "url": "https://mapsconnect.apple.com",
+        "priority": "high"
+      },
+      {
+        "name": "Yelp",
+        "url": "https://biz.yelp.com",
+        "priority": "high"
+      },
+      {
+        "name": "Facebook Business",
+        "url": "https://www.facebook.com/business",
+        "priority": "high"
+      },
+      {
+        "name": "Realtor.com",
+        "url": "https://www.realtor.com",
+        "priority": "high"
+      },
+      {
+        "name": "Zillow",
+        "url": "https://www.zillow.com",
+        "priority": "high"
+      },
+      {
+        "name": "Trulia",
+        "url": "https://www.trulia.com",
+        "priority": "high"
+      },
+      {
+        "name": "Local MLS",
+        "url": "",
+        "priority": "high"
+      }
     ],
     "localPackResults": [
-      { "keyword": "mammoth lakes real estate", "location": "Mammoth Lakes, CA", "inLocalPack": true, "position": null, "competitors": [], "dataSource": "dataforseo" },
-      { "keyword": "mammoth lakes homes for sale", "location": "Mammoth Lakes, CA", "inLocalPack": false, "position": null, "competitors": [], "dataSource": "dataforseo" },
-      { "keyword": "mammoth lakes real estate agent", "location": "Mammoth Lakes, CA", "inLocalPack": true, "position": null, "competitors": [], "dataSource": "dataforseo" }
+      {
+        "keyword": "mammoth lakes real estate",
+        "location": "Mammoth Lakes, CA",
+        "inLocalPack": true,
+        "position": null,
+        "competitors": [],
+        "dataSource": "dataforseo"
+      },
+      {
+        "keyword": "mammoth lakes homes for sale",
+        "location": "Mammoth Lakes, CA",
+        "inLocalPack": false,
+        "position": null,
+        "competitors": [],
+        "dataSource": "dataforseo"
+      },
+      {
+        "keyword": "mammoth lakes real estate agent",
+        "location": "Mammoth Lakes, CA",
+        "inLocalPack": true,
+        "position": null,
+        "competitors": [],
+        "dataSource": "dataforseo"
+      }
     ],
     "keyFindings": [
       "22 citation opportunities identified, 9 high-priority",
