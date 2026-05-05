@@ -22,6 +22,7 @@
 const fs = require('fs');
 const path = require('path');
 const { postJson } = require('./lib/fetch-with-retry');
+const { loadClientEnv, resolveClientSlug } = require('./lib/load-client-env');
 
 const DFS_BASE = 'https://api.dataforseo.com/v3';
 
@@ -48,14 +49,24 @@ const NULL_ENTRY = (domain, isClient) => ({
 });
 
 async function main() {
-  const login = process.env.DATAFORSEO_LOGIN;
-  const password = process.env.DATAFORSEO_PASSWORD;
+  const slug = resolveClientSlug();
+  const env = loadClientEnv(slug);
+  const login = env.DATAFORSEO_LOGIN || process.env.DATAFORSEO_LOGIN;
+  const password = env.DATAFORSEO_PASSWORD || process.env.DATAFORSEO_PASSWORD;
   if (!login || !password) {
-    console.error('ERROR: Set DATAFORSEO_LOGIN and DATAFORSEO_PASSWORD environment variables');
+    console.error(`ERROR: DATAFORSEO_LOGIN/DATAFORSEO_PASSWORD missing for client '${slug}'.`);
+    console.error(`       Set them in clients/${slug}/.env or export them in the shell.`);
     process.exit(1);
   }
 
-  const args = process.argv.slice(2).filter(a => !a.startsWith('--'));
+  // Strip --client-slug <slug> from positional args
+  const argv = process.argv.slice(2);
+  const args = [];
+  for (let i = 0; i < argv.length; i++) {
+    if (argv[i] === '--client-slug') { i++; continue; }
+    if (argv[i].startsWith('--')) continue;
+    args.push(argv[i]);
+  }
   if (args.length === 0) {
     console.error('Usage: node gather-domain-metrics.js <client-domain> [competitor-domain ...]');
     process.exit(1);

@@ -27,6 +27,8 @@
 const fs = require('fs');
 const path = require('path');
 const { postJson } = require('./lib/fetch-with-retry');
+const { writeJsonAtomic } = require('./lib/atomic-write');
+const { loadClientEnv, resolveClientSlug } = require('./lib/load-client-env');
 
 const DFS_BASE = 'https://api.dataforseo.com/v3';
 const DEFAULT_LOCATION_CODE = 2840;
@@ -74,6 +76,12 @@ function parseArgs(argv) {
 
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
+
+    if (arg === '--client-slug') {
+      // Consumed by resolveClientSlug; skip the value here.
+      i++;
+      continue;
+    }
 
     if (arg === '--from-audit') {
       const next = argv[++i];
@@ -176,10 +184,13 @@ function updateAuditKeywordVolumes(auditData, keywordResults) {
 }
 
 async function main() {
-  const login = process.env.DATAFORSEO_LOGIN;
-  const password = process.env.DATAFORSEO_PASSWORD;
+  const slug = resolveClientSlug();
+  const env = loadClientEnv(slug);
+  const login = env.DATAFORSEO_LOGIN || process.env.DATAFORSEO_LOGIN;
+  const password = env.DATAFORSEO_PASSWORD || process.env.DATAFORSEO_PASSWORD;
   if (!login || !password) {
-    console.error('ERROR: Set DATAFORSEO_LOGIN and DATAFORSEO_PASSWORD environment variables');
+    console.error(`ERROR: DATAFORSEO_LOGIN/DATAFORSEO_PASSWORD missing for client '${slug}'.`);
+    console.error(`       Set them in clients/${slug}/.env or export them in the shell.`);
     process.exit(1);
   }
 
@@ -294,7 +305,7 @@ async function main() {
 
   if (auditPath && auditData) {
     const updatedCount = updateAuditKeywordVolumes(auditData, results);
-    fs.writeFileSync(auditPath, `${JSON.stringify(auditData, null, 2)}\n`);
+    writeJsonAtomic(auditPath, auditData, { indent: 2, trailingNewline: true });
     console.error(`Updated ${updatedCount} keywords in audit-data.json with real volumes`);
   }
 }

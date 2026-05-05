@@ -39,6 +39,7 @@
 const fs = require('fs');
 const path = require('path');
 const { postJson } = require('./lib/fetch-with-retry');
+const { loadClientEnv, resolveClientSlug } = require('./lib/load-client-env');
 
 const DFS_BASE = 'https://api.dataforseo.com/v3';
 const DFS_RANKED_ENDPOINT = '/dataforseo_labs/google/ranked_keywords/live';
@@ -155,10 +156,13 @@ function extractOverviewMetrics(resp) {
 }
 
 async function main() {
-  const login = process.env.DATAFORSEO_LOGIN;
-  const password = process.env.DATAFORSEO_PASSWORD;
+  const slug = resolveClientSlug();
+  const env = loadClientEnv(slug);
+  const login = env.DATAFORSEO_LOGIN || process.env.DATAFORSEO_LOGIN;
+  const password = env.DATAFORSEO_PASSWORD || process.env.DATAFORSEO_PASSWORD;
   if (!login || !password) {
-    console.error('ERROR: Set DATAFORSEO_LOGIN and DATAFORSEO_PASSWORD environment variables');
+    console.error(`ERROR: DATAFORSEO_LOGIN/DATAFORSEO_PASSWORD missing for client '${slug}'.`);
+    console.error(`       Set them in clients/${slug}/.env or export them in the shell.`);
     process.exit(1);
   }
 

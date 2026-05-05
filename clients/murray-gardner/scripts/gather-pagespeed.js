@@ -27,10 +27,10 @@
 const fs = require('fs');
 const path = require('path');
 const { fetchJSON: fetchJSONRetry, Semaphore } = require('./lib/fetch-with-retry');
+const { loadClientEnv, resolveClientSlug } = require('./lib/load-client-env');
 const sem = new Semaphore(2); // max 2 concurrent PSI requests
 
 const PSI_BASE = 'https://www.googleapis.com/pagespeedonline/v5/runPagespeed';
-const PSI_API_KEY = process.env.PAGESPEED_API_KEY || process.env.GOOGLE_API_KEY || '';
 
 const errors = [];
 
@@ -74,8 +74,8 @@ function domainFromUrl(url) {
   catch { return url; }
 }
 
-async function fetchPSI(url, strategy, domain) {
-  const keyParam = PSI_API_KEY ? `&key=${PSI_API_KEY}` : '';
+async function fetchPSI(url, strategy, domain, apiKey) {
+  const keyParam = apiKey ? `&key=${apiKey}` : '';
   const apiUrl = `${PSI_BASE}?url=${encodeURIComponent(url)}&strategy=${strategy}&category=performance${keyParam}`;
   console.error(`  Fetching PSI: ${url} [${strategy}]...`);
   return sem.run(async () => {
@@ -104,7 +104,20 @@ async function fetchPSI(url, strategy, domain) {
 }
 
 async function main() {
-  const args = process.argv.slice(2).filter(a => !a.startsWith('--'));
+  const slug = resolveClientSlug();
+  const env = loadClientEnv(slug);
+  const apiKey =
+    env.PAGESPEED_API_KEY || env.GOOGLE_API_KEY ||
+    process.env.PAGESPEED_API_KEY || process.env.GOOGLE_API_KEY || '';
+
+  // Strip --client-slug <slug> from positional args; PSI takes URLs only.
+  const argv = process.argv.slice(2);
+  const args = [];
+  for (let i = 0; i < argv.length; i++) {
+    if (argv[i] === '--client-slug') { i++; continue; }
+    if (argv[i].startsWith('--')) continue;
+    args.push(argv[i]);
+  }
   if (args.length === 0) {
     console.error('Usage: node gather-pagespeed.js <client-url> [competitor-url ...]');
     process.exit(1);
@@ -130,8 +143,8 @@ async function main() {
     const isClient = (i === 0);
     const domain = domainFromUrl(url);
 
-    const mobileResp = await fetchPSI(url, 'mobile', domain);
-    const desktopResp = await fetchPSI(url, 'desktop', domain);
+    const mobileResp = await fetchPSI(url, 'mobile', domain, apiKey);
+    const desktopResp = await fetchPSI(url, 'desktop', domain, apiKey);
 
     const mobile = mobileResp ? extractMetrics(mobileResp) : null;
     const desktop = desktopResp ? extractMetrics(desktopResp) : null;

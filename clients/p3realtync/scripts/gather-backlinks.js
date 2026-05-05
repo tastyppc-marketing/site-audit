@@ -36,6 +36,7 @@
 const fs = require('fs');
 const path = require('path');
 const { postJson, Semaphore } = require('./lib/fetch-with-retry');
+const { loadClientEnv, resolveClientSlug } = require('./lib/load-client-env');
 
 const DFS_BASE = 'https://api.dataforseo.com/v3';
 const DEFAULT_LIMIT = 200;
@@ -161,6 +162,7 @@ async function main() {
   for (let i = 0; i < args.length; i += 1) {
     const arg = args[i];
     if (arg === '--limit') { limit = parseInt(args[i + 1], 10); i += 1; continue; }
+    if (arg === '--client-slug') { i += 1; continue; } // consumed by resolveClientSlug
     if (arg.startsWith('--')) continue;
     domains.push(arg);
   }
@@ -204,10 +206,13 @@ async function main() {
     process.exit(1);
   }
 
-  const login = process.env.DATAFORSEO_LOGIN;
-  const password = process.env.DATAFORSEO_PASSWORD;
+  const slug = resolveClientSlug();
+  const env = loadClientEnv(slug);
+  const login = env.DATAFORSEO_LOGIN || process.env.DATAFORSEO_LOGIN;
+  const password = env.DATAFORSEO_PASSWORD || process.env.DATAFORSEO_PASSWORD;
   if (!login || !password) {
-    console.error('ERROR: Set DATAFORSEO_LOGIN and DATAFORSEO_PASSWORD environment variables');
+    console.error(`ERROR: DATAFORSEO_LOGIN/DATAFORSEO_PASSWORD missing for client '${slug}'.`);
+    console.error(`       Set them in clients/${slug}/.env or export them in the shell.`);
     process.exit(1);
   }
 
