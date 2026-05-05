@@ -11,7 +11,7 @@ Sites that block automated requests are handled gracefully.
 from __future__ import annotations
 
 import re
-from typing import Any
+from typing import TYPE_CHECKING, Any
 from urllib.parse import quote_plus, urlparse
 
 import httpx
@@ -19,6 +19,9 @@ import structlog
 
 from audit_platform.config import Settings
 from audit_platform.connectors.base import BaseConnector
+
+if TYPE_CHECKING:
+    from audit_platform.config.client_context import ClientContext
 
 logger = structlog.get_logger(__name__)
 
@@ -86,8 +89,9 @@ class SocialAuditConnector(BaseConnector):
         self,
         settings: Settings | None = None,
         requests_per_second: float = 2.0,
+        ctx: ClientContext | None = None,
     ) -> None:
-        super().__init__(settings, requests_per_second=requests_per_second)
+        super().__init__(settings=settings, requests_per_second=requests_per_second, ctx=ctx)
 
     # ------------------------------------------------------------------
     # Internal helpers

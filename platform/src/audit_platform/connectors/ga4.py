@@ -6,7 +6,7 @@ results as clean lists of dicts.
 
 from __future__ import annotations
 
-from typing import Any
+from typing import TYPE_CHECKING, Any
 
 import structlog
 from google.analytics.data_v1beta import BetaAnalyticsDataClient
@@ -24,6 +24,9 @@ from audit_platform.auth.service_account import get_service_account_credentials
 from audit_platform.config import Settings
 from audit_platform.connectors.base import BaseConnector
 
+if TYPE_CHECKING:
+    from audit_platform.config.client_context import ClientContext
+
 logger = structlog.get_logger(__name__)
 
 
@@ -34,8 +37,12 @@ class GA4Connector(BaseConnector):
     configured; otherwise falls back to OAuth credentials.
     """
 
-    def __init__(self, settings: Settings | None = None) -> None:
-        super().__init__(settings)
+    def __init__(
+        self,
+        settings: Settings | None = None,
+        ctx: ClientContext | None = None,
+    ) -> None:
+        super().__init__(settings=settings, ctx=ctx)
         self._analytics_client: BetaAnalyticsDataClient | None = None
 
     # ------------------------------------------------------------------
