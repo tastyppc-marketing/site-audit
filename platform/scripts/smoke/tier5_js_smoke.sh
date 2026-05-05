@@ -74,10 +74,23 @@ run_gather "template-path" "$SCRATCH/templ" \
 
 # Path B: cohort invocation. cd clients/matt-wallmow + relative
 # scripts/gather-domain-metrics.js — what the orchestrator skill
-# does. Output lands in clients/matt-wallmow/seo/research/, so we
-# capture the existing file's mtime, run the script, and assert the
-# file got refreshed (mtime advanced).
+# does. The gather script writes to its cwd's seo/research/ dir, so
+# this would normally clobber matt-wallmow's real domain-metrics.json
+# with whatever 2-domain test payload we use here. Snapshot the file
+# before the run and restore it after (regardless of pass/fail).
 COHORT_OUT="$REPO_ROOT/clients/matt-wallmow/seo/research/domain-metrics.json"
+COHORT_BACKUP=""
+if [ -f "$COHORT_OUT" ]; then
+  COHORT_BACKUP="$SCRATCH/domain-metrics.preserved.json"
+  cp "$COHORT_OUT" "$COHORT_BACKUP"
+fi
+restore_cohort_out() {
+  if [ -n "$COHORT_BACKUP" ] && [ -f "$COHORT_BACKUP" ]; then
+    cp "$COHORT_BACKUP" "$COHORT_OUT"
+  fi
+}
+trap 'restore_cohort_out; rm -rf "$SCRATCH"' EXIT
+
 PRE_MTIME=$(stat -c '%Y' "$COHORT_OUT" 2>/dev/null || echo 0)
 run_gather "cohort-path" "$REPO_ROOT/clients/matt-wallmow" \
   "scripts/gather-domain-metrics.js" \
