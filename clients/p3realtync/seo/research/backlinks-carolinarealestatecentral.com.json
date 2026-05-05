@@ -1,0 +1,3855 @@
+{
+  "domain": "carolinarealestatecentral.com",
+  "totalBacklinks": 200,
+  "referringDomains": 116,
+  "backlinks": [
+    {
+      "source_url": "https://www.realtorson.com/jacksonville-nc",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-11-08 14:41:17 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://runsignup.com/Race/97277/Sponsor/340489",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2022-07-03 06:07:05 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.realtorson.com/19231/anchor-real-estate",
+      "target_url": "https://www.carolinarealestatecentral.com/sellers/",
+      "anchor_text": "Sellers",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-11-08 02:39:25 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.realtorson.com/19231/anchor-real-estate",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Anchor Real Estate",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-11-08 02:39:25 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.realtorson.com/19231/anchor-real-estate",
+      "target_url": "https://www.carolinarealestatecentral.com/buyers/",
+      "anchor_text": "Buying a Home in Coastal North Carolina",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-11-08 02:39:25 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "http://anchorrealestatenc.com/",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "",
+      "domain_rating": 53,
+      "is_dofollow": true,
+      "first_seen": "2022-01-03 21:58:31 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 81
+    },
+    {
+      "source_url": "https://www.realtorson.com/nc",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-11-08 02:26:04 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 35,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:56:39 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://propertymanagement.com/property-manager/anchor-real-estate-property-management-of-eastern-north-carolina-jacksonville-nc",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "https://carolinarealestatecentral.com",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2026-01-22 07:03:26 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://trepryor.com/blog/tag/home-inspection-before-listing/",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/the-importance-of-home-inspections/",
+      "anchor_text": "an inspection is a good idea",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2023-09-22 11:22:15 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://trepryor.com/blog/should-you-get-a-home-inspection-before-listing-it/",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/the-importance-of-home-inspections/",
+      "anchor_text": "an inspection is a good idea",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2021-05-18 22:54:48 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.find-us-here.com/businesses/Anchor-Real-Estate-Jacksonville-North-Carolina-USA/33502200/",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "http://anchorrealestatenc.com/",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2024-10-30 23:13:58 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.landhub.com/land-news/controlled-burns-what-they-are-and-how-to-do-them-safely",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/home-maintenance-checklist/",
+      "anchor_text": "property owners to optimize land usage",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2023-07-11 11:54:27 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://cheplaklivecoaching.com/coaching/kelli-salter/",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Anchor Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-11-22 00:56:45 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog/author/anchor-real-estate?pg=2",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:58:15 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog?pg=2",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:58:47 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog/author/anchor-real-estate",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:53:18 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/swansboro-property-management",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:59:19 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/onslow-county-property-management",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:59:15 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/accepting-offer",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-07-30 22:21:50 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/w3c-policy",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:56:51 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/contact",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:56:47 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/richlands-property-management",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:59:11 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/maple-hill-property-management",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:59:07 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/marketing",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:56:43 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/sellers",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-07-30 22:19:53 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/eviction",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:56:35 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/about",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:55:33 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/seller-inspections",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-07-30 22:18:19 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/close-escrow",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-07-30 22:17:56 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/jacksonville-property-management",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:54:24 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/tenant-screening",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:54:14 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/starting-your-search",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-07-30 22:17:30 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/buyers",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-07-30 22:17:09 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/roi-calculator",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:54:10 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/jacksonville-property-management-military",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:54:06 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/testimonials",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:54:02 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/our-team",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-07-30 22:16:46 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/accounting",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:53:50 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/agents",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:53:46 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/rent-collection",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:53:34 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/hubert-property-management",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:59:03 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/inspections-and-appraisals",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-07-30 22:15:26 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:53:22 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/selecting-an-agent",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-07-30 22:14:09 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/maintenance",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-07-30 22:13:44 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/sitemap",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-07-30 10:33:30 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/tenant-faq",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:52:19 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/maysville-property-management",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:58:59 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/holly-ridge-property-management",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:58:55 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/owner-faq",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:52:03 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/sneads-ferry-property-management",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:58:51 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/maintenance-services",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:53:54 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/closing",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-07-30 22:22:15 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/choosing-an-agent",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-07-30 22:19:32 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/index",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-07-30 22:15:55 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/jacksonville-homes-for-rent",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:52:23 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/board-member-resources",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-07-30 22:13:04 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.juridipedia.com/US/Jacksonville/107013507803761/Anchor-%26-Co%2C-brokered-by-exp",
+      "target_url": "https://kelli.carolinarealestatecentral.com/",
+      "anchor_text": "https://kelli.carolinarealestatecentral.com",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2026-04-24 01:00:41 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.juridipedia.com/US/Jacksonville/107013507803761/Anchor-%26-Co%2C-brokered-by-exp",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "https://www.carolinarealestatecentral.com/",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2026-04-24 01:00:41 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog/why-marketing-matters-in-property-management",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:53:58 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/owners",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:53:38 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog/responsibilities-of-property-managers",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:59:43 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog/4-tenant-inspections-that-protect-your-rental-property",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:58:23 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog/property-management-guarantees",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:59:31 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog/why-we-use-professional-photos-for-your-rental-listing",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:58:19 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/tenants",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:52:11 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog/the-importance-of-tenant-screenings-for-your-rental",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:52:07 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog/squatting-laws-in-north-carolina-an-overview",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 14,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:50:30 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog/maintenance-tips-for-your-rental-properties",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 10,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:58:35 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/privacy-policy",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:56:55 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog/7-tips-for-renting-your-property-and-becoming-a-landlord",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:59:47 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://letsreimagine.org/collaborators/anchor-real-estate-of-eastern-north-carolina",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Visit website",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-05-01 17:23:54 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.clodura.ai/directory/company/anchor-real-estate-of-eastern-north-carolina",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "carolinarealestatecentral.com",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-04-08 03:20:40 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog/a-guide-to-the-eviction-process-in-jacksonville-north-carolina",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 6,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:58:39 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog/things-to-include-in-a-residential-lease-agreement",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 5,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:59:58 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog/things-to-know-about-the-fair-housing-act",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 4,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:59:51 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog/breaking-a-lease-in-jacksonville-north-carolina-know-the-laws",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 4,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:58:31 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://trepryor.com/blog/category/residential/page/14/",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/the-importance-of-home-inspections/",
+      "anchor_text": "an inspection is a good idea",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2025-11-07 04:10:29 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog/servicemembers-civil-relief-act",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:53:30 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://vuink.com/post/sbeghar-d-dpbz/2024/05/26/housing-market-outlook-buyers-vs-sellers-lower-home-prices-inventory-supply",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/questions-sellers-are-asking-in-a-changing-market/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-11-16 05:07:21 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.allaroundmoving.com/how-should-you-plan-your-move-to-a-new-place/",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/moving-tips-and-timeline/",
+      "anchor_text": "Timing your move to a new place",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-02-20 18:49:26 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://elcomercio.pe/mag/respuestas/us/cuales-son-las-ventajas-de-comprar-una-casa-en-enero-estados-unidos-nnda-nnlt-noticia/",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Anchor Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-01-26 23:29:35 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.hunker.com/13772385/buying-a-home-remotely/",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Kelli Salter",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-09-14 17:16:43 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.tidbitsofexperience.com/home-maintenance-checklist/",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/home-maintenance-checklist/",
+      "anchor_text": "https://www.carolinarealestatecentral.com/blog/home-maintenance-checklist/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-18 02:58:35 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://rss.feedspot.com/north_carolina_real_estate_rss_feeds/",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/",
+      "anchor_text": "carolinarealestatecentral.co..",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-04-01 15:49:19 +00:00"
+    },
+    {
+      "source_url": "https://shoplogist.com/dark-side-links-dark-white-hat-link-building-963/",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-20 14:01:29 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://gestion.pe/mix/respuestas/las-ventajas-de-comprar-una-casa-en-el-mes-de-enero-estados-unidos-nnda-nnlt-noticia/",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Anchor Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-01-26 21:59:54 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://mylifespectrum.com/uncategorized/essential-property-maintenance-tips-for-homeowners/",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/home-maintenance-checklist/",
+      "anchor_text": "11",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-11-16 08:37:28 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://christmasholidays2024.pages.dev/yhxxgeg-christmas-events-near-jacksonville-nc-december-2024-xjrhwdi/",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "www.carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-09-25 22:59:25 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://dowidth.com/real-estate/new-construction-vs-house-hacking",
+      "target_url": "https://www.carolinarealestatecentral.com/wilmington/wilmington-new-construction-homes/",
+      "anchor_text": "New Construction Wilmington NC Homes for Sale",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-25 10:14:43 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://zingzumm.org/camps/",
+      "target_url": "https://www.carolinarealestatecentral.com/jacksonville/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-06-10 12:16:26 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.carolroth.com/community/2023-new-years-resolutions-from-small-businesses/",
+      "target_url": "https://www.carolinarealestatecentral.com/about/",
+      "anchor_text": "Anchor Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-01-04 23:11:55 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.moneytalksnews.com/slideshows/sleepy-towns-where-gen-z-is-snapping-up-homes/",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/pros-cons-jacksonville-nc/",
+      "anchor_text": "Jacksonville",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-04-20 10:46:14 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://fantastichandyman.com.au/blog/protect-your-house-from-burglaries-melbourne/",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/home-security-system-options/",
+      "anchor_text": "best way to secure your home",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2021-05-10 17:55:36 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://gladynickie.pages.dev/zkmseyt-christmas-events-near-jacksonville-nc-december-2024-images-hbdjxxg/",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "www.carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-18 13:43:39 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://suadienlanhhaiduong.com/dark-side-links-dark-white-hat-link-building-963/",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-04-18 04:33:44 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://globalecommerce.org/page-7196e53fbcdcff586e4dd818020d12a8.html",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-22 03:00:47 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.provenexpert.com/en-us/anchor-real-estate-of-eastern-north-carolina/",
+      "target_url": "https://www.carolinarealestatecentral.com/buyers/",
+      "anchor_text": "Home Buyers",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-05-01 16:59:38 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.provenexpert.com/en-us/anchor-real-estate-of-eastern-north-carolina/",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Anchor Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-05-01 16:59:38 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.provenexpert.com/en-us/anchor-real-estate-of-eastern-north-carolina/",
+      "target_url": "https://www.carolinarealestatecentral.com/featured-listings/",
+      "anchor_text": "Featured Listings",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-05-01 16:59:38 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.provenexpert.com/en-us/anchor-real-estate-of-eastern-north-carolina/",
+      "target_url": "https://www.carolinarealestatecentral.com/sellers/",
+      "anchor_text": "Selling Your Home",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-05-01 16:59:38 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://decorardormitorios.com/how-to-decide-what-to-renovate-during-inflation.html",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Anchor True Estate",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2022-07-26 22:31:20 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.crossandsmith.com/personal-injury/94-year-old-wheelchair-resident-killed-in-alabama-nursing-home-fire-drill/",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/buying-a-new-construction-home/",
+      "anchor_text": "new construction",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2021-04-23 13:37:46 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://mydecorative.com/home-upgrades-that-you-need-to-make-your-place-safer-to-live/",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/home-maintenance-checklist/",
+      "anchor_text": "taking care of your place",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-09 13:36:13 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://sergechel.info/list-3a610f9761fbbcaed1209bbbcb9b26ff",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-04-13 21:47:07 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.searcylaw.com/do-you-know/while-you-are-on-vacation-burglars-are-still-working-they-could-be-on-the-job-at-your-house/",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/home-security-system-options/",
+      "anchor_text": "security system",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2021-04-13 07:25:06 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://outsidejumpers.com/water-slide-rentals-stella-nc/",
+      "target_url": "https://www.carolinarealestatecentral.com/stella/",
+      "anchor_text": "Stella, NC",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 23:51:34 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://outsidejumpers.com/tent-rentals-stella-nc/",
+      "target_url": "https://www.carolinarealestatecentral.com/stella/",
+      "anchor_text": "Stella",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 23:43:12 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://outsidejumpers.com/table-and-chair-rentals-stella-nc/",
+      "target_url": "https://www.carolinarealestatecentral.com/stella/",
+      "anchor_text": "Stella NC",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 23:49:27 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.thomsonscleaning.co.uk/blog/how-much-does-a-house-extension-cost-you/",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/energy-efficient-home-upgrades/",
+      "anchor_text": "materials and features you want",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-04-11 07:59:57 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://trepryor.com/blog/category/opinion/",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/the-importance-of-home-inspections/",
+      "anchor_text": "an inspection is a good idea",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-07-31 09:39:29 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://anchorrealestatenc.com/",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-26 16:10:49 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 81
+    },
+    {
+      "source_url": "https://global-websites.pages.dev/49/AWRfiXzHPW",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-12-01 00:21:34 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://global-websites.pages.dev/42/BMFpXBJjww",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-12-01 00:14:07 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://screenshots.wiki/report/66253",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-23 20:11:23 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://quero.party/report/66253",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-22 04:04:26 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://quero.party/report/53802",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-03 03:49:48 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://marineraiderfoundation.org/event/2021-virtual-mimosa-bay-turkey-trot/",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Anchor Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2021-10-03 22:20:38 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "http://www.torun-stolarz.pl/dark-side-links-dark-white-hat-link-building-963/",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-21 09:27:43 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://ycm.info/2f32c94793a0f06be459c55eff20c92c-l/",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-19 18:04:46 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://anchorurl.cloud/share/66252",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-01 19:28:53 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://anchorurl.cloud/share/53802",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-03 22:57:28 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://bye.fyi/report/66252",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-15 19:17:28 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://shortenurls.eu/share/53802",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-31 00:10:08 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.zillow.com/profile/AnchorRealEstateNC",
+      "target_url": "http://carolinarealestatecentral.com/",
+      "anchor_text": "Visit agent website",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-15 00:51:06 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://screenshots.wiki/report/66252",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-03 20:26:25 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://screenshots.wiki/report/53802",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-29 11:11:41 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/pw-test",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-07-30 22:16:20 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog/how-to-attract-long-term-tenants",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:59:35 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog/renting-out-your-home-in-jacksonville-everything-you-should-consider",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:54:18 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog/north-carolina-security-deposit-laws",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:59:39 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.anchorpropertiesnc.com/blog/jacksonville-nc-landlord-tenant-law",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 21:59:27 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.fyple.com/company/anchor-real-estate-i4zou3r/",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com/",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-10-04 19:27:11 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://arvyestate.com/essential-steps-before-taking-real-estate-pictures/",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/5-tips-to-prepare-for-listing-photos/",
+      "anchor_text": "https://www.carolinarealestatecentral.com/blog/5-tips-to-prepare-for-listing-photos/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-06-13 23:14:15 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.paulscleaningmelbourne.com.au/blog/new-home-maintenance-checklist/",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/moving-tips-and-timeline/",
+      "anchor_text": "The moving process",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-09 08:08:45 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://anchorurl.cloud/share/53803",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-08 12:37:39 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://anchorurl.cloud/share/66253",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-24 07:30:17 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://australianwebdirectory.shop/page-7196e53fbcdcff586e4dd818020d12a8.html",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-06-03 15:37:15 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://alljobs.info/2f32c94793a0f06be459c55eff20c92c-l/",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-04 04:04:57 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://shortenurls.eu/share/53803",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-21 15:05:11 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://richardandoh.com/ghjqi/sundowns-away-kit-2021/lightning-whelk-location.html",
+      "target_url": "https://www.carolinarealestatecentral.com/property-search/detail/87/100301506/412-lightning-whelk-way-wilmington-nc-28412/",
+      "anchor_text": "412 Lightning Whelk Way Wilmington, NC 28412 | MLS 100301506",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-01-29 16:37:43 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://shortenurls.eu/share/66253",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-23 11:57:15 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.mapquest.com/us/north-carolina/anchor-real-estate-429319761",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Web",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-01 16:36:21 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://richardandoh.com/ghjqi/lightning-whelk-location.html",
+      "target_url": "https://www.carolinarealestatecentral.com/property-search/detail/87/100301506/412-lightning-whelk-way-wilmington-nc-28412/",
+      "anchor_text": "412 Lightning Whelk Way Wilmington, NC 28412 | MLS 100301506",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-01-14 00:06:25 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://australianwebdirectory.shop/page-138f1043001fc9b2afb25e37c213f873.html",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-31 11:25:10 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://urls-shortener.eu/share/53802",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-28 02:37:24 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.wallpapers.pro/2f32c94793a0f06be459c55eff20c92c-l/",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-28 00:13:52 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.tunca.org/2f32c94793a0f06be459c55eff20c92c-l/",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-28 00:00:37 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.dependablerealtors.com/3955/anchor-real-estate",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Anchor Real Estate",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-11-19 07:28:09 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://jillybjanetta.pages.dev/jvnrbkb-christmas-events-near-jacksonville-nc-december-2024-gjbjhyj/",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "www.carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-09-22 18:11:28 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://urls-shortener.eu/share/66252",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-20 03:51:28 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://urls-shortener.eu/share/53803",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-02 21:25:05 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://urls-shortener.eu/share/66253",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-06 18:53:42 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://sites.jake.eu/share/53803",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-12 13:26:54 +00:00"
+    },
+    {
+      "source_url": "https://sites.jake.eu/share/66253",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-12 02:47:21 +00:00"
+    },
+    {
+      "source_url": "https://bye.fyi/report/53803",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-01 06:19:12 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://drjack.world/report/66253",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-11-23 09:06:05 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://getwebsiteworth.com/2f32c94793a0f06be459c55eff20c92c-l/",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-29 02:39:00 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://ready.pro/stats/66252",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-04 00:03:59 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.websiterace.com/2f32c94793a0f06be459c55eff20c92c-l/",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-31 11:19:38 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://booksreadr.org/page-7196e53fbcdcff586e4dd818020d12a8.html",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-01 19:17:15 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://claireyruthanne.pages.dev/vxevzlj-christmas-events-near-jacksonville-nc-december-1-2024-ipxyffg/",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "www.carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-01-08 06:54:06 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://global-ranks.pages.dev/49/AWRfiXzHPW",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-11-13 12:39:23 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://booksreadr.org/page-138f1043001fc9b2afb25e37c213f873.html",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-01 07:50:42 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://global-ranks.pages.dev/42/BMFpXBJjww",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-11-13 11:25:54 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://mail.runningwebsites.net/2f32c94793a0f06be459c55eff20c92c-l/",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-29 08:27:21 +00:00"
+    },
+    {
+      "source_url": "https://sisgroup.lk/quarterlinks-dofollow-article-links-just-for-25-3049/",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-12 21:11:03 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://genevabreggie.pages.dev/nruakex-christmas-events-near-jacksonville-nc-december-1-2024-images-jolkypw/",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "www.carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-11-21 12:28:51 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.enigma.com/directory/nc/jacksonville/real-estate-agency/",
+      "target_url": "https://www.carolinarealestatecentral.com/jacksonville/",
+      "anchor_text": "https://www.carolinarealestatecentral.com/jacksonville/",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-08-20 21:27:59 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://way2check.cv/page-138f1043001fc9b2afb25e37c213f873.html",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-25 11:42:14 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://way2check.cv/page-7196e53fbcdcff586e4dd818020d12a8.html",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-25 01:07:49 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.alljobs.info/2f32c94793a0f06be459c55eff20c92c-l/",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-24 08:18:43 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://mydeepin.ru/best-white-dark-hat-linkbuilding-for-your-website-493/",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "LINKS FOR www.carolinarealestatecentral.com TELEGRAM @happygrannypies",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-08-15 16:29:52 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://mydeepin.ru/best-white-dark-hat-linkbuilding-for-your-website-131-3/",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "LINKS FOR www.carolinarealestatecentral.com TELEGRAM @happygrannypies",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-08-15 15:29:18 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://bye.fyi/report/66253",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-12-10 00:06:05 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://runsignup.com/Race/Results/97277?resultSetId=274053",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-07-26 00:21:11 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://runsignup.com/Race/Results/97277?resultSetId=274055",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-07-23 09:51:44 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://runsignup.com/Race/Results/97277?resultSetId=270370",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-07-23 03:33:24 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://runsignup.com/Race/Results/97277?resultSetId=210376",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-07-25 23:51:39 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://runsignup.com/Race/Results/97277?resultSetId=210375",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-07-25 21:06:40 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://runsignup.com/Race/Results/97277?resultSetId=215084",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-07-23 07:03:18 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://runsignup.com/Race/Results/97277/IndividualResult/2021",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-07-03 11:20:38 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://runsignup.com/Race/Results/97277/IndividualResult/2020",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-07-03 11:22:45 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://runsignup.com/Race/Results/97277",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2021-10-07 00:15:49 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://runsignup.com/Race/NC/VIRTUAL/MimosaBayTurkeyTrot",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2021-10-04 00:21:17 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://globalecommerce.org/page-138f1043001fc9b2afb25e37c213f873.html",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-21 15:58:39 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.simplewebdirectory.com/2f32c94793a0f06be459c55eff20c92c-l/",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-18 21:47:18 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.whodoyou.com/biz/2051581/anchor-real-estate-jacksonville-nc",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com/",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-11-23 03:59:33 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.limaone.com/real-estate-investment-trends-2021/",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/buying-a-new-construction-home/",
+      "anchor_text": "strong need for new construction",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2022-04-18 19:19:11 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://nearmelisting.com/local/anchor-real-estate",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "https://anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-26 16:09:41 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.bbb.org/us/nc/jacksonville/profile/real-estate/anchor-real-estate-of-eastern-north-carolina-inc-0593-90334845",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-11-29 00:24:30 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "http://wheretobuybest.link/LilaSecretgreato/",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-12-27 22:02:56 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://bloggers.feedspot.com/north_carolina_real_estate_blogs/",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/",
+      "anchor_text": "https://www.carolinarealestatecentral.com/blog/",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-12-23 15:29:27 +00:00"
+    },
+    {
+      "source_url": "https://www.getwebsiteworth.com/2f32c94793a0f06be459c55eff20c92c-l/",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "anchorrealestatenc.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-20 08:52:03 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.paulscleaningmelbourne.com.au/blog/taking-proper-care-of-your-new-property-keep-it-safe-tidy-and-smart/",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/moving-tips-and-timeline/",
+      "anchor_text": "The moving process",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-08-23 05:50:56 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://2x9.co/page-7196e53fbcdcff586e4dd818020d12a8.html",
+      "target_url": "https://carolinarealestatecentral.com/",
+      "anchor_text": "carolinarealestatecentral.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-04 16:19:59 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://smartnesttech.com/smart-home-automation/",
+      "target_url": "https://www.carolinarealestatecentral.com/blog/high-roi-smart-home-upgrades/",
+      "anchor_text": "https://www.carolinarealestatecentral.com/blog/high-roi-smart-home-upgrades/",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-11-28 22:24:01 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://lodgefarm-plants.com/seoglobalservices/best-white-dark-hat-linkbuilding-for-your-website-131/",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "LINKS FOR www.carolinarealestatecentral.com TELEGRAM @happygrannypies",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-02-26 14:00:44 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://productionfunctionusa.com/quarterlinks-dofollow-article-links-just-for-25-3049/",
+      "target_url": "https://www.carolinarealestatecentral.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-10 18:45:07 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    }
+  ],
+  "referring_domains": [
+    {
+      "domain": "anchorpropertiesnc.com",
+      "rank": 147,
+      "backlinks": 165,
+      "first_seen": "2025-05-03 21:50:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 82,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 147)"
+    },
+    {
+      "domain": "realtorson.com",
+      "rank": 84,
+      "backlinks": 8,
+      "first_seen": "2025-11-08 02:26:04 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 84)"
+    },
+    {
+      "domain": "runsignup.com",
+      "rank": 62,
+      "backlinks": 13,
+      "first_seen": "2021-10-04 00:21:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 11,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 62)"
+    },
+    {
+      "domain": "trepryor.com",
+      "rank": 30,
+      "backlinks": 4,
+      "first_seen": "2021-05-18 22:54:48 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "anchorrealestatenc.com",
+      "rank": 11,
+      "backlinks": 2,
+      "first_seen": "2022-01-03 21:58:31 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 81,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "juridipedia.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-04-24 01:00:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "suadienlanhhaiduong.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-18 04:33:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "sergechel.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-13 21:47:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "thomsonscleaning.co.uk",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-11 07:59:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "torun-stolarz.pl",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-21 09:27:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign, telegram-spam-anchor"
+    },
+    {
+      "domain": "shoplogist.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-20 14:01:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "ycm.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-19 18:04:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "zillow.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-15 00:51:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "mydecorative.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-09 13:36:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "mapquest.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-01 16:36:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "wallpapers.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-28 00:13:52 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "tunca.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-28 00:00:37 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "dowidth.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-25 10:14:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "jake.eu",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-02-12 02:47:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "ready.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-04 00:03:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "booksreadr.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-02-01 07:50:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "screenshots.wiki",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-01-29 11:11:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "runningwebsites.net",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-29 08:27:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "way2check.cv",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-25 01:07:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "alljobs.info",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-24 08:18:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "anchorurl.cloud",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2026-01-24 07:30:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "propertymanagement.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-22 07:03:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "globalecommerce.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-21 15:58:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "shortenurls.eu",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-01-21 15:05:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "simplewebdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-18 21:47:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+    },
+    {
+      "domain": "urls-shortener.eu",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2026-01-02 21:25:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "websiterace.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-31 11:19:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "wheretobuybest.link",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-27 22:02:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "getwebsiteworth.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-12-20 08:52:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "gladynickie.pages.dev",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-12-18 13:43:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "bye.fyi",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-12-10 00:06:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "2x9.co",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-04 16:19:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "smartnesttech.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-28 22:24:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "whodoyou.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-23 03:59:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "cheplaklivecoaching.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-22 00:56:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "dependablerealtors.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-11-19 07:28:09 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "vuink.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-11-16 05:07:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "enigma.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-20 21:27:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "mydeepin.ru",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-08-15 15:29:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign, telegram-spam-anchor"
+    },
+    {
+      "domain": "australianwebdirectory.pro",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-08-04 20:55:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "gaister.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-01 00:54:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "astrologlar.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-31 14:32:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "m-he.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-30 22:20:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "ezeller.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-15 08:42:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "sisgroup.lk",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-12 21:11:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "passiogolf.vn",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-11 16:44:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
+    },
+    {
+      "domain": "productionfunctionusa.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-10 18:45:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "aamstg1.wpenginepowered.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-03 20:51:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "superpages.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-06-08 23:54:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "loc8nearme.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-06-04 06:29:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "outsidejumpers.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-06-01 23:43:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "australianwebdirectory.shop",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-31 11:25:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "belonnanotservice.ga",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-27 09:27:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 10,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD"
+      ],
+      "qualityReason": "DR-0, spam-TLD"
+    },
+    {
+      "domain": "cocoqatar.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-19 19:13:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "tidbitsofexperience.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-18 02:58:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "seobacklinks.agency",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-15 08:34:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "agmermer.pro",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-12 20:08:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "renataromeiro.com.br",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-10 22:30:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "rankgrow.agency",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-09 15:19:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "yellowplace.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-02 06:35:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "letsreimagine.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-01 17:23:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "nearmelisting.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-04-26 16:09:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "prolinkbox.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-04-19 16:32:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "thebestbacklinksavailable.click",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-04-08 14:18:19 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD",
+        "SEO-spam-domain",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, spam-TLD, SEO-spam-domain, suspiciously-long-domain"
+    },
+    {
+      "domain": "clodura.ai",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-04-08 03:20:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "what-happens-next.xyz",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-04-06 07:54:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 10,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD"
+      ],
+      "qualityReason": "DR-0, spam-TLD"
+    },
+    {
+      "domain": "browseallexpireddomains.us",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-04-06 04:22:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "feedspot.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-04-01 15:49:19 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "great-choice-for-pbn-domains.co.uk",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-03-29 18:53:23 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 40,
+      "qualitySignals": [
+        "DR-0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, suspiciously-long-domain"
+    },
+    {
+      "domain": "lodgefarm-plants.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-02-26 14:00:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor, single-dofollow-DR0"
+    },
+    {
+      "domain": "mundotecnologia.info",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-02-08 16:29:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "elcomercio.pe",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-01-26 23:29:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "gestion.pe",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-01-26 21:59:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "insumosartesgraficas.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-01-12 02:52:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "claireyruthanne.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-01-08 06:54:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "bippermedia.com",
+      "rank": 0,
+      "backlinks": 6,
+      "first_seen": "2024-12-09 20:08:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "bbb.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-11-29 00:24:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "genevabreggie.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-11-21 12:28:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "jazminsbeautysalon.be",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-11-18 10:34:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
+    },
+    {
+      "domain": "mylifespectrum.com",
+      "rank": 0,
+      "backlinks": 8,
+      "first_seen": "2024-11-16 08:37:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "find-us-here.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-10-30 23:13:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "drjack.world",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-10-22 13:48:37 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "quero.party",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2024-10-21 15:30:09 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "moda-internet.ru",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-09-30 01:03:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
+    },
+    {
+      "domain": "christmasholidays2024.pages.dev",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-09-25 22:59:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "suspiciously-long-domain",
+        "numeric-domain"
+      ],
+      "qualityReason": "DR-0, suspiciously-long-domain, numeric-domain"
+    },
+    {
+      "domain": "jillybjanetta.pages.dev",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-09-22 18:11:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "hunker.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-09-14 17:16:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "levleachim.co.il",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-09-01 07:08:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "foodroute.nl",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-08-25 22:21:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "arvyestate.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-06-13 23:14:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "zingzumm.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-06-10 12:16:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "moneytalksnews.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-04-20 10:46:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "bizhwy.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-02-16 20:04:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "about.me",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-01-24 02:06:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "global-websites.pages.dev",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2023-12-01 00:14:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "global-ranks.pages.dev",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2023-11-13 11:25:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "golocal247.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2023-10-30 19:57:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "fyple.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-04 19:27:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "paulscleaningmelbourne.com.au",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2023-08-23 05:50:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "landhub.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-07-11 11:54:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "allaroundmoving.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-02-20 18:49:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "carolroth.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-01-04 23:11:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "decorardormitorios.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2022-07-26 22:31:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "us-business.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2022-07-26 18:24:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "provenexpert.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2022-05-01 16:59:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "limaone.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2022-04-18 19:19:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "richardandoh.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2022-01-14 00:06:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "marineraiderfoundation.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2021-10-03 22:20:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "fantastichandyman.com.au",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2021-05-10 17:55:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "crossandsmith.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2021-04-23 13:37:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "searcylaw.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2021-04-13 07:25:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    }
+  ],
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-05-05T18:40:58.596Z",
+  "qualitySummary": {
+    "total": 116,
+    "legitimate": 7,
+    "suspicious": 63,
+    "spam": 46,
+    "legitimatePct": 6,
+    "suspiciousPct": 54,
+    "spamPct": 40,
+    "topLegitimate": [
+      {
+        "domain": "anchorpropertiesnc.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 147)"
+      },
+      {
+        "domain": "realtorson.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 84)"
+      },
+      {
+        "domain": "runsignup.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 62)"
+      },
+      {
+        "domain": "trepryor.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "anchorrealestatenc.com",
+        "quality": "legitimate",
+        "score": 81,
+        "reason": "low-DR"
+      },
+      {
+        "domain": "zillow.com",
+        "quality": "legitimate",
+        "score": 50,
+        "reason": "Recognized legitimate domain"
+      },
+      {
+        "domain": "bbb.org",
+        "quality": "legitimate",
+        "score": 50,
+        "reason": "Recognized legitimate domain"
+      }
+    ],
+    "topSpam": [
+      {
+        "domain": "suadienlanhhaiduong.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "torun-stolarz.pl",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, low-DR-foreign, telegram-spam-anchor"
+      },
+      {
+        "domain": "shoplogist.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "simplewebdirectory.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+      },
+      {
+        "domain": "mydeepin.ru",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, low-DR-foreign, telegram-spam-anchor"
+      },
+      {
+        "domain": "sisgroup.lk",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "productionfunctionusa.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "thebestbacklinksavailable.click",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, spam-TLD, SEO-spam-domain, suspiciously-long-domain"
+      },
+      {
+        "domain": "lodgefarm-plants.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor, single-dofollow-DR0"
+      },
+      {
+        "domain": "belonnanotservice.ga",
+        "quality": "spam",
+        "score": 10,
+        "reason": "DR-0, spam-TLD"
+      },
+      {
+        "domain": "what-happens-next.xyz",
+        "quality": "spam",
+        "score": 10,
+        "reason": "DR-0, spam-TLD"
+      },
+      {
+        "domain": "australianwebdirectory.pro",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "australianwebdirectory.shop",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "seobacklinks.agency",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "sergechel.info",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "thomsonscleaning.co.uk",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "ycm.info",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "mydecorative.com",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "mapquest.com",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "wallpapers.pro",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      }
+    ],
+    "analyzedAt": "2026-05-05T18:41:28.296Z",
+    "method": "rule-based-v1"
+  }
+}

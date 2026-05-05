@@ -1,0 +1,3750 @@
+{
+  "domain": "eaganluxury.com",
+  "totalBacklinks": 183,
+  "referringDomains": 117,
+  "backlinks": [
+    {
+      "source_url": "http://www.dolphin-cay.com/",
+      "target_url": "http://www.eaganluxury.com/dolphin-cay",
+      "anchor_text": "",
+      "domain_rating": 156,
+      "is_dofollow": true,
+      "first_seen": "2026-02-18 10:58:43 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://local-biz.directory/listing/eagan-luxury/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "http://www.eaganluxury.com/",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-12-18 04:15:48 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 91
+    },
+    {
+      "source_url": "https://www.callupcontact.com/b/businessprofile/Eagan_Luxury/9904462",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "http://www.eaganluxury.com/",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2026-01-07 09:26:28 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 91
+    },
+    {
+      "source_url": "https://yourhomify.com/choosing-a-home-that-fits-your-lifestyle/",
+      "target_url": "https://www.eaganluxury.com/condos/one-st-petersburg",
+      "anchor_text": "ONE St. Petersburg",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2026-01-17 00:59:19 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://m.businessseek.biz/business-directory/listing-details-36894.html",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "Eagan Luxury Real Estate",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2022-02-12 13:00:49 +00:00"
+    },
+    {
+      "source_url": "https://vppages.com/listing-tag/bacopa-bay/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "Visit website",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-12-19 09:57:03 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 91
+    },
+    {
+      "source_url": "https://vppages.com/listing-tag/dolphin-cay/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "Visit website",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-12-19 09:56:55 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 91
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/medal-of-honor/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2020-02-29 04:30:44 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/dolphin-cay-resident-opens-local-franchise-of-floor-coverings-international/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2020-02-29 03:42:57 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/condo-market-update-january-2017/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "www.EaganLuxury.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2019-11-21 11:05:14 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/maximo-marina-get-multimillion-dollar-renovation/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2020-02-23 07:20:11 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/single-family-home-market-update-january-2017/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2022-02-19 05:26:37 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/dolphin-cay-real-estate-updates-12-months-ending-3-31-18/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "www.EaganLuxury.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2019-11-21 11:35:00 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/your-eagan-luxury-2018-hurricane-guide/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2019-09-22 12:06:45 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/october-2019-dolphin-cay-real-estate-updates-12-months-ending-september-30-2019/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "www.EaganLuxury.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2021-07-23 16:17:42 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/july-2020-dolphin-cay-real-estate-updates/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "www.EaganLuxury.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2021-07-23 16:51:42 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/blog/page/3/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2020-09-20 13:53:41 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/dear-dolphin-cay-residents/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "www.EaganLuxury.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2021-07-23 16:58:03 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/dolphin-cay-real-estate-updates-12-months-ending-6-30-18-courtesy-of-deborah-eagan-realtor-and-dolphin-cay-resident/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "www.EaganLuxury.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2019-09-22 12:36:07 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/dolphin-cay-real-estate-updates-12-months-ending-9-30-18-courtesy-of-deborah-eagan-realtor-and-dolphin-cay-resident/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "www.EaganLuxury.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2019-08-18 19:00:54 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/april-2019-dolphin-cay-real-estate-updates-12-months-ending-march-31-2019/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "www.EaganLuxury.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2021-07-23 15:40:14 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/blog/page/2/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2019-11-21 11:37:10 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/",
+      "target_url": "http://www.eaganluxury.com/dolphin-cay",
+      "anchor_text": "",
+      "domain_rating": 65,
+      "is_dofollow": true,
+      "first_seen": "2019-02-15 21:55:43 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://trustburn.com/photos/eaganluxury-com",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-30 05:12:53 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://trustburn.com/about/eaganluxury-com",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-30 05:12:49 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://trustburn.com/widgets/eaganluxury-com",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-30 05:12:47 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://trustburn.com/reviews/eaganluxury-com",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-28 23:35:15 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.digitaleel.com/before-after.php",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "www.eaganluxury.com",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-04-10 13:40:23 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.tierraverdefla.com/website-sponsor-bio/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "www.EaganLuxury.com",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2019-02-16 13:47:54 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://randylemmon.com/luxury-real-estate-2025-dolphin-cay-sonoma/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "Eagan Luxury",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-12-28 10:57:04 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 77
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/condo-market-update-september-2016/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "www.EaganLuxury.com",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2020-02-17 04:56:14 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/pinellas-trails-overview-expansion/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2022-03-23 20:01:24 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/single-family-home-market-update-september-2016/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "www.EaganLuxury.com",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2020-02-26 09:11:36 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/real-estate-powers-the-economy/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2021-07-23 15:15:03 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/debi-eagans-2018-tierra-verde-listing-ranks-15-in-tope-2018-residential-sales-in-tampa-bay-area/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2019-08-18 20:12:54 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.digitaleel.com/?utm_source=softwareworld.co&utm_medium=referral",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "www.eaganluxury.com",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-05-10 08:09:08 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/dolphin-cay-real-estate-sales-activity-update-93017/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2019-11-21 11:06:40 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/dolphin-cay-real-estate-sales-activity-update-93017/",
+      "target_url": "https://www.eaganluxury.com/featured-communities/dolphin-cay/",
+      "anchor_text": "https://www.eaganluxury.com/featured-communities/dolphin-cay/",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2019-11-21 11:06:40 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://davidpasqualone.com/content-type-media/blog/affiliate-insights/is-real-estate-still-a-good-investment/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "Eagan Luxury",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2026-04-17 08:58:36 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.digitaleel.com/accessibility.php",
+      "target_url": "http://www.eaganluxury.com/dolphin-cay",
+      "anchor_text": "www.dolphin-cay.com",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2026-04-10 13:40:11 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://snoozye.com/two-luxury-real-estate-markets-you-didnt-know-youd-fall-in-love-with/",
+      "target_url": "https://www.eaganluxury.com/dolphin-cay/",
+      "anchor_text": "Dolphin Cay Community",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-12-18 18:53:38 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/an-interview-with-john-jack-vanek-writer-dolphin-cay-resident/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2020-02-17 03:08:33 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/fort-desoto-beach-best-bay/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2020-02-26 10:46:44 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.tierraverdefla.com/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "",
+      "domain_rating": 26,
+      "is_dofollow": true,
+      "first_seen": "2026-04-12 00:48:28 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://globeconnected.com/Eagan-Luxury",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "www.eaganluxury.com/",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-24 02:30:48 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.digitaleel.com/testimonials.php",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "www.eaganluxury.com",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2021-07-26 04:53:54 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.digitaleel.com/testimonials.php",
+      "target_url": "http://www.eaganluxury.com/dolphin-cay",
+      "anchor_text": "www.dolphin-cay.com",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2019-01-22 14:59:46 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://zumvu.com/eaganluxury/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-07 22:17:20 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://www.dreamden.ai/unlocking-st-petersburg-s-waterfront-appeal-florida-s-cultural-coastal-gem-in-2026",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "buyer-friendly in condominium",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-20 02:01:45 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://jainebquintilla.pages.dev/mcjyagu-eagan-food-truck-festival-2024-lok-photos-wcvtdht/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "www.eaganluxury.com",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2024-07-13 23:44:57 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.tierraverdefla.com/business-categories/real-estate-property-management/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "Eagan Luxury – Deborah Eagan, Realtor®  Independent Agent with Keller-Williams Realty St. Pete.",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2021-07-23 19:34:42 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://devorabprissie.pages.dev/ardtcvn-eagan-food-truck-festival-2024-photos-nrmdake/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "www.eaganluxury.com",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2024-07-11 16:27:35 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://listsbiz.com/directory/company/eagan-luxury/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "http://www.eaganluxury.com/",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-12-18 22:24:10 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.pumpitupmagazine.com/why-homebuyers-are-prioritizing-wellness/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "Eagan Luxury",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-03-19 22:39:57 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://alidadelilah.pages.dev/oxhqvtz-eagan-food-truck-festival-2025-photos-qssndyj/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "www.eaganluxury.com",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2024-09-02 10:57:05 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.re-thinkingthefuture.com/technologies/gp6792-northern-nooks-uncovered-wisconsins-waterfront-wonders-and-midwest-market-moves/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "segments demonstrate promise",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-06 18:53:55 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://bye.fyi/report/81265",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-01 13:04:44 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://read.org.in/page-2d15a079969780215aec0232a85a08b6.html",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-05-03 14:52:45 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://globeconnected.com/directory/Real-Estate-Services",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "www.eaganluxury.com/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-23 09:01:05 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://globalecommerce.org/page-2d15a079969780215aec0232a85a08b6.html",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-04-19 20:15:07 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://mail.getwebsiteworth.com/0b98eb4b4efa9a072ad7f62c892f1c78-l/",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-04-18 15:24:01 +00:00"
+    },
+    {
+      "source_url": "https://slapshady.com/quarterlinks-dofollow-article-links-just-for-25-6170/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-06-08 02:10:32 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.tierraverdefla.com/business-directory/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "Eagan Luxury – Deborah Eagan, Realtor®  Independent Agent with Keller-Williams Realty St. Pete.",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2019-02-16 13:49:18 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://sergechel.info/list-861bc532be305d12bd14d801629f75dc",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-02-06 12:26:51 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "http://bluecantera.com/dark-side-links-dark-white-hat-link-building-105/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-23 00:54:11 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://kelas.seomuda.id/quarterlinks-dofollow-article-links-just-for-25-6170/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-23 16:13:27 +00:00"
+    },
+    {
+      "source_url": "https://drjack.world/report/81264",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-21 21:11:49 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "http://www.torun-stolarz.pl/dark-side-links-dark-white-hat-link-building-105/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-21 08:26:08 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://ycm.info/0b98eb4b4efa9a072ad7f62c892f1c78-l/",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-20 21:14:47 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.ododuorpremium.com/2026/02/21/dark-side-links-dark-white-hat-link-building-105/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-20 16:59:52 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://yepetta.blogspot.com/2021/02/29-best-photos-houses-for-sale-st-pete.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/06/stpetebeach.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-14 00:48:23 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://anchorurl.cloud/share/81264",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-02 05:56:40 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://berlin-immobilien-verkaufen.de/dark-side-links-dark-white-hat-link-building-105/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-20 11:56:33 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://shoplogist.com/dark-side-links-dark-white-hat-link-building-105/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-20 10:33:16 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://intentional-da10a.web.app/st-petersburg-fl-hotel-rooms.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/04/vinoy.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-12-20 01:19:21 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 64
+    },
+    {
+      "source_url": "https://intentional-da10a.web.app/st-petersburg-fl-hotel-pools.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/04/vinoy.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-12-19 16:38:43 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 64
+    },
+    {
+      "source_url": "https://intentional-da10a.web.app/st-petersburg-florida-hotel-vinoy.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/06/onestpete.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-12-19 18:47:41 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 64
+    },
+    {
+      "source_url": "https://webs.businessvocal.com/20/yFmdaTRkCW",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "visit eaganluxury.com for latest info",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-09-12 16:25:47 +00:00"
+    },
+    {
+      "source_url": "https://intentional-da10a.web.app/one-hotel-miami-residences-for-sale.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/04/vinoy.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-12-23 00:09:19 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 64
+    },
+    {
+      "source_url": "https://quero.party/report/81264",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-30 04:38:50 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://globeconnected.com/directory/cat.php?catPath=Real-Estate-Services",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "www.eaganluxury.com/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-17 10:31:57 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://intentional-da10a.web.app/st-petersburg-fl-hotel-suites.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/06/stpetebeach.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-12-22 07:39:53 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 64
+    },
+    {
+      "source_url": "https://intentional-da10a.web.app/st-pete-beach-plaza-hotel.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/06/elizabeth.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-09-09 19:04:53 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 64
+    },
+    {
+      "source_url": "https://screenshots.wiki/report/81264",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-29 14:44:03 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://m.businessseek.biz/business-directory/Luxury-Real-Estate-1.html",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "Eagan Luxury Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-02-12 12:23:41 +00:00"
+    },
+    {
+      "source_url": "https://buzzshrink.website/share/81265",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-09 06:12:51 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://arteza.fr/dark-side-links-dark-white-hat-link-building-105/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-08 17:33:54 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.businessseek.biz/business-directory/Luxury-Real-Estate-1.html",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "Eagan Luxury Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2019-01-18 05:41:59 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://australianwebdirectory.shop/page-2d15a079969780215aec0232a85a08b6.html",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-06 04:44:01 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.bizhwy.com/visit.php?biz=97389&state=Florida",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-19 21:13:42 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "http://www.cuevideos.com/bez-rubriki/dark-side-links-dark-white-hat-link-building-105/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-28 04:44:35 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://urls-shortener.eu/share/81264",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-26 20:14:12 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://sisgroup.lk/quarterlinks-dofollow-article-links-just-for-25-6170/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-13 01:38:25 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://getwebsiteworth.com/0b98eb4b4efa9a072ad7f62c892f1c78-l/",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-01 05:03:27 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.musweb.org/page-2d15a079969780215aec0232a85a08b6.html",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-12 21:02:43 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://patriciazkelci.pages.dev/vlgyk-st-pete-beach-events-april-2024-vskis/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "www.eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-07-06 21:06:08 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://quero.party/report/81265",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-02 04:20:35 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://drjack.world/report/81265",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-02 03:02:53 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://centralc.pages.dev/09/xtpkdXImLE",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-10-14 18:02:30 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://booksreadr.org/page-2d15a079969780215aec0232a85a08b6.html",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-04 20:42:26 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.websiterace.com/0b98eb4b4efa9a072ad7f62c892f1c78-l/",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-31 08:51:39 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://ready.pro/stats/81264",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-27 12:52:42 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://way2check.cv/page-2d15a079969780215aec0232a85a08b6.html",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-26 01:41:25 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.alljobs.info/0b98eb4b4efa9a072ad7f62c892f1c78-l/",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-25 19:38:45 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://global-website.pages.dev/34/xtpkdXImLE",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-11-14 12:17:44 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://developmentmi.com/making-tons-of-money-online-fast-the-affiliate-marketing-strategy-that-even-idiots-should-know-of/",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-11-19 04:27:38 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://26teasydebtpaycom.blogspot.com/2021/02/58-best-pictures-brunch-st-pete-beach.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/06/stpetebeach.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-07 13:36:46 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://en.seokicks.de/backlinks/www.thehurricane.com",
+      "target_url": "http://www.eaganluxury.com/featured-communities/pass-a-grille-beach/",
+      "anchor_text": "http://www.eaganluxury.com/featured-communities/pass-a-grille-beach/",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-09-17 00:45:57 +00:00"
+    },
+    {
+      "source_url": "https://en.seokicks.de/backlinks/www.thehurricane.com",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "http://www.eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-09-17 00:45:57 +00:00"
+    },
+    {
+      "source_url": "https://www.simplewebdirectory.com/0b98eb4b4efa9a072ad7f62c892f1c78-l/",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-17 07:06:46 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://bestphotoscircuit.blogspot.com/2021/07/st-petersburg-florida-st-petersburg.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/05/St_Pete_Skyline.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-11-05 14:12:11 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://autopsyproject.blogspot.com/2021/02/36-hq-images-st-pete-beach-real-estate.html",
+      "target_url": "http://www.eaganluxury.com/wp-content/uploads/2016/06/donc-1024x693.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-12-15 09:10:36 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://vboutsikos.blogspot.com/2021/03/30-top-pictures-downtown-st-pete-fl.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/06/onestpete.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-03-02 04:38:13 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://thecoconutshomede.blogspot.com/2021/02/56-hq-pictures-restaurants-downtown-st.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/05/St_Pete_Skyline.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-12-15 14:24:40 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://postbicycling.blogspot.com/2022/10/pass-grille-rental.html",
+      "target_url": "http://www.eaganluxury.com/wp-content/uploads/2016/06/passagrille2-1024x569.jpg",
+      "anchor_text": "Save Now",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-07-05 10:07:41 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.getwebsiteworth.com/0b98eb4b4efa9a072ad7f62c892f1c78-l/",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-25 17:37:51 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://panzerliedringtones.blogspot.com/2021/01/41-top-pictures-breakfast-st-petersburg.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/06/stpetebeach.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-13 20:45:58 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://peeweeunfabulous.blogspot.com/2021/06/sankt-petersburg-skyline-saint.html",
+      "target_url": "http://www.eaganluxury.com/wp-content/uploads/2016/05/St_Pete_Skyline.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-28 10:25:49 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://atikahheress.blogspot.com/2021/01/56-best-images-st-pete-beach-condos-for.html",
+      "target_url": "http://www.eaganluxury.com/wp-content/uploads/2016/06/donc-1024x693.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-07-20 03:06:58 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://mybusinessplaces.com/listing/eagan-luxury/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "http://www.eaganluxury.com/",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-12-19 01:35:55 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://ira-new.blogspot.com/2021/02/39-top-images-best-restaurants-downtown.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/05/St_Pete_Skyline.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-11-20 11:49:08 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.willettonuniforms.com.au/e-headquarters/eagan-luxury-real-estate-headquarters.html",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "Eagan Luxury Real Estate in St Petersburg Florida",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2022-01-18 03:45:45 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://playgroundmbh.blogspot.com/2021/07/st-petersburg-skyline-views-from-saint.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/06/onestpete.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-28 07:13:24 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://wwwsuzimaccraftycreations.blogspot.com/2021/07/st-petersburg-fl-st-petersburg-beaches.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/05/St_Pete_Skyline.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-05 18:50:22 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://jumali30g.blogspot.com/2021/07/pictures-of-st-pete-beach-florida.html",
+      "target_url": "http://www.eaganluxury.com/wp-content/uploads/2016/06/stpetebeach.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-16 14:23:01 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://old.wellicious.com/en/st-petersburg-florida-21-day-forecast.html",
+      "target_url": "http://www.eaganluxury.com/wp-content/uploads/2016/05/St_Pete_Skyline.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-12-09 14:54:04 +00:00"
+    },
+    {
+      "source_url": "https://summerdaymeals.blogspot.com/2021/07/cub-foods-eagan-north-whole-foods.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/06/broadwater-yacht-basin-770x375.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-11-06 00:08:03 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.smartwebdirectory.com/list/8032001/8033000/649013650e5b0b94cadb3c4bf192589a",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-12-02 01:00:46 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://allcipherpictures.blogspot.com/2021/07/st-petersburg-florida-beach-st-pete.html",
+      "target_url": "http://www.eaganluxury.com/wp-content/uploads/2016/06/stpetebeach.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-10-22 08:19:16 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://prispeopys.blogspot.com/2021/03/60-top-pictures-luxury-apartments.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/06/st-pete-the-cloisters-770x375.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-12 14:49:16 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://galleryeko3huruf.blogspot.com/2021/02/56-top-pictures-luxury-apartments.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/06/BLISSCONDO.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-11-05 07:43:30 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://galleryeko3huruf.blogspot.com/2021/02/56-top-pictures-luxury-apartments.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/06/onestpete.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-11-05 07:43:30 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://virginia-beach-lawyer.blogspot.com/2022/04/st-pete-beach-bars-for-sale.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/06/stpetebeach.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-30 06:39:10 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://downloadk310games.blogspot.com/2020/12/beach-weddings-in-st-petersburg-fl.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/06/stpetebeach.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-11 18:56:37 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://payday4loans4241000mgl.blogspot.com/2021/01/49-best-images-city-of-st-pete-beach.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/06/stpetebeach.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-31 08:43:06 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.dolphin-cay.com/whats-going-to-happen-with-home-prices-this-year/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-01-28 01:54:03 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://odongarcia.blogspot.com/2021/07/st-petersburg-florida-vintage-travel.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/05/St_Pete_Skyline.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-18 09:38:55 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://productionfunctionusa.com/quarterlinks-dofollow-article-links-just-for-25-6170/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-10 22:34:42 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://countrypoin.blogspot.com/2020/01/belleair-country-club-1-country-club-ln.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2019/07/214-coe-rd-770x375.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-20 16:19:50 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://quero.party/report/1645794",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-10-05 16:03:41 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://24hviaspigapurses.blogspot.com/2021/03/49-top-images-st-pete-marina-st.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/04/Marina-Bay.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-09-23 16:08:33 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://australianwebdirectory.pro/0b98eb4b4efa9a072ad7f62c892f1c78-l/",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-07 05:00:32 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://piscatore.dk/blog/2025/07/01/quarterlinks-dofollow-article-links-just-for-25-6170/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-09-13 00:58:59 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.globaldomains.xyz/folder33/6387/682368a030a052ec440c8bf2e0f504b6/",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-09-05 13:47:55 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 10
+    },
+    {
+      "source_url": "https://writerinarcadia.blogspot.com/2021/02/26-best-pictures-luxury-apartments.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/05/St_Pete_Skyline.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-11-19 01:08:46 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://home-directory.biz/html/Real_Estate/eagan_luxury_real_estate_13199.html",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "Eagan Luxury Real Estate",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-03 14:19:33 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://en.seokicks.de/backlinks/events.stpete.org",
+      "target_url": "http://www.eaganluxury.com/dolphin-cay",
+      "anchor_text": "http://www.dolphin-cay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-04-06 01:27:15 +00:00"
+    },
+    {
+      "source_url": "https://www.seokicks.de/backlinks/events.stpete.org",
+      "target_url": "http://www.eaganluxury.com/dolphin-cay",
+      "anchor_text": "http://www.dolphin-cay.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-04-06 04:41:30 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://globalcocolk.com/2025/07/01/quarterlinks-dofollow-article-links-just-for-25-6170/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-08-02 13:47:14 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.cocoqatar.com/quarterlinks-dofollow-article-links-just-for-25-6170/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-05-20 01:06:17 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://m-he.com/quarterlinks-dofollow-article-links-just-for-25-6170/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-31 10:14:00 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://ezeller.com/quarterlinks-dofollow-article-links-just-for-25-6170/",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-15 12:20:35 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://mundotecnologia.info/f33abecd5a0e04f14dc8d946bb056d72-domains.html",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-02-08 20:37:08 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.zoominfo.com/c/eagan-luxury-real-estate/400764372",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "www.eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-08 02:15:27 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://thebestbacklinksavailable.click/72eebe744696b5b1e970e32b9a14969e-items",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-07 10:50:39 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.bbb.org/us/fl/saint-petersburg/profile/real-estate-broker/eagan-luxury-real-estate-0653-90380703",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-05 01:20:33 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://agmermer.pro/447e8236ff06deb452c332de8b86cbbf-domains.html",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-14 22:52:42 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://browseallexpireddomains.us/239351f5efe419dc8a1708499b01596d-view.html",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-06 11:06:12 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://what-happens-next.xyz/list-cfe01b1bddf86b698e7fb697c9ed6409",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-06 18:48:56 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.shopandgetlocal.com/listing/eagan-luxury-real-estate/",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "http://www.eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-06-08 20:53:33 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://schumo-125e3.web.app/st-petersburg-fl-hotel-pools.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/04/vinoy.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-09-30 05:02:38 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 64
+    },
+    {
+      "source_url": "https://schumo-125e3.web.app/st-petersburg-florida-hotel-vinoy.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/06/onestpete.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-09-29 20:19:31 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 64
+    },
+    {
+      "source_url": "https://schumo-125e3.web.app/one-hotel-miami-residences-for-sale.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/04/vinoy.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-09-30 07:44:49 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 64
+    },
+    {
+      "source_url": "https://schumo-125e3.web.app/st-pete-beach-plaza-hotel.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/06/elizabeth.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-10-02 06:07:18 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 64
+    },
+    {
+      "source_url": "https://schumo-125e3.web.app/st-petersburg-fl-hotel-rooms.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/04/vinoy.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-09-28 12:07:25 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 64
+    },
+    {
+      "source_url": "https://schumo-125e3.web.app/st-petersburg-fl-hotel-suites.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/06/stpetebeach.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-09-28 10:53:18 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 64
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Saint-Petersburg/258589450977949/ServCo-LLC",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "http://www.EaganLuxury.com/",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-11-23 13:13:16 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.gloopla.com/US/Saint-Petersburg/151923308322158/Deborah-Eagan%2C-Luxury-Realtor-at-Keller-Williams-Realty-St.-Pete",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "www.EaganLuxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-11-15 01:58:56 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.seokicks.de/backlinks/www.sundialstpete.com",
+      "target_url": "http://www.eaganluxury.com/featured-communities/one/",
+      "anchor_text": "http://www.eaganluxury.com/featured-communities/one/",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-11-19 10:48:30 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://www.seokicks.de/backlinks/www.sundialstpete.com",
+      "target_url": "http://www.eaganluxury.com/",
+      "anchor_text": "http://www.eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-11-19 10:48:30 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://www.ispionage.com/Competitive_Intelligence_directory/e/124/eaganluxury_com_656167616E6C75787572792E636F6D",
+      "target_url": "https://www.eaganluxury.com/featured-communities/old-northeast-st-petersburg/",
+      "anchor_text": "Old Northeast Neighborhood Homes for Sale - Real Estate Listingshttps://www.eaganluxury.com/featured-communities/old-northea",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2022-09-28 20:00:33 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.ispionage.com/Competitive_Intelligence_directory/e/124/eaganluxury_com_656167616E6C75787572792E636F6D",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "Eagan Luxury Real Estate in St Petersburg Florida",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2022-09-28 20:00:33 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://great-choice-for-pbn-domains.co.uk/f1d2f6eab8492b7ff4ca478505347e84-str",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-03-29 03:33:49 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://belonnanotservice.ga/page-4838bed9dc562688f29c59bd0a32861b.html",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-27 04:49:53 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.ispionage.com/Competitive_Intelligence_directory/AU/e/35/eaganluxury_com_656167616E6C75787572792E636F6D",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "Eagan Luxury Real Estate in St Petersburg Florida",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-03-04 07:24:54 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.ispionage.com/Competitive_Intelligence_directory/UK/e/31/eaganluxury_com_656167616E6C75787572792E636F6D",
+      "target_url": "https://www.eaganluxury.com/",
+      "anchor_text": "Eagan Luxury Real Estate in St Petersburg Florida",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-09-23 13:31:57 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://seobacklinks.agency/professional-high-quality-dofollow-link-building-for-your-website-seo-65678/",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "https://eaganluxury.com – You need to Skyrocket your Ahrefs DR, Moz DA, and Majestic TF with real PBN, Guest posts, and premium backlinks—competitors trust us, why not you? Pay after work! Visit SeoBoost.agency now!",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-05-17 20:24:02 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://bbgirlbeautyde.blogspot.com/2021/01/51-top-pictures-st-pete-beach-condos.html",
+      "target_url": "http://www.eaganluxury.com/wp-content/uploads/2016/06/donc-1024x693.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-03-02 22:27:56 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://kompromat100.info/dom-id-9439086dd2f9f0e17eb7d4b349c7337b.html",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "eaganluxury.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-02-03 09:04:42 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://rapidshare-how-to.blogspot.com/2021/03/36-hq-images-downtown-st-petersburg-fl.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2018/04/image_6483441.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-07-19 16:27:23 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://porschemosier.blogspot.com/2022/07/la-gorce-country-club-scorecard.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2019/07/214-coe-rd.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-12-08 07:56:20 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://rankgrow.agency/risk-free-seo-backlinks-service-65678/",
+      "target_url": "https://eaganluxury.com/",
+      "anchor_text": "https://eaganluxury.com – Increase your site’s backlinks and skyrocket your DA, DR, and TF with our expert SEO services—authentic dofollow backlinks, guest posts, and PBN links delivered by our team. Visit BuySeoLink.com to choose a plan, enjoy our pay-after-work model, and access 24/7 support!",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-05-12 03:44:41 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://reganfritz.blogspot.com/2022/04/enterprise-car-rental-cocoa-beach.html",
+      "target_url": "https://www.eaganluxury.com/wp-content/uploads/2016/06/stpetebeach.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-10 18:55:25 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    }
+  ],
+  "referring_domains": [
+    {
+      "domain": "dolphin-cay.com",
+      "rank": 155,
+      "backlinks": 38,
+      "first_seen": "2019-02-15 21:55:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 27,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 155)"
+    },
+    {
+      "domain": "trustburn.com",
+      "rank": 63,
+      "backlinks": 6,
+      "first_seen": "2026-04-28 23:35:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 63)"
+    },
+    {
+      "domain": "callupcontact.com",
+      "rank": 51,
+      "backlinks": 1,
+      "first_seen": "2026-01-07 09:26:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 91,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 51)"
+    },
+    {
+      "domain": "vppages.com",
+      "rank": 51,
+      "backlinks": 2,
+      "first_seen": "2025-12-19 09:56:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 91,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 51)"
+    },
+    {
+      "domain": "local-biz.directory",
+      "rank": 51,
+      "backlinks": 1,
+      "first_seen": "2025-12-18 04:15:48 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 91,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 51)"
+    },
+    {
+      "domain": "digitaleel.com",
+      "rank": 44,
+      "backlinks": 5,
+      "first_seen": "2019-01-22 14:59:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "tierraverdefla.com",
+      "rank": 35,
+      "backlinks": 5,
+      "first_seen": "2019-02-16 13:47:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "businessseek.biz",
+      "rank": 28,
+      "backlinks": 3,
+      "first_seen": "2019-01-18 05:41:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "yourhomify.com",
+      "rank": 23,
+      "backlinks": 1,
+      "first_seen": "2026-01-17 00:59:19 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "randylemmon.com",
+      "rank": 7,
+      "backlinks": 2,
+      "first_seen": "2025-12-28 10:57:04 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 77,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "schumo-125e3.web.app",
+      "rank": 4,
+      "backlinks": 6,
+      "first_seen": "2024-09-28 10:53:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 6,
+      "domainQuality": "suspicious",
+      "qualityScore": 64,
+      "qualitySignals": [
+        "very-low-DR"
+      ],
+      "qualityReason": "very-low-DR"
+    },
+    {
+      "domain": "intentional-da10a.web.app",
+      "rank": 4,
+      "backlinks": 6,
+      "first_seen": "2023-12-19 16:38:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 6,
+      "domainQuality": "suspicious",
+      "qualityScore": 64,
+      "qualitySignals": [
+        "very-low-DR"
+      ],
+      "qualityReason": "very-low-DR"
+    },
+    {
+      "domain": "read.org.in",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-05-03 14:52:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "globalecommerce.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-19 20:15:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "davidpasqualone.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-17 08:58:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "seomuda.id",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-23 16:13:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign, SEO-spam-domain"
+    },
+    {
+      "domain": "torun-stolarz.pl",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-21 08:26:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign, telegram-spam-anchor"
+    },
+    {
+      "domain": "ycm.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-20 21:14:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "ododuorpremium.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-20 16:59:52 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "berlin-immobilien-verkaufen.de",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-20 11:56:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "shoplogist.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-20 10:33:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "pumpitupmagazine.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-19 22:39:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "buzzshrink.website",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-09 06:12:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "arteza.fr",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-08 17:33:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "australianwebdirectory.shop",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-06 04:44:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+    },
+    {
+      "domain": "cuevideos.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-28 04:44:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "urls-shortener.eu",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-26 20:14:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "bluecantera.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-23 00:54:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "dreamden.ai",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-20 02:01:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "musweb.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-12 21:02:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "zumvu.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-07 22:17:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "generic-anchor-low-DR",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, generic-anchor-low-DR, single-dofollow-DR0"
+    },
+    {
+      "domain": "booksreadr.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-04 20:42:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "anchorurl.cloud",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-02 05:56:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "screenshots.wiki",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-29 14:44:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "ready.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-27 12:52:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "way2check.cv",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-26 01:41:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "alljobs.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-25 19:38:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "simplewebdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-17 07:06:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+    },
+    {
+      "domain": "drjack.world",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-02 03:02:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "bye.fyi",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-01 13:04:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "websiterace.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-31 08:51:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "getwebsiteworth.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-12-25 17:37:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "globeconnected.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-12-23 09:01:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "bizhwy.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-19 21:13:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "mybusinessplaces.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-19 01:35:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "listsbiz.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-12-18 22:24:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "snoozye.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-12-18 18:53:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "re-thinkingthefuture.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-06 18:53:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "smartwebdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-02 01:00:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "summerdaymeals.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-06 00:08:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "bestphotoscircuit.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-05 14:12:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "allcipherpictures.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-10-22 08:19:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "quero.party",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-10-05 16:03:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "piscatore.dk",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-13 00:58:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "businessvocal.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-12 16:25:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "globaldomains.xyz",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-05 13:47:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 10,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD"
+      ],
+      "qualityReason": "DR-0, spam-TLD"
+    },
+    {
+      "domain": "home-directory.biz",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-03 14:19:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "australianwebdirectory.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-07 05:00:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+    },
+    {
+      "domain": "globalcocolk.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-02 13:47:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "m-he.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-31 10:14:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "ezeller.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-15 12:20:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "sisgroup.lk",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-13 01:38:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "productionfunctionusa.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-10 22:34:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "zoominfo.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-08 02:15:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "bbb.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-05 01:20:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "shopandgetlocal.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-06-08 20:53:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "slapshady.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-06-08 02:10:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "payday4loans4241000mgl.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-31 08:43:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "spam-keyword-in-domain",
+        "single-dofollow-DR0",
+        "suspiciously-long-domain",
+        "numeric-domain"
+      ],
+      "qualityReason": "DR-0, spam-keyword-in-domain, single-dofollow-DR0, suspiciously-long-domain, numeric-domain"
+    },
+    {
+      "domain": "belonnanotservice.ga",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-27 04:49:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, spam-TLD, single-dofollow-DR0"
+    },
+    {
+      "domain": "cocoqatar.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-20 01:06:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "seobacklinks.agency",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-17 20:24:02 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "agmermer.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-14 22:52:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "rankgrow.agency",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-12 03:44:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "reganfritz.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-10 18:55:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "thebestbacklinksavailable.click",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-04-07 10:50:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD",
+        "SEO-spam-domain",
+        "single-dofollow-DR0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, spam-TLD, SEO-spam-domain, single-dofollow-DR0, suspiciously-long-domain"
+    },
+    {
+      "domain": "what-happens-next.xyz",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-04-06 18:48:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, spam-TLD, single-dofollow-DR0"
+    },
+    {
+      "domain": "browseallexpireddomains.us",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-04-06 11:06:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "great-choice-for-pbn-domains.co.uk",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-03-29 03:33:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0, suspiciously-long-domain"
+    },
+    {
+      "domain": "mundotecnologia.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-02-08 20:37:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "sergechel.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-02-06 12:26:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "kompromat100.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-02-03 09:04:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "thecoconutshomede.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-12-15 14:24:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "autopsyproject.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-12-15 09:10:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "wellicious.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-12-09 14:54:04 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "developmentmi.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-11-19 04:27:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "writerinarcadia.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-11-19 01:08:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "gloopla.com",
+      "rank": 0,
+      "backlinks": 24,
+      "first_seen": "2024-11-15 01:58:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "24hviaspigapurses.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-09-23 16:08:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "alidadelilah.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-09-02 10:57:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "atikahheress.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-07-20 03:06:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "rapidshare-how-to.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-07-19 16:27:23 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "jainebquintilla.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-07-13 23:44:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "devorabprissie.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-07-11 16:27:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "patriciazkelci.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-07-06 21:06:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "postbicycling.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-07-05 10:07:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "bbgirlbeautyde.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-03-02 22:27:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "vboutsikos.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-03-02 04:38:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "porschemosier.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-12-08 07:56:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "ira-new.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-11-20 11:49:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "seokicks.de",
+      "rank": 0,
+      "backlinks": 6,
+      "first_seen": "2023-11-19 10:48:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 6,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "global-website.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-11-14 12:17:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "galleryeko3huruf.blogspot.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2023-11-05 07:43:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "virginia-beach-lawyer.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-30 06:39:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0, suspiciously-long-domain"
+    },
+    {
+      "domain": "peeweeunfabulous.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-28 10:25:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "playgroundmbh.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-28 07:13:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "countrypoin.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-20 16:19:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "odongarcia.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-18 09:38:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "jumali30g.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-16 14:23:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "centralc.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-14 18:02:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "yepetta.blogspot.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2023-10-14 00:48:23 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "panzerliedringtones.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-13 20:45:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0, suspiciously-long-domain"
+    },
+    {
+      "domain": "prispeopys.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-12 14:49:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "downloadk310games.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-11 18:56:37 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "26teasydebtpaycom.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-07 13:36:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "wwwsuzimaccraftycreations.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-05 18:50:22 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0, suspiciously-long-domain"
+    },
+    {
+      "domain": "ispionage.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2022-09-28 20:00:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "willettonuniforms.com.au",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2022-01-18 03:45:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    }
+  ],
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-05-05T18:40:56.558Z",
+  "qualitySummary": {
+    "total": 117,
+    "legitimate": 11,
+    "suspicious": 29,
+    "spam": 77,
+    "legitimatePct": 9,
+    "suspiciousPct": 25,
+    "spamPct": 66,
+    "topLegitimate": [
+      {
+        "domain": "dolphin-cay.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 155)"
+      },
+      {
+        "domain": "trustburn.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 63)"
+      },
+      {
+        "domain": "digitaleel.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "tierraverdefla.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "businessseek.biz",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "yourhomify.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "callupcontact.com",
+        "quality": "legitimate",
+        "score": 91,
+        "reason": "High domain authority (DR 51)"
+      },
+      {
+        "domain": "vppages.com",
+        "quality": "legitimate",
+        "score": 91,
+        "reason": "High domain authority (DR 51)"
+      },
+      {
+        "domain": "local-biz.directory",
+        "quality": "legitimate",
+        "score": 91,
+        "reason": "High domain authority (DR 51)"
+      },
+      {
+        "domain": "randylemmon.com",
+        "quality": "legitimate",
+        "score": 77,
+        "reason": "low-DR"
+      },
+      {
+        "domain": "bbb.org",
+        "quality": "legitimate",
+        "score": 50,
+        "reason": "Recognized legitimate domain"
+      }
+    ],
+    "topSpam": [
+      {
+        "domain": "seomuda.id",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, low-DR-foreign, SEO-spam-domain"
+      },
+      {
+        "domain": "torun-stolarz.pl",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, low-DR-foreign, telegram-spam-anchor"
+      },
+      {
+        "domain": "ododuorpremium.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "berlin-immobilien-verkaufen.de",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "shoplogist.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "arteza.fr",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "australianwebdirectory.shop",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+      },
+      {
+        "domain": "cuevideos.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "bluecantera.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "simplewebdirectory.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+      },
+      {
+        "domain": "piscatore.dk",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "australianwebdirectory.pro",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+      },
+      {
+        "domain": "globalcocolk.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "m-he.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "ezeller.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "sisgroup.lk",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "productionfunctionusa.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "slapshady.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "payday4loans4241000mgl.blogspot.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, spam-keyword-in-domain, single-dofollow-DR0, suspiciously-long-domain, numeric-domain"
+      },
+      {
+        "domain": "belonnanotservice.ga",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, spam-TLD, single-dofollow-DR0"
+      }
+    ],
+    "analyzedAt": "2026-05-05T18:41:28.131Z",
+    "method": "rule-based-v1"
+  }
+}

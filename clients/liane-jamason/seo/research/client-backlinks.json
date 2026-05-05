@@ -334,6 +334,206 @@
       "first_seen": "2025-05-04 01:30:36 +00:00"
     },
     {
+      "source_url": "https://dorothyoallie.pages.dev/siaui-davis-island-florida-map-vhzpm-photos/",
+      "target_url": "https://www.lianejamason.com/",
+      "anchor_text": "www.lianejamason.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-08-05 02:11:39 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.wallpapers.pro/bd9c89de7091beacb54b8d17204f8897-l/",
+      "target_url": "https://lianejamason.com/",
+      "anchor_text": "lianejamason.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-28 20:09:04 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://stpeterising.com/home/tag/Projects",
+      "target_url": "http://www.lianejamason.com/condos/bliss-condos-coming-to-downtown-st-petes-beach-drive/",
+      "anchor_text": "post",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-03 21:59:51 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 67
+    },
+    {
+      "source_url": "https://stpeterising.com/home/tag/Bliss",
+      "target_url": "http://www.lianejamason.com/condos/bliss-condos-coming-to-downtown-st-petes-beach-drive/",
+      "anchor_text": "post",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2022-09-17 02:14:59 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 67
+    },
+    {
+      "source_url": "https://stpeterising.com/home/2014/06/05/project-bliss-condominiums",
+      "target_url": "http://www.lianejamason.com/condos/bliss-condos-coming-to-downtown-st-petes-beach-drive/",
+      "anchor_text": "post",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-09-02 11:55:18 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 67
+    },
+    {
+      "source_url": "https://stpeterising.com/home/tag/Beach+Drive",
+      "target_url": "http://www.lianejamason.com/condos/bliss-condos-coming-to-downtown-st-petes-beach-drive/",
+      "anchor_text": "post",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-10-16 21:22:04 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 67
+    },
+    {
+      "source_url": "https://www.vacationhomerents.com/bars-indian-shores-fl",
+      "target_url": "https://www.lianejamason.com/st-petersburg-restaurants/five-fantastic-farm-to-table-restaurants-in-st-pete/",
+      "anchor_text": "Five Fantastic Farm-to-Table Restaurants in St. Pete",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2022-04-17 13:32:37 +00:00"
+    },
+    {
+      "source_url": "https://www.vacationhomerents.com/italian-restaurants-indian-shores-fl",
+      "target_url": "https://www.lianejamason.com/st-petersburg-restaurants/five-fantastic-farm-to-table-restaurants-in-st-pete/",
+      "anchor_text": "Five Fantastic Farm-to-Table Restaurants in St. Pete",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2022-04-17 13:17:13 +00:00"
+    },
+    {
+      "source_url": "https://www.vacationhomerents.com/chinese-restaurants-saint-pete-beach-fl",
+      "target_url": "https://www.lianejamason.com/st-petersburg-restaurants/five-fantastic-farm-to-table-restaurants-in-st-pete/",
+      "anchor_text": "Five Fantastic Farm-to-Table Restaurants in St. Pete",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-02-06 09:28:19 +00:00"
+    },
+    {
+      "source_url": "https://www.aircabins.com/family-restaurants-tampa-fl-cabin-rentals",
+      "target_url": "https://www.lianejamason.com/st-petersburg-restaurants/five-fantastic-farm-to-table-restaurants-in-st-pete/",
+      "anchor_text": "Five Fantastic Farm-to-Table Restaurants in St. Pete",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2023-10-18 16:06:45 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://screenshots.wiki/report/59465",
+      "target_url": "https://lianejamason.com/",
+      "anchor_text": "lianejamason.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-04 22:18:02 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.huffpost.com/entry/odd-photos-real-estate-listings_n_3795541",
+      "target_url": "http://www.lianejamason.com/category/bad-mls-photos/",
+      "anchor_text": "Liane Jamason's",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-07-06 06:16:55 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://blog.investmentpal.com/social-media-savvy-realtors-and-brokers/",
+      "target_url": "http://www.lianejamason.com/blog",
+      "anchor_text": "Liane Jamason",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-04-27 15:24:14 +00:00"
+    },
+    {
+      "source_url": "https://lantern.llc/fl/st-petersburg/professional-services/real-estate",
+      "target_url": "http://www.lianejamason.com/?utm_source=lantern.llc&utm_medium=referral&utm_campaign=listing",
+      "anchor_text": "lianejamason.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-04-23 16:21:47 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://lantern.llc/tampa-bay/professional-services/real-estate",
+      "target_url": "http://www.lianejamason.com/?utm_source=lantern.llc&utm_medium=referral&utm_campaign=listing",
+      "anchor_text": "lianejamason.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-04-22 23:42:55 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://globalecommerce.org/page-8f321b421abc178f8841c5fc2d6f2c3a.html",
+      "target_url": "https://lianejamason.com/",
+      "anchor_text": "lianejamason.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-07 18:58:39 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://directory.reviewsonmywebsite.com/real-estate-agencies/fl/st-petersburg",
+      "target_url": "http://www.lianejamason.com/",
+      "anchor_text": "Visit website",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-04-19 13:49:03 +00:00"
+    },
+    {
+      "source_url": "https://alljobs.info/bd9c89de7091beacb54b8d17204f8897-l/",
+      "target_url": "https://lianejamason.com/",
+      "anchor_text": "lianejamason.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-06 22:42:27 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://cool-winter.web.app/pier-1-winter-haven-fl.html",
+      "target_url": "https://www.lianejamason.com/wp-content/uploads/2014/05/1-DSC_0565.jpg",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-01 13:25:45 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://kelliymellie.pages.dev/eybdyat-davis-island-map-photos-ggpillr/",
+      "target_url": "https://www.lianejamason.com/",
+      "anchor_text": "www.lianejamason.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-01-01 23:05:19 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.elitorres.com/blog/hey-sellers-heres-how-to-spark-a-bidding-war-for-your-home-by-realtorcom",
+      "target_url": "http://www.lianejamason.com/",
+      "anchor_text": "Smith & Associates Real Estate,",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-13 03:12:04 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
       "source_url": "https://www.websiterace.com/bd9c89de7091beacb54b8d17204f8897-l/",
       "target_url": "https://lianejamason.com/",
       "anchor_text": "lianejamason.com",
@@ -766,16 +966,6 @@
       "first_seen": "2023-10-03 22:13:08 +00:00"
     },
     {
-      "source_url": "https://alljobs.info/bd9c89de7091beacb54b8d17204f8897-l/",
-      "target_url": "https://lianejamason.com/",
-      "anchor_text": "lianejamason.com",
-      "domain_rating": null,
-      "is_dofollow": true,
-      "first_seen": "2026-03-06 22:42:27 +00:00",
-      "domainQuality": "suspicious",
-      "qualityScore": 50
-    },
-    {
       "source_url": "https://xedulichdaklak.com/dark-side-links-dark-white-hat-link-building-1330.html",
       "target_url": "https://www.lianejamason.com/",
       "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
@@ -824,26 +1014,6 @@
       "first_seen": "2023-10-05 03:14:32 +00:00"
     },
     {
-      "source_url": "https://stpeterising.com/home/2014/06/05/project-bliss-condominiums",
-      "target_url": "http://www.lianejamason.com/condos/bliss-condos-coming-to-downtown-st-petes-beach-drive/",
-      "anchor_text": "post",
-      "domain_rating": null,
-      "is_dofollow": true,
-      "first_seen": "2023-09-02 11:55:18 +00:00",
-      "domainQuality": "suspicious",
-      "qualityScore": 67
-    },
-    {
-      "source_url": "https://stpeterising.com/home/tag/Projects",
-      "target_url": "http://www.lianejamason.com/condos/bliss-condos-coming-to-downtown-st-petes-beach-drive/",
-      "anchor_text": "post",
-      "domain_rating": null,
-      "is_dofollow": true,
-      "first_seen": "2025-08-03 21:59:51 +00:00",
-      "domainQuality": "suspicious",
-      "qualityScore": 67
-    },
-    {
       "source_url": "https://mabelleztove.pages.dev/qwtqr-venetian-isles-calendar-of-events-for-april-2024-sascd/",
       "target_url": "https://www.lianejamason.com/",
       "anchor_text": "www.lianejamason.com",
@@ -870,16 +1040,6 @@
       "domain_rating": null,
       "is_dofollow": false,
       "first_seen": "2023-06-20 07:44:14 +00:00"
-    },
-    {
-      "source_url": "https://www.wallpapers.pro/bd9c89de7091beacb54b8d17204f8897-l/",
-      "target_url": "https://lianejamason.com/",
-      "anchor_text": "lianejamason.com",
-      "domain_rating": null,
-      "is_dofollow": true,
-      "first_seen": "2026-02-28 20:09:04 +00:00",
-      "domainQuality": "spam",
-      "qualityScore": 30
     },
     {
       "source_url": "https://www.getwebsiteworth.com/bd9c89de7091beacb54b8d17204f8897-l/",
@@ -960,14 +1120,6 @@
       "first_seen": "2026-02-24 03:33:25 +00:00"
     },
     {
-      "source_url": "https://directory.reviewsonmywebsite.com/real-estate-agencies/fl/st-petersburg",
-      "target_url": "http://www.lianejamason.com/",
-      "anchor_text": "Visit website",
-      "domain_rating": null,
-      "is_dofollow": true,
-      "first_seen": "2025-04-19 13:49:03 +00:00"
-    },
-    {
       "source_url": "https://bluecantera.com/dark-side-links-dark-white-hat-link-building-1330/",
       "target_url": "https://www.lianejamason.com/",
       "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
@@ -976,26 +1128,6 @@
       "first_seen": "2026-02-23 00:05:45 +00:00",
       "domainQuality": "spam",
       "qualityScore": 0
-    },
-    {
-      "source_url": "https://stpeterising.com/home/tag/Beach+Drive",
-      "target_url": "http://www.lianejamason.com/condos/bliss-condos-coming-to-downtown-st-petes-beach-drive/",
-      "anchor_text": "post",
-      "domain_rating": null,
-      "is_dofollow": true,
-      "first_seen": "2023-10-16 21:22:04 +00:00",
-      "domainQuality": "suspicious",
-      "qualityScore": 67
-    },
-    {
-      "source_url": "https://www.aircabins.com/family-restaurants-tampa-fl-cabin-rentals",
-      "target_url": "https://www.lianejamason.com/st-petersburg-restaurants/five-fantastic-farm-to-table-restaurants-in-st-pete/",
-      "anchor_text": "Five Fantastic Farm-to-Table Restaurants in St. Pete",
-      "domain_rating": null,
-      "is_dofollow": false,
-      "first_seen": "2023-10-18 16:06:45 +00:00",
-      "domainQuality": "suspicious",
-      "qualityScore": 50
     },
     {
       "source_url": "https://www.hotels-in-miami.com/arts-and-culture-university-fl",
@@ -1014,30 +1146,6 @@
       "first_seen": "2024-07-26 13:36:39 +00:00",
       "domainQuality": "suspicious",
       "qualityScore": 50
-    },
-    {
-      "source_url": "https://www.vacationhomerents.com/chinese-restaurants-saint-pete-beach-fl",
-      "target_url": "https://www.lianejamason.com/st-petersburg-restaurants/five-fantastic-farm-to-table-restaurants-in-st-pete/",
-      "anchor_text": "Five Fantastic Farm-to-Table Restaurants in St. Pete",
-      "domain_rating": null,
-      "is_dofollow": false,
-      "first_seen": "2023-02-06 09:28:19 +00:00"
-    },
-    {
-      "source_url": "https://www.vacationhomerents.com/bars-indian-shores-fl",
-      "target_url": "https://www.lianejamason.com/st-petersburg-restaurants/five-fantastic-farm-to-table-restaurants-in-st-pete/",
-      "anchor_text": "Five Fantastic Farm-to-Table Restaurants in St. Pete",
-      "domain_rating": null,
-      "is_dofollow": false,
-      "first_seen": "2022-04-17 13:32:37 +00:00"
-    },
-    {
-      "source_url": "https://www.vacationhomerents.com/italian-restaurants-indian-shores-fl",
-      "target_url": "https://www.lianejamason.com/st-petersburg-restaurants/five-fantastic-farm-to-table-restaurants-in-st-pete/",
-      "anchor_text": "Five Fantastic Farm-to-Table Restaurants in St. Pete",
-      "domain_rating": null,
-      "is_dofollow": false,
-      "first_seen": "2022-04-17 13:17:13 +00:00"
     },
     {
       "source_url": "https://prlog.ru/analysis/signaturestpete.com",
@@ -1074,26 +1182,6 @@
       "domain_rating": null,
       "is_dofollow": false,
       "first_seen": "2026-02-13 08:42:49 +00:00"
-    },
-    {
-      "source_url": "https://www.elitorres.com/blog/hey-sellers-heres-how-to-spark-a-bidding-war-for-your-home-by-realtorcom",
-      "target_url": "http://www.lianejamason.com/",
-      "anchor_text": "Smith & Associates Real Estate,",
-      "domain_rating": null,
-      "is_dofollow": true,
-      "first_seen": "2026-02-13 03:12:04 +00:00",
-      "domainQuality": "spam",
-      "qualityScore": 30
-    },
-    {
-      "source_url": "https://stpeterising.com/home/tag/Bliss",
-      "target_url": "http://www.lianejamason.com/condos/bliss-condos-coming-to-downtown-st-petes-beach-drive/",
-      "anchor_text": "post",
-      "domain_rating": null,
-      "is_dofollow": true,
-      "first_seen": "2022-09-17 02:14:59 +00:00",
-      "domainQuality": "suspicious",
-      "qualityScore": 67
     },
     {
       "source_url": "https://stpeterising.com/bliss",
@@ -1178,26 +1266,6 @@
       "first_seen": "2023-09-26 07:02:36 +00:00"
     },
     {
-      "source_url": "https://dorothyoallie.pages.dev/siaui-davis-island-florida-map-vhzpm-photos/",
-      "target_url": "https://www.lianejamason.com/",
-      "anchor_text": "www.lianejamason.com",
-      "domain_rating": null,
-      "is_dofollow": false,
-      "first_seen": "2024-08-05 02:11:39 +00:00",
-      "domainQuality": "suspicious",
-      "qualityScore": 50
-    },
-    {
-      "source_url": "https://screenshots.wiki/report/59465",
-      "target_url": "https://lianejamason.com/",
-      "anchor_text": "lianejamason.com",
-      "domain_rating": null,
-      "is_dofollow": false,
-      "first_seen": "2026-02-04 22:18:02 +00:00",
-      "domainQuality": "suspicious",
-      "qualityScore": 50
-    },
-    {
       "source_url": "https://bestpicturescorporation.blogspot.com/2021/07/boat-slip-rental-st-pete-beach-boat.html",
       "target_url": "https://www.lianejamason.com/wp-content/uploads/2016/05/IC_Sharks.jpg",
       "anchor_text": "",
@@ -1260,16 +1328,6 @@
       "domain_rating": null,
       "is_dofollow": false,
       "first_seen": "2026-01-29 06:55:24 +00:00",
-      "domainQuality": "suspicious",
-      "qualityScore": 50
-    },
-    {
-      "source_url": "https://kelliymellie.pages.dev/eybdyat-davis-island-map-photos-ggpillr/",
-      "target_url": "https://www.lianejamason.com/",
-      "anchor_text": "www.lianejamason.com",
-      "domain_rating": null,
-      "is_dofollow": false,
-      "first_seen": "2025-01-01 23:05:19 +00:00",
       "domainQuality": "suspicious",
       "qualityScore": 50
     },
@@ -1372,16 +1430,6 @@
       "first_seen": "2025-11-06 03:34:09 +00:00",
       "domainQuality": "spam",
       "qualityScore": 30
-    },
-    {
-      "source_url": "https://www.alljobs.info/bd9c89de7091beacb54b8d17204f8897-l/",
-      "target_url": "https://lianejamason.com/",
-      "anchor_text": "lianejamason.com",
-      "domain_rating": null,
-      "is_dofollow": true,
-      "first_seen": "2026-01-20 19:08:11 +00:00",
-      "domainQuality": "suspicious",
-      "qualityScore": 50
     },
     {
       "source_url": "https://listcolor.vercel.app/posts/example-of-a-gift-letter-for-down-payment_1/",
@@ -1563,9 +1611,7 @@
       "anchor_text": "",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2023-10-18 09:51:46 +00:00",
-      "domainQuality": "spam",
-      "qualityScore": 30
+      "first_seen": "2023-10-18 09:51:46 +00:00"
     },
     {
       "source_url": "https://bestpicturesstate.blogspot.com/2021/07/tiki-boat-rental-st-pete-beach.html",
@@ -1636,16 +1682,6 @@
       "domain_rating": null,
       "is_dofollow": true,
       "first_seen": "2025-12-28 05:00:40 +00:00",
-      "domainQuality": "spam",
-      "qualityScore": 30
-    },
-    {
-      "source_url": "https://www.huffpost.com/entry/odd-photos-real-estate-listings_n_3795541",
-      "target_url": "http://www.lianejamason.com/category/bad-mls-photos/",
-      "anchor_text": "Liane Jamason's",
-      "domain_rating": null,
-      "is_dofollow": true,
-      "first_seen": "2025-07-06 06:16:55 +00:00",
       "domainQuality": "spam",
       "qualityScore": 30
     },
@@ -1763,9 +1799,7 @@
       "anchor_text": "Here is an article listing the St Petersburg, FL beaches that allow drinking in Pinellas County.",
       "domain_rating": null,
       "is_dofollow": true,
-      "first_seen": "2023-10-18 05:34:21 +00:00",
-      "domainQuality": "spam",
-      "qualityScore": 30
+      "first_seen": "2023-10-18 05:34:21 +00:00"
     },
     {
       "source_url": "https://hoeyuli.blogspot.com/2022/10/apollo-beach-restaurants-circles.html",
@@ -1818,16 +1852,6 @@
       "qualityScore": 0
     },
     {
-      "source_url": "https://globalecommerce.org/page-8f321b421abc178f8841c5fc2d6f2c3a.html",
-      "target_url": "https://lianejamason.com/",
-      "anchor_text": "lianejamason.com",
-      "domain_rating": null,
-      "is_dofollow": true,
-      "first_seen": "2025-12-07 18:58:39 +00:00",
-      "domainQuality": "spam",
-      "qualityScore": 30
-    },
-    {
       "source_url": "http://floodinsuranceyukeise.blogspot.com/2017/02/zone-ae-flood-insurance-rates.html",
       "target_url": "http://www.lianejamason.com/wp-content/uploads/2014/01/image001.png",
       "anchor_text": "",
@@ -1876,34 +1900,6 @@
       "domain_rating": null,
       "is_dofollow": true,
       "first_seen": "2023-10-12 06:39:28 +00:00"
-    },
-    {
-      "source_url": "https://venusseaman.blogspot.com/2022/05/saltaire-st-pete-rising.html",
-      "target_url": "https://www.lianejamason.com/wp-content/uploads/2021/06/Screen-Shot-2021-06-28-at-10.45.03-AM.png",
-      "anchor_text": "",
-      "domain_rating": null,
-      "is_dofollow": true,
-      "first_seen": "2025-10-13 16:45:18 +00:00",
-      "domainQuality": "spam",
-      "qualityScore": 30
-    },
-    {
-      "source_url": "https://lahistorianuestra2010.blogspot.com/2022/08/buddy-brew-coffee-st-pete.html",
-      "target_url": "https://www.lianejamason.com/wp-content/uploads/2018/07/o.jpg",
-      "anchor_text": "",
-      "domain_rating": null,
-      "is_dofollow": true,
-      "first_seen": "2024-01-25 05:41:32 +00:00",
-      "domainQuality": "spam",
-      "qualityScore": 10
-    },
-    {
-      "source_url": "https://old.wellicious.com/en/belle-harbor-bellevue.html",
-      "target_url": "https://www.lianejamason.com/wp-content/uploads/2016/05/12837299_10154160061039238_530419327_o-1024x768.jpg",
-      "anchor_text": "",
-      "domain_rating": null,
-      "is_dofollow": true,
-      "first_seen": "2024-12-08 18:32:56 +00:00"
     }
   ],
   "referring_domains": [
@@ -2011,6 +2007,34 @@
         "known-legitimate-domain"
       ],
       "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "investmentpal.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-27 15:24:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "lantern.llc",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-04-22 23:42:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
     },
     {
       "domain": "wijbewegenzodatuvooruitgaat.be",
@@ -2192,6 +2216,21 @@
         "telegram-spam-anchor"
       ],
       "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "alljobs.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-06 22:42:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "xedulichdaklak.com",
@@ -2428,20 +2467,6 @@
         "suspiciously-long-domain"
       ],
       "qualityReason": "DR-0, single-dofollow-DR0, suspiciously-long-domain"
-    },
-    {
-      "domain": "alljobs.info",
-      "rank": 0,
-      "backlinks": 2,
-      "first_seen": "2026-01-20 19:08:11 +00:00",
-      "dofollow": 0,
-      "referring_pages": 2,
-      "domainQuality": "suspicious",
-      "qualityScore": 50,
-      "qualitySignals": [
-        "DR-0"
-      ],
-      "qualityReason": "DR-0"
     },
     {
       "domain": "simplewebdirectory.com",
@@ -2745,13 +2770,12 @@
       "first_seen": "2025-10-13 16:45:18 +00:00",
       "dofollow": 0,
       "referring_pages": 1,
-      "domainQuality": "spam",
-      "qualityScore": 30,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
       "qualitySignals": [
-        "DR-0",
-        "single-dofollow-DR0"
+        "DR-0"
       ],
-      "qualityReason": "DR-0, single-dofollow-DR0"
+      "qualityReason": "DR-0"
     },
     {
       "domain": "yuzubatunanas.web.app",
@@ -2917,12 +2941,13 @@
       "first_seen": "2025-08-01 13:25:45 +00:00",
       "dofollow": 0,
       "referring_pages": 1,
-      "domainQuality": "suspicious",
-      "qualityScore": 50,
+      "domainQuality": "spam",
+      "qualityScore": 30,
       "qualitySignals": [
-        "DR-0"
+        "DR-0",
+        "single-dofollow-DR0"
       ],
-      "qualityReason": "DR-0"
+      "qualityReason": "DR-0, single-dofollow-DR0"
     },
     {
       "domain": "astrologlar.com",
@@ -4189,14 +4214,13 @@
       "dofollow": 0,
       "referring_pages": 1,
       "domainQuality": "spam",
-      "qualityScore": 10,
+      "qualityScore": 30,
       "qualitySignals": [
         "DR-0",
-        "single-dofollow-DR0",
         "suspiciously-long-domain",
         "numeric-domain"
       ],
-      "qualityReason": "DR-0, single-dofollow-DR0, suspiciously-long-domain, numeric-domain"
+      "qualityReason": "DR-0, suspiciously-long-domain, numeric-domain"
     },
     {
       "domain": "mortgageoyaoku.blogspot.com",
@@ -4783,49 +4807,19 @@
         "single-dofollow-DR0"
       ],
       "qualityReason": "DR-0, single-dofollow-DR0"
-    },
-    {
-      "domain": "pattiadams.blogspot.com",
-      "rank": 0,
-      "backlinks": 1,
-      "first_seen": "2023-10-18 09:51:46 +00:00",
-      "dofollow": 0,
-      "referring_pages": 1,
-      "domainQuality": "spam",
-      "qualityScore": 30,
-      "qualitySignals": [
-        "DR-0",
-        "single-dofollow-DR0"
-      ],
-      "qualityReason": "DR-0, single-dofollow-DR0"
-    },
-    {
-      "domain": "anediblemosaic.com",
-      "rank": 0,
-      "backlinks": 1,
-      "first_seen": "2023-10-18 05:34:21 +00:00",
-      "dofollow": 0,
-      "referring_pages": 1,
-      "domainQuality": "spam",
-      "qualityScore": 30,
-      "qualitySignals": [
-        "DR-0",
-        "single-dofollow-DR0"
-      ],
-      "qualityReason": "DR-0, single-dofollow-DR0"
     }
   ],
   "errors": [],
   "status": "success",
-  "gatheredAt": "2026-04-15T12:19:55.212Z",
+  "gatheredAt": "2026-05-05T18:40:55.896Z",
   "qualitySummary": {
     "total": 200,
     "legitimate": 7,
-    "suspicious": 116,
-    "spam": 77,
+    "suspicious": 117,
+    "spam": 76,
     "legitimatePct": 4,
-    "suspiciousPct": 58,
-    "spamPct": 39,
+    "suspiciousPct": 59,
+    "spamPct": 38,
     "topLegitimate": [
       {
         "domain": "howzes.com",
@@ -4992,7 +4986,7 @@
         "reason": "DR-0, low-DR-foreign, single-dofollow-DR0"
       }
     ],
-    "analyzedAt": "2026-04-15T16:55:15.501Z",
+    "analyzedAt": "2026-05-05T18:41:28.121Z",
     "method": "rule-based-v1"
   }
 }

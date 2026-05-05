@@ -1,21 +1,4414 @@
 {
   "domain": "laurawillisrealestate.com",
-  "totalBacklinks": null,
-  "referringDomains": null,
-  "backlinks": null,
-  "referring_domains": null,
-  "errors": [
+  "totalBacklinks": 200,
+  "referringDomains": 161,
+  "backlinks": [
     {
-      "endpoint": "backlinks",
-      "code": 40207,
-      "reason": "Access denied. Your IP is not whitelisted. You can modify your IP whitelist in the user panel https://app.dataforseo.com/api-access ."
+      "source_url": "http://parkcityutahhomes4sale.com/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "",
+      "domain_rating": 120,
+      "is_dofollow": true,
+      "first_seen": "2019-01-21 20:13:54 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 96
     },
     {
-      "endpoint": "referring_domains",
-      "code": 40207,
-      "reason": "Access denied. Your IP is not whitelisted. You can modify your IP whitelist in the user panel https://app.dataforseo.com/api-access ."
+      "source_url": "https://www.callupcontact.com/b/businessprofile/Summit_Sotheby039s_International_Realty/6927172",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "http://parkcityutahhomes4sale.com/",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2024-06-10 03:32:03 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://twilightteens.com/different-types-of-real-estate-agents/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-utah-real-estate-for-sale-home-condos-land/",
+      "anchor_text": "homes for sale in Park City, Utah",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-10-26 13:55:16 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 91
+    },
+    {
+      "source_url": "https://www.rainbowbayfestival.com/learning-the-secrets-of-29/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "address",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-05-25 15:54:54 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 91
+    },
+    {
+      "source_url": "http://www.saphirhotels.com/study-my-understanding-of-22/2195",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "find out this here",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-03-25 18:53:47 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 91
+    },
+    {
+      "source_url": "http://deervalleyluxuryrealestate.com/",
+      "target_url": "http://www.laurawillisrealestate.com/deer-valley",
+      "anchor_text": "",
+      "domain_rating": 98,
+      "is_dofollow": true,
+      "first_seen": "2025-06-13 08:43:12 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://dreamsofalife.com/condo-vs-house-which-should-you-buy/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-utah-real-estate-for-sale-home-condos-land/",
+      "anchor_text": "search real estate for sale",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-09-03 23:51:58 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.residenzpflicht.info/the-10-best-resources-for-8/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City Luxury Real Estate",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-05-27 08:06:43 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://syndication.cloud/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": 67,
+      "is_dofollow": true,
+      "first_seen": "2026-01-04 20:23:11 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://syndication.cloud/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
+      "anchor_text": "Park City Realtor",
+      "domain_rating": 67,
+      "is_dofollow": true,
+      "first_seen": "2026-01-04 20:23:11 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://syndication.cloud/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City real estate",
+      "domain_rating": 67,
+      "is_dofollow": true,
+      "first_seen": "2026-01-04 20:23:11 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://parkcityluxuryliving.com/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "",
+      "domain_rating": 67,
+      "is_dofollow": true,
+      "first_seen": "2024-12-18 18:59:50 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 84
+    },
+    {
+      "source_url": "https://stophavingaboringlife.com/house-buyers-guide-4-must-have-features-for-a-luxury-townhouse/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "homes for sale in Park City",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-01-23 11:39:42 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 77
+    },
+    {
+      "source_url": "https://www.suscinio.info/why-arent-as-bad-as-you-think-13/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City Luxury Real Estate",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-02-01 08:53:37 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://activerain.com/blogsview/2279741/nearly-wordless-wednesday--olympic-reminders",
+      "target_url": "http://www.laurawillisrealestate.com/deer-valley",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-02-25 11:03:08 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "http://www.biz2lt.com/ShowCompInfo.php?Biz2ltID=12050",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Click here to visit us!",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2022-06-14 20:22:50 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://teamrockie.com/skiing-vacation/",
+      "target_url": "https://www.laurawillisrealestate.com/ski/ski-communities/",
+      "anchor_text": "view ski communities here",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-06-21 13:58:40 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://pick-kart.com/the-benefits-of-moving-to-utah-for-homeowners/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Real Estate",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2022-01-03 21:03:03 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://activerain.com/blogsview/2283053/jeremy-ranch-homes-for-sale",
+      "target_url": "http://www.laurawillisrealestate.com/deer-valley",
+      "anchor_text": "",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-06-13 08:41:42 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.articlecity.com/blog/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City real estate",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2026-01-16 14:47:30 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.articlecity.com/blog/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
+      "anchor_text": "Park City Realtor",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2026-01-16 14:47:30 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.articlecity.com/blog/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2026-01-16 14:47:30 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.bestofutah.com/businesses/laura-willis-realtor-summit-sothebys-international-realty/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "View Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-09-25 03:29:44 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://syndication.cloud/laura-willis-offers-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": 41,
+      "is_dofollow": true,
+      "first_seen": "2021-12-23 19:44:40 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://syndication.cloud/laura-willis-offers-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City Utah real estate",
+      "domain_rating": 41,
+      "is_dofollow": true,
+      "first_seen": "2021-12-23 19:44:40 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://syndication.cloud/laura-willis-offers-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/ski/all-ski-properties-for-sale-park-city-deer-valley/",
+      "anchor_text": "ski in ski out homes and condos",
+      "domain_rating": 41,
+      "is_dofollow": true,
+      "first_seen": "2021-12-23 19:44:40 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://recorderonline.marketminute.com/article/syndicationcloud-2021-12-21-laura-willis-offers-park-city-real-estate",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": 37,
+      "is_dofollow": true,
+      "first_seen": "2024-12-30 04:12:39 +00:00"
+    },
+    {
+      "source_url": "https://recorderonline.marketminute.com/article/syndicationcloud-2021-12-21-laura-willis-offers-park-city-real-estate",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City Utah real estate",
+      "domain_rating": 37,
+      "is_dofollow": true,
+      "first_seen": "2024-12-30 04:12:39 +00:00"
+    },
+    {
+      "source_url": "https://recorderonline.marketminute.com/article/syndicationcloud-2021-12-21-laura-willis-offers-park-city-real-estate",
+      "target_url": "https://www.laurawillisrealestate.com/ski/all-ski-properties-for-sale-park-city-deer-valley/",
+      "anchor_text": "ski in ski out homes and condos",
+      "domain_rating": 37,
+      "is_dofollow": true,
+      "first_seen": "2024-12-30 04:12:39 +00:00"
+    },
+    {
+      "source_url": "https://www.vwbblog.com/how-to-join-a-golf-club/",
+      "target_url": "https://www.laurawillisrealestate.com/golf/golf-communities/",
+      "anchor_text": "learn about golf communities",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2023-06-29 08:15:06 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://activerain.com/blogsview/2279687/blue-skies",
+      "target_url": "http://www.laurawillisrealestate.com/deer-valley",
+      "anchor_text": "",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-06-13 08:41:38 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://parkcityrentals.info/resources.html",
+      "target_url": "http://laurawillisrealestate.com/",
+      "anchor_text": "Luxury Park City Real Estate",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2024-06-18 16:06:00 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://xpr.media/story/520984/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-04-17 04:36:12 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 91
+    },
+    {
+      "source_url": "https://xpr.media/story/520984/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
+      "anchor_text": "Park City Realtor",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-04-17 04:36:12 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 91
+    },
+    {
+      "source_url": "https://xpr.media/story/520984/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-04-17 04:36:12 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 91
+    },
+    {
+      "source_url": "https://deanledger.com/privacy-policy/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "DeanLedger.com",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-03-25 18:24:11 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 77
+    },
+    {
+      "source_url": "https://deanledger.com/terms-of-service/",
+      "target_url": "https://www.laurawillisrealestate.com/privacy-policy/",
+      "anchor_text": "Privacy Policy",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-03-25 18:18:28 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 77
+    },
+    {
+      "source_url": "https://emeraldbay.com/terms-of-service/",
+      "target_url": "https://www.laurawillisrealestate.com/privacy-policy/",
+      "anchor_text": "Privacy Policy",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-01-15 09:20:40 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://lifestyle.allpodcasts.com/story/376376/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-26 01:33:47 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.allpodcasts.com/story/376376/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
+      "anchor_text": "Park City Realtor",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-26 01:33:47 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.allpodcasts.com/story/376376/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-26 01:33:47 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.xpr.media/story/373279/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-01-05 20:37:33 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.xpr.media/story/373279/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-01-05 20:37:33 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.xpr.media/story/373279/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
+      "anchor_text": "Park City Realtor",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-01-05 20:37:33 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.baretnews.com/story/384016/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-21 11:13:46 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.baretnews.com/story/384016/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
+      "anchor_text": "Park City Realtor",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-21 11:13:46 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.baretnews.com/story/384016/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-21 11:13:46 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.blerrp.com/story/394611/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-15 16:25:19 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.blerrp.com/story/394611/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
+      "anchor_text": "Park City Realtor",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-15 16:25:19 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.blerrp.com/story/394611/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-15 16:25:19 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.trondstidkontroll.com/story/385184/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-14 19:36:00 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.trondstidkontroll.com/story/385184/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-14 19:36:00 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.trondstidkontroll.com/story/385184/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
+      "anchor_text": "Park City Realtor",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-14 19:36:00 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.axcessnews.com/story/386978/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-13 20:16:16 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.axcessnews.com/story/386978/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-13 20:16:16 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.axcessnews.com/story/386978/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
+      "anchor_text": "Park City Realtor",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-13 20:16:16 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.altiusdirectory.com/story/391871/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
+      "anchor_text": "Park City Realtor",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-10 08:34:41 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.altiusdirectory.com/story/391871/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-10 08:34:41 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.altiusdirectory.com/story/391871/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-10 08:34:41 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.lmcordoba.com.ar/story/391890/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-08 15:30:03 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.lmcordoba.com.ar/story/391890/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
+      "anchor_text": "Park City Realtor",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-08 15:30:03 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.lmcordoba.com.ar/story/391890/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-08 15:30:03 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.usfeatures.com/story/380577/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-06 11:22:53 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.usfeatures.com/story/380577/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
+      "anchor_text": "Park City Realtor",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-06 11:22:53 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.usfeatures.com/story/380577/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-06 11:22:53 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.infotechinc.net/story/389286/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-06 05:11:40 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.infotechinc.net/story/389286/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
+      "anchor_text": "Park City Realtor",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-06 05:11:40 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.infotechinc.net/story/389286/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-06 05:11:40 +00:00"
+    },
+    {
+      "source_url": "http://www.suscinio.info/why-arent-as-bad-as-you-think-13/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City Luxury Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-11-20 03:25:33 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "http://cranerental.biz/2022/04/16/overwhelmed-by-the-complexity-of-this-may-help-16/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City Luxury Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2022-05-31 16:20:33 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.luxuryrealestate.com/blog/2024/09/01/22527-luxury-home-in-park-citys-coveted-glenwild-community",
+      "target_url": "https://www.laurawillisrealestate.com/property-search/detail/50/12402299/7825-purple-sage-park-city-ut-84098/",
+      "anchor_text": "7825 Purple Sage Park City, UT 84098",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-12 17:09:30 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.luxuryrealestate.com/blog/2024/09/01/22527-luxury-home-in-park-citys-coveted-glenwild-community",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City’s real estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-12 17:09:30 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.luxuryrealestate.com/blog/2024/09/01/22527-luxury-home-in-park-citys-coveted-glenwild-community",
+      "target_url": "https://www.laurawillisrealestate.com/contact/",
+      "anchor_text": "Contact us",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-12 17:09:30 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.luxuryrealestate.com/blog/2024/09/01/22527-luxury-home-in-park-citys-coveted-glenwild-community",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-utah-real-estate-for-sale-home-condos-land/",
+      "anchor_text": "Park City, Utah",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-12 17:09:30 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.luxuryrealestate.com/blog/2024/09/01/22527-luxury-home-in-park-citys-coveted-glenwild-community",
+      "target_url": "https://www.laurawillisrealestate.com/golf/glenwild/",
+      "anchor_text": "Glenwild",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-12 17:09:30 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://diydivapro.com/life-on-the-slopes-5-best-locations-to-buy-a-ski-luxury-property/",
+      "target_url": "https://www.laurawillisrealestate.com/deer-valley/",
+      "anchor_text": "find a home here",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2023-07-04 22:51:42 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://activerain.com/blogsview/2277623/park-city-banked-owned-foreclosures-and-short-sales",
+      "target_url": "http://www.laurawillisrealestate.com/deer-valley",
+      "anchor_text": "",
+      "domain_rating": 15,
+      "is_dofollow": true,
+      "first_seen": "2025-06-13 08:41:46 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.luxuryrealestate.com/blog/2024/12/29/22978-the-ultimate-guide-to-park-city-luxury-real-estate",
+      "target_url": "https://laurawillisrealestate.com/",
+      "anchor_text": "Park City real estate",
+      "domain_rating": 8,
+      "is_dofollow": true,
+      "first_seen": "2025-10-12 17:07:17 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "http://parkcityrealestateutah.com/",
+      "target_url": "http://www.laurawillisrealestate.com/",
+      "anchor_text": "",
+      "domain_rating": 6,
+      "is_dofollow": true,
+      "first_seen": "2023-10-17 14:01:55 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://lifestyle.thenyctimes.com/story/385956/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-05-05 12:16:54 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.thenyctimes.com/story/385956/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City real estate",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-05-05 12:16:54 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.thenyctimes.com/story/385956/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
+      "anchor_text": "Park City Realtor",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-05-05 12:16:54 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.nextmentors.com/story/392319/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-04-28 04:52:36 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.nextmentors.com/story/392319/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
+      "anchor_text": "Park City Realtor",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-04-28 04:52:36 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.nextmentors.com/story/392319/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City real estate",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-04-28 04:52:36 +00:00"
+    },
+    {
+      "source_url": "https://sportsradio977.com/utah-retirement-destinations/",
+      "target_url": "https://www.laurawillisrealestate.com/blog/retiring-in-utah-embracing-mountain-living-in-park-city-midway-and-heber-valley/",
+      "anchor_text": "(LINK TO FULL ARTICLE)",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2025-12-18 19:09:28 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 76
+    },
+    {
+      "source_url": "https://lifestyle.streetregister.com/story/380217/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
+      "anchor_text": "Park City Realtor",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-03-25 20:27:21 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.streetregister.com/story/380217/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City real estate",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-03-25 20:27:21 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.streetregister.com/story/380217/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-03-25 20:27:21 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.friendhood.net/story/391029/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-03-21 19:45:15 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.friendhood.net/story/391029/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
+      "anchor_text": "Park City Realtor",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-03-21 19:45:15 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.friendhood.net/story/391029/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City real estate",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-03-21 19:45:15 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.cfxmagazine.com/story/390658/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-03-18 09:59:19 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.cfxmagazine.com/story/390658/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City real estate",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-03-18 09:59:19 +00:00"
+    },
+    {
+      "source_url": "https://lifestyle.cfxmagazine.com/story/390658/who-sets-the-benchmark-for-excellence-in-park-city-real-estate/",
+      "target_url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
+      "anchor_text": "Park City Realtor",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2026-03-18 09:59:19 +00:00"
+    },
+    {
+      "source_url": "https://sportsradio977.com/the-1-city-to-retire-in-utah-in-2025/",
+      "target_url": "https://www.laurawillisrealestate.com/blog/retiring-in-utah-embracing-mountain-living-in-park-city-midway-and-heber-valley/",
+      "anchor_text": "(LINK TO FULL ARTICLE)",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2025-03-24 21:42:12 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 76
+    },
+    {
+      "source_url": "https://sportsradio977.com/utah-retire-town/",
+      "target_url": "https://www.laurawillisrealestate.com/blog/retiring-in-utah-embracing-mountain-living-in-park-city-midway-and-heber-valley/",
+      "anchor_text": "(LINK TO FULL ARTICLE)",
+      "domain_rating": 2,
+      "is_dofollow": true,
+      "first_seen": "2025-08-21 12:24:04 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 76
+    },
+    {
+      "source_url": "https://c212.net/c/link/?t=0&l=en&o=4449409-1&h=2799008165&u=https%3A%2F%2Fwww.laurawillisrealestate.com%2Fpark-city-luxury-real-estate-deer-valley-homes-condos-estates%2F&a=Park+City+luxury+real+estate",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-27 18:05:10 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://c212.net/c/link/?t=0&l=en&o=4449409-1&h=2016805188&u=https%3A%2F%2Fwww.laurawillisrealestate.com%2Fdeer-valley%2F&a=Deer+Valley+real+estate",
+      "target_url": "https://www.laurawillisrealestate.com/deer-valley/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-27 17:46:00 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://c212.net/c/link/?t=0&l=en&o=4449409-1&h=2136837567&u=https%3A%2F%2Fwww.laurawillisrealestate.com%2Fpark-city-utah-real-estate-for-sale-home-condos-land%2F&a=Park+City+Utah+real+estate",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-utah-real-estate-for-sale-home-condos-land/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-27 17:45:58 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://c212.net/c/link/?t=0&l=en&o=4449409-1&h=4135369124&u=https%3A%2F%2Fwww.laurawillisrealestate.com%2Fski%2Fpark-city-ski-homes%2F&a=ski-in%2Fski-out+home",
+      "target_url": "https://www.laurawillisrealestate.com/ski/park-city-ski-homes/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-27 17:45:56 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://c212.net/c/link/?t=0&l=en&o=4449409-1&h=3464311204&u=https%3A%2F%2Fwww.laurawillisrealestate.com%2F&a=Park+City+Utah+real+estate",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-27 17:45:54 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://c212.net/c/link/?t=0&l=en&o=4449409-1&h=709199239&u=https%3A%2F%2Fwww.laurawillisrealestate.com%2F&a=Park+City+and+Deer+Valley+Utah+real+estate+markets",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-27 17:45:52 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://c212.net/c/link/?t=0&l=en&o=4449409-1&h=2898652819&u=https%3A%2F%2Fwww.laurawillisrealestate.com%2Fgolf%2Fgolf-communities%2F&a=golf+communities",
+      "target_url": "https://www.laurawillisrealestate.com/golf/golf-communities/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-27 17:45:50 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://c212.net/c/link/?t=0&l=en&o=4449409-1&h=541237500&u=https%3A%2F%2Fwww.laurawillisrealestate.com%2Fski%2Fpark-city-ski-condos%2F&a=ski-out+condo",
+      "target_url": "https://www.laurawillisrealestate.com/ski/park-city-ski-condos/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-27 17:45:48 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://c212.net/c/link/?t=0&l=en&o=4449409-1&h=3514353663&u=https%3A%2F%2Fwww.laurawillisrealestate.com%2F&a=Park+City+Utah+homes",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-27 17:45:46 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://c212.net/c/link/?t=0&l=en&o=4449409-1&h=3529861309&u=https%3A%2F%2Fwww.laurawillisrealestate.com%2Fabout%2Fabout-laura-willis-realtor%2F&a=Laura+Willis",
+      "target_url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-27 17:45:44 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://c212.net/c/link/?t=0&l=en&o=4449409-1&h=3153086512&u=http%3A%2F%2Fwww.laurawillisrealestate.com%2F&a=laurawillisrealestate.com",
+      "target_url": "http://www.laurawillisrealestate.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-27 17:45:42 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.enigma.com/directory/ut/park-city/real-estate-agency/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "https://www.laurawillisrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-02-27 17:40:17 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://bye.fyi/report/77270",
+      "target_url": "https://laurawillisrealestate.com/",
+      "anchor_text": "laurawillisrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-05-03 20:36:09 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://rss.feedspot.com/utah_real_estate_rss_feeds/",
+      "target_url": "https://www.laurawillisrealestate.com/blog/",
+      "anchor_text": "laurawillisrealestate.com/blog",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-04-01 13:55:29 +00:00"
+    },
+    {
+      "source_url": "https://www.tunca.org/b7b6531a7d2071512f2e8456e006cbb7-l/",
+      "target_url": "https://laurawillisrealestate.com/",
+      "anchor_text": "laurawillisrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-01 13:19:59 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://azbigmedia.com/real-estate/luxury-home-features-every-buyer-wants/",
+      "target_url": "https://www.laurawillisrealestate.com/deer-valley/",
+      "anchor_text": "luxury homes for sale",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-08-28 05:53:23 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://u.listvt.com/mls/241511096",
+      "target_url": "http://laurawillisrealestate.com/",
+      "anchor_text": "laurawillisrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-04-28 20:36:56 +00:00"
+    },
+    {
+      "source_url": "https://www.amlsing.com/thread-15700-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "uukimk safest tv programs including 2023",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-13 15:01:46 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.shufaii.com/thread-63563-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "lcicjz overstock deals 20",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-06-23 07:13:15 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://kelas.seomuda.id/quarterlinks-dofollow-article-links-just-for-25-882/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-22 22:47:33 +00:00"
+    },
+    {
+      "source_url": "https://mail.getwebsiteworth.com/b7b6531a7d2071512f2e8456e006cbb7-l/",
+      "target_url": "https://laurawillisrealestate.com/",
+      "anchor_text": "laurawillisrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-04-20 11:47:46 +00:00"
+    },
+    {
+      "source_url": "https://www.bolgernow.com/blog/2025/04/09/trump-tariff-cave-maga-panic/",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "moyssn how to in order to france as a result of brexit",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-05-18 01:28:41 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.bolgernow.com/blog/2025/08/06/gop-maga-obliterated-max-unwell/",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "mrmjnt ABBA have invited their fans to",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-09-18 12:01:15 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://luxurylifestyle.com/headlines/park-city-real-estate-evolves-as-lifestyle-becomes-the-new-luxury.html",
+      "target_url": "https://www.laurawillisrealestate.com/ski/park-city-ski-condos/",
+      "anchor_text": "ski-out condo",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-02 04:12:49 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://luxurylifestyle.com/headlines/park-city-real-estate-evolves-as-lifestyle-becomes-the-new-luxury.html",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-luxury-real-estate-deer-valley-homes-condos-estates/",
+      "anchor_text": "Park City luxury real estate",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-02 04:12:49 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://luxurylifestyle.com/headlines/park-city-real-estate-evolves-as-lifestyle-becomes-the-new-luxury.html",
+      "target_url": "https://www.laurawillisrealestate.com/deer-valley/",
+      "anchor_text": "Deer Valley real estate",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-02 04:12:49 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://luxurylifestyle.com/headlines/park-city-real-estate-evolves-as-lifestyle-becomes-the-new-luxury.html",
+      "target_url": "https://www.laurawillisrealestate.com/golf/golf-communities/",
+      "anchor_text": "golf communities",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-02 04:12:49 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://luxurylifestyle.com/headlines/park-city-real-estate-evolves-as-lifestyle-becomes-the-new-luxury.html",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "Park City Utah real estate",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-02 04:12:49 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://luxurylifestyle.com/headlines/park-city-real-estate-evolves-as-lifestyle-becomes-the-new-luxury.html",
+      "target_url": "https://www.laurawillisrealestate.com/about/about-laura-willis-realtor/",
+      "anchor_text": "Laura Willis",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-02 04:12:49 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://luxurylifestyle.com/headlines/park-city-real-estate-evolves-as-lifestyle-becomes-the-new-luxury.html",
+      "target_url": "http://www.laurawillisrealestate.com/",
+      "anchor_text": "laurawillisrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-02 04:12:49 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://luxurylifestyle.com/headlines/park-city-real-estate-evolves-as-lifestyle-becomes-the-new-luxury.html",
+      "target_url": "https://www.laurawillisrealestate.com/ski/park-city-ski-homes/",
+      "anchor_text": "ski-in/ski-out home",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-02 04:12:49 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://luxurylifestyle.com/headlines/park-city-real-estate-evolves-as-lifestyle-becomes-the-new-luxury.html",
+      "target_url": "https://www.laurawillisrealestate.com/park-city-utah-real-estate-for-sale-home-condos-land/",
+      "anchor_text": "Park City Utah real estate",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-02 04:12:49 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://globalecommerce.org/page-0090be0fa65828028808e7d017fec8bd.html",
+      "target_url": "https://laurawillisrealestate.com/",
+      "anchor_text": "laurawillisrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-07 19:09:48 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://tyciis.com/thread-153683-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "lfglxc 540m easily wiped ranging from crypto showcase wearing four a lot",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-10 16:52:48 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://tyciis.com/thread-7292-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "dsxnnj is one of these rare people",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-14 20:06:48 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://tyciis.com/thread-170738-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "puyajo 2nd is a morning I'll never forget",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-13 17:38:36 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://tyciis.com/thread-131295-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "vfcaxh environmental transitions in the uplands of the Lao PDR",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-20 20:07:43 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.shufaii.com/thread-123997-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "jbcbfc a woman performing on her tractor provides the shocker a person can have from being a tip santa clau",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-01 00:59:15 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://shufaii.com/thread-175126-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "mborof known for its curated selection of quality foods",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-08 10:10:41 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.amlsing.com/thread-2244-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "uecmbd northern coast media news release",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-09 07:42:15 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://amlsing.com/thread-2244-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "uecmbd northern coast media news release",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-13 09:00:53 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.olivare.com.ar/index.php/2025/07/01/quarterlinks-dofollow-article-links-just-for-25-882/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "OUR TELEGRAM CHANEL https://t.me/s/quarterlinks25",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-04-15 18:40:48 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://amlsing.com/thread-15700-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "uukimk safest tv programs including 2023",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-10 09:20:39 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.shufaii.com/thread-98661-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "cbinkx According to a Zillow survey of nearly 100 experts",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-04-15 13:43:17 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.shufaii.com/thread-79937-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "xhrlss Huawei Technologies and Xiaomi OTCPK",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-04-15 13:41:30 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://shufaii.com/thread-151860-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "xhaukd Staff recommends an elimination of off street parking requirements for single unit",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-08 15:42:16 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://shufaii.com/thread-151883-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "sntxsg or it may be worse",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-08 15:40:00 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.shufaii.com/thread-243475-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "gaqocn 33 by means of very important reference to the austrian contribution",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-10-22 23:23:39 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://shufaii.com/thread-152339-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "kfcwhu Walter Cronkite is Dead",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-08 15:13:54 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://shufaii.com/thread-152787-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "cpubvw If the object made a shallow impact on the atmosphere",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-08 14:50:24 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://shufaii.com/thread-153580-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "hliigl in self defence and in accordance with international law",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-08 14:39:24 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://shufaii.com/thread-154311-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "clzkgv sans chichis ni salamalecs",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-08 14:14:25 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://shufaii.com/thread-168835-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "flljdu Interview a source who is willing to share his",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-08 10:09:37 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://shufaii.com/thread-155419-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "plpxfr a member of the committee and Conservative MP for Buckingham",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-16 05:41:21 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.shufaii.com/thread-83192-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "qgqcmj Measure and link relevant data from multiple sources",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-18 18:01:38 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.shufaii.com/thread-126954-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "lmpzug On any given Sunday",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-01 01:17:22 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.shufaii.com/thread-168835-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "flljdu Interview a source who is willing to share his",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-15 18:27:55 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.shufaii.com/thread-175126-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "mborof known for its curated selection of quality foods",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-15 18:08:32 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.shufaii.com/thread-123299-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "mkduui reconstructing subglacial meltwater character through spatial and even temporal disparity in the app",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-01 00:47:22 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.shufaii.com/thread-58862-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "grvudi On the other hand however",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-06-23 19:57:12 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.shufaii.com/thread-65060-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "ayhzsr 'I'll tell you what",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-06-23 07:30:46 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.shufaii.com/thread-54440-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "sipybk wbs penguins hold on in support of wining",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-06-23 16:51:46 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.shufaii.com/thread-192182-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "ibmkxi charm relations and drop of the eu community forum metallic business ever since 1974",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-15 17:51:05 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.shufaii.com/thread-24880-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "nxwoza unusual competitions",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-07-16 17:09:31 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.shufaii.com/thread-152787-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "cpubvw If the object made a shallow impact on the atmosphere",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-25 07:45:23 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://www.shufaii.com/thread-136548-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "pnvtfy This fee was increased on April 1",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-25 13:47:36 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://algolinkers.com/grow-your-website-with-our-backlinks-87/",
+      "target_url": "https://laurawillisrealestate.com/",
+      "anchor_text": "laurawillisrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-06-12 00:35:56 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://www.websiterace.com/b7b6531a7d2071512f2e8456e006cbb7-l/",
+      "target_url": "https://laurawillisrealestate.com/",
+      "anchor_text": "laurawillisrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-12-29 08:14:56 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://startkiwi.com/blog/8-effective-strategies-to-improve-employee-performance/",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "joyikg the single use scheme coming from the thessaly nation of greece",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2024-08-11 23:15:59 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://bloggingheros.com/luxury-home-construction/",
+      "target_url": "https://www.laurawillisrealestate.com/new-developments/featured-new-developments-park-city-real-estate/",
+      "anchor_text": "discover new housing developments",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2023-07-23 14:57:27 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://sergechel.info/list-471f1c17d928917dba07cf08a1f11e65",
+      "target_url": "https://laurawillisrealestate.com/",
+      "anchor_text": "laurawillisrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-25 23:48:36 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://ycm.info/b7b6531a7d2071512f2e8456e006cbb7-l/",
+      "target_url": "https://laurawillisrealestate.com/",
+      "anchor_text": "laurawillisrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-21 21:20:39 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "http://www.torun-stolarz.pl/dark-side-links-dark-white-hat-link-building-601/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-21 07:47:24 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://u.listvt.com/mls/176673671",
+      "target_url": "http://laurawillisrealestate.com/",
+      "anchor_text": "laurawillisrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-07-29 21:41:08 +00:00"
+    },
+    {
+      "source_url": "https://shoplogist.com/dark-side-links-dark-white-hat-link-building-601/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-20 11:39:25 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://www.socialwebcafe.com/twitter-tips-for-real-estate-bloggers/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2022-09-24 11:39:29 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://anchorurl.cloud/share/77269",
+      "target_url": "https://laurawillisrealestate.com/",
+      "anchor_text": "laurawillisrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-31 16:22:16 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://parksillysundaymarket.com/media-links/press-releases/",
+      "target_url": "https://www.laurawillisrealestate.com/blog/park-silly-sunday-market/",
+      "anchor_text": "Laura Willis Summit Sotheby’s – Park Silly Sunday Market",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2024-10-12 06:27:49 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 30
+    },
+    {
+      "source_url": "https://www.erealestatepro.com/real_estate_agents/listing_eb6af0289dd9604c653a563459539b0d.shtml",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "https://parkcityluxuryliving.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2025-03-30 04:20:16 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://buzzshrink.website/share/54391",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "parkcityluxuryliving.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-16 07:22:26 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://tyciis.com/thread-186114-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "ebyrpw That doesn't mean performatively forgoing your own beer",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-02-06 23:15:04 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://tyciis.com/thread-135716-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "ymkirl nyc lending work opportunities near highest possible in 20 a lot of",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-20 23:36:29 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://screenshots.wiki/report/54391",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "parkcityluxuryliving.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-29 16:35:40 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://u.listvt.com/mls/227917951",
+      "target_url": "http://laurawillisrealestate.com/",
+      "anchor_text": "laurawillisrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-18 06:34:19 +00:00"
+    },
+    {
+      "source_url": "https://screenshots.wiki/report/77269",
+      "target_url": "https://laurawillisrealestate.com/",
+      "anchor_text": "laurawillisrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-28 05:18:31 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://irvinecove.com/terms-of-service/",
+      "target_url": "https://www.laurawillisrealestate.com/privacy-policy/",
+      "anchor_text": "Privacy Policy",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-13 15:36:05 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://irvinecove.com/privacy-policy/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "DeanLedger.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-13 15:15:26 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://alljobs.info/36bcce0e1e3579d92c2b6952f0705618-l/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "parkcityluxuryliving.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-27 02:57:31 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://amlsing.com/thread-6712-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "dzfcio most excellent laptop or computer on college 2022",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-09-10 07:26:22 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://backlinksolutions.info/link-building-pricing-rankvance-425/",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "parkcityluxuryliving.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-01-03 00:12:18 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://shufaii.com/thread-128703-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "honiaj In her later years",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-08-02 23:45:17 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://shufaii.com/thread-131471-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "khkkio serrs les uns contre les autres",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-09 13:36:41 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://shufaii.com/thread-131596-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "headdw most beneficial place to purchase your humanity under garments 2008",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-09 11:47:53 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://shufaii.com/thread-132705-1-1.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "vcewkp There is access to a much broader base of merchandise",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-09 09:01:55 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://getwebsiteworth.com/b7b6531a7d2071512f2e8456e006cbb7-l/",
+      "target_url": "https://laurawillisrealestate.com/",
+      "anchor_text": "laurawillisrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-08 09:49:40 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://anchorurl.cloud/share/54392",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "parkcityluxuryliving.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-08 08:05:36 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://buzzshrink.website/share/54392",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "parkcityluxuryliving.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-26 09:00:39 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://xedulichdaklak.com/dark-side-links-dark-white-hat-link-building-601.html",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "JOIN OUR TELEGRAM https://t.me/s/darksidelinks",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-03-06 10:38:11 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 0
+    },
+    {
+      "source_url": "https://australianwebdirectory.shop/page-0090be0fa65828028808e7d017fec8bd.html",
+      "target_url": "https://laurawillisrealestate.com/",
+      "anchor_text": "laurawillisrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-06-02 06:17:00 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://shortenurls.eu/share/77270",
+      "target_url": "https://laurawillisrealestate.com/",
+      "anchor_text": "laurawillisrealestate.com",
+      "domain_rating": null,
+      "is_dofollow": false,
+      "first_seen": "2026-01-24 01:10:03 +00:00",
+      "domainQuality": "suspicious",
+      "qualityScore": 50
+    },
+    {
+      "source_url": "https://australianwebdirectory.shop/page-c72a4be58a60e847e8ad5013ae0f1917.html",
+      "target_url": "https://www.laurawillisrealestate.com/",
+      "anchor_text": "parkcityluxuryliving.com",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-31 16:11:14 +00:00",
+      "domainQuality": "spam",
+      "qualityScore": 20
+    },
+    {
+      "source_url": "https://mcmon.ru/archive/index.php?thread-216054.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "ikkxmu you'll have to get used to the Pittsburgh Left aka",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2026-03-01 11:32:32 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
+    },
+    {
+      "source_url": "https://mcmon.ru/archive/index.php?thread-67071.html",
+      "target_url": "https://www.laurawillisrealestate.com/blog/promontory-utah-real-estate/",
+      "anchor_text": "iyiosg the california king betty experiences looked real money for town of long beachfront",
+      "domain_rating": null,
+      "is_dofollow": true,
+      "first_seen": "2025-05-14 12:56:41 +00:00",
+      "domainQuality": "legitimate",
+      "qualityScore": 100
     }
   ],
-  "status": "failed",
-  "gatheredAt": "2026-04-11T20:24:46.146Z"
+  "referring_domains": [
+    {
+      "domain": "luxuryrealestate.com",
+      "rank": 122,
+      "backlinks": 127,
+      "first_seen": "2023-10-08 00:12:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 85,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 122)"
+    },
+    {
+      "domain": "syndication.cloud",
+      "rank": 78,
+      "backlinks": 7,
+      "first_seen": "2021-12-23 19:44:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 6,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 78)"
+    },
+    {
+      "domain": "shufaii.com",
+      "rank": 62,
+      "backlinks": 120,
+      "first_seen": "2025-05-10 16:46:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 120,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 62)"
+    },
+    {
+      "domain": "parkcityutahhomes4sale.com",
+      "rank": 56,
+      "backlinks": 1,
+      "first_seen": "2019-01-21 20:13:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 96,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 56)"
+    },
+    {
+      "domain": "xpr.media",
+      "rank": 51,
+      "backlinks": 8,
+      "first_seen": "2026-01-05 20:37:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 6,
+      "domainQuality": "legitimate",
+      "qualityScore": 91,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 51)"
+    },
+    {
+      "domain": "rainbowbayfestival.com",
+      "rank": 51,
+      "backlinks": 1,
+      "first_seen": "2025-05-25 15:54:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 91,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 51)"
+    },
+    {
+      "domain": "twilightteens.com",
+      "rank": 51,
+      "backlinks": 1,
+      "first_seen": "2023-10-26 13:55:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 91,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 51)"
+    },
+    {
+      "domain": "saphirhotels.com",
+      "rank": 51,
+      "backlinks": 1,
+      "first_seen": "2023-03-25 18:53:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 91,
+      "qualitySignals": [
+        "high-domain-rating"
+      ],
+      "qualityReason": "High domain authority (DR 51)"
+    },
+    {
+      "domain": "mybluehost.me",
+      "rank": 43,
+      "backlinks": 12,
+      "first_seen": "2026-01-15 00:34:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 9,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "articlecity.com",
+      "rank": 40,
+      "backlinks": 4,
+      "first_seen": "2026-01-16 14:47:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "deervalleyluxuryrealestate.com",
+      "rank": 39,
+      "backlinks": 1,
+      "first_seen": "2025-06-13 08:43:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "residenzpflicht.info",
+      "rank": 36,
+      "backlinks": 3,
+      "first_seen": "2025-05-27 08:01:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "amlsing.com",
+      "rank": 36,
+      "backlinks": 33,
+      "first_seen": "2025-03-20 20:14:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 33,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "marketminute.com",
+      "rank": 35,
+      "backlinks": 3,
+      "first_seen": "2024-12-30 04:12:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "skiutah.com",
+      "rank": 32,
+      "backlinks": 29,
+      "first_seen": "2024-06-25 23:36:02 +00:00",
+      "dofollow": 0,
+      "referring_pages": 21,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "allpodcasts.com",
+      "rank": 23,
+      "backlinks": 4,
+      "first_seen": "2026-02-26 01:33:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "baretnews.com",
+      "rank": 23,
+      "backlinks": 4,
+      "first_seen": "2026-02-21 11:13:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "blerrp.com",
+      "rank": 23,
+      "backlinks": 4,
+      "first_seen": "2026-02-15 16:25:19 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "trondstidkontroll.com",
+      "rank": 23,
+      "backlinks": 4,
+      "first_seen": "2026-02-14 19:36:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "axcessnews.com",
+      "rank": 23,
+      "backlinks": 4,
+      "first_seen": "2026-02-13 20:16:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "altiusdirectory.com",
+      "rank": 23,
+      "backlinks": 4,
+      "first_seen": "2026-02-10 08:34:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "lmcordoba.com.ar",
+      "rank": 23,
+      "backlinks": 4,
+      "first_seen": "2026-02-08 15:30:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "usfeatures.com",
+      "rank": 23,
+      "backlinks": 4,
+      "first_seen": "2026-02-06 11:22:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "infotechinc.net",
+      "rank": 23,
+      "backlinks": 4,
+      "first_seen": "2026-02-06 05:11:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "suscinio.info",
+      "rank": 23,
+      "backlinks": 2,
+      "first_seen": "2025-11-20 03:25:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "dreamsofalife.com",
+      "rank": 23,
+      "backlinks": 1,
+      "first_seen": "2025-09-03 23:51:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "mcmon.ru",
+      "rank": 20,
+      "backlinks": 31,
+      "first_seen": "2024-10-27 06:43:19 +00:00",
+      "dofollow": 0,
+      "referring_pages": 31,
+      "domainQuality": "legitimate",
+      "qualityScore": 100,
+      "qualitySignals": [],
+      "qualityReason": "No negative signals detected"
+    },
+    {
+      "domain": "parkcityluxuryliving.com",
+      "rank": 14,
+      "backlinks": 2,
+      "first_seen": "2024-03-07 10:07:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 84,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "deanledger.com",
+      "rank": 7,
+      "backlinks": 2,
+      "first_seen": "2026-03-25 18:18:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "legitimate",
+      "qualityScore": 77,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "stophavingaboringlife.com",
+      "rank": 7,
+      "backlinks": 1,
+      "first_seen": "2024-01-23 11:39:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 77,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "thenyctimes.com",
+      "rank": 6,
+      "backlinks": 4,
+      "first_seen": "2026-05-05 12:16:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 76,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "nextmentors.com",
+      "rank": 6,
+      "backlinks": 4,
+      "first_seen": "2026-04-28 04:52:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 76,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "streetregister.com",
+      "rank": 6,
+      "backlinks": 4,
+      "first_seen": "2026-03-25 20:27:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 76,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "friendhood.net",
+      "rank": 6,
+      "backlinks": 4,
+      "first_seen": "2026-03-21 19:45:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 76,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "cfxmagazine.com",
+      "rank": 6,
+      "backlinks": 4,
+      "first_seen": "2026-03-18 09:59:19 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 76,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "sportsradio977.com",
+      "rank": 6,
+      "backlinks": 3,
+      "first_seen": "2025-03-24 21:42:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "legitimate",
+      "qualityScore": 76,
+      "qualitySignals": [
+        "low-DR"
+      ],
+      "qualityReason": "low-DR"
+    },
+    {
+      "domain": "olivare.com.ar",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-15 18:40:48 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "sergechel.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-25 23:48:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "seomuda.id",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-22 22:47:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign, SEO-spam-domain"
+    },
+    {
+      "domain": "ycm.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-21 21:20:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "torun-stolarz.pl",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-21 07:47:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign, telegram-spam-anchor"
+    },
+    {
+      "domain": "shoplogist.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-20 11:39:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "irvinecove.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-03-13 15:15:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "xedulichdaklak.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-06 10:38:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "telegram-spam-anchor"
+      ],
+      "qualityReason": "DR-0, telegram-spam-anchor"
+    },
+    {
+      "domain": "enigma.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-27 17:40:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "tunca.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-02-27 11:47:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "urls-shortener.eu",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-27 03:01:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "we-fight-one-by-one.com",
+      "rank": 0,
+      "backlinks": 6,
+      "first_seen": "2026-02-26 01:36:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 6,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "musweb.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-02-13 16:51:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "jake.eu",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-12 08:35:09 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "anchorurl.cloud",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-01-31 16:22:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "booksreadr.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-31 02:47:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "screenshots.wiki",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-28 05:18:31 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "ready.pro",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-27 22:24:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "buzzshrink.website",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-26 09:00:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "way2check.cv",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-24 16:42:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "shortenurls.eu",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-24 01:10:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "alljobs.info",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-01-22 21:28:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "emeraldbay.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-15 09:20:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "ainvest.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-03 04:28:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "backlinksolutions.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-03 00:12:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+    },
+    {
+      "domain": "zabasearch.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-31 02:30:22 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "websiterace.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-29 08:14:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "wheretobuybest.link",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-28 09:17:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "getwebsiteworth.com",
+      "rank": 0,
+      "backlinks": 5,
+      "first_seen": "2025-12-23 04:31:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "globalecommerce.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-12-07 19:09:48 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "2x9.co",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-05 14:23:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "kugli.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-26 04:36:02 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "summitlending.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-10-14 02:04:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "rankvanceauthority.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-27 06:40:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "busites.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-09-27 02:41:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "bestofutah.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-09-25 03:29:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "drsongzi.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-09-12 14:30:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "phorum.pl",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-28 00:07:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
+    },
+    {
+      "domain": "c212.net",
+      "rank": 0,
+      "backlinks": 75,
+      "first_seen": "2025-08-27 17:45:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 75,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "47.88.101.141",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-25 06:28:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "yuehui886.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-21 01:00:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "websitescrawl.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-19 07:02:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "mydeepin.ru",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-15 15:59:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
+    },
+    {
+      "domain": "sayba.com",
+      "rank": 0,
+      "backlinks": 5,
+      "first_seen": "2025-08-14 05:47:37 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "bye.fyi",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-08-14 02:49:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "australianwebdirectory.pro",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-08-04 15:38:31 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "jeanpiere.com.tr",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-08-01 15:39:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "globalcocolk.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-01 09:49:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "gaister.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-31 20:04:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "astrologlar.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-31 10:53:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "sisgroup.lk",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-12 18:15:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "passiogolf.vn",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-12 03:58:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
+    },
+    {
+      "domain": "m-he.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-11 17:47:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "productionfunctionusa.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-10 14:58:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "pornharlot.net",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-07-09 16:16:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "spam-keyword-in-domain"
+      ],
+      "qualityReason": "DR-0, spam-keyword-in-domain"
+    },
+    {
+      "domain": "ezeller.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-05 12:36:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "yellowpages.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-03 18:35:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "legitimate",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "tycii.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-06-30 00:10:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "utmall.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-06-29 07:45:09 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "teamrockie.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-06-21 13:58:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "clearwatertimes.com",
+      "rank": 0,
+      "backlinks": 9,
+      "first_seen": "2025-06-17 15:44:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 9,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "activerain.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-06-13 08:41:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "legitimate",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "algolinkers.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-06-12 00:35:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "g419.net",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-06-08 09:23:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "ecec-shop.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-06-07 12:27:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "classifiedsforfree.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-06-04 17:03:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "australianwebdirectory.shop",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-31 16:11:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "63game.top",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-30 09:17:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 10,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD"
+      ],
+      "qualityReason": "DR-0, spam-TLD"
+    },
+    {
+      "domain": "yellowplace.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-29 03:24:22 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "rlglawpllc.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-27 11:57:09 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "belonnanotservice.ga",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-27 08:50:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 10,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD"
+      ],
+      "qualityReason": "DR-0, spam-TLD"
+    },
+    {
+      "domain": "mcabralcriminalistas.com.br",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-24 18:08:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "metalaksaray.com",
+      "rank": 0,
+      "backlinks": 14,
+      "first_seen": "2025-05-21 16:42:22 +00:00",
+      "dofollow": 0,
+      "referring_pages": 14,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "cocoqatar.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-19 18:10:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "bolgernow.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-18 01:28:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "seobacklinks.agency",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-14 19:58:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 20,
+      "qualitySignals": [
+        "DR-0",
+        "SEO-spam-domain"
+      ],
+      "qualityReason": "DR-0, SEO-spam-domain"
+    },
+    {
+      "domain": "tyciis.com",
+      "rank": 0,
+      "backlinks": 20,
+      "first_seen": "2025-05-14 19:55:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 20,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "agmermer.pro",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-13 03:10:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "rankgrow.agency",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-05-09 01:24:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "agentnook.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-05-06 11:10:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "quero.party",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-04-26 14:37:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "classifiedsforfree.net",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-04-13 11:19:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "yahoo.com",
+      "rank": 0,
+      "backlinks": 16,
+      "first_seen": "2025-04-09 14:00:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 16,
+      "domainQuality": "legitimate",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "known-legitimate-domain"
+      ],
+      "qualityReason": "Recognized legitimate domain"
+    },
+    {
+      "domain": "gsxr-forum.pl",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-04-08 15:50:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "low-DR-foreign"
+      ],
+      "qualityReason": "DR-0, low-DR-foreign"
+    },
+    {
+      "domain": "thebestbacklinksavailable.click",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-04-08 15:06:23 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 0,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD",
+        "SEO-spam-domain",
+        "suspiciously-long-domain"
+      ],
+      "qualityReason": "DR-0, spam-TLD, SEO-spam-domain, suspiciously-long-domain"
+    },
+    {
+      "domain": "what-happens-next.xyz",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-04-07 17:45:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "spam",
+      "qualityScore": 10,
+      "qualitySignals": [
+        "DR-0",
+        "spam-TLD"
+      ],
+      "qualityReason": "DR-0, spam-TLD"
+    },
+    {
+      "domain": "browseallexpireddomains.us",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-04-07 05:22:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "luxurylifestyle.com",
+      "rank": 0,
+      "backlinks": 25,
+      "first_seen": "2025-04-02 18:26:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 25,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "feedspot.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-04-01 13:55:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "erealestatepro.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-03-30 04:20:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "talktaiwan.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-02-24 00:27:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "weeklyreviewer.com",
+      "rank": 0,
+      "backlinks": 17,
+      "first_seen": "2025-02-11 16:27:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 15,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "mundotecnologia.info",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-02-09 06:04:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "intently.co",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-02-01 06:23:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "stockknowns.news",
+      "rank": 0,
+      "backlinks": 33,
+      "first_seen": "2025-01-20 23:02:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 31,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "nynewsly.com",
+      "rank": 0,
+      "backlinks": 17,
+      "first_seen": "2025-01-16 01:48:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 15,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "snowindustrynews.com",
+      "rank": 0,
+      "backlinks": 52,
+      "first_seen": "2025-01-06 12:49:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 48,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "sitelike.org",
+      "rank": 0,
+      "backlinks": 7,
+      "first_seen": "2025-01-03 18:46:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 7,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "drjack.world",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2024-12-29 20:51:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "pressreach.com",
+      "rank": 0,
+      "backlinks": 33,
+      "first_seen": "2024-12-29 14:52:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 31,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "listvt.com",
+      "rank": 0,
+      "backlinks": 8,
+      "first_seen": "2024-10-28 00:32:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 8,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "parksillysundaymarket.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-10-12 06:27:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "levleachim.co.il",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-09-01 07:34:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "prnewswire.com",
+      "rank": 0,
+      "backlinks": 56,
+      "first_seen": "2024-08-30 18:35:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 54,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "foodroute.nl",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-08-25 20:45:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "startkiwi.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-08-11 23:15:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "summitsothebysrealty.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2024-07-24 11:56:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "parkcityrentals.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-06-18 16:06:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "callupcontact.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-06-10 03:32:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "about.me",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-03-08 16:20:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "porch.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2024-03-07 10:05:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "global-website.pages.dev",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2023-11-14 03:15:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "parkcityrealestateutah.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-17 14:01:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "huldra.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-10-14 19:24:48 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "azbigmedia.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-08-28 05:53:23 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "ispionage.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2023-07-30 23:15:19 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "fiverrme.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-07-23 15:54:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "bloggingheros.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-07-23 14:57:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "diydivapro.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-07-04 22:51:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "vwbblog.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2023-06-29 08:15:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "socialwebcafe.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2022-09-24 11:39:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "biz2lt.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2022-06-14 20:22:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "cranerental.biz",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2022-05-31 16:20:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    },
+    {
+      "domain": "thefannews.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2022-03-14 08:09:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "suspicious",
+      "qualityScore": 50,
+      "qualitySignals": [
+        "DR-0"
+      ],
+      "qualityReason": "DR-0"
+    },
+    {
+      "domain": "pick-kart.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2022-01-03 21:03:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1,
+      "domainQuality": "spam",
+      "qualityScore": 30,
+      "qualitySignals": [
+        "DR-0",
+        "single-dofollow-DR0"
+      ],
+      "qualityReason": "DR-0, single-dofollow-DR0"
+    }
+  ],
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-05-05T18:40:56.309Z",
+  "qualitySummary": {
+    "total": 161,
+    "legitimate": 39,
+    "suspicious": 88,
+    "spam": 34,
+    "legitimatePct": 24,
+    "suspiciousPct": 55,
+    "spamPct": 21,
+    "topLegitimate": [
+      {
+        "domain": "luxuryrealestate.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 122)"
+      },
+      {
+        "domain": "syndication.cloud",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 78)"
+      },
+      {
+        "domain": "shufaii.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "High domain authority (DR 62)"
+      },
+      {
+        "domain": "mybluehost.me",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "articlecity.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "deervalleyluxuryrealestate.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "residenzpflicht.info",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "amlsing.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "marketminute.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "skiutah.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "allpodcasts.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "baretnews.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "blerrp.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "trondstidkontroll.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "axcessnews.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "altiusdirectory.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "lmcordoba.com.ar",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "usfeatures.com",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "infotechinc.net",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      },
+      {
+        "domain": "suscinio.info",
+        "quality": "legitimate",
+        "score": 100,
+        "reason": "No negative signals detected"
+      }
+    ],
+    "topSpam": [
+      {
+        "domain": "olivare.com.ar",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "seomuda.id",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, low-DR-foreign, SEO-spam-domain"
+      },
+      {
+        "domain": "torun-stolarz.pl",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, low-DR-foreign, telegram-spam-anchor"
+      },
+      {
+        "domain": "shoplogist.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "xedulichdaklak.com",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, telegram-spam-anchor"
+      },
+      {
+        "domain": "backlinksolutions.info",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, SEO-spam-domain, single-dofollow-DR0"
+      },
+      {
+        "domain": "pornharlot.net",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, spam-keyword-in-domain"
+      },
+      {
+        "domain": "thebestbacklinksavailable.click",
+        "quality": "spam",
+        "score": 0,
+        "reason": "DR-0, spam-TLD, SEO-spam-domain, suspiciously-long-domain"
+      },
+      {
+        "domain": "63game.top",
+        "quality": "spam",
+        "score": 10,
+        "reason": "DR-0, spam-TLD"
+      },
+      {
+        "domain": "belonnanotservice.ga",
+        "quality": "spam",
+        "score": 10,
+        "reason": "DR-0, spam-TLD"
+      },
+      {
+        "domain": "what-happens-next.xyz",
+        "quality": "spam",
+        "score": 10,
+        "reason": "DR-0, spam-TLD"
+      },
+      {
+        "domain": "australianwebdirectory.pro",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "australianwebdirectory.shop",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "seobacklinks.agency",
+        "quality": "spam",
+        "score": 20,
+        "reason": "DR-0, SEO-spam-domain"
+      },
+      {
+        "domain": "sergechel.info",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "ycm.info",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "emeraldbay.com",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "websiterace.com",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, single-dofollow-DR0"
+      },
+      {
+        "domain": "phorum.pl",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, low-DR-foreign"
+      },
+      {
+        "domain": "mydeepin.ru",
+        "quality": "spam",
+        "score": 30,
+        "reason": "DR-0, low-DR-foreign"
+      }
+    ],
+    "analyzedAt": "2026-05-05T18:41:28.087Z",
+    "method": "rule-based-v1"
+  }
 }
