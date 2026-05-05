@@ -415,7 +415,7 @@ class AuditOrchestrator:
     def _run_reporting(self) -> dict[str, Any]:
         """Run reporting intelligence — MUST be last step."""
         from audit_platform.analyzers.reporting_intelligence import ReportingIntelligenceAnalyzer
-        analyzer = ReportingIntelligenceAnalyzer()
+        analyzer = ReportingIntelligenceAnalyzer(ctx=self.ctx)
 
         result = analyzer.analyze(self.audit_data, domain=self.args.domain)
 
