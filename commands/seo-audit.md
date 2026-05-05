@@ -756,19 +756,19 @@ the report generator needs. These do NOT require Google connectors.
 
 ### PageSpeed data (public PSI API, no auth):
 ```bash
-node scripts/gather-pagespeed.js {CLIENT_SITE_URL} {COMPETITOR_URLS_SPACE_SEPARATED}
+node scripts/gather-pagespeed.js --client-slug {CLIENT_NAME_SLUG} {CLIENT_SITE_URL} {COMPETITOR_URLS_SPACE_SEPARATED}
 ```
 Output: `seo/research/pagespeed-data.json`
 
 ### Domain metrics (DataForSEO, API key only):
 ```bash
-node scripts/gather-domain-metrics.js {CLIENT_DOMAIN} {COMPETITOR_DOMAINS_SPACE_SEPARATED}
+node scripts/gather-domain-metrics.js --client-slug {CLIENT_NAME_SLUG} {CLIENT_DOMAIN} {COMPETITOR_DOMAINS_SPACE_SEPARATED}
 ```
 Output: `seo/research/domain-metrics.json`
 
 ### Organic metrics — DFS fallback for GSC (estimated organic keywords + traffic):
 ```bash
-node scripts/gather-organic-metrics.js {CLIENT_DOMAIN} {COMPETITOR_DOMAINS_SPACE_SEPARATED}
+node scripts/gather-organic-metrics.js --client-slug {CLIENT_NAME_SLUG} {CLIENT_DOMAIN} {COMPETITOR_DOMAINS_SPACE_SEPARATED}
 ```
 Output: `seo/research/organic-metrics.json`
 
@@ -776,7 +776,7 @@ Note: Only run when Google Search Console is not connected. This provides estima
 
 ### Backlink inventory (DataForSEO, API key only):
 ```bash
-node scripts/gather-backlinks.js {CLIENT_DOMAIN} {COMPETITOR_DOMAINS_SPACE_SEPARATED} --limit 200
+node scripts/gather-backlinks.js --client-slug {CLIENT_NAME_SLUG} {CLIENT_DOMAIN} {COMPETITOR_DOMAINS_SPACE_SEPARATED} --limit 200
 ```
 Output: `seo/research/client-backlinks.json` + `seo/research/backlinks-{competitor-domain}.json`
 
@@ -790,7 +790,7 @@ Note: This is **non-blocking**. If `gather-backlinks.js` skipped (e.g. DataForSE
 
 ### Keyword volumes (DataForSEO, API key only):
 ```bash
-node scripts/gather-keyword-volumes.js --from-audit seo/audit-data.json
+node scripts/gather-keyword-volumes.js --client-slug {CLIENT_NAME_SLUG} --from-audit seo/audit-data.json
 ```
 Output: `seo/research/keyword-volumes.json`
 
@@ -810,7 +810,7 @@ Note: This gathers NAP from the client website and checks directory presence (Ye
 
 ### Local Pack tracking (DataForSEO, ~$0.05 for 25 keywords):
 ```bash
-node scripts/gather-local-pack.js --from-audit seo/audit-data.json
+node scripts/gather-local-pack.js --client-slug {CLIENT_NAME_SLUG} --from-audit seo/audit-data.json
 ```
 Output: `seo/research/local-pack-data.json`
 
