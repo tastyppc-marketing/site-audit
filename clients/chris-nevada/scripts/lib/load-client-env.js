@@ -8,11 +8,12 @@
  * read `process.env.DATAFORSEO_LOGIN` and silently picked up whatever
  * .env happened to be in the current working directory.
  *
- * Path resolution: walks 3 levels up from __dirname to reach the repo
- * root, then drops into clients/<slug>/.env. This works from both
- * template/scripts/lib/ (development) and clients/<slug>/scripts/lib/
- * (post-Step-1.5 client clone) because both directories sit exactly
- * 3 levels below the repo root.
+ * Path resolution: walks up from __dirname until it finds a directory
+ * that has BOTH clients/ and template/ as immediate children — that is
+ * the repo root. Works from template/scripts/lib/ (3 levels deep) AND
+ * clients/<slug>/scripts/lib/ (4 levels deep, post Step-1.5 cohort sync).
+ * Naively resolving 3 levels up only worked for the template path and
+ * silently produced a wrong path for cohort-synced clients.
  *
  * Usage:
  *   const { loadClientEnv } = require('./lib/load-client-env');
@@ -51,13 +52,32 @@ function parseEnvFile(text) {
   return result;
 }
 
+function findRepoRoot(startDir) {
+  // Walk up from startDir until we find a directory that contains BOTH
+  // clients/ and template/ as immediate children. That is the repo root,
+  // regardless of whether this file lives at template/scripts/lib/
+  // (3 levels deep) or clients/<slug>/scripts/lib/ (4 levels deep, post
+  // Step-1.5 cohort sync).
+  let cur = path.resolve(startDir);
+  const fsRoot = path.parse(cur).root;
+  while (cur !== fsRoot) {
+    if (fs.existsSync(path.join(cur, 'clients')) &&
+        fs.existsSync(path.join(cur, 'template'))) {
+      return cur;
+    }
+    cur = path.dirname(cur);
+  }
+  throw new Error(
+    `loadClientEnv: cannot locate repo root from ${startDir} ` +
+    `(no ancestor has both clients/ and template/ subdirs)`
+  );
+}
+
 function resolveClientEnvPath(slug) {
   if (typeof slug !== 'string' || !slug) {
     throw new Error('loadClientEnv: slug is required');
   }
-  // __dirname is .../template/scripts/lib OR .../clients/<slug>/scripts/lib
-  // Both sit 3 levels below repo root.
-  const repoRoot = path.resolve(__dirname, '..', '..', '..');
+  const repoRoot = findRepoRoot(__dirname);
   return path.join(repoRoot, 'clients', slug, '.env');
 }
 
@@ -88,4 +108,4 @@ function resolveClientSlug(argv) {
   return path.basename(process.cwd());
 }
 
-module.exports = { loadClientEnv, parseEnvFile, resolveClientEnvPath, resolveClientSlug };
+module.exports = { loadClientEnv, parseEnvFile, resolveClientEnvPath, resolveClientSlug, findRepoRoot };

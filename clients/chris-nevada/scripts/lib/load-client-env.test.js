@@ -10,7 +10,7 @@ const fs = require('fs');
 const os = require('os');
 const path = require('path');
 
-const { parseEnvFile, loadClientEnv, resolveClientEnvPath } = require('./load-client-env');
+const { parseEnvFile, loadClientEnv, resolveClientEnvPath, findRepoRoot } = require('./load-client-env');
 
 describe('parseEnvFile', () => {
   test('parses simple KEY=VALUE pairs', () => {
@@ -84,5 +84,41 @@ describe('resolveClientEnvPath', () => {
     expect(p.endsWith(path.join('clients', 'matt-wallmow', '.env'))).toBe(true);
     // Should NOT contain template/scripts/lib (the helper's own location) in the middle
     expect(p).not.toMatch(/template\/scripts\/lib/);
+  });
+});
+
+describe('findRepoRoot (regression: cohort-synced 4-deep call site)', () => {
+  // Build a sandbox repo that mirrors both call sites and verify that
+  // findRepoRoot resolves to the same root from each. Naive
+  // path.resolve(__dirname, '..', '..', '..') worked from
+  // template/scripts/lib/ (depth 3) but produced /repo/clients from
+  // clients/<slug>/scripts/lib/ (depth 4). This test pins both to the
+  // same root via the sibling-marker walk.
+  let sandbox;
+
+  beforeAll(() => {
+    sandbox = fs.mkdtempSync(path.join(os.tmpdir(), 'lce-root-'));
+    fs.mkdirSync(path.join(sandbox, 'template', 'scripts', 'lib'), { recursive: true });
+    fs.mkdirSync(path.join(sandbox, 'clients', 'sbx', 'scripts', 'lib'), { recursive: true });
+  });
+
+  afterAll(() => {
+    fs.rmSync(sandbox, { recursive: true, force: true });
+  });
+
+  test('resolves to repo root from template/scripts/lib (depth 3)', () => {
+    const start = path.join(sandbox, 'template', 'scripts', 'lib');
+    expect(findRepoRoot(start)).toBe(sandbox);
+  });
+
+  test('resolves to repo root from clients/<slug>/scripts/lib (depth 4)', () => {
+    const start = path.join(sandbox, 'clients', 'sbx', 'scripts', 'lib');
+    expect(findRepoRoot(start)).toBe(sandbox);
+  });
+
+  test('throws a clear error when no repo root is found above the start dir', () => {
+    const orphan = fs.mkdtempSync(path.join(os.tmpdir(), 'lce-orphan-'));
+    expect(() => findRepoRoot(orphan)).toThrow(/cannot locate repo root/);
+    fs.rmSync(orphan, { recursive: true, force: true });
   });
 });
