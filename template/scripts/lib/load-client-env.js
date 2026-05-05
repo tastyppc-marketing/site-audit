@@ -70,4 +70,22 @@ function loadClientEnv(slug) {
   return parseEnvFile(content);
 }
 
-module.exports = { loadClientEnv, parseEnvFile, resolveClientEnvPath };
+/**
+ * Resolve the active client slug.
+ *
+ * Looks for `--client-slug <slug>` in argv first; falls back to the
+ * basename of process.cwd() (legacy `cd clients/<slug>` flow).
+ *
+ * @param {string[]} [argv=process.argv] - argv array including node + script path
+ * @returns {string} client slug
+ */
+function resolveClientSlug(argv) {
+  const a = argv || process.argv;
+  const idx = a.indexOf('--client-slug');
+  if (idx !== -1 && a[idx + 1]) {
+    return a[idx + 1];
+  }
+  return path.basename(process.cwd());
+}
+
+module.exports = { loadClientEnv, parseEnvFile, resolveClientEnvPath, resolveClientSlug };
