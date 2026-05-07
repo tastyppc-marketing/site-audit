@@ -1,0 +1,32 @@
+[
+  {
+    "landingPage": "/",
+    "sessions": 1194,
+    "engagedSessions": 583,
+    "bounceRate": 0.5117252931323283,
+    "averageSessionDuration": 229.79160930234505,
+    "conversions": 0,
+    "totalUsers": 1089,
+    "newUsers": 1008
+  },
+  {
+    "landingPage": "(not set)",
+    "sessions": 830,
+    "engagedSessions": 4,
+    "bounceRate": 0.9951807228915662,
+    "averageSessionDuration": 2.8465510771084337,
+    "conversions": 0,
+    "totalUsers": 781,
+    "newUsers": 0
+  },
+  {
+    "landingPage": "/property-search/results",
+    "sessions": 522,
+    "engagedSessions": 277,
+    "bounceRate": 0.46934865900383144,
+    "averageSessionDuration": 169.9070226130268,
+    "conversions": 0,
+    "totalUsers": 441,
+    "newUsers": 381
+  }
+]

@@ -1,0 +1,345 @@
+{
+  "mobile": {
+    "url": "https://www.mammothlakesproperties.com",
+    "strategy": "mobile",
+    "performance_score": 0.3,
+    "lcp": 15812.4,
+    "inp": 355.5,
+    "cls": 0.8032,
+    "fcp": 2852.0,
+    "ttfb": 110.0,
+    "speed_index": 8659.2,
+    "opportunities": [
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+        "score": 0,
+        "display_value": "Est savings of 1,027\u00a0KiB",
+        "savings_ms": 5310,
+        "savings_bytes": 1052029
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+        "score": 0,
+        "display_value": "Est savings of 83\u00a0KiB",
+        "savings_ms": 150,
+        "savings_bytes": 84547
+      },
+      {
+        "id": "unminified-css",
+        "title": "Minify CSS",
+        "description": "Minifying CSS files can reduce network payload sizes. [Learn how to minify CSS](https://developer.chrome.com/docs/lighthouse/performance/unminified-css/).",
+        "score": 0.5,
+        "display_value": "Est savings of 13\u00a0KiB",
+        "savings_ms": 0,
+        "savings_bytes": 13481
+      }
+    ],
+    "diagnostics": [
+      {
+        "id": "max-potential-fid",
+        "title": "Max Potential First Input Delay",
+        "description": "The maximum potential First Input Delay that your users could experience is the duration of the longest task. [Learn more about the Maximum Potential First Input Delay metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-max-potential-fid/).",
+        "score": 0.66,
+        "display_value": "200\u00a0ms"
+      },
+      {
+        "id": "total-blocking-time",
+        "title": "Total Blocking Time",
+        "description": "Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. [Learn more about the Total Blocking Time metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time/).",
+        "score": 0.72,
+        "display_value": "360\u00a0ms"
+      },
+      {
+        "id": "layout-shifts",
+        "title": "Avoid large layout shifts",
+        "description": "These are the largest layout shifts observed on the page. Each table item represents a single layout shift, and shows the element that shifted the most. Below each item are possible root causes that led to the layout shift. Some of these layout shifts may not be included in the CLS metric value due to [windowing](https://web.dev/articles/cls#what_is_cls). [Learn how to improve CLS](https://web.dev/articles/optimize-cls)",
+        "score": 0,
+        "display_value": "2 layout shifts found"
+      },
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
+        "score": 0.55,
+        "display_value": "2.9\u00a0s"
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "description": "A forced reflow occurs when JavaScript queries geometric properties (such as offsetWidth) after styles have been invalidated by a change to the DOM state. This can result in poor performance. Learn more about [forced reflows](https://developer.chrome.com/docs/performance/insights/forced-reflow) and possible mitigations.",
+        "score": 0,
+        "display_value": ""
+      },
+      {
+        "id": "cls-culprits-insight",
+        "title": "Layout shift culprits",
+        "description": "Layout shifts occur when elements move absent any user interaction. [Investigate the causes of layout shifts](https://developer.chrome.com/docs/performance/insights/cls-culprit), such as elements being added, removed, or their fonts changing as the page loads.",
+        "score": 0,
+        "display_value": ""
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "description": "Time to Interactive is the amount of time it takes for the page to become fully interactive. [Learn more about the Time to Interactive metric](https://developer.chrome.com/docs/lighthouse/performance/interactive/).",
+        "score": 0.05,
+        "display_value": "16.2\u00a0s"
+      },
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
+        "score": 0.16,
+        "display_value": "8.7\u00a0s"
+      },
+      {
+        "id": "legacy-javascript-insight",
+        "title": "Legacy JavaScript",
+        "description": "Polyfills and transforms enable older browsers to use new JavaScript features. However, many aren't necessary for modern browsers. Consider modifying your JavaScript build process to not transpile [Baseline](https://web.dev/articles/baseline-and-polyfills) features, unless you know you must support older browsers. [Learn why most sites can deploy ES6+ code without transpiling](https://developer.chrome.com/docs/performance/insights/legacy-javascript)",
+        "score": 0,
+        "display_value": "Est savings of 49\u00a0KiB"
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache).",
+        "score": 0,
+        "display_value": "Est savings of 536\u00a0KiB"
+      },
+      {
+        "id": "lcp-breakdown-insight",
+        "title": "LCP breakdown",
+        "description": "Each [subpart has specific improvement strategies](https://developer.chrome.com/docs/performance/insights/lcp-breakdown). Ideally, most of the LCP time should be spent on loading the resources, not within delays.",
+        "score": 0,
+        "display_value": ""
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "description": "Reducing the download time of images can improve the perceived load time of the page and LCP. [Learn more about optimizing image size](https://developer.chrome.com/docs/performance/insights/image-delivery)",
+        "score": 0.5,
+        "display_value": "Est savings of 107\u00a0KiB"
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "description": "[Optimize LCP](https://developer.chrome.com/docs/performance/insights/lcp-discovery) by making the LCP image discoverable from the HTML immediately, and avoiding lazy-loading",
+        "score": 0,
+        "display_value": ""
+      },
+      {
+        "id": "cumulative-layout-shift",
+        "title": "Cumulative Layout Shift",
+        "description": "Cumulative Layout Shift measures the movement of visible elements within the viewport. [Learn more about the Cumulative Layout Shift metric](https://web.dev/articles/cls).",
+        "score": 0.05,
+        "display_value": "0.803"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
+        "score": 0,
+        "display_value": "15.8\u00a0s"
+      },
+      {
+        "id": "unsized-images",
+        "title": "Image elements do not have explicit `width` and `height`",
+        "description": "Set an explicit width and height on image elements to reduce layout shifts and improve CLS. [Learn how to set image dimensions](https://web.dev/articles/optimize-cls#images_without_dimensions)",
+        "score": 0.5,
+        "display_value": ""
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "description": "[Avoid chaining critical requests](https://developer.chrome.com/docs/performance/insights/network-dependency-tree) by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load.",
+        "score": 0,
+        "display_value": ""
+      }
+    ]
+  },
+  "desktop": {
+    "url": "https://www.mammothlakesproperties.com",
+    "strategy": "desktop",
+    "performance_score": 0.39,
+    "lcp": 1222.0,
+    "inp": 1568.5,
+    "cls": 1.001,
+    "fcp": 842.0,
+    "ttfb": 57.0,
+    "speed_index": 1862.1,
+    "opportunities": [
+      {
+        "id": "unused-javascript",
+        "title": "Reduce unused JavaScript",
+        "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/).",
+        "score": 0,
+        "display_value": "Est savings of 1,368\u00a0KiB",
+        "savings_ms": 40,
+        "savings_bytes": 1400511
+      },
+      {
+        "id": "unminified-css",
+        "title": "Minify CSS",
+        "description": "Minifying CSS files can reduce network payload sizes. [Learn how to minify CSS](https://developer.chrome.com/docs/lighthouse/performance/unminified-css/).",
+        "score": 0.5,
+        "display_value": "Est savings of 13\u00a0KiB",
+        "savings_ms": 0,
+        "savings_bytes": 13481
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/).",
+        "score": 0,
+        "display_value": "Est savings of 124\u00a0KiB",
+        "savings_ms": 0,
+        "savings_bytes": 126795
+      }
+    ],
+    "diagnostics": [
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree",
+        "description": "[Avoid chaining critical requests](https://developer.chrome.com/docs/performance/insights/network-dependency-tree) by reducing the length of chains, reducing the download size of resources, or deferring the download of unnecessary resources to improve page load.",
+        "score": 0,
+        "display_value": ""
+      },
+      {
+        "id": "cls-culprits-insight",
+        "title": "Layout shift culprits",
+        "description": "Layout shifts occur when elements move absent any user interaction. [Investigate the causes of layout shifts](https://developer.chrome.com/docs/performance/insights/cls-culprit), such as elements being added, removed, or their fonts changing as the page loads.",
+        "score": 0,
+        "display_value": ""
+      },
+      {
+        "id": "legacy-javascript-insight",
+        "title": "Legacy JavaScript",
+        "description": "Polyfills and transforms enable older browsers to use new JavaScript features. However, many aren't necessary for modern browsers. Consider modifying your JavaScript build process to not transpile [Baseline](https://web.dev/articles/baseline-and-polyfills) features, unless you know you must support older browsers. [Learn why most sites can deploy ES6+ code without transpiling](https://developer.chrome.com/docs/performance/insights/legacy-javascript)",
+        "score": 0.5,
+        "display_value": "Est savings of 72\u00a0KiB"
+      },
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "description": "Speed Index shows how quickly the contents of a page are visibly populated. [Learn more about the Speed Index metric](https://developer.chrome.com/docs/lighthouse/performance/speed-index/).",
+        "score": 0.68,
+        "display_value": "1.9\u00a0s"
+      },
+      {
+        "id": "max-potential-fid",
+        "title": "Max Potential First Input Delay",
+        "description": "The maximum potential First Input Delay that your users could experience is the duration of the longest task. [Learn more about the Maximum Potential First Input Delay metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-max-potential-fid/).",
+        "score": 0.26,
+        "display_value": "350\u00a0ms"
+      },
+      {
+        "id": "total-blocking-time",
+        "title": "Total Blocking Time",
+        "description": "Sum of all time periods between FCP and Time to Interactive, when task length exceeded 50ms, expressed in milliseconds. [Learn more about the Total Blocking Time metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-total-blocking-time/).",
+        "score": 0.01,
+        "display_value": "1,570\u00a0ms"
+      },
+      {
+        "id": "lcp-discovery-insight",
+        "title": "LCP request discovery",
+        "description": "[Optimize LCP](https://developer.chrome.com/docs/performance/insights/lcp-discovery) by making the LCP image discoverable from the HTML immediately, and avoiding lazy-loading",
+        "score": 0,
+        "display_value": ""
+      },
+      {
+        "id": "forced-reflow-insight",
+        "title": "Forced reflow",
+        "description": "A forced reflow occurs when JavaScript queries geometric properties (such as offsetWidth) after styles have been invalidated by a change to the DOM state. This can result in poor performance. Learn more about [forced reflows](https://developer.chrome.com/docs/performance/insights/forced-reflow) and possible mitigations.",
+        "score": 0,
+        "display_value": ""
+      },
+      {
+        "id": "layout-shifts",
+        "title": "Avoid large layout shifts",
+        "description": "These are the largest layout shifts observed on the page. Each table item represents a single layout shift, and shows the element that shifted the most. Below each item are possible root causes that led to the layout shift. Some of these layout shifts may not be included in the CLS metric value due to [windowing](https://web.dev/articles/cls#what_is_cls). [Learn how to improve CLS](https://web.dev/articles/optimize-cls)",
+        "score": 0,
+        "display_value": "3 layout shifts found"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "description": "Largest Contentful Paint marks the time at which the largest text or image is painted. [Learn more about the Largest Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-largest-contentful-paint/)",
+        "score": 0.89,
+        "display_value": "1.2\u00a0s"
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "description": "Reducing the download time of images can improve the perceived load time of the page and LCP. [Learn more about optimizing image size](https://developer.chrome.com/docs/performance/insights/image-delivery)",
+        "score": 0.5,
+        "display_value": "Est savings of 81\u00a0KiB"
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "description": "Time to Interactive is the amount of time it takes for the page to become fully interactive. [Learn more about the Time to Interactive metric](https://developer.chrome.com/docs/lighthouse/performance/interactive/).",
+        "score": 0.24,
+        "display_value": "6.3\u00a0s"
+      },
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "description": "First Contentful Paint marks the time at which the first text or image is painted. [Learn more about the First Contentful Paint metric](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint/).",
+        "score": 0.93,
+        "display_value": "0.8\u00a0s"
+      },
+      {
+        "id": "unsized-images",
+        "title": "Image elements do not have explicit `width` and `height`",
+        "description": "Set an explicit width and height on image elements to reduce layout shifts and improve CLS. [Learn how to set image dimensions](https://web.dev/articles/optimize-cls#images_without_dimensions)",
+        "score": 0.5,
+        "display_value": ""
+      },
+      {
+        "id": "total-byte-weight",
+        "title": "Avoid enormous network payloads",
+        "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn how to reduce payload sizes](https://developer.chrome.com/docs/lighthouse/performance/total-byte-weight/).",
+        "score": 0.5,
+        "display_value": "Total size was 4,233\u00a0KiB"
+      },
+      {
+        "id": "bootup-time",
+        "title": "Reduce JavaScript execution time",
+        "description": "Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to reduce Javascript execution time](https://developer.chrome.com/docs/lighthouse/performance/bootup-time/).",
+        "score": 0,
+        "display_value": "3.7\u00a0s"
+      },
+      {
+        "id": "cache-insight",
+        "title": "Use efficient cache lifetimes",
+        "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache).",
+        "score": 0,
+        "display_value": "Est savings of 662\u00a0KiB"
+      },
+      {
+        "id": "cumulative-layout-shift",
+        "title": "Cumulative Layout Shift",
+        "description": "Cumulative Layout Shift measures the movement of visible elements within the viewport. [Learn more about the Cumulative Layout Shift metric](https://web.dev/articles/cls).",
+        "score": 0.02,
+        "display_value": "1.001"
+      },
+      {
+        "id": "mainthread-work-breakdown",
+        "title": "Minimize main-thread work",
+        "description": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to minimize main-thread work](https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown/)",
+        "score": 0,
+        "display_value": "5.5\u00a0s"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render blocking requests",
+        "description": "Requests are blocking the page's initial render, which may delay LCP. [Deferring or inlining](https://developer.chrome.com/docs/performance/insights/render-blocking) can move these network requests out of the critical path.",
+        "score": 0,
+        "display_value": "Est savings of 190\u00a0ms"
+      }
+    ]
+  }
+}

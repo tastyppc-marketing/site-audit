@@ -1,0 +1,14 @@
+{
+  "keywords": [
+    {
+      "keyword": "test query",
+      "clientFound": true,
+      "competitorDomains": [
+        "x.com"
+      ],
+      "topResult": "https://x.com/page",
+      "volume": 100,
+      "cpc": 1.5
+    }
+  ]
+}

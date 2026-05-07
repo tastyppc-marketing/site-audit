@@ -1,0 +1,26 @@
+[
+  {
+    "pagePath": "/",
+    "pageTitle": "Properties for sale in Mammoth Lakes, California | mammothlakesproperties",
+    "screenPageViews": 1429,
+    "averageSessionDuration": 181.48128619602062,
+    "bounceRate": 0.4760501105379514,
+    "engagedSessions": 711
+  },
+  {
+    "pagePath": "/property-search/results/",
+    "pageTitle": "Property Search - Search Mammoth Lakes Real Estate MLS",
+    "screenPageViews": 586,
+    "averageSessionDuration": 90.18926610243902,
+    "bounceRate": 0.25365853658536586,
+    "engagedSessions": 306
+  },
+  {
+    "pagePath": "/long-valley-homes-for-sale/luxury/",
+    "pageTitle": "Long Valley Luxury Real Estate - Homes for Sale in Long Valley",
+    "screenPageViews": 557,
+    "averageSessionDuration": 32.702514582205026,
+    "bounceRate": 0.5473887814313346,
+    "engagedSessions": 234
+  }
+]

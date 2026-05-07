@@ -1,0 +1,29 @@
+[
+  {
+    "sessionDefaultChannelGroup": "Direct",
+    "sessionSource": "(direct)",
+    "sessionMedium": "(none)",
+    "sessions": 11620,
+    "totalUsers": 8432,
+    "engagedSessions": 4029,
+    "conversions": 4
+  },
+  {
+    "sessionDefaultChannelGroup": "Paid Search",
+    "sessionSource": "google",
+    "sessionMedium": "cpc",
+    "sessions": 1746,
+    "totalUsers": 1658,
+    "engagedSessions": 863,
+    "conversions": 7
+  },
+  {
+    "sessionDefaultChannelGroup": "Organic Search",
+    "sessionSource": "google",
+    "sessionMedium": "organic",
+    "sessions": 665,
+    "totalUsers": 450,
+    "engagedSessions": 410,
+    "conversions": 0
+  }
+]

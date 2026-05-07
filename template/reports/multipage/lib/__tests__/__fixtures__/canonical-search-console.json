@@ -1,0 +1,96 @@
+{
+  "totalQueries": 835,
+  "totalPages": 500,
+  "topQueries": [
+    {
+      "query": "performance property partners",
+      "clicks": 19,
+      "impressions": 35,
+      "ctr": 0.542857,
+      "position": 1.06
+    },
+    {
+      "query": "54 strawberry fields way hampstead nc",
+      "clicks": 1,
+      "impressions": 21,
+      "ctr": 0.047619,
+      "position": 5.9
+    },
+    {
+      "query": "new construction homes for sale near me",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 9
+    }
+  ],
+  "topPages": [
+    {
+      "page": "https://www.p3realtync.com/",
+      "clicks": 36,
+      "impressions": 490,
+      "ctr": 0.073469,
+      "position": 7.62
+    },
+    {
+      "page": "https://www.p3realtync.com/our-agents/ken-stancil/",
+      "clicks": 12,
+      "impressions": 40,
+      "ctr": 0.3,
+      "position": 5.35
+    },
+    {
+      "page": "https://www.p3realtync.com/blog/why-people-love-pinehurst-nc/",
+      "clicks": 9,
+      "impressions": 476,
+      "ctr": 0.018908,
+      "position": 8.14
+    }
+  ],
+  "allQueries": [
+    {
+      "query": "performance property partners",
+      "clicks": 19,
+      "impressions": 35,
+      "ctr": 0.542857,
+      "position": 1.06
+    },
+    {
+      "query": "54 strawberry fields way hampstead nc",
+      "clicks": 1,
+      "impressions": 21,
+      "ctr": 0.047619,
+      "position": 5.9
+    },
+    {
+      "query": "new construction homes for sale near me",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 1,
+      "position": 9
+    }
+  ],
+  "allPages": [
+    {
+      "page": "https://www.p3realtync.com/",
+      "clicks": 36,
+      "impressions": 490,
+      "ctr": 0.073469,
+      "position": 7.62
+    },
+    {
+      "page": "https://www.p3realtync.com/our-agents/ken-stancil/",
+      "clicks": 12,
+      "impressions": 40,
+      "ctr": 0.3,
+      "position": 5.35
+    },
+    {
+      "page": "https://www.p3realtync.com/blog/why-people-love-pinehurst-nc/",
+      "clicks": 9,
+      "impressions": 476,
+      "ctr": 0.018908,
+      "position": 8.14
+    }
+  ]
+}

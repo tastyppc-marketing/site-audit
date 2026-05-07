@@ -1,0 +1,23 @@
+[
+  {
+    "query": "cynthia fleming",
+    "clicks": 1,
+    "impressions": 3,
+    "ctr": 0.333333,
+    "position": 1.67
+  },
+  {
+    "query": "1123 pyramid peak dr # 1123 mammoth lakes, ca 93546",
+    "clicks": 0,
+    "impressions": 2,
+    "ctr": 0,
+    "position": 32.5
+  },
+  {
+    "query": "1153 lodges 1153 red peak ln # 1153 mammoth lakes, ca 93546",
+    "clicks": 0,
+    "impressions": 3,
+    "ctr": 0,
+    "position": 13.33
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "landingPages": [
+    {
+      "landingPage": "/property-search/results",
+      "sessions": 420,
+      "engagedSessions": 231,
+      "bounceRate": 0.45,
+      "averageSessionDuration": 189.90405831190475,
+      "conversions": 288,
+      "totalUsers": 382,
+      "newUsers": 370
+    },
+    {
+      "landingPage": "/",
+      "sessions": 402,
+      "engagedSessions": 163,
+      "bounceRate": 0.5945273631840796,
+      "averageSessionDuration": 146.83228710696517,
+      "conversions": 20,
+      "totalUsers": 348,
+      "newUsers": 321
+    },
+    {
+      "landingPage": "/property-search/detail/36/10152986/109-parkers-pointe-drive-benson-nc-27504",
+      "sessions": 94,
+      "engagedSessions": 8,
+      "bounceRate": 0.9148936170212766,
+      "averageSessionDuration": 56.747736968085114,
+      "conversions": 1,
+      "totalUsers": 91,
+      "newUsers": 88
+    }
+  ],
+  "acquisitionChannels": [
+    {
+      "sessionDefaultChannelGroup": "Direct",
+      "sessionSource": "(direct)",
+      "sessionMedium": "(none)",
+      "sessions": 867,
+      "totalUsers": 670,
+      "engagedSessions": 183,
+      "conversions": 64
+    },
+    {
+      "sessionDefaultChannelGroup": "Paid Search",
+      "sessionSource": "google",
+      "sessionMedium": "cpc",
+      "sessions": 552,
+      "totalUsers": 500,
+      "engagedSessions": 324,
+      "conversions": 270
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Search",
+      "sessionSource": "google",
+      "sessionMedium": "organic",
+      "sessions": 187,
+      "totalUsers": 160,
+      "engagedSessions": 109,
+      "conversions": 11
+    }
+  ],
+  "deviceBreakdown": [
+    {
+      "deviceCategory": "mobile",
+      "sessions": 1112,
+      "totalUsers": 875,
+      "conversions": 333,
+      "bounceRate": 0.5323741007194245
+    },
+    {
+      "deviceCategory": "desktop",
+      "sessions": 829,
+      "totalUsers": 647,
+      "conversions": 71,
+      "bounceRate": 0.6634499396863691
+    },
+    {
+      "deviceCategory": "tablet",
+      "sessions": 59,
+      "totalUsers": 52,
+      "conversions": 9,
+      "bounceRate": 0.3898305084745763
+    }
+  ],
+  "totalLandingPages": 404
+}

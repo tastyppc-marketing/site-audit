@@ -14,6 +14,13 @@
 
 const fs = require('fs');
 const path = require('path');
+const {
+  makeResearchLoader,
+  mergeLegacyPagespeed,
+  mergeLegacyGsc,
+  mergeLegacyGa4,
+  mergeLegacyKeywords,
+} = require('./lib/load-research');
 
 const PAGE_FILES = [
   'index.html',
@@ -574,6 +581,29 @@ function normalizeAuditData(data, dataDir) {
 
   const tech = data.technicalSeo || (data.technicalSeo = {});
   let fixes = 0;
+  // bd i57: canonical-first research loader; legacy Python filenames are temporary fallback.
+  const researchRoot = path.join(dataDir, 'research');
+  const researchLoader = makeResearchLoader({ warn: logWarning, info: logInfo });
+  const PSI_SPEC = {
+    canonical: 'pagespeed-data.json',
+    legacy: ['pagespeed.json', 'pagespeed-interior.json'],
+    mergeLegacy: mergeLegacyPagespeed,
+  };
+  const GSC_SPEC = {
+    canonical: 'search-console.json',
+    legacy: ['gsc-pages.json', 'gsc-queries.json', 'gsc-devices.json', 'gsc-query-pages.json'],
+    mergeLegacy: mergeLegacyGsc,
+  };
+  const GA4_SPEC = {
+    canonical: 'ga4-data.json',
+    legacy: ['ga4-acquisition.json', 'ga4-devices.json', 'ga4-landing-pages.json', 'ga4-page-performance.json'],
+    mergeLegacy: mergeLegacyGa4,
+  };
+  const KW_RESEARCH_SPEC = {
+    canonical: 'keyword-research.json',
+    legacy: ['keyword-suggestions.json'],
+    mergeLegacy: mergeLegacyKeywords,
+  };
   data.apiErrors = data.apiErrors || [];
   const clientWebsite = toText(data.client && (data.client.websiteUrl || data.client.website));
   let clientBaseUrl = null;
@@ -861,10 +891,9 @@ function normalizeAuditData(data, dataDir) {
 
   // If lighthouseResults is still missing, try to build from pagespeed-data.json
   if (!Array.isArray(tech.lighthouseResults) || !tech.lighthouseResults.length) {
-    const psiPath = path.join(dataDir, 'research', 'pagespeed-data.json');
-    if (fs.existsSync(psiPath)) {
+    const psi = researchLoader.load(researchRoot, PSI_SPEC);
+    if (psi) {
       try {
-        const psi = JSON.parse(fs.readFileSync(psiPath, 'utf-8'));
         propagateApiErrors('pagespeed-data.json', psi);
         const rawClientPages = (psi.data && Array.isArray(psi.data.client)) ? psi.data.client : [];
         const expectedClientDomain = normalizeDomain(data.client && (data.client.websiteUrl || data.client.website));
@@ -2447,10 +2476,9 @@ function normalizeAuditData(data, dataDir) {
   // If data.coreWebVitals is still missing after earlier PSI hoists, try again
   // with a broader search of pagespeed-data.json client entries.
   if (!data.coreWebVitals || (!data.coreWebVitals.mobile && !data.coreWebVitals.desktop)) {
-    var psiPath8 = path.join(dataDir, 'research', 'pagespeed-data.json');
-    if (fs.existsSync(psiPath8)) {
+    var psi8 = researchLoader.load(researchRoot, PSI_SPEC);
+    if (psi8) {
       try {
-        var psi8 = JSON.parse(fs.readFileSync(psiPath8, 'utf-8'));
         deepCamelCaseKeys(psi8);
         var clientEntries8 = (psi8.data && Array.isArray(psi8.data.client)) ? psi8.data.client : [];
         if (clientEntries8.length) {
@@ -2491,10 +2519,9 @@ function normalizeAuditData(data, dataDir) {
 
   // ── 9. pageSpeedComparison — fallback from pagespeed-data.json ──────
   if (!Array.isArray(data.pageSpeedComparison) || !data.pageSpeedComparison.length) {
-    var psiPath9 = path.join(dataDir, 'research', 'pagespeed-data.json');
-    if (fs.existsSync(psiPath9)) {
+    var psi9 = researchLoader.load(researchRoot, PSI_SPEC);
+    if (psi9) {
       try {
-        var psi9 = JSON.parse(fs.readFileSync(psiPath9, 'utf-8'));
         deepCamelCaseKeys(psi9);
         var allDomains9 = [];
         var clientDomains9 = (psi9.data && Array.isArray(psi9.data.client)) ? psi9.data.client : [];
@@ -2551,9 +2578,9 @@ function normalizeAuditData(data, dataDir) {
 
     // Load keyword-research.json (has clientFound, competitorDomains, topResult)
     var kwResearchMap = new Map();
-    if (fs.existsSync(kwResearchPath)) {
+    var krRaw = researchLoader.load(researchRoot, KW_RESEARCH_SPEC);
+    if (krRaw) {
       try {
-        var krRaw = JSON.parse(fs.readFileSync(kwResearchPath, 'utf-8'));
         deepCamelCaseKeys(krRaw);
         var krArr = Array.isArray(krRaw) ? krRaw : (krRaw.keywords || krRaw.data || []);
         krArr.forEach(function(e) {
@@ -2661,10 +2688,9 @@ function normalizeAuditData(data, dataDir) {
 
   // ── 12. searchConsoleData — from search-console.json ────────────────
   if (!data.searchConsoleData) {
-    var scPath = path.join(dataDir, 'research', 'search-console.json');
-    if (fs.existsSync(scPath)) {
+    var scRaw = researchLoader.load(researchRoot, GSC_SPEC);
+    if (scRaw) {
       try {
-        var scRaw = JSON.parse(fs.readFileSync(scPath, 'utf-8'));
         deepCamelCaseKeys(scRaw);
         if (scRaw.topQueries || scRaw.topPages) {
           data.searchConsoleData = {
@@ -2682,10 +2708,9 @@ function normalizeAuditData(data, dataDir) {
 
   // ── 13. trafficData — from ga4-data.json ────────────────────────────
   if (!data.trafficData) {
-    var ga4Path = path.join(dataDir, 'research', 'ga4-data.json');
-    if (fs.existsSync(ga4Path)) {
+    var ga4 = researchLoader.load(researchRoot, GA4_SPEC);
+    if (ga4) {
       try {
-        var ga4 = JSON.parse(fs.readFileSync(ga4Path, 'utf-8'));
         deepCamelCaseKeys(ga4);
         var trafficData = {};
         var hasTrafficData = false;

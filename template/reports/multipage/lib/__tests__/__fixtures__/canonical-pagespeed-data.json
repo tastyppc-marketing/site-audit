@@ -1,0 +1,110 @@
+{
+  "data": {
+    "client": [
+      {
+        "url": "https://mattwallmow.com",
+        "domain": "mattwallmow.com",
+        "mobile": {
+          "performanceScore": 0.57,
+          "lcp": 13877.010558687987,
+          "fcp": 7615.250280860031,
+          "cls": 0.00012000000000000002,
+          "inp": null,
+          "ttfb": 7,
+          "speedIndex": 7875.412790030526,
+          "opportunities": [
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 1500
+            },
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 1350
+            }
+          ]
+        },
+        "desktop": {
+          "performanceScore": 0.96,
+          "lcp": 1084.513666812782,
+          "fcp": 926.0117649277721,
+          "cls": 0.060858,
+          "inp": null,
+          "ttfb": 6,
+          "speedIndex": 1154.1135130852147,
+          "opportunities": [
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 80
+            }
+          ]
+        }
+      }
+    ],
+    "competitors": [
+      {
+        "url": "https://redmanrealtygroup.com",
+        "domain": "redmanrealtygroup.com",
+        "mobile": {
+          "performanceScore": 0.52,
+          "lcp": 6632.145521361111,
+          "fcp": 5294.019056157403,
+          "cls": 0,
+          "inp": null,
+          "ttfb": 2,
+          "speedIndex": 8722.140421572069,
+          "opportunities": [
+            {
+              "title": "Avoid multiple page redirects",
+              "id": "redirects",
+              "savings": 780
+            },
+            {
+              "title": "Minify JavaScript",
+              "id": "unminified-javascript",
+              "savings": 150
+            },
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 600
+            },
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 450
+            }
+          ]
+        },
+        "desktop": {
+          "performanceScore": 0.77,
+          "lcp": 1434.117997726042,
+          "fcp": 1323.016856818006,
+          "cls": 0.018847000000000003,
+          "inp": null,
+          "ttfb": 4,
+          "speedIndex": 3308.247697293447,
+          "opportunities": [
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 80
+            },
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 40
+            },
+            {
+              "title": "Avoid multiple page redirects",
+              "id": "redirects",
+              "savings": 230
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
