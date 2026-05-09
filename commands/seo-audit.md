@@ -766,13 +766,29 @@ node scripts/gather-domain-metrics.js --client-slug {CLIENT_NAME_SLUG} {CLIENT_D
 ```
 Output: `seo/research/domain-metrics.json`
 
+### Google Analytics 4 traffic (OAuth via client .env):
+```bash
+python3 ../../platform/scripts/gather_ga4.py --client-slug {CLIENT_NAME_SLUG}
+```
+Output: `seo/research/ga4-data.json` (landingPages, acquisitionChannels, deviceBreakdown, pagePerformance over the last 90 days).
+
+Note: Requires `GOOGLE_CLIENT_ID` + `GOOGLE_CLIENT_SECRET` + `GOOGLE_REFRESH_TOKEN` (with `analytics.readonly` scope) and `GA4_PROPERTY_ID` in `clients/<slug>/.env`. Skips with a clear error if credentials are missing — do NOT abort the audit; the renderer treats this section as optional.
+
+### Search Console queries + pages (OAuth via client .env):
+```bash
+python3 ../../platform/scripts/gather_search_console.py --client-slug {CLIENT_NAME_SLUG}
+```
+Output: `seo/research/search-console.json` (topQueries, topPages, allQueries, allPages over the last 90 days, accounting for GSC's 3-day data lag).
+
+Note: Requires `GOOGLE_REFRESH_TOKEN` (with `webmasters.readonly` scope) and `SEARCH_CONSOLE_SITE_URL` in `clients/<slug>/.env`. Same skip-on-missing-creds rule as GA4.
+
 ### Organic metrics — DFS fallback for GSC (estimated organic keywords + traffic):
 ```bash
 node scripts/gather-organic-metrics.js --client-slug {CLIENT_NAME_SLUG} {CLIENT_DOMAIN} {COMPETITOR_DOMAINS_SPACE_SEPARATED}
 ```
 Output: `seo/research/organic-metrics.json`
 
-Note: Only run when Google Search Console is not connected. This provides estimated organic keywords and traffic using DataForSEO Labs data.
+Note: Only run when Google Search Console is not connected (i.e. `gather_search_console.py` above failed or was skipped). This provides estimated organic keywords and traffic using DataForSEO Labs data.
 
 ### Backlink inventory (DataForSEO, API key only):
 ```bash
@@ -818,7 +834,7 @@ Checks if the client business appears in Google's Local Pack (map pack) for each
 
 **Verify all files exist before proceeding:**
 ```bash
-ls -lh seo/research/{pagespeed-data,domain-metrics,organic-metrics,client-backlinks,keyword-volumes,page-text-analysis,local-seo,local-pack-data}.json seo/research/backlinks-*.json
+ls -lh seo/research/{pagespeed-data,domain-metrics,ga4-data,search-console,organic-metrics,client-backlinks,keyword-volumes,page-text-analysis,local-seo,local-pack-data}.json seo/research/backlinks-*.json 2>/dev/null
 ```
 ## Step 5.6: Auto-Populate audit-data.json from Research
 
