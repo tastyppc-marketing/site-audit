@@ -1,0 +1,3212 @@
+{
+  "domain": "kittlerealestate.com",
+  "totalBacklinks": 200,
+  "referringDomains": 200,
+  "backlinks": [
+    {
+      "source_url": "http://www.robkittle.com/",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "",
+      "domain_rating": 289,
+      "is_dofollow": true,
+      "first_seen": "2020-02-28 05:06:18 +00:00"
+    },
+    {
+      "source_url": "http://www.fortcollinshomesearch.com/",
+      "target_url": "https://kittle-perfect-home-finder.kittlerealestate.com/",
+      "anchor_text": "",
+      "domain_rating": 194,
+      "is_dofollow": true,
+      "first_seen": "2019-05-25 15:23:57 +00:00"
+    },
+    {
+      "source_url": "https://www.bbb.org/local/0805/foundation/torch-awards/winners/kittlerealestate",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-05-07 10:20:18 +00:00"
+    },
+    {
+      "source_url": "https://bizmark.org/news/find-homes-for-sale-in-fort-collins/",
+      "target_url": "http://www.kittlerealestate.com/properties/",
+      "anchor_text": "Find Homes For Sale In Fort Collins",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-05-31 23:58:50 +00:00"
+    },
+    {
+      "source_url": "https://www.callupcontact.com/b/businessprofile/Rob_Kittle_Kittle_Real_Estate/9833730",
+      "target_url": "https://www.kittlerealestate.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+      "anchor_text": "https://www.kittlerealestate.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-10-20 01:09:32 +00:00"
+    },
+    {
+      "source_url": "https://demo1.worldbankingdirectory.com/news/find-homes-for-sale-in-fort-collins/",
+      "target_url": "http://www.kittlerealestate.com/properties/",
+      "anchor_text": "Find Homes For Sale In Fort Collins",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 03:36:32 +00:00"
+    },
+    {
+      "source_url": "https://demo1.worldbankingdirectory.com/news/searching-homes-for-sale-based-in-fort-collins/",
+      "target_url": "https://www.kittlerealestate.com/properties",
+      "anchor_text": "Searching Homes For Sale Based In Fort Collins?",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 08:53:31 +00:00"
+    },
+    {
+      "source_url": "https://demo1.worldbankingdirectory.com/news/are-you-looking-for-first-time-home-buyer-based-in-fort-collins/",
+      "target_url": "https://www.kittlerealestate.com/buyers/deciding-to-buy",
+      "anchor_text": "Are You Looking For First Time Home Buyer Based In Fort Collins?",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 08:47:25 +00:00"
+    },
+    {
+      "source_url": "https://demo1.worldbankingdirectory.com/news/are-you-looking-for-top-rated-real-estate-agents-based-in-fort-collins/",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Are You Looking For Top Rated Real Estate Agents Based In Fort Collins?",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 08:20:56 +00:00"
+    },
+    {
+      "source_url": "https://demo1.worldbankingdirectory.com/news/professional-service-to-help-you-sell-home-fast-in-fort-collins/",
+      "target_url": "https://www.kittlerealestate.com/sellers/decide-to-sell/",
+      "anchor_text": "Professional Service to help you Sell Home Fast in Fort Collins",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 07:37:32 +00:00"
+    },
+    {
+      "source_url": "https://bizmark.org/news/are-you-looking-for-first-time-home-buyer-based-in-fort-collins/",
+      "target_url": "https://www.kittlerealestate.com/buyers/deciding-to-buy",
+      "anchor_text": "Are You Looking For First Time Home Buyer Based In Fort Collins?",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 07:04:34 +00:00"
+    },
+    {
+      "source_url": "https://bizmark.org/news/searching-homes-for-sale-based-in-fort-collins/",
+      "target_url": "https://www.kittlerealestate.com/properties",
+      "anchor_text": "Searching Homes For Sale Based In Fort Collins?",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 06:56:48 +00:00"
+    },
+    {
+      "source_url": "https://demo1.worldbankingdirectory.com/news/find-here-homes-for-sale-in-fort-collins-at-kittle-real-estate/",
+      "target_url": "http://www.kittlerealestate.com/properties",
+      "anchor_text": "Find here Homes For Sale In Fort Collins at Kittle Real Estate",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 06:11:58 +00:00"
+    },
+    {
+      "source_url": "https://bizmark.org/news/professional-service-to-help-you-sell-home-fast-in-fort-collins/",
+      "target_url": "https://www.kittlerealestate.com/sellers/decide-to-sell/",
+      "anchor_text": "Professional Service to help you Sell Home Fast in Fort Collins",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 05:25:13 +00:00"
+    },
+    {
+      "source_url": "https://bizmark.org/news/are-you-looking-for-top-rated-real-estate-agents-based-in-fort-collins/",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Are You Looking For Top Rated Real Estate Agents Based In Fort Collins?",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 04:46:53 +00:00"
+    },
+    {
+      "source_url": "https://demo1.worldbankingdirectory.com/news/kittle-real-estate-will-guide-to-first-time-home-buyer-in-fort-collins/",
+      "target_url": "https://www.kittlerealestate.com/buyers/deciding-to-buy/",
+      "anchor_text": "Kittle Real Estate Will Guide To First Time Home Buyer In Fort Collins",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 04:09:49 +00:00"
+    },
+    {
+      "source_url": "https://demo1.worldbankingdirectory.com/news/meet-top-rated-realtors-in-fort-collins-for-all-your-home-buying-selling-needs-kittle-real-estate/",
+      "target_url": "http://www.kittlerealestate.com/",
+      "anchor_text": "Meet Top Rated Realtors In Fort Collins For All Your Home Buying & Selling Needs – Kittle Real Estate",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 04:04:16 +00:00"
+    },
+    {
+      "source_url": "https://bizmark.org/news/find-here-homes-for-sale-in-fort-collins-at-kittle-real-estate/",
+      "target_url": "http://www.kittlerealestate.com/properties",
+      "anchor_text": "Find here Homes For Sale In Fort Collins at Kittle Real Estate",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 03:48:16 +00:00"
+    },
+    {
+      "source_url": "https://demo1.worldbankingdirectory.com/news/top-ranking-team-of-real-estate-professionals/",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Top-Ranking Team of Real Estate Professionals",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 03:22:56 +00:00"
+    },
+    {
+      "source_url": "https://demo1.worldbankingdirectory.com/news/high-potential-residential-investment-properties/",
+      "target_url": "https://www.kittlerealestate.com/properties/",
+      "anchor_text": "High-Potential Residential Investment Properties",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 03:18:44 +00:00"
+    },
+    {
+      "source_url": "https://bizmark.org/news/meet-top-rated-realtors-in-fort-collins-for-all-your-home-buying-selling-needs-kittle-real-estate/",
+      "target_url": "http://www.kittlerealestate.com/",
+      "anchor_text": "Meet Top Rated Realtors In Fort Collins For All Your Home Buying & Selling Needs – Kittle Real Estate",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 02:08:04 +00:00"
+    },
+    {
+      "source_url": "https://bizmark.org/news/kittle-real-estate-will-guide-to-first-time-home-buyer-in-fort-collins/",
+      "target_url": "https://www.kittlerealestate.com/buyers/deciding-to-buy/",
+      "anchor_text": "Kittle Real Estate Will Guide To First Time Home Buyer In Fort Collins",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 01:46:07 +00:00"
+    },
+    {
+      "source_url": "https://bizmark.org/news/top-ranking-team-of-real-estate-professionals/",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Top-Ranking Team of Real Estate Professionals",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-06-01 00:37:12 +00:00"
+    },
+    {
+      "source_url": "https://bizmark.org/news/high-potential-residential-investment-properties/",
+      "target_url": "https://www.kittlerealestate.com/properties/",
+      "anchor_text": "High-Potential Residential Investment Properties",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-05-31 23:56:10 +00:00"
+    },
+    {
+      "source_url": "http://robkittle.com/",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "",
+      "domain_rating": 95,
+      "is_dofollow": true,
+      "first_seen": "2019-01-19 18:46:03 +00:00"
+    },
+    {
+      "source_url": "https://americatop10.com/colorado/fort-collins/top10/real-estate-agent/richard-payne-jr",
+      "target_url": "https://www.kittlerealestate.com/the-kittle-team/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2026-02-02 17:18:14 +00:00"
+    },
+    {
+      "source_url": "https://americatop10.com/colorado/fort-collins/top10/real-estate-agent/steve-pratt",
+      "target_url": "https://www.kittlerealestate.com/the-kittle-team/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2026-02-02 17:18:03 +00:00"
+    },
+    {
+      "source_url": "https://americatop10.com/colorado/fort-collins/top10/real-estate-agent/ryan-magnus",
+      "target_url": "https://www.kittlerealestate.com/the-kittle-team/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2026-02-02 17:17:56 +00:00"
+    },
+    {
+      "source_url": "https://www.bunity.com/kittle-real-estate",
+      "target_url": "https://www.kittlerealestate.com/communities/fort-collins-co-homes-for-sale/",
+      "anchor_text": "KITTLE REAL ESTATE  Real Estate Services",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2024-02-29 13:40:22 +00:00"
+    },
+    {
+      "source_url": "https://www.peerreputation.com/Agent/Profile/rob-kittle/2343700/6b80",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2023-04-05 08:44:42 +00:00"
+    },
+    {
+      "source_url": "https://www.peerreputation.com/Agent/Profile/rob-kittle/323734/6790",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2022-12-26 04:32:17 +00:00"
+    },
+    {
+      "source_url": "https://www.peerreputation.com/Agent/Profile/rob-kittle/3137089/4516",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2023-09-03 10:57:35 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P18683/Teriesa-Gagnon-Kittle-Real-Estate-Fort-Collins-CO",
+      "target_url": "https://teriesagagnon.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-05-28 01:28:37 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P18391/Alan-Rogers-Kittle-Real-Estate-Fort-Collins-CO",
+      "target_url": "http://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-20 04:45:29 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P03234/Steven-Pfaadt-Kittle-Real-Estate-Fort-Collins-CO",
+      "target_url": "https://stevenpfaadt.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-20 02:49:07 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P15941/Trey-Carroll-Kittle-Real-Estate-Fort-Collins-CO",
+      "target_url": "http://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-07-02 23:39:17 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P02440/Teresa-Edwards-Kittle-Real-Estate-Fort-Collins-CO",
+      "target_url": "https://teresaedwards.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-20 03:45:52 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P24667/Kathi-Doty-Kittle-Real-Estate-Fort-Collins-CO",
+      "target_url": "http://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-20 02:38:44 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P19457/Amy-Rushing-Kittle-Real-Estate-Fort-Collins-CO",
+      "target_url": "https://kittle-perfect-home-finder.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-13 16:04:48 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P16320/John-Kerwin-Kittle-Real-Estate-Fort-Collins-CO",
+      "target_url": "http://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-20 01:38:00 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P11850/Rob-Kittle-Kittle-Real-Estate-Fort-Collins-CO",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-01-25 04:10:11 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1352369/4904-Deer-Trail-Ct-Fort-Collins-CO-80526",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2026-02-08 06:10:47 +00:00"
+    },
+    {
+      "source_url": "https://www.salesjobs.com/sales-job/51117605",
+      "target_url": "http://www.kittlerealestate.com/",
+      "anchor_text": "www.kittlerealestate.com",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-06-17 20:50:18 +00:00"
+    },
+    {
+      "source_url": "https://www.salesjobs.com/sales-job/51019191",
+      "target_url": "http://www.kittlerealestate.com/",
+      "anchor_text": "www.kittlerealestate.com",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-06-14 20:38:36 +00:00"
+    },
+    {
+      "source_url": "https://www.salesjobs.com/sales-job/51020411",
+      "target_url": "http://www.kittlerealestate.com/",
+      "anchor_text": "www.kittlerealestate.com",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-06-14 23:36:17 +00:00"
+    },
+    {
+      "source_url": "https://www.salesjobs.com/sales-job/51019116",
+      "target_url": "http://www.kittlerealestate.com/",
+      "anchor_text": "www.kittlerealestate.com",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-06-14 06:13:05 +00:00"
+    },
+    {
+      "source_url": "https://www.salesjobs.com/sales-job/51023890",
+      "target_url": "http://www.kittlerealestate.com/",
+      "anchor_text": "www.kittlerealestate.com",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-06-14 05:55:56 +00:00"
+    },
+    {
+      "source_url": "https://www.salesjobs.com/sales-job/51022339",
+      "target_url": "http://www.kittlerealestate.com/",
+      "anchor_text": "www.kittlerealestate.com",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-06-14 05:22:54 +00:00"
+    },
+    {
+      "source_url": "https://www.salesjobs.com/sales-job/51020496",
+      "target_url": "http://www.kittlerealestate.com/",
+      "anchor_text": "www.kittlerealestate.com",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-06-13 23:14:19 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1335383/605-E-Prospect-Rd-Fort-Collins-CO-80525",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-07-03 00:42:04 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1334344/255-Mayfly-Ln-Berthoud-CO-80513",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-06-29 00:26:49 +00:00"
+    },
+    {
+      "source_url": "https://www.salesjobs.com/sales-job/50912699",
+      "target_url": "http://www.kittlerealestate.com/",
+      "anchor_text": "www.kittlerealestate.com",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-05-30 03:21:00 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1336931/6432-Owens-St-Arvada-CO-80004",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-05-26 19:03:29 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1340125/1983-Cayman-Dr-Windsor-CO-80550",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 34,
+      "is_dofollow": true,
+      "first_seen": "2025-07-07 07:26:36 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1353642/1601-N-College-Ave-218-Fort-Collins-CO-80524",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2026-02-08 06:09:55 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1352096/3434-Davis-Ranch-Rd-Bellvue-CO-80512",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2026-02-08 06:08:49 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351082/0-County-Road-21-Parcel-2-Carr-CO-80612",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:59 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351081/0-County-Road-21-Parcel-1-Carr-CO-80612",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:43 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351379/15-Estes-Valley-View-Ct-Estes-Park-CO-80517",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:07 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1349098/3235-Davis-Ranch-Rd-Bellvue-CO-80512",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:53:42 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351082/0-County-Road-21-Parcel-2-Carr-CO-80612",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:59 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351081/0-County-Road-21-Parcel-1-Carr-CO-80612",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:43 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1334557/2800-S-Taft-Hill-Rd-Fort-Collins-CO-80526",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-04-29 09:13:37 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1334557/2800-S-Taft-Hill-Rd-Fort-Collins-CO-80526",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-04-29 09:13:37 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351914/824-Stone-Mountain-Ct-Windsor-CO-80550",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:11 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351914/824-Stone-Mountain-Ct-Windsor-CO-80550",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:11 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351379/15-Estes-Valley-View-Ct-Estes-Park-CO-80517",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:07 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1349098/3235-Davis-Ranch-Rd-Bellvue-CO-80512",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:53:42 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346367/10401042-Ponderosa-Dr-Fort-Collins-CO-80521",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:23:48 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346367/10401042-Ponderosa-Dr-Fort-Collins-CO-80521",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:23:48 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347421/803-Imperial-Ct-Loveland-CO-80537",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:26:44 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347421/803-Imperial-Ct-Loveland-CO-80537",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:26:44 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1348673/1191-23rd-St-SW-Loveland-CO-80537",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:25:48 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1348673/1191-23rd-St-SW-Loveland-CO-80537",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:25:48 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1335689/15-Estes-Valley-View-Ct-Estes-Park-CO-80517",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-04-29 09:12:27 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1335689/15-Estes-Valley-View-Ct-Estes-Park-CO-80517",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-04-29 09:12:27 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1343287/13575-Garfield-Way-Thornton-CO-80241",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 05:09:19 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1340800/4317-Phlox-Ln-Evans-CO-80620",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 04:41:51 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1344157/3917-W-21st-St-Rd-Greeley-CO-80634",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 04:38:17 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1341086/451-Newell-Dr-Loveland-CO-80537",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-06-30 16:52:44 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1341086/451-Newell-Dr-Loveland-CO-80537",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-06-30 16:52:44 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1340502/875-E-78th-Ave-972-Denver-CO-80229",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-06-30 16:50:07 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1340502/875-E-78th-Ave-972-Denver-CO-80229",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-06-30 16:50:07 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1340514/875-E-78th-Ave-753-Denver-CO-80229",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-06-30 16:50:03 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1340514/875-E-78th-Ave-753-Denver-CO-80229",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-06-30 16:50:03 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1336207/12820-King-St-Broomfield-CO-80020",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-27 18:08:23 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1331403/3031-Eastborough-Dr-Fort-Collins-CO-80525",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-03-29 18:33:52 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1335867/237-S-Ursula-Ave-Milliken-CO-80543",
+      "target_url": "https://stevenpfaadt.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-30 16:25:56 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1335867/237-S-Ursula-Ave-Milliken-CO-80543",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-30 16:25:56 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1327903/0-County-Road-110-Carr-CO-80612",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-01-25 03:38:17 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1327903/0-County-Road-110-Carr-CO-80612",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-01-25 03:38:17 +00:00"
+    },
+    {
+      "source_url": "https://www.realtrends.com/team-profile/kittleteam-colorado-kittlerealestate/",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-02-24 04:44:17 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1336584/1915-S-Oakland-Way-Aurora-CO-80014",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-26 11:06:50 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1335854/1208-Briarwood-Rd-Fort-Collins-CO-80521",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 32,
+      "is_dofollow": true,
+      "first_seen": "2025-05-23 13:21:29 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1335563/1614-Beam-Reach-Pl-Fort-Collins-CO-80524",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 25,
+      "is_dofollow": true,
+      "first_seen": "2025-04-29 09:12:19 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1335563/1614-Beam-Reach-Pl-Fort-Collins-CO-80524",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 25,
+      "is_dofollow": true,
+      "first_seen": "2025-04-29 09:12:19 +00:00"
+    },
+    {
+      "source_url": "https://www.tavellipto.org/",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "",
+      "domain_rating": 24,
+      "is_dofollow": true,
+      "first_seen": "2026-02-27 21:30:17 +00:00"
+    },
+    {
+      "source_url": "https://www.v6d.com/brokers/kittle-real-estate/",
+      "target_url": "https://www.kittlerealestate.com//?&utm_source=google&utm_medium=organic&utm_campaign=gmb",
+      "anchor_text": "https://www.kittlerealestate.com//?&utm_source=google&utm_medium=organic&utm_campaign=gmb",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-01-02 03:23:44 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1355001/810-Larkspur-Rd-Estes-Park-CO-80517",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-08 06:10:56 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1353189/1603-Foggy-Brook-Dr-Fort-Collins-CO-80528",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-08 06:10:52 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1353990/465-Saint-Charles-Pl-Johnstown-CO-80534",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-08 06:10:43 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1354092/101-Primrose-Ct-Wiggins-CO-80654",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-08 06:10:31 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1353728/1507-Stonewood-Ct-Windsor-CO-80550",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-08 06:10:03 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1353069/2990-W-C-St-62102-Greeley-CO-80631",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-08 06:09:59 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1354514/454-Stanley-Ave-E-Estes-Park-CO-80517",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-08 06:09:45 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1332493/105-Fox-Creek-Rd-Glen-Haven-CO-80532",
+      "target_url": "https://heidefralic.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-08 06:09:40 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1332493/105-Fox-Creek-Rd-Glen-Haven-CO-80532",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-03-25 02:51:14 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1353283/114-38th-Ave-Greeley-CO-80634",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-08 06:09:31 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1348433/1204-5th-St-Pierce-CO-80650",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:24:52 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1354395/1225-W-Prospect-Rd-W93-Fort-Collins-CO-80526",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-08 06:08:57 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1352813/5551-29th-St-3523-Greeley-CO-80634",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-08 06:08:53 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1344640/269-Cox-Ct-Bellvue-CO-80512",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:24:20 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347673/5225-White-Willow-Dr-J110-Fort-Collins-CO-80528",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:24:16 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347079/6781-County-Road-43-Glen-Haven-CO-80532",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:23:32 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1348892/5013-Country-Farms-Dr-Windsor-CO-80528",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:55 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1348892/5013-Country-Farms-Dr-Windsor-CO-80528",
+      "target_url": "https://heidefralic.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2026-02-08 05:14:26 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1350679/1421-W-Lake-St-Fort-Collins-CO-80521",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:47 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351695/875-E-78th-Ave-968-Denver-CO-80229",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:35 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1350970/280-E-Katsura-St-Milliken-CO-80543",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:23 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1350842/3119-Bell-Dr-Boulder-CO-80301",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:53:46 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351696/875-E-78th-Ave-969-Denver-CO-80229",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:53:18 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1349546/6911-W-3rd-St-810-Greeley-CO-80634",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:53:10 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1348892/5013-Country-Farms-Dr-Windsor-CO-80528",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:55 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1350679/1421-W-Lake-St-Fort-Collins-CO-80521",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:47 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351695/875-E-78th-Ave-968-Denver-CO-80229",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:35 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1350654/7061-Sage-Meadows-Dr-Wellington-CO-80549",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:31 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1350654/7061-Sage-Meadows-Dr-Wellington-CO-80549",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:31 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1350230/114-38th-Ave-Greeley-CO-80634",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:27 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1350230/114-38th-Ave-Greeley-CO-80634",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:27 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1350970/280-E-Katsura-St-Milliken-CO-80543",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:23 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1341935/1214-9th-Ave-Longmont-CO-80501",
+      "target_url": "https://kittle-perfect-home-finder.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-08-02 03:11:34 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1341935/1214-9th-Ave-Longmont-CO-80501",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-08-02 03:11:34 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1341935/1214-9th-Ave-Longmont-CO-80501",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-08-02 03:11:34 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351969/181-Sheep-Mountain-Ct-Livermore-CO-80536",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:03 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351969/181-Sheep-Mountain-Ct-Livermore-CO-80536",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:54:03 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1334333/120-Joy-Rd-Livermore-CO-80536",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-04-29 09:13:05 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1334333/120-Joy-Rd-Livermore-CO-80536",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-04-29 09:13:05 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1332493/105-Fox-Creek-Rd-Glen-Haven-CO-80532",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-03-25 02:51:14 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351772/3668-Sheridan-Ave-Loveland-CO-80538",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:53:50 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351772/3668-Sheridan-Ave-Loveland-CO-80538",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:53:50 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1350842/3119-Bell-Dr-Boulder-CO-80301",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:53:46 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1349180/600-Republic-Dr-Fort-Collins-CO-80526",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:53:38 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1349180/600-Republic-Dr-Fort-Collins-CO-80526",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:53:38 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351555/2030-Trail-Ridge-Cir-Severance-CO-80615",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:53:26 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351555/2030-Trail-Ridge-Cir-Severance-CO-80615",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:53:26 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351731/101-Primrose-Ct-Wiggins-CO-80654",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:53:22 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351731/101-Primrose-Ct-Wiggins-CO-80654",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:53:22 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351696/875-E-78th-Ave-969-Denver-CO-80229",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:53:18 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1349546/6911-W-3rd-St-810-Greeley-CO-80634",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:53:10 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1345783/2513-Banbury-Ln-Fort-Collins-CO-80524",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:26:24 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1345783/2513-Banbury-Ln-Fort-Collins-CO-80524",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:26:24 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347583/5551-29th-St-3523-Greeley-CO-80634",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:26:20 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347583/5551-29th-St-3523-Greeley-CO-80634",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:26:20 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346054/810-Larkspur-Rd-Estes-Park-CO-80517",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:26:00 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346054/810-Larkspur-Rd-Estes-Park-CO-80517",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:26:00 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1348433/1204-5th-St-Pierce-CO-80650",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:24:52 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1344731/17-Tulip-Ct-Windsor-CO-80550",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:24:36 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1344731/17-Tulip-Ct-Windsor-CO-80550",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:24:36 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1344640/269-Cox-Ct-Bellvue-CO-80512",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:24:20 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347673/5225-White-Willow-Dr-J110-Fort-Collins-CO-80528",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:24:16 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347010/2702-Rigden-Pkwy-F4-Fort-Collins-CO-80525",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:24:04 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347010/2702-Rigden-Pkwy-F4-Fort-Collins-CO-80525",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:24:04 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347079/6781-County-Road-43-Glen-Haven-CO-80532",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:23:32 +00:00"
+    },
+    {
+      "source_url": "https://localbusinesslocator.com/business-directory/wpbdp_tag/top-rated-real-estate-agents-fort-collins/",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Kittle Real Estate",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2024-09-18 21:59:26 +00:00"
+    },
+    {
+      "source_url": "https://v6d.com/brokers/kittle-real-estate/",
+      "target_url": "https://www.kittlerealestate.com//?&utm_source=google&utm_medium=organic&utm_campaign=gmb",
+      "anchor_text": "https://www.kittlerealestate.com//?&utm_source=google&utm_medium=organic&utm_campaign=gmb",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-09-15 22:20:13 +00:00"
+    },
+    {
+      "source_url": "https://v6d.com/agents/heide-fralic/",
+      "target_url": "https://www.kittlerealestate.com//?&utm_source=google&utm_medium=organic&utm_campaign=gmb",
+      "anchor_text": "https://www.kittlerealestate.com//?&utm_source=google&utm_medium=organic&utm_campaign=gmb",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2023-07-25 23:41:16 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347283/2138-Copper-Creek-Dr-B-Fort-Collins-CO-80528",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:26:52 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347283/2138-Copper-Creek-Dr-B-Fort-Collins-CO-80528",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:26:52 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1348525/3212-15th-Ave-Evans-CO-80620",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:26:40 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1348525/3212-15th-Ave-Evans-CO-80620",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:26:40 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347667/686-Cressa-Dr-Loveland-CO-80537",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:26:36 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347667/686-Cressa-Dr-Loveland-CO-80537",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:26:36 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347003/2513-Flintridge-Pl-Fort-Collins-CO-80521",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:26:28 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347003/2513-Flintridge-Pl-Fort-Collins-CO-80521",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:26:28 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346358/3119-Bell-Dr-Boulder-CO-80301",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:26:16 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346358/3119-Bell-Dr-Boulder-CO-80301",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:26:16 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1345732/335-Mountain-View-Dr-Fort-Collins-CO-80524",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:26:08 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1345732/335-Mountain-View-Dr-Fort-Collins-CO-80524",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:26:08 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1348786/7766-Park-Ridge-Cir-Fort-Collins-CO-80528",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:25:52 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1348786/7766-Park-Ridge-Cir-Fort-Collins-CO-80528",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:25:52 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347173/2521-Des-Moines-Dr-104-Fort-Collins-CO-80525",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:25:40 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347173/2521-Des-Moines-Dr-104-Fort-Collins-CO-80525",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:25:40 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346721/1974-26th-Ave-Pl-Greeley-CO-80634",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:25:32 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346721/1974-26th-Ave-Pl-Greeley-CO-80634",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:25:32 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1335211/1005-Estes-Park-Estates-Dr-Lyons-CO-80540",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-04-29 09:12:31 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1335211/1005-Estes-Park-Estates-Dr-Lyons-CO-80540",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-04-29 09:12:31 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347915/1308-Robertson-St-Fort-Collins-CO-80524",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:25:12 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347915/1308-Robertson-St-Fort-Collins-CO-80524",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:25:12 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1339391/742-Megan-Ct-Longmont-CO-80504",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-06-30 16:51:11 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1339391/742-Megan-Ct-Longmont-CO-80504",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-06-30 16:51:11 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1348795/3927-Peach-St-Wellington-CO-80549",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:24:44 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1348795/3927-Peach-St-Wellington-CO-80549",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:24:44 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1345212/486-Osceola-Dr-Loveland-CO-80538",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:24:40 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1345212/486-Osceola-Dr-Loveland-CO-80538",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:24:40 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347353/2597-W-46th-St-Loveland-CO-80538",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:24:28 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347353/2597-W-46th-St-Loveland-CO-80538",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:24:28 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346705/125-Oak-St-Windsor-CO-80550",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:24:24 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346705/125-Oak-St-Windsor-CO-80550",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-10-03 17:24:24 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1340614/23-Wild-River-Rd-Bellvue-CO-80512",
+      "target_url": "https://www.kittlerealestate.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-06-30 16:49:59 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1340614/23-Wild-River-Rd-Bellvue-CO-80512",
+      "target_url": "https://www.kittlerealestate.com/?tr=sf",
+      "anchor_text": "Visit Website",
+      "domain_rating": 23,
+      "is_dofollow": true,
+      "first_seen": "2025-06-30 16:49:59 +00:00"
+    }
+  ],
+  "referring_domains": [
+    {
+      "domain": "coloproperty.com",
+      "rank": 199,
+      "backlinks": 543,
+      "first_seen": "2024-01-25 04:10:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 426
+    },
+    {
+      "domain": "robkittle.com",
+      "rank": 193,
+      "backlinks": 3,
+      "first_seen": "2019-01-19 18:46:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "worldbankingdirectory.com",
+      "rank": 144,
+      "backlinks": 10,
+      "first_seen": "2025-06-01 03:18:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 10
+    },
+    {
+      "domain": "bizmark.org",
+      "rank": 144,
+      "backlinks": 10,
+      "first_seen": "2025-05-31 23:56:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 10
+    },
+    {
+      "domain": "fortcollinshomesearch.com",
+      "rank": 117,
+      "backlinks": 2,
+      "first_seen": "2019-05-25 15:23:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "dtg5o8n2qcvfv.cloudfront.net",
+      "rank": 91,
+      "backlinks": 16,
+      "first_seen": "2024-08-26 03:08:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 16
+    },
+    {
+      "domain": "salesjobs.com",
+      "rank": 79,
+      "backlinks": 8,
+      "first_seen": "2025-05-30 03:21:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 8
+    },
+    {
+      "domain": "americatop10.com",
+      "rank": 68,
+      "backlinks": 6,
+      "first_seen": "2024-03-05 18:35:02 +00:00",
+      "dofollow": 0,
+      "referring_pages": 6
+    },
+    {
+      "domain": "peerreputation.com",
+      "rank": 68,
+      "backlinks": 6,
+      "first_seen": "2022-12-26 04:32:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "callupcontact.com",
+      "rank": 51,
+      "backlinks": 1,
+      "first_seen": "2025-10-20 01:09:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "bbb.org",
+      "rank": 51,
+      "backlinks": 3,
+      "first_seen": "2023-05-07 10:20:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "v6d.com",
+      "rank": 33,
+      "backlinks": 4,
+      "first_seen": "2023-07-25 23:41:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4
+    },
+    {
+      "domain": "bunity.com",
+      "rank": 23,
+      "backlinks": 2,
+      "first_seen": "2024-02-29 13:40:22 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "localbusinesslocator.com",
+      "rank": 11,
+      "backlinks": 3,
+      "first_seen": "2024-09-18 21:29:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "hazrealty.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-05-06 10:46:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "read.org.in",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-05-04 14:59:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "generalknowledge.net.in",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-05-01 04:58:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "marketingexperts.click",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-28 22:19:04 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "cleveroffers.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-04-23 03:07:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "daolink.mom",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-04-22 22:32:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "dltech.forum",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-22 17:27:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "domainnamesbook.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-16 19:35:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "bestadultdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-15 09:52:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "sergechel.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-09 15:48:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "ycm.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-23 04:49:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "seomuda.id",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-22 22:18:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "torun-stolarz.pl",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-21 08:13:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "berlin-immobilien-verkaufen.de",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-20 13:02:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "constitute.net",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-20 11:11:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "shoplogist.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-20 10:48:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "phinin.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-19 10:46:37 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "pagesearch.net",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-13 14:09:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "prospeo.io",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-12 10:54:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "qilins.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-09 23:44:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "xedulichdaklak.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-06 10:36:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "estateagentdb.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-03 03:56:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "searchalldomains.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-28 01:53:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "pledgestar.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-27 21:33:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "tavellipto.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-02-27 21:30:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "jake.eu",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-24 12:11:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "freeworlddirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-22 05:14:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "eliterankdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-20 12:36:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "musweb.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-14 09:52:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "officialwebsites.in",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-07 12:16:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "screenshots.wiki",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-02-07 02:46:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "ready.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-03 20:20:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "buzzshrink.website",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-03 18:15:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "runningwebsites.net",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-30 14:28:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "shortenurls.eu",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-27 14:43:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "backlink.solutions",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-26 16:43:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "way2check.cv",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-26 12:49:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "juridipedia.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-23 20:38:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "million.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-22 18:23:19 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "global-rank.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-21 22:07:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "globalecommerce.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-21 15:22:19 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "simplewebdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-17 05:30:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "pick4d.live",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-10 00:03:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "urls-shortener.eu",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-07 04:03:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "thedailyoverview.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-06 06:17:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "agreatertown.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-01-02 16:07:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "raylyonrealty.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-12-28 07:03:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "getwebsiteworth.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-12-23 18:29:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "ainvest.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-12-22 17:29:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "w3bdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-20 03:31:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "region.co.in",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-18 02:13:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "wowlinks.site",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-08 12:12:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "booksreadr.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-07 18:29:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "backlink.asia",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-28 13:35:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "sova.ph",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-21 04:35:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "dependablerealtors.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-11-19 04:42:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "mydomaininfo.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-16 00:07:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "topbacklinksdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-14 13:05:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "allaboutseo.net",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-09 10:01:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "skylinkseo.site",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-05 11:33:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "toptierdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-05 10:19:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "kittleevents.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-04 19:55:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "kittlecares.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-04 19:47:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "fcbr.org",
+      "rank": 0,
+      "backlinks": 18,
+      "first_seen": "2025-10-23 01:09:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 15
+    },
+    {
+      "domain": "growthzoneapp.com",
+      "rank": 0,
+      "backlinks": 11,
+      "first_seen": "2025-10-23 00:58:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 9
+    },
+    {
+      "domain": "primecompanydirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-10-21 02:26:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "enterprisedirectoryhub.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-10-21 02:18:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "businesslistingportal.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-10-21 02:14:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "releasewire.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-10-19 06:17:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "castbox.fm",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-10-19 05:48:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "realproguide.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-10-09 02:34:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "reputablebusinesses.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-10-05 10:30:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "seodirectorypro.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-10-04 15:22:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "allistingdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-10-04 15:21:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "allreviews.in",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-10-03 02:09:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "grainsvsgrains.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-10-02 03:16:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "marketingzonedirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-30 08:55:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "socialrankdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-30 06:35:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "linkbuildingdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-30 06:28:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "seologixdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-30 06:20:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "prolistingdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-30 06:14:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "aiarticledirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-30 04:51:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "linkflowdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-30 04:41:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "topsaasdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-30 04:34:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "aibacklinkdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-30 04:30:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "baidudirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-30 04:07:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "backlinksdirectoryhub.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-30 03:58:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "seoelitedirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-30 03:36:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "quickfinddirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-30 03:17:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "flickrdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-30 03:11:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "seodirectoryzone.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-30 02:42:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "saasdirectoryzone.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-30 02:32:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "websolodirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-30 02:32:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "saaswebdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-30 02:31:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "cnndirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-30 01:17:02 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "backlinks.cyou",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-28 18:28:09 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "rankvanceauthority.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-28 09:41:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "domainnameshub.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-27 13:02:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "websitesreports.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-22 00:33:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "primeseodirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-19 11:54:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "mediumdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-19 01:56:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "webusdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-18 15:42:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "tumblrdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-18 15:41:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "rankifydirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-18 15:37:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "rankfastdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-14 12:08:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "fionadates.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-14 09:21:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "verifieddirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-12 10:41:31 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "supremedirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-12 10:39:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "besttopdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-07 23:07:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "websiteworlddirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-07 23:05:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "worldzonedirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-07 23:05:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "topworlddirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-07 22:53:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "rankingwebdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-07 22:45:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "worldwebsitesdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-07 22:42:52 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "topviraldirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-07 22:28:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "weeblydirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-04 13:56:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "vimeodirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-03 14:33:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "mostrankingdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-03 11:57:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "marketinghubdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-03 11:46:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "rankzonedirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-03 11:09:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "worldsitedirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-03 10:17:52 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "marketingdirectoy.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-09-03 10:02:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "lawfirms1.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-24 20:54:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "information.net.in",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-23 19:38:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "mostrankdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-22 01:30:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "webguestpostsdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-22 00:22:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "worldtopwebsite.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-22 00:14:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "seodirectoryguide.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-22 00:12:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "mediedirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-22 00:10:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "guestpostsdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-21 21:48:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "linkboostdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-21 19:03:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "globalrankdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-21 19:02:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "authorityprodirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-21 19:00:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "worldseodirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-21 19:00:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "seotrafficdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-21 18:58:31 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "traffichubdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-21 18:55:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "webzonedirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-21 18:32:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "new.net.in",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-21 06:12:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "guestpostwebdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-20 03:09:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "mediazonedirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-18 01:04:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "websiteslinkdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-18 01:03:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "postsdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-17 19:01:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "clicktobuydirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-17 19:01:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "websitedirectoy.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-17 05:46:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "businesswebsitesdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-16 02:56:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "webpostdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-16 02:56:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "mydeepin.ru",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-08-15 14:37:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "primedirectoryzone.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-04 16:51:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "australianwebdirectory.pro",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-08-03 16:14:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "globalcocolk.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-08-01 12:15:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "ahrefs-links.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-31 23:39:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "gaister.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-31 16:45:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "usdirectorylist.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-31 01:18:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "directorycloudhub.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-30 22:31:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "astrologlar.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-30 16:06:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "fastrankingdirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-16 22:46:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "seowebsitesdirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-16 22:46:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "usaseodirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-14 22:16:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "powerlinkdirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-14 22:09:32 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "backlinkboostdirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-14 22:01:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "codeseodirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-14 15:54:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "dotiqo.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-13 18:51:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "worldmarketingdirectoy.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-13 04:09:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "topsitedirectoy.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-12 21:46:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "sisgroup.lk",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-12 17:03:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "linkzonedirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-11 21:39:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "m-he.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-11 17:22:31 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "prodirectoryguide.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-10 15:57:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "productionfunctionusa.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-10 15:11:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "topsiterankdirectory.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-07-09 20:12:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "yelpdirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-09 20:00:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "seotechdirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-09 11:24:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "ailistingdirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-09 09:16:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "mediapostdirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-08 11:45:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "1stcallglasscare.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-07 02:17:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "addurl.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-05 23:35:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "socialwebdirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-05 21:59:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "clicktorankdirectoy.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-05 21:51:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "marketinghubdirectoy.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-05 21:15:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "ezeller.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-07-05 13:41:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "webbranddirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-05 00:29:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "webreviewsdirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-04 23:54:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "mostrankddirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-04 23:16:02 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "topdomaindirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-04 22:34:04 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "bestbusniessdirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-04 22:15:02 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "linkpointdirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-07-04 21:52:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    }
+  ],
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-05-09T09:13:47.483Z"
+}

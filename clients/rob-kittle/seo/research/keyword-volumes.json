@@ -1,0 +1,418 @@
+{
+  "data": [
+    {
+      "keyword": "Kittle Real Estate Fort Collins",
+      "volume": 40,
+      "cpc": 1.42,
+      "competition": "MEDIUM",
+      "trend": [
+        50,
+        40,
+        30,
+        20,
+        30,
+        20,
+        40,
+        40,
+        50,
+        70,
+        40,
+        70
+      ]
+    },
+    {
+      "keyword": "Rob Kittle realtor",
+      "volume": 30,
+      "cpc": 11.25,
+      "competition": "LOW",
+      "trend": [
+        50,
+        40,
+        30,
+        30,
+        20,
+        30,
+        40,
+        10,
+        10,
+        30,
+        30,
+        40
+      ]
+    },
+    {
+      "keyword": "Fort Collins homes for sale",
+      "volume": 9900,
+      "cpc": 1.07,
+      "competition": "MEDIUM",
+      "trend": [
+        9900,
+        8100,
+        9900,
+        8100,
+        8100,
+        8100,
+        8100,
+        9900,
+        12100,
+        9900,
+        12100,
+        12100
+      ]
+    },
+    {
+      "keyword": "Northern Colorado real estate",
+      "volume": 110,
+      "cpc": 1.36,
+      "competition": "MEDIUM",
+      "trend": [
+        110,
+        110,
+        110,
+        90,
+        90,
+        110,
+        140,
+        140,
+        140,
+        140,
+        140,
+        170
+      ]
+    },
+    {
+      "keyword": "homes for sale in Fort Collins CO",
+      "volume": 9900,
+      "cpc": 1.07,
+      "competition": "MEDIUM",
+      "trend": [
+        9900,
+        8100,
+        9900,
+        8100,
+        8100,
+        8100,
+        8100,
+        9900,
+        12100,
+        9900,
+        12100,
+        12100
+      ]
+    },
+    {
+      "keyword": "Loveland CO homes for sale",
+      "volume": 8100,
+      "cpc": 0.95,
+      "competition": "MEDIUM",
+      "trend": [
+        8100,
+        6600,
+        8100,
+        6600,
+        6600,
+        6600,
+        8100,
+        8100,
+        9900,
+        8100,
+        9900,
+        8100
+      ]
+    },
+    {
+      "keyword": "Greeley homes for sale",
+      "volume": 6600,
+      "cpc": 0.81,
+      "competition": "MEDIUM",
+      "trend": [
+        6600,
+        6600,
+        6600,
+        5400,
+        6600,
+        6600,
+        6600,
+        8100,
+        8100,
+        6600,
+        9900,
+        8100
+      ]
+    },
+    {
+      "keyword": "Windsor CO homes for sale",
+      "volume": 2900,
+      "cpc": 1.21,
+      "competition": "MEDIUM",
+      "trend": [
+        2900,
+        2900,
+        2900,
+        2400,
+        2400,
+        2400,
+        2900,
+        2900,
+        3600,
+        2900,
+        3600,
+        3600
+      ]
+    },
+    {
+      "keyword": "Wellington CO homes for sale",
+      "volume": 1000,
+      "cpc": 0.45,
+      "competition": "MEDIUM",
+      "trend": [
+        1000,
+        880,
+        880,
+        880,
+        720,
+        880,
+        880,
+        1000,
+        1300,
+        1000,
+        1600,
+        1300
+      ]
+    },
+    {
+      "keyword": "Timnath homes for sale",
+      "volume": 880,
+      "cpc": 2.16,
+      "competition": "MEDIUM",
+      "trend": [
+        720,
+        720,
+        720,
+        590,
+        590,
+        590,
+        720,
+        880,
+        880,
+        720,
+        1300,
+        1300
+      ]
+    },
+    {
+      "keyword": "Old Town Fort Collins homes",
+      "volume": 10,
+      "cpc": null,
+      "competition": null,
+      "trend": [
+        0,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "keyword": "Larimer County homes for sale",
+      "volume": 320,
+      "cpc": 0.46,
+      "competition": "MEDIUM",
+      "trend": [
+        390,
+        320,
+        320,
+        260,
+        320,
+        390,
+        260,
+        320,
+        480,
+        390,
+        320,
+        320
+      ]
+    },
+    {
+      "keyword": "buy a home in Fort Collins",
+      "volume": 480,
+      "cpc": 1.45,
+      "competition": "MEDIUM",
+      "trend": [
+        390,
+        390,
+        390,
+        390,
+        390,
+        390,
+        480,
+        480,
+        720,
+        480,
+        590,
+        590
+      ]
+    },
+    {
+      "keyword": "sell my house Fort Collins",
+      "volume": 30,
+      "cpc": null,
+      "competition": "LOW",
+      "trend": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        40,
+        20,
+        30,
+        70,
+        50,
+        40
+      ]
+    },
+    {
+      "keyword": "Fort Collins real estate market 2026",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    },
+    {
+      "keyword": "best realtor in Fort Collins",
+      "volume": 40,
+      "cpc": 1.77,
+      "competition": "LOW",
+      "trend": [
+        20,
+        50,
+        20,
+        10,
+        10,
+        20,
+        40,
+        30,
+        70,
+        70,
+        50,
+        50
+      ]
+    },
+    {
+      "keyword": "cash offer for home Fort Collins",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    },
+    {
+      "keyword": "buy before you sell program Colorado",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    },
+    {
+      "keyword": "trade in your house Northern Colorado",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    },
+    {
+      "keyword": "luxury homes Fort Collins",
+      "volume": 10,
+      "cpc": 2.4,
+      "competition": "HIGH",
+      "trend": [
+        10,
+        10,
+        20,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "keyword": "first time home buyer Fort Collins",
+      "volume": 10,
+      "cpc": 2.13,
+      "competition": "MEDIUM",
+      "trend": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        20,
+        20,
+        10
+      ]
+    },
+    {
+      "keyword": "relocation real estate Fort Collins",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    },
+    {
+      "keyword": "Fort Collins new construction homes",
+      "volume": 480,
+      "cpc": 8.4,
+      "competition": "HIGH",
+      "trend": [
+        390,
+        320,
+        390,
+        260,
+        320,
+        390,
+        480,
+        390,
+        590,
+        590,
+        720,
+        590
+      ]
+    },
+    {
+      "keyword": "acreage homes for sale Northern Colorado",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    },
+    {
+      "keyword": "Fort Collins real estate agent reviews",
+      "volume": null,
+      "cpc": null,
+      "competition": null,
+      "trend": []
+    }
+  ],
+  "errors": [],
+  "status": "success",
+  "locationCode": 2840,
+  "languageCode": "en",
+  "gatheredAt": "2026-05-09T09:53:09.534Z"
+}

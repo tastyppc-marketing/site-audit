@@ -1,0 +1,36 @@
+{
+  "clientDomain": "kittlerealestate.com",
+  "clientName": "Rob Kittle",
+  "clientCompany": "Kittle Real Estate",
+  "location": "Fort Collins, CO 80521",
+  "locationCode": 1014524,
+  "languageCode": "en",
+  "address": "300 S Howes St, Fort Collins, CO 80521",
+  "phone": "970-460-4444",
+  "email": "",
+  "serviceType": "Residential real estate — buy-before-you-sell, cash offer, remodel-on-our-dime, sell-and-stay programs",
+  "market": "Northern Colorado — Fort Collins, Loveland, Greeley, Windsor, Wellington, Larimer / Weld / Boulder / Adams / Jefferson counties",
+  "competitors": [
+    "thegroupinc.com",
+    "c3realestatesolutions.com",
+    "mullenbergteam.com",
+    "ambassadorcolorado.com",
+    "nocohometeam.com"
+  ],
+  "socialLinks": {
+    "facebook": "https://www.facebook.com/kittleteam/",
+    "yelp": "https://www.yelp.com/biz/kittle-real-estate-fort-collins-3",
+    "zillow": "https://www.zillow.com/profile/RobKittle0"
+  },
+  "secondaryDomain": "",
+  "googleAccess": {
+    "searchConsole": { "siteUrl": "https://www.kittlerealestate.com/", "hasAccess": true },
+    "analytics": { "propertyId": "344388528", "hasAccess": true },
+    "businessProfile": { "accountId": "106785803276197852427", "locationId": "1298612771999318157", "hasAccess": false, "_note": "GCP project 429781277203 has GBP API quota=0; flip hasAccess to true after quota approval" }
+  },
+  "dataForSeo": {
+    "useBacklinksApi": true,
+    "useKeywordApi": true
+  },
+  "notes": "Top-producing team in Northern Colorado per their site. 20+ years in market. Specialty programs: 'buy before you sell', cash offer (close in 59 days), remodel-on-our-dime. Buyer specialist 24/7 at 970-218-9200."
+}

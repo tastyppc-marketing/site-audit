@@ -1,0 +1,3498 @@
+{
+  "domain": "https://www.kittlerealestate.com",
+  "crawlDate": "2026-05-09T09:48:26.396Z",
+  "totalSitemapUrls": 16280,
+  "contentPages": 614,
+  "idxFilterPages": 15666,
+  "analyzedCount": 60,
+  "elapsedSeconds": 397,
+  "categories": {
+    "denver-homes-for-sale": {
+      "total": 1766,
+      "content": 1,
+      "idx": 1765
+    },
+    "fort-collins-homes-for-sale": {
+      "total": 880,
+      "content": 1,
+      "idx": 879
+    },
+    "aurora-homes-for-sale": {
+      "total": 743,
+      "content": 1,
+      "idx": 742
+    },
+    "boulder-homes-for-sale": {
+      "total": 629,
+      "content": 1,
+      "idx": 628
+    },
+    "loveland-homes-for-sale": {
+      "total": 572,
+      "content": 1,
+      "idx": 571
+    },
+    "lakewood-homes-for-sale": {
+      "total": 532,
+      "content": 1,
+      "idx": 531
+    },
+    "littleton-homes-for-sale": {
+      "total": 523,
+      "content": 1,
+      "idx": 522
+    },
+    "arvada-homes-for-sale": {
+      "total": 511,
+      "content": 1,
+      "idx": 510
+    },
+    "longmont-homes-for-sale": {
+      "total": 481,
+      "content": 1,
+      "idx": 480
+    },
+    "greeley-homes-for-sale": {
+      "total": 460,
+      "content": 1,
+      "idx": 459
+    },
+    "golden-homes-for-sale": {
+      "total": 389,
+      "content": 1,
+      "idx": 388
+    },
+    "thornton-homes-for-sale": {
+      "total": 323,
+      "content": 1,
+      "idx": 322
+    },
+    "westminster-homes-for-sale": {
+      "total": 307,
+      "content": 1,
+      "idx": 306
+    },
+    "broomfield-homes-for-sale": {
+      "total": 303,
+      "content": 1,
+      "idx": 302
+    },
+    "brighton-homes-for-sale": {
+      "total": 300,
+      "content": 1,
+      "idx": 299
+    },
+    "wheat-ridge-homes-for-sale": {
+      "total": 291,
+      "content": 1,
+      "idx": 290
+    },
+    "commerce-city-homes-for-sale": {
+      "total": 272,
+      "content": 1,
+      "idx": 271
+    },
+    "windsor-homes-for-sale": {
+      "total": 228,
+      "content": 1,
+      "idx": 227
+    },
+    "berthoud-homes-for-sale": {
+      "total": 225,
+      "content": 1,
+      "idx": 224
+    },
+    "lafayette-homes-for-sale": {
+      "total": 205,
+      "content": 1,
+      "idx": 204
+    },
+    "highlands-ranch-homes-for-sale": {
+      "total": 190,
+      "content": 1,
+      "idx": 189
+    },
+    "louisville-homes-for-sale": {
+      "total": 185,
+      "content": 1,
+      "idx": 184
+    },
+    "wellington-homes-for-sale": {
+      "total": 178,
+      "content": 1,
+      "idx": 177
+    },
+    "erie-homes-for-sale": {
+      "total": 177,
+      "content": 1,
+      "idx": 176
+    },
+    "greenwood-village-homes-for-sale": {
+      "total": 171,
+      "content": 1,
+      "idx": 170
+    },
+    "johnstown-homes-for-sale": {
+      "total": 171,
+      "content": 1,
+      "idx": 170
+    },
+    "evans-homes-for-sale": {
+      "total": 169,
+      "content": 1,
+      "idx": 168
+    },
+    "fort-morgan-homes-for-sale": {
+      "total": 168,
+      "content": 1,
+      "idx": 167
+    },
+    "fort-lupton-homes-for-sale": {
+      "total": 161,
+      "content": 1,
+      "idx": 160
+    },
+    "frederick-homes-for-sale": {
+      "total": 157,
+      "content": 1,
+      "idx": 156
+    },
+    "bellvue-homes-for-sale": {
+      "total": 154,
+      "content": 1,
+      "idx": 153
+    },
+    "nederland-homes-for-sale": {
+      "total": 144,
+      "content": 1,
+      "idx": 143
+    },
+    "lyons-homes-for-sale": {
+      "total": 142,
+      "content": 1,
+      "idx": 141
+    },
+    "niwot-homes-for-sale": {
+      "total": 141,
+      "content": 1,
+      "idx": 140
+    },
+    "eaton-homes-for-sale": {
+      "total": 137,
+      "content": 1,
+      "idx": 136
+    },
+    "red-feather-lakes-homes-for-sale": {
+      "total": 136,
+      "content": 1,
+      "idx": 135
+    },
+    "mead-homes-for-sale": {
+      "total": 135,
+      "content": 1,
+      "idx": 134
+    },
+    "superior-homes-for-sale": {
+      "total": 135,
+      "content": 1,
+      "idx": 134
+    },
+    "northglenn-homes-for-sale": {
+      "total": 134,
+      "content": 1,
+      "idx": 133
+    },
+    "firestone-homes-for-sale": {
+      "total": 134,
+      "content": 1,
+      "idx": 133
+    },
+    "severance-homes-for-sale": {
+      "total": 133,
+      "content": 1,
+      "idx": 132
+    },
+    "milliken-homes-for-sale": {
+      "total": 129,
+      "content": 1,
+      "idx": 128
+    },
+    "livermore-homes-for-sale": {
+      "total": 128,
+      "content": 1,
+      "idx": 127
+    },
+    "timnath-homes-for-sale": {
+      "total": 127,
+      "content": 1,
+      "idx": 126
+    },
+    "keenesburg-homes-for-sale": {
+      "total": 126,
+      "content": 1,
+      "idx": 125
+    },
+    "ault-homes-for-sale": {
+      "total": 124,
+      "content": 1,
+      "idx": 123
+    },
+    "la-salle-homes-for-sale": {
+      "total": 124,
+      "content": 1,
+      "idx": 123
+    },
+    "drake-homes-for-sale": {
+      "total": 121,
+      "content": 1,
+      "idx": 120
+    },
+    "pierce-homes-for-sale": {
+      "total": 120,
+      "content": 1,
+      "idx": 119
+    },
+    "laporte-homes-for-sale": {
+      "total": 120,
+      "content": 1,
+      "idx": 119
+    },
+    "kersey-homes-for-sale": {
+      "total": 118,
+      "content": 1,
+      "idx": 117
+    },
+    "nunn-homes-for-sale": {
+      "total": 118,
+      "content": 1,
+      "idx": 117
+    },
+    "dacono-homes-for-sale": {
+      "total": 118,
+      "content": 1,
+      "idx": 117
+    },
+    "lochbuie-homes-for-sale": {
+      "total": 114,
+      "content": 1,
+      "idx": 113
+    },
+    "briggsdale-homes-for-sale": {
+      "total": 113,
+      "content": 1,
+      "idx": 112
+    },
+    "carr-homes-for-sale": {
+      "total": 111,
+      "content": 1,
+      "idx": 110
+    },
+    "glen-haven-homes-for-sale": {
+      "total": 109,
+      "content": 1,
+      "idx": 108
+    },
+    "grover-homes-for-sale": {
+      "total": 108,
+      "content": 1,
+      "idx": 107
+    },
+    "roggen-homes-for-sale": {
+      "total": 107,
+      "content": 1,
+      "idx": 106
+    },
+    "gilcrest-homes-for-sale": {
+      "total": 107,
+      "content": 1,
+      "idx": 106
+    },
+    "gill-homes-for-sale": {
+      "total": 106,
+      "content": 1,
+      "idx": 105
+    },
+    "garden-city-homes-for-sale": {
+      "total": 105,
+      "content": 1,
+      "idx": 104
+    },
+    "blog": {
+      "total": 88,
+      "content": 88,
+      "idx": 0
+    },
+    "allenspark-homes-for-sale": {
+      "total": 82,
+      "content": 1,
+      "idx": 81
+    },
+    "communities": {
+      "total": 77,
+      "content": 77,
+      "idx": 0
+    },
+    "horse-properties": {
+      "total": 60,
+      "content": 60,
+      "idx": 0
+    },
+    "luxury-properties": {
+      "total": 59,
+      "content": 59,
+      "idx": 0
+    },
+    "waterfront-properties": {
+      "total": 59,
+      "content": 59,
+      "idx": 0
+    },
+    "agents": {
+      "total": 49,
+      "content": 49,
+      "idx": 0
+    },
+    "golf-course-community": {
+      "total": 37,
+      "content": 37,
+      "idx": 0
+    },
+    "buyers": {
+      "total": 29,
+      "content": 29,
+      "idx": 0
+    },
+    "sellers": {
+      "total": 19,
+      "content": 19,
+      "idx": 0
+    },
+    "realtors": {
+      "total": 12,
+      "content": 12,
+      "idx": 0
+    },
+    "financing-options": {
+      "total": 6,
+      "content": 6,
+      "idx": 0
+    },
+    "about": {
+      "total": 5,
+      "content": 5,
+      "idx": 0
+    },
+    "contact": {
+      "total": 5,
+      "content": 5,
+      "idx": 0
+    },
+    "property-search": {
+      "total": 4,
+      "content": 2,
+      "idx": 2
+    },
+    "seller-tips": {
+      "total": 2,
+      "content": 2,
+      "idx": 0
+    },
+    "homepage": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "berthoud-co-listings": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "calendly-test": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "condominiums-townhomes": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "eaton-co-listings": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "evans-co-listings": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "events": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "featured-searches": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "golf-course-homes": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "greeley-co-listings": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "johnstown-co-listings": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "kittle-events": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "kittle-real-estate": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "livermore-co-listings": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "loveland-co-listings": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "luxury-homes": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "masonville-co-listings": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "new-construction": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "open-home-search": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "open-house": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "properties": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "reviews": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "selling-your-home-disclosure": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "selling-your-home-negotiating": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "selling-your-home-pricing-the-house-to-sell": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "selling-your-home-property-taxes": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "selling-your-home-seller-financing": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "selling-your-home-selling-at-a-loss": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "selling-your-home-short-sales": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "severance-co-listings": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "single-family-homes": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "test": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "test1": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "timnath-co-listings": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "vacant-lands-lots": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "vendors": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "virtual-tours": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "waterfront-homes": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "wellington-co-listings": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "windsor-co-listings": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "zillow-showcase": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    },
+    "featured-listings": {
+      "total": 1,
+      "content": 1,
+      "idx": 0
+    }
+  },
+  "pages": [
+    {
+      "url": "https://www.kittlerealestate.com/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/property-search/site-map/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/property-search/site-map/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/property-search/property-tracker/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/property-search/property-tracker/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/communities/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/communities/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/about/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/about/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/sellers/accepting-an-offer/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/sellers/accepting-an-offer/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/communities/move-to-adams-county-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/communities/move-to-adams-county-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/communities/move-to-allenspark-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/communities/move-to-allenspark-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/allenspark-homes-for-sale/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/allenspark-homes-for-sale/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/financing-options/applications-processing/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/financing-options/applications-processing/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/buyers/appraisals-market-value/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/buyers/appraisals-market-value/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/sellers/appraisals-market-value/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/sellers/appraisals-market-value/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/contact/are-you-ready-to-buy-or-sell-a-home/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/contact/are-you-ready-to-buy-or-sell-a-home/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/communities/move-to-arvada-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/communities/move-to-arvada-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/arvada-homes-for-sale/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/arvada-homes-for-sale/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/golf-course-community/move-to-arvada-lake-arbor-golf-course-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/golf-course-community/move-to-arvada-lake-arbor-golf-course-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/communities/move-to-ault-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/communities/move-to-ault-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/ault-homes-for-sale/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/ault-homes-for-sale/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/communities/move-to-aurora-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/communities/move-to-aurora-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/aurora-homes-for-sale/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/aurora-homes-for-sale/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/communities/move-to-bellvue-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/communities/move-to-bellvue-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/bellvue-homes-for-sale/",
+      "title": "Bellvue Homes for Sale",
+      "titleLength": 22,
+      "description": "Search Homes for sale in Bellvue, CO. Listings include large photos, local school info, tours, maps, street view and more.",
+      "descriptionLength": 122,
+      "h1": [
+        "Bellvue, CO Homes for Sale"
+      ],
+      "h2": [
+        "Homes For Sale in Bellvue, CO",
+        "Search 10,000+ Listings",
+        "Start Your Bellvue Home Search",
+        "Browse Bellvue Homes by Property Type",
+        "Browse Bellvue Homes by Price Range",
+        "Browse Bellvue Homes by # of Bedrooms",
+        "Browse Bellvue Homes by Acres"
+      ],
+      "h2Count": 7,
+      "h3Count": 5,
+      "wordCount": 4070,
+      "imgCount": 71,
+      "imgWithoutAlt": 19,
+      "totalInternalLinks": 268,
+      "contextualInternalLinks": 126,
+      "externalLinks": 34,
+      "canonical": "https://www.kittlerealestate.com/bellvue-homes-for-sale/",
+      "canonicalResolved": "https://www.kittlerealestate.com/bellvue-homes-for-sale/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": false,
+      "schemaTypes": [],
+      "schemaData": [],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "NO_SCHEMA",
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": "max-age=2592000",
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": null,
+        "xFrameOptions": null,
+        "referrerPolicy": null,
+        "permissionsPolicy": null,
+        "cacheControl": "public, max-age=2592000",
+        "server": null,
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        }
+      ],
+      "redirectChainLength": 2,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/communities/move-to-berthoud-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/communities/move-to-berthoud-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/berthoud-co-listings/",
+      "title": "Berthoud CO Listings",
+      "titleLength": 20,
+      "description": "Search homes for sale in Northern Colorado. Listings include large photos, school info, detailed maps, and more.",
+      "descriptionLength": 112,
+      "h1": [],
+      "h2": [],
+      "h2Count": 0,
+      "h3Count": 0,
+      "wordCount": 4061,
+      "imgCount": 53,
+      "imgWithoutAlt": 1,
+      "totalInternalLinks": 226,
+      "contextualInternalLinks": 84,
+      "externalLinks": 30,
+      "canonical": "https://www.kittlerealestate.com/berthoud-co-listings/",
+      "canonicalResolved": "https://www.kittlerealestate.com/berthoud-co-listings/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": true,
+      "schemaTypes": [
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event"
+      ],
+      "schemaData": [
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 11:00 AM - 2:00 PM",
+          "description": "Open House for 1150 Monroe Ave",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/1058396/1150-monroe-ave-berthoud-co-80513/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778236133/60/60_1058396_02.jpg",
+          "startDate": "2026-05-09T11:00:00-5:00",
+          "endDate": "2026-05-09T14:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "1150 Monroe Ave",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1150 Monroe Ave",
+              "postalCode": "80513",
+              "addressLocality": "Berthoud",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.302789,
+              "longitude": -105.092342
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 3:00 PM - 4:30 PM",
+          "description": "Open House for 325 Remuda Rd",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/5584952/325-remuda-rd-berthoud-co-80513/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778078830/60/60_5584952_02.jpg",
+          "startDate": "2026-05-09T15:00:00-5:00",
+          "endDate": "2026-05-09T16:30:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "325 Remuda Rd",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "325 Remuda Rd",
+              "postalCode": "80513",
+              "addressLocality": "Berthoud",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.303234,
+              "longitude": -105.068985
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 2:00 PM - 5:00 PM",
+          "description": "Open House for 2739 Prairie Flax St",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/1058254/2739-prairie-flax-st-berthoud-co-80513/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778235510/60/60_1058254_02.jpg",
+          "startDate": "2026-05-10T14:00:00-5:00",
+          "endDate": "2026-05-10T17:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "2739 Prairie Flax St",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "2739 Prairie Flax St",
+              "postalCode": "80513",
+              "addressLocality": "Berthoud",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.337261,
+              "longitude": -105.098497
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 1:30 PM - 3:30 PM",
+          "description": "Open House for 1710 Westport Ave",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/1058208/1710-westport-ave-berthoud-co-80513/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778269687/60/60_1058208_02.jpg",
+          "startDate": "2026-05-09T13:30:00-5:00",
+          "endDate": "2026-05-09T15:30:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "1710 Westport Ave",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1710 Westport Ave",
+              "postalCode": "80513",
+              "addressLocality": "Berthoud",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.321526,
+              "longitude": -105.090274
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 11:00 AM - 1:00 PM",
+          "description": "Open House for 3010 Newfound Lake Rd",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/3552387/3010-newfound-lake-rd-berthoud-co-80513/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778136014/60/60_3552387_02.jpg",
+          "startDate": "2026-05-09T11:00:00-5:00",
+          "endDate": "2026-05-09T13:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "3010 Newfound Lake Rd",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "3010 Newfound Lake Rd",
+              "postalCode": "80513",
+              "addressLocality": "Berthoud",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.341892,
+              "longitude": -105.108406
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 11:00 AM - 1:00 PM",
+          "description": "Open House for 398 Rustic Barn Ln",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/1058146/398-rustic-barn-ln-berthoud-co-80513/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778013489/60/60_1058146_02.jpg",
+          "startDate": "2026-05-09T11:00:00-5:00",
+          "endDate": "2026-05-09T13:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "398 Rustic Barn Ln",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "398 Rustic Barn Ln",
+              "postalCode": "80513",
+              "addressLocality": "Berthoud",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.298366,
+              "longitude": -105.058761
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 11:00 AM - 1:00 PM",
+          "description": "Open House for 1225 N 4th St",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/1058058/1225-n-4th-st-berthoud-co-80513/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778102981/60/60_1058058_02.jpg",
+          "startDate": "2026-05-09T11:00:00-5:00",
+          "endDate": "2026-05-09T13:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "1225 N 4th St",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1225 N 4th St",
+              "postalCode": "80513",
+              "addressLocality": "Berthoud",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.315674,
+              "longitude": -105.080379
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        }
+      ],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "MISSING_H1",
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN",
+        "MISSING_HSTS"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": null,
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": "nosniff",
+        "xFrameOptions": "SAMEORIGIN",
+        "referrerPolicy": null,
+        "permissionsPolicy": null,
+        "cacheControl": null,
+        "server": "scaffolding on HTTPServer2",
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        }
+      ],
+      "redirectChainLength": 2,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/berthoud-homes-for-sale/",
+      "title": "Berthoud Homes for Sale",
+      "titleLength": 23,
+      "description": "Search Homes for sale in Berthoud, CO. Listings include large photos, local school info, tours, maps, street view and more.",
+      "descriptionLength": 123,
+      "h1": [
+        "Berthoud, CO Homes for Sale"
+      ],
+      "h2": [
+        "Homes For Sale in Berthoud, CO",
+        "Search 10,000+ Listings",
+        "Start Your Berthoud Home Search",
+        "Browse Berthoud Homes by Property Type",
+        "Browse Berthoud Homes by Price Range",
+        "Browse Berthoud Homes by # of Bedrooms",
+        "Browse Berthoud Homes by Acres"
+      ],
+      "h2Count": 7,
+      "h3Count": 5,
+      "wordCount": 4389,
+      "imgCount": 70,
+      "imgWithoutAlt": 18,
+      "totalInternalLinks": 269,
+      "contextualInternalLinks": 127,
+      "externalLinks": 34,
+      "canonical": "https://www.kittlerealestate.com/berthoud-homes-for-sale/",
+      "canonicalResolved": "https://www.kittlerealestate.com/berthoud-homes-for-sale/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": true,
+      "schemaTypes": [
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event"
+      ],
+      "schemaData": [
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 11:00 AM - 2:00 PM",
+          "description": "Open House for 1150 Monroe Ave",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/1058396/1150-monroe-ave-berthoud-co-80513/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778236133/60/60_1058396_02.jpg",
+          "startDate": "2026-05-09T11:00:00-5:00",
+          "endDate": "2026-05-09T14:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "1150 Monroe Ave",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1150 Monroe Ave",
+              "postalCode": "80513",
+              "addressLocality": "Berthoud",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.302789,
+              "longitude": -105.092342
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 3:00 PM - 4:30 PM",
+          "description": "Open House for 325 Remuda Rd",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/5584952/325-remuda-rd-berthoud-co-80513/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778078830/60/60_5584952_02.jpg",
+          "startDate": "2026-05-09T15:00:00-5:00",
+          "endDate": "2026-05-09T16:30:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "325 Remuda Rd",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "325 Remuda Rd",
+              "postalCode": "80513",
+              "addressLocality": "Berthoud",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.303234,
+              "longitude": -105.068985
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 2:00 PM - 5:00 PM",
+          "description": "Open House for 2739 Prairie Flax St",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/1058254/2739-prairie-flax-st-berthoud-co-80513/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778235510/60/60_1058254_02.jpg",
+          "startDate": "2026-05-10T14:00:00-5:00",
+          "endDate": "2026-05-10T17:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "2739 Prairie Flax St",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "2739 Prairie Flax St",
+              "postalCode": "80513",
+              "addressLocality": "Berthoud",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.337261,
+              "longitude": -105.098497
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 1:30 PM - 3:30 PM",
+          "description": "Open House for 1710 Westport Ave",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/1058208/1710-westport-ave-berthoud-co-80513/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778269687/60/60_1058208_02.jpg",
+          "startDate": "2026-05-09T13:30:00-5:00",
+          "endDate": "2026-05-09T15:30:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "1710 Westport Ave",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1710 Westport Ave",
+              "postalCode": "80513",
+              "addressLocality": "Berthoud",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.321526,
+              "longitude": -105.090274
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 11:00 AM - 1:00 PM",
+          "description": "Open House for 3010 Newfound Lake Rd",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/3552387/3010-newfound-lake-rd-berthoud-co-80513/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778136014/60/60_3552387_02.jpg",
+          "startDate": "2026-05-09T11:00:00-5:00",
+          "endDate": "2026-05-09T13:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "3010 Newfound Lake Rd",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "3010 Newfound Lake Rd",
+              "postalCode": "80513",
+              "addressLocality": "Berthoud",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.341892,
+              "longitude": -105.108406
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        }
+      ],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": "max-age=2592000",
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": null,
+        "xFrameOptions": null,
+        "referrerPolicy": null,
+        "permissionsPolicy": null,
+        "cacheControl": "public, max-age=2592000",
+        "server": null,
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        }
+      ],
+      "redirectChainLength": 2,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/golf-course-community/move-to-berthoud-tpc-golf-course-community-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/golf-course-community/move-to-berthoud-tpc-golf-course-community-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/communities/move-to-boulder-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/communities/move-to-boulder-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/communities/move-to-boulder-county-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/communities/move-to-boulder-county-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/boulder-homes-for-sale/",
+      "title": "Boulder Homes for Sale",
+      "titleLength": 22,
+      "description": "Search Homes for sale in Boulder, CO. Listings include large photos, local school info, tours, maps, street view and more.",
+      "descriptionLength": 122,
+      "h1": [
+        "Boulder, CO Homes for Sale"
+      ],
+      "h2": [
+        "Homes For Sale in Boulder, CO",
+        "Search 10,000+ Listings",
+        "Start Your Boulder Home Search",
+        "Browse Boulder Homes by Property Type",
+        "Browse Boulder Homes by Price Range",
+        "Browse Boulder Homes by # of Bedrooms",
+        "Browse Boulder Homes by Acres"
+      ],
+      "h2Count": 7,
+      "h3Count": 5,
+      "wordCount": 4387,
+      "imgCount": 70,
+      "imgWithoutAlt": 18,
+      "totalInternalLinks": 269,
+      "contextualInternalLinks": 127,
+      "externalLinks": 34,
+      "canonical": "https://www.kittlerealestate.com/boulder-homes-for-sale/",
+      "canonicalResolved": "https://www.kittlerealestate.com/boulder-homes-for-sale/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": true,
+      "schemaTypes": [
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event"
+      ],
+      "schemaData": [
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 12:00 PM - 2:00 PM",
+          "description": "Open House for 8374 Stoneridge Ter",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/1058664/8374-stoneridge-ter-boulder-co-80302/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778290717/60/60_1058664_02.jpg",
+          "startDate": "2026-05-09T12:00:00-5:00",
+          "endDate": "2026-05-09T14:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "8374 Stoneridge Ter",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "8374 Stoneridge Ter",
+              "postalCode": "80302",
+              "addressLocality": "Boulder",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.125052,
+              "longitude": -105.295232
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 10:00 AM - 12:00 PM",
+          "description": "Open House for 1590 Findlay Way",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/1058646/1590-findlay-way-boulder-co-80305/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778281835/60/60_1058646_02.jpg",
+          "startDate": "2026-05-09T10:00:00-5:00",
+          "endDate": "2026-05-09T12:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "1590 Findlay Way",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1590 Findlay Way",
+              "postalCode": "80305",
+              "addressLocality": "Boulder",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.972338,
+              "longitude": -105.256351
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 12:00 PM - 2:00 PM",
+          "description": "Open House for 4700 Shawnee Pl",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/1058620/4700-shawnee-pl-boulder-co-80303/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778281539/60/60_1058620_02.jpg",
+          "startDate": "2026-05-09T12:00:00-5:00",
+          "endDate": "2026-05-09T14:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "4700 Shawnee Pl",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "4700 Shawnee Pl",
+              "postalCode": "80303",
+              "addressLocality": "Boulder",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.991982,
+              "longitude": -105.235223
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 1:00 PM - 3:00 PM",
+          "description": "Open House for 200 Mohawk Dr",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/1058596/200-mohawk-dr-boulder-co-80303/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778270747/60/60_1058596_02.jpg",
+          "startDate": "2026-05-09T13:00:00-5:00",
+          "endDate": "2026-05-09T15:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "200 Mohawk Dr",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "200 Mohawk Dr",
+              "postalCode": "80303",
+              "addressLocality": "Boulder",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.990673,
+              "longitude": -105.238766
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 2:00 PM - 4:00 PM",
+          "description": "Open House for 1200 Yarmouth Ave",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/1058573/1200-yarmouth-ave-boulder-co-80304/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778263712/60/60_1058573_02.jpg",
+          "startDate": "2026-05-09T14:00:00-5:00",
+          "endDate": "2026-05-09T16:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "1200 Yarmouth Ave",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1200 Yarmouth Ave",
+              "postalCode": "80304",
+              "addressLocality": "Boulder",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.057811,
+              "longitude": -105.280504
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 11:00 AM - 2:00 PM",
+          "description": "Open House for 141 Ponderosa Dr",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/1058538/141-ponderosa-dr-boulder-co-80303/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778228451/60/60_1058538_02.jpg",
+          "startDate": "2026-05-09T11:00:00-5:00",
+          "endDate": "2026-05-09T14:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "141 Ponderosa Dr",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "141 Ponderosa Dr",
+              "postalCode": "80303",
+              "addressLocality": "Boulder",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.986298,
+              "longitude": -105.171445
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        }
+      ],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN",
+        "MISSING_HSTS"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": null,
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": "nosniff",
+        "xFrameOptions": "SAMEORIGIN",
+        "referrerPolicy": null,
+        "permissionsPolicy": null,
+        "cacheControl": null,
+        "server": "scaffolding on HTTPServer2",
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        }
+      ],
+      "redirectChainLength": 2,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/golf-course-community/move-to-boulder-flatirons-golf-course-community-co/",
+      "title": "Boulder-Flatirons Golf Course Community CO Homes for Sale - Boulder-Flatirons Golf Course Community Real Estate",
+      "titleLength": 111,
+      "description": "Search homes & real estate for sale in Boulder-Flatirons Golf Course Community CO. Listings include large photos, local school info, tours, maps, street view and more.",
+      "descriptionLength": 167,
+      "h1": [
+        "Boulder-Flatirons Golf Course Community",
+        "Boulder-Flatirons Golf Course Community CO Homes & Real Estate"
+      ],
+      "h2": [
+        "Subscribe to Boulder-Flatirons Golf Course Community",
+        "You are subscribed to Boulder-Flatirons Golf Course Community",
+        "Boulder-Flatirons Golf Course Community LifestylesThe lifestyle trends below are powered by Spatial.",
+        "Boulder-Flatirons Golf Course Community Market TrendsMarket data provided by U.S. Census Bureau and ",
+        "How else can we help you?",
+        "Boulder-Flatirons Golf Course Community DemographicsDemographic information is from the American Cen",
+        "Schools Near Boulder-Flatirons Golf Course CommunitySchoolDigger RatingData provided by School Digge",
+        "SchoolDigger Rating",
+        "Boulder-Flatirons Golf Course Community Reviews",
+        "Search 10,000+ Listings"
+      ],
+      "h2Count": 10,
+      "h3Count": 26,
+      "wordCount": 3920,
+      "imgCount": 81,
+      "imgWithoutAlt": 61,
+      "totalInternalLinks": 244,
+      "contextualInternalLinks": 97,
+      "externalLinks": 39,
+      "canonical": "https://www.kittlerealestate.com/golf-course-community/move-to-boulder-flatirons-golf-course-community-co/",
+      "canonicalResolved": "https://www.kittlerealestate.com/golf-course-community/move-to-boulder-flatirons-golf-course-community-co/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": false,
+      "schemaTypes": [],
+      "schemaData": [],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "TITLE_TOO_LONG",
+        "META_DESCRIPTION_TOO_LONG",
+        "MULTIPLE_H1",
+        "NO_SCHEMA",
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN",
+        "MISSING_HSTS"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": null,
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": null,
+        "xFrameOptions": null,
+        "referrerPolicy": null,
+        "permissionsPolicy": null,
+        "cacheControl": "no-cache, no-store",
+        "server": "nginx",
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        },
+        {
+          "url": "https://www.kittlerealestate.com/golf-course-community/move-to-boulder-flatirons-golf-course-community-co/undefined",
+          "status": 301,
+          "location": "https://www.kittlerealestate.com/golf-course-community/move-to-boulder-flatirons-golf-course-community-co/undefined/"
+        }
+      ],
+      "redirectChainLength": 3,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/golf-course-community/move-to-boulder-lake-valley-golf-club-community-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/golf-course-community/move-to-boulder-lake-valley-golf-club-community-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/communities/move-to-briggsdale-co/",
+      "title": "Hire The BEST Briggsdale Real Estate Agents to Sell Your Home - New Homes for Sale in Briggsdale - Call The Kittle Team Today!",
+      "titleLength": 126,
+      "description": "Looking to Buy or Sell in Briggsdale, CO? Our top-rated real estate agents have the best selection of Briggsdale real estate listings - large images, street view info, maps, neighborhood details, and more. Call the Kittle Team for a viewing today!",
+      "descriptionLength": 247,
+      "h1": [
+        "Briggsdale"
+      ],
+      "h2": [
+        "Subscribe to Briggsdale",
+        "You are subscribed to Briggsdale",
+        "Briggsdale Homes for Sale",
+        "How else can we help you?",
+        "Briggsdale DemographicsDemographic information is from the American Census Survey 2023",
+        "Schools Near BriggsdaleSchoolDigger RatingData provided by School Digger, National Center for Educat",
+        "SchoolDigger Rating",
+        "Briggsdale Reviews"
+      ],
+      "h2Count": 8,
+      "h3Count": 15,
+      "wordCount": 4442,
+      "imgCount": 121,
+      "imgWithoutAlt": 62,
+      "totalInternalLinks": 314,
+      "contextualInternalLinks": 168,
+      "externalLinks": 39,
+      "canonical": "https://www.kittlerealestate.com/communities/move-to-briggsdale-co/",
+      "canonicalResolved": "https://www.kittlerealestate.com/communities/move-to-briggsdale-co/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": false,
+      "schemaTypes": [],
+      "schemaData": [],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "TITLE_TOO_LONG",
+        "META_DESCRIPTION_TOO_LONG",
+        "NO_SCHEMA",
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN",
+        "MISSING_HSTS"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": null,
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": "nosniff",
+        "xFrameOptions": "SAMEORIGIN",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "permissionsPolicy": null,
+        "cacheControl": "private,private",
+        "server": "cloudflare",
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        },
+        {
+          "url": "https://www.kittlerealestate.com/communities/move-to-briggsdale-co/undefined",
+          "status": 301,
+          "location": "https://www.kittlerealestate.com/communities/move-to-briggsdale-co/undefined/"
+        },
+        {
+          "url": "https://developer.schooldigger.com/images/sdwh220retina.png",
+          "status": 302,
+          "location": "https://pro-saas-system-multitenant-assets.s3.amazonaws.com/schooldigger/2017/02/03/powered-white-retina-440px-5eb5a634dcab4394.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA54NROH5532JZJHHQ%2F20260509%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260509T094438Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=f8e9d4679d8de78688ec51a637d1e5cc505db379d98f6b2ae5c68cdf597ed654"
+        }
+      ],
+      "redirectChainLength": 4,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/briggsdale-homes-for-sale/",
+      "title": "Briggsdale Homes for Sale",
+      "titleLength": 25,
+      "description": "Search Homes for sale in Briggsdale, CO. Listings include large photos, local school info, tours, maps, street view and more.",
+      "descriptionLength": 125,
+      "h1": [
+        "Briggsdale, CO Homes for Sale"
+      ],
+      "h2": [
+        "Homes For Sale in Briggsdale, CO",
+        "Search 10,000+ Listings",
+        "Start Your Briggsdale Home Search",
+        "Browse Briggsdale Homes by Property Type",
+        "Browse Briggsdale Homes by Price Range",
+        "Browse Briggsdale Homes by # of Bedrooms",
+        "Browse Briggsdale Homes by Acres"
+      ],
+      "h2Count": 7,
+      "h3Count": 5,
+      "wordCount": 4012,
+      "imgCount": 71,
+      "imgWithoutAlt": 19,
+      "totalInternalLinks": 265,
+      "contextualInternalLinks": 123,
+      "externalLinks": 34,
+      "canonical": "https://www.kittlerealestate.com/briggsdale-homes-for-sale/",
+      "canonicalResolved": "https://www.kittlerealestate.com/briggsdale-homes-for-sale/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": false,
+      "schemaTypes": [],
+      "schemaData": [],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "NO_SCHEMA",
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": "max-age=2592000",
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": null,
+        "xFrameOptions": null,
+        "referrerPolicy": null,
+        "permissionsPolicy": null,
+        "cacheControl": "public, max-age=2592000",
+        "server": null,
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        }
+      ],
+      "redirectChainLength": 2,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/communities/move-to-brighton-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/communities/move-to-brighton-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/brighton-homes-for-sale/",
+      "title": "Brighton Homes for Sale",
+      "titleLength": 23,
+      "description": "Search Homes for sale in Brighton, CO. Listings include large photos, local school info, tours, maps, street view and more.",
+      "descriptionLength": 123,
+      "h1": [
+        "Brighton, CO Homes for Sale"
+      ],
+      "h2": [
+        "Homes For Sale in Brighton, CO",
+        "Search 10,000+ Listings",
+        "Start Your Brighton Home Search",
+        "Browse Brighton Homes by Property Type",
+        "Browse Brighton Homes by Price Range",
+        "Browse Brighton Homes by # of Bedrooms",
+        "Browse Brighton Homes by Acres"
+      ],
+      "h2Count": 7,
+      "h3Count": 5,
+      "wordCount": 4386,
+      "imgCount": 71,
+      "imgWithoutAlt": 19,
+      "totalInternalLinks": 269,
+      "contextualInternalLinks": 127,
+      "externalLinks": 34,
+      "canonical": "https://www.kittlerealestate.com/brighton-homes-for-sale/",
+      "canonicalResolved": "https://www.kittlerealestate.com/brighton-homes-for-sale/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": true,
+      "schemaTypes": [
+        "Event",
+        "Event",
+        "Event",
+        "Event",
+        "Event"
+      ],
+      "schemaData": [
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 12:00 AM - 2:00 PM",
+          "description": "Open House for 6168 Hourglass Dr",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/5958240/6168-hourglass-dr-brighton-co-80601/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778235135/60/60_5958240_02.jpg",
+          "startDate": "2026-05-09T00:00:00-5:00",
+          "endDate": "2026-05-09T14:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "6168 Hourglass Dr",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "6168 Hourglass Dr",
+              "postalCode": "80601",
+              "addressLocality": "Brighton",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.998432,
+              "longitude": -104.728615
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 10:00 AM - 2:00 PM",
+          "description": "Open House for 5334 Longs Peak St",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/6845246/5334-longs-peak-st-brighton-co-80601/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778236836/60/60_6845246_02.jpg",
+          "startDate": "2026-05-16T10:00:00-5:00",
+          "endDate": "2026-05-16T14:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "5334 Longs Peak St",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "5334 Longs Peak St",
+              "postalCode": "80601",
+              "addressLocality": "Brighton",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.992382,
+              "longitude": -104.745255
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 11:00 AM - 2:00 PM",
+          "description": "Open House for 10253 E 150th Ave",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/4239496/10253-e-150th-ave-brighton-co-80602/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778234429/60/60_4239496_02.jpg",
+          "startDate": "2026-05-09T11:00:00-5:00",
+          "endDate": "2026-05-09T14:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "10253 E 150th Ave",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "10253 E 150th Ave",
+              "postalCode": "80602",
+              "addressLocality": "Brighton",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.969185,
+              "longitude": -104.868279
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 11:00 AM - 1:00 PM",
+          "description": "Open House for 525 Daylight Ct",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/5745394/525-daylight-ct-brighton-co-80601/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778147133/60/60_5745394_02.jpg",
+          "startDate": "2026-05-09T11:00:00-5:00",
+          "endDate": "2026-05-09T13:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "525 Daylight Ct",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "525 Daylight Ct",
+              "postalCode": "80601",
+              "addressLocality": "Brighton",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.99707,
+              "longitude": -104.763016
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 11:00 AM - 2:00 PM",
+          "description": "Open House for 10253 E 150th Ave",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/1058307/10253-e-150th-ave-brighton-co-80602/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778143299/60/60_1058307_02.jpg",
+          "startDate": "2026-05-09T11:00:00-5:00",
+          "endDate": "2026-05-09T14:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "10253 E 150th Ave",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "10253 E 150th Ave",
+              "postalCode": "80602",
+              "addressLocality": "Brighton",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.969269,
+              "longitude": -104.868297
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        }
+      ],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": "max-age=2592000",
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": null,
+        "xFrameOptions": null,
+        "referrerPolicy": null,
+        "permissionsPolicy": null,
+        "cacheControl": "public, max-age=2592000",
+        "server": null,
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        }
+      ],
+      "redirectChainLength": 2,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/communities/move-to-broomfield-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/communities/move-to-broomfield-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/broomfield-homes-for-sale/",
+      "title": "Broomfield Homes for Sale",
+      "titleLength": 25,
+      "description": "Search Homes for sale in Broomfield, CO. Listings include large photos, local school info, tours, maps, street view and more.",
+      "descriptionLength": 125,
+      "h1": [
+        "Broomfield, CO Homes for Sale"
+      ],
+      "h2": [
+        "Homes For Sale in Broomfield, CO",
+        "Search 10,000+ Listings",
+        "Start Your Broomfield Home Search",
+        "Browse Broomfield Homes by Property Type",
+        "Browse Broomfield Homes by Price Range",
+        "Browse Broomfield Homes by # of Bedrooms",
+        "Browse Broomfield Homes by Acres"
+      ],
+      "h2Count": 7,
+      "h3Count": 5,
+      "wordCount": 4283,
+      "imgCount": 71,
+      "imgWithoutAlt": 19,
+      "totalInternalLinks": 269,
+      "contextualInternalLinks": 127,
+      "externalLinks": 34,
+      "canonical": "https://www.kittlerealestate.com/broomfield-homes-for-sale/",
+      "canonicalResolved": "https://www.kittlerealestate.com/broomfield-homes-for-sale/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": true,
+      "schemaTypes": [
+        "Event",
+        "Event",
+        "Event"
+      ],
+      "schemaData": [
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 9:00 AM - 12:00 PM",
+          "description": "Open House for 1142 Northmoor Dr",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/9584707/1142-northmoor-dr-broomfield-co-80020/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778281683/60/60_9584707_02.jpg",
+          "startDate": "2026-05-09T09:00:00-5:00",
+          "endDate": "2026-05-09T12:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "1142 Northmoor Dr",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1142 Northmoor Dr",
+              "postalCode": "80020",
+              "addressLocality": "Broomfield",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.932903,
+              "longitude": -105.054192
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 11:00 AM - 1:00 PM",
+          "description": "Open House for 1375 Foxtail Dr",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/1058617/1375-foxtail-dr-broomfield-co-80020/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778281503/60/60_1058617_02.jpg",
+          "startDate": "2026-05-09T11:00:00-5:00",
+          "endDate": "2026-05-09T13:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "1375 Foxtail Dr",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1375 Foxtail Dr",
+              "postalCode": "80020",
+              "addressLocality": "Broomfield",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.930199,
+              "longitude": -105.086114
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 1:00 PM - 3:00 PM",
+          "description": "Open House for 14000 Winding River Ct",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/1058510/14000-winding-river-ct-broomfield-co-80023/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778234008/60/60_1058510_02.jpg",
+          "startDate": "2026-05-09T13:00:00-5:00",
+          "endDate": "2026-05-09T15:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "14000 Winding River Ct",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "14000 Winding River Ct",
+              "postalCode": "80023",
+              "addressLocality": "Broomfield",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.950048,
+              "longitude": -105.019731
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        }
+      ],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": "max-age=2592000",
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": null,
+        "xFrameOptions": null,
+        "referrerPolicy": null,
+        "permissionsPolicy": null,
+        "cacheControl": "public, max-age=2592000",
+        "server": null,
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        }
+      ],
+      "redirectChainLength": 2,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/golf-course-community/move-to-broomfield-broadlands-golf-course-community-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/golf-course-community/move-to-broomfield-broadlands-golf-course-community-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/golf-course-community/move-to-broomfield-eagle-trace-golf-club-community-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/golf-course-community/move-to-broomfield-eagle-trace-golf-club-community-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/golf-course-community/move-to-broomfield-greenway-park-golf-course-community-co/",
+      "title": "Broomfield-Greenway Park Golf Course Community CO Homes for Sale - Broomfield-Greenway Park Golf Course Community Real Estate",
+      "titleLength": 125,
+      "description": "Search homes & real estate for sale in Broomfield-Greenway Park Golf Course Community CO. Listings include large photos, local school info, tours, maps, street view and more.",
+      "descriptionLength": 174,
+      "h1": [
+        "Broomfield-Greenway Park Golf Course Community",
+        "Broomfield-Greenway Park Golf Course Community CO Homes & Real Estate"
+      ],
+      "h2": [
+        "Subscribe to Broomfield-Greenway Park Golf Course Community",
+        "You are subscribed to Broomfield-Greenway Park Golf Course Community",
+        "Broomfield-Greenway Park Golf Course Community Homes for Sale",
+        "Broomfield-Greenway Park Golf Course Community LifestylesThe lifestyle trends below are powered by S",
+        "Broomfield-Greenway Park Golf Course Community Market TrendsMarket data provided by U.S. Census Bure",
+        "How else can we help you?",
+        "Broomfield-Greenway Park Golf Course Community DemographicsDemographic information is from the Ameri",
+        "Schools Near Broomfield-Greenway Park Golf Course CommunitySchoolDigger RatingData provided by Schoo",
+        "SchoolDigger Rating",
+        "Broomfield-Greenway Park Golf Course Community Reviews",
+        "Search 10,000+ Listings"
+      ],
+      "h2Count": 11,
+      "h3Count": 32,
+      "wordCount": 4280,
+      "imgCount": 101,
+      "imgWithoutAlt": 68,
+      "totalInternalLinks": 255,
+      "contextualInternalLinks": 107,
+      "externalLinks": 40,
+      "canonical": "https://www.kittlerealestate.com/golf-course-community/move-to-broomfield-greenway-park-golf-course-community-co/",
+      "canonicalResolved": "https://www.kittlerealestate.com/golf-course-community/move-to-broomfield-greenway-park-golf-course-community-co/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": false,
+      "schemaTypes": [],
+      "schemaData": [],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "TITLE_TOO_LONG",
+        "META_DESCRIPTION_TOO_LONG",
+        "MULTIPLE_H1",
+        "NO_SCHEMA",
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN",
+        "MISSING_HSTS"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": null,
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": "nosniff",
+        "xFrameOptions": "SAMEORIGIN",
+        "referrerPolicy": null,
+        "permissionsPolicy": null,
+        "cacheControl": null,
+        "server": "scaffolding on HTTPServer2",
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        },
+        {
+          "url": "https://www.kittlerealestate.com/golf-course-community/move-to-broomfield-greenway-park-golf-course-community-co/undefined",
+          "status": 301,
+          "location": "https://www.kittlerealestate.com/golf-course-community/move-to-broomfield-greenway-park-golf-course-community-co/undefined/"
+        }
+      ],
+      "redirectChainLength": 3,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/buyers/buyers-guide/",
+      "title": "Guide To Buying a Home in Northern Colorado",
+      "titleLength": 43,
+      "description": "Search homes for sale in Northern Colorado. Listings include large photos, school info, detailed maps, and more.",
+      "descriptionLength": 112,
+      "h1": [
+        "BUYER’S GUIDE"
+      ],
+      "h2": [
+        "The 5 DO’s of Home Buying",
+        "The 5 DON’Ts of Home Buying"
+      ],
+      "h2Count": 2,
+      "h3Count": 0,
+      "wordCount": 3123,
+      "imgCount": 4,
+      "imgWithoutAlt": 1,
+      "totalInternalLinks": 205,
+      "contextualInternalLinks": 63,
+      "externalLinks": 32,
+      "canonical": "https://www.kittlerealestate.com/buyers/buyers-guide/",
+      "canonicalResolved": "https://www.kittlerealestate.com/buyers/buyers-guide/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": false,
+      "schemaTypes": [],
+      "schemaData": [],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "NO_SCHEMA",
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN",
+        "MISSING_HSTS"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": null,
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": "nosniff",
+        "xFrameOptions": null,
+        "referrerPolicy": null,
+        "permissionsPolicy": null,
+        "cacheControl": "public, max-age=31536000",
+        "server": "sffe",
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        }
+      ],
+      "redirectChainLength": 2,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/buyers/",
+      "title": "Buy a Home in Northern Colorado | Find Your Dream Home | Kittle",
+      "titleLength": 63,
+      "description": "Searching for a new home in Northern Colorado? Discover active listings and expert guidance from Kittle Real Estate. Start your home search now!",
+      "descriptionLength": 144,
+      "h1": [
+        "Buy a Home in Northern Colorado"
+      ],
+      "h2": [
+        "Search 10,000+ Listings"
+      ],
+      "h2Count": 1,
+      "h3Count": 1,
+      "wordCount": 2711,
+      "imgCount": 9,
+      "imgWithoutAlt": 6,
+      "totalInternalLinks": 195,
+      "contextualInternalLinks": 53,
+      "externalLinks": 32,
+      "canonical": "https://www.kittlerealestate.com/buyers/",
+      "canonicalResolved": "https://www.kittlerealestate.com/buyers/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": false,
+      "schemaTypes": [],
+      "schemaData": [],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "TITLE_TOO_LONG",
+        "NO_SCHEMA",
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN",
+        "MISSING_HSTS"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": null,
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": "nosniff",
+        "xFrameOptions": "SAMEORIGIN",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "permissionsPolicy": null,
+        "cacheControl": "public, max-age=2678400",
+        "server": "cloudflare",
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        }
+      ],
+      "redirectChainLength": 2,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/buyers/working-real-estate-agent/",
+      "title": "Buying Your Home - Working With a Real Estate Agent - Kittle Real Estate",
+      "titleLength": 72,
+      "description": "Search homes for sale in Northern Colorado. Listings include large photos, school info, detailed maps, and more.",
+      "descriptionLength": 112,
+      "h1": [
+        "Buying Your Home - Working With a Real Estate Agent"
+      ],
+      "h2": [
+        "FAQs",
+        "Search 10,000+ Listings"
+      ],
+      "h2Count": 2,
+      "h3Count": 1,
+      "wordCount": 3274,
+      "imgCount": 5,
+      "imgWithoutAlt": 2,
+      "totalInternalLinks": 189,
+      "contextualInternalLinks": 47,
+      "externalLinks": 30,
+      "canonical": "https://www.kittlerealestate.com/buyers/working-real-estate-agent/",
+      "canonicalResolved": "https://www.kittlerealestate.com/buyers/working-real-estate-agent/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": false,
+      "schemaTypes": [],
+      "schemaData": [],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "TITLE_TOO_LONG",
+        "NO_SCHEMA",
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN",
+        "MISSING_HSTS"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": null,
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": "nosniff",
+        "xFrameOptions": "SAMEORIGIN",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "permissionsPolicy": null,
+        "cacheControl": "public, max-age=2678400",
+        "server": "cloudflare",
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        }
+      ],
+      "redirectChainLength": 2,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/calendly-test/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/calendly-test/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/communities/move-to-carr-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/communities/move-to-carr-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/carr-homes-for-sale/",
+      "title": "Carr Homes for Sale",
+      "titleLength": 19,
+      "description": "Search Homes for sale in Carr, CO. Listings include large photos, local school info, tours, maps, street view and more.",
+      "descriptionLength": 119,
+      "h1": [
+        "Carr, CO Homes for Sale"
+      ],
+      "h2": [
+        "Homes For Sale in Carr, CO",
+        "Search 10,000+ Listings",
+        "Start Your Carr Home Search",
+        "Browse Carr Homes by Property Type",
+        "Browse Carr Homes by Price Range",
+        "Browse Carr Homes by # of Bedrooms",
+        "Browse Carr Homes by Acres"
+      ],
+      "h2Count": 7,
+      "h3Count": 5,
+      "wordCount": 4042,
+      "imgCount": 70,
+      "imgWithoutAlt": 18,
+      "totalInternalLinks": 266,
+      "contextualInternalLinks": 124,
+      "externalLinks": 34,
+      "canonical": "https://www.kittlerealestate.com/carr-homes-for-sale/",
+      "canonicalResolved": "https://www.kittlerealestate.com/carr-homes-for-sale/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": true,
+      "schemaTypes": [
+        "Event"
+      ],
+      "schemaData": [
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 11:00 AM - 1:00 PM",
+          "description": "Open House for 18298 Romar Ranch Rd",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/1057975/18298-romar-ranch-rd-carr-co-80612/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778236381/60/60_1057975_02.jpg",
+          "startDate": "2026-05-09T11:00:00-5:00",
+          "endDate": "2026-05-09T13:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "18298 Romar Ranch Rd",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "18298 Romar Ranch Rd",
+              "postalCode": "80612",
+              "addressLocality": "Carr",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.85389,
+              "longitude": -104.972445
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        }
+      ],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "TITLE_TOO_SHORT",
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN",
+        "MISSING_HSTS"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": null,
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": "nosniff",
+        "xFrameOptions": "SAMEORIGIN",
+        "referrerPolicy": null,
+        "permissionsPolicy": null,
+        "cacheControl": null,
+        "server": "scaffolding on HTTPServer2",
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        }
+      ],
+      "redirectChainLength": 2,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/communities/move-to-centennial-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/communities/move-to-centennial-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/buyers/choose-a-real-estate-agent/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/buyers/choose-a-real-estate-agent/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/sellers/close-of-escrow/",
+      "title": "Close of Escrow - Kittle Real Estate",
+      "titleLength": 36,
+      "description": "Search homes for sale in Northern Colorado. Listings include large photos, school info, detailed maps, and more.",
+      "descriptionLength": 112,
+      "h1": [
+        "Close of Escrow"
+      ],
+      "h2": [
+        "Search 10,000+ Listings"
+      ],
+      "h2Count": 1,
+      "h3Count": 6,
+      "wordCount": 2697,
+      "imgCount": 5,
+      "imgWithoutAlt": 2,
+      "totalInternalLinks": 193,
+      "contextualInternalLinks": 51,
+      "externalLinks": 30,
+      "canonical": "https://www.kittlerealestate.com/sellers/close-of-escrow/",
+      "canonicalResolved": "https://www.kittlerealestate.com/sellers/close-of-escrow/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": false,
+      "schemaTypes": [],
+      "schemaData": [],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "NO_SCHEMA",
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN",
+        "MISSING_HSTS"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": null,
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": "nosniff",
+        "xFrameOptions": "SAMEORIGIN",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "permissionsPolicy": null,
+        "cacheControl": "public, max-age=2678400",
+        "server": "cloudflare",
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        }
+      ],
+      "redirectChainLength": 2,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/communities/move-to-commerce-city-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/communities/move-to-commerce-city-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/commerce-city-homes-for-sale/",
+      "title": "Commerce City Homes for Sale",
+      "titleLength": 28,
+      "description": "Search Homes for sale in Commerce City, CO. Listings include large photos, local school info, tours, maps, street view and more.",
+      "descriptionLength": 128,
+      "h1": [
+        "Commerce City, CO Homes for Sale"
+      ],
+      "h2": [
+        "Homes For Sale in Commerce City, CO",
+        "Search 10,000+ Listings",
+        "Start Your Commerce City Home Search",
+        "Browse Commerce City Homes by Property Type",
+        "Browse Commerce City Homes by Price Range",
+        "Browse Commerce City Homes by # of Bedrooms",
+        "Browse Commerce City Homes by Acres"
+      ],
+      "h2Count": 7,
+      "h3Count": 5,
+      "wordCount": 4257,
+      "imgCount": 71,
+      "imgWithoutAlt": 19,
+      "totalInternalLinks": 269,
+      "contextualInternalLinks": 127,
+      "externalLinks": 34,
+      "canonical": "https://www.kittlerealestate.com/commerce-city-homes-for-sale/",
+      "canonicalResolved": "https://www.kittlerealestate.com/commerce-city-homes-for-sale/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": true,
+      "schemaTypes": [
+        "Event"
+      ],
+      "schemaData": [
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 11:00 AM - 2:00 PM",
+          "description": "Open House for 9374 E 107th Pl",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/8643062/9374-e-107th-pl-commerce-city-co-80640/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778264575/60/60_8643062_02.jpg",
+          "startDate": "2026-05-17T11:00:00-5:00",
+          "endDate": "2026-05-17T14:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "9374 E 107th Pl",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "9374 E 107th Pl",
+              "postalCode": "80640",
+              "addressLocality": "Commerce City",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.892815,
+              "longitude": -104.87793
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        }
+      ],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": "max-age=2592000",
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": null,
+        "xFrameOptions": null,
+        "referrerPolicy": null,
+        "permissionsPolicy": null,
+        "cacheControl": "public, max-age=2592000",
+        "server": null,
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        }
+      ],
+      "redirectChainLength": 2,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/golf-course-community/move-to-commerce-city-buffalo-run-golf-course-community-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/golf-course-community/move-to-commerce-city-buffalo-run-golf-course-community-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/buyers/community-information/",
+      "title": "Community Information",
+      "titleLength": 21,
+      "description": "Search homes for sale in Northern Colorado. Listings include large photos, school info, detailed maps, and more.",
+      "descriptionLength": 112,
+      "h1": [],
+      "h2": [],
+      "h2Count": 0,
+      "h3Count": 0,
+      "wordCount": 2751,
+      "imgCount": 4,
+      "imgWithoutAlt": 1,
+      "totalInternalLinks": 186,
+      "contextualInternalLinks": 44,
+      "externalLinks": 32,
+      "canonical": "https://www.kittlerealestate.com/buyers/community-information/",
+      "canonicalResolved": "https://www.kittlerealestate.com/buyers/community-information/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": false,
+      "schemaTypes": [],
+      "schemaData": [],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "MISSING_H1",
+        "NO_SCHEMA",
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN",
+        "MISSING_HSTS"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": null,
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": "nosniff",
+        "xFrameOptions": null,
+        "referrerPolicy": null,
+        "permissionsPolicy": null,
+        "cacheControl": "public, max-age=31536000",
+        "server": "sffe",
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        }
+      ],
+      "redirectChainLength": 2,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/condominiums-townhomes/",
+      "title": "Condominiums/Townhomes - Kittle Real Estate",
+      "titleLength": 43,
+      "description": "Kittle Real Estate is a high-performing, top-ranking team of real estate professionalsthat serves the coveted Northern Colorado communities of: Fort Collins Old Town Fort Collins Loveland Windsor Greeley Wellington Johnstown\n",
+      "descriptionLength": 225,
+      "h1": [],
+      "h2": [],
+      "h2Count": 0,
+      "h3Count": 0,
+      "wordCount": 2827,
+      "imgCount": 5,
+      "imgWithoutAlt": 2,
+      "totalInternalLinks": 185,
+      "contextualInternalLinks": 43,
+      "externalLinks": 30,
+      "canonical": "https://www.kittlerealestate.com/condominiums-townhomes/",
+      "canonicalResolved": "https://www.kittlerealestate.com/condominiums-townhomes/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": false,
+      "schemaTypes": [],
+      "schemaData": [],
+      "ogTitle": "Condominiums/Townhomes - Kittle Real Estate\n",
+      "ogDescription": "Kittle Real Estate is a high-performing, top-ranking team of real estate professionalsthat serves the coveted Northern Colorado communities of: Fort Collins Old Town Fort Collins Loveland Windsor Greeley Wellington Johnstown\n",
+      "ogImage": "https://sierra-public.azureedge.net/1eef5f8f-3167-481e-9a34-5c8cce87c234.jpg",
+      "twitterCard": null,
+      "issues": [
+        "META_DESCRIPTION_TOO_LONG",
+        "MISSING_H1",
+        "NO_SCHEMA",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN",
+        "MISSING_HSTS"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": null,
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": "nosniff",
+        "xFrameOptions": null,
+        "referrerPolicy": null,
+        "permissionsPolicy": null,
+        "cacheControl": "public, max-age=31536000",
+        "server": "sffe",
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        }
+      ],
+      "redirectChainLength": 2,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/contact/",
+      "title": "Contact Kittle Real Estate",
+      "titleLength": 26,
+      "description": "Contact Kittle Real Estate using the following information.",
+      "descriptionLength": 59,
+      "h1": [
+        "Contact Kittle Real Estate"
+      ],
+      "h2": [
+        "Have a Question or Want a Free Market Report?",
+        "Search 10,000+ Listings"
+      ],
+      "h2Count": 2,
+      "h3Count": 1,
+      "wordCount": 2921,
+      "imgCount": 5,
+      "imgWithoutAlt": 2,
+      "totalInternalLinks": 189,
+      "contextualInternalLinks": 47,
+      "externalLinks": 32,
+      "canonical": "https://www.kittlerealestate.com/contact/",
+      "canonicalResolved": "https://www.kittlerealestate.com/contact/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": false,
+      "schemaTypes": [],
+      "schemaData": [],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "NO_SCHEMA",
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN",
+        "MISSING_HSTS"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": null,
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": "nosniff",
+        "xFrameOptions": "SAMEORIGIN",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "permissionsPolicy": null,
+        "cacheControl": "public, max-age=2678400",
+        "server": "cloudflare",
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        }
+      ],
+      "redirectChainLength": 2,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/contact/cost-of-waiting/",
+      "title": "Cost of waiting",
+      "titleLength": 15,
+      "description": "Search homes for sale in Northern Colorado. Listings include large photos, school info, detailed maps, and more.",
+      "descriptionLength": 112,
+      "h1": [],
+      "h2": [
+        "Fill Out the Form Below and see How Much It is Costing You to Wait Before Buying Your Dream Home",
+        "Search 10,000+ Listings"
+      ],
+      "h2Count": 2,
+      "h3Count": 1,
+      "wordCount": 2942,
+      "imgCount": 6,
+      "imgWithoutAlt": 3,
+      "totalInternalLinks": 189,
+      "contextualInternalLinks": 47,
+      "externalLinks": 32,
+      "canonical": "https://www.kittlerealestate.com/contact/cost-of-waiting/",
+      "canonicalResolved": "https://www.kittlerealestate.com/contact/cost-of-waiting/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": false,
+      "schemaTypes": [],
+      "schemaData": [],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "TITLE_TOO_SHORT",
+        "MISSING_H1",
+        "NO_SCHEMA",
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN",
+        "MISSING_HSTS"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": null,
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": "nosniff",
+        "xFrameOptions": "SAMEORIGIN",
+        "referrerPolicy": "no-referrer-when-downgrade",
+        "permissionsPolicy": null,
+        "cacheControl": "public, max-age=2678400",
+        "server": "cloudflare",
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        }
+      ],
+      "redirectChainLength": 2,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/communities/move-to-dacono-co/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/communities/move-to-dacono-co/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    },
+    {
+      "url": "https://www.kittlerealestate.com/dacono-homes-for-sale/",
+      "title": "Dacono Homes for Sale",
+      "titleLength": 21,
+      "description": "Search Homes for sale in Dacono, CO. Listings include large photos, local school info, tours, maps, street view and more.",
+      "descriptionLength": 121,
+      "h1": [
+        "Dacono, CO Homes for Sale"
+      ],
+      "h2": [
+        "Homes For Sale in Dacono, CO",
+        "Search 10,000+ Listings",
+        "Start Your Dacono Home Search",
+        "Browse Dacono Homes by Property Type",
+        "Browse Dacono Homes by Price Range",
+        "Browse Dacono Homes by # of Bedrooms",
+        "Browse Dacono Homes by Acres"
+      ],
+      "h2Count": 7,
+      "h3Count": 5,
+      "wordCount": 4185,
+      "imgCount": 71,
+      "imgWithoutAlt": 19,
+      "totalInternalLinks": 269,
+      "contextualInternalLinks": 127,
+      "externalLinks": 34,
+      "canonical": "https://www.kittlerealestate.com/dacono-homes-for-sale/",
+      "canonicalResolved": "https://www.kittlerealestate.com/dacono-homes-for-sale/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": true,
+      "schemaTypes": [
+        "Event"
+      ],
+      "schemaData": [
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 10:00 AM - 12:00 PM",
+          "description": "Open House for 1124 Sherman Dr",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/3857703/1124-sherman-dr-dacono-co-80514/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778232006/60/60_3857703_02.jpg",
+          "startDate": "2026-05-09T10:00:00-5:00",
+          "endDate": "2026-05-09T12:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "1124 Sherman Dr",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1124 Sherman Dr",
+              "postalCode": "80514",
+              "addressLocality": "Dacono",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 40.077183,
+              "longitude": -104.931686
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        }
+      ],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN",
+        "MISSING_HSTS"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": null,
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": "nosniff",
+        "xFrameOptions": "SAMEORIGIN",
+        "referrerPolicy": null,
+        "permissionsPolicy": null,
+        "cacheControl": null,
+        "server": "scaffolding on HTTPServer2",
+        "statusCode": 200
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        }
+      ],
+      "redirectChainLength": 2,
+      "statusCode": 200,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/communities/move-to-denver-co/",
+      "title": "Pick the BEST Real Estate Team in Denver, CO When Buying or Selling Your Home - Call The Kittle Team Today!",
+      "titleLength": 107,
+      "description": "Our expert team of Denver real estate agents can help you find your next home - NEW homes, sprawling properties, historical homes & more. The Kittle Team is here to help! Call for a showing today!",
+      "descriptionLength": 196,
+      "h1": [
+        "Denver"
+      ],
+      "h2": [
+        "Subscribe to Denver",
+        "You are subscribed to Denver",
+        "Denver Homes for Sale",
+        "Denver LifestylesThe lifestyle trends below are powered by Spatial.ai , using billions of social med",
+        "Denver Market TrendsMarket data provided by U.S. Census Bureau and the local listing feed.",
+        "How else can we help you?",
+        "Denver DemographicsDemographic information is from the American Census Survey 2023",
+        "Schools Near DenverSchoolDigger RatingData provided by School Digger, National Center for Education ",
+        "SchoolDigger Rating",
+        "Denver Reviews"
+      ],
+      "h2Count": 10,
+      "h3Count": 37,
+      "wordCount": 9550,
+      "imgCount": 127,
+      "imgWithoutAlt": 62,
+      "totalInternalLinks": 1974,
+      "contextualInternalLinks": 1826,
+      "externalLinks": 45,
+      "canonical": "https://www.kittlerealestate.com/communities/move-to-denver-co/",
+      "canonicalResolved": "https://www.kittlerealestate.com/communities/move-to-denver-co/",
+      "canonicalCount": 1,
+      "robotsMeta": "max-image-preview:large",
+      "googlebotMeta": null,
+      "viewportMeta": "width=device-width, initial-scale=1.0, minimum-scale=1.0",
+      "hasSchema": true,
+      "schemaTypes": [
+        "Event",
+        "Event",
+        "Event"
+      ],
+      "schemaData": [
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 10:00 AM - 12:00 PM",
+          "description": "Open House for 5755 W 43rd Ave",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/7119734/5755-w-43rd-ave-denver-co-80212/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778281822/60/60_7119734_02.jpg",
+          "startDate": "2026-05-09T10:00:00-5:00",
+          "endDate": "2026-05-09T12:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "5755 W 43rd Ave",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "5755 W 43rd Ave",
+              "postalCode": "80212",
+              "addressLocality": "Denver",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.774895,
+              "longitude": -105.059944
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 1:00 PM - 4:00 PM",
+          "description": "Open House for 1941 S Fillmore St",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/3478077/1941-s-fillmore-st-denver-co-80210/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778281746/60/60_3478077_02.jpg",
+          "startDate": "2026-05-09T13:00:00-5:00",
+          "endDate": "2026-05-09T16:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "1941 S Fillmore St",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "1941 S Fillmore St",
+              "postalCode": "80210",
+              "addressLocality": "Denver",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.68084,
+              "longitude": -104.954063
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Event",
+          "name": "Open House - 11:00 AM - 2:00 PM",
+          "description": "Open House for 2365 S Cherokee St",
+          "url": "https://www.kittlerealestate.com/property-search/detail/60/9896652/2365-s-cherokee-st-denver-co-80223/",
+          "image": "https://cdn.listingphotos.sierrastatic.com/pics2x/v1778281588/60/60_9896652_02.jpg",
+          "startDate": "2026-05-09T11:00:00-5:00",
+          "endDate": "2026-05-09T14:00:00-5:00",
+          "location": {
+            "@type": "Place",
+            "name": "2365 S Cherokee St",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "2365 S Cherokee St",
+              "postalCode": "80223",
+              "addressLocality": "Denver",
+              "addressRegion": "CO",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 39.673599,
+              "longitude": -104.991333
+            }
+          },
+          "eventAttendanceMode": "http://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "http://schema.org/EventScheduled"
+        }
+      ],
+      "ogTitle": null,
+      "ogDescription": null,
+      "ogImage": "https://cdn.sitephotos.sierrastatic.com/2610_hero_hero-20210629075843.jpg",
+      "twitterCard": null,
+      "issues": [
+        "TITLE_TOO_LONG",
+        "META_DESCRIPTION_TOO_LONG",
+        "NO_OG_TAGS",
+        "MISSING_ALT_TEXT",
+        "REDIRECT_CHAIN",
+        "MISSING_HSTS"
+      ],
+      "responseHeaders": {
+        "xRobotsTag": null,
+        "linkHeader": null,
+        "strictTransportSecurity": null,
+        "contentSecurityPolicy": null,
+        "xContentTypeOptions": null,
+        "xFrameOptions": null,
+        "referrerPolicy": null,
+        "permissionsPolicy": null,
+        "cacheControl": null,
+        "server": "nginx",
+        "statusCode": 204
+      },
+      "redirectChain": [
+        {
+          "url": "https://cdn.rawgit.com/timrwood/moment/1.7.2/min/moment.min.js",
+          "status": 301,
+          "location": "https://cdn.jsdelivr.net/gh/timrwood/moment@1.7.2/min/moment.min.js"
+        },
+        {
+          "url": "https://apps.elfsight.com/p/platform.js",
+          "status": 301,
+          "location": "https://static.elfsight.com/platform/platform.js"
+        },
+        {
+          "url": "https://www.kittlerealestate.com/communities/move-to-denver-co/undefined",
+          "status": 301,
+          "location": "https://www.kittlerealestate.com/communities/move-to-denver-co/undefined/"
+        }
+      ],
+      "redirectChainLength": 3,
+      "statusCode": 204,
+      "httpCanonical": null
+    },
+    {
+      "url": "https://www.kittlerealestate.com/denver-homes-for-sale/",
+      "error": "page.goto: Timeout 20000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://www.kittlerealestate.com/denver-homes-for-sale/\", waiting until \"networkidle\"\u001b[22m\n",
+      "issues": [
+        "CRAWL_ERROR"
+      ]
+    }
+  ],
+  "issuesSummary": {
+    "CRAWL_ERROR": 38,
+    "NO_SCHEMA": 13,
+    "NO_OG_TAGS": 21,
+    "MISSING_ALT_TEXT": 22,
+    "REDIRECT_CHAIN": 22,
+    "MISSING_H1": 4,
+    "MISSING_HSTS": 16,
+    "TITLE_TOO_LONG": 6,
+    "META_DESCRIPTION_TOO_LONG": 5,
+    "MULTIPLE_H1": 2,
+    "TITLE_TOO_SHORT": 2
+  },
+  "orphanedPages": []
+}

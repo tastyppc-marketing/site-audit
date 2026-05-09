@@ -1,0 +1,73 @@
+{
+  "data": [
+    {
+      "domain": "kittlerealestate.com",
+      "domainRating": 243,
+      "referringDomains": 425,
+      "backlinks": 1366,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": 1188,
+      "isClient": true
+    },
+    {
+      "domain": "thegroupinc.com",
+      "domainRating": 291,
+      "referringDomains": 1136,
+      "backlinks": 6331,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": 4854,
+      "isClient": false
+    },
+    {
+      "domain": "c3realestatesolutions.com",
+      "domainRating": 301,
+      "referringDomains": 284,
+      "backlinks": 5814,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": 4900,
+      "isClient": false
+    },
+    {
+      "domain": "mullenbergteam.com",
+      "domainRating": 70,
+      "referringDomains": 68,
+      "backlinks": 73,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": 0,
+      "isClient": false
+    },
+    {
+      "domain": "ambassadorcolorado.com",
+      "domainRating": 109,
+      "referringDomains": 54,
+      "backlinks": 76,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": 2,
+      "isClient": false
+    },
+    {
+      "domain": "nocohometeam.com",
+      "domainRating": 179,
+      "referringDomains": 241,
+      "backlinks": 570,
+      "organicTraffic": null,
+      "organicKeywords": null,
+      "trafficValue": null,
+      "brokenBacklinks": 0,
+      "isClient": false
+    }
+  ],
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-05-09T09:13:45.234Z"
+}

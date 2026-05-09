@@ -1,0 +1,3212 @@
+{
+  "domain": "thegroupinc.com",
+  "totalBacklinks": 200,
+  "referringDomains": 200,
+  "backlinks": [
+    {
+      "source_url": "https://www.luxuryportfolio.com/brokers/the-group-inc",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "http://www.thegroupinc.com",
+      "domain_rating": 318,
+      "is_dofollow": true,
+      "first_seen": "2021-05-18 15:31:52 +00:00"
+    },
+    {
+      "source_url": "http://www.nocospeaks.com/",
+      "target_url": "https://thegroupinc.com/blog/",
+      "anchor_text": "",
+      "domain_rating": 173,
+      "is_dofollow": true,
+      "first_seen": "2024-02-27 10:09:29 +00:00"
+    },
+    {
+      "source_url": "https://www.zillow.com/profile/coryyounie",
+      "target_url": "http://thegroupinc.com/",
+      "anchor_text": "Visit agent website",
+      "domain_rating": 150,
+      "is_dofollow": true,
+      "first_seen": "2026-03-04 17:44:45 +00:00"
+    },
+    {
+      "source_url": "http://www.brentduggar.com/",
+      "target_url": "https://theduggarteam.thegroupinc.com/",
+      "anchor_text": "",
+      "domain_rating": 144,
+      "is_dofollow": true,
+      "first_seen": "2024-06-22 11:54:45 +00:00"
+    },
+    {
+      "source_url": "https://bornandraisedfoco.com/",
+      "target_url": "https://thegroupinc.com/agents/kyle-basnar/",
+      "anchor_text": "",
+      "domain_rating": 131,
+      "is_dofollow": true,
+      "first_seen": "2024-05-16 10:27:18 +00:00"
+    },
+    {
+      "source_url": "http://christieduggar.com/the-insider/",
+      "target_url": "https://theduggarteam.thegroupinc.com/the-insider/",
+      "anchor_text": "",
+      "domain_rating": 128,
+      "is_dofollow": true,
+      "first_seen": "2019-02-19 16:07:06 +00:00"
+    },
+    {
+      "source_url": "http://www.christieduggar.com/",
+      "target_url": "https://theduggarteam.thegroupinc.com/",
+      "anchor_text": "",
+      "domain_rating": 128,
+      "is_dofollow": true,
+      "first_seen": "2019-01-24 02:01:04 +00:00"
+    },
+    {
+      "source_url": "https://fortcollinshabitat.org/",
+      "target_url": "https://thegroupinc.com/group-gives/",
+      "anchor_text": "",
+      "domain_rating": 127,
+      "is_dofollow": true,
+      "first_seen": "2025-12-04 10:58:18 +00:00"
+    },
+    {
+      "source_url": "https://www.getpracticehelp.com/providers/healthcare-real-estate/co/fort-collins/the-group-real-estate-fort-collins-co/",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "Visit Website →",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2026-05-02 16:57:51 +00:00"
+    },
+    {
+      "source_url": "https://www.getpracticehelp.com/providers/healthcare-real-estate/co/fort-collins/the-group-real-estate-fort-collins-co-1/",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "Visit Website →",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2026-05-02 16:57:35 +00:00"
+    },
+    {
+      "source_url": "https://www.calbuiltllc.com/about",
+      "target_url": "https://theduggarteam.thegroupinc.com/",
+      "anchor_text": "theduggarteam.thegroupinc.com",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2026-01-18 09:47:01 +00:00"
+    },
+    {
+      "source_url": "https://www.leadville.co/8-northern-colorado-homes-with-dining-rooms-perfect-for-hosting-your-holiday-dinner/",
+      "target_url": "http://www.thegroupinc.com/blog/2021/11/northern-colorado-homes-dining-rooms-perfect-hosting-holiday-dinner/",
+      "anchor_text": "here",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2021-12-06 09:43:20 +00:00"
+    },
+    {
+      "source_url": "https://truv.com/verifications/group-employment-verification-2",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Group website",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2023-09-06 23:22:05 +00:00"
+    },
+    {
+      "source_url": "https://thegroup.corepath.com/ForgotPassword",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "The Group",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-01-01 10:52:23 +00:00"
+    },
+    {
+      "source_url": "https://thegroup.corepath.com/Login",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "The Group",
+      "domain_rating": 113,
+      "is_dofollow": true,
+      "first_seen": "2025-01-01 10:46:19 +00:00"
+    },
+    {
+      "source_url": "https://loveland.org/purchase-valentine-cards/",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "",
+      "domain_rating": 95,
+      "is_dofollow": true,
+      "first_seen": "2024-01-06 10:25:30 +00:00"
+    },
+    {
+      "source_url": "https://kathybeck.com/",
+      "target_url": "http://www.thegroupinc.com/blog/",
+      "anchor_text": "Blog - Northern Colorado Speaks",
+      "domain_rating": 89,
+      "is_dofollow": true,
+      "first_seen": "2020-03-28 09:44:54 +00:00"
+    },
+    {
+      "source_url": "https://kathybeck.com/",
+      "target_url": "https://www.thegroupinc.com/our_realtors/info/KathyBeck/",
+      "anchor_text": "My Real Estate Biography",
+      "domain_rating": 89,
+      "is_dofollow": true,
+      "first_seen": "2020-03-28 09:44:54 +00:00"
+    },
+    {
+      "source_url": "https://kathybeck.com/",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "www.TheGroupInc.com",
+      "domain_rating": 89,
+      "is_dofollow": true,
+      "first_seen": "2020-03-28 09:44:54 +00:00"
+    },
+    {
+      "source_url": "https://www.messageceo.com/directory/profile/531907b1-5e3a-41f0-b8eb-3a759b922541",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "https://thegroupinc.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2026-05-01 16:14:08 +00:00"
+    },
+    {
+      "source_url": "https://themommychapter.com/2012/10/playtime-and-projects/",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "The Group, Inc",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-09-04 12:08:21 +00:00"
+    },
+    {
+      "source_url": "https://themommychapter.com/2012/10/home-improvement/",
+      "target_url": "http://www.thegroupinc.com/search/",
+      "anchor_text": "The Group, Inc.",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-09-04 12:08:12 +00:00"
+    },
+    {
+      "source_url": "https://boundlessestates.com/dream-mountain-retreat-at-78-big-pine-ln-drake-co-80515/",
+      "target_url": "https://thegroupinc.com/agents/zach-laue/",
+      "anchor_text": "Zach Laue",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-11-06 01:36:57 +00:00"
+    },
+    {
+      "source_url": "https://www.leadingreheroes.com/memberprofile/thegroupinc/",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "www.thegroupinc.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2021-04-17 16:59:02 +00:00"
+    },
+    {
+      "source_url": "https://www.luxuryportfolio.com/it/brokers/the-group-inc",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "http://www.thegroupinc.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-05-27 15:33:12 +00:00"
+    },
+    {
+      "source_url": "https://julitazpiper.pages.dev/mgvrd-events-in-fort-collins-november-2024-vyrrv/",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "www.thegroupinc.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-09-29 19:23:21 +00:00"
+    },
+    {
+      "source_url": "https://www.usmilitaryonthemove.com/memberprofile/thegroupinc/",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "www.thegroupinc.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2019-01-22 21:00:03 +00:00"
+    },
+    {
+      "source_url": "https://www.luxuryportfolio.com/de/brokers/the-group-inc",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "http://www.thegroupinc.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-05-27 15:14:47 +00:00"
+    },
+    {
+      "source_url": "https://www.luxuryportfolio.com/zh/brokers/the-group-inc",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "http://www.thegroupinc.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-04-30 01:12:57 +00:00"
+    },
+    {
+      "source_url": "https://www.sunraynatural.farm/sunray-news/hello-world/",
+      "target_url": "http://www.thegroupinc.com/blog/2017/05/fort-collins-sunray-natural/",
+      "anchor_text": "Check out the Story Here",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2022-01-04 22:05:06 +00:00"
+    },
+    {
+      "source_url": "https://www.luxuryportfolio.com/fr/brokers/the-group-inc",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "http://www.thegroupinc.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-05-03 06:19:00 +00:00"
+    },
+    {
+      "source_url": "https://www.luxuryportfolio.com/es/brokers/the-group-inc",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "http://www.thegroupinc.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-05-09 10:59:57 +00:00"
+    },
+    {
+      "source_url": "https://www.luxuryportfolio.com/index.php/brokers/the-group-inc",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "http://www.thegroupinc.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-05-08 20:56:15 +00:00"
+    },
+    {
+      "source_url": "https://www.luxuryportfolio.com/en/brokers/the-group-inc",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "http://www.thegroupinc.com",
+      "domain_rating": 78,
+      "is_dofollow": true,
+      "first_seen": "2025-05-26 21:31:55 +00:00"
+    },
+    {
+      "source_url": "https://englishaccentguy.com/",
+      "target_url": "https://thegroupinc.com/privacy-policy/",
+      "anchor_text": "Privacy Policy",
+      "domain_rating": 64,
+      "is_dofollow": true,
+      "first_seen": "2025-08-02 08:20:17 +00:00"
+    },
+    {
+      "source_url": "https://englishaccentguy.com/",
+      "target_url": "https://www.thegroupinc.com/accessibility/",
+      "anchor_text": "Accessibility",
+      "domain_rating": 64,
+      "is_dofollow": true,
+      "first_seen": "2025-08-02 08:20:17 +00:00"
+    },
+    {
+      "source_url": "https://englishaccentguy.com/",
+      "target_url": "https://www.thegroupinc.com/site_map/",
+      "anchor_text": "Site Map",
+      "domain_rating": 64,
+      "is_dofollow": true,
+      "first_seen": "2025-08-02 08:20:17 +00:00"
+    },
+    {
+      "source_url": "https://www.sycamoreequity.com/noco-housing-fund",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "",
+      "domain_rating": 61,
+      "is_dofollow": true,
+      "first_seen": "2026-02-20 08:17:23 +00:00"
+    },
+    {
+      "source_url": "https://www.hansenteamrealestate.com/agent/debbie-hansen/",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "",
+      "domain_rating": 59,
+      "is_dofollow": true,
+      "first_seen": "2019-02-22 11:09:09 +00:00"
+    },
+    {
+      "source_url": "https://acegilletts.com/the-armstrong-burger-featured-in-the-ultimate-northern-colorado-food-bucket-list/",
+      "target_url": "http://www.thegroupinc.com/blog/2020/10/ultimate-northern-colorado-food-bucket-list/",
+      "anchor_text": "The Group Inc",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2023-12-02 15:16:55 +00:00"
+    },
+    {
+      "source_url": "https://berthoudharvest.com/redt",
+      "target_url": "https://theduggarteam.thegroupinc.com/",
+      "anchor_text": "Brent & Christie Duggar",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-11-26 18:39:33 +00:00"
+    },
+    {
+      "source_url": "https://realestatethings.net/about/",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "The Group Inc.",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2022-02-11 23:50:34 +00:00"
+    },
+    {
+      "source_url": "https://berthoudharvest.com/calbuilt",
+      "target_url": "https://theduggarteam.thegroupinc.com/",
+      "anchor_text": "Brent & Christie Duggar",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-11-26 18:42:52 +00:00"
+    },
+    {
+      "source_url": "https://steamboatresortproperty.com/Dean_Laird.php",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "The Group",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2022-09-15 11:42:21 +00:00"
+    },
+    {
+      "source_url": "https://www.rv-boondocking-the-good-life.com/200710.html",
+      "target_url": "http://www.thegroupinc.com/buy_a_home/property_details.asp?id=530950&ds=IRES",
+      "anchor_text": "Northern Colorado Horse Property for sale",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2021-09-09 18:30:03 +00:00"
+    },
+    {
+      "source_url": "https://ultimatemembership.pro/blog/4474/is-red-feather-lakes-open-for-fishing",
+      "target_url": "http://www.thegroupinc.com/blog/2018/05/boating-in-northern-colorado/",
+      "anchor_text": "Can you kayak at Red Feather Lakes?",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-02-18 19:45:43 +00:00"
+    },
+    {
+      "source_url": "https://www.locksmith-greeley-co.com/house-lockout/",
+      "target_url": "https://www.thegroupinc.com/blog/2021/04/fun-interesting-facts-about-greeley-colorado/",
+      "anchor_text": "Greeley, CO",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-02-27 12:43:15 +00:00"
+    },
+    {
+      "source_url": "https://comparable-companies.com/company/the-group-inc-real-estate-competitors-similar-companies",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "www.thegroupinc.com",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2023-03-22 17:28:53 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P06028/Robert-Walkowicz-Group-Harmony-Fort-Collins-CO",
+      "target_url": "https://robertwalkowicz.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-01-15 01:06:50 +00:00"
+    },
+    {
+      "source_url": "https://mbicorp.ca/The_Best/Toronto_Business_Page_8284.php",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "INVESTMENT GUILD INSURANCE INC",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-10-23 01:55:44 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P24766/Karla-VanDenBerg-Group-Centerra-Loveland-CO",
+      "target_url": "https://karlavandenberg.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-25 22:52:45 +00:00"
+    },
+    {
+      "source_url": "https://feodorazkenna.pages.dev/ghtcv-events-in-fort-collins-september-2024-idduz/",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "www.thegroupinc.com",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-09-25 14:31:33 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P20472/Paul-Schnaitter-Group-Centerra-Loveland-CO",
+      "target_url": "http://www.paulschnaitter.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-20 04:45:25 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P20851/Greg-Bever-Group-Harmony-Fort-Collins-CO",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-20 02:03:40 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P07212/Jack-M-Taylor-Group-Mulberry-Fort-Collins-CO",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-20 01:49:34 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P16448/Blas-Estrada-Group-Centerra-Loveland-CO",
+      "target_url": "https://blasestrada.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-19 06:02:08 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P15123/Christopher-Charles-Hau-Group-Harmony-Fort-Collins-CO",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-20 03:37:16 +00:00"
+    },
+    {
+      "source_url": "https://northerncoloradolandscaping.com/landscaping-curb-appeal/",
+      "target_url": "https://www.thegroupinc.com/our_realtors/info/ShellyGoldrich/",
+      "anchor_text": "Shelly Goldrich",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2020-10-27 03:30:16 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P20026/Louise-Bates-Group-Centerra-Loveland-CO",
+      "target_url": "https://louisebates.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-20 05:49:37 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P18220/Natalie-DeAngelis-Group-Centerra-Loveland-CO",
+      "target_url": "https://nataliedeangelis.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2023-09-28 05:38:47 +00:00"
+    },
+    {
+      "source_url": "https://www.hansenteamrealestate.com/real-estate/home/310-S-Cherrywood-Dr-Lafayette-CO-80026/1-1005650/",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-14 16:45:46 +00:00"
+    },
+    {
+      "source_url": "https://www.hansenteamrealestate.com/real-estate/home/2038-Ballyneal-Dr-Fort-Collins-CO-80524/1-1007651/",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-09-03 18:53:50 +00:00"
+    },
+    {
+      "source_url": "https://www.hansenteamrealestate.com/real-estate/home/2039-Ballyneal-Dr-Fort-Collins-CO-80524/1-1007674/",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-11-04 02:20:41 +00:00"
+    },
+    {
+      "source_url": "https://www.hansenteamrealestate.com/real-estate/home/290-S-Cherrywood-Dr-Lafayette-CO-80026/1-1006982/",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-09-03 18:53:46 +00:00"
+    },
+    {
+      "source_url": "https://www.hansenteamrealestate.com/real-estate/home/270-S-Cherrywood-Dr-Lafayette-CO-80026/1-1006125/",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-09-03 18:53:42 +00:00"
+    },
+    {
+      "source_url": "https://www.hansenteamrealestate.com/real-estate/home/310-S-Cherrywood-Dr-Lafayette-CO-80026/1-1010044/",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2026-01-17 11:43:46 +00:00"
+    },
+    {
+      "source_url": "https://www.hansenteamrealestate.com/real-estate/home/290-S-Cherrywood-Dr-Lafayette-CO-80026/1-1005628/",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-14 16:45:38 +00:00"
+    },
+    {
+      "source_url": "https://www.hansenteamrealestate.com/real-estate/home/2251-Fox-Acres-Dr-Red-Feather-Lakes-CO-80545/1-1007198/",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-09-03 18:53:38 +00:00"
+    },
+    {
+      "source_url": "https://www.hansenteamrealestate.com/real-estate/home/270-S-Cherrywood-Dr-Lafayette-CO-80026/1-1006262/",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-09-03 18:53:30 +00:00"
+    },
+    {
+      "source_url": "https://www.hansenteamrealestate.com/our-listings/",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2019-02-22 11:06:40 +00:00"
+    },
+    {
+      "source_url": "https://www.hansenteamrealestate.com/buyers-sellers/",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2019-02-22 11:13:17 +00:00"
+    },
+    {
+      "source_url": "https://www.hansenteamrealestate.com/buyers-sellers/homebuyers-guide/",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2019-02-22 10:45:43 +00:00"
+    },
+    {
+      "source_url": "https://www.hansenteamrealestate.com/contact/",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2019-02-22 10:06:24 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P22798/Rhett-Strom-Group-Harmony-Fort-Collins-CO",
+      "target_url": "http://www.thegroupinc.com/our_realtors/info/RhettStrom/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-20 01:57:36 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P30574/Michael-Tennessen-REMAX-AllianceGreeley-Greeley-CO",
+      "target_url": "https://michaeltennessen.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2023-09-20 23:39:14 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P02543/Shauna-Payne-Coldwell-Banker-RealtyNOCO-Johnstown-CO",
+      "target_url": "https://shaunapayne.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-08-13 04:58:18 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P20946/Brent-Duggar-Group-Harmony-Fort-Collins-CO",
+      "target_url": "https://theduggarteam.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-20 04:21:01 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P07452/Scott-Joseph-Mullen-Group-Mulberry-Fort-Collins-CO",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-08-13 04:10:00 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/TM0281/The-Sledge-Team-Group-Harmony-Fort-Collins-CO",
+      "target_url": "http://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-20 03:46:21 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P26429/Rachel-Bomgaars-Group-Harmony-Fort-Collins-CO",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-20 03:16:33 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/TM0276/Sutton-Beaudoin-Team-Group-Mulberry-Fort-Collins-CO",
+      "target_url": "http://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-20 01:36:47 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/agent/details/P22360/Shelly-Anne-Goldrich-Group-Harmony-Fort-Collins-CO",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-06-20 02:47:39 +00:00"
+    },
+    {
+      "source_url": "https://www.hansenteamrealestate.com/real-estate/home/270-S-Cherrywood-Dr-Lafayette-CO-80026/1-1008856/",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-11-04 02:20:29 +00:00"
+    },
+    {
+      "source_url": "https://number1homeagent.com/?p=132",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "Larry Kendall",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-04-22 01:32:58 +00:00"
+    },
+    {
+      "source_url": "https://morphehomestaginganddesign.com/why-home-staging-is-beneficial-in-a-hot-market/",
+      "target_url": "https://www.thegroupinc.com/blog/2021/04/staging-home-important/",
+      "anchor_text": "https://www.thegroupinc.com/blog/2021/04/staging-home-important/",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-10-04 13:10:01 +00:00"
+    },
+    {
+      "source_url": "https://ceoweekly.com/jake-tillitt-the-relationship-driven-real-estate-leader-transforming-colorados-front-range-market/",
+      "target_url": "https://thegroupinc.com/agents/jake-tillitt/",
+      "anchor_text": "Jake Tillitt",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-09-23 23:51:16 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1345337/5207-Honeylocust-Ct-Fort-Collins-CO-80525",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-09-15 09:54:55 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346725/3762-Sandy-Shore-Ln-Fort-Collins-CO-80528",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-09-14 07:02:23 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346202/6682-Crooked-Stick-Dr-Windsor-CO-80550",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-09-05 18:02:28 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1343805/143-Waltonia-Rd-Drake-CO-80515",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-08-19 00:19:14 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1342398/882-S-Carriage-Dr-Milliken-CO-80543",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 06:09:29 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1340330/629-Sumac-St-Frederick-CO-80530",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 05:22:57 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1344077/2539-Bearwood-Ave-Greeley-CO-80631",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 04:37:42 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1341527/18674-County-Road-3-Berthoud-CO-80513",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 04:01:54 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1341874/7124-Rye-Grass-Dr-Wellington-CO-80549",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 03:51:44 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1340757/34288-County-Road-59-Gill-CO-80624",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 03:38:44 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1343598/5925-Greenridge-Cir-Fort-Collins-CO-80525",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-08-09 16:29:40 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1340849/5207-Honeylocust-Ct-Fort-Collins-CO-80525",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-08-09 16:28:37 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1335033/TBD-Cedar-Park-Dr-Drake-CO-80515",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-05-04 08:33:43 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1343546/3762-Sandy-Shore-Ln-Fort-Collins-CO-80528",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-08-07 11:29:18 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1332003/4528-Del-Colina-Way-Laporte-CO-80535",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-04-14 11:03:45 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1332849/TBD-0-County-Road-2-Lot-2-Orchard-CO-80649",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-04-14 11:10:55 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1308163/124-63rd-Ave-Greeley-CO-80634",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-08-04 10:58:55 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1310196/132-63rd-Ave-Greeley-CO-80634",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2024-08-04 10:59:31 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1337915/528-Lone-Pine-Lake-Dr-Red-Feather-Lakes-CO-80545",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-05-27 10:30:11 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1337214/2193-Sand-Dollar-Cir-Longmont-CO-80503",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-05-14 12:02:48 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1335974/5751-Last-Pointe-Dr-Windsor-CO-80550",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-06-14 20:36:52 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1338799/3500-Carlton-Ave-D26-Fort-Collins-CO-80525",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-06-14 20:36:48 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1338342/3465-Lochwood-Dr-N62-Fort-Collins-CO-80525",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-06-14 20:36:20 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1336579/1704-Lake-Sherwood-Dr-Fort-Collins-CO-80525",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-05-14 01:34:01 +00:00"
+    },
+    {
+      "source_url": "https://b2b.getemail.io/the-group-company-6119612.html",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "thegroupinc.com",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2023-07-08 21:37:21 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1330182/846-Pleasure-Dr-Fort-Collins-CO-80524",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-05-05 20:14:37 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1335036/1630-Raven-Cir-B-Estes-Park-CO-80517",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-05-04 08:34:39 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1332635/300-Far-View-Dr-8-Estes-Park-CO-80517",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-05-04 08:34:19 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1335069/509-Riverside-Dr-Estes-Park-CO-80517",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-05-04 08:34:15 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1324464/5800-W-18th-St-Greeley-CO-80634",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-03-19 04:25:50 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1332981/4115-Crittenton-Ln-2-Wellington-CO-80549",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-05-04 08:32:42 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1334694/1960-Thundercloud-Dr-Windsor-CO-80550",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-05-04 07:32:09 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1334819/8481-Allenbrook-Dr-Windsor-CO-80550",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 58,
+      "is_dofollow": true,
+      "first_seen": "2025-05-04 07:30:43 +00:00"
+    },
+    {
+      "source_url": "https://www.hansenteamrealestate.com/",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "",
+      "domain_rating": 49,
+      "is_dofollow": true,
+      "first_seen": "2019-02-22 10:45:28 +00:00"
+    },
+    {
+      "source_url": "https://usajrealty.com/blogs/track-meet-market-vs-mosh-pit-market/",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "The Group, a real estate brokerage in Fort Collins",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2024-01-29 21:59:58 +00:00"
+    },
+    {
+      "source_url": "https://eatfeats.com/query.php?_table=contests&id=31529",
+      "target_url": "http://www.thegroupinc.com/blog/2016/05/things-to-do-in-fort-collins-over-memorial-day-weekend/",
+      "anchor_text": "http://www.thegroupinc.com/blog/2016/05/things-to-do-in-fort-collins-over-memorial-day-weekend/",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2026-04-15 06:40:39 +00:00"
+    },
+    {
+      "source_url": "https://eatfeats.com/query.php?_table=contests&id=33309",
+      "target_url": "http://www.thegroupinc.com/blog/2016/08/your-guide-to-the-2016-fort-collins-peach-festival-peach-recipes/",
+      "anchor_text": "http://www.thegroupinc.com/blog/2016/08/your-guide-to-the-2016-fort-collins-peach-festival-peach-recipes/",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2026-04-15 06:08:34 +00:00"
+    },
+    {
+      "source_url": "https://www.finnotes.org/entities/the-group-inc",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2023-10-16 08:48:57 +00:00"
+    },
+    {
+      "source_url": "https://farringtoninteriors.us/stagingprojects/swallow",
+      "target_url": "https://traciemilton.thegroupinc.com/",
+      "anchor_text": "Tracie Milton, The Group",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2023-10-30 21:51:11 +00:00"
+    },
+    {
+      "source_url": "https://farringtoninteriors.us/stagingprojects/loomis",
+      "target_url": "https://davemuth.thegroupinc.com/",
+      "anchor_text": "David T. Muth, The Group",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2023-10-30 21:49:21 +00:00"
+    },
+    {
+      "source_url": "https://farringtoninteriors.us/stagingprojects/layland",
+      "target_url": "https://traciemilton.thegroupinc.com/",
+      "anchor_text": "Tracie Milton, The Group",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2023-10-30 21:50:43 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346866/1633-Winter-Glow-Dr-Windsor-CO-80550",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-10-10 15:51:12 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1355143/1683-Sundown-Run-Dr-Windsor-CO-80550",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2026-02-26 03:35:18 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1344803/1585-Winter-Glow-Dr-Windsor-CO-80550",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-10-10 15:50:20 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1356176/235-High-Point-Dr-E102-Longmont-CO-80504",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2026-02-26 03:35:06 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1352268/1296-Weller-St-Timnath-CO-80547",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-12-26 10:37:19 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1345368/1877-Spring-Bloom-Dr-Windsor-CO-80550",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-09-15 19:54:58 +00:00"
+    },
+    {
+      "source_url": "https://oneidazbliss.pages.dev/bahsp-halloween-events-fort-worth-2024-jqcls/",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "www.thegroupinc.com",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-02-11 17:36:05 +00:00"
+    },
+    {
+      "source_url": "https://linxedition.com/real-estate-agents/connor-collins-297",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "thegroupinc.com",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2026-02-11 19:52:07 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1351878/5151-29th-St-1011-Greeley-CO-80634",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-12-05 02:55:44 +00:00"
+    },
+    {
+      "source_url": "https://enlyft.com/tech/company/thegroupinc.com",
+      "target_url": "http://thegroupinc.com/",
+      "anchor_text": "thegroupinc.com",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-02-07 05:28:25 +00:00"
+    },
+    {
+      "source_url": "https://www.dreamviewlandscaping.com/services-7",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "The Group Real Estate",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2023-10-07 12:35:01 +00:00"
+    },
+    {
+      "source_url": "https://www.rismedia.com/2018/04/28/brandon-wells-better-yesterday/",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "www.thegroupinc.com",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2022-12-10 13:46:36 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1349665/1617-Winter-Glow-Dr-Windsor-CO-80550",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-12-26 10:37:15 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1349571/5795-Gianna-Dr-Timnath-CO-80547",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-12-26 10:37:03 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1352458/3812-Beech-Tree-St-Wellington-CO-80549",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-12-26 10:36:55 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1347925/204-Maple-St-207-Fort-Collins-CO-80521",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-10-10 15:50:52 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346013/1937-McAllister-Ct-Fort-Collins-CO-80521",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-10-10 15:50:48 +00:00"
+    },
+    {
+      "source_url": "https://finnotes.org/entities/the-group-inc",
+      "target_url": "https://www.thegroupinc.com/",
+      "anchor_text": "Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2023-10-04 16:59:23 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1338564/1637-Winter-Glow-Dr-Windsor-CO-80550",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-02 10:03:35 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1339390/1647-Flourish-Dr-Windsor-CO-80550",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-06-14 20:44:44 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346026/6739-Morning-Song-Ct-Timnath-CO-80547",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-09-15 13:02:33 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346028/6719-Morning-Song-Ct-Timnath-CO-80547",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-09-15 13:01:40 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346023/6710-Morning-Song-Ct-Timnath-CO-80547",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-09-15 13:01:36 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346021/6720-Morning-Song-Ct-Timnath-CO-80547",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-09-15 13:01:32 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1342133/6619-Ridgeline-Dr-Timnath-CO-80547",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-04 11:19:08 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346025/6709-Morning-Song-Ct-Timnath-CO-80547",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-09-15 13:00:32 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1344948/1201-Chickadee-Ct-Fort-Collins-CO-80525",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-09-15 09:54:59 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1344948/1201-Chickadee-Ct-Fort-Collins-CO-80525",
+      "target_url": "https://1201chickadeect.thegroupinc.com/",
+      "anchor_text": "Visit Listing Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-09-15 09:54:59 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346888/413-Spinnaker-Ln-Fort-Collins-CO-80525",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-09-14 11:40:59 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346382/2172-Hackberry-Cir-Longmont-CO-80501",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-09-05 18:00:41 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346279/4312-Lemon-Grass-Dr-Johnstown-CO-80534",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-09-05 17:56:05 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346355/2128-Redhead-Dr-Johnstown-CO-80534",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-09-05 17:56:01 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346355/2128-Redhead-Dr-Johnstown-CO-80534",
+      "target_url": "https://thegroupinc.com/properties/2128-redhead-dr-johnstown-co-80534/628476825/",
+      "anchor_text": "Visit Listing Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-09-05 17:56:01 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1346549/2221-Chesapeake-Dr-Fort-Collins-CO-80524",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-09-05 17:54:43 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1342715/1600-Shenandoah-Cir-Fort-Collins-CO-80525",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-09-05 17:52:35 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1340992/10731-Blue-Jay-Ln-Northglenn-CO-80233",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-11 21:59:35 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1343248/2305-Turnberry-Rd-Fort-Collins-CO-80524",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-11 21:36:46 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1343280/515-Limber-Pine-Ct-Severance-CO-80550",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 06:15:31 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1344285/923-Barasingha-St-Severance-CO-80550",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 06:14:35 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1341317/1384-S-Growers-Dr-Milliken-CO-80543",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 06:09:25 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1328147/2387-W-Highway-34-Drake-CO-80515",
+      "target_url": "https://2387ushighway34ab.thegroupinc.com/",
+      "anchor_text": "Visit Listing Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 05:58:27 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1328147/2387-W-Highway-34-Drake-CO-80515",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 05:58:27 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1342656/6928-Summerwind-Ct-Timnath-CO-80547",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 05:14:05 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1343977/1610-Sunflower-Way-Johnstown-CO-80534",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 05:10:49 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1344165/312-21st-Ave-Ct-Greeley-CO-80631",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 04:37:20 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1341033/110-Meadow-Ln-Bellvue-CO-80512",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 04:30:04 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1342447/2516-Pine-Meadow-Dr-Estes-Park-CO-80517",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 04:07:45 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1342994/602-E-Michigan-Ave-Berthoud-CO-80513",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 04:01:50 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1344282/7344-Bay-Tree-St-Wellington-CO-80549",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 03:51:48 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1344172/450-Wapola-Ave-Loveland-CO-80537",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-10 03:44:50 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1340356/7018-Daryn-Ln-Fort-Collins-CO-80524",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-06-30 19:49:06 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1330831/6508-Jackpine-Dr-Bellvue-CO-80512",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-03-19 04:30:00 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1343935/419-Skysail-Ln-Fort-Collins-CO-80525",
+      "target_url": "https://419skysailln.thegroupinc.com/",
+      "anchor_text": "Visit Listing Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-07 05:14:55 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1343935/419-Skysail-Ln-Fort-Collins-CO-80525",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-07 05:14:55 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1327703/3650-Blossom-House-Ln-Fort-Collins-CO-80526",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-02-24 21:49:57 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1336985/4635-Hahns-Peak-Dr-104-Loveland-CO-80538",
+      "target_url": "https://4635hahnspeakdr104.thegroupinc.com/",
+      "anchor_text": "Visit Listing Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-05-14 11:58:38 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1336985/4635-Hahns-Peak-Dr-104-Loveland-CO-80538",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-05-14 11:58:38 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1339857/246-Nowata-Dr-Red-Feather-Lakes-CO-80545",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-06-16 14:54:19 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1339857/246-Nowata-Dr-Red-Feather-Lakes-CO-80545",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-06-16 14:54:19 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1343560/4716-Castle-Cir-Broomfield-CO-80023",
+      "target_url": "https://4716castlecir.thegroupinc.com/",
+      "anchor_text": "Visit Listing Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-03 19:58:37 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1343560/4716-Castle-Cir-Broomfield-CO-80023",
+      "target_url": "http://www.thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-03 19:58:37 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1344287/5908-Watson-Dr-Fort-Collins-CO-80528",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-02 20:00:59 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1339970/3509-Pike-Cir-N-Fort-Collins-CO-80525",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-02 10:37:38 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1343641/1719-Branching-Canopy-Dr-Windsor-CO-80550",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-02 10:03:30 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1341628/5868-Kilbeggin-Rd-Timnath-CO-80547",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-08-02 10:02:31 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1328187/1585-Winter-Glow-Dr-Windsor-CO-80550",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-01-29 16:39:03 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1337212/1670-Winter-Glow-Dr-Windsor-CO-80550",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-05-14 02:45:35 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1337868/6682-Crooked-Stick-Dr-Windsor-CO-80550",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-06-14 20:37:00 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1336908/7309-Didrickson-Ct-Fort-Collins-CO-80528",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-06-14 20:35:48 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1339280/2509-Alto-St-Fort-Lupton-CO-80621",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-06-14 20:03:53 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1336613/715-Yarnell-Ct-Fort-Collins-CO-80525",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-06-14 20:02:13 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1336304/1422-Matthew-Cir-B2-Estes-Park-CO-80517",
+      "target_url": "https://1422matthewcir2.thegroupinc.com/",
+      "anchor_text": "Visit Listing Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-06-14 20:38:36 +00:00"
+    },
+    {
+      "source_url": "https://www.coloproperty.com/listing/details/1336304/1422-Matthew-Cir-B2-Estes-Park-CO-80517",
+      "target_url": "https://thegroupinc.com/",
+      "anchor_text": "Visit Website",
+      "domain_rating": 43,
+      "is_dofollow": true,
+      "first_seen": "2025-06-14 20:38:36 +00:00"
+    }
+  ],
+  "referring_domains": [
+    {
+      "domain": "coloproperty.com",
+      "rank": 234,
+      "backlinks": 496,
+      "first_seen": "2023-09-20 23:39:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 441
+    },
+    {
+      "domain": "luxuryportfolio.com",
+      "rank": 218,
+      "backlinks": 8,
+      "first_seen": "2021-05-18 15:31:52 +00:00",
+      "dofollow": 0,
+      "referring_pages": 8
+    },
+    {
+      "domain": "v6d.com",
+      "rank": 183,
+      "backlinks": 194,
+      "first_seen": "2023-07-25 23:03:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 194
+    },
+    {
+      "domain": "bornandraisedfoco.com",
+      "rank": 180,
+      "backlinks": 770,
+      "first_seen": "2024-05-05 08:48:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 260
+    },
+    {
+      "domain": "leadingre.com",
+      "rank": 177,
+      "backlinks": 712,
+      "first_seen": "2024-02-22 18:59:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 712
+    },
+    {
+      "domain": "intelius.com",
+      "rank": 153,
+      "backlinks": 316,
+      "first_seen": "2024-08-22 09:14:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 316
+    },
+    {
+      "domain": "emilybraziljones.com",
+      "rank": 135,
+      "backlinks": 227,
+      "first_seen": "2024-01-17 09:03:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 175
+    },
+    {
+      "domain": "nestfully.com",
+      "rank": 126,
+      "backlinks": 421,
+      "first_seen": "2025-03-06 00:26:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 421
+    },
+    {
+      "domain": "milton-sparksteam.com",
+      "rank": 122,
+      "backlinks": 96,
+      "first_seen": "2025-10-19 14:13:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 96
+    },
+    {
+      "domain": "hansenteamrealestate.com",
+      "rank": 119,
+      "backlinks": 18,
+      "first_seen": "2019-02-22 10:06:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 17
+    },
+    {
+      "domain": "englishaccentguy.com",
+      "rank": 108,
+      "backlinks": 62,
+      "first_seen": "2025-08-02 08:20:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 62
+    },
+    {
+      "domain": "nocospeaks.com",
+      "rank": 99,
+      "backlinks": 1,
+      "first_seen": "2024-02-27 10:09:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "christieduggar.com",
+      "rank": 93,
+      "backlinks": 4,
+      "first_seen": "2019-01-24 02:01:04 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4
+    },
+    {
+      "domain": "sledgerealestate.com",
+      "rank": 88,
+      "backlinks": 119,
+      "first_seen": "2024-01-28 15:13:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 89
+    },
+    {
+      "domain": "leonecoryell.com",
+      "rank": 83,
+      "backlinks": 47,
+      "first_seen": "2023-08-05 20:43:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 47
+    },
+    {
+      "domain": "zillow.com",
+      "rank": 80,
+      "backlinks": 1,
+      "first_seen": "2026-03-04 17:44:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "cience.com",
+      "rank": 80,
+      "backlinks": 29,
+      "first_seen": "2024-10-12 03:09:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 29
+    },
+    {
+      "domain": "getpracticehelp.com",
+      "rank": 79,
+      "backlinks": 2,
+      "first_seen": "2026-05-02 16:57:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "corepath.com",
+      "rank": 79,
+      "backlinks": 2,
+      "first_seen": "2025-01-01 10:46:19 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "thegalbateteam.com",
+      "rank": 77,
+      "backlinks": 28,
+      "first_seen": "2023-03-09 05:21:04 +00:00",
+      "dofollow": 0,
+      "referring_pages": 28
+    },
+    {
+      "domain": "brentduggar.com",
+      "rank": 76,
+      "backlinks": 1,
+      "first_seen": "2024-06-22 11:54:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "realtrends.com",
+      "rank": 76,
+      "backlinks": 21,
+      "first_seen": "2022-09-30 02:01:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 21
+    },
+    {
+      "domain": "kathybeck.com",
+      "rank": 76,
+      "backlinks": 3,
+      "first_seen": "2020-03-28 09:44:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "fortcollinschamber.com",
+      "rank": 67,
+      "backlinks": 17,
+      "first_seen": "2024-04-17 21:54:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 15
+    },
+    {
+      "domain": "fortcollinshabitat.org",
+      "rank": 64,
+      "backlinks": 2,
+      "first_seen": "2025-11-20 13:06:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "houseloan.com",
+      "rank": 64,
+      "backlinks": 10,
+      "first_seen": "2025-07-06 19:57:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 10
+    },
+    {
+      "domain": "theorg.com",
+      "rank": 52,
+      "backlinks": 7,
+      "first_seen": "2024-08-12 04:01:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 7
+    },
+    {
+      "domain": "calbuiltllc.com",
+      "rank": 51,
+      "backlinks": 1,
+      "first_seen": "2026-01-18 09:47:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "themommychapter.com",
+      "rank": 51,
+      "backlinks": 2,
+      "first_seen": "2025-09-04 12:08:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "truv.com",
+      "rank": 51,
+      "backlinks": 1,
+      "first_seen": "2023-09-06 23:22:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "leadville.co",
+      "rank": 51,
+      "backlinks": 1,
+      "first_seen": "2021-12-06 09:43:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "n2n.org",
+      "rank": 50,
+      "backlinks": 12,
+      "first_seen": "2023-10-03 23:38:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 12
+    },
+    {
+      "domain": "onfortcollins.com",
+      "rank": 47,
+      "backlinks": 10,
+      "first_seen": "2024-06-18 13:24:48 +00:00",
+      "dofollow": 0,
+      "referring_pages": 10
+    },
+    {
+      "domain": "highcraft.net",
+      "rank": 46,
+      "backlinks": 15,
+      "first_seen": "2021-06-20 21:49:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 9
+    },
+    {
+      "domain": "impactdf.org",
+      "rank": 45,
+      "backlinks": 6,
+      "first_seen": "2025-05-15 11:21:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 6
+    },
+    {
+      "domain": "marnielong.com",
+      "rank": 43,
+      "backlinks": 16,
+      "first_seen": "2023-10-21 13:35:23 +00:00",
+      "dofollow": 0,
+      "referring_pages": 12
+    },
+    {
+      "domain": "lovelandpolitics.com",
+      "rank": 43,
+      "backlinks": 25,
+      "first_seen": "2019-02-20 17:30:00 +00:00",
+      "dofollow": 0,
+      "referring_pages": 17
+    },
+    {
+      "domain": "farringtoninteriors.us",
+      "rank": 40,
+      "backlinks": 3,
+      "first_seen": "2023-10-30 21:49:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "remingtonflats.com",
+      "rank": 40,
+      "backlinks": 16,
+      "first_seen": "2023-10-11 15:59:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 15
+    },
+    {
+      "domain": "loveland.org",
+      "rank": 39,
+      "backlinks": 3,
+      "first_seen": "2020-07-12 20:24:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "vyllahome.com",
+      "rank": 37,
+      "backlinks": 51,
+      "first_seen": "2025-05-06 09:29:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 51
+    },
+    {
+      "domain": "berthoudharvest.com",
+      "rank": 35,
+      "backlinks": 10,
+      "first_seen": "2024-11-26 18:39:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "meagan-griesel.com",
+      "rank": 34,
+      "backlinks": 10,
+      "first_seen": "2024-06-08 21:33:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 10
+    },
+    {
+      "domain": "groupfinancial.partners",
+      "rank": 32,
+      "backlinks": 7,
+      "first_seen": "2024-09-25 00:59:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 7
+    },
+    {
+      "domain": "fcbr.org",
+      "rank": 31,
+      "backlinks": 36,
+      "first_seen": "2025-10-23 00:42:26 +00:00",
+      "dofollow": 0,
+      "referring_pages": 26
+    },
+    {
+      "domain": "lbaronline.com",
+      "rank": 31,
+      "backlinks": 16,
+      "first_seen": "2020-08-12 18:39:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 11
+    },
+    {
+      "domain": "hayvendesign.com",
+      "rank": 29,
+      "backlinks": 4,
+      "first_seen": "2023-12-22 05:51:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4
+    },
+    {
+      "domain": "bhhs.com",
+      "rank": 28,
+      "backlinks": 27,
+      "first_seen": "2025-04-01 12:31:12 +00:00",
+      "dofollow": 0,
+      "referring_pages": 27
+    },
+    {
+      "domain": "valentinesdayinloveland.com",
+      "rank": 27,
+      "backlinks": 48,
+      "first_seen": "2021-12-06 05:07:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 24
+    },
+    {
+      "domain": "local-real-estate.com",
+      "rank": 27,
+      "backlinks": 5,
+      "first_seen": "2019-05-23 15:33:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5
+    },
+    {
+      "domain": "number1homeagent.com",
+      "rank": 24,
+      "backlinks": 4,
+      "first_seen": "2025-04-20 19:40:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4
+    },
+    {
+      "domain": "bloodhoundrealty.com",
+      "rank": 24,
+      "backlinks": 7,
+      "first_seen": "2024-04-03 11:20:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 7
+    },
+    {
+      "domain": "messageceo.com",
+      "rank": 23,
+      "backlinks": 1,
+      "first_seen": "2026-05-01 16:14:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "eatfeats.com",
+      "rank": 23,
+      "backlinks": 2,
+      "first_seen": "2026-04-15 06:08:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "boundlessestates.com",
+      "rank": 23,
+      "backlinks": 2,
+      "first_seen": "2025-11-06 01:36:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "julitazpiper.pages.dev",
+      "rank": 23,
+      "backlinks": 3,
+      "first_seen": "2025-09-29 19:23:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "sandellandscaping.com",
+      "rank": 23,
+      "backlinks": 3,
+      "first_seen": "2024-11-16 12:26:52 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "lifthomedesign.ca",
+      "rank": 23,
+      "backlinks": 5,
+      "first_seen": "2024-04-22 05:14:37 +00:00",
+      "dofollow": 0,
+      "referring_pages": 5
+    },
+    {
+      "domain": "finnotes.org",
+      "rank": 23,
+      "backlinks": 2,
+      "first_seen": "2023-10-04 16:59:23 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "sunraynatural.farm",
+      "rank": 23,
+      "backlinks": 1,
+      "first_seen": "2022-01-04 22:05:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "leadingreheroes.com",
+      "rank": 23,
+      "backlinks": 1,
+      "first_seen": "2021-04-17 16:59:02 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "usmilitaryonthemove.com",
+      "rank": 23,
+      "backlinks": 1,
+      "first_seen": "2019-01-22 21:00:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "steamboatresortproperty.com",
+      "rank": 12,
+      "backlinks": 2,
+      "first_seen": "2022-09-15 11:42:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "thearmstronghotel.com",
+      "rank": 10,
+      "backlinks": 4,
+      "first_seen": "2025-10-15 03:06:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4
+    },
+    {
+      "domain": "pivotstructures.com",
+      "rank": 10,
+      "backlinks": 3,
+      "first_seen": "2023-10-11 20:26:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "sycamoreequity.com",
+      "rank": 9,
+      "backlinks": 1,
+      "first_seen": "2026-02-20 08:17:23 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "ultimatemembership.pro",
+      "rank": 7,
+      "backlinks": 1,
+      "first_seen": "2026-02-18 19:45:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "imagetou.com",
+      "rank": 7,
+      "backlinks": 2,
+      "first_seen": "2026-01-28 06:57:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "mbicorp.ca",
+      "rank": 7,
+      "backlinks": 1,
+      "first_seen": "2025-10-23 01:55:44 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "ceoweekly.com",
+      "rank": 7,
+      "backlinks": 2,
+      "first_seen": "2025-09-23 23:51:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "zabasearch.com",
+      "rank": 7,
+      "backlinks": 16,
+      "first_seen": "2025-06-26 20:51:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 16
+    },
+    {
+      "domain": "morphehomestaginganddesign.com",
+      "rank": 7,
+      "backlinks": 2,
+      "first_seen": "2024-10-04 13:10:01 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "feodorazkenna.pages.dev",
+      "rank": 7,
+      "backlinks": 2,
+      "first_seen": "2024-09-25 14:31:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "nocostyle.com",
+      "rank": 7,
+      "backlinks": 5,
+      "first_seen": "2024-06-02 01:49:30 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "locksmith-greeley-co.com",
+      "rank": 7,
+      "backlinks": 1,
+      "first_seen": "2024-02-27 12:43:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "acegilletts.com",
+      "rank": 7,
+      "backlinks": 1,
+      "first_seen": "2023-12-02 15:16:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "getemail.io",
+      "rank": 7,
+      "backlinks": 1,
+      "first_seen": "2023-07-08 21:37:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "comparable-companies.com",
+      "rank": 7,
+      "backlinks": 1,
+      "first_seen": "2023-03-22 17:28:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "realestatethings.net",
+      "rank": 7,
+      "backlinks": 1,
+      "first_seen": "2022-02-11 23:50:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "rv-boondocking-the-good-life.com",
+      "rank": 7,
+      "backlinks": 5,
+      "first_seen": "2021-09-09 18:30:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "northerncoloradolandscaping.com",
+      "rank": 7,
+      "backlinks": 1,
+      "first_seen": "2020-10-27 03:30:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "grandtrunk.com",
+      "rank": 2,
+      "backlinks": 3,
+      "first_seen": "2026-02-02 20:29:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "landingspy.com",
+      "rank": 2,
+      "backlinks": 3,
+      "first_seen": "2021-09-05 02:15:21 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "datanyze.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-05-05 06:00:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "generalknowledge.net.in",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-05-01 05:10:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "marketingexperts.click",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-29 04:31:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "housingwire.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-27 16:44:48 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "scotthomeinspection.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-27 11:13:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "businesslistingportal.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-04-27 10:41:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "daolink.mom",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-23 00:35:11 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "lockaway-storage.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-20 12:51:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "turningpnt.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-17 00:09:36 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "bestadultdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-15 11:53:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "freeworlddirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-15 02:14:29 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "olivare.com.ar",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-14 11:52:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "worldbusinesspromote.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2026-04-11 01:25:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4
+    },
+    {
+      "domain": "foodyas.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-04-09 22:23:02 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "humanitix.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2026-03-25 02:52:25 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4
+    },
+    {
+      "domain": "seomuda.id",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-22 23:02:16 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "enterprisedirectoryhub.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-03-22 05:28:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "shoplogist.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-20 10:58:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "constitute.net",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-20 09:58:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "ycm.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-20 03:21:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "compworth.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-19 16:54:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "phinin.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-19 10:30:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "campbowiecleaners.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-19 01:52:35 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "primecompanydirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-03-15 12:15:09 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "allistingdirectory.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-03-10 10:53:48 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "xedulichdaklak.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-06 13:07:54 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "alljobs.info",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-03-04 23:31:52 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "mylolowcountry.com",
+      "rank": 0,
+      "backlinks": 34,
+      "first_seen": "2026-03-03 11:38:14 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "govserv.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-28 06:21:13 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "searchalldomains.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-28 01:49:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "agreatertown.com",
+      "rank": 0,
+      "backlinks": 9,
+      "first_seen": "2026-02-26 07:03:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "agromania.edu.pe",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-25 15:59:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "prospeo.io",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-24 05:26:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "estateagentdb.com",
+      "rank": 0,
+      "backlinks": 11,
+      "first_seen": "2026-02-24 04:06:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 11
+    },
+    {
+      "domain": "wallpapers.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-23 21:18:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "onemilliondomains.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-22 18:39:28 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "sisfoperch.edu.pe",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-21 01:20:19 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "urls-shortener.eu",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-02-19 08:39:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "musweb.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-15 07:41:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "85.121.5.26",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-15 04:14:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "jake.eu",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-02-13 11:25:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "exactseek.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-13 04:15:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "linxedition.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-11 19:52:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "officialwebsites.in",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-07 12:21:53 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "booksreadr.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-04 05:29:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "exodusmoving.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-04 02:01:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "anchorurl.cloud",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-02-01 20:49:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "runningwebsites.net",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-31 12:09:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "milehighcre.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-30 20:19:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "ejoinme.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-29 05:12:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "screenshots.wiki",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-01-28 11:22:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "ready.pro",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2026-01-27 09:34:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "globalecommerce.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-26 10:27:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "way2check.cv",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-26 06:02:09 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "buzzshrink.website",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-24 20:29:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "juridipedia.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-23 20:09:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "shortenurls.eu",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-22 18:34:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "million.pro",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-22 18:17:24 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "gritdaily.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-22 02:17:04 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "idcrawl.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-21 19:08:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "concejomunicipaldechinu.gov.co",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-21 08:10:19 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "theresiabertram.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-17 11:17:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "advertiseyourdomain.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-17 10:15:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "johnniewalkerrv.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-16 21:41:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "northfortynews.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-15 00:57:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "nomoz.org",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2026-01-07 11:05:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "richardeverson.net",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-07 06:20:59 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "websiterace.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-03 00:23:33 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "stylesbeyondstereotypes.org",
+      "rank": 0,
+      "backlinks": 6,
+      "first_seen": "2026-01-02 13:38:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "clay.earth",
+      "rank": 0,
+      "backlinks": 8,
+      "first_seen": "2026-01-02 12:39:27 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "fastrankingdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2026-01-01 02:50:10 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "getwebsiteworth.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-12-26 20:54:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "latoriawoody.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-26 12:58:38 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "seodirectorypro.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-12-21 18:27:51 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "medium.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-20 11:31:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "bizwest.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-19 21:59:18 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "jackieevensen.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-12-19 10:58:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "redeemyourground.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-18 01:03:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "fortcollinsfootball.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-09 00:07:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "skylinkseo.site",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-12-07 00:01:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "wikisort.org",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-04 08:39:22 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "nocohba.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-12-03 10:07:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "allaboutseo.net",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-02 02:32:05 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "w3bdirectory.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-12-01 18:10:02 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "leadnear.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-11-29 12:11:58 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "accio.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-11-28 18:52:43 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "contactout.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-28 14:42:48 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "backlink.asia",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-28 13:23:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "kreativitet-skoenhet.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-11-25 23:38:41 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "beverleylerner.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-25 15:18:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "marleahzdion.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-23 15:06:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "chubby-rd2u.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-23 02:31:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "3keyproperties.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-22 00:46:57 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "leadsnear.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-11-20 19:02:42 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "1700steamboat.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-11-20 04:07:22 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "krysflamiano.blogspot.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-11-20 00:11:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "marcelinoberger.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-19 20:05:20 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "supergirlpunyastory.blogspot.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-11-19 00:28:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "m10weldnutgosaika.blogspot.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-11-18 17:46:45 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "quero.party",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-11-18 16:47:34 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "yuj-fgqr7.blogspot.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-11-18 10:45:55 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "zappenin.com",
+      "rank": 0,
+      "backlinks": 5,
+      "first_seen": "2025-11-18 06:02:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 3
+    },
+    {
+      "domain": "mydomaininfo.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-16 00:10:50 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "allreviews.in",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-15 12:44:39 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "topwholesomeimages.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-14 18:20:17 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "grokipedia.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-14 17:56:07 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "homewarrantycoloradospringsijitsugi.blogspot.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-11-13 14:29:56 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "teshacortes.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-13 04:04:06 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "jamesrosenstengeli.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-12 18:23:08 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "tting-diary.blogspot.com",
+      "rank": 0,
+      "backlinks": 4,
+      "first_seen": "2025-11-10 12:45:46 +00:00",
+      "dofollow": 0,
+      "referring_pages": 4
+    },
+    {
+      "domain": "writtenforwriting.blogspot.com",
+      "rank": 0,
+      "backlinks": 2,
+      "first_seen": "2025-11-09 16:37:40 +00:00",
+      "dofollow": 0,
+      "referring_pages": 2
+    },
+    {
+      "domain": "beaverregroup.com",
+      "rank": 0,
+      "backlinks": 3,
+      "first_seen": "2025-11-08 15:48:37 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "virtuance.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-07 02:04:47 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "kassiezamandy.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-06 20:06:49 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "robertecorona.pages.dev",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-06 19:01:15 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "simplehumanbutterflytrashcanthisinsta.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-06 16:29:19 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    },
+    {
+      "domain": "boquwahegopisolani.blogspot.com",
+      "rank": 0,
+      "backlinks": 1,
+      "first_seen": "2025-11-06 14:51:03 +00:00",
+      "dofollow": 0,
+      "referring_pages": 1
+    }
+  ],
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-05-09T09:13:47.727Z"
+}

@@ -1,0 +1,2972 @@
+{
+  "landingPages": [
+    {
+      "landingPage": "/",
+      "sessions": 5313,
+      "engagedSessions": 2340,
+      "bounceRate": 0.55957086391869,
+      "averageSessionDuration": 604.873405807077,
+      "conversions": 350,
+      "totalUsers": 4789,
+      "newUsers": 4310
+    },
+    {
+      "landingPage": "/property-search/results",
+      "sessions": 3975,
+      "engagedSessions": 2445,
+      "bounceRate": 0.3849056603773585,
+      "averageSessionDuration": 880.2455261398742,
+      "conversions": 1485,
+      "totalUsers": 3170,
+      "newUsers": 2755
+    },
+    {
+      "landingPage": "/fort-collins-homes-for-sale/farm-house-construction",
+      "sessions": 2168,
+      "engagedSessions": 1644,
+      "bounceRate": 0.24169741697416974,
+      "averageSessionDuration": 403.4951421909594,
+      "conversions": 235,
+      "totalUsers": 2097,
+      "newUsers": 2019
+    },
+    {
+      "landingPage": "(not set)",
+      "sessions": 1532,
+      "engagedSessions": 8,
+      "bounceRate": 0.9947780678851175,
+      "averageSessionDuration": 5.155047246736292,
+      "conversions": 806,
+      "totalUsers": 2336,
+      "newUsers": 1
+    },
+    {
+      "landingPage": "/properties",
+      "sessions": 1279,
+      "engagedSessions": 279,
+      "bounceRate": 0.7818608287724785,
+      "averageSessionDuration": 273.29984939014855,
+      "conversions": 40,
+      "totalUsers": 1259,
+      "newUsers": 1209
+    },
+    {
+      "landingPage": "/property-search/property-tracker",
+      "sessions": 646,
+      "engagedSessions": 193,
+      "bounceRate": 0.7012383900928792,
+      "averageSessionDuration": 495.1421103916408,
+      "conversions": 14,
+      "totalUsers": 597,
+      "newUsers": 502
+    },
+    {
+      "landingPage": "/property-search/detail/60/1041634/12680-county-road-28-platteville-co-80651",
+      "sessions": 609,
+      "engagedSessions": 307,
+      "bounceRate": 0.49589490968801314,
+      "averageSessionDuration": 390.6526869852217,
+      "conversions": 17,
+      "totalUsers": 551,
+      "newUsers": 350
+    },
+    {
+      "landingPage": "/blog",
+      "sessions": 445,
+      "engagedSessions": 20,
+      "bounceRate": 0.9550561797752809,
+      "averageSessionDuration": 172.6619302269663,
+      "conversions": 0,
+      "totalUsers": 435,
+      "newUsers": 427
+    },
+    {
+      "landingPage": "/property-search/detail/60/1049849/11021-n-county-road-3-wellington-co-80549",
+      "sessions": 438,
+      "engagedSessions": 237,
+      "bounceRate": 0.4589041095890411,
+      "averageSessionDuration": 427.99402949315066,
+      "conversions": 5,
+      "totalUsers": 381,
+      "newUsers": 154
+    },
+    {
+      "landingPage": "/property-search/detail/60/1042775/940-b-st-greeley-co-80631",
+      "sessions": 436,
+      "engagedSessions": 203,
+      "bounceRate": 0.5344036697247706,
+      "averageSessionDuration": 335.9980745022936,
+      "conversions": 9,
+      "totalUsers": 372,
+      "newUsers": 257
+    },
+    {
+      "landingPage": "/property-search/detail/60/1051177/5215-e-county-road-16-loveland-co-80537",
+      "sessions": 415,
+      "engagedSessions": 235,
+      "bounceRate": 0.43373493975903615,
+      "averageSessionDuration": 768.3268071373494,
+      "conversions": 10,
+      "totalUsers": 323,
+      "newUsers": 117
+    },
+    {
+      "landingPage": "",
+      "sessions": 384,
+      "engagedSessions": 0,
+      "bounceRate": 1,
+      "averageSessionDuration": 59.63477935156251,
+      "conversions": 22,
+      "totalUsers": 381,
+      "newUsers": 0
+    },
+    {
+      "landingPage": "/property-search/detail/60/1056399/13013-county-road-86-pierce-co-80650",
+      "sessions": 370,
+      "engagedSessions": 190,
+      "bounceRate": 0.4864864864864865,
+      "averageSessionDuration": 513.2299402135136,
+      "conversions": 7,
+      "totalUsers": 315,
+      "newUsers": 161
+    },
+    {
+      "landingPage": "/property-search/detail/60/1049785/37648-county-road-49-eaton-co-80615",
+      "sessions": 339,
+      "engagedSessions": 212,
+      "bounceRate": 0.3746312684365782,
+      "averageSessionDuration": 605.6636752890855,
+      "conversions": 10,
+      "totalUsers": 284,
+      "newUsers": 119
+    },
+    {
+      "landingPage": "/about",
+      "sessions": 337,
+      "engagedSessions": 128,
+      "bounceRate": 0.6201780415430267,
+      "averageSessionDuration": 678.1426453649851,
+      "conversions": 1,
+      "totalUsers": 295,
+      "newUsers": 284
+    },
+    {
+      "landingPage": "/property-search/detail/60/2151681/20208-county-road-22-hudson-co-80642",
+      "sessions": 313,
+      "engagedSessions": 146,
+      "bounceRate": 0.5335463258785943,
+      "averageSessionDuration": 615.1409255878594,
+      "conversions": 7,
+      "totalUsers": 268,
+      "newUsers": 144
+    },
+    {
+      "landingPage": "/events",
+      "sessions": 277,
+      "engagedSessions": 109,
+      "bounceRate": 0.6064981949458483,
+      "averageSessionDuration": 871.9467870794224,
+      "conversions": 0,
+      "totalUsers": 228,
+      "newUsers": 203
+    },
+    {
+      "landingPage": "/greeley-homes-for-sale/2-plus-acres",
+      "sessions": 276,
+      "engagedSessions": 237,
+      "bounceRate": 0.14130434782608695,
+      "averageSessionDuration": 563.9980254239131,
+      "conversions": 42,
+      "totalUsers": 253,
+      "newUsers": 235
+    },
+    {
+      "landingPage": "/property-search/detail/60/1046015/23760-county-road-70-eaton-co-80615",
+      "sessions": 241,
+      "engagedSessions": 136,
+      "bounceRate": 0.43568464730290457,
+      "averageSessionDuration": 304.7392491203319,
+      "conversions": 4,
+      "totalUsers": 223,
+      "newUsers": 113
+    },
+    {
+      "landingPage": "/blog/celebrate-easter-2026-at-our-family-easter-egg-hunt-in-fossil-creek-park",
+      "sessions": 204,
+      "engagedSessions": 126,
+      "bounceRate": 0.38235294117647056,
+      "averageSessionDuration": 855.6491161274511,
+      "conversions": 5,
+      "totalUsers": 179,
+      "newUsers": 160
+    },
+    {
+      "landingPage": "/property-search/detail/60/1040134/11131-lookout-rd-longmont-co-80504",
+      "sessions": 200,
+      "engagedSessions": 75,
+      "bounceRate": 0.625,
+      "averageSessionDuration": 152.776341895,
+      "conversions": 1,
+      "totalUsers": 174,
+      "newUsers": 98
+    },
+    {
+      "landingPage": "/berthoud-homes-for-sale/heron-lakes-tpc-colorado",
+      "sessions": 194,
+      "engagedSessions": 151,
+      "bounceRate": 0.22164948453608246,
+      "averageSessionDuration": 1102.9398080927836,
+      "conversions": 18,
+      "totalUsers": 180,
+      "newUsers": 174
+    },
+    {
+      "landingPage": "/property-search/detail/60/1053547/613-colt-dr-loveland-co-80537",
+      "sessions": 188,
+      "engagedSessions": 122,
+      "bounceRate": 0.35106382978723405,
+      "averageSessionDuration": 484.8599934308511,
+      "conversions": 2,
+      "totalUsers": 167,
+      "newUsers": 66
+    },
+    {
+      "landingPage": "/property-search/detail/60/1051033/10452-sunlight-dr-lafayette-co-80026",
+      "sessions": 185,
+      "engagedSessions": 87,
+      "bounceRate": 0.5297297297297298,
+      "averageSessionDuration": 380.1855098108108,
+      "conversions": 5,
+      "totalUsers": 156,
+      "newUsers": 87
+    },
+    {
+      "landingPage": "/agents/rob-kittle",
+      "sessions": 183,
+      "engagedSessions": 134,
+      "bounceRate": 0.2677595628415301,
+      "averageSessionDuration": 975.2942421366121,
+      "conversions": 25,
+      "totalUsers": 160,
+      "newUsers": 146
+    },
+    {
+      "landingPage": "/property-search/detail/60/1045123/10817-n-county-road-3-wellington-co-80549",
+      "sessions": 179,
+      "engagedSessions": 110,
+      "bounceRate": 0.3854748603351955,
+      "averageSessionDuration": 647.062787547486,
+      "conversions": 6,
+      "totalUsers": 156,
+      "newUsers": 62
+    },
+    {
+      "landingPage": "/property-search/detail/60/1048894/2031-us-highway-36-estes-park-co-80517",
+      "sessions": 178,
+      "engagedSessions": 87,
+      "bounceRate": 0.5112359550561798,
+      "averageSessionDuration": 216.66400410112357,
+      "conversions": 1,
+      "totalUsers": 167,
+      "newUsers": 87
+    },
+    {
+      "landingPage": "/property-search/detail/60/1056516/20351-county-road-78-eaton-co-80615",
+      "sessions": 178,
+      "engagedSessions": 106,
+      "bounceRate": 0.4044943820224719,
+      "averageSessionDuration": 944.5493708202248,
+      "conversions": 4,
+      "totalUsers": 169,
+      "newUsers": 61
+    },
+    {
+      "landingPage": "/property-search/detail/60/1051932/612-w-county-road-74-wellington-co-80549",
+      "sessions": 169,
+      "engagedSessions": 101,
+      "bounceRate": 0.40236686390532544,
+      "averageSessionDuration": 386.25431023668636,
+      "conversions": 3,
+      "totalUsers": 143,
+      "newUsers": 57
+    },
+    {
+      "landingPage": "/property-search/detail/60/1056869/320-del-monte-rd-berthoud-co-80513",
+      "sessions": 169,
+      "engagedSessions": 90,
+      "bounceRate": 0.46745562130177515,
+      "averageSessionDuration": 380.20306487573964,
+      "conversions": 2,
+      "totalUsers": 159,
+      "newUsers": 65
+    },
+    {
+      "landingPage": "/fort-collins-homes-for-sale/under-200000",
+      "sessions": 163,
+      "engagedSessions": 140,
+      "bounceRate": 0.1411042944785276,
+      "averageSessionDuration": 587.5552897055215,
+      "conversions": 26,
+      "totalUsers": 157,
+      "newUsers": 152
+    },
+    {
+      "landingPage": "/property-search/detail/60/1049363/6349-ashcroft-rd-greeley-co-80634",
+      "sessions": 162,
+      "engagedSessions": 100,
+      "bounceRate": 0.38271604938271603,
+      "averageSessionDuration": 678.6116859074074,
+      "conversions": 2,
+      "totalUsers": 140,
+      "newUsers": 44
+    },
+    {
+      "landingPage": "/property-search/detail/60/1051562/29-rock-canyon-rd-drake-co-80515",
+      "sessions": 159,
+      "engagedSessions": 74,
+      "bounceRate": 0.5345911949685535,
+      "averageSessionDuration": 580.414331836478,
+      "conversions": 2,
+      "totalUsers": 139,
+      "newUsers": 50
+    },
+    {
+      "landingPage": "/property-search/detail/60/1052136/1717-21st-ave-greeley-co-80631",
+      "sessions": 159,
+      "engagedSessions": 98,
+      "bounceRate": 0.3836477987421384,
+      "averageSessionDuration": 267.5276473207547,
+      "conversions": 3,
+      "totalUsers": 155,
+      "newUsers": 77
+    },
+    {
+      "landingPage": "/property-search/detail/60/1052225/140-loveland-heights-ln-drake-co-80515",
+      "sessions": 159,
+      "engagedSessions": 91,
+      "bounceRate": 0.4276729559748428,
+      "averageSessionDuration": 337.8171842578617,
+      "conversions": 1,
+      "totalUsers": 149,
+      "newUsers": 94
+    },
+    {
+      "landingPage": "/property-search/detail/60/1960274/2205-james-park-trl-loveland-co-80537",
+      "sessions": 159,
+      "engagedSessions": 92,
+      "bounceRate": 0.42138364779874216,
+      "averageSessionDuration": 402.56901088050313,
+      "conversions": 1,
+      "totalUsers": 142,
+      "newUsers": 58
+    },
+    {
+      "landingPage": "/property-search/detail/60/1049790/11499-county-road-405-platteville-co-80651",
+      "sessions": 151,
+      "engagedSessions": 98,
+      "bounceRate": 0.3509933774834437,
+      "averageSessionDuration": 1014.6010273907284,
+      "conversions": 4,
+      "totalUsers": 131,
+      "newUsers": 33
+    },
+    {
+      "landingPage": "/property-search/detail/60/1053524/3324-fox-crossing-pl-loveland-co-80537",
+      "sessions": 149,
+      "engagedSessions": 73,
+      "bounceRate": 0.5100671140939598,
+      "averageSessionDuration": 608.8157951006712,
+      "conversions": 1,
+      "totalUsers": 130,
+      "newUsers": 58
+    },
+    {
+      "landingPage": "/property-search/detail/60/1049882/20633-county-road-72-eaton-co-80615",
+      "sessions": 146,
+      "engagedSessions": 85,
+      "bounceRate": 0.4178082191780822,
+      "averageSessionDuration": 343.7717144178082,
+      "conversions": 2,
+      "totalUsers": 135,
+      "newUsers": 88
+    },
+    {
+      "landingPage": "/property-search/detail/60/1052328/3608-w-county-road-8-berthoud-co-80513",
+      "sessions": 142,
+      "engagedSessions": 90,
+      "bounceRate": 0.36619718309859156,
+      "averageSessionDuration": 547.5130427746478,
+      "conversions": 2,
+      "totalUsers": 127,
+      "newUsers": 50
+    },
+    {
+      "landingPage": "/waterfront-properties/waterfront-properties-in-larimer-county",
+      "sessions": 141,
+      "engagedSessions": 125,
+      "bounceRate": 0.11347517730496454,
+      "averageSessionDuration": 863.906543929078,
+      "conversions": 13,
+      "totalUsers": 112,
+      "newUsers": 110
+    },
+    {
+      "landingPage": "/property-search/detail/60/1057066/14407-county-road-18-12-fort-lupton-co-80621",
+      "sessions": 139,
+      "engagedSessions": 81,
+      "bounceRate": 0.4172661870503597,
+      "averageSessionDuration": 530.8634254316547,
+      "conversions": 0,
+      "totalUsers": 133,
+      "newUsers": 49
+    },
+    {
+      "landingPage": "/fort-lupton-homes-for-sale/1-plus-acres",
+      "sessions": 138,
+      "engagedSessions": 114,
+      "bounceRate": 0.17391304347826086,
+      "averageSessionDuration": 445.514419557971,
+      "conversions": 20,
+      "totalUsers": 129,
+      "newUsers": 125
+    },
+    {
+      "landingPage": "/about/the-kittle-team",
+      "sessions": 133,
+      "engagedSessions": 97,
+      "bounceRate": 0.2706766917293233,
+      "averageSessionDuration": 930.036867669173,
+      "conversions": 2,
+      "totalUsers": 114,
+      "newUsers": 79
+    },
+    {
+      "landingPage": "/horse-properties/horse-properties-in-fort-collins",
+      "sessions": 129,
+      "engagedSessions": 92,
+      "bounceRate": 0.2868217054263566,
+      "averageSessionDuration": 165.10563354263567,
+      "conversions": 8,
+      "totalUsers": 124,
+      "newUsers": 122
+    },
+    {
+      "landingPage": "/property-search/detail/60/1057153/9731-county-road-70-windsor-co-80550",
+      "sessions": 125,
+      "engagedSessions": 64,
+      "bounceRate": 0.488,
+      "averageSessionDuration": 975.9312465520001,
+      "conversions": 2,
+      "totalUsers": 110,
+      "newUsers": 35
+    },
+    {
+      "landingPage": "/property-search/detail/60/1040769/37797-w-highway-14-bellvue-co-80512",
+      "sessions": 119,
+      "engagedSessions": 72,
+      "bounceRate": 0.3949579831932773,
+      "averageSessionDuration": 155.2895244117647,
+      "conversions": 3,
+      "totalUsers": 114,
+      "newUsers": 57
+    },
+    {
+      "landingPage": "/property-search/detail/60/1034776/50-meadow-ln-bellvue-co-80512",
+      "sessions": 115,
+      "engagedSessions": 64,
+      "bounceRate": 0.4434782608695652,
+      "averageSessionDuration": 443.14507273913046,
+      "conversions": 2,
+      "totalUsers": 109,
+      "newUsers": 64
+    },
+    {
+      "landingPage": "/fort-collins-homes-for-sale/adriel-hills",
+      "sessions": 114,
+      "engagedSessions": 102,
+      "bounceRate": 0.10526315789473684,
+      "averageSessionDuration": 1333.528808719298,
+      "conversions": 6,
+      "totalUsers": 93,
+      "newUsers": 88
+    },
+    {
+      "landingPage": "/windsor-homes-for-sale/raindance",
+      "sessions": 114,
+      "engagedSessions": 90,
+      "bounceRate": 0.21052631578947367,
+      "averageSessionDuration": 725.9189308421053,
+      "conversions": 12,
+      "totalUsers": 101,
+      "newUsers": 93
+    },
+    {
+      "landingPage": "/property-search/detail/60/1050724/5632-n-highway-1-fort-collins-co-80524",
+      "sessions": 113,
+      "engagedSessions": 68,
+      "bounceRate": 0.39823008849557523,
+      "averageSessionDuration": 600.3632474424779,
+      "conversions": 1,
+      "totalUsers": 102,
+      "newUsers": 38
+    },
+    {
+      "landingPage": "/vendors",
+      "sessions": 110,
+      "engagedSessions": 74,
+      "bounceRate": 0.32727272727272727,
+      "averageSessionDuration": 1778.7350517272728,
+      "conversions": 1,
+      "totalUsers": 84,
+      "newUsers": 66
+    },
+    {
+      "landingPage": "/property-search/detail/60/1020455/12902-highway-392-greeley-co-80631",
+      "sessions": 104,
+      "engagedSessions": 57,
+      "bounceRate": 0.4519230769230769,
+      "averageSessionDuration": 732.1829459711539,
+      "conversions": 1,
+      "totalUsers": 82,
+      "newUsers": 16
+    },
+    {
+      "landingPage": "/littleton-homes-for-sale/platte-56",
+      "sessions": 101,
+      "engagedSessions": 38,
+      "bounceRate": 0.6237623762376238,
+      "averageSessionDuration": 178.91891100990097,
+      "conversions": 0,
+      "totalUsers": 16,
+      "newUsers": 16
+    },
+    {
+      "landingPage": "/mead-homes-for-sale/range-view-estates",
+      "sessions": 101,
+      "engagedSessions": 75,
+      "bounceRate": 0.25742574257425743,
+      "averageSessionDuration": 1110.038625970297,
+      "conversions": 6,
+      "totalUsers": 85,
+      "newUsers": 84
+    },
+    {
+      "landingPage": "/property-search/detail/60/1053793/1505-w-prospect-rd-fort-collins-co-80526",
+      "sessions": 101,
+      "engagedSessions": 59,
+      "bounceRate": 0.4158415841584158,
+      "averageSessionDuration": 488.8623756138614,
+      "conversions": 2,
+      "totalUsers": 95,
+      "newUsers": 27
+    },
+    {
+      "landingPage": "/contact",
+      "sessions": 97,
+      "engagedSessions": 96,
+      "bounceRate": 0.010309278350515464,
+      "averageSessionDuration": 1010.9574459175257,
+      "conversions": 132,
+      "totalUsers": 90,
+      "newUsers": 77
+    },
+    {
+      "landingPage": "/fort-collins-homes-for-sale/sunflower",
+      "sessions": 96,
+      "engagedSessions": 68,
+      "bounceRate": 0.2916666666666667,
+      "averageSessionDuration": 703.395032625,
+      "conversions": 6,
+      "totalUsers": 72,
+      "newUsers": 61
+    },
+    {
+      "landingPage": "/property-search/detail/60/1051873/1256-arthur-ave-loveland-co-80537",
+      "sessions": 96,
+      "engagedSessions": 55,
+      "bounceRate": 0.4270833333333333,
+      "averageSessionDuration": 762.7992505416668,
+      "conversions": 0,
+      "totalUsers": 84,
+      "newUsers": 43
+    },
+    {
+      "landingPage": "/horse-properties/horse-properties-in-weld-county",
+      "sessions": 95,
+      "engagedSessions": 73,
+      "bounceRate": 0.23157894736842105,
+      "averageSessionDuration": 717.7743358631578,
+      "conversions": 12,
+      "totalUsers": 85,
+      "newUsers": 78
+    },
+    {
+      "landingPage": "/erie-homes-for-sale/erie-village",
+      "sessions": 94,
+      "engagedSessions": 79,
+      "bounceRate": 0.1595744680851064,
+      "averageSessionDuration": 711.2626994148936,
+      "conversions": 1,
+      "totalUsers": 53,
+      "newUsers": 52
+    },
+    {
+      "landingPage": "/property-search/detail/60/1048341/16692-county-road-94-pierce-co-80650",
+      "sessions": 92,
+      "engagedSessions": 53,
+      "bounceRate": 0.42391304347826086,
+      "averageSessionDuration": 734.5022380760869,
+      "conversions": 4,
+      "totalUsers": 83,
+      "newUsers": 40
+    },
+    {
+      "landingPage": "/blog/best-neighborhoods-in-fort-collins",
+      "sessions": 91,
+      "engagedSessions": 56,
+      "bounceRate": 0.38461538461538464,
+      "averageSessionDuration": 653.4895656813187,
+      "conversions": 2,
+      "totalUsers": 88,
+      "newUsers": 87
+    },
+    {
+      "landingPage": "/horse-properties/horse-properties-in-loveland",
+      "sessions": 90,
+      "engagedSessions": 79,
+      "bounceRate": 0.12222222222222222,
+      "averageSessionDuration": 515.5810614777778,
+      "conversions": 10,
+      "totalUsers": 85,
+      "newUsers": 83
+    },
+    {
+      "landingPage": "/denver-homes-for-sale/lighthouse-villas",
+      "sessions": 87,
+      "engagedSessions": 65,
+      "bounceRate": 0.25287356321839083,
+      "averageSessionDuration": 814.1152944942529,
+      "conversions": 4,
+      "totalUsers": 77,
+      "newUsers": 73
+    },
+    {
+      "landingPage": "/blog/moving-to-loveland-colorado",
+      "sessions": 86,
+      "engagedSessions": 53,
+      "bounceRate": 0.38372093023255816,
+      "averageSessionDuration": 332.52855986046507,
+      "conversions": 2,
+      "totalUsers": 82,
+      "newUsers": 82
+    },
+    {
+      "landingPage": "/erie-homes-for-sale/erie-air-park",
+      "sessions": 84,
+      "engagedSessions": 73,
+      "bounceRate": 0.13095238095238096,
+      "averageSessionDuration": 190.2931438095238,
+      "conversions": 6,
+      "totalUsers": 73,
+      "newUsers": 68
+    },
+    {
+      "landingPage": "/property-search/detail/60/1047104/3039-n-county-road-1-fort-collins-co-80524",
+      "sessions": 84,
+      "engagedSessions": 50,
+      "bounceRate": 0.40476190476190477,
+      "averageSessionDuration": 594.6829140833333,
+      "conversions": 1,
+      "totalUsers": 79,
+      "newUsers": 29
+    },
+    {
+      "landingPage": "/property-search/detail/60/1052368/19858-county-road-1-berthoud-co-80513",
+      "sessions": 84,
+      "engagedSessions": 52,
+      "bounceRate": 0.38095238095238093,
+      "averageSessionDuration": 682.3003143809523,
+      "conversions": 1,
+      "totalUsers": 80,
+      "newUsers": 29
+    },
+    {
+      "landingPage": "/fort-collins-homes-for-sale/horsetooth-lake-estates",
+      "sessions": 82,
+      "engagedSessions": 74,
+      "bounceRate": 0.0975609756097561,
+      "averageSessionDuration": 267.54211221951215,
+      "conversions": 8,
+      "totalUsers": 80,
+      "newUsers": 78
+    },
+    {
+      "landingPage": "/greeley-homes-for-sale/eagle-view-farms",
+      "sessions": 81,
+      "engagedSessions": 54,
+      "bounceRate": 0.3333333333333333,
+      "averageSessionDuration": 701.2746787530864,
+      "conversions": 2,
+      "totalUsers": 75,
+      "newUsers": 70
+    },
+    {
+      "landingPage": "/property-search/detail/60/1049473/16498-county-road-100-nunn-co-80648",
+      "sessions": 79,
+      "engagedSessions": 49,
+      "bounceRate": 0.379746835443038,
+      "averageSessionDuration": 769.2198425189873,
+      "conversions": 0,
+      "totalUsers": 70,
+      "newUsers": 19
+    },
+    {
+      "landingPage": "/loveland-homes-for-sale/seven-lakes-north",
+      "sessions": 77,
+      "engagedSessions": 62,
+      "bounceRate": 0.19480519480519481,
+      "averageSessionDuration": 984.8736522987014,
+      "conversions": 3,
+      "totalUsers": 44,
+      "newUsers": 36
+    },
+    {
+      "landingPage": "/greeley-homes-for-sale/hill-n-park",
+      "sessions": 76,
+      "engagedSessions": 65,
+      "bounceRate": 0.14473684210526316,
+      "averageSessionDuration": 532.1311911578947,
+      "conversions": 9,
+      "totalUsers": 60,
+      "newUsers": 54
+    },
+    {
+      "landingPage": "/property-search/detail/60/1055474/6761-us-highway-36-estes-park-co-80517",
+      "sessions": 76,
+      "engagedSessions": 40,
+      "bounceRate": 0.47368421052631576,
+      "averageSessionDuration": 947.9873965789475,
+      "conversions": 0,
+      "totalUsers": 73,
+      "newUsers": 23
+    },
+    {
+      "landingPage": "/property-search/detail/60/2135518/3760-county-road-7-erie-co-80516",
+      "sessions": 76,
+      "engagedSessions": 45,
+      "bounceRate": 0.40789473684210525,
+      "averageSessionDuration": 917.5066515131579,
+      "conversions": 0,
+      "totalUsers": 70,
+      "newUsers": 27
+    },
+    {
+      "landingPage": "/property-search/detail/60/3871866/13884-beacon-st-broomfield-co-80023",
+      "sessions": 76,
+      "engagedSessions": 15,
+      "bounceRate": 0.8026315789473685,
+      "averageSessionDuration": 80.62779247368421,
+      "conversions": 1,
+      "totalUsers": 76,
+      "newUsers": 75
+    },
+    {
+      "landingPage": "/featured-listings",
+      "sessions": 75,
+      "engagedSessions": 66,
+      "bounceRate": 0.12,
+      "averageSessionDuration": 1153.4946236266667,
+      "conversions": 12,
+      "totalUsers": 71,
+      "newUsers": 63
+    },
+    {
+      "landingPage": "/eaton-homes-for-sale/1-plus-acres",
+      "sessions": 74,
+      "engagedSessions": 65,
+      "bounceRate": 0.12162162162162163,
+      "averageSessionDuration": 679.9331493243243,
+      "conversions": 9,
+      "totalUsers": 70,
+      "newUsers": 66
+    },
+    {
+      "landingPage": "/denver-homes-for-sale/cherry-hills-iii",
+      "sessions": 73,
+      "engagedSessions": 61,
+      "bounceRate": 0.1643835616438356,
+      "averageSessionDuration": 265.6849263835617,
+      "conversions": 6,
+      "totalUsers": 68,
+      "newUsers": 65
+    },
+    {
+      "landingPage": "/property-search/detail/60/1054114/4980-getaway-dr-berthoud-co-80513",
+      "sessions": 72,
+      "engagedSessions": 38,
+      "bounceRate": 0.4722222222222222,
+      "averageSessionDuration": 401.1212551111111,
+      "conversions": 1,
+      "totalUsers": 68,
+      "newUsers": 28
+    },
+    {
+      "landingPage": "/property-search/detail/60/1056624/7859-raven-ct-boulder-co-80303",
+      "sessions": 70,
+      "engagedSessions": 42,
+      "bounceRate": 0.4,
+      "averageSessionDuration": 740.8532857285714,
+      "conversions": 1,
+      "totalUsers": 63,
+      "newUsers": 25
+    },
+    {
+      "landingPage": "/littleton-homes-for-sale/parkside-governors-ranch",
+      "sessions": 67,
+      "engagedSessions": 49,
+      "bounceRate": 0.26865671641791045,
+      "averageSessionDuration": 1080.0399258507462,
+      "conversions": 0,
+      "totalUsers": 43,
+      "newUsers": 40
+    },
+    {
+      "landingPage": "/littleton-homes-for-sale/poppy-hills",
+      "sessions": 67,
+      "engagedSessions": 32,
+      "bounceRate": 0.5223880597014925,
+      "averageSessionDuration": 339.7733393283582,
+      "conversions": 1,
+      "totalUsers": 38,
+      "newUsers": 35
+    },
+    {
+      "landingPage": "/property-search/detail/60/1054039/363-w-juneberry-st-milliken-co-80543-milliken-co-80543",
+      "sessions": 67,
+      "engagedSessions": 54,
+      "bounceRate": 0.19402985074626866,
+      "averageSessionDuration": 9535.482678462686,
+      "conversions": 32,
+      "totalUsers": 4,
+      "newUsers": 0
+    },
+    {
+      "landingPage": "/property-search/detail/60/1057167/3413-cottonwood-ln-berthoud-co-80513",
+      "sessions": 67,
+      "engagedSessions": 37,
+      "bounceRate": 0.44776119402985076,
+      "averageSessionDuration": 1035.582884641791,
+      "conversions": 1,
+      "totalUsers": 61,
+      "newUsers": 18
+    },
+    {
+      "landingPage": "/erie-homes-for-sale/flatiron-meadows",
+      "sessions": 66,
+      "engagedSessions": 50,
+      "bounceRate": 0.24242424242424243,
+      "averageSessionDuration": 3541.7761258333335,
+      "conversions": 4,
+      "totalUsers": 17,
+      "newUsers": 17
+    },
+    {
+      "landingPage": "/property-search/detail/60/8240785/1808-riverview-dr-berthoud-co-80513",
+      "sessions": 65,
+      "engagedSessions": 39,
+      "bounceRate": 0.4,
+      "averageSessionDuration": 725.5026189538461,
+      "conversions": 0,
+      "totalUsers": 63,
+      "newUsers": 20
+    },
+    {
+      "landingPage": "/fort-collins-homes-for-sale/park-lane-towers",
+      "sessions": 64,
+      "engagedSessions": 54,
+      "bounceRate": 0.15625,
+      "averageSessionDuration": 426.0239135625,
+      "conversions": 7,
+      "totalUsers": 52,
+      "newUsers": 49
+    },
+    {
+      "landingPage": "/loveland-homes-for-sale/under-200000",
+      "sessions": 64,
+      "engagedSessions": 49,
+      "bounceRate": 0.234375,
+      "averageSessionDuration": 821.107817140625,
+      "conversions": 6,
+      "totalUsers": 63,
+      "newUsers": 58
+    },
+    {
+      "landingPage": "/property-search/detail/60/1052681/534-blackfoot-rd-red-feather-lakes-co-80545",
+      "sessions": 64,
+      "engagedSessions": 40,
+      "bounceRate": 0.375,
+      "averageSessionDuration": 866.928653734375,
+      "conversions": 0,
+      "totalUsers": 59,
+      "newUsers": 15
+    },
+    {
+      "landingPage": "/property-search/detail/60/1031660/1916-w-county-road-6-berthoud-co-80513",
+      "sessions": 63,
+      "engagedSessions": 36,
+      "bounceRate": 0.42857142857142855,
+      "averageSessionDuration": 1394.6438863650794,
+      "conversions": 1,
+      "totalUsers": 56,
+      "newUsers": 16
+    },
+    {
+      "landingPage": "/property-search/detail/60/6350763/27389-highway-74-evergreen-co-80439",
+      "sessions": 63,
+      "engagedSessions": 30,
+      "bounceRate": 0.5238095238095238,
+      "averageSessionDuration": 72.54442001587302,
+      "conversions": 1,
+      "totalUsers": 61,
+      "newUsers": 30
+    },
+    {
+      "landingPage": "/frederick-homes-for-sale/prairie-greens",
+      "sessions": 62,
+      "engagedSessions": 55,
+      "bounceRate": 0.11290322580645161,
+      "averageSessionDuration": 747.2974782096775,
+      "conversions": 14,
+      "totalUsers": 53,
+      "newUsers": 49
+    },
+    {
+      "landingPage": "/property-search/detail/60/1051136/1864-14th-ave-greeley-co-80631",
+      "sessions": 62,
+      "engagedSessions": 41,
+      "bounceRate": 0.3387096774193548,
+      "averageSessionDuration": 444.4845391935484,
+      "conversions": 0,
+      "totalUsers": 51,
+      "newUsers": 7
+    },
+    {
+      "landingPage": "/property-search/detail/60/1051984/121-willow-cir-dr-loveland-co-80537",
+      "sessions": 62,
+      "engagedSessions": 36,
+      "bounceRate": 0.41935483870967744,
+      "averageSessionDuration": 643.7449793709677,
+      "conversions": 1,
+      "totalUsers": 54,
+      "newUsers": 17
+    },
+    {
+      "landingPage": "/property-search/detail/60/1056724/28129-highway-52-keenesburg-co-80643",
+      "sessions": 62,
+      "engagedSessions": 34,
+      "bounceRate": 0.45161290322580644,
+      "averageSessionDuration": 551.1544855,
+      "conversions": 0,
+      "totalUsers": 59,
+      "newUsers": 23
+    },
+    {
+      "landingPage": "/broomfield-homes-for-sale/anthem-reserve",
+      "sessions": 60,
+      "engagedSessions": 48,
+      "bounceRate": 0.2,
+      "averageSessionDuration": 1041.1903565999999,
+      "conversions": 6,
+      "totalUsers": 56,
+      "newUsers": 55
+    },
+    {
+      "landingPage": "/property-search/detail/60/1048781/236-hawks-nest-way-fort-collins-co-80524",
+      "sessions": 60,
+      "engagedSessions": 45,
+      "bounceRate": 0.25,
+      "averageSessionDuration": 1027.6328094333333,
+      "conversions": 2,
+      "totalUsers": 50,
+      "newUsers": 15
+    },
+    {
+      "landingPage": "/property-search/detail/60/6542129/3032-tulane-dr-fort-collins-co-80525",
+      "sessions": 60,
+      "engagedSessions": 42,
+      "bounceRate": 0.3,
+      "averageSessionDuration": 1366.5303957666667,
+      "conversions": 2,
+      "totalUsers": 49,
+      "newUsers": 15
+    }
+  ],
+  "acquisitionChannels": [
+    {
+      "sessionDefaultChannelGroup": "Direct",
+      "sessionSource": "(direct)",
+      "sessionMedium": "(none)",
+      "sessions": 28567,
+      "totalUsers": 23066,
+      "engagedSessions": 7439,
+      "conversions": 839
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Search",
+      "sessionSource": "google",
+      "sessionMedium": "organic",
+      "sessions": 15808,
+      "totalUsers": 12528,
+      "engagedSessions": 11020,
+      "conversions": 742
+    },
+    {
+      "sessionDefaultChannelGroup": "Unassigned",
+      "sessionSource": "Sierra-FB",
+      "sessionMedium": "Sphere Remarketing",
+      "sessions": 14255,
+      "totalUsers": 5983,
+      "engagedSessions": 8245,
+      "conversions": 217
+    },
+    {
+      "sessionDefaultChannelGroup": "Cross-network",
+      "sessionSource": "google",
+      "sessionMedium": "cpc",
+      "sessions": 7911,
+      "totalUsers": 7087,
+      "engagedSessions": 6033,
+      "conversions": 1209
+    },
+    {
+      "sessionDefaultChannelGroup": "Paid Search",
+      "sessionSource": "google",
+      "sessionMedium": "cpc",
+      "sessions": 3106,
+      "totalUsers": 2833,
+      "engagedSessions": 2435,
+      "conversions": 702
+    },
+    {
+      "sessionDefaultChannelGroup": "Unassigned",
+      "sessionSource": "(not set)",
+      "sessionMedium": "(not set)",
+      "sessions": 1795,
+      "totalUsers": 2628,
+      "engagedSessions": 3,
+      "conversions": 853
+    },
+    {
+      "sessionDefaultChannelGroup": "Unassigned",
+      "sessionSource": "Email Media@",
+      "sessionMedium": "RocketseedUSAReseller",
+      "sessions": 808,
+      "totalUsers": 794,
+      "engagedSessions": 26,
+      "conversions": 4
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Search",
+      "sessionSource": "bing",
+      "sessionMedium": "organic",
+      "sessions": 486,
+      "totalUsers": 354,
+      "engagedSessions": 383,
+      "conversions": 46
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "client3.sierrainteractivedev.com",
+      "sessionMedium": "referral",
+      "sessions": 453,
+      "totalUsers": 58,
+      "engagedSessions": 343,
+      "conversions": 56
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Social",
+      "sessionSource": "m.facebook.com",
+      "sessionMedium": "referral",
+      "sessions": 392,
+      "totalUsers": 384,
+      "engagedSessions": 176,
+      "conversions": 13
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Social",
+      "sessionSource": "facebook.com",
+      "sessionMedium": "referral",
+      "sessions": 326,
+      "totalUsers": 325,
+      "engagedSessions": 287,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Search",
+      "sessionSource": "duckduckgo",
+      "sessionMedium": "organic",
+      "sessions": 215,
+      "totalUsers": 117,
+      "engagedSessions": 163,
+      "conversions": 52
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Search",
+      "sessionSource": "yahoo",
+      "sessionMedium": "organic",
+      "sessions": 203,
+      "totalUsers": 150,
+      "engagedSessions": 164,
+      "conversions": 10
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "kittlerealestate.hifello.com",
+      "sessionMedium": "referral",
+      "sessions": 158,
+      "totalUsers": 131,
+      "engagedSessions": 49,
+      "conversions": 3
+    },
+    {
+      "sessionDefaultChannelGroup": "Cross-network",
+      "sessionSource": "(data not available)",
+      "sessionMedium": "(data not available)",
+      "sessions": 157,
+      "totalUsers": 157,
+      "engagedSessions": 106,
+      "conversions": 39
+    },
+    {
+      "sessionDefaultChannelGroup": "Unassigned",
+      "sessionSource": "Sierra-FB",
+      "sessionMedium": "Direct Leads (Weld County)",
+      "sessions": 100,
+      "totalUsers": 99,
+      "engagedSessions": 33,
+      "conversions": 15
+    },
+    {
+      "sessionDefaultChannelGroup": "Unassigned",
+      "sessionSource": "Sierra-FB",
+      "sessionMedium": "Dynamic Remarketing (audience-based)",
+      "sessions": 97,
+      "totalUsers": 96,
+      "engagedSessions": 58,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Social",
+      "sessionSource": "l.facebook.com",
+      "sessionMedium": "referral",
+      "sessions": 47,
+      "totalUsers": 37,
+      "engagedSessions": 29,
+      "conversions": 1
+    },
+    {
+      "sessionDefaultChannelGroup": "Unassigned",
+      "sessionSource": "Sierra-FB",
+      "sessionMedium": "Dynamic Remarketing (events-based)",
+      "sessions": 44,
+      "totalUsers": 44,
+      "engagedSessions": 20,
+      "conversions": 3
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Search",
+      "sessionSource": "mail.aol.com",
+      "sessionMedium": "referral",
+      "sessions": 39,
+      "totalUsers": 8,
+      "engagedSessions": 33,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "mail.google.com",
+      "sessionMedium": "referral",
+      "sessions": 34,
+      "totalUsers": 8,
+      "engagedSessions": 25,
+      "conversions": 13
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "mail.yahoo.com",
+      "sessionMedium": "referral",
+      "sessions": 34,
+      "totalUsers": 9,
+      "engagedSessions": 25,
+      "conversions": 11
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Social",
+      "sessionSource": "lm.facebook.com",
+      "sessionMedium": "referral",
+      "sessions": 28,
+      "totalUsers": 27,
+      "engagedSessions": 16,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Unassigned",
+      "sessionSource": "Sierra-FB",
+      "sessionMedium": "Direct Leads (Larimer County)",
+      "sessions": 24,
+      "totalUsers": 24,
+      "engagedSessions": 8,
+      "conversions": 2
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "t.e2ma.net",
+      "sessionMedium": "referral",
+      "sessions": 21,
+      "totalUsers": 6,
+      "engagedSessions": 14,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Unassigned",
+      "sessionSource": "chatgpt.com",
+      "sessionMedium": "(not set)",
+      "sessions": 20,
+      "totalUsers": 19,
+      "engagedSessions": 9,
+      "conversions": 3
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Social",
+      "sessionSource": "ig",
+      "sessionMedium": "social",
+      "sessions": 18,
+      "totalUsers": 17,
+      "engagedSessions": 3,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Paid Social",
+      "sessionSource": "fb",
+      "sessionMedium": "paid",
+      "sessions": 18,
+      "totalUsers": 18,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Unassigned",
+      "sessionSource": "tastyppc",
+      "sessionMedium": "(not set)",
+      "sessions": 18,
+      "totalUsers": 5,
+      "engagedSessions": 14,
+      "conversions": 1
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Search",
+      "sessionSource": "tastyppc",
+      "sessionMedium": "organic",
+      "sessions": 16,
+      "totalUsers": 16,
+      "engagedSessions": 0,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "app.asana.com",
+      "sessionMedium": "referral",
+      "sessions": 16,
+      "totalUsers": 3,
+      "engagedSessions": 15,
+      "conversions": 4
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "chatgpt.com",
+      "sessionMedium": "referral",
+      "sessions": 16,
+      "totalUsers": 7,
+      "engagedSessions": 14,
+      "conversions": 3
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Search",
+      "sessionSource": "aol",
+      "sessionMedium": "organic",
+      "sessions": 13,
+      "totalUsers": 12,
+      "engagedSessions": 11,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "zillow.com",
+      "sessionMedium": "referral",
+      "sessions": 12,
+      "totalUsers": 9,
+      "engagedSessions": 8,
+      "conversions": 2
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "iresis.com",
+      "sessionMedium": "referral",
+      "sessions": 11,
+      "totalUsers": 5,
+      "engagedSessions": 6,
+      "conversions": 3
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "webmailb.juno.com",
+      "sessionMedium": "referral",
+      "sessions": 11,
+      "totalUsers": 1,
+      "engagedSessions": 11,
+      "conversions": 2
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Search",
+      "sessionSource": "ecosia.org",
+      "sessionMedium": "organic",
+      "sessions": 10,
+      "totalUsers": 10,
+      "engagedSessions": 6,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Search",
+      "sessionSource": "chatgpt.com",
+      "sessionMedium": "organic",
+      "sessions": 9,
+      "totalUsers": 8,
+      "engagedSessions": 5,
+      "conversions": 2
+    },
+    {
+      "sessionDefaultChannelGroup": "Paid Social",
+      "sessionSource": "ig",
+      "sessionMedium": "paid",
+      "sessions": 8,
+      "totalUsers": 8,
+      "engagedSessions": 2,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Search",
+      "sessionSource": "search.google.com",
+      "sessionMedium": "referral",
+      "sessions": 6,
+      "totalUsers": 2,
+      "engagedSessions": 3,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "gemini.google.com",
+      "sessionMedium": "referral",
+      "sessions": 6,
+      "totalUsers": 6,
+      "engagedSessions": 5,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "claude.ai",
+      "sessionMedium": "referral",
+      "sessions": 5,
+      "totalUsers": 3,
+      "engagedSessions": 4,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "corelistingmachine.com",
+      "sessionMedium": "referral",
+      "sessions": 5,
+      "totalUsers": 5,
+      "engagedSessions": 3,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Unassigned",
+      "sessionSource": "(direct)",
+      "sessionMedium": "direct",
+      "sessions": 5,
+      "totalUsers": 2,
+      "engagedSessions": 4,
+      "conversions": 7
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "accounts.google.com",
+      "sessionMedium": "referral",
+      "sessions": 4,
+      "totalUsers": 3,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "ziprecruiter.com",
+      "sessionMedium": "referral",
+      "sessions": 4,
+      "totalUsers": 1,
+      "engagedSessions": 2,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Search",
+      "sessionSource": "ph.search.yahoo.com",
+      "sessionMedium": "referral",
+      "sessions": 3,
+      "totalUsers": 2,
+      "engagedSessions": 2,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Social",
+      "sessionSource": "reddit.com",
+      "sessionMedium": "referral",
+      "sessions": 3,
+      "totalUsers": 2,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "indeed.com",
+      "sessionMedium": "referral",
+      "sessions": 3,
+      "totalUsers": 3,
+      "engagedSessions": 2,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "landsearch.com",
+      "sessionMedium": "referral",
+      "sessions": 3,
+      "totalUsers": 2,
+      "engagedSessions": 3,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "statics.teams.cdn.office.net",
+      "sessionMedium": "referral",
+      "sessions": 3,
+      "totalUsers": 2,
+      "engagedSessions": 2,
+      "conversions": 1
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Search",
+      "sessionSource": "us.search.yahoo.com",
+      "sessionMedium": "referral",
+      "sessions": 2,
+      "totalUsers": 2,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Social",
+      "sessionSource": "glassdoor.co.in",
+      "sessionMedium": "referral",
+      "sessions": 2,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Social",
+      "sessionSource": "l.instagram.com",
+      "sessionMedium": "referral",
+      "sessions": 2,
+      "totalUsers": 2,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Video",
+      "sessionSource": "youtube.com",
+      "sessionMedium": "referral",
+      "sessions": 2,
+      "totalUsers": 2,
+      "engagedSessions": 2,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "api.scraperforce.com",
+      "sessionMedium": "referral",
+      "sessions": 2,
+      "totalUsers": 2,
+      "engagedSessions": 0,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "docs.google.com",
+      "sessionMedium": "referral",
+      "sessions": 2,
+      "totalUsers": 2,
+      "engagedSessions": 2,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "iseek.com",
+      "sessionMedium": "referral",
+      "sessions": 2,
+      "totalUsers": 2,
+      "engagedSessions": 2,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "querycat.com",
+      "sessionMedium": "referral",
+      "sessions": 2,
+      "totalUsers": 2,
+      "engagedSessions": 2,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "search.nortonsafesearch.com",
+      "sessionMedium": "referral",
+      "sessions": 2,
+      "totalUsers": 2,
+      "engagedSessions": 2,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "web.fortcollinschamber.com",
+      "sessionMedium": "referral",
+      "sessions": 2,
+      "totalUsers": 2,
+      "engagedSessions": 1,
+      "conversions": 3
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "yelp-sales--c.vf.force.com",
+      "sessionMedium": "referral",
+      "sessions": 2,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Search",
+      "sessionSource": "qwant.com",
+      "sessionMedium": "organic",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Search",
+      "sessionSource": "terra.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Social",
+      "sessionSource": "instagram.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 0,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Social",
+      "sessionSource": "linkedin.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Organic Social",
+      "sessionSource": "t.co",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "123people.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "activesearchresults.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 0,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "alhea.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "behjoo.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "bollywoodpapa.in",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "casttv.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "citationmachine.net",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "client.sisu.co",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "cluuz.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "coloproperty.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "com.lullar.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "console.listingleadstoclose.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "csesearch4.click",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 0,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "deeperweb.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "game.ponselcommunity.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 0,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "geegain.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 0,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "greenmaven.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "hindikagyaan.in",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "homelight.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "huubs.imente.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "iconfinder.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "info.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "intananews.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 0,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "jerr.websearchtab.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "jkjobsupdate.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "lexxe.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "listingsmagic.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 0,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "managedq.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "mediamax.lightning.force.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "merobase.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "openbulkurl.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "perplexity.ai",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 0,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "redz.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "refseek.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "roysearch.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "scrubtheweb.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "search.avastbrowser.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "search.knowledgeworld.com.pk",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "search.yam.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 1
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "searchhippo.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "secure.helpscout.net",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "shodanhq.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "sify.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "silobreaker.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "soorsa.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "squikoo.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "tavellipto.org",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "tinker.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "toile.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "twicsy.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "vatrouver.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "verbase.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "virtuallrc.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "volunia.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "webmail.centurylink.net",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "wink.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 1
+    },
+    {
+      "sessionDefaultChannelGroup": "Referral",
+      "sessionSource": "zhongsou.com",
+      "sessionMedium": "referral",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Unassigned",
+      "sessionSource": "google&utm_medium=organic&utm_campaign=gbp",
+      "sessionMedium": "(not set)",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 0,
+      "conversions": 0
+    },
+    {
+      "sessionDefaultChannelGroup": "Unassigned",
+      "sessionSource": "perplexity",
+      "sessionMedium": "(not set)",
+      "sessions": 1,
+      "totalUsers": 1,
+      "engagedSessions": 1,
+      "conversions": 0
+    }
+  ],
+  "deviceBreakdown": [
+    {
+      "deviceCategory": "mobile",
+      "sessions": 42631,
+      "totalUsers": 25746,
+      "conversions": 2815,
+      "bounceRate": 0.3902324599469869
+    },
+    {
+      "deviceCategory": "desktop",
+      "sessions": 31809,
+      "totalUsers": 29239,
+      "conversions": 1969,
+      "bounceRate": 0.691533842623157
+    },
+    {
+      "deviceCategory": "tablet",
+      "sessions": 1685,
+      "totalUsers": 1007,
+      "conversions": 79,
+      "bounceRate": 0.3845697329376855
+    }
+  ],
+  "pagePerformance": [
+    {
+      "pagePath": "/",
+      "pageTitle": "Northern Colorado Real Estate Agents - Fort Collins Realtors\u00ae - Top Realtors in Colorado - Houses for Sale Fort Collins - Real Estate Agents Fort Collin - Real Estate Near Me - Best Real Estate Agents in Colorado Springs",
+      "screenPageViews": 7129,
+      "averageSessionDuration": 325.6845702963871,
+      "bounceRate": 0.49893738760830475,
+      "engagedSessions": 3065
+    },
+    {
+      "pagePath": "/property-search/results/",
+      "pageTitle": "Property Search - Northern Colorado Homes for sale and serving all of your real estate needs",
+      "screenPageViews": 4963,
+      "averageSessionDuration": 455.2412970466631,
+      "bounceRate": 0.26261530113944653,
+      "engagedSessions": 2718
+    },
+    {
+      "pagePath": "/fort-collins-homes-for-sale/farm-house-construction/",
+      "pageTitle": "Fort Collins Real Estate & Homes for Sale with Farm House",
+      "screenPageViews": 2545,
+      "averageSessionDuration": 217.46810460918508,
+      "bounceRate": 0.24088248536695184,
+      "engagedSessions": 1686
+    },
+    {
+      "pagePath": "/properties/",
+      "pageTitle": "Properties for Sale Northern Colorado | We are the top producing team in Northern Colorado | Kittle Real Estate",
+      "screenPageViews": 1606,
+      "averageSessionDuration": 88.35658167665706,
+      "bounceRate": 0.7123919308357348,
+      "engagedSessions": 499
+    },
+    {
+      "pagePath": "/property-search/detail/60/1041634/12680-county-road-28-platteville-co-80651/",
+      "pageTitle": "12680 County Road 28, Platteville, CO 80651 \u2013 PHOTOS \u2013 MLS #1041634",
+      "screenPageViews": 902,
+      "averageSessionDuration": 196.95123341468928,
+      "bounceRate": 0.34576271186440677,
+      "engagedSessions": 579
+    },
+    {
+      "pagePath": "/property-search/property-tracker/",
+      "pageTitle": "Account Home - Northern Colorado Homes for sale and serving all of your real estate needs",
+      "screenPageViews": 866,
+      "averageSessionDuration": 368.93050247444296,
+      "bounceRate": 0.5858453473132372,
+      "engagedSessions": 316
+    },
+    {
+      "pagePath": "/property-search/detail/60/1051177/5215-e-county-road-16-loveland-co-80537/",
+      "pageTitle": "5215 E County Road 16, Loveland, CO 80537 \u2013 PHOTOS \u2013 MLS #1051177",
+      "screenPageViews": 730,
+      "averageSessionDuration": 388.2765613762377,
+      "bounceRate": 0.25884016973125884,
+      "engagedSessions": 524
+    },
+    {
+      "pagePath": "/about/the-kittle-team/",
+      "pageTitle": "Top Real Estate Team in Northern Colorado | 400+ Reviews on Google | The Kittle Team",
+      "screenPageViews": 700,
+      "averageSessionDuration": 650.5002481151203,
+      "bounceRate": 0.08934707903780069,
+      "engagedSessions": 530
+    },
+    {
+      "pagePath": "/property-search/detail/60/1049785/37648-county-road-49-eaton-co-80615/",
+      "pageTitle": "37648 County Road 49, Eaton, CO 80615 \u2013 PHOTOS \u2013 MLS #1049785",
+      "screenPageViews": 669,
+      "averageSessionDuration": 399.7109334688525,
+      "bounceRate": 0.21639344262295082,
+      "engagedSessions": 478
+    },
+    {
+      "pagePath": "/property-search/detail/60/1049849/11021-n-county-road-3-wellington-co-80549/",
+      "pageTitle": "11021 N County Road 3, Wellington, CO 80549 \u2013 PHOTOS \u2013 MLS #1049849",
+      "screenPageViews": 629,
+      "averageSessionDuration": 195.94860990584417,
+      "bounceRate": 0.3246753246753247,
+      "engagedSessions": 416
+    },
+    {
+      "pagePath": "/property-search/detail/60/1042775/940-b-st-greeley-co-80631/",
+      "pageTitle": "940 B St, Greeley, CO 80631 \u2013 PHOTOS \u2013 MLS #1042775",
+      "screenPageViews": 586,
+      "averageSessionDuration": 204.07644727586208,
+      "bounceRate": 0.4246823956442831,
+      "engagedSessions": 317
+    },
+    {
+      "pagePath": "/about/",
+      "pageTitle": "BEST Real Estate Agency in Northern Colorado | 400+ Reviews on Google | The Kittle Team",
+      "screenPageViews": 548,
+      "averageSessionDuration": 633.1667923187772,
+      "bounceRate": 0.4672489082969432,
+      "engagedSessions": 244
+    },
+    {
+      "pagePath": "/blog/",
+      "pageTitle": "Northern Colorado Real Estate Blog",
+      "screenPageViews": 548,
+      "averageSessionDuration": 127.09925886055777,
+      "bounceRate": 0.8605577689243028,
+      "engagedSessions": 70
+    },
+    {
+      "pagePath": "/property-search/detail/60/1046015/23760-county-road-70-eaton-co-80615/",
+      "pageTitle": "23760 County Road 70, Eaton, CO 80615 \u2013 PHOTOS \u2013 MLS #1046015",
+      "screenPageViews": 523,
+      "averageSessionDuration": 273.3855931197605,
+      "bounceRate": 0.2155688622754491,
+      "engagedSessions": 393
+    },
+    {
+      "pagePath": "/property-search/detail/60/1056399/13013-county-road-86-pierce-co-80650/",
+      "pageTitle": "13013 County Road 86, Pierce, CO 80650 \u2013 PHOTOS \u2013 MLS #1056399",
+      "screenPageViews": 464,
+      "averageSessionDuration": 198.32382055506608,
+      "bounceRate": 0.3964757709251101,
+      "engagedSessions": 274
+    },
+    {
+      "pagePath": "/property-search/detail/60/2151681/20208-county-road-22-hudson-co-80642/",
+      "pageTitle": "20208 County Road 22, Hudson, CO 80642 \u2013 PHOTOS \u2013 MLS #2151681",
+      "screenPageViews": 445,
+      "averageSessionDuration": 232.58825152245865,
+      "bounceRate": 0.40189125295508277,
+      "engagedSessions": 253
+    },
+    {
+      "pagePath": "/property-search/detail/60/1049363/6349-ashcroft-rd-greeley-co-80634/",
+      "pageTitle": "6349 Ashcroft Rd, Greeley, CO 80634 \u2013 PHOTOS \u2013 MLS #1049363",
+      "screenPageViews": 432,
+      "averageSessionDuration": 246.25423083129584,
+      "bounceRate": 0.15647921760391198,
+      "engagedSessions": 345
+    },
+    {
+      "pagePath": "/property-search/detail/60/1045123/10817-n-county-road-3-wellington-co-80549/",
+      "pageTitle": "10817 N County Road 3, Wellington, CO 80549 \u2013 PHOTOS \u2013 MLS #1045123",
+      "screenPageViews": 429,
+      "averageSessionDuration": 286.82874077403847,
+      "bounceRate": 0.17067307692307693,
+      "engagedSessions": 345
+    },
+    {
+      "pagePath": "/property-search/detail/60/1049790/11499-county-road-405-platteville-co-80651/",
+      "pageTitle": "11499 County Road 40.5, Platteville, CO 80651 \u2013 PHOTOS \u2013 MLS #1049790",
+      "screenPageViews": 398,
+      "averageSessionDuration": 416.44087475531916,
+      "bounceRate": 0.14627659574468085,
+      "engagedSessions": 321
+    },
+    {
+      "pagePath": "/events/",
+      "pageTitle": "Events",
+      "screenPageViews": 394,
+      "averageSessionDuration": 693.5962101490067,
+      "bounceRate": 0.5562913907284768,
+      "engagedSessions": 134
+    },
+    {
+      "pagePath": "/property-search/detail/60/1040134/11131-lookout-rd-longmont-co-80504/",
+      "pageTitle": "11131 Lookout Rd, Longmont, CO 80504 \u2013 PHOTOS \u2013 MLS #1040134",
+      "screenPageViews": 367,
+      "averageSessionDuration": 244.5456981117318,
+      "bounceRate": 0.36033519553072624,
+      "engagedSessions": 229
+    },
+    {
+      "pagePath": "/greeley-homes-for-sale/2-plus-acres/",
+      "pageTitle": "Greeley 2+ Acre Real Estate - Homes for Sale in Greeley",
+      "screenPageViews": 354,
+      "averageSessionDuration": 340.4425856890459,
+      "bounceRate": 0.1413427561837456,
+      "engagedSessions": 243
+    },
+    {
+      "pagePath": "/property-search/detail/60/1053547/613-colt-dr-loveland-co-80537/",
+      "pageTitle": "613 Colt Dr, Loveland, CO 80537 \u2013 PHOTOS \u2013 MLS #1053547",
+      "screenPageViews": 344,
+      "averageSessionDuration": 261.82746357009347,
+      "bounceRate": 0.21495327102803738,
+      "engagedSessions": 252
+    },
+    {
+      "pagePath": "/property-search/detail/60/1051932/612-w-county-road-74-wellington-co-80549/",
+      "pageTitle": "612 W County Road 74, Wellington, CO 80549 \u2013 PHOTOS \u2013 MLS #1051932",
+      "screenPageViews": 328,
+      "averageSessionDuration": 164.8563825015873,
+      "bounceRate": 0.23492063492063492,
+      "engagedSessions": 241
+    },
+    {
+      "pagePath": "/property-search/detail/60/1040769/37797-w-highway-14-bellvue-co-80512/",
+      "pageTitle": "37797 W Highway 14, Bellvue, CO 80512 \u2013 PHOTOS \u2013 MLS #1040769",
+      "screenPageViews": 326,
+      "averageSessionDuration": 142.681109990228,
+      "bounceRate": 0.16286644951140064,
+      "engagedSessions": 257
+    },
+    {
+      "pagePath": "/property-search/detail/60/1051033/10452-sunlight-dr-lafayette-co-80026/",
+      "pageTitle": "10452 Sunlight Dr, Lafayette, CO 80026 \u2013 PHOTOS \u2013 MLS #1051033",
+      "screenPageViews": 315,
+      "averageSessionDuration": 96.65855649675325,
+      "bounceRate": 0.3246753246753247,
+      "engagedSessions": 208
+    },
+    {
+      "pagePath": "/property-search/detail/60/1050724/5632-n-highway-1-fort-collins-co-80524/",
+      "pageTitle": "5632 N Highway 1, Fort Collins, CO 80524 \u2013 PHOTOS \u2013 MLS #1050724",
+      "screenPageViews": 311,
+      "averageSessionDuration": 210.43804409271524,
+      "bounceRate": 0.15562913907284767,
+      "engagedSessions": 255
+    },
+    {
+      "pagePath": "/agents/rob-kittle/",
+      "pageTitle": "Rob Kittle | KittleRealEstate.com",
+      "screenPageViews": 291,
+      "averageSessionDuration": 534.7867492084941,
+      "bounceRate": 0.20463320463320464,
+      "engagedSessions": 206
+    },
+    {
+      "pagePath": "/property-search/detail/60/1053793/1505-w-prospect-rd-fort-collins-co-80526/",
+      "pageTitle": "1505 W Prospect Rd, Fort Collins, CO 80526 \u2013 PHOTOS \u2013 MLS #1053793",
+      "screenPageViews": 289,
+      "averageSessionDuration": 170.9626049239544,
+      "bounceRate": 0.1634980988593156,
+      "engagedSessions": 220
+    },
+    {
+      "pagePath": "/property-search/detail/60/1049882/20633-county-road-72-eaton-co-80615/",
+      "pageTitle": "20633 County Road 72, Eaton, CO 80615 \u2013 PHOTOS \u2013 MLS #1049882",
+      "screenPageViews": 282,
+      "averageSessionDuration": 101.46332763432835,
+      "bounceRate": 0.23507462686567165,
+      "engagedSessions": 205
+    },
+    {
+      "pagePath": "/property-search/detail/60/1020455/12902-highway-392-greeley-co-80631/",
+      "pageTitle": "12902 Highway 392, Greeley, CO 80631 \u2013 PHOTOS \u2013 MLS #1020455",
+      "screenPageViews": 281,
+      "averageSessionDuration": 312.45478688929893,
+      "bounceRate": 0.18450184501845018,
+      "engagedSessions": 221
+    },
+    {
+      "pagePath": "/featured-listings/",
+      "pageTitle": "Featured Home Listings Northern Colorado | MLS Real Estate Listings | Kittle Real Estate",
+      "screenPageViews": 275,
+      "averageSessionDuration": 228.60506131770833,
+      "bounceRate": 0.036458333333333336,
+      "engagedSessions": 185
+    },
+    {
+      "pagePath": "/property-search/detail/60/1051562/29-rock-canyon-rd-drake-co-80515/",
+      "pageTitle": "29 Rock Canyon Rd, Drake, CO 80515 \u2013 PHOTOS \u2013 MLS #1051562",
+      "screenPageViews": 275,
+      "averageSessionDuration": 435.6930398492064,
+      "bounceRate": 0.3373015873015873,
+      "engagedSessions": 167
+    },
+    {
+      "pagePath": "/contact/",
+      "pageTitle": "Contact Kittle Real Estate",
+      "screenPageViews": 272,
+      "averageSessionDuration": 514.6640375578512,
+      "bounceRate": 0.028925619834710745,
+      "engagedSessions": 235
+    },
+    {
+      "pagePath": "/property-search/detail/60/1048894/2031-us-highway-36-estes-park-co-80517/",
+      "pageTitle": "2031 Us Highway 36, Estes Park, CO 80517 \u2013 PHOTOS \u2013 MLS #1048894",
+      "screenPageViews": 264,
+      "averageSessionDuration": 159.56810425296442,
+      "bounceRate": 0.35968379446640314,
+      "engagedSessions": 162
+    },
+    {
+      "pagePath": "/property-search/detail/60/2135518/3760-county-road-7-erie-co-80516/",
+      "pageTitle": "3760 County Road 7, Erie, CO 80516 \u2013 PHOTOS \u2013 MLS #2135518",
+      "screenPageViews": 264,
+      "averageSessionDuration": 329.58871379199996,
+      "bounceRate": 0.128,
+      "engagedSessions": 218
+    },
+    {
+      "pagePath": "/property-search/detail/60/1047104/3039-n-county-road-1-fort-collins-co-80524/",
+      "pageTitle": "3039 N County Road 1, Fort Collins, CO 80524 \u2013 PHOTOS \u2013 MLS #1047104",
+      "screenPageViews": 257,
+      "averageSessionDuration": 240.7397111434263,
+      "bounceRate": 0.13545816733067728,
+      "engagedSessions": 217
+    },
+    {
+      "pagePath": "/property-search/detail/60/1056869/320-del-monte-rd-berthoud-co-80513/",
+      "pageTitle": "320 Del Monte Rd, Berthoud, CO 80513 \u2013 PHOTOS \u2013 MLS #1056869",
+      "screenPageViews": 257,
+      "averageSessionDuration": 371.9943117892562,
+      "bounceRate": 0.33884297520661155,
+      "engagedSessions": 160
+    },
+    {
+      "pagePath": "/blog/celebrate-easter-2026-at-our-family-easter-egg-hunt-in-fossil-creek-park/",
+      "pageTitle": "Celebrate Easter 2026 at Our Family Easter Egg Hunt in Fossil Creek Park!",
+      "screenPageViews": 256,
+      "averageSessionDuration": 710.3542571095238,
+      "bounceRate": 0.37142857142857144,
+      "engagedSessions": 132
+    },
+    {
+      "pagePath": "/property-search/detail/60/1056516/20351-county-road-78-eaton-co-80615/",
+      "pageTitle": "20351 County Road 78, Eaton, CO 80615 \u2013 PHOTOS \u2013 MLS #1056516",
+      "screenPageViews": 255,
+      "averageSessionDuration": 355.52682220746885,
+      "bounceRate": 0.3236514522821577,
+      "engagedSessions": 163
+    },
+    {
+      "pagePath": "/property-search/detail/60/1034776/50-meadow-ln-bellvue-co-80512/",
+      "pageTitle": "50 Meadow Ln, Bellvue, CO 80512 \u2013 PHOTOS \u2013 MLS #1034776",
+      "screenPageViews": 246,
+      "averageSessionDuration": 319.40002517748917,
+      "bounceRate": 0.22510822510822512,
+      "engagedSessions": 179
+    },
+    {
+      "pagePath": "/property-search/detail/60/1049473/16498-county-road-100-nunn-co-80648/",
+      "pageTitle": "16498 County Road 100, Nunn, CO 80648 \u2013 PHOTOS \u2013 MLS #1049473",
+      "screenPageViews": 245,
+      "averageSessionDuration": 376.4002435829787,
+      "bounceRate": 0.14042553191489363,
+      "engagedSessions": 202
+    },
+    {
+      "pagePath": "/berthoud-homes-for-sale/heron-lakes-tpc-colorado/",
+      "pageTitle": "Heron Lakes-TPC Colorado Real Estate & Homes for Sale in Berthoud, CO",
+      "screenPageViews": 238,
+      "averageSessionDuration": 636.2707804693878,
+      "bounceRate": 0.21428571428571427,
+      "engagedSessions": 154
+    },
+    {
+      "pagePath": "/communities/move-to-fort-collins-co/",
+      "pageTitle": "Homes for Sale in Fort Collins | Browse Our Active Listings | Kittle",
+      "screenPageViews": 233,
+      "averageSessionDuration": 491.5885964292929,
+      "bounceRate": 0.03535353535353535,
+      "engagedSessions": 191
+    },
+    {
+      "pagePath": "/property-search/detail/60/1052225/140-loveland-heights-ln-drake-co-80515/",
+      "pageTitle": "140 Loveland Heights Ln, Drake, CO 80515 \u2013 PHOTOS \u2013 MLS #1052225",
+      "screenPageViews": 233,
+      "averageSessionDuration": 193.63141599541282,
+      "bounceRate": 0.3211009174311927,
+      "engagedSessions": 148
+    },
+    {
+      "pagePath": "/property-search/detail/60/1053524/3324-fox-crossing-pl-loveland-co-80537/",
+      "pageTitle": "3324 Fox Crossing Pl, Loveland, CO 80537 \u2013 PHOTOS \u2013 MLS #1053524",
+      "screenPageViews": 232,
+      "averageSessionDuration": 154.32706782191784,
+      "bounceRate": 0.3515981735159817,
+      "engagedSessions": 142
+    },
+    {
+      "pagePath": "/property-search/detail/60/1960274/2205-james-park-trl-loveland-co-80537/",
+      "pageTitle": "2205 James Park Trl, Loveland, CO 80537 \u2013 PHOTOS \u2013 MLS #1960274",
+      "screenPageViews": 230,
+      "averageSessionDuration": 229.87261284931506,
+      "bounceRate": 0.319634703196347,
+      "engagedSessions": 149
+    },
+    {
+      "pagePath": "/property-search/results/",
+      "pageTitle": "Property Search - Fort Collins CO Homes for Sale and Real Estate",
+      "screenPageViews": 229,
+      "averageSessionDuration": 11.109331120535714,
+      "bounceRate": 0.9553571428571429,
+      "engagedSessions": 10
+    },
+    {
+      "pagePath": "/property-search/detail/60/1054039/363-w-juneberry-st-milliken-co-80543-milliken-co-80543/",
+      "pageTitle": "363 W Juneberry St, Milliken, CO 80543 \u2013 PHOTOS \u2013 MLS #1054039",
+      "screenPageViews": 225,
+      "averageSessionDuration": 7301.291558012658,
+      "bounceRate": 0.17721518987341772,
+      "engagedSessions": 65
+    },
+    {
+      "pagePath": "/property-search/detail/60/1057066/14407-county-road-18-12-fort-lupton-co-80621/",
+      "pageTitle": "14407 County Road 18 1/2, Fort Lupton, CO 80621 \u2013 PHOTOS \u2013 MLS #1057066",
+      "screenPageViews": 223,
+      "averageSessionDuration": 165.16305566037735,
+      "bounceRate": 0.3160377358490566,
+      "engagedSessions": 145
+    },
+    {
+      "pagePath": "/property-search/detail/60/1045575/940-s-county-road-29-loveland-co-80537/",
+      "pageTitle": "940 S County Road 29, Loveland, CO 80537 \u2013 PHOTOS \u2013 MLS #1045575",
+      "screenPageViews": 221,
+      "averageSessionDuration": 248.38109986255924,
+      "bounceRate": 0.09004739336492891,
+      "engagedSessions": 192
+    },
+    {
+      "pagePath": "/property-search/detail/60/1026613/209-crown-point-dr-bellvue-co-80512/",
+      "pageTitle": "209 Crown Point Dr, Bellvue, CO 80512 \u2013 PHOTOS \u2013 MLS #1026613",
+      "screenPageViews": 219,
+      "averageSessionDuration": 373.7494355873786,
+      "bounceRate": 0.05339805825242718,
+      "engagedSessions": 195
+    },
+    {
+      "pagePath": "/horse-properties/",
+      "pageTitle": "Horse Properties - Kittle Real Estate",
+      "screenPageViews": 218,
+      "averageSessionDuration": 180.48077116279072,
+      "bounceRate": 0.0872093023255814,
+      "engagedSessions": 157
+    },
+    {
+      "pagePath": "/property-search/detail/60/1052328/3608-w-county-road-8-berthoud-co-80513/",
+      "pageTitle": "3608 W County Road 8, Berthoud, CO 80513 \u2013 PHOTOS \u2013 MLS #1052328",
+      "screenPageViews": 214,
+      "averageSessionDuration": 326.1883355073891,
+      "bounceRate": 0.26108374384236455,
+      "engagedSessions": 150
+    },
+    {
+      "pagePath": "/property-search/detail/60/1052136/1717-21st-ave-greeley-co-80631/",
+      "pageTitle": "1717 21st Ave, Greeley, CO 80631 \u2013 PHOTOS \u2013 MLS #1052136",
+      "screenPageViews": 210,
+      "averageSessionDuration": 217.7378024705882,
+      "bounceRate": 0.3315508021390374,
+      "engagedSessions": 125
+    },
+    {
+      "pagePath": "/property-search/detail/60/1057153/9731-county-road-70-windsor-co-80550/",
+      "pageTitle": "9731 County Road 70, Windsor, CO 80550 \u2013 PHOTOS \u2013 MLS #1057153",
+      "screenPageViews": 210,
+      "averageSessionDuration": 486.27592043814434,
+      "bounceRate": 0.3402061855670103,
+      "engagedSessions": 128
+    },
+    {
+      "pagePath": "/property-search/detail/60/1052368/19858-county-road-1-berthoud-co-80513/",
+      "pageTitle": "19858 County Road 1, Berthoud, CO 80513 \u2013 PHOTOS \u2013 MLS #1052368",
+      "screenPageViews": 208,
+      "averageSessionDuration": 252.23134253694585,
+      "bounceRate": 0.16748768472906403,
+      "engagedSessions": 169
+    },
+    {
+      "pagePath": "/property-search/detail/60/1048341/16692-county-road-94-pierce-co-80650/",
+      "pageTitle": "16692 County Road 94, Pierce, CO 80650 \u2013 PHOTOS \u2013 MLS #1048341",
+      "screenPageViews": 206,
+      "averageSessionDuration": 232.5028299175258,
+      "bounceRate": 0.22164948453608246,
+      "engagedSessions": 151
+    },
+    {
+      "pagePath": "/property-search/detail/60/1048482/4909-gary-dr-berthoud-co-80513/",
+      "pageTitle": "4909 Gary Dr, Berthoud, CO 80513 \u2013 PHOTOS \u2013 MLS #1048482",
+      "screenPageViews": 205,
+      "averageSessionDuration": 444.1006062358974,
+      "bounceRate": 0.1282051282051282,
+      "engagedSessions": 170
+    },
+    {
+      "pagePath": "/fort-collins-homes-for-sale/under-200000/",
+      "pageTitle": "Fort Collins Under $200,000 Real Estate - Homes for Sale in Fort Collins",
+      "screenPageViews": 204,
+      "averageSessionDuration": 296.12299280555555,
+      "bounceRate": 0.11666666666666667,
+      "engagedSessions": 159
+    },
+    {
+      "pagePath": "/property-search/detail/60/1051873/1256-arthur-ave-loveland-co-80537/",
+      "pageTitle": "1256 Arthur Ave, Loveland, CO 80537 \u2013 PHOTOS \u2013 MLS #1051873",
+      "screenPageViews": 195,
+      "averageSessionDuration": 244.4031437696335,
+      "bounceRate": 0.21465968586387435,
+      "engagedSessions": 150
+    },
+    {
+      "pagePath": "/communities/",
+      "pageTitle": "Northern Colorado Real Estate by Neighborhood | Northern Colorado Neighborhoods and Communities | Kittle Real Estate",
+      "screenPageViews": 194,
+      "averageSessionDuration": 332.6379300863309,
+      "bounceRate": 0.07913669064748201,
+      "engagedSessions": 128
+    },
+    {
+      "pagePath": "/property-search/detail/60/1031660/1916-w-county-road-6-berthoud-co-80513/",
+      "pageTitle": "1916 W County Road 6, Berthoud, CO 80513 \u2013 PHOTOS \u2013 MLS #1031660",
+      "screenPageViews": 191,
+      "averageSessionDuration": 358.277616375,
+      "bounceRate": 0.15760869565217392,
+      "engagedSessions": 155
+    },
+    {
+      "pagePath": "/property-search/detail/60/1898512/2344-county-road-12-erie-co-80516/",
+      "pageTitle": "2344 County Road 12, Erie, CO 80516 \u2013 PHOTOS \u2013 MLS #1898512",
+      "screenPageViews": 190,
+      "averageSessionDuration": 239.09603170967745,
+      "bounceRate": 0.13440860215053763,
+      "engagedSessions": 161
+    },
+    {
+      "pagePath": "/property-search/detail/60/8240785/1808-riverview-dr-berthoud-co-80513/",
+      "pageTitle": "1808 Riverview Dr, Berthoud, CO 80513 \u2013 PHOTOS \u2013 MLS #8240785",
+      "screenPageViews": 186,
+      "averageSessionDuration": 276.7563568435754,
+      "bounceRate": 0.1564245810055866,
+      "engagedSessions": 151
+    },
+    {
+      "pagePath": "/waterfront-properties/waterfront-properties-in-larimer-county/",
+      "pageTitle": "Waterfront Properties in Larimer County CO Homes for Sale - Waterfront Properties in Larimer County Real Estate",
+      "screenPageViews": 177,
+      "averageSessionDuration": 605.3379963266666,
+      "bounceRate": 0.1,
+      "engagedSessions": 135
+    },
+    {
+      "pagePath": "/property-search/detail/60/1044134/36775-county-road-53-eaton-co-80615/",
+      "pageTitle": "36775 County Road 53, Eaton, CO 80615 \u2013 PHOTOS \u2013 MLS #1044134",
+      "screenPageViews": 176,
+      "averageSessionDuration": 360.51403512209305,
+      "bounceRate": 0.1511627906976744,
+      "engagedSessions": 146
+    },
+    {
+      "pagePath": "/property-search/detail/60/1049413/38662-county-road-29-eaton-co-80615/",
+      "pageTitle": "38662 County Road 29, Eaton, CO 80615 \u2013 PHOTOS \u2013 MLS #1049413",
+      "screenPageViews": 166,
+      "averageSessionDuration": 621.6548673899372,
+      "bounceRate": 0.10062893081761007,
+      "engagedSessions": 143
+    },
+    {
+      "pagePath": "/horse-properties/horse-properties-in-fort-collins/",
+      "pageTitle": "Horse Property for Sale Fort Collins, CO - Equestrian Ranches For Sale - BEST Horse Properties For Sale Near You in Colorado",
+      "screenPageViews": 165,
+      "averageSessionDuration": 110.92952695918368,
+      "bounceRate": 0.2585034013605442,
+      "engagedSessions": 109
+    },
+    {
+      "pagePath": "/property-search/detail/60/1050750/734-victoria-dr-fort-collins-co-80525/",
+      "pageTitle": "734 Victoria Dr, Fort Collins, CO 80525 \u2013 PHOTOS \u2013 MLS #1050750",
+      "screenPageViews": 165,
+      "averageSessionDuration": 332.4817168548387,
+      "bounceRate": 0.016129032258064516,
+      "engagedSessions": 122
+    },
+    {
+      "pagePath": "/property-search/detail/60/1048237/51880-county-road-33-nunn-co-80648/",
+      "pageTitle": "51880 County Road 33, Nunn, CO 80648 \u2013 PHOTOS \u2013 MLS #1048237",
+      "screenPageViews": 164,
+      "averageSessionDuration": 188.82304426451614,
+      "bounceRate": 0.09032258064516129,
+      "engagedSessions": 141
+    },
+    {
+      "pagePath": "/property-search/detail/60/5277331/9398-ute-dr-golden-co-80403/",
+      "pageTitle": "9398 Ute Dr, Golden, CO 80403 \u2013 PHOTOS \u2013 MLS #5277331",
+      "screenPageViews": 164,
+      "averageSessionDuration": 89.37434689808917,
+      "bounceRate": 0.08280254777070063,
+      "engagedSessions": 144
+    },
+    {
+      "pagePath": "/fort-lupton-homes-for-sale/1-plus-acres/",
+      "pageTitle": "Fort Lupton 1+ Acre Real Estate - Homes for Sale in Fort Lupton",
+      "screenPageViews": 162,
+      "averageSessionDuration": 253.87470155474452,
+      "bounceRate": 0.145985401459854,
+      "engagedSessions": 117
+    },
+    {
+      "pagePath": "/property-search/detail/60/1042610/940-s-county-road-29-loveland-co-80537/",
+      "pageTitle": "940 S County Road 29, Loveland, CO 80537 \u2013 PHOTOS \u2013 MLS #1042610",
+      "screenPageViews": 162,
+      "averageSessionDuration": 275.02278879012346,
+      "bounceRate": 0.07407407407407407,
+      "engagedSessions": 150
+    },
+    {
+      "pagePath": "/communities/move-to-loveland-co/",
+      "pageTitle": "Homes for Sale in Loveland | Browse Our Active Listings | Kittle",
+      "screenPageViews": 158,
+      "averageSessionDuration": 362.70078680916026,
+      "bounceRate": 0.0916030534351145,
+      "engagedSessions": 119
+    },
+    {
+      "pagePath": "/property-search/detail/60/1048781/236-hawks-nest-way-fort-collins-co-80524/",
+      "pageTitle": "236 Hawks Nest Way, Fort Collins, CO 80524 \u2013 PHOTOS \u2013 MLS #1048781",
+      "screenPageViews": 158,
+      "averageSessionDuration": 143.75387203896105,
+      "bounceRate": 0.1038961038961039,
+      "engagedSessions": 138
+    },
+    {
+      "pagePath": "/luxury-homes/",
+      "pageTitle": "Luxury Homes - Kittle Real Estate",
+      "screenPageViews": 157,
+      "averageSessionDuration": 278.46316409302324,
+      "bounceRate": 0.10852713178294573,
+      "engagedSessions": 115
+    },
+    {
+      "pagePath": "/fort-collins-homes-for-sale/farm-house-construction/",
+      "pageTitle": "Page 2 - Fort Collins Real Estate & Homes for Sale with Farm House",
+      "screenPageViews": 154,
+      "averageSessionDuration": 317.89868900000005,
+      "bounceRate": 0.0547945205479452,
+      "engagedSessions": 138
+    },
+    {
+      "pagePath": "/property-search/detail/60/1051984/121-willow-cir-dr-loveland-co-80537/",
+      "pageTitle": "121 Willow Cir Dr, Loveland, CO 80537 \u2013 PHOTOS \u2013 MLS #1051984",
+      "screenPageViews": 154,
+      "averageSessionDuration": 561.5988154109589,
+      "bounceRate": 0.18493150684931506,
+      "engagedSessions": 119
+    },
+    {
+      "pagePath": "/property-search/detail/60/1056624/7859-raven-ct-boulder-co-80303/",
+      "pageTitle": "7859 Raven Ct, Boulder, CO 80303 \u2013 PHOTOS \u2013 MLS #1056624",
+      "screenPageViews": 152,
+      "averageSessionDuration": 238.84192305517237,
+      "bounceRate": 0.2413793103448276,
+      "engagedSessions": 110
+    },
+    {
+      "pagePath": "/property-search/detail/60/2623247/17754-county-road-jj-fort-morgan-co-80701/",
+      "pageTitle": "17754 County Road Jj, Fort Morgan, CO 80701 \u2013 PHOTOS \u2013 MLS #2623247",
+      "screenPageViews": 152,
+      "averageSessionDuration": 488.96093315972223,
+      "bounceRate": 0.0625,
+      "engagedSessions": 135
+    },
+    {
+      "pagePath": "/horse-properties/horse-properties-in-weld-county/",
+      "pageTitle": "Horse Properties in Weld County CO Real Estate",
+      "screenPageViews": 150,
+      "averageSessionDuration": 158.09825337398374,
+      "bounceRate": 0.17886178861788618,
+      "engagedSessions": 101
+    },
+    {
+      "pagePath": "/property-search/detail/60/1052681/534-blackfoot-rd-red-feather-lakes-co-80545/",
+      "pageTitle": "534 Blackfoot Rd, Red Feather Lakes, CO 80545 \u2013 PHOTOS \u2013 MLS #1052681",
+      "screenPageViews": 150,
+      "averageSessionDuration": 240.118728,
+      "bounceRate": 0.176056338028169,
+      "engagedSessions": 117
+    },
+    {
+      "pagePath": "/property-search/results/",
+      "pageTitle": "CSU Home possibilities in Fort Collins from Robbin",
+      "screenPageViews": 150,
+      "averageSessionDuration": 2490.3372940151517,
+      "bounceRate": 0.19696969696969696,
+      "engagedSessions": 53
+    },
+    {
+      "pagePath": "/fort-collins-homes-for-sale/adriel-hills/",
+      "pageTitle": "Adriel Hills Real Estate & Homes for Sale in Fort Collins, CO",
+      "screenPageViews": 148,
+      "averageSessionDuration": 1043.6334457631579,
+      "bounceRate": 0.10526315789473684,
+      "engagedSessions": 102
+    },
+    {
+      "pagePath": "/property-search/results/",
+      "pageTitle": "Fort Collins Homes with Farm House",
+      "screenPageViews": 148,
+      "averageSessionDuration": 401.036106007752,
+      "bounceRate": 0.046511627906976744,
+      "engagedSessions": 123
+    },
+    {
+      "pagePath": "/property-search/detail/60/1054114/4980-getaway-dr-berthoud-co-80513/",
+      "pageTitle": "4980 Getaway Dr, Berthoud, CO 80513 \u2013 PHOTOS \u2013 MLS #1054114",
+      "screenPageViews": 147,
+      "averageSessionDuration": 256.61405816197185,
+      "bounceRate": 0.24647887323943662,
+      "engagedSessions": 107
+    },
+    {
+      "pagePath": "/property-search/detail/60/1049362/15160-highway-144-fort-morgan-co-80701/",
+      "pageTitle": "15160 Highway 144, Fort Morgan, CO 80701 \u2013 PHOTOS \u2013 MLS #1049362",
+      "screenPageViews": 145,
+      "averageSessionDuration": 268.21134374100717,
+      "bounceRate": 0.09352517985611511,
+      "engagedSessions": 126
+    },
+    {
+      "pagePath": "/property-search/detail/60/1057167/3413-cottonwood-ln-berthoud-co-80513/",
+      "pageTitle": "3413 Cottonwood Ln, Berthoud, CO 80513 \u2013 PHOTOS \u2013 MLS #1057167",
+      "screenPageViews": 143,
+      "averageSessionDuration": 343.6617131492537,
+      "bounceRate": 0.2462686567164179,
+      "engagedSessions": 101
+    },
+    {
+      "pagePath": "/vendors/",
+      "pageTitle": "Vendors",
+      "screenPageViews": 143,
+      "averageSessionDuration": 1215.1274277651514,
+      "bounceRate": 0.3712121212121212,
+      "engagedSessions": 83
+    },
+    {
+      "pagePath": "/property-search/detail/60/1041046/2235-5th-st-greeley-co-80631/",
+      "pageTitle": "2235 5th St, Greeley, CO 80631 \u2013 PHOTOS \u2013 MLS #1041046",
+      "screenPageViews": 142,
+      "averageSessionDuration": 280.4390155851852,
+      "bounceRate": 0.17037037037037037,
+      "engagedSessions": 112
+    },
+    {
+      "pagePath": "/property-search/detail/60/1049914/28942-county-road-48-kersey-co-80644/",
+      "pageTitle": "28942 County Road 48, Kersey, CO 80644 \u2013 PHOTOS \u2013 MLS #1049914",
+      "screenPageViews": 140,
+      "averageSessionDuration": 234.45388725581392,
+      "bounceRate": 0.06201550387596899,
+      "engagedSessions": 121
+    },
+    {
+      "pagePath": "/erie-homes-for-sale/flatiron-meadows/",
+      "pageTitle": "Flatiron Meadows Real Estate & Homes for Sale in Erie,",
+      "screenPageViews": 139,
+      "averageSessionDuration": 3451.6891379242425,
+      "bounceRate": 0.24242424242424243,
+      "engagedSessions": 50
+    },
+    {
+      "pagePath": "/property-search/detail/60/2145038/3050-native-ct-wellington-co-80549/",
+      "pageTitle": "3050 Native Ct, Wellington, CO 80549 \u2013 PHOTOS \u2013 MLS #2145038",
+      "screenPageViews": 139,
+      "averageSessionDuration": 192.84448338405798,
+      "bounceRate": 0.07246376811594203,
+      "engagedSessions": 128
+    },
+    {
+      "pagePath": "/property-search/detail/60/1047777/14754-creekside-ln-longmont-co-80503/",
+      "pageTitle": "14754 Creekside Ln, Longmont, CO 80503 \u2013 PHOTOS \u2013 MLS #1047777",
+      "screenPageViews": 137,
+      "averageSessionDuration": 347.06979352592595,
+      "bounceRate": 0.11851851851851852,
+      "engagedSessions": 119
+    },
+    {
+      "pagePath": "/mead-homes-for-sale/range-view-estates/",
+      "pageTitle": "Range View Estates Real Estate & Homes for Sale in Mead,",
+      "screenPageViews": 136,
+      "averageSessionDuration": 1044.8988654117647,
+      "bounceRate": 0.2647058823529412,
+      "engagedSessions": 75
+    },
+    {
+      "pagePath": "/property-search/results/",
+      "pageTitle": "New Listings in Fort Collins from Kittle Real Estate",
+      "screenPageViews": 136,
+      "averageSessionDuration": 883.9795183768115,
+      "bounceRate": 0.43478260869565216,
+      "engagedSessions": 39
+    },
+    {
+      "pagePath": "/about/kittle-careers/",
+      "pageTitle": "Kittle Careers",
+      "screenPageViews": 135,
+      "averageSessionDuration": 475.3603107459017,
+      "bounceRate": 0.2459016393442623,
+      "engagedSessions": 92
+    },
+    {
+      "pagePath": "/communities/move-to-greeley-co/",
+      "pageTitle": "Homes for Sale in Greeley | Browse Our Active Listings | Kittle",
+      "screenPageViews": 132,
+      "averageSessionDuration": 220.45801285185186,
+      "bounceRate": 0.09259259259259259,
+      "engagedSessions": 98
+    },
+    {
+      "pagePath": "/property-search/detail/60/1045281/5905-county-road-38-platteville-co-80651/",
+      "pageTitle": "5905 County Road 38, Platteville, CO 80651 \u2013 PHOTOS \u2013 MLS #1045281",
+      "screenPageViews": 132,
+      "averageSessionDuration": 433.50500588799997,
+      "bounceRate": 0.128,
+      "engagedSessions": 109
+    }
+  ],
+  "totalLandingPages": 10000,
+  "totalPagePerformance": 10000,
+  "gatheredAt": "2026-05-09T09:13:54+00:00",
+  "dateRange": {
+    "start": "2026-02-08",
+    "end": "2026-05-09"
+  }
+}

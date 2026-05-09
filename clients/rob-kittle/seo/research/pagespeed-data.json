@@ -1,0 +1,319 @@
+{
+  "data": {
+    "client": [
+      {
+        "url": "https://www.kittlerealestate.com",
+        "domain": "kittlerealestate.com",
+        "mobile": {
+          "performanceScore": 0.23,
+          "lcp": 55886.80824135155,
+          "fcp": 3961.6036135424633,
+          "cls": 0.138442,
+          "inp": null,
+          "ttfb": 62,
+          "speedIndex": 18798.67113225652,
+          "opportunities": [
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 18410
+            },
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 540
+            }
+          ]
+        },
+        "desktop": {
+          "performanceScore": 0.33,
+          "lcp": 8976.011029347716,
+          "fcp": 1069.0252095458611,
+          "cls": 0.056012,
+          "inp": null,
+          "ttfb": 130,
+          "speedIndex": 6305.478372435948,
+          "opportunities": [
+            {
+              "title": "Initial server response time was short",
+              "id": "server-response-time",
+              "savings": 30
+            },
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 2040
+            },
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 40
+            }
+          ]
+        }
+      }
+    ],
+    "competitors": [
+      {
+        "url": "https://thegroupinc.com",
+        "domain": "thegroupinc.com",
+        "mobile": {
+          "performanceScore": 1,
+          "lcp": 919,
+          "fcp": 775,
+          "cls": 0,
+          "inp": null,
+          "ttfb": 1,
+          "speedIndex": 2098.9551920001777,
+          "opportunities": []
+        },
+        "desktop": {
+          "performanceScore": 1,
+          "lcp": 251,
+          "fcp": 220,
+          "cls": 0,
+          "inp": null,
+          "ttfb": 1,
+          "speedIndex": 220,
+          "opportunities": []
+        }
+      },
+      {
+        "url": "https://www.c3realestatesolutions.com",
+        "domain": "c3realestatesolutions.com",
+        "mobile": {
+          "performanceScore": 0.69,
+          "lcp": 2402.511874382457,
+          "fcp": 2102.5099763229155,
+          "cls": 0.051564,
+          "inp": null,
+          "ttfb": 28,
+          "speedIndex": 3043.367901210012,
+          "opportunities": []
+        },
+        "desktop": {
+          "performanceScore": 0.64,
+          "lcp": 1220.2679983793878,
+          "fcp": 637.157730831311,
+          "cls": 0.022253,
+          "inp": null,
+          "ttfb": 10,
+          "speedIndex": 1901.152806062681,
+          "opportunities": [
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 40
+            },
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 80
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://www.mullenbergteam.com",
+        "domain": "mullenbergteam.com",
+        "mobile": {
+          "performanceScore": 0.54,
+          "lcp": 13515.691168173307,
+          "fcp": 4366.65709610104,
+          "cls": 0,
+          "inp": null,
+          "ttfb": 68,
+          "speedIndex": 6180.451010108031,
+          "opportunities": [
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 300
+            },
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 1350
+            }
+          ]
+        },
+        "desktop": {
+          "performanceScore": 0.93,
+          "lcp": 1681.1215567765657,
+          "fcp": 485.61032025251075,
+          "cls": 0.041999,
+          "inp": null,
+          "ttfb": 4,
+          "speedIndex": 594.3393719036594,
+          "opportunities": [
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 40
+            }
+          ]
+        }
+      },
+      {
+        "url": "https://www.ambassadorcolorado.com",
+        "domain": "ambassadorcolorado.com",
+        "mobile": {
+          "performanceScore": 1,
+          "lcp": 787,
+          "fcp": 787,
+          "cls": 0,
+          "inp": null,
+          "ttfb": 1,
+          "speedIndex": 787,
+          "opportunities": []
+        },
+        "desktop": {
+          "performanceScore": 1,
+          "lcp": 236,
+          "fcp": 236,
+          "cls": 0,
+          "inp": null,
+          "ttfb": 1,
+          "speedIndex": 467.56981667379534,
+          "opportunities": []
+        }
+      },
+      {
+        "url": "https://nocohometeam.com",
+        "domain": "nocohometeam.com",
+        "mobile": {
+          "performanceScore": 0.33,
+          "lcp": 68600.9396286827,
+          "fcp": 2903.211186797614,
+          "cls": 0.189178,
+          "inp": null,
+          "ttfb": 213,
+          "speedIndex": 14142.495831411676,
+          "opportunities": [
+            {
+              "title": "Initial server response time was short",
+              "id": "server-response-time",
+              "savings": 113
+            },
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 2250
+            }
+          ]
+        },
+        "desktop": {
+          "performanceScore": 0.61,
+          "lcp": 9602.23887749247,
+          "fcp": 732.0150869995251,
+          "cls": 0.1605,
+          "inp": null,
+          "ttfb": 52,
+          "speedIndex": 1500.1011190919498,
+          "opportunities": [
+            {
+              "title": "Reduce unused JavaScript",
+              "id": "unused-javascript",
+              "savings": 240
+            },
+            {
+              "title": "Reduce unused CSS",
+              "id": "unused-css-rules",
+              "savings": 80
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "pageSpeedComparison": [
+    {
+      "domain": "kittlerealestate.com",
+      "mobileScore": 0.23,
+      "desktopScore": 0.33,
+      "isClient": true
+    },
+    {
+      "domain": "thegroupinc.com",
+      "mobileScore": 1,
+      "desktopScore": 1,
+      "isClient": false
+    },
+    {
+      "domain": "c3realestatesolutions.com",
+      "mobileScore": 0.69,
+      "desktopScore": 0.64,
+      "isClient": false
+    },
+    {
+      "domain": "mullenbergteam.com",
+      "mobileScore": 0.54,
+      "desktopScore": 0.93,
+      "isClient": false
+    },
+    {
+      "domain": "ambassadorcolorado.com",
+      "mobileScore": 1,
+      "desktopScore": 1,
+      "isClient": false
+    },
+    {
+      "domain": "nocohometeam.com",
+      "mobileScore": 0.33,
+      "desktopScore": 0.61,
+      "isClient": false
+    }
+  ],
+  "coreWebVitals": {
+    "mobile": {
+      "performanceScore": 0.23,
+      "lcp": 55886.80824135155,
+      "fcp": 3961.6036135424633,
+      "cls": 0.138442,
+      "inp": null,
+      "ttfb": 62,
+      "speedIndex": 18798.67113225652,
+      "opportunities": [
+        {
+          "title": "Reduce unused JavaScript",
+          "id": "unused-javascript",
+          "savings": 18410
+        },
+        {
+          "title": "Reduce unused CSS",
+          "id": "unused-css-rules",
+          "savings": 540
+        }
+      ]
+    },
+    "desktop": {
+      "performanceScore": 0.33,
+      "lcp": 8976.011029347716,
+      "fcp": 1069.0252095458611,
+      "cls": 0.056012,
+      "inp": null,
+      "ttfb": 130,
+      "speedIndex": 6305.478372435948,
+      "opportunities": [
+        {
+          "title": "Initial server response time was short",
+          "id": "server-response-time",
+          "savings": 30
+        },
+        {
+          "title": "Reduce unused JavaScript",
+          "id": "unused-javascript",
+          "savings": 2040
+        },
+        {
+          "title": "Reduce unused CSS",
+          "id": "unused-css-rules",
+          "savings": 40
+        }
+      ]
+    }
+  },
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-05-09T09:24:19.218Z"
+}

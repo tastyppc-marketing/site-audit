@@ -1,0 +1,80 @@
+{
+  "businessProfile": {
+    "name": "Kittle Real Estate",
+    "address": "",
+    "phone": "",
+    "website": "https://kittlerealestate.com",
+    "category": "",
+    "rating": null,
+    "reviewCount": 0,
+    "gbpVerified": false,
+    "source": "web-research",
+    "note": "GBP data gathered from public web research. For full data (reviews, photos, hours, map pack positions), grant Google Business Profile API access in client-config.json."
+  },
+  "napConsistency": {
+    "websiteNap": {
+      "name": "Kittle Real Estate",
+      "address": "",
+      "phone": ""
+    },
+    "directoryListings": [
+      {
+        "directory": "Yelp",
+        "found": false,
+        "url": "",
+        "napMatch": false,
+        "note": "HTTP 403"
+      },
+      {
+        "directory": "BBB",
+        "found": true,
+        "url": "https://www.bbb.org/search?find_text=Kittle%20Real%20Estate&find_loc=Fort%20Collins%2C%20CO",
+        "napMatch": false
+      },
+      {
+        "directory": "Facebook",
+        "found": false,
+        "url": "",
+        "napMatch": false,
+        "note": "HTTP 400"
+      },
+      {
+        "directory": "Google Maps",
+        "found": true,
+        "url": "https://www.google.com/maps/search/Kittle%20Real%20Estate+Fort%20Collins%2C%20CO",
+        "napMatch": false
+      },
+      {
+        "directory": "Realtor.com",
+        "found": false,
+        "url": "",
+        "napMatch": false,
+        "note": "HTTP 429"
+      },
+      {
+        "directory": "Zillow",
+        "found": false,
+        "url": "",
+        "napMatch": false,
+        "note": "HTTP 403"
+      }
+    ]
+  },
+  "citations": {
+    "totalFound": 2,
+    "consistent": 2,
+    "inconsistent": 0,
+    "missing": [
+      "Yelp",
+      "Facebook",
+      "Realtor.com",
+      "Zillow"
+    ],
+    "issues": []
+  },
+  "competitorGbp": [],
+  "reviews": [],
+  "errors": [],
+  "status": "success",
+  "gatheredAt": "2026-05-09T09:25:17.259Z"
+}

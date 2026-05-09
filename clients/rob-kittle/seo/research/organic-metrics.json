@@ -1,0 +1,80 @@
+{
+  "data": [
+    {
+      "domain": "kittlerealestate.com",
+      "organicKeywords": null,
+      "organicTraffic": null,
+      "topKeywords": [],
+      "isClient": true
+    },
+    {
+      "domain": "thegroupinc.com",
+      "organicKeywords": null,
+      "organicTraffic": null,
+      "topKeywords": [],
+      "isClient": false
+    },
+    {
+      "domain": "c3realestatesolutions.com",
+      "organicKeywords": null,
+      "organicTraffic": null,
+      "topKeywords": [],
+      "isClient": false
+    },
+    {
+      "domain": "mullenbergteam.com",
+      "organicKeywords": null,
+      "organicTraffic": null,
+      "topKeywords": [],
+      "isClient": false
+    },
+    {
+      "domain": "ambassadorcolorado.com",
+      "organicKeywords": null,
+      "organicTraffic": null,
+      "topKeywords": [],
+      "isClient": false
+    },
+    {
+      "domain": "nocohometeam.com",
+      "organicKeywords": null,
+      "organicTraffic": null,
+      "topKeywords": [],
+      "isClient": false
+    }
+  ],
+  "errors": [
+    {
+      "domain": "kittlerealestate.com",
+      "code": 40501,
+      "reason": "Invalid Field: 'location_code'."
+    },
+    {
+      "domain": "thegroupinc.com",
+      "code": 40501,
+      "reason": "Invalid Field: 'location_code'."
+    },
+    {
+      "domain": "c3realestatesolutions.com",
+      "code": 40501,
+      "reason": "Invalid Field: 'location_code'."
+    },
+    {
+      "domain": "mullenbergteam.com",
+      "code": 40501,
+      "reason": "Invalid Field: 'location_code'."
+    },
+    {
+      "domain": "ambassadorcolorado.com",
+      "code": 40501,
+      "reason": "Invalid Field: 'location_code'."
+    },
+    {
+      "domain": "nocohometeam.com",
+      "code": 40501,
+      "reason": "Invalid Field: 'location_code'."
+    }
+  ],
+  "status": "failed",
+  "gatheredAt": "2026-05-09T09:13:45.795Z"
+}
