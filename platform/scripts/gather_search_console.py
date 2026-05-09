@@ -14,6 +14,7 @@ Output shape (matches renderer's expected canonical form, mirrors p3realtync):
       "topPages":     [{page,  clicks, impressions, ctr, position}, ...],   # top 50
       "allQueries":   [...],
       "allPages":     [...],
+      "queryPages":   [{query, page, clicks, impressions, ctr, position}, ...],  # for cannibalization detection
       "gatheredAt":   "<ISO-8601>",
       "dateRange":    {"start": "...", "end": "..."}
     }
@@ -53,9 +54,13 @@ def gather(slug: str, days: int = 90) -> dict:
     pages = connector.get_page_data(
         start_date=start, end_date=end, row_limit=25000
     )
+    query_pages = connector.get_query_page_data(
+        start_date=start, end_date=end, row_limit=25000
+    )
 
     queries_sorted = _sort_desc(queries)
     pages_sorted = _sort_desc(pages)
+    query_pages_sorted = _sort_desc(query_pages, key="impressions")
 
     return {
         "totalQueries": len(queries_sorted),
@@ -64,6 +69,7 @@ def gather(slug: str, days: int = 90) -> dict:
         "topPages": pages_sorted[:50],
         "allQueries": queries_sorted,
         "allPages": pages_sorted,
+        "queryPages": query_pages_sorted,
         "gatheredAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "dateRange": {"start": start.isoformat(), "end": end.isoformat()},
     }
@@ -90,7 +96,8 @@ def main() -> int:
     output_path.write_text(json.dumps(data, indent=2))
     print(
         f"[gather_search_console] wrote {output_path} "
-        f"(queries={data['totalQueries']}, pages={data['totalPages']})"
+        f"(queries={data['totalQueries']}, pages={data['totalPages']}, "
+        f"queryPages={len(data['queryPages'])})"
     )
     return 0
 
