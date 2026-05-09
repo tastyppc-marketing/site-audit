@@ -70,7 +70,8 @@ class ClientContext:
         env_values: dict[str, str] = {}
         if env_path.exists():
             env_values = {
-                k: v for k, v in dotenv_values(env_path).items() if v is not None
+                k: v for k, v in dotenv_values(env_path).items()
+                if v is not None and v != ""
             }
 
         # Pass _env_file=None so pydantic-settings doesn't fall back to reading
