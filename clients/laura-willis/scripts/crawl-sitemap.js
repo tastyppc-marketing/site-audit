@@ -36,6 +36,8 @@ const idxPatterns = [
   /\/listing\//,
   /\/property\/[A-Z0-9-]+$/i,  // individual property detail pages
   /\/homes-for-sale\/.+\/.+/,  // nested filter combos under homes-for-sale
+  /\/[^/]+-homes-for-sale\/[^/]+/,  // <city>-homes-for-sale/<filter> IDX bloat
+  /\/[^/]+-condos-for-sale\/[^/]+/,
   /\/condos-for-sale\/.+\/.+/,
   /\/land-for-sale\/.+\/.+/,
   /\/real-estate\/.+\/.+\/.+/, // deeply nested real-estate filter combos
