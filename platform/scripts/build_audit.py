@@ -332,8 +332,9 @@ class AuditOrchestrator:
         pages = crawl_data.get("pages", [])
         sitemap_urls = [p.get("url", "") for p in pages]
 
-        # Load Search Console data if available
-        sc_data = self._load_research_file("search-console-pages.json") or []
+        # Load Search Console page data: prefer canonical search-console.json's
+        # allPages, fall back to legacy gsc-pages.json (Python pipeline name).
+        sc_data = self._load_search_console_section("allPages", "gsc-pages.json")
 
         result = analyzer.analyze(
             pages=pages,
@@ -515,6 +516,24 @@ class AuditOrchestrator:
         except Exception:
             return None
 
+    def _load_search_console_section(
+        self, canonical_field: str, legacy_filename: str
+    ) -> list[dict[str, Any]]:
+        """Load a Search Console row list from the canonical file or a legacy fallback.
+
+        Prefers ``search-console.json`` (the canonical bundle written by
+        ``platform/scripts/gather_search_console.py``) and reads ``canonical_field``
+        from it. Falls back to ``legacy_filename`` (e.g. ``gsc-pages.json``) if
+        the canonical file or field is absent.
+        """
+        canonical = self._load_research_file("search-console.json")
+        if isinstance(canonical, dict):
+            rows = canonical.get(canonical_field)
+            if isinstance(rows, list) and rows:
+                return rows
+        legacy = self._load_research_file(legacy_filename)
+        return legacy if isinstance(legacy, list) else []
+
     def _parse_competitors(self) -> list[str]:
         """Parse competitor domains from CLI args."""
         if not self.args.competitors:
@@ -572,8 +591,12 @@ class AuditOrchestrator:
 
     def _build_cannibalization(self, analyzer: Any) -> list[dict[str, Any]]:
         """Build keyword cannibalization findings when supporting research exists."""
-        query_page_data = self._load_research_file("search-console-query-pages.json")
-        if not isinstance(query_page_data, list) or not query_page_data:
+        # Prefer canonical search-console.json's queryPages, fall back to legacy
+        # gsc-query-pages.json (Python pipeline name).
+        query_page_data = self._load_search_console_section(
+            "queryPages", "gsc-query-pages.json"
+        )
+        if not query_page_data:
             return []
 
         if not hasattr(analyzer, "detect_cannibalization"):
