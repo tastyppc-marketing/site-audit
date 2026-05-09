@@ -21,6 +21,7 @@ clients/*/.env
 # Secrets
 service-account.json
 client_secret*.json
+.client_secret*.json
 
 # Python
 __pycache__/
