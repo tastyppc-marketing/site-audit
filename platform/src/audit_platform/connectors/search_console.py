@@ -90,6 +90,7 @@ class SearchConsoleConnector(BaseConnector):
             client_id=s.GOOGLE_CLIENT_ID,
             client_secret=s.GOOGLE_CLIENT_SECRET,
             refresh_token=s.GOOGLE_REFRESH_TOKEN,
+            scopes=["https://www.googleapis.com/auth/webmasters.readonly"],
         )
         self._service = build("webmasters", "v3", credentials=creds, cache_discovery=False)
         self.log.info("search_console_service_initialized")

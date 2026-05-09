@@ -86,6 +86,7 @@ class GA4Connector(BaseConnector):
                 client_id=s.GOOGLE_CLIENT_ID,
                 client_secret=s.GOOGLE_CLIENT_SECRET,
                 refresh_token=s.GOOGLE_REFRESH_TOKEN,
+                scopes=["https://www.googleapis.com/auth/analytics.readonly"],
             )
             self._analytics_client = BetaAnalyticsDataClient(credentials=credentials)
 
