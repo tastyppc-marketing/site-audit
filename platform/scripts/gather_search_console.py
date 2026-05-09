@@ -12,12 +12,17 @@ Output shape (matches renderer's expected canonical form, mirrors p3realtync):
       "totalPages":   <int>,
       "topQueries":   [{query, clicks, impressions, ctr, position}, ...],   # top 50
       "topPages":     [{page,  clicks, impressions, ctr, position}, ...],   # top 50
-      "allQueries":   [...],
-      "allPages":     [...],
-      "queryPages":   [{query, page, clicks, impressions, ctr, position}, ...],  # for cannibalization detection
+      "allQueries":   [...],   # capped at 1000 by clicks (totalQueries shows true count)
+      "allPages":     [...],   # capped at 1000 by clicks
+      "queryPages":   [{query, page, clicks, impressions, ctr, position}, ...],   # capped at 1000 by impressions
       "gatheredAt":   "<ISO-8601>",
       "dateRange":    {"start": "...", "end": "..."}
     }
+
+The 1000-row caps keep the file under the pre-commit 500KB threshold while
+preserving the data the downstream consumers actually need (renderer's top 50,
+build_audit's IndexCrawlabilityAnalyzer for orphan detection, and
+detect_cannibalization for top-impression cannibalization signals).
 """
 from __future__ import annotations
 
@@ -67,9 +72,9 @@ def gather(slug: str, days: int = 90) -> dict:
         "totalPages": len(pages_sorted),
         "topQueries": queries_sorted[:50],
         "topPages": pages_sorted[:50],
-        "allQueries": queries_sorted,
-        "allPages": pages_sorted,
-        "queryPages": query_pages_sorted,
+        "allQueries": queries_sorted[:1000],
+        "allPages": pages_sorted[:1000],
+        "queryPages": query_pages_sorted[:1000],
         "gatheredAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "dateRange": {"start": start.isoformat(), "end": end.isoformat()},
     }
