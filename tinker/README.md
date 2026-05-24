@@ -4,6 +4,10 @@ A collection of tiny, single-file code experiments — generative art, small gam
 useful CLIs. Each folder under `experiments/` is one self-contained idea, with
 no dependencies beyond the Python standard library.
 
+→ **Landing page:** [`docs/index.html`](docs/index.html) (works as a static GitHub Pages site)
+→ **Contributing:** [`CONTRIBUTING.md`](CONTRIBUTING.md)
+→ **What changed:** [`CHANGELOG.md`](CHANGELOG.md)
+
 The bar for inclusion is low: it has to run, and it has to be the smallest thing
 that demonstrates the idea. Refactors and abstractions are explicitly not
 welcome here.
@@ -44,11 +48,29 @@ python3 experiments/maze/maze.py 20 10
 
 ## Adding an experiment
 
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full guide. The short version:
+
 1. Run `python3 tinker.py new <name>` to scaffold the folder, `.py` file and README.
 2. Replace the placeholders with your idea.
 3. Stdlib only. No build step. If you reach for a framework, you've left the spirit of the repo.
-4. If your code has pure functions, add a test under `tests/test_<name>.py`.
+4. Add a test under `tests/test_<name>.py`.
+
+## Repo layout
+
+```
+tinker/
+├── tinker.py          # runner CLI (list, run, new, test)
+├── experiments/       # one folder per experiment
+│   └── <name>/
+│       ├── <name>.py
+│       └── README.md
+├── tests/             # one test module per experiment
+├── docs/index.html    # static landing page
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+└── README.md
+```
 
 ## License
 
-MIT.
+MIT — see [`LICENSE`](LICENSE).
