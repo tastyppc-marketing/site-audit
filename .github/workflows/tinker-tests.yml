@@ -1,0 +1,44 @@
+name: tinker tests
+
+on:
+  push:
+    paths:
+      - "tinker/**"
+      - ".github/workflows/tinker-tests.yml"
+  pull_request:
+    paths:
+      - "tinker/**"
+      - ".github/workflows/tinker-tests.yml"
+
+jobs:
+  test:
+    name: python ${{ matrix.python }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.9", "3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: Run tinker test suite
+        working-directory: tinker
+        run: python -m unittest discover -s tests -t .
+
+      - name: Smoke-test every experiment
+        working-directory: tinker
+        run: |
+          python tinker.py list
+          python tinker.py run sparkline 1 4 2 9 6 3
+          python tinker.py run dice 3d6+2 --seed=42
+          echo "the quick brown fox jumps over the lazy dog" | python tinker.py run markov --order=1 --length=10 --seed=0
+          python tinker.py run maze 8 4 1
+          echo "compress me please" | python tinker.py run huffman
+          printf "hello world" | python tinker.py run entropy
+          python tinker.py run histogram "a:5,b:3,c:8"
+          python tinker.py run palette "#3b82f6"
