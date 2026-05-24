@@ -6,14 +6,14 @@ against fixed-width 8-bit encoding.
 ```sh
 $ echo "the quick brown fox jumps over the lazy dog" | python3 huffman.py
 input chars:      44
-unique symbols:   27
+unique symbols:   28
 original bits:    352
-compressed bits:  189
-compression:      53.7% (46.3% savings)
+compressed bits:  199
+compression:      56.5% (43.5% savings)
 sample codes (shortest first):
-   ' ' -> 001
-       e -> 010
-       o -> 011
+     ' ' -> 110
+       e -> 1001
+       o -> 1011
        ...
 ```
 

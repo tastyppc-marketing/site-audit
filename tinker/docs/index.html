@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>tinker — a sandbox for tiny code experiments</title>
+  <meta name="description" content="A collection of single-file Python experiments — generative art, small games, and useful CLIs. Stdlib only.">
+  <style>
+    :root {
+      --bg: #0b1020;
+      --bg-card: #131a30;
+      --bg-code: #07091a;
+      --fg: #e6e9f5;
+      --muted: #8a93b3;
+      --border: #1f2945;
+      --accent: #84b1f9;
+      --accent-strong: #3b82f6;
+      --warn: #f6af3b;
+      --good: #22c55e;
+      --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+      --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font: 16px/1.6 var(--sans);
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--accent); text-decoration: none; border-bottom: 1px dotted transparent; }
+    a:hover { border-bottom-color: var(--accent); }
+    code, pre, kbd { font-family: var(--mono); font-size: 0.92em; }
+    main { max-width: 980px; margin: 0 auto; padding: 4rem 1.5rem 6rem; }
+
+    /* hero */
+    .hero { margin-bottom: 4rem; }
+    .hero h1 {
+      font-family: var(--mono);
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      font-weight: 700;
+      margin: 0 0 0.5rem;
+      letter-spacing: -0.02em;
+      background: linear-gradient(120deg, var(--accent), var(--warn));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .hero p { color: var(--muted); font-size: 1.15rem; max-width: 60ch; margin: 0; }
+    .hero .meta {
+      margin-top: 1.5rem;
+      font-family: var(--mono);
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    .hero .meta span + span { margin-left: 1.5rem; }
+    .hero .meta b { color: var(--fg); font-weight: 500; }
+
+    /* section heading */
+    h2 {
+      font-size: 0.85rem;
+      font-family: var(--mono);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+      margin: 3rem 0 1.5rem;
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+    }
+
+    /* card grid */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+      gap: 1.25rem;
+    }
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem 1.25rem 1rem;
+      display: flex;
+      flex-direction: column;
+    }
+    .card h3 {
+      margin: 0 0 0.35rem;
+      font-family: var(--mono);
+      font-size: 1.15rem;
+      color: var(--accent);
+    }
+    .card .desc { color: var(--muted); font-size: 0.95rem; margin: 0 0 0.9rem; }
+    .card pre {
+      background: var(--bg-code);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.75rem 0.9rem;
+      margin: 0;
+      overflow-x: auto;
+      white-space: pre;
+      font-size: 0.82rem;
+      line-height: 1.4;
+      color: #cdd5ee;
+    }
+    .card pre.cmd { color: var(--warn); margin-bottom: 0.5rem; }
+    .card pre.cmd::before { content: "$ "; color: var(--muted); }
+    .card .links { margin-top: 0.9rem; font-size: 0.85rem; color: var(--muted); }
+    .card .links a { margin-right: 1rem; }
+
+    /* live demo */
+    .live {
+      margin-top: 1rem;
+      padding-top: 0.85rem;
+      border-top: 1px dashed var(--border);
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    .live label { display: block; margin-bottom: 0.4rem; }
+    .live input {
+      width: 100%;
+      background: var(--bg-code);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.55rem 0.75rem;
+      color: var(--fg);
+      font: 0.95rem var(--mono);
+    }
+    .live input:focus { outline: none; border-color: var(--accent); }
+    .live .out {
+      margin-top: 0.6rem;
+      font-family: var(--mono);
+      font-size: 1.4rem;
+      color: var(--accent);
+      letter-spacing: 0.05em;
+      min-height: 1.6em;
+    }
+
+    /* getting started block */
+    .gs {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.5rem;
+    }
+    .gs pre {
+      background: var(--bg-code);
+      border-radius: 6px;
+      padding: 1rem 1.1rem;
+      overflow-x: auto;
+      margin: 0;
+    }
+    .gs h3 { margin: 0 0 0.5rem; font-family: var(--mono); color: var(--accent); }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.85rem;
+      font-family: var(--mono);
+    }
+
+    /* palette swatch (decorative, used in palette card) */
+    .swatch-row { display: flex; gap: 4px; margin: 0.4rem 0 0.8rem; }
+    .swatch { width: 28px; height: 28px; border-radius: 4px; border: 1px solid var(--border); }
+  </style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <h1>tinker</h1>
+    <p>A sandbox of tiny, single-file code experiments — generative art, small games, useful CLIs. Stdlib-only Python. No frameworks. No build step.</p>
+    <div class="meta">
+      <span><b>9</b> experiments</span>
+      <span><b>43</b> tests</span>
+      <span><b>0</b> dependencies</span>
+    </div>
+  </section>
+
+  <h2>Getting started</h2>
+  <div class="gs">
+    <h3>One runner, nine ideas</h3>
+    <pre>git clone https://github.com/tastyppc-marketing/site-audit
+cd site-audit/tinker
+python3 tinker.py list                   # see what's in the box
+python3 tinker.py run dice 3d6+2         # roll dice
+python3 tinker.py run maze 20 10         # generate a maze
+python3 tinker.py new yourthing          # scaffold a new experiment
+python3 tinker.py test                   # run the full test suite</pre>
+  </div>
+
+  <h2>The experiments</h2>
+  <div class="grid">
+
+    <article class="card">
+      <h3>sparkline</h3>
+      <p class="desc">Compact unicode bar charts from numbers on argv or stdin.</p>
+      <pre class="cmd">python3 tinker.py run sparkline 1 4 2 9 6 3</pre>
+      <pre>▁▄▂█▆▃</pre>
+      <div class="live">
+        <label for="spark-in">Try it live (numbers, space or comma separated)</label>
+        <input id="spark-in" type="text" value="3 7 2 9 5 11 4 8 6 12">
+        <div class="out" id="spark-out"></div>
+      </div>
+      <div class="links">
+        <a href="../experiments/sparkline/">source</a>
+        <a href="../experiments/sparkline/README.md">readme</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <h3>conway</h3>
+      <p class="desc">Game of Life animated in the terminal with ANSI escapes. Wraps toroidally.</p>
+      <pre class="cmd">python3 tinker.py run conway 60 25</pre>
+<pre>     █████
+   ██   █ ██
+   █  █   █ █
+    ██  ██  █
+        ██
+generation 47/200</pre>
+      <div class="links">
+        <a href="../experiments/conway/">source</a>
+        <a href="../experiments/conway/README.md">readme</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <h3>palette</h3>
+      <p class="desc">5-color HLS ramp from a single hex seed, printed as 24-bit ANSI swatches.</p>
+      <pre class="cmd">python3 tinker.py run palette "#3b82f6"</pre>
+      <div class="swatch-row">
+        <div class="swatch" style="background:#d0e0fa" title="#d0e0fa tint"></div>
+        <div class="swatch" style="background:#84b1f9" title="#84b1f9 light"></div>
+        <div class="swatch" style="background:#3b82f6" title="#3b82f6 base"></div>
+        <div class="swatch" style="background:#0452d1" title="#0452d1 shade"></div>
+        <div class="swatch" style="background:#f6af3b" title="#f6af3b complement"></div>
+      </div>
+<pre>#d0e0fa  tint
+#84b1f9  light
+#3b82f6  base
+#0452d1  shade
+#f6af3b  complement</pre>
+      <div class="links">
+        <a href="../experiments/palette/">source</a>
+        <a href="../experiments/palette/README.md">readme</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <h3>dice</h3>
+      <p class="desc">Roll dice in <code>NdM±K</code> notation. d6 rolls render as ASCII pips.</p>
+      <pre class="cmd">python3 tinker.py run dice 3d6+2 --seed=42</pre>
+<pre>┌─────┐ ┌─────┐ ┌─────┐
+│ • • │ │     │ │     │
+│ • • │ │  •  │ │  •  │
+│ • • │ │     │ │     │
+└─────┘ └─────┘ └─────┘
+rolls: [6, 1, 1]  modifier: +2  total: 10</pre>
+      <div class="links">
+        <a href="../experiments/dice/">source</a>
+        <a href="../experiments/dice/README.md">readme</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <h3>markov</h3>
+      <p class="desc">Train a Markov chain on text from stdin, generate new text. Configurable order.</p>
+      <pre class="cmd">cat fable.txt | python3 tinker.py run markov --order=1 --length=18 --seed=3</pre>
+<pre>fox jumps over the quick brown bear are
+friends fox and bear are friends fox jumps
+over the</pre>
+      <div class="links">
+        <a href="../experiments/markov/">source</a>
+        <a href="../experiments/markov/README.md">readme</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <h3>maze</h3>
+      <p class="desc">Perfect-maze generator via recursive backtracking. Reproducible with a seed.</p>
+      <pre class="cmd">python3 tinker.py run maze 12 5 7</pre>
+<pre>+---+---+---+---+---+---+---+---+---+---+---+---+
+|   |       |       |                           |
++   +---+   +   +   +   +   +---+---+---+---+   +
+|       |       |       |               |       |
++---+   +   +---+---+---+---+---+---+   +---+---+
+|   |   |   |       |               |           |
++   +   +---+   +   +   +---+---+   +   +---+   +
+|   |           |       |           |       |   |
++   +---+---+---+---+---+   +---+---+---+---+   +
+|                                               |
++---+---+---+---+---+---+---+---+---+---+---+---+</pre>
+      <div class="links">
+        <a href="../experiments/maze/">source</a>
+        <a href="../experiments/maze/README.md">readme</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <h3>huffman</h3>
+      <p class="desc">Build a Huffman code from text and report compression ratio. Includes a decoder.</p>
+      <pre class="cmd">echo "the quick brown fox..." | python3 tinker.py run huffman</pre>
+<pre>input chars:      44
+unique symbols:   28
+original bits:    352
+compressed bits:  199
+compression:      56.5% (43.5% savings)</pre>
+      <div class="links">
+        <a href="../experiments/huffman/">source</a>
+        <a href="../experiments/huffman/README.md">readme</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <h3>entropy</h3>
+      <p class="desc">Shannon entropy of a byte stream, plus a byte-frequency histogram for small inputs.</p>
+      <pre class="cmd">head -c 4096 /dev/urandom | python3 tinker.py run entropy</pre>
+<pre>bytes:    4096
+entropy:  7.9512 bits/byte (max 8.0)
+density:  99.4% of optimal</pre>
+      <div class="links">
+        <a href="../experiments/entropy/">source</a>
+        <a href="../experiments/entropy/README.md">readme</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <h3>histogram</h3>
+      <p class="desc">Horizontal bar chart from numbers or <code>label:value</code> pairs. Auto-scaled.</p>
+      <pre class="cmd">python3 tinker.py run histogram "py:42, rust:30, go:18, ts:55"</pre>
+<pre>    py │ ██████████████████████████████ 42
+  rust │ █████████████████████ 30
+    go │ █████████████ 18
+    ts │ ████████████████████████████████████████ 55</pre>
+      <div class="links">
+        <a href="../experiments/histogram/">source</a>
+        <a href="../experiments/histogram/README.md">readme</a>
+      </div>
+    </article>
+
+  </div>
+
+  <h2>Philosophy</h2>
+  <p>Each experiment is the smallest thing that demonstrates an idea. Pure stdlib. Importable functions, so it can be tested. One folder, one <code>.py</code>, one <code>README.md</code>. If you reach for a framework, you've left the spirit of the repo.</p>
+
+  <footer>
+    <a href="https://github.com/tastyppc-marketing/site-audit/tree/main/tinker">github &nbsp;·&nbsp; tastyppc-marketing/site-audit/tinker</a>
+  </footer>
+</main>
+
+<script>
+  // Live sparkline generator — mirrors experiments/sparkline/sparkline.py
+  const BARS = "▁▂▃▄▅▆▇█";
+  const input = document.getElementById("spark-in");
+  const out = document.getElementById("spark-out");
+  function spark() {
+    const raw = input.value.replace(/,/g, " ").trim().split(/\s+/);
+    const nums = raw.map(Number).filter(n => !Number.isNaN(n));
+    if (!nums.length) { out.textContent = ""; return; }
+    const lo = Math.min(...nums), hi = Math.max(...nums);
+    const span = hi - lo || 1;
+    out.textContent = nums.map(n => BARS[Math.min(BARS.length - 1, Math.floor((n - lo) / span * BARS.length))]).join("");
+  }
+  input.addEventListener("input", spark);
+  spark();
+</script>
+</body>
+</html>
